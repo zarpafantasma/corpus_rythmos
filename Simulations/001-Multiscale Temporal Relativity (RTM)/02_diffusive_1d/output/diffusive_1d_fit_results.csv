@@ -1,0 +1,2 @@
+parameter,value,std_err,ci_lower_95,ci_upper_95,R_squared,p_value,expected_value,rtm_paper_value,status
+alpha,1.969779297084191,0.008891022303021972,1.9447388187108987,1.9876035907867973,0.9998981422618538,3.5553283853809564e-11,2.0,2.0,CONFIRMED
