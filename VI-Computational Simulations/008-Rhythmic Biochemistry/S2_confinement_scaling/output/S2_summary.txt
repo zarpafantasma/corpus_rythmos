@@ -1,0 +1,66 @@
+S2: Enzyme Activity Scaling with Confinement
+=============================================
+Date: 2026-02-14 14:02:15
+
+RTM ENZYME SCALING LAW
+----------------------
+k_app(L) = k_app,0 × (L/L_ref)^(-α)
+
+Estimator: α_enz = -d(log k_app)/d(log L)
+
+TRANSPORT CLASSES
+-----------------
+Guided/ballistic:    α ≈ 1.5-1.8
+Laplacian diffusion: α ≈ 2.0
+Hierarchical/fractal: α ≈ 2.1-2.5
+
+VALIDATION RESULTS
+------------------
+
+1. NOISE ROBUSTNESS
+   Max noise for MAE < 0.15: σ ≈ 0.30
+   
+   Noise Level    MAE
+   ---------------------
+   0.02          0.007
+   0.05          0.020
+   0.10          0.043
+   0.15          0.052
+   0.20          0.069
+   0.30          0.105
+
+2. SAMPLE SIZE
+   Min scales for MAE < 0.15: 3
+   
+   N Scales    MAE
+   ------------------
+   3          0.043
+   4          0.039
+   5          0.038
+   7          0.029
+   10         0.028
+   15         0.026
+
+3. CLASS DISCRIMINATION
+   Diffusive vs Hierarchical:
+   - t-statistic: -31.17
+   - p-value: 7.13e-109
+   - Cohen's d: 3.12 (large effect)
+   
+   Class means (estimated):
+   - Guided: 1.69
+   - Diffusive: 2.01
+   - Hierarchical: 2.30
+
+DATA COLLAPSE TEST
+------------------
+CV with correct α: 0.045
+CV with wrong α: 0.499
+Collapse ratio: 11.2x worse
+
+EXPERIMENTAL RECOMMENDATIONS
+----------------------------
+1. Use ≥3 confinement scales spanning 1+ decade
+2. Include replicates (n≥3) per scale
+3. Verify with multiple confinement methods
+4. Report collapse test alongside slope

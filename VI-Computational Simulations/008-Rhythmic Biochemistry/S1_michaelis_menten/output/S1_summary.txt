@@ -1,0 +1,52 @@
+S1: RTM-Modified Michaelis-Menten Kinetics
+==========================================
+Date: 2026-02-14 14:02:07
+
+RTM MODIFICATION TO ENZYME KINETICS
+-----------------------------------
+Classic: v = V_max * [S] / (K_m + [S])
+
+RTM adds: k_cat(L) = k_cat,0 * (L/L_ref)^(-α)
+
+where:
+- L = confinement length (nm)
+- α = coherence exponent
+- Higher α = stronger confinement effect
+
+TRANSPORT CLASS PREDICTIONS
+---------------------------
+α ≈ 1.5: Quasi-ballistic/guided transport
+α ≈ 2.0: Laplacian diffusion
+α ≈ 2.2-2.5: Hierarchical/fractal transport
+α > 2.5: Highly coherent (conjectural)
+
+SIMULATION PARAMETERS
+---------------------
+k_cat,0 = 100.0 s⁻¹ (at L_ref)
+K_m,0 = 50.0 μM
+[E]_total = 0.1 μM
+L_ref = 100.0 nm
+
+RECOVERY TEST
+-------------
+True α = 2.2
+Recovered α = 2.195
+Error = 0.005
+
+KEY PREDICTIONS
+---------------
+1. Smaller confinement (L↓) → faster catalysis (k_cat↑)
+2. Effect scales as L^(-α)
+3. α encodes transport class, not enzyme identity
+4. Allosteric effectors should modulate α
+
+EXPERIMENTAL VALIDATION
+-----------------------
+Measure k_cat at multiple confinement scales:
+- Nanoporous matrices (5-200nm pores)
+- Polymer crowding (PEG, dextran)
+- Engineered cavities
+
+Plot log(k_cat) vs log(L):
+- Slope = -α
+- Stability over 1+ decade in L = validation

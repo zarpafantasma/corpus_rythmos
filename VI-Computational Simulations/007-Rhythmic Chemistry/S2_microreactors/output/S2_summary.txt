@@ -1,0 +1,52 @@
+S2: RTM Rate Predictions in Microreactors
+==========================================
+Date: 2026-02-14 14:14:38
+
+RTM REACTOR SCALING
+-------------------
+k(L) = k_bulk × (L/L_ref)^(-α)
+
+Enhancement = (L/L_ref)^(-α)
+
+PLATFORM COMPARISON (α = 2.2)
+-----------------------------
+Microfluidic (100 μm): 0× enhancement
+Microfluidic (10 μm): 0× enhancement
+Mesoporous (10 nm): 158× enhancement
+Microporous (2 nm): 5467× enhancement
+Cavitation (50 nm): 5× enhancement
+
+OPTIMAL DESIGN (Porous Catalyst, α = 2.5)
+---------------------------------------------
+Pore size: 1 nm
+Net enhancement: 25119×
+(Balances RTM enhancement vs diffusion limitation)
+
+DESIGN GUIDELINES
+-----------------
+1. MICROFLUIDIC (10-1000 μm)
+   - Modest enhancement (1-100×)
+   - No diffusion limitation
+   - Good for flow chemistry
+
+2. MESOPOROUS (5-50 nm)
+   - High enhancement (100-10000×)
+   - Some diffusion effects
+   - Zeolites, silica, MOFs
+
+3. MICROPOROUS (<5 nm)
+   - Very high intrinsic enhancement
+   - Strong diffusion limitation
+   - Net benefit depends on α
+
+4. SONOCHEMISTRY
+   - Transient confinement at collapse
+   - Effective L depends on bubble dynamics
+   - High α environments possible
+
+PRACTICAL RECOMMENDATIONS
+-------------------------
+1. Estimate α from calibration experiments
+2. Use nomogram to select L for target enhancement
+3. Account for mass transfer (Thiele modulus)
+4. Validate with actual rate measurements

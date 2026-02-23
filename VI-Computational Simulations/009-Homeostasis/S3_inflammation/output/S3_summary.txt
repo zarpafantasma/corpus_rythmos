@@ -1,0 +1,50 @@
+S3: Prediction of Inflammatory Markers from C_bio
+=================================================
+Date: 2026-02-14 18:29:05
+
+MODEL
+-----
+Inflammatory markers scale inversely with C_bio:
+Marker = Baseline × Age_factor × exp(-k × (C_bio - threshold))
+
+MARKER PARAMETERS
+-----------------
+CRP:    k = 8,  threshold = 0.15, normal < 3 mg/L
+IL-6:   k = 10, threshold = 0.12, normal < 7 pg/mL
+TNF-α:  k = 6,  threshold = 0.10, normal < 8 pg/mL
+
+ACUTE STIMULATION EFFECTS
+-------------------------
+Scenario: C_bio^log 0.15 → 0.22 (typical stimulation response)
+
+CRP reduction: 42.8%
+IL-6 reduction: 50.3%
+
+Response time constants:
+  CRP: ~4 hours to new equilibrium
+  IL-6: ~2 hours
+  TNF-α: ~3 hours
+
+POPULATION CORRELATIONS (n=150)
+----------------------------------------
+C_bio vs CRP: r = -0.850 (p < 0.001)
+C_bio vs IL-6: r = -0.743 (p < 0.001)
+
+AGE EFFECTS
+-----------
+At same C_bio, older individuals have:
+  CRP: +1% per year above age 40
+  IL-6: +1.5% per year above age 40
+
+CLINICAL IMPLICATIONS
+---------------------
+1. Low C_bio (<0.12) associated with elevated CRP/IL-6
+2. Increasing C_bio via stimulation → inflammatory reduction
+3. Effect size: ~20-40% reduction in markers achievable
+4. Monitoring C_bio may predict inflammatory trajectory
+
+CAUTIONS
+--------
+- Acute changes shown; chronic effects may differ
+- Individual variation substantial (~20-25% CV)
+- Model requires validation with clinical data

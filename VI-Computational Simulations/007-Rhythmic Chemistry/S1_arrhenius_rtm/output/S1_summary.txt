@@ -1,0 +1,50 @@
+S1: Arrhenius Classic vs RTM-Modified Kinetics
+===============================================
+Date: 2026-02-14 14:14:31
+
+THEORETICAL FRAMEWORK
+---------------------
+Classic Arrhenius: k = A × exp(-Eₐ/RT)
+
+RTM-Modified: k = A₀ × (L/L_ref)^(-α) × exp(-Eₐ_eff/RT)
+
+where:
+  L = effective confinement length (nm)
+  α = coherence exponent of environment
+  L_ref = reference scale (100 nm)
+
+RTM PREDICTIONS
+---------------
+1. ISOTHERMAL SCALING (fixed T, vary L):
+   log(k) vs log(L) has slope = -α
+   Smaller L → faster reaction
+
+2. ARRHENIUS ANALYSIS (fixed L, vary T):
+   Same activation energy Eₐ
+   Different apparent pre-exponential A_app ∝ L^(-α)
+
+3. ENHANCEMENT FACTORS (at 10 nm confinement):
+   α = 1.5: 32× enhancement
+   α = 2.0: 100× enhancement
+   α = 2.3: 200× enhancement
+   α = 2.5: 316× enhancement
+
+PARAMETER RECOVERY
+------------------
+True α: 2.3
+Recovered α: 2.278
+Error: 0.0220
+R²: 0.9994
+
+EXPERIMENTAL IMPLICATIONS
+-------------------------
+1. Isothermal experiments at varying L reveal α
+2. Different confinement platforms should give same α
+   for same reaction mechanism
+3. Temperature studies reveal Eₐ independently
+
+FALSIFICATION CRITERIA
+----------------------
+- Slope of log(k) vs log(L) should be constant (stable α)
+- Different confinement methods should agree
+- No α dependence → reaction not RTM-governed
