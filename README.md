@@ -11,7 +11,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737862.svg)](https://doi.org/10.5281/zenodo.18737862)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Website](https://img.shields.io/badge/Web-zarpafantasma.art-9f1ae0.svg)](https://zarpafantasma.art)
+[![Website](https://img.shields.io/badge/Web-zarpafantasma.art-black?style=flat-square&logo=visual-studio-code&logoColor=white)](https://zarpafantasma.art)
 
 **Relatividad Temporal Multiescala (RTM)** is a transdisciplinary framework proposing that time is not a universal background container, but an emergent property of organized structure. 
 
