@@ -67,7 +67,6 @@ The RTM corpus comprises **24 documents** across five categories:
 | RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes |
 | Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds |
 | RTM Cascade Framework | Framework | Two-signature test for directional cascades |
-| RTM Unified Field Framework | Speculative | Effective Lagrangian, laboratory tests |
 | Rhythmic Astronomy | Domain | Galaxy dynamics |
 | Rhythmic Neuroscience | Domain | Neural scaling, consciousness markers |
 | Conscious Access | Domain | Coherence threshold hypothesis |
@@ -81,6 +80,7 @@ The RTM corpus comprises **24 documents** across five categories:
 | Early Universe | Speculative | Structure formation timing |
 | Black Holes in RTM | Speculative | Horizon scaling, accretion |
 | Aetherion | Experimental | Gradient-driven propulsion concept |
+| RTM Unified Field Framework | Speculative | Effective Lagrangian, laboratory tests |
 
 ### Philosophical / Methodological
 
