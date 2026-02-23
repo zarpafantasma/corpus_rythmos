@@ -187,6 +187,8 @@ The RTM framework has been systematically tested against **22+ independent real-
     ├── Control Group Analysis (Sept 2023)
     └── RTM Real-Time Monitor
 ```
+**RTM does not ask to be believed. It asks to be tested.**
+
 
 ### RTM Validations:
 22 documented analyses | ~70,000+ subjects | 16 reproducible packages
@@ -314,7 +316,6 @@ Under the following terms:
 
 <div align="center">
 
-**RTM does not ask to be believed. It asks to be tested.**
 
 
 
