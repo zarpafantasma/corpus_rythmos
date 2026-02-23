@@ -1,0 +1,2 @@
+Figure E.1: The Loss of Complexity with Age & Disease.
+Boxplot of Fractal Coherence (DFA $\alpha$) for three cohorts. The progression from Young (Green, $\alpha \approx 1.0$) to Heart Failure (Red, $\alpha \approx 0.5$) illustrates the "Coherence Collapse" associated with pathology, validating the RTM-Homeostasis hypothesis.

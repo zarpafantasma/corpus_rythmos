@@ -1,0 +1,12 @@
+Plaintext
+Processor_Family	Qubits_N	Avg_T1_us
+Tenerife	5	50.0
+Tokyo	20	75.0
+Falcon_r1	27	90.0
+Falcon_r4	27	110.0
+Hummingbird_r1	65	95.0
+Hummingbird_r2	65	105.0
+Eagle_r1	127	90.0
+Eagle_r3	127	250.0
+Osprey_r1	433	280.0
+Heron_r1	133	150.0

@@ -1,0 +1,13 @@
+GalaxyID	Redshift_z	Log_Stellar_Mass_Msun
+GN-z11	10.60	9.6
+JADES-GS-z13-0	13.20	8.0
+GL-z10	10.10	9.4
+GL-z12	12.63	9.0
+CEERS-1749	9.20	9.8
+Labbe-1	7.48	10.6
+Labbe-2	7.96	10.8
+Labbe-3	8.38	10.3
+Labbe-4	8.67	10.2
+Labbe-5	9.97	10.0
+Labbe-6	9.04	10.4
+UHZ1	10.10	10.6

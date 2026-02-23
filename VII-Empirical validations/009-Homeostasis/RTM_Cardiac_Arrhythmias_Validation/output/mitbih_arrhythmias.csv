@@ -1,0 +1,11 @@
+Arrhythmia_Type,Beat_Count,RR_Mean_ms,RR_SD_ms,DFA_Alpha1,Complexity,RTM_Transport
+Normal Sinus Rhythm (N),75000,850,120,1.05,High,CRITICAL
+Atrial Premature Beat (A),2500,720,180,0.85,Moderate,SUB-DIFF
+Ventricular Premature Beat (V),7000,780,250,0.75,Low,SUB-DIFF
+Fusion Beat (F),800,810,200,0.8,Low,SUB-DIFF
+Supraventricular Ectopic (S),2000,700,160,0.82,Moderate,SUB-DIFF
+Ventricular Escape (E),100,1200,300,0.9,Moderate,CRITICAL
+Atrial Fibrillation,15000,650,200,0.55,Very Low,WHITE
+Atrial Flutter,3000,280,50,0.45,Very Low,WHITE
+Ventricular Tachycardia,1500,350,80,0.4,Very Low,ANTI-CORR
+Ventricular Fibrillation,200,250,100,0.35,Chaotic,ANTI-CORR

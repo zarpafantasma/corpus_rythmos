@@ -1,0 +1,2 @@
+Figure E.1: The Quantum Coherence Curve.
+Log-log plot of Average $T_1$ Time vs. Qubit Count for IBM processors. The positive slope (Orange, $\alpha \approx 0.36$) demonstrates that the platform is currently in a regime of "Coherent Scaling," where larger systems are paradoxically more stable (longer-lived) than smaller ones due to concurrent improvements in fabrication and isolation.

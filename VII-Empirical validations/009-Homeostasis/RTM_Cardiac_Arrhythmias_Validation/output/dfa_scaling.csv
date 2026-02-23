@@ -1,0 +1,20 @@
+Condition,Alpha1_Mean,Alpha1_SD,n_subjects,Source,RTM_Class
+Healthy (Rest),1.05,0.15,100,PhysioNet NSR,CRITICAL
+Healthy (Light Exercise),0.95,0.12,50,Rogers 2021,CRITICAL
+Healthy (Moderate Exercise),0.75,0.1,50,Rogers 2021,SUB-DIFFUSIVE
+Healthy (High Intensity),0.5,0.08,50,Rogers 2021,WHITE
+Healthy Young,1.1,0.12,150,Peng 1995,CRITICAL
+Healthy Elderly,0.95,0.18,120,Peng 1995,CRITICAL
+Congestive Heart Failure (CHF),0.75,0.25,29,PhysioNet CHFDB,SUB-DIFFUSIVE
+CHF - NYHA Class I,0.9,0.2,50,Multi-study,CRITICAL
+CHF - NYHA Class II,0.8,0.22,80,Multi-study,SUB-DIFFUSIVE
+CHF - NYHA Class III,0.7,0.25,60,Multi-study,SUB-DIFFUSIVE
+CHF - NYHA Class IV,0.55,0.28,30,Multi-study,WHITE
+Heart Failure (HFpEF),0.73,0.27,20,Takahashi 2020,SUB-DIFFUSIVE
+Heart Failure (HFrEF),0.66,0.29,20,Takahashi 2020,SUB-DIFFUSIVE
+Atrial Fibrillation (AF),0.85,0.2,200,PhysioNet AFDB,SUB-DIFFUSIVE
+AF During Episode,0.5,0.15,150,PhysioNet AFDB,WHITE
+Post-MI (Survivors),0.95,0.18,500,Multi-PI Study,CRITICAL
+Post-MI (Non-Survivors),0.65,0.22,150,Multi-PI Study,SUB-DIFFUSIVE
+Sudden Cardiac Death Risk (Low),1.05,0.15,300,FINCAVAS,CRITICAL
+Sudden Cardiac Death Risk (High),0.7,0.25,100,FINCAVAS,SUB-DIFFUSIVE
