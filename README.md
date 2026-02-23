@@ -176,12 +176,8 @@ The RTM framework has been systematically tested against **22+ independent real-
     ├── RTM_Forensic_Report: The FTX Solvency Collapse (Nov 2022)
     ├── RTM_Forensic_Report: The China Ban Shock (May 2021)
     ├── RTM_Forensic_Report: The Binance Glitch Anomaly (Oct 2025)
-    └── Control Group Analysis (Sept 2023)
-```
-
-### Tools
-└── 015-Rhythmic_Economics/      # RTM Real-Time Monitor
-
+    ├── Control Group Analysis (Sept 2023)
+    └── RTM Real-Time Monitor
 ```
 
 ### RTM Validations:
