@@ -619,7 +619,7 @@ pip install -r requirements.txt
 📝 Citation & DOI
 If you use this data or the RTM framework in your research, please cite:
 
-DOI: [10.5281/zenodo.XXXXXXX]
+DOI: [10.5281/zenodo.18737862]
 
 APA: Quiceno, Á. (2026). corpus RyThMós:Relatividad Temporal Multiescala. Zenodo.
 
