@@ -13,7 +13,7 @@
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Website](https://img.shields.io/badge/Web-zarpafantasma.art-black?style=flat-square&logo=visual-studio-code&logoColor=white)](https://zarpafantasma.art)
 ![Theory](https://img.shields.io/badge/Theory-RTM_Multiscale-gold)
-![Validations](https://img.shields.io/badge/Validations-22_Empirical-0052cc)
+[![Validations](https://img.shields.io/badge/Validations-22_Empirical-0052cc)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20validations)
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
 ![Intuition](https://img.shields.io/badge/Insight-Human%20%2B%20Intuition-4b0082?style=flat-square)
 ![Bio-Exploration](https://img.shields.io/badge/Co--created-Human%20%2B%20Nature-2e7d32?style=flat-square)
