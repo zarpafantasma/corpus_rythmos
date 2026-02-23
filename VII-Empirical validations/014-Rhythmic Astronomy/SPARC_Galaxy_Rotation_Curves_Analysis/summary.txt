@@ -1,0 +1,36 @@
+SPARC RTM Analysis Summary
+==========================
+Date: 2026-02-13 21:28:22
+
+DATA
+----
+Galaxies analyzed: 171
+Total data points: 3375
+
+SLOPE STATISTICS
+----------------
+Mean slope:   0.2664
+Median slope: 0.2374
+Std slope:    0.2587
+
+ALPHA STATISTICS  
+----------------
+Mean α:   1.467
+Median α: 1.525
+Std α:    0.517
+
+CURVE TYPES
+-----------
+Flat:      52 (30.4%)
+Rising:    116 (67.8%)
+Declining: 3 (1.8%)
+
+RTM CONSISTENCY
+---------------
+Galaxies with α ∈ [1.5, 2.5]: 50.9%
+Mean α deviation from 2: 0.533
+
+STRUCTURE CORRELATION
+--------------------
+r = -0.5466
+p = 1.0499e-14

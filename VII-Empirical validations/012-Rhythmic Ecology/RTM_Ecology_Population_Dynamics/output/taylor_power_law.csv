@@ -1,0 +1,26 @@
+taxon,b_exponent,b_se,n_populations,r_squared
+Aphids (Taylor 1961),1.78,0.12,156,0.89
+Moths (Taylor 1978),1.85,0.1,234,0.92
+Birds (Kilpatrick 2003),1.67,0.14,89,0.85
+Mammals (Cohen 2016),1.61,0.14,85,0.87
+Fish (Cobain 2019),1.72,0.09,127,0.91
+Zooplankton (Reuman 2006),1.58,0.11,45,0.83
+Bacteria (Ramsayer 2012),1.92,0.08,48,0.94
+Plants (Döring 2015),1.65,0.15,62,0.81
+Insects general,1.75,0.1,312,0.88
+Marine fish,1.68,0.12,89,0.86
+Freshwater fish,1.71,0.13,67,0.84
+Rodents,1.55,0.16,54,0.82
+Ungulates,1.48,0.18,38,0.79
+Primates,1.52,0.2,22,0.76
+Passerines,1.63,0.11,156,0.87
+Raptors,1.59,0.15,45,0.83
+Waterfowl,1.66,0.14,67,0.85
+Coral reef fish,1.74,0.1,78,0.9
+Plankton,1.45,0.17,89,0.78
+Benthic invertebrates,1.82,0.09,56,0.93
+Forest trees,1.38,0.22,234,0.72
+Grassland plants,1.42,0.19,178,0.75
+Agricultural pests,1.88,0.07,345,0.95
+Parasites,1.95,0.06,67,0.92
+Pathogens,1.98,0.05,89,0.96

@@ -1,0 +1,6 @@
+State,Spectral_Slope,RTM_Alpha,n,Category
+Healthy (Eyes Open),-1.8,1.8,920,Healthy
+Healthy (Eyes Closed),-1.9,1.9,920,Healthy
+Interictal (Tumor),-2.0,2.0,920,Interictal
+Interictal (Hippocampus),-2.1,2.1,920,Interictal
+Ictal (Seizure),-2.8,2.8,920,Ictal

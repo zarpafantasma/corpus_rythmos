@@ -1,0 +1,2 @@
+Figure 1: The Universal Scaling of Biological Time.
+Log-log plot of Maximum Longevity vs. Body Mass for 547 animal species. The solid lines represent the RTM power-law fit for Birds (Blue, $\alpha=0.21$) and Mammals (Red, $\alpha=0.18$). The tightness of the fit confirms that lifespan is physically constrained by system size, obeying the $T \propto L^\alpha$ law.
