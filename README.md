@@ -1,5 +1,5 @@
 # corpus_rythmos
-A transdisciplinary framework proposing that time is an emergent property of structure (L ∝ T^α), validated across physics, biology, and consciousness.
+A transdisciplinary framework proposing that time is an emergent property of structure (T ∝ L^α), validated across physics, biology, and consciousness.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
@@ -24,7 +24,7 @@ A transdisciplinary framework proposing that time is an emergent property of str
 ## 🌌 The Core Axiom
 
 At the heart of RTM lies a single, falsifiable law:
-$$L \propto T^\alpha$$
+$$T \propto L^\alpha$$
 
 Where:
 * **$L$ (Scale):** The physical or organizational extent of a system.
