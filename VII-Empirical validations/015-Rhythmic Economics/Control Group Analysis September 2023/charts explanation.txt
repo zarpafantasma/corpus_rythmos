@@ -1,0 +1,5 @@
+Figure 1: The Full Month Overview
+Visible: A flat green line. The Alpha (Green) stays comfortably at the bottom of the chart, far away from the Red Zone (2.0).
+
+Figure 2: The "Stable Zoom" (Sept 10-17)
+Visible: Detailed view of a healthy market. Price moves, but Alpha remains stable around 0.45. This is what "Safe" looks like.

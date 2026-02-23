@@ -1,0 +1,5 @@
+Figure 1: The Full Month Overview
+Visible: The spike on March 12 stands out against a relatively calm month.
+
+Figure 2: The "Crash Zoom" (March 12)
+Visible: The red line (Alpha) spikes vertically exactly as the price (Blue) collapses. Note the "divergence" where Alpha stays high even as price tries to recover.

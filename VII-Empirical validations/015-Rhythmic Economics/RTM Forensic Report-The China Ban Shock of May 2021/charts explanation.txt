@@ -1,0 +1,5 @@
+Figure 1: The Full Month Overview
+Visible: The Alpha (Red) rises during the crash but stays relatively contained compared to the massive price drop.
+
+Figure 2: The "Crash Zoom" (May 19)
+Visible: The red line peaks at 1.33 exactly when the price bottoms out, but it refuses to spike higher. This "ceiling" on Alpha is the signature of high liquidity.

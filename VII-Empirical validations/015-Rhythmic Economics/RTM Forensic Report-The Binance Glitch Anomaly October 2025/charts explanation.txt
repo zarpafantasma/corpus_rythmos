@@ -1,0 +1,5 @@
+Figure 1: The Full Month Overview
+Visible: The massive spike in Alpha (Red) happens early in the day, while the Price (Blue) stays high, creating a visible "gap" or divergence.
+
+Figure 2: The "Crash Zoom" (Oct 10)
+Visible: The Red Line spikes to 2.21 at 06:00. The Blue Line (Price) doesn't drop until the far right of the chart. That gap is the "Alpha Edge."
