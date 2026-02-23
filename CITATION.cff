@@ -5,9 +5,8 @@ type: dataset
 authors:
   - family-names: "[Quiceno]"
     given-names: "[Álvaro]"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # Uncomment and add if available
-repository-code: "https://github.com/[zarpafantasma]/corpus-RyThMos"
-url: "https://github.com/[zarpafantasma]/corpus-RyThMos"
+repository-code: "https://github.com/zarpafantasma/corpus_rythmos"
+url: "https://github.com/zarpafantasma/corpus_rythmos"
 license: CC-BY-4.0
 version: "1.0.0"
 date-released: "2025-02-20"
