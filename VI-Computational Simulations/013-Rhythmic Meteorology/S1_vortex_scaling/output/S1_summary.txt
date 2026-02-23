@@ -1,0 +1,59 @@
+S1: Vortex Coherence Exponent (α) Scaling
+==========================================
+Date: 2026-02-14 18:15:33
+
+RTM-ATMO MODEL
+--------------
+τ(L) = τ_0 × (L/L_ref)^α
+
+where:
+  τ = persistence time (hours)
+  L = feature scale (km)
+  α = coherence exponent
+
+TRANSPORT CLASS INTERPRETATION
+------------------------------
+α ≈ 1.0-1.5: Advective/fragmented (tropical disturbances, convection)
+α ≈ 1.5-2.0: Hierarchical (baroclinic waves, fronts, MCS)
+α ≈ 2.0-2.5: Coherent/organized (mature cyclones, jets)
+α ≈ 2.5-3.0: Strongly coherent (blocking, persistent vortices)
+
+REGIME PARAMETERS
+-----------------
+Mature Tropical Cyclone: α = 2.4, τ_0 = 12 h
+Blocking High: α = 2.6, τ_0 = 24 h
+Baroclinic Wave: α = 1.8, τ_0 = 8 h
+Mesoscale Convective System: α = 1.5, τ_0 = 4 h
+Tropical Disturbance: α = 1.2, τ_0 = 3 h
+Frontal Zone: α = 1.6, τ_0 = 6 h
+
+ESTIMATION RESULTS
+------------------
+Mature Tropical Cyclone: True α = 2.4, Est α = 2.41, Error = 0.014
+Blocking High: True α = 2.6, Est α = 2.61, Error = 0.008
+Baroclinic Wave: True α = 1.8, Est α = 1.81, Error = 0.011
+Mesoscale Convective System: True α = 1.5, Est α = 1.51, Error = 0.010
+Tropical Disturbance: True α = 1.2, Est α = 1.21, Error = 0.014
+Frontal Zone: True α = 1.6, Est α = 1.61, Error = 0.009
+
+Mean absolute error: 0.0110
+
+DATA COLLAPSE TEST (Mature TC)
+------------------------------
+CV of τ/L^α: 0.199
+Pass criterion: CV < 0.3
+Result: PASS
+
+PHYSICAL INTERPRETATION
+-----------------------
+Higher α indicates:
+- Longer persistence relative to size
+- More coherent, organized structure
+- Steeper energy spectrum
+- Lower cascade rate
+
+Lower α indicates:
+- Faster decorrelation
+- Fragmented, turbulent structure
+- Shallower spectrum
+- Higher cascade rate

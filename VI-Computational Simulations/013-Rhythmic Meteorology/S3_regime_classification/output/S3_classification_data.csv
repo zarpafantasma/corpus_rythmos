@@ -1,0 +1,392 @@
+pattern,alpha_true,alpha_measured,true_class,predicted_class
+Easterly Wave,1.2,1.274507122951685,Advective,Advective
+Easterly Wave,1.2,1.1792603548243223,Advective,Advective
+Easterly Wave,1.2,1.2971532807151038,Advective,Advective
+Easterly Wave,1.2,1.4284544784612037,Advective,Advective
+Easterly Wave,1.2,1.1648769937914996,Advective,Advective
+Easterly Wave,1.2,1.1648794564576228,Advective,Advective
+Easterly Wave,1.2,1.4368819223261087,Advective,Advective
+Easterly Wave,1.2,1.3151152093729364,Advective,Advective
+Easterly Wave,1.2,1.1295788421097572,Advective,Advective
+Easterly Wave,1.2,1.2813840065378947,Advective,Advective
+Easterly Wave,1.2,1.1304873460781306,Advective,Advective
+Easterly Wave,1.2,1.1301405369644615,Advective,Advective
+Easterly Wave,1.2,1.2362943407349052,Advective,Advective
+Easterly Wave,1.2,0.9130079633013303,Advective,Advective
+Easterly Wave,1.2,0.941262325123045,Advective,Advective
+Easterly Wave,1.2,1.115656870613854,Advective,Advective
+Easterly Wave,1.2,1.0480753319498364,Advective,Advective
+Easterly Wave,1.2,1.247137099889291,Advective,Advective
+Easterly Wave,1.2,1.0637963886718182,Advective,Advective
+Easterly Wave,1.2,0.9881544447997063,Advective,Advective
+Easterly Wave,1.2,1.4198473153382332,Advective,Advective
+Easterly Wave,1.2,1.1661335549270195,Advective,Advective
+Easterly Wave,1.2,1.2101292307031886,Advective,Advective
+Trade Cumulus,1.1,0.8862877720679816,Advective,Advective
+Trade Cumulus,1.1,1.0183425913212227,Advective,Advective
+Trade Cumulus,1.1,1.11663838845648,Advective,Advective
+Trade Cumulus,1.1,0.9273509633866547,Advective,Advective
+Trade Cumulus,1.1,1.1563547027518508,Advective,Advective
+Trade Cumulus,1.1,1.0099041965121793,Advective,Advective
+Trade Cumulus,1.1,1.0562459375310085,Advective,Advective
+Trade Cumulus,1.1,1.0097440081655906,Advective,Advective
+Trade Cumulus,1.1,1.3778417276763406,Advective,Advective
+Trade Cumulus,1.1,1.09797541628931,Advective,Advective
+Trade Cumulus,1.1,0.9413433606566151,Advective,Advective
+Trade Cumulus,1.1,1.2233817368154785,Advective,Advective
+Trade Cumulus,1.1,0.9168734525043467,Advective,Advective
+Trade Cumulus,1.1,1.1313295392507134,Advective,Advective
+Trade Cumulus,1.1,0.8060494814180338,Advective,Advective
+Trade Cumulus,1.1,0.9007720926652355,Advective,Advective
+Trade Cumulus,1.1,1.1295291853803686,Advective,Advective
+Trade Cumulus,1.1,1.2107699869993116,Advective,Advective
+Trade Cumulus,1.1,1.1257052421784957,Advective,Advective
+Trade Cumulus,1.1,1.082652757641764,Advective,Advective
+Trade Cumulus,1.1,1.0548344456616068,Advective,Advective
+Trade Cumulus,1.1,0.878221701444886,Advective,Advective
+Trade Cumulus,1.1,0.9920233687407938,Advective,Advective
+Sea Breeze,1.3,1.230904184356032,Advective,Advective
+Sea Breeze,1.3,1.4585683339328375,Advective,Advective
+Sea Breeze,1.3,1.3515427434352691,Advective,Advective
+Sea Breeze,1.3,1.0355439766955898,Advective,Advective
+Sea Breeze,1.3,1.3486125954092194,Advective,Advective
+Sea Breeze,1.3,1.2422376579375525,Advective,Advective
+Sea Breeze,1.3,1.1984616999541062,Advective,Advective
+Sea Breeze,1.3,1.3917514433261302,Advective,Advective
+Sea Breeze,1.3,1.4546499283743928,Advective,Advective
+Sea Breeze,1.3,1.4396920178674297,Advective,Advective
+Sea Breeze,1.3,1.1741173715166042,Advective,Advective
+Sea Breeze,1.3,1.253618143622318,Advective,Advective
+Sea Breeze,1.3,1.3496895147105346,Advective,Advective
+Sea Breeze,1.3,1.446331769068354,Advective,Advective
+Sea Breeze,1.3,1.2281238643232066,Advective,Advective
+Sea Breeze,1.3,1.2721511535004275,Advective,Advective
+Sea Breeze,1.3,1.134049753899096,Advective,Advective
+Sea Breeze,1.3,1.1205690063878995,Advective,Advective
+Sea Breeze,1.3,1.4218788733591297,Advective,Advective
+Sea Breeze,1.3,1.5034360042856234,Advective,Hierarchical
+Sea Breeze,1.3,1.28919848176295,Advective,Advective
+Sea Breeze,1.3,1.4505299346838036,Advective,Advective
+Sea Breeze,1.3,1.3542454037571452,Advective,Advective
+Afternoon Thunderstorms,1.4,1.3032320368092312,Advective,Advective
+Afternoon Thunderstorms,1.4,1.454209340826262,Advective,Advective
+Afternoon Thunderstorms,1.4,1.6307054849698952,Advective,Hierarchical
+Afternoon Thunderstorms,1.4,1.3946260941335071,Advective,Advective
+Afternoon Thunderstorms,1.4,1.6346965483721008,Advective,Hierarchical
+Afternoon Thunderstorms,1.4,1.0070382343865383,Advective,Advective
+Afternoon Thunderstorms,1.4,1.5232853756562834,Advective,Hierarchical
+Afternoon Thunderstorms,1.4,1.4130570602357255,Advective,Advective
+Afternoon Thunderstorms,1.4,1.3551488974301198,Advective,Advective
+Afternoon Thunderstorms,1.4,1.4137641164803252,Advective,Advective
+Afternoon Thunderstorms,1.4,1.101864662809866,Advective,Advective
+Afternoon Thunderstorms,1.4,1.367049216824373,Advective,Advective
+Afternoon Thunderstorms,1.4,1.4535668857267618,Advective,Advective
+Afternoon Thunderstorms,1.4,1.6216841067112273,Advective,Hierarchical
+Afternoon Thunderstorms,1.4,1.3222594672589527,Advective,Advective
+Afternoon Thunderstorms,1.4,1.2787259595660219,Advective,Advective
+Afternoon Thunderstorms,1.4,1.3247364434623194,Advective,Advective
+Afternoon Thunderstorms,1.4,1.5373103176553111,Advective,Hierarchical
+Afternoon Thunderstorms,1.4,1.4493126664489526,Advective,Advective
+Afternoon Thunderstorms,1.4,1.3205359694349441,Advective,Advective
+Afternoon Thunderstorms,1.4,1.4769901149670033,Advective,Advective
+Afternoon Thunderstorms,1.4,1.414561632402206,Advective,Advective
+Afternoon Thunderstorms,1.4,1.5452967485799334,Advective,Hierarchical
+Cold Front,1.7,1.5946920359183971,Hierarchical,Hierarchical
+Cold Front,1.7,1.6508506780103347,Hierarchical,Hierarchical
+Cold Front,1.7,1.6411837770301763,Hierarchical,Hierarchical
+Cold Front,1.7,1.4804727577801822,Hierarchical,Advective
+Cold Front,1.7,1.7444180415596864,Hierarchical,Hierarchical
+Cold Front,1.7,1.7391582908269834,Hierarchical,Hierarchical
+Cold Front,1.7,1.700767018496369,Hierarchical,Hierarchical
+Cold Front,1.7,1.6648119299937278,Hierarchical,Hierarchical
+Cold Front,1.7,1.4876943886924379,Hierarchical,Advective
+Cold Front,1.7,1.636903201585196,Hierarchical,Hierarchical
+Cold Front,1.7,1.6485928225209845,Hierarchical,Hierarchical
+Cold Front,1.7,1.5796584096167572,Hierarchical,Hierarchical
+Cold Front,1.7,1.6758071432500985,Hierarchical,Hierarchical
+Cold Front,1.7,1.7606076285221808,Hierarchical,Hierarchical
+Cold Front,1.7,1.9829278851815795,Hierarchical,Hierarchical
+Cold Front,1.7,1.7261866719247758,Hierarchical,Hierarchical
+Cold Front,1.7,1.7386325586084146,Hierarchical,Hierarchical
+Cold Front,1.7,1.6888331126350749,Hierarchical,Hierarchical
+Cold Front,1.7,1.4121843177051439,Hierarchical,Advective
+Cold Front,1.7,1.6960229186826175,Hierarchical,Hierarchical
+Cold Front,1.7,1.709034531491154,Hierarchical,Hierarchical
+Cold Front,1.7,2.069486316872793,Hierarchical,Coherent
+Cold Front,1.7,1.6711458552828315,Hierarchical,Hierarchical
+Warm Front,1.6,1.645232101350042,Hierarchical,Hierarchical
+Warm Front,1.6,1.5947932345442135,Hierarchical,Hierarchical
+Warm Front,1.6,1.4246982943570703,Hierarchical,Advective
+Warm Front,1.6,1.7714234221772531,Hierarchical,Hierarchical
+Warm Front,1.6,1.712789954903016,Hierarchical,Hierarchical
+Warm Front,1.6,1.7186547920564572,Hierarchical,Hierarchical
+Warm Front,1.6,1.4635918817807894,Hierarchical,Advective
+Warm Front,1.6,1.810419146640415,Hierarchical,Hierarchical
+Warm Front,1.6,1.3897223405811578,Hierarchical,Advective
+Warm Front,1.6,1.6880285640700405,Hierarchical,Hierarchical
+Warm Front,1.6,1.928568343871497,Hierarchical,Hierarchical
+Warm Front,1.6,1.451419551230397,Hierarchical,Advective
+Warm Front,1.6,1.5150553405595844,Hierarchical,Hierarchical
+Warm Front,1.6,1.6149477047631462,Hierarchical,Hierarchical
+Warm Front,1.6,1.5244786518825701,Hierarchical,Hierarchical
+Warm Front,1.6,1.36740048534008,Hierarchical,Advective
+Warm Front,1.6,1.6102844462209043,Hierarchical,Hierarchical
+Warm Front,1.6,1.4406544429410844,Hierarchical,Advective
+Warm Front,1.6,1.6710388645952774,Hierarchical,Hierarchical
+Warm Front,1.6,1.4620863648649296,Hierarchical,Advective
+Warm Front,1.6,1.832490160752631,Hierarchical,Hierarchical
+Warm Front,1.6,1.4825120061495645,Hierarchical,Advective
+Warm Front,1.6,1.5516907725691487,Hierarchical,Hierarchical
+Squall Line,1.8,1.9220275826054505,Hierarchical,Hierarchical
+Squall Line,1.8,1.6153703525349068,Hierarchical,Hierarchical
+Squall Line,1.8,1.8341189901906194,Hierarchical,Hierarchical
+Squall Line,1.8,1.9960714131423642,Hierarchical,Hierarchical
+Squall Line,1.8,1.558877514815816,Hierarchical,Hierarchical
+Squall Line,1.8,1.8276950787798456,Hierarchical,Hierarchical
+Squall Line,1.8,1.8389824191372637,Hierarchical,Hierarchical
+Squall Line,1.8,1.9172734307665966,Hierarchical,Hierarchical
+Squall Line,1.8,1.6144573933682878,Hierarchical,Hierarchical
+Squall Line,1.8,1.6019315080373586,Hierarchical,Hierarchical
+Squall Line,1.8,1.8782912348425347,Hierarchical,Hierarchical
+Squall Line,1.8,1.844547700984978,Hierarchical,Hierarchical
+Squall Line,1.8,1.8375739275518814,Hierarchical,Hierarchical
+Squall Line,1.8,1.8519672314245463,Hierarchical,Hierarchical
+Squall Line,1.8,1.6979962917632265,Hierarchical,Hierarchical
+Squall Line,1.8,1.8348380545741505,Hierarchical,Hierarchical
+Squall Line,1.8,1.8439608709948023,Hierarchical,Hierarchical
+Squall Line,1.8,1.692847287296045,Hierarchical,Hierarchical
+Squall Line,1.8,2.0798661766717137,Hierarchical,Coherent
+Squall Line,1.8,1.8710749381367682,Hierarchical,Hierarchical
+Squall Line,1.8,1.6213044754196027,Hierarchical,Hierarchical
+Squall Line,1.8,1.8984830412950746,Hierarchical,Hierarchical
+Squall Line,1.8,1.6537977494659017,Hierarchical,Hierarchical
+Developing Low,1.9,2.0180626905613677,Hierarchical,Coherent
+Developing Low,1.9,2.0737893368511107,Hierarchical,Coherent
+Developing Low,1.9,1.7768976522472433,Hierarchical,Hierarchical
+Developing Low,1.9,2.0445064193866482,Hierarchical,Coherent
+Developing Low,1.9,1.9619171390404746,Hierarchical,Hierarchical
+Developing Low,1.9,2.0233090239991736,Hierarchical,Coherent
+Developing Low,1.9,2.184518947398092,Hierarchical,Coherent
+Developing Low,1.9,1.8631917825995694,Hierarchical,Hierarchical
+Developing Low,1.9,1.7869395753463766,Hierarchical,Hierarchical
+Developing Low,1.9,1.7665728355561714,Hierarchical,Hierarchical
+Developing Low,1.9,1.7776284572551841,Hierarchical,Hierarchical
+Developing Low,1.9,1.8884347435878843,Hierarchical,Hierarchical
+Developing Low,1.9,1.9511727962224965,Hierarchical,Hierarchical
+Developing Low,1.9,1.9415036198995028,Hierarchical,Hierarchical
+Developing Low,1.9,2.0240774873554033,Hierarchical,Coherent
+Developing Low,1.9,1.901950283781686,Hierarchical,Hierarchical
+Developing Low,1.9,2.1180301115735976,Hierarchical,Coherent
+Developing Low,1.9,1.8603014750143065,Hierarchical,Hierarchical
+Developing Low,1.9,2.3080253749884427,Hierarchical,Coherent
+Developing Low,1.9,1.9938501021647508,Hierarchical,Hierarchical
+Developing Low,1.9,1.7714263665375576,Hierarchical,Hierarchical
+Developing Low,1.9,1.739366125290833,Hierarchical,Hierarchical
+Developing Low,1.9,1.9723708622864777,Hierarchical,Hierarchical
+MCS,1.7,1.6664805822011224,Hierarchical,Hierarchical
+MCS,1.7,1.8071000741138137,Hierarchical,Hierarchical
+MCS,1.7,1.7709856436860316,Hierarchical,Hierarchical
+MCS,1.7,1.689075663101469,Hierarchical,Hierarchical
+MCS,1.7,1.5729809422897392,Hierarchical,Hierarchical
+MCS,1.7,1.4727729162971204,Hierarchical,Advective
+MCS,1.7,1.6330227571899467,Hierarchical,Hierarchical
+MCS,1.7,1.8284598191485208,Hierarchical,Hierarchical
+MCS,1.7,1.7321140616195305,Hierarchical,Hierarchical
+MCS,1.7,1.5131391831932017,Hierarchical,Hierarchical
+MCS,1.7,1.7259771388776772,Hierarchical,Hierarchical
+MCS,1.7,1.7577976069593255,Hierarchical,Hierarchical
+MCS,1.7,1.56742138456983,Hierarchical,Hierarchical
+MCS,1.7,1.723058765891829,Hierarchical,Hierarchical
+MCS,1.7,1.7087313077669,Hierarchical,Hierarchical
+MCS,1.7,1.5285544553254065,Hierarchical,Hierarchical
+MCS,1.7,1.7536681040522424,Hierarchical,Hierarchical
+MCS,1.7,1.784117678955235,Hierarchical,Hierarchical
+MCS,1.7,1.8624576864762914,Hierarchical,Hierarchical
+MCS,1.7,1.8580703078052354,Hierarchical,Hierarchical
+MCS,1.7,1.4933495948064364,Hierarchical,Advective
+MCS,1.7,1.5593262440127316,Hierarchical,Hierarchical
+MCS,1.7,1.777255290081299,Hierarchical,Hierarchical
+Mature Extratropical,2.2,2.2770678926368313,Coherent,Coherent
+Mature Extratropical,2.2,2.277257152945907,Coherent,Coherent
+Mature Extratropical,2.2,2.777909723598208,Coherent,Strongly Coherent
+Mature Extratropical,2.2,2.285633576603975,Coherent,Coherent
+Mature Extratropical,2.2,2.37033484602709,Coherent,Coherent
+Mature Extratropical,2.2,2.3431002645239807,Coherent,Coherent
+Mature Extratropical,2.2,2.2977086876958697,Coherent,Coherent
+Mature Extratropical,2.2,2.1527096133039483,Coherent,Coherent
+Mature Extratropical,2.2,2.3138453830739905,Coherent,Coherent
+Mature Extratropical,2.2,2.0840762178193644,Coherent,Coherent
+Mature Extratropical,2.2,2.1644772089889988,Coherent,Coherent
+Mature Extratropical,2.2,2.1271954678256346,Coherent,Coherent
+Mature Extratropical,2.2,2.2122811209079485,Coherent,Coherent
+Mature Extratropical,2.2,2.5471987850010267,Coherent,Strongly Coherent
+Mature Extratropical,2.2,1.919910221111238,Coherent,Hierarchical
+Mature Extratropical,2.2,2.3029390285561773,Coherent,Coherent
+Mature Extratropical,2.2,1.9580926193215524,Coherent,Hierarchical
+Mature Extratropical,2.2,2.129210220131585,Coherent,Coherent
+Mature Extratropical,2.2,2.363342589545105,Coherent,Coherent
+Mature Extratropical,2.2,2.2096420028643196,Coherent,Coherent
+Mature Extratropical,2.2,2.0383382833106043,Coherent,Coherent
+Mature Extratropical,2.2,2.092704443611005,Coherent,Coherent
+Mature Extratropical,2.2,2.3019396623402018,Coherent,Coherent
+Category 1 Hurricane,2.1,1.9904450052424296,Coherent,Hierarchical
+Category 1 Hurricane,2.1,2.132468788437296,Coherent,Coherent
+Category 1 Hurricane,2.1,2.106835775985572,Coherent,Coherent
+Category 1 Hurricane,2.1,2.0022599478591276,Coherent,Coherent
+Category 1 Hurricane,2.1,2.4215916133987987,Coherent,Coherent
+Category 1 Hurricane,2.1,2.195087853347702,Coherent,Coherent
+Category 1 Hurricane,2.1,1.796228612001359,Coherent,Hierarchical
+Category 1 Hurricane,2.1,2.127968147215414,Coherent,Coherent
+Category 1 Hurricane,2.1,2.000732030284742,Coherent,Coherent
+Category 1 Hurricane,2.1,2.227865000219434,Coherent,Coherent
+Category 1 Hurricane,2.1,1.981121889235095,Coherent,Hierarchical
+Category 1 Hurricane,2.1,2.082789533779965,Coherent,Coherent
+Category 1 Hurricane,2.1,2.1757480918470686,Coherent,Coherent
+Category 1 Hurricane,2.1,2.229863279125518,Coherent,Coherent
+Category 1 Hurricane,2.1,1.9199555389416336,Coherent,Hierarchical
+Category 1 Hurricane,2.1,2.049824814623858,Coherent,Coherent
+Category 1 Hurricane,2.1,2.028758203325857,Coherent,Coherent
+Category 1 Hurricane,2.1,2.002000615113943,Coherent,Coherent
+Category 1 Hurricane,2.1,2.3648181360421647,Coherent,Coherent
+Category 1 Hurricane,2.1,2.1607472566441435,Coherent,Coherent
+Category 1 Hurricane,2.1,1.9108674068497433,Coherent,Hierarchical
+Category 1 Hurricane,2.1,2.2376792920582167,Coherent,Coherent
+Category 1 Hurricane,2.1,2.418323429551895,Coherent,Coherent
+Jet Streak,2.3,2.4548697890826716,Coherent,Coherent
+Jet Streak,2.3,2.072094505106898,Coherent,Coherent
+Jet Streak,2.3,2.227364889070062,Coherent,Coherent
+Jet Streak,2.3,2.490036672377993,Coherent,Coherent
+Jet Streak,2.3,2.193849580157183,Coherent,Coherent
+Jet Streak,2.3,2.3665729142219343,Coherent,Coherent
+Jet Streak,2.3,2.4161951080144,Coherent,Coherent
+Jet Streak,2.3,2.1609604292632874,Coherent,Coherent
+Jet Streak,2.3,2.29107119659073,Coherent,Coherent
+Jet Streak,2.3,1.813809898989639,Coherent,Hierarchical
+Jet Streak,2.3,2.146341853799856,Coherent,Coherent
+Jet Streak,2.3,2.2621147772910257,Coherent,Coherent
+Jet Streak,2.3,2.1128325227052724,Coherent,Coherent
+Jet Streak,2.3,2.544861695589745,Coherent,Strongly Coherent
+Jet Streak,2.3,2.085478793305905,Coherent,Coherent
+Jet Streak,2.3,2.2339933269954524,Coherent,Coherent
+Jet Streak,2.3,2.3196110865929134,Coherent,Coherent
+Jet Streak,2.3,2.516190993359917,Coherent,Strongly Coherent
+Jet Streak,2.3,2.084620677323084,Coherent,Coherent
+Jet Streak,2.3,2.474474562823244,Coherent,Coherent
+Jet Streak,2.3,2.3015349591529377,Coherent,Coherent
+Jet Streak,2.3,2.1527737023428073,Coherent,Coherent
+Jet Streak,2.3,2.3693155211394905,Coherent,Coherent
+Subtropical High,2.2,2.2298589543360205,Coherent,Coherent
+Subtropical High,2.2,2.109967468426181,Coherent,Coherent
+Subtropical High,2.2,2.210470312748503,Coherent,Coherent
+Subtropical High,2.2,2.142202960470736,Coherent,Coherent
+Subtropical High,2.2,2.2170276017876875,Coherent,Coherent
+Subtropical High,2.2,2.299319601178157,Coherent,Coherent
+Subtropical High,2.2,2.437902522421803,Coherent,Coherent
+Subtropical High,2.2,2.0143276751759727,Coherent,Coherent
+Subtropical High,2.2,2.5199550061984404,Coherent,Strongly Coherent
+Subtropical High,2.2,1.907186830071625,Coherent,Hierarchical
+Subtropical High,2.2,2.1772322357446625,Coherent,Coherent
+Subtropical High,2.2,2.2882475809726865,Coherent,Coherent
+Subtropical High,2.2,2.242148780160255,Coherent,Coherent
+Subtropical High,2.2,2.106595072026911,Coherent,Coherent
+Subtropical High,2.2,2.168781662446409,Coherent,Coherent
+Subtropical High,2.2,2.1260498598011752,Coherent,Coherent
+Subtropical High,2.2,2.1115952864583685,Coherent,Coherent
+Subtropical High,2.2,2.327440314553154,Coherent,Coherent
+Subtropical High,2.2,2.253552322894757,Coherent,Coherent
+Subtropical High,2.2,2.096063560710902,Coherent,Coherent
+Subtropical High,2.2,2.334939981314988,Coherent,Coherent
+Subtropical High,2.2,2.2460949281314915,Coherent,Coherent
+Subtropical High,2.2,2.321929317825844,Coherent,Coherent
+Blocking High,2.8,2.8944443262885415,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.675650748361689,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.7159728439704542,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.912094040768489,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.8915555398150197,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.7968647609053776,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.817599107496317,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.9916497343682638,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.7112642916746252,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.8820646071755056,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.769671102134916,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.767347819515917,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.9648165277980785,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.923812452348204,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.9220264454000957,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.9958218210731493,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.8031505762449136,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.9022929456942443,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.7534599865109812,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.848624952873266,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.780478541844847,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.8145493947489078,Strongly Coherent,Strongly Coherent
+Blocking High,2.8,2.8892735538155367,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.4772668975149794,Strongly Coherent,Coherent
+Major Hurricane,2.6,2.913858091352819,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.4490973927750446,Strongly Coherent,Coherent
+Major Hurricane,2.6,2.41787170808184,Strongly Coherent,Coherent
+Major Hurricane,2.6,2.7737166310250103,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.7187494040944404,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.6936179725578233,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.694251826389642,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.598162984072963,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.4654118442771256,Strongly Coherent,Coherent
+Major Hurricane,2.6,2.611370683729059,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.4984257432731836,Strongly Coherent,Coherent
+Major Hurricane,2.6,2.7462679600126627,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.5779413927746795,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.4761754204811233,Strongly Coherent,Coherent
+Major Hurricane,2.6,2.551792123752051,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.6619397181413436,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.5154413170794037,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.4766669406650355,Strongly Coherent,Coherent
+Major Hurricane,2.6,2.636553081723787,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.6367449856663083,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.5239585236943305,Strongly Coherent,Strongly Coherent
+Major Hurricane,2.6,2.5293442541572517,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.0348074906036455,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.7827873487754013,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.788880433843517,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.8922333668121345,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.9679829272432228,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.0466361348397006,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.221303432542433,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.128648943480303,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.9760092205054858,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.9971475688145968,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.8496205953043288,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.9972230296011415,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.956701204161979,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.0484077840507133,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.8759153584671515,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.0779019771361757,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.2299108369503866,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.9836859777314713,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.060256758314841,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.1035215987566667,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,2.9398169292171246,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.0336138722715624,Strongly Coherent,Strongly Coherent
+Rex Block,3.0,3.001888860117269,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.9146514147823246,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.78404853242168,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.9036765261388413,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.974699743686817,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,3.117671541169256,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,3.0438906239127808,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,3.2229773686267333,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.7848978655667924,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,3.0308480955081016,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.9275013008607527,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,3.228470439982651,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.7787552571967273,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.7740417236728834,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.8100911031833964,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.5814156413535287,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.821136746747886,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.786130100766945,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.922559067971431,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.9512633963665738,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,3.1814256258823828,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,3.0425635757279075,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.8134644516506393,Strongly Coherent,Strongly Coherent
+Polar Vortex,2.9,2.765237799297746,Strongly Coherent,Strongly Coherent

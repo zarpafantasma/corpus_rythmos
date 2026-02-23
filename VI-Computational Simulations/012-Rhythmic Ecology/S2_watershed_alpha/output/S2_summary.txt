@@ -1,0 +1,73 @@
+S2: Watershed Coherence Exponent (α)
+=====================================
+Date: 2026-02-14 14:53:55
+
+RTM-ECO WATERSHED MODEL
+-----------------------
+τ(A) = τ_0 × (A/A_ref)^α
+
+where:
+  τ = residence time (days)
+  A = watershed area (km²)
+  α = coherence exponent
+
+WATERSHED TYPE PARAMETERS
+-------------------------
+Mountain Stream: α = 0.35, τ_0 = 5 days
+  Steep gradient, fast drainage
+Forested Lowland: α = 0.45, τ_0 = 15 days
+  Buffered by forest, moderate retention
+Wetland Complex: α = 0.55, τ_0 = 30 days
+  High retention, slow release
+Agricultural: α = 0.30, τ_0 = 8 days
+  Modified drainage, moderate flashiness
+Urban/Degraded: α = 0.25, τ_0 = 3 days
+  Impervious surfaces, flashy response
+
+α ESTIMATION RESULTS
+--------------------
+Mountain Stream:
+  True α = 0.350
+  Est α = 0.345 [0.331, 0.359]
+  ECI = 0.36 (moderate)
+Forested Lowland:
+  True α = 0.450
+  Est α = 0.445 [0.430, 0.459]
+  ECI = 0.61 (high)
+Wetland Complex:
+  True α = 0.550
+  Est α = 0.544 [0.530, 0.559]
+  ECI = 0.86 (very high)
+Agricultural:
+  True α = 0.300
+  Est α = 0.295 [0.281, 0.309]
+  ECI = 0.24 (moderate)
+Urban/Degraded:
+  True α = 0.250
+  Est α = 0.246 [0.231, 0.259]
+  ECI = 0.11 (low)
+
+Mean α error: 0.0050
+
+ECOSYSTEM COHERENCE INDEX (ECI)
+-------------------------------
+ECI = (α - 0.2) / (0.6 - 0.2)
+
+Interpretation:
+  ECI < 0.25: Low resilience (urban, degraded)
+  ECI 0.25-0.50: Moderate resilience
+  ECI 0.50-0.75: High resilience (forested)
+  ECI > 0.75: Very high resilience (wetlands)
+
+MANAGEMENT IMPLICATIONS
+-----------------------
+1. Wetland protection: Highest α, longest retention
+   → Critical for nutrient buffering
+
+2. Urbanization impact: Lowers α dramatically
+   → Flashier hydrology, less resilience
+
+3. Forest cover: Moderates α
+   → Restoration increases resilience
+
+4. Early warning: Declining α signals degradation
