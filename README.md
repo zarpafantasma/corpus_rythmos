@@ -161,14 +161,14 @@ The RTM framework has been systematically tested against **22+ independent real-
     └── RTM_Consciousness_Analysis_Reproducible
 ├── 012-Rhythmic_Ecology/
     ├── RTM_Ecology_Population_Dynamics
-│   └── AnAge_Longevity_Database_Analysis
+    └── AnAge_Longevity_Database_Analysis
 ├── 013-Rhythmic_Meteorology/
-│   ├── RTM_RTM_Hurricane_RI_Analysis_Reproducible
-│   ├── RTM_Climate_Extremes_Validation
-│   ├── Hurricane_Otis (specific)
-│   └── RTM_Seismology_Analysis_Reproducible (extra)
+    ├── RTM_RTM_Hurricane_RI_Analysis_Reproducible
+    ├── RTM_Climate_Extremes_Validation
+    ├── Hurricane_Otis (specific)
+    └── RTM_Seismology_Analysis_Reproducible (extra)
 ├── 014-Rhythmic_Astronomy/
-│   └── SPARC_Galaxy_Rotation_Curves_Analysis
+    └── SPARC_Galaxy_Rotation_Curves_Analysis
 └── 015-Rhythmic_Economics/
     ├── RTM_Financial_Crash_Analysis_Reproducible
     ├── RTM_Market_Crashes_Validation
