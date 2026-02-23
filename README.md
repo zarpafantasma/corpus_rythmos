@@ -318,11 +318,12 @@ Under the following terms:
 
 "Time is not what passes, but what pulses."
 
-www.zarpafantasma.art
 
 <p align="center">
   <img src="motto.jpg" width="500">
 </p>
+
+www.zarpafantasma.art
 
 © 2026 Álvaro José Quiceno Rendón. Licensed under CC BY 4.0.
 </div>
