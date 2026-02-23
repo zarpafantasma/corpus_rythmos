@@ -308,9 +308,6 @@ You are free to:
 - **Share** — copy and redistribute the material
 - **Adapt** — remix, transform, and build upon the material
 
-Under the following terms:
-- **Attribution** — You must give appropriate credit
-
 ---
 
 
