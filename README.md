@@ -320,5 +320,9 @@ Under the following terms:
 
 www.zarpafantasma.art
 
+<p align="center">
+  <img src="motto.jpg" width="500">
+</p>
+
 © 2026 Álvaro José Quiceno Rendón. Licensed under CC BY 4.0.
 </div>
