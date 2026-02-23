@@ -37,12 +37,6 @@ From the **ballistic ringdown of black holes** ($\alpha \approx 1$) to the **dif
 
 ---
 
-## The "Half-Key" Methodology
-
-This corpus was not developed in a traditional laboratory, but through the **"Half-Key" alignment**: a synergistic dialogue between **Human Intuition** (artistically distilled via non-ordinary states of consciousness) and **Artificial Intelligence** (used as a formalization engine to translate metaphors into rigorous thermodynamics and network topology).
-
----
-
 ## Core Claim
 
 | α Range | Transport Class | Examples |
