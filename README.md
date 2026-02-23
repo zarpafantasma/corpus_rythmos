@@ -301,6 +301,7 @@ Under the following terms:
 **RTM does not ask to be believed. It asks to be tested.**
 
 "Time is not what passes, but what pulses."
+
 www.zarpafantasma.art
 
 © 2026 Álvaro José Quiceno Rendón. Licensed under CC BY 4.0.
