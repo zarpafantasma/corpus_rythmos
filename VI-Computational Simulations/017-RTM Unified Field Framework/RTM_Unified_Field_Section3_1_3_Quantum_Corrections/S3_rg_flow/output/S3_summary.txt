@@ -1,0 +1,36 @@
+S3: Renormalization Group Flow of RTM Parameters
+================================================
+
+Date: 2026-02-09 02:16:54
+
+BETA FUNCTIONS
+--------------
+β_λ ~ (1/16π²)[λ² + γ²λ]
+β_M² ~ (1/16π²)[λM² + γ²m²]
+β_m² ~ (1/16π²)[γ²M²]
+β_γ ~ (1/16π²)[γ³ + λγ]
+
+INITIAL CONDITIONS
+------------------
+λ₀ = 1.0
+M₀² = 0.25
+m₀² = 1.0
+γ₀ = 0.8
+
+FINAL VALUES (μ/μ₀ ≈ 22000)
+---------------------------
+λ = 1.3047
+M² = 0.2921
+m² = 1.0135
+γ = 0.8529
+
+STABILITY
+---------
+Eigenvalues: ['0.043', '0.009', '0.007', '0.000']
+
+PAPER VERIFICATION
+------------------
+✓ RTM parameters run with scale
+✓ Logarithmic scale dependence
+✓ Coupled system of β-functions
+✓ No Landau poles in tested range

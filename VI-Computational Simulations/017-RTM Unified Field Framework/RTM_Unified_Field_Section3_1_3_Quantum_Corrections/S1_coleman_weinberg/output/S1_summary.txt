@@ -1,0 +1,34 @@
+S1: Coleman-Weinberg Effective Potential
+========================================
+
+Date: 2026-02-09 02:16:42
+
+METHOD
+------
+V_eff(ᾱ) = U_tree(ᾱ) + V_1-loop(ᾱ)
+V_1-loop = (1/64π²) Σ_i m_i⁴ [ln(m_i²/μ²) - 3/2]
+
+PARAMETERS
+----------
+λ = 1.0
+M = 0.5
+m = 1.0
+γ = 0.8
+μ = 1.0
+
+RESULTS
+-------
+Classical minima: ['2.0000', '2.5000']
+Quantum minima:   ['1.9640', '2.5360']
+
+PHYSICAL INTERPRETATION
+-----------------------
+Quantum corrections shift the RTM α-band positions.
+This affects the quantization of temporal scaling exponents
+and must be accounted for in precision predictions.
+
+PAPER VERIFICATION
+------------------
+✓ Coleman-Weinberg formula implemented
+✓ Field-dependent masses computed
+✓ Minima shift observed
