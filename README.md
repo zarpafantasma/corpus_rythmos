@@ -1,6 +1,3 @@
-# corpus_rythmos
-A transdisciplinary framework proposing that time is an emergent property of structure (T ∝ L^α), validated across physics, biology, and consciousness.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
   <img alt="RTM - Relatividad Temporal Multiescala" src="banner-dark.png" width="100%">
@@ -24,7 +21,7 @@ A transdisciplinary framework proposing that time is an emergent property of str
 ## 🌌 The Core Axiom
 
 At the heart of RTM lies a single, falsifiable law:
-$$T \propto L^\alpha$$
+$$L \propto T^\alpha$$
 
 Where:
 * **$L$ (Scale):** The physical or organizational extent of a system.
@@ -67,6 +64,7 @@ The RTM corpus comprises **24 documents** across five categories:
 | RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes |
 | Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds |
 | RTM Cascade Framework | Framework | Two-signature test for directional cascades |
+| RTM Unified Field Framework | Speculative | Effective Lagrangian, laboratory tests |
 | Rhythmic Astronomy | Domain | Galaxy dynamics |
 | Rhythmic Neuroscience | Domain | Neural scaling, consciousness markers |
 | Conscious Access | Domain | Coherence threshold hypothesis |
@@ -80,13 +78,12 @@ The RTM corpus comprises **24 documents** across five categories:
 | Early Universe | Speculative | Structure formation timing |
 | Black Holes in RTM | Speculative | Horizon scaling, accretion |
 | Aetherion | Experimental | Gradient-driven propulsion concept |
-| RTM Unified Field Framework | Speculative | Effective Lagrangian, laboratory tests |
 
 ### Philosophical / Methodological
 
 | Document | Type | Description |
 |----------|------|-------------|
-| The Aetherion Framework and Implications | Manual/Speculative | Practical playbook, aetherion orientation |
+| The Aetherion Framework and Implications | Practical playbook, aetherion orientation |
 | The Grammar of Rhythm | Methods | Practical playbook, estimation standards |
 | The Multiscale Symphony | Essay | Philosophical orientation |
 | Physics of Tradition | Anthropology | Cultural applications, ritual acoustics |
@@ -139,50 +136,39 @@ The RTM framework has been systematically tested against **22+ independent real-
 - **Statistical Rigor**: Effect sizes (d > 2.5) and significance levels (p < 0.0001) exceeding standard model benchmarks.
 
 ### Empirical Coverage
+├── 003-Cascade_Framework/       # RTM_Visual_Cortex_Analysis_Reproducible
+├── 004-Early_Universe/          # RTM_JWST_Analysis_Reproducible
+   └──                           # Time_Scale_Rescaling (extra)
+├── 005-Black_Holes/             # RTM_GW_O4_Validation (extended)
+   └──                           # RTM_Gravitational_Wave_Analysis_Reproducible
+├── 006-RTM_Quantum_Computing/   # RTM_Quantum_Decoherence_Analysis_Reproducible
+   └──                           # Coherence_Scaling_in_Superconducting_Processors (extra)
+├── 007-Rhythmic_Chemistry/      # RTM_Chemistry_Analysis_Reproducible
+├── 008-Rhythmic_Biochemistry/   # RTM_Biochemistry_Analysis_Reproducible
+├── 009-Homeostasis/             # RTM_Cardiac_Arrhythmias_Validation
+   └──                           # Heart_Rate_Variability_(HRV)_Analysis
+├── 010-Rhythmic_Neuroscience/   # RTM_Neuro_Integrated_Validation
+├── 011-Conscious_Access/        # RTM_Consciousness_Analysis_Reproducible
+├── 012-Rhythmic_Ecology/        # RTM_Ecology_Population_Dynamics
+   └──                           # AnAge_Longevity Database_Analysis
+├── 013-Rhythmic_Meteorology/    # RTM_Hurricane_RI_Analysis_Reproducible
+   └──                           # RTM_Climate_Extremes_Validation
+   └──                           # Hurricane_Otis (specific)
+   └──                           # RTM_Seismology_Analysis_Reproducible (extra)
+├── 014-Rhythmic_Astronomy/      # SPARC_Galaxy_Rotation_Curves_Analysis
+└── 015-Rhythmic_Economics/      # RTM_Financial_Crash_Analysis_Reproducible
+   └──                           # RTM_Market_Crashes_Validation
+   └──                           # RTM Forensic Report-The Liquidity Crisis of March 2020
+   └──                           # RTM Forensic Report-The FTX Solvency Collapse November 2022
+   └──                           # RTM Forensic Report-The China Ban Shock of May 2021
+   └──                           # RTM Forensic Report-The Binance Glitch Anomaly October 2025
+   └──                           # Control Group Analysis September 2023
+
+### Tools
+└── 015-Rhythmic_Economics/      # RTM Real-Time Monitor
 
 ```
-├── 003-Cascade_Framework/
-    └── RTM_Visual_Cortex_Analysis_Reproducible
-├── 004-Early_Universe/
-    ├── RTM_JWST_Analysis_Reproducible
-    └── Time_Scale_Rescaling (extra)
-├── 005-Black_Holes/
-    ├── RTM_GW_O4_Validation (extended)
-    └── RTM_Gravitational_Wave_Analysis_Reproducible
-├── 006-RTM_Quantum_Computing/
-    ├── RTM_Quantum_Decoherence_Analysis_Reproducible
-    └── Coherence_Scaling_in_Superconducting_Processors (extra)
-├── 007-Rhythmic_Chemistry/
-    └── RTM_Chemistry_Analysis_Reproducible
-├── 008-Rhythmic_Biochemistry/
-    └── RTM_Biochemistry_Analysis_Reproducible
-├── 009-Homeostasis/
-    ├── RTM_Cardiac_Arrhythmias_Validation
-    └── Heart_Rate_Variability_(HRV)_Analysis
-├── 010-Rhythmic_Neuroscience/
-    └── RTM_Neuro_Integrated_Validation
-├── 011-Conscious_Access/
-    └── RTM_Consciousness_Analysis_Reproducible
-├── 012-Rhythmic_Ecology/
-    ├── RTM_Ecology_Population_Dynamics
-    └── AnAge_Longevity_Database_Analysis
-├── 013-Rhythmic_Meteorology/
-    ├── RTM_Hurricane_RI_Analysis_Reproducible
-    ├── RTM_Climate_Extremes_Validation
-    ├── Hurricane_Otis (specific)
-    └── RTM_Seismology_Analysis_Reproducible (extra)
-├── 014-Rhythmic_Astronomy/
-    └── SPARC_Galaxy_Rotation_Curves_Analysis
-└── 015-Rhythmic_Economics/
-    ├── RTM_Financial_Crash_Analysis_Reproducible
-    ├── RTM_Market_Crashes_Validation
-    ├── RTM_Forensic_Report: The Liquidity Crisis (March 2020)
-    ├── RTM_Forensic_Report: The FTX Solvency Collapse (Nov 2022)
-    ├── RTM_Forensic_Report: The China Ban Shock (May 2021)
-    ├── RTM_Forensic_Report: The Binance Glitch Anomaly (Oct 2025)
-    └── Control Group Analysis (Sept 2023)
-```
-```
+
 ### RTM Validations:
 22 documented analyses | ~70,000+ subjects | 16 reproducible packages
 
@@ -197,6 +183,7 @@ The RTM framework has been systematically tested against **22+ independent real-
 | Finance      | Market Crashes (5 domains, 17 crashes) |
 | Astrophysics | GW O4 (183 BBH, α=1.018, BALLISTIC) |
 | Ecology      | GPDD (1,800+ species, $\beta$=0.82), Isle Royale (66y), Taylor's Law, Extinction Scaling |
+
 ```
 
 ## Getting Started
@@ -311,8 +298,7 @@ Under the following terms:
 **RTM does not ask to be believed. It asks to be tested.**
 
 "Time is not what passes, but what pulses."
-
-www.zarpafantasma.art
+- **Website** — www.zarpafantasma.art
 
 © 2026 Álvaro José Quiceno Rendón. Licensed under CC BY 4.0.
 </div>

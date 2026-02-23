@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "Corpus RyThMós:Relatividad Temporal Multiescala (RTM)"
+message: "If you use this work, please cite it using the metadata from this file."
+type: dataset
+authors:
+  - family-names: "[Quiceno]"
+    given-names: "[Álvaro]"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # Uncomment and add if available
+repository-code: "https://github.com/[zarpafantasma]/corpus-RyThMos"
+url: "https://github.com/[zarpafantasma]/corpus-RyThMos"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2025-02-20"
+
+# === ZENODO DOI ===
+# doi: "10.5281/zenodo.XXXXXXX"
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"
+#     description: "Zenodo archive of the Corpus RyThMós"
+
+keywords:
+  - multiscale systems
+  - temporal scaling
+  - power laws
+  - complex systems
+  - RTM
+  - computational validation
+  - falsifiable framework
+
+abstract: >-
+  RTM (Relatividad Temporal Multiescala) proposes that characteristic times 
+  scale with effective lengths as τ ∝ L^α, where α is a dimensionless 
+  organizational invariant. This repository contains 24 papers, 70+ 
+  computational simulations, and 12 real-data analyses spanning physics, 
+  biology, neuroscience, ecology, economics, and meteorology. All claims 
+  are falsifiable with reproducible code and explicit pass/fail criteria.
