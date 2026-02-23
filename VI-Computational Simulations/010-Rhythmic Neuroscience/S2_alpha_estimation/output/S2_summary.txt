@@ -1,0 +1,31 @@
+S2: RTM α Estimation Methodology Validation
+============================================
+Date: 2026-02-14 03:10:49
+
+KEY FINDINGS
+------------
+1. Noise robustness: MAE < 0.2 for σ ≤ 0.3
+2. Sample size: Need ≥3 (L, τ) pairs for MAE < 0.2
+3. State discrimination (awake vs deep anesthesia):
+   - t-statistic: 28.49
+   - p-value: 4.20e-98
+   - Cohen's d: 2.85 (large effect)
+
+STATE α VALUES (Estimated)
+--------------------------
+awake               : 2.113 ± 0.185
+rem_sleep           : 2.001 ± 0.170
+light_anesthesia    : 1.806 ± 0.161
+nrem_sleep          : 1.649 ± 0.237
+deep_anesthesia     : 1.532 ± 0.221
+
+INTERPRETATION
+--------------
+RTM predicts: Higher α = more integrated dynamics
+Awake state shows highest α (2.1), deep anesthesia lowest (1.5)
+This pattern is recoverable from τ(L) scaling data.
+
+IMPORTANT DISCLAIMER
+--------------------
+This validates METHODOLOGY, not physical hypothesis.
+Real validation requires EEG/MEG with ground-truth states.

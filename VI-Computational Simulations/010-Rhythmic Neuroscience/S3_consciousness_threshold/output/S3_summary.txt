@@ -1,0 +1,51 @@
+S3: Conscious Access Threshold Model
+=====================================
+Date: 2026-02-14 03:01:24
+
+MODEL PARAMETERS
+----------------
+Consciousness threshold: α = 1.8
+Stability requirement: σ_α < 0.1
+Time resolution: 0.1 s
+
+STATE DISTRIBUTIONS
+-------------------
+          state  mean_alpha  std_alpha  p_conscious  p_collapse
+     wake_alert    2.296228   0.149536        1.000        0.95
+    wake_drowsy    1.990566   0.203657        0.830        0.85
+          nrem2    1.596826   0.291087        0.241        0.50
+          nrem3    1.393030   0.359780        0.128        0.30
+            rem    1.993185   0.299177        0.734        0.75
+anesthesia_deep    1.202885   0.365502        0.047        0.15
+           coma    1.014485   0.398350        0.035        0.05
+
+ANESTHESIA SIMULATION
+---------------------
+Induction tau: 45 s
+Recovery tau: 90 s (2x slower - hysteresis)
+LOC time: 124.9 s
+ROC time: 595.0 s
+Unconscious duration: 470.1 s
+
+PHASE STATISTICS
+----------------
+      phase  mean_alpha  std_alpha  p_conscious  mean_pci  mean_entropy
+   baseline    2.295937   0.146564     0.998333  0.549930      0.967282
+  induction    1.587769   0.340654     0.251667  0.234003      0.914206
+maintenance    1.193799   0.249046     0.007778  0.040760      0.786405
+   recovery    1.884754   0.333141     0.637500  0.368975      0.962721
+
+KEY FINDINGS
+------------
+1. α threshold model captures state transitions
+2. Induction/recovery shows predicted hysteresis
+3. α correlates with PCI but captures different info
+4. Sleep stages map to discrete α bands
+5. Model provides falsifiable predictions for DoC
+
+CLINICAL IMPLICATIONS
+---------------------
+- α monitoring could predict LOC before behavioral signs
+- Recovery α trajectory may predict emergence timing
+- α instability may indicate disorders of consciousness
+- Closed-loop neuromodulation could target α setpoint

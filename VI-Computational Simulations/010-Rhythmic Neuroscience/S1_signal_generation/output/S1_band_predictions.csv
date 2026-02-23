@@ -1,0 +1,6 @@
+band,freq_range,alpha,role,tau_at_10mm,tau_at_100mm
+delta,1-4 Hz,2.5,"Deep sleep, slow integration",1.5811388300841895,500.0
+theta,4-8 Hz,2.2,"Memory, navigation, binding",0.7924465962305571,125.5943215754791
+alpha,8-13 Hz,2.0,"Idling, default mode",0.5,50.0
+beta,13-30 Hz,1.8,"Motor, attention",0.3154786722400966,19.905358527674867
+gamma,30-80 Hz,1.5,"Local processing, perception",0.15811388300841897,5.0

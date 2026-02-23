@@ -1,0 +1,50 @@
+S3: Pharmacological Effects on Consciousness Signatures
+======================================================
+Date: 2026-02-14 23:47:31
+
+RTM-CONSCIOUSNESS PHARMACOLOGY
+------------------------------
+Different drugs affect α (S1) and NDI (S2) differently:
+
+PROPOFOL (GABAergic anesthesia)
+-------------------------------
+- α: Decreases (0.72 → 0.28)
+- NDI: Decreases (0.45 → 0.02)
+- Both S1 and S2 fail
+- Result: Unconsciousness (both criteria fail)
+- Mechanism: Global inhibition, coherence collapse
+
+PSYCHEDELICS (serotonergic)
+---------------------------
+- α: Increases (0.72 → 0.82)
+- NDI: Decreases (0.45 → -0.15)
+- S1 passes, S2 fails
+- Result: Altered consciousness (dissociation)
+- Mechanism: Enhanced local coherence, disrupted hierarchy
+
+KETAMINE (NMDA antagonist)
+--------------------------
+- α: Moderate decrease (0.72 → 0.60)
+- NDI: Near zero/negative (0.45 → -0.05)
+- S1 borderline, S2 fails
+- Result: Dissociative state
+
+CLASSIFICATION CRITERIA
+-----------------------
+Normal Conscious: α > 0.5 AND NDI > 0.15
+Altered Conscious: α > 0.5 AND NDI ≤ 0.15
+Unconscious: α ≤ 0.5 AND NDI ≤ 0.15
+
+KEY PREDICTIONS
+---------------
+1. Propofol: Both α and NDI drop during induction
+2. Emergence: α recovers before NDI
+3. Psychedelics: α↑ and NDI↓ simultaneously
+4. Different routes to altered states visible in α-NDI space
+
+CLINICAL IMPLICATIONS
+---------------------
+1. Monitor α for depth of anesthesia
+2. NDI may indicate recovery of directional processing
+3. Psychedelic states distinct from anesthesia
+4. Combined S1+S2 provides richer picture than either alone
