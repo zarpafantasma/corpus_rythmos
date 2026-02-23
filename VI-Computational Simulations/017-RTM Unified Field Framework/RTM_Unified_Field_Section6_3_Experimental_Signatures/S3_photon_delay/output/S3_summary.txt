@@ -1,0 +1,31 @@
+S3: Predicted Photon-Correlation Delay
+======================================
+
+Date: 2026-02-09 02:27:33
+
+RTM PREDICTION
+--------------
+ΔT ∝ (Δα)^n
+n = 2.0 ± 0.03
+
+SIMULATION RESULTS
+------------------
+For Δα = 1.0:
+  Predicted delay: 1.00 ps
+  Baseline transit: 1.3333 ns
+
+Fitted exponent: n = 1.995
+R² = 1.0000
+
+MEASUREMENT PROTOCOL
+--------------------
+- Twin single-photon detectors
+- Time-correlated counting
+- ~10⁴ photon events
+- Compare active vs baseline
+
+PAPER VERIFICATION
+------------------
+✓ Quadratic scaling ΔT ∝ (Δα)² confirmed
+✓ Exponent n = 2.00 matches prediction
+✓ Delay magnitude in detectable range
