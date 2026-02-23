@@ -12,7 +12,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Website](https://img.shields.io/badge/Web-zarpafantasma.art-black?style=flat-square&logo=visual-studio-code&logoColor=white)](https://zarpafantasma.art)
-![Theory](https://img.shields.io/badge/Theory-RTM_Multiscale-gold)
+![Theory](https://img.shields.io/badge/Theory-RTM-gold)
 [![Validations](https://img.shields.io/badge/Validations-22_Empirical-0052cc)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20validations)
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
 [![Email](https://img.shields.io/badge/Contact-Email-white?logo=gmail&logoColor=red)](mailto:zarpafantasma@gmail.com)
@@ -101,8 +101,8 @@ The RTM corpus comprises **24 documents** across five categories:
 | Remember, the Eternal Flame | Fiction | Novel mythologizing the framework |
 | The Hidden Doors and the Half Key | Origin | Candid authorship account |
 
+### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
 
-All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
 ---
 
 ## Computational Validation
