@@ -283,7 +283,7 @@ If you use this work, please cite it using the DOI:
 
 ### APA
 
-[Álvaro Quiceno]. (2026). *corpus RyThMós: Relatividad Temporal Multiescala (RTM)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+[Álvaro Quiceno]. (2026). *corpus RyThMós: Relatividad Temporal Multiescala (RTM)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18737862
 
 ---
 
