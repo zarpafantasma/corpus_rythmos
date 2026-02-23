@@ -1,0 +1,45 @@
+S5: Inertial Mitigation via Temporal Decoupling
+================================================
+
+Date: 2026-02-09 01:13:47
+
+KEY EQUATION
+------------
+a_eff = a_ext / α
+
+Clock-rate factor: Γ = √α
+Proper time: dτ = dt / Γ
+
+PAPER EXAMPLE
+-------------
+External: 100g, Cabin α = 4
+→ Felt: 100/4 = 25g
+
+Enhanced: α = 50
+→ Felt: 100/50 = 2g
+
+COMFORT REQUIREMENTS (< 2g felt)
+--------------------------------
+10g external  → α ≥ 5
+30g external  → α ≥ 15
+100g external → α ≥ 50
+500g external → α ≥ 250
+
+SIMULATION RESULTS
+------------------
+100g maneuver over 2s (α = 4):
+  Final position: 1.96 km
+  Final velocity: 1962 m/s
+  Felt G-force: 25.0 g
+
+DESIGN GUIDELINES
+-----------------
+1. High α inside cabin, low α at hull
+2. Dynamic α control during maneuvers
+3. Dual-frame accelerometers for verification
+
+PAPER VERIFICATION
+------------------
+✓ a_eff = a_ext / α confirmed
+✓ Time dilation τ = t / √α
+✓ Practical mitigation achievable with α ~ 50

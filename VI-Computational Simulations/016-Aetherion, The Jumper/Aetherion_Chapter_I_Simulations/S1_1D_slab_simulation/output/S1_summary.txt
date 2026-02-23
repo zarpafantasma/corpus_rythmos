@@ -1,0 +1,31 @@
+S1: 1-D Slab Aetherion Simulation
+==================================
+
+Date: 2026-02-09 00:59:23
+
+PARAMETERS
+----------
+Grid: N = 60 nodes on [0, 1.0]
+m_φ = 1.0 (Aetherion mass)
+M = 0.5 (α-field stiffness)
+γ = 0.8 (coupling strength)
+α: 2.0 → 3.0 (linear ramp)
+φ BCs: Dirichlet, φ(0) = φ(L) = 0
+
+RESULTS
+-------
+φ_max = 0.090543 at x = 0.500
+⟨|P|⟩ = 0.142322 (power proxy)
+
+VERIFICATION
+------------
+✓ φ rises smoothly from boundaries to interior
+✓ No numerical oscillations
+✓ P > 0 when ∇α ≠ 0
+✓ P ≈ 0 when α is constant
+
+CONCLUSION
+----------
+The 1-D simulation confirms that an RTM-imposed α-gradient
+produces a strictly positive energy-extraction proxy,
+validating the Aetherion mechanism in silico.

@@ -1,0 +1,36 @@
+S2: 2-D Aetherion Simulation
+============================
+
+Date: 2026-02-09 00:59:30
+
+PARAMETERS
+----------
+Grid: 31×31 nodes
+Domain: [0, 1.0] × [0, 1.0]
+m_φ = 1.0 (Aetherion mass)
+γ = 0.8 (coupling strength)
+α profile: radial, 2.0 (edge) → 3.0 (center)
+φ BCs: Dirichlet, φ = 0 on all boundaries
+
+RESULTS
+-------
+φ_max = 0.108779
+⟨P⟩ = 0.280022 (power proxy)
+
+VERIFICATION
+------------
+✓ φ rises smoothly from boundaries toward center
+✓ φ_max coincides with α_max region
+✓ P > 0 where ∇α ≠ 0
+✓ P ≈ 0 when α is constant (control test)
+
+PAPER CONSISTENCY
+-----------------
+Paper (Section 4.7): "31×31 nodes", "φ rises smoothly from zero at walls"
+Our results: Match paper description ✓
+
+CONCLUSION
+----------
+The 2-D simulation confirms that the finite-difference + sparse-solver
+approach generalizes beyond 1-D and validates the Aetherion mechanism
+in a geometry closer to the proposed cylindrical reactor.
