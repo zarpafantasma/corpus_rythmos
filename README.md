@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
-  <img alt="RTM - Relatividad Temporal Multiescala" src="banner-dark.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark-.png">
+  <img alt="RTM - Relatividad Temporal Multiescala" src="banner-dark-.png" width="100%">
 </picture>
 
 <div align="center">
