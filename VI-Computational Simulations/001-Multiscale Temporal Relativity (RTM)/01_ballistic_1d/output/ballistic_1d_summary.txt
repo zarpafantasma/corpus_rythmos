@@ -1,0 +1,27 @@
+RTM Simulation: Ballistic 1-D Propagation
+=========================================
+
+Date: 2026-02-06 21:25:56
+
+PARAMETERS
+----------
+System sizes: [np.int64(10), np.int64(20), np.int64(50), np.int64(100), np.int64(200), np.int64(500), np.int64(1000), np.int64(2000), np.int64(5000), np.int64(10000)]
+Trials per size: 100
+Base velocity: 1.0
+Velocity noise: 1.0%
+Random seed: 42
+
+RESULTS
+-------
+Fitted exponent: α = 1.0000 ± 0.0001
+95% Confidence interval: [0.9998, 1.0003]
+R² = 1.000000
+p-value = 1.23e-28
+
+COMPARISON
+----------
+Expected (theoretical): α = 1.00
+RTM paper reported: α ≈ 1.03
+This simulation: α = 1.00
+
+STATUS: CONFIRMED
