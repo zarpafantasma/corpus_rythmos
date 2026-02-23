@@ -15,9 +15,6 @@
 ![Theory](https://img.shields.io/badge/Theory-RTM_Multiscale-gold)
 [![Validations](https://img.shields.io/badge/Validations-22_Empirical-0052cc)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20validations)
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
-![Intuition](https://img.shields.io/badge/Insight-Human%20%2B%20Intuition-4b0082?style=flat-square)
-![Bio-Exploration](https://img.shields.io/badge/Co--visualized-Human%20%2B%20Nature-2e7d32?style=flat-square)
-![Human-AI Collaboration](https://img.shields.io/badge/Co--created-Human%20%2B%20AI-red?style=flat-square)
 [![Email](https://img.shields.io/badge/Contact-Email-white?logo=gmail&logoColor=red)](mailto:zarpafantasma@gmail.com)
 
 **Relatividad Temporal Multiescala (RTM)** is a transdisciplinary framework proposing that time is not a universal background container, but an emergent property of organized structure. 
@@ -104,6 +101,8 @@ The RTM corpus comprises **24 documents** across five categories:
 | Remember, the Eternal Flame | Fiction | Novel mythologizing the framework |
 | The Hidden Doors and the Half Key | Origin | Candid authorship account |
 
+
+All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
 ---
 
 ## Computational Validation
