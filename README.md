@@ -26,7 +26,7 @@
 ## 🌌 The Core Axiom
 
 At the heart of RTM lies a single, falsifiable law:
-$$L \propto T^\alpha$$
+$$T \propto L^\alpha$$
 
 Where:
 * **$L$ (Scale):** The physical or organizational extent of a system.
