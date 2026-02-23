@@ -1,0 +1,4 @@
+from_layer,to_layer,te_forward,te_forward_p,te_forward_sig,te_reverse,te_reverse_p,te_reverse_sig,te_asymmetric,gc_forward_F,gc_forward_p,gc_forward_sig,gc_reverse_F,gc_reverse_p,gc_reverse_sig,gc_asymmetric,passes,overall_pass
+0,1,0.3288032923003912,0.0,True,0.09472750222700377,0.296,False,True,195.50174411663085,1.1102230246251565e-16,True,1.019504112834787,0.40441686991938464,False,True,True,False
+1,2,0.3947959628262119,0.0,True,0.0921122171754356,0.392,False,True,270.920148958644,1.1102230246251565e-16,True,2.239910693755286,0.047990467362924005,True,False,False,False
+2,3,0.41286952733489946,0.0,True,0.0902402787332024,0.168,False,True,298.5023872747558,1.1102230246251565e-16,True,0.9520532796841813,0.446101956682717,False,True,True,False
