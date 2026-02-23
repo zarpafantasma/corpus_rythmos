@@ -202,7 +202,7 @@ The RTM framework has been systematically tested against **22+ independent real-
 22 documented analyses | ~70,000+ subjects | 16 reproducible packages
 ```
 | Domain | Analysis |
-|----------|------|-------------|
+|--------------|--------------|
 | Physics      | SPARC, JWST, GW O4 (α=1.018), Seismology, Hurricane RI |
 | Chemistry    | Zeolites, Stokes-Einstein |
 | Biochemistry | Protein folding, Enzyme kinetics |
