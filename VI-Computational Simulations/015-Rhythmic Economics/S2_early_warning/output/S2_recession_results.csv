@@ -1,0 +1,4 @@
+recession,alpha_pre,alpha_trough,drawdown,lead_time_mo,severity
+2001 Dot-Com,0.42,0.28,0.13999999999999996,9,moderate
+2008 GFC,0.45,0.18,0.27,15,severe
+2020 COVID,0.4,0.22,0.18000000000000002,3,sharp

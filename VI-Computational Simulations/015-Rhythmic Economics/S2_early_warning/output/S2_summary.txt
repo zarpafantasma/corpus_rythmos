@@ -1,0 +1,61 @@
+S2: Backtesting α as Early Warning
+====================================
+Date: 2026-02-14 18:06:53
+
+RTM-ECON HYPOTHESIS H2
+----------------------
+Sharp drops in α precede recessions by 6-18 months.
+
+MECHANISM
+---------
+1. α captures cross-scale coherence (how timing varies with size)
+2. Before recession: coherence degrades (α falls)
+3. Timing across scales becomes more uniform
+4. This enables rapid shock propagation (cascade risk)
+5. Eventually, a shock triggers the recession
+
+RECESSION ANALYSIS
+------------------
+
+2001 Dot-Com:
+  α: 0.42 → 0.28 (Δα = 0.14)
+  Lead time: 9 months
+  Severity: moderate
+
+2008 GFC:
+  α: 0.45 → 0.18 (Δα = 0.27)
+  Lead time: 15 months
+  Severity: severe
+
+2020 COVID:
+  α: 0.40 → 0.22 (Δα = 0.18)
+  Lead time: 3 months
+  Severity: sharp
+
+SUMMARY STATISTICS
+------------------
+Mean lead time: 9.0 months
+Mean α drawdown: 0.20
+
+COMPARISON TO OTHER INDICATORS
+------------------------------
+Indicator        Lead Time    Type
+---------        ---------    ----
+ECI (α)          6-15 mo      Leading (structural)
+Yield curve      8-12 mo      Leading (financial)
+VIX              0-1 mo       Concurrent
+GDP growth       Lagging      Lagging
+
+DETECTION PROTOCOL
+------------------
+1. Monitor rolling ECI (α) with 3-6 month window
+2. Establish baseline α during expansion
+3. Alert when α drops >15% below baseline
+4. Confirm with other leading indicators
+5. Lead time window: 6-18 months typically
+
+LIMITATIONS
+-----------
+- COVID-2020 had only 3 mo lead (exogenous shock)
+- α decline is necessary but not sufficient
+- False positives possible during structural change
