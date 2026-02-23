@@ -29,8 +29,8 @@ At the heart of RTM lies a single, falsifiable law:
 $$T \propto L^\alpha$$
 
 Where:
-* **$L$ (Scale):** The physical or organizational extent of a system.
 * **$T$ (Rhythm):** The characteristic internal time or operational frequency.
+* **$L$ (Scale):** The physical or organizational extent of a system.
 * **$\alpha$ (Coherence Exponent):** A topological invariant describing how the system "thickens" time through complexity.
 
 From the **ballistic ringdown of black holes** ($\alpha \approx 1$) to the **diffusive rotation of galaxies** ($\alpha \to 2$) and the **inverse scaling of quantum processors** ($\alpha < 0$), RTM provides a unified metric for the rhythm of existence.
