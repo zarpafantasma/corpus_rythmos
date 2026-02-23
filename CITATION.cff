@@ -13,10 +13,10 @@ version: "1.0.0"
 date-released: "2025-02-20"
 
 # === ZENODO DOI ===
-# doi: "10.5281/zenodo.XXXXXXX"
+# doi: "10.5281/zenodo.18737862"
 # identifiers:
 #   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"
+#     value: "10.5281/zenodo.18737862"
 #     description: "Zenodo archive of the Corpus RyThMós"
 
 keywords:
