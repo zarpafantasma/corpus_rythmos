@@ -1,0 +1,40 @@
+T4: Synthetic Validation (Demos A-D)
+=====================================
+
+Date: 2026-02-09 00:37:54
+
+PURPOSE
+-------
+Validate the slope-based RTM testing methodology through 
+four synthetic experiments.
+
+DEMO A: RADIAL ACTIVATION (Sensitivity)
+---------------------------------------
+Setup: α(r) increases inward (logistic profile)
+Result: Recovered slopes track true α(r)
+Status: PASS ✓
+
+DEMO B: CONFINEMENT SWEEP (Analog Platforms)
+--------------------------------------------
+Setup: α(ξ) increases with confinement index
+Result: Slopes increase with ξ
+Status: PASS ✓
+
+DEMO C: GR vs RTM DECOMPOSITION
+-------------------------------
+Setup: α constant, Z(r) varies
+Result: Slopes constant, intercepts vary with Z
+Status: PASS ✓
+
+DEMO D: NULL SCENARIO (Specificity)
+-----------------------------------
+Setup: α = 2.0 constant everywhere
+Result: Δα 95% CI includes 0
+Status: PASS ✓ (no false positive)
+
+CONCLUSION
+----------
+The slope-based test is:
+• SENSITIVE: detects activation when present
+• SPECIFIC: no false positives under null
+• ROBUST: GR/kinematics only affect intercepts

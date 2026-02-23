@@ -1,0 +1,32 @@
+T3: GR vs RTM Decomposition
+============================
+
+Date: 2026-02-09 00:37:37
+
+DECOMPOSITION EQUATION
+----------------------
+log(τ_obs) = α(r) × log(L) + [log(Z(r)) + const]
+             \_____/          \_________________/
+              SLOPE              INTERCEPT
+
+KEY PRINCIPLE
+-------------
+- RTM affects SLOPES (coherence exponent α)
+- GR affects INTERCEPTS (redshift factor Z)
+
+SCENARIO A: RTM ACTIVE
+----------------------
+Slopes vary: 1.023 to 2.466
+→ Radial evolution of α detected
+
+SCENARIO B: RTM INACTIVE
+------------------------
+Slopes constant: ~1.998 ± 0.005
+→ No RTM activation (pure GR)
+
+OBSERVATIONAL STRATEGY
+----------------------
+1. Bin by radius
+2. Fit log(τ) vs log(L) in each bin
+3. If slopes change → RTM is active
+4. If only intercepts change → Pure GR

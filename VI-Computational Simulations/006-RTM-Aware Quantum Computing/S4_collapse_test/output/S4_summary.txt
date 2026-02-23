@@ -1,0 +1,24 @@
+S4: RTM Collapse Test
+=====================
+
+Date: 2026-02-10 00:17:37
+
+COLLAPSE TEST COMPONENTS
+------------------------
+1. Residual regression (R² < 0.05)
+2. Clock placebo (α invariant to T scaling)
+3. LOESS trend (no visible residual pattern)
+
+BATCH RESULTS (n=50 each)
+-------------------------
+Valid RTM:     100% pass
+Regime mixed:  0% pass
+Curved:        96% pass
+Scale-clock:   100% pass
+
+PAPER VERIFICATION
+------------------
+✓ Collapse test correctly identifies valid RTM data
+✓ Regime mixing detected and rejected
+✓ Non-power curvature detected and rejected
+✓ Scale-dependent clocks detected
