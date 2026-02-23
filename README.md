@@ -139,6 +139,8 @@ The RTM framework has been systematically tested against **22+ independent real-
 - **Statistical Rigor**: Effect sizes (d > 2.5) and significance levels (p < 0.0001) exceeding standard model benchmarks.
 
 ### Empirical Coverage
+
+```
 ├── 003-Cascade_Framework/           # RTM_Visual_Cortex_Analysis_Reproducible
 ├── 004-Early_Universe/              # RTM_JWST_Analysis_Reproducible
 │   └── Time_Scale_Rescaling (extra)
@@ -166,6 +168,7 @@ The RTM framework has been systematically tested against **22+ independent real-
     ├── RTM_Forensic_Report: The China Ban Shock (May 2021)
     ├── RTM_Forensic_Report: The Binance Glitch Anomaly (Oct 2025)
     └── Control Group Analysis (Sept 2023)
+```
 
 ### Tools
 └── 015-Rhythmic_Economics/      # RTM Real-Time Monitor
