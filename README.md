@@ -64,7 +64,6 @@ The RTM corpus comprises **24 documents** across five categories:
 | RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes |
 | Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds |
 | RTM Cascade Framework | Framework | Two-signature test for directional cascades |
-| RTM Unified Field Framework | Speculative | Effective Lagrangian, laboratory tests |
 | Rhythmic Astronomy | Domain | Galaxy dynamics |
 | Rhythmic Neuroscience | Domain | Neural scaling, consciousness markers |
 | Conscious Access | Domain | Coherence threshold hypothesis |
@@ -78,6 +77,7 @@ The RTM corpus comprises **24 documents** across five categories:
 | Early Universe | Speculative | Structure formation timing |
 | Black Holes in RTM | Speculative | Horizon scaling, accretion |
 | Aetherion | Experimental | Gradient-driven propulsion concept |
+| RTM Unified Field Framework | Speculative | Effective Lagrangian, laboratory tests |
 
 ### Philosophical / Methodological
 
@@ -142,24 +142,35 @@ The RTM framework has been systematically tested against **22+ independent real-
 ├── 004-Early_Universe/
     ├── RTM_JWST_Analysis_Reproducible
     └── Time_Scale_Rescaling (extra)
-├── 005-Black_Holes/                 # RTM_GW_O4_Validation (extended)
-│   └── RTM_Gravitational_Wave_Analysis_Reproducible
-├── 006-RTM_Quantum_Computing/       # RTM_Quantum_Decoherence_Analysis_Reproducible
-│   └── Coherence_Scaling_in_Superconducting_Processors (extra)
-├── 007-Rhythmic_Chemistry/          # RTM_Chemistry_Analysis_Reproducible
-├── 008-Rhythmic_Biochemistry/       # RTM_Biochemistry_Analysis_Reproducible
-├── 009-Homeostasis/                 # RTM_Cardiac_Arrhythmias_Validation
-│   └── Heart_Rate_Variability_(HRV)_Analysis
-├── 010-Rhythmic_Neuroscience/       # RTM_Neuro_Integrated_Validation
-├── 011-Conscious_Access/            # RTM_Consciousness_Analysis_Reproducible
-├── 012-Rhythmic_Ecology/            # RTM_Ecology_Population_Dynamics
+├── 005-Black_Holes/
+    ├── RTM_GW_O4_Validation (extended)
+    └── RTM_Gravitational_Wave_Analysis_Reproducible
+├── 006-RTM_Quantum_Computing/
+    ├── RTM_Quantum_Decoherence_Analysis_Reproducible
+    └── Coherence_Scaling_in_Superconducting_Processors (extra)
+├── 007-Rhythmic_Chemistry/
+    └── RTM_Chemistry_Analysis_Reproducible
+├── 008-Rhythmic_Biochemistry/
+    └── RTM_Biochemistry_Analysis_Reproducible
+├── 009-Homeostasis/
+    ├── RTM_Cardiac_Arrhythmias_Validation
+    └── Heart_Rate_Variability_(HRV)_Analysis
+├── 010-Rhythmic_Neuroscience/
+    └── RTM_Neuro_Integrated_Validation
+├── 011-Conscious_Access/
+    └── RTM_Consciousness_Analysis_Reproducible
+├── 012-Rhythmic_Ecology/
+    ├── RTM_Ecology_Population_Dynamics
 │   └── AnAge_Longevity_Database_Analysis
-├── 013-Rhythmic_Meteorology/        # RTM_Hurricane_RI_Analysis_Reproducible
+├── 013-Rhythmic_Meteorology/
+│   ├── RTM_RTM_Hurricane_RI_Analysis_Reproducible
 │   ├── RTM_Climate_Extremes_Validation
 │   ├── Hurricane_Otis (specific)
 │   └── RTM_Seismology_Analysis_Reproducible (extra)
-├── 014-Rhythmic_Astronomy/          # SPARC_Galaxy_Rotation_Curves_Analysis
-└── 015-Rhythmic_Economics/          # RTM_Financial_Crash_Analysis_Reproducible
+├── 014-Rhythmic_Astronomy/
+│   └── SPARC_Galaxy_Rotation_Curves_Analysis
+└── 015-Rhythmic_Economics/
+    ├── RTM_Financial_Crash_Analysis_Reproducible
     ├── RTM_Market_Crashes_Validation
     ├── RTM_Forensic_Report: The Liquidity Crisis (March 2020)
     ├── RTM_Forensic_Report: The FTX Solvency Collapse (Nov 2022)
