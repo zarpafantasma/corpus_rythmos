@@ -194,7 +194,7 @@ The RTM framework has been systematically tested against **22+ independent real-
 | Finance      | Market Crashes (5 domains, 17 crashes) |
 | Astrophysics | GW O4 (183 BBH, α=1.018, BALLISTIC) |
 | Ecology      | GPDD (1,800+ species, $\beta$=0.82), Isle Royale (66y), Taylor's Law, Extinction Scaling |
-```
+
 ```
 
 ## Getting Started
