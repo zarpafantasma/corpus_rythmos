@@ -86,7 +86,7 @@ The RTM corpus comprises **24 documents** across five categories:
 
 | Document | Type | Description |
 |----------|------|-------------|
-| The Aetherion Framework and Implications | Manual/Speculative |  | Practical playbook, aetherion orientation |
+| The Aetherion Framework and Implications | Manual/Speculative | Practical playbook, aetherion orientation |
 | The Grammar of Rhythm | Methods | Practical playbook, estimation standards |
 | The Multiscale Symphony | Essay | Philosophical orientation |
 | Physics of Tradition | Anthropology | Cultural applications, ritual acoustics |
