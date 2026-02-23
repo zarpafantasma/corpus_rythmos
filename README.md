@@ -17,7 +17,7 @@
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
 [![Email](https://img.shields.io/badge/Contact-Email-white?logo=gmail&logoColor=red)](mailto:zarpafantasma@gmail.com)
 
-**Relatividad Temporal Multiescala (RTM)** is a transdisciplinary framework proposing that time is not a universal background container, but an emergent property of organized structure. 
+**Multiscale Temporal Relativity (RTM)** is a transdisciplinary framework proposing that time is not a universal background container, but an emergent property of organized structure. 
 
 </div>
 
