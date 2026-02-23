@@ -1,0 +1,40 @@
+S1: Block-Matrix Solver for RTM-Aetherion Field Equations
+=========================================================
+
+Date: 2026-02-09 01:38:55
+
+KEY EQUATIONS
+-------------
+∇²φ - m²φ = -γ|∇α|²
+M²∇²α = γ∇²φ
+
+Block system: [A_φ, -C; C, A_α][φ; α] = [source]
+
+PARAMETERS
+----------
+m_φ = 1.0
+M = 0.5
+γ = 0.8
+
+1-D RESULTS
+-----------
+Grid: N = 100
+α profile: linear 1.0 → 3.5
+φ_max = 0.012469
+P_total = 0.000000
+Solve time: 1.11 ms
+
+2-D RESULTS
+-----------
+Grid: 31×31
+α profile: radial
+φ_max = 0.266555
+P_total = 0.938299
+Solve time: 10.86 ms
+
+PAPER VERIFICATION
+------------------
+✓ Block-matrix assembly works in 1D and 2D
+✓ φ tracks α gradient as expected
+✓ Power proxy P peaks where ∇α is maximal
+✓ scipy.sparse.linalg.spsolve efficient

@@ -1,0 +1,29 @@
+S1: Gauge Coupling RGE Running
+==============================
+
+Date: 2026-02-09 02:06:03
+
+INITIAL CONDITIONS (M_Z)
+------------------------
+α₁(M_Z) = 0.01699
+α₂(M_Z) = 0.03378
+α₃(M_Z) = 0.1179
+
+BETA COEFFICIENTS (SM)
+----------------------
+b₁ = 4.10
+b₂ = -3.17
+b₃ = -7.00
+
+RESULTS
+-------
+Minimum spread at μ ≈ 1.57e+14 GeV
+  α₁⁻¹ = 40.26
+  α₂⁻¹ = 43.53
+  α₃⁻¹ = 40.27
+  Spread = 3.27
+
+CONCLUSION
+----------
+SM gauge couplings do NOT unify.
+RTM threshold corrections are needed (Section 3.5.2).
