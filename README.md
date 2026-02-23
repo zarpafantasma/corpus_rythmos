@@ -104,14 +104,14 @@ The RTM corpus comprises **24 documents** across five categories:
 ### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
 
 ### Conventions & Status Tags
-- Reading path (suggested): Foundations → Domain applications → Aetherion → Philosophy → Fiction → About the Autor.
-- Disclaimers: scientific claims are falsifiable; philosophical/metaphysical are non-empirical; literary is fiction; “About the Autor” is process transparency.
+- **Reading path (suggested):** Foundations → Domain applications → Aetherion → Philosophy → Fiction → About the Autor.
+- **Disclaimers:** scientific claims are falsifiable; philosophical/metaphysical are non-empirical; literary is fiction; “About the Autor” is process transparency.
 
 ### Reading Paths by Audience:
-- Physicists: Scale-Clock Geometry → RTM Analytical → Aetherion → skip philosophy initially
-- Philosophers: Multiscale Symphony → Owl and Spear → then Foundations
-- General readers: Hidden Doors → Eternal Flame → work backward to science
-- Skeptics: Falsification Criteria → run the simulations → run the real data analysis.
+- **Physicists:** Scale-Clock Geometry → RTM Analytical → Aetherion → skip philosophy initially
+- **Philosophers:** Multiscale Symphony → Owl and Spear → then Foundations
+- **General readers:** Hidden Doors → Eternal Flame → work backward to science
+- **Skeptics:** Falsification Criteria → run the simulations → run the real data analysis.
 ---
 
 ## Computational Validation
