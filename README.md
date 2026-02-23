@@ -137,9 +137,11 @@ The RTM framework has been systematically tested against **22+ independent real-
 
 ### Empirical Coverage
 ```
-├── 003-Cascade_Framework/           # RTM_Visual_Cortex_Analysis_Reproducible
-├── 004-Early_Universe/              # RTM_JWST_Analysis_Reproducible
-│   └── Time_Scale_Rescaling (extra)
+├── 003-Cascade_Framework/
+    └── RTM_Visual_Cortex_Analysis_Reproducible
+├── 004-Early_Universe/
+    ├── RTM_JWST_Analysis_Reproducible
+    └── Time_Scale_Rescaling (extra)
 ├── 005-Black_Holes/                 # RTM_GW_O4_Validation (extended)
 │   └── RTM_Gravitational_Wave_Analysis_Reproducible
 ├── 006-RTM_Quantum_Computing/       # RTM_Quantum_Decoherence_Analysis_Reproducible
