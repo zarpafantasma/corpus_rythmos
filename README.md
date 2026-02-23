@@ -141,38 +141,46 @@ The RTM framework has been systematically tested against **22+ independent real-
 ### Empirical Coverage
 
 ```
-├── 003-Cascade_Framework/           # RTM_Visual_Cortex_Analysis_Reproducible
-├── 004-Early_Universe/              # RTM_JWST_Analysis_Reproducible
+├── 003-Cascade_Framework/
+│   └── RTM_Visual_Cortex_Analysis_Reproducible
+├── 004-Early_Universe/
+│   ├── RTM_JWST_Analysis_Reproducible
 │   └── Time_Scale_Rescaling (extra)
-├── 005-Black_Holes/                 # RTM_GW_O4_Validation (extended)
+├── 005-Black_Holes/
+│   ├── RTM_GW_O4_Validation (extended)
 │   └── RTM_Gravitational_Wave_Analysis_Reproducible
-├── 006-RTM_Quantum_Computing/       # RTM_Quantum_Decoherence_Analysis_Reproducible
+├── 006-RTM_Quantum_Computing/
+│   ├── RTM_Quantum_Decoherence_Analysis_Reproducible
 │   └── Coherence_Scaling_in_Superconducting_Processors (extra)
-├── 007-Rhythmic_Chemistry/          # RTM_Chemistry_Analysis_Reproducible
-├── 008-Rhythmic_Biochemistry/       # RTM_Biochemistry_Analysis_Reproducible
-├── 009-Homeostasis/                 # RTM_Cardiac_Arrhythmias_Validation
+├── 007-Rhythmic_Chemistry/
+│   └── RTM_Chemistry_Analysis_Reproducible
+├── 008-Rhythmic_Biochemistry/
+│   └── RTM_Biochemistry_Analysis_Reproducible
+├── 009-Homeostasis/
+│   ├── RTM_Cardiac_Arrhythmias_Validation
 │   └── Heart_Rate_Variability_(HRV)_Analysis
-├── 010-Rhythmic_Neuroscience/       # RTM_Neuro_Integrated_Validation
-├── 011-Conscious_Access/            # RTM_Consciousness_Analysis_Reproducible
-├── 012-Rhythmic_Ecology/            # RTM_Ecology_Population_Dynamics
+├── 010-Rhythmic_Neuroscience/
+│   └── RTM_Neuro_Integrated_Validation
+├── 011-Conscious_Access/
+│   └── RTM_Consciousness_Analysis_Reproducible
+├── 012-Rhythmic_Ecology/
+│   ├── RTM_Ecology_Population_Dynamics
 │   └── AnAge_Longevity_Database_Analysis
-├── 013-Rhythmic_Meteorology/        # RTM_Hurricane_RI_Analysis_Reproducible
+├── 013-Rhythmic_Meteorology/
+│   ├── RTM_Hurricane_RI_Analysis_Reproducible
 │   ├── RTM_Climate_Extremes_Validation
 │   ├── Hurricane_Otis (specific)
 │   └── RTM_Seismology_Analysis_Reproducible (extra)
-├── 014-Rhythmic_Astronomy/          # SPARC_Galaxy_Rotation_Curves_Analysis
-└── 015-Rhythmic_Economics/          # RTM_Financial_Crash_Analysis_Reproducible
+├── 014-Rhythmic_Astronomy/
+    └── SPARC_Galaxy_Rotation_Curves_Analysis
+└── 015-Rhythmic_Economics/
+    ├── RTM_Financial_Crash_Analysis_Reproducible
     ├── RTM_Market_Crashes_Validation
     ├── RTM_Forensic_Report: The Liquidity Crisis (March 2020)
     ├── RTM_Forensic_Report: The FTX Solvency Collapse (Nov 2022)
     ├── RTM_Forensic_Report: The China Ban Shock (May 2021)
     ├── RTM_Forensic_Report: The Binance Glitch Anomaly (Oct 2025)
     └── Control Group Analysis (Sept 2023)
-```
-
-### Tools
-└── 015-Rhythmic_Economics/      # RTM Real-Time Monitor
-
 ```
 
 ### RTM Validations:
