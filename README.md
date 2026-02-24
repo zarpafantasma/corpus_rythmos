@@ -321,7 +321,9 @@ You are free to:
 
 
 <p align="center">
+  <a href="#">
   <img src="motto.jpg" width="400">
+    </a>
 </p>
 
 www.zarpafantasma.art
