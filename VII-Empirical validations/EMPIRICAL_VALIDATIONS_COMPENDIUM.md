@@ -142,7 +142,7 @@ No effect observed (informative null result):
 
 ---
 
-#### 1.3 Gravitational Waves O4 Extended ⭐ NEW
+#### 1.3 Gravitational Waves O4 Extended
 **Status:** ✓ STRONG  
 **n:** 183 BBH mergers (O1-O4)  
 **Source:** LIGO-Virgo-KAGRA GWTC-4.0
