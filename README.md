@@ -39,6 +39,8 @@ From the **ballistic ringdown of black holes** ($\alpha \approx 1$) to the **dif
 
 ## Core Claim
 
+RTM acknowledges that power-law scaling is a well-documented phenomenon in statistical mechanics, allometry, and network theory. However, while mainstream science typically treats these scaling exponents merely as descriptions of geometric constraints or anomalous diffusion occurring against an absolute background clock, RTM posits that $\alpha$ is the fundamental, substrate-independent metric of time itself. The framework does not just describe scaling; it treats it as a relational ontology.
+
 | α Range | Transport Class | Examples |
 |---------|-----------------|----------|
 | α ≈ 0.5 | Diffusive | Molecular diffusion, random walks |
