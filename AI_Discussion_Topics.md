@@ -1,6 +1,6 @@
 
 ### About this file:
-Please ask any of the questions presented here once the complete corpus RyThMós (24 documents) has been uploaded to your LLM.
+Please ask any of the questions presented here once the complete corpus RyThMós (24 documents) has been uploaded to your LLM (AI).
 
 Remember, these questions are optional. You can ask whatever you want.
 
