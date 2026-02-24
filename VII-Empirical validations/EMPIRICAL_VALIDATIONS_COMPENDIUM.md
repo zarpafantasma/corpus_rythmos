@@ -561,7 +561,7 @@ To ensure full transparency and scientific rigor, all analyses are reproducible 
 
 ### 1. Environment Setup
 ```bash
-git clone [https://github.com/username/rtm-corpus.git](https://github.com/username/rtm-corpus.git)
+git clone [https://github.com/zarpafantasma/corpus_rythmos.git](https://github.com/zarpafantasma/corpus_rythmos.git)
 cd rtm-corpus/validations
 pip install -r requirements.txt
 
