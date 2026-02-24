@@ -11,7 +11,7 @@
 ---
 
 ## Executive Summary
-The Relatividad Temporal Multiescala (RTM) framework proposes that time scales with structure according to the universal law: $L \propto T^\alpha$. This compendium provides the raw data, analysis scripts, and statistical results that validate this scaling across **9 scientific disciplines**. 
+The Relatividad Temporal Multiescala (RTM) framework proposes that time scales with structure according to the universal law: $T \propto L^\alpha$. This compendium provides the raw data, analysis scripts, and statistical results that validate this scaling across **9 scientific disciplines**. 
 From the ballistic ringdown of colliding black holes to the sub-diffusive dynamics of the human brain, the coherence exponent $\alpha$ serves as a universal metric for system organization.
 
 The Rhythmic Transport Model (RTM) has been validated across **22 independent empirical analyses** spanning physics, astrophysics, chemistry, biochemistry, neuroscience, cardiology, climate science, finance, and **ecology**. The core RTM prediction—that transport phenomena follow universal scaling laws with characteristic exponents—has been confirmed with high statistical significance across diverse systems.
