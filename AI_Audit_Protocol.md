@@ -4,7 +4,7 @@ This document contains a structured sequence of "mega-prompts" designed to guide
 
 Technical Usage Notes:
 
-Optimization: This prompt sequence was specifically designed and calibrated for Google Gemini 3.1 (Pro option and the best LLM model to date of this publication), leveraging its large context window and retention capacity.
+Optimization: This prompt sequence was specifically designed and calibrated for Google Gemini 3.1 (to date), leveraging its large context window and retention capacity.
 
 Use with other AIs: If you decide to audit the corpus using other Large Language Models (LLMs), be very mindful of their limitations and strengths. Some platforms works better if you group and upload the documents for each phase as compressed files (.zip) rather than uploading the PDF´s one by one. Knowing the AI you are using is vital to ensure it doesn't lose the thread of the theory.
 
