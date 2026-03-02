@@ -1,0 +1,9 @@
+parameter,beta_loudness,beta_pitch,frequency_range_hz,n_speakers,hours_recorded
+English (conversational),1.0,0.85,0.0005-20,100,200
+English (reading),0.95,0.8,0.0005-20,50,100
+Spanish,0.98,0.82,0.0005-20,80,150
+Mandarin,0.92,0.75,0.0005-20,120,250
+German,0.96,0.78,0.0005-20,60,120
+Japanese,0.88,0.72,0.0005-20,90,180
+French,0.97,0.8,0.0005-20,70,140
+Italian,0.99,0.82,0.0005-20,55,110

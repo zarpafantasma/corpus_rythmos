@@ -1,0 +1,7 @@
+environment,dfa_exponent,spectral_beta,silence_power_law,sound_distribution,mean_silence_s,hours_recorded
+Savanna,0.92,0.84,-1.5,Log-normal,2.5,720
+Dry forest,0.95,0.9,-1.6,Log-normal,3.2,480
+Urban,0.93,0.86,-1.4,Log-normal,1.8,360
+Rainforest,0.97,0.94,-1.7,Log-normal,4.5,520
+Desert,0.88,0.76,-1.3,Log-normal,5.8,200
+Ocean coast,0.91,0.82,-1.5,Log-normal,2.2,280

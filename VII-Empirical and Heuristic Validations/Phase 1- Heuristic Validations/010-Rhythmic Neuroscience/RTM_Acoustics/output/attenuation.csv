@@ -1,0 +1,13 @@
+medium,eta_exponent,alpha_0_dB_cm_MHz,frequency_range_MHz,mechanism
+Water (pure),2.0,0.0022,1-50,Viscous absorption
+Seawater,1.8,0.003,0.01-1,Ionic relaxation
+Air (20°C),2.0,0.012,0.001-0.1,Molecular relaxation
+Soft tissue (average),1.1,0.5,1-10,Viscoelastic
+Liver,1.0,0.4,1-10,Viscoelastic
+Muscle,1.2,0.6,1-10,Viscoelastic
+Fat,0.8,0.3,1-10,Viscoelastic
+Bone,0.5,10.0,0.5-5,Scattering
+Blood,1.2,0.2,1-10,Viscoelastic
+Polymers (typical),1.5,2.0,0.5-10,Viscoelastic
+Rubber,1.0,5.0,0.1-5,Viscoelastic
+Steel,0.0,0.001,1-100,Thermoelastic

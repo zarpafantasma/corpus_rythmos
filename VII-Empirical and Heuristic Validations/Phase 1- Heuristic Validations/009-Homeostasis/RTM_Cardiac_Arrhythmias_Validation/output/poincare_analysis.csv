@@ -1,0 +1,9 @@
+Condition,SD1_ms,SD2_ms,SD1_SD2_Ratio,Pattern,n_subjects
+Healthy,45,120,0.38,Comet,100
+CHF Mild,25,80,0.31,Torpedo,40
+CHF Severe,12,45,0.27,Point,30
+AF,35,60,0.58,Fan,50
+Post-MI,30,85,0.35,Torpedo,80
+Diabetic,20,55,0.36,Torpedo,60
+Hypertensive,35,100,0.35,Comet,70
+Transplant,8,25,0.32,Point,20

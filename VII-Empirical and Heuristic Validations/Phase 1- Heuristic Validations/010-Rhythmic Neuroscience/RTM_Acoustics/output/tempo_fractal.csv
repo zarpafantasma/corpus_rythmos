@@ -1,0 +1,9 @@
+piece,hurst_exponent,dfa_alpha,spectral_alpha,performer,n_beats
+Beethoven Sonata Op.13,0.82,0.82,1.64,Expert pianist,800
+Chopin Etude Op.10/3,0.85,0.85,1.7,Expert pianist,650
+"Gershwin ""I Got Rhythm""",0.78,0.78,1.56,Jazz pianist,450
+Bach Invention,0.8,0.8,1.6,Expert pianist,380
+Mozart Sonata K.331,0.79,0.79,1.58,Expert pianist,520
+Debussy Clair de Lune,0.84,0.84,1.68,Expert pianist,420
+Schubert Impromptu,0.81,0.81,1.62,Expert pianist,480
+Brahms Intermezzo,0.83,0.83,1.66,Expert pianist,550

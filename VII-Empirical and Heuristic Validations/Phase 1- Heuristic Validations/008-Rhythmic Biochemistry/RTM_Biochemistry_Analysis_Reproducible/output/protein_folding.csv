@@ -1,0 +1,85 @@
+PDB,Length,ln_kf,Fold_Type,Structure,Reference,ln_L
+1PGB,16,12.0,Two-state,Beta,Ivankov 2003,2.772588722239781
+Trp-cage,20,14.2,Two-state,Mixed,Qiu 2002,2.995732273553991
+1L2Y,20,12.4,Two-state,Mixed,Ivankov 2003,2.995732273553991
+BBA5,23,13.8,Two-state,Mixed,Kubelka 2004,3.1354942159291497
+WW-domain,34,11.8,Two-state,Beta,Ferguson 2001,3.5263605246161616
+1PIN,34,9.5,Two-state,Beta,Ivankov 2003,3.5263605246161616
+Villin HP35,35,12.9,Two-state,Alpha,Kubelka 2003,3.5553480614894135
+1VII,36,11.5,Two-state,Alpha,Ivankov 2003,3.58351893845611
+1E0M,37,8.8,Two-state,Alpha,Ivankov 2003,3.6109179126442243
+1E0L,37,10.4,Two-state,Alpha,Ivankov 2003,3.6109179126442243
+EnHD,37,11.2,Two-state,Alpha,Mayor 2003,3.6109179126442243
+1K9Q,40,8.4,Two-state,Alpha,Ivankov 2003,3.6888794541139363
+Lambda-6-85,40,13.1,Two-state,Alpha,Yang 2003,3.6888794541139363
+2PDD,43,9.7,Two-state,Alpha,Ivankov 2003,3.7612001156935624
+BBL,45,12.5,Two-state,Alpha,Garcia-Mira 2002,3.8066624897703196
+NTL9,52,9.8,Two-state,Beta,Kuhlman 1998,3.9512437185814275
+1PRB,53,12.9,Two-state,Alpha,Ivankov 2003,3.970291913552122
+1BA5,53,5.9,Two-state,Beta,Ivankov 2003,3.970291913552122
+1IDY,54,8.7,Two-state,Alpha,Ivankov 2003,3.9889840465642745
+1ENH,54,10.5,Two-state,Alpha,Ivankov 2003,3.9889840465642745
+Protein G,56,8.6,Two-state,Mixed,Park 1999,4.02535169073515
+1FMK,57,4.1,Two-state,Beta,Ivankov 2003,4.04305126783455
+1SHG,57,2.1,Two-state,Beta,Ivankov 2003,4.04305126783455
+SH3,57,3.2,Two-state,Beta,Grantcharova 1997,4.04305126783455
+1NYF,58,4.5,Two-state,Beta,Ivankov 2003,4.060443010546419
+1FEX,59,8.2,Two-state,Mixed,Ivankov 2003,4.07753744390572
+1BDD,60,11.7,Two-state,Alpha,Ivankov 2003,4.0943445622221
+Protein L,62,7.4,Two-state,Mixed,Scalley 1997,4.127134385045092
+1C8C,64,7.0,Two-state,Beta,Ivankov 2003,4.1588830833596715
+CI2,65,3.9,Two-state,Mixed,Jackson 1991,4.174387269895637
+2CI2,65,3.9,Two-state,Mixed,Ivankov 2003,4.174387269895637
+1C9O,66,7.2,Two-state,Alpha,Ivankov 2003,4.189654742026425
+1G6P,66,6.3,Two-state,Alpha,Ivankov 2003,4.189654742026425
+CspB,67,6.5,Two-state,Beta,Schindler 1995,4.204692619390966
+1CSP,67,6.5,Two-state,Beta,Ivankov 2003,4.204692619390966
+CspA,68,5.8,Two-state,Beta,Reid 1998,4.219507705176107
+1MJC,69,5.2,Two-state,Beta,Ivankov 2003,4.23410650459726
+1PSE,69,1.2,Two-state,Beta,Ivankov 2003,4.23410650459726
+Ubiquitin,72,6.2,Two-state,Mixed,Khorasanizadeh 1996,4.276666119016055
+2A3D,73,12.7,Two-state,Alpha,Ivankov 2003,4.290459441148391
+2AIT,74,4.2,Two-state,Mixed,Ivankov 2003,4.30406509320417
+AcP,75,2.8,Two-state,Mixed,Chiti 1999,4.31748811353631
+1PKS,76,-1.1,Two-state,Mixed,Ivankov 2003,4.330733340286331
+ACBP,76,6.8,Two-state,Alpha,Kragelund 1996,4.330733340286331
+1RFA,78,7.0,Two-state,Mixed,Ivankov 2003,4.356708826689592
+Lambda-Rep,80,8.5,Two-state,Alpha,Burton 1997,4.382026634673881
+1LMB,80,8.5,Two-state,Alpha,Ivankov 2003,4.382026634673881
+mAcP,81,3.1,Two-state,Mixed,Chiti 1998,4.394449154672439
+CD2,81,3.5,Two-state,Beta,Parker 1995,4.394449154672439
+1HDN,85,2.7,Two-state,Beta,Ivankov 2003,4.442651256490317
+1IMQ,86,7.3,Two-state,Alpha,Ivankov 2003,4.454347296253507
+2ABD,86,6.6,Two-state,Alpha,Ivankov 2003,4.454347296253507
+1K8M,87,-0.7,Two-state,Beta,Ivankov 2003,4.465908118654584
+1TEN,89,1.1,Two-state,Beta,Ivankov 2003,4.48863636973214
+TNfn3,89,1.8,Two-state,Beta,Hamill 2000,4.48863636973214
+1FNF,90,-0.9,Two-state,Beta,Ivankov 2003,4.499809670330265
+1WIT,93,0.4,Two-state,Beta,Ivankov 2003,4.532599493153256
+Suc1,95,1.2,Two-state,Mixed,Schymkowitz 2000,4.553876891600541
+1URN,96,5.8,Two-state,Mixed,Ivankov 2003,4.564348191467836
+2ACY,98,0.8,Two-state,Mixed,Ivankov 2003,4.584967478670572
+1APS,98,-1.5,Two-state,Mixed,Ivankov 2003,4.584967478670572
+ADA2h,99,2.1,Two-state,Alpha,Villegas 1998,4.59511985013459
+FKBP12,107,1.5,Two-state,Mixed,Main 1999,4.672828834461906
+1FKB,107,1.5,Two-state,Mixed,Ivankov 2003,4.672828834461906
+CheY,110,1.8,Two-state,Mixed,Munoz 1994,4.700480365792417
+1QTU,115,-0.4,Two-state,Beta,Ivankov 2003,4.74493212836325
+Im7,120,5.2,Two-state,Alpha,Ferguson 1999,4.787491742782046
+Barnase,124,1.1,Three-state,Mixed,Matouschek 1990,4.820281565605037
+RNase H,135,0.8,Three-state,Mixed,Raschke 1997,4.90527477843843
+CheA,138,-0.2,Two-state,Mixed,Zhou 2000,4.927253685157205
+Lysozyme,147,0.4,Three-state,Mixed,Radford 1992,4.990432586778736
+RNase A,150,-0.5,Three-state,Mixed,Houry 1999,5.0106352940962555
+Cytochrome c,154,2.9,Two-state,Alpha,Sosnick 1994,5.0369526024136295
+Apomyoglobin,156,1.3,Three-state,Alpha,Jennings 1993,5.049856007249537
+GB1,56,8.8,Two-state,Mixed,Maxwell 2005,4.02535169073515
+FynSH3,65,4.5,Two-state,Beta,Maxwell 2005,4.174387269895637
+Spectrin-SH3,62,3.4,Two-state,Beta,Maxwell 2005,4.127134385045092
+Tenascin,89,1.5,Two-state,Beta,Maxwell 2005,4.48863636973214
+FNfn10,94,1.2,Two-state,Beta,Maxwell 2005,4.543294782270004
+S6,101,4.8,Two-state,Mixed,Maxwell 2005,4.61512051684126
+U1A,102,5.5,Two-state,Mixed,Silow 1997,4.624972813284271
+Im9,120,4.8,Two-state,Alpha,Friel 2003,4.787491742782046
+Titin-I27,89,-0.3,Two-state,Beta,Fowler 2001,4.48863636973214
+SOD1,153,-1.2,Two-state,Beta,Lindberg 2004,5.030437921392435

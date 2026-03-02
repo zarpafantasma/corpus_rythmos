@@ -1,0 +1,7 @@
+system,alpha_roughness,beta_growth,z_dynamic,context
+Traffic flow (empirical),0.48,0.32,1.48,Nashville I-24
+Traffic flow (theory),0.5,0.33,1.5,LWR model
+Burning paper,0.5,0.33,1.52,Interface growth
+Bacterial colonies,0.48,0.31,1.49,Colony expansion
+Liquid crystals,0.51,0.34,1.51,Turbulent nematic
+KPZ exact,0.5,0.33,1.5,Exact solution

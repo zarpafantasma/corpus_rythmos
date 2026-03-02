@@ -1,0 +1,13 @@
+genre,beta_pitch,beta_loudness,cutoff_notes,n_pieces,long_range_corr
+Classical (Bach),1.05,0.95,85,50,Strong
+Classical (Beethoven),1.02,0.98,72,32,Strong
+Classical (Mozart),0.98,0.92,65,45,Strong
+Romantic (Chopin),1.08,1.02,95,28,Strong
+Jazz (improvisation),0.85,0.88,45,120,Moderate
+Jazz (composed),0.92,0.9,55,40,Moderate
+Pop/Rock,0.78,0.85,35,85,Weak
+Electronic,0.65,0.75,25,60,Weak
+Folk,0.88,0.82,50,35,Moderate
+Blues,0.82,0.88,42,30,Moderate
+Country,0.85,0.82,48,40,Moderate
+Hip-hop,0.72,0.78,32,55,Weak

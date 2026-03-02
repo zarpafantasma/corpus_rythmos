@@ -1,0 +1,15 @@
+State,Slope,SEM,n,Conscious,Study,RTM_alpha
+Wakefulness,-1.84,0.3,9,True,Propofol-Scalp,1.84
+Propofol Anesthesia,-3.1,0.2,9,False,Propofol-Scalp,3.1
+Wake (pre-sleep),-2.26,0.12,20,True,Sleep-Scalp,2.26
+N3 (deep NREM),-3.4,0.09,20,False,Sleep-Scalp,3.4
+REM Sleep,-4.0,0.18,20,True,Sleep-Scalp,4.0
+Xenon - Wake,-1.75,0.25,5,True,Colombo-Xenon,1.75
+Xenon - Anesthesia,-2.9,0.3,5,False,Colombo-Xenon,2.9
+Propofol - Wake,-1.8,0.2,5,True,Colombo-Propofol,1.8
+Propofol - Anesthesia,-3.05,0.25,5,False,Colombo-Propofol,3.05
+Ketamine - Wake,-1.85,0.22,5,True,Colombo-Ketamine,1.85
+Ketamine - Anesthesia,-1.95,0.28,5,True,Colombo-Ketamine,1.95
+Wake (NSRR),-2.1,0.02,10255,True,Purcell-NSRR,2.1
+NREM (NSRR),-2.85,0.01,10255,False,Purcell-NSRR,2.85
+REM (NSRR),-3.25,0.01,10255,True,Purcell-NSRR,3.25

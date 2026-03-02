@@ -1,0 +1,15 @@
+city,mean_displacement_km,median_displacement_km,lognormal_mu,lognormal_sigma,power_law_alpha,cutoff_km,n_trips_millions
+New York City,4.2,2.8,0.95,0.85,3.2,8.0,1100
+San Francisco,5.8,3.5,1.12,0.78,3.0,10.0,25
+Singapore,6.2,4.0,1.25,0.72,2.8,12.0,15
+Vienna,4.5,3.2,1.05,0.8,3.1,9.0,8
+Beijing,7.3,4.5,1.35,0.75,2.9,15.0,200
+Shanghai,8.1,5.2,1.45,0.7,2.7,18.0,180
+Shenzhen,6.5,4.1,1.28,0.73,2.85,13.0,120
+Dalian,5.2,3.5,1.1,0.82,3.05,10.0,30
+Nanjing,5.8,3.8,1.18,0.78,2.95,11.0,40
+Florence,4.8,3.2,1.08,0.8,3.15,9.5,10
+Rome,5.5,3.8,1.15,0.77,3.0,11.0,15
+Chicago,5.1,3.4,1.05,0.82,3.1,10.5,50
+Boston,4.3,2.9,0.98,0.84,3.25,8.5,20
+London,5.7,3.6,1.12,0.79,2.95,11.5,80
