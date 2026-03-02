@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark-.png">
-  <img alt="RTM - Relatividad Temporal Multiescala" src="banner-dark-.png" width="100%">
+  <img alt="RTM - Relatividad Temporal Multiescala" src="banner.png" width="100%">
 </picture>
 
 <div align="center">
@@ -11,9 +11,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737862.svg)](https://doi.org/10.5281/zenodo.18737862)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Website](https://img.shields.io/badge/Web-zarpafantasma.art-black?style=flat-square&logo=visual-studio-code&logoColor=white)](https://zarpafantasma.art)
+[![Website](https://img.shields.io/badge/Web-zarpafantasma.art-black?style=flat-square&logo=visual-studio-code&logoColor=white)](https://zarpafantasma.art/rtm)
 ![Theory](https://img.shields.io/badge/Theory-RTM-gold)
-[![Validations](https://img.shields.io/badge/Validations-22_Empirical-0052cc)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20validations)
+[![Validations](https://img.shields.io/badge/ROBUST-22_Empirical-darkgreen)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20validations)
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
 [![Email](https://img.shields.io/badge/Contact-Email-white?logo=gmail&logoColor=red)](mailto:zarpafantasma@gmail.com)
 
@@ -43,9 +43,10 @@ RTM acknowledges that power-law scaling is a well-documented phenomenon in stati
 
 | α Range | Transport Class | Examples |
 |---------|-----------------|----------|
+| α < 0 | Inverse | Quantum decoherence, network fragility |
 | α ≈ 0.5 | Diffusive | Molecular diffusion, random walks |
-| α ≈ 1.0 | Ballistic/Advective | Wave propagation, directed flow |
-| α ≈ 1.5-2.0 | Hierarchical | Biological networks, neural cascades |
+| α ≈ 1.0 | Ballistic/Advective | Wave propagation, seismic ruptures, GW ringdown |
+| α ≈ 1.5-2.0 | Hierarchical | Biological networks, neural cascades, galaxies |
 | α > 2.0 | Coherent/Organized | Mature cyclones, conscious states |
 
 The methodology is **slope-first**: α is estimated only by multi-point log-log regression with errors-in-variables (EIV), and only when collapse diagnostics pass. When the data choose other grammars, we report failure modes (NO_COLLAPSE, LOG-SCALING, MULTI-REGIME) rather than forcing power laws.
@@ -54,9 +55,121 @@ The methodology is **slope-first**: α is estimated only by multi-point log-log 
 
 ---
 
+## Empirical Validation
+
+### Validation Philosophy: ROBUST vs Heuristic
+
+RTM distinguishes between two tiers of empirical evidence:
+
+| Tier | Methodology | Status |
+|------|-------------|--------|
+| **🟢 ROBUST (Red Team)** | ODR, Monte Carlo, subject-level variance, covariate isolation | **Primary evidence** |
+| **🟡 Heuristic** | OLS, point-estimates, aggregated averages | Exploratory / supplementary |
+
+All ROBUST validations have undergone adversarial "Red Team" audits correcting for:
+- **Attenuation bias** (OLS → ODR)
+- **Aggregation fallacy** (means → subject-level distributions)
+- **Simpson's paradox** (confounders isolated)
+- **Ecological fallacy** (population variance reconstructed)
+
+---
+
+## 🟢 ROBUST Validations (Red Team Audited)
+
+**22 domains | ODR + Monte Carlo | Errors-in-Variables propagated**
+
+### Astrophysics & Cosmology
+
+| Domain | Robust α | Method | RTM Class |
+|--------|----------|--------|-----------|
+| **Galactic Rotation (SPARC)** | **1.993 ± 0.130** | ODR + MC (n=52 flat curves) | Hierarchical (α→2) |
+| **Binary Black Holes (O1-O3)** | **1.037 ± 0.018** | ODR + Spin-correction (n=55) | Ballistic |
+| **Seismology** | **1.007 ± 0.016** | ODR (n=51 faults) | Ballistic |
+
+### Physics & Chemistry
+
+| Domain | Robust α | Method | RTM Class |
+|--------|----------|--------|-----------|
+| **Quantum Decoherence** | **-0.259 ± 0.049** | Multivariable ODR (tech-normalized) | Inverse |
+| **Chemistry (Bulk)** | **-1.23 ± 0.04** | ODR (Stokes-Einstein) | Inverse |
+| **Chemistry (Confined)** | **+7.25 ± 1.06** | ODR + Guest-normalization | Critical/Resonant |
+| **Plasma Physics** | **-1.52 → -1.72** | Dynamic relaxation (IK→K5/3) | Topological friction |
+
+### Neuroscience & Consciousness
+
+| Domain | Finding | Method | Effect Size |
+|--------|---------|--------|-------------|
+| **Visual Cortex** | α = 0.311 ± 0.021 | ODR (n=21 areas) | Sub-diffusive |
+| **Neuroscience (4 domains)** | Seizure/Sleep/Meditation/LSD | MC subject-level (n=15,018) | d = 0.98–3.30 |
+| **Consciousness** | Ketamine vs Propofol | MC variance (n=30,873) | p < 10⁻¹⁰ |
+
+### Biology & Medicine
+
+| Domain | Finding | Method | Significance |
+|--------|---------|--------|--------------|
+| **Biochemistry (Folding)** | α = +7.22 ± 0.62 | EC-normalized ODR | Topological |
+| **Biochemistry (Enzyme)** | α ≈ 0 | EC-normalized ODR | Chemical (local) |
+| **Cardiac (HRV)** | Healthy α=1.03, CHF α=0.53 | Subject-level MC | p < 10⁻¹⁰ |
+| **Homeostasis** | CHF drop = -0.322 | Multivariable regression | Age-isolated |
+| **Ecology (Allometry)** | α = 0.19–0.24 | ODR (Mammalia/Aves/Reptilia) | Quarter-power |
+| **Population Dynamics** | β = 0.82 (1/f) | MC + Taylor's Law | Critical |
+
+### Earth & Climate
+
+| Domain | Finding | Method | RTM Class |
+|--------|---------|--------|-----------|
+| **Hurricane RI** | 11.6h warning window | Continuous ODR | Phase transition |
+| **Climate Extremes** | α = 0.43 ± 0.002 | Spatial variance ODR | Sub-diffusive |
+| **Oceanography** | n = 2.913 ± 0.337 | MC (1,090 drifters) | Richardson t³ |
+
+### Socioeconomic Systems
+
+| Domain | Finding | Method | Significance |
+|--------|---------|--------|--------------|
+| **Epidemiology (COVID)** | α = 0.953 ± 0.044 | ODR + MC (k=0.226) | Scale-free |
+| **Financial Crashes** | 10-day warning | MC + ODR | d = -1.45 |
+| **Market Returns** | α = 2.966 ± 0.236 | MC (16 markets) | Inverse cubic |
+| **Urban Transport** | α = 3.00 ± 0.16, τ = 2.50 | ODR + MC | Lévy/SOC |
+| **Acoustics** | β = 0.88–0.96, H = 0.81 | Cognitive signature | 1/f pink noise |
+
+---
+
+## Key ROBUST Findings Summary
+
+### The Ballistic Universality (α ≈ 1.0)
+Three entirely independent physical systems converge on the same exponent:
+- **Black hole mergers:** α = 1.037 ± 0.018
+- **Seismic ruptures:** α = 1.007 ± 0.016  
+- **Epidemics:** α = 0.953 ± 0.044
+
+### The Hierarchical Attractor (α ≈ 2.0)
+- **Flat galaxy rotation curves:** α = 1.993 ± 0.130 (Dark Matter as topology)
+
+### The Inverse Class (α < 0)
+- **Quantum decoherence:** α = -0.259 ± 0.049 (coherence degrades with scale)
+- **Bulk diffusion:** α = -1.23 ± 0.04 (Stokes-Einstein friction)
+
+### The Critical Threshold
+- **Consciousness:** Propofol destroys topology (Δβ ≈ -1.25), Ketamine preserves it (Δβ ≈ -0.10)
+- **Cardiac health:** α ≈ 1.0 (healthy) → α ≈ 0.5 (CHF collapse)
+
+---
+
+## 🟡 Heuristic Analyses (Exploratory)
+
+The following analyses provided initial directional evidence but suffer from methodological limitations (OLS, aggregation, point-estimates). They are retained as exploratory supplements, not primary evidence.
+
+| Domain | Original Finding | Limitation | Status |
+|--------|------------------|------------|--------|
+| GW O4 (synthetic) | α = 1.018 | Synthetic extrapolation | Superseded by O1-O3 ROBUST |
+| JWST Early Universe | Structure timing | Limited epochs | Exploratory |
+| Various domain averages | High R² | Aggregation fallacy | Superseded by subject-level |
+
+---
+
 ## Corpus Structure
 
-The RTM corpus comprises **24 documents** across five categories:
+The corpus comprises **24 documents** across five categories:
 
 ### Scientific / Technical
 
@@ -97,17 +210,6 @@ The RTM corpus comprises **24 documents** across five categories:
 | Remember, the Eternal Flame | Fiction | Novel mythologizing the framework |
 | The Hidden Doors and the Half Key | Origin | Candid authorship account |
 
-### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
-
-### Conventions & Status Tags
-- **Reading path (suggested):** Foundations → Domain applications → Aetherion → Philosophy → Fiction → About the Autor.
-- **Disclaimers:** scientific claims are falsifiable; philosophical/metaphysical are non-empirical; literary is fiction; “About the Autor” is process transparency.
-
-### Reading Paths by Audience:
-- **Physicists:** Scale-Clock Geometry → RTM Analytical → Aetherion → skip philosophy initially
-- **Philosophers:** Multiscale Symphony → Owl and Spear → then Foundations
-- **General readers:** Hidden Doors → Eternal Flame → work backward to science
-- **Skeptics:** Falsification Criteria → run the simulations → run the real data analysis.
 ---
 
 ## Computational Validation
@@ -118,98 +220,7 @@ The corpus includes **70+ simulation suites** demonstrating:
 - **Distinguishability**: Effect sizes (d > 1.5) separating predictions from nulls  
 - **Parameter mapping**: α ranges and critical thresholds per domain
 
-### Simulation Coverage
-
-```
-├── 001-RTM_Analytical/          # Core simulations (A-G)
-├── 003-Cascade_Framework/       # Directional tests (E1-E4)
-├── 004-Early_Universe/          # Cosmological tools (T1-T4)
-├── 005-Black_Holes/             # Horizon tools (T1-T4)
-├── 006-RTM_Quantum_Computing/   # Layer diagnostics (S1-S5)
-├── 007-Rhythmic_Chemistry/      # Confinement (S1-S3)
-├── 008-Rhythmic_Biochemistry/   # Enzyme kinetics (S1-S3)
-├── 009-Homeostasis/             # C_bio framework (S1-S3)
-├── 010-Rhythmic_Neuroscience/   # Neural scaling (S1-S3)
-├── 011-Conscious_Access/        # Threshold model (S1-S3)
-├── 012-Rhythmic_Ecology/        # Ecosystem dynamics (S1-S3)
-├── 013-Rhythmic_Meteorology/    # Atmospheric regimes (S1-S3)
-├── 014-Rhythmic_Astronomy/      # Galaxy analysis
-├── 015-Rhythmic_Economics/      # ECI framework (S1-S3)
-├── 016-Aetherion/               # Propulsion model (Chs I-III)
-└── 017-RTM-Unifield-Field/      # simulations (S1-S5)
-```
-
-## Empirical Validation
-
-The RTM framework has been systematically tested against **22+ independent real-world datasets**, totaling over **75,000 subjects and events**. Key results include:
-
-- **Universal Invariance**: Consistent α-scaling across 15 orders of magnitude (from qubits to galaxies).
-- **Predictive Power**: Significant lead times in chaos detection (12h for hurricanes, 10d for market crashes).
-- **Statistical Rigor**: Effect sizes (d > 2.5) and significance levels (p < 0.0001) exceeding standard model benchmarks.
-
-### Empirical Coverage
-```
-├── 003-Cascade_Framework/
-    └── RTM_Visual_Cortex_Analysis_Reproducible
-├── 004-Early_Universe/
-    ├── RTM_JWST_Analysis_Reproducible
-    └── Time_Scale_Rescaling (extra)
-├── 005-Black_Holes/
-    ├── RTM_GW_O4_Validation (extended)
-    └── RTM_Gravitational_Wave_Analysis_Reproducible
-├── 006-RTM_Quantum_Computing/
-    ├── RTM_Quantum_Decoherence_Analysis_Reproducible
-    └── Coherence_Scaling_in_Superconducting_Processors (extra)
-├── 007-Rhythmic_Chemistry/
-    └── RTM_Chemistry_Analysis_Reproducible
-├── 008-Rhythmic_Biochemistry/
-    └── RTM_Biochemistry_Analysis_Reproducible
-├── 009-Homeostasis/
-    ├── RTM_Cardiac_Arrhythmias_Validation
-    └── Heart_Rate_Variability_(HRV)_Analysis
-├── 010-Rhythmic_Neuroscience/
-    └── RTM_Neuro_Integrated_Validation
-├── 011-Conscious_Access/
-    └── RTM_Consciousness_Analysis_Reproducible
-├── 012-Rhythmic_Ecology/
-    ├── RTM_Ecology_Population_Dynamics
-    └── AnAge_Longevity_Database_Analysis
-├── 013-Rhythmic_Meteorology/
-    ├── RTM_RTM_Hurricane_RI_Analysis_Reproducible
-    ├── RTM_Climate_Extremes_Validation
-    ├── Hurricane_Otis (specific)
-    └── RTM_Seismology_Analysis_Reproducible (extra)
-├── 014-Rhythmic_Astronomy/
-    └── SPARC_Galaxy_Rotation_Curves_Analysis
-└── 015-Rhythmic_Economics/
-    ├── RTM_Financial_Crash_Analysis_Reproducible
-    ├── RTM_Market_Crashes_Validation
-    ├── RTM_Forensic_Report: The Liquidity Crisis (March 2020)
-    ├── RTM_Forensic_Report: The FTX Solvency Collapse (Nov 2022)
-    ├── RTM_Forensic_Report: The China Ban Shock (May 2021)
-    ├── RTM_Forensic_Report: The Binance Glitch Anomaly (Oct 2025)
-    ├── Control Group Analysis (Sept 2023)
-    └── RTM Real-Time Monitor
-```
-**RTM does not ask to be believed. It asks to be tested.**
-
-
-### RTM Validations:
-22 documented analyses | ~70,000+ subjects | 16 reproducible packages
-```
-| Domain | Analysis |
-|--------------|--------------|
-| Physics      | SPARC, JWST, GW O4 (α=1.018), Seismology, Hurricane RI |
-| Chemistry    | Zeolites, Stokes-Einstein |
-| Biochemistry | Protein folding, Enzyme kinetics |
-| Neuroscience | Visual Cortex, Consciousness, RTM-Neuro (4 domains) |
-| Cardiology   | Arrhythmias (5 domains, n≈3,900) |
-| Climate      | ERA5 Extremes (5 domains) |
-| Finance      | Market Crashes (5 domains, 17 crashes) |
-| Astrophysics | GW O4 (183 BBH, α=1.018, BALLISTIC) |
-| Ecology      | GPDD (1,800+ species, $\beta$=0.82), Isle Royale (66y), Taylor's Law, Extinction Scaling |
-
-```
+---
 
 ## Getting Started
 
@@ -241,30 +252,33 @@ cd 009-Homeostasis/S1_cbio_hrv/
 python S1_cbio_hrv.py
 ```
 
-Outputs appear in the `output/` subdirectory.
-
 ### Quick Example
 
 ```python
 import numpy as np
-from scipy import stats
+from scipy import odr
 
-# RTM scaling: τ ∝ L^α
-def tau_rtm(L, tau_0, alpha, L_ref=1.0):
-    return tau_0 * (L / L_ref) ** alpha
+# RTM scaling with ODR (Errors-in-Variables)
+def rtm_model(B, x):
+    return B[0] + B[1] * x  # log-log linear
 
-# Generate data
-L = np.logspace(0, 2, 50)
-tau = tau_rtm(L, tau_0=1.0, alpha=1.5)
-tau_noisy = tau * np.exp(0.1 * np.random.randn(len(L)))
+# Example: Seismic rupture scaling
+log_L = np.array([1.5, 1.8, 2.0, 2.3, 2.5, 2.8])  # log(Length)
+log_T = np.array([1.48, 1.82, 2.01, 2.28, 2.52, 2.79])  # log(Duration)
+sx = 0.15 * np.ones_like(log_L)  # 15% length uncertainty
+sy = 0.20 * np.ones_like(log_T)  # 20% duration uncertainty
 
-# Estimate α (Theil-Sen robust regression)
-result = stats.theilslopes(np.log(tau_noisy), np.log(L))
-alpha_estimated = result[0]
+# ODR fit
+model = odr.Model(rtm_model)
+data = odr.RealData(log_L, log_T, sx=sx, sy=sy)
+fit = odr.ODR(data, model, beta0=[0, 1])
+result = fit.run()
 
-print(f"True α: 1.5, Estimated α: {alpha_estimated:.3f}")
+print(f"RTM α = {result.beta[1]:.3f} ± {result.sd_beta[1]:.3f}")
+# Expected: α ≈ 1.00 (Ballistic)
 ```
-```
+
+---
 
 ## Citation
 
@@ -276,7 +290,7 @@ If you use this work, please cite it using the DOI:
 
 ```bibtex
 @software{rtm_corpus_2026,
-  author       = {[Álvaro Quiceno]},
+  author       = {Álvaro Quiceno},
   title        = {{Corpus RyThMós: Relatividad Temporal Multiescala (RTM)}},
   year         = {2026},
   publisher    = {Zenodo},
@@ -284,10 +298,6 @@ If you use this work, please cite it using the DOI:
   url          = {https://doi.org/10.5281/zenodo.18737862}
 }
 ```
-
-### APA
-
-[Álvaro Quiceno]. (2026). *corpus RyThMós: Relatividad Temporal Multiescala (RTM)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18737862
 
 ---
 
@@ -308,17 +318,9 @@ Please open an issue or pull request.
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-You are free to:
-- **Share** — copy and redistribute the material
-- **Adapt** — remix, transform, and build upon the material
-
 ---
 
-
 <div align="center">
-
-
-
 
 <p align="center">
   <a href="#">
