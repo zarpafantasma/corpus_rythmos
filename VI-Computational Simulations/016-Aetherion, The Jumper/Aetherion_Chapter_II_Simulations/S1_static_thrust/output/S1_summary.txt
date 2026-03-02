@@ -1,0 +1,37 @@
+S1: Static Thrust Calculator
+============================
+
+Date: 2026-02-09 01:12:48
+
+KEY EQUATION
+------------
+F/A = κ_eff × |∇α| × ε_vac
+
+PARAMETERS
+----------
+κ_eff = 0.8 (coupling constant)
+ε_vac = 1e-09 J/m³ (accessible vacuum energy)
+
+EXAMPLE RESULTS
+---------------
+Lab-scale (10 cm slab, 1 cm² area):
+  ∇α = 10 /m
+  F/A = 8.00e-09 Pa
+  F_total = 0.001 nN
+
+Prototype chamber (20 cm, π×10² cm²):
+  ∇α = 5 /m
+  F_total = 0.126 nN
+
+KEY INSIGHTS
+------------
+1. Thrust scales linearly with |∇α|
+2. Direction is set by sign of ∇α
+3. No reaction mass expelled (reactionless)
+4. Thrust ~nN scale with current parameters
+
+PAPER VERIFICATION
+------------------
+✓ F/A ∝ |∇α| confirmed
+✓ Directionality: reversing gradient reverses thrust
+✓ Scalability: larger area → proportionally more force
