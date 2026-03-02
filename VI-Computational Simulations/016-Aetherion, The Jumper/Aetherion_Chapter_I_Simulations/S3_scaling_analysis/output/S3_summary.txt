@@ -1,0 +1,35 @@
+S3: Scaling and Convergence Analysis
+=====================================
+
+Date: 2026-02-09 00:59:39
+
+TEST 1: P ∝ γ² Scaling
+----------------------
+Paper prediction: P scales with coupling strength squared
+Fitted slope: 2.000 ± 0.000
+Expected slope: 2.0
+R² = 1.0000
+Result: PASS ✓
+
+TEST 2: Mesh Convergence
+------------------------
+Paper prediction: P changes < 1% once N is large enough
+N tested: [np.int64(30), np.int64(60), np.int64(120), np.int64(240), np.int64(480)]
+Convergence achieved at N ≥ 120
+Result: PASS ✓
+
+TEST 3: P vs α-Gradient
+-----------------------
+P increases with gradient magnitude
+Fitted slope: 3.000
+R² = 1.0000
+Result: PASS ✓
+
+CONCLUSION
+----------
+All scaling predictions from the paper are validated:
+- P ∝ γ² (coupling squared)
+- Mesh convergence achieved
+- P depends on imposed α-gradient
+
+The Aetherion extraction mechanism operates as predicted.

@@ -1,0 +1,5 @@
+Metric,Value
+Flawed_Abs_Power,0.1423215061154043
+True_Net_Power_Ideal,-5.645201820127915e-18
+True_Net_Power_Mean_Robust,1.622861329141309e-05
+True_Net_Power_Std_Robust,0.005794665271740362
