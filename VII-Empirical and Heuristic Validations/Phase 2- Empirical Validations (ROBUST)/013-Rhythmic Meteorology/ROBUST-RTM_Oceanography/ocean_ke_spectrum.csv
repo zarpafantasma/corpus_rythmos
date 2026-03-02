@@ -1,0 +1,8 @@
+scale_km,ke_cm2_s2,spectral_slope,dominant_process,seasonal_variation
+10,120,-2.8,Submesoscale turbulence,High
+30,80,-2.5,Submesoscale eddies,High
+100,50,-3.0,Mesoscale eddies (peak),Moderate
+300,35,-3.2,Mesoscale eddies,Moderate
+1000,15,-2.5,Large-scale gyres,Low
+3000,8,-2.0,Basin modes,Low
+10000,3,-1.5,Antarctic Circumpolar Current,Moderate

@@ -1,0 +1,7 @@
+experiment,richardson_exponent,richardson_error,scale_range_km,n_pairs,k43_confirmed
+North Atlantic (NATRE),2.8,0.3,1-100,250,Yes
+Pacific (DIMES),3.1,0.2,1-200,180,Yes
+Mediterranean (LATEX),2.9,0.25,0.5-50,120,Yes
+Gulf Stream,2.7,0.35,5-150,300,Partial
+Labrador Sea,3.0,0.28,1-80,90,Yes
+Southern Ocean,3.2,0.22,2-300,150,Yes
