@@ -1,0 +1,33 @@
+S1: Predicted Calorimetric Power
+================================
+
+Date: 2026-02-09 02:27:17
+
+CHAMBER PARAMETERS
+------------------
+Diameter: 20.0 cm
+Length: 40.0 cm
+α range: 2.0 → 3.0
+Δα = 1.0
+
+RESULTS
+-------
+P_total (linear): 80.424772 (normalized)
+P_total (stepped): 2134798.808576 (normalized)
+
+SCALING LAWS
+------------
+P ∝ (Δα)^4.00
+P ∝ γ^2.00
+
+MEASUREMENT PROTOCOL
+--------------------
+- Differential calorimetry vs dummy chamber
+- 6-hour integration windows
+- Sensitivity: 0.5 µW
+
+PAPER VERIFICATION
+------------------
+✓ Power extraction from α-gradient computed
+✓ Scaling with Δα verified
+✓ Scaling with γ verified
