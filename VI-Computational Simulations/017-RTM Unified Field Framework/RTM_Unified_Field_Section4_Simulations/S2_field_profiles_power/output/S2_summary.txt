@@ -1,0 +1,31 @@
+S2: Field Profiles φ(x) and Power Proxy P
+=========================================
+
+Date: 2026-02-09 01:39:03
+
+KEY RESULTS
+-----------
+
+1-D PROFILES:
+  Linear ramp: φ_max = 5.0000, P = 0.0000
+  Step:        φ_max = 12.6124, P = 3.8670
+  Gaussian:    φ_max = 28.9251, P = 13.3744
+  Double:      φ_max = 7.1317, P = 0.0419
+
+SCALING LAW:
+  P ∝ γ^2.00
+  Expected: γ²
+  Verification: PASS
+
+2-D RESULTS:
+  Grid: 41×41
+  Radial α profile
+  φ forms concentric contours ✓
+  P shows ring at max |∇α| ✓
+
+PAPER VERIFICATION
+------------------
+✓ φ tracks α gradient as predicted (Section 4.2)
+✓ P peaks at maximal ∇α slope
+✓ P_total ∝ γ² confirmed (Section 4.2.3)
+✓ 2D generalizes correctly to radial coordinates
