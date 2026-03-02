@@ -1,0 +1,56 @@
+S1: Estimating Economic Coherence Exponent (α)
+==============================================
+Date: 2026-02-14 18:06:49
+
+RTM-ECON MODEL
+--------------
+τ(L) = τ_0 × (L/L_ref)^α
+
+where:
+  τ = characteristic time (recovery, persistence)
+  L = scale proxy (market cap, firm size)
+  α = coherence exponent
+
+INTERPRETATION OF α
+-------------------
+α > 0.4: High coherence (buffered, staged decisions)
+α ~ 0.3-0.4: Moderate coherence
+α < 0.3: Low coherence (cascade risk, rapid propagation)
+
+MARKET REGIME PARAMETERS
+------------------------
+Stable Growth (2004-2006): α = 0.45
+  Normal market conditions, good coherence
+Pre-Crisis (2007): α = 0.35
+  Coherence declining, compression
+Crisis (2008-2009): α = 0.20
+  Decoherence, rapid cascade potential
+Recovery (2010-2012): α = 0.40
+  Rebuilding coherence
+New Normal (2013-2019): α = 0.42
+  Post-crisis stable regime
+
+ESTIMATION RESULTS
+------------------
+Stable Growth: True α = 0.45, Est α = 0.456 [0.443, 0.470]
+Pre-Crisis: True α = 0.35, Est α = 0.356 [0.343, 0.370]
+Crisis: True α = 0.20, Est α = 0.206 [0.193, 0.220]
+Recovery: True α = 0.40, Est α = 0.406 [0.393, 0.420]
+New Normal: True α = 0.42, Est α = 0.426 [0.413, 0.440]
+
+Mean absolute error: 0.0056
+
+META-ANALYSIS (Stable Growth, 4 families)
+-----------------------------------------
+Combined ECI: 0.447
+95% CI: [0.348, 0.546]
+Heterogeneity I²: 0.00
+True α: 0.42
+
+METHODOLOGY
+-----------
+1. Group firms by market cap tiers
+2. Measure characteristic times per tier
+3. Fit log(τ) vs log(market cap) → slope = α
+4. Use Theil-Sen for robustness to outliers
+5. Meta-analyze across proxy families

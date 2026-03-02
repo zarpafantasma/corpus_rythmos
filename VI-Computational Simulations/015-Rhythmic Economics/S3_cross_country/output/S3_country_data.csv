@@ -1,0 +1,13 @@
+country,alpha,type,gdp_pc,crisis_freq,avg_drawdown,resilience_score
+Germany,0.48,Developed,51000,0.15,0.08,0.7364285714285713
+Japan,0.52,Developed,42000,0.12,0.07,0.8
+Switzerland,0.55,Developed,87000,0.08,0.05,0.8671428571428572
+United States,0.42,Financial Hub,65000,0.2,0.12,0.6171428571428571
+United Kingdom,0.4,Financial Hub,46000,0.22,0.14,0.57
+Singapore,0.44,Financial Hub,65000,0.18,0.1,0.6642857142857141
+Brazil,0.32,Emerging,8900,0.35,0.2,0.37357142857142855
+Turkey,0.28,Emerging,9600,0.4,0.25,0.2657142857142857
+Argentina,0.25,Emerging,10600,0.5,0.3,0.14285714285714282
+China,0.38,Transition,12500,0.15,0.12,0.6021428571428572
+India,0.35,Transition,2400,0.2,0.15,0.5214285714285714
+South Korea,0.45,Transition,34000,0.18,0.12,0.6571428571428571
