@@ -11,7 +11,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737862.svg)](https://doi.org/10.5281/zenodo.18737862)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Website](https://img.shields.io/badge/Web-zarpafantasma.art-black?style=flat-square&logo=visual-studio-code&logoColor=white)](https://zarpafantasma.art/rtm)
+[![Website](https://img.shields.io/badge/Web-zarpafantasma.art-black?style=flat-square&logo=visual-studio-code&logoColor=white)](http://zarpafantasma.com/rtm)
 ![Theory](https://img.shields.io/badge/Theory-RTM-gold)
 [![Validations](https://img.shields.io/badge/ROBUST-22_Empirical-darkgreen)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20validations)
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
@@ -328,7 +328,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
     </a>
 </p>
 
-www.zarpafantasma.art
+http://zarpafantasma.com/rtm
 
 "Time is not what passes, but what pulses."
 
