@@ -1,0 +1,77 @@
+S3: Substrate Selectivity Prediction by α
+==========================================
+Date: 2026-02-14 14:02:20
+
+RTM SELECTIVITY PREDICTION
+--------------------------
+If substrates A and B have different α values:
+
+k_A(L) = k_A,0 × (L/L_ref)^(-α_A)
+k_B(L) = k_B,0 × (L/L_ref)^(-α_B)
+
+Selectivity: S = k_A/k_B ∝ L^(α_B - α_A)
+
+KEY INSIGHT:
+If Δα = α_A - α_B > 0:
+  - Substrate A benefits MORE from confinement
+  - Small L enhances selectivity for A
+  - Crossover possible if k_B_0 > k_A_0 in bulk
+
+SCENARIO RESULTS
+----------------
+
+CYP450 Drug Metabolism
+  α_A = 2.4, α_B = 1.9
+  Δα = 0.50
+  S_bulk = 0.67
+  S(20nm) = 1.49
+  Crossover L = 44 nm
+
+Lipase Enantioselectivity
+  α_A = 2.3, α_B = 2.1
+  Δα = 0.20
+  S_bulk = 1.11
+  S(20nm) = 1.53
+  Crossover L = 169 nm
+
+Allosteric Regulation
+  α_A = 2.2, α_B = 2.5
+  Δα = -0.30
+  S_bulk = 1.67
+  S(20nm) = 1.03
+  Crossover L = 18 nm
+
+APPLICATIONS
+------------
+1. DRUG METABOLISM
+   - P450 isoforms show differential confinement effects
+   - Membrane environment affects selectivity
+   - Tunable by lipid composition (effective L)
+
+2. INDUSTRIAL BIOCATALYSIS
+   - Immobilization pore size affects enantioselectivity
+   - Design support matrix for optimal E-ratio
+   - Predict optimal confinement from α measurements
+
+3. METABOLIC REGULATION
+   - Crowded cytoplasm (L_eff ~10-30nm)
+   - Allosteric regulation couples to α changes
+   - Compartmentalization as selectivity tool
+
+EXPERIMENTAL VALIDATION
+-----------------------
+1. Measure k_cat for A and B at multiple L values
+2. Fit α_A and α_B independently
+3. Predict crossover from fitted parameters
+4. Test prediction at L_crossover
+
+RBCI AS QUALITY INDEX
+---------------------
+RBCI aggregates:
+- α normalization (30%)
+- CISS spin signature (25%)
+- Vibrational coherence (25%)
+- Variance reduction under driving (20%)
+
+High RBCI (>0.6): robust RTM scaling expected
+Low RBCI (<0.3): deviations from RTM likely
