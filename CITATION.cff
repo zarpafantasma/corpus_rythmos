@@ -15,7 +15,7 @@ date-released: "2025-02-20"
 # doi: "10.5281/zenodo.18737862"
 # identifiers:
 #   - type: doi
-#     value: "10.5281/zenodo.18737862"
+#     value: "10.5281/zenodo.18842532"
 #     description: "Zenodo archive of the Corpus RyThMós"
 
 keywords:
@@ -25,6 +25,7 @@ keywords:
   - complex systems
   - RTM
   - computational validation
+  - empirical validation
   - falsifiable framework
 
 abstract: >-
