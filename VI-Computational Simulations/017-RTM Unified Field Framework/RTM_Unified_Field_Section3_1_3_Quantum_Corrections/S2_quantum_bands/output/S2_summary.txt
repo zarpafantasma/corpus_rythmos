@@ -1,0 +1,28 @@
+S2: Quantum-Corrected α-Band Structure
+======================================
+
+Date: 2026-02-09 02:16:48
+
+RTM BANDS
+---------
+Theoretical: [2.0, 2.26, 2.47, 2.61, 2.72]
+
+QUANTUM CORRECTIONS
+-------------------
+Number of classical bands found: 5
+Number of quantum bands found:   6
+
+Band shifts (quantum - classical):
+['-0.0360', '-0.1081', '-0.1823', '-0.1157', '-0.0765']
+
+RG RUNNING
+----------
+Band positions are μ-dependent (logarithmic running).
+This introduces scale dependence in RTM predictions.
+
+PAPER VERIFICATION
+------------------
+✓ Quantum corrections shift minima positions
+✓ Band structure preserved but modified
+✓ μ-dependence demonstrates RG running
+✓ Barrier heights affected by quantum corrections

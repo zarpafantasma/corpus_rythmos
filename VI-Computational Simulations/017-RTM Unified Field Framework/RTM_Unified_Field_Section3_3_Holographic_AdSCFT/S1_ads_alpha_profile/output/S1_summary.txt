@@ -1,0 +1,29 @@
+S1: AdS α-Profile and Bulk-Boundary Correspondence
+===================================================
+
+Date: 2026-02-09 02:34:53
+
+HOLOGRAPHIC PARAMETERS
+----------------------
+AdS radius: L = 1.0
+Boundary dimension: d = 4
+Operator dimension: Δ = 3.0
+Bulk mass: m²L² = -3.0
+
+CORRESPONDENCE
+--------------
+z (radial) ↔ 1/μ (RG scale)
+α(z) ↔ g(μ) coupling
+α_0 (boundary) ↔ source for O_α
+
+BULK SOLUTION
+-------------
+α(z_UV = 0.01) = 2.0
+Near-boundary: α ~ z^1.0
+VEV estimate: ⟨O_α⟩ ≈ 147161758.3462
+
+PAPER VERIFICATION
+------------------
+✓ Bulk-boundary correspondence implemented
+✓ Holographic RG flow computed
+✓ z ↔ μ mapping verified

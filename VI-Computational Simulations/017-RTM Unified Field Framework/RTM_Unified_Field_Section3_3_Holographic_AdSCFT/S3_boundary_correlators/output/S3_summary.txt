@@ -1,0 +1,30 @@
+S3: Boundary Operator Correlators
+=================================
+
+Date: 2026-02-09 02:35:49
+
+PARAMETERS
+----------
+Boundary dimension: d = 4
+Operator dimension: Δ = 3.0
+RTM bands: [2.0, 2.26, 2.47, 2.61, 2.72]
+
+CORRELATORS
+-----------
+One-point: ⟨O_α⟩ ∝ α_0^(d-Δ)
+Two-point: ⟨O(x)O(0)⟩ = C_Δ/|x|^(2Δ)
+
+VEV AT BANDS
+------------
+α = 2.0: ⟨O⟩ = 1.0000
+α = 2.26: ⟨O⟩ = 1.1300
+α = 2.47: ⟨O⟩ = 1.2350
+α = 2.61: ⟨O⟩ = 1.3050
+α = 2.72: ⟨O⟩ = 1.3600
+
+PAPER VERIFICATION
+------------------
+✓ One-point function computed
+✓ Two-point correlator verified
+✓ RTM band modification shown
+✓ Scaling dimensions correct
