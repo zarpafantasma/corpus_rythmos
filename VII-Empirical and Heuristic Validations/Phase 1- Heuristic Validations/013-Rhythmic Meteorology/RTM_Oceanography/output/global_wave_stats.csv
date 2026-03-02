@@ -1,0 +1,11 @@
+region,mean_hs_m,p95_hs_m,p100yr_hs_m,mean_period_s,dominant_direction,n_buoys
+North Atlantic (winter),3.5,7.5,18.0,9.5,W-SW,85
+North Atlantic (summer),1.8,3.5,8.0,7.0,SW,85
+North Pacific (winter),3.2,6.8,16.5,9.0,W-NW,62
+North Pacific (summer),1.5,3.2,7.5,6.5,NW,62
+Southern Ocean,4.2,8.5,22.0,10.5,W,12
+Tropical Pacific,2.0,3.8,8.5,8.0,E-SE,45
+Mediterranean,1.2,3.0,7.5,5.5,NW,30
+Gulf of Mexico,1.5,4.0,12.0,6.5,SE,28
+North Sea,2.5,5.5,12.5,7.5,W-NW,25
+Indian Ocean (monsoon),2.8,5.5,12.0,8.5,SW,18

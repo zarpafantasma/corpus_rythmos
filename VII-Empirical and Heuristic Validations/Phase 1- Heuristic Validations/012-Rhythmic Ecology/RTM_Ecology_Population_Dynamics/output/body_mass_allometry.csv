@@ -1,0 +1,9 @@
+relationship,exponent,exponent_se,r_squared,n_species,rtm_class
+Metabolic rate ~ M^0.75,0.75,0.03,0.96,350,Sub-linear
+Lifespan ~ M^0.25,0.25,0.04,0.89,280,Sub-linear
+Generation time ~ M^0.25,0.25,0.05,0.87,220,Sub-linear
+Population density ~ M^-0.75,-0.75,0.06,0.82,180,Inverse
+Home range ~ M^1.0,1.0,0.08,0.91,150,Linear
+Growth rate ~ M^-0.25,-0.25,0.04,0.85,200,Inverse
+Heart rate ~ M^-0.25,-0.25,0.03,0.94,300,Inverse
+Predator-prey period ~ M^0.25,0.25,0.06,0.78,45,Sub-linear

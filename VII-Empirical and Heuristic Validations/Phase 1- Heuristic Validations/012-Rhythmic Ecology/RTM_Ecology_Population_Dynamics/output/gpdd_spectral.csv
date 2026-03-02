@@ -1,0 +1,10 @@
+taxon,n_series,beta_mean,beta_se,habitat
+Mammals,156,1.05,0.08,Terrestrial
+Birds,234,0.92,0.06,Terrestrial
+Fish,312,0.78,0.05,Aquatic
+Insects,89,0.65,0.09,Terrestrial
+Zooplankton,67,0.55,0.11,Aquatic
+Amphibians,23,0.88,0.15,Both
+Reptiles,18,0.82,0.18,Terrestrial
+Marine Inv.,45,0.62,0.12,Marine
+Freshwater Inv.,34,0.71,0.14,Freshwater

@@ -1,0 +1,7 @@
+theory,spectral_index,index_value,anisotropy,regime,applicability
+Kolmogorov (1941),-1.6666666666666667,-1.667,Isotropic,Hydrodynamic,Neutral fluids
+Iroshnikov-Kraichnan (1964),-1.5,-1.5,Isotropic,MHD,B-dominated
+Goldreich-Sridhar (1995),-1.6666666666666667,-1.667,k|| ~ k_perp^(2/3),Strong MHD,Solar wind
+Boldyrev (2005),-1.5,-1.5,Dynamic alignment,Strong MHD,Solar wind
+Critical Balance,-1.6666666666666667,-1.667,k|| ~ k_perp^(2/3),Strong MHD,Solar wind
+Weak Turbulence,-2.0,-2.0,Weak,Weak MHD,Low amplitude

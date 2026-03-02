@@ -1,0 +1,8 @@
+scale_km,sst_variance_k2,spectral_slope,timescale_days,process
+50,0.8,-2.0,5,Submesoscale fronts
+100,0.5,-2.0,10,Mesoscale eddies
+200,0.3,-2.0,20,Mesoscale stirring
+500,0.15,-1.8,45,Large eddies
+1000,0.08,-1.5,90,Seasonal cycle
+2000,0.04,-1.2,180,Interannual
+5000,0.02,-1.0,365,Climate modes

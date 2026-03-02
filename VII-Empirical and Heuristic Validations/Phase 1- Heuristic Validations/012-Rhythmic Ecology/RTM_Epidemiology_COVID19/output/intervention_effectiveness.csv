@@ -1,0 +1,15 @@
+intervention,rt_reduction_percent,ci_low,ci_high,n_studies
+Full lockdown,75,60,85,25
+Partial lockdown,45,30,55,30
+School closure,15,5,25,18
+Workplace closure,25,15,35,22
+Public events ban,23,10,35,15
+Stay-at-home orders,35,20,50,28
+Internal movement restrictions,15,5,25,12
+International travel ban,10,0,20,10
+Face masks (indoor),30,15,45,35
+Face masks (universal),50,35,65,40
+Contact tracing,20,10,30,20
+Mass testing,25,15,35,25
+Vaccination (2 doses),40,30,50,45
+Vaccination (booster),55,45,65,30

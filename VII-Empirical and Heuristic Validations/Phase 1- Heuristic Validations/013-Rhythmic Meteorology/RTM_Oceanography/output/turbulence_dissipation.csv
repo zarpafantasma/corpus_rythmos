@@ -1,0 +1,9 @@
+region,epsilon_W_kg,epsilon_range_low,epsilon_range_high,kappa_m2_s,kolmogorov_scale_mm,n_profiles
+Surface mixed layer (wind),1e-06,1e-07,1e-05,0.01,1.0,500
+Surface mixed layer (convection),1e-07,1e-08,1e-06,0.001,1.8,200
+Thermocline,1e-09,1e-10,1e-08,1e-05,5.6,800
+Deep ocean (abyssal),1e-10,1e-11,1e-09,1e-05,10.0,150
+Equatorial undercurrent,1e-08,1e-09,1e-07,0.0001,3.2,120
+Western boundary current,1e-07,1e-08,1e-06,0.001,1.8,180
+Internal wave breaking,1e-08,1e-09,1e-07,0.0001,3.2,250
+Bottom boundary layer,1e-09,1e-10,1e-08,0.0001,5.6,90
