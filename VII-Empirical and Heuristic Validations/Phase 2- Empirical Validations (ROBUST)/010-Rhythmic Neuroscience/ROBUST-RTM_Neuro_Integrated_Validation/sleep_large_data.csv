@@ -1,0 +1,4 @@
+State,Spectral_Slope,n,p_vs_wake
+Wake (NSRR),-2.1,10255,1.0
+NREM (NSRR),-2.85,10255,1e-15
+REM (NSRR),-3.25,10255,1e-15

@@ -1,0 +1,7 @@
+Metric,Value
+Baseline_Young_Alpha,1.1617680500284255
+Healthy_Aging_Decay_Per_Year,-0.004804831218423912
+Pathology_Penalty_Alpha,-0.3220066790378948
+R_squared,0.9727543220222375
+P_value_Age,1.0678081006135663e-08
+P_value_CHF,5.318784803957011e-11

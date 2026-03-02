@@ -1,0 +1,13 @@
+medium,eta_exponent,alpha_0_dB_cm_MHz,frequency_range_MHz,mechanism,Topological_Class,sort_val
+Water (pure),2.0,0.0022,1-50,Viscous absorption,Diffusive (Random),0
+Seawater,1.8,0.003,0.01-1,Ionic relaxation,Diffusive (Random),0
+Air (20°C),2.0,0.012,0.001-0.1,Molecular relaxation,Diffusive (Random),0
+Soft tissue (average),1.1,0.5,1-10,Viscoelastic,Fractal (Tissue/Polymer),1
+Liver,1.0,0.4,1-10,Viscoelastic,Fractal (Tissue/Polymer),1
+Muscle,1.2,0.6,1-10,Viscoelastic,Fractal (Tissue/Polymer),1
+Fat,0.8,0.3,1-10,Viscoelastic,Fractal (Tissue/Polymer),1
+Blood,1.2,0.2,1-10,Viscoelastic,Fractal (Tissue/Polymer),1
+Polymers (typical),1.5,2.0,0.5-10,Viscoelastic,Fractal (Tissue/Polymer),1
+Rubber,1.0,5.0,0.1-5,Viscoelastic,Fractal (Tissue/Polymer),1
+Bone,0.5,10.0,0.5-5,Scattering,Sub-Ballistic (Rigid),2
+Steel,0.0,0.001,1-100,Thermoelastic,Ballistic (Coherent),3

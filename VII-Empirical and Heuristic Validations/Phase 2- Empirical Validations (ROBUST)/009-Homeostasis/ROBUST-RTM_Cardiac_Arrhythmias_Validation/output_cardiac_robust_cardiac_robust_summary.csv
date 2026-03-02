@@ -1,0 +1,7 @@
+Metric,Value
+Flawed_Aggregated_R,-0.9943767126843689
+Robust_SubjectLevel_R,-0.43415349429540867
+Robust_P_Value,1.5831577659337573e-11
+Healthy_Mean_Alpha,1.0331735414950671
+Severe_CHF_Mean_Alpha,0.5320015074715709
+T_test_P_value,5.2039717842887785e-40

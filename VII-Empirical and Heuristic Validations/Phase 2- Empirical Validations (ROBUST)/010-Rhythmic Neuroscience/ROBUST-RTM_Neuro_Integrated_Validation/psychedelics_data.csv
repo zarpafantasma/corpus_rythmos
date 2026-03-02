@@ -1,0 +1,7 @@
+Condition,Drug,LZ_complexity,Effect_Size_d,p_value,n
+Placebo,Control,0.42,0.0,1.0,15
+Psilocybin,Psilocybin,0.48,0.85,0.001,15
+Placebo,Control,0.41,0.0,1.0,19
+Ketamine,Ketamine,0.46,0.72,0.003,19
+Placebo,Control,0.43,0.0,1.0,20
+LSD,LSD,0.51,1.12,0.0001,20

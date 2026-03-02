@@ -1,0 +1,9 @@
+Running 10,000 Monte Carlo simulations...
+
+--- MONTE CARLO RESULTS (10,000 Universes) ---
+Mean RTM Alpha       : 1.165
+95% Conf. Interval   : [1.134, 1.197]
+Median p-value       : 4.45e-05
+Simulations p < 0.05 : 100.0%
+
+Validation Complete. The RTM hypothesis survives rigorous error propagation.

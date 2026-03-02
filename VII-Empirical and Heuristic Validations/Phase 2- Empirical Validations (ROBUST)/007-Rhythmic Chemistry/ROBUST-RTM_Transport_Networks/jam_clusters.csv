@@ -1,0 +1,9 @@
+study,location,n_days_observed,tau_exponent,tau_error,critical_density_fraction,max_cluster_km
+Nashville I-24,USA,180,2.48,0.15,0.32,45
+German Autobahn,Germany,365,2.52,0.12,0.3,62
+Beijing Ring Road,China,240,2.45,0.18,0.35,38
+London M25,UK,300,2.55,0.14,0.28,55
+Tokyo Metropolitan,Japan,280,2.5,0.13,0.31,42
+Seoul Highway,South Korea,200,2.47,0.16,0.33,35
+Los Angeles I-405,USA,250,2.53,0.14,0.29,58
+Paris Périphérique,France,320,2.49,0.11,0.31,48

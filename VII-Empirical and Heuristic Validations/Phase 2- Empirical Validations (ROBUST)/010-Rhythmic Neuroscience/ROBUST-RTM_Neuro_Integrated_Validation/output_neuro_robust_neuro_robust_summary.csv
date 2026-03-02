@@ -1,0 +1,5 @@
+Domain,Metric,Effect_Size,P_Value
+Epilepsy,Cohen_d (Healthy vs Ictal),3.2987194369694817,0.0
+Meditation,Cohen_d (Novice vs Pract),1.118916073358632,7.87696141129843e-05
+Psychedelics,Cohen_d (Placebo vs LSD),0.9785414425845422,0.00044963462470315636
+Sleep,Cohen_d (Wake vs NREM),1.8812905329388734,0.0
