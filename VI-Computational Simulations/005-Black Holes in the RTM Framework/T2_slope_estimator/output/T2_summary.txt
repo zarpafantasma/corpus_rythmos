@@ -1,0 +1,31 @@
+T2: Slope-at-r Estimator
+========================
+
+Date: 2026-02-09 00:37:29
+
+METHOD
+------
+1. Generate observations τ_obs = Z(r) × L^α(r) × ε
+2. Fit log(τ) vs log(L) via OLS
+3. Slope = α(r), independent of Z(r)
+4. Bootstrap for 95% confidence intervals
+
+TWO-RADIUS FALSIFICATION TEST
+-----------------------------
+Compare α(r_inner) vs α(r_outer)
+Δα = α_inner - α_outer
+
+Decision rule:
+  - 95% CI for Δα excludes 0 → Activation detected
+  - 95% CI includes 0 → No activation (null)
+
+TEST RESULT (r=4 vs r=12)
+-------------------------
+Δα = 1.346 [1.333, 1.359]
+Activation: DETECTED ✓
+
+KEY INSIGHT
+-----------
+Slope in log(τ) vs log(L) equals α(r).
+GR/kinematics only affect the intercept.
+Radial evolution of slope → RTM activation.

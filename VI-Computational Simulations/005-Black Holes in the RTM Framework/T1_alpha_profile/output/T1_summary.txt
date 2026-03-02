@@ -1,0 +1,36 @@
+T1: RTM α(r) Profile Calculator
+================================
+
+Date: 2026-02-09 00:37:16
+
+EQUATIONS
+---------
+Logistic profile:
+  α(r) = α_∞ + (α₀ - α_∞) / [1 + exp(-(r - r_t)/w)]
+  
+Power-law ramp:
+  α(r) = α_∞ + (α₀ - α_∞) × (r/r_t)^(-q)
+
+GR redshift factor:
+  Z(r) = 1 / √(1 - r_s/r)
+
+DEFAULT PARAMETERS
+------------------
+α₀ = 1.0   (far from hole)
+α_∞ = 3.0  (near horizon)
+r_t = 6 r_s (transition radius)
+w = 2 r_s  (transition width)
+
+PHYSICAL INTERPRETATION
+-----------------------
+• α increases inward as confinement/organization grows
+• Higher α → steeper T ∝ L^α scaling
+• Z increases inward (GR time dilation)
+• Competition: Z stretches times, high α shortens them
+
+KEY VALUES (Logistic)
+---------------------
+r = 3 r_s:  α = 2.635, Z = 1.732
+r = 6 r_s:  α = 2.000, Z = 1.225
+r = 10 r_s: α = 1.238, Z = 1.118
+r = 20 r_s: α = 1.002, Z = 1.054
