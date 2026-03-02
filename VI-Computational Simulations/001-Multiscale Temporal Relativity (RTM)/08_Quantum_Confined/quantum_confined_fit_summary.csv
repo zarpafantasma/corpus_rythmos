@@ -1,2 +1,0 @@
-alpha,alpha_se,R2,C,bs_alpha,bs_std,bs_ci_lo,bs_ci_hi,n_sizes,L_min,L_max,total_walks,potential_strength,potential_gamma,boundary_depth,theory_target,delta_alpha,alpha_excl_max,alpha_excl_min
-3.490666,0.067674,0.997376,4.825292,3.490263,0.037184,3.418611,3.564319,9,5,18,3600,1.500000,1.000000,1,3.500000,-0.009334,3.533533,3.386049
