@@ -1,0 +1,42 @@
+S1: Synthetic Rotation Curves with RTM
+======================================
+
+Date: 2026-02-13 21:12:18
+
+IMPORTANT: This is a MODEL ILLUSTRATION, not empirical validation.
+
+RTM MODEL
+---------
+v ∝ r^(1 - α/2)
+
+Slope = 1 - α/2:
+  α = 2.0 → slope = 0 (flat)
+  α < 2.0 → slope > 0 (rising)
+  α > 2.0 → slope < 0 (declining)
+
+SCENARIOS TESTED
+----------------
+  α=2 everywhere: α=2.00, slope=0.000
+  α=1.8 everywhere: α=1.80, slope=0.100
+  α: 2.4→2.0: α=2.09, slope=-0.067
+  Bar (α=2.6) + Disk (α=2.0): α=2.07, slope=-0.096
+
+WHAT THIS SHOWS
+---------------
+✓ RTM velocity law produces expected curve shapes
+✓ Varying α(r) creates realistic-looking rotation curves
+✓ Flat outer curves require α ≈ 2
+
+WHAT THIS DOES NOT SHOW
+-----------------------
+✗ That RTM is physically correct
+✗ That α can be measured from structure
+✗ That dark matter is unnecessary
+✗ Comparison with real galaxy data
+
+NEXT STEPS FOR VALIDATION
+-------------------------
+1. Measure α independently from baryonic structure proxies
+2. Compare predicted slopes with observed rotation curves
+3. Test collapse condition (residuals flat vs r)
+4. Check bTFR residuals correlate with α-proxies

@@ -1,0 +1,48 @@
+S3: bTFR Residuals and α-Correlation
+=====================================
+
+Date: 2026-02-13 21:13:11
+
+IMPORTANT: This is a MODEL PREDICTION test, not empirical validation.
+
+RTM PREDICTION
+--------------
+bTFR residuals should correlate with structural coherence (α)
+because v(r) ∝ r^(1-α/2), so sampling at different α gives offsets.
+
+SYNTHETIC RESULTS
+-----------------
+Sample size: 200 galaxies
+
+Correlations with bTFR residuals:
+  Mass:      r = -0.1075 (weak, as expected)
+  Structure: r = 0.2179 (RTM predicts: significant)
+  α:         r = 0.2179 (RTM predicts: significant)
+
+Model comparison:
+  RTM R² = 0.0475
+  F-stat = 9.9, p = 1.94e-03
+
+DISCRIMINANT
+------------
+DM prediction: residuals → halo parameters
+MOND prediction: residuals → acceleration scale
+RTM prediction: residuals → structural coherence
+
+WHAT THIS SHOWS
+---------------
+✓ RTM makes a distinct, testable prediction
+✓ The predicted correlation has a clear signature
+✓ This could discriminate RTM from alternatives
+
+WHAT THIS DOES NOT SHOW
+-----------------------
+✗ That real galaxy data shows this correlation
+✗ That RTM is correct
+✗ That DM/MOND predictions fail
+
+REQUIRED FOR VALIDATION
+-----------------------
+1. Real bTFR data (SPARC, THINGS, LITTLE THINGS)
+2. Independent α estimation from structure
+3. Compare correlation strengths across models

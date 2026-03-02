@@ -1,0 +1,71 @@
+S3: Atmospheric Regime Classification by α
+===========================================
+Date: 2026-02-14 18:15:45
+
+RTM-ATMO CLASSIFICATION SCHEME
+------------------------------
+α serves as a transport class indicator:
+
+Advective (α = 0.8-1.5):
+  - Fast decorrelation, fragmented
+  - Examples: Easterly waves, trade cumulus, disturbances
+
+Hierarchical (α = 1.5-2.0):
+  - Moderate organization, multi-scale
+  - Examples: Fronts, baroclinic waves, MCS
+
+Coherent (α = 2.0-2.5):
+  - Organized, persistent features
+  - Examples: Mature cyclones, jets
+
+Strongly Coherent (α = 2.5-3.5):
+  - Quasi-stationary, long-lived
+  - Examples: Blocking, major hurricanes
+
+WEATHER PATTERN α VALUES
+------------------------
+Trade Cumulus: α = 1.1 (Advective)
+Easterly Wave: α = 1.2 (Advective)
+Sea Breeze: α = 1.3 (Advective)
+Afternoon Thunderstorms: α = 1.4 (Advective)
+Warm Front: α = 1.6 (Hierarchical)
+Cold Front: α = 1.7 (Hierarchical)
+MCS: α = 1.7 (Hierarchical)
+Squall Line: α = 1.8 (Hierarchical)
+Developing Low: α = 1.9 (Hierarchical)
+Category 1 Hurricane: α = 2.1 (Coherent)
+Mature Extratropical: α = 2.2 (Coherent)
+Subtropical High: α = 2.2 (Coherent)
+Jet Streak: α = 2.3 (Coherent)
+Major Hurricane: α = 2.6 (Strongly Coherent)
+Blocking High: α = 2.8 (Strongly Coherent)
+Polar Vortex: α = 2.9 (Strongly Coherent)
+Rex Block: α = 3.0 (Strongly Coherent)
+
+CLASSIFICATION PERFORMANCE
+--------------------------
+Overall Accuracy: 87.0%
+
+Per-Class Metrics:
+  Advective: P=0.87, R=0.92, F1=0.89
+  Hierarchical: P=0.85, R=0.80, F1=0.83
+  Coherent: P=0.82, R=0.85, F1=0.83
+  Strongly Coherent: P=0.94, R=0.92, F1=0.93
+
+OPERATIONAL USE
+---------------
+1. Compute rolling α from reanalysis/satellite data
+2. Classify regime automatically
+3. Use regime for:
+   - Forecast guidance (persistence vs. change)
+   - Warning thresholds (regime-dependent)
+   - Verification stratification
+
+TRANSITION DETECTION
+--------------------
+Class changes (e.g., Advective → Hierarchical) indicate:
+- Development (increasing α)
+- Decay (decreasing α)
+- Reorganization (non-monotonic α)
+
+These transitions are key forecasting targets.

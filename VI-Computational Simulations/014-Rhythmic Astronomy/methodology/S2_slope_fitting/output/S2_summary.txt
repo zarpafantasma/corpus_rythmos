@@ -1,0 +1,37 @@
+S2: Slope Fitting and Collapse Test
+====================================
+
+Date: 2026-02-13 21:12:27
+
+METHODOLOGY VALIDATION
+----------------------
+This validates the RTM analysis pipeline on SYNTHETIC data
+where the true α is known.
+
+TEST CASE 1: Constant α = 2.0
+  Mean α error: +0.0244
+  Collapse pass rate: 100%
+  Result: METHODOLOGY WORKS
+
+TEST CASE 2: Varying α(r)
+  Mean α error: -0.1039
+  Collapse pass rate: 100%
+  Result: METHODOLOGY WORKS
+
+WHAT THIS VALIDATES
+-------------------
+✓ Slope fitting correctly recovers α from synthetic data
+✓ Collapse test identifies valid RTM bins
+✓ Error propagation is reasonable
+
+WHAT THIS DOES NOT VALIDATE
+---------------------------
+✗ That real galaxy data follows RTM
+✗ That α can be estimated from structural proxies
+✗ That dark matter is unnecessary
+
+NEXT STEPS
+----------
+1. Apply pipeline to real rotation curve data
+2. Derive α independently from structure (entropy, Fourier modes)
+3. Test if kinematic α matches structural α

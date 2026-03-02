@@ -1,0 +1,45 @@
+S2: Pre-Genesis Cyclonic Detection via α-Drop
+=============================================
+Date: 2026-02-14 18:15:39
+
+RTM-ATMO HYPOTHESIS
+-------------------
+Rapid drops in α precede tropical cyclogenesis by 12-36 hours.
+
+MECHANISM
+---------
+1. Pre-genesis: Disorganized convection, low α (~1.2-1.4)
+2. Reorganization: α drops as coherence breaks before rebuilding
+3. Genesis: Vortex forms, α rises rapidly
+4. Mature: High α (>2.0) indicates organized system
+
+CASE RESULTS
+------------
+Atlantic TD: Genesis detected, Lead = 31h, Δα = 0.40
+Pacific RI: Genesis detected, Lead = 26h, Δα = 0.60
+Gulf Storm: Genesis detected, Lead = 34h, Δα = 0.25
+Invest (No Genesis): No genesis
+
+DETECTION SKILL (n=100 cases)
+----------------------------------
+POD (Probability of Detection): 1.00
+FAR (False Alarm Rate): 0.00
+CSI (Critical Success Index): 1.00
+Mean Lead Time: 24.4 hours
+
+COMPARISON TO TRADITIONAL INDICATORS
+------------------------------------
+Indicator               Lead Time   Mechanism
+---------               ---------   ---------
+α-drop (RTM)            18-30 h     Coherence reorganization
+Vorticity threshold     6-12 h      Direct vortex detection
+Wind shear decrease     6-12 h      Environmental favorability
+SST threshold           Static      Necessary condition
+
+OPERATIONAL PROTOCOL
+--------------------
+1. Monitor rolling α in disturbance regions
+2. Alert when α drops >15% below 24h baseline
+3. Confirm with satellite imagery (convective org.)
+4. Cross-check with traditional indices
+5. Expected lead time: 12-36 hours

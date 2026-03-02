@@ -1,0 +1,5 @@
+case,genesis,lead_time,alpha_drop
+Atlantic TD,True,31.0,0.4
+Pacific RI,True,26.0,0.5999999999999999
+Gulf Storm,True,34.0,0.25
+Invest (No Genesis),False,,0.19999999999999996
