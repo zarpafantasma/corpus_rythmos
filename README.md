@@ -13,7 +13,7 @@
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Website](https://img.shields.io/badge/Web-zarpafantasma.com-black?style=flat-square&logo=visual-studio-code&logoColor=white)](http://zarpafantasma.com/rtm)
 ![Theory](https://img.shields.io/badge/Theory-RTM-gold)
-[![Validations](https://img.shields.io/badge/ROBUST-22_Empirical-darkgreen)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20validations)
+[![Validations](https://img.shields.io/badge/ROBUST-24_Empirical-darkgreen)](https://github.com/zarpafantasma/corpus_rythmos/tree/main/VII-Empirical%20and%20Heuristic%20Validations/Phase%202-%20Empirical%20Validations%20(ROBUST))
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
 [![Email](https://img.shields.io/badge/Contact-Email-white?logo=gmail&logoColor=red)](mailto:zarpafantasma@gmail.com)
 
