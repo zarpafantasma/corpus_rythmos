@@ -42,7 +42,7 @@ Once you have finished uploading the first 15 documents, type...
 ```
 ALL 15 FILES UPLOADED.
 ```
-At this stage, the AI will provide a 'Red Team' analysis of the first 15 documents. You can choose to focus on any of them or proceed by uploading the files related to the folder called 'VII-Empirical and Heuristic Validations  Phase 2- Empirical Validations (ROBUST)' This allows the AI to verify the data's integrity and ensure that neither the data nor the .py files (the code) have been tampered with to alter the results.
+At this stage, the AI will provide a 'Red Team' analysis of the first 15 documents. You can choose to focus on any of them or proceed by uploading the files related to the folder called 'VII-Empirical and Heuristic Validations', inside the folder "Phase 2- Empirical Validations (ROBUST)' This allows the AI to verify the data's integrity and ensure that neither the data nor the .py files (the code) have been tampered with to alter the results.
 
 Alternatively, you may choose to proceed directly to Phase 2.
 
