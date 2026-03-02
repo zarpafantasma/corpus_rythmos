@@ -1,0 +1,55 @@
+S1: RTM-Neuro τ(L) Scaling Demonstration
+========================================
+Date: 2026-02-14 03:10:45
+
+CORE RTM PREDICTION
+-------------------
+τ(L) = τ_0 × L^α
+
+where:
+- τ = characteristic time (autocorrelation e-folding)
+- L = spatial scale (cortical distance)
+- α = coherence exponent
+
+BAND-SPECIFIC PREDICTIONS
+-------------------------
+Band      Frequency    α      Role
+=======================================================
+Delta     1-4 Hz       2.5    Deep sleep, slow integration
+Theta     4-8 Hz       2.2    Memory, navigation, binding
+Alpha     8-13 Hz      2.0    Idling, default mode
+Beta      13-30 Hz     1.8    Motor, attention
+Gamma     30-80 Hz     1.5    Local processing, perception
+
+STATE-SPECIFIC PREDICTIONS
+--------------------------
+State               α       Above Threshold?
+=============================================
+Awake (alert)       2.15    Yes
+Awake (relaxed)     2.05    Yes  
+REM sleep           2.00    Threshold
+Light sedation      1.85    No
+NREM N2             1.70    No
+NREM N3             1.50    No
+Deep anesthesia     1.45    No
+
+RECOVERY VALIDATION
+-------------------
+Mean α recovery error: 0.012
+Mean R²: 1.000
+
+INTERPRETATION
+--------------
+1. τ(L) ∝ L^α produces distinct signatures for each state
+2. α > 2: integrated dynamics, conscious processing
+3. α < 2: fragmented dynamics, unconscious processing
+4. Band hierarchy: slower rhythms → higher integration
+5. α is recoverable from noisy measurements
+
+EMPIRICAL REQUIREMENTS
+----------------------
+To validate these predictions:
+- EEG/MEG recordings at multiple spatial scales
+- Autocorrelation analysis by frequency band
+- Comparison across consciousness states
+- Correlation with behavioral markers

@@ -1,0 +1,62 @@
+S3: Conscious Access Threshold Model
+=====================================
+Date: 2026-02-14 03:10:55
+
+RTM-NEURO HYPOTHESIS
+--------------------
+Conscious access requires α ≥ 2.0 (threshold)
+Higher α = more integrated multiscale dynamics
+Below threshold = fragmented processing, no global access
+
+STATE-SPECIFIC PREDICTIONS
+--------------------------
+State               Mean α   Time Above Threshold
+-------------------------------------------------------
+awake               2.19     94.1%
+light_sedation      1.91     26.7%
+deep_anesthesia     1.48     0.0%
+rem_sleep           1.96     46.3%
+nrem_n2             1.61     0.0%
+nrem_n3             1.42     0.0%
+
+KEY PREDICTIONS
+---------------
+1. ANESTHESIA INDUCTION
+   - α drops below threshold → Loss of Consciousness (LOC)
+   - Crossing time predicts behavioral LOC
+
+2. EMERGENCE
+   - α rises above threshold → Return of Consciousness (ROC)
+   - Individual variability in crossing dynamics
+
+3. BINDING EPISODES
+   - Transient α peaks during working memory maintenance
+   - Integration requires temporary elevation above baseline
+
+4. PATHOLOGICAL PATTERNS
+   Fragmented (DoC): Low mean α, rarely crosses threshold
+   Rigid: Normal mean but pathologically low variance
+   Unstable: Oscillations around threshold, intermittent access
+
+CLINICAL IMPLICATIONS
+---------------------
+- α monitoring could predict LOC/ROC in anesthesia
+- α variance may distinguish vegetative vs minimally conscious
+- Real-time α tracking for closed-loop depth-of-anesthesia
+
+VALIDATION REQUIREMENTS
+-----------------------
+1. EEG/MEG recordings during anesthesia induction/emergence
+2. Behavioral markers of LOC/ROC timing
+3. Correlation between α-threshold crossing and behavioral transition
+4. Comparison with BIS, PCI, spectral entropy
+
+IMPORTANT DISCLAIMER
+--------------------
+This is a THEORETICAL MODEL demonstrating how α-threshold
+mechanics could explain consciousness phenomenology.
+
+Empirical validation requires:
+- Human subject recordings across states
+- Ground-truth consciousness markers
+- Prospective prediction testing
