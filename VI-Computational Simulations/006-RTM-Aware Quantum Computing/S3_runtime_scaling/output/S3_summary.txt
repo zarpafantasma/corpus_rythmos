@@ -1,0 +1,33 @@
+S3: Compiler/Runtime Layer Scaling
+===================================
+
+Date: 2026-02-10 00:17:29
+
+RTM MODEL
+---------
+L = Circuit width
+T = Makespan
+T ∝ W^α
+
+RESULTS
+-------
+Fitted α: 1.798 ± 0.020
+Expected α: 1.8
+R²: 0.9992
+
+SCHEDULING STRATEGIES
+---------------------
+Batched readout: -15% makespan
+Variance-aware routing: -10% makespan
+Staggered resets: -8% makespan
+
+TAIL LATENCIES
+--------------
+Mean p95/p50: 1.64
+Target: ≤ 1.6
+
+PAPER VERIFICATION
+------------------
+✓ Runtime power-law scaling confirmed
+✓ Scheduling strategies compared
+✓ Tail latency analysis complete

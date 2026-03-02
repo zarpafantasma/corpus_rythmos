@@ -1,0 +1,70 @@
+S3: RTM Selectivity in Zeolites and MOFs
+==========================================
+Date: 2026-02-14 14:14:45
+
+RTM SELECTIVITY PREDICTION
+--------------------------
+For competing reactions A and B:
+  S(L) = k_A/k_B = (k_A_bulk/k_B_bulk) × (L/L_ref)^(α_B - α_A)
+
+If Δα = α_A - α_B > 0:
+  → Smaller pores favor product A
+  → Selectivity enhancement = (L/L_ref)^(-Δα)
+
+SCENARIO RESULTS
+----------------
+
+Xylene Isomerization (ZSM-5)
+  Δα = 0.40
+  S_bulk = 0.83
+  S(1nm) = 5.26
+  S(10nm) = 2.09
+  Enhancement at 1nm: 6.3×
+
+Diels-Alder (Endo vs Exo)
+  Δα = 0.40
+  S_bulk = 0.80
+  S(1nm) = 5.05
+  S(10nm) = 2.01
+  Enhancement at 1nm: 6.3×
+
+Alkane Cracking
+  Δα = 0.40
+  S_bulk = 0.67
+  S(1nm) = 4.21
+  S(10nm) = 1.67
+  Enhancement at 1nm: 6.3×
+
+CO2 Hydrogenation
+  Δα = 0.40
+  S_bulk = 0.50
+  S(1nm) = 3.15
+  S(10nm) = 1.26
+  Enhancement at 1nm: 6.3×
+
+MATERIALS DATABASE
+------------------
+Zeolites:
+  ZSM-5 (0.55nm), Mordenite (0.70nm), Beta (0.76nm), Y (0.74nm)
+  
+Mesoporous:
+  MCM-41 (3.0nm), SBA-15 (8.0nm)
+  
+MOFs:
+  ZIF-8 (1.16nm), HKUST-1 (0.9nm), UiO-66 (0.75nm), 
+  MOF-5 (1.5nm), MIL-101 (3.4nm)
+
+DESIGN PRINCIPLES
+-----------------
+1. Measure α for each reaction pathway independently
+2. Calculate Δα = α_target - α_undesired
+3. If Δα > 0: select smaller pores for higher selectivity
+4. If Δα < 0: select larger pores or different mechanism
+5. Crossover length: L* where selectivity = 1
+
+EXPERIMENTAL VALIDATION
+-----------------------
+1. Measure selectivity in bulk (no confinement)
+2. Measure in series of materials with different pore sizes
+3. Plot log(S) vs log(L) - slope should equal -Δα
+4. Verify with data collapse: S × L^Δα = constant

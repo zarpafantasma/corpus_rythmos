@@ -1,0 +1,45 @@
+scenario,material,pore_nm,type,selectivity
+Xylene Isomerization (ZSM-5),ZSM-5,0.55,zeolite,6.678419233838297
+Xylene Isomerization (ZSM-5),Mordenite,0.7,zeolite,6.064284085871983
+Xylene Isomerization (ZSM-5),Beta,0.76,zeolite,5.868043397548612
+Xylene Isomerization (ZSM-5),Y (Faujasite),0.74,zeolite,5.930974626395621
+Xylene Isomerization (ZSM-5),MCM-41,3.0,mesoporous,3.3882094707414843
+Xylene Isomerization (ZSM-5),SBA-15,8.0,mesoporous,2.2886677985544113
+Xylene Isomerization (ZSM-5),MOF-5,1.5,MOF,4.470769199999029
+Xylene Isomerization (ZSM-5),HKUST-1,0.9,MOF,5.48430690509672
+Xylene Isomerization (ZSM-5),ZIF-8,1.16,MOF,4.954907579072295
+Xylene Isomerization (ZSM-5),UiO-66,0.75,MOF,5.899215326638522
+Xylene Isomerization (ZSM-5),MIL-101,3.4,MOF,3.222754230221031
+Diels-Alder (Endo vs Exo),ZSM-5,0.55,zeolite,6.411282464484765
+Diels-Alder (Endo vs Exo),Mordenite,0.7,zeolite,5.821712722437104
+Diels-Alder (Endo vs Exo),Beta,0.76,zeolite,5.633321661646668
+Diels-Alder (Endo vs Exo),Y (Faujasite),0.74,zeolite,5.693735641339795
+Diels-Alder (Endo vs Exo),MCM-41,3.0,mesoporous,3.2526810919118248
+Diels-Alder (Endo vs Exo),SBA-15,8.0,mesoporous,2.197121086612235
+Diels-Alder (Endo vs Exo),MOF-5,1.5,MOF,4.291938431999068
+Diels-Alder (Endo vs Exo),HKUST-1,0.9,MOF,5.264934628892851
+Diels-Alder (Endo vs Exo),ZIF-8,1.16,MOF,4.756711275909403
+Diels-Alder (Endo vs Exo),UiO-66,0.75,MOF,5.663246713572982
+Diels-Alder (Endo vs Exo),MIL-101,3.4,MOF,3.09384406101219
+Alkane Cracking,ZSM-5,0.55,zeolite,5.342735387070638
+Alkane Cracking,Mordenite,0.7,zeolite,4.851427268697587
+Alkane Cracking,Beta,0.76,zeolite,4.694434718038889
+Alkane Cracking,Y (Faujasite),0.74,zeolite,4.744779701116496
+Alkane Cracking,MCM-41,3.0,mesoporous,2.710567576593187
+Alkane Cracking,SBA-15,8.0,mesoporous,1.8309342388435292
+Alkane Cracking,MOF-5,1.5,MOF,3.576615359999223
+Alkane Cracking,HKUST-1,0.9,MOF,4.387445524077375
+Alkane Cracking,ZIF-8,1.16,MOF,3.9639260632578357
+Alkane Cracking,UiO-66,0.75,MOF,4.719372261310817
+Alkane Cracking,MIL-101,3.4,MOF,2.578203384176825
+CO2 Hydrogenation,ZSM-5,0.55,zeolite,4.007051540302978
+CO2 Hydrogenation,Mordenite,0.7,zeolite,3.6385704515231896
+CO2 Hydrogenation,Beta,0.76,zeolite,3.520826038529167
+CO2 Hydrogenation,Y (Faujasite),0.74,zeolite,3.5585847758373714
+CO2 Hydrogenation,MCM-41,3.0,mesoporous,2.03292568244489
+CO2 Hydrogenation,SBA-15,8.0,mesoporous,1.3732006791326468
+CO2 Hydrogenation,MOF-5,1.5,MOF,2.682461519999417
+CO2 Hydrogenation,HKUST-1,0.9,MOF,3.2905841430580316
+CO2 Hydrogenation,ZIF-8,1.16,MOF,2.9729445474433764
+CO2 Hydrogenation,UiO-66,0.75,MOF,3.5395291959831128
+CO2 Hydrogenation,MIL-101,3.4,MOF,1.9336525381326184

@@ -1,0 +1,5 @@
+data_type,collapse_passes,r2_residual,pass_residual,pass_clock,pass_loess
+curved,0.96,0.0,1.0,1.0,0.96
+regime_mixed,0.0,0.0,1.0,1.0,0.0
+scale_clock,1.0,0.0,1.0,1.0,1.0
+valid_rtm,1.0,0.0,1.0,1.0,1.0

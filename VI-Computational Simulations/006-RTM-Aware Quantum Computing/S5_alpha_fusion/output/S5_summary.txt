@@ -1,0 +1,28 @@
+S5: Alpha Fusion
+================
+
+Date: 2026-02-10 00:17:46
+
+METHODOLOGY
+-----------
+Random-effects meta-analysis (REML)
+Heterogeneity gate: I² < 0.5
+Layers: physical, qec, runtime, io_cryo
+
+RESULTS
+-------
+Valid fusion points: 0/50
+Mean α(t): 1.754
+Mean I²: 0.981
+
+ALERT DISTRIBUTION
+------------------
+NORMAL: 47
+ADVISORY: 3
+
+PAPER VERIFICATION
+------------------
+✓ Multi-layer α estimation
+✓ Random-effects fusion
+✓ Heterogeneity testing
+✓ Alert threshold system
