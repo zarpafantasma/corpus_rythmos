@@ -1,0 +1,31 @@
+S4: Jump Threshold Calculator
+==============================
+
+Date: 2026-02-09 01:24:53
+
+KEY EQUATIONS
+-------------
+Barrier height: ΔV_β = λ/16
+Jump condition: g_βα × (∇α)² × V_core ≥ ΔV_β
+
+EXAMPLE (1 cm core)
+-------------------
+λ = 1.0
+g_βα = 2.0
+R = 1.0 cm
+
+ΔV_β = 0.0625
+|∇α|_min = 86.374 /m
+
+REGIMES
+-------
+- TUNNELLING: drive < 0.9 × ΔV_β (sub-threshold)
+- CRITICAL: drive ≈ 1.0-1.5 × ΔV_β (controlled jump)
+- OVER-DRIVEN: drive > 1.5 × ΔV_β (multiple jumps)
+
+DESIGN GUIDANCE
+---------------
+For controlled single-jump:
+  λ ≈ 1-2
+  g_βα ≈ 2-4
+  |∇α| ≈ 0.2-0.4 /m (for cm-scale core)

@@ -1,0 +1,35 @@
+S1: Multi-Well Potential V(β) for Branch Field
+===============================================
+
+Date: 2026-02-09 01:24:32
+
+KEY EQUATION
+------------
+V(β) = λ × Σ_n [ (β - n)² × (β - (n+1))² ]
+
+RTM QUANTIZED α-VALUES
+----------------------
+β = 0: α = 2.00 (diffusive)
+β = 1: α = 2.26 (small-world)
+β = 2: α = 2.47 (hierarchical)
+β = 3: α = 2.61 (holographic)
+β = 4: α = 2.72 (fractal)
+β = 5: α = 2.81 (ultra-deep)
+
+BARRIER HEIGHTS (λ = 1.0)
+-------------------------
+β: 0 → 1: ΔV = -94.9756
+β: 1 → 2: ΔV = -23.9147
+β: 2 → 3: ΔV = 3.6703
+
+PHYSICAL INTERPRETATION
+-----------------------
+- Each β-minimum = distinct coherence layer
+- Barrier crossing = multiverse transition
+- Energy supplied by Aetherion α-pulse
+
+FILES GENERATED
+---------------
+- S1_multiwell_potential.png/pdf
+- S1_barrier_heights.csv
+- S1_potential_profile.csv
