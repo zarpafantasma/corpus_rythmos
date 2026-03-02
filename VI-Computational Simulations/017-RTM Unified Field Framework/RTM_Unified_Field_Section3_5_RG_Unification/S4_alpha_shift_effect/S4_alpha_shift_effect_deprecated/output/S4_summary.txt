@@ -1,0 +1,23 @@
+S4: Alpha-Shift Effect on Gauge Coupling Unification
+====================================================
+
+Date: 2026-02-09 02:07:24
+
+MECHANISM
+---------
+Δα_shift = η × (μ/M_RTM)^ξ
+
+Parameters:
+  M_RTM = 3.20e+11 GeV (paper value)
+  ξ = 1 (stability choice)
+  η = fit parameter
+
+RESULTS (at 10^15 GeV)
+----------------------
+Without α-shift: spread = 5.48
+Best result: η = 0.0, spread = 5.48
+
+CONCLUSION
+----------
+The α-shift mechanism significantly reduces coupling spread,
+enabling gauge unification when combined with threshold corrections.

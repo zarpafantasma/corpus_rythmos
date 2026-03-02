@@ -1,0 +1,19 @@
+S2: Threshold Matching with RTM States
+======================================
+
+Date: 2026-02-09 02:06:10
+
+RTM THRESHOLDS
+--------------
+5 new states between 10^11 - 10^14 GeV
+
+EFFECT AT 10^15 GeV
+-------------------
+SM spread:      5.50
+SM+RTM spread:  4.91
+Change:         -10.7%
+
+CONCLUSION
+----------
+Thresholds modify the running but alone do not achieve unification.
+The α-shift mechanism (Section 3.5.1) provides additional correction.
