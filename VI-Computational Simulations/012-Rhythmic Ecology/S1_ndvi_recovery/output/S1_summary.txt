@@ -1,0 +1,52 @@
+S1: NDVI Recovery Time vs Burned Patch Area
+=============================================
+Date: 2026-02-14 14:53:49
+
+RTM-ECO PREDICTION
+------------------
+τ(L) = τ_0 × (L/L_ref)^α
+
+where:
+  τ = recovery time (days to 80% NDVI)
+  L = burned patch area (ha)
+  α = coherence exponent
+
+ECOSYSTEM PARAMETERS
+--------------------
+Boreal Forest: α = 0.35, τ_0 = 1500 days
+Mediterranean Shrubland: α = 0.28, τ_0 = 600 days
+Temperate Grassland: α = 0.22, τ_0 = 180 days
+Tropical Savanna: α = 0.30, τ_0 = 90 days
+Temperate Forest: α = 0.32, τ_0 = 1000 days
+
+α RECOVERY RESULTS
+------------------
+Boreal Forest: True α = 0.350, Est α = 0.343, Error = 0.0071
+Mediterranean Shrubland: True α = 0.280, Est α = 0.274, Error = 0.0064
+Temperate Grassland: True α = 0.220, Est α = 0.214, Error = 0.0059
+Tropical Savanna: True α = 0.300, Est α = 0.293, Error = 0.0066
+Temperate Forest: True α = 0.320, Est α = 0.313, Error = 0.0068
+
+Mean absolute error: 0.0066
+
+INTERPRETATION
+--------------
+Higher α = more scale-dependent recovery
+- Boreal forest (α~0.35): Large fires take much longer
+- Grassland (α~0.22): Recovery less scale-dependent
+
+RESILIENCE IMPLICATIONS
+-----------------------
+1. Large fires (>1000 ha) in boreal regions: 
+   Recovery ~2-3× longer than 100 ha fires
+   
+2. Grasslands recover quickly at all scales:
+   α~0.22 means 10× area only ~1.7× recovery time
+
+EXPERIMENTAL VALIDATION
+-----------------------
+1. Collect fire perimeters from satellite data
+2. Track NDVI recovery (Landsat/Sentinel)
+3. Define τ as time to 80% pre-fire NDVI
+4. Plot log(τ) vs log(L) by ecosystem
+5. Slope = α

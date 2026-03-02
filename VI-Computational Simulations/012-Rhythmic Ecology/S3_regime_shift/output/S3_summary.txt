@@ -1,0 +1,69 @@
+S3: Regime Shift Early Warning via α Decline
+=============================================
+Date: 2026-02-14 14:54:01
+
+RTM-ECO HYPOTHESIS H2
+---------------------
+Significant declines in α anticipate regime shifts.
+
+α drops BEFORE the ecosystem state variable transitions,
+providing early warning for management intervention.
+
+MECHANISM
+---------
+As stress accumulates:
+1. First: α declines (coherence degrades)
+2. Then: Recovery times increase
+3. Finally: State variable collapses
+
+The α decline reflects loss of ecosystem organization
+before visible degradation occurs.
+
+SCENARIO RESULTS
+----------------
+
+Forest Desertification:
+  α: 0.42 → 0.18 (drop = 0.24)
+  Critical point: year 80
+  Early warning lead time: ~6 years
+
+Lake Eutrophication:
+  α: 0.48 → 0.22 (drop = 0.26)
+  Critical point: year 70
+  Early warning lead time: ~11 years
+
+Coral Degradation:
+  α: 0.50 → 0.25 (drop = 0.25)
+  Critical point: year 60
+  Early warning lead time: ~6 years
+
+Grassland Invasion:
+  α: 0.38 → 0.20 (drop = 0.18)
+  Critical point: year 90
+  Early warning lead time: ~4 years
+
+Mean lead time: 6.8 years
+
+DETECTION PROTOCOL
+------------------
+1. Monitor α through regular disturbance-recovery cycles
+2. Establish baseline α (healthy ecosystem)
+3. Detect when α drops >2σ below baseline
+4. Trigger alert for management intervention
+
+COMPARISON TO CLASSICAL EWS
+---------------------------
+Classical indicators (AR1, variance) detect "critical slowing down"
+RTM α decline detects "coherence loss"
+
+Advantages of α:
+- Earlier detection (precedes state change)
+- Mechanistic interpretation
+- Scale-independent
+
+MANAGEMENT IMPLICATIONS
+-----------------------
+1. Regular α monitoring provides early warning
+2. Intervention window: lead time before collapse
+3. Restoration targets: restore α to healthy levels
+4. Protected areas: maintain high-α refugia
