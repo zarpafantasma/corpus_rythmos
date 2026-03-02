@@ -1,0 +1,2 @@
+alpha,alpha_se,R2,C,bootstrap_alpha_mean,bootstrap_alpha_std,bootstrap_ci_low,bootstrap_ci_high,n_lattice_sizes,L_min,L_max,total_walks,theory_target,deviation_from_theory,alpha_excl_max_L,alpha_excl_min_L
+2.949869,0.068327,0.996791,2.190395,2.949397,0.067873,2.815112,3.080552,8,6,20,1400,3.000000,-0.050131,2.889880,3.071883

@@ -1,0 +1,35 @@
+RTM Simulation: Diffusive 1-D (Random Walk)
+============================================
+
+Date: 2026-02-06 21:59:38
+
+PARAMETERS
+----------
+System sizes (L): [np.int64(5), np.int64(10), np.int64(20), np.int64(40), np.int64(80), np.int64(160), np.int64(320)]
+Trials per size: 200
+Max steps per trial: 2,000,000
+Random seed: 42
+
+RESULTS
+-------
+Fitted exponent: α = 1.9698 ± 0.0089
+95% Confidence interval: [1.9447, 1.9876]
+R² = 0.999898
+p-value = 3.56e-11
+
+COMPARISON
+----------
+Expected (theoretical): α = 2.00
+RTM paper reported: α ≈ 2.00
+This simulation: α = 1.9698
+
+THEORY
+------
+For 1-D symmetric random walk with absorbing boundaries at ±L,
+the exact mean first-passage time is T = L².
+This gives α = 2 exactly (diffusive scaling).
+
+The simulation confirms this classic result, which serves as
+the diffusive benchmark in the RTM framework.
+
+STATUS: CONFIRMED

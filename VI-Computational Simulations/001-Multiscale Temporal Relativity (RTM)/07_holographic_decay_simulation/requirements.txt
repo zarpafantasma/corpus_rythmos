@@ -1,0 +1,10 @@
+# RTM Simulation G: Holographic Decay Network P(r) ∝ r⁻³
+# Requirements for Python 3.10+
+
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0
