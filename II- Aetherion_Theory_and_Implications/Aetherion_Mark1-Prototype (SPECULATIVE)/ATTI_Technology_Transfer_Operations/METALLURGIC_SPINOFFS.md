@@ -16,7 +16,6 @@
     ║  It is merely an environmental variable—one we can now control." ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
 
 ## Table of Contents
 
