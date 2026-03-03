@@ -4,11 +4,11 @@ This document contains a structured sequence of "mega-prompts" designed to guide
 
 Technical Usage Notes:
 
-Optimization: This prompt sequence was specifically designed and calibrated for Google Gemini 3.1 (to date), leveraging its large context window and retention capacity.
+Optimization: This prompt sequence was specifically designed and calibrated for advanced LLM models, leveraging their large context windows and retention capacity.
 
-Use with other AIs: If you decide to audit the corpus using other Large Language Models (LLMs), be very mindful of their limitations and strengths. Some platforms works better if you group and upload the documents for each phase as compressed files (.zip) rather than uploading the PDF´s one by one. Knowing the AI you are using is vital to ensure it doesn't lose the thread of the theory.
+Use with other AIs: If you decide to audit the corpus any other Large Language Models (LLMs) of your choosing, be very mindful of their limitations and strengths. Some platforms works better if you group and upload the documents for each phase as compressed files (.zip) rather than uploading the PDF´s one by one. Knowing the AI you are using is vital to ensure it doesn't lose the thread of the theory.
 
-The entirety of the code and analysis was developed using Claude Opus 4.5 and Opus 4.6. If you want to run the simulations or real data analysis code, use these same Claude models or run the files (.py) directly on your computer, as other AI models may be unable to complete the process due to Execution Time Limitations. All instructions are in the main README on GitHub.
+If you want to run the simulations or real data analysis code, use the best possible LLM (AI) running on its best model, or run the files (.py) directly on your computer, as some AI models may be unable to complete the process due to Execution Time Limitations. All instructions are in the main README on GitHub.
 
 ### Phase 1:
 Write the following Prompt:
@@ -64,6 +64,7 @@ Once you have finished uploading the next 3 documents, type...
 ```
 ALL 3 FILES UPLOADED.
 ```
+At this point you can proceed to Phase 3 or choose to continue interacting with the papers and their Computational Simulations located in 'VI-Computational Simulations, and inside you can find the computational simulations for "016-Aetherion, The Jumper" and "017-RTM Unified Field Framework"', specifically referring to documents 017 and 018.
 
 ### Phase 3:
 While grounded in rigorous mathematical physics, RTM refuses to stop at mere materiality; it transcends it. It extends its geometric logic into the domains that humanize us—our traditions, our mysteries, and our highest potential. By demonstrating that structure, coherence, and time are deeply relational across all scales, RTM champions the idea that we are much more than a disconnected cosmic accident. Ultimately, this framework is a profoundly optimistic vision of reality: it is a mathematically backed, direct attack on nihilism.
