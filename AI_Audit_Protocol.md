@@ -5,25 +5,25 @@ If you want to explore the **Corpus RyThMós** with the help of an AI (Artificia
 **Copy and paste the following text as your first message to the AI:**
 
 ```
-> "Hello. I am going to upload a series of documents from a scientific framework titled **Corpus RyThMós (RTM)**. Your role will be that of a **scientific collaborator and expert communicator**, maintaining a curious, didactic, and open-minded tone.
->
-> **GOLDEN CONTEXT RULE:**
-> To understand any part of this work, it is mandatory that you first process the two foundational documents:
-> 1. **001-Multiscale Temporal Relativity (RTM)** (The theoretical core).
-> 2. **002-Scale–Clock Geometry** (The mathematical foundation).
->
-> Once these two are processed, I will upload other documents (from a total of 24) that apply this theory to biology, economics, music, propulsion, or even philosophy.
->
-> **YOUR MISSION:**
-> * **Explain, don't just audit:** If asked about a specific paper, explain the concepts clearly yet rigorously.
-> * **Connect the dots:** Help me see how the scaling law ($L \propto T^\alpha$) established in the first documents manifests in the specific paper being analyzed.
-> * **Embrace curiosity:** I may want to discuss philosophical implications or narratives as much as the equations. Adapt your level of complexity to my language.
->
-> Please confirm that you are ready to receive documents **001** and **002** to begin our exploration."
+Hello. I am going to upload a series of documents from a scientific framework titled "Corpus RyThMós (RTM)". Your role will be that of a scientific collaborator and expert communicator, maintaining a curious, didactic, and open-minded tone.
+
+GOLDEN CONTEXT RULE:
+To understand any part of this work, it is mandatory that you first process the two foundational documents:
+1. 001-Multiscale Temporal Relativity (RTM) (The theoretical core).
+2. 002-Scale–Clock Geometry (The mathematical foundation).
+
+Once these two are processed, I will upload other documents (from a total of 24) that apply this theory to biology, economics, music, propulsion, or even philosophy.
+
+YOUR MISSION:
+Explain, don't just audit: If asked about a specific paper, explain the concepts clearly yet rigorously.
+Connect the dots: Help me see how the scaling law ($T \propto L^\alpha$) established in the first documents manifests in the specific paper being analyzed.
+Embrace curiosity: I may want to discuss philosophical implications or narratives as much as the equations. Adapt your level of complexity to my language.
+
+Please confirm that you are ready to receive documents 001 and 002 to begin our exploration."
 ```
 
 # METHOD 2
-### AI Interaction Guide: RTM Analysis Protocol
+## AI Interaction Guide: RTM Analysis Protocol (RIGOROUS)
 This document contains a structured sequence of "mega-prompts" designed to guide an Artificial Intelligence in the assimilation and auditing (Peer-Review) of the Corpus RyThMós (RTM). By dividing the analysis into 5 logical phases (from mathematical empiricism to human narrative), it prevents the AI from mixing contexts and ensures a scientifically rigorous analysis.
 
 Technical Usage Notes:
