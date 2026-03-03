@@ -739,36 +739,32 @@ Continuous vibration generates **DC thrust** via quadratic rectification:
 ---
 
 ## APPENDIX B: ROADMAP
+                                
+  MARK 1 ──────── Laboratory Prototype                           
+  ══════          • Mass: 250g                                   
+                  • Thrust: 100-500 nN                           
+                  • Objective: Validate physics TPH/OMV          
+                  • Test: Torsion balance + vacuum               
+                  • Cost: ~$14,000 USD                           
+                          ↓                                      
+  MARK 2 ──────── Scaled Prototype                               
+                  • Mass: 3-11 Lb                                
+                  • Thrust: µN - mN                              
+                  • Improvements: Liquid cooling, stacked cores  
+                  • Test: Calibrated thrust stand                
+                          ↓                                      
+  MARK 3 ──────── Engineering Demonstrator                       
+                  • Mass: 22-110 Lb                              
+                  • Thrust: mN - N                               
+                  • Objective: Demonstrate scalability           
+                          ↓                                      
+  MARK 4+ ─────── Flight Prototype                               
+                  • Integration with vehicle                     
+                  • Certification                                
+                  • Suborbital flight test                       
+                                                                 
 
-┌─────────────────────────────────────────────────────────────────┐
-│                     ROADMAP AETHERION                           │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  MARK 1 ──────── Laboratory Prototype                           │
-│  ══════          • Mass: 250g                                   │
-│                  • Thrust: 100-500 nN                           │
-│                  • Objective: Validate physics TPH/OMV          │
-│                  • Test: Torsion balance + vacuum               │
-│                  • Cost: ~$14,000 USD                           │
-│                          ↓                                      │
-│  MARK 2 ──────── Scaled Prototype                               │
-│                  • Mass: 3-11 Lb                                │
-│                  • Thrust: µN - mN                              │
-│                  • Improvements: Liquid cooling, stacked cores  │
-│                  • Test: Calibrated thrust stand                │
-│                          ↓                                      │
-│  MARK 3 ──────── Engineering Demonstrator                       │
-│                  • Mass: 22-110 Lb                              │
-│                  • Thrust: mN - N                               │
-│                  • Objective: Demonstrate scalability           │
-│                          ↓                                      │
-│  MARK 4+ ─────── Flight Prototype                               │
-│                  • Integration with vehicle                     │
-│                  • Certification                                │
-│                  • Suborbital flight test                       │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-
+```
     ╔══════════════════════════════════════════════════════════════════╗
     ║                                                                  ║
     ║                    END OF DOCUMENT                               ║
