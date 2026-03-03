@@ -222,7 +222,7 @@ The corpus comprises **24 documents** across five categories:
 - Physicists: Scale-Clock Geometry → RTM Analytical → Aetherion → skip philosophy initially
 - Philosophers: Multiscale Symphony → Owl and Spear → then Foundations
 - General readers: Hidden Doors → Eternal Flame → work backward to science
-- Skeptics: Falsification Criteria → run the simulations → run the real data analysis.
+- Skeptics: Falsification Criteria → run the simulations → run the empirical validations (ROBUST).
 
 ---
 
