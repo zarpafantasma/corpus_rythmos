@@ -1429,4 +1429,3 @@ The acoustic revolution follows the topological one.
      | document is strictly prohibited by ZS-CORP Legal Protocol. Electronic |
      | tracking and forensic watermarking are active on this file.           |
      +-----------------------------------------------------------------------+
-```
