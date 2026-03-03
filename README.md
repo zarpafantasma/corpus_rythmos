@@ -8,7 +8,7 @@
 # Relatividad Temporal Multiescala (RTM)
 ### *A Multiscale Symphony of Structure and Time*
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18842532.svg)](https://zenodo.org/records/18842532)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18854461.svg)](https://zenodo.org/records/18854461)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Website](https://img.shields.io/badge/Web-zarpafantasma.com-black?style=flat-square&logo=visual-studio-code&logoColor=white)](http://zarpafantasma.com/rtm)
@@ -298,7 +298,7 @@ print(f"RTM α = {result.beta[1]:.3f} ± {result.sd_beta[1]:.3f}")
 
 If you use this work, please cite it using the DOI:
 
-> **DOI:** [10.5281/zenodo.18842532](https://zenodo.org/records/18842532)
+> **DOI:** [10.5281/zenodo.18854461](https://zenodo.org/records/18854461)
 
 ### BibTeX
 
@@ -308,7 +308,7 @@ If you use this work, please cite it using the DOI:
   title        = {{Corpus RyThMós: Relatividad Temporal Multiescala (RTM)}},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18842532},
+  doi          = {10.5281/zenodo.18854461},
   url          = {https://zenodo.org/records/18842532}
 }
 ```
