@@ -19,27 +19,17 @@
 ---
 
 ## ⚠️ SPECULATIVE NOTICE
----
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   THIS DOCUMENT IS HIGHLY SPECULATIVE                                       │
-│                                                                             │
-│   The applications described here represent theoretical extrapolations      │
-│   of RTM principles to biological systems. None have been experimentally    │
-│   validated. The concept of "topological time dilation" in biological       │
-│   contexts is entirely theoretical.                                         │
-│                                                                             │
-│   Confidence Level: VERY LOW                                                │
-│   Experimental Basis: NONE                                                  │
-│   Regulatory Status: NOT APPLICABLE (theoretical)                           │
-│                                                                             │
-│   This document explores what MIGHT be possible if RTM physics extends      │
-│   to biological systems. It should be read as speculative science           │
-│   fiction grounded in the RTM theoretical framework.                        │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
 
----
+THIS DOCUMENT IS HIGHLY SPECULATIVE
+The applications described here represent theoretical extrapolations of RTM principles to biological systems. None have been experimentally validated. The concept of "topological time dilation" in biological contexts is entirely theoretical.
+
+   Confidence Level: VERY LOW
+   Experimental Basis: NONE
+   Regulatory Status: NOT APPLICABLE (theoretical)
+   
+This document explores what MIGHT be possible if RTM physics extends to biological systems. It should be read as speculative science fiction grounded in the RTM theoretical framework.
+
+---                                                                             
 
 ## Table of Contents
 
