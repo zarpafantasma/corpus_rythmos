@@ -16,7 +16,6 @@
     ║        Given the right gradient, it will find its way."          ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
 
 ## Table of Contents
 
@@ -1920,7 +1919,7 @@ We invite:
 
                           PHOTONICS SPINOFFS
                    Aetherion Technology Transfer Initiative
-                              Version 2.0
+                              Version 1.0
                                    
               "Light doesn't need to be forced into a path.
                Given the right gradient, it will find its way."
