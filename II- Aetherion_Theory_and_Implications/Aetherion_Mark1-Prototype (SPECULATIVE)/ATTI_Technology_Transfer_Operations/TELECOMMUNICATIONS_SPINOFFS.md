@@ -16,7 +16,7 @@
     ║            Topology defines what a channel can be."              ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
+
 
 ## Table of Contents
 
