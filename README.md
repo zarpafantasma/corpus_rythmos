@@ -214,7 +214,7 @@ The corpus comprises **24 documents** across five categories:
 
 ### Conventions & Status Tags:
 
-- Reading path (suggested): Foundations → Domain applications → Aetherion → Philosophy → Fiction → About the Autor.
+- Reading path (suggested): Foundations → Framework → Domain applications → Aetherion → Philosophy → Fiction → About the Autor.
 - Disclaimers: scientific claims are falsifiable; philosophical/metaphysical are non-empirical; literary is fiction; “About the Autor” is process transparency.
 
 ### Reading Paths by Audience:
