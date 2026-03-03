@@ -210,7 +210,6 @@ The corpus comprises **24 documents** across five categories:
 | Remember, the Eternal Flame | Fiction | Novel mythologizing the framework |
 | The Hidden Doors and the Half Key | Origin | Candid authorship account |
 
----
 #### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
 
 ### Conventions & Status Tags:
