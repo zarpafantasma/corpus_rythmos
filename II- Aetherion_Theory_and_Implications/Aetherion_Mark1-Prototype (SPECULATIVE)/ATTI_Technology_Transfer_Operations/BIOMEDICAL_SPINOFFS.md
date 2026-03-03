@@ -39,9 +39,6 @@
 │   fiction grounded in the RTM theoretical framework.                        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
-```
-
----
 
 ## Table of Contents
 
