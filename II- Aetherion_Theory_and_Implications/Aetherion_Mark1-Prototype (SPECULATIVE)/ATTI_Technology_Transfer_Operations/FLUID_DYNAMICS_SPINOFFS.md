@@ -16,8 +16,6 @@
     ║       Given the right gradient, it will choose to flow."         ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
-
 
 ## Table of Contents
 
