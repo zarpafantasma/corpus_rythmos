@@ -24,18 +24,6 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-
-
-     +-----------------------------------------------------------------------+
-     | PROPRIETARY & CONFIDENTIAL | ZARPAFANTASMA SYSTEMS CORP.              |
-     | PROJECT ID: [AETHERION]    | SECURITY CLEARANCE: LEVEL 5              |
-     |-----------------------------------------------------------------------|
-     | WARNING: Unauthorized access, distribution, or reproduction of this   |
-     | document is strictly prohibited by ZS-CORP Legal Protocol. Electronic |
-     | tracking and forensic watermarking are active on this file.           |
-     +-----------------------------------------------------------------------+
-
-
 ## TABLE OF CONTENTS
 
 1. [Executive Summary](#1-executive-summary)
@@ -774,3 +762,14 @@ Rev  │ Date       │ Description              │ Author
             "The gradient is the engine of transport."
 ═══════════════════════════════════════════════════════════════
 ```
+
+
+
+     +-----------------------------------------------------------------------+
+     | PROPRIETARY & CONFIDENTIAL | ZARPAFANTASMA SYSTEMS CORP.              |
+     | PROJECT ID: [AETHERION]    | SECURITY CLEARANCE: LEVEL 5              |
+     |-----------------------------------------------------------------------|
+     | WARNING: Unauthorized access, distribution, or reproduction of this   |
+     | document is strictly prohibited by ZS-CORP Legal Protocol. Electronic |
+     | tracking and forensic watermarking are active on this file.           |
+     +-----------------------------------------------------------------------+
