@@ -16,7 +16,6 @@
     ║        Given the right gradient, it will find its way."          ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
 
 ## Table of Contents
 
