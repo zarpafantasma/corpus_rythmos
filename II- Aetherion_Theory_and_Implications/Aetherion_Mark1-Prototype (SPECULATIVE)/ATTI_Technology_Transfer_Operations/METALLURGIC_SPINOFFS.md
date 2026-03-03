@@ -16,7 +16,7 @@
     ║  It is merely an environmental variable—one we can now control." ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
+
 
 ## Table of Contents
 
@@ -2465,7 +2465,7 @@ The Aetherion Forge is not a near-term commercial product. It is a vision of wha
 
                          METALLURGIC SPINOFFS
                    Aetherion Technology Transfer Initiative
-                              Version 2.0
+                              Version 1.0
                                    
                 "Gravity is not a fundamental constraint.
                  It is merely an environmental variable."
