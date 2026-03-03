@@ -1408,7 +1408,6 @@ The acoustic revolution follows the topological one.
 | RT | Reverberation time | s |
 
 
-```
 ════════════════════════════════════════════════════════════════════════════════
 
                           ACOUSTICS SPINOFFS
