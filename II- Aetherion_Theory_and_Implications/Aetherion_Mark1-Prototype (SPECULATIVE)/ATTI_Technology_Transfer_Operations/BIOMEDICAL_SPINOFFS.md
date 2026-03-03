@@ -36,7 +36,7 @@
 │   fiction grounded in the RTM theoretical framework.                        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
----
+
 
 ## Table of Contents
 
@@ -62,7 +62,6 @@
 20. [Research Roadmap](#20-research-roadmap)
 21. [Conclusion](#21-conclusion)
 
----
 
 ## 1. Executive Summary
 
