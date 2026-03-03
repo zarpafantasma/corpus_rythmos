@@ -211,11 +211,12 @@ The corpus comprises **24 documents** across five categories:
 | The Hidden Doors and the Half Key | Origin | Candid authorship account |
 
 ---
-All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
+#### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
 
 ### Conventions & Status Tags:
 
 • Reading path (suggested): Foundations → Domain applications → Aetherion → Philosophy → Fiction → About the Autor.
+
 • Disclaimers: scientific claims are falsifiable; philosophical/metaphysical are non-empirical; literary is fiction; “About the Autor” is process transparency.
 
 ### Reading Paths by Audience:
