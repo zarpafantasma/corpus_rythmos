@@ -225,6 +225,7 @@ The corpus comprises **24 documents** across five categories:
 - General readers: Hidden Doors → Eternal Flame → work backward to science
 - Skeptics: Falsification Criteria → run the simulations → run the real data analysis.
 
+---
 
 ## Computational Validation
 
