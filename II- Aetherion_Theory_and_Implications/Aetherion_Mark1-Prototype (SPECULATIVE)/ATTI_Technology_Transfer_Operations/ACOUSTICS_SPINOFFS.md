@@ -1419,7 +1419,6 @@ The acoustic revolution follows the topological one.
                     But it does care about topology."
           
 ════════════════════════════════════════════════════════════════════════════════
-```
 
      +-----------------------------------------------------------------------+
      | PROPRIETARY & CONFIDENTIAL | ZARPAFANTASMA SYSTEMS CORP.              |
