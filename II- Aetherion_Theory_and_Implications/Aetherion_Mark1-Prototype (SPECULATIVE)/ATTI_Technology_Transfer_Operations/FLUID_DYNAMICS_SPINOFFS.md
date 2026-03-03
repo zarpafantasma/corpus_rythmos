@@ -16,7 +16,6 @@
     ║       Given the right gradient, it will choose to flow."         ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
 
 
 ## Table of Contents
@@ -1659,7 +1658,7 @@ We invite:
 
                          FLUID DYNAMICS SPINOFFS
                    Aetherion Technology Transfer Initiative
-                              Version 2.0
+                              Version 1.0
                                    
               "Water doesn't need to be pushed through.
                Given the right gradient, it will flow."
