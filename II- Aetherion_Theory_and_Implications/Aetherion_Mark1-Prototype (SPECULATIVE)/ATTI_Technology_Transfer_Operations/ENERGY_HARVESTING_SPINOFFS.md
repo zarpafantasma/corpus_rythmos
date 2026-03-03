@@ -1409,7 +1409,7 @@ If RTM's predictions about topological gradients are correct, TVEH could revolut
 
                         ENERGY HARVESTING SPINOFFS
                    Aetherion Technology Transfer Initiative
-                              Version 2.0
+                              Version 1.0
                            
           "The gradient is the engine of accumulation."
           
