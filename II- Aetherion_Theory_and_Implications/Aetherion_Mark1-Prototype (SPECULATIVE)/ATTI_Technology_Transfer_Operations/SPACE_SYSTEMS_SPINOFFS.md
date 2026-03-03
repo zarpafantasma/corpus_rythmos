@@ -16,7 +16,6 @@
     ║             Topological propulsion is liberation."               ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
 
 ## Table of Contents
 
