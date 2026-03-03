@@ -1153,7 +1153,7 @@ Either way, the experiment is worth doing.
 
                           COMPUTING SPINOFFS
                    Aetherion Technology Transfer Initiative
-                              Version 2.0
+                              Version 1.0
                                    
               "The problem isn't that qubits are fragile.
                The problem is that space itself is hostile."
