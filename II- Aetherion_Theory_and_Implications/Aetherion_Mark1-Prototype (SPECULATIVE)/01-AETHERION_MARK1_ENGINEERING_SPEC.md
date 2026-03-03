@@ -738,7 +738,6 @@ Continuous vibration generates **DC thrust** via quadratic rectification:
 
 ---
 
----
 ## APPENDIX B: ROADMAP
 
 ┌─────────────────────────────────────────────────────────────────┐
@@ -769,9 +768,7 @@ Continuous vibration generates **DC thrust** via quadratic rectification:
 │                  • Suborbital flight test                       │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
----
 
-```
     ╔══════════════════════════════════════════════════════════════════╗
     ║                                                                  ║
     ║                    END OF DOCUMENT                               ║
