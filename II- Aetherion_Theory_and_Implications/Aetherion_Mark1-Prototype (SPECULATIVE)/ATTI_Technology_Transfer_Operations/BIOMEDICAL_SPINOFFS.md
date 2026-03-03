@@ -16,6 +16,7 @@
     ║       And processes can be slowed, paused, or redirected."       ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
+---
 
 ## ⚠️ SPECULATIVE NOTICE
 ---
