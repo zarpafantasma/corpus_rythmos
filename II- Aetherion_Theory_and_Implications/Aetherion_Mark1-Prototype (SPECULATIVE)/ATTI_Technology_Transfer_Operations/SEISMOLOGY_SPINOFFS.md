@@ -8,8 +8,6 @@
 
 ---
 
----
-
     ╔══════════════════════════════════════════════════════════════════╗
     ║                                                                  ║
     ║         AETHERION TECHNOLOGY TRANSFER INITIATIVE (ATTI)          ║
