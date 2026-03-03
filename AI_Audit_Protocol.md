@@ -64,7 +64,7 @@ Once you have finished uploading the next 3 documents, type...
 ```
 ALL 3 FILES UPLOADED.
 ```
-At this point you can proceed to Phase 3 or choose to continue interacting with the papers and their Computational Simulations located in 'VI-Computational Simulations, and inside you can find the computational simulations for "016-Aetherion, The Jumper" and "017-RTM Unified Field Framework"', specifically referring to documents 017 and 018.
+At this point you can proceed to Phase 3 or choose to continue interacting with the papers and their Computational Simulations located in 'VI-Computational Simulations, and inside you can find the folders for "016-Aetherion, The Jumper" and "017-RTM Unified Field Framework"'.
 
 ### Phase 3:
 While grounded in rigorous mathematical physics, RTM refuses to stop at mere materiality; it transcends it. It extends its geometric logic into the domains that humanize us—our traditions, our mysteries, and our highest potential. By demonstrating that structure, coherence, and time are deeply relational across all scales, RTM champions the idea that we are much more than a disconnected cosmic accident. Ultimately, this framework is a profoundly optimistic vision of reality: it is a mathematically backed, direct attack on nihilism.
