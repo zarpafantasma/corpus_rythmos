@@ -19,8 +19,6 @@
 ```
 
 ## ⚠️ SPECULATIVE NOTICE
-
-```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
 │   THIS DOCUMENT IS HIGHLY SPECULATIVE                                       │
@@ -2650,7 +2648,7 @@ But the destination justifies the journey.
 
                           BIOMEDICAL SPINOFFS
                    Aetherion Technology Transfer Initiative
-                              Version 2.0
+                              Version 1.0
                                    
                      "Death is not an event.
                       It is a process.
