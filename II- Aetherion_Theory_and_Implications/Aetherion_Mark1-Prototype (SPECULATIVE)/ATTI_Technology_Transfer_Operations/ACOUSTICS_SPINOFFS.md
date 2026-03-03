@@ -17,7 +17,6 @@
     ║                But it does care about topology."                 ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
-```
 
 ## Table of Contents
 
