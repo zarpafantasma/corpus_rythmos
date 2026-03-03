@@ -1585,7 +1585,7 @@ Either way, the experiment is worth doing.
 
                           SEISMOLOGY SPINOFFS
                    Aetherion Technology Transfer Initiative
-                              Version 2.0
+                              Version 1.0
                                    
               "We've been measuring the aftermath of earthquakes.
                Now we can measure the pressure that causes them."
