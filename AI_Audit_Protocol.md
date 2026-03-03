@@ -9,8 +9,8 @@ Hello. I am going to upload a series of documents from a scientific framework ti
 
 GOLDEN CONTEXT RULE:
 To understand any part of this work, it is mandatory that you first process the two foundational documents:
-1. 001-Multiscale Temporal Relativity (RTM) (The theoretical core).
-2. 002-Scale–Clock Geometry (The mathematical foundation).
+1. "001-Multiscale Temporal Relativity (RTM)" (The theoretical core).
+2. "002-Scale–Clock Geometry A Mathematical Foundation for RTM" (The mathematical foundation).
 
 Once these two are processed, I will upload other documents (from a total of 24) that apply this theory to biology, economics, music, propulsion, or even philosophy.
 
