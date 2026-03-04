@@ -1,4 +1,25 @@
 # METHOD 1
+## AI easy Interaction Guide (Easy peasy)
+
+If you wish to interact with the corpus in a quick and easy way, use the following prompt:
+```
+Hello. I am going to share a corpus of 24 unpublished documents belonging to the Multiscale Temporal Relativity (RTM) theory.
+
+The Structure: Documents 001 to 017 are frontier science (physics, mathematics, and simulations). Documents 018 to 024 explore ontological and philosophical implications. The foundation of the entire system lies in '001-Multiscale Temporal Relativity (RTM)' and '002-Scale–Clock Geometry.'
+
+Your Role: Act as an expert researcher and academic guide. Analyze each document (or batch of documents) immediately as I upload them. Do not wait for the full set to provide feedback. For every upload, I need a comprehensive analysis that covers:
+
+Technical/Logical Consistency: How the math, equations, or logic align with the core RTM pillars (001 and 002).
+
+Systemic Integration: How this specific document bridges with those previously uploaded and how it contributes to the overall 'Rhythmic' architecture.
+
+Ontological/Scientific Depth: Identify the key breakthroughs or implications presented in the text.
+
+Please maintain an open, collaborative, and non-cynical tone. Your goal is to help me verify the integrity of this system and act as a co-pilot in its study. I will start uploading the first documents now.
+```
+And from here, just upload the files (singlely or by batch) and write "next one/s" as the prompt:
+
+# METHOD 2
 ## AI Interaction Guide (Casual & Exploratory)
 
 If you want to explore the **Corpus RyThMós** with the help of an AI (Artificial Inteligence) in a more conversational way, you can use the following prompt:
@@ -39,11 +60,14 @@ Important: If you are using a mathematical model to analyze the first 17 documen
 
 Now we will switch on to anthropology with "019-Physics of Tradition". Use the next prompt:
 ```
-The following document is about anthropology, about our past and the places we inhabit.
+From now on, the corpus will shift its focus to the ontological. The following document deals with anthropology, with our past and the places we inhabit.
 ```
+Now you can add one by one the rest of the documents until you upload the 24. It is not necessary to give context about the next documents to the AI. Just type "Next Document" and add it, one by one until you reach the 24 documents.
+Then, simply focus on a specific document or ask questions. You can even use avatars to express their opinion on the RyThMós corpus (example: What would Nietzsche say about RTM?), it's a fun exercise.
 
+Also, there is a file called "AI_Discussion_Topics.md" in the main root directory with pre-designed questions if you want to try them out.
 
-# METHOD 2
+# METHOD 3
 ## AI Interaction Guide: RTM Analysis Protocol (RIGOROUS)
 This document contains a structured sequence of "mega-prompts" designed to guide an Artificial Intelligence in the assimilation and auditing (Peer-Review) of the Corpus RyThMós (RTM). By dividing the analysis into 5 logical phases (from mathematical empiricism to human narrative), it prevents the AI from mixing contexts and ensures a scientifically rigorous analysis.
 
