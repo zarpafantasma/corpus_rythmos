@@ -25,15 +25,21 @@ Please confirm that you are ready to receive documents 001 and 002 to begin our 
 
 Once you've uploaded the first 15 documents, the corpus will begin to shift towards Aetherion (antigravity) engineering. Type the following prompt and attach the document "016-Aetherion, the jumper".
 ```
-Now that you've finished analyzing the first 15 documents, it's time to jump into engineering. Here's what happens when you apply RTM logic to propulsion.
+Now that you've finished analyzing the first 15 documents, it's time to jump into engineering. Here's what happens when you apply RTM logic to propulsion. (016-)
 ```
 As soon as you upload the aetherion document, continue with the "017-RTM Unified Field Framework" document by copying the following prompt.
 ```
 With the physics of antigravity comes a Unified Field Framework that uses the concept of the aetherion as its litmus test.
 ```
-When 
+You can now upload the following file related to the implications of RTM being a real. (018-)
 ```
 And if RTM and Aetherion were proven real? What would the implications be? The following document presents a series of rules and repercussions of this new reality.
+```
+Now we will switch on to anthropology. (019-)
+
+Important: If you are using a mathematical model to analyze the first 17 documents (which is recommended), change the model to Reasoning inside your AI app for the next phase. Because we will move from the material to the spiritual.
+```
+The following document is about anthropology, about our past and the places we inhabit.
 ```
 
 
