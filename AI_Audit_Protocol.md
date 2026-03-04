@@ -27,6 +27,10 @@ Once you've uploaded the first 15 documents, the corpus will begin to shift towa
 ```
 Now that you've finished analyzing the first 15 documents, it's time to jump into engineering. Here's what happens when you apply RTM logic to propulsion.
 ```
+Once you upload the aetherion document, continue with the "017-RTM Unified Field Framework" document by copying the following prompt.
+```
+With the physics of antigravity comes a Unified Field Framework that uses the concept of the aetherion as its litmus test.
+```
 
 # METHOD 2
 ## AI Interaction Guide: RTM Analysis Protocol (RIGOROUS)
