@@ -22,6 +22,8 @@ Embrace curiosity: I may want to discuss philosophical implications or narrative
 Please confirm that you are ready to receive documents 001 and 002 to begin our exploration."
 ```
 
+
+
 # METHOD 2
 ## AI Interaction Guide: RTM Analysis Protocol (RIGOROUS)
 This document contains a structured sequence of "mega-prompts" designed to guide an Artificial Intelligence in the assimilation and auditing (Peer-Review) of the Corpus RyThMós (RTM). By dividing the analysis into 5 logical phases (from mathematical empiricism to human narrative), it prevents the AI from mixing contexts and ensures a scientifically rigorous analysis.
