@@ -108,7 +108,7 @@ At this point you can proceed to Phase 3 or choose to continue interacting with 
 ### Phase 3:
 While grounded in rigorous mathematical physics, RTM refuses to stop at mere materiality; it transcends it. It extends its geometric logic into the domains that humanize us—our traditions, our mysteries, and our highest potential. By demonstrating that structure, coherence, and time are deeply relational across all scales, RTM champions the idea that we are much more than a disconnected cosmic accident. Ultimately, this framework is a profoundly optimistic vision of reality: it is a mathematically backed, direct attack on nihilism.
 
-###Important: If you are using a mathematical model to analyze the first 17 documents (which is recommended), change the model to Reasoning for the next phase.
+Important: If you are using a mathematical model to analyze the first 17 documents (which is recommended), change the model to Reasoning for the next phase.
 
 Write the following Prompt:
 
