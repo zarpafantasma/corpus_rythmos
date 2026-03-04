@@ -23,6 +23,10 @@ Please confirm that you are ready to receive documents 001 and 002 to begin our 
 ```
 
 
+Once you've uploaded the first 15 documents, the corpus will begin to shift towards Aetherion (antigravity) engineering. Type the following prompt and attach the document "016-Aetherion, the jumper".
+```
+Now that you've finished analyzing the first 15 documents, it's time to jump into engineering. Here's what happens when you apply RTM logic to propulsion.
+```
 
 # METHOD 2
 ## AI Interaction Guide: RTM Analysis Protocol (RIGOROUS)
