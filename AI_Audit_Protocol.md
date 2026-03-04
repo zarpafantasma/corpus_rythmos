@@ -35,9 +35,9 @@ You can now upload the following file related to the implications of RTM being a
 ```
 And if RTM and Aetherion were proven real? What would the implications be? The following document presents a series of rules and repercussions of this new reality.
 ```
-Now we will switch on to anthropology. (019-)
-
 Important: If you are using a mathematical model to analyze the first 17 documents (which is recommended), change the model to Reasoning inside your AI app for the next phase. Because we will move from the material to the spiritual.
+
+Now we will switch on to anthropology with "019-Physics of Tradition". Use the next prompt:
 ```
 The following document is about anthropology, about our past and the places we inhabit.
 ```
