@@ -62,7 +62,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 1. RTM ENGINE (ESTABILIZADO V2)
+# 1. RTM ENGINE
 # ==========================================
 class RTMEngine:
     def __init__(self, window_size=12):
@@ -85,7 +85,6 @@ class RTMEngine:
             new_alpha = 0.7 * self.last_alpha + 0.3 * raw_alpha
             self.last_alpha = max(0.25, min(new_alpha, 2.0))
             return self.last_alpha
-            
         return 1.800
 
 def fetch_live_weather(lat, lon):
@@ -95,8 +94,6 @@ def fetch_live_weather(lat, lon):
         if r.status_code == 200:
             d = r.json()
             df_api = pd.DataFrame(d['hourly'])
-            df_api['surface_pressure'] = df_api['surface_pressure'].interpolate().fillna(1013.25)
-            df_api['windspeed_10m'] = df_api['windspeed_10m'].interpolate().fillna(0)
             t = pd.to_datetime(df_api['time'])
             w = df_api['windspeed_10m'].values / 1.852
             L = 1050 - df_api['surface_pressure'].values
@@ -127,6 +124,9 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("<h3 style='color: #ffffff;'>TARGET COORDINATES</h3>", unsafe_allow_html=True)
     
+    # EL SYSTEM NOTE VUELVE AQUÍ (ARRIBA DE LAS COORDENADAS)
+    st.markdown("<p style='color: #3b82f6; font-size: 11px; font-weight: bold;'>[ SYSTEM NOTE ] Scan accuracy is significantly higher when using exact GPS coordinates instead of map clicks.</p>", unsafe_allow_html=True)
+    
     c1, c2 = st.columns(2)
     with c1: in_lat = st.number_input("Lat", value=st.session_state.t_lat, format="%.4f")
     with c2: in_lon = st.number_input("Lon", value=st.session_state.t_lon, format="%.4f")
@@ -150,26 +150,20 @@ with st.sidebar:
     st.text_input("Bot Token", type="password", placeholder="Optional")
     st.text_input("Chat ID", placeholder="Optional")
 
-    st.markdown("---")
-    st.markdown("""
-    <div style='font-size: 10px; color: #94a3b8; line-height: 1.4; text-align: justify;'>
-        <b>DISCLAIMER:</b> RTM Sentinel is an experimental proof of concept based on 
-        RTM Theory. Data is for research and demonstration purposes only. 
-        It is NOT an official meteorological alert system. 
-        Always consult official agencies for emergency decisions.
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown("<br><h6 style='color: #10b981; text-align: center;'>[ SYSTEM ONLINE ]</h6>", unsafe_allow_html=True)
 
 # ==========================================
 # 3. MAIN DASHBOARD
 # ==========================================
-head_l, head_r = st.columns([1, 1.3])
+head_l, head_r = st.columns([1, 1.5])
 with head_l: st.markdown("<h2 style='color: white; margin: 0;'>RTM SENTINEL</h2>", unsafe_allow_html=True)
 with head_r: 
-    # AQUÍ HEMOS MOVIDO EL NOTICE DESDE EL SIDEBAR
+    # EL DISCLAIMER LARGO SE MUEVE AQUÍ (A LA DERECHA DEL TÍTULO)
     st.markdown("""
     <div class="disclaimer-box">
-        <b>[ SYSTEM NOTE ]</b> Scan accuracy is significantly higher when using exact GPS coordinates instead of map clicks.
+        <b>[ DISCLAIMER ]</b> RTM Sentinel is an experimental proof of concept based on RTM Theory. 
+        Data is for research and demonstration purposes only. It is NOT an official meteorological 
+        alert system. Always consult official agencies for emergency decisions.
     </div>""", unsafe_allow_html=True)
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
