@@ -185,7 +185,7 @@ The first implementation of RTM Theory applied to Rhythmic Meteorology. This too
 * **Status:** Operational / Proof of Concept
 * **Domain:** Atmospheric Thermodynamics
 * **Launch App:** [RTM Sentinel Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
-* **Scaling the Vision:** While the current Sentinel operates as a localized scanner, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/Global-Architecture-Vision.pdf).
+* **Scaling the Vision:** While the current Sentinel operates as a localized scanner, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/Global-Architecture-Vision.pdf).
 
 ---
 
