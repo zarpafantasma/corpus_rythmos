@@ -150,7 +150,6 @@ with st.sidebar:
     st.text_input("Bot Token", type="password", placeholder="Optional")
     st.text_input("Chat ID", placeholder="Optional")
 
-    st.markdown("---")
     </div>
     """, unsafe_allow_html=True)
 
@@ -258,3 +257,4 @@ if start_button:
 st.markdown("<hr style='border-color: #334155; margin-top: 40px;'>", unsafe_allow_html=True)
 
 st.markdown('<div style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;"><b>Powered by RTM-Atmo Technology</b> | github.com/zarpafantasma/corpus_rythmos</div>', unsafe_allow_html=True)
+
