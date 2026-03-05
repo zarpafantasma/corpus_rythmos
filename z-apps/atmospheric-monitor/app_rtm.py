@@ -24,7 +24,6 @@ st.markdown("""
     .stApp { background-color: #0b1121; }
     #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {background-color: transparent !important;}
     
-    /* HACER EL SIDEBAR FIJO EN DESKTOP */
     [data-testid="collapsedControl"] { display: none !important; }
     
     [data-testid="stSidebar"] {
@@ -32,7 +31,6 @@ st.markdown("""
         border-right: 1px solid #334155 !important;
     }
     
-    /* TEXTO CLARO EN PANEL IZQUIERDO */
     [data-testid="stSidebar"] p, [data-testid="stSidebar"] label, [data-testid="stSidebar"] span {
         color: #f8fafc !important;
         font-weight: 500;
@@ -64,7 +62,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 1. RTM ENGINE
+# 1. RTM ENGINE (ESTABILIZADO V2)
 # ==========================================
 class RTMEngine:
     def __init__(self, window_size=12):
@@ -87,6 +85,7 @@ class RTMEngine:
             new_alpha = 0.7 * self.last_alpha + 0.3 * raw_alpha
             self.last_alpha = max(0.25, min(new_alpha, 2.0))
             return self.last_alpha
+            
         return 1.800
 
 def fetch_live_weather(lat, lon):
@@ -96,6 +95,8 @@ def fetch_live_weather(lat, lon):
         if r.status_code == 200:
             d = r.json()
             df_api = pd.DataFrame(d['hourly'])
+            df_api['surface_pressure'] = df_api['surface_pressure'].interpolate().fillna(1013.25)
+            df_api['windspeed_10m'] = df_api['windspeed_10m'].interpolate().fillna(0)
             t = pd.to_datetime(df_api['time'])
             w = df_api['windspeed_10m'].values / 1.852
             L = 1050 - df_api['surface_pressure'].values
@@ -125,7 +126,6 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("<h3 style='color: #ffffff;'>TARGET COORDINATES</h3>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #3b82f6; font-size: 11px; font-weight: bold;'>SYSTEM NOTE: Accuracy is higher using exact coordinates instead of map clicks.</p>", unsafe_allow_html=True)
     
     c1, c2 = st.columns(2)
     with c1: in_lat = st.number_input("Lat", value=st.session_state.t_lat, format="%.4f")
@@ -150,6 +150,13 @@ with st.sidebar:
     st.text_input("Bot Token", type="password", placeholder="Optional")
     st.text_input("Chat ID", placeholder="Optional")
 
+    st.markdown("---")
+    st.markdown("""
+    <div style='font-size: 10px; color: #94a3b8; line-height: 1.4; text-align: justify;'>
+        <b>DISCLAIMER:</b> RTM Sentinel is an experimental proof of concept based on 
+        RTM Theory. Data is for research and demonstration purposes only. 
+        It is NOT an official meteorological alert system. 
+        Always consult official agencies for emergency decisions.
     </div>
     """, unsafe_allow_html=True)
 
@@ -158,7 +165,12 @@ with st.sidebar:
 # ==========================================
 head_l, head_r = st.columns([1, 1.3])
 with head_l: st.markdown("<h2 style='color: white; margin: 0;'>RTM SENTINEL</h2>", unsafe_allow_html=True)
-with head_r: st.markdown('<div class="disclaimer-box"><b>[ DISCLAIMER: ]</b> RTM Sentinel is an experimental proof of concept based on RTM Theory. Data is for research and demonstration purposes only. It is NOT an official meteorological alert system. Always consult official agencies for emergency decisions.</div>', unsafe_allow_html=True)
+with head_r: 
+    # AQUÍ HEMOS MOVIDO EL NOTICE DESDE EL SIDEBAR
+    st.markdown("""
+    <div class="disclaimer-box">
+        <b>[ SYSTEM NOTE ]</b> Scan accuracy is significantly higher when using exact GPS coordinates instead of map clicks.
+    </div>""", unsafe_allow_html=True)
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 
@@ -255,6 +267,4 @@ if start_button:
         st.markdown("""<div class="theory-box"><h3 style='color: #3b82f6; margin-top: 0;'>RTM DEEP INSIGHT: ANALYSIS OF HISTORIC FAILURES</h3><p style='font-size: 15px; line-height: 1.6;'>Traditional models rely on <b>Kinetic Metrics</b> (post-facto movement). RTM measures <b>Topological Structural Coherence (α)</b>.</p><ul style='font-size: 14px;'><li><b>HURRICANE OTIS (2023):</b> RTM detected structural failure 12h before official NHC major warnings.</li><li><b>HURRICANE MILTON (2024):</b> Structural fracture detected 14h before Category 5 kinetic explosion.</li><li><b>HURRICANE PATRICIA (2015):</b> Record structural collapse signaled 12h before peak intensity.</li></ul></div>""", unsafe_allow_html=True)
 
 st.markdown("<hr style='border-color: #334155; margin-top: 40px;'>", unsafe_allow_html=True)
-
 st.markdown('<div style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;"><b>Powered by RTM-Atmo Technology</b> | github.com/zarpafantasma/corpus_rythmos</div>', unsafe_allow_html=True)
-
