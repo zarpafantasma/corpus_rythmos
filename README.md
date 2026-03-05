@@ -166,7 +166,7 @@ The following analyses provided initial directional evidence but suffer from met
 | Various domain averages | High R² | Aggregation fallacy | Superseded by subject-level |
 
 ---
-## RTM Predictive Applications & Tools (z.Apss)
+## RTM Predictive Applications & Tools (z.apss)
 
 This section hosts operational tools developed under the RTM (Topological Structural Coherence) framework. These applications translate complex rhythmic mathematics into predictive interfaces, allowing for the detection of structural fractures in non-linear systems before they manifest as kinetic events.
 
