@@ -166,6 +166,36 @@ The following analyses provided initial directional evidence but suffer from met
 | Various domain averages | High R² | Aggregation fallacy | Superseded by subject-level |
 
 ---
+## RTM Predictive Applications & Tools
+
+This section hosts operational tools developed under the RTM (Topological Structural Coherence) framework. These applications translate complex rhythmic mathematics into predictive interfaces, allowing for the detection of structural fractures in non-linear systems before they manifest as kinetic events.
+
+### Core Objectives
+- **Early Detection:** Identifying the transition from laminar to turbulent states.
+- **Structural Integrity:** Monitoring the $\alpha$ coefficient to assess system stability.
+- **Lead Time:** Providing a predictive window before official traditional metrics (kinetic metrics) react.
+
+---
+
+### List of Active Applications
+
+#### 1. RTM Sentinel (Atmospheric Monitor)
+The first implementation of RTM Theory applied to Rhythmic Meteorology. This tool scans real-time satellite telemetry to detect topological fractures in the atmosphere. It is designed to predict the rapid intensification of hurricanes and tropical storms with a lead time of ~11.6 hours before official kinetic wind surges.
+
+* **Status:** Operational / Proof of Concept
+* **Domain:** Atmospheric Thermodynamics
+* **Launch App:** [RTM Sentinel Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
+
+---
+
+### Upcoming Applications
+
+#### 2. RTM Bitcoin Engine (In Development)
+Applying RTM principles to high-frequency financial markets. This tool aims to identify structural decay in price trends and liquidity cycles, detecting potential market "fractures" (massive sell-offs or spikes) before they are reflected in standard momentum indicators.
+
+* **Status:** Research Phase
+* **Domain:** Financial Complexity & Quantitative Analysis
+---
 
 ## Corpus Structure
 
