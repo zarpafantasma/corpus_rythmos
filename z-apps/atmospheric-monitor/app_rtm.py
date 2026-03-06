@@ -14,7 +14,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ==========================================
 # 0. UI SETUP & PROFESSIONAL CSS
 # ==========================================
-st.set_page_config(page_title="RTM Sentinel", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="RTM HURRICANES", layout="wide", initial_sidebar_state="expanded")
 
 if 'is_animating' not in st.session_state:
     st.session_state.is_animating = False
@@ -174,7 +174,7 @@ with st.sidebar:
     <div style="background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155; margin-top: 10px;">
         <h4 style='color: #3b82f6; margin-top: 0; font-size: 13px; text-transform: uppercase;'>[ Engine Tuning & Scope ]</h4>
         <p style='color: #94a3b8; font-size: 11px; line-height: 1.5; text-align: justify; margin-bottom: 10px;'>
-            <b>WHAT IT MEASURES:</b> Sentinel calculates the Topological Structural Coherence (α) by actively tracking the mathematical coupling between thermodynamic vacuum (pressure) and kinetic energy (wind).
+            <b>WHAT IT MEASURES:</b> RTM HURRICANES calculates the Topological Structural Coherence (α) by actively tracking the mathematical coupling between thermodynamic vacuum (pressure) and kinetic energy (wind).
         </p>
         <p style='color: #94a3b8; font-size: 11px; line-height: 1.5; text-align: justify; margin-bottom: 10px;'>
             <b>WHAT IT BLINDS OUT:</b> The engine is heavily shielded against daily barometric tides and standard coastal sea breezes. It ignores generic power-law growth and absolute heat thresholds.
@@ -191,11 +191,11 @@ with st.sidebar:
 # 3. MAIN DASHBOARD
 # ==========================================
 head_l, head_r = st.columns([1, 1.5])
-with head_l: st.markdown("<h2 style='color: white; margin: 0;'>RTM SENTINEL</h2>", unsafe_allow_html=True)
+with head_l: st.markdown("<h2 style='color: white; margin: 0;'>RTM HURRICANES</h2>", unsafe_allow_html=True)
 with head_r: 
     st.markdown("""
     <div class="disclaimer-box">
-        <b>[ DISCLAIMER ]</b> RTM Sentinel is an experimental proof of concept based on RTM Theory. 
+        <b>[ DISCLAIMER ]</b> RTM HURRICANES is an experimental proof of concept based on RTM Theory. 
         Data is for research and demonstration purposes only. It is NOT an official meteorological 
         alert system. Always consult official agencies for emergency decisions.
     </div>""", unsafe_allow_html=True)
@@ -298,3 +298,4 @@ if start_button:
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;"><b>Powered by RTM-Atmo Technology</b> | github.com/zarpafantasma/corpus_rythmos</div>', unsafe_allow_html=True)
+
