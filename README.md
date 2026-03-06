@@ -369,7 +369,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 <p align="center">
   <a href="#">
-  <img src="motto.jpg" width="400">
+  <img src="footer.jpg" width="400">
     </a>
 </p>
 
