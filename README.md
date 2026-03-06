@@ -179,13 +179,13 @@ This section hosts operational tools developed under the RTM (Topological Struct
 
 ### List of Active Applications
 
-#### 1. RTM Sentinel (Atmospheric Monitor)
+#### 1. RTM HURRICANES (Atmospheric Monitor)
 The first implementation of RTM Theory applied to Rhythmic Meteorology. This tool scans real-time satellite telemetry to detect topological fractures in the atmosphere. It is designed to predict the rapid intensification of hurricanes and tropical storms with a lead time of ~11.6 hours before official kinetic wind surges.
 
 * **Status:** Operational / Proof of Concept
 * **Domain:** Atmospheric Thermodynamics
-* **Launch App:** [RTM Sentinel Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
-* **Scaling the Vision:** While the current Sentinel operates as a localized scanner, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/Global-Architecture-Vision.pdf).
+* **Launch App:** [RTM HURRICANES Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
+* **Scaling the Vision:** While the current RTM HURRICANES operates as a localized scanner, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/Global-Architecture-Vision.pdf).
 
 ---
 
