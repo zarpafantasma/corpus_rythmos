@@ -654,9 +654,3 @@ st.markdown("""
     Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank">github.com/zarpafantasma/corpus_rythmos</a>
 </div>
 """, unsafe_allow_html=True)
-
-import os
-st.sidebar.write("### 🔎 Rastreador de archivos")
-archivos_en_el_servidor = os.listdir(".")
-st.sidebar.write("He encontrado estos archivos en tu GitHub:")
-st.sidebar.write(archivos_en_el_servidor)
