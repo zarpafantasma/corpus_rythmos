@@ -279,7 +279,9 @@ if start_button:
             p_chart.plotly_chart(fig, use_container_width=True, key=f"c_{i}")
             time.sleep(0.03)
 
-        st.markdown("""<div class="theory-box"><h3 style='color: #3b82f6; margin-top: 0;'>RTM DEEP INSIGHT: ANALYSIS OF HISTORIC FAILURES</h3><p style='font-size: 15px; line-height: 1.6;'>Traditional models rely on <b>Kinetic Metrics</b> (post-facto movement). RTM measures <b>Topological Structural Coherence (α)</b>.</p><ul style='font-size: 14px;'><li><b>HURRICANE OTIS (2023):</b> RTM detected structural failure 12h before official NHC major warnings.</li><li><b>HURRICANE MILTON (2024):</b> Structural fracture detected 14h before Category 5 kinetic explosion.</li><li><b>HURRICANE PATRICIA (2015):</b> Record structural collapse signaled 12h before peak intensity.</li></ul></div>""", unsafe_allow_html=True)
+        # AQUÍ ESTÁ EL CAMBIO: Solo se muestra si "storm_data" tiene información (no en Live Data)
+        if storm_data:
+            st.markdown("""<div class="theory-box"><h3 style='color: #3b82f6; margin-top: 0;'>RTM DEEP INSIGHT: ANALYSIS OF HISTORIC FAILURES</h3><p style='font-size: 15px; line-height: 1.6;'>Traditional models rely on <b>Kinetic Metrics</b> (post-facto movement). RTM measures <b>Topological Structural Coherence (α)</b>.</p><ul style='font-size: 14px;'><li><b>HURRICANE OTIS (2023):</b> RTM detected structural failure 12h before official NHC major warnings.</li><li><b>HURRICANE MILTON (2024):</b> Structural fracture detected 14h before Category 5 kinetic explosion.</li><li><b>HURRICANE PATRICIA (2015):</b> Record structural collapse signaled 12h before peak intensity.</li></ul></div>""", unsafe_allow_html=True)
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;"><b>Powered by RTM-Atmo Technology</b> | github.com/zarpafantasma/corpus_rythmos</div>', unsafe_allow_html=True)
