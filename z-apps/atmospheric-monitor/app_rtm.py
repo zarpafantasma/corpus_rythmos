@@ -168,9 +168,22 @@ with st.sidebar:
             st.rerun()
 
     st.markdown("---")
-    st.markdown("<h4 style='color: #ffffff;'>TELEGRAM ALERTS</h4>", unsafe_allow_html=True)
-    st.text_input("Bot Token", type="password", placeholder="Optional")
-    st.text_input("Chat ID", placeholder="Optional")
+    
+    # NUEVO PANEL DE EXPLICACIÓN (Reemplaza a Telegram)
+    st.markdown("""
+    <div style="background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155; margin-top: 10px;">
+        <h4 style='color: #3b82f6; margin-top: 0; font-size: 13px; text-transform: uppercase;'>[ Engine Tuning & Scope ]</h4>
+        <p style='color: #94a3b8; font-size: 11px; line-height: 1.5; text-align: justify; margin-bottom: 10px;'>
+            <b>WHAT IT MEASURES:</b> Sentinel calculates the Topological Structural Coherence (α) by actively tracking the mathematical coupling between thermodynamic vacuum (pressure) and kinetic energy (wind).
+        </p>
+        <p style='color: #94a3b8; font-size: 11px; line-height: 1.5; text-align: justify; margin-bottom: 10px;'>
+            <b>WHAT IT BLINDS OUT:</b> The engine is heavily shielded against daily barometric tides and standard coastal sea breezes. It ignores generic power-law growth and absolute heat thresholds.
+        </p>
+        <p style='color: #94a3b8; font-size: 11px; line-height: 1.5; text-align: justify; margin-bottom: 0;'>
+            <b>WHAT IT HUNTS FOR:</b> It scans for a <i>Topological Fracture</i>—the exact moment the atmospheric friction collapses (α < 1.25), triggering a Rapid Intensification (RI) explosion hours before it translates into kinetic movement.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
     st.markdown("<br><h6 style='color: #10b981; text-align: center;'>[ SYSTEM ONLINE ]</h6>", unsafe_allow_html=True)
 
