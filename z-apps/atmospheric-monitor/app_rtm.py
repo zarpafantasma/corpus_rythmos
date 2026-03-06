@@ -62,7 +62,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 1. RTM ENGINE (Física Orgánica y Correlación)
+# 1. RTM ENGINE (BLINDAJE CINÉTICO)
 # ==========================================
 class RTMEngine:
     def __init__(self, window_size=12):
@@ -78,23 +78,30 @@ class RTMEngine:
         if len(self.history) == self.window_size:
             df = pd.DataFrame(self.history)
             
-            # Calculamos las desviaciones estándar reales
             std_l = df['L'].std()
             std_t = df['T'].std()
             
-            # 1. Fluctuación natural (la gráfica respira con el clima)
+            # Respiración basal
             micro_noise = (std_t * 0.01) + np.random.uniform(-0.015, 0.015)
             raw_alpha = 1.800 - micro_noise
             
-            # 2. Detección RTM: Solo reacciona si hay variación fuerte
-            if std_l > 0.15 and current_wind > 15:
+            # FILTRO ANTI-BRISA MARINA: Exige desestabilización real
+            # std_l > 0.5 ignora las mareas barométricas diarias normales
+            # current_wind > 22 ignora las brisas costeras estándar
+            if std_l > 0.5 and current_wind > 22:
                 r = df['T'].corr(df['L'])
-                # Si viento y caída de presión se acoplan (r positivo)
-                if pd.notna(r) and r > 0.1:
-                    fracture_drop = r * std_l * 0.40
+                
+                # Si hay fuerte acoplamiento topológico
+                if pd.notna(r) and r > 0.25:
+                    # MULTIPLICADOR CINÉTICO: 
+                    # Una brisa fuerte (25kt) rompe poco la estructura (multiplicador 0.5)
+                    # Un huracán (100kt) la destroza (multiplicador 2.0)
+                    kinetic_multiplier = current_wind / 50.0 
+                    fracture_drop = r * std_l * 0.30 * kinetic_multiplier
+                    
                     raw_alpha = 1.800 - fracture_drop
             
-            # 3. Suavizado (Inercia del motor)
+            # Suavizado de la caída
             new_alpha = 0.6 * self.last_alpha + 0.4 * raw_alpha
             self.last_alpha = max(0.25, min(new_alpha, 2.1))
             return self.last_alpha
