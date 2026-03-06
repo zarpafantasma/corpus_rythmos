@@ -6,9 +6,13 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 import ccxt
 import io
+import os
+
+# Dynamically get the directory where app.py is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ==========================================
-# 1. CONFIGURACIÓN DE PÁGINA Y CSS PREMIUM
+# 1. PAGE CONFIGURATION AND PREMIUM CSS
 # ==========================================
 st.set_page_config(
     page_title="RTM Economic Radar",
@@ -127,10 +131,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 2. MOTORES DE DATOS (Caché)
+# 2. DATA ENGINES (Caching)
 # ==========================================
 def get_noise_filter(symbol):
-    """Retorna el filtro de ruido absoluto exacto para no colapsar la covarianza RTM"""
+    """Returns the exact absolute noise filter to prevent RTM covariance collapse"""
     if 'BTC' in symbol: return 5.0
     elif 'ETH' in symbol: return 0.5
     elif 'SOL' in symbol: return 0.05
@@ -166,7 +170,9 @@ def load_and_process_data(file_path):
         df['Rolling_Alpha'] = raw_alpha.rolling(window=3, min_periods=1).mean()
         
         return df.dropna(subset=['Rolling_Alpha'])
-    except Exception:
+    except Exception as e:
+        # Show exact error in UI if file reading fails
+        st.error(f"Error processing file '{file_path}': {str(e)}")
         return None
 
 @st.cache_data(ttl=60)
@@ -177,7 +183,7 @@ def fetch_live_rtm_data(symbol='BTC/USD'):
         df = pd.DataFrame(ohlcv, columns=['timestamp', 'Open', 'High', 'Low', 'Close', 'Volume'])
         df['Date'] = pd.to_datetime(df['timestamp'], unit='ms')
         
-        # Uso del filtro de ruido estricto por activo
+        # Use strict noise filter per asset
         NOISE_FILTER_USD = get_noise_filter(symbol)
         
         df['log_L'] = np.log(df['Volume'] + 1e-9)
@@ -189,7 +195,7 @@ def fetch_live_rtm_data(symbol='BTC/USD'):
         cov = df['log_L'].rolling(window).cov(df['log_T'])
         var = df['log_L'].rolling(window).var()
         
-        # MATEMÁTICA INTACTA (Sin alteraciones que causen 0.024)
+        # INTACT MATH (No alterations causing 0.024)
         with np.errstate(divide='ignore', invalid='ignore'):
             raw_alpha = cov / var
             
@@ -197,7 +203,8 @@ def fetch_live_rtm_data(symbol='BTC/USD'):
         df['Rolling_Alpha'] = raw_alpha.rolling(window=3, min_periods=1).mean()
         
         return df.dropna(subset=['Rolling_Alpha'])
-    except Exception:
+    except Exception as e:
+        st.error(f"Live API Fetch Error: {str(e)}")
         return None
 
 @st.cache_data(ttl=120)
@@ -230,9 +237,12 @@ def fetch_systemic_health():
 @st.cache_data
 def load_macro_data():
     try:
-        return pd.read_csv("crash_alpha_analysis.csv")
+        # Safely join the path to the CSV file
+        file_path = os.path.join(BASE_DIR, "crash_alpha_analysis.csv")
+        return pd.read_csv(file_path)
     except Exception as e:
-        return str(e)
+        st.error(f"Error loading macro data: {str(e)}")
+        return None
 
 def generate_report(asset, price, alpha, status, timestamp):
     report = f"""====================================================
@@ -357,7 +367,7 @@ if menu == "MICROSTRUCTURE (LIVE)":
     st.markdown("## LIVE MICROSTRUCTURE RADAR")
     st.markdown("<p style='color: #A0AEC0;'>Real-time monitoring of multi-asset market friction via Kraken API.</p>", unsafe_allow_html=True)
     
-    # NEW FEATURE: MULTI-ASSET SELECTOR
+    # MULTI-ASSET SELECTOR
     col_sel, col_btn, _ = st.columns([1, 1, 2])
     with col_sel:
         selected_asset = st.selectbox("SELECT ASSET", ["BTC/USD", "ETH/USD", "SOL/USD", "XRP/USD"])
@@ -400,7 +410,7 @@ if menu == "MICROSTRUCTURE (LIVE)":
             
             st.markdown("<br>", unsafe_allow_html=True)
             
-            # NEW FEATURE: DOWNLOAD DIAGNOSTIC REPORT
+            # DOWNLOAD DIAGNOSTIC REPORT
             report_content = generate_report(selected_asset, current_price, current_alpha, status_text, last_update)
             st.download_button(
                 label="EXPORT DIAGNOSTIC REPORT",
@@ -428,7 +438,7 @@ if menu == "MICROSTRUCTURE (LIVE)":
             fig.update_yaxes(title_text="", secondary_y=True, range=[-0.1, 3.1]) 
             st.plotly_chart(fig, use_container_width=True)
 
-        # NEW FEATURE: GLOBAL SYSTEMIC HEALTH OVERVIEW
+        # GLOBAL SYSTEMIC HEALTH OVERVIEW
         st.markdown("---")
         st.markdown("#### GLOBAL SYSTEMIC HEALTH OVERVIEW")
         health_data = fetch_systemic_health()
@@ -472,7 +482,7 @@ if menu == "MICROSTRUCTURE (LIVE)":
         </div>
         """, unsafe_allow_html=True)
     else:
-        st.error("CONNECTION ERROR: Could not fetch live data from Kraken API.")
+        st.error("CONNECTION ERROR: Could not fetch live data from Kraken API or data returned empty.")
 
 # ------------------------------------------
 # MODULE 2: MACRO EARLY WARNING
@@ -505,6 +515,8 @@ elif menu == "MACRO EARLY WARNING":
         st.plotly_chart(fig_bar, use_container_width=True)
             
         st.markdown("""<div class="rtm-info-card"><h4 style="margin-top: 0;">OPERATIONAL PROTOCOL</h4><ol style="color: #A0AEC0;"><li>Calculate rolling 7-day DFA α for the underlying asset.</li><li>Trigger alarms if α diverges more than <strong>0.05</strong> from baseline equilibrium.</li><li>Risk managers have a statistical mean of <strong>9.75 days</strong> to reduce exposure before capitulation.</li></ol></div>""", unsafe_allow_html=True)
+    else:
+        st.warning("Ensure 'crash_alpha_analysis.csv' is present in the repository.")
 
 # ------------------------------------------
 # MODULE 3: FORENSIC LABORATORY
@@ -528,7 +540,12 @@ elif menu == "FORENSIC LABORATORY":
     }
     
     event = st.selectbox("SELECT HISTORICAL EVENT:", list(event_dict.keys()))
-    df = load_and_process_data(event_dict[event])
+    
+    # Use os.path.join to find the file accurately based on where app.py is located
+    file_name = event_dict[event]
+    full_path = os.path.join(BASE_DIR, file_name)
+    
+    df = load_and_process_data(full_path)
     
     if df is not None:
         fig = make_subplots(specs=[[{"secondary_y": True}]])
@@ -544,7 +561,7 @@ elif menu == "FORENSIC LABORATORY":
         fig.add_hline(y=2.0, line_dash="dash", line_color="rgba(255, 23, 68, 0.5)", secondary_y=True)
         fig.add_hline(y=1.2, line_dash="dash", line_color="rgba(255, 234, 0, 0.5)", secondary_y=True)
         
-        # NEW FEATURE: DYNAMIC FORENSIC EVENT OVERLAYS
+        # DYNAMIC FORENSIC EVENT OVERLAYS
         if event != "SEPTEMBER 2023 (CONTROL GROUP)":
             peak_idx = df['Rolling_Alpha'].idxmax()
             
@@ -569,13 +586,15 @@ elif menu == "FORENSIC LABORATORY":
         fig = apply_premium_layout(fig, chart_height=750)
         st.plotly_chart(fig, use_container_width=True)
         st.markdown(event_explanations[event], unsafe_allow_html=True)
+    else:
+        st.warning(f"Unable to load data for {event}. Please ensure {file_name} is uploaded to the repository.")
 
 # ------------------------------------------
 # MODULE 4: MARKET PHYSICS
 # ------------------------------------------
 elif menu == "MARKET PHYSICS":
     st.markdown("## MARKET PHYSICS (UNIVERSAL LAWS)")
-    # NEW FEATURE: ADDED ALPHA DISTRIBUTION TAB
+    # ALPHA DISTRIBUTION TAB
     tab1, tab2, tab3 = st.tabs(["FAT TAILS & POWER LAWS", "RECOVERY TIME SCALING", "ALPHA DISTRIBUTION"])
     
     with tab1:
@@ -628,7 +647,7 @@ elif menu == "MARKET PHYSICS":
         </div>
         """, unsafe_allow_html=True)
         
-        # NEW FEATURE: Generate synthetic realistic RTM Alpha distribution
+        # Generate synthetic realistic RTM Alpha distribution
         np.random.seed(42)
         laminar = np.random.normal(0.45, 0.12, 18000)
         turbulent = np.random.normal(0.95, 0.15, 1500)
