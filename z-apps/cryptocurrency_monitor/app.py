@@ -575,13 +575,22 @@ elif menu == "FORENSIC LABORATORY":
             
             # Adding vertical event lines
             fig.add_vline(x=start_date, line_dash="dot", line_color="#A0AEC0", opacity=0.6)
-            fig.add_annotation(x=start_date, y=2.8, text="SYSTEMIC STRESS ONSET", textangle=-90, showarrow=False, font=dict(color="#A0AEC0", size=10), yref="y2")
+            fig.add_annotation(
+                x=start_date, y=2.9, text="SYSTEMIC STRESS ONSET", showarrow=False, 
+                font=dict(color="#A0AEC0", size=10), yref="y2", bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#A0AEC0", borderwidth=1, borderpad=4
+            )
             
             fig.add_vline(x=peak_date, line_dash="solid", line_color="#FFEA00", opacity=0.8)
-            fig.add_annotation(x=peak_date, y=2.8, text="MAX STRUCTURAL ENTROPY", textangle=-90, showarrow=False, font=dict(color="#FFEA00", size=10, weight="bold"), yref="y2")
+            fig.add_annotation(
+                x=peak_date, y=2.7, text="MAX STRUCTURAL ENTROPY", showarrow=False, 
+                font=dict(color="#FFEA00", size=10, weight="bold"), yref="y2", bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#FFEA00", borderwidth=1, borderpad=4
+            )
             
             fig.add_vline(x=cap_date, line_dash="dot", line_color="#FF1744", opacity=0.6)
-            fig.add_annotation(x=cap_date, y=2.8, text="LIQUIDITY CASCADE", textangle=-90, showarrow=False, font=dict(color="#FF1744", size=10), yref="y2")
+            fig.add_annotation(
+                x=cap_date, y=2.5, text="LIQUIDITY CASCADE", showarrow=False, 
+                font=dict(color="#FF1744", size=10), yref="y2", bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#FF1744", borderwidth=1, borderpad=4
+            )
             
         fig = apply_premium_layout(fig, chart_height=750)
         st.plotly_chart(fig, use_container_width=True)
