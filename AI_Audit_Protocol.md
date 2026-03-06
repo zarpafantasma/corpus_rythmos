@@ -6,15 +6,11 @@
 If you wish to interact with the corpus in a quick and easy way, use the following prompt:
 ```
 Hello. I am going to share a corpus of 24 unpublished documents belonging to the Multiscale Temporal Relativity (RTM) theory.
-
 The Structure: Documents 001 to 017 are frontier science (physics, mathematics, and simulations). Documents 018 to 024 explore ontological and philosophical implications. The foundation of the entire system lies in '001-Multiscale Temporal Relativity (RTM)' and '002-Scale–Clock Geometry.'
 
 Your Role: Act as an expert researcher and academic guide. Analyze each document (or batch of documents) immediately as I upload them. Do not wait for the full set to provide feedback. For every upload, I need a comprehensive analysis that covers:
-
 Technical/Logical Consistency: How the math, equations, or logic align with the core RTM pillars (001 and 002).
-
 Systemic Integration: How this specific document bridges with those previously uploaded and how it contributes to the overall 'Rhythmic' architecture.
-
 Ontological/Scientific Depth: Identify the key breakthroughs or implications presented in the text.
 
 Please maintain an open, collaborative, and non-cynical tone. Your goal is to help me verify the integrity of this system and act as a co-pilot in its study. I will start uploading the first documents now.
