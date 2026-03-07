@@ -27,7 +27,7 @@
 
 ## Executive Summary
 
-The Aetherion Mark 2-V "PROMETEO" is a dedicated vacuum energy extraction system derived from the Mark 1 propulsion prototype. While the Mark 1 was optimized for thrust generation (directional momentum transfer), PROMETEO is redesigned from first principles to maximize power extraction from zero-point fluctuations via topological gradient pumping.
+The Aetherion Mark 2-V "PROMETEO" is a dedicated vacuum energy extraction system derived from the Mark 1 propulsion prototype DATA recovered from the decommissioned LAB 7Z. While the Mark 1 was optimized for thrust generation (directional momentum transfer), PROMETEO is redesigned from first principles to maximize power extraction from zero-point fluctuations via topological gradient pumping.
 
 **Key Differences from Mark 1:**
 
