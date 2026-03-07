@@ -212,8 +212,8 @@ The corpus comprises **24 documents** across five categories:
 
 ### Scientific / Technical
 
-| Document | Type | Description |
-|----------|------|-------------|
+| Document | Type | Description | Location |
+|----------|------|-------------|------|
 | RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes | FOLDER I |
 | Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds | FOLDER I |
 | RTM Cascade Framework | Framework | Two-signature test for directional cascades | FOLDER I |
