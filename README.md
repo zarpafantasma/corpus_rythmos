@@ -187,8 +187,7 @@ The first implementation of RTM Theory applied to Rhythmic Meteorology. This too
 * **Launch App:** [RTM HURRICANES Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
 * **Scaling the Vision:** While the current RTM HURRICANES operates as a localized scanner, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/Global-Architecture-Vision.pdf).
 
-
-
+---
 #### 2. RTM ECONOMIC MONITOR (Crypto Engine)
 The second operational implementation of RTM Theory, demonstrating its universality across disciplines by applying the same topological principles to financial complexity. This tool scans real-time market data (such as BTC/USDT) to detect structural fractures in liquidity. It is designed to identify the exact moment the mathematical "friction" of the market collapses, predicting severe volatility events (flash crashes or explosive pumps) days before traditional kinetic momentum indicators react.
 
@@ -200,11 +199,11 @@ The second operational implementation of RTM Theory, demonstrating its universal
 
 ### Upcoming Applications
 
-#### 2. RTM Bitcoin Engine (In Development)
-Applying RTM principles to high-frequency financial markets. This tool aims to identify structural decay in price trends and liquidity cycles, detecting potential market "fractures" (massive sell-offs or spikes) before they are reflected in standard momentum indicators.
+#### 2. RTM Extreme weather(In Development)
+Applying RTM principles to high-frequency Extreme weather.
 
 * **Status:** Research Phase
-* **Domain:** Financial Complexity & Quantitative Analysis
+* **Domain:** Meteorology
 ---
 
 ## Corpus Structure
