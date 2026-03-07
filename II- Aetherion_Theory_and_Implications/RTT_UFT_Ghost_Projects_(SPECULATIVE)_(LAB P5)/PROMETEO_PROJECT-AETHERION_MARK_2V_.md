@@ -4,7 +4,6 @@
 **Document ID:** RTM-UFF-AP2V-PROMETEO-001  
 **Version:** 1.0  
 **Classification:** ENGINEERING DESIGN / THEORETICAL  
-**Date:** March 2026  
 
 ---
 
