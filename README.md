@@ -234,8 +234,8 @@ The corpus comprises **24 documents** across five categories:
 
 ### Philosophical / Methodological
 
-| Document | Type | Description |
-|----------|------|-------------|
+| Document | Type | Description | Location |
+|----------|------|-------------|------|
 | The Aetherion Framework and Implications | Manual/Speculative | Practical playbook, aetherion orientation | FOLDER II |
 | The Grammar of Rhythm | Methods | Practical playbook, estimation standards | FOLDER III |
 | The Multiscale Symphony | Essay | Philosophical orientation | FOLDER III |
@@ -244,16 +244,16 @@ The corpus comprises **24 documents** across five categories:
 
 ### Literary
 
-| Document | Type | Description | 
-|----------|------|-------------|
+| Document | Type | Description | Location |
+|----------|------|-------------|------|
 | Remember, the Eternal Flame | Fiction | Novel mythologizing the framework | FOLDER IV |
 | Aetherion_Mark1_Prototype_(LAB_7Z) | Speculative/Fiction | Antigravity Machine and Related Tech | FOLDER IV |
 | RTT_UFT_Ghost_Projects_(LAB_P5) | Speculative/Fiction | Zero Point Energy Vacuum Pump and Related Findings | FOLDER IV |
 
 ### Personal
 
-| Document | Type | Description |
-|----------|------|-------------|
+| Document | Type | Description | Location |
+|----------|------|-------------|------|
 | The Hidden Doors and the Half Key | Origin | Candid authorship account | FOLDER V |
 
 
