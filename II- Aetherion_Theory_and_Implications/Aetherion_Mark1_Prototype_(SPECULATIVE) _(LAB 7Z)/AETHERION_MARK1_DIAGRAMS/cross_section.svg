@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a5568"/>
+      <stop offset="50%" style="stop-color:#718096"/>
+      <stop offset="100%" style="stop-color:#4a5568"/>
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#805ad5"/>
+      <stop offset="50%" style="stop-color:#6b46c1"/>
+      <stop offset="100%" style="stop-color:#553c9a"/>
+    </linearGradient>
+    <linearGradient id="gradientZone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3182ce"/>
+      <stop offset="100%" style="stop-color:#805ad5"/>
+    </linearGradient>
+    <linearGradient id="nozzleGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#3182ce"/>
+      <stop offset="100%" style="stop-color:#63b3ed"/>
+    </linearGradient>
+    <linearGradient id="piezoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d69e2e"/>
+      <stop offset="50%" style="stop-color:#ecc94b"/>
+      <stop offset="100%" style="stop-color:#d69e2e"/>
+    </linearGradient>
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="900" fill="#1a202c"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0">AETHERION MARK 1</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#a0aec0">Cross-Section Technical Drawing</text>
+  
+  <!-- Thrust Arrow -->
+  <path d="M400 85 L400 110" stroke="#48bb78" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#48bb78"/>
+    </marker>
+  </defs>
+  <text x="420" y="100" font-family="Arial, sans-serif" font-size="12" fill="#48bb78">THRUST</text>
+  
+  <!-- Outer Housing -->
+  <rect x="200" y="120" width="400" height="650" rx="10" fill="url(#metalGrad)" stroke="#2d3748" stroke-width="2"/>
+  
+  <!-- Top Cover -->
+  <rect x="220" y="130" width="360" height="30" rx="5" fill="#4a5568" stroke="#2d3748" stroke-width="1"/>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">TOP COVER (Al)</text>
+  
+  <!-- Nozzle Cone -->
+  <path d="M250 170 L400 250 L550 170 L550 160 L250 160 Z" fill="url(#nozzleGrad)" stroke="#2d3748" stroke-width="1"/>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1a202c" font-weight="bold">NOZZLE</text>
+  <text x="400" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1a202c">α = 2.5</text>
+  
+  <!-- Exhaust Aperture Line -->
+  <line x1="280" y1="250" x2="520" y2="250" stroke="#63b3ed" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="550" y="255" font-family="Arial, sans-serif" font-size="9" fill="#63b3ed">Aperture Ø25mm</text>
+  
+  <!-- Gradient Zone -->
+  <rect x="250" y="260" width="300" height="200" fill="url(#gradientZone)" stroke="#2d3748" stroke-width="1"/>
+  <text x="400" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0" font-weight="bold">GRADIENT ZONE</text>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">α: 2.0 → 0.5</text>
+  <text x="400" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">(15 metamaterial layers)</text>
+  
+  <!-- Layer lines in gradient zone -->
+  <g stroke="#2d3748" stroke-width="0.5" opacity="0.5">
+    <line x1="260" y1="273" x2="540" y2="273"/>
+    <line x1="260" y1="286" x2="540" y2="286"/>
+    <line x1="260" y1="299" x2="540" y2="299"/>
+    <line x1="260" y1="312" x2="540" y2="312"/>
+    <line x1="260" y1="325" x2="540" y2="325"/>
+    <line x1="260" y1="338" x2="540" y2="338"/>
+    <line x1="260" y1="351" x2="540" y2="351"/>
+    <line x1="260" y1="364" x2="540" y2="364"/>
+    <line x1="260" y1="377" x2="540" y2="377"/>
+    <line x1="260" y1="390" x2="540" y2="390"/>
+    <line x1="260" y1="403" x2="540" y2="403"/>
+    <line x1="260" y1="416" x2="540" y2="416"/>
+    <line x1="260" y1="429" x2="540" y2="429"/>
+    <line x1="260" y1="442" x2="540" y2="442"/>
+    <line x1="260" y1="455" x2="540" y2="455"/>
+  </g>
+  
+  <!-- Energy flow arrows -->
+  <g fill="#48bb78" opacity="0.8">
+    <polygon points="320,350 330,360 330,355 340,355 340,365 330,365 330,360 320,370 320,350"/>
+    <polygon points="360,370 370,380 370,375 380,375 380,385 370,385 370,380 360,390 360,370"/>
+    <polygon points="400,350 410,360 410,355 420,355 420,365 410,365 410,360 400,370 400,350"/>
+    <polygon points="440,370 450,380 450,375 460,375 460,385 450,385 450,380 440,390 440,370"/>
+    <polygon points="480,350 490,360 490,355 500,355 500,365 490,365 490,360 480,370 480,350"/>
+  </g>
+  <text x="555" y="380" font-family="Arial, sans-serif" font-size="9" fill="#48bb78">Energy Flow ↓</text>
+  
+  <!-- Accumulator Core -->
+  <rect x="250" y="470" width="300" height="80" fill="url(#coreGrad)" stroke="#2d3748" stroke-width="2"/>
+  <!-- Glow effect on core -->
+  <rect x="270" y="485" width="260" height="50" fill="#9f7aea" opacity="0.3" filter="url(#glow)"/>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0" font-weight="bold">ACCUMULATOR CORE</text>
+  <text x="400" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">α = 0.5 | φ_max</text>
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#d6bcfa">Zero-Point Energy Storage</text>
+  
+  <!-- φ max indicator -->
+  <line x1="560" y1="510" x2="590" y2="510" stroke="#9f7aea" stroke-width="2"/>
+  <text x="595" y="515" font-family="Arial, sans-serif" font-size="9" fill="#9f7aea">φ_max = 0.108</text>
+  
+  <!-- Piezo Ring -->
+  <rect x="250" y="560" width="300" height="40" fill="url(#piezoGrad)" stroke="#2d3748" stroke-width="1"/>
+  <!-- Piezo elements -->
+  <g fill="#b7791f">
+    <rect x="265" y="568" width="20" height="24" rx="2"/>
+    <rect x="295" y="568" width="20" height="24" rx="2"/>
+    <rect x="325" y="568" width="20" height="24" rx="2"/>
+    <rect x="355" y="568" width="20" height="24" rx="2"/>
+    <rect x="385" y="568" width="20" height="24" rx="2"/>
+    <rect x="415" y="568" width="20" height="24" rx="2"/>
+    <rect x="445" y="568" width="20" height="24" rx="2"/>
+    <rect x="475" y="568" width="20" height="24" rx="2"/>
+    <rect x="505" y="568" width="20" height="24" rx="2"/>
+  </g>
+  <text x="400" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">PIEZOELECTRIC ARRAY (8× PZT-5H)</text>
+  
+  <!-- Base Reflector -->
+  <rect x="250" y="610" width="300" height="30" fill="#2b6cb0" stroke="#2d3748" stroke-width="1"/>
+  <text x="400" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">BASE REFLECTOR (α = 2.5)</text>
+  
+  <!-- Electronics Bay -->
+  <rect x="230" y="650" width="340" height="100" fill="#2d3748" stroke="#4a5568" stroke-width="1"/>
+  <text x="400" y="675" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" font-weight="bold">ELECTRONICS BAY</text>
+  
+  <!-- PCB representation -->
+  <rect x="250" y="690" width="80" height="40" fill="#276749" stroke="#48bb78" stroke-width="1"/>
+  <text x="290" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">MCU</text>
+  
+  <rect x="340" y="690" width="60" height="40" fill="#276749" stroke="#48bb78" stroke-width="1"/>
+  <text x="370" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">DDS</text>
+  
+  <rect x="410" y="690" width="70" height="40" fill="#9c4221" stroke="#ed8936" stroke-width="1"/>
+  <text x="445" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">HV AMP</text>
+  
+  <rect x="490" y="690" width="60" height="40" fill="#2c5282" stroke="#4299e1" stroke-width="1"/>
+  <text x="520" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">PSU</text>
+  
+  <!-- Mounting Flange -->
+  <rect x="180" y="760" width="440" height="20" fill="#4a5568" stroke="#2d3748" stroke-width="2"/>
+  <text x="400" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">MOUNTING FLANGE</text>
+  
+  <!-- Dimension annotations -->
+  <!-- Height -->
+  <line x1="160" y1="130" x2="160" y2="780" stroke="#718096" stroke-width="1"/>
+  <line x1="155" y1="130" x2="165" y2="130" stroke="#718096" stroke-width="1"/>
+  <line x1="155" y1="780" x2="165" y2="780" stroke="#718096" stroke-width="1"/>
+  <text x="140" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096" transform="rotate(-90, 140, 460)">85 mm</text>
+  
+  <!-- Width -->
+  <line x1="200" y1="810" x2="600" y2="810" stroke="#718096" stroke-width="1"/>
+  <line x1="200" y1="805" x2="200" y2="815" stroke="#718096" stroke-width="1"/>
+  <line x1="600" y1="805" x2="600" y2="815" stroke="#718096" stroke-width="1"/>
+  <text x="400" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">60 mm</text>
+  
+  <!-- Core dimensions -->
+  <line x1="640" y1="260" x2="640" y2="600" stroke="#a0aec0" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="635" y1="260" x2="645" y2="260" stroke="#a0aec0" stroke-width="1"/>
+  <line x1="635" y1="600" x2="645" y2="600" stroke="#a0aec0" stroke-width="1"/>
+  <text x="660" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0" transform="rotate(-90, 660, 435)">Core: 30mm</text>
+  
+  <!-- Legend -->
+  <rect x="620" y="130" width="160" height="200" fill="#2d3748" stroke="#4a5568" stroke-width="1" rx="5"/>
+  <text x="700" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" font-weight="bold">LEGEND</text>
+  
+  <rect x="630" y="165" width="15" height="15" fill="url(#nozzleGrad)"/>
+  <text x="655" y="177" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Nozzle (α=2.5)</text>
+  
+  <rect x="630" y="190" width="15" height="15" fill="url(#gradientZone)"/>
+  <text x="655" y="202" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Gradient (α:2→0.5)</text>
+  
+  <rect x="630" y="215" width="15" height="15" fill="url(#coreGrad)"/>
+  <text x="655" y="227" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Core (α=0.5)</text>
+  
+  <rect x="630" y="240" width="15" height="15" fill="url(#piezoGrad)"/>
+  <text x="655" y="252" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Piezo Array</text>
+  
+  <rect x="630" y="265" width="15" height="15" fill="#2b6cb0"/>
+  <text x="655" y="277" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Reflector (α=2.5)</text>
+  
+  <rect x="630" y="290" width="15" height="15" fill="#276749"/>
+  <text x="655" y="302" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Electronics</text>
+  
+  <!-- Specifications box -->
+  <rect x="20" y="130" width="160" height="200" fill="#2d3748" stroke="#4a5568" stroke-width="1" rx="5"/>
+  <text x="100" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" font-weight="bold">SPECIFICATIONS</text>
+  
+  <text x="30" y="175" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Total Mass: 250g</text>
+  <text x="30" y="195" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Core Mass: 50g</text>
+  <text x="30" y="215" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Layers: 23</text>
+  <text x="30" y="235" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">∇α: 200 m⁻¹</text>
+  <text x="30" y="255" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Thrust: 100-500 nN</text>
+  <text x="30" y="275" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Freq: 1-10 kHz</text>
+  <text x="30" y="295" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">Power: 5-50 W</text>
+  <text x="30" y="315" font-family="Arial, sans-serif" font-size="9" fill="#a0aec0">HV: 200V DC</text>
+  
+  <!-- Footer -->
+  <text x="400" y="870" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">AETHERION MARK 1 | Rev 1.0 | February 2026</text>
+  <text x="400" y="885" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">"Time is not what passes, but what pulses."</text>
+</svg>
