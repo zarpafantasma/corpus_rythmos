@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHERION MARK 2-V "PROMETEO" — ENGINEERING BLUEPRINTS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a12;
+            color: #00d4ff;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+        }
+        
+        .blueprint-page {
+            background: linear-gradient(135deg, #0d1a2d 0%, #0a0a12 100%);
+            border: 3px solid #1a3a5c;
+            margin: 20px auto;
+            padding: 30px;
+            max-width: 1200px;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0, 100, 150, 0.3);
+        }
+        
+        .blueprint-page::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(0, 150, 200, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 150, 200, 0.03) 1px, transparent 1px);
+            background-size: 20px 20px;
+            pointer-events: none;
+        }
+        
+        .header {
+            border-bottom: 2px solid #1a3a5c;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header h1 {
+            color: #00d4ff;
+            font-size: 24px;
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        }
+        
+        .header-info {
+            text-align: right;
+            font-size: 11px;
+            color: #4a7a9a;
+        }
+        
+        .classification {
+            background: #8b0000;
+            color: white;
+            padding: 5px 15px;
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .drawing-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .drawing {
+            background: rgba(0, 20, 40, 0.5);
+            border: 1px solid #1a3a5c;
+            padding: 15px;
+            position: relative;
+        }
+        
+        .drawing-title {
+            color: #ffb000;
+            font-size: 12px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #1a3a5c;
+            padding-bottom: 5px;
+        }
+        
+        .drawing-full {
+            grid-column: 1 / -1;
+        }
+        
+        svg {
+            width: 100%;
+            height: auto;
+        }
+        
+        .dimension-line {
+            stroke: #00ff88;
+            stroke-width: 1;
+        }
+        
+        .dimension-text {
+            fill: #00ff88;
+            font-size: 10px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .center-line {
+            stroke: #ff6600;
+            stroke-width: 0.5;
+            stroke-dasharray: 10, 5;
+        }
+        
+        .hidden-line {
+            stroke: #4a7a9a;
+            stroke-width: 1;
+            stroke-dasharray: 5, 3;
+        }
+        
+        .outline {
+            stroke: #00d4ff;
+            stroke-width: 2;
+            fill: none;
+        }
+        
+        .fill-layer {
+            fill: rgba(0, 100, 150, 0.2);
+            stroke: #00d4ff;
+            stroke-width: 1;
+        }
+        
+        .callout {
+            fill: #ffb000;
+            font-size: 9px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .callout-line {
+            stroke: #ffb000;
+            stroke-width: 0.5;
+        }
+        
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 11px;
+        }
+        
+        .specs-table th {
+            background: #1a3a5c;
+            color: #00d4ff;
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #2a4a6c;
+        }
+        
+        .specs-table td {
+            padding: 6px 8px;
+            border: 1px solid #1a3a5c;
+            color: #8ab4d4;
+        }
+        
+        .specs-table tr:nth-child(even) {
+            background: rgba(0, 50, 80, 0.2);
+        }
+        
+        .warning-box {
+            background: rgba(139, 0, 0, 0.3);
+            border: 2px solid #8b0000;
+            padding: 15px;
+            margin: 15px 0;
+            color: #ff6666;
+        }
+        
+        .warning-box h3 {
+            color: #ff3333;
+            margin-bottom: 10px;
+        }
+        
+        .notes {
+            font-size: 10px;
+            color: #6a9aba;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #1a3a5c;
+        }
+        
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid #1a3a5c;
+            font-size: 10px;
+            color: #4a7a9a;
+        }
+        
+        .revision-block {
+            border: 1px solid #1a3a5c;
+            padding: 10px;
+            font-size: 10px;
+        }
+        
+        .scale-indicator {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 9px;
+            color: #4a7a9a;
+        }
+        
+        .layer-legend {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            font-size: 9px;
+            margin-top: 10px;
+        }
+        
+        .layer-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .layer-color {
+            width: 15px;
+            height: 10px;
+            border: 1px solid #4a7a9a;
+        }
+        
+        .prometeo-title {
+            font-size: 28px;
+            color: #ff6600;
+            text-shadow: 0 0 15px rgba(255, 102, 0, 0.7);
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- PAGE 1: OVERVIEW -->
+<div class="blueprint-page">
+    <div class="classification">TOP SECRET // ZS C // G.H.O.S.T-2V // NOFORN</div>
+    
+    <div class="header">
+        <div>
+            <h1>AETHERION MARK 2-V <span class="prometeo-title">"PROMETEO"</span></h1>
+            <div style="color: #ffb000; font-size: 12px;">GRADIENT HARVESTING OSCILLATORY SUB-BAND TRANSFER — GENERAL ARRANGEMENT</div>
+        </div>
+        <div class="header-info">
+            <div>DRAWING: RTM-UFF-AP2V-GA-001</div>
+            <div>SHEET 1 OF 4</div>
+            <div>SCALE: AS NOTED</div>
+        </div>
+    </div>
+    
+    <div class="drawing-container">
+        <!-- TOP VIEW -->
+        <div class="drawing">
+            <div class="drawing-title">VIEW A: TOP (PLAN VIEW) — SCALE 1:2</div>
+            <svg viewBox="0 0 400 400">
+                <!-- Grid -->
+                <defs>
+                    <pattern id="grid1" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="400" fill="url(#grid1)" opacity="0.3"/>
+                
+                <!-- Outer torus -->
+                <circle cx="200" cy="200" r="160" class="outline"/>
+                <circle cx="200" cy="200" r="80" class="outline"/>
+                
+                <!-- Center lines -->
+                <line x1="200" y1="20" x2="200" y2="380" class="center-line"/>
+                <line x1="20" y1="200" x2="380" y2="200" class="center-line"/>
+                
+                <!-- Thermoelectric modules (outer) -->
+                <g fill="none" stroke="#00ff88" stroke-width="1">
+                    <rect x="185" y="30" width="30" height="15" rx="2"/>
+                    <rect x="185" y="355" width="30" height="15" rx="2"/>
+                    <rect x="30" y="185" width="15" height="30" rx="2"/>
+                    <rect x="355" y="185" width="15" height="30" rx="2"/>
+                    <!-- Diagonal positions -->
+                    <rect x="295" y="70" width="25" height="12" rx="2" transform="rotate(45, 307, 76)"/>
+                    <rect x="80" y="295" width="25" height="12" rx="2" transform="rotate(45, 92, 301)"/>
+                    <rect x="295" y="318" width="25" height="12" rx="2" transform="rotate(-45, 307, 324)"/>
+                    <rect x="80" y="70" width="25" height="12" rx="2" transform="rotate(-45, 92, 76)"/>
+                </g>
+                
+                <!-- Coolant ports -->
+                <circle cx="200" cy="95" r="8" fill="#0066aa" stroke="#00d4ff" stroke-width="1"/>
+                <circle cx="200" cy="305" r="8" fill="#0066aa" stroke="#00d4ff" stroke-width="1"/>
+                <text x="215" y="98" class="callout">COOLANT IN</text>
+                <text x="215" y="308" class="callout">COOLANT OUT</text>
+                
+                <!-- Dimensions -->
+                <line x1="200" y1="25" x2="200" y2="15" class="dimension-line"/>
+                <line x1="360" y1="200" x2="370" y2="200" class="dimension-line"/>
+                <line x1="15" y1="200" x2="370" y2="200" class="dimension-line" stroke-dasharray="2,2" opacity="0.3"/>
+                <text x="280" y="195" class="dimension-text">Ø 320mm (OUTER)</text>
+                
+                <line x1="200" y1="120" x2="200" y2="110" class="dimension-line"/>
+                <line x1="120" y1="200" x2="280" y2="200" class="dimension-line" stroke-dasharray="2,2" opacity="0.3"/>
+                <text x="205" y="165" class="dimension-text">Ø 160mm (INNER)</text>
+                
+                <text x="200" y="200" class="callout" text-anchor="middle">CENTRAL VOID</text>
+                <text x="200" y="212" class="callout" text-anchor="middle" fill="#ff6666">α = 0.3</text>
+            </svg>
+            <div class="scale-indicator">SCALE 1:2</div>
+        </div>
+        
+        <!-- SIDE VIEW -->
+        <div class="drawing">
+            <div class="drawing-title">VIEW B: SIDE (ELEVATION) — SCALE 1:2</div>
+            <svg viewBox="0 0 400 400">
+                <defs>
+                    <pattern id="grid2" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="400" fill="url(#grid2)" opacity="0.3"/>
+                
+                <!-- Torus side profile -->
+                <ellipse cx="200" cy="200" rx="160" ry="60" class="outline"/>
+                <ellipse cx="200" cy="200" rx="80" ry="30" class="hidden-line"/>
+                
+                <!-- Top surface detail -->
+                <path d="M 40 200 Q 40 140 200 140 Q 360 140 360 200" class="outline" fill="none"/>
+                
+                <!-- Bottom surface -->
+                <path d="M 40 200 Q 40 260 200 260 Q 360 260 360 200" class="outline" fill="none"/>
+                
+                <!-- Center line -->
+                <line x1="200" y1="80" x2="200" y2="320" class="center-line"/>
+                <line x1="20" y1="200" x2="380" y2="200" class="center-line"/>
+                
+                <!-- Thermoelectric modules top -->
+                <rect x="60" y="148" width="20" height="8" fill="#004466" stroke="#00ff88"/>
+                <rect x="120" y="138" width="20" height="8" fill="#004466" stroke="#00ff88"/>
+                <rect x="180" y="133" width="20" height="8" fill="#004466" stroke="#00ff88"/>
+                <rect x="260" y="138" width="20" height="8" fill="#004466" stroke="#00ff88"/>
+                <rect x="320" y="148" width="20" height="8" fill="#004466" stroke="#00ff88"/>
+                
+                <!-- Cooling lines -->
+                <path d="M 200 130 L 200 100 L 250 100" stroke="#0088cc" stroke-width="3" fill="none"/>
+                <path d="M 200 270 L 200 300 L 250 300" stroke="#0088cc" stroke-width="3" fill="none"/>
+                
+                <!-- Dimensions -->
+                <line x1="375" y1="140" x2="385" y2="140" class="dimension-line"/>
+                <line x1="375" y1="260" x2="385" y2="260" class="dimension-line"/>
+                <line x1="380" y1="140" x2="380" y2="260" class="dimension-line"/>
+                <text x="385" y="205" class="dimension-text" transform="rotate(90, 385, 205)">120mm</text>
+                
+                <line x1="40" y1="275" x2="40" y2="285" class="dimension-line"/>
+                <line x1="360" y1="275" x2="360" y2="285" class="dimension-line"/>
+                <line x1="40" y1="280" x2="360" y2="280" class="dimension-line"/>
+                <text x="180" y="295" class="dimension-text">320mm</text>
+                
+                <!-- Callouts -->
+                <line x1="70" y1="150" x2="30" y2="120" class="callout-line"/>
+                <text x="5" y="115" class="callout">TE MODULE</text>
+                <text x="5" y="125" class="callout">(48× TOTAL)</text>
+            </svg>
+            <div class="scale-indicator">SCALE 1:2</div>
+        </div>
+    </div>
+    
+    <!-- ISOMETRIC VIEW -->
+    <div class="drawing drawing-full">
+        <div class="drawing-title">VIEW C: ISOMETRIC — NOT TO SCALE</div>
+        <svg viewBox="0 0 800 350">
+            <defs>
+                <pattern id="grid3" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                </pattern>
+                <linearGradient id="torusGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#003355"/>
+                    <stop offset="50%" style="stop-color:#001a33"/>
+                    <stop offset="100%" style="stop-color:#002244"/>
+                </linearGradient>
+            </defs>
+            <rect width="800" height="350" fill="url(#grid3)" opacity="0.3"/>
+            
+            <!-- Isometric torus representation -->
+            <g transform="translate(200, 175)">
+                <!-- Back half of torus -->
+                <ellipse cx="0" cy="0" rx="150" ry="55" fill="url(#torusGrad)" stroke="#00d4ff" stroke-width="2"/>
+                
+                <!-- Hole in center -->
+                <ellipse cx="0" cy="0" rx="70" ry="26" fill="#0a0a12" stroke="#00d4ff" stroke-width="1"/>
+                
+                <!-- Top surface highlight -->
+                <ellipse cx="0" cy="-15" rx="150" ry="55" fill="none" stroke="#00aaff" stroke-width="1" stroke-dasharray="5,5"/>
+                
+                <!-- TE modules on surface -->
+                <g fill="#004466" stroke="#00ff88" stroke-width="1">
+                    <rect x="-140" y="-30" width="18" height="8" rx="2"/>
+                    <rect x="-100" y="-42" width="18" height="8" rx="2"/>
+                    <rect x="-50" y="-50" width="18" height="8" rx="2"/>
+                    <rect x="0" y="-52" width="18" height="8" rx="2"/>
+                    <rect x="50" y="-50" width="18" height="8" rx="2"/>
+                    <rect x="100" y="-42" width="18" height="8" rx="2"/>
+                    <rect x="140" y="-30" width="18" height="8" rx="2"/>
+                </g>
+                
+                <!-- Coolant pipes -->
+                <path d="M 0 -55 L 0 -90 L 60 -90" stroke="#0088cc" stroke-width="4" fill="none"/>
+                <circle cx="60" cy="-90" r="6" fill="#0066aa" stroke="#00d4ff"/>
+            </g>
+            
+            <!-- Labels -->
+            <g class="callout">
+                <line x1="350" y1="100" x2="420" y2="60" class="callout-line"/>
+                <text x="425" y="55">THERMOELECTRIC ARRAY</text>
+                <text x="425" y="67">(Bi₂Te₃ MODULES)</text>
+                
+                <line x1="260" y1="90" x2="320" y2="40" class="callout-line"/>
+                <text x="325" y="35">COOLANT PORT</text>
+                
+                <line x1="200" y1="175" x2="280" y2="220" class="callout-line"/>
+                <text x="285" y="225">CENTRAL VOID</text>
+                <text x="285" y="237" fill="#ff6666">α_min = 0.3</text>
+                
+                <line x1="350" y1="175" x2="420" y2="175" class="callout-line"/>
+                <text x="425" y="172">OUTER SURFACE</text>
+                <text x="425" y="184" fill="#00ff88">α_max = 2.5</text>
+                
+                <line x1="70" y1="145" x2="20" y2="100" class="callout-line"/>
+                <text x="25" y="95">31-LAYER</text>
+                <text x="25" y="107">METAMATERIAL CORE</text>
+            </g>
+            
+            <!-- Axis indicator -->
+            <g transform="translate(700, 280)">
+                <line x1="0" y1="0" x2="40" y2="0" stroke="#ff6600" stroke-width="2"/>
+                <line x1="0" y1="0" x2="0" y2="-40" stroke="#00ff88" stroke-width="2"/>
+                <line x1="0" y1="0" x2="-25" y2="20" stroke="#00d4ff" stroke-width="2"/>
+                <text x="45" y="5" fill="#ff6600" font-size="10">X</text>
+                <text x="5" y="-42" fill="#00ff88" font-size="10">Z</text>
+                <text x="-35" y="25" fill="#00d4ff" font-size="10">Y</text>
+            </g>
+        </svg>
+    </div>
+    
+    <div class="notes">
+        <strong>NOTES:</strong><br>
+        1. ALL DIMENSIONS IN MILLIMETERS UNLESS OTHERWISE NOTED<br>
+        2. TOLERANCES: LINEAR ±0.1mm, ANGULAR ±0.5°<br>
+        3. SURFACE FINISH: Ra 1.6 μm UNLESS OTHERWISE SPECIFIED<br>
+        4. MATERIAL: SEE SHEET 3 FOR LAYER SPECIFICATIONS
+    </div>
+    
+    <div class="footer">
+        <div class="revision-block">
+            <strong>REVISION HISTORY</strong><br>
+            REV A — 2026-03-07 — INITIAL RELEASE
+        </div>
+        <div>
+            <div>DESIGNED: [REDACTED]</div>
+            <div>CHECKED: [REDACTED]</div>
+            <div>APPROVED: GHOST PROJECT LEAD</div>
+        </div>
+        <div style="text-align: right;">
+            <div>RTM-UFF-AP2V-GA-001</div>
+            <div style="color: #ff6600;">PROMETEO</div>
+            <div>SHEET 1 OF 4</div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 2: CROSS SECTIONS -->
+<div class="blueprint-page">
+    <div class="classification">TOP SECRET // ZS C // G.H.O.S.T-2V // NOFORN</div>
+    
+    <div class="header">
+        <div>
+            <h1>AETHERION MARK 2-V <span class="prometeo-title">"PROMETEO"</span></h1>
+            <div style="color: #ffb000; font-size: 12px;">CROSS-SECTIONAL VIEWS — CORE STRUCTURE</div>
+        </div>
+        <div class="header-info">
+            <div>DRAWING: RTM-UFF-AP2V-CS-002</div>
+            <div>SHEET 2 OF 4</div>
+            <div>SCALE: AS NOTED</div>
+        </div>
+    </div>
+    
+    <div class="drawing-container">
+        <!-- POLOIDAL CROSS SECTION -->
+        <div class="drawing">
+            <div class="drawing-title">SECTION A-A: POLOIDAL CROSS-SECTION — SCALE 1:1</div>
+            <svg viewBox="0 0 400 400">
+                <defs>
+                    <pattern id="grid4" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="400" fill="url(#grid4)" opacity="0.3"/>
+                
+                <!-- Layer rings from center outward -->
+                <!-- Layer 1-5: W-Re (innermost) -->
+                <circle cx="200" cy="200" r="30" fill="#1a0a2e" stroke="#8844aa" stroke-width="1"/>
+                
+                <!-- Layer 6-10: Nb-Ti -->
+                <circle cx="200" cy="200" r="50" fill="none" stroke="#6644cc" stroke-width="20" opacity="0.6"/>
+                
+                <!-- Layer 11-15: Cu-Ni -->
+                <circle cx="200" cy="200" r="75" fill="none" stroke="#cc8844" stroke-width="25" opacity="0.5"/>
+                
+                <!-- Layer 16-20: Fe-Co -->
+                <circle cx="200" cy="200" r="100" fill="none" stroke="#4488cc" stroke-width="25" opacity="0.5"/>
+                
+                <!-- Layer 21-25: Mn-Cr -->
+                <circle cx="200" cy="200" r="125" fill="none" stroke="#44cc88" stroke-width="25" opacity="0.5"/>
+                
+                <!-- Layer 26-31: V-Sc (outermost) -->
+                <circle cx="200" cy="200" r="150" fill="none" stroke="#88cccc" stroke-width="25" opacity="0.5"/>
+                
+                <!-- Outer boundary -->
+                <circle cx="200" cy="200" r="162" fill="none" stroke="#00d4ff" stroke-width="2"/>
+                
+                <!-- Center void -->
+                <circle cx="200" cy="200" r="18" fill="#0a0a12" stroke="#ff6666" stroke-width="1"/>
+                <text x="200" y="203" class="callout" text-anchor="middle" fill="#ff6666" font-size="8">VOID</text>
+                
+                <!-- Center lines -->
+                <line x1="200" y1="20" x2="200" y2="380" class="center-line"/>
+                <line x1="20" y1="200" x2="380" y2="200" class="center-line"/>
+                
+                <!-- Dimension lines -->
+                <line x1="200" y1="38" x2="200" y2="28" class="dimension-line"/>
+                <line x1="200" y1="362" x2="200" y2="372" class="dimension-line"/>
+                <line x1="200" y1="30" x2="200" y2="370" class="dimension-line" opacity="0.3"/>
+                <text x="205" y="385" class="dimension-text">Ø 80mm (R_minor)</text>
+                
+                <!-- Alpha gradient annotation -->
+                <g transform="translate(320, 100)">
+                    <text class="callout" fill="#ff6666">α = 0.3</text>
+                    <line x1="0" y1="5" x2="-100" y2="95" class="callout-line"/>
+                </g>
+                <g transform="translate(320, 280)">
+                    <text class="callout" fill="#00ff88">α = 2.5</text>
+                    <line x1="0" y1="-5" x2="-70" y2="-40" class="callout-line"/>
+                </g>
+                
+                <!-- Piezo interface indicators -->
+                <circle cx="200" cy="200" r="40" fill="none" stroke="#ffb000" stroke-width="1" stroke-dasharray="3,3"/>
+                <circle cx="200" cy="200" r="62" fill="none" stroke="#ffb000" stroke-width="1" stroke-dasharray="3,3"/>
+                <circle cx="200" cy="200" r="87" fill="none" stroke="#ffb000" stroke-width="1" stroke-dasharray="3,3"/>
+                <circle cx="200" cy="200" r="112" fill="none" stroke="#ffb000" stroke-width="1" stroke-dasharray="3,3"/>
+                <circle cx="200" cy="200" r="137" fill="none" stroke="#ffb000" stroke-width="1" stroke-dasharray="3,3"/>
+            </svg>
+            <div class="scale-indicator">SCALE 1:1</div>
+            
+            <div class="layer-legend">
+                <div class="layer-item"><div class="layer-color" style="background: #8844aa;"></div>L1-5: W-Re</div>
+                <div class="layer-item"><div class="layer-color" style="background: #6644cc;"></div>L6-10: Nb-Ti</div>
+                <div class="layer-item"><div class="layer-color" style="background: #cc8844;"></div>L11-15: Cu-Ni</div>
+                <div class="layer-item"><div class="layer-color" style="background: #4488cc;"></div>L16-20: Fe-Co</div>
+                <div class="layer-item"><div class="layer-color" style="background: #44cc88;"></div>L21-25: Mn-Cr</div>
+                <div class="layer-item"><div class="layer-color" style="background: #88cccc;"></div>L26-31: V-Sc</div>
+            </div>
+        </div>
+        
+        <!-- TOROIDAL CROSS SECTION -->
+        <div class="drawing">
+            <div class="drawing-title">SECTION B-B: TOROIDAL CROSS-SECTION — SCALE 1:3</div>
+            <svg viewBox="0 0 400 400">
+                <defs>
+                    <pattern id="grid5" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="400" fill="url(#grid5)" opacity="0.3"/>
+                
+                <!-- Left torus section -->
+                <circle cx="120" cy="200" r="70" class="fill-layer"/>
+                <circle cx="120" cy="200" r="25" fill="#0a0a12" stroke="#ff6666" stroke-width="1"/>
+                
+                <!-- Right torus section -->
+                <circle cx="280" cy="200" r="70" class="fill-layer"/>
+                <circle cx="280" cy="200" r="25" fill="#0a0a12" stroke="#ff6666" stroke-width="1"/>
+                
+                <!-- Center axis -->
+                <line x1="200" y1="50" x2="200" y2="350" class="center-line"/>
+                <circle cx="200" cy="200" r="5" fill="#ff6600"/>
+                
+                <!-- Connecting indication -->
+                <path d="M 120 130 Q 200 80 280 130" stroke="#00d4ff" stroke-width="1" stroke-dasharray="5,3" fill="none"/>
+                <path d="M 120 270 Q 200 320 280 270" stroke="#00d4ff" stroke-width="1" stroke-dasharray="5,3" fill="none"/>
+                
+                <!-- Dimensions -->
+                <line x1="120" y1="290" x2="120" y2="320" class="dimension-line"/>
+                <line x1="200" y1="290" x2="200" y2="320" class="dimension-line"/>
+                <line x1="120" y1="310" x2="200" y2="310" class="dimension-line"/>
+                <text x="145" y="335" class="dimension-text">R_major = 80mm</text>
+                
+                <line x1="50" y1="130" x2="30" y2="130" class="dimension-line"/>
+                <line x1="50" y1="270" x2="30" y2="270" class="dimension-line"/>
+                <line x1="40" y1="130" x2="40" y2="270" class="dimension-line"/>
+                <text x="20" y="205" class="dimension-text" transform="rotate(-90, 20, 205)">Ø80</text>
+                
+                <!-- TE modules -->
+                <rect x="105" y="118" width="30" height="8" fill="#004466" stroke="#00ff88"/>
+                <rect x="265" y="118" width="30" height="8" fill="#004466" stroke="#00ff88"/>
+                
+                <!-- Callouts -->
+                <text x="200" y="200" class="callout" text-anchor="middle">TORUS</text>
+                <text x="200" y="212" class="callout" text-anchor="middle">AXIS</text>
+                
+                <text x="120" y="200" class="callout" text-anchor="middle" font-size="7">VOID</text>
+                <text x="280" y="200" class="callout" text-anchor="middle" font-size="7">VOID</text>
+            </svg>
+            <div class="scale-indicator">SCALE 1:3</div>
+        </div>
+    </div>
+    
+    <!-- ALPHA GRADIENT PROFILE -->
+    <div class="drawing drawing-full">
+        <div class="drawing-title">ALPHA GRADIENT PROFILE — α(r) vs RADIAL POSITION</div>
+        <svg viewBox="0 0 800 250">
+            <defs>
+                <pattern id="grid6" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                </pattern>
+                <linearGradient id="alphaGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#ff3366"/>
+                    <stop offset="50%" style="stop-color:#ffaa00"/>
+                    <stop offset="100%" style="stop-color:#00ff88"/>
+                </linearGradient>
+            </defs>
+            <rect width="800" height="250" fill="url(#grid6)" opacity="0.3"/>
+            
+            <!-- Axes -->
+            <line x1="80" y1="200" x2="750" y2="200" stroke="#00d4ff" stroke-width="2"/>
+            <line x1="80" y1="200" x2="80" y2="30" stroke="#00d4ff" stroke-width="2"/>
+            
+            <!-- Y-axis labels -->
+            <text x="25" y="200" class="dimension-text">α=0.3</text>
+            <text x="25" y="155" class="dimension-text">α=1.0</text>
+            <text x="25" y="110" class="dimension-text">α=1.5</text>
+            <text x="25" y="65" class="dimension-text">α=2.0</text>
+            <text x="25" y="40" class="dimension-text">α=2.5</text>
+            
+            <!-- X-axis labels -->
+            <text x="80" y="220" class="dimension-text">r=0</text>
+            <text x="240" y="220" class="dimension-text">10mm</text>
+            <text x="400" y="220" class="dimension-text">20mm</text>
+            <text x="560" y="220" class="dimension-text">30mm</text>
+            <text x="720" y="220" class="dimension-text">40mm</text>
+            
+            <!-- Grid lines -->
+            <line x1="80" y1="155" x2="750" y2="155" stroke="#1a3a5c" stroke-width="1"/>
+            <line x1="80" y1="110" x2="750" y2="110" stroke="#1a3a5c" stroke-width="1"/>
+            <line x1="80" y1="65" x2="750" y2="65" stroke="#1a3a5c" stroke-width="1"/>
+            
+            <line x1="247" y1="30" x2="247" y2="200" stroke="#1a3a5c" stroke-width="1"/>
+            <line x1="414" y1="30" x2="414" y2="200" stroke="#1a3a5c" stroke-width="1"/>
+            <line x1="581" y1="30" x2="581" y2="200" stroke="#1a3a5c" stroke-width="1"/>
+            
+            <!-- Alpha curve -->
+            <path d="M 80 200 
+                     Q 120 198, 160 190
+                     Q 200 180, 250 160
+                     Q 300 135, 350 110
+                     Q 400 85, 450 65
+                     Q 500 50, 550 42
+                     Q 600 37, 650 35
+                     Q 700 33, 750 32"
+                  stroke="url(#alphaGrad)" stroke-width="3" fill="none"/>
+            
+            <!-- Data points -->
+            <circle cx="80" cy="200" r="4" fill="#ff3366"/>
+            <circle cx="247" cy="145" r="4" fill="#ff6644"/>
+            <circle cx="414" cy="85" r="4" fill="#ffaa00"/>
+            <circle cx="581" cy="48" r="4" fill="#88cc44"/>
+            <circle cx="750" cy="32" r="4" fill="#00ff88"/>
+            
+            <!-- Band regions -->
+            <rect x="80" y="30" width="150" height="170" fill="#ff3366" opacity="0.1"/>
+            <rect x="230" y="30" width="200" height="170" fill="#ffaa00" opacity="0.1"/>
+            <rect x="430" y="30" width="320" height="170" fill="#00ff88" opacity="0.1"/>
+            
+            <text x="130" y="55" fill="#ff6666" font-size="10">SUB-BAND</text>
+            <text x="300" y="55" fill="#ffaa00" font-size="10">BAND 1 APPROACH</text>
+            <text x="550" y="55" fill="#00ff88" font-size="10">BAND 1-2</text>
+            
+            <!-- Axis titles -->
+            <text x="400" y="240" class="callout" text-anchor="middle">RADIAL POSITION (r)</text>
+            <text x="15" y="120" class="callout" transform="rotate(-90, 15, 120)">ALPHA (α)</text>
+        </svg>
+    </div>
+    
+    <div class="notes">
+        <strong>NOTES:</strong><br>
+        1. PIEZO INTERFACES SHOWN AS DASHED LINES (30 TOTAL)<br>
+        2. ALPHA PROFILE: α(r) = 0.3 + 2.2 × [1 - (1 - r/R)^2.5]^1.2<br>
+        3. MAXIMUM GRADIENT OCCURS AT r ≈ 15-25mm<br>
+        4. GHOST CLAN THRESHOLD (α > 3.0) NOT APPROACHED IN STANDARD OPERATION
+    </div>
+    
+    <div class="footer">
+        <div class="revision-block">
+            <strong>REVISION HISTORY</strong><br>
+            REV A — 2026-03-07 — INITIAL RELEASE
+        </div>
+        <div>
+            <div>DESIGNED: [REDACTED]</div>
+            <div>CHECKED: [REDACTED]</div>
+            <div>APPROVED: GHOST PROJECT LEAD</div>
+        </div>
+        <div style="text-align: right;">
+            <div>RTM-UFF-AP2V-CS-002</div>
+            <div style="color: #ff6600;">PROMETEO</div>
+            <div>SHEET 2 OF 4</div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 3: HARVESTING SYSTEMS -->
+<div class="blueprint-page">
+    <div class="classification">TOP SECRET // ZS C // G.H.O.S.T-2V // NOFORN</div>
+    
+    <div class="header">
+        <div>
+            <h1>AETHERION MARK 2-V <span class="prometeo-title">"PROMETEO"</span></h1>
+            <div style="color: #ffb000; font-size: 12px;">ENERGY HARVESTING SYSTEMS — DETAILED</div>
+        </div>
+        <div class="header-info">
+            <div>DRAWING: RTM-UFF-AP2V-EH-003</div>
+            <div>SHEET 3 OF 4</div>
+            <div>SCALE: AS NOTED</div>
+        </div>
+    </div>
+    
+    <div class="drawing-container">
+        <!-- THERMOELECTRIC DETAIL -->
+        <div class="drawing">
+            <div class="drawing-title">DETAIL A: THERMOELECTRIC MODULE MOUNTING — SCALE 2:1</div>
+            <svg viewBox="0 0 400 350">
+                <defs>
+                    <pattern id="grid7" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                    <pattern id="hatch1" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                        <line x1="0" y1="0" x2="0" y2="4" stroke="#2a4a6c" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="350" fill="url(#grid7)" opacity="0.3"/>
+                
+                <!-- Core surface -->
+                <rect x="50" y="200" width="300" height="80" fill="url(#hatch1)" stroke="#00d4ff" stroke-width="2"/>
+                <text x="200" y="245" class="callout" text-anchor="middle">CORE OUTER SURFACE</text>
+                <text x="200" y="260" class="callout" text-anchor="middle" fill="#ffb000">(α = 2.5 ZONE)</text>
+                
+                <!-- Thermal interface -->
+                <rect x="100" y="185" width="200" height="15" fill="#884400" stroke="#ffaa00" stroke-width="1"/>
+                <text x="310" y="195" class="callout">THERMAL INTERFACE</text>
+                <text x="310" y="207" class="callout">(ARCTIC SILVER)</text>
+                
+                <!-- TE module -->
+                <rect x="120" y="130" width="160" height="55" fill="#003355" stroke="#00ff88" stroke-width="2"/>
+                <text x="200" y="160" class="callout" text-anchor="middle" fill="#00ff88">Bi₂Te₃</text>
+                <text x="200" y="175" class="callout" text-anchor="middle" fill="#00ff88">TE MODULE</text>
+                
+                <!-- Cold plate -->
+                <rect x="110" y="100" width="180" height="30" fill="#0066aa" stroke="#00d4ff" stroke-width="2"/>
+                <text x="200" y="120" class="callout" text-anchor="middle">COLD PLATE (Al)</text>
+                
+                <!-- Coolant channel -->
+                <rect x="140" y="70" width="120" height="30" fill="#001a33" stroke="#0088cc" stroke-width="2"/>
+                <text x="200" y="90" class="callout" text-anchor="middle" fill="#0088cc">COOLANT CHANNEL</text>
+                
+                <!-- Dimensions -->
+                <line x1="120" y1="125" x2="120" y2="60" class="dimension-line"/>
+                <line x1="280" y1="125" x2="280" y2="60" class="dimension-line"/>
+                <line x1="120" y1="65" x2="280" y2="65" class="dimension-line"/>
+                <text x="185" y="55" class="dimension-text">20mm × 20mm</text>
+                
+                <line x1="285" y1="130" x2="320" y2="130" class="dimension-line"/>
+                <line x1="285" y1="185" x2="320" y2="185" class="dimension-line"/>
+                <line x1="315" y1="130" x2="315" y2="185" class="dimension-line"/>
+                <text x="325" y="160" class="dimension-text">4mm</text>
+                
+                <!-- Heat flow arrows -->
+                <g fill="#ff6600">
+                    <polygon points="200,280 195,295 205,295"/>
+                    <polygon points="200,220 195,235 205,235"/>
+                    <polygon points="200,170 195,185 205,185"/>
+                    <polygon points="200,120 195,135 205,135"/>
+                </g>
+                <text x="220" y="310" class="callout" fill="#ff6600">HEAT FLOW</text>
+            </svg>
+        </div>
+        
+        <!-- RF RECTENNA DETAIL -->
+        <div class="drawing">
+            <div class="drawing-title">DETAIL B: RF RECTENNA ELEMENT — SCALE 5:1</div>
+            <svg viewBox="0 0 400 350">
+                <defs>
+                    <pattern id="grid8" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="350" fill="url(#grid8)" opacity="0.3"/>
+                
+                <!-- Ferrite core -->
+                <ellipse cx="200" cy="150" rx="100" ry="30" fill="#331a00" stroke="#884400" stroke-width="2"/>
+                <ellipse cx="200" cy="150" rx="50" ry="15" fill="#0a0a12" stroke="#884400" stroke-width="1"/>
+                
+                <!-- Winding -->
+                <g stroke="#00ff88" stroke-width="2" fill="none">
+                    <path d="M 110 140 Q 110 120 130 120 Q 150 120 150 140"/>
+                    <path d="M 150 140 Q 150 160 170 160 Q 190 160 190 140"/>
+                    <path d="M 190 140 Q 190 120 210 120 Q 230 120 230 140"/>
+                    <path d="M 230 140 Q 230 160 250 160 Q 270 160 270 140"/>
+                    <path d="M 270 140 Q 270 120 290 120"/>
+                </g>
+                
+                <!-- Connection leads -->
+                <line x1="110" y1="140" x2="110" y2="200" stroke="#00ff88" stroke-width="2"/>
+                <line x1="290" y1="140" x2="290" y2="200" stroke="#00ff88" stroke-width="2"/>
+                
+                <!-- Rectifier circuit box -->
+                <rect x="80" y="200" width="240" height="80" fill="#001a33" stroke="#00d4ff" stroke-width="2"/>
+                <text x="200" y="225" class="callout" text-anchor="middle">SCHOTTKY RECTIFIER</text>
+                <text x="200" y="240" class="callout" text-anchor="middle">(0.1-10 MHz TUNED)</text>
+                
+                <!-- Output -->
+                <line x1="200" y1="280" x2="200" y2="320" stroke="#ffb000" stroke-width="3"/>
+                <text x="200" y="340" class="callout" text-anchor="middle" fill="#ffb000">DC OUTPUT</text>
+                
+                <!-- Dimensions -->
+                <line x1="100" y1="100" x2="100" y2="80" class="dimension-line"/>
+                <line x1="300" y1="100" x2="300" y2="80" class="dimension-line"/>
+                <line x1="100" y1="85" x2="300" y2="85" class="dimension-line"/>
+                <text x="185" y="75" class="dimension-text">Ø 40mm FERRITE</text>
+                
+                <!-- Labels -->
+                <line x1="150" y1="135" x2="60" y2="100" class="callout-line"/>
+                <text x="20" y="95" class="callout">N=20 TURNS</text>
+                <text x="20" y="107" class="callout">#22 AWG</text>
+            </svg>
+        </div>
+    </div>
+    
+    <!-- SYSTEM SCHEMATIC -->
+    <div class="drawing drawing-full">
+        <div class="drawing-title">ENERGY HARVESTING SYSTEM SCHEMATIC</div>
+        <svg viewBox="0 0 800 280">
+            <defs>
+                <pattern id="grid9" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                </pattern>
+            </defs>
+            <rect width="800" height="280" fill="url(#grid9)" opacity="0.3"/>
+            
+            <!-- Prometeo Core -->
+            <ellipse cx="120" cy="140" rx="80" ry="50" fill="#001a33" stroke="#00d4ff" stroke-width="2"/>
+            <ellipse cx="120" cy="140" rx="35" ry="20" fill="#0a0a12" stroke="#00d4ff" stroke-width="1"/>
+            <text x="120" y="137" class="callout" text-anchor="middle" fill="#ff6600">PROMETEO</text>
+            <text x="120" y="150" class="callout" text-anchor="middle">CORE</text>
+            
+            <!-- Energy flows -->
+            <g stroke="#ff6600" stroke-width="2" fill="none">
+                <path d="M 200 100 L 280 60" marker-end="url(#arrow)"/>
+                <path d="M 200 140 L 280 140"/>
+                <path d="M 200 180 L 280 220"/>
+            </g>
+            
+            <!-- Harvester blocks -->
+            <!-- Thermal -->
+            <rect x="280" y="30" width="120" height="60" fill="#003355" stroke="#00ff88" stroke-width="2"/>
+            <text x="340" y="55" class="callout" text-anchor="middle" fill="#00ff88">THERMAL</text>
+            <text x="340" y="70" class="callout" text-anchor="middle" fill="#00ff88">48× TE MODULES</text>
+            <text x="340" y="83" class="callout" text-anchor="middle" fill="#4a7a9a">60% of output</text>
+            
+            <!-- RF -->
+            <rect x="280" y="110" width="120" height="60" fill="#003355" stroke="#00ff88" stroke-width="2"/>
+            <text x="340" y="135" class="callout" text-anchor="middle" fill="#00ff88">RF CAPTURE</text>
+            <text x="340" y="150" class="callout" text-anchor="middle" fill="#00ff88">16× RECTENNA</text>
+            <text x="340" y="163" class="callout" text-anchor="middle" fill="#4a7a9a">25% of output</text>
+            
+            <!-- Piezo -->
+            <rect x="280" y="190" width="120" height="60" fill="#003355" stroke="#00ff88" stroke-width="2"/>
+            <text x="340" y="215" class="callout" text-anchor="middle" fill="#00ff88">PIEZO HARVEST</text>
+            <text x="340" y="230" class="callout" text-anchor="middle" fill="#00ff88">30× PZT FILMS</text>
+            <text x="340" y="243" class="callout" text-anchor="middle" fill="#4a7a9a">15% of output</text>
+            
+            <!-- Connection lines to PCU -->
+            <line x1="400" y1="60" x2="480" y2="100" stroke="#ffb000" stroke-width="2"/>
+            <line x1="400" y1="140" x2="480" y2="140" stroke="#ffb000" stroke-width="2"/>
+            <line x1="400" y1="220" x2="480" y2="180" stroke="#ffb000" stroke-width="2"/>
+            
+            <!-- PCU -->
+            <rect x="480" y="80" width="140" height="120" fill="#1a3a00" stroke="#ffb000" stroke-width="2"/>
+            <text x="550" y="115" class="callout" text-anchor="middle" fill="#ffb000">POWER</text>
+            <text x="550" y="130" class="callout" text-anchor="middle" fill="#ffb000">CONDITIONING</text>
+            <text x="550" y="145" class="callout" text-anchor="middle" fill="#ffb000">UNIT</text>
+            <text x="550" y="165" class="callout" text-anchor="middle" fill="#4a7a9a">MPPT + DC-DC</text>
+            <text x="550" y="180" class="callout" text-anchor="middle" fill="#4a7a9a">CONVERSION</text>
+            
+            <!-- Output -->
+            <line x1="620" y1="140" x2="700" y2="140" stroke="#00ff88" stroke-width="4"/>
+            <rect x="700" y="110" width="80" height="60" fill="#003300" stroke="#00ff88" stroke-width="2"/>
+            <text x="740" y="135" class="callout" text-anchor="middle" fill="#00ff88">OUTPUT</text>
+            <text x="740" y="150" class="callout" text-anchor="middle" fill="#00ff88">5V / 12V DC</text>
+            <text x="740" y="165" class="callout" text-anchor="middle" fill="#00ff88">0.5-2W</text>
+            
+            <!-- Labels -->
+            <text x="235" y="55" class="callout" fill="#ff6600">HEAT</text>
+            <text x="235" y="135" class="callout" fill="#ff6600">RF</text>
+            <text x="235" y="215" class="callout" fill="#ff6600">STRESS</text>
+        </svg>
+    </div>
+    
+    <table class="specs-table">
+        <tr>
+            <th>SUBSYSTEM</th>
+            <th>QTY</th>
+            <th>EXPECTED INPUT</th>
+            <th>EFFICIENCY</th>
+            <th>EXPECTED OUTPUT</th>
+        </tr>
+        <tr>
+            <td>Thermoelectric (Bi₂Te₃)</td>
+            <td>48</td>
+            <td>6-30 W thermal</td>
+            <td>5-8%</td>
+            <td>0.4-2.0 W</td>
+        </tr>
+        <tr>
+            <td>RF Rectenna (0.1-10 MHz)</td>
+            <td>16</td>
+            <td>0.1-0.4 W RF</td>
+            <td>40-60%</td>
+            <td>0.05-0.2 W</td>
+        </tr>
+        <tr>
+            <td>Piezoelectric (PZT-5H)</td>
+            <td>30</td>
+            <td>0.5-1.0 W mechanical</td>
+            <td>10-15%</td>
+            <td>0.05-0.15 W</td>
+        </tr>
+        <tr style="background: rgba(0, 100, 50, 0.3);">
+            <td><strong>TOTAL</strong></td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td><strong>0.5-2.4 W</strong></td>
+        </tr>
+    </table>
+    
+    <div class="footer">
+        <div class="revision-block">
+            <strong>REVISION HISTORY</strong><br>
+            REV A — 2026-03-07 — INITIAL RELEASE
+        </div>
+        <div>
+            <div>DESIGNED: [REDACTED]</div>
+            <div>CHECKED: [REDACTED]</div>
+            <div>APPROVED: GHOST PROJECT LEAD</div>
+        </div>
+        <div style="text-align: right;">
+            <div>RTM-UFF-AP2V-EH-003</div>
+            <div style="color: #ff6600;">PROMETEO</div>
+            <div>SHEET 3 OF 4</div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 4: SAFETY AND CONTROL -->
+<div class="blueprint-page">
+    <div class="classification">TOP SECRET // ZS C // G.H.O.S.T-2V // NOFORN</div>
+    
+    <div class="header">
+        <div>
+            <h1>AETHERION MARK 2-V <span class="prometeo-title">"PROMETEO"</span></h1>
+            <div style="color: #ffb000; font-size: 12px;">SAFETY SYSTEMS AND CONTROL ARCHITECTURE</div>
+        </div>
+        <div class="header-info">
+            <div>DRAWING: RTM-UFF-AP2V-SC-004</div>
+            <div>SHEET 4 OF 4</div>
+            <div>SCALE: N/A</div>
+        </div>
+    </div>
+    
+    <div class="warning-box">
+        <h3>⚠️ GHOST CLAN PROXIMITY WARNING</h3>
+        <p>Standard operation maintains α_max = 2.5 (safe margin from Ghost Clan threshold at α ≈ 3.0)</p>
+        <p>Extended operation modes (α > 2.7) require RED TEAM authorization and remote operation protocols.</p>
+        <p><strong>MAXIMUM ESTIMATED ENERGY RELEASE IF CONTAINMENT FAILS: ~100 kJ</strong></p>
+    </div>
+    
+    <div class="drawing-container">
+        <!-- SAFETY INTERLOCK DIAGRAM -->
+        <div class="drawing">
+            <div class="drawing-title">SAFETY INTERLOCK HIERARCHY</div>
+            <svg viewBox="0 0 400 400">
+                <defs>
+                    <pattern id="grid10" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="400" fill="url(#grid10)" opacity="0.3"/>
+                
+                <!-- Level 0: Hardware -->
+                <rect x="30" y="30" width="340" height="70" fill="#330000" stroke="#ff3333" stroke-width="2"/>
+                <text x="200" y="55" class="callout" text-anchor="middle" fill="#ff3333" font-size="12">LEVEL 0: HARDWARE</text>
+                <text x="200" y="72" class="callout" text-anchor="middle" fill="#ff9999" font-size="9">PHYSICAL α-LIMITER • THERMAL FUSE • CURRENT LIMIT</text>
+                <text x="200" y="88" class="callout" text-anchor="middle" fill="#ff6666" font-size="10">CANNOT BE OVERRIDDEN</text>
+                
+                <!-- Level 1: Firmware -->
+                <rect x="50" y="120" width="300" height="70" fill="#331a00" stroke="#ff8800" stroke-width="2"/>
+                <text x="200" y="145" class="callout" text-anchor="middle" fill="#ff8800" font-size="12">LEVEL 1: FIRMWARE</text>
+                <text x="200" y="162" class="callout" text-anchor="middle" fill="#ffcc88" font-size="9">α > 2.9 SHUTDOWN • dα/dt LIMIT • TEMP > 120°C SHUTDOWN</text>
+                <text x="200" y="178" class="callout" text-anchor="middle" fill="#ffaa44" font-size="10">REQUIRES PASSWORD + KEY</text>
+                
+                <!-- Level 2: Software -->
+                <rect x="70" y="210" width="260" height="70" fill="#1a3300" stroke="#88cc00" stroke-width="2"/>
+                <text x="200" y="235" class="callout" text-anchor="middle" fill="#88cc00" font-size="12">LEVEL 2: SOFTWARE</text>
+                <text x="200" y="252" class="callout" text-anchor="middle" fill="#bbdd88" font-size="9">TIME LIMITS • RAMP RATES • LOGGING • ALERTS</text>
+                <text x="200" y="268" class="callout" text-anchor="middle" fill="#aacc44" font-size="10">REQUIRES AUTHORIZATION</text>
+                
+                <!-- Level 3: Procedural -->
+                <rect x="90" y="300" width="220" height="70" fill="#003333" stroke="#00cccc" stroke-width="2"/>
+                <text x="200" y="325" class="callout" text-anchor="middle" fill="#00cccc" font-size="12">LEVEL 3: PROCEDURAL</text>
+                <text x="200" y="342" class="callout" text-anchor="middle" fill="#88dddd" font-size="9">PROXIMITY MODE • GHOST CLAN RESEARCH</text>
+                <text x="200" y="358" class="callout" text-anchor="middle" fill="#44cccc" font-size="10">REQUIRES RED TEAM APPROVAL</text>
+                
+                <!-- Connecting lines -->
+                <line x1="200" y1="100" x2="200" y2="120" stroke="#666" stroke-width="2"/>
+                <line x1="200" y1="190" x2="200" y2="210" stroke="#666" stroke-width="2"/>
+                <line x1="200" y1="280" x2="200" y2="300" stroke="#666" stroke-width="2"/>
+            </svg>
+        </div>
+        
+        <!-- CONTROL SYSTEM -->
+        <div class="drawing">
+            <div class="drawing-title">CONTROL SYSTEM ARCHITECTURE</div>
+            <svg viewBox="0 0 400 400">
+                <defs>
+                    <pattern id="grid11" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a3a5c" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="400" height="400" fill="url(#grid11)" opacity="0.3"/>
+                
+                <!-- MCU -->
+                <rect x="140" y="30" width="120" height="60" fill="#003355" stroke="#00d4ff" stroke-width="2"/>
+                <text x="200" y="55" class="callout" text-anchor="middle" fill="#00d4ff">MASTER CONTROL</text>
+                <text x="200" y="70" class="callout" text-anchor="middle" fill="#00d4ff">(REDUNDANT ARM)</text>
+                
+                <!-- Three subsystems -->
+                <rect x="30" y="130" width="100" height="70" fill="#003322" stroke="#00ff88" stroke-width="2"/>
+                <text x="80" y="155" class="callout" text-anchor="middle" fill="#00ff88">DRIVE</text>
+                <text x="80" y="170" class="callout" text-anchor="middle" fill="#00ff88">CONTROL</text>
+                <text x="80" y="185" class="callout" text-anchor="middle" fill="#88aa88">24-ch PWM</text>
+                
+                <rect x="150" y="130" width="100" height="70" fill="#333300" stroke="#ffff00" stroke-width="2"/>
+                <text x="200" y="155" class="callout" text-anchor="middle" fill="#ffff00">MONITOR</text>
+                <text x="200" y="170" class="callout" text-anchor="middle" fill="#ffff00">SYSTEM</text>
+                <text x="200" y="185" class="callout" text-anchor="middle" fill="#aaaa44">α/T/RF/P</text>
+                
+                <rect x="270" y="130" width="100" height="70" fill="#330000" stroke="#ff0000" stroke-width="2"/>
+                <text x="320" y="155" class="callout" text-anchor="middle" fill="#ff0000">SAFETY</text>
+                <text x="320" y="170" class="callout" text-anchor="middle" fill="#ff0000">INTERLOCK</text>
+                <text x="320" y="185" class="callout" text-anchor="middle" fill="#aa4444">WATCHDOG</text>
+                
+                <!-- Connections -->
+                <line x1="200" y1="90" x2="80" y2="130" stroke="#00d4ff" stroke-width="1"/>
+                <line x1="200" y1="90" x2="200" y2="130" stroke="#00d4ff" stroke-width="1"/>
+                <line x1="200" y1="90" x2="320" y2="130" stroke="#00d4ff" stroke-width="1"/>
+                
+                <!-- Core -->
+                <ellipse cx="200" cy="300" rx="120" ry="60" fill="#001a33" stroke="#00d4ff" stroke-width="2"/>
+                <ellipse cx="200" cy="300" rx="50" ry="25" fill="#0a0a12" stroke="#00d4ff" stroke-width="1"/>
+                <text x="200" y="298" class="callout" text-anchor="middle" fill="#ff6600">PROMETEO</text>
+                <text x="200" y="312" class="callout" text-anchor="middle">CORE</text>
+                
+                <!-- Connections to core -->
+                <line x1="80" y1="200" x2="120" y2="255" stroke="#00ff88" stroke-width="2"/>
+                <line x1="200" y1="200" x2="200" y2="240" stroke="#ffff00" stroke-width="2"/>
+                <line x1="320" y1="200" x2="280" y2="255" stroke="#ff0000" stroke-width="2"/>
+                
+                <!-- Labels -->
+                <text x="60" y="230" class="callout" fill="#00ff88">24 PIEZO</text>
+                <text x="175" y="225" class="callout" fill="#ffff00">SENSORS</text>
+                <text x="290" y="230" class="callout" fill="#ff0000">SHUTDOWN</text>
+            </svg>
+        </div>
+    </div>
+    
+    <!-- OPERATING MODES TABLE -->
+    <table class="specs-table">
+        <tr>
+            <th>MODE</th>
+            <th>α_max</th>
+            <th>POWER</th>
+            <th>AUTHORIZATION</th>
+            <th>PERSONNEL</th>
+            <th>RISK</th>
+        </tr>
+        <tr>
+            <td style="color: #00ff88;">SAFE</td>
+            <td>2.5</td>
+            <td>100%</td>
+            <td>Standard</td>
+            <td>Normal proximity</td>
+            <td style="color: #00ff88;">LOW</td>
+        </tr>
+        <tr>
+            <td style="color: #ffff00;">ELEVATED</td>
+            <td>2.7</td>
+            <td>150%</td>
+            <td>Supervisor</td>
+            <td>5m exclusion</td>
+            <td style="color: #ffff00;">MODERATE</td>
+        </tr>
+        <tr>
+            <td style="color: #ff8800;">PROXIMITY</td>
+            <td>2.9</td>
+            <td>200%</td>
+            <td>Red Team</td>
+            <td>10m exclusion</td>
+            <td style="color: #ff8800;">HIGH</td>
+        </tr>
+        <tr style="background: rgba(139, 0, 0, 0.3);">
+            <td style="color: #ff0000;">GHOST</td>
+            <td>3.0+</td>
+            <td>???%</td>
+            <td>DO NOT OPERATE</td>
+            <td>50m exclusion</td>
+            <td style="color: #ff0000;">CRITICAL</td>
+        </tr>
+    </table>
+    
+    <table class="specs-table" style="margin-top: 15px;">
+        <tr>
+            <th>INTERLOCK</th>
+            <th>TRIGGER</th>
+            <th>ACTION</th>
+            <th>RESET</th>
+        </tr>
+        <tr>
+            <td>α LIMIT</td>
+            <td>α > 2.9</td>
+            <td>IMMEDIATE SHUTDOWN</td>
+            <td>Manual + review</td>
+        </tr>
+        <tr>
+            <td>α RUNAWAY</td>
+            <td>dα/dt > 0.1/s</td>
+            <td>IMMEDIATE SHUTDOWN</td>
+            <td>Manual + review</td>
+        </tr>
+        <tr>
+            <td>OVER-TEMP</td>
+            <td>T > 120°C</td>
+            <td>SHUTDOWN</td>
+            <td>Auto @ T < 80°C</td>
+        </tr>
+        <tr>
+            <td>COOLING FAIL</td>
+            <td>Flow < 0.5 L/min</td>
+            <td>REDUCE POWER 50%</td>
+            <td>Auto when restored</td>
+        </tr>
+        <tr>
+            <td>RF ANOMALY</td>
+            <td>Spectrum Δ > 3σ</td>
+            <td>SHUTDOWN</td>
+            <td>Manual review</td>
+        </tr>
+    </table>
+    
+    <div class="notes">
+        <strong>EMERGENCY PROCEDURES:</strong><br>
+        1. IF α > 3.0: AUTOMATIC SHUTDOWN INITIATES — DO NOT APPROACH<br>
+        2. IF SHUTDOWN FAILS: EVACUATE 50m — NOTIFY EMERGENCY RESPONSE<br>
+        3. ESTIMATED MAXIMUM ENERGY RELEASE: ~100 kJ (~25g TNT EQUIVALENT)<br>
+        4. POST-INCIDENT: DO NOT POWER ON WITHOUT RED TEAM REVIEW
+    </div>
+    
+    <div class="footer">
+        <div class="revision-block">
+            <strong>REVISION HISTORY</strong><br>
+            REV A — 2026-03-07 — INITIAL RELEASE
+        </div>
+        <div>
+            <div>DESIGNED: [REDACTED]</div>
+            <div>CHECKED: [REDACTED]</div>
+            <div>APPROVED: GHOST PROJECT LEAD</div>
+        </div>
+        <div style="text-align: right;">
+            <div>RTM-UFF-AP2V-SC-004</div>
+            <div style="color: #ff6600;">PROMETEO</div>
+            <div>SHEET 4 OF 4</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
