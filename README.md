@@ -242,12 +242,20 @@ The corpus comprises **24 documents** across five categories:
 | Physics of Tradition | Anthropology | Cultural applications, ritual acoustics |
 | The Owl and the Spear | Manual | Phenomenological hygiene |
 
-### Literary / Personal
+### Literary
+
+| Document | Type | Description | 
+|----------|------|-------------|
+| Remember, the Eternal Flame | Fiction | Novel mythologizing the framework |
+| Aetherion_Mark1_Prototype_(LAB_7Z) | Speculative/Fiction | Antigravity Machine and Related Tech |
+| RTT_UFT_Ghost_Projects_(LAB_P5) | Speculative/Fiction | Zero Point Energy Vacuum Pump and Related Findings |
+
+### Personal
 
 | Document | Type | Description |
 |----------|------|-------------|
-| Remember, the Eternal Flame | Fiction | Novel mythologizing the framework |
 | The Hidden Doors and the Half Key | Origin | Candid authorship account |
+
 
 #### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
 
