@@ -214,47 +214,47 @@ The corpus comprises **24 documents** across five categories:
 
 | Document | Type | Description |
 |----------|------|-------------|
-| RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes |
-| Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds |
-| RTM Cascade Framework | Framework | Two-signature test for directional cascades |
-| Rhythmic Astronomy | Domain | Galaxy dynamics |
-| Rhythmic Neuroscience | Domain | Neural scaling, consciousness markers |
-| Conscious Access | Domain | Coherence threshold hypothesis |
-| Homeostasis | Domain | Biological coherence index (C_bio) |
-| Rhythmic Chemistry | Domain | Confinement geometry, reaction kinetics |
-| Rhythmic Biochemistry | Domain | Enzymatic scaling, molecular machines |
-| Rhythmic Ecology | Domain | Trophic cascades, ecosystem resilience |
-| Rhythmic Economics | Domain | Economic Coherence Index (ECI) |
-| Rhythmic Meteorology | Domain | Atmospheric regimes, cyclogenesis |
-| RTM-Aware Quantum Computing | Domain | Cross-layer diagnostics |
-| Early Universe | Speculative | Structure formation timing |
-| Black Holes in RTM | Speculative | Horizon scaling, accretion |
-| Aetherion | Experimental | Gradient-driven propulsion concept |
-| RTM Unified Field Framework | Speculative | Effective Lagrangian, topological bands |
+| RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes | FOLDER I |
+| Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds | FOLDER I |
+| RTM Cascade Framework | Framework | Two-signature test for directional cascades | FOLDER I |
+| Rhythmic Astronomy | Domain | Galaxy dynamics | FOLDER I |
+| Rhythmic Neuroscience | Domain | Neural scaling, consciousness markers | FOLDER I |
+| Conscious Access | Domain | Coherence threshold hypothesis | FOLDER I |
+| Homeostasis | Domain | Biological coherence index (C_bio) | FOLDER I |
+| Rhythmic Chemistry | Domain | Confinement geometry, reaction kinetics | FOLDER I |
+| Rhythmic Biochemistry | Domain | Enzymatic scaling, molecular machines | FOLDER I |
+| Rhythmic Ecology | Domain | Trophic cascades, ecosystem resilience | FOLDER I |
+| Rhythmic Economics | Domain | Economic Coherence Index (ECI) | FOLDER I |
+| Rhythmic Meteorology | Domain | Atmospheric regimes, cyclogenesis | FOLDER I |
+| RTM-Aware Quantum Computing | Domain | Cross-layer diagnostics | FOLDER I |
+| Early Universe | Speculative | Structure formation timing | FOLDER I |
+| Black Holes in RTM | Speculative | Horizon scaling, accretion | FOLDER I |
+| Aetherion | Experimental | Gradient-driven propulsion concept | FOLDER II |
+| RTM Unified Field Framework | Speculative | Effective Lagrangian, topological bands | FOLDER II |
 
 ### Philosophical / Methodological
 
 | Document | Type | Description |
 |----------|------|-------------|
-| The Aetherion Framework and Implications | Manual/Speculative | Practical playbook, aetherion orientation |
-| The Grammar of Rhythm | Methods | Practical playbook, estimation standards |
-| The Multiscale Symphony | Essay | Philosophical orientation |
-| Physics of Tradition | Anthropology | Cultural applications, ritual acoustics |
-| The Owl and the Spear | Manual | Phenomenological hygiene |
+| The Aetherion Framework and Implications | Manual/Speculative | Practical playbook, aetherion orientation | FOLDER II |
+| The Grammar of Rhythm | Methods | Practical playbook, estimation standards | FOLDER III |
+| The Multiscale Symphony | Essay | Philosophical orientation | FOLDER III |
+| Physics of Tradition | Anthropology | Cultural applications, ritual acoustics | FOLDER III |
+| The Owl and the Spear | Manual | Phenomenological hygiene | FOLDER III |
 
 ### Literary
 
 | Document | Type | Description | 
 |----------|------|-------------|
-| Remember, the Eternal Flame | Fiction | Novel mythologizing the framework |
-| Aetherion_Mark1_Prototype_(LAB_7Z) | Speculative/Fiction | Antigravity Machine and Related Tech |
-| RTT_UFT_Ghost_Projects_(LAB_P5) | Speculative/Fiction | Zero Point Energy Vacuum Pump and Related Findings |
+| Remember, the Eternal Flame | Fiction | Novel mythologizing the framework | FOLDER IV |
+| Aetherion_Mark1_Prototype_(LAB_7Z) | Speculative/Fiction | Antigravity Machine and Related Tech | FOLDER IV |
+| RTT_UFT_Ghost_Projects_(LAB_P5) | Speculative/Fiction | Zero Point Energy Vacuum Pump and Related Findings | FOLDER IV |
 
 ### Personal
 
 | Document | Type | Description |
 |----------|------|-------------|
-| The Hidden Doors and the Half Key | Origin | Candid authorship account |
+| The Hidden Doors and the Half Key | Origin | Candid authorship account | FOLDER V |
 
 
 #### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
