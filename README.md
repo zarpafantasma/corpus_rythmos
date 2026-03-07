@@ -230,7 +230,7 @@ The corpus comprises **24 documents** across five categories:
 | Early Universe | Speculative | Structure formation timing |
 | Black Holes in RTM | Speculative | Horizon scaling, accretion |
 | Aetherion | Experimental | Gradient-driven propulsion concept |
-| RTM Unified Field Framework | Speculative | Effective Lagrangian, laboratory tests |
+| RTM Unified Field Framework | Speculative | Effective Lagrangian, topological bands |
 
 ### Philosophical / Methodological
 
