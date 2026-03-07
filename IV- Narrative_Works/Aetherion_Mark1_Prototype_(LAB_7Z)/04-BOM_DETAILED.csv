@@ -1,0 +1,92 @@
+Category,Item_ID,Description,Specifications,Quantity,Unit,Manufacturer,Part_Number,Supplier,Supplier_PN,Unit_Cost_USD,Extended_Cost_USD,Lead_Time_Days,Notes,Datasheet_URL
+METAMATERIAL,MM-001,Accumulator Core Layers,ZrO2-SiC composite 70:30 - α=0.5 - 40mm dia x 0.5mm,5,pcs,Custom Fabrication,CUSTOM-ACC-01,Materion / Custom Ceramics,QUOTE-REQ,300,1500,45,Custom order - requires RTM gradient spec,
+METAMATERIAL,MM-002,Gradient Zone Layers,Graded ZrO2-Al2O3 - α=0.5→2.0 - 40mm dia x 0.3mm,15,pcs,Custom Fabrication,CUSTOM-GRAD-01,Materion / Custom Ceramics,QUOTE-REQ,80,1200,45,15 layers with progressive α gradient,
+METAMATERIAL,MM-003,Nozzle Cone Layers,Al2O3-TiO2 - α=2.0→2.5 - Conical geometry,3,pcs,Custom Fabrication,CUSTOM-NOZ-01,Materion / Custom Ceramics,QUOTE-REQ,150,450,45,Conical taper 25mm→35mm aperture,
+METAMATERIAL,MM-004,Base Reflector Plate,Dense Al2O3 - α=2.5 - 40mm dia x 2mm,1,pcs,Custom Fabrication,CUSTOM-BASE-01,Materion / Custom Ceramics,QUOTE-REQ,100,100,45,High density for backflow prevention,
+PIEZOELECTRIC,PZ-001,Piezoelectric Actuator,PZT-5H Stack 5x5x2mm - d33>600pC/N,8,pcs,PI Ceramic,P-885.11,Digi-Key,PL118CT-ND,45,360,14,High displacement coefficient critical,https://www.piceramic.com/en/products/piezoceramic-actuators/
+PIEZOELECTRIC,PZ-002,Piezo Mounting Adhesive,Conductive Epoxy - Silver filled - High temp,1,tube,MG Chemicals,8331S-15G,Digi-Key,473-1176-ND,25,25,3,Thermal + electrical contact,https://www.mgchemicals.com/products/adhesives/conductive-adhesives/
+PIEZOELECTRIC,PZ-003,Spare Piezo Set,PZT-5H Stack 5x5x2mm - Replacement,8,pcs,PI Ceramic,P-885.11,Digi-Key,PL118CT-ND,45,360,14,SPARE - for thermal depolarization replacement,
+ELECTRONICS,EL-001,Microcontroller Dev Board,STM32H743ZI Nucleo-144 - 480MHz ARM Cortex-M7,1,pcs,STMicroelectronics,NUCLEO-H743ZI2,Digi-Key,497-18313-ND,28,28,5,Main flight computer,https://www.st.com/en/evaluation-tools/nucleo-h743zi.html
+ELECTRONICS,EL-002,DDS Waveform Generator,AD9910 1GSPS 14-bit DDS Module,1,pcs,Analog Devices,AD9910/PCBZ,Mouser,584-AD9910/PCBZ,150,150,10,Precision waveform generation,https://www.analog.com/en/products/ad9910.html
+ELECTRONICS,EL-003,Quad DAC 16-bit,AD5764 Quad 16-bit DAC ±10V,2,pcs,Analog Devices,AD5764BRUZ,Digi-Key,AD5764BRUZ-ND,35,70,7,8 channel output (2x4ch),https://www.analog.com/en/products/ad5764.html
+ELECTRONICS,EL-004,HV Piezo Amplifier,PA94 High Voltage Op-Amp 0-200V 50mA,8,pcs,Apex Microtechnology,PA94,Mouser,509-PA94,95,760,14,Critical for piezo drive,https://www.apexanalog.com/products/pa94.html
+ELECTRONICS,EL-005,HV Amplifier Heatsink,TO-3 Package Heatsink 5°C/W,8,pcs,Aavid,6400BG,Digi-Key,HS106-ND,3.5,28,3,Required for PA94 thermal management,
+ELECTRONICS,EL-006,DC-DC HV Converter,24V to 200V Isolated 50W,1,pcs,XP Power,JCK2024S200,Mouser,209-JCK2024S200,180,180,10,200V rail generation,https://www.xppower.com/product/JCK-Series
+ELECTRONICS,EL-007,24V Power Supply,24V 5A 120W Enclosed,1,pcs,Mean Well,LRS-150-24,Digi-Key,1866-3334-ND,22,22,3,Main system power,https://www.meanwell.com/webapp/product/search.aspx?prod=LRS-150
+ELECTRONICS,EL-008,5V Voltage Regulator,LM7805 5V 1.5A TO-220,2,pcs,Texas Instruments,LM7805CT/NOPB,Digi-Key,LM7805CT/NOPB-ND,0.75,1.5,3,Logic power,
+ELECTRONICS,EL-009,USB-UART Adapter,FT232RL USB to Serial Module,1,pcs,FTDI,FT232RL,Digi-Key,768-1007-ND,5,5,3,Control interface,
+SENSORS,SN-001,RTD Temperature Sensor,PT1000 Class A - 3-wire - 2mm dia probe,4,pcs,Omega Engineering,P-M-A-1/8-6-0-P-3,Omega,P-M-A-1/8-6-0-P-3,18,72,7,Piezo array monitoring,https://www.omega.com/en-us/temperature-measurement/sensors/rtd-pt100-sensors
+SENSORS,SN-002,RTD Signal Conditioner,MAX31865 PT1000 RTD-to-Digital,4,pcs,Maxim Integrated,MAX31865ATP+,Digi-Key,MAX31865ATP+-ND,8.5,34,5,SPI interface to MCU,https://www.maximintegrated.com/en/products/sensors/MAX31865.html
+SENSORS,SN-003,6-DOF Accelerometer,ADXL355 ±2g/±4g/±8g 20-bit Digital,1,pcs,Analog Devices,ADXL355BCCZ,Digi-Key,ADXL355BCCZ-ND,28,28,7,Vibration and motion sensing,https://www.analog.com/en/products/adxl355.html
+SENSORS,SN-004,Pressure Sensor (Vacuum),Pirani Gauge 10^-4 to 1000 Torr,1,pcs,Lesker,KJL275806,Kurt J. Lesker,KJL275806,450,450,21,Vacuum chamber monitoring,https://www.lesker.com/newweb/gauges/convection_kjlc_275.cfm
+SENSORS,SN-005,Sound Level Meter,30-130dB Digital SPL Meter,1,pcs,Extech,407730,Amazon,B00023RTFA,85,85,5,Acoustic monitoring,
+MECHANICAL,MC-001,Housing Top Cover,Aluminum 6061-T6 - CNC machined - with heatsink fins,1,pcs,Custom CNC,CUSTOM-TOP-01,Protolabs / Local CNC,QUOTE-REQ,120,120,14,Integrated thermal management,
+MECHANICAL,MC-002,Housing Body Cylinder,Aluminum 6061-T6 - 60mm OD x 50mm ID x 55mm,1,pcs,Custom CNC,CUSTOM-BODY-01,Protolabs / Local CNC,QUOTE-REQ,80,80,14,Main structural housing,
+MECHANICAL,MC-003,Mounting Flange,Aluminum 6061-T6 - 80mm dia x 10mm - 3x M4 holes,1,pcs,Custom CNC,CUSTOM-FLANGE-01,Protolabs / Local CNC,QUOTE-REQ,45,45,14,Torsion balance interface,
+MECHANICAL,MC-004,Sorbothane Isolation Pads,50A Durometer 25x25x10mm,4,pcs,Sorbothane,0530-50-10-25C,McMaster-Carr,9059K12,8,32,5,Acoustic isolation from balance,https://www.sorbothane.com/isolate-it.aspx
+MECHANICAL,MC-005,Thermal Interface Material,Arctic Silver 5 Thermal Compound 3.5g,1,tube,Arctic Silver,AS5-3.5G,Amazon,B0087X728K,7,7,3,Piezo to heatsink interface,
+MECHANICAL,MC-006,M2 Socket Head Screws,M2 x 8mm Stainless Steel (piezo mounting),24,pcs,Generic,M2X8-SHCS,McMaster-Carr,91292A012,0.15,3.6,3,Piezo array fasteners,
+MECHANICAL,MC-007,M3 Socket Head Screws,M3 x 12mm Stainless Steel (housing assembly),16,pcs,Generic,M3X12-SHCS,McMaster-Carr,91292A113,0.2,3.2,3,Housing fasteners,
+MECHANICAL,MC-008,M4 Socket Head Screws,M4 x 16mm Stainless Steel (flange mounting),3,pcs,Generic,M4X16-SHCS,McMaster-Carr,91292A168,0.25,0.75,3,Flange to balance mount,
+MECHANICAL,MC-009,O-Ring Seal,Viton 40mm ID x 2mm CS,2,pcs,Generic,ORI-40-2-V,McMaster-Carr,9464K28,2.5,5,3,Environmental seal if needed,
+PCB,PCB-001,Main Control PCB,Custom 4-layer FR4 100x80mm,1,pcs,Custom,AETHERION-CTRL-V1,JLCPCB,QUOTE-REQ,25,25,10,MCU + DAC + signal conditioning,
+PCB,PCB-002,HV Amplifier PCB,Custom 2-layer FR4 150x100mm - HV clearances,1,pcs,Custom,AETHERION-HV-V1,JLCPCB,QUOTE-REQ,35,35,10,8x PA94 mounting,
+PCB,PCB-003,Sensor Interface PCB,Custom 2-layer FR4 50x50mm,1,pcs,Custom,AETHERION-SENS-V1,JLCPCB,QUOTE-REQ,15,15,10,RTD + Accelerometer interface,
+CONNECTORS,CN-001,DC Power Jack,2.1mm Barrel Jack Panel Mount,1,pcs,CUI Devices,PJ-002A,Digi-Key,CP-002A-ND,1.5,1.5,3,24V input,
+CONNECTORS,CN-002,USB-B Connector,USB Type-B Panel Mount,1,pcs,Amphenol,MUSB-B511-30,Digi-Key,MUSB-B511-30-ND,3,3,3,Control interface,
+CONNECTORS,CN-003,HV Connector,SHV Coax Panel Mount 5kV,1,pcs,Kings Electronics,1704-1,Digi-Key,J583-ND,25,25,7,High voltage feedthrough,
+CONNECTORS,CN-004,Piezo Ribbon Cable,8-conductor shielded 0.5mm pitch 200mm,1,pcs,Custom,PIEZO-RIBBON-01,Digi-Key / Custom,QUOTE-REQ,15,15,7,Piezo array connection,
+CONNECTORS,CN-005,Sensor Cable Assembly,4-pin M8 shielded 500mm,4,pcs,Phoenix Contact,1554840,Digi-Key,277-16596-ND,12,48,7,RTD sensor cables,
+PASSIVES,PS-001,Capacitor 10uF 250V,Electrolytic Radial 250V 10uF,8,pcs,Nichicon,UVZ2E100MPD,Digi-Key,493-2224-ND,1.2,9.6,3,HV filter caps,
+PASSIVES,PS-002,Capacitor 100nF 50V,MLCC 0805 X7R,20,pcs,Murata,GRM21BR71H104KA01L,Digi-Key,490-1666-1-ND,0.1,2,3,Bypass capacitors,
+PASSIVES,PS-003,Resistor Kit 1%,0805 SMD 1% 1K-1M assorted,1,kit,Various,RES-KIT-0805,Amazon,GENERIC,15,15,5,General purpose,
+PASSIVES,PS-004,Power Resistor 10 Ohm 25W,Wirewound Chassis Mount,8,pcs,Ohmite,L25J10RE,Digi-Key,L25J10RE-ND,4.5,36,5,HV current limiting,
+SAFETY,SF-001,E-Stop Button,Red Mushroom 22mm NC,2,pcs,Schneider Electric,XB5AS8442,Digi-Key,966-1455-ND,18,36,5,Emergency shutoff,
+SAFETY,SF-002,HV Indicator LED,Red Panel Mount 250V Neon,1,pcs,VCC,CNX722A1REW250V,Digi-Key,CNX722A1REW250V-ND,3.5,3.5,3,HV status indicator,
+SAFETY,SF-003,Fuse Holder + Fuse,5x20mm 3A Fast Blow,2,pcs,Littelfuse,178.6165.0001,Digi-Key,F2648-ND,2.5,5,3,Overcurrent protection,
+SAFETY,SF-004,GFCI Outlet,15A 120V Ground Fault,1,pcs,Leviton,GFNT1-W,Amazon,B001MLYTIU,18,18,3,Personnel protection,
+SAFETY,SF-005,Hearing Protection,NRR 30 Earmuffs,3,pairs,3M,X4A,Amazon,B00CPCHBCQ,25,75,3,Acoustic safety,
+SAFETY,SF-006,HV Discharge Probe,Insulated with bleeder resistor,1,pcs,Custom/Pomona,5519A,Digi-Key,501-1236-ND,45,45,5,Safe capacitor discharge,
+SAFETY,SF-007,Fire Extinguisher,CO2 5lb Class BC,1,pcs,Kidde,PRO5CDM,Amazon,B002U0KGTY,85,85,5,Electrical fire rated,
+TEST_EQUIPMENT,TE-001,Torsion Balance,Resolution <10nN custom or research grade,1,pcs,Custom/University,TORSION-BAL-01,Custom Build,QUOTE-REQ,800,800,60,Critical measurement instrument,
+TEST_EQUIPMENT,TE-002,Optical Displacement Sensor,Laser triangulation <0.1um resolution,1,pcs,Keyence,LK-G32,Keyence,LK-G32,2500,2500,21,Balance readout - may borrow/rent,https://www.keyence.com/products/measure/laser-1d/
+TEST_EQUIPMENT,TE-003,Vacuum Chamber Bell Jar,12 inch Borosilicate with baseplate,1,pcs,Kurt J. Lesker,BJL12000N01,Lesker,BJL12000N01,650,650,21,May already have in lab,https://www.lesker.com/newweb/chambers/belljar.cfm
+TEST_EQUIPMENT,TE-004,Roughing Pump,2-stage rotary vane 5 CFM,1,pcs,Edwards,RV5,eBay/Used,USED-RV5,400,400,14,May already have in lab,
+TEST_EQUIPMENT,TE-005,Vacuum Feedthrough,10-pin electrical 2.75CF,1,pcs,Kurt J. Lesker,EFT0101053,Lesker,EFT0101053,180,180,14,Electrical connections through chamber,
+CONSUMABLES,CS-001,Solder Wire,Sn63Pb37 0.5mm 100g,1,roll,Kester,24-6337-0010,Digi-Key,KE1101-ND,18,18,3,PCB assembly,
+CONSUMABLES,CS-002,Flux Pen,No-clean RMA,2,pcs,Kester,951,Digi-Key,KE1804-ND,8,16,3,Soldering aid,
+CONSUMABLES,CS-003,Isopropyl Alcohol,99% 1L,1,bottle,Generic,IPA-99-1L,Amazon,GENERIC,12,12,3,Cleaning,
+CONSUMABLES,CS-004,Kapton Tape,25mm x 33m,1,roll,3M,5413,Amazon,B0192MK7L8,15,15,3,HV insulation,
+DOCUMENTATION,DOC-001,Lab Notebook,Numbered pages 200pg,1,pcs,Generic,LAB-NB-200,Amazon,GENERIC,25,25,3,Test documentation,
+DOCUMENTATION,DOC-002,Calibration Masses Set,1mg to 100g ASTM Class 4,1,set,Troemner,7230-4W,Cole-Parmer,EW-11100-01,150,150,14,Torsion balance calibration,https://www.troemner.com/
+,,,,,,,,,,,,,,
+SUBTOTALS,,,,,,,,,,,,,,
+,CAT-MM,Metamaterial Components,,,,,,,,3250,,Custom fab - 45 day lead,,
+,CAT-PZ,Piezoelectric System,,,,,,,,745,,Includes spare set,,
+,CAT-EL,Electronics,,,,,,,,1244.5,,,,
+,CAT-SN,Sensors,,,,,,,,669,,,,
+,CAT-MC,Mechanical/Hardware,,,,,,,,296.55,,,,
+,CAT-PCB,PCBs,,,,,,,,75,,,,
+,CAT-CN,Connectors/Cables,,,,,,,,92.5,,,,
+,CAT-PS,Passive Components,,,,,,,,62.6,,,,
+,CAT-SF,Safety Equipment,,,,,,,,267.5,,,,
+,CAT-TE,Test Equipment,,,,,,,,5530,,May borrow/share,,
+,CAT-CS,Consumables,,,,,,,,61,,,,
+,CAT-DOC,Documentation,,,,,,,,175,,,,
+,,,,,,,,,,,,,,
+TOTALS,,,,,,,,,,,,,,
+,SUBTOTAL,All Components,,,,,,,,12468.65,,,,
+,CONTINGENCY,15% for shipping/misc,,,,,,,,1870.3,,,,
+,GRAND_TOTAL,,,,,,,,,14338.95,,,,
+,,,,,,,,,,,,,,
+NOTES,,,,,,,,,,,,,,
+,NOTE-1,Metamaterial core is CUSTOM FABRICATION - requires detailed RTM specification document for vendor. LOOK for 06-METAMATERIAL_SPECIFICATION.md file inside the ROOT FOLDER,,,,,,,,,,,,
+,NOTE-2,Test equipment (TE-xxx) may be borrowed from university physics lab - check availability before purchasing,,,,,,,,,,,,
+,NOTE-3,PA94 amplifiers have 14-day lead time - ORDER FIRST,,,,,,,,,,,,
+,NOTE-4,Spare piezo set (PZ-003) is MANDATORY due to thermal depolarization risk per Red Team Advisory,,,,,,,,,,,,
+,NOTE-5,All prices USD estimated as of Feb 2026 - verify before ordering,,,,,,,,,,,,
+,NOTE-6,JLCPCB requires Gerber files - PCB design must be completed before ordering,,,,,,,,,,,,
+
+
+
+
