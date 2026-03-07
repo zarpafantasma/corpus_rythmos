@@ -466,7 +466,7 @@ if menu == "MICROSTRUCTURE (LIVE)":
             </p>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
                 <div>
-                    <b style="color: #DE0707;">THE ALPHA EXPONENT (α)</b><br>
+                    <b style="color: #FF1A00;">THE ALPHA EXPONENT (α)</b><br>
                     Acts as the "thermometer" of the network. It measures <b>Coherence</b>: how much energy (volume) is required to displace financial time (volatility). 
                     Low Alpha represents efficiency; high Alpha indicates structural decay.
                 </div>
@@ -690,4 +690,5 @@ st.markdown("""
     Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank">github.com/zarpafantasma/corpus_rythmos</a>
 </div>
 """, unsafe_allow_html=True)
+
 
