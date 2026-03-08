@@ -247,8 +247,8 @@ The corpus comprises **24 documents** across five categories:
 | Document | Type | Description | Location |
 |----------|------|-------------|------|
 | Remember, the Eternal Flame | Fiction | Novel mythologizing the framework | FOLDER IV |
-| + Aetherion_Mark1_Prototype_(LAB_7Z) | Speculative/Narrative | Antigravity Machine and Related Tech | FOLDER IV |
-| + RTT_UFF_G.H.O.S.T_Projects_(LAB_P5) | Speculative/Narrative | ZPE Vacuum Pump and UFF Related Findings | FOLDER IV |
+| +Aetherion Mark1 Prototype (LAB 7Z) | Speculative/Narrative | Antigravity Probe and Related Tech | FOLDER IV |
+| +RTT-UFF G.H.O.S.T Projects (LAB P5) | Speculative/Narrative | ZPE Vacuum Pump and UFF Findings | FOLDER IV |
 
 ### Personal
 
