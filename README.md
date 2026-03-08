@@ -273,7 +273,7 @@ The corpus comprises **24 documents** across five categories:
 
 ---
 
-## Computational Validation
+## Computational Simulations
 
 The corpus includes **70+ simulation suites** demonstrating:
 
