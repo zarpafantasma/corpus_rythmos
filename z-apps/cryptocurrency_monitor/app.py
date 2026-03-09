@@ -526,7 +526,7 @@ elif menu == "FORENSIC LABORATORY":
     st.markdown("<p style='color: #A0AEC0;'>High-resolution reconstruction of historical phase transitions using 1-minute order book data.</p>", unsafe_allow_html=True)
     
     event_explanations = {
-        "NOVEMBER 2022 (FTX COLLAPSE)": """<div style="color: #A0AEC0; font-size: 0.95em;"><h4 style="color: #FFFFFF;">FTX SOLVENCY CRISIS (CHRONIC VISCOSITY)</h4><b>EMPIRICAL EVIDENCE:</b> Sustained "plateau" of viscosity. α holds between 1.10 and 1.25 for over 96 hours.<br><br><b>PHYSICAL STATE:</b> Evaporation of trust. Market behaved like a high-viscosity fluid; all movements required immense volume.</div>""",
+        "NOVEMBER 2022 (FTX COLLAPSE)": """<div style="color: #A0AEC0; font-size: 0.95em;"><h4 style="color: #FFFFFF;">FTX SOLVENCY CRISIS (CHRONIC VISCOSITY)</h4><b>EMPIRICAL EVIDENCE:</b> Sustained "plateau" of viscosity. α holds between 1.10 and 1.25 for over 96 hours.<br><br><b>PHYSICAL STATE:</b> Evaporation of trust. Market behaved like a high-viscosity fluid; all movements required immense volume. <b>RTM reported 6 days of warning before the outage.</b></div>""",
         "MARCH 2020 (BLACK THURSDAY)": """<div style="color: #A0AEC0; font-size: 0.95em;"><h4 style="color: #FFFFFF;">COVID LIQUIDITY SHOCK (SOLID STATE)</h4><b>EMPIRICAL EVIDENCE:</b> α climbs parabolically, crossing 1.20 at 10:15 UTC.<br><br><b>RTM LEAD TIME:</b> Definite warning <b>60 minutes before</b> the final plunge to $5,500.<br><br><b>PHYSICAL STATE:</b> Non-Newtonian fluid: extreme velocity forced the network to freeze into a solid state.</div>""",
         "MAY 2021 (CHINA BAN)": """<div style="color: #A0AEC0; font-size: 0.95em;"><h4 style="color: #FFFFFF;">CHINA BAN SHOCK (HIGH-ENERGY TURBULENCE)</h4><b>EMPIRICAL EVIDENCE:</b> α peaks at 1.33 but reverts swiftly, never touching the 2.0 fracture line.<br><br><b>PHYSICAL STATE:</b> Turbulent flow. Network remained liquid, processing repricing without structural failure.</div>""",
         "SEPTEMBER 2023 (CONTROL GROUP)": """<div style="color: #A0AEC0; font-size: 0.95em;"><h4 style="color: #FFFFFF;">THE CONTROL GROUP (RESTING HEART RATE)</h4><b>EMPIRICAL EVIDENCE:</b> Null Hypothesis test. Price action is minimal; α remains flat.<br><br><b>KEY FINDINGS:</b> Baseline average <b>α ≈ 0.45</b>. Zero false-positives confirmed.</div>"""
@@ -672,6 +672,7 @@ st.markdown("""
     Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank">github.com/zarpafantasma/corpus_rythmos</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
