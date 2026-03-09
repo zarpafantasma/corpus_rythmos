@@ -835,4 +835,6 @@ elif menu == "MARKET PHYSICS":
         fig_hist.update_layout(showlegend=False, yaxis_title="Frequency (Log Scale)", yaxis_type="log")
         st.plotly_chart(fig_hist, use_container_width=True)
 
-st.markdown("""<div class="rtm-footer">Powered by RTM-Atmo Technology</div>""", unsafe_allow_html=True)
+st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
+st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
+
