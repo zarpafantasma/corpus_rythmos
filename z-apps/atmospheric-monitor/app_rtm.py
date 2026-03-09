@@ -192,7 +192,6 @@ st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_
 col_l, col_r = st.columns([1.5, 1])
 with col_l:
     st.markdown("<h4 style='color: #94a3b8; margin-top:0;'>COHERENCE MATRIX</h4>", unsafe_allow_html=True)
-    # CAMBIO: Leyenda estable ahora en azul #0099ff
     st.markdown("<div style='font-size: 15px; color: white; background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155;'><span style='color: #ef4444;'><b>[ RED ] α < 1.25:</b></span> TOPOLOGICAL FRACTURE (Critical)<br><span style='color: #f59e0b;'><b>[ AMBER ] α < 1.50:</b></span> SYSTEM ORGANIZING (Warning)<br><span style='color: #0099ff;'><b>[ BLUE ] α ≥ 1.50:</b></span> SYSTEM STABLE (Nominal)</div>", unsafe_allow_html=True)
 
 with col_r:
@@ -270,36 +269,33 @@ if start_button:
                     </div>""", unsafe_allow_html=True)
                 sc, stxt, act = "#f59e0b", "DECAY", "SHELTER"
             else:
-                # CAMBIO: Status Center ahora en azul #0099ff cuando es estable
                 countdown_ph.markdown("""
                     <div style='background-color: #0099ff; padding: 25px; border-radius: 10px; border: 1px solid #334155; text-align: center; color: white; font-size: 20px; font-weight: bold;'>
                         [ STABLE ]
                     </div>""", unsafe_allow_html=True)
                 sc, stxt, act = "#0099ff", "LAMINAR", "MONITOR"
 
-            # p1 usará el color definido en 'sc' (#0099ff si es estable) para el badge
             p1.markdown(f'<div class="metric-card"><div class="metric-title">Alpha (α)</div><div class="metric-value">{curr_a:.2f}</div><div class="metric-status" style="background-color:{sc}">{stxt}</div></div>', unsafe_allow_html=True)
             p2.markdown(f'<div class="metric-card"><div class="metric-title">Wind Speed</div><div class="metric-value">{curr_w:.0f} kt</div><div class="metric-status" style="background-color:#334155; font-size: 12px;">{source_status}</div></div>', unsafe_allow_html=True)
             p3.markdown(f'<div class="metric-card"><div class="metric-title">Command</div><div class="metric-value" style="font-size:36px;">{act}</div><div class="metric-status" style="background-color:#334155">LOCKED</div></div>', unsafe_allow_html=True)
 
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=h_t, y=h_w, name="Wind", line=dict(color='#3b82f6', width=2), fill='tozeroy', fillcolor='rgba(59,130,246,0.1)'))
-            
             fig.add_trace(go.Scatter(x=h_t, y=h_a, name="Alpha", line=dict(color='#10b981', width=3), yaxis='y2'))
             
             fig.add_hline(y=1.5, line_dash="dash", line_color="#f59e0b", line_width=2, yref="y2")
             fig.add_hline(y=1.2, line_dash="dash", line_color="#ef4444", line_width=2, yref="y2")
             
             fig.add_hrect(y0=0, y1=1.25, line_width=0, fillcolor="#ef4444", opacity=0.1, yref="y2")
+            
+            # Solo dejamos las líneas verticales Roja (Anomaly) y Amarilla (Alert)
             if fracture_idx is not None:
                 ft = times[fracture_idx]; fig.add_vline(x=ft, line_width=2, line_dash="dash", line_color="#ef4444")
                 fig.add_annotation(x=ft, y=195, text=f"[ RTM ANOMALY ] {ft.strftime('%H:%M')}", font=dict(color="white", size=9), bgcolor="#ef4444")
+            
             if alert_idx is not None:
                 alt = times[alert_idx]; fig.add_vline(x=alt, line_width=2, line_dash="dash", line_color="#f59e0b")
                 fig.add_annotation(x=alt, y=100, text=f"[ NHC ALERT ] {alt.strftime('%H:%M')}", font=dict(color="black", size=9), bgcolor="#f59e0b", ay=-40)
-            if landfall_idx is not None:
-                lt = times[landfall_idx]; fig.add_vline(x=lt, line_dash="dash", line_color="#10b981")
-                fig.add_annotation(x=lt, y=20, text=f"[ LANDFALL ] {lt.strftime('%H:%M')}", font=dict(color="white", size=9), bgcolor="#10b981", ay=40)
 
             fig.update_layout(height=450, margin=dict(l=10,r=10,t=10,b=10), plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', font=dict(color='#94a3b8'), xaxis=dict(range=[times[0], times[-1]], gridcolor='#334155'), yaxis=dict(title="Wind (kt)", range=[0, 220], gridcolor='#334155'), yaxis2=dict(title="Alpha", overlaying='y', side='right', range=[0.2, 2.2], showgrid=False), showlegend=False)
             p_chart.plotly_chart(fig, use_container_width=True, key=f"c_{i}")
