@@ -247,7 +247,6 @@ if start_button:
 
             severity = "MAJOR HURRICANE" if curr_a < 1.10 else ("HURRICANE" if curr_a < 1.25 else "TROPICAL STORM")
             
-            # --- CAMBIO 1: STATUS CENTER CON COLORES DE FONDO DINÁMICOS ---
             if curr_a < 1.25:
                 rem = max(0, 11.6 - (i - (fracture_idx or i)))
                 countdown_ph.markdown(f"""
@@ -275,10 +274,13 @@ if start_button:
 
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=h_t, y=h_w, name="Wind", line=dict(color='#3b82f6', width=2), fill='tozeroy', fillcolor='rgba(59,130,246,0.1)'))
-            fig.add_trace(go.Scatter(x=h_t, y=h_a, name="Alpha", line=dict(color='#ef4444', width=3), yaxis='y2'))
             
-            # --- CAMBIO 2: LÍNEA HORIZONTAL ENTRECORTADA AMARILLA EN 1.5 ---
-            fig.add_hline(y=1.5, line_dash="dash", line_color="#f59e0b", line_width=2, yref="y2")
+            # --- CAMBIO: Línea Alpha ahora en VERDE (#10b981) ---
+            fig.add_trace(go.Scatter(x=h_t, y=h_a, name="Alpha", line=dict(color='#10b981', width=3), yaxis='y2'))
+            
+            # --- CAMBIO: Líneas de umbral ---
+            fig.add_hline(y=1.5, line_dash="dash", line_color="#f59e0b", line_width=2, yref="y2") # Amarillo
+            fig.add_hline(y=1.2, line_dash="dash", line_color="#ef4444", line_width=2, yref="y2") # Rojo (Nuevo)
             
             fig.add_hrect(y0=0, y1=1.25, line_width=0, fillcolor="#ef4444", opacity=0.1, yref="y2")
             if fracture_idx is not None:
