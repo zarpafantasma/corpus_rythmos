@@ -257,9 +257,9 @@ if start_button:
         # --- Legend with NHC Alert in WHITE ---
         st.markdown("""
             <div style='background-color: #0f172a; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px; display: flex; justify-content: space-between;'>
-                <div style='width: 24%;'><span style='color: #ef4444; font-weight: 800;'>[ RED ] RTM Alpha Crash ---</span></div>
-                <div style='width: 24%;'><span style='color: #f59e0b; font-weight: 800;'>[ YELLOW ] Decay Alert ---</span></div>
-                <div style='width: 24%;'><span style='color: #3b82f6; font-weight: 800;'>[ BLUE ] Kinetic Wind ___ Speed</span></div>
+                <div style='width: 24%;'><span style='color: #ef4444; font-weight: 800;'>[ RED ] RTM Alpha Crash - - -</span></div>
+                <div style='width: 24%;'><span style='color: #f59e0b; font-weight: 800;'>[ YELLOW ] Decay Alert - - -</span></div>
+                <div style='width: 24%;'><span style='color: #3b82f6; font-weight: 800;'>[ BLUE ] Kinetic Wind Speed ___</span></div>
                 <div style='width: 24%;'><span style='color: #10b981; font-weight: 800;'>[ GREEN ] Alpha Line ___</span></div>
             </div>""", unsafe_allow_html=True)
 
@@ -353,5 +353,6 @@ if start_button:
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
+
 
 
