@@ -420,7 +420,7 @@ st.sidebar.markdown("## RTM ECONOMIC MONITOR")
 st.sidebar.markdown("---")
 menu = st.sidebar.radio(
     "ANALYSIS MODULES",
-    ("MICROSTRUCTURE (LIVE)", "LIVE MACRO RADAR & EARLY WARNING", "FORENSIC LABORATORY", "MARKET PHYSICS")
+    ("LIVE MICROSTRUCTURE RADAR", "LIVE MACRO RADAR & EARLY WARNING", "FORENSIC LABORATORY", "MARKET PHYSICS")
 )
 st.sidebar.markdown("---")
 
@@ -444,9 +444,9 @@ st.sidebar.markdown("""
 # ==========================================
 
 # ------------------------------------------
-# MODULE 1: MICROSTRUCTURE (LIVE)
+# MODULE 1: LIVE MICROSTRUCTURE RADAR
 # ------------------------------------------
-if menu == "MICROSTRUCTURE (LIVE)":
+if menu == "LIVE MICROSTRUCTURE RADAR":
     st.markdown("## LIVE MICROSTRUCTURE RADAR")
     st.markdown("<p style='color: #A0AEC0;'>Real-time monitoring of multi-asset market friction via Kraken API.</p>", unsafe_allow_html=True)
     
@@ -516,10 +516,19 @@ if menu == "MICROSTRUCTURE (LIVE)":
                 
         with col2:
             fig = make_subplots(specs=[[{"secondary_y": True}]])
+            
+            # --- Trazos de datos reales ---
             fig.add_trace(go.Scatter(x=live_df['Date'], y=live_df['Close'], name=f"PRICE ({display_ticker})", line=dict(color='#00E5FF', width=2), fill='tozeroy', fillcolor='rgba(0, 229, 255, 0.05)'), secondary_y=False)
             fig.add_trace(go.Scatter(x=live_df['Date'], y=live_df['Rolling_Alpha'], name="RTM ALPHA (α)", line=dict(color='#FF0000', width=2.2)), secondary_y=True)
+            
+            # --- Trazos invisibles (Dummy traces) para forzar la leyenda horizontal ---
+            fig.add_trace(go.Scatter(x=[None], y=[None], name="FRACTURE (2.0)", line=dict(color="rgba(255, 23, 68, 0.8)", width=2, dash="dash")), secondary_y=True)
+            fig.add_trace(go.Scatter(x=[None], y=[None], name="VISCOSITY (1.2)", line=dict(color="rgba(255, 234, 0, 0.8)", width=2, dash="dash")), secondary_y=True)
+
+            # --- Lineas horizontales reales ---
             fig.add_hline(y=2.0, line_dash="dash", line_color="rgba(255, 23, 68, 0.5)", secondary_y=True)
             fig.add_hline(y=1.2, line_dash="dash", line_color="rgba(255, 234, 0, 0.5)", secondary_y=True)
+            
             fig = apply_premium_layout(fig, chart_height=750) 
             fig.update_yaxes(title_text="", secondary_y=True, range=[-0.1, 3.1]) 
             st.plotly_chart(fig, use_container_width=True)
@@ -556,7 +565,7 @@ if menu == "MICROSTRUCTURE (LIVE)":
                 </div>
             </div>
             <p style="color: #A0AEC0; margin-top: 20px; font-size: 0.9em; font-style: italic;">
-                *When Alpha reaches the 2.0 threshold (Bifurcation), the financial network undergoes a topological break. This state signifies a total loss of structural memory, indicating the exchange engine can no longer dissipate incoming volumetric energy, leading to imminent terminal failure.*
+                *When Alpha reaches the 2.0 threshold (Bifurcation), the financial network undergoes a topological break. This state signifies a total loss of market memory, indicating the exchange engine can no longer dissipate incoming volumetric energy, leading to imminent terminal failure.*
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -726,8 +735,16 @@ elif menu == "FORENSIC LABORATORY":
             df_display = df
 
         fig = make_subplots(specs=[[{"secondary_y": True}]])
+        
+        # --- Trazos de datos reales ---
         fig.add_trace(go.Scatter(x=df_display['Date'], y=df_display['Close'], name="PRICE (USD)", line=dict(color='#00E5FF', width=2), fill='tozeroy', fillcolor='rgba(0, 229, 255, 0.05)'), secondary_y=False)
         fig.add_trace(go.Scatter(x=df_display['Date'], y=df_display['Rolling_Alpha'], name="RTM ALPHA (α)", line=dict(color='#FF0000', width=2.2)), secondary_y=True)
+        
+        # --- Trazos invisibles (Dummy traces) para forzar la leyenda horizontal ---
+        fig.add_trace(go.Scatter(x=[None], y=[None], name="FRACTURE (2.0)", line=dict(color="rgba(255, 23, 68, 0.8)", width=2, dash="dash")), secondary_y=True)
+        fig.add_trace(go.Scatter(x=[None], y=[None], name="VISCOSITY (1.2)", line=dict(color="rgba(255, 234, 0, 0.8)", width=2, dash="dash")), secondary_y=True)
+
+        # --- Lineas horizontales reales ---
         fig.add_hline(y=2.0, line_dash="dash", line_color="rgba(255, 23, 68, 0.5)", secondary_y=True)
         fig.add_hline(y=1.2, line_dash="dash", line_color="rgba(255, 234, 0, 0.5)", secondary_y=True)
         
