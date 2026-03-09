@@ -54,9 +54,9 @@ st.markdown("""
     }
     
     @keyframes pulse-red {
-        0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6); }
-        70% { box-shadow: 0 0 0 20px rgba(239, 68, 68, 0); }
-        100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6); }
+        0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6); background-color: #ef4444; }
+        70% { box-shadow: 0 0 0 20px rgba(239, 68, 68, 0); background-color: #991b1b; }
+        100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6); background-color: #ef4444; }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -81,27 +81,16 @@ class RTMEngine:
             std_l = df['L'].std()
             std_t = df['T'].std()
             
-            # Respiración basal
             micro_noise = (std_t * 0.01) + np.random.uniform(-0.015, 0.015)
             raw_alpha = 1.800 - micro_noise
             
-            # FILTRO ANTI-BRISA MARINA: Exige desestabilización real
-            # std_l > 0.5 ignora las mareas barométricas diarias normales
-            # current_wind > 22 ignora las brisas costeras estándar
             if std_l > 0.5 and current_wind > 22:
                 r = df['T'].corr(df['L'])
-                
-                # Si hay fuerte acoplamiento topológico
                 if pd.notna(r) and r > 0.25:
-                    # MULTIPLICADOR CINÉTICO: 
-                    # Una brisa fuerte (25kt) rompe poco la estructura (multiplicador 0.5)
-                    # Un huracán (100kt) la destroza (multiplicador 2.0)
                     kinetic_multiplier = current_wind / 50.0 
                     fracture_drop = r * std_l * 0.30 * kinetic_multiplier
-                    
                     raw_alpha = 1.800 - fracture_drop
             
-            # Suavizado de la caída
             new_alpha = 0.6 * self.last_alpha + 0.4 * raw_alpha
             self.last_alpha = max(0.25, min(new_alpha, 2.1))
             return self.last_alpha
@@ -168,8 +157,6 @@ with st.sidebar:
             st.rerun()
 
     st.markdown("---")
-    
-    # NUEVO PANEL DE EXPLICACIÓN (Reemplaza a Telegram)
     st.markdown("""
     <div style="background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155; margin-top: 10px;">
         <h4 style='color: #3b82f6; margin-top: 0; font-size: 13px; text-transform: uppercase;'>[ Engine Tuning & Scope ]</h4>
@@ -259,15 +246,27 @@ if start_button:
             if storm_data and curr_t >= pd.to_datetime(storm_data["landfall_date"]) and landfall_idx is None: landfall_idx = i
 
             severity = "MAJOR HURRICANE" if curr_a < 1.10 else ("HURRICANE" if curr_a < 1.25 else "TROPICAL STORM")
+            
+            # --- CAMBIO 1: STATUS CENTER CON COLORES DE FONDO DINÁMICOS ---
             if curr_a < 1.25:
                 rem = max(0, 11.6 - (i - (fracture_idx or i)))
-                countdown_ph.markdown(f"<div style='background-color: #450a0a; padding: 15px; border-radius: 10px; border: 1px solid #ef4444; text-align: center; animation: pulse-red 2s infinite;'><span style='color: #ef4444; font-size: 34px; font-weight: 800;'>T-MINUS {rem:.1f} HRS</span><br><span style='color: #fca5a5;'>[ PREDICTED: {severity} ]</span></div>", unsafe_allow_html=True)
+                countdown_ph.markdown(f"""
+                    <div style='background-color: #ef4444; padding: 15px; border-radius: 10px; border: 2px solid #ffffff; text-align: center; animation: pulse-red 2s infinite;'>
+                        <span style='color: white; font-size: 34px; font-weight: 800;'>T-MINUS {rem:.1f} HRS</span><br>
+                        <span style='color: white; font-weight: bold;'>[ FRACTURE: {severity} ]</span>
+                    </div>""", unsafe_allow_html=True)
                 sc, stxt, act = "#ef4444", "FRACTURE", "EVACUATE"
             elif curr_a < 1.50:
-                countdown_ph.markdown("<div style='background-color: #1e293b; padding: 25px; border-radius: 10px; border: 1px solid #f59e0b; text-align: center; color: #f59e0b; font-size: 20px; font-weight: bold;'>[ WARNING ]</div>", unsafe_allow_html=True)
+                countdown_ph.markdown("""
+                    <div style='background-color: #f59e0b; padding: 25px; border-radius: 10px; border: 1px solid #334155; text-align: center; color: black; font-size: 20px; font-weight: bold;'>
+                        [ DECAY ]
+                    </div>""", unsafe_allow_html=True)
                 sc, stxt, act = "#f59e0b", "DECAY", "SHELTER"
             else:
-                countdown_ph.markdown("<div style='background-color: #1e293b; padding: 25px; border-radius: 10px; border: 1px solid #334155; text-align: center; color: #10b981; font-size: 20px; font-weight: bold;'>[ STABLE ]</div>", unsafe_allow_html=True)
+                countdown_ph.markdown("""
+                    <div style='background-color: #10b981; padding: 25px; border-radius: 10px; border: 1px solid #334155; text-align: center; color: white; font-size: 20px; font-weight: bold;'>
+                        [ STABLE ]
+                    </div>""", unsafe_allow_html=True)
                 sc, stxt, act = "#10b981", "LAMINAR", "MONITOR"
 
             p1.markdown(f'<div class="metric-card"><div class="metric-title">Alpha (α)</div><div class="metric-value">{curr_a:.2f}</div><div class="metric-status" style="background-color:{sc}">{stxt}</div></div>', unsafe_allow_html=True)
@@ -277,6 +276,10 @@ if start_button:
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=h_t, y=h_w, name="Wind", line=dict(color='#3b82f6', width=2), fill='tozeroy', fillcolor='rgba(59,130,246,0.1)'))
             fig.add_trace(go.Scatter(x=h_t, y=h_a, name="Alpha", line=dict(color='#ef4444', width=3), yaxis='y2'))
+            
+            # --- CAMBIO 2: LÍNEA HORIZONTAL ENTRECORTADA AMARILLA EN 1.5 ---
+            fig.add_hline(y=1.5, line_dash="dash", line_color="#f59e0b", line_width=2, yref="y2")
+            
             fig.add_hrect(y0=0, y1=1.25, line_width=0, fillcolor="#ef4444", opacity=0.1, yref="y2")
             if fracture_idx is not None:
                 ft = times[fracture_idx]; fig.add_vline(x=ft, line_width=2, line_dash="dash", line_color="#ef4444")
@@ -292,12 +295,8 @@ if start_button:
             p_chart.plotly_chart(fig, use_container_width=True, key=f"c_{i}")
             time.sleep(0.03)
 
-        # AQUÍ ESTÁ EL CAMBIO: Solo se muestra si "storm_data" tiene información (no en Live Data)
         if storm_data:
             st.markdown("""<div class="theory-box"><h3 style='color: #3b82f6; margin-top: 0;'>RTM DEEP INSIGHT: ANALYSIS OF HISTORIC FAILURES</h3><p style='font-size: 15px; line-height: 1.6;'>Traditional models rely on <b>Kinetic Metrics</b> (post-facto movement). RTM measures <b>Topological Structural Coherence (α)</b>.</p><ul style='font-size: 14px;'><li><b>HURRICANE OTIS (2023):</b> RTM detected structural failure 12h before official NHC major warnings.</li><li><b>HURRICANE MILTON (2024):</b> Structural fracture detected 14h before Category 5 kinetic explosion.</li><li><b>HURRICANE PATRICIA (2015):</b> Record structural collapse signaled 12h before peak intensity.</li></ul></div>""", unsafe_allow_html=True)
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
-
-
-
