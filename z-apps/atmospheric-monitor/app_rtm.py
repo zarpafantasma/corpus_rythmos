@@ -17,6 +17,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 st.set_page_config(page_title="RTM HURRICANES", layout="wide", initial_sidebar_state="expanded")
 
 if 'is_animating' not in st.session_state:
+    # Definimos el estado de animación para controlar el flujo
     st.session_state.is_animating = False
 
 st.markdown("""
@@ -236,7 +237,15 @@ if start_button:
         st.markdown(f"<div style='text-align: center; color: #94a3b8; font-size: 14px; margin-top: 10px;'>[ TARGET: {op_mode.upper()} ]</div>", unsafe_allow_html=True)
         p_chart = st.empty()
         
-        st.markdown("<div style='background-color: #0f172a; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px; display: flex; justify-content: space-between;'><div style='width: 24%;'><span style='color: #ef4444; font-weight: 800;'>[ RED ] RTM Alpha Crash</span></div><div style='width: 24%;'><span style='color: #f59e0b; font-weight: 800;'>[ AMBER ] Official NHC Alert</span></div><div style='width: 24%;'><span style='color: #3b82f6; font-weight: 800;'>[ BLUE ] Kinetic Wind Speed</span></div><div style='width: 24%;'><span style='color: #10b981; font-weight: 800;'>[ GREEN ] Alpha Line</span></div></div>", unsafe_allow_html=True)
+        # --- CAMBIO: Solo se muestra la leyenda inferior si NO es "Live Satellite Data" ---
+        if storm_data:
+            st.markdown("""
+                <div style='background-color: #0f172a; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px; display: flex; justify-content: space-between;'>
+                    <div style='width: 24%;'><span style='color: #ef4444; font-weight: 800;'>[ RED ] RTM Alpha Crash</span></div>
+                    <div style='width: 24%;'><span style='color: #f59e0b; font-weight: 800;'>[ AMBER ] Official NHC Alert</span></div>
+                    <div style='width: 24%;'><span style='color: #3b82f6; font-weight: 800;'>[ BLUE ] Kinetic Wind Speed</span></div>
+                    <div style='width: 24%;'><span style='color: #10b981; font-weight: 800;'>[ GREEN ] Alpha Line</span></div>
+                </div>""", unsafe_allow_html=True)
 
         for i in range(len(times)):
             curr_a, curr_w, curr_t = p_alpha[i], p_wind[i], times[i]
@@ -275,12 +284,10 @@ if start_button:
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=h_t, y=h_w, name="Wind", line=dict(color='#3b82f6', width=2), fill='tozeroy', fillcolor='rgba(59,130,246,0.1)'))
             
-            # --- CAMBIO: Línea Alpha ahora en VERDE (#10b981) ---
             fig.add_trace(go.Scatter(x=h_t, y=h_a, name="Alpha", line=dict(color='#10b981', width=3), yaxis='y2'))
             
-            # --- CAMBIO: Líneas de umbral ---
-            fig.add_hline(y=1.5, line_dash="dash", line_color="#f59e0b", line_width=2, yref="y2") # Amarillo
-            fig.add_hline(y=1.2, line_dash="dash", line_color="#ef4444", line_width=2, yref="y2") # Rojo (Nuevo)
+            fig.add_hline(y=1.5, line_dash="dash", line_color="#f59e0b", line_width=2, yref="y2")
+            fig.add_hline(y=1.2, line_dash="dash", line_color="#ef4444", line_width=2, yref="y2")
             
             fig.add_hrect(y0=0, y1=1.25, line_width=0, fillcolor="#ef4444", opacity=0.1, yref="y2")
             if fracture_idx is not None:
@@ -302,4 +309,3 @@ if start_button:
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
-
