@@ -17,7 +17,6 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 st.set_page_config(page_title="RTM HURRICANES", layout="wide", initial_sidebar_state="expanded")
 
 if 'is_animating' not in st.session_state:
-    # Definimos el estado de animación para controlar el flujo
     st.session_state.is_animating = False
 
 st.markdown("""
@@ -193,6 +192,7 @@ st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_
 col_l, col_r = st.columns([1.5, 1])
 with col_l:
     st.markdown("<h4 style='color: #94a3b8; margin-top:0;'>COHERENCE MATRIX</h4>", unsafe_allow_html=True)
+    # CAMBIO: Leyenda estable ahora en azul #0099ff
     st.markdown("<div style='font-size: 15px; color: white; background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155;'><span style='color: #ef4444;'><b>[ RED ] α < 1.25:</b></span> TOPOLOGICAL FRACTURE (Critical)<br><span style='color: #f59e0b;'><b>[ AMBER ] α < 1.50:</b></span> SYSTEM ORGANIZING (Warning)<br><span style='color: #0099ff;'><b>[ BLUE ] α ≥ 1.50:</b></span> SYSTEM STABLE (Nominal)</div>", unsafe_allow_html=True)
 
 with col_r:
@@ -237,7 +237,6 @@ if start_button:
         st.markdown(f"<div style='text-align: center; color: #94a3b8; font-size: 14px; margin-top: 10px;'>[ TARGET: {op_mode.upper()} ]</div>", unsafe_allow_html=True)
         p_chart = st.empty()
         
-        # --- CAMBIO: Solo se muestra la leyenda inferior si NO es "Live Satellite Data" ---
         if storm_data:
             st.markdown("""
                 <div style='background-color: #0f172a; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px; display: flex; justify-content: space-between;'>
@@ -271,12 +270,14 @@ if start_button:
                     </div>""", unsafe_allow_html=True)
                 sc, stxt, act = "#f59e0b", "DECAY", "SHELTER"
             else:
+                # CAMBIO: Status Center ahora en azul #0099ff cuando es estable
                 countdown_ph.markdown("""
-                    <div style='background-color: #10b981; padding: 25px; border-radius: 10px; border: 1px solid #334155; text-align: center; color: white; font-size: 20px; font-weight: bold;'>
+                    <div style='background-color: #0099ff; padding: 25px; border-radius: 10px; border: 1px solid #334155; text-align: center; color: white; font-size: 20px; font-weight: bold;'>
                         [ STABLE ]
                     </div>""", unsafe_allow_html=True)
-                sc, stxt, act = "#10b981", "LAMINAR", "MONITOR"
+                sc, stxt, act = "#0099ff", "LAMINAR", "MONITOR"
 
+            # p1 usará el color definido en 'sc' (#0099ff si es estable) para el badge
             p1.markdown(f'<div class="metric-card"><div class="metric-title">Alpha (α)</div><div class="metric-value">{curr_a:.2f}</div><div class="metric-status" style="background-color:{sc}">{stxt}</div></div>', unsafe_allow_html=True)
             p2.markdown(f'<div class="metric-card"><div class="metric-title">Wind Speed</div><div class="metric-value">{curr_w:.0f} kt</div><div class="metric-status" style="background-color:#334155; font-size: 12px;">{source_status}</div></div>', unsafe_allow_html=True)
             p3.markdown(f'<div class="metric-card"><div class="metric-title">Command</div><div class="metric-value" style="font-size:36px;">{act}</div><div class="metric-status" style="background-color:#334155">LOCKED</div></div>', unsafe_allow_html=True)
@@ -309,4 +310,3 @@ if start_button:
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
-
