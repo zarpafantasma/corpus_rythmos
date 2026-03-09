@@ -34,6 +34,7 @@ st.markdown("""
     .warning-box { background-color: rgba(255, 234, 0, 0.1); border-left: 4px solid #FFEA00; padding: 10px; margin-bottom: 15px; border-radius: 4px;}
     .critical-box { background-color: rgba(255, 23, 68, 0.1); border-left: 4px solid #FF1744; padding: 10px; margin-bottom: 15px; border-radius: 4px;}
     .macro-box { background-color: rgba(186, 104, 200, 0.1); border-left: 4px solid #BA68C8; padding: 15px; margin-bottom: 20px; border-radius: 4px;}
+    .streamlit-expanderHeader { background-color: #151A23 !important; border-radius: 8px; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -154,6 +155,16 @@ if page == "1. Panel de Control (En Vivo)":
     
     st.plotly_chart(fig, use_container_width=True)
 
+    # --- TEXTO EXPLICATIVO PARA EL RADAR EN VIVO ---
+    with st.expander("📖 ¿Cómo interpretar este radar en vivo?", expanded=True):
+        st.markdown("""
+        **Guía de lectura rápida:**
+        - 🔵 **Línea Azul (Precio):** Es la acción del precio del activo en USD.
+        - 🔴 **Línea Roja (Alpha Micro):** Es el exponente de coherencia RTM. Actúa como un *termómetro de fricción*. Te dice qué tan difícil está siendo mover el precio en el libro de órdenes.
+        - 🟡 **Umbral Amarillo (1.2 - Zona Viscosa):** Si la línea roja cruza aquí, el mercado dejó de ser un fluido eficiente. La liquidez se está retirando y el mercado actúa como "miel". **Acción recomendada:** *Alerta táctica, reduzca exposición.*
+        - 🟥 **Umbral Rojo (2.0 - Fractura Sólida):** Si la línea roja cruza aquí, la estructura causal del mercado se ha roto. El precio y el volumen se han desconectado. **Acción recomendada:** *Punto de no retorno, impacto inminente del precio.*
+        """)
+
 # --- PESTAÑA 2: LABORATORIO FORENSE ---
 elif page == "2. Laboratorio Forense (Histórico)":
     st.title("Laboratorio Forense RTM")
@@ -220,5 +231,15 @@ elif page == "2. Laboratorio Forense (Histórico)":
             fig2.update_yaxes(title_text="Alpha Micro", secondary_y=True, range=[-0.5, 3.0], showgrid=False)
             
             st.plotly_chart(fig2, use_container_width=True)
+
+            # --- TEXTO EXPLICATIVO PARA EL HISTÓRICO ---
+            with st.expander("📖 Guía de Análisis Forense de Crisis", expanded=True):
+                st.markdown("""
+                **¿Qué debes buscar en este gráfico?** Este panel demuestra cómo la topología del mercado (la estructura) reacciona frente al precio (la cinética) durante choques históricos.
+                
+                - ⏳ **La Divergencia Temporal:** Fíjate en el tiempo exacto en que la **Línea Roja (Alpha)** alcanza su pico máximo y cruza las líneas de alerta. En caídas críticas (como 2020 o 2025), la estructura se rompe *minutos u horas antes* de que la **Línea Azul (Precio)** se desplome.
+                - 🛡️ **Verificación de Falsos Positivos:** Si seleccionas eventos como el *China Ban (2021)*, verás mucha volatilidad en el precio, pero la línea roja nunca llega a la zona de fractura (2.0). Esto demuestra que RTM no se deja engañar por el pánico del precio si la red sigue sana.
+                - 🍯 **Viscosidad Crónica:** En eventos de lenta hemorragia institucional (como el *Colapso de FTX en 2022*), la línea roja sube por encima de 1.2 y se queda atascada formando una \"meseta\". El mercado no se rompe instantáneamente, pero se mueve como miel espesa por falta de liquidez.
+                """)
     else:
         st.warning(f"Esperando el archivo {file_to_load} para el análisis. Por favor colóquelo en el directorio de la aplicación.")
