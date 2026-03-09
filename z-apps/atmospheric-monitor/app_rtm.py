@@ -9,6 +9,7 @@ from streamlit_folium import st_folium
 import requests
 import urllib3
 
+# Disable insecure request warnings for the weather API
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ==========================================
@@ -62,7 +63,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 1. RTM ENGINE (BLINDAJE CINÉTICO)
+# 1. RTM ENGINE (KINETIC SHIELDING)
 # ==========================================
 class RTMEngine:
     def __init__(self, window_size=12):
@@ -81,9 +82,11 @@ class RTMEngine:
             std_l = df['L'].std()
             std_t = df['T'].std()
             
+            # Simulated micro-noise for structural analysis
             micro_noise = (std_t * 0.01) + np.random.uniform(-0.015, 0.015)
             raw_alpha = 1.800 - micro_noise
             
+            # Fracture detection logic based on thermodynamic coupling
             if std_l > 0.5 and current_wind > 22:
                 r = df['T'].corr(df['L'])
                 if pd.notna(r) and r > 0.25:
@@ -91,6 +94,7 @@ class RTMEngine:
                     fracture_drop = r * std_l * 0.30 * kinetic_multiplier
                     raw_alpha = 1.800 - fracture_drop
             
+            # Smoothing the alpha transition
             new_alpha = 0.6 * self.last_alpha + 0.4 * raw_alpha
             self.last_alpha = max(0.25, min(new_alpha, 2.1))
             return self.last_alpha
@@ -107,10 +111,13 @@ def fetch_live_weather(lat, lon):
             df_api['surface_pressure'] = df_api['surface_pressure'].interpolate().fillna(1013.25)
             df_api['windspeed_10m'] = df_api['windspeed_10m'].interpolate().fillna(0)
             t = pd.to_datetime(df_api['time'])
+            # Conversion to knots
             w = df_api['windspeed_10m'].values / 1.852
+            # Calculate anomaly L
             L = 1050 - df_api['surface_pressure'].values
             return t, L, w + 1, w, "Primary Satellite"
-    except: pass
+    except Exception as e:
+        print(f"API Error: {e}")
     return None, None, None, None, ""
 
 def get_historical_storm(name):
@@ -126,12 +133,19 @@ def get_historical_storm(name):
 # ==========================================
 with st.sidebar:
     st.markdown("<h3 style='color: #ffffff; margin-top: 0;'>COMMAND CENTER</h3>", unsafe_allow_html=True)
-    op_mode = st.selectbox("Select Data Source:", ["Live Satellite Data", "Hurricane Otis (Acapulco, 2023)", "Hurricane Milton (Gulf of Mexico, 2024)", "Hurricane Patricia (Pacific Ocean, 2015)"])
+    op_mode = st.selectbox("Select Data Source:", [
+        "Live Satellite Data", 
+        "Hurricane Otis (Acapulco, 2023)", 
+        "Hurricane Milton (Gulf of Mexico, 2024)", 
+        "Hurricane Patricia (Pacific Ocean, 2015)"
+    ])
     storm_data = get_historical_storm(op_mode)
     
     if 't_lat' not in st.session_state: st.session_state.t_lat = 25.76
     if 't_lon' not in st.session_state: st.session_state.t_lon = -80.19
-    if storm_data: st.session_state.t_lat, st.session_state.t_lon = storm_data["lat"], storm_data["lon"]
+    
+    if storm_data: 
+        st.session_state.t_lat, st.session_state.t_lon = storm_data["lat"], storm_data["lon"]
 
     st.markdown("---")
     st.markdown("<h3 style='color: #ffffff;'>TARGET COORDINATES</h3>", unsafe_allow_html=True)
@@ -152,7 +166,7 @@ with st.sidebar:
     
     if map_res and map_res.get("last_clicked"):
         nl, nn = map_res["last_clicked"]["lat"], map_res["last_clicked"]["lng"]
-        if st.session_state.t_lat != nl or st.session_state.t_lon != nn:
+        if abs(st.session_state.t_lat - nl) > 0.0001 or abs(st.session_state.t_lon - nn) > 0.0001:
             st.session_state.t_lat, st.session_state.t_lon = nl, nn
             st.rerun()
 
@@ -161,7 +175,7 @@ with st.sidebar:
     <div style="background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155; margin-top: 10px;">
         <h4 style='color: #3b82f6; margin-top: 0; font-size: 13px; text-transform: uppercase;'>[ Engine Tuning & Scope ]</h4>
         <p style='color: #94a3b8; font-size: 11px; line-height: 1.5; text-align: justify; margin-bottom: 10px;'>
-            <b>WHAT IT MEASURES:</b> RTM HURRICANES calculates the Topological Structural Coherence (α) by actively tracking the mathematical coupling between thermodynamic vacuum (pressure) and kinetic energy (wind).
+            <b>WHAT IT MEASURES:</b> RTM HURRICANES calculates Topological Structural Coherence (α) by actively tracking the mathematical coupling between thermodynamic vacuum (pressure) and kinetic energy (wind).
         </p>
         <p style='color: #94a3b8; font-size: 11px; line-height: 1.5; text-align: justify; margin-bottom: 10px;'>
             <b>WHAT IT BLINDS OUT:</b> The engine is heavily shielded against daily barometric tides and standard coastal sea breezes. It ignores generic power-law growth and absolute heat thresholds.
@@ -178,7 +192,8 @@ with st.sidebar:
 # 3. MAIN DASHBOARD
 # ==========================================
 head_l, head_r = st.columns([1, 1.5])
-with head_l: st.markdown("<h2 style='color: white; margin: 0;'>RTM HURRICANES</h2>", unsafe_allow_html=True)
+with head_l: 
+    st.markdown("<h2 style='color: white; margin: 0;'>RTM HURRICANES</h2>", unsafe_allow_html=True)
 with head_r: 
     st.markdown("""
     <div class="disclaimer-box">
@@ -204,6 +219,7 @@ start_button = st.button("▶ EXECUTE FULL RTM SCAN", use_container_width=True)
 
 if start_button:
     times, p_wind, p_alpha, source_status = [], [], [], ""
+    
     if storm_data:
         np.random.seed(42)
         total_hours = 120
@@ -214,7 +230,7 @@ if start_button:
         elif "Patricia" in op_mode:
             p_wind = np.concatenate([np.random.normal(35, 1, 18), np.random.normal(40, 2, 8), np.linspace(40, 185, 14), np.linspace(185, 30, 80)]) + np.random.normal(0, 1, 120)
             p_alpha = np.concatenate([np.random.normal(1.9, 0.02, 18), np.linspace(1.20, 0.38, 4), np.random.normal(0.38, 0.02, 26), np.linspace(0.40, 1.8, 72)])
-        else:
+        else: # Otis
             p_wind = np.concatenate([np.random.normal(45, 1, 21), np.random.normal(50, 2, 11), np.linspace(50, 165, 10), np.linspace(165, 40, 78)]) + np.random.normal(0, 1, 120)
             p_alpha = np.concatenate([np.random.normal(1.8, 0.02, 21), np.linspace(1.20, 0.37, 5), np.random.normal(0.37, 0.02, 16), np.linspace(0.40, 1.7, 78)])
         source_status = "Historical Data"
@@ -226,7 +242,9 @@ if start_button:
                 for i in range(len(fetch_times)):
                     alpha = engine.process_new_data(L_raw[i], T_raw[i], fetch_wind[i])
                     times.append(fetch_times[i]); p_wind.append(fetch_wind[i]); p_alpha.append(alpha)
-            else: st.error("[ UPLINK ERROR ]"); times = []
+            else: 
+                st.error("[ UPLINK ERROR ]")
+                times = []
 
     if len(times) > 0:
         h_t, h_w, h_a = [], [], []
@@ -236,11 +254,11 @@ if start_button:
         st.markdown(f"<div style='text-align: center; color: #94a3b8; font-size: 14px; margin-top: 10px;'>[ TARGET: {op_mode.upper()} ]</div>", unsafe_allow_html=True)
         p_chart = st.empty()
         
-        # --- CAMBIO: Cuadro de leyenda global restaurado ---
+        # --- Legend with NHC Alert in WHITE ---
         st.markdown("""
             <div style='background-color: #0f172a; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px; display: flex; justify-content: space-between;'>
                 <div style='width: 24%;'><span style='color: #ef4444; font-weight: 800;'>[ RED ] RTM Alpha Crash</span></div>
-                <div style='width: 24%;'><span style='color: #f59e0b; font-weight: 800;'>[ AMBER ] Official NHC Alert</span></div>
+                <div style='width: 24%;'><span style='color: #ffffff; font-weight: 800;'>[ WHITE ] Official NHC Alert</span></div>
                 <div style='width: 24%;'><span style='color: #3b82f6; font-weight: 800;'>[ BLUE ] Kinetic Wind Speed</span></div>
                 <div style='width: 24%;'><span style='color: #10b981; font-weight: 800;'>[ GREEN ] Alpha Line</span></div>
             </div>""", unsafe_allow_html=True)
@@ -280,28 +298,58 @@ if start_button:
             p3.markdown(f'<div class="metric-card"><div class="metric-title">Command</div><div class="metric-value" style="font-size:36px;">{act}</div><div class="metric-status" style="background-color:#334155">LOCKED</div></div>', unsafe_allow_html=True)
 
             fig = go.Figure()
+            # Wind speed plot
             fig.add_trace(go.Scatter(x=h_t, y=h_w, name="Wind", line=dict(color='#3b82f6', width=2), fill='tozeroy', fillcolor='rgba(59,130,246,0.1)'))
+            # Alpha structural plot
             fig.add_trace(go.Scatter(x=h_t, y=h_a, name="Alpha", line=dict(color='#10b981', width=3), yaxis='y2'))
             
+            # Threshold lines
             fig.add_hline(y=1.5, line_dash="dash", line_color="#f59e0b", line_width=2, yref="y2")
             fig.add_hline(y=1.2, line_dash="dash", line_color="#ef4444", line_width=2, yref="y2")
             
+            # Critical zone
             fig.add_hrect(y0=0, y1=1.25, line_width=0, fillcolor="#ef4444", opacity=0.1, yref="y2")
             
+            # RTM Fracture Anomaly (Red)
             if fracture_idx is not None:
                 ft = times[fracture_idx]; fig.add_vline(x=ft, line_width=2, line_dash="dash", line_color="#ef4444")
                 fig.add_annotation(x=ft, y=195, text=f"[ RTM ANOMALY ] {ft.strftime('%H:%M')}", font=dict(color="white", size=9), bgcolor="#ef4444")
             
+            # NHC Alert (PURE WHITE as requested)
             if alert_idx is not None:
-                alt = times[alert_idx]; fig.add_vline(x=alt, line_width=2, line_dash="dash", line_color="#f59e0b")
-                fig.add_annotation(x=alt, y=100, text=f"[ NHC ALERT ] {alt.strftime('%H:%M')}", font=dict(color="black", size=9), bgcolor="#f59e0b", ay=-40)
+                alt = times[alert_idx]
+                fig.add_vline(x=alt, line_width=2, line_dash="dash", line_color="#ffffff")
+                fig.add_annotation(
+                    x=alt, y=100, 
+                    text=f"[ NHC ALERT ] {alt.strftime('%H:%M')}", 
+                    font=dict(color="black", size=9), 
+                    bgcolor="#ffffff", 
+                    ay=-40
+                )
 
-            fig.update_layout(height=450, margin=dict(l=10,r=10,t=10,b=10), plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', font=dict(color='#94a3b8'), xaxis=dict(range=[times[0], times[-1]], gridcolor='#334155'), yaxis=dict(title="Wind (kt)", range=[0, 220], gridcolor='#334155'), yaxis2=dict(title="Alpha", overlaying='y', side='right', range=[0.2, 2.2], showgrid=False), showlegend=False)
+            fig.update_layout(
+                height=450, margin=dict(l=10,r=10,t=10,b=10), 
+                plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', 
+                font=dict(color='#94a3b8'), 
+                xaxis=dict(range=[times[0], times[-1]], gridcolor='#334155'), 
+                yaxis=dict(title="Wind (kt)", range=[0, 220], gridcolor='#334155'), 
+                yaxis2=dict(title="Alpha", overlaying='y', side='right', range=[0.2, 2.2], showgrid=False), 
+                showlegend=False
+            )
             p_chart.plotly_chart(fig, use_container_width=True, key=f"c_{i}")
             time.sleep(0.03)
 
         if storm_data:
-            st.markdown("""<div class="theory-box"><h3 style='color: #3b82f6; margin-top: 0;'>RTM DEEP INSIGHT: ANALYSIS OF HISTORIC FAILURES</h3><p style='font-size: 15px; line-height: 1.6;'>Traditional models rely on <b>Kinetic Metrics</b> (post-facto movement). RTM measures <b>Topological Structural Coherence (α)</b>.</p><ul style='font-size: 14px;'><li><b>HURRICANE OTIS (2023):</b> RTM detected structural failure 12h before official NHC major warnings.</li><li><b>HURRICANE MILTON (2024):</b> Structural fracture detected 14h before Category 5 kinetic explosion.</li><li><b>HURRICANE PATRICIA (2015):</b> Record structural collapse signaled 12h before peak intensity.</li></ul></div>""", unsafe_allow_html=True)
+            st.markdown("""
+                <div class="theory-box">
+                    <h3 style='color: #3b82f6; margin-top: 0;'>RTM DEEP INSIGHT: ANALYSIS OF HISTORIC FAILURES</h3>
+                    <p style='font-size: 15px; line-height: 1.6;'>Traditional models rely on <b>Kinetic Metrics</b> (post-facto movement). RTM measures <b>Topological Structural Coherence (α)</b>.</p>
+                    <ul style='font-size: 14px;'>
+                        <li><b>HURRICANE OTIS (2023):</b> RTM detected structural failure 12h before official NHC major warnings.</li>
+                        <li><b>HURRICANE MILTON (2024):</b> Structural fracture detected 14h before Category 5 kinetic explosion.</li>
+                        <li><b>HURRICANE PATRICIA (2015):</b> Record structural collapse signaled 12h before peak intensity.</li>
+                    </ul>
+                </div>""", unsafe_allow_html=True)
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
