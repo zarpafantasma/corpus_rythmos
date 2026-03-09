@@ -541,7 +541,6 @@ elif menu == "FORENSIC LABORATORY":
     
     event = st.selectbox("SELECT HISTORICAL EVENT:", list(event_dict.keys()))
     
-    # Use os.path.join to find the file accurately based on where app.py is located
     file_name = event_dict[event]
     full_path = os.path.join(BASE_DIR, file_name)
     
@@ -551,52 +550,27 @@ elif menu == "FORENSIC LABORATORY":
         fig = make_subplots(specs=[[{"secondary_y": True}]])
         fig.add_trace(go.Scatter(x=df['Date'], y=df['Close'], name="PRICE (USD)", line=dict(color='#00E5FF', width=2), fill='tozeroy', fillcolor='rgba(0, 229, 255, 0.05)'), secondary_y=False)
         
-        # Alpha line updated to intense red
         fig.add_trace(go.Scatter(x=df['Date'], y=df['Rolling_Alpha'], name="RTM ALPHA (α)", line=dict(color='#FF0000', width=2.2)), secondary_y=True)
         
         # Legend items for thresholds
         fig.add_trace(go.Scatter(x=[None], y=[None], mode='lines', line=dict(color='rgba(255, 23, 68, 0.6)', dash='dash'), name='FRACTURE (2.0)'), secondary_y=True)
         fig.add_trace(go.Scatter(x=[None], y=[None], mode='lines', line=dict(color='rgba(255, 234, 0, 0.6)', dash='dash'), name='VISCOSITY (1.2)'), secondary_y=True)
         
+        # Líneas horizontales entrecortadas (Intactas)
         fig.add_hline(y=2.0, line_dash="dash", line_color="rgba(255, 23, 68, 0.5)", secondary_y=True)
         fig.add_hline(y=1.2, line_dash="dash", line_color="rgba(255, 234, 0, 0.5)", secondary_y=True)
         
         # DYNAMIC FORENSIC EVENT OVERLAYS
         if event != "SEPTEMBER 2023 (CONTROL GROUP)":
             peak_idx = df['Rolling_Alpha'].idxmax()
-            
-            # Calculate dynamic indices to ensure markers always appear within the data bounds
-            start_idx = max(0, peak_idx - 180) # Approx 3 hours before peak
-            cap_idx = min(len(df)-1, peak_idx + 120) # Approx 2 hours after peak
-            
             peak_date = df.loc[peak_idx, 'Date']
-            start_date = df.loc[start_idx, 'Date']
-            cap_date = df.loc[cap_idx, 'Date']
-            
-            # Obtener el valor exacto de Alpha en esos momentos para alinear el texto
-            start_alpha = df.loc[start_idx, 'Rolling_Alpha']
             peak_alpha = df.loc[peak_idx, 'Rolling_Alpha']
-            cap_alpha = df.loc[cap_idx, 'Rolling_Alpha']
             
-            # Adding vertical event lines
-            fig.add_vline(x=start_date, line_dash="dot", line_color="#A0AEC0", opacity=0.6)
-            fig.add_annotation(
-                x=start_date, y=start_alpha + 0.15, text="SYSTEMIC STRESS ONSET", showarrow=False, 
-                font=dict(color="#A0AEC0", size=10), yref="y2", bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#A0AEC0", borderwidth=1, borderpad=4,
-                xanchor="left", xshift=10
-            )
-            
+            # ÚNICA LÍNEA VERTICAL: AMARILLA (MAX STRUCTURAL ENTROPY)
             fig.add_vline(x=peak_date, line_dash="solid", line_color="#FFEA00", opacity=0.8)
             fig.add_annotation(
                 x=peak_date, y=peak_alpha + 0.15, text="MAX STRUCTURAL ENTROPY", showarrow=False, 
                 font=dict(color="#FFEA00", size=10, weight="bold"), yref="y2", bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#FFEA00", borderwidth=1, borderpad=4,
-                xanchor="left", xshift=10
-            )
-            
-            fig.add_vline(x=cap_date, line_dash="dot", line_color="#FF1744", opacity=0.6)
-            fig.add_annotation(
-                x=cap_date, y=cap_alpha + 0.15, text="LIQUIDITY CASCADE", showarrow=False, 
-                font=dict(color="#FF1744", size=10), yref="y2", bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#FF1744", borderwidth=1, borderpad=4,
                 xanchor="left", xshift=10
             )
             
@@ -690,5 +664,6 @@ st.markdown("""
     Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank">github.com/zarpafantasma/corpus_rythmos</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
