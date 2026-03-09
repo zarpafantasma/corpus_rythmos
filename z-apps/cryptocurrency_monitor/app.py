@@ -566,11 +566,19 @@ elif menu == "FORENSIC LABORATORY":
             peak_date = df.loc[peak_idx, 'Date']
             peak_alpha = df.loc[peak_idx, 'Rolling_Alpha']
             
-            # ÚNICA LÍNEA VERTICAL: AMARILLA (MAX STRUCTURAL ENTROPY)
-            fig.add_vline(x=peak_date, line_dash="solid", line_color="#FFEA00", opacity=0.8)
+            # ÚNICA LÍNEA VERTICAL: AMARILLA (Ajustada a grosor 1 y 60% transparencia)
+            fig.add_vline(
+                x=peak_date, 
+                line_dash="solid", 
+                line_color="#FFEA00", 
+                opacity=0.4,  # 60% de transparencia
+                line_width=1   # Grosor mínimo
+            )
+            
             fig.add_annotation(
                 x=peak_date, y=peak_alpha + 0.15, text="MAX STRUCTURAL ENTROPY", showarrow=False, 
-                font=dict(color="#FFEA00", size=10, weight="bold"), yref="y2", bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#FFEA00", borderwidth=1, borderpad=4,
+                font=dict(color="#FFEA00", size=10, weight="bold"), yref="y2", 
+                bgcolor="rgba(11, 14, 20, 0.8)", bordercolor="#FFEA00", borderwidth=1, borderpad=4,
                 xanchor="left", xshift=10
             )
             
@@ -664,6 +672,7 @@ st.markdown("""
     Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank">github.com/zarpafantasma/corpus_rythmos</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
