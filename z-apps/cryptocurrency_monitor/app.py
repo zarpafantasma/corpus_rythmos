@@ -589,6 +589,21 @@ elif menu == "LIVE MACRO RADAR & EARLY WARNING":
         col_m1, col_m2 = st.columns([1, 2.5])
         with col_m1:
             st.plotly_chart(create_gauge_chart(current_macro_alpha, is_macro=True), use_container_width=True)
+            
+            # --- MACRO GAUGE LEGEND ---
+            st.markdown("""
+            <div class="gauge-legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: rgba(0, 230, 118, 0.4); border: 1px solid #00E676;"></div>
+                    <div><b style="color: #00E676;">PERSISTENT (0.50 - 1.00):</b> Healthy systemic memory. The market maintains its structural directionality and trend predictability.</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: rgba(255, 23, 68, 0.4); border: 1px solid #FF1744;"></div>
+                    <div><b style="color: #FF1744;">DECORRELATED (< 0.50):</b> Random walk limit. Systemic 'Melting' in progress. High probability of a critical transition or crash.</div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+            
             if current_macro_alpha > 0.5:
                 st.markdown("""<div style="border-left: 4px solid #00E676; background-color: #151923; padding: 15px; border-radius: 4px;"><span style="color: #00E676; font-weight: 600;">STATE: PERSISTENT</span><br><span style="color: #A0AEC0; font-size: 0.9em;">Healthy systemic memory. The market maintains its structural persistence.</span></div>""", unsafe_allow_html=True)
             else:
