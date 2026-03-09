@@ -236,14 +236,14 @@ if start_button:
         st.markdown(f"<div style='text-align: center; color: #94a3b8; font-size: 14px; margin-top: 10px;'>[ TARGET: {op_mode.upper()} ]</div>", unsafe_allow_html=True)
         p_chart = st.empty()
         
-        if storm_data:
-            st.markdown("""
-                <div style='background-color: #0f172a; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px; display: flex; justify-content: space-between;'>
-                    <div style='width: 24%;'><span style='color: #ef4444; font-weight: 800;'>[ RED ] RTM Alpha Crash</span></div>
-                    <div style='width: 24%;'><span style='color: #f59e0b; font-weight: 800;'>[ AMBER ] Official NHC Alert</span></div>
-                    <div style='width: 24%;'><span style='color: #3b82f6; font-weight: 800;'>[ BLUE ] Kinetic Wind Speed</span></div>
-                    <div style='width: 24%;'><span style='color: #10b981; font-weight: 800;'>[ GREEN ] Alpha Line</span></div>
-                </div>""", unsafe_allow_html=True)
+        # --- CAMBIO: Cuadro de leyenda global restaurado ---
+        st.markdown("""
+            <div style='background-color: #0f172a; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px; display: flex; justify-content: space-between;'>
+                <div style='width: 24%;'><span style='color: #ef4444; font-weight: 800;'>[ RED ] RTM Alpha Crash</span></div>
+                <div style='width: 24%;'><span style='color: #f59e0b; font-weight: 800;'>[ AMBER ] Official NHC Alert</span></div>
+                <div style='width: 24%;'><span style='color: #3b82f6; font-weight: 800;'>[ BLUE ] Kinetic Wind Speed</span></div>
+                <div style='width: 24%;'><span style='color: #10b981; font-weight: 800;'>[ GREEN ] Alpha Line</span></div>
+            </div>""", unsafe_allow_html=True)
 
         for i in range(len(times)):
             curr_a, curr_w, curr_t = p_alpha[i], p_wind[i], times[i]
@@ -288,7 +288,6 @@ if start_button:
             
             fig.add_hrect(y0=0, y1=1.25, line_width=0, fillcolor="#ef4444", opacity=0.1, yref="y2")
             
-            # Solo dejamos las líneas verticales Roja (Anomaly) y Amarilla (Alert)
             if fracture_idx is not None:
                 ft = times[fracture_idx]; fig.add_vline(x=ft, line_width=2, line_dash="dash", line_color="#ef4444")
                 fig.add_annotation(x=ft, y=195, text=f"[ RTM ANOMALY ] {ft.strftime('%H:%M')}", font=dict(color="white", size=9), bgcolor="#ef4444")
