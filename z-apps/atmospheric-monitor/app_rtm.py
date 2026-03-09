@@ -193,7 +193,7 @@ st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_
 col_l, col_r = st.columns([1.5, 1])
 with col_l:
     st.markdown("<h4 style='color: #94a3b8; margin-top:0;'>COHERENCE MATRIX</h4>", unsafe_allow_html=True)
-    st.markdown("<div style='font-size: 15px; color: white; background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155;'><span style='color: #ef4444;'><b>[ RED ] α < 1.25:</b></span> TOPOLOGICAL FRACTURE (Critical)<br><span style='color: #f59e0b;'><b>[ AMBER ] α < 1.50:</b></span> SYSTEM ORGANIZING (Warning)<br><span style='color: #10b981;'><b>[ GREEN ] α ≥ 1.50:</b></span> SYSTEM STABLE (Nominal)</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size: 15px; color: white; background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155;'><span style='color: #ef4444;'><b>[ RED ] α < 1.25:</b></span> TOPOLOGICAL FRACTURE (Critical)<br><span style='color: #f59e0b;'><b>[ AMBER ] α < 1.50:</b></span> SYSTEM ORGANIZING (Warning)<br><span style='color: #0099ff;'><b>[ BLUE ] α ≥ 1.50:</b></span> SYSTEM STABLE (Nominal)</div>", unsafe_allow_html=True)
 
 with col_r:
     st.markdown("<h4 style='color: #94a3b8; margin-top:0;'>STATUS CENTER</h4>", unsafe_allow_html=True)
@@ -309,3 +309,4 @@ if start_button:
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
+
