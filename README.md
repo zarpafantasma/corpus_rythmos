@@ -214,39 +214,39 @@ The corpus comprises **24 documents** across five categories:
 
 | Document | Type | Description | Location |
 |----------|------|-------------|------|
-| RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes | FOLDER I |
-| Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds | FOLDER I |
-| RTM Cascade Framework | Framework | Two-signature test for directional cascades | FOLDER I |
-| Rhythmic Astronomy | Domain | Galaxy dynamics | FOLDER I |
-| Rhythmic Neuroscience | Domain | Neural scaling, consciousness markers | FOLDER I |
-| Conscious Access | Domain | Coherence threshold hypothesis | FOLDER I |
-| Homeostasis | Domain | Biological coherence index (C_bio) | FOLDER I |
-| Rhythmic Chemistry | Domain | Confinement geometry, reaction kinetics | FOLDER I |
-| Rhythmic Biochemistry | Domain | Enzymatic scaling, molecular machines | FOLDER I |
-| Rhythmic Ecology | Domain | Trophic cascades, ecosystem resilience | FOLDER I |
-| Rhythmic Economics | Domain | Economic Coherence Index (ECI) | FOLDER I |
-| Rhythmic Meteorology | Domain | Atmospheric regimes, cyclogenesis | FOLDER I |
-| RTM-Aware Quantum Computing | Domain | Cross-layer diagnostics | FOLDER I |
-| Early Universe | Speculative | Structure formation timing | FOLDER I |
-| Black Holes in RTM | Speculative | Horizon scaling, accretion | FOLDER I |
-| Aetherion | Experimental | Gradient-driven propulsion concept | FOLDER II |
-| RTM Unified Field Framework | Speculative | Effective Lagrangian, topological bands | FOLDER II |
+| 001-RTM — Analytical | Foundation | Core invariance, estimation methods, transport classes | FOLDER I |
+| 002-Scale–Clock Geometry | Foundation | Mathematical spine, gauge invariance, bias bounds | FOLDER I |
+| 003-RTM Cascade Framework | Framework | Two-signature test for directional cascades | FOLDER I |
+| 004-Early Universe | Speculative | Structure formation timing | FOLDER I |
+| 005-Black Holes in RTM | Speculative | Horizon scaling, accretion | FOLDER I |
+| 006-RTM-Aware Quantum Computing | Domain | Cross-layer diagnostics | FOLDER I |
+| 007-Rhythmic Chemistry | Domain | Confinement geometry, reaction kinetics | FOLDER I |
+| 008-Rhythmic Biochemistry | Domain | Enzymatic scaling, molecular machines | FOLDER I |
+| 009-Homeostasis | Domain | Biological coherence index (C_bio) | FOLDER I |
+| 010-Rhythmic Neuroscience | Domain | Neural scaling, consciousness markers | FOLDER I |
+| 011-Conscious Access | Domain | Coherence threshold hypothesis | FOLDER I |
+| 012-Rhythmic Ecology | Domain | Trophic cascades, ecosystem resilience | FOLDER I |
+| 013-Rhythmic Meteorology | Domain | Atmospheric regimes, cyclogenesis | FOLDER I |
+| 014-Rhythmic Astronomy | Domain | Galaxy dynamics | FOLDER I |
+| 015-Rhythmic Economics | Domain | Economic Coherence Index (ECI) | FOLDER I |
+| 016-Aetherion | Experimental | Gradient-driven propulsion concept | FOLDER II |
+| 017-RTM Unified Field Framework | Speculative | Effective Lagrangian, topological bands | FOLDER II |
 
 ### Philosophical / Methodological
 
 | Document | Type | Description | Location |
 |----------|------|-------------|------|
-| The Aetherion Framework and Implications | Manual/Speculative | Practical playbook, aetherion orientation | FOLDER II |
-| The Grammar of Rhythm | Methods | Practical playbook, estimation standards | FOLDER III |
-| The Multiscale Symphony | Essay | Philosophical orientation | FOLDER III |
-| Physics of Tradition | Anthropology | Cultural applications, ritual acoustics | FOLDER III |
-| The Owl and the Spear | Manual | Phenomenological hygiene | FOLDER III |
+| 018-The Aetherion Framework and Implications | Manual/Speculative | Practical playbook, aetherion orientation | FOLDER II |
+| 019-The Grammar of Rhythm | Methods | Practical playbook, estimation standards | FOLDER III |
+| 020-The Multiscale Symphony | Essay | Philosophical orientation | FOLDER III |
+| 021-Physics of Tradition | Anthropology | Cultural applications, ritual acoustics | FOLDER III |
+| 022-The Owl and the Spear | Manual | Phenomenological hygiene | FOLDER III |
 
 ### Literary
 
 | Document | Type | Description | Location |
 |----------|------|-------------|------|
-| Remember, the Eternal Flame | Fiction | Novel mythologizing the framework | FOLDER IV |
+| 023-Remember, the Eternal Flame | Fiction | Novel mythologizing the framework | FOLDER IV |
 | +Aetherion Mark1 Prototype (LAB 7Z) | Speculative/Narrative | Antigravity Tech and Related Tools | FOLDER IV |
 | +N1_ARCHITECT_PROTOCOL | Speculative/Narrative | InterBranch Civilization Protocols | FOLDER IV |
 | +RTT-UFF G.H.O.S.T Projects (LAB P5) | Speculative/Narrative | ZPE Vacuum Pump and UFF Findings | FOLDER IV |
@@ -255,7 +255,7 @@ The corpus comprises **24 documents** across five categories:
 
 | Document | Type | Description | Location |
 |----------|------|-------------|------|
-| The Hidden Doors and the Half Key | Origin | Candid authorship account | FOLDER V |
+| 024-The Hidden Doors and the Half Key | Origin | Candid authorship account | FOLDER V |
 
 
 #### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
