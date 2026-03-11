@@ -169,11 +169,14 @@ def calculate_dfa_alpha(series):
     Simplified DFA calculation for Macro scale.
     Measures the persistence (memory) of the time series.
     """
-    if len(series) < 100: return 0.5
+    if len(series) < 50: return 0.5
     # Integration
     y = np.cumsum(series - np.mean(series))
-    # Scales for macro (from 1 hour to 2 days)
-    scales = [4, 8, 16, 32, 64, 128]
+    # Scales for macro dynamically adjusted based on series length
+    max_scale = len(series) // 4
+    scales = [s for s in [4, 8, 16, 32, 64, 128] if s <= max_scale]
+    if len(scales) < 2: return 0.5
+    
     fluctuations = []
     for s in scales:
         # Divide into boxes and calculate RMS
@@ -253,20 +256,20 @@ def fetch_live_rtm_data(symbol='BTC/USD'):
 
 @st.cache_data(ttl=300)
 def fetch_macro_rtm_data(symbol='BTC/USD'):
-    """Fetches long-range data (10 days) for Macro DFA analysis"""
+    """Fetches long-range data (14 days) for Macro DFA analysis (7-day window)"""
     try:
         exchange = ccxt.kraken({'enableRateLimit': True})
-        # 10 days = 960 15m candles
-        ohlcv = exchange.fetch_ohlcv(symbol, '15m', limit=960)
+        # 14 days = 336 1h candles
+        ohlcv = exchange.fetch_ohlcv(symbol, '1h', limit=336)
         df = pd.DataFrame(ohlcv, columns=['timestamp', 'Open', 'High', 'Low', 'Close', 'Volume'])
         df['Date'] = pd.to_datetime(df['timestamp'], unit='ms')
         
         returns = df['Close'].pct_change().dropna().values
-        # Calculate DFA alpha on a rolling window of 4 days (384 15m candles)
-        window_size = 384
+        # Calculate DFA alpha on a rolling window of 7 days (168 1h candles)
+        window_size = 168
         rolling_dfa = []
         dates = []
-        for i in range(window_size, len(returns), 4): # Step of 1 hour
+        for i in range(window_size, len(returns), 1): # Step of 1 hour
             subset = returns[i-window_size:i]
             alpha = calculate_dfa_alpha(subset)
             rolling_dfa.append(alpha)
@@ -450,6 +453,15 @@ if menu == "LIVE MICROSTRUCTURE RADAR":
     st.markdown("## LIVE MICROSTRUCTURE RADAR")
     st.markdown("<p style='color: #A0AEC0;'>Real-time monitoring of multi-asset market friction via Kraken API.</p>", unsafe_allow_html=True)
     
+    st.markdown("""
+    <div class="rtm-info-card" style="border-left: 4px solid #00E5FF; margin-bottom: 20px; margin-top: 0;">
+        <h3 style="color: #FFFFFF; margin-top: 0;">Your Real-Time Crash Early Warning System</h3>
+        <p style="color: #A0AEC0; font-size: 1.05em; margin-bottom: 0;">
+            The Live Microstructure Radar acts as a seismograph for crypto markets. Instead of tracking price direction like traditional indicators, it measures the hidden <b>friction</b> inside the order book. It alerts you when the market's internal structure is fracturing (Red Zone) <i>before</i> the actual price collapses, giving you a crucial head start to exit safely.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+    
     col_sel, col_btn, _ = st.columns([1, 1, 2])
     with col_sel:
         selected_asset = st.selectbox("SELECT ASSET", ["BTC/USD", "ETH/USD", "SOL/USD", "XRP/USD"])
@@ -579,6 +591,15 @@ elif menu == "LIVE MACRO RADAR & EARLY WARNING":
     st.markdown("## LIVE MACRO RADAR & EARLY WARNING")
     st.markdown("<p style='color: #A0AEC0;'>DFA α analysis to detect long-range structural memory loss. Monitoring the 'Material Fatigue' of the market.</p>", unsafe_allow_html=True)
     
+    st.markdown("""
+    <div class="rtm-info-card" style="border-left: 4px solid #00E5FF; margin-bottom: 20px; margin-top: 0;">
+        <h3 style="color: #FFFFFF; margin-top: 0;">Your 10-Day Systemic Early Warning</h3>
+        <p style="color: #A0AEC0; font-size: 1.05em; margin-bottom: 0;">
+            While the Micro Radar detects sudden intraday friction, the Macro Radar monitors the long-term "material fatigue" of the market. By measuring systemic memory over a continuous 7-day window, it detects when the entire market is silently decorrelating. This allows you to spot deep structural decay and gives you an average 10-day head start to prepare for a major macroeconomic crash.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
     # --- LIVE MACRO RADAR COMPONENT ---
     st.markdown("### LIVE SYSTEMIC MEMORY RADAR")
     col_sel_macro, col_btn_macro, _ = st.columns([1, 1, 2])
@@ -616,15 +637,15 @@ elif menu == "LIVE MACRO RADAR & EARLY WARNING":
             if current_macro_alpha > 0.5:
                 st.markdown("""<div style="border-left: 4px solid #00E676; background-color: #151923; padding: 15px; border-radius: 4px;"><span style="color: #00E676; font-weight: 600;">STATE: PERSISTENT</span><br><span style="color: #A0AEC0; font-size: 0.9em;">Healthy systemic memory. The market maintains its structural persistence.</span></div>""", unsafe_allow_html=True)
             else:
-                st.markdown("""<div style="border-left: 4px solid #FF1744; background-color: #231215; padding: 15px; border-radius: 4px;"><span style="color: #FF1744; font-weight: 600;">STATE: DECORRELATED</span><br><span style="color: #A0AEC0; font-size: 0.9em;">WARNING: Systemic 'Melting' in progress. High probability of critical transition.</span></div>""", unsafe_allow_html=True)
+                st.markdown("""<div style="border-left: 4px solid #FF1744; background-color: #231215; padding: 15px; border-radius: 4px;"><span style="color: #FF1744; font-weight: 600;">STATE: DECORRELATED (< 0.50)</span><br><span style="color: #A0AEC0; font-size: 0.9em;">WARNING: Systemic 'Melting' in progress.<br><br><strong style="color: #FFEA00;">IMPORTANT (7-DAY RULE):</strong> To trigger an official RTM alert, the market must sustain this decorrelated state continuously for 7 days. Transient drops (1, 2, or 3 days) do not constitute a structural alarm.</span></div>""", unsafe_allow_html=True)
         
         with col_m2:
-            fig_macro = px.line(macro_live_df, x='Date', y='Macro_Alpha', title=f"LIVE MACRO PERSISTENCE (10-DAY WINDOW)")
+            fig_macro = px.line(macro_live_df, x='Date', y='Macro_Alpha', title=f"LIVE MACRO PERSISTENCE (7-DAY TREND)")
             fig_macro.add_hline(y=0.5, line_dash="dash", line_color="#FF1744", annotation_text="RANDOM WALK LIMIT")
             fig_macro = apply_premium_layout(fig_macro, chart_height=400)
             st.plotly_chart(fig_macro, use_container_width=True)
-    
-    st.markdown("---")
+
+        st.markdown("---")
     
     # --- HISTORICAL MACRO DATA ---
     macro_data = load_macro_data()
@@ -837,4 +858,3 @@ elif menu == "MARKET PHYSICS":
 
 st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 st.markdown('<div class="rtm-footer" style="text-align: center; color: #94a3b8; font-size: 14px; padding-bottom: 20px;">Powered by RTM-Atmo Technology | <a href="https://github.com/zarpafantasma/corpus_rythmos" target="_blank" style="color: #3b82f6; text-decoration: none;">github.com/zarpafantasma/corpus_rythmos</a></div>', unsafe_allow_html=True)
-
