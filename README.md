@@ -179,13 +179,13 @@ This section hosts operational tools developed under the RTM (Topological Struct
 
 ### List of Active Applications
 
-#### 1. RTM HURRICANES (Atmospheric Monitor)
-The first implementation of RTM Theory applied to Rhythmic Meteorology. This tool scans real-time satellite telemetry to detect topological fractures in the atmosphere. It is designed to predict the rapid intensification of hurricanes and tropical storms with a lead time of ~11.6 hours before official kinetic wind surges.
+#### 1. RTM CLIMATE (Atmospheric Monitor)
+The comprehensive implementation of RTM Theory applied to Rhythmic Meteorology and extreme climate physics. This unified dual-module system scans real-time satellite telemetry to detect topological fractures in the atmosphere—predicting hurricane rapid intensification with a ~11.6-hour lead time—while also tracking extreme atmospheric phase transitions.
 
 * **Status:** Operational / Proof of Concept
-* **Domain:** Atmospheric Thermodynamics
+* **Domain:** Atmospheric Thermodynamics & Multiscale Climate Physics
 * **Launch App:** [RTM HURRICANES Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
-* **Scaling the Vision:** While the current RTM HURRICANES operates as a localized scanner, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/Global-Architecture-Vision.pdf).
+* **Scaling the Vision:** While the current platform operates as both a localized scanner and a macro-climate analyzer, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/Global-Architecture-Vision.pdf).
 
 ---
 #### 2. RTM ECONOMIC MONITOR (Crypto Engine)
