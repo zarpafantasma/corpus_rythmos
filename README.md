@@ -180,7 +180,7 @@ This section hosts operational tools developed under the RTM (Topological Struct
 ### List of Active Applications
 
 #### 1. RTM CLIMATE (Atmospheric Monitor)
-The comprehensive implementation of RTM Theory applied to Rhythmic Meteorology and extreme climate physics. This unified dual-module system scans real-time satellite telemetry to detect topological fractures in the atmosphere—predicting hurricane rapid intensification with a ~11.6-hour lead time—while also tracking extreme atmospheric phase transitions.
+The first operational implementation of RTM Theory,a comprehensive implementation of RTM Theory applied to Rhythmic Meteorology and extreme climate physics. This unified dual-module system scans real-time satellite telemetry to detect topological fractures in the atmosphere—predicting hurricane rapid intensification with a ~11.6-hour lead time—while also tracking extreme atmospheric phase transitions.
 
 * **Status:** Operational / Proof of Concept
 * **Domain:** Atmospheric Thermodynamics & Multiscale Climate Physics
@@ -199,11 +199,11 @@ The second operational implementation of RTM Theory, demonstrating its universal
 
 ### Upcoming Applications
 
-#### 2. RTM Extreme weather(In Development)
-Applying RTM principles to high-frequency Extreme weather.
+#### 2. RTM Traffic (In Development)
+Applying RTM principles to city traffic
 
 * **Status:** Research Phase
-* **Domain:** Meteorology
+* **Domain:** Traffic
 ---
 
 ## Corpus Structure
