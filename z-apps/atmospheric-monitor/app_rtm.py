@@ -860,7 +860,11 @@ def run_hurricane_module():
                 p_chart.plotly_chart(fig, use_container_width=True, key=f"c_{i}")
                 time.sleep(0.03)
 
-            st.markdown("""
+            nhc_alert_html = ""
+            if storm_data:
+                nhc_alert_html = "<li><b style='color: #ffffff;'>White Dashed Line (NHC Alert):</b> Marks the exact moment the National Hurricane Center (NHC) issued its official major warning. Notice how the RTM Alpha Crash (Topological Fracture) consistently precedes this official kinetic alert by several hours.</li>"
+
+            st.markdown(f"""
             <div style="background-color: #1e293b; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px;">
                 <h4 style="color: #f1f5f9; margin-top: 0; font-size: 15px; text-transform: uppercase;">How to Read the Chart (Lines and Axes)</h4>
                 <p style="color: #94a3b8; font-size: 13px; line-height: 1.6; margin-bottom: 10px;">The chart has a time axis (bottom) and two main metrics:</p>
@@ -869,6 +873,7 @@ def run_hurricane_module():
                     <li><b style="color: #3b82f6;">Blue Line (Kinetic Wind Speed):</b> Read on the left axis (from 0 to 220). It is the brute force: the current and projected wind speed in knots (kt).</li>
                     <li><b style="color: #f59e0b;">Yellow Dashed Line (1.5 - Decay Warning):</b> This is the warning threshold. If the green line falls below this line, it means the atmosphere is beginning to lose stability.</li>
                     <li><b style="color: #ef4444;">Red Dashed Line (1.25 - RTM Alpha Crash):</b> This is the critical line (note the red shaded background below it). If the green line crosses down through this red mark, a "Topological Fracture" occurs. According to RTM theory, this guarantees that energy will burst and the wind (blue line) will spike violently hours later.</li>
+                    {nhc_alert_html}
                 </ul>
             </div>
             """, unsafe_allow_html=True)
