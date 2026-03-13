@@ -860,6 +860,19 @@ def run_hurricane_module():
                 p_chart.plotly_chart(fig, use_container_width=True, key=f"c_{i}")
                 time.sleep(0.03)
 
+            st.markdown("""
+            <div style="background-color: #1e293b; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-top: 15px;">
+                <h4 style="color: #f1f5f9; margin-top: 0; font-size: 15px; text-transform: uppercase;">How to Read the Chart (Lines and Axes)</h4>
+                <p style="color: #94a3b8; font-size: 13px; line-height: 1.6; margin-bottom: 10px;">The chart has a time axis (bottom) and two main metrics:</p>
+                <ul style="color: #94a3b8; font-size: 13px; line-height: 1.6;">
+                    <li><b style="color: #10b981;">Green Line (Alpha Line):</b> Read on the right axis (from 0.5 to 2.0). It represents the Topological Structural Coherence (α). Basically, it is the flagship metric of RTM. It tells you how stable and "entangled" the atmosphere is.</li>
+                    <li><b style="color: #3b82f6;">Blue Line (Kinetic Wind Speed):</b> Read on the left axis (from 0 to 220). It is the brute force: the current and projected wind speed in knots (kt).</li>
+                    <li><b style="color: #f59e0b;">Yellow Dashed Line (1.5 - Decay Warning):</b> This is the warning threshold. If the green line falls below this line, it means the atmosphere is beginning to lose stability.</li>
+                    <li><b style="color: #ef4444;">Red Dashed Line (1.25 - RTM Alpha Crash):</b> This is the critical line (note the red shaded background below it). If the green line crosses down through this red mark, a "Topological Fracture" occurs. According to RTM theory, this guarantees that energy will burst and the wind (blue line) will spike violently hours later.</li>
+                </ul>
+            </div>
+            """, unsafe_allow_html=True)
+
         if storm_data:
             st.markdown("""
                 <div class="theory-box">
