@@ -184,7 +184,7 @@ The first operational implementation of RTM Theory,a comprehensive implementatio
 
 * **Status:** Operational / Proof of Concept
 * **Domain:** Atmospheric Thermodynamics & Multiscale Climate Physics
-* **Launch App:** [RTM HURRICANES Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
+* **Launch App:** [RTM CLIMATE MONITOR Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
 * **Scaling the Vision:** While the current platform operates as both a localized scanner and a macro-climate analyzer, the ultimate roadmap envisions a planetary-scale, autonomous detection grid. By leveraging bulk global telemetry, GPU tensor mathematics, and a 3D digital twin, the final architecture will monitor Earth's complete topological viscosity in real-time. Read the full blueprint here: [Global Architecture Vision (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/Global-Architecture-Vision.pdf).
 
 ---
