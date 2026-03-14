@@ -71,7 +71,7 @@ Laboratory prototype for vacuum gradient propulsion research. The core will be s
 
 ### 2.1 The Topological Exponent (α)
 
-In the Rhythmic Transport Model (RTM), the parameter **α** characterizes the local coupling strength between matter and vacuum field fluctuations. The relationship is:
+In the Multiscale Temporal Relativity (RTM), the parameter **α** characterizes the local coupling strength between matter and vacuum field fluctuations. The relationship is:
 
 ```
 Energy density: ε ∝ ∇α × (field gradients)
