@@ -41,7 +41,7 @@
 
 ## 1. SYSTEM OVERVIEW
 
-The **Aetherion Mark 1** is an experimental laboratory-scale prototype designed to demonstrate R-T-M (Rhythmic Transport Model) vacuum gradient propulsion. It operates by:
+The **Aetherion Mark 1** is an experimental laboratory-scale prototype designed to demonstrate RTM (Multiscale Temporal Relativity) vacuum gradient propulsion. It operates by:
 
 1. **Storing** zero-point vacuum energy in a metamaterial core (Topological Capacitor)
 2. **Releasing** stored energy via piezoelectric pulsation (TPH Protocol)
