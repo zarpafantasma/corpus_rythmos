@@ -1,5 +1,5 @@
 # The Return of the Aether
-## A Rigorous Reexamination of Vacuum Structure Through the Lens of the Rhythmic Transport Model
+## A Rigorous Reexamination of Vacuum Structure Through the Lens of the Multiscale Temporal Relativity
 
 **Document ID:** RTM-UFF-AETHER-001  
 **Version:** 1.0  
@@ -232,7 +232,7 @@ What we reject is not the concept but the vocabulary. This is not scientific rig
 
 ### 4.1 The Alpha-Field
 
-The Rhythmic Transport Model introduces a fundamental scalar field, α(x), that characterizes the local topological structure of the vacuum. Unlike the classical aether, α is not a medium *through which* things move. It is a property *of spacetime itself*—a measure of how transport phenomena behave at each location.
+The Multiscale Temporal Relativity introduces a fundamental scalar field, α(x), that characterizes the local topological structure of the vacuum. Unlike the classical aether, α is not a medium *through which* things move. It is a property *of spacetime itself*—a measure of how transport phenomena behave at each location.
 
 **Definition:** The alpha-exponent characterizes the scaling relationship between transport time T and length scale L:
 
