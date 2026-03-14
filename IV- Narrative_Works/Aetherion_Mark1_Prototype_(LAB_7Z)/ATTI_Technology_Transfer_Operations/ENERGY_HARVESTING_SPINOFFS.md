@@ -1397,7 +1397,7 @@ If RTM's predictions about topological gradients are correct, TVEH could revolut
 ## Appendix B: References
 
 1. RTM Corpus v2.0 — Theoretical Foundations
-2. RTM-PAPER-001 — Rhythmic Transport Model: Mathematical Framework
+2. RTM-PAPER-001 — Multiscale Temporal Relativity: Mathematical Framework
 3. Roundy, S. et al. (2003) — A study of low level vibrations as a power source for wireless sensor nodes
 4. Beeby, S.P. et al. (2006) — Energy harvesting vibration sources for microsystems applications
 5. Erturk, A. & Inman, D.J. (2011) — Piezoelectric Energy Harvesting
