@@ -1,5 +1,5 @@
 # The Return of the Aether
-## A Rigorous Reexamination of Vacuum Structure Through the Lens of the Multiscale Temporal Relativity
+## A Rigorous Reexamination of Vacuum Structure Through the Lens of the Multiscale Temporal Relativity Model
 
 **Document ID:** RTM-UFF-AETHER-001  
 **Version:** 1.0  
