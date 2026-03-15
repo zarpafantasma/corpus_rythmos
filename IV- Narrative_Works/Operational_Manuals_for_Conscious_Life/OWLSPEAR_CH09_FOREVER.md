@@ -330,16 +330,15 @@ Classification:  OPEN
 Application:     Universal (all conscious beings)
 
 ---
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║    FINAL OPERATIONAL DIRECTIVE (CHAPTER 09)                                  ║
-║                                                                              ║
-║    1. Do not seek to freeze the pattern. Seek to refine the tuning.          ║
-║    2. Accept the relay. You are an instrument, not the composer.             ║
-║    3. Honor the limit. Let finitude give weight to your daily actions.       ║
-║    4. When the resonance fades, release the tone without fear.               ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+
+                                                                              
+    FINAL OPERATIONAL DIRECTIVE (CHAPTER 09)                                  
+                                                                              
+    1. Do not seek to freeze the pattern. Seek to refine the tuning.          
+    2. Accept the relay. You are an instrument, not the composer.             
+    3. Honor the limit. Let finitude give weight to your daily actions.       
+    4. When the resonance fades, release the tone without fear.               
+                                                                              
 
 
 © 2026 — The Owl and the Spear
