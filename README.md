@@ -256,7 +256,7 @@ The corpus comprises **24 documents** across five categories:
 
 | Document | Type | Description | Location |
 |----------|------|-------------|------|
-| 024-The Hidden Doors and the Half Key | Origin | Candid authorship account | FOLDER V |
+| 024-The Hidden Doors and the Half Key | Origin | A candid account of the authorship and creation of RTM | FOLDER V |
 
 
 #### All papers provided in PDF format are accompanied by their original DOCX source files, enabling direct editing, forking, or translation of the material.
