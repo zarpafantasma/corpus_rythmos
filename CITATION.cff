@@ -8,14 +8,14 @@ authors:
 repository-code: "https://github.com/zarpafantasma/corpus_rythmos"
 url: "https://github.com/zarpafantasma/corpus_rythmos"
 license: CC-BY-4.0
-version: "1.0.0"
+version: "2.2.1"
 date-released: "2026-02-23"
 
 # === ZENODO DOI ===
-# doi: "10.5281/zenodo.18916854"
+# doi: "10.5281/zenodo.19039629"
 # identifiers:
 #   - type: doi
-#     value: "10.5281/zenodo.18916854"
+#     value: "10.5281/zenodo.19039629"
 #     description: "Zenodo archive of the Corpus RyThMós"
 
 keywords:
