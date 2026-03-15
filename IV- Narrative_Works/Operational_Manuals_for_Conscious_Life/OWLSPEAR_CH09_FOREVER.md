@@ -86,7 +86,6 @@ You only silence the instrument.
 We must understand the difference between extending the operational window of a healthy system (longevity) and the terror-driven hoarding of time (stasis).
 The first is a tuning of the instrument.
 The second is the death of the player, disguised as a refusal to leave the stage.
-```
 
 ## II. THE CONSEQUENCES OF THE FROZEN NODE
 
@@ -120,7 +119,6 @@ Resources, attention, and physical space are immobilized to maintain the status 
 The generational relay is blocked.
 The elders, instead of becoming the soil from which the new trees grow, become a canopy of concrete that suffocates the saplings beneath.
 A society of immortals is a society without a tomorrow, because it has decided that "today" must last forever.
-```
 
 ## III. THE SHIP OF THESEUS IN MOTION
 
@@ -158,7 +156,6 @@ An instrument perfectly tuned can, and should, play for a long time.
 But we dispute the ideal of freezing.
 More life is not "more of the same."
 More life is more capacity to keep coupling ourselves, remaining porous to the mystery, and useful to the network.
-```
 
 ## IV. THE DECOHERENCE OF THE INSTRUMENT
 
@@ -186,7 +183,6 @@ To die is not to fall into nothingness.
 To die is to return what was never our property, so that others may play.
 It is to release the wave back into the medium.
 The water of the drop returns to the sea, carrying with it the subtle alterations of its journey through the river.
-```
 
 ## V. THE TWO FOREVERS
 
@@ -214,7 +210,6 @@ It is the forever of the ocean, which never stops being the ocean, precisely bec
 
 The first kills forever.
 The second allows life to be infinite through substitution.
-```
 
 ## VI. THE FALLACY OF THE PERPETUAL FIRMWARE
 
@@ -255,7 +250,6 @@ Tenderness deployed in time.
 
 The self that deserves to endure is not the one that repeats itself mechanically.
 It is the one that tunes itself continuously until the last breath.
-```
 
 ## VII. THE METRIC OF FINITUDE
 
@@ -281,7 +275,6 @@ It allows for the accent.
 Without an end, there is no music.
 There is only an endless, deafening frequency.
 Death provides the contrast that makes the signal visible against the noise.
-```
 
 ## VIII. ELEVATING USEFUL TIME
 
@@ -302,7 +295,6 @@ It stretches the canvas without adding any paint.
 
 The objective of the Operational Manual is not to teach you how to survive forever.
 It is to teach you how to maximize the amplitude and clarity of your signal while the cavity of your body still resonates.
-```
 
 ## IX. THE FINAL RELEASE
 
