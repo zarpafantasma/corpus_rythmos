@@ -62,7 +62,6 @@ IX. THE FINAL RELEASE
 
 ```
 
----
 “When the time comes, that which does not die —the immutable, the eternal marble— dies forever. That which dies well —surrenders the form in time, allows for the relay, returns the tone to the ocean— is not lost: it changes mode.”
 
 ## I. THE ILLUSION OF STASIS
@@ -89,8 +88,7 @@ The first is a tuning of the instrument.
 The second is the death of the player, disguised as a refusal to leave the stage.
 ```
 
----
-II. THE CONSEQUENCES OF THE FROZEN NODE
+## II. THE CONSEQUENCES OF THE FROZEN NODE
 
 When a node within a network refuses to pass the energy forward—when it seeks to become "immortal" by hoarding its current state—the consequences ripple across all scales of existence.
 This is not merely philosophical poetry. It is structural physics.
@@ -124,8 +122,7 @@ The elders, instead of becoming the soil from which the new trees grow, become a
 A society of immortals is a society without a tomorrow, because it has decided that "today" must last forever.
 ```
 
----
-III. THE SHIP OF THESEUS IN MOTION
+## III. THE SHIP OF THESEUS IN MOTION
 
 We are Ships of Theseus in motion.
 
@@ -163,8 +160,7 @@ More life is not "more of the same."
 More life is more capacity to keep coupling ourselves, remaining porous to the mystery, and useful to the network.
 ```
 
----
-IV. THE DECOHERENCE OF THE INSTRUMENT
+## IV. THE DECOHERENCE OF THE INSTRUMENT
 
 What, then, is death?
 
@@ -192,8 +188,7 @@ It is to release the wave back into the medium.
 The water of the drop returns to the sea, carrying with it the subtle alterations of its journey through the river.
 ```
 
----
-V. THE TWO FOREVERS
+## V. THE TWO FOREVERS
 
 There are two kinds of “forever.”
 
@@ -221,8 +216,7 @@ The first kills forever.
 The second allows life to be infinite through substitution.
 ```
 
----
-VI. THE FALLACY OF THE PERPETUAL FIRMWARE
+## VI. THE FALLACY OF THE PERPETUAL FIRMWARE
 
 The nihilistic and materialistic version of transhumanism confuses these planes.
 It looks at the human experience and diagnoses death as a disease.
@@ -263,8 +257,7 @@ The self that deserves to endure is not the one that repeats itself mechanically
 It is the one that tunes itself continuously until the last breath.
 ```
 
----
-VII. THE METRIC OF FINITUDE
+## VII. THE METRIC OF FINITUDE
 
 Meaning is not born from the infinite.
 Meaning is born from the limit.
@@ -290,8 +283,7 @@ There is only an endless, deafening frequency.
 Death provides the contrast that makes the signal visible against the noise.
 ```
 
----
-VIII. ELEVATING USEFUL TIME
+## VIII. ELEVATING USEFUL TIME
 
 What does it mean to live well, then?
 
@@ -312,8 +304,7 @@ The objective of the Operational Manual is not to teach you how to survive forev
 It is to teach you how to maximize the amplitude and clarity of your signal while the cavity of your body still resonates.
 ```
 
----
-IX. THE FINAL RELEASE
+## IX. THE FINAL RELEASE
 
 We return to the central axiom.
 
@@ -335,7 +326,6 @@ When the cavity loses its resonance.
 Let what we were be recognized not for stubbornly remaining here like a stone blocking the river.
 Let us be recognized for having added a clear, beautiful line to the code.
 For continuing to sound in the echo of those who take our place.
-```
 
 ---
 
