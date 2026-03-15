@@ -340,6 +340,10 @@ def run_climate_module():
             st.session_state['current_lat'] = MONITORING_ZONES["GULF OF MEXICO (High Risk)"]["lat"]
         if 'current_lon' not in st.session_state:
             st.session_state['current_lon'] = MONITORING_ZONES["GULF OF MEXICO (High Risk)"]["lon"]
+        if 'fetch_lat' not in st.session_state:
+            st.session_state['fetch_lat'] = MONITORING_ZONES["GULF OF MEXICO (High Risk)"]["lat"]
+        if 'fetch_lon' not in st.session_state:
+            st.session_state['fetch_lon'] = MONITORING_ZONES["GULF OF MEXICO (High Risk)"]["lon"]
 
         def update_coords():
             selected_zone = st.session_state.zone_selector
@@ -377,9 +381,11 @@ def run_climate_module():
         with col_btn:
             st.write("")
             if st.button("FETCH SATELLITE DATA"):
+                st.session_state['fetch_lat'] = st.session_state['current_lat']
+                st.session_state['fetch_lon'] = st.session_state['current_lon']
                 st.cache_data.clear()
 
-        df = fetch_live_atmospheric_data(st.session_state['current_lat'], st.session_state['current_lon'])
+        df = fetch_live_atmospheric_data(st.session_state['fetch_lat'], st.session_state['fetch_lon'])
 
         if df is not None and not df.empty:
             curr_row = df.iloc[-1]
