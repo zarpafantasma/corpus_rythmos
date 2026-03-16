@@ -51,15 +51,22 @@
 ## Table of Contents
 
 I. THE ILLUSION OF STASIS
+
 II. THE CONSEQUENCES OF THE FROZEN NODE
+
 III. THE SHIP OF THESEUS IN MOTION
+
 IV. THE DECOHERENCE OF THE INSTRUMENT
+
 V. THE TWO FOREVERS
+
 VI. THE FALLACY OF THE PERPETUAL FIRMWARE
+
 VII. THE METRIC OF FINITUDE
+
 VIII. ELEVATING USEFUL TIME
+
 IX. THE FINAL RELEASE
----
 
 “When the time comes, that which does not die —the immutable, the eternal marble— dies forever. That which dies well —surrenders the form in time, allows for the relay, returns the tone to the ocean— is not lost: it changes mode.”
 
