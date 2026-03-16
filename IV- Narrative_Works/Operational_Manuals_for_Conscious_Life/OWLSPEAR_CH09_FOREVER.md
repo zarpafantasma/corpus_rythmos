@@ -68,6 +68,7 @@ VIII. ELEVATING USEFUL TIME
 
 IX. THE FINAL RELEASE
 
+```
 ╔═════════════════════════════════════════════════════════════════════════════╗
 ║                                                                             ║
 ║    “When the time comes, that which does not die —the immutable,            ║
@@ -76,7 +77,7 @@ IX. THE FINAL RELEASE
 ║    ocean— is not lost: it changes mode.”                                    ║
 ║                                                                             ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
----  
+```
 
 ## I. THE ILLUSION OF STASIS
 
