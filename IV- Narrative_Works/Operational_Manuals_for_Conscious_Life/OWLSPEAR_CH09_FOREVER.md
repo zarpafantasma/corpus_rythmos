@@ -107,7 +107,7 @@ The second is the death of the player, disguised as a refusal to leave the stage
 When a node within a network refuses to pass the energy forward—when it seeks to become "immortal" by hoarding its current state—the consequences ripple across all scales of existence.
 This is not merely philosophical poetry. It is structural physics.
 
-A. Biological Consequences (The Rigid Homeostasis)
+### A. Biological Consequences (The Rigid Homeostasis)
 
 At the cellular level, the refusal to die has a name.
 It is called cancer.
@@ -116,7 +116,7 @@ True biological health is a river of constant turnover.
 The accumulation of un-replaced, "immortalized" matter in a biological system is the definition of senescence: rigid homeostasis, the accumulation of transcription errors, and the inability to adapt to the gradient.
 To hold on to the exact same matter is to condemn the body to become a museum of its own debris.
 
-B. Cognitive Consequences (The Conservation Bias)
+### B. Cognitive Consequences (The Conservation Bias)
 
 A mind that seeks to remain exactly "who it is" forever must inevitably close its doors to the new.
 Learning requires the death of previous assumptions.
@@ -126,7 +126,7 @@ Furthermore, it impoverishes meaning by eliminating the limit.
 A sentence without a period loses its grammatical impact. A life without a horizon line loses its narrative weight.
 Without the pressure of finitude, attention dilutes into a gray, infinite apathy.
 
-C. Social Consequences (The Hoarding of the Relay)
+### C. Social Consequences (The Hoarding of the Relay)
 
 A society that worships immortality becomes a gerontocracy.
 It occupies the channels where the new should flow.
@@ -203,7 +203,7 @@ The water of the drop returns to the sea, carrying with it the subtle alteration
 
 There are two kinds of “forever.”
 
-1. The Forever of Stone
+### 1. The Forever of Stone
 
 This is the frozen identity.
 Brightness without a pulse.
@@ -213,7 +213,7 @@ This forever is a definitive closure.
 It kills the system by isolating it.
 It is the forever of the pharaohs in their tombs, surrounded by gold they cannot spend, locked in darkness.
 
-2. The Forever of Music
+### 2. The Forever of Music
 
 This is the pattern that returns in cycles.
 Each time more lucid. Each time in a different instrument.
