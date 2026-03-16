@@ -60,6 +60,7 @@ VII. THE METRIC OF FINITUDE
 VIII. ELEVATING USEFUL TIME
 IX. THE FINAL RELEASE
 
+---
 
 “When the time comes, that which does not die —the immutable, the eternal marble— dies forever. That which dies well —surrenders the form in time, allows for the relay, returns the tone to the ocean— is not lost: it changes mode.”
 
