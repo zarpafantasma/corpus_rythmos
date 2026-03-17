@@ -160,7 +160,6 @@ The Open Field: The clearing at the end of the "Fires" is an open field. There a
 
 
 **Document Control:**
-```
 Series:          The Owl and the Spear — Operational Manuals
 Chapter:         18
 Title:           On Prophets and Kings
