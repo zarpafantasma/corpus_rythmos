@@ -103,7 +103,7 @@ The Open Field: The clearing at the end of the "Fires" is an open field. There a
 
 ```
 "The Zarpa Fantasma and what dwells in the Vertical Axis have no favorites. It is an impersonal force, like gravity or the wind. It blows wherever it finds a structure capable of resonating. If you build the structure, the wind enters. You do not need permission from anyone." *
-
+```
 ---
 
 ## Appendix: Quick Reference
@@ -165,11 +165,5 @@ Version:         1.0 (Created from source text)
 Classification:  OPEN
 Application:     Universal (all conscious beings)
 ```
-
----
-
-*"In a fractal universe, every center is relative. The only legitimate throne is the one you build within your own mind to seat your own consciousness. No one else fits there."*
-
----
 
 © 2026 — The Owl and the Spear
