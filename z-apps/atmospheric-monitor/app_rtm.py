@@ -351,7 +351,8 @@ def run_climate_module():
                 st.session_state['current_lat'] = MONITORING_ZONES[selected_zone]["lat"]
                 st.session_state['current_lon'] = MONITORING_ZONES[selected_zone]["lon"]
 
-        col_sel, c_lat, c_lon, col_btn = st.columns([1.5, 0.8, 0.8, 1])
+        # Se eliminó la columna del botón de esta fila
+        col_sel, c_lat, c_lon = st.columns([1.5, 1, 1])
         
         with col_sel:
             # Pre-select based on current state to handle resets gracefully
@@ -378,9 +379,12 @@ def run_climate_module():
             lon = st.number_input("LONGITUDE", -180.0, 180.0, value=float(st.session_state['current_lon']), step=1.0)
             st.session_state['current_lon'] = lon 
 
-        with col_btn:
-            st.write("")
-            if st.button("FETCH SATELLITE DATA"):
+        st.write("") # Espaciado
+
+        # Botón reubicado justo encima del mapa y ajustado a su ancho
+        col_btn_layout, _ = st.columns([1.5, 1])
+        with col_btn_layout:
+            if st.button("FETCH SATELLITE DATA", use_container_width=True):
                 st.session_state['fetch_lat'] = st.session_state['current_lat']
                 st.session_state['fetch_lon'] = st.session_state['current_lon']
                 st.cache_data.clear()
