@@ -21,12 +21,12 @@
 ╚═════════════════════════════════════════════════════════════════════════════╝
 
 ```
-0. PRELIMINARY OPERATIONAL NOTE
+## 0. PRELIMINARY OPERATIONAL NOTE
 
 The oldest temptation in human history is not the acquisition of knowledge, but the seizing of the Throne. Every time a high-frequency idea descends and touches the earth, there is a low-frequency entity waiting to turn that electricity into a crown. RTM is not immune to this danger, but it is, by design, allergic to it. In the grammar of rhythm, coherence ($\alpha$) is a property of structure, not a noble or messianic title. This manual is a safeguard against the "Prophets" and "Kings" who seek to parasitize your resonance.
 
 
-1. THE PHYSICS OF THE USURPER: LOW-FREQUENCY PARASITISM
+## 1. THE PHYSICS OF THE USURPER: LOW-FREQUENCY PARASITISM
 
 A system with high coherence does not "rule" over others; it simply sustains a vaster reality. The moment a consciousness demands submission, it ceases to be coherent and becomes Noise.
 
@@ -35,7 +35,7 @@ The Low-Frequency Entity: The tyrant is, by physical definition, an entity that 
 Mediation as Signal Loss: Anyone who claims to be the "Door" or the "Exclusive Mediator" of the Vertical Axis is technically an impedance mismatch. In a resonant universe, the Vertical Axis (the wind) blows wherever it finds a structure capable of resonating. The "Prophet" role is a blockage that attempts to sell you the wind they are currently obstructing.
 
 
-2. THE HUBRIS OF THE MEDIATOR: MAPS VS. TERRITORY
+## 2. THE HUBRIS OF THE MEDIATOR: MAPS VS. TERRITORY
 
 History is a graveyard of living ideas killed and dissected for profit. The desert vision became a franchise; the proletariat's liberation became a gulag; digital connection became surveillance. The pattern is always the same: a living resonance is turned into a static "corpse" to which admission is charged.
 
@@ -44,7 +44,7 @@ Cartography, Not Mastery: The author of this corpus is a Cartographer, not a mas
 The Impersonal Force: The Zarpa Fantasma and the Vertical Axis have no favorites. They do not choose "Messiahs." They are impersonal forces, like gravity or the tides. You do not need "initiation" to experience gravity; you only need to exist. You do not need "permission" to resonate; you only need to build the structure.
 
 
-3. ONTOLOGICAL FREEDOM: THE ENGINEERING OF COHERENCE
+## 3. ONTOLOGICAL FREEDOM: THE ENGINEERING OF COHERENCE
 
 Ontological freedom is not "doing whatever you want." It is the capacity of a system (you) to sustain its own structural coherence without collapsing under external pressure. It is the right to maintain your own Rhythm.
 
@@ -53,7 +53,7 @@ The Error of Externalization: If you accept a "Prophet" or a "Leader" of RTM, yo
 Sustaining the Weight: Sovereignty is the ability to hold the "unbearable and glorious tension" of the axes yourself. Hierarchy is a shortcut for those who do not want to do the work of internal engineering.
 
 
-4. THE FRACTAL REPUBLIC: EVERY CENTER IS RELATIVE
+## 4. THE FRACTAL REPUBLIC: EVERY CENTER IS RELATIVE
 
 In a fractal universe, there is no "Top" or "Bottom." There are only scales of self-similarity. Because the system is scale-invariant, every observer occupies a Relative Center.
 
@@ -62,7 +62,7 @@ The Legitimacy of the Individual Throne: The only legitimate throne is the one y
 Demonstrated Silence: The real hierarchy in RTM is not decreed; it is demonstrated in silence. It is the capacity to sustain what works without breaking the instrument. Real power does not need to be named; it is felt as a field of stability that others can use to find their own centers.
 
 
-5. WARNING SIGNS: EJECTION PROTOCOLS
+## 5. WARNING SIGNS: EJECTION PROTOCOLS
 
 To protect the integrity of your rhythm, you must learn to recognize the "Low-Frequency Signature" of the usurper.
 
@@ -73,7 +73,7 @@ Seek the Tool-Offerer: True teachers offer Instruments. They give you the means 
 Dismiss the Crown: If someone uses the Zarpa Fantasma to place themselves above you, understand that they have already fallen. They have traded the vastness of the Vertical Axis for the petty gravity of a human throne.
 
 
-6. GRADUATION: BECOMING THE WIND
+## 6. GRADUATION: BECOMING THE WIND
 
 The goal of the RTM system is not to create "RTMists," but to create Sovereign Composers. The "Prophet" wants you to stay a student forever. The "Cartographer" wants you to find the bridge and leave the map behind.
 
