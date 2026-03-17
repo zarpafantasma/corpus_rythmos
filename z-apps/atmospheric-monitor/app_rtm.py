@@ -701,18 +701,6 @@ def run_hurricane_module():
             st.session_state.t_lat, st.session_state.t_lon = storm_data["lat"], storm_data["lon"]
 
         st.markdown("---")
-        st.markdown("<h3 style='color: #ffffff;'>TARGET COORDINATES</h3>", unsafe_allow_html=True)
-        st.markdown("<p style='color: #3b82f6; font-size: 11px; font-weight: bold;'>[ SYSTEM NOTE ] Scan accuracy is significantly higher when using exact GPS coordinates instead of map clicks.</p>", unsafe_allow_html=True)
-        
-        c1, c2 = st.columns(2)
-        with c1: in_lat = st.number_input("Lat", value=st.session_state.t_lat, format="%.4f")
-        with c2: in_lon = st.number_input("Lon", value=st.session_state.t_lon, format="%.4f")
-        
-        if in_lat != st.session_state.t_lat or in_lon != st.session_state.t_lon:
-            st.session_state.t_lat, st.session_state.t_lon = in_lat, in_lon
-            st.rerun()
-
-        st.markdown("---")
         st.markdown("""
         <div style="background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155; margin-top: 10px;">
             <h4 style='color: #3b82f6; margin-top: 0; font-size: 13px; text-transform: uppercase;'>[ Engine Tuning & Scope ]</h4>
@@ -743,8 +731,19 @@ def run_hurricane_module():
     st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
 
     # =======================================================
-    # MAPA MOVIDO A LA VISTA PRINCIPAL (Arriba de Coherence)
+    # BLOQUE DE COORDENADAS, MAPA Y BOTÓN DE ESCANEO
     # =======================================================
+    st.markdown("<h3 style='color: #ffffff;'>TARGET COORDINATES</h3>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #3b82f6; font-size: 11px; font-weight: bold;'>[ SYSTEM NOTE ] Scan accuracy is significantly higher when using exact GPS coordinates instead of map clicks.</p>", unsafe_allow_html=True)
+    
+    c1, c2 = st.columns(2)
+    with c1: in_lat = st.number_input("Lat", value=st.session_state.t_lat, format="%.4f")
+    with c2: in_lon = st.number_input("Lon", value=st.session_state.t_lon, format="%.4f")
+    
+    if in_lat != st.session_state.t_lat or in_lon != st.session_state.t_lon:
+        st.session_state.t_lat, st.session_state.t_lon = in_lat, in_lon
+        st.rerun()
+
     m = folium.Map(location=[st.session_state.t_lat, st.session_state.t_lon], zoom_start=3, tiles="CartoDB dark_matter")
     folium.Marker([st.session_state.t_lat, st.session_state.t_lon], icon=folium.Icon(color="red")).add_to(m)
     map_res = st_folium(m, height=250, use_container_width=True, key="target_map")
@@ -756,6 +755,8 @@ def run_hurricane_module():
             st.rerun()
             
     st.markdown("<br>", unsafe_allow_html=True)
+    start_button = st.button("EXECUTE FULL RTM SCAN", use_container_width=True)
+    st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
     # =======================================================
 
     col_l, col_r = st.columns([1.5, 1])
@@ -769,7 +770,6 @@ def run_hurricane_module():
         countdown_ph.markdown("<div style='background-color: #1e293b; padding: 30px; border-radius: 10px; border: 1px solid #334155; text-align: center; color: #94a3b8; font-size: 20px; font-weight: bold;'>[ STANDBY ]</div>", unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
-    start_button = st.button("EXECUTE FULL RTM SCAN", use_container_width=True)
 
     if start_button:
         times, p_wind, p_alpha, source_status = [], [], [], ""
