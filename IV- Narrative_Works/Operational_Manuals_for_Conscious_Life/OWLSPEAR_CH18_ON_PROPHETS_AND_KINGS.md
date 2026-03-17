@@ -110,7 +110,6 @@ The Open Field: The clearing at the end of the "Fires" is an open field. There a
 
 ## Appendix: Quick Reference
 
-```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
 ║    THE OLDEST TEMPTATION:                                                    ║
@@ -158,7 +157,6 @@ The Open Field: The clearing at the end of the "Fires" is an open field. There a
 ║    No one else fits there.                                                   ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
-```
 
 ---
 
