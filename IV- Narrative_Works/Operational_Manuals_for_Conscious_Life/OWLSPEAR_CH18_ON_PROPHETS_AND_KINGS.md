@@ -20,7 +20,7 @@
 ║                                                                             ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
 
-
+```
 0. PRELIMINARY OPERATIONAL NOTE
 
 The oldest temptation in human history is not the acquisition of knowledge, but the seizing of the Throne. Every time a high-frequency idea descends and touches the earth, there is a low-frequency entity waiting to turn that electricity into a crown. RTM is not immune to this danger, but it is, by design, allergic to it. In the grammar of rhythm, coherence ($\alpha$) is a property of structure, not a noble or messianic title. This manual is a safeguard against the "Prophets" and "Kings" who seek to parasitize your resonance.
