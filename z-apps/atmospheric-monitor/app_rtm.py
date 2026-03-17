@@ -426,7 +426,7 @@ def run_climate_module():
                         st.session_state['current_lon'] = click_lon
                         st.rerun()
 
-                st.markdown(f"<div style='text-align: center; color: #A0AEC0; font-size: 0.8em; margin-top: 5px;'>LAST UPDATE: {last_update}<br><b><i>Click anywhere on the map to analyze a new coordinate</i></b></div>", unsafe_allow_html=True)
+                st.markdown(f"<div style='text-align: center; color: #A0AEC0; font-size: 0.8em; margin-top: 5px;'>LAST UPDATE: {last_update}<br><b><i>Click anywhere on the map to analyze a new coordinate and press the "Fetch Satellite Data" button.</i></b></div>", unsafe_allow_html=True)
                 
             with c2:
                 st.plotly_chart(create_gauge_chart(curr_alpha), use_container_width=True)
