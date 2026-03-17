@@ -82,7 +82,7 @@ Zero Initiation: There are no "degrees" or "levels" in RTM. There is only the qu
 The Open Field: The clearing at the end of the "Fires" is an open field. There are no statues there. There are no kings. There is only the fertile ground where you, finally, can sow.
 
 
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    OPERATIONAL SUMMARY OF SOVEREIGNTY:                                       ║
