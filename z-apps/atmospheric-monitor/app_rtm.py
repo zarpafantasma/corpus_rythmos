@@ -712,16 +712,6 @@ def run_hurricane_module():
             st.session_state.t_lat, st.session_state.t_lon = in_lat, in_lon
             st.rerun()
 
-        m = folium.Map(location=[st.session_state.t_lat, st.session_state.t_lon], zoom_start=3, tiles="CartoDB dark_matter")
-        folium.Marker([st.session_state.t_lat, st.session_state.t_lon], icon=folium.Icon(color="red")).add_to(m)
-        map_res = st_folium(m, height=250, width=280, key="target_map")
-        
-        if map_res and map_res.get("last_clicked"):
-            nl, nn = map_res["last_clicked"]["lat"], map_res["last_clicked"]["lng"]
-            if abs(st.session_state.t_lat - nl) > 0.0001 or abs(st.session_state.t_lon - nn) > 0.0001:
-                st.session_state.t_lat, st.session_state.t_lon = nl, nn
-                st.rerun()
-
         st.markdown("---")
         st.markdown("""
         <div style="background-color: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155; margin-top: 10px;">
@@ -751,6 +741,22 @@ def run_hurricane_module():
         </div>""", unsafe_allow_html=True)
 
     st.markdown("<hr style='border-color: #334155; margin: 15px 0;'>", unsafe_allow_html=True)
+
+    # =======================================================
+    # MAPA MOVIDO A LA VISTA PRINCIPAL (Arriba de Coherence)
+    # =======================================================
+    m = folium.Map(location=[st.session_state.t_lat, st.session_state.t_lon], zoom_start=3, tiles="CartoDB dark_matter")
+    folium.Marker([st.session_state.t_lat, st.session_state.t_lon], icon=folium.Icon(color="red")).add_to(m)
+    map_res = st_folium(m, height=250, use_container_width=True, key="target_map")
+    
+    if map_res and map_res.get("last_clicked"):
+        nl, nn = map_res["last_clicked"]["lat"], map_res["last_clicked"]["lng"]
+        if abs(st.session_state.t_lat - nl) > 0.0001 or abs(st.session_state.t_lon - nn) > 0.0001:
+            st.session_state.t_lat, st.session_state.t_lon = nl, nn
+            st.rerun()
+            
+    st.markdown("<br>", unsafe_allow_html=True)
+    # =======================================================
 
     col_l, col_r = st.columns([1.5, 1])
     with col_l:
