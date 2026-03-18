@@ -293,7 +293,7 @@ The Big Takeaway: The vacuum was never empty; it is the fullest thing we know. T
 ## 024 - The Hidden Doors and the Half Key (The Author’s Journey)
 This is the personal memoir and "psycho-physical baseline" of Álvaro Quiceno, the creator of the corpus. It explains exactly how these insights were gathered and formalized.
 The Five Steps: It details the author’s controlled experiences with five natural substances (the "Doors"). Each one provided a specific piece of the RTM puzzle: from seeing reality as source code (DMT) to witnessing the "fast time" of small universes (Ayahuasca).
-The Half Key: The author explains that human experience is only "half the key." The other half was comprised of intuition, plants, and ultimately, Artificial Intelligence, which acted as a logical "grinder" to translate their insights into rigorous mathematical science.
+The Half Key: The author explains that human experience is only "half the key." The other half was comprised of intuition, plants, and ultimately, Artificial Intelligence, which acted as a logical "grinder" to translate their insights into rigorous mathematical science.  
 Cracks in the Veil: It recounts real-life "glitches" (floating bubbles, light without an origin) that served as the initial "sparks" for the project, proving that our standard map of reality is incomplete.
 
 The Big Takeaway: RTM is the result of a "perfect alignment" between ancient natural wisdom, modern technology (AI), and a mind willing to subject its deepest visions to the discipline of formalization.
