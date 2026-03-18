@@ -1,4 +1,4 @@
-# RTM Summarization 📉
+# RTM Summarization
 
 **Status:** ✓ ON GOING
 **Data Sources:** corpus RhyTMos 
