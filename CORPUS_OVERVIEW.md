@@ -130,8 +130,8 @@ The Big Takeaway: Weather isn't random chaos. It is a series of "topological pha
 
 ## 014 - Rhythmic Astronomy (Dark Matter as Topology)
 RTM takes on the biggest mystery in space, suggesting that the "missing mass" in galaxies isn't invisible particles, but a fundamental property of how time scales in rotating systems.
-Replacing Dark Matter: Standard physics invents "dark matter" to explain why stars at the edge of galaxies move so fast. RTM shows that if you fix the coherence exponent at $\alpha = 2.0$, the math perfectly predicts these "flat" rotation curves without needing any invisible matter.
-The New Velocity Law: It introduces a new law: $v \propto r^{(1-\alpha/2)}$. This shows that the speed of a star ($v$) is directly dictated by the "structural coherence" ($\alpha$) of the galaxy's baryonic medium.
+Replacing Dark Matter: Standard physics invents "dark matter" to explain why stars at the edge of galaxies move so fast. RTM shows that if you fix the coherence exponent at $\alpha = 2.0$, the math perfectly predicts these "flat" rotation curves without needing any invisible matter.  
+The New Velocity Law: It introduces a new law: $v \propto r^{(1-\alpha/2)}$. This shows that the speed of a star ($v$) is directly dictated by the "structural coherence" ($\alpha$) of the galaxy's baryonic medium.  
 Topological Friction in Plasma: By analyzing solar wind data from spacecraft, the document proves that space plasma isn't a simple gas; it’s a "relaxing topological network" that encounters friction as it crosses magnetic fields.
 
 The Big Takeaway: The "dark matter" problem is actually a scaling problem. What looks like missing mass is actually the effect of the galaxy's multiscale organization on orbital time.
