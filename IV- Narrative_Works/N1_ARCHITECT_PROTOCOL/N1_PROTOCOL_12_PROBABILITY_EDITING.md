@@ -1215,7 +1215,7 @@ And they did.
 | **Filter** | Narrow region where most civilizations fail |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-012                                                   ║
 ║  PROBABILITY EDITING AND THE VIABLE CORRIDOR HYPOTHESIS                      ║
@@ -1225,7 +1225,6 @@ And they did.
 ```
 
 ---
-
 **Document Control:**
 ```
 Protocol ID:     N1-AP-012
