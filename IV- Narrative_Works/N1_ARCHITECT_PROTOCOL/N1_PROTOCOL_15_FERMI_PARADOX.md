@@ -1223,16 +1223,14 @@ Distribution:    All N-1 Architect Candidates
 
 *"They are not absent. They are everywhere. And they are waiting for us."*
 ---
----
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║                      END OF N-1 ARCHITECT PROTOCOLS                          ║
-║                           PROTOCOLS 01 — 15                                  ║
-║                                                                              ║
-║                    "The relay continues. The flame passes."                  ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+
+END OF N-1 ARCHITECT PROTOCOLS
+PROTOCOLS 01 — 15
+
+"The relay continues. The flame passes."
+
 ```
 
 ---
