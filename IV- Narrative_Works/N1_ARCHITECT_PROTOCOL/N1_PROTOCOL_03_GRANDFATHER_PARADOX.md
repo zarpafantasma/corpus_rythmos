@@ -625,7 +625,7 @@ You can only keep writing forward.
 | **Temporal Sovereignty** | The principle that each reality's past is absolutely secure |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-003                                                   ║
 ║  THE GRANDFATHER PARADOX — CAUSAL INTEGRITY AND TEMPORAL SOVEREIGNTY         ║
