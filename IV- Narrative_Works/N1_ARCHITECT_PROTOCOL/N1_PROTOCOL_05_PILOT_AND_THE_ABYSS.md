@@ -952,7 +952,6 @@ And for those who pass, it becomes an extension of self—a symbiotic partner in
 | **The Entity** | The unified system of vessel + BioDrone + operator in resonant function |
 
 ---
----
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-005                                                   ║
 ║  THE PILOT AND THE ABYSS — COHERENCE AS REQUIREMENT                          ║
