@@ -1246,7 +1246,7 @@ The perfect intervention is one that, when complete, leaves the target civilizat
 | **Breach** | Failure of sterilization resulting in evidence remaining |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-011                                                   ║
 ║  OPERATIONAL NAVIGATION AND ASSET STERILIZATION                              ║
