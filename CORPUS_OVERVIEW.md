@@ -247,7 +247,7 @@ Telecommunications: Fiber optics that lose almost zero signal over thousands of 
 Computing & Quantum Tech: Protecting fragile data from the "hostility" of space or temperature. It mastery of decoherence allows for computers that are vastly faster and can even work at room temperature.  
 Acoustics: Complete silence. Metamaterial walls that don't just block sound, but guide it around a room or a person so the noise never reaches them.
 
-Biology, Space, and Advanced Manufacturing
+Biology, Space, and Advanced Manufacturing  
 Biomedical Stasis: "Trauma stasis." Using time-dilation physics to slow down the biological clock of an injured patient, giving doctors more "golden hours" to save a life during surgery.  
 Metallurgic "Forge": Zero-gravity manufacturing on Earth. Controlling effective gravity to create perfect alloys and optical fibers that usually require the vacuum of space to produce.  
 Space Systems: The end of the "Rocket Tyrant." Launching payloads to orbit with almost no fuel and protecting astronauts from lethal space radiation using topological shields.
