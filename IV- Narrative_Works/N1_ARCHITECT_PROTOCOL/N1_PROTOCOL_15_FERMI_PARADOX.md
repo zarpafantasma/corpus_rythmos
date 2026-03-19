@@ -1199,7 +1199,7 @@ We never were.
 | **Ghost Clan Band** | The sixth band of coherence (α > 3.0) where superfluid states exist |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-015                                                   ║
 ║  WHERE IS EVERYBODY? — THE FERMI PARADOX AND SUPERFLUID CIVILIZATIONS        ║
@@ -1209,7 +1209,6 @@ We never were.
 ```
 
 ---
-
 **Document Control:**
 ```
 Protocol ID:     N1-AP-015
