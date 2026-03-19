@@ -1140,7 +1140,7 @@ In a cosmos where realities cannot be seen but can be resonated with, smell beco
 | **Threat Signature** | Detectable pattern indicating danger |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-007                                                   ║
 ║  RTM AND SMELL — THE DIRECT PERCEPTION OF COHERENCE                          ║
