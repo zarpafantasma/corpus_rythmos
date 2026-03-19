@@ -768,7 +768,7 @@ We are not building machines. We are building extensions of ourselves.
 | **Between-State** | The condition of being decoupled from all branches |
 
 ---
-
+---
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-004                                                   ║
 ║  THE AETHERION DOCTRINE — SYMBIOTIC NAVIGATION SYSTEM                        ║
