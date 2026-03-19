@@ -959,7 +959,7 @@ And in that closed circle, we find the key to navigating between worlds.
 | **Living Tuning Fork** | Metaphor for BioDrone's fixed coherence frequency |
 
 ---
----
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-006                                                   ║
 ║  THE FORGE OF FLESH — BIODRONE FABRICATION                                   ║
