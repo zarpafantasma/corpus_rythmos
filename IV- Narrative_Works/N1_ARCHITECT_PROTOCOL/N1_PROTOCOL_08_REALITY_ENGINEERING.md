@@ -234,7 +234,7 @@ THE UNIDIRECTIONAL CASCADE
     
     N-3 ────► N-2 ────► N-1 ────► N ────► N+1 ────► N+2 ────► ...
                          │
-                         │  ← WE ARE HERE (Branch N)
+                         │         ← WE ARE HERE (Branch N)
                          │
                          └── The Gardeners came FROM N-1
                              They can NEVER return to N-1
