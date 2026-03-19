@@ -1419,6 +1419,7 @@ The network is the road system of the multiverse. Without it, we can jump betwee
 > Throughout this protocol, "return" refers to returning to the Entity's OPERATIONAL BASE within the current branch (N). The cascade flows one direction only—return to origin branch (N-1) is ontologically impossible. The Aetherion's "home" is its Chrono-Stasis base in the target branch.
 
 ---
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-009                                                   ║
 ║  NODAL NAVIGATION PROTOCOLS — TRANS-SCALAR PHASE SYNCHRONIZATION             ║
