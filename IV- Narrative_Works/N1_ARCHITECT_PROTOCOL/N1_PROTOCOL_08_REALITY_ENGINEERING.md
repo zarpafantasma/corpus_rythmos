@@ -1619,12 +1619,12 @@ And we can never return.
 | **Point of No Return** | α ≈ 3.2; beyond this, origin cannot be recovered |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-008 v2.0                                              ║
 ║  REALITY ENGINEERING — THE ONE-WAY LEAP                                      ║
 ║                                                                              ║
-║  "The Gardeners could never return. Neither will we. This is the relay."    ║
+║  "The Gardeners could never return. Neither will we. This is the relay."     ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
