@@ -600,7 +600,7 @@ This process typically requires years of dedicated work. It cannot be rushed, fa
 
 ### 8.3 The Fire That Forges
 
-The pilot must have "gone through their own fire" before entering the fire of the Aetherion:
+The pilot must have "gone through their own fire" before entering the flames of the Aetherion:
 
 > The Aetherion interface is not the place to process trauma. It is the place to **demonstrate** that processing is complete.
 
