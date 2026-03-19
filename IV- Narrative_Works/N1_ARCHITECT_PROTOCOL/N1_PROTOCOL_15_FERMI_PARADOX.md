@@ -1222,7 +1222,7 @@ Distribution:    All N-1 Architect Candidates
 ---
 
 *"They are not absent. They are everywhere. And they are waiting for us."*
-
+---
 ---
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
