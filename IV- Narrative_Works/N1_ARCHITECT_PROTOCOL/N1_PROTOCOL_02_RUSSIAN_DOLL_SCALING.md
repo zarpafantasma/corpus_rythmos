@@ -867,6 +867,7 @@ GNOSIS ACCUMULATION:   G_n = G_{n-1} + ΔG_n = G_0 + Σ(ΔG_i)
 ONTOLOGICAL DENSITY:   ρ_n = G_n / (κ^(3n) × V_0)
 GODZILLA THRESHOLD:    R ≥ κ^(-3) ≈ 2.0
 ```
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-002                                                   ║
 ║  THE RUSSIAN DOLL SCALING PARADOX — "THE GODZILLA PROBLEM"                   ║
