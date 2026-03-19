@@ -218,12 +218,10 @@ Mark 1 Engineering Specifications & Metamaterials
 Topological Core Architecture: The heart of the thruster is a metamaterial core composed of 15 layers of ZrO2-Al2O3. These layers are precision-fabricated with a progressive $\alpha$ gradient from 0.5 to 2.0 to create the necessary "vacuum pressure" for thrust.  
 Metamaterial Accumulator: 5 layers of ZrO2-SiC composite act as the primary energy accumulator ($\alpha=0.5$), designed to store vacuum stress before it is rectified into momentum.  
 Project Budget: The Mark 1 prototype represents a highly constrained $14,338.95 USD assembly, using COTS (commercial off-the-shelf) components for control while reserving specialized funding for custom ceramic fabrication.  
-
 Control Systems: Firmware and Software
 TPH/OMV Propulsion Modes: The system implements two primary modes: TPH (Temporal-Pulse Hierarchy) for peak momentum bursts and OMV (Oscillatory Modulation of Vacuum) for sustained low-thrust operation.  
 STM32 Safety Firmware: The control firmware (running at 480 MHz) implements hardcoded safety interlocks, including a 10s ON / 60s OFF duty cycle to prevent irreversible thermal damage to the PZT-5H drive array.  
 Real-Time Data Logging: A Python-based acquisition suite monitors thrust via a torsion balance with sub-nanonewton sensitivity, tracking position, temperature, and acceleration at 100Hz to catch anomalous "coherence spikes."  
-
 Red Team Advisories & Safety Protocols
 Thermal Depolarization Hazard: The piezoelectric actuators face catastrophic failure if they exceed 90°C. An automated E-STOP is hardcoded to prevent "Topological Quench" (loss of gradient).  
 Acoustic Resonance Destabilization: At high coherence, the system can vibrate at frequencies that shatter glass vacuum jars. Operational protocols mandate remote firing from isolated control booths and the use of Sorbothane isolation pads to protect measurement balances.  
