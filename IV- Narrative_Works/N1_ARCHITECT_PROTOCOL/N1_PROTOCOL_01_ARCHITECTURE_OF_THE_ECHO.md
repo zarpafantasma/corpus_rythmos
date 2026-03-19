@@ -569,7 +569,7 @@ But we are an echo that can choose how it resonates.
 | **Phase-Lock** | Resonance synchronization with target branch |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-001                                                   ║
 ║  ARCHITECTURE OF THE ECHO: SEQUENTIAL CAUSALITY IN A NESTED COSMOS           ║
