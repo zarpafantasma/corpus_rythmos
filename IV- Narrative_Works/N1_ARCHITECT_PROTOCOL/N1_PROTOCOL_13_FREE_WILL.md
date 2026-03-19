@@ -1051,7 +1051,7 @@ Both are free.
 | **Gnosis** | Wisdom earned through genuine exercise of free will |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-013                                                   ║
 ║  RTM AND FREE WILL                                                           ║
