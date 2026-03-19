@@ -1521,6 +1521,7 @@ The Time Pocket is not merely a byproduct of high-coherence operation. It is a *
 > For Aetherion crews and Avatars, "home" is the Time Pocket base in Branch N.
 > For physical Titans, "home" is wherever they have settled in Branch N—they cannot use Chrono-Stasis for civilizational timescales and must live mortal lives.
 
+---
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-010                                                   ║
