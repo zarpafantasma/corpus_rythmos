@@ -1302,7 +1302,7 @@ And the relay continues.
 | **Primordial Seeding** | Earliest seeding targeting pre-life conditions |
 
 ---
-
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-014                                                   ║
 ║  PROTOCOLS FOR INTER-BRANCH SEEDING                                          ║
