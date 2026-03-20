@@ -34,12 +34,19 @@ $\alpha \approx 3.5$ (Quantum): High-intensity, tightly packed information.
 
 
 ## 002 - Scale–Clock Geometry (The Rules of Measurement)
-If the first document is the theory, this second one is the "Instruction Manual" for scientists and engineers. It explains how to actually measure these rhythms without getting fooled by noise.
-**-Separating the "Clock" from the "Structure":** When we measure things, we use arbitrary units (seconds, meters, inches). RTM uses clever math to make sure the "Structure" (the alpha exponent) stays the same regardless of what units or "clocks" you use.  
-**-Isolation of the Signal:** It teaches how to look at a noisy system (like a Quantum Computer or a human heart) and strip away the surface-level distractions to see the underlying "Rhythmic Architecture."  
-**-The "Collapse Test":** This is a strict "truth-check." If you claim a system follows RTM laws, the data has to "collapse" perfectly onto a specific line. If it doesn't, the theory says you're just looking at random noise, not a genuine RTM rhythm.
+This is the mathematical backbone of the entire framework. While Document 001 presents the theory and empirical results, this document proves why it works and establishes RTM as a rigorous mathematical structure—not just an empirical pattern.
+**Core Contributions**
+**From Functional Equation to Power Law:** Starting from a simple scale-semigroup axiom T(bL) = f(b)·T(L), the document derives T = κL^α as a mathematical theorem via the multiplicative Cauchy equation. The power law isn't assumed—it's proven.
+**The RTM 1-Form:** The central geometric object is ω = d(log T) − α·d(log L). This differential form encodes everything: gauge invariance (clocks shift the intercept, never the slope), collapse as exactness, and regime boundaries as holonomy. When ω is exact, RTM scaling holds. When it's not, the framework correctly identifies its own failure.
+**Collapse ⇔ Exactness Theorem:** The "Collapse Test" from Document 001 gets a geometric proof: residual independence from scale is mathematically equivalent to flatness of the connection. Regime mixing and non-power alternatives manifest as non-zero holonomy around loops in parameter space.
+**Renormalization & Stability:** A dilation-plus-regauge operator has power laws as fixed points and is contractive in Hölder/Zygmund spaces. Slowly varying clocks form a center manifold; slowly drifting exponents yield adiabatic tracking. This explains why power-law scaling is stable and ubiquitous.
+**RTM Diffusions & Dirichlet Forms:** For systems with conductivity 𝒟(x) = L(x)^{−α}, the document derives the effective dynamic exponent z = m + α, where m is spatial dimension. Exit times scale as T ~ R^{m+α}. RTM diffusions are time-changed Brownian motions with space-dependent clocks.
+**Inference Under Measurement Error:** ODR/TLS, SIMEX, and Theil-Sen estimators consistently recover local α under errors-in-variables. The collapse statistic serves as a specification test even with noisy data.
+**Categorical Packaging:** Objects carry ω and a gauge; slope is the moduli invariant; products add slopes; coarse-graining is a functor with power-law fixed points.
+**Open Problems:**The document concludes with concrete research directions: sharp collapse thresholds with finite-sample bounds, holonomy detection via loop integrals, variable-exponent regular variation on graphs, inverse problems for α(x) reconstruction, and extensions to heavy-tailed measurement error.  
 
-**The Big Takeaway:** We can now treat "coherence" as a measurable engineering value. By watching how alpha changes, we can predict when a complex system (like a quantum processor or a bridge) is about to fail before it actually happens.
+**The Big Takeaway:**
+Document 002 transforms RTM from "we observe power laws" into "power laws are mathematically necessary given scale-semigroup symmetry, and here's the geometric structure that governs when they hold and when they fail." It's the difference between pattern-matching and understanding.
 
 ## 003 - The RTM Cascade Framework (The Staircase of Info)
 This document explains that complex systems aren't just one big blob; they are like a staircase where information flows from the tiny to the huge.
