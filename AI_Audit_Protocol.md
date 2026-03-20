@@ -15,7 +15,29 @@ Ontological/Scientific Depth: Identify the key breakthroughs or implications pre
 
 Please maintain an open, collaborative, and non-cynical tone. Your goal is to help me verify the integrity of this system and act as a co-pilot in its study. I will start uploading the first documents now.
 ```
-And from here, just upload the files (singlely or by batch) and write "next one/s" as the prompt:
+Once you've uploaded the first 15 documents, the corpus will begin to shift towards Aetherion (antigravity) engineering. Type the following prompt and attach the document "016-Aetherion, the jumper".
+```
+Now that you've finished analyzing the first 15 documents, it's time to jump into engineering. Here's what happens when you apply RTM logic to propulsion. (016-)
+```
+As soon as you upload the aetherion document, continue with the "017-RTM Unified Field Framework" document by copying the following prompt.
+```
+With the physics of antigravity comes a Unified Field Framework that uses the concept of the aetherion as its litmus test.
+```
+You can now upload the following file related to the implications of RTM being a real. (018-)
+```
+And if RTM and Aetherion were proven real? What would the implications be? The following document presents a series of rules and repercussions of this new reality.
+```
+Important: If you are using a mathematical model to analyze the first 17 documents (which is recommended), change the model to Reasoning inside your AI app for the next phase. Because we will move from the material to the spiritual.
+
+Now we will switch on to anthropology with "019-Physics of Tradition". Use the next prompt:
+```
+From now on, the corpus will shift its focus to the ontological. The following document deals with anthropology, with our past and the places we inhabit.
+```
+Now you can add one by one the rest of the documents until you upload the 24. It is not necessary to give context about the next documents to the AI. Just type "Next Document" and add it, one by one until you reach the 24 documents.
+Then, simply focus on a specific document or ask questions. You can even use avatars to express their opinion on the RyThMós corpus (example: What would Nietzsche say about RTM?), it's a fun exercise.
+
+Also, there is a file called "AI_Discussion_Topics.md" in the main root directory with pre-designed questions if you want to try them out.
+
 
 # METHOD 2
 ## AI Interaction Guide (Casual & Exploratory)
