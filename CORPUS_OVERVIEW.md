@@ -20,7 +20,7 @@ But RTM does not stop at equations. The same framework that predicts microcalori
 # I- Scientific_Papers
 
 ## 001 - Multiscale Temporal Relativity (The Master Law)
-This is the "Constitution" of the RTM system. It introduces a single, powerful idea: The speed of a process is determined by its size.
+This is the original "Constitution" of the RTM system. It introduces a single, powerful idea: The speed of a process is determined by its size.
 Time is Emergent: In RTM, time isn't a pre-existing container that things happen in. Instead, the internal "rhythm" of a system emerges from its physical structure.
 The Master Law ($T \propto L^\alpha$): This formula is the heart of the theory. It says that the time ($T$) it takes for something to happen is proportional to its size ($L$), but that relationship is tilted by a special number called alpha ($\alpha$).
 
