@@ -35,6 +35,7 @@ $\alpha \approx 3.5$ (Quantum): High-intensity, tightly packed information.
 
 ## 002 - Scale–Clock Geometry (The Rules of Measurement)
 This is the mathematical backbone of the entire framework. While Document 001 presents the theory and empirical results, this document proves why it works and establishes RTM as a rigorous mathematical structure—not just an empirical pattern.  
+  
 **Core Contributions**  
 **From Functional Equation to Power Law:** Starting from a simple scale-semigroup axiom T(bL) = f(b)·T(L), the document derives T = κL^α as a mathematical theorem via the multiplicative Cauchy equation. The power law isn't assumed—it's proven.  
 **The RTM 1-Form:** The central geometric object is ω = d(log T) − α·d(log L). This differential form encodes everything: gauge invariance (clocks shift the intercept, never the slope), collapse as exactness, and regime boundaries as holonomy. When ω is exact, RTM scaling holds. When it's not, the framework correctly identifies its own failure.  
