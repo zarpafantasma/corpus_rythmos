@@ -34,7 +34,6 @@ Now we will switch on to anthropology with "019-Physics of Tradition". Use the n
 From now on, the corpus will shift its focus to the ontological. The following document deals with anthropology, with our past and the places we inhabit.
 ```
 Now you can add one by one the rest of the documents until you upload the 24. It is not necessary to give context about the next documents to the AI. Just type "Next Document" and add it, one by one until you reach the 24 documents.
-Then, simply focus on a specific document or ask questions. You can even use avatars to express their opinion on the RyThMós corpus (example: What would Nietzsche say about RTM?), it's a fun exercise.
 
 Also, there is a file called "AI_Discussion_Topics.md" in the main root directory with pre-designed questions if you want to try them out.
 
