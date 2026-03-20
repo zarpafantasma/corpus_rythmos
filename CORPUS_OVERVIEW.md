@@ -300,7 +300,7 @@ The Big Takeaway: RTM is the result of a "perfect alignment" between ancient nat
 In the RTM framework, simulations aren't just used to show that the math works; they are used as a "stress-test" to see if the theory survives the laws of physics. While many RTM documents have been tested against real-world data (hurricanes  or heart rates), Document 016 (The Aetherion) and Document 017 (Unified Fields) deal with forces so extreme that they must first be validated in a virtual laboratory.
 To keep things honest, RTM uses a "Red Team" Protocol. This means that once a simulation is built, an independent "audit" is performed to inject real-world messiness like thermal noise, manufacturing defects, and signal delay to ensure we aren't just seeing what we want to see.
 
-## Document 016-Aetherion, The Jumper (The Engine)
+### Document 016-Aetherion, The Jumper (The Engine)
 The simulations for the Aetherion engine moved the project from "science fiction" to "aerospace engineering" by solving the hardest problems of vacuum propulsion.
 
 -The Bootstrap Audit: Early theory suggested a static engine could provide free thrust. The simulations (and the Red Team audit) corrected this: the engine doesn't "create" energy; it acts as a Topological Capacitor. It stores vacuum stress like a spring. To move, you must "pulse" the engine to release that stress.  
@@ -308,7 +308,7 @@ The simulations for the Aetherion engine moved the project from "science fiction
 -The Violence of the "Jump": Moving between branches of reality isn't a smooth transition. Simulations based on "Classical Nucleation Theory" show it is a violent phase transition—like water flash-boiling. It requires massive bursts of energy to overcome "multiversal surface tension."  
 -The Damping Requirement: The simulations revealed that high-energy $\alpha$-fields "flicker," which creates a physical vibration called Jerk. For humans to survive inside a ship, the simulations mandated secondary mechanical dampers (like fluid-suspension seats) to absorb these micro-vibrations.
 
-## Document 017: Unified Field Framework (A Theory of Rhythm)
+### Document 017: Unified Field Framework (A Theory of Rhythm)
 The simulations for the UFF prove that RTM isn't just a scaling law for cities or biology, it is a genuine "Theory of Everything" that unifies the fundamental forces of nature.
 
 -The Perfect Intersection: Standard physics tries to unify the three main forces (electromagnetic, weak, and strong), but they never quite meet at a single point. RTM simulations proved that when you account for "Topological Density," the forces perfectly intersect at a specific high-energy scale without needing to invent "supersymmetry" or extra particles.  
@@ -317,7 +317,7 @@ The simulations for the UFF prove that RTM isn't just a scaling law for cities o
 -Holographic Gravity: By simulating how time scales inside a black hole, RTM validated the "Holographic Principle." It proved that a black hole's capacity to store information is directly tied to the "temporal thickness" ($\alpha$) of its internal architecture.  
 -Laboratory Fingerprints: The simulations provide three clear "signatures" to look for in a lab: (1) heat being pulled from a vacuum, (2) the suppression of radio-frequency noise, and (3) a specific delay in photon timing. If we see these three things together, the UFF is proven.
 
-The Big Takeaway
+### The Big Takeaway
 Computational simulations serve as the "guardrails" for the RTM corpus. They moved the Aetherion from a "perpetual motion" fallacy to a viable quantum-vacuum engine and proved that the same scaling laws governing your brain also govern the unification of the universe's most powerful forces. 
 The theory is no longer just a vision; it is a mathematically stable, grid-invariant reality that is now ready for Empirical and Heuristic Validation.
 
