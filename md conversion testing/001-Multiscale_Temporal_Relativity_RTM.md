@@ -229,7 +229,7 @@ $$\alpha_{string} = d_{visible} + \eta \cdot d_{compact}$$
 
 Where $\eta$ is a parameter that measures the coupling between visible and compact dimensions.
 
-In the specific case of D3-branes (which are central to many string theory models), we have $d_{visible} = 3\ $and $\eta \approx 1\text{/}6$ for the six compact dimensions, yielding:
+In the specific case of D3-branes (which are central to many string theory models), we have $d_{\text{visible}} = 3$ and $\eta \approx 1/6$ for the six compact dimensions, yielding:
 
 $$\alpha_{string} = 3 + \frac{1}{6} \cdot 6 = 3 + 1 = 4$$
 
