@@ -549,10 +549,10 @@ To extend the applicability of our temporal scaling model beyond laboratory-scal
 
 [QM Region]  ──────▶  [MD Region]  ──────▶  [CG Region]  
 
-      ▲                 ▲                 ▲
-      │                 │                 │
-    Atoms           Molecules       Macromolecules
-                                      / Networks
+      ▲                 ▲                        ▲
+      │                 │                        │
+    Atoms           Molecules              Macromolecules
+                                           / Networks
 
 
 **Atoms Molecules Macromolecules/Networks**
