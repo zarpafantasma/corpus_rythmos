@@ -1,7 +1,7 @@
 ![](media/image1.jpeg){width="2.058333333333333in" height="2.058333333333333in"}
 
 # RTM
-**Multiscale Temporal Relativity**
+**Multiscale Temporal Relativity**  
 Álvaro Quiceno
 
 **1. Multiscale Temporal Relativity**
