@@ -1350,7 +1350,7 @@ However, we can test the *structural validity* of this prediction. If $\alpha$ i
 
 **The \"Sticky Boundary\" Model**
 
-We hypothesize that the transition from the Holographic regime ($\backslash alpha\ \backslash approx\ 3.0$) to the Quantum regime ($\backslash alpha\ \backslash approx\ 3.5$) is driven by **boundary impedance**---a slowing of information transport at the edges of the system, analogous to the accumulation of wave-function density in a quantum well.
+We hypothesize that the transition from the Holographic regime (**α ≈ 3.0**) to the Quantum regime (**α ≈ 3.5**) is driven by **boundary impedance**---a slowing of information transport at the edges of the system, analogous to the accumulation of wave-function density in a quantum well.
 
 To test this, we constructed a **Confinement Proxy Model**:
 
@@ -1366,7 +1366,7 @@ The simulation reveals that while standard lattices saturate at **α ≈ 3.0**, 
 
 Crucially, the emergence of **α ≈ 3.5** appears as an additive correction to the holographic limit:
 
-$$\alpha_{quantum} \approx \backslash alpha_{holographic}(3.0) + \alpha_{boundary}(0.5)$$
+$$\alpha_{quantum} \approx \alpha_{holographic}(3.0) + \alpha_{boundary}(0.5)$$
 
 **Interpretation and Limits**
 
