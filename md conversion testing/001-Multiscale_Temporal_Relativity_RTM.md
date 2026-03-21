@@ -1322,7 +1322,7 @@ $$T = 2.19 \times L^{2.9499}$$
 
 $$\alpha = 2.9499 \pm 0.0683\backslash quadR^{2} = 0.9968$$
 
-$$\backslash textBootstrap95\backslash\% CI:\lbrack 2.8151,\, 3.0806\rbrack$$
+$$\backslash textBootstrap95\backslash\ % CI:\lbrack 2.8151,\, 3.0806\$$
 
 **Sensitivity analysis:**
 
