@@ -2219,7 +2219,7 @@ $$
 x^* = \frac{x}{L_0}, \quad t^* = \frac{t}{T_0}, \quad \rho^* = \frac{\rho}{\rho_0}
 $$
 
-The diffusion equation becomes
+The diffusion equation become
 
 $$
 \frac{\partial \rho^*}{\partial t^*} = \left( \frac{D T_0}{L_0^2} \right) \nabla^2 \rho^*
