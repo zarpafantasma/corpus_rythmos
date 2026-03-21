@@ -605,16 +605,11 @@ Using the weighted average formula above, we find that the effective α ≈ 2.5 
 
 Similarly, in brain networks:
 
-  -----------------------------------------------------------------------
-  **SCALE**              **REGION**                **MEASURED α**
-  ---------------------- ------------------------- ----------------------
-  Microscopic            Single Neurons            2.2
-
-  Mesoscopic             Cortical Columns          2.5
-
-  Macroscopic            Hemispheres               3.0
-    
-  -----------------------------------------------------------------------
+| SCALE | REGION | MEASURED $\alpha$ |
+| :--- | :--- | :--- |
+| **Microscopic** | Single Neurons | $2.2$ |
+| **Mesoscopic** | Cortical Columns | $2.5$ |
+| **Macroscopic** | Hemispheres | $3.0$ |
 
 These values reflect the interplay between fractal structure, metabolic optimization, and evolutionary constraints.
 
@@ -628,22 +623,14 @@ This also explains why classical biological systems --- operating far from quant
 
 > This appendix summarises the benchmark comparison between ballistic (straight‑line) propagation and classical diffusion on square lattices. The linear ballistic scaling (α≈1) and quadratic diffusive scaling (α≈2) provide the lower benchmarks for temporal‑relativity tests.
 
-  ------------------------------------------------------------------------
-  **Grid size L**         **Ballistic T_bal**     **Diffusive ⟨T_diff⟩**
-  ----------------------- ----------------------- ------------------------
-  21                      10                      124
-
-  31                      15                      245
-
-  41                      20                      485
-
-  51                      25                      729
-
-  61                      30                      958
-
-  71                      35                      1428
-  
-  ------------------------------------------------------------------------
+| Grid size $L$ | Ballistic $T_{\text{bal}}$ | Diffusive $\langle T_{\text{diff}} \rangle$ |
+| :--- | :--- | :--- |
+| 21 | 10 | 124 |
+| 31 | 15 | 245 |
+| 41 | 20 | 485 |
+| 51 | 25 | 729 |
+| 61 | 30 | 958 |
+| 71 | 35 | 1428 |
 
 Fitted exponents: ballistic α≈1.03, diffusive α≈2.00.
 
@@ -712,18 +699,12 @@ The effective α parameter for information processing in the brain varies with t
 
 This scale-dependent α explains why certain visual processing tasks exhibit different temporal scaling properties.
 
-***α* values across brain scales.**
+**α** values across brain scales.**
 
-  ---------------------------------------------------------------------------------
-  **SCALE**         **REGION**         **MEASURED *α***   **APPLICATION**
-  ----------------- ------------------ ------------------ -------------------------
-  Microscopic       Single Neurons     *α*=2.2            Synaptic dynamics
-
-  Mesoscopic        Cortical Columns   *α*=2.5            Visual processing
-
-  Macroscopic       Hemispheres        *α*=3.0            Functional connectivity
-  
-  ---------------------------------------------------------------------------------
+SCALE,REGION,MEASURED α,APPLICATION
+Microscopic,Single Neurons,α=2.2,Synaptic dynamics
+Mesoscopic,Cortical Columns,α=2.5,Visual processing
+Macroscopic,Hemispheres,α=3.0,Functional connectivity
 
 **b. Vascular Systems**
 
