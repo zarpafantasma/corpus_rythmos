@@ -828,7 +828,7 @@ Where θ is the volumetric water content. This explains why water infiltration r
 
 1.  Plot $\alpha_{eff}$ vs. observation scale L
 
-2.  Fit to the theoretical model: $\alpha_{eff}(L) = {\sum_{}^{}}_{i}w_{i}(L) \cdot \alpha_{i}$
+2.  Fit to the theoretical model: $\alpha_{\text{eff}}(L) = \sum_{i} w_i(L) \cdot \alpha_i$
 
 3.  Extract the characteristic coupling lengths $L_{ij}$ and coupling parameters $\lambda_{ij}$, ${\ \gamma}_{ij}$
 
@@ -979,7 +979,7 @@ RTM currently assumes quasi-stationary statistical conditions within each scale.
 >
 > $L3 = 250\mu m$ (large)
 
--   Constant density: $\rho = \ 10^{14\ }$atoms/${cm}^{3}$
+-   Constant density: $\rho = 10^{14} \text{ atoms/cm}^3$
 
 -   Controlled temperature: $T = 100nK \pm 1nK$
 
