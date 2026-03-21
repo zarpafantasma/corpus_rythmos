@@ -2271,9 +2271,6 @@ Thus, $T \propto L^2$ and $\alpha = 2$ exactly, with a calculable prefactor.
 
     -   Fluorescence recovery after photobleaching (FRAP) in biological membranes, measuring half-time $T_{1/2}{\propto L}^{2}$
 
-```{=html}
-<!-- -->
-```
 -   **Numerical tips**: Use *variance-reduction* (splitting technique) for MFPT when $L^{2}/D$ exceeds integration window.
 
 **4. TODO placeholders for the remaining regimes**
