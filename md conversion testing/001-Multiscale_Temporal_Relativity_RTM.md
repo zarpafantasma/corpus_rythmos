@@ -726,6 +726,7 @@ This scale-dependent α explains why certain visual processing tasks exhibit dif
   Mesoscopic        Cortical Columns   *α*=2.5            Visual processing
 
   Macroscopic       Hemispheres        *α*=3.0            Functional connectivity
+  
   ---------------------------------------------------------------------------------
 
 **b. Vascular Systems**
@@ -1067,6 +1068,7 @@ For each chain length L = N - 1, the first-passage time is simply T = L (by cons
   500                 500                2.699            2.699
 
   1000                1000               3.000            3.000
+  
   ------------------------------------------------------------------------
 
 Power-law fit: **α = 1.0000 ± 0.0001** R² = 1.000000
@@ -1107,6 +1109,7 @@ The model consists of: - Linear chain of N nodes with reflecting boundaries - Un
   100                 1000             9,706.2          9,532.2
 
   200                 1000             39,256.1         38,927.4
+  
   -----------------------------------------------------------------------
 
 Power-law fit: **α = 1.9698 ± 0.0089** 95% CI: \[1.9448, 1.9878\] R² = 0.999959
@@ -1153,6 +1156,7 @@ The model consists of: - Watts-Strogatz small-world graphs - Ring lattice base w
   300                 4.24                    147.0           13.3
 
   500                 4.63                    188.9           19.4
+  
   -----------------------------------------------------------------------
 
 Power-law fit: **α = 2.0428 ± 0.0146** 95% CI: \[2.0109, 2.0749\] R² = 0.999847
@@ -1201,6 +1205,7 @@ For random walks on fractals, MFPT scales as T ∝ L\^(d_w).
   5       32                   366                     6,265.6
 
   6       64                   1,095                   31,430.7
+  
   ---------------------------------------------------------------------------
 
 Power-law fit: **α = 2.3245 ± 0.0157** 95% CI: \[2.2832, 2.3558\] R² = 0.999863
@@ -1249,6 +1254,7 @@ The model consists of: - Deterministic 3D fractal tree embedded in ℝ³ - Branc
   5       364              243              2.77                8.9
 
   6       1,093            729              2.94                10.4
+  
   -----------------------------------------------------------------------------
 
 Power-law fit: **α = 2.3875 ± 0.1595** 95% CI: \[2.0599, 3.4305\] R² = 0.986792
@@ -1297,6 +1303,7 @@ The model consists of: - Base modules: complete graphs K₈ (8 fully connected n
   5                   968                        24,999
 
   6                   2,912                      99,971
+  
   -----------------------------------------------------------------------
 
 Power-law fit: **α = 2.6684 ± 0.0806** 95% CI: \[2.4845, 2.9035\] R² = 0.997273
@@ -2244,11 +2251,12 @@ Putting pieces together:
   ------------------------------- --------------- ---------------------------------
   Ballistic (straight-line)       ≈ 1             $$x = vt$$
 
-  **Diffusive (local hops)**      2               $$\left( x^{2} \right) = 2dDt$$
+  Diffusive (local hops)          2               $$\left( x^{2} \right) = 2dDt$$
 
   Hierarchical / biological       2.3 -- 2.7      depth-driven MFPT
 
   Quantum-confined / string       ≈ 3.5           holographic & LQG
+  
   ---------------------------------------------------------------------------------
 
 The diffusive benchmark $\alpha = 2$ sits at the centre of the "staircase" of exponents predicted by RTM.
@@ -2480,7 +2488,7 @@ RTM does not confine itself to a particular dimensional ontology. Instead, it pr
 
 ## **J.2 Theorem:** power law is necessary
 
-## **Proposition 1 (scale semigroup** $\mathbf{\Rightarrow}$ **Cauchy multiplicative).** P1 implies $T\left( \lambda_{1}\lambda_{2}L \right) = \Phi\left( \lambda_{1} \right)\Phi\left( \lambda_{2} \right)T(L)$ for some $\Phi$. By continuity (P2), the only solution is $\Phi(\lambda) = \lambda^{\alpha}$. Therefore
+**Proposition 1 (scale semigroup** $\mathbf{\Rightarrow}$ **Cauchy multiplicative).** P1 implies $T\left( \lambda_{1}\lambda_{2}L \right) = \Phi\left( \lambda_{1} \right)\Phi\left( \lambda_{2} \right)T(L)$ for some $\Phi$. By continuity (P2), the only solution is $\Phi(\lambda) = \lambda^{\alpha}$. Therefore
 
 $${T(L) = CL}^{\alpha}$$
 
