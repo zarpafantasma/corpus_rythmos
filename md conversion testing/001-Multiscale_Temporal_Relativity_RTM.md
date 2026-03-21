@@ -1,8 +1,8 @@
-![](media/image1.jpeg){width="2.058333333333333in" height="2.058333333333333in"}
+<div align="center">![](media/snake1.png){width="2.058333333333333in" height="2.058333333333333in"}
 
 # RTM
 **Multiscale Temporal Relativity**  
-Álvaro Quiceno
+Álvaro Quiceno</div>
 
 **1. Multiscale Temporal Relativity**
 
