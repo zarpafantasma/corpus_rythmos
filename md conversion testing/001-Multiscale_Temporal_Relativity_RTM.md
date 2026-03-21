@@ -528,7 +528,7 @@ Where:
 
 -   $V_{i}$ is the effective volume (or relevant measure of extent) of subsystem i
 
--   $\rho_{i}\ $ is the density of components in subsystem i
+-   $\rho_i$ is the density of components in subsystem $i$
 
 -   $f_{i}$ is the interaction frequency within subsystem i
 
@@ -540,7 +540,7 @@ Where:
 
 Determine its intrinsic dimensionality $d_{i}\ $
 
-Calculate its theoretical $\ \alpha_{i}\ $ value based on the dominant interaction type:
+Calculate its theoretical $\alpha_i$ value based on the dominant interaction type:
 
 a.  For long-range forces: $\alpha_{i} \approx d_{i} - 1$
 
@@ -694,7 +694,7 @@ With $L_{i}$ acting only within local correlation volumes defined by $\xi_{i}$
 >
 > with small residuals under the log model and clear misfit under any single power law over this range. If one **forces** a power-law fit on log--log axes, the finite window returns an apparent slope $\alpha_{\text{eff}} \ll 1$; we interpret this as a **model-specification artifact**, not evidence of a genuinely sub-linear temporal band.
 >
-> **RTM interpretation.** Small-world shortcuts change the **effective metric**: when the "clock" counts hops, $\mathcal{l} \sim \log N$. Relative to Euclidean system size $L \propto N$, a physical traversal time with per-hop latency $\tau$is $T_{\text{phys}} \approx \tau\text{ }\mathcal{l}(N) \propto \log L$. Hence the small-world case lies **outside** the standard RTM template $T \propto L^{\alpha}$ for Euclidean traversal. If one adopts the **graph-geodesic length** $L^{'}: = \mathcal{l}(N)$(or $L^{'}: = \log N$) as the scale, then $T \propto L^{'}$ with $\alpha = 1$ in that metric.
+> **RTM interpretation.** Small-world shortcuts change the **effective metric**: when the "clock" counts hops, $\mathcal{l} \sim \log N$. Relative to Euclidean system size $L \propto N$, a physical traversal time with per-hop latency $\tau$ is $T_{\text{phys}} \approx \tau l(N) \propto \log L$. Hence the small-world case lies **outside** the standard RTM template $T \propto L^{\alpha}$ for Euclidean traversal. If one adopts the **graph-geodesic length** $L^{'}: = \mathcal{l}(N)$(or $L^{'}: = \log N$) as the scale, then $T \propto L^{'}$ with $\alpha = 1$ in that metric.
 >
 > We exclude the small-world case from the results table because its scaling is **logarithmic** ($\mathcal{l} \sim \log N$), not a power law. The table summarizes **power-law** regimes via $\alpha$; forcing a power fit here would yield a misleading $\alpha_{\text{eff}} \ll 1$ that reflects model misspecification rather than a genuine RTM band.
 >
