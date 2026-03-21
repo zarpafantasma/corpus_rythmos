@@ -646,6 +646,7 @@ This also explains why classical biological systems --- operating far from quant
   61                      30                      958
 
   71                      35                      1428
+  
   ------------------------------------------------------------------------
 
 Fitted exponents: ballistic α≈1.03, diffusive α≈2.00.
