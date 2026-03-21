@@ -414,7 +414,7 @@ In LQG, area operators have a discrete spectrum:
 
 $$A = {8\pi\gamma l}_{P}^{2}\sum_{i}^{}\sqrt{j_{i}\left( j_{i} + 1 \right)}$$
 
-Where $\gamma$ is the Immirzi parameter, $l_{P}\ $is the Planck length, and $j_{i}$ are spin quantum numbers.
+Where $\gamma$ Where $\gamma$ is the Immirzi parameter, $l_P$ is the Planck length, and $j_i$ are spin quantum numbers.
 
 Our parameter $\alpha$ relates to this discretization through:
 
@@ -486,7 +486,7 @@ For a spherical system of radius $R$ and uniform density $\rho$, we have $M = \ 
 
 $$\frac{{dt}_{proper}}{{dt}_{coordinate}} = \sqrt{1 - \frac{8\pi G}{{3c}^{2}}}\ {\rho R}^{2}$$
 
-Indeed, higher density $\rho$ results in lower $\frac{{dt}_{proper}}{{dt}_{coordinate}}$, indicating time dilation (time flows more slowly) for mass--energy density, not for local interaction density ρ)
+Indeed, higher density $\rho$ results in lower $\frac{dt_{\text{proper}}}{dt_{\text{coordinate}}}$, indicating time dilation (time flows more slowly) for mass--energy density, not for local interaction density $\rho$.
 
 However, our model includes the term $\sqrt{\frac{\rho_{s}}{\rho_{l}}}$ which suggests the opposite. This apparent contradiction is resolved by considering:
 
