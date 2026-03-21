@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/I-%20Scientific_Papers/media/snake1.png" width="200" alt="Diagrama de Snake">
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/snake1.png" width="200" alt="Diagrama de Snake">
 
 # RTM
 **Multiscale Temporal Relativity** Álvaro Quiceno
