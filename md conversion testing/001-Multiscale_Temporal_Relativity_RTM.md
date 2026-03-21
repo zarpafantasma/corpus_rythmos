@@ -3,7 +3,8 @@
 <img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/snake1.png" width="200" alt="Diagrama de Snake">
 
 # RTM
-**Multiscale Temporal Relativity** Álvaro Quiceno
+**Multiscale Temporal Relativity** 
+Álvaro Quiceno
 
 </div>
 
