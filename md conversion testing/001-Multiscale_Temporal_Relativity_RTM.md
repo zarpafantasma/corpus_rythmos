@@ -2239,7 +2239,7 @@ Derivation
 
 1.  Solve ${D\nabla}^{2}u = - 1$ with boundary ${u \mid}_{r = L} = 0$
 
-2.  For radial symmetry, ${u(r) = A - Br}^{2}$. Applying the boundary condition and regularity at $r = 0$ gives ${u(0) = L}^{2}/6D$
+2.  For  radial symmetry, ${u(r) = A - Br}^{2}$. Applying the boundary condition and regularity at $r = 0$ gives ${u(0) = L}^{2}/6D$
 
 3.  MFPT from the centre equals this $u(0)$
 
