@@ -262,6 +262,7 @@ The notable convergence of these two independent theoretical approaches---string
   AdS/CFT Holography      *α*=3.0         Area-volume duality in holographic spacetimes
 
   Biological Networks     *α*≈2.5         Fractal metabolic scaling
+  
   ------------------------------------------------------------------------------------------
 
 **Disambiguation of the high‑regime exponent (α ≈ 3.0 vs 3.5)**
