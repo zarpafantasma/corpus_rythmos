@@ -1,8 +1,11 @@
-<div align="center"><img src="media/snake1.png" width="200" alt="Diagrama de Snake">
+<div align="center">
+
+<img src="media/snake1.png" width="200" alt="Diagrama de Snake">
 
 # RTM
-**Multiscale Temporal Relativity**  
-Álvaro Quiceno</div>
+**Multiscale Temporal Relativity** Álvaro Quiceno
+
+</div>
 
 **1. Multiscale Temporal Relativity**
 
