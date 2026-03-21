@@ -1045,7 +1045,11 @@ For three-dimensional quantum systems with dominant quantum effects, we expect $
 
 *Prediction:*
 
-For one-dimensional systems, we expect $\alpha \approx 1.5,\ $implying: $\frac{t_{prop,1}}{t_{prop,2}}\  = \ \left( \frac{N_{2}}{N_{1}} \right)^{\alpha} = 4^{1.5}\  \approx \ 8$
+For one-dimensional systems, we expect $\alpha \approx 1.5$, implying:
+
+$$
+\frac{t_{\text{prop},1}}{t_{\text{prop},2}} = \left( \frac{N_2}{N_1} \right)^\alpha = 4^{1.5} \approx 8
+$$
 
 **5.2 Computational Simulations: Numerical Validation of RTM Scaling Laws**
 
@@ -1666,7 +1670,7 @@ The hierarchical modular network produced $\mathbf{\alpha}\  = \ 2.6684\  \pm \ 
 
 **Holographic Regime (**$\mathbf{\alpha \rightarrow}$ **3)**
 
-The simulation of the holographic decay network ($N = 8,000$ nodes) yielded $\mathbf{\alpha\  = \ 2.9499\ } \pm \mathbf{\ 0.0683}$. This result tightly brackets the theoretical target $\alpha = 3.0$, confirming that long-range connections with $P(r) \propto r^{- 3}$probability decay induce a transport regime where time scales with volume ($L^{3}$) rather than linear distance.
+The simulation of the holographic decay network ($N = 8,000$ nodes) yielded $\mathbf{\alpha\  = \ 2.9499\ } \pm \mathbf{\ 0.0683}$. This result tightly brackets the theoretical target $\alpha = 3.0$, confirming that long-range connections with $P(r) \propto r^{-3}$ probability decay induce a transport regime where time scales with volume ($L^{3}$) rather than linear distance.
 
 **Quantum-Confined Regime (**$\mathbf{\alpha \approx}$ **3.5)**
 
@@ -1872,7 +1876,7 @@ The function is dimensionless, monotonic, and bounded between 0 and 1. Its struc
 \
 $G(k) = G^{0}\text{/}\left\lbrack 1 + \omega G^{0}k^{2} \right\rbrack \Rightarrow \Omega(k) = 1 - G(k)\text{/}G^{0} = \left\lbrack \omega\left( L_{P}\text{/}L \right)^{2} \right\rbrack\text{/}\left\lbrack 1 + \omega\left( L_{P}\text{/}L \right)^{2} \right\rbrack$\
 \
-Alternative functional forms, such as exponential decays $\Omega = exp\left\lbrack - \left( L\text{/}L_{P} \right)^{p} \right\rbrack$ or logistic-type sigmoids, are mathematically equivalent to leading order in $\left( L_{P}\text{/}L \right)^{2}$and produce indistinguishable predictions within current experimental accuracy. The chosen rational form provides a minimal analytic expression that connects naturally with known quantum corrections and remains consistent with effective field theory expectations.\
+Alternative functional forms, such as exponential decays $\Omega = exp\left\lbrack - \left( L\text{/}L_{P} \right)^{p} \right\rbrack$ or logistic-type sigmoids, are mathematically equivalent to leading order in $(L_P/L)^2$ and produce indistinguishable predictions within current experimental accuracy. The chosen rational form provides a minimal analytic expression that connects naturally with known quantum corrections and remains consistent with effective field theory expectations.\
 \
 This formal construction solidifies the role of $\Omega(G,\ \hslash,\ L)$ as a physically meaningful interpolation mechanism between quantum and classical temporal regimes, grounded in established quantum gravity phenomenology.
 
@@ -1894,7 +1898,7 @@ This integral can be evaluated exactly, resulting in:
 
 $$\Omega(G,\hslash,L) = \left\lbrack 1 + \left( \frac{L_{P}}{L} \right)^{2} \cdot \left( 1 - e^{{- L}^{2}\text{/}L_{P}^{2}} \right) \right\rbrack^{- 1\text{/}2}$$
 
-Where $L_{P} = \sqrt{\hslash}G\text{/}c^{3}\ $is the Planck length.
+Where $L_P = \sqrt{\frac{\hbar G}{c^3}}$ is the Planck length.
 
 In the limit $L \gg L_{P}$ (classical, large scales):
 
@@ -1954,7 +1958,7 @@ For real physical systems, we can calculate $\gamma_{\phi}$ rom first principles
 
 1.  **Electromagnetic systems:** $\gamma_{\phi} = \frac{\alpha_{EM}}{2_{\pi}} \approx 0.00116$, where $\alpha_{EM}$ is the fine structure constant.
 
-2.  **Strong interaction systems:** $\gamma_{\phi} = \frac{{3C}_{F}}{4_{\pi}}\alpha_{s} \approx 0.102$, where $C_{F} = 4\text{/}3$ is the Casimir factor and $\alpha_{s} \approx 0.12$ is the strong coupling constant.
+2.  **Strong interaction systems:** $\gamma_\phi = \frac{3 C_F}{4 \pi} \alpha_s \approx 0.102$, where $C_{F} = 4\text{/}3$ is the Casimir factor and $\alpha_{s} \approx 0.12$ is the strong coupling constant.
 
 3.  **Quantum gravitational systems:** $\gamma_{\phi} = \frac{k^{2}}{16_{\pi^{2}}}\frac{\ m^{2}}{M_{P}^{2}} \approx 0.5$ for particles with mass $m$ near the Planck scale.
 
