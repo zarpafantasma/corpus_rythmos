@@ -546,6 +546,7 @@ $\lambda_{ij}$ and $\gamma_{ij}$ are coupling parameters determined from correla
 
 To extend the applicability of our temporal scaling model beyond laboratory-scale systems, we implement a multiscale computational framework that bridges quantum, mesoscopic, and macroscopic regimes. This approach enables testing the predicted scaling behavior across multiple orders of magnitude in both space and time.
 
+```
 graph TD
     QM["<b>[QM Region]</b>"] --> MD["<b>[MD Region]</b>"]
     MD --> CG["<b>[CG Region]</b>"]
@@ -557,6 +558,7 @@ graph TD
     style QM fill:#f9f,stroke:#333,stroke-width:2px
     style MD fill:#bbf,stroke:#333,stroke-width:2px
     style CG fill:#dfd,stroke:#333,stroke-width:2px
+```
 
 **Atoms Molecules Macromolecules/Networks**
 
