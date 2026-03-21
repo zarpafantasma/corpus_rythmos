@@ -2483,7 +2483,7 @@ RTM does not confine itself to a particular dimensional ontology. Instead, it pr
 
 -   **P3 -- Clock invariance (multiplicative gauge; offsets handled explicitly).**\
     Within a fixed environment bin, changing the operational clock means a **multiplicative** rescaling of the measured characteristic times: $T^{'} = cT$ with $c > 0$ independent of $L$. This shifts $\log T$ by a constant ($\log c$) and therefore **does not change the slope** $\alpha$ in $\log T$ vs. $\log L$; it only shifts the intercept.\
-    **Additive** timestamp artefacts (e.g., constant latency/dead time) yield $T_{\text{obs}} = cT + b$ and are **not** pure log--log gauges; they can bias $\alpha$ unless $T \gg b/c$over the fitted window or $b$ is estimated and removed prior to logging (use $T_{eff} = T_{\text{obs}} - b$, $T_{\text{obs}} > b$).\
+    **Additive** timestamp artefacts (e.g., constant latency/dead time) yield $T_{\text{obs}} = cT + b$ and are **not** pure log--log gauges; they can bias $\alpha$ unless $T \gg b/c$ over the fitted window or $b$ is estimated and removed prior to logging (use $T_{eff} = T_{\text{obs}} - b$, $T_{\text{obs}} > b$).\
     Examples of multiplicative clocks include unit changes (s↔ms), uniform timebase rescalings, or uniform rate/time scaling factors; examples of additive artefacts include fixed pipeline delays and detector dead time.
 
 -   **P4 -- Finite causality:** there is a finite maximal speed/rate for the propagation of influence (Lieb--Robinson--type or hydrodynamic analog).
