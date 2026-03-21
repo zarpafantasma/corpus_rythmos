@@ -2182,18 +2182,12 @@ Since the constant $1/(6D)$ is scale-independent, the exponent is exactly 2
 
 Putting pieces together:
 
-  ---------------------------------------------------------------------------------
-  **Regime (dominant physics)**   **Derived α**   **Key relation**
-  ------------------------------- --------------- ---------------------------------
-  Ballistic (straight-line)       ≈ 1             $$x = vt$$
-
-  Diffusive (local hops)          2               $$\left( x^{2} \right) = 2dDt$$
-
-  Hierarchical / biological       2.3 -- 2.7      depth-driven MFPT
-
-  Quantum-confined / string       ≈ 3.5           holographic & LQG
-  
-  ---------------------------------------------------------------------------------
+| Regime (dominant physics) | Derived α | Key relation |
+| :--- | :--- | :--- |
+| **Ballistic** (straight-line) | ≈ 1 | x = vt |
+| **Diffusive** (local hops) | 2 | (x²) = 2dDt |
+| **Hierarchical / biological** | 2.3 – 2.7 | depth-driven MFPT |
+| **Quantum-confined / string** | ≈ 3.5 | holographic & LQG |
 
 The diffusive benchmark $\alpha = 2$ sits at the centre of the "staircase" of exponents predicted by RTM.
 
