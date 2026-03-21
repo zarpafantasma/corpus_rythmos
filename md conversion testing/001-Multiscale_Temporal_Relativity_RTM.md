@@ -1356,9 +1356,9 @@ To test this, we constructed a **Confinement Proxy Model**:
 
 1.  **Topology:** A 3D cubic lattice where nodes are classified as *Bulk* (interior) or *Boundary* (surface).
 
-2.  **Mechanism:** We introduce a tunable \"impedance parameter\" ($\backslash gamma$) that creates self-loops at the boundary nodes. This represents the non-trivial cost of information escaping or interacting with the system\'s edge.
+2.  **Mechanism:** We introduce a tunable \"impedance parameter\" (**y**) that creates self-loops at the boundary nodes. This represents the non-trivial cost of information escaping or interacting with the system\'s edge.
 
-3.  **Calibration:** We performed a parameter sweep to identify the boundary conditions required to shift the system from diffusive ($\backslash alpha = 2$) or holographic ($\backslash alpha = 3$) behaviors toward higher coherence.
+3.  **Calibration:** We performed a parameter sweep to identify the boundary conditions required to shift the system from diffusive (**α ≈ 2**) or holographic **α ≈ 3** behaviors toward higher coherence.
 
 **Results: Topological Sufficiency**
 
