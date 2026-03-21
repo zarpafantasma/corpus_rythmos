@@ -293,6 +293,7 @@ To rule out window bias, we report: (i) fits with and without the largest L, (ii
   Quantum‑confined (canonical)         Confinement + boundary/edge correction present   Decoherence/relaxation time   ≈ 3.5
 
   Holographic/relativistic (variant)   z ≈ 1; no strong confinement; no edge term       Propagation/relaxation time   ≈ 3.0
+  
   ------------------------------------------------------------------------------------------------------------------------------------
 
 **Relationship with Classical Systems:**
@@ -355,6 +356,7 @@ This section introduces a unified classification of the different physical regim
   Holographic / stringy limit     g_s small, L \~ l_s             α ≈ 3.5 − (3/2)(g_s/2π)                String regime: α ≈ 3.48
 
   Gravity-dominated systems       L ≫ L_P, ρ ≫ ρ_crit             α non-autonomous, use Ω(G,ℏ,L)         Neutron star core
+    
   -----------------------------------------------------------------------------------------------------------------------------------
 
 **2.7 Physical Interpretation of Parameter** $\mathbf{\alpha}$
@@ -619,6 +621,7 @@ Similarly, in brain networks:
   Mesoscopic             Cortical Columns          2.5
 
   Macroscopic            Hemispheres               3.0
+    
   -----------------------------------------------------------------------
 
 These values reflect the interplay between fractal structure, metabolic optimization, and evolutionary constraints.
@@ -2298,6 +2301,7 @@ To make the coefficient equal to 1 (so the equation is scale-free) we *must* imp
 
   -----------------------------------------------------------------------
   T= $\frac{L^{2}}{D}$
+  
   -----------------------------------------------------------------------
 
   -----------------------------------------------------------------------
