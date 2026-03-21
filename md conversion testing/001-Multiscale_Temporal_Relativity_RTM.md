@@ -2164,31 +2164,31 @@ for multiple physical regimes discussed in the RTM framework. Each section lists
 **1. Global notation conventions**
 
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| **Symbol**                        | **Meaning**                                                                                           |
+| **Symbol**                        | **Meaning**                                                                                             |
 +===================================+=======================================================================================================+
-| $$\mathbf{L}$$                    | Characteristic spatial scale (length of the dominant structure, mean displacement, system size, etc.) |
+| $$\mathbf{L}$$                      | Characteristic spatial scale (length of the dominant structure, mean displacement, system size, etc.) |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{T}$$                    | Characteristic temporal scale (mean first-passage time, period, relaxation time, etc.)                |
+| $$\mathbf{T}$$                      | Characteristic temporal scale (mean first-passage time, period, relaxation time, etc.)                |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{\alpha}$$               |   -----------------------------------------------------------------------                             |
-|                                   |                                                                                                       |
-|                                   |   -----------------------------------------------------------------------                             |
-|                                   |                                                                                                       |
-|                                   | Scaling exponent In                                                                                   |
-|                                   |                                                                                                       |
-|                                   | ${T = C\ L}^{\alpha}$                                                                                 |
+| $$\mathbf{\alpha}$$                 |   -----------------------------------------------------------------------                             |
+|                                     |                                                                                                       |
+|                                     |   -----------------------------------------------------------------------                             |
+|                                     |                                                                                                       |
+|                                     | Scaling exponent In                                                                                   |
+|                                     |                                                                                                       |
+|                                     | ${T = C\ L}^{\alpha}$                                                                                 |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{D}$$                    | Diffusion coefficient (diffusive regime)                                                              |
+| $$\mathbf{D}$$                      | Diffusion coefficient (diffusive regime)                                                              |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{v}$$                    | Typical velocity (ballistic regime)                                                                   |
+| $$\mathbf{v}$$                      | Typical velocity (ballistic regime)                                                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{h}$$                    | Hierarchical depth or branching factor (hierarchical/biological regime)                               |
+| $$\mathbf{h}$$                      | Hierarchical depth or branching factor (hierarchical/biological regime)                               |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{\lambda}$$              | De Broglie wavelength / confinement length (quantum regime)                                           |
+| $$\mathbf{\lambda}$$                | De Broglie wavelength / confinement length (quantum regime)                                           |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $\boldsymbol{\rho}_{\text{loc}}$  | Local mass/energy density                                                                             |
+| $$\boldsymbol{\rho}_{\text{loc}}$$  | Local mass/energy density                                                                             |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $\boldsymbol{\rho}_{\text{hier}}$ | Hierarchical/global density                                                                           |
+| $$\boldsymbol{\rho}_{\text{hier}}$$ | Hierarchical/global density                                                                           |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
 
 *\*The color/index cues are optional but help distinguish quantities in figures or code.*\
