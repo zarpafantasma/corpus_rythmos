@@ -2175,9 +2175,6 @@ for multiple physical regimes discussed in the RTM framework. Each section lists
 | $\boldsymbol{\rho}_{\text{loc}}$ | Local mass/energy density |
 | $\boldsymbol{\rho}_{\text{hier}}$ | Hierarchical/global density |
 
-*\*The color/index cues are optional but help distinguish quantities in figures or code.*\
-All symbols use **SI units** unless explicitly stated.
-
 **2. Reusable Derivation Template**
 
 This section shows---in full detail and with concrete numbers from the RTM paper---how to go from basic physical premises to the scaling law ${T \propto L}^{\alpha}$
@@ -2218,11 +2215,15 @@ with diffusion constant $D$ (units $L^{2}\text{/}T)$
 
 Non-dimensionalise with reference length $L_{0}$ and time $T_{0}$
 
-$$x^{*} = \frac{x}{L_{0}}\ \ \ \ \ \ \ \ t^{*} = \frac{t}{T_{0}}\ \ \ \ \ \ \ \ \rho^{*} = \frac{\rho}{\rho_{0}}$$
+$$
+x^* = \frac{x}{L_0}, \quad t^* = \frac{t}{T_0}, \quad \rho^* = \frac{\rho}{\rho_0}
+$$
 
 The diffusion equation becomes
 
-$$\frac{{\partial\rho}^{*}}{{\partial t}^{*}} = \left( \frac{{DT}_{0}}{L_{0}^{2}} \right)\nabla^{*2}\rho^{*}$$
+$$
+\frac{\partial \rho^*}{\partial t^*} = \left( \frac{D T_0}{L_0^2} \right) \nabla^2 \rho^*
+$$
 
 To preserve form invariance we must choose $T_{0} = L_{0}^{2}/D$
 
