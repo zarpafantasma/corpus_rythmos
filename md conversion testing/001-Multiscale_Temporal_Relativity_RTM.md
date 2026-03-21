@@ -150,7 +150,7 @@ where $T_0, L_0, \rho_0, \mathcal{T}_0$ are arbitrary reference scales that canc
 
 *Units sanity check:* $T/T_0$ and $\rho/\rho_0$ are dimensionless; $\Theta(T)$ is explicitly dimensionless; thus the right-hand side is dimensionless, matching the left-hand side. This removes any hidden mixing of time and temperature units while preserving the empirical content of the law.
 
-# **2.2 Clarification on Density Types in RTM**
+**2.2 Clarification on Density Types in RTM**
 
 In the RTM framework, it is essential to distinguish between two structurally distinct notions of density, each with opposite temporal implications:\
 \
@@ -170,7 +170,7 @@ This duality resolves apparent contradictions, such as the coexistence of faster
 
 This section provides a step‑by‑step derivation of the scale--time exponent α from several fundamental frameworks --- quantum field theory (QFT), loop quantum gravity (LQG), string theory and holographic duality --- and clarifies the dynamic regimes in which each result is valid. In the original draft α was equated with the spatial dimension d for locally interacting systems. Here that statement is refined to distinguish explicitly between ballistic, diffusive and anomalous transport.
 
-# **2.4 Relationship to Critical Exponents**
+**2.4 Relationship to Critical Exponents**
 
 The RTM framework shares a formal resemblance with the dynamic critical exponent z, widely used in the theory of critical phenomena and phase transitions. Both describe a power-law relationship between time and space of the form ${t\  \sim L}^{z}$ or ${T\  \sim \ L}^{\alpha}$. In certain local regimes---such as classical diffusion---RTM's α and the traditional z exponent can numerically coincide.\
 \
@@ -343,7 +343,7 @@ This theoretical bridge not only addresses the apparent disconnect between discr
 
 This section introduces a unified classification of the different physical regimes where distinct analytical expressions for the temporal scaling exponent α apply. Each domain is defined by characteristic physical conditions---such as coherence length, interaction range, or fractal geometry---and is associated with a corresponding α formula derived from theoretical principles. A comparative table summarizes the conditions, governing expressions, and representative examples, enabling consistent interpretation and application of α across quantum, classical, biological, and gravitational systems.
 
-# **Domains of Validity for α**
+**Domains of Validity for α**
 
   -----------------------------------------------------------------------------------------------------------------------------------
   **Domain**                      **Validity Conditions**         **Formula for α**                      **Example**
@@ -633,7 +633,7 @@ The deviation from the fundamental value α ≈ 3.5 does not invalidate the theo
 
 This also explains why classical biological systems --- operating far from quantum dominance and shaped by natural selection for energy efficiency --- exhibit lower effective α values than those seen in quantum systems.
 
-# **4.3 Ballistic vs Diffusive Scaling Experiment**
+**4.3 Ballistic vs Diffusive Scaling Experiment**
 
 > This appendix summarises the benchmark comparison between ballistic (straight‑line) propagation and classical diffusion on square lattices. The linear ballistic scaling (α≈1) and quadratic diffusive scaling (α≈2) provide the lower benchmarks for temporal‑relativity tests.
 
@@ -1437,7 +1437,7 @@ This result suggests that the \"Quantum-Confined Regime\" in RTM can be modeled 
 
 All code released under CC BY 4.0 license.
 
-# **5.3 Global Overview of Numerical Experiments and Their Consistency with RTM**
+**5.3 Global Overview of Numerical Experiments and Their Consistency with RTM**
 
 **Table 1: RTM Numerical Validation Results**
 
@@ -1830,7 +1830,7 @@ $$\Omega(G,\hslash,L) = \left\lbrack 1 + \left( \frac{L}{L_{P}} \right)^{2} \cdo
 
 Where $M$ and $L$ correspond to the small system, while $M^{'}$ and $L^{'}$ correspond to the large system.
 
-## **10.2 Formal Derivation and Structure of the Transition Function Ω(G, h, L)**
+**10.2 Formal Derivation and Structure of the Transition Function Ω(G, h, L)**
 
 The transition function $\Omega(G,\hslash,L),$ which interpolates between the quantum-dominated regime and the classical gravitational regime, can be derived directly from the structure of the quantum effective action for gravity.\
 \
@@ -2141,7 +2141,7 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 # **Appendices**
 
-**Appendix A -- Derivations of the Scaling Exponent α**
+## **Appendix A -- Derivations of the Scaling Exponent α**
 
 This appendix provides detailed derivations of the scaling law
 
@@ -2430,7 +2430,7 @@ The resulting α distribution was centered at 2.48 with a standard deviation of 
 
 Variation reflects structural and connectivity differences across biological samples.
 
-# **Appendix I. Dimensionality and Emerging Opportunities in RTM**
+## **Appendix I. Dimensionality and Emerging Opportunities in RTM**
 
 The Multiscale Temporal Relativity (RTM) framework is built upon the insight that time is not a primitive variable but an emergent property derived from the structural characteristics of a system. In this context, dimensionality plays a critical but flexible role. RTM, as currently formulated, operates within three spatial dimensions and a derived temporal axis. However, the framework itself does not impose a hard constraint on dimensionality, opening avenues for extension into higher or non-integer-dimensional regimes.
 
