@@ -2225,13 +2225,8 @@ $$\frac{\partial\rho}{\partial\widetilde{t}} = \left( \frac{D\ T}{L^{2}} \right)
 
 To make the coefficient equal to 1 (so the equation is scale-free) we *must* impose
 
-  -----------------------------------------------------------------------
   T= $\frac{L^{2}}{D}$
   
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
 which implies $\alpha = 2$
 
 **3.4 Explicit derivation via Greens-function & MFPT (line-by-line)**
