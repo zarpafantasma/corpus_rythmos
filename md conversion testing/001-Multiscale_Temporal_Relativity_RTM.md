@@ -2469,7 +2469,7 @@ Moreover, the sensitivity of α to connectivity and scale implies that RTM could
 
 RTM does not confine itself to a particular dimensional ontology. Instead, it provides a structural-functional bridge that can adapt to and diagnose diverse dimensional regimes. Its predictions about the scaling of time provide a compact but powerful lens through which to view both familiar and exotic systems. As computational power grows and experimental methods become more refined, RTM\'s ability to unify, infer, and engineer temporal behavior across scales and dimensions may become a key asset in modern theoretical science.
 
-**Appendix J. Foundations and Bounds for** $\mathbf{\alpha}$ **(Multiscale Temporal Relativity, RTM)**
+## **Appendix J. Foundations and Bounds for** $\mathbf{\alpha}$ **(Multiscale Temporal Relativity, RTM)**
 
 > **Goal.** To establish, under explicit and testable hypotheses, (i) why the only coherent functional relation between a characteristic time T and scale L is a power law, (ii) how to identify α with quantities from scale theory (e.g., dynamic exponent z, spectral dimension ds, walk dimension dw), and (iii) to state bounds and universality classes that replace strong, unproven claims about specific values (such as $\alpha \approx 3.5$).
 
