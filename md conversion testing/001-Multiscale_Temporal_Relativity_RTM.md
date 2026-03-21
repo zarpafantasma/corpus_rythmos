@@ -124,7 +124,7 @@ $$\frac{{dt}_{s}}{{dt}_{l}} = \left( \frac{L_{l}}{L_{s}} \right)^{\alpha} \cdot 
 
 Where:
 
--   $rm dt_s$ and $rm dt_l$ represent time intervals in the small and large systems respectively
+-   $dt_s$ and $dt_l$ represent time intervals in the small and large systems respectively
 
 -   $L_{s}$ and $L_{l}$ are the characteristic spatial scales
 
