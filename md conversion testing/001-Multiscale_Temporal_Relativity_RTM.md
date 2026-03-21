@@ -247,7 +247,7 @@ Further corrections from $\alpha^{'}$ expansions reduce this value to approximat
 
 The holographic principle provides another approach to deriving $\alpha \approx 3.5$. According to the AdS/CFT correspondence, a gravitational theory in $(d + 1)$-dimensional anti-de Sitter space is dual to a conformal field theory in $d$ dimensions.
 
-For quantum systems with strong correlations, the dynamical critical exponent $z$ in the holographic theory relates directly to our parameter$\ \alpha$:
+For quantum systems with strong correlations, the dynamical critical exponent $z$ in the holographic theory relates directly to our parameter$\alpha$:
 
 $$\alpha_{holo} = d + z - \theta$$
 
