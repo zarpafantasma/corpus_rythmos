@@ -82,40 +82,23 @@ This work establishes a rigorous foundation for understanding how time flows dif
 
 **Table of Main Symbols**
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                                  **Description**
-  ------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **α**                                       Temporal scaling exponent linking the characteristic time T to the length scale L via the master law. Distinct from the dynamic exponent z. Typical regimes: ballistic ≈ 1, diffusive ≈ 2, biological/fractal ≈ 2.3--2.7, confined quantum ≈ 3.0--3.5 (depending on assumptions) (heuristic bounds; see Appendix J.5).
-
-  **T**                                       Characteristic time of the system (e.g., decoherence time, first‑passage time). Dimensionless master law: T/T0 = (L/L0)\^α · Θ(𝓣) / √(ρ/ρ0).
-
-  **L**                                       Characteristic spatial length (ionic‑chain length, condensate radius, network diameter, etc.).
-
-  **ρ**                                       Local structural density (mass/volume or nodes/volume). At fixed L, higher ρ accelerates dynamics: T ∝ 1/√ρ.
-
-  $$\mathcal{T}$$                             Temperature (kelvin).
-
-  $$\mathbf{\Theta(}\mathcal{T}\mathbf{)}$$   Dimensionless temperature factor. Common choices: 𝓣/𝓣0, or √(𝓣_s/𝓣_ℓ) for hybrid small/large‑scale couplings.
-
-  **d, d_f**                                  Effective spatial dimensionality (integer or fractal). Examples: vascular networks d_f ≈ 2.5; neuronal networks d_f ≈ 2.2.
-
-  **z**                                       Dynamic exponent governing time--space scaling out of equilibrium (do not identify z with α). Ballistic z = 1; diffusive z = 2.
-
-  **Φ(G, ℏ, L)**                              Transition function bridging quantum and gravitational regimes, entering some heuristic derivations (notation preserved from the draft).
-
-  **Ω(G, ℏ, L)**                              Quantum--gravitational transition function (distinct from Φ); used in the combined‑regime discussion.
-
-  **dt_s, dt_ℓ**                              Short‑scale and large‑scale time intervals used in coupled dynamics/derivations.
-
-  **L_P**                                     Planck length: L_P = √(ℏ G / c\^3).
-
-  **κ**                                       Curvature parameter κ = 2GM/(c\^2 L), used in properties of Ω.
-
-  **ℓ**                                       Mean free path in the medium (assumption/parameter in certain derivations).
-
-  **G**                                       Universal gravitational constant (6.674 × 10⁻¹¹ m³ kg⁻¹ s⁻²).
-  
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Symbol | Description |
+| :--- | :--- |
+| $\alpha$ | Temporal scaling exponent linking the characteristic time $T$ to the length scale $L$ via the master law. Distinct from the dynamic exponent $z$. Typical regimes: ballistic $\approx 1$, diffusive $\approx 2$, biological/fractal $\approx 2.3$–$2.7$, confined quantum $\approx 3.0$–$3.5$ (heuristic bounds; see Appendix J.5). |
+| $T$ | Characteristic time of the system (e.g., decoherence time, first-passage time). Dimensionless master law: $T/T_0 = (L/L_0)^\alpha \cdot \Theta(\mathcal{T}) / \sqrt{\rho/\rho_0}$. |
+| $L$ | Characteristic spatial length (ionic-chain length, condensate radius, network diameter, etc.). |
+| $\rho$ | Local structural density (mass/volume or nodes/volume). At fixed $L$, higher $\rho$ accelerates dynamics: $T \propto 1/\sqrt{\rho}$. |
+| $\mathcal{T}$ | Temperature (Kelvin). |
+| $\Theta(\mathcal{T})$ | Dimensionless temperature factor. Common choices: $\mathcal{T}/\mathcal{T}_0$, or $\sqrt{\mathcal{T}_s / \mathcal{T}_\ell}$ for hybrid small/large-scale couplings. |
+| $d, d_f$ | Effective spatial dimensionality (integer or fractal). Examples: vascular networks $d_f \approx 2.5$; neuronal networks $d_f \approx 2.2$. |
+| $z$ | Dynamic exponent governing time--space scaling out of equilibrium (do not identify $z$ with $\alpha$). Ballistic $z = 1$; diffusive $z = 2$. |
+| $\Phi(G, \hbar, L)$ | Transition function bridging quantum and gravitational regimes, entering some heuristic derivations (notation preserved from the draft). |
+| $\Omega(G, \hbar, L)$ | Quantum-gravitational transition function (distinct from $\Phi$); used in the combined-regime discussion. |
+| $dt_s, dt_\ell$ | Short-scale and large-scale time intervals used in coupled dynamics/derivations. |
+| $L_P$ | Planck length: $L_P = \sqrt{\hbar G / c^3}$. |
+| $\kappa$ | Curvature parameter $\kappa = 2GM/(c^2 L)$, used in properties of $\Omega$. |
+| $\ell$ | Mean free path in the medium (assumption/parameter in certain derivations). |
+| $G$ | Universal gravitational constant ($6.674 \times 10^{-11} \text{ m}^3 \text{ kg}^{-1} \text{ s}^{-2}$). |
 
 Note: T0, L0, ρ0, and 𝓣0 are arbitrary reference scales that cancel in cross‑system comparisons; with this convention, the right‑hand side of the master law is dimensionless.
 
