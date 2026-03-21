@@ -309,8 +309,8 @@ This is the personal memoir and "psycho-physical baseline" of Álvaro Quiceno, t
 
 **The Big Takeaway:** RTM is the result of a "perfect alignment" between ancient natural wisdom, modern technology (AI), and a mind willing to subject its deepest visions to the discipline of formalization.
 
-# VI- Computational Simulations - The Digital Crucible
-In the RTM framework, simulations aren't just used to show that the math works; they are used as a "stress-test" to see if the theory survives the laws of physics. While many RTM documents have been tested against real-world data (hurricanes  or heart rates), Document 016 (The Aetherion) and Document 017 (Unified Fields) deal with forces so extreme that they must first be validated in a virtual laboratory.
+# VI- Computational Simulations and Validations - The Digital Crucible
+In the RTM framework, simulations aren't just used to show that the math works; they are used as a "stress-test" to see if the theory survives the laws of physics. While many RTM documents have been tested against real-world data (hurricanes, heart rates, etc), Document 016 (The Aetherion) and Document 017 (Unified Fields) deal with forces so extreme that they must first be validated in a virtual laboratory.
 To keep things honest, RTM uses a "Red Team" Protocol. This means that once a simulation is built, an independent "audit" is performed to inject real-world messiness like thermal noise, manufacturing defects, and signal delay to ensure we aren't just seeing what we want to see.
 
 ### Document 016-Aetherion, The Jumper (The Engine)
