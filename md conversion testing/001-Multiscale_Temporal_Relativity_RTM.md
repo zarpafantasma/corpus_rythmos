@@ -2186,9 +2186,9 @@ for multiple physical regimes discussed in the RTM framework. Each section lists
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
 | $$\mathbf{\lambda}$$              | De Broglie wavelength / confinement length (quantum regime)                                           |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{\rho}_{\mathbf{loc}}$$  | Local mass/energy density                                                                             |
+| $\boldsymbol{\rho}_{\text{loc}}$  | Local mass/energy density                                                                             |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
-| $$\mathbf{\rho}_{\mathbf{hier}}$$ | Hierarchical/global density                                                                           |
+| $\boldsymbol{\rho}_{\text{hier}}$ | Hierarchical/global density                                                                           |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------+
 
 *\*The color/index cues are optional but help distinguish quantities in figures or code.*\
