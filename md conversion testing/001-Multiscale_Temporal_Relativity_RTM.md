@@ -1,4 +1,4 @@
-<div align="center">![](media/snake1.png){width="2.058333333333333in" height="2.058333333333333in"}
+<div align="center"><img src="media/snake1.png" width="200" alt="Diagrama de Snake">
 
 # RTM
 **Multiscale Temporal Relativity**  
