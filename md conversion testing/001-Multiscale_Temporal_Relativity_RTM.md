@@ -155,11 +155,7 @@ To avoid ambiguity between **time** and **temperature** and to ensure strict dim
 We use the non-dimensional master relation  
   
 $$
-\frac{T}{T_0} = \left( \frac{L}{L_0} \right)^\alpha \frac{\Theta(\mathcal{T})}{\sqrt{\rho/\rho_0}}
-$$
-
-$$
-\Theta(\mathcal{T}) \in \left\\{ \frac{\mathcal{T}}{\mathcal{T}_0}, \sqrt{\frac{\mathcal{T}_s}{\mathcal{T}_l}} \right\\}
+\frac{T}{T_0} = \left( \frac{L}{L_0} \right)^\alpha \frac{\Theta(\mathcal{T})}{\sqrt{\rho / \rho_0}}, \quad \Theta(\mathcal{T}) \in \left\\{ \frac{\mathcal{T}}{\mathcal{T}_0}, \sqrt{\frac{\mathcal{T}_s}{\mathcal{T}_l}} \right\\}
 $$
   
 where $T_{0}$, $L_{0}$, $\rho_{0}$, $\mathcal{T}_{0}$ are arbitrary reference scales that cancel in cross-system comparisons. With this convention, **all factors multiplying** $\left( L/L_{0} \right)^{\alpha}$ are dimensionless, and the proportionality becomes an equality once $T_{0}$ is fixed by the chosen observable.
