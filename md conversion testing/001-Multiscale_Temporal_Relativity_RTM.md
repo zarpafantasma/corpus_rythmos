@@ -254,16 +254,13 @@ The notable convergence of these two independent theoretical approaches---string
 
 **Table of *α* Values Across Theories and Systems.**
 
-  ------------------------------------------------------------------------------------------
-  **THEORY/PHENOMENOM**   ***α VALUE***   **PHYSICAL JUSTIFICATION**
-  ----------------------- --------------- --------------------------------------------------
-  Loop Quantum Gravity    *α*≈3.5         Spacetime lattice deformations at quantum scales
+### Table of $\alpha$ Values Across Theories and Systems
 
-  AdS/CFT Holography      *α*=3.0         Area-volume duality in holographic spacetimes
-
-  Biological Networks     *α*≈2.5         Fractal metabolic scaling
-  
-  ------------------------------------------------------------------------------------------
+| THEORY / PHENOMENON | $\alpha$ VALUE | PHYSICAL JUSTIFICATION |
+| :--- | :--- | :--- |
+| **Loop Quantum Gravity** | $\alpha \approx 3.5$ | Spacetime lattice deformations at quantum scales |
+| **AdS/CFT Holography** | $\alpha = 3.0$ | Area-volume duality in holographic spacetimes |
+| **Biological Networks** | $\alpha \approx 2.5$ | Fractal metabolic scaling |
 
 **Disambiguation of the high‑regime exponent (α ≈ 3.0 vs 3.5)**
 
@@ -287,14 +284,10 @@ Finite‑size sanity check.
 
 To rule out window bias, we report: (i) fits with and without the largest L, (ii) bootstrap confidence intervals, and (iii) a convergence note ("pre‑asymptotic" vs "converged"). If α drifts systematically with the window, we treat it as a finite‑size artifact rather than a new regime.
 
-  ------------------------------------------------------------------------------------------------------------------------------------
-  Regime                               Assumptions                                      Operational T                 Expected α
-  ------------------------------------ ------------------------------------------------ ----------------------------- ----------------
-  Quantum‑confined (canonical)         Confinement + boundary/edge correction present   Decoherence/relaxation time   ≈ 3.5
-
-  Holographic/relativistic (variant)   z ≈ 1; no strong confinement; no edge term       Propagation/relaxation time   ≈ 3.0
-  
-  ------------------------------------------------------------------------------------------------------------------------------------
+| Regime | Assumptions | Operational $T$ | Expected $\alpha$ |
+| :--- | :--- | :--- | :--- |
+| **Quantum-confined (canonical)** | Confinement + boundary/edge correction present | Decoherence/relaxation time | $\approx 3.5$ |
+| **Holographic/relativistic (variant)** | $z \approx 1$; no strong confinement; no edge term | Propagation/relaxation time | $\approx 3.0$ |
 
 **Relationship with Classical Systems:**
 
@@ -342,22 +335,16 @@ This section introduces a unified classification of the different physical regim
 
 **Domains of Validity for α**
 
-  -----------------------------------------------------------------------------------------------------------------------------------
-  **Domain**                      **Validity Conditions**         **Formula for α**                      **Example**
-  ------------------------------- ------------------------------- -------------------------------------- ----------------------------
-  Quantum-dominated systems       L ≪ ξ (coherence length)        α = d + 1/2                            BEC: α ≈ 3.5
+### Domains of Validity for $\alpha$
 
-  Local interactions              Short-range, weak correlation   α = z (z=1 ballistic, z=2 diffusive)   Ion chains: α ≈ 1
-
-  Long-range forces               Coulomb/hydro tails \~ r⁻²      α = d − 1                              Electrohydrodynamic: α ≈ 2
-
-  Fractal/biological structures   Self-similar, d_F \< d          α = d_F − ε                            Vascular system: α ≈ 2.5
-
-  Holographic / stringy limit     g_s small, L \~ l_s             α ≈ 3.5 − (3/2)(g_s/2π)                String regime: α ≈ 3.48
-
-  Gravity-dominated systems       L ≫ L_P, ρ ≫ ρ_crit             α non-autonomous, use Ω(G,ℏ,L)         Neutron star core
-    
-  -----------------------------------------------------------------------------------------------------------------------------------
+| Domain | Validity Conditions | Formula for $\alpha$ | Example |
+| :--- | :--- | :--- | :--- |
+| **Quantum-dominated systems** | $L \ll \xi$ (coherence length) | $\alpha = d + 1/2$ | BEC: $\alpha \approx 3.5$ |
+| **Local interactions** | Short-range, weak correlation | $\alpha = z$ ($z=1$ ballistic, $z=2$ diffusive) | Ion chains: $\alpha \approx 1$ |
+| **Long-range forces** | Coulomb/hydro tails $\sim r^{-2}$ | $\alpha = d - 1$ | Electrohydrodynamic: $\alpha \approx 2$ |
+| **Fractal/biological structures** | Self-similar, $d_F < d$ | $\alpha = d_F - \varepsilon$ | Vascular system: $\alpha \approx 2.5$ |
+| **Holographic / stringy limit** | $g_s$ small, $L \sim L_s$ | $\alpha \approx 3.5 - (3/2)(g_s/2\pi)$ | String regime: $\alpha \approx 3.48$ |
+| **Gravity-dominated systems** | $L \gg L_P, \rho \gg \rho_{\text{crit}}$ | $\alpha$ non-autonomous, use $\Omega(G, \hbar, L)$ | Neutron star core |
 
 **2.7 Physical Interpretation of Parameter** $\mathbf{\alpha}$
 
