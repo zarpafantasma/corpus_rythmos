@@ -2222,7 +2222,7 @@ $$
 The diffusion equation become
 
 $$
-\frac{\partial \rho^{*}}{\partial t^{*}} = \left( \frac{D T_{0}}{L_{0}^{2}} \right) \nabla^{2} \rho^{*}
+\frac{\partial \rho^{\ast}}{\partial t^{\ast}} = \left( \frac{D T_0}{L_0^2} \right) \nabla^2 \rho^{\ast}
 $$
 
 To preserve form invariance we must choose $T_{0} = L_{0}^{2}/D$
