@@ -1315,14 +1315,10 @@ The $r^{- 3}$ decay is the critical ingredient: in three dimensions, $P(r)\backs
 \| 20 \| 8,000 \| 16,609 \| 18,868 \| 13,811 \| 19,683 \| 175/175 \|
 
 All 1,400 walks complete successfully (100% completion rate).
-
 **Power-law fit:**
-
-$$T = 2.19 \times L^{2.9499}$$
-
-$$\alpha = 2.9499 \pm 0.0683\backslash quadR^{2} = 0.9968$$
-
-$$\backslash textBootstrap95\backslash\ % CI:\lbrack 2.8151,\, 3.0806\$$
+T = 2.19 × L^2.9499
+α = 2.9499 ± 0.0683 | **R²** = 0.9968
+**Bootstrap 95% CI:** [2.8151, 3.0806]
 
 **Sensitivity analysis:**
 
