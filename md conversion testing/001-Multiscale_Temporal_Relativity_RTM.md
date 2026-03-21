@@ -1362,15 +1362,15 @@ To test this, we constructed a **Confinement Proxy Model**:
 
 **Results: Topological Sufficiency**
 
-The simulation reveals that while standard lattices saturate at $\backslash alpha\ \backslash approx\ 3.0$, introducing significant boundary impedance ($\backslash gamma\ \backslash approx\ 1.0$) consistently pushes the scaling exponent into the $\mathbf{3.45\  < \ \backslash alpha\  < \ 3.55}$ band.
+The simulation reveals that while standard lattices saturate at **α ≈ 3.0**, introducing significant boundary impedance (**γ ≈ 1.0**) consistently pushes the scaling exponent into the **3.45 < α < 3.55** band.
 
-Crucially, the emergence of $\backslash alpha\ \backslash approx\ 3.5$ appears as an additive correction to the holographic limit:
+Crucially, the emergence of **α ≈ 3.5** appears as an additive correction to the holographic limit:
 
 $$\alpha_{quantum} \approx \backslash alpha_{holographic}(3.0) + \alpha_{boundary}(0.5)$$
 
 **Interpretation and Limits**
 
-It is important to state that this simulation does not \"prove\" Loop Quantum Gravity or String Theory mechanics directly. Instead, it provides a **proof of existence for the topology**. It demonstrates that the $\backslash alpha\ \backslash approx\ 3.5$ exponent is physically realizable in a network system if, and only if, boundary confinement dominates the transport dynamics.
+It is important to state that this simulation does not \"prove\" Loop Quantum Gravity or String Theory mechanics directly. Instead, it provides a **proof of existence for the topology**. It demonstrates that the **α ≈ 3.5** exponent is physically realizable in a network system if, and only if, boundary confinement dominates the transport dynamics.
 
 This result suggests that the \"Quantum-Confined Regime\" in RTM can be modeled as a **holographic bulk with active boundary constraints**. This offers a clear topological target for future high-fidelity quantum simulations: researchers should look for systems where edge states impose a $\backslash sim\ 0.5$ lag on the global temporal scaling.
 
