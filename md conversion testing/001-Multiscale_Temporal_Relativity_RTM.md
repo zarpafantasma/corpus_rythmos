@@ -699,12 +699,13 @@ The effective α parameter for information processing in the brain varies with t
 
 This scale-dependent α explains why certain visual processing tasks exhibit different temporal scaling properties.
 
-**α** values across brain scales.**
+**α values across brain scales.**
 
-SCALE,REGION,MEASURED α,APPLICATION
-Microscopic,Single Neurons,α=2.2,Synaptic dynamics
-Mesoscopic,Cortical Columns,α=2.5,Visual processing
-Macroscopic,Hemispheres,α=3.0,Functional connectivity
+| SCALE | REGION | MEASURED α | APPLICATION |
+| :--- | :--- | :--- | :--- |
+| **Microscopic** | Single Neurons | α = 2.2 | Synaptic dynamics |
+| **Mesoscopic** | Cortical Columns | α = 2.5 | Visual processing |
+| **Macroscopic** | Hemispheres | α = 3.0 | Functional connectivity |
 
 **b. Vascular Systems**
 
