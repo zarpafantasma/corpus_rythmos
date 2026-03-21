@@ -237,7 +237,7 @@ However, when considering quantum corrections from string loop effects, this val
 
 $$\alpha_{corrected} = \alpha_{string} - \frac{g_{s}^{2}}{2\pi}$$
 
-Where $g_{s}$ is the string coupling constant. For weakly coupled strings with$\ g_{s} \approx 0.5$, we obtain:
+Where $g_s$ is the string coupling constant. For weakly coupled strings with $g_s \approx 0.5$, we obtain:
 
 $$\alpha_{corrected} \approx 4 - \frac{{0.5}^{2}}{2\pi} \approx 4 - 0.04 \approx 3.96$$
 
