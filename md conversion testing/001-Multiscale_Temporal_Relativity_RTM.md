@@ -2486,7 +2486,7 @@ RTM does not confine itself to a particular dimensional ontology. Instead, it pr
 
 -   **P4 -- Finite causality:** there is a finite maximal speed/rate for the propagation of influence (Lieb--Robinson--type or hydrodynamic analog).
 
-## **J.2 Theorem:** power law is necessary
+**J.2 Theorem:** power law is necessary
 
 **Proposition 1 (scale semigroup** $\mathbf{\Rightarrow}$ **Cauchy multiplicative).** P1 implies $T\left( \lambda_{1}\lambda_{2}L \right) = \Phi\left( \lambda_{1} \right)\Phi\left( \lambda_{2} \right)T(L)$ for some $\Phi$. By continuity (P2), the only solution is $\Phi(\lambda) = \lambda^{\alpha}$. Therefore
 
