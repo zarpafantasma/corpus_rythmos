@@ -114,6 +114,7 @@ This work establishes a rigorous foundation for understanding how time flows dif
   **ℓ**                                       Mean free path in the medium (assumption/parameter in certain derivations).
 
   **G**                                       Universal gravitational constant (6.674 × 10⁻¹¹ m³ kg⁻¹ s⁻²).
+  
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Note: T0, L0, ρ0, and 𝓣0 are arbitrary reference scales that cancel in cross‑system comparisons; with this convention, the right‑hand side of the master law is dimensionless.
