@@ -2219,7 +2219,7 @@ $$
 x^* = \frac{x}{L_0}, \quad t^* = \frac{t}{T_0}, \quad \rho^* = \frac{\rho}{\rho_0}
 $$
 
-The diffusion equation become
+The diffusion equation becomes
 
 $$
 \frac{\partial \rho^{\ast}}{\partial t^{\ast}} = \left( \frac{D T_0}{L_0^2} \right) \nabla^2 \rho^{\ast}
@@ -2329,11 +2329,11 @@ $$T = \frac{L^{2}}{2D}\int_{0}^{\infty}{u^{- 3}erf(u)du =}\underset{C_{1}}{\over
 
 6.  **Final scaling:**
 
-$T = (1/6)\frac{L^{2}}{D}\ $ Geometry: 3D sphere, start at $r\  = \ 0$; absorbing boundary at $r\  = \ L$
+$T = (1/6) \frac{L^2}{D}$ Geometry: 3D sphere, start at $r = 0$; absorbing boundary at $r = L$
 
-Thus, ${T \propto L}^{2}$ and $\alpha = 2$ exactly, with a calculable prefactor.
+Thus, $T \propto L^2$ and $\alpha = 2$ exactly, with a calculable prefactor.
 
-*Checkpoint: A random-walk simulation with lattice spacing* $a$ *and time step* $\Delta t$ *must recover* $T\  \approx L^{2}/(6D),\ $ *for large* $L/a$ *(3D, start at center).*
+*Checkpoint:* A random-walk simulation with lattice spacing $a$ and time step $\Delta t$ must recover $T \approx L^2 / (6D)$ for large $L/a$ (3D, start at center).
 
 **3.5 Comments & validation targets**
 
