@@ -113,12 +113,13 @@ This document applies RTM to the brain, treating consciousness as a specific "tr
 **The Big Takeaway:** Consciousness is a macroscopic geometric property. Our thoughts, our music, and our speech are all physical projections of the mind’s internal multiscale rhythm.
 
 ## 011 - Conscious Access (The Coherence Threshold)
-This document explains exactly how the brain "switches on" consciousness, using a strictly physical, non-quantum threshold.  
-**-The 2-Factor Test:** Conscious access isn't a mystery; it requires two measurable things: (1) crossing a specific multiscale coherence threshold ($\alpha > 0.50$), and (2) information flowing in a forward direction through the neural hierarchy.  
-**-The Ketamine Paradox:** It explains why ketamine patients can be paralyzed but still dreaming vividly: unlike other anesthetics that "collapse" the brain's rhythm, ketamine keeps the brain’s "transport class" intact, even while cutting off the body.  
-**-Topological Fluidity:** Consciousness is defined as the "structural fluidity" of the neural network. When that fluidity breaks (through trauma or drugs), the light of the mind goes out.
+This document explains how the brain "switches on" consciousness using strictly physical, non-quantum metrics—and how pathological states physically fracture this architecture.  
+**The 2-Metric Framework:** Conscious access requires monitoring two distinct biomarkers: (1) R² (geometric coherence of the power-law fit), which detects acute topological collapse, and (2) α (the RTM transport exponent), which tracks the gradient of cognitive coupling when coherence is intact.  
+**The Epileptic Collapse:** A "red team" validation on 11,500 real EEG recordings revealed that seizures are not merely shifts in α—they are violent fractures of the brain's multiscale topology. R² collapses from 0.88 to 0.71 (Cohen's d = −1.55), representing a state of "Holonomy" where conflicting neural scales attempt to impose their rhythm simultaneously. This is the largest effect size in the entire RTM-consciousness validation.  
+**The Ketamine Paradox:** The framework explains why ketamine patients can be paralyzed yet dreaming vividly: unlike propofol, which "coagulates" the network topology (steepening the spectral slope by Δβ ≈ −1.25), ketamine preserves the conscious transport regime (Δβ ≈ −0.10), maintaining structural fluidity despite motor paralysis.  
+**Topological Filtration:** For Scalp EEG, filtering out geometrically incoherent epochs (R² < 0.60) sharpens the consciousness signal, improving the Eyes Open vs. Closed effect size from d = 0.33 to d = 0.39.  
 
-**The Big Takeaway:** We don't need exotic "quantum" theories to explain the mind. Consciousness is a threshold event in the brain's multiscale topology.
+**The Big Takeaway:** Consciousness is a threshold event in the brain's multiscale topology. R² collapse detects acute pathology (seizures, anesthesia); α tracks the gradient of awareness when geometry is intact. No quantum mechanics required—just geometry.
 
 ## 012 - Rhythmic Ecology (The Architecture of the Biosphere)
 RTM scales up to the entire planet, showing that the stability of a forest or the spread of a virus is governed by the same geometric transport laws.  
