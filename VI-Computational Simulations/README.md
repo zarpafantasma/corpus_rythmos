@@ -4,6 +4,28 @@ This folder contains **computational validations** of the RTM theoretical framew
 
 ---
 
+## ⚠️ Nature of This Section
+
+This folder focuses exclusively on **Papers 001, 016, and 017** — the three papers whose validations are necessarily *computational* rather than *empirical*.
+
+**Why these three?**
+
+| Paper | Topic | Why Computational |
+|-------|-------|-------------------|
+| **001** | Core RTM scaling law (T ∝ L^α) | Tests mathematical emergence of α from network topology — no external data needed |
+| **016** | Aetherion vacuum propulsion | No experimental apparatus exists to test vacuum gradient effects |
+| **017** | RTM Unified Field Framework | QFT formalism, AdS/CFT holography — validates theoretical consistency |
+
+**Papers 003–015** have their validations in **Folder VII (Empirical and Heuristic Validations)** because those domains have real-world datasets against which RTM predictions can be tested: visual cortex latencies, gravitational wave catalogs, cardiac HRV, hurricane intensification, market crashes, etc.
+
+**The critical distinction:**
+- **Folder VI (here):** Does the math work internally? Are thermodynamic laws preserved? Do numerical solutions converge?
+- **Folder VII:** Does the math match reality? Do observed scaling exponents match RTM predictions?
+
+Papers 001, 016, and 017 can only answer the first question. Empirical validation of vacuum propulsion, branch-jumping, and unified field effects awaits future experiments that do not yet exist.
+
+---
+
 ## Structure
 
 Each paper's simulations include:
@@ -146,27 +168,27 @@ Red Team audits inject:
 
 ---
 
-## Papers with Empirical Validation (Not Included Here)
+## Papers 003–015: Empirical Validations (See Folder VII)
 
-Papers 003–015 include simulations validated against **real-world data**:
+Papers 003–015 are validated against **real-world data** and therefore reside in **Folder VII (Empirical and Heuristic Validations)**:
 
 | Paper | Domain | Data Source |
 |-------|--------|-------------|
-| 003 | Metabolic scaling | Kleiber's law, West-Brown-Enquist |
-| 004 | Neural dynamics | EEG/MEG recordings |
-| 005 | Cardiovascular | Heart rate variability |
-| 006 | Respiratory | Breathing pattern analysis |
-| 007 | Muscular | Force-velocity relationships |
-| 008 | Cellular | Enzyme kinetics |
-| 009 | Ecological | Species-area relationships |
-| 010 | Linguistic | Zipf's law, Heaps' law |
-| 011 | Economic | Firm size distributions |
-| 012 | Urban | City scaling laws |
-| 013 | Atmospheric | RTM-Atmo validation suite |
-| 014 | Oceanic | Ocean dynamics |
-| 015 | Seismic | Earthquake recurrence |
+| 003 | Visual Cortex | Receptive field sizes, response latencies |
+| 004 | Cosmology | JWST high-redshift galaxies |
+| 005 | Gravitational Waves | LIGO/Virgo/KAGRA catalogs (O1-O4) |
+| 006 | Quantum Computing | IBM quantum processor decoherence |
+| 007 | Chemistry | Zeolite diffusion, transport networks |
+| 008 | Biochemistry | Enzyme kinetics, protein folding |
+| 009 | Homeostasis | Heart rate variability (PhysioNet) |
+| 010 | Neuroscience | EEG states (sleep, meditation, epilepsy) |
+| 011 | Consciousness | Anesthesia depth markers |
+| 012 | Ecology/Epidemiology | AnAge database, COVID-19 spread |
+| 013 | Meteorology | IBTrACS hurricanes, climate extremes |
+| 014 | Astronomy | SPARC galaxies, solar wind plasma |
+| 015 | Economics | Bitcoin crashes (Binance data) |
 
-These are not included in this upload because they have external data sources establishing ground truth. Papers 001, 016, and 017 are included because their validation is purely mathematical — internal consistency, not external confirmation.
+These papers test RTM predictions against external ground truth. Papers 001, 016, and 017 (this folder) test internal mathematical consistency because no external ground truth yet exists for their predictions.
 
 ---
 
