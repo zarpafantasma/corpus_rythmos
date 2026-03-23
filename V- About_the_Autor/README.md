@@ -116,7 +116,19 @@ For those familiar with psychedelic literature: the experiences described align 
 
 ---
 
+## Citation
+
+If you use this work, please cite:
+
+```
+Quiceno, Á. (2026). Corpus Rythmos.
+https://github.com/zarpafantasma/corpus_rythmos
+```
+
+---
+
 ## License
 
 © 2026 Álvaro José Quiceno Rendón  
 Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+Note: **Use the most recent Zenodo DOI identifier.**
