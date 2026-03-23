@@ -149,9 +149,19 @@ The applications do not introduce new theory — they package validated RTM metr
 
 ---
 
+## Citation
+
+If you use this work, please cite:
+
+```
+Quiceno, Á. (2026). Corpus Rythmos.
+https://github.com/zarpafantasma/corpus_rythmos
+```
+
+---
+
 ## License
 
 © 2026 Álvaro José Quiceno Rendón  
 Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-
-GitHub: [github.com/zarpafantasma/corpus_rythmos](https://github.com/zarpafantasma/corpus_rythmos)
+Note: **Use the most recent Zenodo DOI identifier.**
