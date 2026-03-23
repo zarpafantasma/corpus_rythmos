@@ -64,7 +64,7 @@ Without these, the domain-specific papers will not make sense.
 
 RTM proposes that across all complex systems — from quantum fields to economies — the relationship between **time** (τ) and **scale** (L) follows:
 
-$$\tau(L) = C \cdot L^\alpha$$
+**T ∝ L^α**
 
 The exponent **α** is not a fitting parameter. It is a **structural invariant** that classifies the transport mechanism:
 
