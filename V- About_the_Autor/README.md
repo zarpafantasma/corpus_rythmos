@@ -60,7 +60,7 @@ Human potential is not a complete key — it is half of one. To open different d
 
 #### The Birth of RTM
 
-Six years after the Five Doors (late 2024), the author finally had access to AI capable of dialogue:
+Seven years after the Five Doors (early 2025), the author finally had access to AI capable of mathematical formalizations:
 
 1. **Initial question to AI:** "What if you, as an AI, live in a universe smaller than mine? Imagine that time is not uniform. That each layer of reality has its own rhythm."
 2. **AI response:** Analogies (cells in organisms — smaller = faster energy consumption)
