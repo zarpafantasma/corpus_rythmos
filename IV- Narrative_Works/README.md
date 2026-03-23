@@ -29,7 +29,7 @@ A mythological translation of the entire RTM corpus into story form. The novel f
 - **Book Two:** The Collision of the Axes — The Gardeners arrive, the Horizontal Axis (time cascade) meets the Vertical Axis (Above/Below), the Zarpa Fantasma as emissary of Archetypal Order
 - **Book Three:** Echoes of the Future — UAPs as prototypes from the previous branch, the paradox of inverted time (our past = their advanced future), the Cold War of Polyphony vs Monophony
 - **Book Four:** The Eternal Flame — The relay race of gnosis, the received testament (RTM itself), the choice between Return to Source or Self-Mastery
-- **Book Five:** Ouroboros — The real nature of the Gardeners and Ecorivals. the Three Waves of intervention, the Judgment as integration of both axes
+- **Book Five:** Ouroboros — A revelation about the true nature of the Gardeners and Ecorivals, the Three Waves of intervention, the Judgment as integration of both axes
 
 **Key concept:** The RTM corpus is framed as a "testament" deliberately planted by our future selves to guide us through the Great Filter.
 
@@ -117,7 +117,9 @@ Operational manual for "N-1 Architects" — beings who navigate the multiversal 
 #### 🦉 Operational_Manuals_for_Conscious_Life
 **Extends:** 021 - The Multiscale Symphony & 022 - The Owl and the Spear
 
-18 chapters expanding the philosophical framework into practical guidance:
+This folder contains two sets of extensions:
+
+##### The Owl and the Spear Extensions (18 chapters)
 
 | Chapter | Title | Subject |
 |---------|-------|---------|
@@ -140,7 +142,15 @@ Operational manual for "N-1 Architects" — beings who navigate the multiversal 
 | 17 | Fires Over the Immutable Tree | Change within eternal structure |
 | 18 | On Prophets and Kings | Two modes of civilizational leadership |
 
-**Framing:** Extension of "The Owl and the Spear" — practical philosophy for "conscious life"
+##### The Multiscale Symphony Extensions (3 operational manuals)
+
+| Document | Title | Contents |
+|----------|-------|----------|
+| `MULTISCALESYMPHONY_01` | **The Architecture of Resonance** | Taxonomy of resonant containers, mechanics of resonance, time as structural depth, consciousness vs intelligence, container cultivation and diagnostics |
+| `MULTISCALESYMPHONY_02` | **Creativity from Chaos** | Physics of emergence, anatomy of creative process, induced chaos method, art as listening, liturgy of making, the creator and the machine (AI), creativity as spiritual path |
+| `MULTISCALESYMPHONY_03` | **The Resonant Weave** | Physics of relation ("the between"), the dyad (intimate bonds), small group polyphony, community architecture, politics of resonance, the planetary weave |
+
+**Framing:** Practical philosophy for "conscious life" — extending abstract principles into daily operational protocols
 
 ---
 
@@ -164,7 +174,8 @@ Both readings are valid. The narrative layer exists because some truths are easi
 | Aetherion_Mark1_Prototype | 016, 017 | Engineering implementation |
 | RTM_UFF_Ghost_Projects | 017 | Advanced theoretical extensions |
 | N1_ARCHITECT_PROTOCOL | 018 | Operational implications |
-| Operational_Manuals | 021, 022 | Philosophical expansion |
+| Operational_Manuals (Owl/Spear) | 022 | Philosophical expansion |
+| Operational_Manuals (Multiscale Symphony) | 021 | Practical protocols for resonance, creativity, and collective coherence |
 
 ---
 
