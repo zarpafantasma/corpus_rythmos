@@ -4,17 +4,6 @@ This folder contains **computational validations** of the RTM theoretical framew
 
 ---
 
-## ⚠️ Nature of This Section
-
-These simulations fall into two categories:
-
-1. **Empirically grounded:** Validations against real-world data (metabolic scaling, neural dynamics, atmospheric systems, tornado vorticity, etc.)
-2. **Mathematically grounded:** Internal consistency checks for theoretical predictions where empirical data does not yet exist (vacuum propulsion, branch-jumping, quantum corrections)
-
-Papers 001, 016, and 017 fall into the second category — they validate mathematical consistency, not empirical truth. This distinction is critical for honest interpretation.
-
----
-
 ## Structure
 
 Each paper's simulations include:
