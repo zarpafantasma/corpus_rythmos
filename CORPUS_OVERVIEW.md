@@ -130,8 +130,10 @@ RTM scales up to the entire planet, showing that the stability of a forest or th
 
 ## 013 - Rhythmic Meteorology (The Storm’s Geometry)
 This document applies RTM to the atmosphere, treating hurricanes and weather patterns as macroscopic fluid networks that can be predicted through their "rhythm."  
-**-The Alpha-Drop Precursor:** It discovers that before a massive storm rapidly intensifies (like Hurricane Otis), its multiscale coherence ($\alpha$) undergoes a sudden, sharp drop. This provides a clear physical "warning signal" 18-30 hours in advance.  
+
+**-The Alpha-Drop Precursor:** It discovers that before a massive storm rapidly intensifies (like Hurricane Otis), its multiscale coherence (α) undergoes a sudden, sharp drop. This provides a clear physical "warning signal" 18-30 hours in advance.  
 **-Superfluid Hurricanes:** When a storm's organization tightens below a specific threshold, it enters a "Superfluid" state where friction disappears and kinetic energy explodes.  
+**-Tornado False Alarm Filter:** The same α exponent discriminates real tornadoes from false alarms by measuring whether mesocyclone rotation couples completely to the surface. A single threshold reduces the 70% false alarm rate by 16 points—matching 30 years of NWS improvement.  
 **-Macroscopic Fluid Unity:** By analyzing satellite and drifter data, the document proves that the atmosphere and global ocean are coupled in a single, multiscale topological network.
 
 **The Big Takeaway:** Weather isn't random chaos. It is a series of "topological phase transitions." We can predict extreme weather by measuring the "fluidity" of the atmospheric rhythm.
