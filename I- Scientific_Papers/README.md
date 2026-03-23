@@ -96,8 +96,7 @@ This single principle unifies phenomena from black holes to brain states to torn
 If you use this work, please cite:
 
 ```
-Quiceno, Á. (2026). Multiscale Temporal Relativity: A Unified Framework for 
-Power-Law Scaling in Complex Systems. Corpus Rythmos.
+Quiceno, Á. (2026). Corpus Rythmos.
 https://github.com/zarpafantasma/corpus_rythmos
 ```
 
