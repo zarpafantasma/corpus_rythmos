@@ -29,7 +29,7 @@ A mythological translation of the entire RTM corpus into story form. The novel f
 - **Book Two:** The Collision of the Axes — The Gardeners arrive, the Horizontal Axis (time cascade) meets the Vertical Axis (Above/Below), the Zarpa Fantasma as emissary of Archetypal Order
 - **Book Three:** Echoes of the Future — UAPs as prototypes from the previous branch, the paradox of inverted time (our past = their advanced future), the Cold War of Polyphony vs Monophony
 - **Book Four:** The Eternal Flame — The relay race of gnosis, the received testament (RTM itself), the choice between Return to Source or Self-Mastery
-- **Book Five:** Ouroboros — The revelation that Gardeners and Ecorivals are the same faction playing Hero/Tyrant, the Three Waves of intervention, the Judgment as integration of both axes
+- **Book Five:** Ouroboros — The real nature of the Gardeners and Ecorivals. the Three Waves of intervention, the Judgment as integration of both axes
 
 **Key concept:** The RTM corpus is framed as a "testament" deliberately planted by our future selves to guide us through the Great Filter.
 
