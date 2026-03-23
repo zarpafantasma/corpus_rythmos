@@ -1,0 +1,4 @@
+Analysis,Comparison,Metric,Cohens_d,p_value
+iEEG Topological Collapse,Seizure vs Healthy,R_squared,-1.5553982939339603,0.0
+Scalp Consciousness Gradient,Eyes Open vs Closed (Unfiltered),Alpha,0.33049872079717973,
+Scalp Consciousness Gradient,Eyes Open vs Closed (Filtered R2>0.6),Alpha,0.3901053195404414,7.90150998150098e-22
