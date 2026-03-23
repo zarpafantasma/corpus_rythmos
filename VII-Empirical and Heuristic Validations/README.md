@@ -279,9 +279,19 @@ The same mathematics describes radically different phenomena because they share 
 
 ---
 
+## Citation
+
+If you use this work, please cite:
+
+```
+Quiceno, Á. (2026). Corpus Rythmos.
+https://github.com/zarpafantasma/corpus_rythmos
+```
+
+---
+
 ## License
 
 © 2026 Álvaro José Quiceno Rendón  
 Distributed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-
-Data sources retain their original licenses (LIGO: CC BY 4.0, IBTrACS: Public Domain, etc.)
+Note: **Use the most recent Zenodo DOI identifier.**
