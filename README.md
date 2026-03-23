@@ -76,7 +76,7 @@ All ROBUST validations have undergone adversarial "Red Team" audits correcting f
 
 ## 🟢 ROBUST Validations (Red Team Audited)
 
-**22 domains | ODR + Monte Carlo | Errors-in-Variables propagated**
+**24 domains | ODR + Monte Carlo | Errors-in-Variables propagated**
 
 ### Astrophysics & Cosmology
 
@@ -121,6 +121,7 @@ All ROBUST validations have undergone adversarial "Red Team" audits correcting f
 | **Hurricane RI** | 11.6h warning window | Continuous ODR | Phase transition |
 | **Climate Extremes** | α = 0.43 ± 0.002 | Spatial variance ODR | Sub-diffusive |
 | **Oceanography** | n = 2.913 ± 0.337 | MC (1,090 drifters) | Richardson t³ |
+| **Tornado Warnings** | -16 pts FAR @ 85% POD | TorNet (1,105 records) | Vortical coupling |
 
 ### Socioeconomic Systems
 
