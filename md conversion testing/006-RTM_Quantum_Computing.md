@@ -508,12 +508,15 @@ with $r \equiv 0$ under exact RTM or $\mid r^{'}(x) \mid \leq \varepsilon$ under
 
 **Default target:** point slope $\alpha$ for the bin; intercept $c$ is a **gauge** (not compared across bins).
 
-**5.2 Orthogonal Distance Regression (Total Least Squares)**
+### 5.2 Orthogonal Distance Regression (Total Least Squares)
 
 **Definition.** ODR minimizes orthogonal residuals to a line:
 
-$$\underset{\alpha,c}{\min}\sum_{i}^{}\frac{(y_{i}^{obs} - \alpha x_{i}^{obs} - c)^{2}}{\sigma_{y}^{2} + \alpha^{2}\sigma_{x}^{2}}
-$$with effective (possibly heterogeneous) $(\sigma_{x},\sigma_{y})$ from replicate variance or bootstrap.
+$$
+\min_{\alpha,c} \sum_{i} \frac{(y_i^{\text{obs}} - \alpha x_i^{\text{obs}} - c)^2}{\sigma_y^2 + \alpha^2\sigma_x^2}
+$$
+
+with effective (possibly heterogeneous) $(\sigma_x, \sigma_y)$ from replicate variance or bootstrap.
 
 **Practice.**
 
