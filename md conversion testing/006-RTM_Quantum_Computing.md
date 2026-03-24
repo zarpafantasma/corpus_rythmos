@@ -1,10 +1,13 @@
-![](media/image1.jpeg){width="2.058333333333333in" height="2.058333333333333in"}
+<div align="center">
 
-**RTM-Aware Quantum Computing**
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
-A Multiscale, Slope-First Framework for Coherence, Scheduling, and Design
-
+# **RTM-Aware Quantum Computing**  
+**A Multiscale, Slope-First Framework for Coherence, Scheduling, and Design**  
+  
 Álvaro Quiceno
+
+</div>
 
 **Abstract**
 
