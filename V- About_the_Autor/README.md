@@ -4,7 +4,7 @@ This folder contains the autobiographical account of how the RTM corpus came int
 
 ---
 
-## 📖 024 - The Hidden Doors and the Half Key
+## 024 - The Hidden Doors and the Half Key
 
 **Type:** Autobiographical testimony  
 **Author:** Álvaro Quiceno
