@@ -683,7 +683,9 @@ Under the self-normalizing gauge $`f(b) = T(bL_{0})/T(L_{0})`$, the renormalizat
 which preserves the “anchor” $`\varepsilon(u_{0})`$ and shifts **differences** along $`u`$. If $`\varepsilon`$ is slowly varying, then for any compact $`I`$,
 
 ``` math
-\sup_{u \in I} \mid (\mathcal{L}_{b}^{n}\varepsilon)(u) - \varepsilon(u_{0}) \mid \underset{\phantom{n \rightarrow \infty}}{\longrightarrow}0.
+$$
+\sup_{u \in I} \left| (\mathcal{L}_{b}^{n}\varepsilon)(u) - \varepsilon(u_{0}) \right| \underset{n \to \infty}{\longrightarrow} 0.
+$$
 ```
 
 Thus $`L^{\alpha}\kappa(L)`$ flows to the **power-law leaf** determined by the chosen gauge; the slowly varying factor sits on a **center manifold** (neutral direction) that is quotiented out by self-normalization.
