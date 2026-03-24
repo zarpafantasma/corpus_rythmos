@@ -804,35 +804,12 @@ We used five lightweight simulations to audit the two core RTM signatures under 
 **Result.** Estimated slopes $`{\widehat{\alpha}}_{n}`$ **rise** with $`n`$ (typical $`run:\  \approx 1.68,\ 1.80,\ 2.09,\ 2.20`$) and track $`\alpha_{true}(n)`$ within bootstrap 95% CIs.\
 **Conclusion.** The slope pipeline is **sensitive** to monotone coherence; intercept shifts do not masquerade as slope changes.
 
-<img src="media/image2.png" style="width:5.675in;height:4.05253in" />
-
-> **Fig. E1 — Monotonic growth of the coherence exponent across layers**
->
-> Estimated slope $`\widehat{\alpha}`$ (points, 95% CIs) from $`\log\ T`$ vs $`\log\ L`$ rises from layer 1→4 and closely follows the target $`\alpha_{true}(n)`$ (line), indicating increasing coherence while separating slope from intercept (level) effects.
-
-<img src="media/image3.png" style="width:5.76481in;height:4.11667in" />
-
-> **Fig. E1 — Log–log scaling at three layers (intercepts shift, slopes rise)**
->
-> Scatter and OLS fits of $`{\log\ T}_{obs}`$ vs $`\log\ L`$ for layers 1, 3, and 4 show straight lines whose slopes increase ∼\sim∼1.68 → 2.09 → 2.20 while vertical offsets differ—illustrating that intercepts reflect level factors, whereas the slope $`\alpha`$ tracks coherence across layers.
-
 **10.3 E1b — Intercepts-only control (S1 null)**
 
 **Setup.** Same geometry as E1 but $`\alpha`$ held **constant** across layers; $`\Xi_{n}`$ varies strongly with $`n`$.\
 **Result.** $`{\widehat{\alpha}}_{n}`$ remains **flat** across layers (≈2.10, 2.03, 2.05, 1.99; CIs mutually overlapping) while the lines in log *T –*log *L* shift vertically.
 
 **Conclusion.** The method is **specific**: large level changes (gains, delays, “clock mapping”) alter **intercepts**, not **slopes**.
-
-<img src="media/image4.png" style="width:5.60833in;height:4.00493in" />
-
-> **Fig. E1b — Intercepts-only control: slope α is invariant across layers**\
-> *Estimated slopes* $`\widehat{\alpha}`$ *(points, 95% CIs) remain flat and overlap the constant target* $`\alpha_{true}`$ *(line), showing that even with strong layer-level factors, coherence (the slope) does not change—only intercepts do in the companion log–log plots.*
-
-<img src="media/image5.png" style="width:6.00833in;height:4.29057in" />
-
-> **Fig. E1b — Log–log scaling with constant slopes; intercepts differ**
->
-> Scatter and OLS fits of $`{\log\ T}_{obs}`$ vs $`\log\ L`$ for layers 1, 3, and 4 show nearly identical slopes (∼\sim∼2.10, 2.05, 1.99) but clear vertical offsets—demonstrating the intercept-only control where coherence (slope $`\alpha`$) is invariant across layers.
 
 **10.4 E2 (conditional) — Directionality with upstream control (S2)**
 
@@ -844,45 +821,17 @@ We used five lightweight simulations to audit the two core RTM signatures under 
 - **Granger (conditional)**: forward p≈**0.002** for 1→2, 2→3\|X1, 3→4\|X2; reverse nonsignificant except a weak residual at 2↔3.\
   **Conclusion.** After conditioning on the upstream layer, **forward-only directionality** remains robust; apparent reverse effects are attributable to **indirect routes** (e.g., 1→2→3).
 
-<img src="media/image6.png" style="width:5.925in;height:4.23106in" />
-
-> **Fig. E2c — Conditional transfer entropy favors forward flow**
->
-> Bars compare $`TE(X \rightarrow Y \mid Z)`$ (forward) vs $`TE(Y \rightarrow X \mid Z)`$ (reverse) for adjacent pairs: $`1 \rightarrow 2`$ (no control), $`2 \rightarrow 3 \mid X_{1}`$, and $`3 \rightarrow 4 \mid X_{2}`$​. Forward TE dominates in all cases, while reverse is negligible—evidence of one-way information transfer after controlling for upstream confounders.
-
-<img src="media/image7.png" style="width:5.75314in;height:4.10833in" />
-
-> **Fig. E2c — Conditional Granger: forward-only significance after upstream control**
->
-> Bars show $`{- \log}_{10}\ p`$ from permutation Granger tests for adjacent pairs $`(1 \rightarrow 2\ |\ none,\ 2 \rightarrow 3\ |\ control = X1,\ 3 \rightarrow 4\ |\ control = X2)`$. Forward (gold) is consistently high $`(\sim 2.7\  \Rightarrow \ p \approx 0.002)`$, while reverse (orange) is small/marginal—indicating that apparent backflow vanishes once upstream influences are controlled.
-
 **10.5 E3 — Ratchet/hysteresis (supporting)**
 
 **Setup.** Sweep a coupling parameter $`g`$ **up** and **down** with a slow internal state; estimate $`\widehat{\alpha}(g)`$ at each step.\
 **Result.** The curves form a **hysteresis loop** with area $`\mathcal{A} \approx - 2.24\ (95\%\ CI\ \lbrack - 2.54, - 1.87\rbrack`$) sign indicates loop orientation, magnitude indicates memory.\
 **Conclusion.** Evidence of **directional memory** consistent with a ratchet-like activation. This strengthens (but is not required for) the core claim.
 
-<img src="media/image8.png" style="width:5.91667in;height:4.22511in" />
-
-> **Fig. E3 — Hysteresis in** $`\mathbf{\alpha}`$ **versus coupling** $`\mathbf{g}`$ **(up- vs down-sweep)**
->
-> Estimated slopes $`\widehat{\alpha}(g)`$ from $`\log\ T - \log L`$ show distinct up-sweep (circles, 95% CI band) and down-sweep (squares, 95% CI band) branches. Their separation forms a loop—evidence of directional memory/ratchet behavior rather than a reversible response.
-
 **10.6 E4 — Null directionality control**
 
 **Setup.** Four independent AR processes (no coupling).\
 **Result.** TE is small and **symmetric**; Granger **not significant** in either direction across pairs.\
 **Conclusion.** The pipeline does **not** invent directionality—**specificity** is high under the null.
-
-<img src="media/image9.png" style="width:4.29655in;height:3.06818in" />
-
-> **Fig. E4 — Transfer entropy under the null: forward ≈ reverse (uncoupled)**\
-> *Bar plots of TE for pairs* $`1 \leftrightarrow 2,\ 2 \leftrightarrow 3`$*, and* $`3 \leftrightarrow 4`$ *in an uncoupled control show uniformly low, near-symmetric values (forward ≈ reverse), indicating no directed information flow and confirming the pipeline’s specificity.*
-
-<img src="media/image10.png" style="width:4.81379in;height:3.43754in" />
-
-> **Fig. E4 — Granger under the null: no directed causality**\
-> *Permutation Granger tests for uncoupled pairs (*$`1 \leftrightarrow 2,\ 2 \leftrightarrow 3,\ 3 \leftrightarrow 4`$*) show uniformly low* $`{- \log}_{10}p`$ *in both directions (forward vs reverse), indicating no significant causality and confirming the pipeline’s specificity in a true null.*
 
 **10.7 Joint verdict (S1/S2 decision rule)**
 
@@ -920,32 +869,14 @@ We used five lightweight simulations to audit the two core RTM signatures under 
 
 **APPENDIX A — Empirical Validation: Spatiotemporal Scaling in the Visual Cortex Cascade**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 99%" />
-</colgroup>
-<thead>
-<tr>
-<th><table style="width:87%;">
-<colgroup>
-<col style="width: 86%" />
-</colgroup>
-<thead>
-<tr>
-<th><p><strong>Convention clarification.</strong> In this appendix, α denotes the slope of log₁₀(Latency) vs. log₁₀(Receptive Field Size), yielding T ∝ L^α with α ≈ 0.31 ± 0.02 (ODR). This is the standard RTM convention.</p>
-<p><strong>Important distinction regarding "diffusive limit":</strong> The reference line α = 0.5 labeled "Diffusive Limit" in Figures A.1–A.2 refers to a <em>hierarchical integration benchmark</em>, not to physical random-walk diffusion. In standard transport physics, random-walk diffusion yields T ∝ L² (α = 2 in RTM notation), and ballistic propagation yields T ∝ L (α = 1).</p>
-<p>The empirical finding α ≈ 0.31 therefore indicates that the visual cortex hierarchy achieves information integration <em>faster than ballistic transport</em> in the scale-time sense. This "super-ballistic" efficiency arises from massive parallel processing at each hierarchical level, where many neurons simultaneously contribute to larger receptive fields without proportional latency accumulation.</p>
-<p>To avoid confusion with Doc 001 Sec. 2.2 terminology: the visual cortex operates in an α &lt; 1 regime (faster-than-ballistic integration), which has no direct analog in the physical transport classes (ballistic/diffusive/subdiffusive) defined for single-particle dynamics. This regime is characteristic of parallel hierarchical architectures and represents a distinct universality class unique to distributed processing systems.</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> **Convention clarification.** In this appendix, $\alpha$ denotes the slope of $\log_{10}(\text{Latency})$ vs. $\log_{10}(\text{Receptive Field Size})$, yielding $T \propto L^\alpha$ with $\alpha \approx 0.31 \pm 0.02$ (ODR). This is the standard RTM convention.
+> 
+> **Important distinction regarding "diffusive limit":** The reference line $\alpha = 0.5$ labeled "Diffusive Limit" in Figures A.1–A.2 refers to a *hierarchical integration benchmark*, not to physical random-walk diffusion. In standard transport physics, random-walk diffusion yields $T \propto L^2$ ($\alpha = 2$ in RTM notation), and ballistic propagation yields $T \propto L$ ($\alpha = 1$).
+> 
+> The empirical finding $\alpha \approx 0.31$ therefore indicates that the visual cortex hierarchy achieves information integration *faster than ballistic transport* in the scale-time sense. This "super-ballistic" efficiency arises from massive parallel processing at each hierarchical level, where many neurons simultaneously contribute to larger receptive fields without proportional latency accumulation.
+> 
+> To avoid confusion with Doc 001 Sec. 2.2 terminology: the visual cortex operates in an $\alpha < 1$ regime (faster-than-ballistic integration), which has no direct analog in the physical transport classes (ballistic/diffusive/subdiffusive) defined for single-particle dynamics. This regime is characteristic of parallel hierarchical architectures and represents a distinct universality class unique to distributed processing systems.
 
 The RTM framework dictates that the efficiency of an information-processing network can be mapped via its spatial-temporal topological scaling ($`\alpha`$). We evaluated this within the 21 hierarchical areas of the primate visual cortex.
 
@@ -973,29 +904,8 @@ Even when heavily penalized with extreme observational noise and un-aggregated h
 
 - **Realistic Biological Coherence:** The reconstructed natural variance yields a realistic $`R^{2} = 0.677`$, proving the correlation remains a dominant physical driver of cortical architecture without falling into overfitting fallacies.
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 99%" />
-</colgroup>
-<thead>
-<tr>
-<th><table style="width:79%;">
-<colgroup>
-<col style="width: 78%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Note on Reciprocal Symmetry:</strong> The measured transport exponent <span class="math inline">(<em>α</em><sub><em>t</em></sub> ≈ 0.31)</span> represents the operational speed of information across the hierarchy. This is the mathematical reciprocal of the structural coherence exponent <span class="math inline">(<em>α</em><sub><em>s</em></sub> ≈ 3.2)</span> defined in the foundational RTM framework (See Doc 001). This symmetry <span class="math inline">(<em>α</em><sub><em>t</em></sub> ≈ 1/<em>α</em><sub><em>s</em></sub>)</span> proves that the brain’s high-viscosity architecture is precisely what enables its super-diffusive transport efficiency. The structure confines information to integrate it, allowing the signal to bypass standard thermal limits.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> **Note on Reciprocal Symmetry:** The measured transport exponent ($\alpha_t \approx 0.31$) represents the operational speed of information across the hierarchy. This is the mathematical reciprocal of the structural coherence exponent ($\alpha_s \approx 3.2$) defined in the foundational RTM framework (See Doc 001). This symmetry ($\alpha_t \approx 1/\alpha_s$) proves that the brain's high-viscosity architecture is precisely what enables its super-diffusive transport efficiency. The structure confines information to integrate it, allowing the signal to bypass standard thermal limits.
 
 **Conclusion:** The RTM framework successfully isolates the macroscopic physics of the brain. The visual cortex operates strictly in a **Super-Diffusive Transport Class (Super-ballistic regime)** ($`\alpha \ll 0.5`$). The brain leverages its massive, parallel hierarchical topology to actively bypass the physical latency limits of standard thermal diffusion, achieving optimal sensory integration.
 
