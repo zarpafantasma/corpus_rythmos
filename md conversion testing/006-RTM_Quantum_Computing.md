@@ -225,17 +225,20 @@ defined on a bin $E$ with **environment** coordinates $x$ (temperature, firmware
 
 -   **RTM 1-form.** $\omega = dv - \alpha(x)\text{ }du$ (constant-$\alpha$ case) or $\omega = dv - \alpha(x,u)\text{ }du$ (slow drift allowed).
 
-**A clock change** (unit/baseline shift independent of $L$ inside a bin) is 
+**A clock change** (unit/baseline shift independent of $L$ inside a bin) is:
+
 ``` math
 $v \mapsto v^{\#} = v + \phi(x)$.
 ```
+
 Then
+
 ``` math
 $$
 \omega \mapsto \omega^{\#} = \omega + d\phi(x)
 $$
 ```
---- a **gauge transformation** by an exact 1-form pulled back from $X$. Hence $\alpha$ **is gauge-invariant**.
+a **gauge transformation** by an exact 1-form pulled back from $X$. Hence $\alpha$ **is gauge-invariant**.
 
 **3.2 Collapse ⇔ exactness/flatness**
 
