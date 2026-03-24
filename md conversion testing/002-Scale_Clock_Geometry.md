@@ -24,29 +24,8 @@ Many systems exhibit a systematic relation between a **characteristic time** $`T
 
 This paper supplies a **mathematical backbone** for that practice. Our central claim is that the **slope** $`\alpha`$ is the structural object (invariant under clock changes), while **clocks** are a gauge. With this separation, RTM becomes a clean theory linking: (i) functional equations → power laws, (ii) a **1-form/connection** whose flatness encodes collapse, (iii) **regular variation** with variable exponents to quantify finite-window effects, (iv) **renormalization** as scale-dilation dynamics with power-law fixed points, (v) **diffusions with space-dependent clocks**, and (vi) **statistical identifiability** under measurement error.
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 99%" />
-</colgroup>
-<thead>
-<tr>
-<th><table style="width:77%;">
-<colgroup>
-<col style="width: 76%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Scope note.</strong> This document operates under Assumptions 1–6 of Doc 001 (Sec. 2.1): local density ρ and temperature Θ are uniform within each bin. Under these conditions, the full master law T/T₀ = (L/L₀)^α · Θ(𝒯)/√(ρ/ρ₀) reduces to T = κL^α. For treatment of variable ρ and Θ, see Doc 001 Sec. 2.1–2.2. For empirical applications where these assumptions may be violated, the collapse test (Sec. 3.2, 7) provides a falsifiable diagnostic.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> **Scope note.** This document operates under Assumptions 1–6 of Doc 001 (Sec. 2.1): local density $\rho$ and temperature $\Theta$ are uniform within each bin. Under these conditions, the full master law $T/T_0 = (L/L_0)^\alpha \cdot \Theta(\mathcal{T})/\sqrt{\rho/\rho_0}$ reduces to $T = \kappa L^\alpha$. For treatment of variable $\rho$ and $\Theta$, see Doc 001 Sec. 2.1–2.2. For empirical applications where these assumptions may be violated, the collapse test (Sec. 3.2, 7) provides a falsifiable diagnostic.
 
 **1.2 Contributions**
 
