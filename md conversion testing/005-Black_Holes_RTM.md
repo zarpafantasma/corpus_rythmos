@@ -55,12 +55,7 @@ We further frame **information retention** as a statement about *re–encoding* 
 
 We work with the non-dimensional **RTM process–time law**
 
-|          
- ``` math  
- (1)       
- ```       |
-|----------|
-
+(1)
 ``` math
 \frac{T}{T_{0}} = \left( \frac{L}{L_{0}} \right)^{\alpha}\underset{\text{dimensionless}}{\overset{\Theta(T)}{︸}}/\sqrt{\frac{\rho}{\rho_{0}}}
 ```
