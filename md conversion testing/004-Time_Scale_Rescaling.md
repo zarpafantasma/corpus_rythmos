@@ -196,6 +196,7 @@ This is compatible with α∼1 without touching BBN/CMB, if α is off in homogen
   15                 0.27 Gyr                64.0         35.9
 
   20                 0.18 Gyr                96.2         54.0
+  
   ---------------------------------------------------------------------------
 
 *EdS: A = (1+z)\^(3/2). ΛCDM: A = \[0.315(1+z)³ + 0.685\]\^(1/2). Planck 2018 parameters.*
