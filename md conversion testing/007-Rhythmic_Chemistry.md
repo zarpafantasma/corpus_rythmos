@@ -1957,29 +1957,7 @@ Even when heavily penalized with real-world observational noise, macroscopic urb
 
 **Conclusion:** Urban mobility is fundamentally a topological transport phenomenon. The RTM framework successfully bridges the microscopic chemistry of confined diffusion with the macroscopic engineering of megacities, proving that both are governed by identical topological phase transitions.
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 99%" />
-</colgroup>
-<thead>
-<tr>
-<th><table style="width:85%;">
-<colgroup>
-<col style="width: 84%" />
-</colgroup>
-<thead>
-<tr>
-<th><p><strong>Methodological Note on Macroscopic Human Networks:</strong> Validating RTM transport physics in macroscopic urban environments requires strict protection against the point-estimate fallacy. Urban demographic census data and congestion indices carry significant observational uncertainty (<span class="math inline"> ∼ 10 − 15 ∖ %</span>). Applying standard OLS regression to this data introduces an attenuation bias that artificially flattens the scaling laws of urban friction.</p>
-<p>To force the RTM predictions to survive real-world statistical chaos, we utilized Orthogonal Distance Regression (ODR) and a Monte Carlo variance injection across eight global cities. Under this rigorous probabilistic reconstruction, the network physics converged flawlessly on theoretical limits: human trip displacement locked into the strict boundary for ballistic Lévy Flights (<span class="math inline"><em>α</em>= 3.000  ± 0.156</span>), and traffic jam clusters hit the exact theoretical percolation limit for Self-Organized Criticality (<span class="math inline"><em>τ</em>= 2.499  ± 0.146</span>). Furthermore, the noise-corrected ODR analysis confirmed that urban congestion scales superlinearly (<span class="math inline"><em>β</em>= 0.081  ± 0.080</span>) as the network expands. This definitively proves that millions of humans navigating a megacity behave mathematically identically to a complex fluid under thermodynamic load.</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> **Methodological Note on Macroscopic Human Networks:** Validating RTM transport physics in macroscopic urban environments requires strict protection against the point-estimate fallacy. Urban demographic census data and congestion indices carry significant observational uncertainty ($\sim 10 - 15\%$). Applying standard OLS regression to this data introduces an attenuation bias that artificially flattens the scaling laws of urban friction. To force the RTM predictions to survive real-world statistical chaos, we utilized Orthogonal Distance Regression (ODR) and a Monte Carlo variance injection across eight global cities. Under this rigorous probabilistic reconstruction, the network physics converged flawlessly on theoretical limits: human trip displacement locked into the strict boundary for ballistic Lévy Flights ($\alpha = 3.000 \pm 0.156$), and traffic jam clusters hit the exact theoretical percolation limit for Self-Organized Criticality ($\tau = 2.499 \pm 0.146$). Furthermore, the noise-corrected ODR analysis confirmed that urban congestion scales *superlinearly* ($\beta = 0.081 \pm 0.080$) as the network expands. This definitively proves that millions of humans navigating a megacity behave mathematically identically to a complex fluid under thermodynamic load.
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
