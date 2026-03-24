@@ -660,7 +660,9 @@ If we use the norm $`\parallel \varepsilon \parallel_{C^{0,\beta}(I)} = {\sup}_{
 Fix a compact $`I \subset \mathbb{R}`$(in $`u = \log L`$), and let the gauge be $`f(b) = b^{\alpha}`$. If $`\varepsilon \in C^{0,\beta}`$on $`I' = \{ u + \log b^{n}:\text{ }u \in I,\text{ }n = 0,1,2,\ldots\text{ }\}`$ with small norm, then the iterates satisfy
 
 ``` math
-\parallel \varepsilon_{n} \parallel_{C^{0,\beta}(I)}\text{\:\,} \leq \text{\:\,}b^{- n\beta}\text{ } \parallel \varepsilon_{0} \parallel_{C^{0,\beta}(I')}\text{\:\,}\underset{\phantom{n \rightarrow \infty}}{\longrightarrow}\text{\:\,}0,
+$$
+\| \varepsilon_n \|_{C^{0,\beta}(I)} \leq b^{-n\beta} \| \varepsilon_0 \|_{C^{0,\beta}(I')} \underset{n \to \infty}{\longrightarrow} 0,
+$$
 ```
 
 i.e., $`\mathcal{R}_{b}^{n}T \rightarrow T^{\star}`$ uniformly on $`I`$ in log-space. Hence **power laws are locally attractive** in Hölder/Zygmund topologies.
