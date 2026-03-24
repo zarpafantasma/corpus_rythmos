@@ -577,7 +577,7 @@ choose $h$ so that $\varepsilon h \ll 1$. Practically: start with $h \approx 0.8
 
 -   **Residual plots**: orthogonal residual vs. $x$; LOESS smooth must be flat within bands.
 
--   **EIV adequacy**: if OLS and ODR differ by $\geq$`<!-- -->`{=html}0.2 absolute slope **and** ODR CI excludes OLS, report EIV as material.
+-   **EIV adequacy**: if OLS and ODR differ by $\geq$ 0.2 absolute slope **and** ODR CI excludes OLS, report EIV as material.
 
 **5.7 Collapse threshold (specification gate)**
 
