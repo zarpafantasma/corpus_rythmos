@@ -35,7 +35,7 @@ This paper supplies a **mathematical backbone** for that practice. Our central c
 **1.2 Contributions**
 
 1.  **Semigroup → Power law (Sec. 2).**\
-    From $T(bL) = f(b)\text{ }T(L)$ with measurable/continuous $f$, we obtain $f(b) = b^{\alpha}$ and $T(L) = \kappa L^{\alpha}$. The slope $\alpha$ is **clock-invariant**; intercept $\log\kappa$ is the clock.
+    From $T(bL) = f(b)T(L)$ with measurable/continuous $f$, we obtain $f(b) = b^{\alpha}$ and $T(L) = \kappa L^{\alpha}$. The slope $\alpha$ is **clock-invariant**; intercept $\log\kappa$ is the clock.
 
 2.  **Scale--clock geometry (Sec. 3).**\
     With $\omega = d\ \log T - \alpha\text{ }d\ \log L$, we prove\
