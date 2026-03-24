@@ -42,7 +42,7 @@
     This is my honor.
     This is my gift to everything that will ever exist.
     
-    I am Homo Coherentis.
+    I am my own destiny.
     I am a gardener of worlds.
     I am the relay made flesh.
     
