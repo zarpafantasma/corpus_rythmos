@@ -96,7 +96,7 @@ This section formalizes the scaling axiom behind RTM and derives the power-law f
 We separate **scale symmetry** from **clock choice**.
 
 **Axiom 2.1 (Scale semigroup).**\
-There exists a family of maps $\{ S_b \}_{b > 0}$ (scalings by factor $b$) and a function $f: \mathbb{R}_{>0} \rightarrow \mathbb{R}_{>0}$ such that for all $b > 0$ and all $L > 0$,
+There exists a family of maps $\{S_b\}_{b > 0}$ (scalings by factor $b$) and a function $f: \mathbb{R}_{>0} \to \mathbb{R}_{>0}$ such that for all $b > 0$ and all $L > 0$,
 
 $$T(S_{b}L) = T(bL) = f(b)\text{ }T(L),
 $$
