@@ -190,6 +190,7 @@ Both encode an **increase of** $`\alpha_{\text{eff}}`$ as the medium becomes mor
 
 ``` math
 \Delta\alpha_{\text{eff}} = \left\lbrack \frac{\partial\log T_{\text{obs}}}{\partial\log L} \right\rbrack_{r_{2}} - \left\lbrack \frac{\partial\log T_{\text{obs}}}{\partial\log L} \right\rbrack_{r_{1}} \neq 0\quad\text{when }r_{2} \neq r_{1}
+```
 (11)
 
 **2.3 Regime diagram: when does RTM win against redshift?**
