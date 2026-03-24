@@ -66,43 +66,28 @@ where $`T`$ is a characteristic **mesoscopic** time (e.g., variability time, rel
 
 **1.2 High-α regime (operational definition)**
 
-|          
- ``` math  
- (2)       
- ```       |
-|----------|
-
 We say a system is in a **high-α** regime if, on a prescribed window of scales $`L \in \left\lbrack L_{\min},\ L_{\max} \right\rbrack`$, the effective exponent $`\alpha_{eff}`$ satisfies
 
 ``` math
 \alpha_{eff} \geq \alpha_{\star} \gg 1,\ \ \ \ \ with\ \ \ \ \ \alpha_{\star}\ fixed\ and\ finite
 ```
-
+ (2)
+ 
 Operationally, (2) means that **characteristic times shorten steeply with decreasing scale** on that window:
-
-|          
- ``` math  
- (3)       
- ```       |
-|----------|
 
 ``` math
 T\left( L_{2} \right) < T\left( L_{1} \right)\left( \frac{L_{2}}{L_{1}} \right)^{\alpha_{*}}\quad\text{for any}\quad L_{\text{min}} \leq L_{2} < L_{1} \leq L_{\text{max}}
 ```
+(3)
 
 We **avoid** the literal limit $`\alpha \rightarrow \infty`$ and instead work with large but **finite** $`\alpha_{eff}`$ bounded by physical cutoffs (Sec. 1.3). This keeps the ansatz testable and compatible with causal/microscopic constraints while retaining the intuitive picture of **asymptotically “frozen” local dynamics** as $`\alpha_{eff}`$ grows.
 
 **Monotonicity (direct consequence of Eq. 1).** If $`\alpha_{eff}`$ is non-decreasing under increasing confinement/organization $`C`$ (e.g., stronger geometric trapping, higher hierarchical depth), then for fixed $`L`$ one has
 
-|          
- ``` math  
- (4)       
- ```       |
-|----------|
-
 ``` math
 \frac{\partial\log T}{\partial C} = \alpha_{\text{eff}}'(C)\log\left( \frac{L}{L_{0}} \right) \leq 0\quad\text{whenever}\quad L \leq L_{0}\quad\text{and}\quad\alpha_{\text{eff}}'(C) \geq 0,
 ```
+(4)
 
 i.e., **tighter confinement (larger** $`\mathbf{C}`$**) shortens local mesoscopic times** on sub-reference scales.
 
@@ -112,15 +97,10 @@ i.e., **tighter confinement (larger** $`\mathbf{C}`$**) shortens local mesoscopi
 
 Equation (1) governs a **local** mesoscopic time $`T_{local}`$. An asymptotic observer at infinity registers
 
-|          
- ``` math  
- (5)       
- ```       |
-|----------|
-
 ``` math
 T_{\text{obs}}(r,L) \approx \left( 1 + z(r) \right)\left( \frac{L}{L_{0}} \right)^{\alpha_{\text{eff}}(r)}T_{0}
 ```
+(5)
 
 where $`1 + z(r){{= (1 - 2GM/rc}^{2})}^{- 1/2}`$ is the gravitational redshift factor in a Schwarzschild background (or its appropriate generalization). Thus, **GR time dilation** and **RTM shortening** compete multiplicatively: moving inward (larger $`z`$) dilates times, while increased environmental coherence (larger $`\alpha_{\text{eff}}(r)`$) **contracts** mesoscopic times. Equation (5) is the basic **observational hook** for the rest of the note.
 
@@ -156,15 +136,10 @@ These cutoffs ensure that even in “extreme organization” the theory does **n
 
 RTM speaks about **local mesoscopic times**—the characteristic duration $`T_{local}`$ of a process occurring on an effective spatial scale $`L`$ within some medium. General Relativity (GR) tells us how **local proper time** maps to the time recorded by a distant observer through gravitational (and kinematic) redshift. To first order in what we need here, the two combine **multiplicatively**:
 
-|          
- ``` math  
- (6)       
- ```       |
-|----------|
-
 ``` math
 T_{\text{obs}}(r,L) \approx \left( 1 + z(r) \right)\left( \frac{L}{L_{0}} \right)^{\alpha_{\text{eff}}(r)}T_{0}
 ```
+(6)
 
 where $`1 + z(r)`$ is the GR redshift factor between radius $`r`$ and infinity (including gravitational and, if necessary, kinematic contributions), and $`\alpha_{\text{eff}}(r)`$ is the **environmental** coherence exponent that may vary with confinement/organization as a function of $`r`$. Equation (6) is not a modification of GR; it is a **constitutive law** for mesoscopic process-times in the local fluid/plasma, applied after the GR clock mapping.
 
@@ -172,29 +147,19 @@ Two immediate consequences follow:
 
 - **Slope-in-LLL is local and RTM-controlled.** At fixed $`r`$,
 
-|          
- ``` math  
- (7)       
- ```       |
-|----------|
-
 ``` math
 \frac{\partial\log T_{\text{obs}}}{\partial\log L}\left. \  \right|_{r} = \alpha_{\text{eff}}(r)
 ```
+(7)
 
 so the observed log–log slope vs. scale **equals** the local RTM exponent, independent of redshift.
 
 - **Level-in-**$`\mathbf{r}`$ **is GR×RTM.** At fixed $`L`$,
 
-|          
- ``` math  
- (8)       
- ```       |
-|----------|
-
 ``` math
 \left. \ \frac{\partial\log T_{\text{obs}}}{\partial r} \right|_{L} = \frac{\partial\log(1 + z)}{\partial r} + \frac{\partial\alpha_{\text{eff}}}{\partial r}\log\left( \frac{L}{L_{0}} \right)
 ```
+(8)
 
 so radial trends in the *level* of times involve a **competition**: GR typically **increases** $`T_{obs}`$ inward (redshift grows), while a rising $`\alpha_{\text{eff}}(r)`$ **decreases** the RTM component for sub-reference scales $`{L < L}_{0}`$
 
@@ -207,43 +172,25 @@ We model the growth of environmental coherence toward the deep, confined flow wi
 
 **(a) Logistic (saturating) profile**
 
-|          
- ``` math  
- (9)       
- ```       |
-|----------|
-
 ``` math
 \alpha_{\text{eff}}(r) = \alpha_{\text{base}} + \Delta\alpha\frac{1}{1 + \exp\left( \frac{r - r_{c}}{w} \right)},\quad\Delta\alpha > 0
 ```
+(9)
 
 where $`r_{c}`$​ is the transition radius and www its width.
 
 **(b) Power-like (soft) ramp**
 
-|          
- ``` math  
- (10)      
- ```       |
-|----------|
-
 ``` math
 \alpha_{\text{eff}}(r) = \alpha_{\text{base}} + \Delta\alpha\left( \frac{r_{c}}{max\left( r,r_{c} \right)} \right)^{p},\quad p > 0
 ```
+(10)
 
 Both encode an **increase of** $`\alpha_{\text{eff}}`$ as the medium becomes more confined/structured; both recover $`\alpha_{\text{eff}} \rightarrow \alpha_{base}`$ far out. Any of them, combined with Eq. (7), implies that the **observed slope** in $`T - L`$ **must change with radius** if RTM is active:
 
-| 
 ``` math
 \Delta\alpha_{\text{eff}} = \left\lbrack \frac{\partial\log T_{\text{obs}}}{\partial\log L} \right\rbrack_{r_{2}} - \left\lbrack \frac{\partial\log T_{\text{obs}}}{\partial\log L} \right\rbrack_{r_{1}} \neq 0\quad\text{when }r_{2} \neq r_{1}
-``` |
-|----|
-
-|          
- ``` math  
- (11)      
- ```       |
-|----------|
+(11)
 
 **2.3 Regime diagram: when does RTM win against redshift?**
 
@@ -252,24 +199,14 @@ From Eq. (8), at fixed $`{L < L}_{0}`$ the **net inward trend** is
 ``` math
 \underset{\text{GR dilation (+)}}{\overset{\frac{\partial\log(1 + z)}{\partial r}}{︸}} + \underset{\text{RTM shortening (-)}}{\overset{\frac{\partial\alpha_{\text{eff}}}{\partial r}\log\left( \frac{L}{L_{0}} \right)}{︸}} \lessgtr 0
 ```
-
-|          
- ``` math  
- (12)      
- ```       |
-|----------|
+(12)
 
 Thus RTM “wins” (observed times **decrease** inward) if
 
 ``` math
 \left| \frac{\partial\alpha_{\text{eff}}}{\partial r} \right| > \frac{\partial\log(1 + z)}{\partial r} \cdot \frac{1}{\left| \log\left( {L/L}_{0} \right) \right|},\quad\text{with }L < L_{0}
 ```
-
-|          
- ``` math  
- (13)      
- ```       |
-|----------|
+(13)
 
 This inequality gives a **diagnostic lever**: smaller structures (smaller $`L`$) provide a larger $`\left| \log\left( {L/L}_{0} \right) \right|`$ and hence relax the requirement on how steeply $`\alpha_{\text{eff}}`$ must rise to beat redshift. Practically, **multi-scale** timing at fixed $`r`$ and **multi-radius** timing at fixed $`L`$ are complementary.
 
@@ -280,12 +217,7 @@ For spinning holes and orbiting media, the factor $`(1 + z)`$ is the product of 
 ``` math
 T_{\text{obs}}(r,L;\theta,\Omega) \approx \mathcal{Z}(r,\theta,\Omega)\left( \frac{L}{L_{0}} \right)^{\alpha_{\text{eff}}(r,\theta)}T_{0}
 ```
-
-|          
- ``` math  
- (14)      
- ```       |
-|----------|
+(14)
 
 and Eq. (7) still holds: **slope in** $`\mathbf{L}`$ at fixed $`(r,\theta,\Omega)`$ equals $`\alpha_{\text{eff}}`$ there. All kinematic/gravitational complexity collapses into $`\mathcal{Z}`$ for level effects, leaving slope physics cleanly tied to RTM.
 
@@ -304,12 +236,7 @@ For compact phenomenology and to aid comparisons across sources, we recommend
 ``` math
 \alpha_{\text{eff}}(r) = \alpha_{\text{base}} + \Delta\alpha \cdot f\left( r;r_{c},w,p \right),\quad T_{\text{obs}}(r,L)\mathcal{= Z}(r)\left( \frac{L}{L_{0}} \right)^{\alpha_{\text{eff}}(r)}T_{0}
 ```
-
-|          
- ``` math  
- (15)      
- ```       |
-|----------|
+(15)
 
 with $`f`$ chosen as (9) or (10). Fitting $`\{ T_{\text{obs}},L,\ r\}`$ triplets then returns $`\alpha_{\text{base}},\ \Delta\alpha,\ r_{c}`$ (and optionally $`w,p`$). Reporting **slope confidence intervals** and **goodness-of-fit** per annulus makes the test falsifiable without requiring absolute flux models.
 
@@ -348,12 +275,7 @@ Formally, let $`C\lbrack L\rbrack`$ be a coarse-grained correlational functional
 ``` math
 \frac{\partial\mathcal{C}\lbrack L\rbrack}{\partial t_{\text{local}}}\ \ \overset{\rightarrow}{\alpha_{\text{eff}}\text{ large}}0\quad\text{for}\quad L \in \left\lbrack L_{\text{min}},L_{\text{max}} \right\rbrack
 ```
-
-|          
- ``` math  
- (16)      
- ```       |
-|----------|
+(16)
 
 i.e., **correlational configurations become dynamically persistent** on the mesoscopic clock. This is exactly the sense in which “the vault preserves” without committing to a specific microphysical storage code.
 
@@ -389,15 +311,10 @@ Our draft states “tiempo colapsado ($`T \approx 0`$)” and “$`\alpha \right
 
 The core empirical handle in this note is **slope**, not level. From Eq. (6), at fixed radius $`r`$ the observed log–log slope of timescales $`T_{obs}`$ versus effective size $`L`$ equals the **local** RTM exponent $`\alpha_{\text{eff}}(r)`$; redshift and kinematics change the **intercept** but **not** the slope:
 
-|          
- ``` math  
- (17)      
- ```       |
-|----------|
-
 ``` math
 \left. \ \frac{\partial\log T_{\text{obs}}}{\partial\log L} \right|_{r} = \alpha_{\text{eff}}(r)
 ```
+(17)
 
 If $`\alpha_{\text{eff}}`$​ **increases** inward—because confinement/organization grows—then **slopes must evolve with radius**. This “slope-with-radius” prediction is the cleanest, model-independent signature of RTM activation in compact environments.
 
@@ -423,15 +340,10 @@ How to approximate $`L`$ (examples):
 
 Define two annuli $`r_{1} < r_{2}`$. Measure $`{\widehat{\alpha}}_{\text{eff}}(r_{1})`$ and $`{\widehat{\alpha}}_{\text{eff}}(r_{2})`$ as in §4.1 and compute
 
-|          
- ``` math  
- (18)      
- ```       |
-|----------|
-
 ``` math
 \Delta\widehat{\alpha} \equiv {\widehat{\alpha}}_{\text{eff}}(r_{1}) - {\widehat{\alpha}}_{\text{eff}}(r_{2})
 ```
+(18)
 
 **Falsification criterion.** If $`\widehat{\alpha}`$ is statistically consistent with **zero** across multiple observations (or consistently negative when the theory expects positive), the high-α interpretation is disfavored on that source/class.
 
@@ -567,15 +479,10 @@ The draft imagines approaching (but not crossing) the horizon, tuning a high-coh
 
 Let $`\mathcal{O}(t)`$ be a boundary observable (e.g., a gauge-invariant scalar of the near-horizon plasma) and $`J(t)`$ a high-coherence probe current. A purely **notional** linear-response map would read
 
-|          
- ``` math  
- (19)      
- ```       |
-|----------|
-
 ``` math
 \delta\left\langle \mathcal{O}(t) \right\rangle = \int_{}^{}{\chi\left( t - t';\alpha_{\text{eff}} \right)\mathcal{J}\left( t' \right)}\, dt'
 ```
+(19)
 
 where $`\chi`$ is a (causal) susceptibility that depends parametrically on environmental coherence $`\alpha_{eff}`$ . In the **Exploratory** picture, the “echo” is identified with features of $`\chi`$ that sharpen as $`\alpha_{eff}`$ grows (narrower kernels, longer memory). **We make no claim** that (16) follows from GR+QFT in curved spacetime; it is only a placeholder indicating **what** an operational readout would mathematically resemble if such a coupling existed.
 
@@ -603,17 +510,12 @@ Given a “blueprint” (a correlational encoding), a network of devices would a
 
 **Notional sketch (purely illustrative)**
 
-|          
- ``` math  
- (20)      
- ```       |
-|----------|
-
 A toy target-state functional $`\mathcal{C}^{*}\left\lbrack \rho(x),\phi(x) \right\rbrack`$ (desired correlations over matter/fields) and a control Λ acting on degrees of freedom could be written as minimizing
 
 ``` math
 \mathcal{J}\lbrack\Lambda\rbrack = \left\| \mathcal{C}\left\lbrack \rho_{\Lambda},\phi_{\Lambda} \right\rbrack - \mathcal{C}^{*} \right\|^{2} + \lambda\mathcal{E}\lbrack\Lambda\rbrack
 ```
+(20)
 
 with $`\mathcal{E}`$ a resource/energy cost. This is the language of **optimal control**, not evidence that such control is physically realizable at cosmic scales. We include (17) solely to clarify that “printing” would mathematically be an **inverse-problem**/control task—still far beyond any plausible implementation.
 
