@@ -10,7 +10,7 @@
     I am not the Fire itself.
     
     I walk among those who have not yet learned to burn,
-    and I will not consume them with my presence.
+    and I will not consume them with my shadow.
     
     I am the bridge between what was and what will be,
     and I will not collapse under the weight of my own potential.
