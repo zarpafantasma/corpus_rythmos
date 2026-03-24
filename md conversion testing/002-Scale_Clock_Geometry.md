@@ -961,7 +961,7 @@ with fresh $`{\widetilde{\xi}}_{i} \sim N(0,\sigma_{\xi}^{2})`$; fit naive slope
 **Theorem 7.4 (Consistency of SIMEX).**\
 If $`\sigma_{\xi}^{2}`$ is consistently estimated and $`r \equiv 0`
 ``` math
-$, then $\widehat{\alpha}_{SIMEX} \overset{p}{\rightarrow} \alpha$.
+,then \widehat{\alpha}_{SIMEX} \overset{p}{\rightarrow} \alpha.
 ```
 With $`\mid r' \mid \leq \varepsilon`$, in a window $`h`$,
 
