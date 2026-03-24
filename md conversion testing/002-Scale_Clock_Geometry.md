@@ -22,14 +22,15 @@ Many systems exhibit a systematic relation between a **characteristic time** $T$
 
 This paper supplies a **mathematical backbone** for that practice. Our central claim is that the **slope** $\alpha$ is the structural object (invariant under clock changes), while **clocks** are a gauge. With this separation, RTM becomes a clean theory linking: (i) functional equations → power laws, (ii) a **1-form/connection** whose flatness encodes collapse, (iii) **regular variation** with variable exponents to quantify finite-window effects, (iv) **renormalization** as scale-dilation dynamics with power-law fixed points, (v) **diffusions with space-dependent clocks**, and (vi) **statistical identifiability** under measurement error.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|   **Scope note.** This document operates under Assumptions 1--6 of Doc 001 (Sec. 2.1): local density ρ and temperature Θ are uniform within each bin. Under these conditions, the full master law T/T₀ = (L/L₀)\^α · Θ(𝒯)/√(ρ/ρ₀) reduces to T = κL\^α. For treatment of variable ρ and Θ, see Doc 001 Sec. 2.1--2.2. For empirical applications where these assumptions may be violated, the collapse test (Sec. 3.2, 7) provides a falsifiable diagnostic.   |
-|   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-+================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+> [!NOTE]
+> **Scope note:** This document operates under **Assumptions 1–6** of Doc 001 (Sec. 2.1): local density **ρ** and temperature **Θ** are uniform within each bin.
+>
+> Under these conditions, the full master law:
+> **T/T₀ = (L/L₀)^α · Θ(𝒯) / √(ρ/ρ₀)**
+> reduces to:
+> **T = κL^α**
+>
+> For treatment of variable **ρ** and **Θ**, see Doc 001 Sec. 2.1–2.2. For empirical applications where these assumptions may be violated, the **collapse test** (Sec. 3.2, 7) provides a falsifiable diagnostic.
 
 **1.2 Contributions**
 
@@ -47,7 +48,7 @@ This paper supplies a **mathematical backbone** for that practice. Our central c
     A dilation-plus-re-gauge operator has power laws as **fixed points**; in Hölder/Zygmund classes it is a **contraction**, giving **local attraction** to the power-law manifold. Slowly varying clocks form a **center manifold**; slowly drifting exponents yield **adiabatic tracking**.
 
 5.  **RTM diffusions & Dirichlet forms (Sec. 6).**\
-    Let conductivity be $L(x)^{- \alpha(x)}$. With $\alpha$constant, solutions obey self-similarity with dynamic exponent $z = m + \alpha$ and exit-time scaling $T \sim R^{\text{ }z}$; with slow drift we obtain **adiabatic error bounds**. RTM diffusions are **time-changed Brownian motions**.
+    Let conductivity be $L(x)^{- \alpha(x)}$. With $\alpha$ constant, solutions obey self-similarity with dynamic exponent $z = m + \alpha$ and exit-time scaling $T \sim R^{\text{ }z}$; with slow drift we obtain **adiabatic error bounds**. RTM diffusions are **time-changed Brownian motions**.
 
 6.  **Identifiability & inference under EIV (Sec. 7).**\
     We show **ODR/TLS** and **SIMEX** consistently recover local $\alpha$ under standard assumptions; **Theil--Sen** provides robust checks. The **collapse statistic** is a specification test against curvature even with measurement error.
