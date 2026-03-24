@@ -1262,10 +1262,12 @@ and $`\omega^{\#} = \omega + d\ \log c(e^{u})`$ acquires a $`du`$**-component**.
 
 **Construction 9.7 (Product systems → slope additivity)**
 
-Let $`T_{A}(L_{A}) = \kappa_{A}L_{A}^{\alpha_{A}}`$, $`T_{B}(L_{B}) = \kappa_{B}L_{B}^{\alpha_{B}}`$. For independent composition with total scale $`L = L_{A}\ L_{B}`$ and time $`T = T_{A}T_{B}`$:
+Let $T_{A}(L_{A}) = \kappa_{A}L_{A}^{\alpha_{A}}$, $T_{B}(L_{B}) = \kappa_{B}L_{B}^{\alpha_{B}}$. For independent composition with total scale $L = L_{A} L_{B}$ and time $T = T_{A}T_{B}$:
 
 ``` math
-T(L) = \kappa_{A}\kappa_{B}\text{ }L^{\alpha_{A} + \alpha_{B}},\alpha_{\text{total}} = \alpha_{A} + \alpha_{B}
+$$
+T(L) = \kappa_{A}\kappa_{B} L^{\alpha_{A} + \alpha_{B}}, \quad \alpha_{\text{total}} = \alpha_{A} + \alpha_{B}
+$$
 ```
 
 (Sec. 8.4). This models cascaded stages whose characteristic times multiply.
