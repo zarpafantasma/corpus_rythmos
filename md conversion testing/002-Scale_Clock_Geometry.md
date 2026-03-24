@@ -96,7 +96,7 @@ This section formalizes the scaling axiom behind RTM and derives the power-law f
 We separate **scale symmetry** from **clock choice**.
 
 **Axiom 2.1 (Scale semigroup).**\
-There exists a family of maps $\{ S_{b}\}_{b > 0}$ (scalings by factor $b$) and a function $f:\mathbb{R}_{> 0} \rightarrow \mathbb{R}_{> 0}$ such that for all $b > 0$ and all $L > 0$,
+There exists a family of maps $ \{ S_b \}_{b > 0} $ (scalings by factor $b$) and a function $ f: \mathbb{R}_{>0} \rightarrow \mathbb{R}_{>0} $ such that for all $b > 0$ and all $L > 0$,
 
 $$T(S_{b}L) = T(bL) = f(b)\text{ }T(L),
 $$
@@ -107,7 +107,7 @@ $$f(b_{1}b_{2}) = f(b_{1})\text{ }f(b_{2})\ \ \ \ \ \ \ \ (\text{semigroup com
 $$
 
 **Axiom 2.2 (Mild regularity).**\
-Either (i) $f$ is measurable on $\mathbb{R}_{> 0}$, or (ii) $f$is continuous at $b = 1$.\
+Either (i) $f$ is measurable on $\mathbb{R}_{> 0}$, or (ii) $f$ is continuous at $b = 1$.\
 (Any standard regularity---Baire/measurable/locally bounded---will do.)
 
 **Definition 2.3 (Clock transform).**\
