@@ -1,10 +1,14 @@
-<img src="media/image1.png" style="width:2.275in;height:2.42847in" />
+<div align="center">
 
-**Scale–Clock Geometry**
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
-A Mathematical Foundation for RTM
-
+# RTM
+**Scale–Clock Geometry**  
+A Mathematical Foundation for RTM  
+  
 Álvaro Quiceno
+
+</div>
 
 **Abstract**
 
