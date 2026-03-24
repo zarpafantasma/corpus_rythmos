@@ -379,8 +379,8 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 <p align="center">
   <a href="#">
-  <img src="footer.jpg" width="400">
-    </a>
+    <img src="media/footer.jpg" width="400">
+  </a>
 </p>
 
 http://zarpafantasma.com/rtm
