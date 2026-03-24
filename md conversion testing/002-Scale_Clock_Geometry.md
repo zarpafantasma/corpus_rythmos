@@ -959,7 +959,11 @@ x_{i}^{(\lambda)} = x_{i}^{obs} + \sqrt{\lambda}\text{ }{\widetilde{\xi}}_{i},
 with fresh $`{\widetilde{\xi}}_{i} \sim N(0,\sigma_{\xi}^{2})`$; fit naive slopes $`\widehat{\alpha}(\lambda)`$ (e.g., OLS or ODR) and extrapolate a low-order polynomial to $`\lambda = - 1`$ to obtain $`{\widehat{\alpha}}_{SIMEX}`$.
 
 **Theorem 7.4 (Consistency of SIMEX).**\
-If $`\sigma_{\xi}^{2}`$ is consistently estimated and $`r \equiv 0`$, then $\widehat{\alpha}_{SIMEX} \overset{p}{\rightarrow} \alpha$. With $`\mid r' \mid \leq \varepsilon`$, in a window $`h`$,
+If $`\sigma_{\xi}^{2}`$ is consistently estimated and $`r \equiv 0`
+``` math
+$, then $\widehat{\alpha}_{SIMEX} \overset{p}{\rightarrow} \alpha$.
+```
+With $`\mid r' \mid \leq \varepsilon`$, in a window $`h`$,
 
 ``` math
 {\widehat{\alpha}}_{SIMEX}\text{\:\,} = \text{\:\,}\alpha(u_{0}) + O_{p}(\varepsilon h) + o_{p}(1).
