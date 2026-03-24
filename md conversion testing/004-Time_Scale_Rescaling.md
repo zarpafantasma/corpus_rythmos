@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
-# **Time--Scale Rescaling in Early Universe Structure Growth**  
+# **Time-Scale Rescaling in Early Universe Structure Growth**  
   
 Álvaro Quiceno
 
