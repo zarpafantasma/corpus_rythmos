@@ -89,7 +89,7 @@ RTM is intended for **bins**---domains where environment is stable enough that c
 
 **2. Scale Semigroup → Power Law (Foundations)**
 
-This section formalizes the scaling axiom behind RTM and derives the power-law form $T(L) = \kappa L^{\alpha}$. We also isolate the **clock** as a multiplicative gauge and prove that **slope** $\alpha$ is the structural invariant. Throughout, $L \in \mathbb{R}_{> 0}$ denotes a size/scale variable and $T(L) \in \mathbb{R}_{> 0}$ a characteristic time.
+This section formalizes the scaling axiom behind RTM and derives the power-law form $T(L) = \kappa L^{\alpha}$. We also isolate the **clock** as a multiplicative gauge and prove that **slope** $\alpha$ is the structural invariant. Throughout, $L\in\mathbb R_0$ denotes a size/scale variable and $T(L)\in\mathbb{R}_(>0)$ a characteristic time.
 
 **2.1 Axioms and consequences**
 
