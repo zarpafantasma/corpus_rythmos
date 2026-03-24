@@ -1090,17 +1090,12 @@ Across A--D, if ≥2 families pass gates at overlapping times, compute ${\wideha
 
 **8.10 Decision table (pre-registered)**
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Outcome**                                                             **Action**
-  ----------------------------------------------------------------------- --------------------------------------------------------------------------------------------------
-  $\Delta\widehat{\alpha} \geq \ $MDE **and** guardrails pass             Promote intervention to production in that bin; monitor with $\text{EC}\text{I}_{\text{QC}}(t).$
-
-  $\Delta\widehat{\alpha}$ significant but KPI guardrail violated         Tune intensity (e.g., reduce buffering/jitter) and retest.
-
-  Collapse fails or heterogeneity high $\left( I^{2} \geq 50\% \right)$   Do not fuse; report family-wise; revisit binning or mechanisms.
-
-  No effect (($\Delta\widehat{\alpha} \approx \ 0$)                       Document as *scope boundary*; keep as negative control.
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Outcome | Action |
+| :--- | :--- |
+| $\Delta\hat{\alpha} \geq$ MDE **and** guardrails pass | Promote intervention to production in that bin; monitor with $\text{ECI}_{\text{QC}}(t)$. |
+| $\Delta\hat{\alpha}$ significant but KPI guardrail violated | Tune intensity (e.g., reduce buffering/jitter) and retest. |
+| Collapse fails or heterogeneity high ($I^2 \geq 50\%$) | Do not fuse; report family-wise; revisit binning or mechanisms. |
+| No effect ($\Delta\hat{\alpha} \approx 0$) | Document as *scope boundary*; keep as negative control. |
 
 **8.11 Ethics, safety, and reproducibility**
 
