@@ -228,7 +228,7 @@ defined on a bin $E$ with **environment** coordinates $x$ (temperature, firmware
 **A clock change** (unit/baseline shift independent of $L$ inside a bin) is:
 
 ``` math
-$v \mapsto v^{\#} = v + \phi(x)$.
+v \mapsto v^{\#} = v + \phi(x).
 ```
 
 Then
