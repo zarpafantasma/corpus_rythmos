@@ -1497,75 +1497,49 @@ Regress residuals $\widetilde{y} = y - \widehat{\alpha}x - \widehat{c}$ on $x$; 
 
 **Appendix D --- Methods YAML (skeleton)**
 
+### Methods YAML (skeleton)
+
+```
 bin:
-
-platform: \"SC\" \# or \"IONS\", \"NA\"
-
-temperature_band: \"10-15mK\"
-
-firmware_hash: \"fpga_1.4.2_dsp_0.9.8\"
-
-topology_id: \"mesh-v3\"
-
-routing_policy: \"baseline\" \# or \"rtm-aware\"
-
-syndrome_cadence: \"P=3.2us, jitter=0%\"
-
-utilization_band: \"30-60%\"
-
+  platform: "SC"              # or "IONS", "NA"
+  temperature_band: "10-15mK"
+  firmware_hash: "fpga_1.4.2_dsp_0.9.8"
+  topology_id: "mesh-v3"
+  routing_policy: "baseline"  # or "rtm-aware"
+  syndrome_cadence: "P=3.2us, jitter=0%"
+  utilization_band: "30-60%"
+ 
 estimation:
-
-min_L_points: 6
-
-min_logL_span: 0.6
-
-eiv: \"odr\"
-
-odr:
-
-init: \"theil-sen\"
-
-leverage_cap: 0.25
-
-bootstrap: {clusters: true, reps: 2000, seed: 123}
-
-simex:
-
-enabled: false
-
-lambda: \[0.5,1.0,1.5,2.0\]
+  min_L_points: 6
+  min_logL_span: 0.6
+  eiv: "odr"
+  odr:
+    init: "theil-sen"
+    leverage_cap: 0.25
+    bootstrap: {clusters: true, reps: 2000, seed: 123}
+  simex:
+    enabled: false
+    lambda: [0.5, 1.0, 1.5, 2.0]
 
 collapse:
-
-r2_threshold: 0.05
-
-placebo_clock: true
-
-changepoint_scan: {method: \"PELT\", penalty: \"BIC\"}
-
+  r2_threshold: 0.05
+  placebo_clock: true
+  changepoint_scan: {method: "PELT", penalty: "BIC"}
+ 
 fusion:
-
-heterogeneity_gate_I2: 0.5
-
-tau2_method: \"REML\"
-
-min_families: 2
-
+  heterogeneity_gate_I2: 0.5
+  tau2_method: "REML"
+  min_families: 2
+ 
 eci_rt:
-
-window_logL: 0.8
-
-horizon_days: 14
-
-smoothing: \"median3\"
-
-alert:
-
-z_advisory: -1.5
-
-z_watch: -2.0
-
-z_warning: -2.5
+  window_logL: 0.8
+  horizon_days: 14
+  smoothing: "median3"
+  alert:
+    z_advisory: -1.5
+    z_watch: -2.0
+    z_warning: -2.5
+```
 
 **Appendix E --- Notation Glossary**
 
