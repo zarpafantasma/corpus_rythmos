@@ -435,7 +435,7 @@ T(L;x) = L^{\alpha(x)}\text{ }\mathcal{l}(L;x),
 
 where $`\mathcal{l}( \cdot ;x)`$ is slowly varying **uniformly on compact sets of** $`x`$(UCS): for each compact $`K \subset X`$ and $`b > 0`$,
 
-```
+``` math
 $$
 \sup_{x \in K} \left| \frac{\ell(bL; x)}{\ell(L; x)} - 1 \right| \underset{L \to \infty}{\longrightarrow} 0.
 $$
