@@ -888,53 +888,37 @@ If any fails, mark the condition **TENTATIVE** and refrain from interpreting rat
 
 **7.8 Pseudocode (portable reference)**
 
-function estimate_alpha(data, meta):
-
-\# 1) Preprocess & QA
-
-ts = preprocess_timeseries(data.Xt, meta) \# detrend, window, stationarity
-
+```
+# 1) Preprocess & QA
+ts = preprocess_timeseries(data.Xt, meta)     # detrend, window, stationarity
 vids, aud = preprocess_imaging_audio(data, meta)
-
 qa_flags = run_QA(ts, vids, aud)
 
-\# 2) Primary features
-
+# 2) Primary features
 gamma, se_gamma = spectral_slope(ts)
-
 Q, se_Q, Vm, se_Vm = cavity_metrics(data.spectra)
-
 Lb_dist, chi, se_chi = cavitation_metrics(vids, aud)
-
 Cbio, se_Cbio, Lact, se_Lact = biochemical_metrics(data.struct)
 
-\# 3) Proxy maps -\> alpha_k
-
+# 3) Proxy maps -> alpha_k
 alpha_spec, se_spec = map_gamma_to_alpha(gamma, se_gamma, meta.Mgamma)
-
 alpha_Q, se_Qa = map_Q_to_alpha(Q, se_Q, Vm, se_Vm, meta.MQ)
-
 alpha_chi, se_chi_a = map_chi_to_alpha(chi, se_chi, Lb_dist, meta.Mchi)
-
 alpha_bio, se_bio_a = map_bio_to_alpha(Cbio, se_Cbio, Lact, se_Lact, meta.Mbio)
 
-\# 4) Slope-based alpha (optional/confirmatory)
-
+# 4) Slope-based alpha (optional/confirmatory)
 alpha_slope, se_slope = slope_from_logk_vs_logL(data.kinetics, data.L, meta)
 
-\# 5) Combine proxies (random-effects)
-
-A = \[alpha_spec, alpha_Q, alpha_chi, alpha_bio\] with valid entries
-
-SE = \[se_spec, se_Qa, se_chi_a, se_bio_a\]
-
+# 5) Combine proxies (random-effects)
+A = [alpha_spec, alpha_Q, alpha_chi, alpha_bio] # with valid entries
+SE = [se_spec, se_Qa, se_chi_a, se_bio_a]
 alpha_hat, ci_alpha, I2 = random_effects_meta(A, SE)
 
-\# 6) Acceptance rule
-
-status = ACCEPT if overlap(alpha_hat, alpha_slope) and I2\<=0.40 and qa_flags.ok else TENTATIVE
+# 6) Acceptance rule
+status = ACCEPT if overlap(alpha_hat, alpha_slope) and I2 <= 0.40 and qa_flags.ok else TENTATIVE
 
 return alpha_hat, ci_alpha, alpha_slope, status, qa_flags
+```
 
 **7.9 Calibration standards and sanity checks**
 
