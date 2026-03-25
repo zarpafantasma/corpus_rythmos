@@ -62,8 +62,8 @@ obtained by measuring apparent rates $`k`$ while varying an **effective confinem
 
 > RBCI complements $`\alpha_{\text{bio,enz}}`$: slope tests the **law of scale**, whereas RBCI tests **mechanistic coherence** expected to co-vary with high-$`\alpha`$ transport.
 >
-> **1.4 Predictions and falsifiable outcomes**
->
+
+**1.4 Predictions and falsifiable outcomes**
 > RTM makes sharp, pre-registrable predictions for enzymatic systems:
 
 - **Banded** $`\alpha`$ **in biology:** hierarchical/fractal transport yields $`\alpha \approx 2.3\text{–}2.7`$.
@@ -78,20 +78,19 @@ obtained by measuring apparent rates $`k`$ while varying an **effective confinem
 
 > Failure of any of these, under proper controls, would delimit RTM’s applicability or reveal hidden confounders (e.g., mixing limits, thermal artefacts, pH drift).
 >
-> **1.5 Scope, controls, and artefacts**
->
+
+**1.5 Scope, controls, and artefacts**
 > Our protocol explicitly separates **slope** from **intercept** by holding temperature, ionic strength, and buffer constant, and by quantifying heating and mixing. Controls include dummy matrices (same geometry, inert surface), **off-resonance** driving, blind randomization of $`L`$, and independent thermometry. Known artefacts—thermal gradients, cavitation, boundary-layer diffusion, photobleaching—are measured and bounded in the analysis plan. The framework is agnostic to microscopic detail: what matters empirically is whether **scaling** and **coherence signatures** appear together and obey the predicted transformations.
 >
-> **1.6. Systematic Empirical Validation: Global Coherence vs. Local Catalysis (APPENDIX B)**
->
+
+**1.6. Systematic Empirical Validation: Global Coherence vs. Local Catalysis (APPENDIX B)**
 > Within the RTM framework, biological macromolecules are not merely complex chemical clusters; they are multiscale topological engines. To prove that the RTM scaling equation strictly governs biochemistry, we must test its ability to mathematically differentiate between fundamentally distinct classes of biological operations, even in the presence of severe experimental noise.
 >
 > We hypothesize that processes requiring the simultaneous structural coordination of an entire macromolecule—such as protein folding—will operate in a highly coherent, topology-dominated regime characterized by a massive exponent ($`\alpha \gg 1`$). In contrast, processes that rely on isolated, localized active sites—such as enzyme catalysis—should exhibit complete independence from the global structural scale ($`\alpha \approx 0`$). By systematically analyzing empirical records across both domains and deploying robust error-in-variables (EIV) statistics to control for *in-vitro* assay variance and chemical confounders, we provide direct evidence that the coherence exponent $`\alpha`$ acts as a rigorous mathematical boundary. It successfully classifies whether a biochemical process is governed by global geometric resonance or localized thermal chemistry.
->
-> **2. Theory**
->
-> **2.1 RTM postulates specialized to enzymatic catalysis**
->
+
+**2. Theory**
+**2.1 RTM postulates specialized to enzymatic catalysis**
+
 > We adopt the **Multiscale Temporal Relativity (RTM)** assumptions in an enzymology context:
 
 - **P1 — Scale semigroup:** rescaling an effective confinement length $`L`$ by $`\lambda_{1}`$ and then $`\lambda_{2}`$ is equivalent to a single rescaling by $`\lambda_{1}{\ \lambda}_{2}`$ for the kinetics observable (e.g., mean turnover time $`T`$ or apparent rate constant $`k = 1/T`$).
