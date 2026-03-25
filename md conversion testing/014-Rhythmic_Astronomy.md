@@ -334,53 +334,42 @@ Within each coherence bin $`B`$, compute
 
 **5.8 Pseudocode (analysis contract)**
 
+```
 for each galaxy G:
+    preprocess_images_and_kinematics(G)
+    annuli = make_log_annuli(G, dlogL=0.1)
 
-preprocess_images_and_kinematics(G)
+    for each annulus A_j in annuli:
+        z_j, Sigma_j = compute_structure_features(A_j)
+        talpha_j, sigma_talpha_j = map_features_to_alpha(z_j, Sigma_j) # Sec. 5.3
 
-annuli = make_log_annuli(G, dlogL=0.1)
+    # coherence binning with contiguity constraint
+    bins = cluster_adjacent_by_alpha(talpha_j, k_min="5 annuli")
 
-for each annulus A_j in annuli:
+    results = []
 
-z_j, Sigma_j = compute_structure_features(A_j)
+    for bin B in bins:
+        # Slope law
+        m, CI_m = robust_EIV_slope(log v vs. log L in B)
+        alpha_slope = 1 - m
 
-talpha_j, sigma_talpha_j = map_features_to_alpha(z_j, Sigma_j) \# Sec. 5.3
+        # Compare with proxy alpha
+        alpha_proxy = median(talpha_j in B)
+        status = PASS if |alpha_slope - alpha_proxy| <= 0.2 and CI overlap else TENTATIVE/FAIL
 
-\# coherence binning with contiguity constraint
+        # Collapse
+        y = v * L**(alpha_slope - 1)
+        m_c, CI_c = slope(log y vs. log L)
+        collapse_ok = (|m_c| <= 0.1 with CI including 0)
 
-bins = cluster_adjacent_by_alpha(talpha_j, k_min=5 annuli)
+        results.append({alpha_slope, CI_m, alpha_proxy, status, collapse_ok})
 
-results = \[\]
+    # Final per-annulus alpha by shrinkage to bin slope
+    for j in annuli:
+        alpha_final[j] = shrink(talpha_j, alpha_slope_of_bin(j), sigmas)
 
-for bin B in bins:
-
-\# Slope law
-
-m, CI_m = robust_EIV_slope(log v vs. log L in B)
-
-alpha_slope = 1 - m
-
-\# Compare with proxy alpha
-
-alpha_proxy = median(talpha_j in B)
-
-status = PASS if \|alpha_slope - alpha_proxy\| \<= 0.2 and CI overlap else TENTATIVE/FAIL
-
-\# Collapse
-
-y = v \* L\*\*(alpha_slope - 1); m_c, CI_c = slope(log y vs. log L)
-
-collapse_ok = (\|m_c\| \<= 0.1 with CI including 0)
-
-results.append({alpha_slope, CI_m, alpha_proxy, status, collapse_ok})
-
-\# Final per-annulus alpha by shrinkage to bin slope
-
-for j in annuli:
-
-alpha_final\[j\] = shrink(talpha_j, alpha_slope_of_bin(j), sigmas)
-
-export(G, results, alpha_final, QA_flags)
+    export(G, results, alpha_final, QA_flags)
+```
 
 **5.9 Deliverables per Galaxy**
 
