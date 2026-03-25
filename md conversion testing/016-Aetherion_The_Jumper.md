@@ -662,70 +662,63 @@ where we have absorbed one factor of $`\kappa`$ into $`{\Delta E}_{ZPE}`$ as the
 **Set-up.**\
 A suspended test mass of length $`L`$ is excited by a longitudinal standing-wave mode at angular frequency $`\omega = 2\pi f`$ We model the local temporal-scaling exponent as
 
-| 
+
 ``` math
-\alpha(z,t) = \alpha 0 + \Delta\alpha\ \sin(\omega t)\ \sin\left( \frac{\pi z}{L} \right)
-``` | *0≤z≤L* | \(1\) |
-|----|----|----|
+$$
+\alpha(z, t) = \alpha_0 + \Delta\alpha \sin(\omega t) \sin\left(\frac{\pi z}{L}\right) \qquad 0 \leq z \leq L
+$$
+``` |
 
 so the instantaneous gradient is
 
-| 
 ``` math
-\mid \nabla\alpha \mid = \frac{\pi}{L}\Delta\alpha\ sin(\omega t)\ cos\left( \frac{\pi z}{L} \right)
-``` | \(2\) |
-|----|----|
+$$
+|\nabla\alpha| = \frac{\pi}{L} \Delta\alpha \sin(\omega t) \cos\left(\frac{\pi z}{L}\right)
+$$
+```
 
 **Thrust density.**\
 From Section 2.1, the thrust per unit area at each $`z`$ is
 
-| 
+
 ``` math
-\frac{F}{A}(z,t) = \rho F\  \mid \nabla\alpha(z,t) \mid {\Delta E}_{ZPE}
-``` | 
+$$
+\frac{F}{A}(z,t) = \rho F |\nabla\alpha(z,t)| \Delta E_{ZPE} \qquad \qquad \rho F \equiv \kappa^2
+$$
 ``` math
-\rho F \equiv \kappa^{2}
-``` | \(3\) |
-|----|----|----|
 
 Insert (2) and integrate over the vibrating fase
 
-| 
 ``` math
-F(t) = A\ \rho F\frac{\pi\Delta\alpha}{L}{\Delta E}_{ZPE}\ sin(\omega t)\ \int_{0}^{L}\cos\left( \frac{\pi z}{L} \right)dz = A\rho F\ \Delta\alpha\ {\Delta E}_{ZPE}\ sin(\omega t)
-``` | \(4\) |
-|----|----|
+$$
+F(t) = A \rho F \frac{\pi \Delta\alpha}{L} \Delta E_{ZPE} \sin(\omega t) \int_{0}^{L} \cos\left(\frac{\pi z}{L}\right) dz = A \rho F \Delta\alpha \Delta E_{ZPE} \sin(\omega t)
+$$
+```
 
 **Displacement over one cycle.**\
 For a suspended mass $`m`$,
-
-| 
+ 
 ``` math
-z\ddot{} = \frac{F(t)}{m} = \frac{A\ \rho F\ \Delta\alpha\ {\Delta E}_{ZPE}}{m}sin(\omega t) \equiv a_{0}\ sin(\omega t)
-``` | \(5\) |
-|----|----|
+$$
+\ddot{z} = \frac{F(t)}{m} = \frac{A \rho F \Delta\alpha \Delta E_{ZPE}}{m} \sin(\omega t) \equiv a_0 \sin(\omega t)
+$$
+```
 
 Integrate twice:
 
-| 
 ``` math
-\Delta z(t) = \frac{a_{0}}{\omega^{2}}\ \left\lbrack 1 - cos(\omega t) \right\rbrack
-``` | 
-``` math
-0 \leq t \leq \frac{2\pi}{\omega}
-``` | \(6\) |
-|----|----|----|
+$$
+\Delta z(t) = \frac{a_0}{\omega^2} [1 - \cos(\omega t)] \qquad \qquad 0 \leq t \leq \frac{2\pi}{\omega}
+$$
+```
 
 The peak-to-peak excursion is therefore
 
-| 
 ``` math
-{\text{Δ}\text{z}}_{\max} = \frac{{2A\ \rho F\ \Delta\alpha\ \Delta E}_{ZPE}}{{m\omega}^{2}}
-``` |
-|----|
-
-| \(7\) |
-|-------|
+$$
+\boxed{\Delta z_{max} = \frac{2A \rho F \Delta\alpha \Delta E_{ZPE}}{m\omega^2}}
+$$
+```
 
 **Numerical estimate (lab scale).**
 
