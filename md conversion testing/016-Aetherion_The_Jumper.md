@@ -36,11 +36,10 @@ Throughout, we adopt the parameter definitions and calibration routes establishe
 
 The full technical logs and Monte Carlo variance stress-tests for these findings are provided in the concluding **Appendix A** of this paper.
 
-**I**
-
-**Vacuum-Energy Extraction via**
-
-**Temporal-Scaling Gradients**
+<div align="center">
+# I  
+**Vacuum-Energy Extraction via Temporal-Scaling Gradients**
+</div>
 
 **Abstract**
 
