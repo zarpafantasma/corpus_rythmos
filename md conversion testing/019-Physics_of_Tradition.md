@@ -7,17 +7,17 @@
 Álvaro Quiceno
 </div>
 
-> **Important Methodological Note Regarding the Exponent** $`\mathbf{\alpha}`$
+> **Important Methodological Note Regarding the Exponent $\mathbf{\alpha}$**
 >
 > This text, "**Physics of Tradition**", extends the concepts of coherence, rhythm, and temporal scaling explored within the scientific framework of Multiscale Temporal Relativity (RTM) to the analysis of cultural, ritual, and experiential phenomena.
 >
-> It is **crucial** to alert the reader to a key methodological difference in the use of the symbol $`\alpha`$:
-
-1.  **In the scientific corpus of RTM** (e.g., "Multiscale Temporal Relativity," "RTM Unified Field Framework," etc.), the exponent $`\alpha`$ is defined **operationally** as the **measured physical slope** in a logarithmic regression between a characteristic time ($`T`$) and a characteristic length scale ($`L`$) of the system: $`log(T) = \alpha\ log(L)\  + \ C`$. It is a **directly measured** scaling exponent.
-
-2.  **In this text ('Physics of Tradition')**, while these cultural indices ($`\alpha_{place}`$, $`\alpha_{ling}`$, $`\alpha_{symb}`$, etc.) are calculated from domain-specific proxies—such as acoustic resonance or linguistic stability—they are recognized as macroscopic manifestations of the **3D Sierpiński Tetrahedron** geometry. The target coherence of tradition ($`\alpha \approx 2.51 - 2.69`$) is the physical signature of a 3D vacuum manifold operating at peak efficiency. Therefore, these indices are not merely heuristic analogies; they represent a **high-level interface** for the fundamental temporal vacuum. We use subscripts to distinguish between raw field-theoretic measurements and their manifestation within cultural-symbolic systems, acknowledging that tradition is the technology used by human collectives to anchor consciousness into the quantized bands of the RTM framework.
-
-> We postulate that these cultural indices directly correlate with the underlying principle of structural coherence explored in RTM field theory. However, we maintain a clear distinction: while the **underlying physics is equivalent**, the **operational measurement** remains domain-specific. The use of subscripts ($`\alpha_{place}`$, $`\alpha_{ling}`$, etc.) serves as a technical necessity to distinguish between raw field-theoretic values and their cultural-symbolic manifestations, acknowledging that tradition acts as a high-level interface for the fundamental temporal vacuum.
+> It is **crucial** to alert the reader to a key methodological difference in the use of the symbol $\alpha$:
+>
+> 1.  **In the scientific corpus of RTM** (e.g., "Multiscale Temporal Relativity," "RTM Unified Field Framework," etc.), the exponent $\alpha$ is defined **operationally** as the **measured physical slope** in a logarithmic regression between a characteristic time ($T$) and a characteristic length scale ($L$) of the system: $\log(T) = \alpha \log(L) + C$. It is a **directly measured** scaling exponent.
+> 
+> 2.  **In this text ('Physics of Tradition')**, while these cultural indices ($\alpha_{place}$, $\alpha_{ling}$, $\alpha_{symb}$, etc.) are calculated from domain-specific proxies—such as acoustic resonance or linguistic stability—they are recognized as macroscopic manifestations of the **3D Sierpiński Tetrahedron** geometry. The target coherence of tradition ($\alpha \approx 2.51 - 2.69$) is the physical signature of a 3D vacuum manifold operating at peak efficiency. Therefore, these indices are not merely heuristic analogies; they represent a **high-level interface** for the fundamental temporal vacuum. We use subscripts to distinguish between raw field-theoretic measurements and their manifestation within cultural-symbolic systems, acknowledging that tradition is the technology used by human collectives to anchor consciousness into the quantized bands of the RTM framework.
+>
+> We postulate that these cultural indices directly correlate with the underlying principle of structural coherence explored in RTM field theory. However, we maintain a clear distinction: while the **underlying physics is equivalent**, the **operational measurement** remains domain-specific. The use of subscripts ($\alpha_{place}$, $\alpha_{ling}$, etc.) serves as a technical necessity to distinguish between raw field-theoretic values and their cultural-symbolic manifestations, acknowledging that tradition acts as a high-level interface for the fundamental temporal vacuum.
 
 **Introduction**
 
