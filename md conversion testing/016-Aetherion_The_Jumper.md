@@ -793,14 +793,13 @@ For $`\alpha = 3,\ \ \delta L/L = 1\%,\ \varepsilon_{ZPE} = 10^{- 3}\ {J\ m}^{- 
 
 $`L = 10^{- 5}m`$, and $`\Delta t = 1ms`$, (11) yields
 
-| 
 ``` math
 {\Delta p}_{L} \sim 10^{- 10}N \cdot s\ m^{- 2}
-``` | 
+```
+
 ``` math
 \left( \approx 100\ pN{cm}^{2} \right)
-``` |
-|----|----|
+```
 
 Sustained at 1 kHz, this corresponds to $`\sim 0.1\ \mu N\ {cm}^{- 2}`$ of continuous thrust—readily measurable with a micro-torsion pendulum.
 
