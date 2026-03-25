@@ -1247,61 +1247,46 @@ Use this template for other domains (MEG, fNIRS, robotics/control, behavioral cy
 
 **Scope.** Definitions used across the book. Unless stated otherwise, $`\log`$is natural log and “slope” means the coefficient from a regression of $`\log T`$ on $`\log L`$. All entries avoid metaphor and keep to operational meaning.
 
-```
 $`\mathbf{\alpha}`$ **(coherence exponent)**
-
 The **multi-point** log–log slope of $`\log T`$ on $`\log L`$ estimated inside a **collapse-valid window**. Report as $`\widehat{\alpha}`$ with 95% CI, estimator, $`n`$, span.
 
 **Auxiliary observable**
-
 Any domain metric that is **not** $`\alpha`$(e.g., spectral slope $`\beta`$, PLV/coherence, band powers, echo/delay). May correlate with $`\alpha`$ in **model-specific** ways; never a universal substitute.
 
 **Band /** $`\mathbf{\alpha}`$**-band**
-
 A range of scales where estimated $`\alpha`$ is approximately constant and passes collapse. Boundaries are determined by diagnostics or visible breakpoints.
 
 **Bootstrap CI**
-
 Confidence interval obtained by resampling (with replacement) the paired $`(L,T)`$points or residuals under the chosen estimator.
 
 **Changepoint (breakpoint)**
-
 A scale value where a single-slope model is significantly outperformed by segmented slopes. Label the outcome **MULTI-REGIME** and report each segment.
 
 **Collapse (diagnostics)**
-
 Set of tests used to accept a window: log–log linearity (no residual curvature), leave-one-out stability, bounded heteroscedasticity, no hidden changepoints, sufficient span/granularity.
 
 **Correlation length**
-
 A spatial scale (e.g., variogram range or inverse peak of spatial frequency) summarizing the extent of correlation; may be used to define $`L`$.
 
 **Errors-in-Variables (EIV)**
-
 Regression framework that accounts for measurement error in both $`\log L`$ and $`\log T`$. Required when both axes are noisy.
 
 **Estimator disclosure**
-
 The explicit statement accompanying $`\widehat{\alpha}`$: estimator (ODR/TLS, Theil–Sen, SIMEX use), CI method, $`n`$, span (decades), window definition, and diagnostics.
 
 **Effective topology / metric**
-
 The geometry that governs propagation (e.g., network geodesics, small-world shortcuts), which may differ from Euclidean distance and change the expected scaling (e.g., $`T \sim \log L`$).
 
 **FWHM (full width at half maximum)**
-
 Spatial dispersion measure used on source-level maps; can define wavelength $`\lambda`$ and hence $`L = \lambda/2`$.
 
 **Granularity (levels)**
-
 The number of distinct $`L`$ levels in a window. Target ≥6 levels to stabilize slope estimates and diagnostics.
 
 **Heteroscedasticity**
-
 Scale-dependent variance of residuals; must remain within pre-registered bounds for collapse to pass.
 
 **LOG-SCALING**
-
 Outcome label when semi-log is linear and $`T`$ grows approximately as $`\log L`$. Do **not** report $`\alpha`$ for this regime.
 
 $`\mathbf{\beta}`$**(spectral slope)**
@@ -1309,77 +1294,59 @@ $`\mathbf{\beta}`$**(spectral slope)**
 Exponent from a power spectrum $`P(f) \propto f^{- \beta}`$. **Auxiliary** by default. There is **no universal** conversion from $`\beta`$ to $`\alpha`$.
 
 **MINIMUM SPAN**
-
 Target span of $`L`$ within a window (≥0.6–1.0 decades) to ensure identifiability of the slope and reliable diagnostics.
 
 **MULTI-REGIME**
-
 Outcome label when segmented slopes are supported within a window. Report piecewise $`\widehat{\alpha}`$ values, breakpoints, and interpretation.
 
 **NO_COLLAPSE**
-
 Outcome label when the collapse criteria fail (curvature, instability, excessive heteroscedasticity, insufficient span, or hidden changepoints). Do not report $`\alpha`$.
 
 **ODR/TLS (orthogonal distance regression / total least squares)**
-
 Default EIV estimator that minimizes distances orthogonal to the regression line, accounting for error on both axes.
 
 **Placebo (clock)**
-
 Control that rescales timestamps or adds small jitter while keeping structure; $`\widehat{\alpha}`$ should remain within CI if the slope reflects structure, not clock artifacts.
 
 **Placebo (structure)**
-
 Control that perturbs spatial patterns or pairings while keeping the clock; collapse should fail or $`\widehat{\alpha}`$ drift if structure drives the slope.
 
 **PLV / coherence**
-
 Phase-locking value and coherence measures. **Auxiliary** descriptors of synchrony; not substitutes for $`\alpha`$.
 
 **Pre-registration (window)**
-
 Prior declaration of $`L`$ and $`T`$ definitions, bin bounds, inclusion/exclusion, estimator, diagnostics, and failure criteria before fitting $`\alpha`$.
 
 **Residual curvature (runs/LOESS test)**
-
 Deviation from linearity on log–log; evidence against a single-slope model inside the window.
 
 **SIMEX**
-
 Simulation–extrapolation procedure to correct bias from measurement error when its variance is estimable. Used on top of ODR/TLS or other EIV fits.
 
 **Source-modeled wavelength** $`\mathbf{(\lambda)}`$
-
 Spatial period of an oscillatory source estimated on the cortex (e.g., via eLORETA/beamformer); $`L = \lambda/2`$.
 
 **Span (decades)**
-
 The width of $`L`$ values in a window measured in orders of magnitude. Reported alongside $`\widehat{\alpha}`$.
 
 **Surrogate (sensor-space)**
-
 A non-source structural proxy for $`L`$(e.g., topographic SVD period). Allowed only with explicit caveats and usually labeled exploratory.
 
 **Theil–Sen**
-
 Robust slope estimator (median of pairwise slopes); used as a sensitivity check against ODR/TLS or when outliers are a concern.
 
 **Time** $`\mathbf{T}`$ **(proper duration)**
-
 Duration of the mechanism governed by the structure defining $`L`$ (e.g., oscillation period $`1/f`$, transit time, settling time, consolidation delay).
 
 **Variogram (range)**
-
 Spatial statistic used to estimate correlation length. The range (where the variogram plateaus) can define $`L`$.
 
 **Window (bin)**
-
 Finite range of $`L`$ (and fixed mechanism/state) over which a single slope model is tested. Must pass collapse diagnostics to report $`\alpha`$.
 
 **Usage rule (global).**\
 Only values of $`\widehat{\alpha}`$ derived from **multi-point** log–log slopes within **collapse-valid** windows appear in results tables. All other metrics are **auxiliary** and reported separately with their own methods and uncertainty.
-```
-
+  
 **Appendix D · Negative Results & Failure Modes (Technical Only)**
 
 **Scope.** How to detect, label, and report when a power-law regime **does not** hold, and how to learn from that outcome without forcing $`\alpha`$.
