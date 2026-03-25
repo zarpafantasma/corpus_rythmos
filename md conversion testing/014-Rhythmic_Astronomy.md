@@ -1459,15 +1459,11 @@ T = \frac{2\pi L}{v}\quad \Rightarrow \quad v(L) = \kappa L^{1 - \alpha(L)/2},\q
 ```
 
 Taking derivatives **within a bin** where $`\alpha`$ is approximately constant,
-
-|                                                             
+                                                           
  ``` math                                                     
  \frac{\partial\log v}{\partial\log L} = 1 - \alpha\text{/}2  
- ```                                                          |
-|-------------------------------------------------------------|
-
-| (A1) |
-|------|
+ ```
+(A1)
 
 which is the **slope law** used throughout.
 
