@@ -331,51 +331,27 @@ When these three vectors converge, the Logos acts as a **rhythmic operator** tha
 
 We define the rhythmic power of a verbal act as:
 
-<table>
-<colgroup>
-<col style="width: 14%" />
-<col style="width: 54%" />
-<col style="width: 30%" />
-</colgroup>
-<thead>
-<tr>
-<th><pre><code>Variable</code></pre></th>
-<th><pre><code>Description</code></pre></th>
-<th><pre><code>Typical Range</code></pre></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><pre><code> </code></pre></td>
-<td><pre><code>Metric-melodic stability of the carrier</code></pre></td>
-<td><pre><code>0.8 – 1.2</code></pre></td>
-</tr>
-<tr>
-<td><pre><code> </code></pre></td>
-<td><pre><code>Hierarchical depth of the symbolic content</code></pre></td>
-<td><pre><code>1 – 3</code></pre></td>
-</tr>
-<tr>
-<td><pre><code> </code></pre></td>
-<td><pre><code>Coherence of the intention</code></pre></td>
-<td><pre><code>0 – 1</code></pre></td>
-</tr>
-</tbody>
-</table>
+``` math
+$$
+\alpha_{logos} = \alpha_{phonetic} \times S_{sem} \times C_{int}
+$$
+```
+
+| Variable | Description | Typical Range |
+| :--- | :--- | :--- |
+| $\alpha_{phonetic}$ | Metric-melodic stability of the carrier | 0.8 – 1.2 |
+| $S_{sem}$ | Hierarchical depth of the symbolic content | 1 – 3 |
+| $C_{int}$ | Coherence of the intention | 0 – 1 |
 
     Values > 3 indicate a Logos of high temporal density, capable of modifying  
 
 **6.3 Comparative Table of Speech Acts**
 
-| **Speech Act** | 
-``` math
-\mathbf{\alpha}_{\mathbf{phonetic}}
-``` | **S_sem** | **C_int** | $`\mathbf{\alpha}_{\mathbf{logos}}`$ **(≈)** | **Window τ (s)** | **RTM Effect** |
-|----|----|----|----|----|----|----|
+| Speech Act | $\alpha_{phonetic}$ | $S_{sem}$ | $C_{int}$ | $\alpha_{logos}$ ($\approx$) | Window $\tau$ (s) | RTM Effect |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Casual conversation | 0.9 | 1.0 | 0.2 | 0.18 | 2–3 | No collective impact |
 | Advertising slogan | 1.0 | 1.2 | 0.6 | 0.72 | 5–10 | Excites short-term memory, creates an earworm |
-| Mantra “ॐ” (Om) | 1.1 | 2.3 | 0.9 | 2.28 | 30–300 | Elevates $`\alpha_{place}`$ in group meditation |
-| “Gloria in excelsis Deo” (Latin) | 1.1 | 2.5 | 0.95 | 2.61 | 60–600 | Reinforces $`\alpha_{network}`$ in liturgy |
+| Mantra “ॐ” (Om) | 1.1 | 2.3 | 0.9 | 2.28 | 30–300 | Elevates $\alpha_{place}$ in group meditation |
 
 τ = average induced neural integration window.
 
