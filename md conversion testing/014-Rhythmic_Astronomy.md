@@ -1473,14 +1473,10 @@ which is the **slope law** used throughout.
 
 For dispersion-supported systems (spherical shell of thickness $`\sim L`$), a characteristic random speed scales like $`L/T`$, giving
 
-| 
 ``` math
 \left. \ \frac{\partial\log\sigma\ }{\partial\log L\ } \right|_{\text{bin}} = 1 - \alpha
-``` |
-|----|
-
-| (A2) |
-|------|
+```
+(A2)
 
 $`{\sigma(L)\  \propto \ L}^{1 - \alpha(L)} \Rightarrow`$
 
@@ -1494,14 +1490,11 @@ Define the **collapsed variable**
 
 If $`\alpha`$ is constant within the bin, then $`y(L) = \kappa =`$ constant and
 
-| 
+
 ``` math
 \left. \ \frac{\partial\log y\ }{\partial\log L\ } \right|_{\text{bin}} = 0
-``` |
-|----|
-
-| (A3) |
-|------|
+```
+(A3)
 
 The same form holds for dispersions with $`{y(L) = \sigma(L)\ L}^{\alpha - 1}`$
 
