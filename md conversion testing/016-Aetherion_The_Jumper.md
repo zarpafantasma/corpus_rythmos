@@ -1436,30 +1436,37 @@ Equations (18b–c) show explicitly how a spatially pulsed $`\nabla\alpha`$ term
 
 For a one-dimensional slab of length $`L`$ we impose
 
-| 
+
 ``` math
-\alpha(z = 0,t) = \alpha_{core}(t),\ \ \ \ \ \alpha(z = L,t) = \alpha_{hull} = 1,\ \ \ \ \ \beta(z = 0,t) = \beta_{core}(t),\ \ \ \ \ \beta(z = L,t) = 0
-``` |
-|----|
+$$
+\begin{aligned}
+\alpha(z = 0, t) &= \alpha_{core}(t), & \alpha(z = L, t) &= \alpha_{hull} = 1, \\
+\beta(z = 0, t) &= \beta_{core}(t), & \beta(z = L, t) &= 0
+\end{aligned}
+$$
+```
 
 | \(19\) |
 |--------|
+
+```
+$`\beta_{core}(t)\ traverses\ \beta = n \longrightarrow \beta = n + 1`$ and $`\partial_{t}\beta_{core}`$
+```
 
 | \(20\) |
 |--------|
 
 with Neumann conditions $`\partial_{z}\varphi = 0`$ at both ends. A **branch jump** is deemed to occur when
 
-$`\beta_{core}(t)\ traverses\ \beta = n \longrightarrow \beta = n + 1`$ and $`\partial_{t}\beta_{core}`$ changes sign,
+ changes sign,
 
 signalling that the field has crossed the barrier and settled into the next potential well. Equation (18c) implies the minimal pulse condition
-
-| \(21\) |
-|--------|
 
 ``` math
 \int_{t_{0}}^{t_{1}}{dt}g_{\beta\alpha}\left( \partial_{z}\alpha \right)^{2} \gtrsim {\Delta V}_{\beta} \equiv V(n + 1) - V(n)
 ```
+| \(21\) |
+|--------|
 
 where $`{\Delta V}_{\beta}`$ is the barrier height. This gives an explicit energy–gradient threshold for multiverse hopping, to be tested numerically in $`§6`$ nd, eventually, in analogue experiments.
 
