@@ -466,49 +466,34 @@ Q = \sum_{f}^{}{w_{f}^{FE}({\widehat{\alpha}}_{f} - {\overset{ˉ}{\alpha}}_{FE})
 
 **4.9 Implementation blueprint (pseudo-YAML)**
 
+```
 binning:
-
-min_scales: 6
-
-min_logL_span: 0.6
-
-tags: \[biome, season_band, management, sensor_stack, anomaly_class\]
+  min_scales: 6
+  min_logL_span: 0.6
+  tags: [biome, season_band, management, sensor_stack, anomaly_class]
 
 estimation:
-
-base: "odr"
-
-init: "theil-sen"
-
-bootstrap: {B: 2000, cluster: true, seed: 123}
-
-leverage_cap: 0.25
-
-simex: {enabled: false, lambda: \[0.5,1.0,1.5,2.0\]}
+  base: "odr"
+  init: "theil-sen"
+  bootstrap: {B: 2000, cluster: true, seed: 123}
+  leverage_cap: 0.25
+  simex: {enabled: false, lambda: [0.5, 1.0, 1.5, 2.0]}
 
 collapse:
-
-r2_threshold: 0.05
-
-loess_bw: "pre-registered"
-
-clock_placebo: true
-
-changepoint: {method: "PELT", criterion: "BIC"}
+  r2_threshold: 0.05
+  loess_bw: "pre-registered"
+  clock_placebo: true
+  changepoint: {method: "PELT", criterion: "BIC"}
 
 fusion:
-
-min_families: 2
-
-I2_gate: 0.50
-
-tau2_method: "REML"
+  min_families: 2
+  I2_gate: 0.50
+  tau2_method: "REML"
 
 report:
-
-figures: \["collapse_panels", "forest_plot", "eci_time_series"\]
-
-publish_negatives: true
+  figures: ["collapse_panels", "forest_plot", "eci_time_series"]
+  publish_negatives: true
+```
 
 **4.10 Common pitfalls (and fixes)**
 
