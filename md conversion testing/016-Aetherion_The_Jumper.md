@@ -123,15 +123,13 @@ This explicit mapping ensures that Aetherion inherits the same parameter definit
 
 The Euler‑Lagrange equations give
 
-| 
 ``` math
 \square\varphi + m_{\varphi}^{2}\varphi + 2\lambda\varphi^{3} = - \gamma\square\alpha,
-``` |
-|----|
-| 
+```
+
 ``` math
 M^{2}\square\alpha = \gamma\square\varphi
-``` |
+```
 
 In a quasi‑static reactor $`\left( \partial_{t} \rightarrow 0 \right)`$ these reduce to coupled Poisson‑type equations whose solutions determine the stationary $`\nabla\varphi`$ and hence the extractable power $`P`$
 
