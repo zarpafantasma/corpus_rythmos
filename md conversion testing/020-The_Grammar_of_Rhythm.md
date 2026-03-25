@@ -1247,6 +1247,7 @@ Use this template for other domains (MEG, fNIRS, robotics/control, behavioral cy
 
 **Scope.** Definitions used across the book. Unless stated otherwise, $`\log`$is natural log and “slope” means the coefficient from a regression of $`\log T`$ on $`\log L`$. All entries avoid metaphor and keep to operational meaning.
 
+```
 $`\mathbf{\alpha}`$ **(coherence exponent)**
 
 The **multi-point** log–log slope of $`\log T`$ on $`\log L`$ estimated inside a **collapse-valid window**. Report as $`\widehat{\alpha}`$ with 95% CI, estimator, $`n`$, span.
@@ -1377,6 +1378,7 @@ Finite range of $`L`$ (and fixed mechanism/state) over which a single slope mode
 
 **Usage rule (global).**\
 Only values of $`\widehat{\alpha}`$ derived from **multi-point** log–log slopes within **collapse-valid** windows appear in results tables. All other metrics are **auxiliary** and reported separately with their own methods and uncertainty.
+```
 
 **Appendix D · Negative Results & Failure Modes (Technical Only)**
 
