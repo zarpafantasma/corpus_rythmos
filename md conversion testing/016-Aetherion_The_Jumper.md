@@ -1445,20 +1445,18 @@ $$
 \end{aligned}
 $$
 ```
-
 | \(19\) |
-|--------|
-
-```
-$`\beta_{core}(t)\ traverses\ \beta = n \longrightarrow \beta = n + 1`$ and $`\partial_{t}\beta_{core}`$
-```
-
-| \(20\) |
 |--------|
 
 with Neumann conditions $`\partial_{z}\varphi = 0`$ at both ends. A **branch jump** is deemed to occur when
 
- changes sign,
+``` math
+$$
+\beta_{core}(t) \text{ traverses } \beta = n \rightarrow \beta = n + 1 \text{ and } \partial_t\beta_{core} \text{ changes sign,}
+$$
+```
+| \(20\) |
+|--------|
 
 signalling that the field has crossed the barrier and settled into the next potential well. Equation (18c) implies the minimal pulse condition
 
