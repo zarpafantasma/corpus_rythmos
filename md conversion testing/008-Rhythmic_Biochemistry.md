@@ -60,11 +60,10 @@ obtained by measuring apparent rates $`k`$ while varying an **effective confinem
 
 - **Variance reduction under on-resonance driving:** decrease of $`Var(k)`$ when applying a non-thermal periodic drive matched to the system’s coherence window, relative to off-resonance.
 
-> RBCI complements $`\alpha_{\text{bio,enz}}`$: slope tests the **law of scale**, whereas RBCI tests **mechanistic coherence** expected to co-vary with high-$`\alpha`$ transport.
->
+RBCI complements $`\alpha_{\text{bio,enz}}`$: slope tests the **law of scale**, whereas RBCI tests **mechanistic coherence** expected to co-vary with high-$`\alpha`$ transport.
 
-**1.4 Predictions and falsifiable outcomes**
-> RTM makes sharp, pre-registrable predictions for enzymatic systems:
+**1.4 Predictions and falsifiable outcomes**  
+RTM makes sharp, pre-registrable predictions for enzymatic systems:
 
 - **Banded** $`\alpha`$ **in biology:** hierarchical/fractal transport yields $`\alpha \approx 2.3\text{–}2.7`$.
 
@@ -76,22 +75,18 @@ obtained by measuring apparent rates $`k`$ while varying an **effective confinem
 
 - **CISS co-variation:** spin polarization decreases monotonically with denaturation and co-varies with RBCI.
 
-> Failure of any of these, under proper controls, would delimit RTM’s applicability or reveal hidden confounders (e.g., mixing limits, thermal artefacts, pH drift).
->
+Failure of any of these, under proper controls, would delimit RTM’s applicability or reveal hidden confounders (e.g., mixing limits, thermal artefacts, pH drift).
 
 **1.5 Scope, controls, and artefacts**
-> Our protocol explicitly separates **slope** from **intercept** by holding temperature, ionic strength, and buffer constant, and by quantifying heating and mixing. Controls include dummy matrices (same geometry, inert surface), **off-resonance** driving, blind randomization of $`L`$, and independent thermometry. Known artefacts—thermal gradients, cavitation, boundary-layer diffusion, photobleaching—are measured and bounded in the analysis plan. The framework is agnostic to microscopic detail: what matters empirically is whether **scaling** and **coherence signatures** appear together and obey the predicted transformations.
->
+Our protocol explicitly separates **slope** from **intercept** by holding temperature, ionic strength, and buffer constant, and by quantifying heating and mixing. Controls include dummy matrices (same geometry, inert surface), **off-resonance** driving, blind randomization of $`L`$, and independent thermometry. Known artefacts—thermal gradients, cavitation, boundary-layer diffusion, photobleaching—are measured and bounded in the analysis plan. The framework is agnostic to microscopic detail: what matters empirically is whether **scaling** and **coherence signatures** appear together and obey the predicted transformations.
 
 **1.6. Systematic Empirical Validation: Global Coherence vs. Local Catalysis (APPENDIX B)**
-> Within the RTM framework, biological macromolecules are not merely complex chemical clusters; they are multiscale topological engines. To prove that the RTM scaling equation strictly governs biochemistry, we must test its ability to mathematically differentiate between fundamentally distinct classes of biological operations, even in the presence of severe experimental noise.
->
-> We hypothesize that processes requiring the simultaneous structural coordination of an entire macromolecule—such as protein folding—will operate in a highly coherent, topology-dominated regime characterized by a massive exponent ($`\alpha \gg 1`$). In contrast, processes that rely on isolated, localized active sites—such as enzyme catalysis—should exhibit complete independence from the global structural scale ($`\alpha \approx 0`$). By systematically analyzing empirical records across both domains and deploying robust error-in-variables (EIV) statistics to control for *in-vitro* assay variance and chemical confounders, we provide direct evidence that the coherence exponent $`\alpha`$ acts as a rigorous mathematical boundary. It successfully classifies whether a biochemical process is governed by global geometric resonance or localized thermal chemistry.
+Within the RTM framework, biological macromolecules are not merely complex chemical clusters; they are multiscale topological engines. To prove that the RTM scaling equation strictly governs biochemistry, we must test its ability to mathematically differentiate between fundamentally distinct classes of biological operations, even in the presence of severe experimental noise.  
+We hypothesize that processes requiring the simultaneous structural coordination of an entire macromolecule—such as protein folding—will operate in a highly coherent, topology-dominated regime characterized by a massive exponent ($`\alpha \gg 1`$). In contrast, processes that rely on isolated, localized active sites—such as enzyme catalysis—should exhibit complete independence from the global structural scale ($`\alpha \approx 0`$). By systematically analyzing empirical records across both domains and deploying robust error-in-variables (EIV) statistics to control for *in-vitro* assay variance and chemical confounders, we provide direct evidence that the coherence exponent $`\alpha`$ acts as a rigorous mathematical boundary. It successfully classifies whether a biochemical process is governed by global geometric resonance or localized thermal chemistry.
 
 **2. Theory**
-**2.1 RTM postulates specialized to enzymatic catalysis**
-
-> We adopt the **Multiscale Temporal Relativity (RTM)** assumptions in an enzymology context:
+**2.1 RTM postulates specialized to enzymatic catalysis**  
+We adopt the **Multiscale Temporal Relativity (RTM)** assumptions in an enzymology context:
 
 - **P1 — Scale semigroup:** rescaling an effective confinement length $`L`$ by $`\lambda_{1}`$ and then $`\lambda_{2}`$ is equivalent to a single rescaling by $`\lambda_{1}{\ \lambda}_{2}`$ for the kinetics observable (e.g., mean turnover time $`T`$ or apparent rate constant $`k = 1/T`$).
 
@@ -103,27 +98,24 @@ obtained by measuring apparent rates $`k`$ while varying an **effective confinem
 
 - **P4 — Finite causality:** transport of mass/energy/information across $`L`$has finite effective speed; thus characteristic times cannot scale sublinearly with distance in a stable regime.
 
-> From P1–P2, the only self-consistent law relating time to scale is a **power law**:
->
-> ``` math
-> T(L) = C\text{ }L^{\alpha},C > 0
-> ```
->
-> with $`\alpha`$an **observable exponent**. In rate form,
->
-> ``` math
-> k(L) = k_{0}\text{ }L^{- \alpha}
-> ```
->
-> This yields the operational enzymatic estimator used throughout:
->
-> ``` math
-> \alpha_{bio,enz} = - \text{ }\frac{dlogk}{dlogL} \mid_{\text{isothermal, fixed ionic strength, off-resonance}}
-> ```
->
-> **2.2 The active site as a mesoscale coherence cavity**
->
-> An enzyme’s active site and its immediate protein–solvent shell form a **mesoscale cavity** that filters reaction trajectories by **transport class** as much as by geometry:
+From P1–P2, the only self-consistent law relating time to scale is a **power law**:  
+``` math
+T(L) = C\text{ }L^{\alpha},C > 0
+```
+
+with $`\alpha`$an **observable exponent**. In rate form,  
+``` math
+k(L) = k_{0}\text{ }L^{- \alpha}
+```
+
+This yields the operational enzymatic estimator used throughout:
+``` math
+\alpha_{bio,enz} = - \text{ }\frac{dlogk}{dlogL} \mid_{\text{isothermal, fixed ionic strength, off-resonance}}
+```
+
+**2.2 The active site as a mesoscale coherence cavity**
+
+An enzyme’s active site and its immediate protein–solvent shell form a **mesoscale cavity** that filters reaction trajectories by **transport class** as much as by geometry:
 
 - **Effective length** $`L`$**:** the smallest scale that constrains diffusion, reorientation, proton/electron transfer, or collective vibrational flow relevant to the rate-limiting step. Experimentally, $`L`$ can be tuned with nanoporous matrices, crowding agents, or engineered host cavities.
 
@@ -131,9 +123,8 @@ obtained by measuring apparent rates $`k`$ while varying an **effective confinem
 
 - **Transport implication:** if transport is (i) local diffusive, expect $`\alpha \approx 2`$; (ii) hierarchical/fractal with traps and corridors, expect $`\alpha \approx d_{w} > 2`$; (iii) partially ballistic along protein wires or within resonant channels, expect an intermediate effective $`\alpha`$ set by the dominant pathway mix.
 
-> **2.3 Mapping** $`\mathbf{\alpha}`$**to transport universality classes**
->
-> RTM does not assume a single microscopic model; instead, $`\alpha`$identifies the **universality class** governing the rate-limiting stage.
+**2.3 Mapping** $`\mathbf{\alpha}`$**to transport universality classes**
+RTM does not assume a single microscopic model; instead, $`\alpha`$identifies the **universality class** governing the rate-limiting stage.
 
 - **Local diffusion (Laplacian generator).** Mean first-passage time (MFPT) scales as $`T \sim L^{2} \Rightarrow \alpha = 2`$.
 
@@ -141,12 +132,11 @@ obtained by measuring apparent rates $`k`$ while varying an **effective confinem
 
 - **Guided/partially ballistic channels.** If a fraction $`p`$of trajectories propagate quasi-ballistically (time $`\sim L`$) and $`1 - p`$diffuse ($`\sim L^{2}`$), the effective exponent over one decade in $`L`$ satisfies
 
-> 
-> ``` math
-> \alpha_{eff} \approx \frac{d\ \log{\lbrack p\text{ }L^{- 1} + (1 - p)\text{ }L^{- 2}\rbrack}^{- 1}}{d\ \log L} \in \lbrack 1,2\rbrack
-> ```
->
-> increasing towards 2 as diffusive pathways dominate.
+
+``` math
+\alpha_{eff} \approx \frac{d\ \log{\lbrack p\text{ }L^{- 1} + (1 - p)\text{ }L^{- 2}\rbrack}^{- 1}}{d\ \log L} \in \lbrack 1,2\rbrack
+```
+increasing towards 2 as diffusive pathways dominate.
 
 - **Quantum-confined/coherent clusters (heuristic).** In strongly confined, highly coherent domains—with robust vibrational/electronic coupling—heuristic mappings suggest $`\alpha`$ can rise toward $`\sim 3`$, but these values are **bounds/conjectures** rather than first-principles derivations.
 
