@@ -768,13 +768,8 @@ Hence the **effective force density** is
 | 
 ``` math
 f_{eff} = C_{1}{\mid \nabla\alpha \mid}^{2}{n\hat{}}_{\alpha} + C_{2}\alpha\frac{\nabla L}{L}
-``` |
-|----|
-
-| \(10\) |
-|--------|
-
-where $`C_{1} = \kappa^{2}\ \varepsilon_{ZPE}L^{\alpha}\ \ln\ L`$ and
+```
+where $`C_{1} = \kappa^{2}\ \varepsilon_{ZPE}L^{\alpha}\ \ln\ L`$ and  
 
 $`C_{2} = \varepsilon_{ZPE}L^{\alpha}`$
 
