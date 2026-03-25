@@ -8,29 +8,7 @@
 
 </div>
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 99%" />
-</colgroup>
-<thead>
-<tr>
-<th><table style="width:89%;">
-<colgroup>
-<col style="width: 88%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Author’s Note on Framework Robustness:</strong> The theoretical architecture of the RTM Unified Field Framework has been subjected to a comprehensive Phase 2 "Red Team" audit to ensure its mathematical and physical consistency. While the core field-theoretic derivations—including quantum loop corrections and holographic AdS/CFT correspondence—were validated as robust (Green Team), specific numerical implementations regarding gauge unification and multiscale transport were refined. This document is preserved in its original conceptual form, with all technical calibrations and audit logs provided in the final Appendices. These updates ensure that the framework's predictions for <span class="math inline"><em>M</em><sub><em>G</em><em>U</em><em>T</em></sub></span> scales and biological <span class="math inline"><em>α</em></span>-anchoring are anchored in high-fidelity 3D physical reality.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> **Author’s Note on Framework Robustness:** The theoretical architecture of the RTM Unified Field Framework has been subjected to a comprehensive Phase 2 "Red Team" audit to ensure its mathematical and physical consistency. While the core field-theoretic derivations—including quantum loop corrections and holographic AdS/CFT correspondence—were validated as robust (Green Team), specific numerical implementations regarding gauge unification and multiscale transport were refined. This document is preserved in its original conceptual form, with all technical calibrations and audit logs provided in the final Appendices. These updates ensure that the framework's predictions for $M_{GUT}$ scales and biological $\alpha$-anchoring are anchored in high-fidelity 3D physical reality.
 
 **1 \| Abstract**
 
