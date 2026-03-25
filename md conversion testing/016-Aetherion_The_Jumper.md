@@ -667,10 +667,9 @@ A suspended test mass of length $`L`$ is excited by a longitudinal standing-wave
 $$
 \alpha(z, t) = \alpha_0 + \Delta\alpha \sin(\omega t) \sin\left(\frac{\pi z}{L}\right) \qquad 0 \leq z \leq L
 $$
-``` |
-
-so the instantaneous gradient is
-
+```
+  
+so the instantaneous gradient is  
 ``` math
 $$
 |\nabla\alpha| = \frac{\pi}{L} \Delta\alpha \sin(\omega t) \cos\left(\frac{\pi z}{L}\right)
