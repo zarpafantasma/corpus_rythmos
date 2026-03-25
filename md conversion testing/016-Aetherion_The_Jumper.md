@@ -136,16 +136,10 @@ In a quasi‑static reactor $`\left( \partial_{t} \rightarrow 0 \right)`$ these 
 **2.5 Testable Predictions**
 
 | **Observable** | **RTM–Aetherion prediction** | **Measurement method** |
-|----|----|----|
-| Power density vs. $`\nabla\alpha`$ | 
-``` math
-P!\backslash propto!
-``` | \nabla\alpha |
-| Spectral shift of vacuum noise | Peak suppression at $`k < k_{c}`$*(∇α)* | Cross‑correlated Josephson junctions |
-| MFPT scaling of probe photons | α‑dependent delay: $`\Delta T/T\  \approx \ \chi(\alpha)`$ | 
-``` math
-\nabla\alpha
-``` |
+| :--- | :--- | :--- |
+| Power density vs. $\nabla\alpha$ | $P \propto \nabla\alpha$ | $\nabla\alpha$ |
+| Spectral shift of vacuum noise | Peak suppression at $k < k_c(\nabla\alpha)$ | Cross-correlated Josephson junctions |
+| MFPT scaling of probe photons | $\alpha$-dependent delay: $\Delta T/T \approx \chi(\alpha)$ | $\nabla\alpha$ |
 
 **3. Parameter Identification for the Aetherion Lagrangian**
 
