@@ -225,15 +225,14 @@ If the measured ratio $`P_{holo}`$/$`P_{hier}`$ lands near 8 – 12, the cho
 
 In the quasi-static, one-dimensional approximation $`\left( \partial_{t} \rightarrow 0 \right)`$, the coupled field equations reduce to two Poisson–type equations on the Interval $`z \in \lbrack 0,L\rbrack`$:
 
-| 
 ``` math
-\frac{d^{2}\varphi}{{dz}^{2}} - m_{\varphi}^{2}\varphi(z) = - \gamma\frac{d^{2}\alpha}{{dz}^{2}}
-``` |
-|----|
-| 
-``` math
-M^{2}\frac{d^{2}\alpha}{{dz}^{2}} = \gamma\frac{d^{2}\varphi}{{dz}^{2}}
-``` |
+$$
+\begin{gathered}
+\frac{d^2\varphi}{dz^2} - m_\varphi^2\varphi(z) = -\gamma \frac{d^2\alpha}{dz^2} \\[1em]
+M^2 \frac{d^2\alpha}{dz^2} = \gamma \frac{d^2\varphi}{dz^2}
+\end{gathered}
+$$
+``` 
 
 Here $`\alpha(z)`$ is treated as a prescribed profile (for example, linear or step-wise) imposed by the reactor’s metamaterial design.
 
