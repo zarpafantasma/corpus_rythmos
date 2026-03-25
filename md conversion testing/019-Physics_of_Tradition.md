@@ -381,23 +381,12 @@ RTM breaks down the effectiveness of the Logos into three multiplicative factors
 
 **Comparative Scenarios**
 
-| **Scenario** | 
-``` math
-\mathbf{\alpha}_{\mathbf{phonetic}}
-```
-
-``` math
-\mathbf{S}_{\mathbf{sem}}
-```
-
-``` math
-\mathbf{C}_{\mathbf{intention}}
-``` | $`\mathbf{\alpha}_{\mathbf{logos}}`$ (product) | **Effect on** $`\mathbf{\alpha}_{\mathbf{place}}`$
-
+| Scenario | $\alpha_{phonetic}$ | $S_{sem}$ | $C_{intention}$ | $\alpha_{logos}$ (product) | Effect on $\alpha_{place}$ |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | *Recitation in an unknown language (monotone, without understanding)* | 0.8 | **0.1** | 0.6 | **0.048** | Elevates respiratory phase, but with almost no ontological density. |
-| *Memorized mantra whose meaning is intuited* | 0.9 | 0.4 | 0.8 | **0.288** | Provides moderate cohesion; $`\alpha_{place}`$ increases by ≈ +0.1. |
-| *Psalm understood and felt* | 0.8 | 0.9 | 0.9 | **0.648** | Generates a significant peak; $`\alpha_{place}`$ increases by ≈ +0.3. |
-| *Internalized sacred word (meaning + full intention)* | 1.0 | 1.0 | 1.0 | **1.0** | Maximum contribution to collapse; $`\alpha_{place}`$ increases by ≈ +0.4. or more. |
+| *Memorized mantra whose meaning is intuited* | 0.9 | 0.4 | 0.8 | **0.288** | Provides moderate cohesion; $\alpha_{place}$ increases by $\approx +0.1$. |
+| *Psalm understood and felt* | 0.8 | 0.9 | 0.9 | **0.648** | Generates a significant peak; $\alpha_{place}$ increases by $\approx +0.3$. |
+| *Internalized sacred word (meaning + full intention)* | 1.0 | 1.0 | 1.0 | **1.0** | Maximum contribution to collapse; $\alpha_{place}$ increases by $\approx +0.4$ or more. |
 
 **RTM Conclusion**
 
