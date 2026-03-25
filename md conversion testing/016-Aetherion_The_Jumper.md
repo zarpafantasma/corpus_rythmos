@@ -1018,12 +1018,10 @@ a_{eff} \approx \frac{1}{9}a
 
 3.  **Numerical Example**
 
-```
 | External acceleration | Cabin $\alpha$ | $a_{eff}$ | Perceived G-load |
 | :--- | :--- | :--- | :--- |
 | 1000 m/s² (≈ 100 g) | 3.0 | $\frac{1}{9} \times 1000 \approx 111$ m/s² | ≈ 11 g |
 | 300 m/s² (≈ 30 g) | 4.0 | $\frac{1}{10} \times 300 \approx 18.8$ m/s² | ≈ 1.9 g |
-```
 
 With modest cabin α ≈ 4, even 30 g external maneuvers feel like \< 2 g—well within human tolerance.
 
