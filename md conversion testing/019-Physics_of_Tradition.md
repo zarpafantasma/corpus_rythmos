@@ -1387,42 +1387,12 @@ The creation or revitalization of a personal or local myth is, therefore, an una
 
 RTM quantifies symbolic depth ($`S_{sem}`$), but we must distinguish between a sign and a living symbol.
 
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 35%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr>
-<th><h3 id="feature"><strong>Feature</strong></h3></th>
-<th><h3 id="sing-low-mathbfs_mathbfsem"><strong>Sing (Low</strong> <span class="math inline"><strong>S</strong><sub><strong>s</strong><strong>e</strong><strong>m</strong></sub></span><strong>)</strong></h3></th>
-<th><h3 id="living-symbol-high-and-resonant-mathbfs_mathbfsem"><strong>Living Symbol (high and resonant</strong> <span class="math inline"><strong>S</strong><sub><strong>s</strong><strong>e</strong><strong>m</strong></sub></span><strong>)</strong></h3></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><h3 id="función"><strong>Función</strong></h3></td>
-<td><h3 id="points-to-a-single-known-thing.">Points to a single known thing.</h3></td>
-<td><h3 id="points-to-a-complex-and-partly-unknown-reality.">Points to a complex and partly unknown reality.</h3></td>
-</tr>
-<tr>
-<td><h3 id="impacto"><strong>Impacto</strong></h3></td>
-<td><h3 id="cognitive-informational.">"Cognitive, informational."</h3></td>
-<td><h3 id="emotional-numinous-transformative.">"Emotional, numinous, transformative."</h3></td>
-</tr>
-<tr>
-<td><h3 id="fuente"><strong>Fuente</strong></h3></td>
-<td><h3 id="arbitrary-social-consensus.">Arbitrary social consensus.</h3></td>
-<td><h3 id="emerges-from-the-collective-unconscious-or-a-deep-local-connection.">Emerges from the collective unconscious or a deep local connection.</h3></td>
-</tr>
-<tr>
-<td><h3 id="ejemplo-rtm"><strong>Ejemplo RTM</strong></h3></td>
-<td><h3 id="a-logo-on-an-advertising-screen.">A logo on an advertising screen.</h3></td>
-<td><h3 id="a-carved-mask-used-for-generations-in-a-rite-of-passage.">A carved mask used for generations in a rite of passage.</h3></td>
-</tr>
-</tbody>
-</table>
+| **Feature** | **Sign (Low $S_{sem}$)** | **Living Symbol (high and resonant $S_{sem}$)** |
+| :--- | :--- | :--- |
+| **Función** | Points to a single known thing. | Points to a complex and partly unknown reality. |
+| **Impacto** | "Cognitive, informational." | "Emotional, numinous, transformative." |
+| **Fuente** | Arbitrary social consensus. | Emerges from the collective unconscious or a deep local connection. |
+| **Ejemplo RTM** | A logo on an advertising screen. | A carved mask used for generations in a rite of passage. |
 
 The true power of a rite lies not in using efficient "signs," but in mobilizing living symbols that resonate through multiple layers of the psyche, beyond what any equation can predict.
 
