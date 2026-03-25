@@ -823,14 +823,11 @@ Between 1900 and 2025, humanity multiplied its **cognitive bandwidth** by at lea
 
 Digital platforms maximize **engagement time** by optimizing stimulus entropy. Each scroll generates an **unpredictable delta of novelty** which, according to RTM, increases the error rate ε and fragments the phase at a micro-scale. The equation $`\alpha\  \approx \ 1\ /\ (\sigma F\  \cdot \ D)\  \times \ R`$ is inverted: σF and D skyrocket while R plummets.
 
-| **Historical Period** | **σF** (Hz) | **D** (%/century) | **R** (repetition) | 
-``` math
-\mathbf{\alpha}_{\mathbf{collective}}
-``` |
-|----|----|----|----|----|
+| **Historical Period** | **$\sigma$F (Hz)** | **D (%/century)** | **R (repetition)** | **$\alpha_{collective}$** |
+| :--- | :--- | :--- | :--- | :--- |
 | Agricultural Village (1850) | 15 | 0.4 | 0.48 | 2.2 |
 | Analog Industry (1950) | 22 | 1.2 | 0.35 | 1.1 |
-| Hiper‑digital (2025) | 110 | 8.0 | 0.12 | 0.2 |
+| Hiper-digital (2025) | 110 | 8.0 | 0.12 | 0.2 |
 
 The decrease in α correlates with increases in **basal anxiety** (+340%), **loss of deep sleep** (-17%), and a **sensation of accelerated time**.
 
@@ -1094,13 +1091,10 @@ These inputs generate a **digital twin** of the rite capable of running 50× fas
 
 **16.5 Case Study: Modular Wooden Temple (L = 32 m)**
 
-| **Iteration** | **Acoustic Design Q** | 
-``` math
-\mathbf{\alpha}_{\mathbf{sim}}
-``` | $`\mathbf{\alpha}_{\mathbf{bio}}`$ (ensayo) |
-|----|----|----|----|
-| 0 | 1 800 | 3.4 | 3.2 ± 0.15 |
-| 1 | \+ fractal diffuser panels | 3.5 | 3.45 ± 0.10 |
+| Iteration | Acoustic Design Q | $\alpha_{sim}$ | $\alpha_{bio}$ (ensayo) |
+| :--- | :--- | :--- | :--- |
+| 0 | 1 800 | 3.4 | 3.2 $\pm$ 0.15 |
+| 1 | + fractal diffuser panels | 3.5 | 3.45 $\pm$ 0.10 |
 
 The simulation guided the addition of fractal panels, raising Q and confirming the prediction in a live test.
 
