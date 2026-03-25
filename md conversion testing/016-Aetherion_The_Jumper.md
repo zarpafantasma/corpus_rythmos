@@ -1377,12 +1377,12 @@ S = \int_{}^{}d^{4}x\sqrt{- g}\ \left\lbrack L_{\varphi,\alpha} + L_{\beta,kin} 
 - **Modified field equations**:
 
 | $`\square\beta = \frac{\partial V}{\partial\beta} + g_{\beta\alpha}\beta\left( \partial_{\mu}\alpha \right)\left( \partial^{\mu}\alpha \right)`$, | 
+
 ``` math
 \square\alpha + m_{\alpha}^{2}\alpha = - \gamma\square\varphi - g_{\beta\alpha}\beta^{2}\square\alpha
-``` |
-|----|----|
+```
 
-> These coupled equations govern both ordinary thrust (via α) and discrete multiverse transitions (via β).
+These coupled equations govern both ordinary thrust (via α) and discrete multiverse transitions (via β).
 
 Sections 4–6 will analyse the jump operator, derive energetic thresholds, and present a 1-D simulation that drives β across one barrier, providing the first quantitative signature of a controlled branch transition.
 
