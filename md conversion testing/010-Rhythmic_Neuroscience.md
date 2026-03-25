@@ -337,72 +337,48 @@ Exclude a window if any holds:
 
 **3.11 Parameter YAML (template)**
 
+```
 rtm-neuro:
-
-sampling:
-
-fs_eeg: 1000
-
-fs_meg: 1000
-
-bands: \[theta, alpha, beta, gamma, broadband\]
-
-scales:
-
-method_primary: cortical_geodesic \# alt: parcel_size, graph_geodesic, oscillatory_cycle
-
-L_bins_mm: \[10, 15, 22, 33, 50, 75, 110\] \# ≥1 decade span
-
-L_bins_graph: \[\[1,3\],\[3,6\],\[6,10\],\[10,15\]\] \# if graph distances used
-
-time_def:
-
-primary: T_rho \# alt: T_ER, T_rec, T_theta
-
-acf_max_lag_ms: 5000
-
-er_z_threshold: 2.0
-
-windows:
-
-length_s: 40 \# 20–60 s
-
-step_s: 20
-
-min_bins: 4
-
-min_decades: 1.0
-
-regression:
-
-method: OLS \# alt: EIV
-
-bootstrap_B: 1000
-
-jackknife_max_delta: 0.15
-
-min_R2: 0.60
-
-collapse:
-
-min_score: 0.25
-
-ks_alpha: 0.05
-
-fusion:
-
-weights: {theta: 0.25, alpha: 0.25, beta: 0.25, gamma: 0.25}
-
-qc:
-
-emg_threshold_uV: 20
-
-eog_threshold_uV: 60
-
-tms_residual_sd: 2.5
-
-fmri_fd_max_mm: 0.5
-
+  sampling:
+    fs_eeg: 1000
+    fs_meg: 1000
+    bands: [theta, alpha, beta, gamma, broadband]
+  
+  scales:
+    method_primary: cortical_geodesic   # alt: parcel_size, graph_geodesic, oscillatory_cycle
+    L_bins_mm: [10, 15, 22, 33, 50, 75, 110]   # ≥1 decade span
+    L_bins_graph: [[1,3],[3,6],[6,10],[10,15]] # if graph distances used
+  
+  time_def:
+    primary: T_rho         # alt: T_ER, T_rec, T_theta
+    acf_max_lag_ms: 5000
+    er_z_threshold: 2.0
+  
+  windows:
+    length_s: 40           # 20–60 s
+    step_s: 20
+    min_bins: 4
+    min_decades: 1.0
+  
+  regression:
+    method: OLS            # alt: EIV
+    bootstrap_B: 1000
+    jackknife_max_delta: 0.15
+    min_R2: 0.60
+  
+  collapse:
+    min_score: 0.25
+    ks_alpha: 0.05
+  
+  fusion:
+    weights: {theta: 0.25, alpha: 0.25, beta: 0.25, gamma: 0.25}
+  
+  qc:
+    emg_threshold_uV: 20
+    eog_threshold_uV: 60
+    tms_residual_sd: 2.5
+    fmri_fd_max_mm: 0.5
+```
 **3.12 TMS–EEG perturbational protocol (for falsification)**
 
 - **Sites:** left premotor (BA6), right parietal (SPL).
@@ -1171,30 +1147,9 @@ Consciousness states map to characteristic α values:
 
 \| Deep anesthesia \| 1.45 \| No \|
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 99%" />
-</colgroup>
-<thead>
-<tr>
-<th><table style="width:85%;">
-<colgroup>
-<col style="width: 84%" />
-</colgroup>
-<thead>
-<tr>
-<th><p><strong>Clarification on Delta Dominance vs. Global Fragmentation:</strong></p>
-<p><em>It may appear counterintuitive that the Delta frequency band inherently possesses a high structural coherence (</em><span class="math inline"><em>α</em> ≈ 2.5</span><em>), yet the NREM N3 sleep state—which is heavily dominated by Delta activity—exhibits a globally collapsed exponent (</em><span class="math inline"><em>α</em>= 1.50</span><em>). Under the RTM framework, this resolves cleanly by distinguishing local generator coherence from global transport topology. In N3, while individual Delta waves represent highly structured local synchrony, the cross-cortical network is topologically fragmented. Consequently, global multiscale integration fails, driving the macroscopic state exponent down to an advective/diffusive regime (</em><span class="math inline"><em>α</em>= 1.50</span><em>), precisely mirroring the loss of conscious access.</em></p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> **Clarification on Delta Dominance vs. Global Fragmentation:**
+> *It may appear counterintuitive that the Delta frequency band inherently possesses a high structural coherence ($\alpha \approx 2.5$), yet the NREM N3 sleep state—which is heavily dominated by Delta activity—exhibits a globally collapsed exponent ($\alpha = 1.50$). Under the RTM framework, this resolves cleanly by distinguishing local generator coherence from global transport topology. In N3, while individual Delta waves represent highly structured local synchrony, the cross-cortical network is topologically fragmented. Consequently, global multiscale integration fails, driving the macroscopic state exponent down to an advective/diffusive regime ($\alpha = 1.50$), precisely mirroring the loss of conscious access.*
 
 **10.2.4 Recovery Validation**
 
@@ -1444,81 +1399,54 @@ V(\alpha^{\star}) = \sum_{k}^{}{w_{k}\text{ }Var(\{{\widetilde{T}}_{i}:L_{i} \
 
 **S2. Parameter YAML (ready to preregister)**
 
+```
 rtm-neuro-v1:
-
-modalities: \[EEG\] \# add MEG/iEEG/fMRI if used
-
-sampling:
-
-fs_eeg: 1000
-
-bands: \[theta, alpha, beta, gamma, broadband\]
-
-scale_definition:
-
-primary: cortical_geodesic \# alt: graph_geodesic, parcel_size, oscillatory_cycle
-
-L_bins_mm: \[10, 15, 22, 33, 50, 75, 110\] \# ≥ 1 decade, ≥ 4 bins populated
-
-graph_bins_hops: \[\[1,3\],\[3,6\],\[6,10\],\[10,15\]\]
-
-time_definition:
-
-primary: T_rho \# alt: T_ER (TMS), T_rec
-
-acf_max_lag_ms: 5000
-
-er_z_threshold: 2.0
-
-windows:
-
-length_s: 40 \# 20–60 s
-
-step_s: 20
-
-min_bins: 4
-
-min_decades: 1.0
-
-regression:
-
-method: OLS \# alt: EIV
-
-bootstrap_B: 1000
-
-jackknife_max_delta: 0.15
-
-min_R2: 0.60
-
-collapse:
-
-min_score: 0.25
-
-ks_alpha: 0.05
-
-fusion_weights:
-
-theta: 0.25
-
-alpha: 0.25
-
-beta: 0.25
-
-gamma: 0.25
-
-qc:
-
-emg_uV_max: 20
-
-eog_uV_max: 60
-
-tms_residual_sd_max: 2.5
-
-fmri_fd_max_mm: 0.5
-
-anomalies:
-
-baseline_minutes: 10
+  modalities: [EEG]             # add MEG/iEEG/fMRI if used
+  sampling:
+    fs_eeg: 1000
+    bands: [theta, alpha, beta, gamma, broadband]
+  
+  scale_definition:
+    primary: cortical_geodesic  # alt: graph_geodesic, parcel_size, oscillatory_cycle
+    L_bins_mm: [10, 15, 22, 33, 50, 75, 110]  # ≥ 1 decade, ≥ 4 bins populated
+    graph_bins_hops: [[1,3],[3,6],[6,10],[10,15]]
+  
+  time_definition:
+    primary: T_rho              # alt: T_ER (TMS), T_rec
+    acf_max_lag_ms: 5000
+    er_z_threshold: 2.0
+  
+  windows:
+    length_s: 40                # 20–60 s
+    step_s: 20
+    min_bins: 4
+    min_decades: 1.0
+  
+  regression:
+    method: OLS                 # alt: EIV
+    bootstrap_B: 1000
+    jackknife_max_delta: 0.15
+    min_R2: 0.60
+  
+  collapse:
+    min_score: 0.25
+    ks_alpha: 0.05
+  
+  fusion_weights:
+    theta: 0.25
+    alpha: 0.25
+    beta: 0.25
+    gamma: 0.25
+  
+  qc:
+    emg_uV_max: 20
+    eog_uV_max: 60
+    tms_residual_sd_max: 2.5
+    fmri_fd_max_mm: 0.5
+  
+  anomalies:
+    baseline_minutes: 10
+```
 
 **S3. Preprocessing pipelines (checklists)**
 
