@@ -769,22 +769,13 @@ A lineage where $`k\_ g\  \geq \ 4\ and\ \varepsilon\_ g\  \leq \ 0.005`$ mainta
 
 **12.4 Case Studies**
 
-| Tradition / Lineage | Age (years) | 
-``` math
-k_{avg}
-``` | 
-``` math
-\varepsilon_{est}
-``` | 
-``` math
-\alpha_{mem}
-``` |
-|----|----|----|----|----|
-| Benedictine Monks (chant) | ≈ 1 500 | 12 | 0.002 | 3.7 |
-| Mandinka Griot (oral kora) | ≈ 700 | 5 | 0.006 | 3.1 |
-| Iaido (Musō Shinden school) | ≈ 450 | 8 | 0.004 | 3.4 |
-| Gypsy Flamenco (cante jondo) | ≈ 250 | 3 | 0.020 | 2.2 |
-| TikTok viral dance (2022) | \< 1 | 10⁶ | 0.300 | 0.4 |
+| Tradition / Lineage | Age (years) | $k_{avg}$ | $\varepsilon_{est}$ | $\alpha_{mem}$ |
+| :--- | :--- | :--- | :--- | :--- |
+| Benedictine Monks (chant) | $\approx 1500$ | 12 | 0.002 | 3.7 |
+| Mandinka Griot (oral kora) | $\approx 700$ | 5 | 0.006 | 3.1 |
+| Iaido (Musō Shinden school) | $\approx 450$ | 8 | 0.004 | 3.4 |
+| Gypsy Flamenco (cante jondo) | $\approx 250$ | 3 | 0.020 | 2.2 |
+| TikTok viral dance (2022) | < 1 | $10^6$ | 0.300 | 0.4 |
 
 Virality without initiation or filter increases k but skyrockets ε, resulting in a low α_mem; coherence dissipates in weeks.
 
