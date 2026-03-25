@@ -546,7 +546,7 @@ While the Chrono-Stasis Protocol effectively decouples the payload from the flow
 
 The "Time Pockets" capabilities confirms that the Aetherion is not merely a vehicle that moves *through* space, but a device that manages the *rate* of existence. It allows the Architect to step out of the river of time, wait on the bank while the waters rush by, and re-enter at a chosen moment downstream—or to bury a treasure in the flow of time itself, knowing it will not surface until the tide is right.
 
-> **11. Operational Navigation and Asset Sterilization Protocols**
+**11. Operational Navigation and Asset Sterilization Protocols**
 
 The deployment of Aetherion-class probes into a antecedent temporal branch presents two critical engineering challenges. First, the **Navigation Problem**: How does a vessel perform a precise "blind jump" into a planetary environment without telemetry data from local satellites? Second, the **Contamination Problem**: How do we ensure that spent or malfunctioning assets do not fall into the hands of the developing civilization, thereby altering their technological trajectory and violating the Principle of Non-Interference?
 
