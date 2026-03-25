@@ -1106,79 +1106,55 @@ This section specifies **exact artifacts** every RTM-Eco analysis must produce, 
 
 **9.4 Table 1 — BIN summary (machine-parsable)**
 
-| **BIN ID** | **Tags (biome/season/… )** | **Family** | **\#L** | **Span log L** | **Estimator** | $`\widehat{\mathbf{\alpha}}`$ **(95% CI)** | 
-``` math
-\mathbf{R}_{\mathbf{collapse}}^{\mathbf{2}}
-``` | **Decision** |
-|----|----|----|----|----|----|----|----|----|
-| B-001 | TropMoist, JJA, Landsat+S2, Protected, ENSO=N | Vegetation | 14 | 1.12 | ODR | 2.31 \[2.17, 2.45\] | 0.018 | ACCEPT |
-| B-001 | … | Nutrients | 9 | 0.72 | ODR | 2.05 \[1.83, 2.28\] | 0.027 | ACCEPT |
-| B-001 | … | Movement | 8 | 0.67 | ODR | 2.29 \[2.01, 2.56\] | 0.061 | NO_COLLAPSE |
+| BIN ID | Tags (biome/season/...) | Family | #L | Span $\log L$ | Estimator | $\hat{\alpha}$ (95% CI) | $R^2_{\text{collapse}}$ | Decision |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| B-001 | TropMoist, JJA, Landsat+S2, Protected, ENSO=N | Vegetation | 14 | 1.12 | ODR | 2.31 [2.17, 2.45] | 0.018 | ACCEPT |
+| B-001 | ... | Nutrients | 9 | 0.72 | ODR | 2.05 [1.83, 2.28] | 0.027 | ACCEPT |
+| B-001 | ... | Movement | 8 | 0.67 | ODR | 2.29 [2.01, 2.56] | 0.061 | NO_COLLAPSE |
 
 *Note.* Publish **all** bins, including failures.
 
 **9.5 Table 2 — Fusion and alerts**
 
-| **BIN ID** | **Families Fused** | **Q** | 
-``` math
-\mathbf{I}^{\mathbf{2}}
-``` | 
-``` math
-{\widehat{\mathbf{\tau}}}^{\mathbf{2}}
-``` | $`{\widehat{\mathbf{\alpha}}}_{\mathbf{Eco}}`$***(SE)*** | **Fusion Decision** | **Latest** $`\mathbf{Z}_{\mathbf{t}}`$ | **Alert Tier** |
-|----|----|----|----|----|----|----|----|----|
-| B-001 | Veg, Nut | 1.7 | 19% | 0.000 | 2.27 (0.07) | FUSED | −2.67 | WARNING |
+| BIN ID | Families Fused | Q | $I^2$ | $\hat{\tau}^2$ | $\hat{\alpha}_{\text{Eco}}(SE)$ | Fusion Decision | Latest $Z_t$ | Alert Tier |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| B-001 | Veg, Nut | 1.7 | 19\% | 0.000 | 2.27 (0.07) | FUSED | –2.67 | WARNING |
 | B-002 | Veg | – | – | – | – | SUSPENDED | – | – |
 
 **9.6 Methods YAML (embed hash in every figure)**
 
+```
 version: "RTM-Eco 1.0"
 
 bin:
-
-tags: \["biome:TropMoist","season:JJA","sensor:Landsat+S2","mgmt:Protected","ENSO:Neutral"\]
-
-min_scales: 6
-
-min_logL_span: 0.6
-
-changepoint: {method: "PELT", criterion: "BIC"}
+  tags: ["biome:TropMoist", "season:JJA", "sensor:Landsat+S2", "mgmt:Protected", "ENSO:Neutral"]
+  min_scales: 6
+  min_logL_span: 0.6
+  changepoint: {method: "PELT", criterion: "BIC"}
 
 estimation:
-
-base: "odr"
-
-init: "theil-sen"
-
-bootstrap: {B: 2000, cluster: true, seed: 12345}
-
-leverage_cap: 0.25
+  base: "odr"
+  init: "theil-sen"
+  bootstrap: {B: 2000, cluster: true, seed: 12345}
+  leverage_cap: 0.25
 
 collapse:
-
-r2_threshold: 0.05
-
-loess_bw: "fixed:0.6"
-
-clock_placebo: true
+  r2_threshold: 0.05
+  loess_bw: "fixed:0.6"
+  clock_placebo: true
 
 fusion:
-
-method: "REML"
-
-I2_gate: 0.5
+  method: "REML"
+  I2_gate: 0.5
 
 eci:
-
-window_logL: 0.8
-
-calendar_window: "90d"
-
-ewma_horizon: "180d"
+  window_logL: 0.8
+  calendar_window: "90d"
+  ewma_horizon: "180d"
 
 report:
-
-publish_negatives: true
+  publish_negatives: true
+```
 
 Add a **SHA-256 hash** of this YAML in the corner of Figures 1–3. Reviewers can re-run and match.
 
@@ -1459,31 +1435,31 @@ This section specifies **exact procedures** and **artifacts** so any group can r
 
 **12.2 Canonical tables (schemas)**
 
-**A)** records.tsv **— unit of analysis (per observation)**
+**A) `records.tsv` — unit of analysis (per observation)**
 
-bin_id fam uid t_obs L_raw T_raw x=logL y=logT w tags_json
+| bin_id | fam | uid | t_obs | L_raw | T_raw | x=logL | y=logT | w | tags_json |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| B001 | veg | P034 | 2016-09-18 | 125.7 | 482 | 4.835 | 6.178 | 1 | {...} |
 
-B001 veg P034 2016-09-18 125.7 482 4.835 6.178 1 {...}
+**B) `bins.tsv` — coherence bins (one row per bin)**
 
-**B)** bins.tsv — **coherence bins (one row per bin)**
+| bin_id | biome | season | sensor | mgmt | anomaly | severity | notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| B001 | Trop | JJA | L+S2 | Prot | ENSO0 | M1 | "..." |
 
-bin_id biome season sensor mgmt anomaly severity notes
+**C) `methods.yml` — full analysis configuration (see §12.10)**
 
-B001 Trop JJA L+S2 Prot ENSO0 M1 "..."
+**D) `results.tsv` — per BIN×family outputs**
 
-**C)** methods.yml **— full analysis configuration (see §12.10)**
+| bin_id | fam | n_scales | span_logL | alpha_lo | alpha | alpha_hi | c_hat | R2_collapse |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| B001 | veg | 14 | 1.12 | 2.17 | 2.31 | 2.45 | -1.01 | 0.018 |
 
-**D)** results.tsv **— per BIN×family outputs**
+**E) `fusion.tsv` — per BIN time-window fusion**
 
-bin_id fam n_scales span_logL alpha_lo alpha alpha_hi c_hat R2_collapse
-
-B001 veg 14 1.12 2.17 2.31 2.45 -1.01 0.018
-
-**E)** fusion.tsv **— per BIN time-window fusion**
-
-bin_id t0 t1 F Q I2 tau2 alphaEco se
-
-B001 ... 2 1.7 19 0.00 2.27 0.07
+| bin_id | t0 t1 | F | Q | I2 | tau2 | alphaEco | se |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| B001 | ... | 2 | 1.7 | 19 | 0.00 | 2.27 | 0.07 |
 
 All files are UTF-8, tab-delimited; missing values as NA.
 
@@ -1600,103 +1576,58 @@ Else **suspend fusion**; output family-wise.
 
 **12.9 Minimal pseudo-code (binwise analysis)**
 
+```
 def analyze_bin(df_bin, methods):
-
-\# coverage
-
-scales = np.unique(df_bin\['x'\])
-
-if (len(scales) \< methods.min_scales) or ((scales.max()-scales.min()) \< methods.min_logL_span):
-
-return fail("THIN_COVERAGE")
-
-\# estimator
-
-alpha_ts, c_ts = theil_sen(df_bin.x, df_bin.y)
-
-alpha_odr, c_odr, diag = odr_fit(df_bin, init=(alpha_ts, c_ts))
-
-if diag.leverage_max \> methods.leverage_cap or not diag.converged:
-
-return fail("ESTIMATION_ISSUE")
-
-\# collapse
-
-res = df_bin.y - (alpha_odr\*df_bin.x + c_odr)
-
-R2 = r2_linear(res, df_bin.x)
-
-loess_ok = loess_band_contains_zero(res, df_bin.x, bw=methods.loess_bw)
-
-placebo_ok = clock_placebo_invariance(df_bin, alpha_odr, c_odr)
-
-if (R2 \< methods.r2_threshold) and loess_ok and placebo_ok:
-
-return accept(alpha_odr, c_odr, R2, diag)
-
-else:
-
-return fail("NO_COLLAPSE" if kink_absent(res) else "REGIME_MIX")
+    # coverage
+    scales = np.unique(df_bin['x'])
+    if (len(scales) < methods.min_scales) or ((scales.max() - scales.min()) < methods.min_logL_span):
+        return fail("THIN_COVERAGE")
+        
+    # estimator
+    alpha_ts, c_ts = theil_sen(df_bin.x, df_bin.y)
+    alpha_odr, c_odr, diag = odr_fit(df_bin, init=(alpha_ts, c_ts))
+    if diag.leverage_max > methods.leverage_cap or not diag.converged:
+        return fail("ESTIMATION_ISSUE")
+        
+    # collapse
+    res = df_bin.y - (alpha_odr * df_bin.x + c_odr)
+    R2 = r2_linear(res, df_bin.x)
+    loess_ok = loess_band_contains_zero(res, df_bin.x, bw=methods.loess_bw)
+    placebo_ok = clock_placebo_invariance(df_bin, alpha_odr, c_odr)
+    
+    if (R2 < methods.r2_threshold) and loess_ok and placebo_ok:
+        return accept(alpha_odr, c_odr, R2, diag)
+    else:
+        return fail("NO_COLLAPSE" if kink_absent(res) else "REGIME_MIX")
+```
 
 **12.10 The Methods YAML (authoritative configuration)**
 
+```
 version: "RTM-Eco 1.0"
 
 data:
-
-log_base: "e"
-
-rs_recovery_p: \[0.8, 0.9, 0.95\]
-
-dissolve_holes_ha: 2.0
+  log_base: "e"
+  rs_recovery_p: [0.8, 0.9, 0.95]
+  dissolve_holes_ha: 2.0
 
 binning:
-
-tags: \[biome, season_band, sensor_stack, mgmt, anomaly_class, severity\]
-
-min_scales: 6
-
-min_logL_span: 0.6
-
-changepoint: {method: "PELT", criterion: "BIC"}
+  tags: [biome, season_band, sensor_stack, mgmt, anomaly_class, severity]
+  min_scales: 6
+  min_logL_span: 0.6
+  changepoint: {method: "PELT", criterion: "BIC"}
 
 estimation:
-
-estimator: "ODR"
-
-init: "Theil-Sen"
-
-bootstrap: {B: 2000, cluster: true, seed: 123456}
-
-leverage_cap: 0.25
-
-simex: {enabled: false, lambda: \[0.5,1.0,1.5,2.0\]}
+  estimator: "ODR"
+  init: "Theil-Sen"
+  bootstrap: {B: 2000, cluster: true, seed: 123456}
+  leverage_cap: 0.25
+  simex: {enabled: false, lambda: [0.5, 1.0, 1.5, 2.0]}
 
 collapse:
-
-r2_threshold: 0.05
-
-loess_bw: 0.6
-
-clock_placebo: true
-
-fusion:
-
-method: "REML"
-
-I2_gate: 0.50
-
-eci:
-
-window_logL: 0.8
-
-calendar_window_days: 90
-
-ewma_horizon_days: 180
-
-report:
-
-publish_negatives: true
+  r2_threshold: 0.05
+  loess_bw: 0.6
+```
 
 **Hashing.** Compute SHA-256 of the YAML; embed the first 10 hex chars in every figure/CSV filename (e.g., fig/collapse_B001_veg_ab12c34d56.png). Store full hash in figure caption.
 
