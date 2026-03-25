@@ -1076,10 +1076,10 @@ a_{eff} = {f(\alpha)}^{2}\ a_{ext} = \frac{1}{a^{2}}a_{ext} \approx \frac{1}{9}a
 
 - **Proper-time frame:** the perceived position $`x(\tau)`$ grows much more slowly, corresponding to an effective acceleration of only
 
-> 
-> ``` math
-> a_{eff} \approx \frac{1}{9} \times 981\ {m/s}^{2} \approx 109\ {m/s}^{2}\ ( \approx 11g)
-> ```
+
+``` math
+a_{eff} \approx \frac{1}{9} \times 981\ {m/s}^{2} \approx 109\ {m/s}^{2}\ ( \approx 11g)
+``
 
 - **Visualization**: Plotted curves of $`x(t)`$ vs. $`\backslash\ t`$ and $`x(\tau)`$ vs.$`\backslash\ \tau`$ clearly diverge, illustrating the mitigation.
 
