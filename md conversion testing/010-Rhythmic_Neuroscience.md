@@ -117,21 +117,12 @@ Unless noted, we use $`T = T_{\rho}`$ (electrophysiology) and $`T = T_{\text{ER}
 
 **2.4 Interpreting** $`\mathbf{\alpha}_{\text{neural}}`$**(transport/organization classes)**
 
-| **Class** | **Heuristic mechanism** | **Expected** $`\alpha`$ |
-|----|----|----|
-| **Fragmented / advective spread** | Fast decorrelation via local desynchronization, strong shear/competition | 
-``` math
-\alpha \in \lbrack 1,2)
-``` |
-| **Diffuse/weakly integrated** | Mixing-like persistence (random-walk routing) | 
-``` math
-\alpha \approx 2
-``` |
-| **Hierarchical integration** | Multiscale assemblies with corridor-like routing | 
-``` math
-\alpha \in (2,3\rbrack
-``` |
-| **Strongly coherent** | Stabilized, long-lived multiscale integration (global access episodes) | $`\alpha \gtrsim 2.5`$(heuristic upper band) |
+| Class | Heuristic mechanism | Expected $\alpha$ |
+| :--- | :--- | :--- |
+| **Fragmented / advective spread** | Fast decorrelation via local desynchronization, strong shear/competition | $\alpha \in [1,2)$ |
+| **Diffuse/weakly integrated** | Mixing-like persistence (random-walk routing) | $\alpha \approx 2$ |
+| **Hierarchical integration** | Multiscale assemblies with corridor-like routing | $\alpha \in (2,3]$ |
+| **Strongly coherent** | Stabilized, long-lived multiscale integration (global access episodes) | $\alpha \gtrsim 2.5$ (heuristic upper band) |
 
 Higher $`\alpha`$means **persistence grows steeply with scale**—signals can be maintained/routed across larger extents without rapid decay.
 
