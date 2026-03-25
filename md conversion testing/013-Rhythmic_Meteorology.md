@@ -145,21 +145,12 @@ Unless noted, we use $`T = T_{\rho}`$ and report sensitivity to the choice.
 
 RTM does not prescribe a single mechanism; $`\alpha`$ identifies the *class*:
 
-| **Class (dominant process)** | **Heuristic picture** | **Expected** $`\mathbf{\alpha}`$ |
-|----|----|----|
-| **Local diffusive / weakly organized** | Random-walk mixing dominates persistence | 
-``` math
-\alpha \approx 2
-``` |
-| **Hierarchical / fractal organization** | Multiscale traps–corridors (filaments, shear-aligned bands) | 
-``` math
-\alpha \in (2,3\rbrack
-``` |
-| **Guided / partially ballistic** | Strong, coherent advection along jets/fronts/vortex perimeters | 
-``` math
-\alpha \in \lbrack 1,2)
-``` |
-| **Strongly coherent (quasi-laminar mesoscale)** | Long lived, stiff structures (mature cyclones, blocking highs) | $`\alpha \gtrsim 2.5`$ (upper heuristic band) |
+| Class | Mechanism | Expected $\alpha$ |
+| :--- | :--- | :--- |
+| **Advective (fragmented)** | Strong shear, fast decorrelation, competition dominates over synchronization | $\alpha \in [1, 2)$ |
+| **Diffusive / weak interaction** | Pure mixing-like persistence, random walk routing dominant | $\alpha \approx 2$ |
+| **Hierarchical integration** | Multi-scale assemblies, corridor-like routing | $\alpha \in (2, 3]$ |
+| **Pure coherent spread** | Globally stabilized multi-scale dynamics, perfect synchronization | $\alpha = 3$ (heuristic upper bound) |
 
 Interpretation is *regional and conditional*: the same $`\alpha`$ may arise from different microphysics if the transport generator is similar.
 
@@ -1130,125 +1121,83 @@ Pass if (i) $`\alpha^{\star} \in`$<!-- -->95% CI of $`\widehat{\alpha}`$and (ii)
 
 **S2. Parameter file (YAML) template**
 
-\# rtm-atmo v1.0 parameters (preregistered)
+```
+# rtm-atmo v1.0 parameters (preregistered)
 
 grid:
-
-target_res_deg: 0.25
-
-domain: \[lon_min, lon_max, lat_min, lat_max\]
+  target_res_deg: 0.25
+  domain: [lon_min, lon_max, lat_min, lat_max]
 
 time:
-
-cadence: 1h
-
-buffer_hours: 72
-
-leads_hours: \[12, 24, 36, 48\]
+  cadence: 1h
+  buffer_hours: 72
+  leads_hours: [12, 24, 36, 48]
 
 variables:
-
-fields: \[zeta, div, wind_speed, theta, Tb\]
-
-levels_hPa: \[925, 850, 700, 500, 200\]
+  fields: [zeta, div, wind_speed, theta, Tb]
+  levels_hPa: [925, 850, 700, 500, 200]
 
 scales:
-
-L_km: \[50, 75, 100, 150, 200, 300, 450, 600\]
-
-feature_mask_percentile: 70
+  L_km: [50, 75, 100, 150, 200, 300, 450, 600]
+  feature_mask_percentile: 70
 
 windows:
-
-lon_lat_deg: \[5, 5\]
-
-hours: 24
-
-min_scales: 4
-
-min_span_decades: 1.0
-
-min_samples: 30
+  lon_lat_deg: [5, 5]
+  hours: 24
+  min_scales: 4
+  min_span_decades: 1.0
+  min_samples: 30
 
 regression:
-
-method_primary: OLS
-
-method_alt: EIV
-
-bootstrap_B: 1000
-
-jackknife_max_delta_alpha: 0.15
-
-min_R2: 0.60
+  method_primary: OLS
+  method_alt: EIV
+  bootstrap_B: 1000
+  jackknife_max_delta_alpha: 0.15
+  min_R2: 0.60
 
 collapse:
-
-ks_alpha: 0.05
-
-min_score: 0.25
+  ks_alpha: 0.05
+  min_score: 0.25
 
 anomalies:
-
-baseline_hours: 72
-
-neighborhood_deg: 3
-
-contrast_delta: 0.15
+  baseline_hours: 72
+  neighborhood_deg: 3
+  contrast_delta: 0.15
 
 fusion:
-
-weights:
-
-zeta_925_700: 0.35
-
-wind_speed: 0.20
-
-theta_grad: 0.15
-
-Tb: 0.20
-
-divergence: 0.10
+  weights:
+    zeta_925_700: 0.35
+    wind_speed: 0.20
+    theta_grad: 0.15
+    Tb: 0.20
+    divergence: 0.10
 
 alerts:
-
-magnitude_quantile: 0.20
-
-magnitude_absolute: -0.25
-
-persistence_hits_in_3h: 2
-
-roi_valid_fraction: 0.60
-
-collapse_min_score: 0.35
+  magnitude_quantile: 0.20
+  magnitude_absolute: -0.25
+  persistence_hits_in_3h: 2
+  roi_valid_fraction: 0.60
+  collapse_min_score: 0.35
 
 tropical_context:
-
-sst_min_c: 26.0
-
-vorticity_tercile: upper
+  sst_min_c: 26.0
+  vorticity_tercile: upper
 
 bomb_context:
-
-eady_tercile: upper
+  eady_tercile: upper
 
 qc:
-
-diurnal_tb_max_delta: 0.30
-
-grid_jitter_deg: 0.05
-
-grid_jitter_max_delta_alpha: 0.20
+  diurnal_tb_max_delta: 0.30
+  grid_jitter_deg: 0.05
+  grid_jitter_max_delta_alpha: 0.20
 
 outputs:
-
-nc_alpha_maps: true
-
-csv_event_traces: true
-
-diagnostics_layers: true
+  nc_alpha_maps: true
+  csv_event_traces: true
+  diagnostics_layers: true
 
 seed: 42
+```
 
 **S3. QC diagnostics (computational checks)**
 
