@@ -10,7 +10,7 @@
 
 </div>
 
-**Abstract\**
+**Abstract**  
 We present Rhythmic Astronomy, an application of the RTM (Relativistic Temporal Multiscale) framework to galactic dynamics in which orbital clocks are governed not only by gravity and baryonic mass but also by a coherence exponent α that encodes the multiscale organization of the baryonic medium. In RTM, characteristic times scale as T ∝ L^α at fixed environment; mapping this to circular orbits yields the velocity law
 
 v ∝ r^(1 − α/2)
