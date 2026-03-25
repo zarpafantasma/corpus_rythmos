@@ -31,7 +31,7 @@ We do not write this to rewrite the past. We write this to ensure that when the 
 
 Welcome to the blueprint of the possible.
 
-**I. Fundamentals of the Multiverse**
+# I. Fundamentals of the Multiverse
 
 1.  **The Architecture of the Echo: Sequential Causality in a Nested Cosmos**
 
@@ -210,7 +210,7 @@ This reveals RTM's deepest law of non-interference: **You cannot edit the alread
 
 Your existence is secure in your own timeline. The traveler, however, by trying to play god, becomes the creator of a new universe and is exiled from the ability to affect you. They are exiled from the consequence of their actions in your reality.
 
-**II. The Symbiotic Entity**
+# II. The Symbiotic Entity**
 
 4.  **The Aetherion Doctrine: Navigating Space, Time, and Reality**
 
@@ -408,7 +408,7 @@ The system works as a perfect extension of the self.
 
 The fact that the creator lacks a physical sense is not a limitation. It is proof that they have transcended the need for direct perception. They have created a better body, a more powerful nose, and they use it to explore the cosmos from the stillness of their center.
 
-**III. Mechanics and Operations**
+# III. Mechanics and Operations**
 
 8.  **Reality Engineering: The Leap Between Timelines in the RTM Framework**
 
@@ -578,7 +578,7 @@ The mission of a **N-1 Architect** is to observe and nurture, never to contamina
 
 - **Staging:** Here, the unit enters a low-power "hibernation" mode. It joins a silent procession of other decommissioned units, forming an invisible ring of dormant assets. **Crucially, these units are not awaiting destruction, but discovery.** This "Halo" acts as a technological inheritance, deliberately positioned to be retrieved and reverse-engineered by the indigenous civilization itself—but only once they have achieved the technological maturity to navigate deep orbit and claim their birthright.
 
-**IV. Implications and Sovereignty**
+# IV. Implications and Sovereignty**
 
 12. **Probability Editing and The Viable Corridor Hypothesis**
 
