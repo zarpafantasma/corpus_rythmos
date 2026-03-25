@@ -245,15 +245,15 @@ We compute **multi-scale** descriptors in each annulus $`A_{j}`$ (width $`\Delta
 
 6.  **Kinematic texture** $`\mathbf{K}`$**.** Power in non-circular flows from residual velocity fields after subtracting axisymmetric model; invert to $`C_{K} = 1 - NCF`$.
 
-> Aggregate **feature vector** per annulus:
->
-> ``` math
-> z_{j} = \left\lbrack E^{*},C_{D},\ C_{\text{mode}},C_{\text{clump}},C_{T},C_{K} \right\rbrack_{j}\quad\Sigma_{j} = \text{covariance of measurement errors.}
-> ```
->
-> **5.3 Proxy-to-**$`\mathbf{\alpha}`$ **mapping**
->
-> We map $`z_{j}`$ to a **provisional** coherence exponent $`{\overline{\alpha}}_{j}`$ via a monotone function $`\mathcal{M}`$. Two options (pre-registered; both allowed):
+Aggregate **feature vector** per annulus:
+
+``` math
+z_{j} = \left\lbrack E^{*},C_{D},\ C_{\text{mode}},C_{\text{clump}},C_{T},C_{K} \right\rbrack_{j}\quad\Sigma_{j} = \text{covariance of measurement errors.}
+```
+
+**5.3 Proxy-to-**$`\mathbf{\alpha}`$ **mapping**
+
+We map $`z_{j}`$ to a **provisional** coherence exponent $`{\overline{\alpha}}_{j}`$ via a monotone function $`\mathcal{M}`$. Two options (pre-registered; both allowed):
 
 1)  **Parametric monotone map (transparent):**
 
