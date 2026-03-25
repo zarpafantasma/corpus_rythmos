@@ -393,18 +393,6 @@ To verify numerical robustness, we repeated the simulation with higher resolutio
 
 **6. Summary**
 
-<img src="media/image2.png" style="width:4.84103in;height:3.2in" alt="A graph with a line AI-generated content may be incorrect." />
-
-These numerical results demonstrate, in a simplified 1-D geometry, that:
-
-1.  A prescribed spatial gradient in $`\alpha`$ induces a corresponding field $`\varphi`$
-
-2.  The emergent power proxy $`\langle P\rangle`$ is strictly positive and obeys $`{P \propto \mid \nabla\alpha \mid}^{2}`$
-
-3.  The solver is robust and convergent, laying the groundwork for higher-fidelity 2-D/3-D simulations and guiding subsequent experimental design.
-
-    2.  **Prototype Findings in 2-D Simulation**
-
 **Grid and BCs (engineering-normalized):** 31×31 nodes. Dirichlet $`\widetilde{\alpha}(0,y) = 0 \rightarrow \widetilde{\alpha}(1,y) = 1`$, with $`\varphi = 0`$ on all boundaries. Under the convention
 
 ``` math
@@ -428,10 +416,6 @@ we computed (simulated) an average scaled proxy
 ```
 
 - **Consistency check:** $`\varphi`$remains zero wherever $`\alpha`$is constant; turning off the gradient drives $`\langle P\rangle \rightarrow 0`$.
-
-<img src="media/image3.png" style="width:5.46667in;height:2.21754in" />
-
-These 2-D findings verify that our finite-difference + sparse-solver approach generalizes beyond 1-D and is ready for larger 2-D/3-D studies on more powerful hardware.
 
 4.  **Experimental Design**
 
@@ -1135,8 +1119,6 @@ a_{eff} = {f(\alpha)}^{2}\ a_{ext} = \frac{1}{a^{2}}a_{ext} \approx \frac{1}{9}a
 
 **Results:**
 
-<img src="media/image4.png" style="width:6.49167in;height:3.67708in" />
-
 - **External frame:** the object’s $`x(t)`$ grows quadratically under 100 g, reaching 1.96 km at $`t = 2\, s`$
 
 - **Proper-time frame:** the perceived position $`x(\tau)`$ grows much more slowly, corresponding to an effective acceleration of only
@@ -1244,19 +1226,13 @@ To assess the feasibility and scaling of our two novel actuation modes, we perfo
 
 yielding a continuous thrust density $`F/A \approx 3 \times 10^{- 11}`$, N/m² $`\left( {\approx 3\  \times \ 10}^{⁻¹⁵}N/cm² \right)`$
 
-<img src="media/image5.png" style="width:5.90347in;height:2.89514in" />
-
 - **Scaling insight:** Thrust $`\propto \ \varepsilon\_ ZPE \cdot (\delta L/L)`$ raising ε_ZPE or δL/L by 10–100× brings the force density into the pN–nN/cm² regime—measurable with a micro-torsion pendulum.
 
 **6.1.3 Parameter Sweeps**
 
 - **OMV sweep:** Varying Δα from 10⁻⁴ to 10⁻¹ and $`f`$ from 10² to 10⁵ Hz confirmed $`\Delta z\  \propto {\ \Delta\alpha/f}^{2}`$. For Δα = 0.1 and f = 100 Hz, displacements reach ∼0.01 nm; further parameter tuning can readily achieve nm–µm.
 
-<img src="media/image6.png" style="width:5.90347in;height:3.90347in" alt="A graph of different colored lines AI-generated content may be incorrect." />
-
 - **TPH sweep:** Varying $`\varepsilon_{ZPE}`$ from 10⁻³ to 10¹ J/m³ and $`\delta L/L`$ from 0.1 % to 10 % showed thrust $`\propto \ \varepsilon\_ ZPE \cdot \delta L/L`$ and reaches ∼0.3 nN/m² at the upper end—clearly in the detection window.
-
-<img src="media/image7.png" style="width:5.90347in;height:3.90347in" />
 
 **6.1.4 Implications**
 
@@ -1752,9 +1728,7 @@ After the pulse, $`\alpha_{core} \rightarrow 1.\ \ If\ \beta`$ has crossed the b
 | **Drive term (β-equation)** | +22.5 units during pulse | Tunes jump without destabilising grid |
 | **Time step / total time** | 0.25 ms / 3.5 s | Satisfies CFL stability |
 
-<img src="media/image8.png" style="width:6.49167in;height:2.55732in" />
-
-**Results (figure)**
+**Results**
 
 - **β-index (blue)** — climbs smoothly from 0 → 1 during the pulse and remains pinned, confirming a deterministic branch transition.
 
@@ -1785,8 +1759,6 @@ With this lattice success, the theoretical–numerical pipeline for **controlled
 | ∇α pulse | Δα = 0.40 on the 𝑥=0 face, Hamming-shaped, $`T_{pulse} = 0.20s`$ |
 | Drive term (β-eq.) | +15 units during the pulse |
 | Time-step / duration | 10 ms / 0.40 s |
-
-<img src="media/image9.png" style="width:5.86667in;height:3.47211in" />
 
 **Results**
 
@@ -2064,4 +2036,3 @@ The transition of the spacecraft from our universe (Branch 0) to a higher cohere
 **Conclusion:** The robust computational audit clears the Aetherion theoretical framework of thermodynamic violations and bootstrap fallacies. The mechanics of zero-point extraction, ponderomotive propulsion, and scalar field nucleation strictly conform to modern conservation laws, establishing the Aetherion not as a hypothetical anomaly, but as a heavily constrained, mathematically viable macroscopic aerospace technology.
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
-
