@@ -261,30 +261,28 @@ We map $`z_{j}`$ to a **provisional** coherence exponent $`{\overline{\alpha}}_{
 {\widetilde{\alpha}}_{j} = \alpha_{0} + \sum_{k}^{}{w_{k}g_{k}\left( z_{jk} \right)};\quad g_{k}\text{ monotone},w_{k} \geq 0,
 ```
 
-> with $`g_{k}`$​ chosen as identity or logistic transforms and $`w_{k}`$​ fitted on **calibration subsets** (galaxies/annuli where the slope test already holds at high S/N). Impose priors $`\alpha \in \lbrack 0.8,3.2\rbrack`$ and $`{\mid \mid w \mid \mid}_{1} = 1`$ for interpretability.
+with $`g_{k}`$​ chosen as identity or logistic transforms and $`w_{k}`$​ fitted on **calibration subsets** (galaxies/annuli where the slope test already holds at high S/N). Impose priors $`\alpha \in \lbrack 0.8,3.2\rbrack`$ and $`{\mid \mid w \mid \mid}_{1} = 1`$ for interpretability.
 
 2)  **Rank-based ensemble (robust):**
 
-> 
-> ``` math
-> {\widetilde{\alpha}}_{j} = \alpha_{0} + \lambda\ median_{k}\ rank\left( z_{jk} \right),
-> ```
->
-> which reduces sensitivity to outliers and heterogeneous scales.
->
-> **Uncertainty.** Propagate $`\Sigma_{j}`$ to $`\sigma_{\widetilde{\alpha},\ j}`$ via delta-method (option a) or bootstrap (option b).
->
-> **5.4 Slope-check refinement (“closing the loop”)**
->
-> For each annulus $`A_{j}`$, we have local measurements $`v(L)`$. Within a **coherence bin** $`B`$ (collection of adjacent annuli with similar $`\widetilde{\alpha}`$), fit
->
-> ``` math
-> \log v = c_{B} + \left( 1 - {\widehat{\alpha}}_{B} \right)\log L
-> ```
->
-> using Theil–Sen slope + Huber robust loss with **errors-in-variables** correction (SIMEX) for $`L`$ if deprojection uncertainties are non-negligible. Compare $`{\widehat{\alpha}}_{B}`$ with the proxy-based $`{\widetilde{\alpha}}_{j}`$ of its members.
->
-> **Acceptance rule (bin *B*):**
+``` math
+{\widetilde{\alpha}}_{j} = \alpha_{0} + \lambda\ median_{k}\ rank\left( z_{jk} \right),
+```
+
+which reduces sensitivity to outliers and heterogeneous scales.
+**Uncertainty.** Propagate $`\Sigma_{j}`$ to $`\sigma_{\widetilde{\alpha},\ j}`$ via delta-method (option a) or bootstrap (option b).
+
+**5.4 Slope-check refinement (“closing the loop”)**
+
+For each annulus $`A_{j}`$, we have local measurements $`v(L)`$. Within a **coherence bin** $`B`$ (collection of adjacent annuli with similar $`\widetilde{\alpha}`$), fit
+
+``` math
+\log v = c_{B} + \left( 1 - {\widehat{\alpha}}_{B} \right)\log L
+```
+
+using Theil–Sen slope + Huber robust loss with **errors-in-variables** correction (SIMEX) for $`L`$ if deprojection uncertainties are non-negligible. Compare $`{\widehat{\alpha}}_{B}`$ with the proxy-based $`{\widetilde{\alpha}}_{j}`$ of its members.
+
+**Acceptance rule (bin *B*):**
 
 - **PASS:** ∣$`{\widehat{\alpha}}_{B}{- median}_{j \in B}{\widetilde{\alpha}}_{j} \mid \leq 0.2`$ and CI overlap;
 
