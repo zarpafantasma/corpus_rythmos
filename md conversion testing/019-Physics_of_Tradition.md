@@ -576,7 +576,7 @@ To connect this to the cultural-domain notation of this text, we define an **arc
 
 The higher the $`Q`$ and the more scale-coupled the tuning is, the higher $`\alpha_{\text{arch}}`$ and the thicker the experiential time inside the enclosure becomes.
 
-    9.2 Essential Acoustic Parameters
+**9.2 Essential Acoustic Parameters**
 
 | **Parameter** | **Optimal Range** | **Effect on** $`\mathbf{\alpha}_{\mathbf{acch}}`$ |
 |----|----|----|
@@ -585,8 +585,9 @@ The higher the $`Q`$ and the more scale-coupled the tuning is, the higher $`\alp
 | Low-Frequency Modulation (\<120 Hz) | \< ±3 dB | Reinforces heartbeat and respiratory rhythm |
 | Background Noise Levels | \< 25 dBA | Prevents external decoherence |
 
-    The Paleolithic cave naturally met these requirements: narrow passages generated low-pass filters, and bulbous chambers provided RT60 close to 2 s.
-    9.3 Light, Color, and Photonic Rhythm
+The Paleolithic cave naturally met these requirements: narrow passages generated low-pass filters, and bulbous chambers provided RT60 close to 2 s.
+
+**9.3 Light, Color, and Photonic Rhythm**
     The play of light and shadow is the "optical carrier" that complements the acoustic wave. Key principles:
 
 - Circadian dynamo – grazing sunlight at dawn defines the temporal axis of the enclosure (e.g., Egyptian temples of Karnak).
@@ -595,9 +596,7 @@ The higher the $`Q`$ and the more scale-coupled the tuning is, the higher $`\alp
 
 - Chromatic filters – Gothic stained-glass windows convert light into visible sound: each color modulates the perceived photic energy and prolongs coherence ( saturation).
 
-<!-- -->
-
-    9.4 Comparative Typologies
+**9.4 Comparative Typologies**
 
 | **Space** | **Geometry** | **Length L** (m) | **Acoustic Q** | $`\mathbf{\alpha}_{\mathbf{arch}}`$ **estimate** |
 |----|----|----|----|----|
@@ -606,15 +605,15 @@ The higher the $`Q`$ and the more scale-coupled the tuning is, the higher $`\alp
 | Underground Kiva (Ancestral Pueblo) | Semi-buried cylinder | 15 | 900 | 2.2 |
 | Underground Techno Club | Concrete tunnel | 40 | 1600 | 2.8 |
 
-    Thus, even secular spaces can achieve high alpha values if they meet appropriate geometric and acoustic criteria.
+Thus, even secular spaces can achieve high alpha values if they meet appropriate geometric and acoustic criteria.
 
-    10 · Secular Rites of High Coherence
-    “Not every cathedral has a dome: sometimes it vibrates under LED lights and on grass.”
+**10 · Secular Rites of High Coherence**
+“Not every cathedral has a dome: sometimes it vibrates under LED lights and on grass.”
 
-    10.1 Objective
-    To demonstrate that the elevation of the exponent  —the core of Multiscale Temporal Relativity (RTM)—is not the exclusive domain of religious liturgies. Stadiums, festivals, and protests generate comparable windows of coherence.
+**10.1 Objective**
+To demonstrate that the elevation of the exponent  —the core of Multiscale Temporal Relativity (RTM)—is not the exclusive domain of religious liturgies. Stadiums, festivals, and protests generate comparable windows of coherence.
 
-    10.2 Common Methodology
+**10.2 Common Methodology**
 
 | **Step** | **Instrument** | **Métrica** |
 |----|----|----|
