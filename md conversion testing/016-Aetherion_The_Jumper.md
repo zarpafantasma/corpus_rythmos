@@ -147,18 +147,16 @@ In a quasi‑static reactor $`\left( \partial_{t} \rightarrow 0 \right)`$ these 
 
 1.  **Recap of the field equations (static, 1‑D slab)**
 
-| $`\varphi^{''} - m_{\varphi}^{2}\varphi - 2\lambda\varphi^{3} = \gamma\alpha''`$, |
-|:---|
-| 
 ``` math
-M^{2}\alpha'' = \gamma\varphi'',
-``` |
-
-|                         
- ``` math                 
- (') \equiv \frac{d}{dz}  
- ```                      |
-|-------------------------|
+$$
+\begin{aligned}
+\varphi'' - m_\varphi^2\varphi - 2\lambda\varphi^3 &= \gamma\alpha'', \\
+M^2\alpha'' &= \gamma\varphi'',
+\end{aligned}
+\qquad \qquad
+(') \equiv \frac{d}{dz}
+$$
+```
 
 Combining them and neglecting the self‑interaction term for small $`\varphi`$:
 
