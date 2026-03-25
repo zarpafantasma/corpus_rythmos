@@ -1290,15 +1290,12 @@ RTM interprets each plateau in α as a **coherence layer**—a regime where fiel
 ```
 
 such that
-
-|                         
+                        
  ``` math                 
- \alpha = \alpha(\beta),  
- ```                      |                                    
-                           ``` math                            
-                           \alpha(\beta + 1) > \alpha(\beta),  
-                           ```                                 |
-|-------------------------|------------------------------------|
+$$
+\alpha = \alpha(\beta), \qquad \qquad \alpha(\beta + 1) > \alpha(\beta),
+$$
+ ```
 
 and transitions $`\beta \rightarrow \beta \pm 1`$ correspond to stepping up or down the hierarchy.
 
