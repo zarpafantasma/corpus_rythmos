@@ -28,7 +28,7 @@ The framework’s operational viability is further established through a series 
 
 2.  **\| Part I – Foundations of RTM**
 
-> **2.1 Introduction to Multiscale Temporal Relativity (RTM)**
+**2.1 Introduction to Multiscale Temporal Relativity (RTM)**
 
 The Multiscale Temporal Relativity **(RTM)** framework posits that **time is not a universal background**, but an **emergent property** whose flow depends on the structural scale of the system in question. Concretely, RTM asserts that a system’s characteristic time $`T`$ scales with its dominant length scale $`L`$ according to the power law
 
@@ -481,7 +481,7 @@ $`\Gamma \sim Ae^{{- S}_{bounce}/\hslash}`$
 F_{Q} \sim - \frac{\hslash}{L^{2}}\ \frac{\partial}{\partial\alpha}\ (\Delta\alpha)^{2}\ 
 ```
 
-> where $`L`$ is the gradient length. For steep gradients at sub-millimeter scales, this force can reach pico-Newton levels—small but potentially measurable.
+where $`L`$ is the gradient length. For steep gradients at sub-millimeter scales, this force can reach pico-Newton levels—small but potentially measurable.
 
 **(c) Anomalous dispersion and nonlocal kernels**
 
@@ -491,7 +491,7 @@ F_{Q} \sim - \frac{\hslash}{L^{2}}\ \frac{\partial}{\partial\alpha}\ (\Delta\alp
 \int_{}^{}{d^{4}x\ d^{4}}\ y\ \alpha(x)\ \Pi(x - y)\alpha(y)
 ```
 
-> where $`\Pi(k)`$ encodes vacuum polarization. In position space, this yields nonlocal kernels $`{\Pi(x - y) \approx \mid x - y \mid}^{- 4}`$ at short distances.
+where $`\Pi(k)`$ encodes vacuum polarization. In position space, this yields nonlocal kernels $`{\Pi(x - y) \approx \mid x - y \mid}^{- 4}`$ at short distances.
 
 - **Phenomenological impact.** Such nonlocalities modify the RTM field equation from a simple Poisson form to an integrodifferential equation. They can smear sharp α-gradients and introduce dispersion in the α-wave propagation speed.
 
@@ -655,9 +655,10 @@ T_{H} = \frac{\hslash\kappa}{{2\pi k}_{B}} \Longleftrightarrow RTM’s\ \Theta(T
 identifies $`\Theta(T)`$ with horizon red-shift effects, linking α-induced time dilation to black-hole thermodynamics
 
 2.  **Generalized Bekenstein Bound**\
-    Extending the Bekenstein bound $`{S \leq 2\pi k}_{B}ER/\hslash c`$ to RTM systems yields*\*
+    Extending the Bekenstein bound $`{S \leq 2\pi k}_{B}ER/\hslash c`$ to RTM systems yields
+    
     ``` math
-    {S \leq 2\pi k}_{B}\frac{E\ L}{\hslash c}{\lbrack\alpha(L)\rbrack}^{- 1}
+    $$S \leq 2\pi k_B \frac{E L}{\hbar c} [\alpha(L)]^{-1}$$
     ```
 
 showing that maximal information storage scales inversely with the local temporal-scaling exponent and enforcing limits on energy extraction and branch-hop transitions.
@@ -753,25 +754,16 @@ with exponent $`p = 1`$
 
 We implement exact one-loop thresholds for the following RTM states:
 
-| **State** | **Rep.** $`SU(3) \times SU(2) \times U{(1)}_{Y}`$ | **Mass \[GeV\]** | 
-``` math
-\mathbf{\Delta b}_{\mathbf{1}}
-``` | 
-``` math
-\mathbf{\Delta b}_{\mathbf{2}}
-``` | 
-``` math
-\mathbf{\Delta b}_{\mathbf{3}}
-``` |
-|----|----|---:|---:|---:|---:|
-| Scalar 𝜙 | (1,1,1) | 600 | +0.17 | 0 | 0 |
-| RTM-excitation (scalar) | (1,1,0) | 800 | 0 | 0 | 0 |
-| Extra Higgs doublet (scalar) | (1,2, $`\frac{1}{2}`$) | 1500 | +0.01 | +0.13 | 0 |
-| Vector-like fermion Y=2 | (1,1,2) | 250 | +3.56 | 0 | 0 |
-| VL doublet Y=3/2 | (1,2, $`\frac{3}{2}`$) | 400 | +1.00 | +0.50 | 0 |
-| VL quark (3,2,1/6) | (1,2, $`\frac{1}{6}`$) | 800 | +0.02 | +0.20 | +0.53 |
-| Colour-adjoint scalar $`G_{8}`$ | (8,1,0) | 1200 | 0 | 0 | +0.50 |
-| Singlet scalar Y=5/3 | (1,2, $`\frac{5}{3}`$) | 180 | +0.85 | 0 | 0 |
+| State | Rep. $SU(3) \times SU(2) \times U(1)_Y$ | Mass [GeV] | $\Delta b_1$ | $\Delta b_2$ | $\Delta b_3$ |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Scalar $\phi$ | $(1,1,1)$ | 600 | +0.17 | 0 | 0 |
+| RTM-excitation (scalar) | $(1,1,0)$ | 800 | 0 | 0 | 0 |
+| Extra Higgs doublet (scalar) | $(1,2,\frac{1}{2})$ | 1500 | +0.01 | +0.13 | 0 |
+| Vector-like fermion Y=2 | $(1,1,2)$ | 250 | +3.56 | | 0 |
+| VL doublet Y=3/2 | $(1,2,\frac{3}{2})$ | 400 | +1.00 | +0.50 | 0 |
+| VL quark (3,2,1/6) | $(1,2,\frac{1}{6})$ | 800 | +0.02 | +0.20 | +0.53 |
+| Colour-adjoint scalar $G_8$ | $(8,1,0)$ | 1200 | | 0 | +0.50 |
+| Singlet scalar Y=5/3 | $(1,2,\frac{5}{3})$ | 180 | +0.85 | 0 | 0 |
 
 Thresholds are switched on stepwise at each mass, ensuring accurate matching of RG trajectories.
 
@@ -826,7 +818,7 @@ where $`\varphi`$ is the Aetherion field, $`m_{\varphi}`$ its mass parameter, $`
 
 1.  **Grid generation**
 
-> Divide $`\lbrack 0,L\rbrack`$ into $`N`$ equal segments of length $`\Delta x = L/N`$, with nodes $`x_{i} = i\ \Delta x,\ i = 0,\ldots,N`$
+Divide $`\lbrack 0,L\rbrack`$ into $`N`$ equal segments of length $`\Delta x = L/N`$, with nodes $`x_{i} = i\ \Delta x,\ i = 0,\ldots,N`$
 
 2.  **Second-derivative stencil**\
     Approximate
@@ -983,39 +975,12 @@ We measure the discrete $`\mathcal{l}_{2}`$-error of the numerical solution $`\v
 
 scales approximately as $`{\epsilon_{N} \propto N}^{- 2}`$, confirming **second-order accuracy** of the finite-difference stencil. Table 4.1 summarizes the results:
 
-| ***N*** | ***Δx*** |                                
-                      ``` math                        
-                      \mathbf{\epsilon}_{\mathbf{N}}  
-                      ```                             | **Convergence Rate** |
-|---------|----------|--------------------------------|----------------------|
-| 128     |          
-           ``` math  
-           L/128     
-           ```       |                                
-                      ``` math                        
-                      {3.2 \times 10}^{- 4}           
-                      ```                             | —                    |
-| 256     |          
-           ``` math  
-           L/256     
-           ```       |                                
-                      ``` math                        
-                      {8.1 \times 10}^{- 5}           
-                      ```                             | 1.98                 |
-| 512     |          
-           ``` math  
-           L/512     
-           ```       |                                
-                      ``` math                        
-                      {2.0 \times 10}^{- 5}           
-                      ```                             | 2.02                 |
-| 1024    |          
-           ``` math  
-           L/1024    
-           ```       |                                
-                      ``` math                        
-                      {5.0 \times 10\ }^{- 6}         
-                      ```                             | 2.00                 |
+| **$N$** | **$\Delta x$** | **$\epsilon_N$** | **Convergence Rate** |
+| :--- | :--- | :--- | :--- |
+| 128 | $L/128$ | $3.2 \times 10^{-4}$ | — |
+| 256 | $L/256$ | $8.1 \times 10^{-5}$ | 1.98 |
+| 512 | $L/512$ | $2.0 \times 10^{-5}$ | 2.02 |
+| 1024 | $L/1024$ | $5.0 \times 10^{-6}$ | 2.00 |
 
 **4.3.2 Grid Independence in 2D**
 
@@ -1208,17 +1173,11 @@ for $`{TiO}_{2}/{SiO}_{2}`$ stacks, consistent with effective-medium theory and 
 
 **Summary of Calibrated Values**
 
-| **Parameter** | **Role**                       | **Calibrated Value**   |
-|---------------|--------------------------------|------------------------|
-| M             | α-field stiffness              |                        
-                                                  ``` math                
-                                                  {\sim 1 \times 10}^{2}  
-                                                  ```                     |
-| γ             | φ–α energy–extraction coupling |                        
-                                                  ``` math                
-                                                  180 \pm 20              
-                                                  ```                     |
-| κ             | Refractive-index → α exponent  | *≈3.0*                 |
+| **Parameter** | **Role** | **Calibrated Value** |
+| :--- | :--- | :--- |
+| $M$ | $\alpha$-field stiffness | $\sim 1 \times 10^2$ |
+| $\gamma$ | $\varphi-\alpha$ energy-extraction coupling | $180 \pm 20$ |
+| $\kappa$ | Refractive-index $\rightarrow \alpha$ exponent | $\approx 3.0$ |
 
 With these numerical values in hand, the RTM–Aetherion action becomes a fully specified, **falsifiable** model—ready for predictive simulations and guiding experimental reactor designs.
 
@@ -1317,9 +1276,9 @@ In our prototype Aetherion chamber (Section 6.1), three independent sensing moda
 1.  **Differential Calorimetry**\
     A pair of matched thermopile arrays measures the net heat flow from the active chamber **relative to** an identical dummy vessel lacking any α-layers.
 
->  **Sensitivity:** 0.5 µW
+>  **Sensitivity:** 0.5 µW
 >
->  **Procedure:** Integrate heat-flux traces over 6 h windows, detrend long-term drift, and compute mean extracted power $`{\langle P}_{cal}\rangle`$
+>  **Procedure:** Integrate heat-flux traces over 6 h windows, detrend long-term drift, and compute mean extracted power $`{\langle P}_{cal}\rangle`$
 
 2.  **RF Vacuum-Noise Spectroscopy**\
     Broadband electromagnetic probes (100 kHz–3 GHz) continuously monitor the spectral power density of vacuum fluctuations within the cavity.
@@ -1328,7 +1287,7 @@ In our prototype Aetherion chamber (Section 6.1), three independent sensing moda
 
 3.  **Time-Correlation (Photon-Correlation) Spectroscopy**
 
-> Twin single-photon detectors record arrival-time pairs of photons traversing the chamber, constructing a delay histogram from which an **MFPT-style delay** ΔT is extracted.
+Twin single-photon detectors record arrival-time pairs of photons traversing the chamber, constructing a delay histogram from which an **MFPT-style delay** ΔT is extracted.
 
 - **Analysis:** Fit the delay distribution to extract $`{\Delta T \propto (\Delta\alpha)}^{2}`$, and compare against the solver prediction within ±10%
 
@@ -1352,7 +1311,7 @@ We now confront the multi-modal measurement protocols with the predictions deriv
 \langle P_{sim}\rangle = 3.8 \pm 0.4\ \mu W
 ```
 
-> The uncertainty here represents the simulated sensitivity to minor variations in material properties and environmental noise, as modeled in our numerical framework. An experimental measurement consistent with this value would provide strong evidence for the model.
+The uncertainty here represents the simulated sensitivity to minor variations in material properties and environmental noise, as modeled in our numerical framework. An experimental measurement consistent with this value would provide strong evidence for the model.
 
 - **Predicted RF-Noise Suppression:** Our model predicts that the in-cavity spectral power density in the 0.1–10 MHz band should be suppressed by:
 
@@ -1368,7 +1327,7 @@ relative to the dummy baseline. This simulated suppression scales linearly with 
 {\Delta T \propto (\Delta\alpha)}^{2}
 ```
 
-> Specifically, our solver predicts an exponent of **2.00 ± 0.03**, providing a precise quadratic relationship to be tested.
+Specifically, our solver predicts an exponent of **2.00 ± 0.03**, providing a precise quadratic relationship to be tested.
 
 These three independent simulated observables—thermal power, RF-mode redistribution, and photon delay—all exhibit the predicted linear or quadratic scaling with Δα. Such quantitative concordance across different simulated physical channels provides a robust set of predictions. An experimental confirmation of these results would offer strong empirical support that the RTM-derived scaling laws can be realized in physical devices.
 
@@ -1446,264 +1405,14 @@ By systematically addressing these limitations—through simulation, materials r
 
 The following 18-month roadmap lays out parallel tracks of theory development, numerical validation, materials & device engineering, and cross-platform experiments to drive RTM Unified Field Framework from foundational principles to broad empirical tests.
 
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 18%" />
-<col style="width: 31%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Phase</strong></th>
-<th><strong>Duration</strong></th>
-<th><strong>Milestone</strong></th>
-<th><strong>Deliverable</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>A</strong></td>
-<td>Months 0–3</td>
-<td><table style="width:21%;">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 0%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Finalize Core Theory</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table style="width:29%;">
-<colgroup>
-<col style="width: 0%" />
-<col style="width: 0%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th><p>• Complete full derivation of coupled field EOMs</p>
-<p>• Publish “Quantization of α” paper</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td><p>RTM–Aetherion Lagrangian chapter (Ch. 3)</p>
-<p>Journal submission</p></td>
-</tr>
-<tr>
-<td><strong>B</strong></td>
-<td>Months 3–6</td>
-<td><table style="width:29%;">
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 0%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Advanced Simulations &amp; Benchmarks</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table style="width:29%;">
-<colgroup>
-<col style="width: 0%" />
-<col style="width: 0%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th><p>• GPU-accelerated 3D solver prototype</p>
-<p>• Mesh-convergence in complex geometries</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td><p>Code repository &amp; performance report (Ch. 4)</p>
-<p>Benchmark tables &amp; plots</p></td>
-</tr>
-<tr>
-<td><strong>C</strong></td>
-<td>Months 6–9</td>
-<td><table style="width:28%;">
-<colgroup>
-<col style="width: 27%" />
-<col style="width: 0%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Materials &amp; Prototype Build</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table style="width:29%;">
-<colgroup>
-<col style="width: 0%" />
-<col style="width: 0%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th><p>• Fabricate gradient-index metamaterial shells</p>
-<p>• Assemble next-gen Aetherion chamber (3D)</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td><p>Materials characterization report</p>
-<p>Assembly protocol &amp; CAD drawings (Ch. 6.1)</p></td>
-</tr>
-<tr>
-<td><strong>D</strong></td>
-<td>Months 9–12</td>
-<td><table style="width:29%;">
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 0%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>First Experimental Campaign</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table style="width:29%;">
-<colgroup>
-<col style="width: 0%" />
-<col style="width: 0%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th><p>• Run 72 h calorimetry + RF &amp; photon-corr tests</p>
-<p>• Compare to updated simulation suite</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td><p>Data set + initial analysis (Ch. 6.2–6.3)</p>
-<p>Joint paper “RTM-Aetherion: Theory vs. Experiments”</p></td>
-</tr>
-<tr>
-<td><strong>E</strong></td>
-<td>Months 12–15</td>
-<td><table style="width:27%;">
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 0%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Cross-Platform Validation</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table style="width:29%;">
-<colgroup>
-<col style="width: 0%" />
-<col style="width: 0%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th><p>• Trapped-ion chain decoherence experiments</p>
-<p>• Photonic-crystal pulse-delay measurements</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td><p>Experimental protocol &amp; results</p>
-<p>Comparative study report</p></td>
-</tr>
-<tr>
-<td><strong>F</strong></td>
-<td>Months 15–18</td>
-<td><table style="width:29%;">
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 0%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Theory Refinement &amp; RTM Unified Field Framework Publication</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<table style="width:29%;">
-<colgroup>
-<col style="width: 0%" />
-<col style="width: 0%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th><p>• Incorporate quantum corrections to U(α) &amp; V(β)</p>
-<table style="width:1%;">
-<colgroup>
-<col style="width: 1%" />
-</colgroup>
-<tbody>
-</tbody>
-</table>
-<table style="width:27%;">
-<colgroup>
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th>• Draft full RTM Unified Field Framework monograph</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-<td><p>EFT one-loop paper</p>
-<p>Complete manuscript for peer review</p></td>
-</tr>
-</tbody>
-</table>
+| **Phase** | **Duration** | **Milestone** | **Deliverable** |
+| :--- | :--- | :--- | :--- |
+| **A** | Months 0–3 | **Finalize Core Theory**<br>• Complete full derivation of coupled field EOMs<br>• Publish "Quantization of $\alpha$" paper | RTM–Aetherion Lagrangian chapter (Ch. 3)<br><br>Journal submission |
+| **B** | Months 3–6 | **Advanced Simulations & Benchmarks**<br>• GPU-accelerated 3D solver prototype<br>• Mesh-convergence in complex geometries | Code repository & performance report (Ch. 4)<br><br>Benchmark tables & plots |
+| **C** | Months 6–9 | **Materials & Prototype Build**<br>• Fabricate gradient-index metamaterial shells<br>• Assemble next-gen Aetherion chamber (3D) | Materials characterization report<br><br>Assembly protocol & CAD drawings (Ch. 6.1) |
+| **D** | Months 9–12 | **First Experimental Campaign**<br>• Run 72 h calorimetry + RF & photon-corr tests<br>• Compare to updated simulation suite | Data set + initial analysis (Ch. 6.2–6.3)<br><br>Joint paper "RTM–Aetherion: Theory vs. Experiments" |
+| **E** | Months 12–15 | **Cross-Platform Validation**<br>• Trapped-ion chain decoherence experiments<br>• Photonic-crystal pulse-delay measurements | Experimental protocol & results<br><br>Comparative study report |
+| **F** | Months 15–18 | **Theory Refinement & RTM Unified Field Framework Publication**<br>• Incorporate quantum corrections to $U(\alpha)$ & $V(\beta)$<br>• Draft full RTM Unified Field Framework monograph | EFT one-loop paper<br><br>Complete manuscript for peer review |
 
 **Key Dependencies & Parallelization**
 
