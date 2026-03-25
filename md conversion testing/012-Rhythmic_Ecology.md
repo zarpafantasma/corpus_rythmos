@@ -80,15 +80,10 @@ u = \log L,v = \log T.
 
 RTM postulates that **within a stable slice of the environment**,
 
-|            
- ``` math    
- \text{(1)}  
- ```         |
-|------------|
-
 ``` math
 v(u) = \alpha_{eco}\text{ }u + \log\kappa,
 ```
+(1)
 
 where $`\alpha_{eco}`$ is the **coherence exponent** (structure) and $`\kappa > 0`$ is a **clock** (units/baseline).
 
