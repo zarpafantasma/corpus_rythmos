@@ -591,11 +591,11 @@ Throughout this section we label statements as **Measured** (laboratory data), *
 
 - **Projected:** Future experimental data **are expected** to follow the same curve under the parameter windows specified here; this is a falsifiable prediction, not a reported measurement.
 
-**II**
+<div align="center">
 
-**Reactionless Propulsion &**
+# **II<br>Reactionless Propulsion & Temporal Hopping***
 
-**Temporal Hopping**
+</div>
 
 **Abstract**
 
