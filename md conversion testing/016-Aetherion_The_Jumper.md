@@ -684,10 +684,9 @@ From Section 2.1, the thrust per unit area at each $`z`$ is
 $$
 \frac{F}{A}(z,t) = \rho F |\nabla\alpha(z,t)| \Delta E_{ZPE} \qquad \qquad \rho F \equiv \kappa^2
 $$
-``` math
+```
 
-Insert (2) and integrate over the vibrating fase
-
+Insert (2) and integrate over the vibrating fase  
 ``` math
 $$
 F(t) = A \rho F \frac{\pi \Delta\alpha}{L} \Delta E_{ZPE} \sin(\omega t) \int_{0}^{L} \cos\left(\frac{\pi z}{L}\right) dz = A \rho F \Delta\alpha \Delta E_{ZPE} \sin(\omega t)
