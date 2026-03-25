@@ -9,7 +9,7 @@
 
 </div>
 
-> Introduction: **The Contingent Protocol**
+Introduction: **The Contingent Protocol**
 
 **From Theoretical Axiom to Operational Reality**
 
