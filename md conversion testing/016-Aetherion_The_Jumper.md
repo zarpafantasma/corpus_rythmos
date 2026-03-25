@@ -1769,30 +1769,12 @@ A 10 GHz lumped-element resonator with junction inductance $`L_{J} \sim 1\ nH`$ 
 
 **7.3 Scaling Laws for Table-Top Demonstration**
 
-| **Parameter** | **Symbol** | **Scaling relation** | **Practical range** |
-|----|----|:--:|----|
-| Barrier height | 
-``` math
-{\Delta V}_{\beta}
-``` | $`{\propto E}_{\mathbf{L}}\mathbf{\ }`$(junction inductance) | 1–10 μeV |
-| Pulse energy | 
-``` math
-E_{\mathbf{drive}}
-``` | 
-``` math
-{\geq \Delta V}_{\beta}
-``` | 0.1–5 μJ |
-| Burst power | 
-``` math
-P_{burst}
-``` | 
-``` math
-E_{burst}\ /\tau
-``` | 10–100 fW for τ = 100 ns |
-| Signal-to-noise | SNR | 
-``` math
-P_{burst}/\left( k_{B}T_{sys}B \right)
-``` | \> 10 with $`T_{sys}`$ ≤ 2 K, B = 1 MHz |
+| Parameter | Symbol | Scaling relation | Practical range |
+| :--- | :--- | :--- | :--- |
+| Barrier height | $\Delta V_\beta$ | $\propto E_L$ (junction inductance) | 1–10 µeV |
+| Pulse energy | $E_{drive}$ | $\geq \Delta V_\beta$ | 0.1–5 µJ |
+| Burst power | $P_{burst}$ | $E_{burst} / \tau$ | 10–100 fW for $\tau = 100$ ns |
+| Signal-to-noise | SNR | $P_{burst}/(k_B T_{sys} B)$ | > 10 with $T_{sys} \leq 2$ K, B = 1 MHz |
 
 **Implication:** Even a benchtop dilution-fridge set-up with standard cryogenic RF components achieves SNR \> 10 for a single-shot branch jump, rendering the φ-burst surrogate unambiguous.
 
@@ -1800,19 +1782,19 @@ These analog experiments offer a **near-term path** to test the multiverse-trans
 
 **7.4 Timing Diagrams**
 
-\|\<─────────────── Pulse Duration ───────────────\>\|\<─ Relaxation ─\>\|
+```
+|<---------------- Pulse Duration ---------------->|<--- Relaxation --->|
 
-t = 0 t = T_pulse t = T_total
+t = 0                                     t = T_pulse             t = T_total
 
-Δα Drive: ┌───────────┐
+Δα Drive:   ┌─────────────────────────────────────┐
+            │                                     │
+  α(t)      └─────────────────────────────────────┘
 
-│ │
 
-α(t) └───────────┘
-
-φ-Burst: ▲
-
-▼ (milliseconds)
+φ-Burst:    ▲
+            ▼                                      (milliseconds)
+```
 
 - **Top panel (Δα pulse):**
 
