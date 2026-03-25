@@ -1765,151 +1765,99 @@ rtm-unified-field-framework/
 
 **D.2 Core Modules**
 
-<span class="mark">potentials.py</span>
+potentials.py
 
+```
 import numpy as np
 
 def multi_well_U(alpha, wells, lambdas, eps=1e-3):
-
-"""
-
-Multi-well potential U(alpha) = sum_n lambda_n (alpha - alpha_n)^2 \* prod\_{m!=n}\[(alpha - alpha_m)^2 + eps^2\]
-
-"""
-
-U = 0.0
-
-for alpha_n, lam in zip(wells, lambdas):
-
-prod = 1.0
-
-for alpha_m in wells:
-
-if alpha_m == alpha_n: continue
-
-prod \*= ( (alpha - alpha_m)\*\*2 + eps\*\*2 )
-
-U += lam \* (alpha - alpha_n)\*\*2 \* prod
-
-return U
+    """
+    Multi-well potential U(alpha) = sum_n lambda_n (alpha - alpha_n)^2 * prod_{m!=n}[(alpha - alpha_m)^2 + eps^2]
+    """
+    U = 0.0
+    for alpha_n, lam in zip(wells, lambdas):
+        prod = 1.0
+        for alpha_m in wells:
+            if alpha_m == alpha_n: 
+                continue
+            prod *= ( (alpha - alpha_m)**2 + eps**2 )
+        U += lam * (alpha - alpha_n)**2 * prod
+    return U
 
 def dU_dalpha(alpha, wells, lambdas, eps=1e-3):
+    # Numerical derivative or analytic expression for gradient of U
+    delta = 1e-6
+    return (multi_well_U(alpha + delta, wells, lambdas, eps) 
+            - multi_well_U(alpha - delta, wells, lambdas, eps)) / (2 * delta)
+```
 
-\# Numerical derivative or analytic expression for gradient of U
+discretization.py
 
-delta = 1e-6
-
-return (multi_well_U(alpha + delta, wells, lambdas, eps)
-
-\- multi_well_U(alpha - delta, wells, lambdas, eps)) / (2 \* delta)
-
-<span class="mark">discretization.py</span>
-
-import scipy.sparse as sp
-
+```
 import numpy as np
+ 
+def multi_well_U(alpha, wells, lambdas, eps=1e-3):
+    """
+    Multi-well potential U(alpha) = sum_n lambda_n (alpha - alpha_n)^2 * prod_{m!=n}[(alpha - alpha_m)^2 + eps^2]
+    """
+    U = 0.0
+    for alpha_n, lam in zip(wells, lambdas):
+        prod = 1.0
+        for alpha_m in wells:
+            if alpha_m == alpha_n: 
+                continue
+            prod *= ( (alpha - alpha_m)**2 + eps**2 )
+        U += lam * (alpha - alpha_n)**2 * prod
+    return U
+ 
+def dU_dalpha(alpha, wells, lambdas, eps=1e-3):
+    # Numerical derivative or analytic expression for gradient of U
+    delta = 1e-6
+    return (multi_well_U(alpha + delta, wells, lambdas, eps) - multi_well_U(alpha - delta, wells, lambdas, eps)) / (2 * delta)
+```
 
-def second_derivative_matrix(N, dx, bc='neumann'):
+block_solver.py
 
-"""
-
-Build the 1D second-derivative sparse matrix with Neumann or Dirichlet BC.
-
-"""
-
-main = -2.0 \* np.ones(N+1)
-
-off = 1.0 \* np.ones(N)
-
-D2 = sp.diags(\[off, main, off\], offsets=\[-1, 0, 1\], shape=(N+1, N+1)) / dx\*\*2
-
-if bc == 'neumann':
-
-\# ghost-point Neumann: first and last rows adjust
-
-D2 = D2.tolil()
-
-D2\[0,0\] = -2.0 / dx\*\*2; D2\[0,1\] = 2.0 / dx\*\*2
-
-D2\[-1,-1\] = -2.0/dx\*\*2; D2\[-1,-2\] = 2.0/dx\*\*2
-
-return D2.tocsr()
-
-elif bc == 'dirichlet':
-
-\# enforce rows to identity
-
-D2 = D2.tolil()
-
-D2\[0,:\] = 0; D2\[0,0\] = 1
-
-D2\[-1,:\] = 0; D2\[-1,-1\] = 1
-
-return D2.tocsr()
-
-else:
-
-raise ValueError("Unknown BC: " + bc)
-
-<span class="mark">block_solver.py</span>
-
+```
 import scipy.sparse.linalg as spla
-
+import scipy.sparse as sp
 from discretization import second_derivative_matrix
-
 from potentials import dU_dalpha
-
 import numpy as np
 
 def solve_1d_rtm_aetherion(N, L, m_phi, M, gamma, wells, lambdas, eps=1e-3, source=None):
-
-dx = L / N
-
-\# Build D2 operator
-
-D2 = second_derivative_matrix(N, dx, bc='neumann')
-
-I = sp.eye(N+1)
-
-\# Initial guess for alpha profile (e.g., linear ramp)
-
-alpha_profile = np.linspace(wells\[0\], wells\[-1\], N+1)
-
-\# Build A_phi and A_alpha
-
-A_phi = -D2 + m_phi\*\*2 \* I
-
-Upp = np.array(\[dU_dalpha(a, wells, lambdas, eps) for a in alpha_profile\])
-
-A_alpha = -M \* D2 + sp.diags(Upp, 0)
-
-C = gamma \* sp.diags(alpha_profile, 0)
-
-\# Assemble block
-
-top = sp.hstack(\[A_phi, -C\])
-
-bottom = sp.hstack(\[C, A_alpha\])
-
-block = sp.vstack(\[top, bottom\]).tocsr()
-
-\# RHS
-
-rhs = np.zeros(2\*(N+1))
-
-if source is not None:
-
-rhs\[N+1:\] = source
-
-\# Solve
-
-sol = spla.spsolve(block, rhs)
-
-phi = sol\[:N+1\]
-
-alpha = sol\[N+1:\]
-
-return phi, alpha
+    dx = L / N
+    
+    # Build D2 operator
+    D2 = second_derivative_matrix(N, dx, bc='neumann')
+    I = sp.eye(N+1)
+    
+    # Initial guess for alpha profile (e.g., linear ramp)
+    alpha_profile = np.linspace(wells[0], wells[-1], N+1)
+    
+    # Build A_phi and A_alpha
+    A_phi = -D2 + m_phi**2 * I
+    Upp = np.array([dU_dalpha(a, wells, lambdas, eps) for a in alpha_profile])
+    A_alpha = -M * D2 + sp.diags(Upp, 0)
+    C = gamma * sp.diags(alpha_profile, 0)
+    
+    # Assemble block matrix
+    top = sp.hstack([A_phi, -C])
+    bottom = sp.hstack([C, A_alpha])
+    block = sp.vstack([top, bottom]).tocsr()
+    
+    # RHS
+    rhs = np.zeros(2 * (N + 1))
+    if source is not None:
+        rhs[N+1:] = source
+        
+    # Solve
+    sol = spla.spsolve(block, rhs)
+    phi = sol[:N+1]
+    alpha = sol[N+1:]
+    
+    return phi, alpha
+```
 
 **D.3 Example Notebook Workflow**
 
