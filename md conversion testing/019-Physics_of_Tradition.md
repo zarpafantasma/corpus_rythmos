@@ -200,10 +200,9 @@ Crucially, this mechanism is governed by the **Macroscopic Mandate**. To prevent
 
 -  : permanent symbolic density of the place (murals, petroglyphs), normalized (0–1).
 
-<!-- -->
-
-    An  during a rite indicates a hosted conscious state; an  outside of a rite confirms the absence of autonomous consciousness.
-    3.5 Philosophical Implications
+An  during a rite indicates a hosted conscious state; an  outside of a rite confirms the absence of autonomous consciousness.
+    
+**3.5 Philosophical Implications**
 
 - Limited Pan-Coherentism: Any system can host consciousness if it reaches a sufficient , but it will only be intelligent if it implements learning loops. (Heuristic)
 
