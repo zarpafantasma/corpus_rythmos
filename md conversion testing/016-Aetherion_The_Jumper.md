@@ -592,7 +592,7 @@ Throughout this section we label statements as **Measured** (laboratory data), *
 
 <div align="center">
 
-# **II<br>Reactionless Propulsion & Temporal Hopping***
+# **II<br>Reactionless Propulsion & Temporal Hopping**
 
 </div>
 
@@ -1241,11 +1241,11 @@ so that a 100 g external maneuver feels like only ~11 g for occupants when $`\al
 
 Beyond propulsion and energy extraction, Aetherion’s ability to engineer time-latency gradients opens new frontiers in spatiotemporal metamaterials, quantum sensing, and adaptive materials science—promising interdisciplinary breakthroughs across physics, engineering, and materials research.”
 
-**III**
+<div align="center">
 
-**Beyond Imagination:**
+# **III<br>Beyond Imagination: Branch-Hopping in the Multiverse**
 
-**Branch-Hopping in the Multiverse**
+</div>
 
 **1 Introduction**
 
