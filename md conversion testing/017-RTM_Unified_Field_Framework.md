@@ -1484,13 +1484,11 @@ These extension threads not only expand RTM Unified Field Framework into new dom
 | *L* | Dominant length scale (system size, network diameter, characteristic spatial extent). |
 | *α* | Temporal-scaling exponent, defined by $`{T \propto L}^{\alpha}`$ Quantized bands: |
 
-1\. Ballistic \\\approx1.0\\
-
-2\. Diffusive \\\approx2.0\\
-
-3\. Hierarchical/Fractal \\\approx2.3\\–\\2.7\\
-
-4\. Quantum-confined \\\approx3.5\\.
+**1\. Ballistic \\approx1.0\
+2\. Diffusive \\\approx2.0\
+3\. Hierarchical/Fractal \\approx2.3\–\2.7\
+4\. Quantum-confined \\approx3.5\.**
+  
 
 \| **ρ** \| Local structural density (nodes or interactions per unit volume), typically enters as $`{T \propto \rho}^{- 1/2}`$ \|
 
