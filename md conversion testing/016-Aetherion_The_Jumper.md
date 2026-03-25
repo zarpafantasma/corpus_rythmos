@@ -1569,20 +1569,11 @@ We adopt a staggered, second-order finite-difference scheme on a 1-D lattice of 
 
 Variables at each node $`\mathbf{j}`$ and time step $`\mathbf{n}`$:
 
-| **Field**       | **Stored values**            |
-|-----------------|------------------------------|
-|                 
- ``` math         
- \varphi_{j}^{n}  
- ```              | scalar extraction field      |
-|                 
- ``` math         
- \alpha_{j}^{n}   
- ```              | temporal-scaling exponent    |
-|                 
- ``` math         
- \beta_{j}^{n}    
- ```              | branch index order parameter |
+| Field | Stored values |
+| :--- | :--- |
+| $\varphi_j^n$ | scalar extraction field |
+| $\alpha_j^n$ | temporal-scaling exponent |
+| $\beta_j^n$ | branch index order parameter |
 
 Discrete Laplacian
 
