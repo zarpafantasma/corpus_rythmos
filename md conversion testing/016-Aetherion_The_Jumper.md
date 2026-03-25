@@ -3,7 +3,6 @@
 <img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent2.png" width="200" alt="Diagrama de Snake">
 
 # Aetherion, the Jumper
-**Enzyme as a Coherence Instrument and a Practical Index for $\alpha$ in Living Catalysis**  
   
 Álvaro Quiceno
 
