@@ -1758,12 +1758,11 @@ A 10 GHz lumped-element resonator with junction inductance $`L_{J} \sim 1\ nH`$ 
 
 3.  Observable: A successful branch jump produces a single RF burst at $`f_{0}^{(1)}`$ lasting ≤ 100 ns. The burst energy
 
-> 
-> ``` math
-> E_{burst} = \hslash\left\lbrack {f_{0}^{(1)} - f}_{0}^{(0)}\  \right\rbrack
-> ```
->
-> is the condensed-matter analog of the transient φ-emission in §6.
+``` math
+E_{burst} = \hslash\left\lbrack {f_{0}^{(1)} - f}_{0}^{(0)}\  \right\rbrack
+```
+
+is the condensed-matter analog of the transient φ-emission in §6.
 
 4.  **Falsification**: Below the critical pulse energy $`E_{crit}`$ (cf. Eq. 22, mapped to magnetic energy), no burst is observed and the resonator relaxes back to $`f_{0}^{(0)}`$ Above $`E_{crit}`$ a reproducible burst confirms deterministic crossing.
 
