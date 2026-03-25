@@ -576,7 +576,7 @@ To connect this to the cultural-domain notation of this text, we define an **arc
 
 The higher the $`Q`$ and the more scale-coupled the tuning is, the higher $`\alpha_{\text{arch}}`$ and the thicker the experiential time inside the enclosure becomes.
 
-**9.2 Essential Acoustic Parameters**
+**9.2 Essential Acoustic Parameters**  
 
 | **Parameter** | **Optimal Range** | **Effect on** $`\mathbf{\alpha}_{\mathbf{acch}}`$ |
 |----|----|----|
@@ -587,7 +587,7 @@ The higher the $`Q`$ and the more scale-coupled the tuning is, the higher $`\alp
 
 The Paleolithic cave naturally met these requirements: narrow passages generated low-pass filters, and bulbous chambers provided RT60 close to 2 s.
 
-**9.3 Light, Color, and Photonic Rhythm**
+**9.3 Light, Color, and Photonic Rhythm**  
     The play of light and shadow is the "optical carrier" that complements the acoustic wave. Key principles:
 
 - Circadian dynamo – grazing sunlight at dawn defines the temporal axis of the enclosure (e.g., Egyptian temples of Karnak).
@@ -596,7 +596,7 @@ The Paleolithic cave naturally met these requirements: narrow passages generated
 
 - Chromatic filters – Gothic stained-glass windows convert light into visible sound: each color modulates the perceived photic energy and prolongs coherence ( saturation).
 
-**9.4 Comparative Typologies**
+**9.4 Comparative Typologies**  
 
 | **Space** | **Geometry** | **Length L** (m) | **Acoustic Q** | $`\mathbf{\alpha}_{\mathbf{arch}}`$ **estimate** |
 |----|----|----|----|----|
@@ -607,13 +607,13 @@ The Paleolithic cave naturally met these requirements: narrow passages generated
 
 Thus, even secular spaces can achieve high alpha values if they meet appropriate geometric and acoustic criteria.
 
-**10 · Secular Rites of High Coherence**
+**10 · Secular Rites of High Coherence**  
 “Not every cathedral has a dome: sometimes it vibrates under LED lights and on grass.”
 
-**10.1 Objective**
+**10.1 Objective**  
 To demonstrate that the elevation of the exponent  —the core of Multiscale Temporal Relativity (RTM)—is not the exclusive domain of religious liturgies. Stadiums, festivals, and protests generate comparable windows of coherence.
 
-**10.2 Common Methodology**
+**10.2 Common Methodology**  
 
 | **Step** | **Instrument** | **Métrica** |
 |----|----|----|
@@ -622,7 +622,7 @@ To demonstrate that the elevation of the exponent  —the core of Multiscale Tem
 | 3 | LIDAR/IMU on drones | Movement density, gestural synchrony |
 | 4 | RTM Model | Dynamic calculation of $`\alpha_{place}(t)`$ |
 
-**10.3 Mini Case Studies**
+**10.3 Mini Case Studies**  
 
 | **Context** | **Peak** $`\mathbf{\alpha}_{\mathbf{place}}`$ | $`\mathbf{T}_{\mathbf{window}}`$ **duration** | **Critical Patterns** | **Observations** |
 |----|----|----|----|----|
