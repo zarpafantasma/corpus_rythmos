@@ -9,29 +9,8 @@
 
 </div>
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 99%" />
-</colgroup>
-<thead>
-<tr>
-<th><table style="width:89%;">
-<colgroup>
-<col style="width: 88%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Author’s Note and Speculative Warning:</strong> This paper is presented in its original form to preserve the foundational theoretical derivations and the initial simulation results that birthed the Aetherion program. While subsequent "Red Team" audits have refined our understanding of vacuum energy extraction—transitioning from static models to dynamic "topological pumping"—the author has chosen to leave this primary text as originally conceived to document the framework's developmental history.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!WARNING]
+> **Author's Note and Speculative Warning:** This paper is presented in its original form to preserve the foundational theoretical derivations and the initial simulation results that birthed the Aetherion program. While subsequent "Red Team" audits have refined our understanding of vacuum energy extraction—transitioning from static models to dynamic "topological pumping"—the author has chosen to leave this primary text as originally conceived to document the framework's developmental history.
 
 **Abstract**
 
