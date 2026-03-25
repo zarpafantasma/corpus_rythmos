@@ -283,30 +283,27 @@ In a finite-difference setting, these translate into “ghost-point” relations
 
     5.  **Implementation Sketch in Python**
 
-> import numpy as np
->
-> import scipy.sparse as sp
->
-> import scipy.sparse.linalg as spla
->
-> \# Parameters: N, L, m_phi, M, gamma
->
-> \# Build D2 = second-derivative matrix, enforce BCs
->
-> \# Define A_phi = D2 - m_phi^2 \* I, A_alpha = M^2 \* D2, C = gamma \* D2
->
-> \# Assemble block matrix:
->
-> \# \[ A_phi -C \]
->
-> \# \[ C M^2 A_phi \]
->
-> \# Build RHS vector for Dirichlet or Neumann BC
->
-> \# Solve: x = spsolve(block_matrix, rhs)
->
-> \# Extract phi = x\[:N+1\], alpha = x\[N+1:\]
+```
+import numpy as np
+import scipy.sparse as sp
+import scipy.sparse.linalg as spla
 
+# Parameters: N, L, m_phi, M, gamma
+
+# Build D2 = second-derivative matrix, enforce BCs
+
+# Define A_phi = D2 - m_phi^2 * I, A_alpha = M^2 * D2, C = gamma * D2
+
+# Assemble block matrix:
+# [ A_phi       -C     ]
+# [   C      M^2 A_phi ]
+
+# Build RHS vector for Dirichlet or Neumann BC
+
+# Solve: x = spsolve(block_matrix, rhs)
+
+# Extract phi = x[:N+1], alpha = x[N+1:]
+```
 6.  **Expected Outcomes and Validation**
 
 In this subsection we present and interpret the outcomes of the 1-D slab simulation described above, demonstrating the proof-of-concept extraction of Aetherion energy via RTM-induced gradients.
