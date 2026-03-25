@@ -765,7 +765,6 @@ $`f_{L} = \varepsilon_{ZPE}\ L^{\alpha}\alpha\ \nabla\ \ln\ L = \varepsilon_{ZPE
 
 Hence the **effective force density** is
 
-| 
 ``` math
 f_{eff} = C_{1}{\mid \nabla\alpha \mid}^{2}{n\hat{}}_{\alpha} + C_{2}\alpha\frac{\nabla L}{L}
 ```
@@ -776,6 +775,10 @@ $`C_{2} = \varepsilon_{ZPE}L^{\alpha}`$
 **Pulse-actuated thrust.**
 
 Consider a laminate stack that contracts $`L \rightarrow L - \delta L`$ over $`\Delta t \ll 1/\omega_{0}`$ (its mechanical eigenperiod).
+
+``` math
+$$\Delta p_L = \int f_L dt \approx C_2 \alpha \frac{\delta L}{L} \Delta t$$
+```
 
 | \(11\) |
 |--------|
