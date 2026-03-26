@@ -509,9 +509,7 @@ Let $`\widehat{\alpha}(u,h)`$ be the local least-squares slope on $`\lbrack u - 
 **Lemma 4.5 (Local linearization error).**
 
 ``` math
-$$
-\sup_{|s| \leq h/2} | g(u+s) - (g(u) + \hat{\alpha}(u,h)s) | \geq c | g''(u) | h^2
-$$
+$$\sup_{|s| \leq h/2} | g(u+s) - (g(u) + \hat{\alpha}(u,h)s) | \geq c | g''(u) | h^2$$
 ```
 
 for some universal constant $`c > 0`$. Consequently,
