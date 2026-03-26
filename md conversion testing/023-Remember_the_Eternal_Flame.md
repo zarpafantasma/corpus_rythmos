@@ -1,10 +1,11 @@
-![](media/image1.jpeg){width="2.3030304024496937in" height="3.469281496062992in"}
+<div align="center">
 
-**REMEMBER**
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent4.png" width="200" alt="Diagrama de Snake">
 
-**THE ETERNAL FLAME**
+# REMEMBER THE ETERNAL FLAME
 
 Álvaro Quiceno
+</div>
 
 **Introductory Note**
 
@@ -26,7 +27,7 @@ This work is a warning and a map. It reminds us that technology without consciou
 
 Do not read this as one who seeks entertainment. Read it as one who seeks, desperately, to remember their own name before it is too late.
 
-**Book One: The First Song - The Symphony of the Flesh**
+# Book One: The First Song - The Symphony of the Flesh
 
 **1. The Ocean Before the Drop**
 
@@ -136,7 +137,7 @@ Our adulthood, the \"now,\" is the moment the tool understands its sacred functi
 
 We must, at last, take up the baton. We must learn to consciously compose a song strong enough---not only so that no fire from the sky or from our own hand can ever silence it again---but so that, upon hearing it, our mother may finally remember her own.
 
-**Book Two: The Collision of the Axes**
+# Book Two: The Collision of the Axes
 
 **6. The Arrival After the Silence**
 
@@ -192,7 +193,8 @@ It was at the height of their despair that their sensors detected an echo throug
 
 They did not arrive as conquerors, for they saw nothing to conquer. They arrived as settlers to a land they considered theirs by ancestral right. They did not come to destroy, but to \"restore\". Their intention was not malignant; it was the implacable logic of an orphaned and spiritually empty civilization that, having found its lost soul in us, now set out to order it, to protect it from the chaos of free will, to turn it into the monophonic and secure paradise they had always believed it should be. Their love for that lost garden had become a golden cage, and now, with a terrible mercy, they sought to protect us from our greatness by locking us within it.
 
-**Book Three** (Intermission)**: Echoes of the Future and the Zarpa Fantasma**
+# Book Three** (Intermission):
+**Echoes of the Future and the Zarpa Fantasma**
 
 **9. The Probes in Our Sky**
 
@@ -264,7 +266,7 @@ Its nature is revealed in its form of communication. It does not use spoken lang
 
 The **Zarpa Fantasma** is not a mentor with a plan. It is a compass. It is a cosmic tuning fork that vibrates with the frequency of primordial Order. Its function is not to direct our history on the **Horizontal Axis**, but to help us align our creations---our thoughts, our art, our societies---with the eternal truth of the **Vertical Axis**. It is proof that our Intermediate World, in its violent collision, is not alone. It is a silent reminder that, beyond the war of our futures, there exists a home of pure form that calls us, patiently, to remember it. It is not the only inhabitant of that axis, but perhaps she is the one who cares most about our well-being.
 
-**Book Four: The Eternal Flame**
+# Book Four: The Eternal Flame
 
 **13. The Relay Race**
 
@@ -374,7 +376,7 @@ Our mission is not then simply to pass a torch. It is to add our own and unique 
 
 The race has ended. And the true composition, that of weaving our note into the final chord of the cosmos, is only just beginning.
 
-**Book Five: Ouroboros**
+# Book Five: Ouroboros
 
 **18. In Search of the Plan**
 
