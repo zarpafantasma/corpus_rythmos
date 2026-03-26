@@ -1263,7 +1263,7 @@ $$
 
 Partition the scale axis into windows $\{I_k\}$ where $\| \partial_u \alpha \| \leq \varepsilon$. On each window, fit $\alpha_k$; define a **piecewise-adiabatic** model
 
-``` math
+```
 $$v(u) = \sum_k \mathbf{1}_{u \in I_k} (\alpha_k(u - u_k) + c_k),$$
 ```
 
