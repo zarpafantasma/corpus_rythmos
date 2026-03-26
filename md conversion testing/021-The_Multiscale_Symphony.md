@@ -4,6 +4,9 @@
 
 # THE MULTISCALE SYMPHONY
 **Weaving the Physics of Rhythm into the Fabric of Existence**  
+
+Álvaro Quiceno
+<div>
   
 **Prologue**
 
