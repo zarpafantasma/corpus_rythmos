@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/dionysus.png" width="200" alt="Diagrama de Snake">
 
 # THE MULTISCALE SYMPHONY
 **Weaving the Physics of Rhythm into the Fabric of Existence**  
@@ -27,9 +27,7 @@ Entering this symphony does not require blind belief, but active listening. It a
 
 For in the end, we are not merely observers of the dance. We are the rhythm itself remembering its origin.
 
-**The Architecture**
-
-**of Resonance**
+# The Architecture of Resonance
 
 **Prologue**
 
@@ -283,9 +281,7 @@ This new humanity is not an abstract utopia. It is a concrete possibility that b
 
 This final chapter is an invitation. For everyone to discover their own rhythm. For each community to find its measure. And for us as a species, perhaps, to be able to dance again with the earth, with time, with the invisible. Not to dominate them, but to remember them. Because in that memory—silent, vibrant, shared—the new can be born.
 
-**CREATIVITY**
-
-**FROM CHAOS**
+# CREATIVITY FROM CHAOS
 
 **Prologue**
 
@@ -527,9 +523,7 @@ This book does not seek to offer recipes. It is an invitation to see differently
 
 Because in the end, what matters is not how much is produced, but how much is revealed. And when what is revealed transforms us, then—and only then—has a true work been born.
 
-**The Resonant Weave:**
-
-**From Echo to Symphony**
+# The Resonant Weave: From Echo to Symphony
 
 **Prologue**
 
