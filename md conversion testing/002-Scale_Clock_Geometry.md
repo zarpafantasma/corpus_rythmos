@@ -428,7 +428,7 @@ We now allow the exponent to vary with environment $`x`$(and later slowly with $
 $`T( \cdot ;x)`$ is **regularly varying at** $`\infty`$ with index $`\alpha(x)`$ if for each fixed $`x`$and $`b > 0`$,
 
 ``` math
-\underset{L \rightarrow \infty}{\lim}\frac{T(bL;x)}{T(L;x)} = b^{\alpha(x)}.
+$$\lim_{L \to \infty} \frac{T(bL; x)}{T(L; x)} = b^{\alpha(x)}.$$
 ```
 
 Equivalently,
@@ -441,7 +441,7 @@ where $`\mathcal{l}( \cdot ;x)`$ is slowly varying **uniformly on compact sets o
 
 ``` math
 $$
-\sup_{x \in K} \left| \frac{\ell(bL; x)}{\ell(L; x)} - 1 \right| \underset{L \to \infty}{\longrightarrow} 0.
+$$\sup_{x \in K} \left| \frac{\ell(bL; x)}{\ell(L; x)} - 1 \right| \underset{L \to \infty}{\longrightarrow} 0.$$
 $$
 ```
 
@@ -509,7 +509,9 @@ Let $`\widehat{\alpha}(u,h)`$ be the local least-squares slope on $`\lbrack u - 
 **Lemma 4.5 (Local linearization error).**
 
 ``` math
-$$\sup_{|s| \leq h/2} | g(u+s) - (g(u) + \hat{\alpha}(u,h)s) | \geq c | g''(u) | h^2$$
+$$
+\sup_{|s| \leq h/2} | g(u+s) - (g(u) + \hat{\alpha}(u,h)s) | \geq c | g''(u) | h^2
+$$
 ```
 
 for some universal constant $`c > 0`$. Consequently,
