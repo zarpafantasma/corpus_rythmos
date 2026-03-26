@@ -63,9 +63,9 @@ This paper makes five contributions:
 
 -   **Compiler/runtime:** $L =$ circuit width or depth after mapping; $T =$ makespan; queueing delay and rescheduling latency.
 
--   **I/O--cryo:** $L =$multiplexing degree or channels; $T =$ readout latency/BER recovery; p95 queue length.
+-   **I/O--cryo:** $L=$ multiplexing degree or channels; $T =$ readout latency/BER recovery; p95 queue length.
 
-Each layer yields a slope ${\widehat{\alpha}}_{f}$; after QA and collapse, we fuse them into ${ECI}_{QC}$(t) with uncertainty bands. Clean **decoherence events** are significant drops in ${ECI}_{QC}$ over pre-registered horizons.
+Each layer yields a slope $\hat{\alpha}_f$; after QA and collapse, we fuse them into $\text{ECI}_{\text{QC}}(t)$ with uncertainty bands. Clean **decoherence events** are significant drops in $\text{ECI}_{\text{QC}}$ over pre-registered horizons.
 
 **1.6 Hypotheses (falsifiable)**
 
@@ -126,11 +126,11 @@ $$
 In RTM, a "clock change" inside a fixed bin is a **multiplicative** rescaling of all characteristic times: $T^{'} = cT$, $c > 0$ independent of $L$. This includes time-unit conversions (ns↔µs), uniform timebase/tick-rate rescalings, or uniform calibration factors. In log coordinates, $\log T^{'} = \log T + \log c$, so $\alpha$ is unchanged and only the intercept shifts.\
 By contrast, **constant latencies** (e.g., fixed readout preamble, pipeline delay, timestamp baseline offsets) are **additive**: $T_{\text{obs}} = T + b$. On log--log plots this is not a pure intercept shift and can bias $\alpha$, especially when $T$ is not $\gg b$. Therefore, before estimating $\alpha$, either:\
 (i) estimate/subtract the latency $b$ and fit using $T_{eff} = \max(T_{\text{obs}} - b,\varepsilon)$, or\
-(ii) restrict analysis to regimes where $T_{\text{obs}} \gg b$and report sensitivity of $\alpha$ to plausible $b$.
+(ii) restrict analysis to regimes where $T_{\text{obs}} \gg b$ and report sensitivity of $\alpha$ to plausible $b$.
 
 **2.4 Collapse as a binwise specification test**
 
-Given observations $\{(L_{i},T_{i})\}_{i}$ in a bin, define $x_{i} = \log L_{i}$, $y_{i} = \log T_{i}$. Fit a binwise slope $\widehat{\alpha}$ (Section 5) and examine **residuals**
+Given observations $\{(L_i, T_i)\}_i$ *in a bin, define* $x_i = \log L_i$, $y_i = \log T_i$. Fit a binwise slope $\hat{\alpha}$ (Section 5) and examine **residuals**
 
 $${\widetilde{y}}_{i}: = y_{i} - \widehat{\alpha}x_{i}.
 $$
@@ -179,7 +179,7 @@ RTM is designed to **predict its own failure**:
 We will use these **canonical** $(L,T)$ pairs in later sections (others may be added if they pass collapse):
 
 -   **Physical**:\
-    $L =$number of **active qubits** (or cluster/coupler degree);\
+    $L =$ number of **active qubits** (or cluster/coupler degree);\
     $T =$**stable calibration interval**, **gate** latency, **readout** latency, or **mean time to drift**.
 
 -   **QEC**:\
@@ -194,7 +194,7 @@ We will use these **canonical** $(L,T)$ pairs in later sections (others may be a
     $L =$**multiplexing degree** or readout-channel count;\
     $T =$**effective readout latency** / **BER-recovery half-life** / **p95 queue length (in time)**.
 
-Each family produces a binwise ${\widehat{\alpha}}_{f}$. Only families that **pass collapse** and QA contribute to the fused indicator $\mathbf{ECI}_{QC}$**(t)** (Section 6).
+Each family produces a binwise $\hat{\alpha}_f$. Only families that **pass collapse** and QA contribute to the fused indicator $ECI_{\text{QC}}(t)$ (Section 6).
 
 **2.8 Why** $\mathbf{\alpha}$**matters operationally**
 
@@ -223,7 +223,7 @@ defined on a bin $E$ with **environment** coordinates $x$ (temperature, firmware
 
 -   **Clock potential.** $v(x,u) = \log T(x,L)$.
 
--   **RTM 1-form.** $\omega = dv - \alpha(x)\text{ }du$ (constant-$\alpha$ case) or $\omega = dv - \alpha(x,u)\text{ }du$ (slow drift allowed).
+-   **RTM 1-form.** $\omega = dv - \alpha(x)\text{ }du$ (constant- $\alpha$ case) or $\omega = dv - \alpha(x,u)\text{ }du$ (slow drift allowed).
 
 **A clock change** (unit/baseline shift independent of $L$ inside a bin) is:
 
