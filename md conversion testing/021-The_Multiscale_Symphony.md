@@ -6,7 +6,7 @@
 **Weaving the Physics of Rhythm into the Fabric of Existence**  
 
 Álvaro Quiceno
-<div>
+</div>
   
 **Prologue**
 
