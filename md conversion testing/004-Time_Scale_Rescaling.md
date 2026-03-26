@@ -113,7 +113,7 @@ $M_{h} = 10^{11}M_{\odot} \Rightarrow f_{b}M_{h}{= 1.57 \times 10}^{10}M_{\odot}
 
 Target $M_{*}^{\text{std}} = 10^{10}M_{\odot} \Rightarrow {SFE}_{req} \approx 0.637$
 
-If $\varepsilon_{dyn} = 0.01\ (1\%\ $per $t_{dyn}):$
+If $\varepsilon_{dyn} = 0.01$ (1% per $t_{dyn}$):
 
 $$A_{req} \gtrsim \frac{1}{0.01 \times 6.8}\ln\left( \frac{1}{1 - 0.637} \right) \approx 14.7 \times 1.01 \approx 15$$
 
@@ -145,7 +145,7 @@ This allows $\alpha$ to act as a **mesoscopic time rescaling factor** (cooling, 
 
 **5) Predictions and tests (how to falsify the hypothesis)**
 
-1.  Time--scale relation within the same $z$: at $z \approx 10 - 15$, processes with effective spatial scale $L$ (e.g., star-forming regions) should show:
+1.  Time--scale relation within the same $z$: at $z\approx 10-15$, processes with effective spatial scale $L$ (e.g., star-forming regions) should show:
 
 ${T(L) \propto L}^{\alpha}$, with $\alpha \approx 0.7 - 1.0$ if the case requires $A \gtrsim 10$
 
@@ -179,10 +179,10 @@ With M_halo∼10\^12 M\_☉, ε∼2%, and N_dyn∼5, **A∼10−20 suffices** 
 
 This is compatible with α∼1 without touching BBN/CMB, if α is off in homogeneous plasma and on only in complex media (RTM bands).
 
-**Apendix A**\
+**Appendix A**\
 **Table 1: RTM Acceleration Factor A(z) for α=1**
 
-| Redshift $z$ | Cosmic Age ($\Lambda$CDM) | $A_{\text{EdS}}$ | $A_{\Lambda\text{CDM}}$ |
+| Redshift $z$ | Cosmic Age ($\Lambda\text{CDM}$) | $A_{\text{EdS}}$ | $A_{\Lambda\text{CDM}}$ |
 | :--- | :--- | :--- | :--- |
 | 5 | 1.17 Gyr | 14.7 | 8.3 |
 | 7 | 0.76 Gyr | 22.6 | 12.7 |
@@ -195,13 +195,13 @@ This is compatible with α∼1 without touching BBN/CMB, if α is off in homogen
 
 **Appendix B: JWST Empirical Validation of Time-Scale Rescaling**
 
-The recent deployment of the James Webb Space Telescope (JWST) has revealed a population of unexpectedly massive galaxies at high redshifts ($z\  > \ 10$). Under the standard $\Lambda$CDM cosmological model, assuming a linear progression of cosmic time, these structures appear too massive to have formed within the available temporal window, creating a profound tension in modern astrophysics. The Rhythmic Multiscale Transport (RTM) framework provides a natural resolution: at high redshifts, the universe existed in a more \"coherent\" topological state ($\alpha > \ 1$), accelerating the dynamics of structure formation.
+The recent deployment of the James Webb Space Telescope (JWST) has revealed a population of unexpectedly massive galaxies at high redshifts ($z\  > \ 10$). Under the standard $\Lambda\text{CDM}$ cosmological model, assuming a linear progression of cosmic time, these structures appear too massive to have formed within the available temporal window, creating a profound tension in modern astrophysics. The Rhythmic Multiscale Transport (RTM) framework provides a natural resolution: at high redshifts, the universe existed in a more \"coherent\" topological state ($\alpha > \ 1$), accelerating the dynamics of structure formation.
 
 **B.1 Heuristic Analysis (Point-Estimate Observation)**
 
 We compiled a catalog of 55 high-redshift galaxies from recent JWST surveys (JADES, CEERS, UNCOVER, GLASS). By defining an \"Acceleration Factor\" required to reconcile the observed stellar masses with the theoretical specific star formation rate limits, we extracted the implied coherence exponent ($\alpha$) for each galaxy.
 
-The initial point-estimate analysis demonstrates that 44% of the cataloged galaxies (24 out of 55) strictly exceed standard $\Lambda$CDM limits. Averaging these direct observations yields an apparent exponent of $\alpha = \ 1.33\  \pm 0.30$ ($p\  < \ 0.0001$). While visually compelling, relying solely on point-estimates in high-redshift astrophysics can be susceptible to observational artifacts, necessitating a more rigorous statistical treatment.
+The initial point-estimate analysis demonstrates that 44% of the cataloged galaxies (24 out of 55) strictly exceed standard $\Lambda\text{CDM}$ limits. Averaging these direct observations yields an apparent exponent of $\alpha = \ 1.33\  \pm 0.30$ ($p\  < \ 0.0001$). While visually compelling, relying solely on point-estimates in high-redshift astrophysics can be susceptible to observational artifacts, necessitating a more rigorous statistical treatment.
 
 **B.2 Rigorous Probabilistic Validation (Monte Carlo & Bias Correction)**
 
@@ -215,7 +215,7 @@ We deployed a Monte Carlo simulation generating 10,000 parallel universes, mathe
 
 **B.3 Conclusion of the JWST Anomaly**
 
-Even after severe penalization for extreme mass variance and selection bias, the standard $\Lambda$CDM assumption of purely linear time ($\alpha = \ 1.0$) is categorically rejected ($p < 10^{- 6}$).
+Even after severe penalization for extreme mass variance and selection bias, the standard $\Lambda\text{CDM}$ assumption of purely linear time ($\alpha = \ 1.0$) is categorically rejected ($p < 10^{- 6}$).
 
 The Monte Carlo distribution converges tightly on a robust, bias-corrected topological exponent of $\mathbf{\alpha}\mathbf{= \ 1.16\ }\mathbf{\pm}\mathbf{0.08}$. This conclusively validates the RTM prediction: the early universe belonged to the **Highly Coherent Transport Class** ($\alpha > \ 1$). Because space-time was more topologically interconnected at these densities, baryonic matter experienced a non-linear temporal expansion, granting galaxies ample dynamical time to assemble massive structures without violating standard physical limits.
 
