@@ -1562,7 +1562,7 @@ eci_rt:
 
 -   ODR/TLS, Theil--Sen, SIMEX: slope estimators under EIV.
 
--   **Adiabatic window**: width $h$in $u$ where $\mid \partial_{u}\alpha \mid h \ll 1$.
+-   **Adiabatic window**: width $h$ in $u$ where $\mid \partial_{u}\alpha \mid h \ll 1$.
 
 **Appendix F --- Reproducible Figure Recipes (minimal)**
 
@@ -1570,9 +1570,9 @@ eci_rt:
 
     -   Fit ODR; compute residuals $\widetilde{y}$.
 
-    -   Plot $y$vs $x$+ ODR band; residual vs $x$ with LOESS.
+    -   Plot $y$ vs $x$+ ODR band; residual vs $x$ with LOESS.
 
-    -   Annotate $R_{\text{collapse}}^{2}$, \#$L$, span, leverage.
+    -   Annotate $R_{\text{collapse}}^{2}$, #$\L$, span, leverage.
 
 -   **Forest plot**:
 
