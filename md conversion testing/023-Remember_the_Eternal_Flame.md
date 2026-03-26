@@ -193,7 +193,7 @@ It was at the height of their despair that their sensors detected an echo throug
 
 They did not arrive as conquerors, for they saw nothing to conquer. They arrived as settlers to a land they considered theirs by ancestral right. They did not come to destroy, but to \"restore\". Their intention was not malignant; it was the implacable logic of an orphaned and spiritually empty civilization that, having found its lost soul in us, now set out to order it, to protect it from the chaos of free will, to turn it into the monophonic and secure paradise they had always believed it should be. Their love for that lost garden had become a golden cage, and now, with a terrible mercy, they sought to protect us from our greatness by locking us within it.
 
-# Book Three** (Intermission):
+# Book Three (Intermission):
 **Echoes of the Future and the Zarpa Fantasma**
 
 **9. The Probes in Our Sky**
