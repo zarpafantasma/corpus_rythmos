@@ -1218,10 +1218,7 @@ On $`\mathbb{R}^{m}`$, take $`\alpha(x) \equiv \alpha_{0}`$ and $`L(x) = c \mid 
 **Counterexample 9.4 (Regime seam / kink)**
 
 ``` math
-T(L) = \{\begin{matrix}
-\kappa_{1}L^{\alpha_{1}}, & L \leq L^{\star}, \\
-\kappa_{2}L^{\alpha_{2}},\ \  & L > L^{\star},\alpha_{1} \neq \alpha_{2}.
-\end{matrix}
+$$T(L) = \begin{cases} \kappa_1 L^{\alpha_1}, & L \leq L^\star, \\ \kappa_2 L^{\alpha_2}, & L > L^\star, \alpha_1 \neq \alpha_2. \end{cases}$$
 ```
 
 - **Geometry:** $`\omega`$ is exact on each side, but loops crossing $`L^{\star}`$ have nonzero holonomy $`\oint\omega = (\alpha_{2} - \alpha_{1})\text{ }d(\log L)`$.
