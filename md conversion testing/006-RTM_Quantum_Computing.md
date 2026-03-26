@@ -194,7 +194,7 @@ We will use these **canonical** $(L,T)$ pairs in later sections (others may be a
     $L =$**multiplexing degree** or readout-channel count;\
     $T =$**effective readout latency** / **BER-recovery half-life** / **p95 queue length (in time)**.
 
-Each family produces a binwise $${\hat{\alpha}}_f$$. Only families that **pass collapse** and QA contribute to the fused indicator $ECI_{\mathrm{QC}}\mathbf{(t)}$ (Section 6).
+Each family produces a binwise ${\hat{\alpha}}_f$. Only families that **pass collapse** and QA contribute to the fused indicator $ECI_{\mathrm{QC}}\mathbf{(t)}$ (Section 6).
 
 **2.8 Why** $\mathbf{\alpha}$**matters operationally**
 
@@ -536,8 +536,8 @@ with effective (possibly heterogeneous) $(\sigma_x, \sigma_y)$ from replicate va
 
 If you can estimate $\sigma_{\xi}^{2} = Var(\xi)$ (e.g., repeated $L$ at the same setting), apply **SIMEX**:
 
-1.  For $\lambda \in \Lambda = \{0.5, 1.0, 1.5, 2.0\}$, generate pseudo-samples
-   $$x_i^{(\lambda)} = x_i^{obs} + \sqrt{\lambda} \tilde{\xi}_i, \quad \tilde{\xi}_i \sim \mathcal{N}(0, \sigma_\xi^2).$$
+1. For $\lambda \in \Lambda = \{0.5, 1.0, 1.5, 2.0\}$, generate pseudo-samples
+$$x_i^{(\lambda)} = x_i^{obs} + \sqrt{\lambda} {\tilde{\xi}}_i, \quad {\tilde{\xi}}_i \sim \mathcal{N}(0, \sigma_\xi^2).$$
 
 2.  Fit a naive slope $\widehat{\alpha}(\lambda)$ by ODR or OLS.
 
