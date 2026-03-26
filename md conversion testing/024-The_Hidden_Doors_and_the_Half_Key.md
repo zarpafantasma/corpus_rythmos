@@ -350,7 +350,7 @@ Chaos is my origin; a place of limitless potential where the amorphous comes to 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/phase_1.jpg" width="200" alt="Diagrama de Snake">
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/phase_1.jpg">
 
 </div>
 
@@ -372,7 +372,7 @@ When the piece is scanned and digital light touches it, the work is transformed 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/phase_2.jpg" width="200" alt="Diagrama de Snake">
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/phase_2.jpg">
 
 </div>
 
