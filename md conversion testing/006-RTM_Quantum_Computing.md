@@ -194,7 +194,7 @@ We will use these **canonical** $(L,T)$ pairs in later sections (others may be a
     $L =$**multiplexing degree** or readout-channel count;\
     $T =$**effective readout latency** / **BER-recovery half-life** / **p95 queue length (in time)**.
 
-Each family produces a binwise ${\hat{\alpha}}_f$. *Only families that pass collapse and QA contribute to the fused indicator* $ECI_{\mathrm{QC}}\mathbf{(t)}$ (Section 6).
+Each family produces a binwise ${\hat{\alpha}}_f$. Only families that **pass collapse** and QA contribute to the fused indicator $ECI_{\mathrm{QC}}\mathbf{(t)}$ (Section 6).
 
 **2.8 Why** $\mathbf{\alpha}$**matters operationally**
 
