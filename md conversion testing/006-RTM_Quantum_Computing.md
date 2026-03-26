@@ -65,7 +65,7 @@ This paper makes five contributions:
 
 -   **I/O--cryo:** $L=$ multiplexing degree or channels; $T =$ readout latency/BER recovery; p95 queue length.
 
-Each layer yields a slope $\hat{\alpha}_f$; after QA and collapse, we fuse them into $\text{ECI}_{\text{QC}}(t)$ with uncertainty bands. Clean **decoherence events** are significant drops in $\text{ECI}_{\text{QC}}$ over pre-registered horizons.
+Each layer yields a slope $\hat{\alpha}_f$; *after QA and collapse, we fuse them into* $\text{ECI}_{\text{QC}}(t)$ with uncertainty bands. Clean **decoherence events** are significant drops in $\text{ECI}_{\text{QC}}$ over pre-registered horizons.
 
 **1.6 Hypotheses (falsifiable)**
 
