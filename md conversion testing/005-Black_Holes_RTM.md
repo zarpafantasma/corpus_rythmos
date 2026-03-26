@@ -323,7 +323,7 @@ If $`\alpha_{\text{eff}}`$​ **increases** inward—because confinement/organiz
 
 **4.1 Multi-scale timing at fixed radius (slope-at-**$`\mathbf{r}`$**)**
 
-**Goal.** Estimate $`\alpha_{\text{eff}}(r)`$ by measuring $`T_{\text{obs}}`$ for **families of processes** with different effective sizes $`L`$ but **similar radius** $`r\`$(e.g., within a narrow annulus or controlled emission height).
+**Goal.** Estimate $`\alpha_{\text{eff}}(r)`$ by measuring $`T_{\text{obs}}`$ for **families of processes** with different effective sizes $`L`$ but **similar radius** $`r\`$ (e.g., within a narrow annulus or controlled emission height).
 
 How to approximate $`L`$ (examples):
 
@@ -645,7 +645,7 @@ T_{\text{obs}}(r,L)\mathcal{= Z}(r,\theta,\Omega)\left( \frac{L}{L_{0}} \right)^
 
 where:
 
-- $`\alpha_{\text{eff}}(r)\`$encodes environmental coherence (possibly varying with radius rrr or with a **confinement index** $`g`$ in analog platforms);
+- $`\alpha_{\text{eff}}(r)\`$ encodes environmental coherence (possibly varying with radius rrr or with a **confinement index** $`g`$ in analog platforms);
 
 - $`\mathcal{Z}`$ captures gravitational/kinematic time-dilation at the observer (for Schwarzschild-like illustrations we use $`\mathcal{Z}{(r) = (1 - 1/r)}^{- 1/2}`$, in units with $`r_{s} = 1)`$;
 
