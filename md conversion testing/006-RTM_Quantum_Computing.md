@@ -303,7 +303,7 @@ Interpretation: transporting the structure from $B$ to $A$ preserves **slope** a
 
 3.  **Changepoints.** Run detectors on $(x,y)$ and on $\widetilde{y}$; any kink ⇒ rebin.
 
-4.  **Window control.** Ensure $\mid \partial_{u}\alpha \mid \text{ }h$is small (adiabatic regime).
+4.  **Window control.** Ensure $\mid \partial_{u}\alpha \mid \text{ }h$ is small (adiabatic regime).
 
 5.  **Publish/withhold.** Only bins passing 1--4 contribute to ${ECI}_{QC}$(t); otherwise label NO_COLLAPSE or REGIME_MIX.
 
@@ -342,7 +342,7 @@ This section turns RTM into **measurable practice** for quantum stacks. We defin
 
 **Candidates for** $L$**:**
 
--   $L =$number of **active qubits** in the workload window;
+-   $L =$ number of **active qubits** in the workload window;
 
 -   $L =$**cluster size** (connected qubits participating simultaneously);
 
@@ -434,7 +434,7 @@ $$
 
 **Procedure.**
 
-1.  **Slice** data by BIN; discard slices with \<$N_{\min}$ distinct $L$ values (default 6).
+1.  **Slice** data by BIN; discard slices with < $N_{\mathrm{min}}$ distinct $L$ values (default 6).
 
 2.  **Changepoint scan** on $y = \log T$ vs. $x = \log L$ (and on residuals if available). If a changepoint is detected (BIC/AIC/PELT), **split**.
 
@@ -536,8 +536,8 @@ with effective (possibly heterogeneous) $(\sigma_x, \sigma_y)$ from replicate va
 
 If you can estimate $\sigma_{\xi}^{2} = Var(\xi)$ (e.g., repeated $L$ at the same setting), apply **SIMEX**:
 
-1.  For $\lambda \in \Lambda = \{ 0.5,1.0,1.5,2.0\}$, generate pseudo-samples\
-    $x_{i}^{(\lambda)} = x_{i}^{obs} + \sqrt{\lambda}\text{ }{\widetilde{\xi}}_{i}$, ${\widetilde{\xi}}_{i} \sim \mathcal{N}(0,\sigma_{\xi}^{2})$.
+1.  For $\lambda \in \Lambda = \{0.5, 1.0, 1.5, 2.0\}$, generate pseudo-samples
+   $$x_i^{(\lambda)} = x_i^{obs} + \sqrt{\lambda} \tilde{\xi}_i, \quad \tilde{\xi}_i \sim \mathcal{N}(0, \sigma_\xi^2).$$
 
 2.  Fit a naive slope $\widehat{\alpha}(\lambda)$ by ODR or OLS.
 
@@ -584,7 +584,7 @@ choose $h$ so that $\varepsilon h \ll 1$. Practically: start with $h \approx 0.8
 
 **5.7 Collapse threshold (specification gate)**
 
-Given $\widehat{\alpha}$, compute residuals ${\widetilde{y}}_{i} = y_{i}^{obs} - \widehat{\alpha}x_{i}^{obs} - \widehat{c}$ and regress $\widetilde{y}$ on $x$ (with the same weights used in estimation). Define
+Given $\hat{\alpha}$, compute residuals $\tilde{y}_i = y_i^{obs} - \hat{\alpha}x_i^{obs} - \hat{c}$ and regress $\tilde{y}$ on $x$ (with the same weights used in estimation). Define
 
 $$R_{\text{collapse}}^{2}: = R^{2}(\widetilde{y} \sim x).
 $$
