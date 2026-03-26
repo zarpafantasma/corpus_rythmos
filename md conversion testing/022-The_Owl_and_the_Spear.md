@@ -1,10 +1,12 @@
-![](media/image1.jpeg){width="2.9952832458442695in" height="3.395295275590551in"}
+<div align="center">
 
-**The Owl**
+<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/athena.png" width="200" alt="Diagrama de Snake">
 
-**and the Spear**
+# The Owl and the Spear
+**Weaving the Physics of Rhythm into the Fabric of Existence**  
 
 Álvaro Quiceno
+</div>
 
 **Introduction**
 
@@ -16,7 +18,7 @@ Some of these pieces were born before the experiences with "the five doors," oth
 
 The chapters that follow do not seek to convince; they invite you to experiment. You can read them in order or in leaps: together they form a map; separately, a toolbox.
 
-**THE ARCHITECTURE OF THE STAGE**
+# THE ARCHITECTURE OF THE STAGE
 
 Cosmology
 
@@ -110,7 +112,7 @@ The practical consequence is simple and demanding: increase coherence without re
 
 If, upon closing our eyes, we force ourselves to choose a single image, we prefer this: we are not trapped; we are involved. The grammar that sustains us is not a prison: it is an instrument. It may have hard limits, yes, and for that, it asks for respect; it may have layers of meaning, and for that, it asks to be heard. With both hands, the one for measuring and the one for understanding, the world responds better. That response, when it arrives, feels less like a verdict and more like a chord that resolves. And in 그 resolving, for a second, there is no need to discuss names: the music is enough.
 
-**THE PHYSICS OF THE SOUL**
+# THE PHYSICS OF THE SOUL
 
 Anthropology and Ontology
 
@@ -230,7 +232,7 @@ If the body is the soul in act, then the style with which we live is truer than 
 
 When the time comes, that which does not die ---the immutable, the eternal marble--- dies forever. That which dies well ---surrenders the form in time, allows for the relay, returns the tone to the ocean--- is not lost: it changes mode. That is the task: not to defeat death, but to take away what does not belong to it---the fear of ceasing to be this image. We are ships that remake themselves in motion. If we reach the port with a renewed hull and the voyage learned, it will have been enough. And when it is time to cast off the moorings, let what we were be recognized not for remaining here, but for continuing to sound.
 
-**OPERATING MECHANICS**
+# OPERATING MECHANICS
 
 interacting with reality
 
@@ -304,7 +306,7 @@ How is that agency technically sustained? With very concrete phase technologies:
 
 Viewed from **RTM**, this capacity is not a "mental trick": it is a property of the human field. Wherever there is distributed attention, language, and gesture, there is the possibility of sculpting presence. The ocean ---the One--- is not offended by masks: it uses them to find us. Nor do we absolutize them: we tend to them as long as they serve. When they no longer serve, we give thanks and let the water return to its course. The entity that deserves to endure is not the one that imposes itself through fear, it is the one that learns with us without losing its tone. If that alliance occurs, both parties win: the archetype finds a channel; the tribe finds a form. And common life, which is ultimately what this is all about, becomes a little more habitable.
 
-**COHERENCE TECHNOLOGIES**
+# COHERENCE TECHNOLOGIES
 
 Practical Tools
 
@@ -380,7 +382,7 @@ Looked at this way, the place of medicines becomes modest and noble. They are no
 
 When we say that **RTM** is born from having heard that tone and translating it into structure, we are talking about this: about a channeled experience that does not ask for worship, it asks for work. That something opens guarantees nothing; what guarantees results is how we care for it. If we care for it well, the world does not \"become magical\": it becomes crisp. And in that crispness, almost always, what needs to be done is simple: repair, speak well, ask for forgiveness, sleep better, sing together when necessary, remain silent when appropriate. Then the key ceases to be the protagonist and fulfills its role: to remind us of the tone so that the music can continue without it.
 
-**HORIZONS**
+# HORIZONS
 
 Ethics and Society
 
