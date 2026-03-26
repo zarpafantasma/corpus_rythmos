@@ -1344,7 +1344,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 4.  **SIMEX (optional):** when $\sigma_{\xi}^{2}$ is estimable; extrapolate to $\lambda = - 1$.
 
-5.  **Collapse test:** regress $\widetilde{y} = y - \widehat{\alpha}x - \widehat{c}$on $x$; require $R_{\text{collapse}}^{2} < 0.05$, flat LOESS, clock placebo holds.
+5.  **Collapse test:** regress $\tilde{y} = y - \hat{\alpha}x - \hat{c}$ on $x$; require $R_{\text{collapse}}^2 < 0.05$, flat LOESS, clock placebo holds.
 
 6.  **Diagnostics:** leverage ≤25%; residual plots; window width $h$ logged.
 
@@ -1354,7 +1354,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 -   **Weights:** $w_{f} = 1/({\widehat{\sigma}}_{f}^{2} + {\widehat{\tau}}^{2})$ with ${\widehat{\tau}}^{2}$ via REML (DL as sensitivity).
 
--   **Fused slope:** ${\widehat{\alpha}}_{QC} = \sum w_{f}{\widehat{\alpha}}_{f}/\sum w_{f}$; **variance:** $1/\sum w_{f}$.
+-   **Fused slope:** $\hat{\alpha}_{\text{QC}} = \sum w_f \hat{\alpha}_f / \sum w_f$; **variance:** $1 / \sum w_f$. $1/\sum w_{f}$.
 
 -   **Diagnostics:** fixed-effect baseline, **Cochran's** $Q$ and $I^{2}$.
 
