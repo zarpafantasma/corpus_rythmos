@@ -65,7 +65,7 @@ This paper makes five contributions:
 
 -   **I/O--cryo:** $L=$ multiplexing degree or channels; $T =$ readout latency/BER recovery; p95 queue length.
 
-Each layer yields a slope $\hat{\alpha}_f$; *after QA and collapse, we fuse them into* $\text{ECI}_{\text{QC}}(t)$ with uncertainty bands. Clean **decoherence events** are significant drops in $\text{ECI}_{\text{QC}}$ over pre-registered horizons.
+**Use.** Prefer ODR as the base fitting routine; report SIMEX as a **sensitivity** estimate next to ODR. If $\sigma_\xi^2$ is uncertain, give a band (low/med/high) for $\hat{\alpha}_{\text{SIMEX}}$.
 
 **1.6 Hypotheses (falsifiable)**
 
@@ -194,7 +194,7 @@ We will use these **canonical** $(L,T)$ pairs in later sections (others may be a
     $L =$**multiplexing degree** or readout-channel count;\
     $T =$**effective readout latency** / **BER-recovery half-life** / **p95 queue length (in time)**.
 
-Each family produces a binwise $\hat{\alpha}_f$. Only families that **pass collapse** and QA contribute to the fused indicator $ECI_{\text{QC}}(t)$ (Section 6).
+Each family produces a binwise $\hat{\alpha}_f$. Only families that **pass collapse** and QA contribute to the fused indicator $ECI_{\text{QC}}\mathbf{(t)}$ (Section 6).
 
 **2.8 Why** $\mathbf{\alpha}$**matters operationally**
 
