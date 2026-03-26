@@ -516,7 +516,7 @@ This section turns the RTM cascade into **laboratory protocols** that can produc
 
 **5.5 Data & analysis pipeline (pre-registered)**
 
-- **Pre-processing:** detrend, band-limit if needed; time-stamp events; compute $`T\`$ from consistent thresholds.
+- **Pre-processing:** detrend, band-limit if needed; time-stamp events; compute $T$ from consistent thresholds.
 
 - **Slope fits:** OLS on $`\log\ T - \log L`$ CIs; window tests (drop largest $`L`$, top-$`k`$ sizes).
 
