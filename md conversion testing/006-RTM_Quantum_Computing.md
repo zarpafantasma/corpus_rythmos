@@ -661,13 +661,13 @@ We now construct a **single, real-time** coherence indicator for a platform by f
 
 For each family $f \in \mathcal{F}_{t}$ (Physical, QEC, Compiler/Runtime, I/O--Cryo):
 
--   A binwise estimate ${\widehat{\alpha}}_{f,t}$ with variance ${\widehat{\sigma}}_{f,t}^{2}$ (bootstrap or replicate-weighted),
+-   A binwise estimate $\hat{\alpha}_{f,t}$ with variance $\hat{\sigma}_{f,t}^2$ (bootstrap or replicate-weighted),
 
 -   Collapse passed (Section 5.7), coverage/leverage gates satisfied (Section 5.8),
 
 -   Environment tags (BIN) unchanged within the window that produced ${\widehat{\alpha}}_{f,t}$.
 
-A fusion at time $t$proceeds **only if** $\mid \mathcal{F}_{t} \mid \geq 2$.
+A fusion at time $t$ proceeds **only if** $\mid \mathcal{F}_{t} \mid \geq 2$.
 
 **6.2 Random-effects fusion**
 
@@ -698,8 +698,8 @@ $$
 **Fusion gates (pre-registered):**
 
 -   Proceed with a single number **only if**\
-    (i) $\mid \mathcal{F}_{t} \mid \geq 2$,\
-    (ii) $I_{t}^{2} < 50\%$ *(moderate or lower heterogeneity)*, and\
+    (i) $|\mathcal{F}_t| \geq 2$,
+    (ii) $I_t^2 < 50\%$ (*moderate or lower heterogeneity*), and
     (iii) REML converges with finite ${\widehat{\tau}}_{t}^{2}$ not exceeding a historical cap (e.g., ≤ 90th percentile over past clean windows).
 
 -   If any fails, **withhold fusion** and publish family-wise ${\widehat{\alpha}}_{f,t}$+ diagnostics; flag FAMILY_DIVERGENCE.
@@ -708,9 +708,9 @@ $$
 
 -   **Cadence.** Recompute each family's ${\widehat{\alpha}}_{f,t}$ on a **rolling window** in $x = \log L$ of width $h$ (chosen by the adiabatic rule; Sec. 5.5) and a **wall-clock horizon** (e.g., last 7--28 days of data).
 
--   **Backfill and missingness.** If a family is missing at $t$, fuse over the available $\mathcal{F}_{t}$ provided $\mid \mathcal{F}_{t} \mid \geq 2$; otherwise **suspend** ${ECI}_{QC}(t)$ and publish a THIN_FAMILIES flag.
+-   **Backfill and missingness.** If a family is missing at $t$, fuse over the available $\mathcal{F}_t$ provided $|\mathcal{F}_t| \geq 2$; otherwise **suspend** $\text{ECI}_{\text{QC}}(t)$ and publish a `THIN_FAMILIES` flag.
 
--   **Clock placebo.** Once per day, multiply all contributing $T$ by a constant and verify ${\widehat{\alpha}}_{QC}(t)$ and $I_{t}^{2}$ are unchanged (stored as a QA artifact).
+-   **Clock placebo.** Once per day, multiply all contributing $T$ by a constant and verify $\hat{\alpha}_{\text{QC}}(t)$ and $I_t^2$ are unchanged (stored as a QA artifact).
 
 **6.5 Decoherence events (alerting logic)**
 
