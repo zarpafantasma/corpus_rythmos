@@ -28,7 +28,7 @@ What is narrated here is the outward journey. The ascent and descent into the ab
 
 Whether **RTM** turns out to be the description of the architecture of reality —an inheritance, a testament, a functional master key— or "simply" a creation of remarkable coherence, its very existence is an affirmation. It demonstrates that spark that distinguishes us: we do not just inhabit the world; we can radically reimagine it, weaving order where there is only silence—an ability absent both in instinctive repetition and in the cold logic of the machine. The master key resulting from all the previous alignments, then, is offered not to close the circle, but to show that the doors have always been there, waiting for those who dare to knock with the only question that matters: What is on the other side?
 
-1.  **THE FIVE DOORS**
+#  1.  THE FIVE DOORS
 
 I do not consume drugs. I do not smoke. I do not drink. I do not need anesthetics, for life, in its raw state, is enough for me. In any case, I must admit that in my past I have consumed substances, but nothing strong. I try them once and that is enough to know they are not for me. Like someone who offers you a cigarette and after the first exhalation, you know it is a waste of time.
 
@@ -242,7 +242,7 @@ The last step, the crash landing into biology. Here, abstraction became flesh. A
 
 - **Terraformation:** Seeing how the vowels (the *Logos*) curved the valley, I understood that language is technology. This would later ground the concepts of "Language, Gesture, and Space" in *The Owl and the Spear*.
 
-**2. HOW TO: FROM IMAGINATION TO REALIZATION**
+# 2. HOW TO: FROM IMAGINATION TO REALIZATION
 
 Historically, science has operated under a silent tyranny: that of the observable. We construct models based on what we can measure, touch, or record; we move forward by stacking data upon data, hoping that meaning will emerge from the accumulation. It is a robust method, but one limited to the speed of our eyes and our instruments.
 
@@ -298,7 +298,7 @@ Thus, a result emerged: a first paper titled "**Relatividad Temporal Multiescala
 
 I am not a scientist; I am just an artist. But the certainty that a small universe beats faster is no longer mine alone. It is a model, a hypothesis, a bridge between what I saw and what could be measured.
 
-**3. An Unexpected Door: An Aether Tale**
+# 3. An Unexpected Door: An Aether Tale
 
 **RTM** then did not germinate under the lights of a university laboratory, nor did it flourish in the austere geometry of a chalkboard. Its seed was an experience: a moment of non-ordinary vision where time abandoned its mask of linear duration to reveal itself as **architecture**, as a vast origami folding upon itself. The initial impulse, therefore, was not to erect a theory, but to give path to an intuition; to clothe with mathematical rigor that which, until then, could only be felt. That was the first key: the one that opened the door of **structure**.
 
@@ -336,10 +336,11 @@ In that process of enriching the framework, in that exploration without a map, t
 
 The result was affirmative. Not as empirical certainty, but as a mathematically viable possibility within the logic of **RTM**. The door was open. And behind it, the entire story reconfigured itself. With this, **"Aetherion, The Jumper"** was ready. But the impulse did not stop there. Using the theory as a catapult, we explored the chapters that define the rules and implications of this technology in **"The Aetherion Framework and Implications."** Alongside it, a renewed **RTM Unified Field Framework** emerged, which now proposes the **Aetherion** itself not only as a consequence but as its own crucial experimental proposal.
 
-**4. The Shedding of Skin**
+# 4. The Shedding of Skin
 
-Chaos is my origin; a place of limitless potential where the amorphous comes to life. My artistic practice has always been a dialogue with noise: I generate entropy only to later rescue patterns and endow the nonsensical with meaning. This method—extracting order from chaos—has been my constant. However, the encounter with "The Five Doors" marked a turning point; although the method remained intact, art transmuted profoundly three years before the birth of the **RTM** corpus.
-
+Chaos is my origin; a place of limitless potential where the amorphous comes to life. My artistic practice has always been a dialogue with noise: I generate entropy only to later rescue patterns and endow the nonsensical with meaning. This method—extracting order from chaos—has been my constant. However, the encounter with "The Five Doors" marked a turning point; although the method remained intact, art transmuted profoundly three years before the birth of the **RTM** corpus.  
+  
+  
 **4.1 Analog Illustration Series (Initially realized with automatic drawing, 2001–)**
 
 ***The Foreign Hand***
@@ -358,8 +359,9 @@ Chaos is my origin; a place of limitless potential where the amorphous comes to 
 
 It is then that the eye intervenes, seeking meaning where before there was only disorder. As if they had always been there, figures begin to emerge from the labyrinth of lines. Naked bodies, intertwined in a silent dance, trapped in a dimension that only exists when someone manages to see it. The ink rescues them, defining the contours of their existence.
 
-When the piece is scanned and digital light touches it, the work is transformed once more. The colors do not just fill; they reveal. Each shape and each line reinforces the feeling that these figures have always been there, waiting to be released. And thus, with each work, the certainty is reaffirmed that creativity is not a solitary act, but a dialogue with something larger—with a **Zarpa Fantasma** that guides the creation from the other side of the threshold.
+When the piece is scanned and digital light touches it, the work is transformed once more. The colors do not just fill; they reveal. Each shape and each line reinforces the feeling that these figures have always been there, waiting to be released. And thus, with each work, the certainty is reaffirmed that creativity is not a solitary act, but a dialogue with something larger—with a **Zarpa Fantasma** that guides the creation from the other side of the threshold.  
 
+    
 **4.2 Series of digital symmetric illustrations initially realized through automatic drawing. Year 2021-**
 
 (Illustrations following the experiences with the Five Doors but prior to the realization of the RTM corpus)
@@ -384,7 +386,7 @@ There comes a moment when the image ceases to be just a collection of shapes and
 
 More than representing something, my digital art seeks to manifest what already exists in chaos but has not yet been seen. It is a balance between intuitive exploration and conscious decision-making, where the result is always a surprise, even to me.
 
-**5. The Seeds of RTM**
+# 5. The Seeds of RTM
 
 Upon closing the **RTM corpus** and his memoirs, written back in the mountains of the *Valle del Cauca* at the northern end of the Andes Mountains, on the same mountain where my paternal grandparents created their memories and those of my childhood. I feel the need to look back—not to construct a personal legend or to dress this in destiny, but to locate the real origin, human and imperfect, of the questions that ended up pushing RTM. I am not a physicist. I am not a paranormal researcher. I do not belong to any order or school. I am, above all, an artist with a curiosity that is hard to extinguish and a life in which, from time to time, reality has behaved in ways I cannot fully explain.
 
