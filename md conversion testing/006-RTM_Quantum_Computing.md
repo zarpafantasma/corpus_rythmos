@@ -799,7 +799,7 @@ $$\max_{\text{\:\,controls }\theta}\ \ \ \alpha(\theta)\ \ \ s.t.\ \ \ \ through
 
 3.  **Low-variance routing.** Prefer routes with **low path-time variance** even if path length increases slightly.
 
-**Objective.** For a job DAG with ops $o$having nominal durations $\tau_{o}$ and routes $p(o)$:
+**Objective.** For a job DAG with ops $o$ having nominal durations $\tau_{o}$ and routes $p(o)$:
 
 $$\underset{\text{\:\,schedule},\text{ }p( \cdot )}{\min}\text{\:\,}\underset{\text{desynchronize heavy ops}}{\underbrace{{Var}_{t}\lbrack N_{\text{long}}(t)\rbrack}}\text{\:\,} + \text{\:\,}\lambda\text{\:\,}\underset{\text{low-variance routing}}{\underbrace{\sum_{o \in \mathcal{O}}^{}{Var(T_{\text{route}}(p(o)))}}}.
 $$
@@ -900,7 +900,7 @@ log QA: collapse R\^2, I\^2_t, flags; revert actions if flags trip
 
 -   Run A/B windows (≥2--4 weeks) with **pre-registered** KPIs: throughput, makespan, logical error, uptime, $p95/p50$, and ${\widehat{\alpha}}_{f}$.
 
--   If $\alpha$rises but KPIs worsen beyond budgets, you are **over-layering** (too much buffering). Roll back to the Pareto frontier.
+-   If $\alpha$ rises but KPIs worsen beyond budgets, you are **over-layering** (too much buffering). Roll back to the Pareto frontier.
 
 **7.9 Quick-start playbooks**
 
@@ -929,7 +929,7 @@ This section specifies **testable** RTM-QC experiments with concrete $(L,T)$ cho
 **8.1 Common scaffolding (applies to all protocols)**
 
 **BIN (environment) lock.**\
-$\{$platform; temperature band; firmware hash (FPGA/DSP); topology ID; routing policy; syndrome cadence; utilization band$\}$. Any change ⇒ new bin.
+{platform; temperature band; firmware hash (FPGA/DSP); topology ID; routing policy; syndrome cadence; utilization band}. Any change ⇒ new bin.
 
 **Data schema (tidy).** For each record:
 
@@ -986,7 +986,7 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 **8.3 Protocol B --- QEC cadence (Superconducting or Ions)**
 
-**Hypothesis (H1-QEC).** Introducing **micro-jitter** (1--3%) in syndrome period and/or **multi-phase extraction** increases $\alpha_{\text{QEC}}$ vs. code distance $d$at fixed decoder.
+**Hypothesis (H1-QEC).** Introducing **micro-jitter** (1--3%) in syndrome period and/or **multi-phase extraction** increases $\alpha_{\text{QEC}}$ vs. code distance $d$ at fixed decoder.
 
 **Design.**
 
@@ -1119,7 +1119,7 @@ This section defines **what to publish** once the protocols (Sec. 8) are run. It
 **9.1 Figure set (minimum)**
 
 **Fig. 1 --- Collapse panels (per accepted family).**\
-Four small multiples per family $f$within a bin:
+Four small multiples per family $f$ within a bin:
 
 1.  **Log--log fit:** $y = \log T$ vs. $x = \log L$ with ODR line and 95% band.
 
@@ -1220,7 +1220,7 @@ Publish bins/arms that **failed**:
 
 **9.6 Narrative template (short "Results" text)**
 
-> *Physical layer.* Across 9 cluster sizes (span 1.05 in $\log L$), RTM-aware scheduling increased the slope from $0.48$to $0.64$ (Δ = $0.16$, 95% CI $\lbrack 0.07,0.25\rbrack$); residuals showed $R_{\text{collapse}}^{2} = 0.02$. Throughput remained within the 5% guardrail.\
+> *Physical layer.* Across 9 cluster sizes (span 1.05 in $\log L$), RTM-aware scheduling increased the slope from $0.48$ to $0.64$ (Δ = $0.16$, 95% CI $\lbrack 0.07,0.25\rbrack$); residuals showed $R_{\text{collapse}}^{2} = 0.02$. Throughput remained within the 5% guardrail.\
 > *QEC.* With 1--3% cadence jitter, $\alpha_{\text{QEC}}$ rose from $0.68$ to $0.83$ (Δ = $0.15$, CI $\lbrack 0.06,0.24\rbrack$), logical error at fixed $d$ did not worsen.\
 > *Runtime.* Wavefront batching and variance-aware routing reduced p95/p50 from 1.85 to 1.60; $\alpha_{\text{runtime}}$ increased by $0.12$.\
 > *Fusion.* Three families passed gates; $I^{2} = 37\%$. The fused ${\widehat{\alpha}}_{QC} = 0.69 \pm 0.04$. A **watch**-level decoherence alert fired on day 17; it preceded a makespan spike by 3 days.
@@ -1247,7 +1247,7 @@ A larger binwise slope $\alpha$ means **time stretches more steeply with scale**
 
 **10.2 Complementarity with QEC and compilation**
 
--   **QEC:** Traditional design picks code distance $d$ from error rates. RTM adds a second axis: **cadence geometry**. Slight **desynchronization** (jitter/multi-phase) can raise $\alpha_{\text{QEC}}$ at fixed $d$and decoder, often improving stability without extra overhead.
+-   **QEC:** Traditional design picks code distance $d$ from error rates. RTM adds a second axis: **cadence geometry**. Slight **desynchronization** (jitter/multi-phase) can raise $\alpha_{\text{QEC}}$ at fixed $d$ and decoder, often improving stability without extra overhead.
 
 -   **Compilation/runtime:** State-of-the-art routing minimizes depth/length. RTM asks also to minimize **time-variance** and **coincidence of long ops**, which can improve tails even if mean depth changes marginally.
 
@@ -1278,7 +1278,7 @@ Publishing these cases maps **scope boundaries** (where RTM does *not* apply), w
 
 **10.6 Relation to time-changed diffusions and queueing**
 
-The PDE view (RTM as a **state-dependent clock**) explains why **tails** shrink when $\alpha$ rises: the **effective dynamic exponent** $z$increases, and exit/first-passage times scale more steeply with "radius" (Sec. 6 of the math paper). In queueing terms, scheduling that raises $\alpha$ **decorrelates** service bursts and dampens tail amplification.
+The PDE view (RTM as a **state-dependent clock**) explains why **tails** shrink when $\alpha$ rises: the **effective dynamic exponent** $z$ increases, and exit/first-passage times scale more steeply with "radius" (Sec. 6 of the math paper). In queueing terms, scheduling that raises $\alpha$ **decorrelates** service bursts and dampens tail amplification.
 
 **10.7 External validity and portability**
 
@@ -1314,7 +1314,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 **Proxy choice sensitivity.** $(L,T)$ proxies must reflect a **single dominant mechanism** per family. Mis-specified proxies (e.g., mixing readout and routing in the same $T$) induce curvature and validly fail collapse.
 
-**Finite-window bias.** When $\alpha(u)$ drifts, any finite window of width $h$incurs $O(\varepsilon h)$ bias. Our adiabatic guidance mitigates but does not eliminate it; reported $\widehat{\alpha}$ should be interpreted as **local**.
+**Finite-window bias.** When $\alpha(u)$ drifts, any finite window of width $h$ incurs $O(\varepsilon h)$ bias. Our adiabatic guidance mitigates but does not eliminate it; reported $\widehat{\alpha}$ should be interpreted as **local**.
 
 **EIV model assumptions.** ODR/TLS and SIMEX assume well-behaved errors (mean-zero, finite moments) and independence from $x$. Heavy-tailed or state-dependent errors require robustness checks (Theil--Sen, bootstrap, sensitivity bands).
 
@@ -1346,7 +1346,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 5.  **Collapse test:** regress $\widetilde{y} = y - \widehat{\alpha}x - \widehat{c}$on $x$; require $R_{\text{collapse}}^{2} < 0.05$, flat LOESS, clock placebo holds.
 
-6.  **Diagnostics:** leverage ≤25%; residual plots; window width $h$logged.
+6.  **Diagnostics:** leverage ≤25%; residual plots; window width $h$ logged.
 
 7.  **Accept/Reject:** accept if all gates pass; else flag (NO_COLLAPSE, REGIME_MIX, THIN_COVERAGE, LEVERAGE_RISK, EIV_FAIL).
 
@@ -1388,7 +1388,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 **13. Conclusion & Outlook**
 
-We presented **RTM-aware quantum computing (RTM-QC)**: a **slope-first** framework that measures and **engineers** the geometry of time across scale. Inside stable bins, the characteristic time $T$ scales with a size proxy $L$ as $T \propto L^{\alpha}$; the **coherence exponent** $\alpha$ is invariant to clocks and thus comparable across devices, stacks, and labs. With **collapse** as a falsifiable gate and **errors-in-variables** estimation, $\alpha$becomes a reliable operational signal. Fusing clean, layer-wise slopes yields a real-time $\mathbf{ECI}_{QC}$**(t)** that supports **early warnings** (decoherence events) and **design decisions** (scheduler, QEC cadence, modular sizing, I/O offsets).
+We presented **RTM-aware quantum computing (RTM-QC)**: a **slope-first** framework that measures and **engineers** the geometry of time across scale. Inside stable bins, the characteristic time $T$ scales with a size proxy $L$ as $T \propto L^{\alpha}$; the **coherence exponent** $\alpha$ is invariant to clocks and thus comparable across devices, stacks, and labs. With **collapse** as a falsifiable gate and **errors-in-variables** estimation, $\alpha$ becomes a reliable operational signal. Fusing clean, layer-wise slopes yields a real-time $\mathbf{ECI}_{QC}$**(t)** that supports **early warnings** (decoherence events) and **design decisions** (scheduler, QEC cadence, modular sizing, I/O offsets).
 
 **What this adds.** RTM-QC complements fidelity/QEC by introducing a third axis---**tempo geometry**---that explains and controls tails, queues, and synchronization cascades. Modest, reversible controls (batching, staggered resets, micro-jitter, low-variance routing) can **raise** $\alpha$ without degrading throughput or fidelity when used with guardrails.
 
@@ -1466,7 +1466,7 @@ Regress residuals $\widetilde{y} = y - \widehat{\alpha}x - \widehat{c}$ on $x$; 
 
 **C.1 Physical (staggered resets + readout waves)**
 
--   **L/T:** $L =$active cluster size; $T =$ stable calibration interval.
+-   **L/T:** $L =$ active cluster size; $T =$ stable calibration interval.
 
 -   **Arms:** Control vs RTM-aware (waves + 2--4% reset offsets).
 
