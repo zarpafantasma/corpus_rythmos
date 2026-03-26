@@ -1,4 +1,4 @@
-<div align="center">
+<img width="801" height="89" alt="image" src="https://github.com/user-attachments/assets/a9d41ca2-ba60-4a03-978f-fc93ada72ace" /><div align="center">
 
 <img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent4.png" width="200" alt="Diagrama de Snake">
 
@@ -248,7 +248,7 @@ Our history is the echo of this silent struggle. The great cultural wars, the co
 
 Some seek with renewed urgency to turn us into safe copies of themselves, neutralizing our dangerously ontologically dense singularity to ensure their impunity and survival. The others, with their departure and their silent testament, forced us to face the overwhelming possibility of becoming the imperfect but vibrant sovereigns of our own wild cosmic garden---a garden that contains, due to its privileged position in the cascade, an unparalleled creative potential and, perhaps, the future power to settle cosmic scores. And in that tension, caught between the insistence of a golden cage and the echo of a freedom we still barely understand, humanity dances, unknowingly, to the tune of its final test, the sole bearer of a flame, a complexity, and a promise that makes us unbearably precious---and dangerous---in the vast symphony of echoes.
 
-**Note**: For a detailed explanation of how each nested universe and its content in the cascade accumulates gnosis $\left( \mathbf{v}_{\mathbf{n}}\mathbf{=}\mathbf{v}_{\mathbf{n}\mathbf{-}\mathbf{1}}\mathbf{+}\mathbf{\Delta}\mathbf{v} \right)$ and increases its ontological density, see \"**Chapter 17: The Harvest of Gnosis.**\"
+**Note:** This is the central mathematical formulation of **RTM** (**Relatividad Temporal Multiescala**), commonly expressed as $T \propto L^\alpha$. It establishes that time is not a universal constant, but an emergent property dependent on structure. In this relationship:
 
 **12. Zarpa Fantasma**
 
