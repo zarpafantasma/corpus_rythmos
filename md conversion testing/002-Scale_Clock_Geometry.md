@@ -441,7 +441,7 @@ where $`\mathcal{l}( \cdot ;x)`$ is slowly varying **uniformly on compact sets o
 
 ``` math
 $$
-$$\sup_{x \in K} \left| \frac{\ell(bL; x)}{\ell(L; x)} - 1 \right| \underset{L \to \infty}{\longrightarrow} 0.$$
+\sup_{x \in K} \left| \frac{\ell(bL; x)}{\ell(L; x)} - 1 \right| \underset{L \to \infty}{\longrightarrow} 0.
 $$
 ```
 
