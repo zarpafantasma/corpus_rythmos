@@ -1576,7 +1576,7 @@ eci_rt:
 
 -   **Forest plot**:
 
-    -   For accepted families, display ${\widehat{\alpha}}_{f} \pm$CI; compute $w_{f}$, $Q$, $I^{2}$, ${\widehat{\tau}}^{2}$.
+    -   For accepted families, display $\widehat{\alpha}_f \pm \text{CI}$; *compute* $w_f$, $Q$, $I^2$, $\hat{\tau}^2$.
 
     -   Overlay fused ${\widehat{\alpha}}_{QC}$.
 
