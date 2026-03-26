@@ -11,7 +11,8 @@
 
 This writing titled \"Remember the Eternal Flame\" is a work of fiction. It is born not as an affirmation of truth, but as an imaginative experiment: an attempt to find and weave the patterns that emerge from the theoretical universe proposed in the corpus of **Relatividad Temporal Multiescala** (**RTM**).
 
-This short novel is an exploration of the vast possibilities opened by said corpus. It uses mythology and narrative to give a poetic face to its deepest concepts, but it should not be confused with a statement of facts. It is one of the many songs that could be composed from the grammar of **RTM**. It is, in essence, a map of a possible territory. And like every map, it is an invitation to exploration, not a proclamation of destiny.
+This short novel is an exploration of the vast possibilities opened by said corpus. It uses mythology and narrative to give a poetic face to its deepest concepts, but it should not be confused with a statement of facts. It is one of the many songs that could be composed from the grammar of **RTM**. It is, in essence, a map of a possible territory. And like every map, it is an invitation to exploration, not a proclamation of destiny.  
+  
 
 PREFACE: **The Mirror of the Ouroboros**
 
