@@ -537,11 +537,14 @@ with effective (possibly heterogeneous) $(\sigma_x, \sigma_y)$ from replicate va
 If you can estimate $\sigma_{\xi}^{2} = Var(\xi)$ (e.g., repeated $L$ at the same setting), apply **SIMEX**:
 
 1. For $\lambda \in \Lambda = \{0.5, 1.0, 1.5, 2.0\}$, generate pseudo-samples
+``` math
 $$x_i^{(\lambda)} = x_i^{obs} + \sqrt{\lambda} {\tilde{\xi}}_i, \quad {\tilde{\xi}}_i \sim \mathcal{N}(0, \sigma_\xi^2).$$
+```
 
-2.  Fit a naive slope $\widehat{\alpha}(\lambda)$ by ODR or OLS.
 
-3.  Fit a quadratic $\widehat{\alpha}(\lambda) = a + b\lambda + c\lambda^{2}$ and **extrapolate to** $\lambda = - 1$:\
+3.  Fit a naive slope $\widehat{\alpha}(\lambda)$ by ODR or OLS.
+
+4.  Fit a quadratic $\widehat{\alpha}(\lambda) = a + b\lambda + c\lambda^{2}$ and **extrapolate to** $\lambda = - 1$:\
     ${\widehat{\alpha}}_{\text{SIMEX}} = a - b + c$.
 
 **Use.** Prefer ODR as the base fitting routine; report SIMEX as a **sensitivity** estimate next to ODR. If $\sigma_{\xi}^{2}$ is uncertain, give a band (low/med/high) for ${\widehat{\alpha}}_{\text{SIMEX}}$.
