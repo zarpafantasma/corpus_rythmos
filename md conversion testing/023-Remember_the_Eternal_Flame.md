@@ -1,4 +1,4 @@
-<img width="801" height="89" alt="image" src="https://github.com/user-attachments/assets/a9d41ca2-ba60-4a03-978f-fc93ada72ace" /><div align="center">
+<div align="center">
 
 <img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent4.png" width="200" alt="Diagrama de Snake">
 
