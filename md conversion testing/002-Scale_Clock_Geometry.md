@@ -626,7 +626,7 @@ so fixed points are again precisely power laws. Thus **fixed points are gauge-in
 
 **5.3 Linearization and stability near a power law**
 
-Let $`T^{\star}(L) = \kappa L^{\alpha}\`$ be a fixed point (for gauge $`f(b) = b^{\alpha}`$). Write perturbations in log-space:
+Let $T^\star(L) = \kappa L^\alpha$ be a fixed point (for gauge $f(b) = b^\alpha$). Write perturbations in log-space:
 
 ``` math
 \log T(L) = \log T^{\star}(L) + \varepsilon(L),\varepsilon:\mathbb{R}_{> 0} \rightarrow \mathbb{R.}
