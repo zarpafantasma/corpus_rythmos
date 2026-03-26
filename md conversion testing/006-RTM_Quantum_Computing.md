@@ -1273,8 +1273,8 @@ Publishing these cases maps **scope boundaries** (where RTM does *not* apply), w
 
 **10.5 Why a single fused indicator---and when not to use it**
 
-**Pros:** ${ECI}_{QC}(t)$ summarizes multiscale coherence, enabling **alerts** (Sec. 6.5) and trend tracking.\
-**Cons:** Fusion can hide heterogeneity. Hence the **gates** (at least two families, $I^{2} < 50\%$, REML convergence). If they fail, publish **family-wise** ${\widehat{\alpha}}_{f}$ only; the lack of fusion is itself a result ("the stack is speaking with different slopes").
+**Pros:** $\text{ECI}_{\text{QC}}(t)$ summarizes multiscale coherence, enabling **alerts** (Sec. 6.5) and trend tracking.
+**Cons:** Fusion can hide heterogeneity. Hence the **gates** (at least two families, $I^2$ < 50%, REML convergence). If they fail, publish **family-wise** $\hat{\alpha}_f$ only; the lack of fusion is itself a result ("the stack is speaking with different slopes").
 
 **10.6 Relation to time-changed diffusions and queueing**
 
