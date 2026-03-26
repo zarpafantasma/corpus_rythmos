@@ -470,9 +470,6 @@ with $`\kappa`$ slowly varying in the sense that for bounded $`h`$,
 \sup_{x \in K} \mid \log\kappa(x,u + h) - \log\kappa(x,u) \mid \leq \epsilon \mid h \mid + o(1),
 ```
 
-``` math
-```
-
 and assume **adiabaticity**:
 
 ``` math
@@ -512,7 +509,7 @@ Let $`\widehat{\alpha}(u,h)`$ be the local least-squares slope on $`\lbrack u - 
 **Lemma 4.5 (Local linearization error).**
 
 ``` math
-\sup_{\mid s \mid \leq h/2} \mid g(u + s) - (g(u) + \widehat{\alpha}(u,h)\text{ }s) \mid \text{\:\,} \geq \text{\:\,}c\text{ } \mid g^{''}(u) \mid \text{ }h^{2}\ 
+$$\sup_{|s| \leq h/2} | g(u+s) - (g(u) + \hat{\alpha}(u,h)s) | \geq c | g''(u) | h^2$$
 ```
 
 for some universal constant $`c > 0`$. Consequently,
@@ -629,7 +626,7 @@ so fixed points are again precisely power laws. Thus **fixed points are gauge-in
 
 **5.3 Linearization and stability near a power law**
 
-Let $`T^{\star}(L) = \kappa L^{\alpha}\`$be a fixed point (for gauge $`f(b) = b^{\alpha}`$). Write perturbations in log-space:
+Let $`T^{\star}(L) = \kappa L^{\alpha}\`$ be a fixed point (for gauge $`f(b) = b^{\alpha}`$). Write perturbations in log-space:
 
 ``` math
 \log T(L) = \log T^{\star}(L) + \varepsilon(L),\varepsilon:\mathbb{R}_{> 0} \rightarrow \mathbb{R.}
@@ -727,7 +724,7 @@ If $`g^{''}`$ is persistent (e.g., periodic or polynomial), the shifted residual
 If $`g^{''}`$ does not vanish at infinity (or decays too slowly), then for any gauge, there exists a compact window $`I`$ and $`\delta > 0`$ such that
 
 ``` math
-\inf_{n \geq 0}\ \sup_{u \in I} \mid \varepsilon_{n}(u) \mid \text{\:\,} \geq \text{\:\,}\delta,\ \ 
+$$\inf_{n \geq 0} \sup_{u \in I} |\varepsilon_n(u)| \geq \delta,$$
 ```
 
 i.e., **renormalization does not contract** to a power law on that window. This aligns with **collapse failure** (Sec. 4.4).
@@ -812,7 +809,7 @@ Let $`\alpha \in C^{1}(M)`$ and $`L \in C^{1}(M)`$. Consider the inhomogeneous P
 **Assumption (adiabatic drift).** There exists $`\varepsilon \ll 1`$ and a covering of $`M`$ by patches $`U_{k}`$ of diameter $`h`$ such that
 
 ``` math
-\sup_{x \in U_{k}} \parallel \nabla\alpha(x) \parallel \leq \varepsilon,\sup_{x \in U_{k}} \parallel \nabla logL(x) \parallel \leq \varepsilon.\ 
+$$\sup_{x \in U_k} \| \nabla \alpha(x) \| \leq \varepsilon, \sup_{x \in U_k} \| \nabla \log L(x) \| \leq \varepsilon.$$
 ```
 
 **Theorem 6.3 (Local self-similarity, adiabatic error).**\
@@ -959,14 +956,10 @@ x_{i}^{(\lambda)} = x_{i}^{obs} + \sqrt{\lambda}\text{ }{\widetilde{\xi}}_{i},
 with fresh $`{\widetilde{\xi}}_{i} \sim N(0,\sigma_{\xi}^{2})`$; fit naive slopes $`\widehat{\alpha}(\lambda)`$ (e.g., OLS or ODR) and extrapolate a low-order polynomial to $`\lambda = - 1`$ to obtain $`{\widehat{\alpha}}_{SIMEX}`$.
 
 **Theorem 7.4 (Consistency of SIMEX).**\
-If $`\sigma_{\xi}^{2}`$ is consistently estimated and $`r \equiv 0`,then
-``` math
-\widehat{\alpha}_{SIMEX} \overset{p}{\rightarrow} \alpha.
-```
-With $`\mid r' \mid \leq \varepsilon`$, in a window $`h`$,
+If $\sigma_{\xi}^2$ is consistently estimated and $r \equiv 0$, then $\hat{\alpha}_{SIMEX} \xrightarrow{p} \alpha$. With $|r'| \leq \varepsilon$, in a window $h$,
 
 ``` math
-{\widehat{\alpha}}_{SIMEX}\text{\:\,} = \text{\:\,}\alpha(u_{0}) + O_{p}(\varepsilon h) + o_{p}(1).
+$$\hat{\alpha}_{SIMEX} = \alpha(u_0) + O_p(\varepsilon h) + o_p(1).$$
 ```
 
 *Sketch.* Standard SIMEX theory: the measurement error bias is a smooth function of $`\lambda`$; extrapolating to $`- 1`$ removes it.
