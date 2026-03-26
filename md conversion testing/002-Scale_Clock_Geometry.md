@@ -1261,7 +1261,7 @@ $$
 
 **Construction 9.8 (Adiabatic patching)**
 
-Partition the scale axis into windows $`\{ I_{k}\}`$ where $`\parallel \partial_{u}\alpha \parallel \leq \varepsilon`$. On each window, fit $`\alpha_{k}`$; define a **piecewise-adiabatic** model
+Partition the scale axis into windows $\{I_k\}$ where $\| \partial_u \alpha \| \leq \varepsilon$. On each window, fit $\alpha_k$; define a **piecewise-adiabatic** model
 
 ``` math
 v(u) = \sum_{k}^{}{\mathbf{1}_{u \in I_{k}}(\alpha_{k}(u - u_{k}) + c_{k})},
