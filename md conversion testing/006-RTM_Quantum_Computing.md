@@ -1354,7 +1354,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 -   **Weights:** $w_{f} = 1/({\widehat{\sigma}}_{f}^{2} + {\widehat{\tau}}^{2})$ with ${\widehat{\tau}}^{2}$ via REML (DL as sensitivity).
 
--   **Fused slope:** $\hat{\alpha}_{\text{QC}} = \sum w_f \hat{\alpha}_f / \sum w_f$; **variance:** $1 / \sum w_f$. $1/\sum w_{f}$.
+-   **Fused slope:** ${\hat{\alpha}}_{\mathrm{QC}}=\sum w_f {\hat{\alpha}}_f / \sum w_f$; **variance:** $1 / \sum w_f$.
 
 -   **Diagnostics:** fixed-effect baseline, **Cochran's** $Q$ and $I^{2}$.
 
