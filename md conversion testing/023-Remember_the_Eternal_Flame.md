@@ -51,11 +51,10 @@ The primitive universe was not, therefore, a chaos of random particles. It was a
 
 The Big Bang was not, then, an explosion in time. It was the explosion of time itself, the resonant echo of the first dissonance that transformed the eternal silence of the Ocean into the perpetual music of the cosmos.
 
-**Note**: This is the central mathematical formulation of **RTM** (**Relatividad Temporal Multiescala**), commonly expressed as $T \propto L^{\alpha}$. It establishes that time is not a universal constant, but an emergent property dependent on structure. In this relationship:
+**Note:** This is the central mathematical formulation of **RTM** (**Relatividad Temporal Multiescala**), commonly expressed as $T \propto L^\alpha$. It establishes that time is not a universal constant, but an emergent property dependent on structure. In this relationship:
 
--   **T (Time/Period)**: Represents the internal rhythm of operation of a system, its oscillation frequency, or its subjective temporal \"speed.\"
-
--   **L (Length/Scale)**: Represents the physical spatial dimension or the size of the structure containing said rhythm.
+* **T (Time/Period):** Represents the internal rhythm of operation of a system, its oscillation frequency, or its subjective temporal "speed."
+* **L (Length/Scale):** Represents the physical spatial dimension or the size of the structure containing said rhythm.
 
 The formula indicates that the temporal flow ($T$) is proportional to the physical scale ($L$), but this relationship is exponentially modulated by a factor of coherence or information density (the exponent $\alpha$).
 
