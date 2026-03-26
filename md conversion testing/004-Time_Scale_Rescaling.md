@@ -151,7 +151,7 @@ ${T(L) \propto L}^{\alpha}$, with $\alpha \approx 0.7 - 1.0$ if the case requ
 
 Observationally: durations of bursts, outflow escape times, etc., as a function of size.
 
-2.  **Apparent efficiencies:** for the same $M_{h}$​, the integrated efficiency SFE should be higher at high$\ z$ due to the effective $A$ factor (equation for $A_{req}$). If $A$ is small, high SFE is not reached without fine-tuning.
+2.  **Apparent efficiencies:** for the same $M_{h}$​, the integrated efficiency SFE should be higher at high $z$ due to the effective $A$ factor (equation for $A_{req}$). If $A$ is small, high SFE is not reached without fine-tuning.
 
 3.  **No touching BBN/CMB/PPN:** no $\alpha$ effect should appear in background linear observables; all the novelty should occur at mesoscopic scales post-collapse. (This is testable in the EFT companion with the "safe wedge".)
 
