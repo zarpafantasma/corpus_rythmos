@@ -28,7 +28,7 @@ We formulate **falsifiable** hypotheses: **(H1)** higher pre-shock $\alpha$ pred
 
 Quantum performance is usually summarized by **point metrics**---single- and two-qubit fidelities, $T_{1}/T_{2}$, logical error rates, or benchmark figures (QED-C, QV). Yet practical reliability and throughput hinge on something orthogonal: **how timing stretches across scale** in a multistage stack---qubits and resonators, code cycles, compilers, cryogenic I/O. When small subsystems respond quickly and larger ones respond more slowly in a disciplined, layered fashion, shocks are **dissipated**; when timings **flatten**, disturbances percolate across layers and synchronize failures (stalling readout, spiking logical error, or forcing global recalibrations).
 
-**Multiscale Temporal Relativity (RTM)** provides a compact language for this phenomenon. Inside a fixed regime, RTM expects a power-law relation between a **characteristic time** $T$ and a **scale proxy** $L$: the **slope** $\alpha$ in $\log T = \alpha\ \log L + c$is structural (invariant to time units), while the intercept $c$is a **clock** (gauge). We bring this principle to quantum computing and show that measuring, validating, and **engineering** $\alpha$ yields actionable levers---independent of nominal units---to improve stability and throughput.
+**Multiscale Temporal Relativity (RTM)** provides a compact language for this phenomenon. Inside a fixed regime, RTM expects a power-law relation between a **characteristic time** $T$ and a **scale proxy** $L$: the **slope** $\alpha$ in $\log T = \alpha \log L + c$ is structural (invariant to time units), while the intercept $c$ is a **clock** (gauge). We bring this principle to quantum computing and show that measuring, validating, and **engineering** $\alpha$ yields actionable levers—independent of nominal units—to improve stability and throughput.
 
 **1.2 RTM in one line**
 
@@ -41,7 +41,7 @@ This paper makes five contributions:
 
 1.  **Operationalization of RTM for QC.** We define layer-specific $(L,T)$ pairs for **physical**, **QEC**, **compiler/runtime**, and **I/O--cryo** layers (e.g., $L =$ active qubits, $T =$ stable calibration time; $L = d$, $T =$ cycles to logical failure; $L =$ multiplexing degree, $T =$ readout latency; $L =$ circuit width, $T =$ makespan).
 
-2.  **Validation & estimation.** We provide a **collapse test** (residual independence of $\log T - \alpha\ \log L$from ${log\ }L$) to detect regime mixing and non-power curvature, and adopt **errors-in-variables** estimation (ODR/TLS, Theil--Sen, SIMEX) with bootstrap uncertainty and changepoint guards.
+2.  **Validation & estimation.** We provide a **collapse test** (residual independence of $\log T - \alpha \log L$ from $\log L$) to detect regime mixing and non-power curvature, and adopt **errors-in-variables** estimation (ODR/TLS, Theil-Sen, SIMEX) with bootstrap uncertainty and changepoint guards.
 
 3.  **A single real-time indicator.** We fuse family-wise slopes into $\mathbf{ECI}_{QC}$**(t)** via random-effects meta-analysis with heterogeneity controls ($Q$, $I^{2}$, ${\widehat{\tau}}^{2}$); we publish QA flags and withhold fusion when proxies disagree.
 
