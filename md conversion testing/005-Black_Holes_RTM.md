@@ -645,7 +645,7 @@ T_{\text{obs}}(r,L)\mathcal{= Z}(r,\theta,\Omega)\left( \frac{L}{L_{0}} \right)^
 
 where:
 
-- $`\alpha_{\text{eff}}(r)\`$ encodes environmental coherence (possibly varying with radius $`r`$ or with a **confinement index** $`g`$ in analog platforms);
+- $\alpha_{\mathrm{eff}}(r)$ encodes environmental coherence (possibly varying with radius $r$ or with a **confinement index** $g$ in analog platforms);
 
 - $`\mathcal{Z}`$ captures gravitational/kinematic time-dilation at the observer (for Schwarzschild-like illustrations we use $`\mathcal{Z}{(r) = (1 - 1/r)}^{- 1/2}`$, in units with $`r_{s} = 1)`$;
 
