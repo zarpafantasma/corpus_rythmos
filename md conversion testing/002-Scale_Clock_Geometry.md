@@ -994,7 +994,7 @@ Let $`{\widetilde{y}}_{i} = y_{i}^{obs} - \widehat{\alpha}\text{ }x_{i}^{obs}`
 ```
 
 **Theorem 7.6 (Specification test under EIV).**\
-Assume $`r \equiv 0`$ (true power law), $`\widehat{\alpha}\`$is consistent, and $`\xi,\zeta`$ are mean-zero with finite variances. Then 
+Assume $`r \equiv 0`$ (true power law), $`\widehat{\alpha}\`$ is consistent, and $`\xi,\zeta`$ are mean-zero with finite variances. Then 
 ``` math
 $\Delta_{\text{collapse}} \overset{p}{\rightarrow} 0.$
 ```
