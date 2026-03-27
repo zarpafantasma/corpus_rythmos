@@ -195,10 +195,6 @@ We will use these **canonical** $(L,T)$ pairs in later sections (others may be a
     $T =$**effective readout latency** / **BER-recovery half-life** / **p95 queue length (in time)**.
 
 Each family produces a binwise
-
-<table>
-<tr>
-<td>
 ```math
 \hat{\alpha}_f
 ```
