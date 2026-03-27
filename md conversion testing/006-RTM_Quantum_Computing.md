@@ -701,9 +701,9 @@ $$
 **Fusion gates (pre-registered):**
 
 -   Proceed with a single number **only if**\
-    (i) $|\mathcal{F}_t| \geq 2$,
-    (ii) $I_t^2 < 50\%$ (*moderate or lower heterogeneity*), and
-    (iii) REML converges with finite ${\widehat{\tau}}_{t}^{2}$ not exceeding a historical cap (e.g., ≤ 90th percentile over past clean windows).
+(i) $|\mathcal{F}\_t| \geq 2$,  
+(ii) $I\_t^2 < 50\%$ (*moderate or lower heterogeneity*), and  
+(iii) REML converges with finite $\hat{\tau}\_t^2$ not exceeding a historical cap (e.g., $\leq$ 90th percentile over past clean windows).  
 
 -   If any fails, **withhold fusion** and publish family-wise ${\widehat{\alpha}}_{f,t}$+ diagnostics; flag FAMILY_DIVERGENCE.
 
