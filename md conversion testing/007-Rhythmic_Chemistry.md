@@ -1141,7 +1141,7 @@ RTM claims are attractive but easy to misattribute. We address the main contende
 
 Even with positive results, Rhythmic Chemistry is **not universal**. Based on the framework:
 
-- **Should apply when**: a **dominant length** $`L\`$can be defined; the environment possesses a **tunable persistence structure** (fields, synchrony, confinement); and kinetics are not fully transport-limited.
+- **Should apply when**: a **dominant length** $L$ can be defined; the environment possesses a **tunable persistence structure** (fields, synchrony, confinement); and kinetics are not fully transport-limited.
 
 - **May fail when**: reactions are barrierless and ballistic (path multiplicity is irrelevant), or when **multiple incommensurate lengths** dominate simultaneously (no single $`L`$ gives a stable slope).
 
@@ -1183,7 +1183,7 @@ The paper’s discipline—**slope-first inference**, **collapse checks**, **err
 
 4.  **Beyond off-resonant regime.** Carefully approach the **weak-to-strong-coupling boundary** to tease apart RTM coherence from polaritonic chemistry and map transitions between them.
 
-5.  **Open datasets and reference rigs.** Publish raw signals and analysis scripts; create an **inter-lab ring** with shared phantoms and cavity stacks to benchmark $`\alpha\`$estimation and slope recovery.
+5.  **Open datasets and reference rigs.** Publish raw signals and analysis scripts; create an **inter-lab ring** with shared phantoms and cavity stacks to benchmark $alpha$ estimation and slope recovery.
 
 **9.10 Bottom line**
 
