@@ -1281,7 +1281,7 @@ with $`\alpha`$ the environment’s **coherence exponent** estimated from indepe
 
 **11.1 Reagents, solvents, and safety**
 
-- **Chemicals.** p-Nitrophenyl acetate (PNPA, ≥99%), Tris buffer, cyclopentadiene (freshly distilled), N-substituted maleimide, HPLC-grade acetonitrile, deionized water (18.2 MΩ·cm), inert gases (Ar, $`N_{2},\ O_{2},\`$)
+- **Chemicals.** p-Nitrophenyl acetate (PNPA, ≥99%), Tris buffer, cyclopentadiene (freshly distilled), N-substituted maleimide, HPLC-grade acetonitrile, deionized water (18.2 MΩ·cm), inert gases $(\text{Ar}, \text{N}\_2, \text{O}\_2,)$
 
 - **Additives (sonochemistry).** Surfactants (SDS, CTAB), dissolved-gas controllers (gas sparging lines with mass-flow controllers).
 
@@ -1472,7 +1472,7 @@ This form makes regression and hypothesis tests straightforward (slope different
 
 - **Strong-coupling/polaritonic limit** (not our regime): $`\Xi`$ no longer small/slow; hybridization terms dominate—RTM ansatz should not be applied.
 
-- **Over-constrained coherence** (very large α): path multiplicity collapses; expect **both** $`k \downarrow \`$and yields $`\downarrow`$. This is a design **antipattern** (to be avoided).
+- **Over-constrained coherence** (very large $\alpha$): path multiplicity collapses; expect **both** $k \downarrow$ and yields $\downarrow$. This is a design **antipattern** (to be avoided).
 
 **A.6 Worked numerics (design-scale)**
 
@@ -1574,13 +1574,13 @@ A scan from $`\alpha \in \lbrack 1.8,2.8\rbrack`$ should reveal $`S < 1`$ below 
 
 - **Frequency** sweeps (20 kHz–2 MHz).
 
-**Control reaction for fitting.** Use a **radical-insensitive** probe reaction (e.g., a non-sonochemically activated hydrolysis) to avoid confounding kinetics with radical dose; map χ, $`{CV(L}_{b}) \rightarrow \ \alpha\`$ solely from environmental statistics.
+**Control reaction for fitting.** Use a radical-insensitive probe reaction (e.g., a non-sonochemically activated hydrolysis) to avoid confounding kinetics with radical dose; map $\chi, CV(L\_b) \to \alpha$ solely from environmental statistics.
 
 **Uncertainty.** Bootstrap on bubbles and on acoustic segment windows.
 
 **B.4 Biochemical pocket map** $`\mathcal{M}_{\mathbf{bio}}`$
 
-**Proxies.** Order parameter $`C_{bio}\  \in \lbrack 0,1\mathbf{\rbrack}\`$ (e.g., aggregated NMR S2S^2S2 or HDX-MS protection factors in the pocket shell) and pocket scale $`L_{act}`$.
+**Proxies.** Order parameter $C\_{bio} \in [0,1]$ (e.g., aggregated NMR $S^2$ or HDX-MS protection factors in the pocket shell) and pocket scale $L\_{act}$.
 
 **Model.** Log-additive:
 
@@ -1640,7 +1640,7 @@ A measured $`\gamma = 1.2 \pm 0.05`$ gives $`\widehat{\alpha} = 1.95 + 0.456 + 0
 
   - PSD slope (Welch vs. multitaper) $`\Delta`$slope \<0.05.
 
-  - Q (ring-down vs. linewidth) $`\Delta Q`$/$`Q\`$\<10%
+  - Q (ring-down vs. linewidth) $\Delta Q / Q < 10\%$
 
   - Bubble sizing (imaging vs. acoustic inversion) modal $`L_{b}\Delta\  < 8\%`$
 
