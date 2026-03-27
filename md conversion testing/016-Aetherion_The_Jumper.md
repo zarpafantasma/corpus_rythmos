@@ -824,13 +824,13 @@ In continuous‐operation mode, an Aetherion device can counteract external forc
 
 **3.1 Balance of Forces**
 
-For an object of mass mmm subject to weight $`W = mg`$, the Aetherion lift force per unit area $`F/A\`$(derived in Section 2) must satisfy
+For an object of mass $m$ subject to weight $W = mg$, the Aetherion lift force per unit area $F/A$ (derived in Section 2) must satisfy
 
 ``` math
 \frac{F}{A} = \rho F \mid \nabla\alpha \mid {\Delta E}_{ZPE} \Longrightarrow F = mg
 ```
 
-where $`\rho F\`$collects material and coupling constants $`\left( {\propto \Delta E}_{ZPE} \right)`$. A properly chosen $`\mid \nabla\alpha \mid`$ therefore produces exactly the upward force needed to hover.
+where $\rho F$ collects material and coupling constants ($\propto \Delta E\_{\text{ZPE}}$). A properly chosen $|\nabla \alpha|$ therefore produces exactly the upward force needed to hover.
 
 **3.2 Continuous Hover Protocol**
 
@@ -1542,7 +1542,7 @@ Thus the **jump condition** is
 | **Regime** | **Criterion** | **Dynamics** | **Experimental Signature** |
 |----|----|----|----|
 | **Thermal‐like tunnelling** | $`E_{drive}`$ ≪$`{3\Delta V}_{\beta}`$ | Rare, stochastic hops governed by instanton action $`S_{inst}`$*∝*$`{\ \Delta V}_{\beta}`$ | Exponential waiting-time distribution; weak φ-burst |
-| **Critical pulsed drive** | $`E_{drive}\`$*≈*$`{3\Delta V}_{\beta}`$ | Single deterministic jump when inequality (22) is first met | Sharp spike in $`\partial_{t}\beta`$; moderate φ-burst |
+| **Critical pulsed drive** | $E\_{\text{drive}} \approx 3 \Delta V\_{\beta}$ | Single deterministic jump when inequality (22) is first met | Sharp spike in $`\partial_{t}\beta`$; moderate φ-burst |
 | **Over-drive regime** | $`E_{drive\ }`$*≫*$`{3\Delta V}_{\beta}`$ | Multiple successive branch crossings (β-“ladder climb”) | Series of $`\varphi`$ bursts; measurable energy loss per step |
 
 For Aetherion prototypes we aim for the **critical pulsed drive**: one well-controlled $`\nabla\alpha`$ pulse just large enough to cross a single barrier, minimising wasted energy and unwanted heating.
