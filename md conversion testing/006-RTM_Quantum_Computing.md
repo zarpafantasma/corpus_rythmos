@@ -773,7 +773,7 @@ This ensures **reproducibility** and enables post-mortems when alerts fire.
 
 **6.9 Summary**
 
-${ECI}_{QC}(t)$ is a **random-effects fusion** of QA-clean, binwise slopes. Heterogeneity gates ($I_{t}^{2} < 50\%$, $\mid \mathcal{F}_{t} \mid \geq 2$) prevent misleading single numbers when proxies disagree. Real-time smoothing and Z-scores turn slope dynamics into **actionable alerts** for **decoherence events**, while dashboards and provenance keep the system auditable.
+$ECI\_{\text{QC}}(t)$ is a **random-effects fusion** of QA-clean, binwise slopes. Heterogeneity gates ($I\_t^2 < 50\%$, $|\mathcal{F}\_t| \geq 2$) prevent misleading single numbers when proxies disagree. Real-time smoothing and Z-scores turn slope dynamics into **actionable alerts** for **decoherence events**, while dashboards and provenance keep the system auditable.
 
 **7. RTM-Aware Design: Engineering** $\mathbf{\alpha}$**without Sacrificing Throughput**
 
