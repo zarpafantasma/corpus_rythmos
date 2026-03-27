@@ -664,7 +664,7 @@ We now construct a **single, real-time** coherence indicator for a platform by f
 
 For each family $f \in \mathcal{F}_{t}$ (Physical, QEC, Compiler/Runtime, I/O--Cryo):
 
--   A binwise estimate $\hat{\alpha}_{f,t}$ with variance $\hat{\sigma}_{f,t}^2$ (bootstrap or replicate-weighted),
+-   A binwise estimate $\hat{\alpha}\_{f,t}$ with variance $\hat{\sigma}\_{f,t}^2$ (bootstrap or replicate-weighted),
 
 -   Collapse passed (Section 5.7), coverage/leverage gates satisfied (Section 5.8),
 
