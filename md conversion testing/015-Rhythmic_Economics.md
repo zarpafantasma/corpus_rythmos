@@ -122,7 +122,7 @@ RTM requires pairs $`(L,T)`$drawn from a **fixed environment**:
 
 **2.5 Estimating** $`\mathbf{\alpha}`$**: slope-first with measurement error**
 
-Real economic $`L`$ and $`T`$ are noisy. A vanilla OLS regression of $`\log T\`$on $`\log L`$ is biased when $`L`$ has error. Use **errors-in-variables (EIV)** or robust alternatives:
+Real economic $`L`$ and $`T`$ are noisy. A vanilla OLS regression of $`\log T\`$ on $`\log L`$ is biased when $`L`$ has error. Use **errors-in-variables (EIV)** or robust alternatives:
 
 - **Total least squares / orthogonal distance regression** for symmetric noise.
 
