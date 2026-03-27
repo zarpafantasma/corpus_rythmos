@@ -737,9 +737,9 @@ We define a **decoherence event** as a significant, QA-clean **drop** in ${ECI}_
 
 **6.6 Reporting and visualization**
 
--   **Primary panel:** ${\widehat{\alpha}}_{QC}(t)$ with 50/95% bands, heterogeneity ribbon colored by $I_{t}^{2}$ (green \<25%, amber 25--50%, red ≥50%).
+-   **Primary panel:** $\hat{\alpha}\_{\text{QC}}(t)$ with 50/95% bands, heterogeneity ribbon colored by $I\_t^2$ (green <25%, amber 25-50%, red $\geq$ 50%).
 
--   **Forest plot:** per-family ${\widehat{\alpha}}_{f,t}$, weights $w_{f,t}$, and CIs; show $Q_{t}$, $I_{t}^{2}$, ${\widehat{\tau}}_{t}^{2}$.
+-   **Forest plot:** per-family $\hat{\alpha}\_{f,t}$, weights $w\_{f,t}$, and CIs; show $Q\_t$, $I\_t^2$, $\hat{\tau}\_t^2$.
 
 -   **Collapse dashboard:** per family, show $R_{\text{collapse}}^{2}$, LOESS residuals, window width $h$, coverage and leverage metrics.
 
