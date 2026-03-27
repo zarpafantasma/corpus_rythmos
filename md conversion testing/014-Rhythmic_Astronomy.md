@@ -491,7 +491,7 @@ There are regimes where **all** models predict similar behavior; we use them as 
 
 | **Test** | **Evidence for RTM** | **Evidence against RTM** | **What DM/MOND would say** |
 |----|----|----|----|
-| **D1:** outer-slope | $`m \approx 0\`$ in low-$`\alpha`$ bins **and** collapse | *m≈−1/2* or no collapse | DM can fit *m≈0* but doesn’t predict collapse |
+| **D1:** outer-slope | $`m \approx 0\`$ in low $`\alpha`$ bins **and** collapse | *m≈−1/2* or no collapse | DM can fit *m≈0* but doesn’t predict collapse |
 | **D2:** inner diversity | $`\Delta m`$ correlates with $`\widehat{\alpha}`$ (structure) | $`\Delta m`$ uncorrelated with structure | DM: halo params; MOND: acceleration scale |
 | **D3:** bTFR residuals | $`\Delta\ log\ v\  \leftrightarrow \delta_{\alpha}`$ vanishes at slope-zero radius | No relation to $`\delta_{\alpha}`$ | DM: residuals $`\leftrightarrow`$ halo concentration/spin |
 | **D4:** collapse | $`{v\ L}^{\widehat{\alpha} - 1}`$ flat per bin | Residual slope ( | m_B |
@@ -845,7 +845,7 @@ Apply Sec. 5: compute structural features per annulus (multiscale entropy, mode 
 
 - **Beam smearing:** flag if correction $`> 20\%`$; exclude if $`> 35\%`$.
 
-- **Inclination/PA:** Monte Carlo over $`i,\ PA\`$posteriors; bins failing stability (slope drift \>0.15) are **TENTATIVE/FAIL**.
+- **Inclination/PA:** Monte Carlo over $`i,\ PA\`$ posteriors; bins failing stability (slope drift \>0.15) are **TENTATIVE/FAIL**.
 
 - **Proxy robustness:** recompute $`\widehat{\alpha}`$ with (i) leave-one-proxy-out, (ii) rank-based map; require classification stability.
 
@@ -1251,7 +1251,7 @@ Failure of any **two** of the four cross-galaxy criteria under good QA constitut
 
 - **Keplerian-like regimes:** wide binaries, outer planets, globular outskirts—RTM must revert to classical slopes; any deviation indicates pipeline error.
 
-- **Featureless S0/Sa disks:** proxies should yield $`\widehat{\alpha} \rightarrow 1\`$globally; outer bins should PASS collapse with $`m \approx 0`$.
+- **Featureless S0/Sa disks:** proxies should yield $`\widehat{\alpha} \rightarrow 1\`$ globally; outer bins should PASS collapse with $`m \approx 0`$.
 
 - **Simulated nulls:** mock datasets with $`\alpha \equiv 1`$ everywhere must return slopes $`m \approx 0`$ and **no** spurious correlation with texture metrics.
 
