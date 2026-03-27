@@ -197,6 +197,7 @@ We will use these **canonical** $(L,T)$ pairs in later sections (others may be a
 Each family produces a binwise
 ```md
 $\displaystyle \hat{\alpha}_f$
+```
 Only families that pass collapse and QA contribute to the fused indicator $ECI_{QC}(t)$ (Section 6).
 
 **2.8 Why** $\mathbf{\alpha}$**matters operationally**
