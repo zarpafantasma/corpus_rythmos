@@ -196,7 +196,7 @@ Dwarfs/LSBs have diffuse, weakly ordered baryons over most radii.
 | Disk rotation (outer) | Diffuse HI, low mode power | *∂ log v / ∂ log L→0* | Flat within bin | Flatness without DM if *α≈2* |
 | bTFR residuals | Texture metrics, multi-scale entropy | Residuals correlate with coherence proxies | — | Residuals tied to **baryonic structure**, not halo concentration |
 | Elliptical *σ(r)* | Central anisotropy, embedded disks | *∂ log σ / ∂ log L=1−α/2* in bins | $`{\sigma\ L}^{\alpha - 1}`$flat | Dispersion slopes predicted from structure maps alone |
-| Vertical flaring | $`\alpha_{z}`$ (stratification, turbulence) | $`\partial\ \log\ \nu_{z}\`$*/ ∂ log R→0* as $`\alpha_{z}`$*→1* | $`\nu_{z}\ H^{\alpha_{z} - 1}`$ flat | Phase/asymmetry of warps vs. *∇α* |
+| Vertical flaring | $`\alpha_{z}`$ (stratification, turbulence) | $\partial \log \nu\_z / \partial \log R \to 0$ as $\alpha\_z \to 1$ | $`\nu_{z}\ H^{\alpha_{z} - 1}`$ flat | Phase/asymmetry of warps vs. *∇α* |
 | Dwarfs/LSBs | Low-order baryons | Near-unity $`\alpha\  \Rightarrow`$ gentle rises, low diversity | Flat outer collapse | Structure–slope coupling at fixed mass profile |
 
 **How these predictions are tested.** In Section 5 (Methods for $`\alpha`$ Estimation) we will define **structure→**$`\mathbf{\alpha}`$ pipelines (multiscale entropy, bar/spiral mode power, turbulence indices), then enact **bin-by-bin slope and collapse tests** on rotation and dispersion profiles. In Section 6–7 (Comparisons & Consistency) we show how these RTM predictions separate from **dark-matter parameterizations** and **MOND-like scalings**, and we include **lensing–kinematics** cross-checks to enforce that altering clocks (via $`\alpha`$) does not smuggle in curvature changes.
@@ -491,7 +491,7 @@ There are regimes where **all** models predict similar behavior; we use them as 
 
 | **Test** | **Evidence for RTM** | **Evidence against RTM** | **What DM/MOND would say** |
 |----|----|----|----|
-| **D1:** outer-slope | $`m \approx 0\`$in low-$`\alpha`$ bins **and** collapse | *m≈−1/2* or no collapse | DM can fit *m≈0* but doesn’t predict collapse |
+| **D1:** outer-slope | $`m \approx 0\`$ in low-$`\alpha`$ bins **and** collapse | *m≈−1/2* or no collapse | DM can fit *m≈0* but doesn’t predict collapse |
 | **D2:** inner diversity | $`\Delta m`$ correlates with $`\widehat{\alpha}`$ (structure) | $`\Delta m`$ uncorrelated with structure | DM: halo params; MOND: acceleration scale |
 | **D3:** bTFR residuals | $`\Delta\ log\ v\  \leftrightarrow \delta_{\alpha}`$ vanishes at slope-zero radius | No relation to $`\delta_{\alpha}`$ | DM: residuals $`\leftrightarrow`$ halo concentration/spin |
 | **D4:** collapse | $`{v\ L}^{\widehat{\alpha} - 1}`$ flat per bin | Residual slope ( | m_B |
@@ -537,7 +537,7 @@ RTM consistency test SL-1 (enclosed mass at $`R_{E}`$​).
 
 - Compute $`M_{kin}^{RTM}(R_{E})`$ from the observed rotational/dispersion support using the **RTM velocity law** inside coherence bins intersecting $`R_{E}`$.
 
-- **Pass:** $`M_{kin}^{RTM} - M_{lens} \mid /M_{lens} \leq \varepsilon\`$ (pre-registered $`\varepsilon`$, e.g., 15%)
+- **Pass:** $|M\_{\text{kin}}^{RTM} - M\_{\text{lens}}| / M\_{\text{lens}} \leq \varepsilon$ (pre-registered $\varepsilon$, e.g., 15%)
 
 - **Fail:** systematic over- or underestimates across the sample that cannot be traced to $`\alpha`$ calibration or anisotropy systematics.
 
