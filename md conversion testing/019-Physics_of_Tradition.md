@@ -129,7 +129,7 @@ The painted cave from Chapter 1 integrates all three: an enveloping geometry, th
 |---------------------|-----------------------------|------------------------|
 | Energy Source       | $`\Delta E`$ (torch, voice) | Oscillating flame      |
 | Propagation Medium  | $`L`$ (resonant space)      | Curved gallery         |
-| Receiver-Integrator | $`\alpha\`$Collective       | Clan in a trance state |
+| Receiver-Integrator | $\alpha$ Collective         | Clan in a trance state |
 
 The circular interaction of this triad produces the experience of dilated time, $`{T\  \sim \ L}^{\alpha}`$
 
@@ -400,7 +400,7 @@ Without semantics, the word is a drum; with semantics, it is a portal.
 
 - **Liturgical Design**: select stable phonetic carriers and deep semantics to sustain $`\alpha\, \geq \, 2.5`$
 
-- **Ethics of the Word**: toxic propaganda can force $`\alpha_{logos} \approx \, 1.5\`$and hijack attention. It requires linguistic hygiene.
+- **Ethics of the Word:** toxic propaganda can force $\alpha\_{\text{logos}} \approx 1.5$ and hijack attention. It requires linguistic hygiene.
 
 - **Vocal Technology**: AI with prosodic synthesis could recreate classic carriers to re-synchronize dispersed communities.
 
@@ -823,7 +823,7 @@ Between 1900 and 2025, humanity multiplied its **cognitive bandwidth** by at lea
 
 Digital platforms maximize **engagement time** by optimizing stimulus entropy. Each scroll generates an **unpredictable delta of novelty** which, according to RTM, increases the error rate ε and fragments the phase at a micro-scale. The equation $`\alpha\  \approx \ 1\ /\ (\sigma F\  \cdot \ D)\  \times \ R`$ is inverted: σF and D skyrocket while R plummets.
 
-| **Historical Period** | **$\sigma$F (Hz)** | **D (%/century)** | **R (repetition)** | **$\alpha_{collective}$** |
+| **Historical Period** | **$\sigma$ F(Hz)** | **D (%/century)** | **R (repetition)** | **$\alpha_{collective}$** |
 | :--- | :--- | :--- | :--- | :--- |
 | Agricultural Village (1850) | 15 | 0.4 | 0.48 | 2.2 |
 | Analog Industry (1950) | 22 | 1.2 | 0.35 | 1.1 |
@@ -1108,7 +1108,7 @@ A **NEAT** algorithm is integrated that mutates gestural tempo, light distributi
 
 - **Biometric avatar** – explicit and revocable consent to use physiological signals.
 
-- **Coercive limits** – block configurations that project $`\alpha_{sim} > \ 4\`$ without approval from an ethics committee.
+- **Coercive limits** – block configurations that project $\alpha\_{\text{sim}} > 4$ without approval from an ethics committee.
 
 **Chapter 17 · Urban Coherence Engineering**
 
