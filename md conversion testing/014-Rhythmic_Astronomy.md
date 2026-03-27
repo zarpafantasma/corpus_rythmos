@@ -491,7 +491,7 @@ There are regimes where **all** models predict similar behavior; we use them as 
 
 | **Test** | **Evidence for RTM** | **Evidence against RTM** | **What DM/MOND would say** |
 |----|----|----|----|
-| **D1:** outer-slope | $m \approx 0$ in low-$\alpha$ bins **and** collapse | *m≈−1/2* or no collapse | DM can fit *m≈0* but doesn’t predict collapse |
+| **D1:** outer-slope | $m \approx 0$ in low- $alpha$ bins **and** collapse | *m≈−1/2* or no collapse | DM can fit *m≈0* but doesn’t predict collapse |
 | **D2:** inner diversity | $`\Delta m`$ correlates with $`\widehat{\alpha}`$ (structure) | $`\Delta m`$ uncorrelated with structure | DM: halo params; MOND: acceleration scale |
 | **D3:** bTFR residuals | $`\Delta\ log\ v\  \leftrightarrow \delta_{\alpha}`$ vanishes at slope-zero radius | No relation to $`\delta_{\alpha}`$ | DM: residuals $`\leftrightarrow`$ halo concentration/spin |
 | **D4:** collapse | $`{v\ L}^{\widehat{\alpha} - 1}`$ flat per bin | Residual slope ( | m_B |
