@@ -196,6 +196,12 @@ We will use these **canonical** $(L,T)$ pairs in later sections (others may be a
 
 Each family produces a binwise $\hat{\alpha}_f$\ . Only families that pass collapse and QA contribute to the fused indicator $ECI_{QC}(t)$ (Section 6).
 
+Test 1: $\hat{\alpha}_f$
+
+Test 2: $\widehat{\alpha}_f$
+
+Test 3: $\alpha_f$
+
 **2.8 Why** $\mathbf{\alpha}$**matters operationally**
 
 -   **Comparability**: $\alpha$ is invariant to unit changes and constant overheads, enabling **cross-lab** and **cross-generation** comparison.
