@@ -1133,7 +1133,7 @@ Four small multiples per family $f$ within a bin:
 4.  **Placebo check:** overlay of fits before/after $T \mapsto cT$ (curves coincide).
 
 **Fig. 2 --- Forest plot & heterogeneity.**\
-Per time slice (or per experiment arm), show ${\widehat{\alpha}}_{f} \pm$CI, weights $w_{f}$, the fused ${\widehat{\alpha}}_{QC}$ (diamond), and heterogeneity stats: $Q$, $I^{2}$, ${\widehat{\tau}}^{2}$.
+Per time slice (or per experiment arm), show $\hat{\alpha}\_f \pm \text{CI}$, weights $w\_f$, the fused $\hat{\alpha}\_{\text{QC}}$ (diamond), and heterogeneity stats: $Q, I^2, \hat{\tau}^2$.
 
 **Fig. 3 ---**$\mathbf{ECI}_{QC}$**(t) time series.**\
 Rolling fused slope with 50/95% bands; background ribbon colored by $I^{2}$ (green \<25%, amber 25--50%, red ≥50%). Mark **decoherence events** (advisory/watch/warning) and platform events (recalibrations, firmware changes).
@@ -1575,7 +1575,7 @@ eci_rt:
 
     -   Plot $y$ vs $x$+ ODR band; residual vs $x$ with LOESS.
 
-    -   Annotate $R_{\text{collapse}}^{2}$, #$\L$, span, leverage.
+    -   Annotate $R^2\_{\text{collapse}}$, #$L$, span, leverage.
 
 -   **Forest plot**:
 
