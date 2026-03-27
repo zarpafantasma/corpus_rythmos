@@ -48,7 +48,7 @@ We propose two complementary observables.
 \alpha_{\text{bio,enz}} = - \frac{d\ logk}{d\ logL}│_{isothermal,\ fixed\ ionic\ strength,\ off - resonance\ control}
 ```
 
-obtained by measuring apparent rates $`k`$ while varying an **effective confinement scale** $`L\`$(e.g., nanoporous matrices of known pore size, tunable crowding, or engineered cavities). Stability of $`\alpha_{\text{bio,enz}}`$ over at least one decade in $`L`$, plus **data collapse** of $`k`$ when rescaled by $`\mathbf{L}^{\mathbf{\alpha}^{\mathbf{\star}}}`$, is the primary falsification test.
+obtained by measuring apparent rates $`k`$ while varying an **effective confinement scale** $L$ (e.g., nanoporous matrices of known pore size, tunable crowding, or engineered cavities). Stability of $`\alpha_{\text{bio,enz}}`$ over at least one decade in $`L`$, plus **data collapse** of $`k`$ when rescaled by $`\mathbf{L}^{\mathbf{\alpha}^{\mathbf{\star}}}`$, is the primary falsification test.
 
 2.  **Rhythmic Biochemistry Coherence Index (RBCI)** (0–1), a composite index that aggregates:
 
