@@ -1135,7 +1135,7 @@ $`\alpha`$ is a **measured slope** of $`\log T`$ on $`\log L`$ within collapse-v
 
 **B.2.3 Defining** $`\mathbf{(T,L)}`$
 
-- **Temporal scale** for each window and band peak $f^*$, set $T = 1/f^*$ (seconds). If multiple peaks per band, pre-register a centroid rule or dominance criterion.
+- **Temporal scale $T$:** for each window and band peak $f^*$, set $T = 1/f^*$ (seconds). If multiple peaks per band, pre-register a centroid rule or dominance criterion.
 
 - **Spatial scale** $`L`$**:** source modeling (eLORETA/beamformer) to estimate spatial wavelength $`\lambda`$ (or correlation length) of band-limited sources; set $`L = \lambda/2`$.
 
@@ -1410,7 +1410,7 @@ Fail any → **NO_COLLAPSE** (unless semi-log linear ⇒ **LOG-SCALING**).
 
 **D.4.3 MULTI-REGIME (figure caption template)**
 
-*“Timing follows a logarithmic law in [system]: $T \sim a + b \log L$ (semi-log linear, 95% CI for $b$). Power-law fit rejected by collapse. Outcome: **LOG-SCALING** (non-power).”*
+"Timing follows a logarithmic law in [system]: $T \sim a + b \log L$ (semi-log linear, 95% CI for $b$). Power-law fit rejected by collapse. Outcome: **LOG-SCALING** (non-power)."
 
 **Table row fields:** system | window | $n$ | semi-log slope $b$ (CI) | test vs. power-law | outcome = LOG-SCALING.
 
