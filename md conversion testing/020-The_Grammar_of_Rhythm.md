@@ -1135,7 +1135,7 @@ $`\alpha`$ is a **measured slope** of $`\log T`$ on $`\log L`$ within collapse-v
 
 **B.2.3 Defining** $`\mathbf{(T,L)}`$
 
-- **Temporal scale $T$:** for each window and band peak $f"\*"$ , set $T = 1/f"\*" $ (seconds). If multiple peaks per band, pre-register a centroid rule or dominance criterion.
+- **Temporal scale $T$:** for each window and band peak f\* , set T=1/f\* (seconds). If multiple peaks per band, pre-register a centroid rule or dominance criterion.
 
 - **Spatial scale** $`L`$**:** source modeling (eLORETA/beamformer) to estimate spatial wavelength $`\lambda`$ (or correlation length) of band-limited sources; set $`L = \lambda/2`$.
 
