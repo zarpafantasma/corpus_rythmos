@@ -1575,7 +1575,7 @@ eci_rt:
 
     -   Plot $y$ vs $x$+ ODR band; residual vs $x$ with LOESS.
 
-    -   Annotate $R^2\_{\text{collapse}}$, #$L$, span, leverage.
+    -   Annotate $R^2\_{\text{collapse}}$, #L, span, leverage.
 
 -   **Forest plot**:
 
