@@ -308,7 +308,7 @@ G_{\alpha}(k) = \langle 0 \mid T\{\alpha(k)\alpha( - k)\} \mid 0\rangle = \frac{
 These propagators fully determine the basic correlators
 
 ``` math
-$\langle 0 | \alpha(x)\alpha(y) | 0 \rangle = \int \frac{d^4 k}{(2\pi)^4} e^{-ik \cdot (x-y)} G\_{\alpha}(k), \quad \langle 0 | \phi(x)\phi(y) | 0 \rangle = \int \frac{d^4 k}{(2\pi)^4} e^{-ik \cdot (x-y)} G\_{\phi}(k)$
+\langle 0 | \alpha(x)\alpha(y) | 0 \rangle = \int \frac{d^4 k}{(2\pi)^4} e^{-ik \cdot (x-y)} G\_{\alpha}(k), \quad \langle 0 | \phi(x)\phi(y) | 0 \rangle = \int \frac{d^4 k}{(2\pi)^4} e^{-ik \cdot (x-y)} G\_{\phi}(k)
 ```
 
 They will serve as the starting point for our one-loop effective potential and renormalization analysis in the next section.
@@ -478,7 +478,7 @@ $`\Gamma \sim Ae^{{- S}_{bounce}/\hslash}`$
 - **Estimate.** A rough dimensional estimate in 1-D yields
 
 ``` math
-$F\_Q \sim -\frac{\hbar}{L^2} \frac{\partial}{\partial \alpha} (\Delta \alpha)^2$
+F\_Q \sim -\frac{\hbar}{L^2} \frac{\partial}{\partial \alpha} (\Delta \alpha)^2
 ```
 
 where $`L`$ is the gradient length. For steep gradients at sub-millimeter scales, this force can reach pico-Newton levels—small but potentially measurable.
@@ -658,7 +658,7 @@ identifies $`\Theta(T)`$ with horizon red-shift effects, linking α-induced time
     Extending the Bekenstein bound $`{S \leq 2\pi k}_{B}ER/\hslash c`$ to RTM systems yields
     
 ``` math
-$S \le 2\pi k\_B \frac{E L}{\hbar c} [\alpha(L)]^{-1}$
+S \le 2\pi k\_B \frac{E L}{\hbar c} [\alpha(L)]^{-1}
 ```
 
 showing that maximal information storage scales inversely with the local temporal-scaling exponent and enforcing limits on energy extraction and branch-hop transitions.
@@ -1633,7 +1633,7 @@ Extending this bound to **non‐gravitational** and multiscale RTM systems repla
 S \leq {2\pi k}_{B}\frac{EL}{\hslash c}{\lbrack\alpha(L)\rbrack}^{- 1}
 ```
 
-where $`L\`$ is the system’s characteristic scale and $`\alpha(L)`$ its RTM exponent. Physically, this reflects that higher $`\alpha`$ (slower temporal flow) reduces the maximum information––or entropy––storable within a given energy and size budget. In the limit $`\alpha \rightarrow 1`$, one recovers the standard gravitational form; for $`\alpha > 1`$, the bound tightens proportionally, enforcing stricter limits on energy‐extraction schemes and branch‐jump transitions .
+where $L$ is the system's characteristic scale and $\alpha(L)$ its RTM exponent. Physically, this reflects that higher $\alpha$ (slower temporal flow) reduces the maximum information—or entropy—storable within a given energy and size budget. In the limit $\alpha \to 1$, one recovers the standard gravitational form; for $\alpha > 1$, the bound tightens proportionally, enforcing stricter limits on energy-extraction schemes and branch-jump transitions.
 
 **Appendix C – Materials, Fabrication, and Δα Gradient Tolerances**
 
