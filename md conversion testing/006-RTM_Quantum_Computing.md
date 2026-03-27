@@ -711,7 +711,7 @@ $$
 
 -   **Cadence.** Recompute each family's ${\widehat{\alpha}}_{f,t}$ on a **rolling window** in $x = \log L$ of width $h$ (chosen by the adiabatic rule; Sec. 5.5) and a **wall-clock horizon** (e.g., last 7--28 days of data).
 
--   **Backfill and missingness.** If a family is missing at $t$, fuse over the available $\mathcal{F}_t$ provided $|\mathcal{F}_t| \geq 2$; otherwise **suspend** $\text{ECI}_{\text{QC}}(t)$ and publish a `THIN_FAMILIES` flag.
+-   **Backfill and missingness.** If a family is missing at $t$, fuse over the available $\mathcal{F}\_t$ provided $|\mathcal{F}\_t| \geq 2$; otherwise **suspend** $ECI\_{\text{QC}}(t)$ and publish a `THIN_FAMILIES` flag.
 
 -   **Clock placebo.** Once per day, multiply all contributing $T$ by a constant and verify $\hat{\alpha}_{\text{QC}}(t)$ and $I_t^2$ are unchanged (stored as a QA artifact).
 
@@ -723,7 +723,7 @@ We define a **decoherence event** as a significant, QA-clean **drop** in ${ECI}_
 
 1.  **Smoothing:** maintain a 3-point median $\widetilde{\alpha}(t)$ of ${\widehat{\alpha}}_{QC}(t)$.
 
-2.  **Z-score:** $Z(t) = \frac{\widetilde{\alpha}(t) - {EWMA}_{30}\lbrack\widetilde{\alpha}\rbrack}{{\widehat{\sigma}}_{EWMA}(t)}$.
+2.  **Z-score:** $Z(t) = \frac{\tilde{\alpha}(t) - \text{EWMA}\_{30}[\tilde{\alpha}]}{\hat{\sigma}\_{\text{EWMA}}(t)}$
 
 **Alert tiers (default):**
 
