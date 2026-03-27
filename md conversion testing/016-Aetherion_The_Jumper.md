@@ -107,7 +107,7 @@ We propose the following *effective* Lagrangian density for the coupled RTM–Ae
 
 where
 
-- $`M\`$sets the stiffness of α‑fluctuations (we assume/take $`M \gg m_{\varphi}`$),
+- $M$ sets the stiffness of $\alpha$-fluctuations (we assume/take $M \gg m\_\phi$),
 
 - $`\gamma`$ is a dimension‑4 coupling mediating energy transfer.
 
@@ -622,7 +622,7 @@ This paper requires no new numerical simulations or laboratory experiments; rath
 
 **2 Mechanism of Thrust**
 
-In the Aetherion framework, a spatial gradient in the temporal‐scaling exponent $`\alpha\`$not only unlocks vacuum energy but also imparts a net momentum flux—i.e. thrust—directed along $`\nabla\alpha`$ .We outline below how this force arises and derive its leading‐order scaling.
+In the Aetherion framework, a spatial gradient in the temporal-scaling exponent $\alpha$ not only unlocks vacuum energy but also imparts a net momentum flux—i.e. thrust—directed along $\nabla\alpha$. We outline below how this force arises and derive its leading-order scaling.
 
 **2.1 Static Thrust from α-Gradients**
 
@@ -721,7 +721,7 @@ $$
 
 Take $`A = 1cm2`$, $`m = 1g`$, $`\Delta\alpha = 10^{- 3}`$
 
-$`{\Delta E}_{ZPE} = 10^{- 3}{J\ m}^{- 3\ }\kappa = 0.1,\`$ and $`f = 10kHz:`$
+$\Delta E\_{\text{ZPE}} = 10^{-3} \text{ J m}^{-3} \kappa = 0.1$, and $f = 10 \text{ kHz}$:
 
 ``` math
 {\Delta z}_{\max} \sim 1.6 \times 10^{- 7}m = 0.16\mu m
