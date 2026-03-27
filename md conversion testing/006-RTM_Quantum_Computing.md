@@ -788,7 +788,7 @@ $$\max_{\text{\:\,controls }\theta}\ \ \ \alpha(\theta)\ \ \ s.t.\ \ \ \ through
 
 -   **Constraints**: a throughput floor $\mathcal{B}$ (e.g., jobs/hour), fidelity floor $\mathcal{F}$, and **collapse gates** (Sec. 5.7).
 
--   **Monitor**: track per-family ${\widehat{\alpha}}_{f}$ and the fused ${\widehat{\alpha}}_{QC}(t)$ with QA (Sec. 6).
+-   **Monitor:** track per-family $\hat{\alpha}\_f$ and the fused $\hat{\alpha}\_{\text{QC}}(t)$ with QA (Sec. 6).
 
 **7.2 Scheduler: batching & variance-aware routing**
 
@@ -975,7 +975,7 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 -   Fit ODR per arm, pass collapse.
 
--   Primary effect: $\Delta{\widehat{\alpha}}_{\text{phys}} = {\widehat{\alpha}}_{\text{RTM}} - {\widehat{\alpha}}_{\text{CTRL}}$.
+-   Primary effect: $\Delta \hat{\alpha}\_{\text{phys}} = \hat{\alpha}\_{\text{RTM}} - \hat{\alpha}\_{\text{CTRL}}$
 
 -   KPI guardrails: throughput drop ≤5%, no increase in gate/RO error \>0.2σ.
 
