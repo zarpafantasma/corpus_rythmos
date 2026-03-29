@@ -19,7 +19,7 @@
     I am the gardener of conditions,
     and I will not claim the harvest as my own.
     
-    I will plant forests I will never walk in.
+    I will build steps I will never climb.
     I will build monuments that I will never inhabit.
     I will prepare hands I will never shake
     to receive what I carry.
