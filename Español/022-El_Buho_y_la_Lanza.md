@@ -2,8 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/athena.png" width="200" alt="Diagrama de Snake">
 
-# El Búho y la Lanza
-**Tejiendo la Física del Ritmo en el Tejido de la Existencia**  
+# El Búho y la Lanza  
 
 Álvaro Quiceno
 </div>
