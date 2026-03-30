@@ -303,9 +303,9 @@ Continuous vibration generates **DC thrust** via quadratic rectification:
     
     Voltage (V)
     200 ─┐     ┌─┐     ┌─┐     ┌─┐
-        │     │ │     │ │     │ │
+         │     │ │     │ │     │ │
     100 ─┤     │ │     │ │     │ │
-        │     │ │     │ │     │ │
+         │     │ │     │ │     │ │
       0 ─┴─────┴─┴─────┴─┴─────┴─┴─────
         0    1ms   2ms   3ms   4ms
         
