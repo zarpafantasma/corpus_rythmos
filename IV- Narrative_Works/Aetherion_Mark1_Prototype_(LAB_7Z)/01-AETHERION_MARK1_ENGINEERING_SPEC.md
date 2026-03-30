@@ -319,10 +319,10 @@ Continuous vibration generates **DC thrust** via quadratic rectification:
     OMV MODE (Continuous Sine):
     ─────────────────────────────
     
-    200 ─      ╱╲      ╱╲      ╱╲
-        │     ╱  ╲    ╱  ╲    ╱  ╲
+    200  ─     ╱╲      ╱╲      ╱╲
+         │    ╱  ╲    ╱  ╲    ╱  ╲
     100 ─┼───╱────╲──╱────╲──╱────╲──
-        │  ╱      ╲╱      ╲╱      ╲
+         │  ╱      ╲╱      ╲╱      ╲
       0 ─┴─────────────────────────
         0    0.5ms  1ms   1.5ms  2ms
         
