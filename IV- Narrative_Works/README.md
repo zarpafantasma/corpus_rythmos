@@ -158,7 +158,7 @@ This folder contains two sets of extensions:
 
 These materials can be read two ways:
 
-**As fiction:** Enjoy the worldbuilding, the dramatic framing, the "what if" speculation. The classified document aesthetic, the ASCII art headers, the ominous warnings — these are storytelling devices.
+**As fiction:** Enjoy the worldbuilding, the dramatic framing, the "what if" speculation. The classified document aesthetic, the ominous warnings — these are storytelling devices.
 
 **As theory:** Strip away the narrative wrapper and you find legitimate extensions of RTM physics and philosophy. The engineering specs in Aetherion Mark 1 follow from the field equations in 016-017. The N1 Protocols operationalize the implications of 018. The Operational Manuals expand 021-022 into practical guidance.
 
