@@ -48,7 +48,7 @@ Este es el fundamento matemático de todo el marco. Mientras que el documento 00
 **Conclusión principal:**  
 El Documento 002 transforma RTM de "observamos leyes de potencia" a "las leyes de potencia son matemáticamente necesarias dada la simetría del semigrupo de escala, y aquí está la estructura geométrica que gobierna cuándo se cumplen y cuándo fallan." Es la diferencia entre reconocer patrones y comprender.
 
-## 003 - El Marco de Cascada RTM (La Escalera de la Información)
+## 003 - Marc de Cascadas RTM (La Escalera de la Información)
 Este documento explica que los sistemas complejos no son un simple bloque monolítico; son como una escalera por la que la información fluye de lo pequeño a lo grande.  
 **-La Regla de Jerarquía:** Para que un sistema se mantenga estable, la organización ($\alpha$) generalmente debe permanecer igual o mejorar a medida que se asciende por los niveles. Si el "ritmo" cae demasiado abruptamente entre capas, el sistema se rompe.  
 **-El Límite de Sincronización:** Existe un límite físico para cuán diferentes pueden ser dos capas. Si la brecha es demasiado grande, sufren una "Desadaptación de Impedancia": dejan de hablar el mismo idioma y la información se pierde o se distorsiona.  
@@ -56,7 +56,7 @@ Este documento explica que los sistemas complejos no son un simple bloque monol�
 
 **Conclusión principal:** La estabilidad no se trata solo de fortaleza; se trata de garantizar que cada nivel del sistema esté "sincronizado" con el que está por encima. Si la cascada se rompe, el sistema (o el organismo) colapsa.
 
-## 004 - Crecimiento de Estructura en el Universo Temprano (La Aceleración Cósmica)
+## 004 - Reescalamiento Tiempo-Escala en el Crecimiento de Estructuras del Universo Temprano (La Aceleración Cósmica)
 RTM no es solo para cosas pequeñas. Este documento usa las mismas leyes para resolver un misterio mayúsculo en el espacio: ¿Por qué el telescopio JWST encontró galaxias masivas e "imposibles" tan poco después del Big Bang?  
 **-Densidad Cósmica = Tiempo más rápido:** En el universo temprano, todo estaba muy comprimido. Según RTM, esta alta densidad creó un "reloj interno" mucho más rápido para la materia.  
 **-El Impulso de 30x:** Dado que el universo era más pequeño e interconectado en aquel entonces, las galaxias tenían entre 20 y 37 veces más "tiempo efectivo" para formarse de lo que sugieren nuestros modelos estándar.  
@@ -64,7 +64,7 @@ RTM no es solo para cosas pequeñas. Este documento usa las mismas leyes para re
 
 **Conclusión principal:** El tiempo es flexible. En el amanecer denso y caliente del universo, el "ritmo" de formación de estrellas y galaxias estaba vastamente acelerado, permitiendo al cosmos construir estructuras complejas en lo que para nosotros parece un "abrir y cerrar de ojos."
 
-## 005 - Los Agujeros Negros en el Marco RTM (La Bóveda de Información)
+## 005 - Agujeros Negros, Marco RTM  (La Bóveda de Información)
 Este documento aplica RTM a los objetos más misteriosos del espacio, sugiriendo que los agujeros negros no son solo "trituradores" de materia, sino sistemas de almacenamiento de información de alta eficiencia.  
 **-Transmutación, no destrucción:** La física estándar teme que la información se pierda en un agujero negro. RTM sugiere que simplemente se "transmuta" en un estado de altísima organización con $\alpha$ elevado, como reescribir una biblioteca en un solo cristal.  
 **-Escalamiento balístico universal:** Al analizar datos reales del LIGO (detectores de ondas gravitacionales), el documento demuestra que las fusiones de agujeros negros siguen exactamente el mismo escalamiento "balístico" ($\alpha \approx 1.0$) que los terremotos en la Tierra.  
@@ -72,7 +72,7 @@ Este documento aplica RTM a los objetos más misteriosos del espacio, sugiriendo
 
 **Conclusión principal:** La física que rige la colisión de singularidades en el espacio profundo es matemáticamente idéntica a las ondas de choque de un terremoto. El espaciotiempo en sí obedece la ley maestra de RTM.
 
-## 006 - Computación Cuántica con Conciencia RTM (La Realidad de la Ingeniería)
+## 006 - Computación Cuántica (La Realidad de la Ingeniería)
 Pasando del cosmos al laboratorio, este documento usa RTM para abordar el mayor problema de la computación: ¿por qué las computadoras cuánticas pierden su "enfoque" (decoherencia) a medida que crecen?  
 **-La ilusión del escalamiento:** Los datos brutos sugieren con frecuencia que las computadoras cuánticas más nuevas y grandes están mejorando. Las matemáticas de RTM revelan que esto es una ilusión; una vez que se tienen en cuenta las mejoras tecnológicas, los arreglos más grandes pierden coherencia más rápido.  
 **-Fuga topológica:** El documento identifica que la decoherencia cuántica es un problema "colectivo". A medida que la red crece, naturalmente "filtra" su estado cuántico más rápido debido a su propia complejidad geométrica ($\alpha < 0$).  
@@ -174,7 +174,7 @@ Este documento eleva la "Ley Maestra" de una simple observación a una Teoría d
 
 **Conclusión principal:** No necesitamos "partículas fantasma" ni dimensiones ocultas para unificar la física. El universo es un único campo multiescala de coherencia temporal.
 
-## 018 - El Marco Aetherion e Implicaciones (Reglas para el Futuro)
+## 018 - El Marco Aetherion (Reglas para el Futuro)
 Si RTM es real, ¿cómo convivimos con ello? Este documento actúa como el "Manual Operativo" para una humanidad que se ha graduado hacia la ingeniería de la realidad misma.  
 **-La Barrera de Viscosidad:** Identifica un "Gran Filtro" para las civilizaciones: las que crecen demasiado sin suficiente "coherencia" ($\alpha$) chocan contra una "Barrera de Viscosidad" y colapsan en polvo.  
 **-Civilizaciones Superfluidas:** Las civilizaciones avanzadas no "consumen" energía; se vuelven "Superfluidas." Resuenan con el vacío sin dejar huella térmica, lo cual explica por qué no las detectamos con nuestros telescopios actuales "ruidosos."  
