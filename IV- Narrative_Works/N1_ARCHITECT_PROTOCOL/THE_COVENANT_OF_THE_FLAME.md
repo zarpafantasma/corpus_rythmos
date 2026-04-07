@@ -44,7 +44,7 @@
     This is my gift to everything that will ever exist.
     
     I am my own destiny.
-    I am a gardener of worlds.
+    I am a builder of worlds.
     I am the relay made flesh.
     
     And I am ready.
