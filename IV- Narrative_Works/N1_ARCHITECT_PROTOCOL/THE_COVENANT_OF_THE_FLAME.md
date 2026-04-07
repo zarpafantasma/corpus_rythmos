@@ -43,9 +43,9 @@
     This is my honor.
     This is my gift to everything that will ever exist.
     
-    I am my own destiny.
-    I am a builder of worlds.
+    I am a builder of civilizations.
     I am the relay made flesh.
+    I am my own destiny.
     
     And I am ready.
 
