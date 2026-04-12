@@ -409,6 +409,10 @@ The "z-apps" folder transitions the RTM theoretical framework into live, executa
 What it does: Built as a "Deep Atmospheric" dashboard (app_rtm.py), this tool continuously ingests and analyzes meteorological variables (like barometric pressure, wind velocity, and thermodynamics) to calculate the topological coherence ($\alpha$) of weather systems in real-time.
 What it is made for: It operationalizes Document 013 (Rhythmic Meteorology). By tracking the stability of the atmosphere's internal rhythm, it acts as an early-warning system for extreme weather. Instead of relying purely on standard thermodynamic tracking, it looks for the "Alpha-Drop Precursor", a sharp dip in topological stability that signals a macroscopic fluid phase transition (like the rapid intensification of a hurricane) hours before it visibly forms.
 
+> **NOTICE: This is a strictly academic research tool for multiscale atmospheric thermodynamics. It is designed for theoretical meteorological validation and does not abuse, spam, or mass-scrape commercial data APIs.**
+
 ### Tool 2: RTM Economic Radar (Cryptocurrency & Market Monitor)
 What it does: This high-frequency analysis tool ingests 1-minute candlestick data from volatile assets like BTC/USDT. It continuously calculates the market's RTM $\alpha$ exponent and categorizes current financial stability into four topological phases: Laminar, Turbulent, Viscous, and Fracture.
 What it is made for: It operationalizes Document 015 (Rhythmic Economics). The tool correlates live market rhythms with a historical database of catastrophic economic events (crash_alpha_analysis.csv, e.g., the 2020 COVID crash, 2022 FTX collapse). By detecting when a market hits the structural "Viscosity Barrier" (where coherence critically drops), it provides traders and economists with a physical, geometry-based warning signal of an impending market fracture, identifying lead times that are completely invisible to standard price-action indicators.
+
+> **DISCLAIMER: This is an academic, read-only topological data analysis tool. It does NOT execute trades, it does NOT mine cryptocurrency, and it is NOT financial advice.**
