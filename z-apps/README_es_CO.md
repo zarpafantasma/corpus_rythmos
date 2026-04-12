@@ -7,6 +7,7 @@ Esta carpeta contiene **aplicaciones Streamlit operativas** que demuestran los p
 ## Aplicaciones
 
 ### 1. Monitor Atmosférico (`atmospheric-monitor/`)
+> **AVISO: Esta es una herramienta de investigación estrictamente académica para la termodinámica atmosférica multiescala. Está diseñada para la validación meteorológica teórica y no abusa, no hace spam ni realiza extracción masiva de datos (web scraping) de APIs comerciales.**
 
 Un sistema de inteligencia climática de módulo dual.
 
@@ -35,6 +36,7 @@ streamlit run app_rtm.py
 ---
 
 ### 2. Monitor de Criptomonedas (`cryptocurrency_monitor/`)
+> **DESCARGO DE RESPONSABILIDAD: Esta es una herramienta académica de análisis de datos topológicos de solo lectura. NO ejecuta operaciones de mercado, NO mina criptomonedas y NO constituye asesoramiento financiero.**
 
 Un radar de mercados financieros que utiliza la física de coherencia RTM.
 
