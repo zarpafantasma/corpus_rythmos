@@ -7,7 +7,7 @@ This folder contains **working Streamlit applications** that demonstrate RTM pri
 ## Applications
 
 ### 1. Atmospheric Monitor (`atmospheric-monitor/`)
-
+> **NOTICE: This is a strictly academic research tool for multiscale atmospheric thermodynamics. It is designed for theoretical meteorological validation and does not abuse, spam, or mass-scrape commercial data APIs.**
 A dual-module climate intelligence system.
 
 **Modules:**
@@ -35,7 +35,7 @@ streamlit run app_rtm.py
 ---
 
 ### 2. Cryptocurrency Monitor (`cryptocurrency_monitor/`)
-
+> **DISCLAIMER: This is an academic, read-only topological data analysis tool. It does NOT execute trades, it does NOT mine cryptocurrency, and it is NOT financial advice.**
 A financial market radar using RTM coherence physics.
 
 **Modules:**
