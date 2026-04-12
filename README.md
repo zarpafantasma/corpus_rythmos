@@ -183,6 +183,8 @@ This section hosts operational tools developed under the RTM (Topological Struct
 #### 1. RTM CLIMATE (Atmospheric Monitor)
 The first operational implementation of RTM Theory,a comprehensive implementation of RTM Theory applied to Rhythmic Meteorology and extreme climate physics. This unified dual-module system scans real-time satellite telemetry to detect topological fractures in the atmosphere—predicting hurricane rapid intensification with a ~11.6-hour lead time—while also tracking extreme atmospheric phase transitions.
 
+> **NOTICE: This is a strictly academic research tool for multiscale atmospheric thermodynamics. It is designed for theoretical meteorological validation and does not abuse, spam, or mass-scrape commercial data APIs.**
+
 * **Status:** Operational / Proof of Concept
 * **Domain:** Atmospheric Thermodynamics & Multiscale Climate Physics
 * **Launch App:** [RTM CLIMATE MONITOR Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
@@ -191,6 +193,8 @@ The first operational implementation of RTM Theory,a comprehensive implementatio
 ---
 #### 2. RTM ECONOMIC MONITOR (Crypto Engine)
 The second operational implementation of RTM Theory, demonstrating its universality across disciplines by applying the same topological principles to financial complexity. This tool scans real-time market data (such as BTC/USDT) to detect structural fractures in liquidity. It is designed to identify the exact moment the mathematical "friction" of the market collapses, predicting severe volatility events (flash crashes or explosive pumps) days before traditional kinetic momentum indicators react.
+
+> **DISCLAIMER: This is an academic, read-only topological data analysis tool. It does NOT execute trades, it does NOT mine cryptocurrency, and it is NOT financial advice.**
 
 * **Status:** Operational / Proof of Concept
 * **Domain:** Quantitative Finance & Market Topology
