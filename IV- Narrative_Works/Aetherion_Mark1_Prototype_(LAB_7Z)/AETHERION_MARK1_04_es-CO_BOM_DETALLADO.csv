@@ -1,0 +1,92 @@
+Categoría,ID_Artículo,Descripción,Especificaciones,Cantidad,Unidad,Fabricante,Número_de_Pieza,Proveedor,Proveedor_PN,Costo_Unitario_USD,Costo_Total_USD,Tiempo_Entrega_Días,Notas,URL_Hoja_Datos
+METAMATERIAL,MM-001,Capas del Núcleo Acumulador,ZrO2-SiC composite 70:30 - α=0.5 - 40mm dia x 0.5mm,5,pzas,Fabricación Personalizada,CUSTOM-ACC-01,Materion / Custom Ceramics,QUOTE-REQ,300,1500,45,Pedido personalizado - requiere especificación de gradiente RTM,
+METAMATERIAL,MM-002,Capas de Zona de Gradiente,Graded ZrO2-Al2O3 - α=0.5→2.0 - 40mm dia x 0.3mm,15,pzas,Fabricación Personalizada,CUSTOM-GRAD-01,Materion / Custom Ceramics,QUOTE-REQ,80,1200,45,15 capas con gradiente α progresivo,
+METAMATERIAL,MM-003,Capas del Cono de Tobera,Al2O3-TiO2 - α=2.0→2.5 - Conical geometry,3,pzas,Fabricación Personalizada,CUSTOM-NOZ-01,Materion / Custom Ceramics,QUOTE-REQ,150,450,45,Cono cónico apertura 25mm→35mm,
+METAMATERIAL,MM-004,Placa Reflectora Base,Dense Al2O3 - α=2.5 - 40mm dia x 2mm,1,pzas,Fabricación Personalizada,CUSTOM-BASE-01,Materion / Custom Ceramics,QUOTE-REQ,100,100,45,Alta densidad para prevención de reflujo,
+PIEZOELÉCTRICO,PZ-001,Actuador Piezoeléctrico,PZT-5H Stack 5x5x2mm - d33>600pC/N,8,pzas,PI Ceramic,P-885.11,Digi-Key,PL118CT-ND,45,360,14,Coeficiente de desplazamiento elevado - crítico,https://www.piceramic.com/en/products/piezoceramic-actuators/
+PIEZOELÉCTRICO,PZ-002,Adhesivo de Montaje Piezoeléctrico,Conductive Epoxy - Silver filled - High temp,1,tubo,MG Chemicals,8331S-15G,Digi-Key,473-1176-ND,25,25,3,Contacto térmico y eléctrico,https://www.mgchemicals.com/products/adhesives/conductive-adhesives/
+PIEZOELÉCTRICO,PZ-003,Juego de Repuesto Piezoeléctrico,PZT-5H Stack 5x5x2mm - Replacement,8,pzas,PI Ceramic,P-885.11,Digi-Key,PL118CT-ND,45,360,14,REPUESTO - para reemplazo por despolarización térmica,
+ELECTRÓNICA,EL-001,Tarjeta de Desarrolloo Microcontrolador,STM32H743ZI Nucleo-144 - 480MHz ARM Cortex-M7,1,pzas,STMicroelectronics,NUCLEO-H743ZI2,Digi-Key,497-18313-ND,28,28,5,Computadora principal de vuelo,https://www.st.com/en/evaluation-tools/nucleo-h743zi.html
+ELECTRÓNICA,EL-002,Generador de Formas de Onda DDS,AD9910 1GSPS 14-bit DDS Module,1,pzas,Analog Devices,AD9910/PCBZ,Mouser,584-AD9910/PCBZ,150,150,10,Generación de formas de onda de precisión,https://www.analog.com/en/products/ad9910.html
+ELECTRÓNICA,EL-003,DAC Cuádruple 16 bits,AD5764 Quad 16-bit DAC ±10V,2,pzas,Analog Devices,AD5764BRUZ,Digi-Key,AD5764BRUZ-ND,35,70,7,Salida de 8 canales (2x4ch),https://www.analog.com/en/products/ad5764.html
+ELECTRÓNICA,EL-004,Amplificador de Alta Tensión para Piezoeléctrico,PA94 High Voltage Op-Amp 0-200V 50mA,8,pzas,Apex Microtechnology,PA94,Mouser,509-PA94,95,760,14,Crítico para la excitación del piezoeléctrico,https://www.apexanalog.com/products/pa94.html
+ELECTRÓNICA,EL-005,Disipador de Calor para Amplificador de Alta Tensión,TO-3 Package Heatsink 5°C/W,8,pzas,Aavid,6400BG,Digi-Key,HS106-ND,3.5,28,3,Requerido para gestión térmica del PA94,
+ELECTRÓNICA,EL-006,Convertidor DC-DC de Alta Tensión,24V to 200V Isolated 50W,1,pzas,XP Power,JCK2024S200,Mouser,209-JCK2024S200,180,180,10,Generación del bus de 200V,https://www.xppower.com/product/JCK-Series
+ELECTRÓNICA,EL-007,Fuente de Alimentación 24V,24V 5A 120W Enclosed,1,pzas,Mean Well,LRS-150-24,Digi-Key,1866-3334-ND,22,22,3,Alimentación principal del sistema,https://www.meanwell.com/webapp/product/search.aspx?prod=LRS-150
+ELECTRÓNICA,EL-008,Regulador de Voltaje 5V,LM7805 5V 1.5A TO-220,2,pzas,Texas Instruments,LM7805CT/NOPB,Digi-Key,LM7805CT/NOPB-ND,0.75,1.5,3,Alimentación lógica,
+ELECTRÓNICA,EL-009,Adaptador USB-UART,FT232RL USB to Serial Module,1,pzas,FTDI,FT232RL,Digi-Key,768-1007-ND,5,5,3,Interfaz de control,
+SENSORES,SN-001,Sensor de Temperatura RTD,PT1000 Class A - 3-wire - 2mm dia probe,4,pzas,Omega Engineering,P-M-A-1/8-6-0-P-3,Omega,P-M-A-1/8-6-0-P-3,18,72,7,Monitoreo del arreglo piezoeléctrico,https://www.omega.com/en-us/temperature-measurement/sensors/rtd-pt100-sensors
+SENSORES,SN-002,Acondicionador de Señal RTD,MAX31865 PT1000 RTD-to-Digital,4,pzas,Maxim Integrated,MAX31865ATP+,Digi-Key,MAX31865ATP+-ND,8.5,34,5,Interfaz SPI al microcontrolador,https://www.maximintegrated.com/en/products/sensors/MAX31865.html
+SENSORES,SN-003,Acelerómetro 6-DOF,ADXL355 ±2g/±4g/±8g 20-bit Digital,1,pzas,Analog Devices,ADXL355BCCZ,Digi-Key,ADXL355BCCZ-ND,28,28,7,Detección de vibración y movimiento,https://www.analog.com/en/products/adxl355.html
+SENSORES,SN-004,Sensor de Presión (Vacío),Pirani Gauge 10^-4 to 1000 Torr,1,pzas,Lesker,KJL275806,Kurt J. Lesker,KJL275806,450,450,21,Monitoreo de la cámara de vacío,https://www.lesker.com/newweb/gauges/convection_kjlc_275.cfm
+SENSORES,SN-005,Medidor de Nivel Sonoro,30-130dB Digital SPL Meter,1,pzas,Extech,407730,Amazon,B00023RTFA,85,85,5,Monitoreo acústico,
+MECÁNICO,MC-001,Cubierta Superior de la Carcasa,Aluminum 6061-T6 - CNC machined - with heatsink fins,1,pzas,Custom CNC,CUSTOM-TOP-01,Protolabs / Local CNC,QUOTE-REQ,120,120,14,Gestión térmica integrada,
+MECÁNICO,MC-002,Cilindro del Cuerpo de la Carcasa,Aluminum 6061-T6 - 60mm OD x 50mm ID x 55mm,1,pzas,Custom CNC,CUSTOM-BODY-01,Protolabs / Local CNC,QUOTE-REQ,80,80,14,Carcasa estructural principal,
+MECÁNICO,MC-003,Brida de Montaje,Aluminum 6061-T6 - 80mm dia x 10mm - 3x M4 holes,1,pzas,Custom CNC,CUSTOM-FLANGE-01,Protolabs / Local CNC,QUOTE-REQ,45,45,14,Interfaz para balanza de torsión,
+MECÁNICO,MC-004,Almohadillas de Aislamiento de Sorbothane,50A Durometer 25x25x10mm,4,pzas,Sorbothane,0530-50-10-25C,McMaster-Carr,9059K12,8,32,5,Aislamiento acústico de la balanza,https://www.sorbothane.com/isolate-it.aspx
+MECÁNICO,MC-005,Material de Interfaz Térmica,Arctic Silver 5 Thermal Compound 3.5g,1,tubo,Arctic Silver,AS5-3.5G,Amazon,B0087X728K,7,7,3,Interfaz piezoeléctrico-disipador,
+MECÁNICO,MC-006,Tornillos de Cabeza Hexagonal M2,M2 x 8mm Stainless Steel (piezo mounting),24,pzas,Generic,M2X8-SHCS,McMaster-Carr,91292A012,0.15,3.6,3,Sujetadores del arreglo piezoeléctrico,
+MECÁNICO,MC-007,Tornillos de Cabeza Hexagonal M3,M3 x 12mm Stainless Steel (housing assembly),16,pzas,Generic,M3X12-SHCS,McMaster-Carr,91292A113,0.2,3.2,3,Sujetadores de la carcasa,
+MECÁNICO,MC-008,Tornillos de Cabeza Hexagonal M4,M4 x 16mm Stainless Steel (flange mounting),3,pzas,Generic,M4X16-SHCS,McMaster-Carr,91292A168,0.25,0.75,3,Montaje de brida a la balanza,
+MECÁNICO,MC-009,Sello O-Ring,Viton 40mm ID x 2mm CS,2,pzas,Generic,ORI-40-2-V,McMaster-Carr,9464K28,2.5,5,3,Sello ambiental si es necesario,
+PCB,PCB-001,PCB de Control Principal,Custom 4-layer FR4 100x80mm,1,pzas,Custom,AETHERION-CTRL-V1,JLCPCB,QUOTE-REQ,25,25,10,MCU + DAC + acondicionamiento de señal,
+PCB,PCB-002,PCB Amplificador de Alta Tensión,Custom 2-layer FR4 150x100mm - HV clearances,1,pzas,Custom,AETHERION-HV-V1,JLCPCB,QUOTE-REQ,35,35,10,Montaje de 8x PA94,
+PCB,PCB-003,PCB de Interfaz de Sensores,Custom 2-layer FR4 50x50mm,1,pzas,Custom,AETHERION-SENS-V1,JLCPCB,QUOTE-REQ,15,15,10,Interfaz RTD + Acelerómetro,
+CONECTORES,CN-001,Conector de Alimentación DC,2.1mm Barrel Jack Panel Mount,1,pzas,CUI Devices,PJ-002A,Digi-Key,CP-002A-ND,1.5,1.5,3,Entrada 24V,
+CONECTORES,CN-002,Conector USB Tipo B,USB Type-B Panel Mount,1,pzas,Amphenol,MUSB-B511-30,Digi-Key,MUSB-B511-30-ND,3,3,3,Interfaz de control,
+CONECTORES,CN-003,Conector de Alta Tensión,SHV Coax Panel Mount 5kV,1,pzas,Kings Electronics,1704-1,Digi-Key,J583-ND,25,25,7,Pasacables de alta tensión,
+CONECTORES,CN-004,Cable Plano para Piezoeléctrico,8-conductor shielded 0.5mm pitch 200mm,1,pzas,Custom,PIEZO-RIBBON-01,Digi-Key / Custom,QUOTE-REQ,15,15,7,Conexión del arreglo piezoeléctrico,
+CONECTORES,CN-005,Conjunto de Cable para Sensor,4-pin M8 shielded 500mm,4,pzas,Phoenix Contact,1554840,Digi-Key,277-16596-ND,12,48,7,Cables para sensores RTD,
+PASIVOS,PS-001,Condensador 10uF 250V,Electrolytic Radial 250V 10uF,8,pzas,Nichicon,UVZ2E100MPD,Digi-Key,493-2224-ND,1.2,9.6,3,Condensadores de filtro de alta tensión,
+PASIVOS,PS-002,Condensador 100nF 50V,MLCC 0805 X7R,20,pzas,Murata,GRM21BR71H104KA01L,Digi-Key,490-1666-1-ND,0.1,2,3,Condensadores de desacoplamiento,
+PASIVOS,PS-003,Kit de Resistencias 1%,0805 SMD 1% 1K-1M assorted,1,kit,Various,RES-KIT-0805,Amazon,GENERIC,15,15,5,Uso general,
+PASIVOS,PS-004,Resistencia de Potencia 10 Ohm 25W,Wirewound Chassis Mount,8,pzas,Ohmite,L25J10RE,Digi-Key,L25J10RE-ND,4.5,36,5,Limitación de corriente de alta tensión,
+SEGURIDAD,SF-001,Botón de Paro de Emergencia,Red Mushroom 22mm NC,2,pzas,Schneider Electric,XB5AS8442,Digi-Key,966-1455-ND,18,36,5,Apagado de emergencia,
+SEGURIDAD,SF-002,LED Indicador de Alta Tensión,Red Panel Mount 250V Neon,1,pzas,VCC,CNX722A1REW250V,Digi-Key,CNX722A1REW250V-ND,3.5,3.5,3,Indicador de estado de alta tensión,
+SEGURIDAD,SF-003,Porta-Fusibles + Fusible,5x20mm 3A Fast Blow,2,pzas,Littelfuse,178.6165.0001,Digi-Key,F2648-ND,2.5,5,3,Protección contra sobrecorriente,
+SEGURIDAD,SF-004,Tomacorriente con Interruptor de Falla a Tierra,15A 120V Ground Fault,1,pzas,Leviton,GFNT1-W,Amazon,B001MLYTIU,18,18,3,Protección del personal,
+SEGURIDAD,SF-005,Protección Auditiva,NRR 30 Earmuffs,3,pares,3M,X4A,Amazon,B00CPCHBCQ,25,75,3,Seguridad acústica,
+SEGURIDAD,SF-006,Sonda de Descarga de Alta Tensión,Insulated with bleeder resistor,1,pzas,Custom/Pomona,5519A,Digi-Key,501-1236-ND,45,45,5,Descarga segura de condensadores,
+SEGURIDAD,SF-007,Extintor de Incendios,CO2 5lb Class BC,1,pzas,Kidde,PRO5CDM,Amazon,B002U0KGTY,85,85,5,Clasificado para incendios eléctricos,
+EQUIPO_DE_PRUEBA,TE-001,Balanza de Torsión,Resolution <10nN custom or research grade,1,pzas,Custom/University,TORSION-BAL-01,Custom Build,QUOTE-REQ,800,800,60,Instrumento de medición crítico,
+EQUIPO_DE_PRUEBA,TE-002,Sensor de Desplazamiento Óptico,Laser triangulation <0.1um resolution,1,pzas,Keyence,LK-G32,Keyence,LK-G32,2500,2500,21,Lectura de balanza - puede prestarse/rentarse,https://www.keyence.com/products/measure/laser-1d/
+EQUIPO_DE_PRUEBA,TE-003,Campana de Vacío,12 inch Borosilicate with baseplate,1,pzas,Kurt J. Lesker,BJL12000N01,Lesker,BJL12000N01,650,650,21,Puede que ya esté disponible en el laboratorio,https://www.lesker.com/newweb/chambers/belljar.cfm
+EQUIPO_DE_PRUEBA,TE-004,Bomba de Vacío Primaria,2-stage rotary vane 5 CFM,1,pzas,Edwards,RV5,eBay/Used,USED-RV5,400,400,14,Puede que ya esté disponible en el laboratorio,
+EQUIPO_DE_PRUEBA,TE-005,Pasacables para Vacío,10-pin electrical 2.75CF,1,pzas,Kurt J. Lesker,EFT0101053,Lesker,EFT0101053,180,180,14,Conexiones eléctricas a través de la cámara,
+CONSUMIBLES,CS-001,Alambre de Soldadura,Sn63Pb37 0.5mm 100g,1,rollo,Kester,24-6337-0010,Digi-Key,KE1101-ND,18,18,3,Ensamblaje de PCB,
+CONSUMIBLES,CS-002,Pluma de Flux,No-clean RMA,2,pzas,Kester,951,Digi-Key,KE1804-ND,8,16,3,Auxiliar de soldadura,
+CONSUMIBLES,CS-003,Alcohol Isopropílico,99% 1L,1,frasco,Generic,IPA-99-1L,Amazon,GENERIC,12,12,3,Limpieza,
+CONSUMIBLES,CS-004,Cinta Kapton,25mm x 33m,1,rollo,3M,5413,Amazon,B0192MK7L8,15,15,3,Aislamiento de alta tensión,
+DOCUMENTACIÓN,DOC-001,Cuaderno de Laboratorio,Numbered pages 200pg,1,pzas,Generic,LAB-NB-200,Amazon,GENERIC,25,25,3,Documentación de pruebas,
+DOCUMENTACIÓN,DOC-002,Juego de Masas de Calibración,1mg to 100g ASTM Class 4,1,juego,Troemner,7230-4W,Cole-Parmer,EW-11100-01,150,150,14,Calibración de la balanza de torsión,https://www.troemner.com/
+,,,,,,,,,,,,,,
+SUBTOTALES,,,,,,,,,,,,,,
+,CAT-MM,Componentes de Metamaterial,,,,,,,,3250,,Fabricación personalizada - 45 días de entrega,,
+,CAT-PZ,Sistema Piezoeléctrico,,,,,,,,745,,Incluye juego de repuesto,,
+,CAT-EL,Electronics,,,,,,,,1244.5,,,,
+,CAT-SN,Sensors,,,,,,,,669,,,,
+,CAT-MC,Mechanical/Hardware,,,,,,,,296.55,,,,
+,CAT-PCB,PCBs,,,,,,,,75,,,,
+,CAT-CN,Connectors/Cables,,,,,,,,92.5,,,,
+,CAT-PS,Passive Components,,,,,,,,62.6,,,,
+,CAT-SF,Safety Equipment,,,,,,,,267.5,,,,
+,CAT-TE,Equipo de Prueba,,,,,,,,5530,,Puede prestarse/compartirse,,
+,CAT-CS,Consumibles,,,,,,,,61,,,,
+,CAT-DOC,Documentación,,,,,,,,175,,,,
+,,,,,,,,,,,,,,
+TOTALES,,,,,,,,,,,,,,
+,SUBTOTAL,Todos los Componentes,,,,,,,,12468.65,,,,
+,CONTINGENCY,15% para envío/varios,,,,,,,,1870.3,,,,
+,GRAND_TOTAL,,,,,,,,,14338.95,,,,
+,,,,,,,,,,,,,,
+NOTAS,,,,,,,,,,,,,,
+,NOTE-1,El núcleo de metamaterial es FABRICACIÓN PERSONALIZADA - requiere documento de especificación RTM detallado para el proveedor. BUSCAR el archivo 06-METAMATERIAL_SPECIFICATION.md dentro de la CARPETA RAÍZ,,,,,,,,,,,,
+,NOTE-2,El equipo de prueba (TE-xxx) puede prestarse del laboratorio de física universitario - verificar disponibilidad antes de comprar,,,,,,,,,,,,
+,NOTE-3,Los amplificadores PA94 tienen 14 días de entrega - ORDENAR PRIMERO,,,,,,,,,,,,
+,NOTE-4,El juego de repuesto piezoeléctrico (PZ-003) es OBLIGATORIO debido al riesgo de despolarización térmica según la Asesoría del Equipo Rojo,,,,,,,,,,,,
+,NOTE-5,Todos los precios en USD estimados a partir de febrero 2026 - verificar antes de ordenar,,,,,,,,,,,,
+,NOTE-6,JLCPCB requiere archivos Gerber - el diseño del PCB debe completarse antes de ordenar,,,,,,,,,,,,
+
+
+
+
