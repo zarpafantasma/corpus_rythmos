@@ -188,6 +188,8 @@ La primera implementación operacional de la Teoría RTM, una implementación co
 * **Lanzar App:** [Consola RTM CLIMATE MONITOR](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
 * **Escalando la Visión:** Mientras que la plataforma actual opera tanto como escáner localizado y analizador de macro-clima, la hoja de ruta final prevé una red de detección autónoma a escala planetaria. Aprovechando telemetría global masiva, matemáticas tensoriales GPU y un gemelo digital 3D, la arquitectura final monitoreará la viscosidad topológica completa de la Tierra en tiempo real. Lee el plan completo aquí: [Visión de Arquitectura Global (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/RTM%20CLIMATE-Global-Architecture-Vision.pdf).
 
+> **AVISO: Esta es una herramienta de investigación estrictamente académica para la termodinámica atmosférica multiescala. Está diseñada para la validación meteorológica teórica y no abusa, no hace spam ni realiza extracción masiva de datos (web scraping) de APIs comerciales.**
+
 ---
 #### 2. RTM ECONOMIC MONITOR (Motor Cripto)
 La segunda implementación operacional de la Teoría RTM, demostrando su universalidad a través de disciplinas al aplicar los mismos principios topológicos a la complejidad financiera. Esta herramienta escanea datos de mercado en tiempo real (como BTC/USDT) para detectar fracturas estructurales en la liquidez. Está diseñada para identificar el momento exacto en que la "fricción" matemática del mercado colapsa, prediciendo eventos de volatilidad severa (crashes relámpago o bombeos explosivos) días antes de que reaccionen los indicadores de momento cinético tradicionales.
@@ -196,6 +198,8 @@ La segunda implementación operacional de la Teoría RTM, demostrando su univers
 * **Dominio:** Finanzas Cuantitativas y Topología de Mercado
 * **Lanzar App:** [Consola RTM ECONOMIC MONITOR](https://corpusrythmos-cryptomonitor.streamlit.app/)
 * **Escalando la Visión:** Mientras que el actual RTM ECONOMIC MONITOR opera como un escáner localizado de activo único, la hoja de ruta final aborda el desafío central absoluto de la física financiera: **la reflexividad del mercado**. Debido a que los mercados son auto-conscientes, la predicción generalizada de una fractura de liquidez topológica alterará inherentemente su línea temporal (el Efecto Observador). Para sobrevivir a su propio éxito, la arquitectura final prevé un **Motor Reflexivo de Segundo Orden**. Aprovechando matemáticas tensoriales conductuales y modelado de bucles de retroalimentación. Lee el plan completo aquí: [Visión de Arquitectura Económica (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/cryptocurrency_monitor/RTM_Economic_Monitor.pdf)
+
+> **DESCARGO DE RESPONSABILIDAD: Esta es una herramienta académica de análisis de datos topológicos de solo lectura. NO ejecuta operaciones de mercado, NO mina criptomonedas y NO constituye asesoramiento financiero.**
 ---
 
 ## Estructura del Corpus
