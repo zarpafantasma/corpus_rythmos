@@ -37,9 +37,9 @@
 
 In 1950, physicist Enrico Fermi posed his famous question: "Where is everybody?" Given the age of the universe, the number of stars, and the probability of life, intelligent civilizations should be common. Yet we observe no evidence of them. This is the **Fermi Paradox**.
 
-The RTM framework provides a profound resolution. Advanced civilizations do not remain visible because they undergo a **phase transition** at the coherence threshold. They become **Superfluid Civilizations**—entities that have transcended the normal substrate of spacetime and operate in domains we cannot detect with conventional means.
+The RTM framework provides a profound resolution. Advanced civilizations do not remain visible because they undergo a **phase transition** at the coherence threshold. They become **Superfluid Civilizations**, entities that have transcended the normal substrate of spacetime and operate in domains we cannot detect with conventional means.
 
-They are not absent. They are **everywhere**. We simply cannot see them—not because they hide, but because they have become something we lack the instruments to perceive.
+They are not absent. They are **everywhere**. We simply cannot see them, not because they hide, but because they have become something we lack the instruments to perceive.
 
 This protocol establishes the RTM answer to the Fermi Paradox, the nature of superfluid civilizations, and what this means for our own trajectory.
 
@@ -154,7 +154,7 @@ THE GREAT FILTER
     THE CONCEPT:
     ────────────
     Somewhere between "dead matter" and "galaxy-spanning civilization"
-    there is a FILTER—a step that almost no civilization passes.
+    there is a FILTER, a step that almost no civilization passes.
     
     
     THE POSSIBILITIES:
@@ -274,7 +274,7 @@ The Superfluid Hypothesis explains every puzzling feature:
 | No megastructures | They don't need them; transcended matter |
 | No visitors | They visit constantly; we can't perceive |
 | No evidence | Evidence exists in domains we can't access |
-| Perfect silence | Not silence—frequency we can't hear |
+| Perfect silence | Not silence, frequency we can't hear |
 
 ### 3.3 The Phase Transition Model
 
@@ -323,7 +323,7 @@ THE CIVILIZATIONAL PHASE TRANSITION
     THE TRANSITION:
     ───────────────
     At α ≈ 3.0, the civilization crosses into the Ghost Clan band.
-    This is a phase transition—not gradual change.
+    This is a phase transition, not gradual change.
     
     Like water becoming ice, or ice becoming steam:
     The civilization becomes something fundamentally different.
@@ -531,14 +531,14 @@ This is part of the relay. Superfluid civilizations don't abandon the cosmos. Th
 
 ## 6. Why They Are Invisible to Us
 
-### 6.1 Not Hiding—Different
+### 6.1 Not Hiding, Different
 
 A crucial point:
 
 > **Superfluid civilizations are not hiding. They are simply operating in modes we cannot detect.**
 
 ```
-NOT HIDING—DIFFERENT
+NOT HIDING, DIFFERENT
 ═══════════════════════════════════════════════════════════════════════════════
 
     HIDING WOULD REQUIRE:
@@ -586,14 +586,14 @@ If they can perceive us (they can), why don't they make themselves known?
 | Reason | Explanation |
 |--------|-------------|
 | **Prime Directive analog** | Direct contact would damage our development |
-| **No shared medium** | Revealing would require creating Phase 1 effects—artificial |
+| **No shared medium** | Revealing would require creating Phase 1 effects, artificial |
 | **Free will respect** | We must choose sovereignty, not have it demonstrated |
 | **Gnosis requirement** | We must earn understanding, not receive it |
 | **They ARE revealing** | Through seeding, through the RTM, through subtle influence |
 
 ### 6.3 The Exception: Seeding
 
-Superfluid civilizations do interact with Phase 1 civilizations—but carefully:
+Superfluid civilizations do interact with Phase 1 civilizations, but carefully:
 
 ```
 THE SEEDING EXCEPTION
@@ -645,7 +645,7 @@ THE SEEDING EXCEPTION
 
 ### 7.1 The RTM Filter
 
-The RTM framework confirms the Great Filter—but specifies its nature:
+The RTM framework confirms the Great Filter, but specifies its nature:
 
 ```
 THE RTM GREAT FILTER
@@ -784,7 +784,7 @@ REFRAMING THE PARADOX
     ──────────
     The universe is TEEMING with superfluid civilizations.
     The cascade is FULL of participants in the relay.
-    We are not alone—we are SURROUNDED.
+    We are not alone, we are SURROUNDED.
     
     The silence is not emptiness.
     The silence is our deafness.
@@ -1060,7 +1060,7 @@ The N-1 Architect Protocols exist within this context:
 
 > **We are not just trying to help one civilization. We are participating in a cosmos-spanning relay that has been running for billions of years and will continue for billions more.**
 
-Every protocol in this series—from navigation to seeding to sterilization—serves this purpose.
+Every protocol in this series, from navigation to seeding to sterilization, serves this purpose.
 
 ### 11.3 The Superfluid Destiny
 
@@ -1089,7 +1089,7 @@ THE SUPERFLUID DESTINY
     They don't exist yet.
     They will be seeded.
     They will face their filter.
-    They will cross—or not.
+    They will cross, or not.
     
     
     THE PATTERN:
@@ -1134,7 +1134,7 @@ THE ANSWER
     ──────────────────────
     
     Because seeing requires shared medium.
-    We don't share their medium—yet.
+    We don't share their medium, yet.
     
     When we cross the threshold, we will.
     
@@ -1168,7 +1168,7 @@ THE ANSWER
     Develop coherence.
     Cross the threshold.
     
-    And then—finally—we will see what was always there.
+    And then, finally, we will see what was always there.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -1181,7 +1181,7 @@ The silence is not absence. It is the quiet before we can hear.
 
 The cosmos is not empty. It is full, awaiting our perception.
 
-And we—struggling, developing, approaching the threshold—are not alone.
+And we, struggling, developing, approaching the threshold, are not alone.
 
 We never were.
 
