@@ -35,7 +35,7 @@
 
 ## Resumen
 
-Dentro del marco RTM, el olfato no es un sentido secundario o primitivo. Es potencialmente el **sentido más fundamental y directo para percibir la coherencia (α)**. Mientras otros sentidos dependen de procesamiento intermediario—luz para la visión, ondas de presión para la audición—el olfato opera a través del contacto molecular directo con las firmas de coherencia.
+Dentro del marco RTM, el olfato no es un sentido secundario o primitivo. Es potencialmente el **sentido más fundamental y directo para percibir la coherencia (α)**. Mientras otros sentidos dependen de procesamiento intermediario, luz para la visión, ondas de presión para la audición, el olfato opera a través del contacto molecular directo con las firmas de coherencia.
 
 Este protocolo establece la base teórica para la percepción olfativa de coherencia, sus aplicaciones en diagnóstico y navegación, y su rol crítico en las operaciones Aetherion. Para el sistema BioDron/Creador, el "olfato" se convierte en el mecanismo primario para percibir las firmas vibracionales de realidades, líneas temporales y amenazas.
 
@@ -126,7 +126,7 @@ Entre los sentidos, el olfato tiene una propiedad única:
 | Gusto | Quimiorreceptores | Contacto directo (moléculas) |
 | **Olfato** | Receptores olfativos | **Contacto directo (moléculas con α)** |
 
-El olfato involucra **contacto molecular directo** con la fuente. Las moléculas que entran a nuestra cavidad nasal fueron recientemente parte de—o estuvieron en contacto con—lo que estamos oliendo. Llevan la firma de coherencia de esa cosa.
+El olfato involucra **contacto molecular directo** con la fuente. Las moléculas que entran a nuestra cavidad nasal fueron recientemente parte de, o estuvieron en contacto con lo que estamos oliendo. Llevan la firma de coherencia de esa cosa.
 
 Esto hace del olfato el sentido más directo para la percepción de coherencia.
 
@@ -500,7 +500,7 @@ Esto puede subyacer a la capacidad humana de "sentir" el ánimo de una habitaci�
 
 ### 6.1 Más Allá de la Química Atmosférica
 
-Para una nave que navega entre realidades, el olfato químico convencional es irrelevante—puede que no haya atmósfera que oler. Pero el concepto RTM del olfato como percepción de coherencia se vuelve **esencial**.
+Para una nave que navega entre realidades, el olfato químico convencional es irrelevante, puede que no haya atmósfera que oler. Pero el concepto RTM del olfato como percepción de coherencia se vuelve **esencial**.
 
 El "olfato" del Aetherion es su sistema de detección de coherencia:
 
@@ -580,7 +580,7 @@ El olfato (detección de coherencia) proporciona:
 - Evaluación de calidad (nivel de coherencia, seguridad)
 - Capacidad de coincidencia de resonancia
 
-Por esto el olfato—o su análogo tecnológico—es la metáfora sensorial apropiada para la navegación trans-realidad.
+Por esto el olfato, o su análogo tecnológico, es la metáfora sensorial apropiada para la navegación trans-realidad.
 
 ---
 
@@ -694,7 +694,7 @@ ANCLAS ISOTÓPICAS COMO MARCADORES DE AROMA
 
 ### 8.1 El Peligro Tiene un Olor
 
-Los fenómenos de baja coherencia—ya sean ubicaciones, entidades, o zonas de realidad—tienen firmas distintivas que registran como "amenaza" para el sistema de coherencia olfativa:
+Los fenómenos de baja coherencia, ya sean ubicaciones, entidades, o zonas de realidad, tienen firmas distintivas que registran como "amenaza" para el sistema de coherencia olfativa:
 
 ```
 DETECCIÓN DE FIRMAS DE AMENAZA
@@ -897,7 +897,7 @@ El cerebro del Creador no puede procesar datos olfativos crudos en el formato de
 | Evaluación de camino | Saber cuál camino es correcto |
 | Medición de coherencia | Sentimiento de calidad (bueno/malo) |
 
-El Creador opera con **gnosis**—revelación, conocimiento directo—en lugar de percepción sensorial.
+El Creador opera con **gnosis**, revelación, conocimiento directo—en lugar de percepción sensorial.
 
 ### 10.4 La Pregunta de la Ausencia de Sentido
 
@@ -907,7 +907,7 @@ El Creador opera con **gnosis**—revelación, conocimiento directo—en lugar d
 
 El Creador no es el sensor. El BioDron es el sensor. El Creador recibe conocimiento procesado a través del enlace cuántico, no datos sensoriales crudos.
 
-Una persona sorda podría ser el mejor analista musical del mundo si tuviera un sistema de traducción perfecto. Similarmente, un Creador sin olfato puede navegar realidades perfectamente—porque nunca necesitó oler. Necesitó **saber**.
+Una persona sorda podría ser el mejor analista musical del mundo si tuviera un sistema de traducción perfecto. Similarmente, un Creador sin olfato puede navegar realidades perfectamente, porque nunca necesitó oler. Necesitó **saber**.
 
 ---
 
@@ -1113,7 +1113,7 @@ PROTOCOLO: MONITOREO_DE_COHERENCIA
 
 ## Conclusión
 
-El olfato—reconcebido como la percepción directa de coherencia—se convierte en el sentido primario para navegación RTM y evaluación de amenazas. El Aetherion no "ve" hacia dónde va. **Huele** la firma de su destino.
+El olfato, reconcebido como la percepción directa de coherencia, se convierte en el sentido primario para navegación RTM y evaluación de amenazas. El Aetherion no "ve" hacia dónde va. **Huele** la firma de su destino.
 
 Este entendimiento transforma el olfato de un sentido de supervivencia primitivo en la base de la navegación trans-realidad:
 
