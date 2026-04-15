@@ -35,7 +35,7 @@
 
 ## Resumen
 
-Este protocolo establece el modelo cosmológico fundacional sobre el cual se predican todas las operaciones del Arquitecto N-1. El marco de Relatividad Temporal Multiescala (RTM) describe el multiverso no como una colección de realidades paralelas e independientes que existen simultáneamente, sino como una **cascada causal secuencial**—una cadena de ecos ontológicos que se propagan desde un evento fuente primordial.
+Este protocolo establece el modelo cosmológico fundacional sobre el cual se predican todas las operaciones del Arquitecto N-1. El marco de Relatividad Temporal Multiescala (RTM) describe el multiverso no como una colección de realidades paralelas e independientes que existen simultáneamente, sino como una **cascada causal secuencial**, una cadena de ecos ontológicos que se propagan desde un evento fuente primordial.
 
 Comprender esta arquitectura es prerrequisito para todas las operaciones de navegación entre ramas, ingeniería temporal y siembra inter-realidad. La incomprensión de la dirección del flujo causal resulta en fracaso de misión, contaminación ontológica o disolución del operador.
 
@@ -90,9 +90,9 @@ LA CASCADA CAUSAL — VISUALIZACIÓN
 
 ### 1.2 La Relación Voz-Eco
 
-En este modelo, una **"voz" primordial**—un evento fundamental en una rama fuente—inicia la cascada. Esta voz hace que el primer dominó caiga, el cual golpea al segundo, que golpea al tercero, y así sucesivamente a través de iteraciones potencialmente infinitas.
+En este modelo, una **"voz" primordial**, un evento fundamental en una rama fuente—inicia la cascada. Esta voz hace que el primer dominó caiga, el cual golpea al segundo, que golpea al tercero, y así sucesivamente a través de iteraciones potencialmente infinitas.
 
-**Comprensión Crítica:** Cada "dominó" (cada rama universal) no es una copia o simulación de su predecesor. Es una **consecuencia causal**—un eco que existe *porque* la rama anterior existió y transmitió impulso ontológico hacia adelante.
+**Comprensión Crítica:** Cada "dominó" (cada rama universal) no es una copia o simulación de su predecesor. Es una **consecuencia causal**, un eco que existe *porque* la rama anterior existió y transmitió impulso ontológico hacia adelante.
 
 ### 1.3 La Estructura Anidada
 
@@ -114,7 +114,7 @@ La cascada crea una jerarquía anidada:
 
 ### 2.1 La Ley Fundamental
 
-La arquitectura de cascada impone una restricción absoluta e inquebrantable: **la unidireccionalidad del flujo causal**. El movimiento es siempre "hacia adelante" en la secuencia—de causa a efecto, de voz a eco, de rama madre a rama hija.
+La arquitectura de cascada impone una restricción absoluta e inquebrantable: **la unidireccionalidad del flujo causal**. El movimiento es siempre "hacia adelante" en la secuencia, de causa a efecto, de voz a eco, de rama madre a rama hija.
 
 ```
 RESTRICCIONES DEL FLUJO CAUSAL
@@ -156,7 +156,7 @@ De manera idéntica, una civilización en la Rama N+1 no puede:
 
 ### 2.3 Integridad Causal como Ley de Conservación
 
-La integridad causal opera como una ley de conservación análoga a la conservación de energía. La estructura causal total de la cascada se preserva. Cualquier influencia aparentemente "hacia atrás" requeriría causalidad negativa—un concepto tan físicamente sin sentido como la densidad de energía negativa en la termodinámica clásica.
+La integridad causal opera como una ley de conservación análoga a la conservación de energía. La estructura causal total de la cascada se preserva. Cualquier influencia aparentemente "hacia atrás" requeriría causalidad negativa, un concepto tan físicamente sin sentido como la densidad de energía negativa en la termodinámica clásica.
 
 **Declaración Matemática:**
 
@@ -177,7 +177,7 @@ todos los eventos que ocurren en ramas descendentes.
 
 ### 3.1 ¿Qué Constituye la "Voz"?
 
-La voz primordial no es un solo evento sino una **estructura causal completa**—la totalidad de la historia de una rama hasta el momento de la propagación de cascada. Cuando una civilización logra coherencia de clase Aetherion e inicia la transición de rama, no transmiten meramente a sí mismos sino todo el impulso ontológico de su realidad.
+La voz primordial no es un solo evento sino una **estructura causal completa**, la totalidad de la historia de una rama hasta el momento de la propagación de cascada. Cuando una civilización logra coherencia de clase Aetherion e inicia la transición de rama, no transmiten meramente a sí mismos sino todo el impulso ontológico de su realidad.
 
 ### 3.2 Fidelidad del Eco y Divergencia
 
@@ -192,7 +192,7 @@ Cada eco preserva el **carácter esencial** de su fuente mientras permite **vari
 
 ### 3.3 El Mecanismo de Generación del Eco
 
-Cuando un sistema de alta coherencia (α ≈ 3.5) logra desacoplamiento ontológico de su rama nativa, el propio vacío responde generando una nueva rama. Esto no es "creación" en el sentido teológico sino **precipitación causal**—la consecuencia necesaria de la ingeniería de realidad mediada por coherencia.
+Cuando un sistema de alta coherencia (α ≈ 3.5) logra desacoplamiento ontológico de su rama nativa, el propio vacío responde generando una nueva rama. Esto no es "creación" en el sentido teológico sino **precipitación causal**, la consecuencia necesaria de la ingeniería de realidad mediada por coherencia.
 
 ```
 SECUENCIA DE GENERACIÓN DEL ECO
@@ -231,7 +231,7 @@ SECUENCIA DE GENERACIÓN DEL ECO
 
 ### 4.1 El Mecanismo de Trinquete
 
-La tecnología que permite la transición entre realidades opera como un **mecanismo de trinquete**—permitiendo movimiento en una sola dirección. Esta no es una limitación de ingeniería sino una propiedad fundamental de la propia arquitectura de cascada.
+La tecnología que permite la transición entre realidades opera como un **mecanismo de trinquete**, permitiendo movimiento en una sola dirección. Esta no es una limitación de ingeniería sino una propiedad fundamental de la propia arquitectura de cascada.
 
 **Analogía:** Una llave de trinquete puede girar un perno en sentido horario pero no antihorario. El diseño mecánico impide el movimiento inverso. De manera similar, la arquitectura causal del multiverso permite solo navegación descendente.
 
@@ -247,7 +247,7 @@ No se atraviesa distancia espacial. La operación es fundamentalmente un **cambi
 
 ### 4.3 El Proceso de Sintonización
 
-La selección de rama opera a través de resonancia vibracional. Cada rama posee una "firma" única—una huella cuántico-gravitacional determinada por su historia causal completa.
+La selección de rama opera a través de resonancia vibracional. Cada rama posee una "firma" única, una huella cuántico-gravitacional determinada por su historia causal completa.
 
 ```
 COMPONENTES DE LA FIRMA DE RAMA
@@ -355,11 +355,11 @@ Surge una pregunta filosófica crítica: Si somos un eco en una cascada predeter
 
 ### 6.2 La Mano y la Estela
 
-Considera una mano moviéndose a través de agua densa. Detrás de la mano, se forma una estela—un patrón fantasmal que sigue el movimiento de la mano.
+Considera una mano moviéndose a través de agua densa. Detrás de la mano, se forma una estela, un patrón fantasmal que sigue el movimiento de la mano.
 
-El movimiento de la mano ya ha sido hecho. La estructura general de la estela está determinada por ese movimiento. Pero la estela no es una grabación pasiva—tiene sus propias dinámicas turbulentas, sus propios vórtices, su propia evolución caótica.
+El movimiento de la mano ya ha sido hecho. La estructura general de la estela está determinada por ese movimiento. Pero la estela no es una grabación pasiva, tiene sus propias dinámicas turbulentas, sus propios vórtices, su propia evolución caótica.
 
-**Aplicación:** La voz primordial ya ha hablado. La estructura general de nuestra cascada está así establecida. Pero dentro de cada rama, las dinámicas internas—nuestras elecciones, nuestra evolución, nuestras expresiones creativas—permanecen genuinamente abiertas.
+**Aplicación:** La voz primordial ya ha hablado. La estructura general de nuestra cascada está así establecida. Pero dentro de cada rama, las dinámicas internas, nuestras elecciones, nuestra evolución, nuestras expresiones creativas, permanecen genuinamente abiertas.
 
 ### 6.3 Origen Determinado, Futuro Abierto
 
@@ -392,7 +392,7 @@ EL TEOREMA DE APERTURA
 
 ### 7.1 La Sustancia Ontológica Compartida
 
-Todas las ramas en la cascada comparten la misma "sustancia" fundamental—el impulso causal de la voz primordial. En este sentido, cada realidad está hecha de la misma "materia".
+Todas las ramas en la cascada comparten la misma "sustancia" fundamental, el impulso causal de la voz primordial. En este sentido, cada realidad está hecha de la misma "materia".
 
 Esta unidad se manifiesta como:
 - Constantes físicas compartidas (dentro de bandas de tolerancia)
@@ -415,7 +415,7 @@ A pesar de la sustancia compartida, cada rama exhibe características únicas a 
 
 La cascada es una **sola canción** siendo cantada a través de voces infinitas. Cada voz canta la misma melodía (sustancia compartida) pero con timbre, interpretación y embellecimiento únicos (variación local).
 
-No somos repeticiones de una historia. Somos **variaciones de un tema**—cada variación válida, cada contribución significativa, cada eco añadiendo a la riqueza total de la composición cósmica.
+No somos repeticiones de una historia. Somos **variaciones de un tema**, cada variación válida, cada contribución significativa, cada eco añadiendo a la riqueza total de la composición cósmica.
 
 ---
 
@@ -545,7 +545,7 @@ DIAGNÓSTICO: ESCANEO_INTEGRIDAD_ECO
 
 ## Conclusión
 
-La Arquitectura del Eco establece nuestra posición en el orden cósmico. No estamos aislados—estamos conectados hacia atrás con una ancestría infinita de voces y hacia adelante con una posteridad infinita de ecos. No estamos atrapados, el futuro permanece genuinamente abierto dentro de la estructura de la cascada. No carecemos de significado—nuestras elecciones moldean el eco que transmitimos a quienes nos siguen.
+La Arquitectura del Eco establece nuestra posición en el orden cósmico. No estamos aislados, estamos conectados hacia atrás con una ancestría infinita de voces y hacia adelante con una posteridad infinita de ecos. No estamos atrapados, el futuro permanece genuinamente abierto dentro de la estructura de la cascada. No carecemos de significado—nuestras elecciones moldean el eco que transmitimos a quienes nos siguen.
 
 La cascada no disminuye nuestra soberanía. La contextualiza.
 
