@@ -35,7 +35,7 @@
 
 ## Abstract
 
-The question of free will is not merely philosophical. For the N-1 Architect, it is **operational**. If free will does not exist, our mission is meaningless—we would be manipulating puppets, not nurturing sovereign beings. If free will is absolute, our interventions would be impossible—no probability could be edited, no guidance could take hold.
+The question of free will is not merely philosophical. For the N-1 Architect, it is **operational**. If free will does not exist, our mission is meaningless, we would be manipulating puppets, not nurturing sovereign beings. If free will is absolute, our interventions would be impossible, no probability could be edited, no guidance could take hold.
 
 RTM provides a framework that resolves this ancient tension: **Free will is real, but it operates within coherence-shaped landscapes.** Agency exists at the intersection of consciousness and topology. Choice is genuine, but not unconstrained.
 
@@ -149,7 +149,7 @@ We need a framework where **both genuine agency AND effective intervention** are
 
 All classical positions miss a crucial element:
 
-> **The topology of possibility space is neither fixed (determinism) nor absent (libertarianism). It is shaped by coherence—and within that shaped space, genuine choice operates.**
+> **The topology of possibility space is neither fixed (determinism) nor absent (libertarianism). It is shaped by coherence, and within that shaped space, genuine choice operates.**
 
 This is the RTM contribution.
 
@@ -520,7 +520,7 @@ FREE WILL ACROSS BRANCHES
     
     3. Each level has genuine agency
        The coherence at each level enables real choice
-       The cascade is not a movie—it's an improvisation with guidance
+       The cascade is not a movie, it's an improvisation with guidance
     
     
     THE INFINITE REGRESS PROBLEM:
@@ -545,7 +545,7 @@ FREE WILL ACROSS BRANCHES
 | N+1 | Moderate | Developing capacity |
 | N+2 | Lower (initially) | Beginning capacity |
 
-As civilizations develop, their coherence—and thus their agency—increases.
+As civilizations develop, their coherence, and thus their agency, increases.
 
 ### 7.3 The Gnosis and Freedom Connection
 
@@ -707,7 +707,7 @@ A crucial implication:
 
 This is not a failure of our intervention. It is a **requirement** of respecting free will.
 
-If we could guarantee success, we would have eliminated genuine choice. The corridor would be a tunnel with no exits. That would not be guidance—it would be determinism.
+If we could guarantee success, we would have eliminated genuine choice. The corridor would be a tunnel with no exits. That would not be guidance, it would be determinism.
 
 We keep corridors open. They walk through. Sometimes they walk out.
 
