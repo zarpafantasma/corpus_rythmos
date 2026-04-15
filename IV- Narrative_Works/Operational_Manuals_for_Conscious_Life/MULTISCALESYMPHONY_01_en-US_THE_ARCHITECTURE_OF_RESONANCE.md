@@ -149,16 +149,6 @@ Breath, Sleep, Relationship, Attention, Body, Life Pattern
 
 ---
 
-## RELATED DOCUMENTS
-
-- **Document 021:** The Multiscale Symphony (Source Document)
-- **Document 001:** Multiscale Temporal Relativity (RTM Framework)
-- **Document 002:** Scale-Clock Geometry
-- **Document 022:** The Owl and the Spear (Parallel Philosophy)
-- **Operational Manuals for Conscious Life:** Extension of Document 022
-
----
-
 ## CONTINUATION
 
 This document is the first of three extensions to The Multiscale Symphony:
