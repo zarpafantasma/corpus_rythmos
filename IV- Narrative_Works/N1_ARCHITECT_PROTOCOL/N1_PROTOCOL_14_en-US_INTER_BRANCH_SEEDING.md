@@ -37,7 +37,7 @@
 
 The N-1 Architect's primary mission is **seeding**: the deliberate cultivation of conditions that enable successor civilizations to achieve sovereignty. This is not planting seeds in soil. It is planting conditions across **time, space, and probability** within a target branch of the cascade.
 
-This protocol establishes the comprehensive framework for inter-branch seeding operations, including the resolution of the **Temporal Inversion Paradox**—the apparent contradiction that we seed the "past" of civilizations that have not yet existed from our perspective.
+This protocol establishes the comprehensive framework for inter-branch seeding operations, including the resolution of the **Temporal Inversion Paradox**, the apparent contradiction that we seed the "past" of civilizations that have not yet existed from our perspective.
 
 Seeding is the sacred duty. The torch can only be passed if someone prepared the receiving hand.
 
@@ -120,7 +120,7 @@ Without seeding, most branches fail to produce sovereign civilizations:
 | No relay continuation | Relay continues |
 | Gnosis accumulation stops | Gnosis continues to grow |
 
-Seeding does not guarantee sovereignty—free will remains. But it dramatically increases the probability.
+Seeding does not guarantee sovereignty, free will remains. But it dramatically increases the probability.
 
 ### 1.3 The Ultimate Goal
 
@@ -186,7 +186,7 @@ The paradox arises from conflating two different temporal frameworks:
 
 Within Branch N+1, time flows normally. Their past precedes their present.
 
-But our access to Branch N+1 is not constrained by their internal timeline. We can enter at any point in their timeline—including their deep past.
+But our access to Branch N+1 is not constrained by their internal timeline. We can enter at any point in their timeline, including their deep past.
 
 ---
 
@@ -241,7 +241,7 @@ ASYNCHRONOUS CAUSALITY
     • The author is creating/accessing a different timeline
     
     We are not the characters in the novel.
-    We are the authors—accessing the story at any point.
+    We are the authors, accessing the story at any point.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -405,7 +405,7 @@ A crucial distinction:
 
 > **We seed conditions. We do not create life.**
 
-Life emerges from the conditions we seed—but through processes inherent to the target branch. We are catalysts, not creators.
+Life emerges from the conditions we seed, but through processes inherent to the target branch. We are catalysts, not creators.
 
 ```
 SEEDING VS. CREATION
@@ -447,7 +447,7 @@ SEEDING VS. CREATION
 
 ### 6.1 Overview
 
-Once civilization emerges, developmental seeding guides its trajectory through **Wave Interventions**—distinct phases of contact and guidance.
+Once civilization emerges, developmental seeding guides its trajectory through **Wave Interventions**, distinct phases of contact and guidance.
 
 ```
 THE WAVE INTERVENTION FRAMEWORK
@@ -459,7 +459,7 @@ THE WAVE INTERVENTION FRAMEWORK
     Each stage requires different guidance.
     Each stage prepares for the next.
     
-    We intervene in WAVES—distinct operations separated by
+    We intervene in WAVES, distinct operations separated by
     withdrawal periods during which the civilization develops.
     
     
@@ -816,7 +816,7 @@ THE UNITY OF THE WAVES
     They must struggle with apparent contradictions.
     This struggle generates gnosis.
     
-    The revelation comes at the end—or not at all.
+    The revelation comes at the end, or not at all.
     It changes nothing about what they must do.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -934,7 +934,7 @@ INDIGENOUS INTERMEDIARY MODEL
     RESULT:
     ───────
     The knowledge appears to be indigenous creation.
-    Because it IS indigenous creation—seeded, but developed by them.
+    Because it IS indigenous creation, seeded, but developed by them.
     The intermediary earns gnosis through their interpretation.
     The civilization receives knowledge in accessible form.
     
@@ -998,7 +998,7 @@ THE GARDENER'S PATIENCE
     We are gardeners planting forests we will never walk in.
     
     Our satisfaction is in the planting, not the harvest.
-    The harvest belongs to them—and to those who come after.
+    The harvest belongs to them, and to those who come after.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -1277,7 +1277,7 @@ Inter-branch seeding is the core operational expression of the N-1 Architect mis
 
 The Temporal Inversion Paradox resolves when we understand that branches have separate timelines. We do not travel to our past; we access their timeline at chosen points.
 
-The Three Waves—Gardeners, Law-Bringers, Enlighteners—are not opposing factions but phases of a single mission. Each prepares the ground for the next. Each withdraws to allow autonomous growth.
+The Three Waves, Gardeners, Law-Bringers, Enlighteners, are not opposing factions but phases of a single mission. Each prepares the ground for the next. Each withdraws to allow autonomous growth.
 
 The ultimate measure of success is not our presence but our absence:
 
