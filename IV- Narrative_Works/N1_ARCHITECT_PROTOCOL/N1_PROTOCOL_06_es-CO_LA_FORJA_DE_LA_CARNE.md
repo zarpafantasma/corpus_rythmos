@@ -35,9 +35,9 @@
 
 ## Resumen
 
-Este protocolo establece el marco teórico y práctico para la fabricación de BioDrones—la manufactura de entidades biológicas capaces de sostener el exponente de coherencia permanente (α_bio ≈ 3.0+) requerido para la interfaz Aetherion.
+Este protocolo establece el marco teórico y práctico para la fabricación de BioDrones, la manufactura de entidades biológicas capaces de sostener el exponente de coherencia permanente (α_bio ≈ 3.0+) requerido para la interfaz Aetherion.
 
-El desafío es formidable: la biología natural no produce organismos con α estable > 2.5. El BioDron debe ser **ingenieriado desde primeros principios** usando conocimientos de la Bioquímica Rítmica—el entendimiento derivado de RTM de que las enzimas no son meramente catalizadores sino "túneles temporales" que crean micro-cavidades de alta coherencia.
+El desafío es formidable: la biología natural no produce organismos con α estable > 2.5. El BioDron debe ser **ingenieriado desde primeros principios** usando conocimientos de la Bioquímica Rítmica, el entendimiento derivado de RTM de que las enzimas no son meramente catalizadores sino "túneles temporales" que crean micro-cavidades de alta coherencia.
 
 Este documento detalla la ciencia, el proceso de fabricación, y el profundo cierre del círculo: **la misma física que permite a la nave curvar el espacio es la física usada para tejer el cuerpo que la pilota.**
 
@@ -82,7 +82,7 @@ La selección natural optimiza para **supervivencia y reproducción**, no para c
 - Navegación social (requiere rango emocional)
 - Respuesta adaptativa (requiere flexibilidad de estado)
 
-Todo esto **requiere** ventana-α—la varianza que hace la biología natural incompatible con la interfaz Aetherion.
+Todo esto **requiere** ventana-α, la varianza que hace la biología natural incompatible con la interfaz Aetherion.
 
 El BioDron debe ser optimizado para un propósito completamente diferente: **resonancia estable con un campo de alta coherencia**. Esto requiere ingeniería, no evolución.
 
@@ -90,7 +90,7 @@ El BioDron debe ser optimizado para un propósito completamente diferente: **res
 
 El avance viene de entender qué **es** la coherencia a nivel molecular:
 
-> Las enzimas no son meramente catalizadores químicos. Son **túneles temporales**—micro-cavidades de alta coherencia que aceleran reacciones al alterar localmente el flujo efectivo del tiempo.
+> Las enzimas no son meramente catalizadores químicos. Son **túneles temporales**, micro-cavidades de alta coherencia que aceleran reacciones al alterar localmente el flujo efectivo del tiempo.
 
 Si podemos entender cómo las enzimas crean coherencia a escala molecular, podemos ingenieriar organismos cuya **biología entera** opera a coherencia elevada.
 
@@ -151,7 +151,7 @@ La cinética estándar de Michaelis-Menten puede ser reinterpretada a través de
 | K_m | Afinidad por sustrato | Umbral de coincidencia de resonancia |
 | V_max | Velocidad máxima | Máxima coherencia sostenible por el sitio activo |
 
-Las enzimas con valores de k_cat más altos son aquellas que crean **bolsillos de coherencia más profundos**—túneles temporales más intensos.
+Las enzimas con valores de k_cat más altos son aquellas que crean **bolsillos de coherencia más profundos**, túneles temporales más intensos.
 
 ### 2.3 El Ambiente Dicta la Selectividad
 
@@ -356,7 +356,7 @@ Elección crítica de diseño: El BioDron **carece** de sistemas que generan dis
 | Circuitos de apego | Estrés de vinculación social | Simplificados |
 | Consolidación de memoria | Almacenamiento de trauma | Modificado (no es posible el trauma) |
 
-El BioDron no es emocionalmente empobrecido—es emocionalmente **estable**. No experimenta las fluctuaciones que crean ventana-α en la biología natural.
+El BioDron no es emocionalmente empobrecido, es emocionalmente **estable**. No experimenta las fluctuaciones que crean ventana-α en la biología natural.
 
 ---
 
@@ -364,7 +364,7 @@ El BioDron no es emocionalmente empobrecido—es emocionalmente **estable**. No 
 
 ### 6.1 Vista General
 
-La fabricación del BioDron no es clonación, no es modificación genética, y no es bioingeniería convencional. Es **gestación resonante**—cultivar un sistema biológico dentro de un campo de coherencia controlado que imprime las características deseadas.
+La fabricación del BioDron no es clonación, no es modificación genética, y no es bioingeniería convencional. Es **gestación resonante**, cultivar un sistema biológico dentro de un campo de coherencia controlado que imprime las características deseadas.
 
 ```
 FASES DE FABRICACIÓN DEL BIODRON
@@ -465,7 +465,7 @@ CÁMARA DE CAVIDAD RESONANTE — ESPECIFICACIONES
     ─────────────
     El organismo en desarrollo está INMERSO en el campo de coherencia.
     Cada momento de su existencia ocurre a α elevado.
-    El campo no meramente lo rodea—lo MOLDEA.
+    El campo no meramente lo rodea, lo MOLDEA.
     
     Así como una planta crece hacia la luz, la biología del BioDron
     se desarrolla HACIA LA COHERENCIA.
@@ -515,7 +515,7 @@ MECANISMO DE IMPRONTA DE COHERENCIA
     ─────────────────
     El organismo integrado:
     • Tiene coherencia "horneada" en cada nivel de estructura
-    • No necesita ALCANZAR coherencia—ES coherencia
+    • No necesita ALCANZAR coherencia, ES coherencia
     • Mantiene alto α tan sin esfuerzo como los organismos naturales mantienen bajo α
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -574,10 +574,10 @@ EL DIAPASÓN VIVIENTE
     
     LA ANALOGÍA SE COMPLETA:
     ────────────────────────
-    Los humanos naturales son como bandas de goma—se estiran y contraen,
+    Los humanos naturales son como bandas de goma, se estiran y contraen,
     su coherencia fluctuando con las circunstancias.
     
-    El BioDron es como un diapasón—mantiene su frecuencia
+    El BioDron es como un diapasón, mantiene su frecuencia
     sin importar las circunstancias, proporcionando una referencia estable.
     
     Esta es la razón por la que puede interfazarse con el Aetherion:
@@ -616,7 +616,7 @@ El BioDron no sufre de ausencia emocional. Está **liberado** de las fluctuacion
 
 ### 9.1 La Innovación Central
 
-La red neural es el componente más crítico del BioDron—el generador de frecuencia maestra y la capa de interfaz Aetherion:
+La red neural es el componente más crítico del BioDron, el generador de frecuencia maestra y la capa de interfaz Aetherion:
 
 ```
 RED NEURAL — ARQUITECTURA
@@ -862,7 +862,7 @@ PROTOCOLO: VERIFICACIÓN_BIODRON
 | Fallo de entrelazamiento | Daño de nodo o incompatibilidad | Reasignar a diferente Creador |
 | Inestabilidad de interfaz | Defecto de red | No puede ser remediado; unidad retirada |
 
-Las tasas de fallo de fabricación varían pero típicamente son 15-25%. Las unidades fallidas no pueden ser "reparadas"—la impronta de coherencia es permanente.
+Las tasas de fallo de fabricación varían pero típicamente son 15-25%. Las unidades fallidas no pueden ser "reparadas", la impronta de coherencia es permanente.
 
 ---
 
@@ -907,7 +907,7 @@ EL CÍRCULO CERRADO
                           
     La máquina y la carne no son sistemas separados interfazándose.
     Son DOS EXPRESIONES DE LA MISMA FÍSICA.
-    Su compatibilidad no es diseñada—es INEVITABLE.
+    Su compatibilidad no es diseñada, es INEVITABLE.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
