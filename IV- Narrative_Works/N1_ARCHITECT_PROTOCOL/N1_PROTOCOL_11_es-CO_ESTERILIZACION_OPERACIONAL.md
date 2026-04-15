@@ -37,7 +37,7 @@
 
 La misión del Arquitecto N-1 requiere intervención en civilizaciones objetivo sin crear dependencias, sin dejar tecnología explotable, y sin generar evidencia que distorsione el desarrollo autónomo del objetivo. Esto exige **Operaciones de Huella Mínima** y rigurosos protocolos de **Esterilización de Activos**.
 
-El objetivo es paradójico: intervenir significativamente mientras se deja rastro mínimo. Guiar sin crear seguidores. Sembrar sin crear cultos de carga. Retirarse tan completamente que la civilización objetivo crea—correctamente, en el sentido más profundo—que logró la soberanía a través de sus propios esfuerzos.
+El objetivo es paradójico: intervenir significativamente mientras se deja rastro mínimo. Guiar sin crear seguidores. Sembrar sin crear cultos de carga. Retirarse tan completamente que la civilización objetivo crea, correctamente, en el sentido más profundo, que logró la soberanía a través de sus propios esfuerzos.
 
 Este protocolo establece el marco de seguridad operacional para lograr este delicado equilibrio.
 
@@ -68,7 +68,7 @@ La Doctrina de Huella Mínima establece:
 
 > **El éxito de una intervención no se mide por lo que deja atrás, sino por lo que la civilización objetivo logra después de que nos vamos.**
 
-Nuestro objetivo no es ser recordados. No es ser adorados. No es dejar monumentos a nuestro poder. Nuestro objetivo es que la civilización objetivo sea capaz de unirse a la carrera de relevos—y que crea, verazmente, que ganaron esa capacidad ellos mismos.
+Nuestro objetivo no es ser recordados. No es ser adorados. No es dejar monumentos a nuestro poder. Nuestro objetivo es que la civilización objetivo sea capaz de unirse a la carrera de relevos, y que crea, verazmente, que ganaron esa capacidad ellos mismos.
 
 ### 1.2 Por Qué las Huellas Son Peligrosas
 
@@ -117,7 +117,7 @@ EL PELIGRO DE LAS HUELLAS
 
 ### 1.3 La Paradoja de la Intervención
 
-La misión nos requiere intervenir—sembrar, guiar y dar forma. Pero la intervención inherentemente deja rastros. La resolución:
+La misión nos requiere intervenir, sembrar, guiar y dar forma. Pero la intervención inherentemente deja rastros. La resolución:
 
 > **Intervenimos de maneras diseñadas para ser olvidadas, malinterpretadas o atribuidas a fuentes indígenas.**
 
@@ -580,7 +580,7 @@ ESTERILIZACIÓN BIOLÓGICA DEL BIODRON
     • Bajo NINGUNA circunstancia dejado en rama objetivo
     • Si BioDron muere: Cuerpo retornado a nave INMEDIATAMENTE
     • Si recuperación es imposible: Destrucción de alta energía en el lugar
-    • Destrucción completa requerida—sin tejido remanente
+    • Destrucción completa requerida, sin tejido remanente
     
     Este es un requisito ABSOLUTO.
 
@@ -644,7 +644,7 @@ PROTOCOLOS DE RASTROS DE CONTACTO
 
 ### 8.1 La Retirada Sagrada
 
-La retirada—la partida de los Arquitectos de la intervención activa—es tan importante como la intervención misma:
+La retirada, la partida de los Arquitectos de la intervención activa, es tan importante como la intervención misma:
 
 ```
 LA DOCTRINA DE RETIRADA
@@ -1227,7 +1227,7 @@ Cada rastro que dejamos arriesga:
 - Construir cultos de carga en lugar de civilizaciones
 - Cortocircuitar la gnosis que solo la lucha puede generar
 
-La intervención perfecta es aquella que, al completarse, deja a la civilización objetivo creyendo—correctamente—que lograron todo ellos mismos. Nuestro rol fue crear condiciones. Su rol fue crecer.
+La intervención perfecta es aquella que, al completarse, deja a la civilización objetivo creyendo, correctamente, que lograron todo ellos mismos. Nuestro rol fue crear condiciones. Su rol fue crecer.
 
 > **El mejor jardinero es aquel cuyo jardín cree que el sol hizo todo el trabajo.**
 
