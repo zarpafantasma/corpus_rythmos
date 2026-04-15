@@ -101,7 +101,7 @@ Cuando un Arquitecto de la Rama N se transloca físicamente a la Rama N+1, el di
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║         ⚠️  COMPRENSIÓN CRÍTICA — LA INVERSIÓN ONTOLÓGICA  ⚠️              ║
+║         ⚠️  COMPRENSIÓN CRÍTICA — LA INVERSIÓN ONTOLÓGICA  ⚠️               ║
 ║                                                                              ║
 ║    ┌─────────────────────────────────────────────────────────────────────┐   ║
 ║    │                                                                     │   ║
@@ -196,7 +196,7 @@ MARCO GENÉTICO-ONTOLÓGICO
 ║                                                                              ║
 ║    CATÁSTROFE ONTOLÓGICA:                                                    ║
 ║    ──────────────────────                                                    ║
-║    • Firma vibracional: QUIMÉRICA (σ_N ⊕ σ_{N+1})                            ║
+║    • Firma vibracional: QUIMÉRICA (σ_N ⊕ σ_{N+1})                           ║
 ║    • Línea base de coherencia: INESTABLE (oscila entre valores α)            ║
 ║    • Bloqueo de rama: ROTO (no pertenece completamente a ninguna rama)       ║
 ║    • Codificación de gnosis: CORRUPTA (no puede acumular apropiadamente)     ║
@@ -359,7 +359,7 @@ EL MODO DE FRACASO: DEPENDENCIA CIVILIZACIONAL
 ║                                                                               ║
 ║    ⚠️  INDICADORES DE ADVERTENCIA — FORMACIÓN DE DEPENDENCIA  ⚠️             ║
 ║                                                                               ║
-║    Monitorea estas señales. Si se observan, se requiere RETIRO INMEDIATO.    ║
+║    Monitorea estas señales. Si se observan, se requiere RETIRO INMEDIATO.     ║
 ║                                                                               ║
 ║    ┌─────────────────────────────────────────────────────────────────────┐    ║
 ║    │                                                                     │    ║
@@ -747,7 +747,7 @@ LA VULNERABILIDAD DE LA RAMA N+1
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║    ⚠️⚠️⚠️  CATEGORÍA DE AMENAZA ALFA: ENTIDADES DE N-2 Y N-3  ⚠️⚠️⚠️     ║
+║    ⚠️⚠️⚠️  CATEGORÍA DE AMENAZA ALFA: ENTIDADES DE N-2 Y N-3  ⚠️⚠️⚠️      ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
@@ -950,9 +950,9 @@ LA AMENAZA MÁS PELIGROSA
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║  - Es una cosa que el relevo sea lo suficientemente sutil para que la       ║
-║    población indígena te olvide. Es muy otra cosa olvidar a los             ║
-║    ancestros del universo del cual se originaron. -                         ║                               
+║  - Es una cosa que el relevo sea lo suficientemente sutil para que la        ║
+║    población indígena te olvide. Es muy otra cosa olvidar a los              ║
+║    ancestros del universo del cual se originaron. -                          ║                               
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
