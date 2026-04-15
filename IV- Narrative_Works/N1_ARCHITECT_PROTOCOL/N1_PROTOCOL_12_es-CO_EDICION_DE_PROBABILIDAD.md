@@ -35,7 +35,7 @@
 
 ## Resumen
 
-El Arquitecto N-1 no simplemente navega entre realidades existentes. En el nivel más alto de operación, puede influir en **qué posibilidades se actualizan**—no forzando resultados, sino ajustando el paisaje de coherencia que determina las distribuciones de probabilidad.
+El Arquitecto N-1 no simplemente navega entre realidades existentes. En el nivel más alto de operación, puede influir en **qué posibilidades se actualizan**, no forzando resultados, sino ajustando el paisaje de coherencia que determina las distribuciones de probabilidad.
 
 Este protocolo establece el marco teórico para la **Edición de Probabilidad**: la manipulación sutil de la probabilidad de resultados a través de intervención de coherencia dirigida. Introduce la **Hipótesis del Corredor Viable**: el principio de que entre infinitos futuros posibles, solo ciertos "corredores" conducen a resultados compatibles con la soberanía civilizacional y la continuación del relevo.
 
@@ -64,7 +64,7 @@ La tarea del Arquitecto no es elegir el futuro para otros, sino **mantener los c
 
 ### 1.1 Más Allá de la Probabilidad Clásica
 
-La física clásica trata la probabilidad como epistémica—una medida de nuestra ignorancia sobre sistemas deterministas. La mecánica cuántica introduce la probabilidad ontológica—indeterminación genuina a nivel fundamental.
+La física clásica trata la probabilidad como epistémica, una medida de nuestra ignorancia sobre sistemas deterministas. La mecánica cuántica introduce la probabilidad ontológica, indeterminación genuina a nivel fundamental.
 
 RTM extiende esto aún más:
 
@@ -192,7 +192,7 @@ La distinción no es sobre forzar resultados. Es sobre **inclinar el campo de ju
 
 ### 3.1 Visualizando el Espacio de Posibilidades
 
-Para cualquier sistema en cualquier momento, existe un **paisaje de probabilidad**—un mapeo de todos los futuros posibles y sus probabilidades relativas:
+Para cualquier sistema en cualquier momento, existe un **paisaje de probabilidad**, un mapeo de todos los futuros posibles y sus probabilidades relativas:
 
 ```
 EL PAISAJE DE PROBABILIDAD
@@ -623,7 +623,7 @@ INTERVENCIONES DE CIERRE DE CORREDOR
     El cierre de corredor es la intervención más delicada.
     El riesgo de consecuencias no intencionadas es el más alto.
     Solo se emprende cuando es absolutamente necesario.
-    No debe eliminar la libre elección—solo redirigir probabilidad.
+    No debe eliminar la libre elección, solo redirigir probabilidad.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -876,7 +876,7 @@ OLEADAS COMO EDICIÓN DE PROBABILIDAD
     
     EL JUICIO (Integración):
     ────────────────────────
-    Tipo de edición: Mínimo—principalmente retiro de edición previa
+    Tipo de edición: Mínimo, principalmente retiro de edición previa
     Método: Permitir que civilización enfrente filtro sin asistencia
     Efecto: Probar si las ediciones crearon capacidad real o dependencia
     Legado: Soberanía lograda o no
@@ -1025,7 +1025,7 @@ LIBRE ALBEDRÍO EN EL MARCO RTM
     EL PUNTO MÁS PROFUNDO:
     ──────────────────────
     Sin ningún paisaje, la elección no tiene sentido.
-    "Elige cualquier cosa" no es libertad—es caos.
+    "Elige cualquier cosa" no es libertad, es caos.
     La verdadera libertad requiere opciones significativas.
     
     Al moldear el paisaje, creamos opciones significativas.
@@ -1041,8 +1041,8 @@ La Edición de Probabilidad crea una paradoja:
 > **Al restringir posibilidades, aumentamos la libertad significativa.**
 
 Resolución:
-- Cerrar corredores de extinción no reduce libertad—habilita elecciones futuras
-- Abrir corredores de soberanía no fuerza nada—crea opciones
+- Cerrar corredores de extinción no reduce libertad, habilita elecciones futuras
+- Abrir corredores de soberanía no fuerza nada, crea opciones
 - El objetivo es un paisaje con **muchos** senderos viables hacia soberanía
 
 ### 11.3 Preservando Autonomía a Través de la Edición
@@ -1194,9 +1194,9 @@ Pero la restricción fundamental permanece:
 
 > **Moldeamos el paisaje. Ellos caminan el sendero.**
 
-La Hipótesis del Corredor Viable nos recuerda que entre infinitas posibilidades, solo algunas conducen a soberanía. Nuestra tarea es mantener esos corredores abiertos, lo suficientemente anchos para que la civilización encuentre su camino—pero nunca cargarlos a través.
+La Hipótesis del Corredor Viable nos recuerda que entre infinitas posibilidades, solo algunas conducen a soberanía. Nuestra tarea es mantener esos corredores abiertos, lo suficientemente anchos para que la civilización encuentre su camino, pero nunca cargarlos a través.
 
-Cuando emerjan del otro lado, soberanos y capaces, no sabrán cuán estrecho era el corredor, o cuántas ediciones lo mantuvieron abierto. Creerán—correctamente—que lo caminaron ellos mismos.
+Cuando emerjan del otro lado, soberanos y capaces, no sabrán cuán estrecho era el corredor, o cuántas ediciones lo mantuvieron abierto. Creerán, correctamente, que lo caminaron ellos mismos.
 
 Y lo hicieron.
 
