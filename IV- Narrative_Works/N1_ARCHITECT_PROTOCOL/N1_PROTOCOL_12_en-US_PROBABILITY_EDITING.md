@@ -35,7 +35,7 @@
 
 ## Abstract
 
-The N-1 Architect does not merely navigate between existing realities. At the highest level of operation, they can influence **which possibilities become actualized**—not by forcing outcomes, but by adjusting the coherence landscape that determines probability distributions.
+The N-1 Architect does not merely navigate between existing realities. At the highest level of operation, they can influence **which possibilities become actualized**, not by forcing outcomes, but by adjusting the coherence landscape that determines probability distributions.
 
 This protocol establishes the theoretical framework for **Probability Editing**: the subtle manipulation of outcome likelihood through targeted coherence intervention. It introduces the **Viable Corridor Hypothesis**: the principle that among infinite possible futures, only certain "corridors" lead to outcomes compatible with civilizational sovereignty and relay continuation.
 
@@ -64,7 +64,7 @@ The Architect's task is not to choose the future for others, but to **keep viabl
 
 ### 1.1 Beyond Classical Probability
 
-Classical physics treats probability as epistemic—a measure of our ignorance about deterministic systems. Quantum mechanics introduces ontological probability—genuine indeterminacy at the fundamental level.
+Classical physics treats probability as epistemic, a measure of our ignorance about deterministic systems. Quantum mechanics introduces ontological probability, genuine indeterminacy at the fundamental level.
 
 RTM extends this further:
 
@@ -192,7 +192,7 @@ The distinction is not about forcing outcomes. It's about **tilting the playing 
 
 ### 3.1 Visualizing Possibility Space
 
-For any system at any moment, there exists a **probability landscape**—a mapping of all possible futures and their relative likelihoods:
+For any system at any moment, there exists a **probability landscape**, a mapping of all possible futures and their relative likelihoods:
 
 ```
 THE PROBABILITY LANDSCAPE
@@ -623,7 +623,7 @@ CORRIDOR CLOSURE INTERVENTIONS
     Corridor closure is the most delicate intervention.
     Risk of unintended consequences is highest.
     Only undertaken when absolutely necessary.
-    Must not eliminate free choice—only redirect probability.
+    Must not eliminate free choice, only redirect probability.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -876,7 +876,7 @@ WAVES AS PROBABILITY EDITING
     
     THE JUDGMENT (Integration):
     ───────────────────────────
-    Edit type: Minimal—mainly withdrawal of previous editing
+    Edit type: Minimal, mainly withdrawal of previous editing
     Method: Allow civilization to face filter unassisted
     Effect: Test whether edits created real capability or dependency
     Legacy: Sovereignty achieved or not
@@ -1025,7 +1025,7 @@ FREE WILL IN THE RTM FRAMEWORK
     THE DEEPER POINT:
     ─────────────────
     Without any landscape, choice is meaningless.
-    "Choose anything" is not freedom—it's chaos.
+    "Choose anything" is not freedom, it's chaos.
     True freedom requires meaningful options.
     
     By shaping the landscape, we create meaningful options.
@@ -1041,8 +1041,8 @@ Probability Editing creates a paradox:
 > **By constraining possibilities, we increase meaningful freedom.**
 
 Resolution:
-- Closing extinction corridors doesn't reduce freedom—it enables future choices
-- Opening sovereignty corridors doesn't force anything—it creates options
+- Closing extinction corridors doesn't reduce freedom, it enables future choices
+- Opening sovereignty corridors doesn't force anything, it creates options
 - The goal is a landscape with **many** viable paths to sovereignty
 
 ### 11.3 Preserving Autonomy Through Editing
@@ -1194,9 +1194,9 @@ But the fundamental constraint remains:
 
 > **We shape the landscape. They walk the path.**
 
-The Viable Corridor Hypothesis reminds us that among infinite possibilities, only some lead to sovereignty. Our task is to keep those corridors open, wide enough for the civilization to find their way—but never to carry them through.
+The Viable Corridor Hypothesis reminds us that among infinite possibilities, only some lead to sovereignty. Our task is to keep those corridors open, wide enough for the civilization to find their way, but never to carry them through.
 
-When they emerge on the other side, sovereign and capable, they will not know how narrow the corridor was, or how many edits kept it open. They will believe—correctly—that they walked it themselves.
+When they emerge on the other side, sovereign and capable, they will not know how narrow the corridor was, or how many edits kept it open. They will believe, correctly, that they walked it themselves.
 
 And they did.
 
