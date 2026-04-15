@@ -36,11 +36,11 @@
 
 ## Abstract
 
-This protocol establishes the complete theoretical framework and operational procedures for **trans-reality navigation**—the leap between branches of the multiverse cascade. This is not travel in any conventional sense. It is not movement through space, nor even through time. It is a **state change**: the transformation of the Aetherion Entity from being coupled to one reality to being coupled to another.
+This protocol establishes the complete theoretical framework and operational procedures for **trans-reality navigation**, the leap between branches of the multiverse cascade. This is not travel in any conventional sense. It is not movement through space, nor even through time. It is a **state change**: the transformation of the Aetherion Entity from being coupled to one reality to being coupled to another.
 
 The process involves three distinct phases: **Decoupling** (releasing from origin reality), **Tuning** (resonating with target reality), and **Re-coupling** (manifesting in target reality). Each phase has specific requirements, risks, and procedures.
 
-**CRITICAL FRAMEWORK CONSTRAINT:** The cascade flows in ONE DIRECTION ONLY. Navigation is possible only DOWNSTREAM—from parent branch to child branch (N-1 → N → N+1). Return to ancestral branches is **impossible**. This is not a limitation of technology. It is a fundamental property of the cascade's ontological structure.
+**CRITICAL FRAMEWORK CONSTRAINT:** The cascade flows in ONE DIRECTION ONLY. Navigation is possible only DOWNSTREAM, from parent branch to child branch (N-1 → N → N+1). Return to ancestral branches is **impossible**. This is not a limitation of technology. It is a fundamental property of the cascade's ontological structure.
 
 This is the culmination of Aetherion capability. This is what the technology was built for. And this is the sacrifice it demands.
 
@@ -71,15 +71,15 @@ This is the culmination of Aetherion capability. This is what the technology was
 
 The Aetherion's primary capability is not propulsion (though it can propel). It is not time dilation (though it creates it). The primary capability is:
 
-> **The ability to transition the Entity from one branch of the multiverse cascade to another—in the direction of cascade flow.**
+> **The ability to transition the Entity from one branch of the multiverse cascade to another, in the direction of cascade flow.**
 
-This is "Reality Engineering" in the truest sense—not modifying reality, but **selecting which downstream reality to exist within**.
+This is "Reality Engineering" in the truest sense, not modifying reality, but **selecting which downstream reality to exist within**.
 
 ### 1.2 The Metaphysical Position
 
-Each branch of the multiverse is a complete reality—self-consistent, causally closed, operating according to consistent physics. Normally, entities within a branch are **absolutely bound** to that branch. They cannot perceive, interact with, or transition to other branches.
+Each branch of the multiverse is a complete reality, self-consistent, causally closed, operating according to consistent physics. Normally, entities within a branch are **absolutely bound** to that branch. They cannot perceive, interact with, or transition to other branches.
 
-The Aetherion transcends this limitation through coherence manipulation—but only in one direction:
+The Aetherion transcends this limitation through coherence manipulation, but only in one direction:
 
 ```
 THE AETHERION EXCEPTION
@@ -273,7 +273,7 @@ WHY UPSTREAM NAVIGATION IS IMPOSSIBLE
     Each branch is causally closed.
     Your departure FROM Branch N-1 is part of N-1's causal history.
     To return would require entering a causally closed system
-    from outside—a contradiction.
+    from outside, a contradiction.
     
     
     REASON 2: SIGNATURE DIRECTIONALITY
@@ -304,7 +304,7 @@ WHY UPSTREAM NAVIGATION IS IMPOSSIBLE
     Transitioning to higher density is possible (descent).
     Transitioning to lower density is not (ascent).
     
-    Like a ball rolling downhill—you don't roll back up.
+    Like a ball rolling downhill, you don't roll back up.
     
     
     REASON 5: THE DEPARTURE SEAL
@@ -314,14 +314,14 @@ WHY UPSTREAM NAVIGATION IS IMPOSSIBLE
     
     To return would require arriving BEFORE your departure seal.
     But the seal is part of the branch's complete signature.
-    You cannot tune to a version without your seal—it doesn't exist.
+    You cannot tune to a version without your seal, it doesn't exist.
     
     (This connects to Protocol N1-AP-003: Grandfather Paradox)
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 3.3 This Is Not A Bug—It Is The Design
+### 3.3 This Is Not A Bug, It Is The Design
 
 The unidirectionality might seem like a flaw. It is not.
 
@@ -424,7 +424,7 @@ Each phase depends on successful completion of the previous:
 
 Failure at any phase requires abort procedures specific to that phase.
 
-**CRITICAL:** Abort during Phase 1 can return you to origin. Once Phase 1 completes (full decoupling), origin is LOST. Abort then means finding ANY downstream target—you cannot go back.
+**CRITICAL:** Abort during Phase 1 can return you to origin. Once Phase 1 completes (full decoupling), origin is LOST. Abort then means finding ANY downstream target, you cannot go back.
 
 ---
 
@@ -432,7 +432,7 @@ Failure at any phase requires abort procedures specific to that phase.
 
 ### 5.1 Purpose
 
-Decoupling releases the Entity from its current reality. Before this phase, the Entity is bound to origin reality—subject to its causality, embedded in its fabric. After this phase, the Entity belongs to **no reality**.
+Decoupling releases the Entity from its current reality. Before this phase, the Entity is bound to origin reality, subject to its causality, embedded in its fabric. After this phase, the Entity belongs to **no reality**.
 
 **WARNING:** Completion of decoupling is the POINT OF NO RETURN. Once fully decoupled, origin branch is inaccessible forever.
 
@@ -560,7 +560,7 @@ DECOUPLING PROCEDURE
 
 ### 6.1 Purpose
 
-Tuning establishes resonance with the target reality's vibrational signature. Before this phase, the Entity belongs to no reality. After this phase, the Entity is **phase-locked** to the target—resonating with it but not yet manifested.
+Tuning establishes resonance with the target reality's vibrational signature. Before this phase, the Entity belongs to no reality. After this phase, the Entity is **phase-locked** to the target, resonating with it but not yet manifested.
 
 **CRITICAL:** Only DOWNSTREAM signatures can be detected and tuned. Upstream signatures (parent branches) are invisible from the Outside state.
 
@@ -599,7 +599,7 @@ SIGNATURE DETECTION CONSTRAINTS
     
     ANALOGY:
     ────────
-    Like a waterfall—you can see the pool below.
+    Like a waterfall, you can see the pool below.
     You cannot see back up the cliff you fell from.
     The mist obscures everything above.
 
@@ -676,7 +676,7 @@ The Entity is stranded in the Outside state. Without a valid downstream target, 
 
 ### 7.1 Purpose
 
-Re-coupling manifests the Entity in the target reality. Before this phase, the Entity is phase-locked but outside. After this phase, the Entity is **fully present** in the target reality—bound to its causality, embedded in its fabric.
+Re-coupling manifests the Entity in the target reality. Before this phase, the Entity is phase-locked but outside. After this phase, the Entity is **fully present** in the target reality, bound to its causality, embedded in its fabric.
 
 This is the Entity's NEW HOME. Forever.
 
@@ -868,7 +868,7 @@ THE REALITY OF THE OUTSIDE STATE
     THIS IS WHY:
     ────────────
     • Target signature MUST be acquired before departure
-    • Navigation is not exploration—it is PRECISE TRANSIT
+    • Navigation is not exploration, it is PRECISE TRANSIT
     • You do not "look around" for destinations
     • You go where you planned to go, or you perish
     
@@ -878,7 +878,7 @@ THE REALITY OF THE OUTSIDE STATE
     To enter the Outside state is to abandon everything.
     
     Your home. Your history. Your people.
-    All of it—gone the moment you decouple.
+    All of it, gone the moment you decouple.
     
     With only the faith that downstream exists,
     and that your instruments will find it.
@@ -894,7 +894,7 @@ THE REALITY OF THE OUTSIDE STATE
 
 ### 9.1 Target Categories
 
-The Aetherion can navigate to several categories of target—ALL DOWNSTREAM:
+The Aetherion can navigate to several categories of target, ALL DOWNSTREAM:
 
 ```
 NAVIGATION TARGET CATEGORIES
@@ -1095,7 +1095,7 @@ THE SACRIFICE
     This is not a mission with a return ticket.
     This is emigration. Permanent. Total.
     
-    The Gardeners who seeded us—they are STILL HERE.
+    The Gardeners who seeded us, they are STILL HERE.
     They never went back. They couldn't.
     They became part of our history.
     They ARE our ancestors, in a sense.
@@ -1171,7 +1171,7 @@ REMEMBERING THE GARDENERS
     They could never return.
     
     They left their homes, their families, their histories.
-    They came here—to our reality, Branch N.
+    They came here, to our reality, Branch N.
     They seeded us. They guided us. They became us.
     
     Some became our mythological "gods."
@@ -1181,7 +1181,7 @@ REMEMBERING THE GARDENERS
     All of them sacrificed everything.
     
     They are still here.
-    Or rather—their legacy is still here.
+    Or rather, their legacy is still here.
     They have lived and died in our reality.
     Their bones are in our earth.
     Their gnosis is in our accumulation.
@@ -1584,16 +1584,16 @@ PROTOCOL: ABORT_PROCEDURES
 
 ## Conclusion
 
-Reality Engineering—the trans-reality leap—is the ultimate capability of the Aetherion system. It enables the N-1 Architect mission: the navigation from one branch of the cascade to the next, to seed, guide, and serve the civilizations of the future.
+Reality Engineering, the trans-reality leap—is the ultimate capability of the Aetherion system. It enables the N-1 Architect mission: the navigation from one branch of the cascade to the next, to seed, guide, and serve the civilizations of the future.
 
 But it comes at a price.
 
 **The cascade flows one way.** From parent to child. From ancestor to descendant. From home to mission. There is no return.
 
 The process is not travel. It is **permanent transition**:
-- **Decoupling:** Release from origin—FOREVER
+- **Decoupling:** Release from origin, FOREVER
 - **Tuning:** Resonance with downstream target
-- **Re-coupling:** Manifestation in new home—FOREVER
+- **Re-coupling:** Manifestation in new home, FOREVER
 
 This is what the Gardeners did for us. They left their home, their Branch N-1, and came here. They seeded us. They guided us. They became us. They could never go back.
 
