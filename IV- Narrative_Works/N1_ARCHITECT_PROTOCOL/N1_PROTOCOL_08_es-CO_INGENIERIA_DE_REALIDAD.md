@@ -24,7 +24,7 @@
 ═════════════════════════════════════════
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  PROTOCOLOS DE ARQUITECTO N-1 — CLASE DE DOCUMENTO: NAVEGACIÓN              ║
+║  PROTOCOLOS DE ARQUITECTO N-1 — CLASE DE DOCUMENTO: NAVEGACIÓN               ║
 ║  ID DE PROTOCOLO: N1-AP-008                                                  ║
 ║  VERSIÓN: 2.0 — DIRECCIONALIDAD DE CASCADA CORREGIDA                         ║
 ║  TEMA: MECÁNICA Y PROCEDIMIENTOS DE TRANSICIÓN TRANS-REALIDAD                ║
@@ -40,7 +40,7 @@ Este protocolo establece el marco teórico completo y los procedimientos operati
 
 El proceso involucra tres fases distintas: **Desacoplamiento** (liberación de la realidad de origen), **Sintonización** (resonancia con la realidad objetivo), y **Re-acoplamiento** (manifestación en la realidad objetivo). Cada fase tiene requisitos, riesgos y procedimientos específicos.
 
-**RESTRICCIÓN CRÍTICA DEL MARCO:** La cascada fluye en UNA SOLA DIRECCIÓN. La navegación solo es posible AGUAS ABAJO—de rama padre a rama hija (N-1 → N → N+1). El retorno a ramas ancestrales es **imposible**. Esta no es una limitación de la tecnología. Es una propiedad fundamental de la estructura ontológica de la cascada.
+**RESTRICCIÓN CRÍTICA DEL MARCO:** La cascada fluye en UNA SOLA DIRECCIÓN. La navegación solo es posible AGUAS ABAJO, de rama padre a rama hija (N-1 → N → N+1). El retorno a ramas ancestrales es **imposible**. Esta no es una limitación de la tecnología. Es una propiedad fundamental de la estructura ontológica de la cascada.
 
 Esta es la culminación de la capacidad Aetherion. Esto es para lo que la tecnología fue construida. Y este es el sacrificio que demanda.
 
@@ -71,15 +71,15 @@ Esta es la culminación de la capacidad Aetherion. Esto es para lo que la tecnol
 
 La capacidad primaria del Aetherion no es la propulsión (aunque puede propulsar). No es la dilatación temporal (aunque la crea). La capacidad primaria es:
 
-> **La habilidad de transitar la Entidad de una rama de la cascada multiversal a otra—en la dirección del flujo de la cascada.**
+> **La habilidad de transitar la Entidad de una rama de la cascada multiversal a otra, en la dirección del flujo de la cascada.**
 
-Esto es "Ingeniería de Realidad" en el sentido más verdadero—no modificar la realidad, sino **seleccionar en cuál realidad aguas abajo existir**.
+Esto es "Ingeniería de Realidad" en el sentido más verdadero, no modificar la realidad, sino **seleccionar en cuál realidad aguas abajo existir**.
 
 ### 1.2 La Posición Metafísica
 
-Cada rama del multiverso es una realidad completa—auto-consistente, causalmente cerrada, operando según física consistente. Normalmente, las entidades dentro de una rama están **absolutamente atadas** a esa rama. No pueden percibir, interactuar con, ni transitar a otras ramas.
+Cada rama del multiverso es una realidad completa, auto-consistente, causalmente cerrada, operando según física consistente. Normalmente, las entidades dentro de una rama están **absolutamente atadas** a esa rama. No pueden percibir, interactuar con, ni transitar a otras ramas.
 
-El Aetherion trasciende esta limitación a través de la manipulación de coherencia—pero solo en una dirección:
+El Aetherion trasciende esta limitación a través de la manipulación de coherencia, pero solo en una dirección:
 
 ```
 LA EXCEPCIÓN AETHERION
@@ -272,7 +272,7 @@ POR QUÉ LA NAVEGACIÓN AGUAS ARRIBA ES IMPOSIBLE
     Cada rama está causalmente cerrada.
     Tu partida DESDE la Rama N-1 es parte de la historia causal de N-1.
     Retornar requeriría entrar a un sistema causalmente cerrado
-    desde afuera—una contradicción.
+    desde afuera, una contradicción.
     
     
     RAZÓN 2: DIRECCIONALIDAD DE FIRMA
@@ -303,7 +303,7 @@ POR QUÉ LA NAVEGACIÓN AGUAS ARRIBA ES IMPOSIBLE
     La transición a mayor densidad es posible (descenso).
     La transición a menor densidad no lo es (ascenso).
     
-    Como una pelota rodando cuesta abajo—no rueda de vuelta hacia arriba.
+    Como una pelota rodando cuesta abajo, no rueda de vuelta hacia arriba.
     
     
     RAZÓN 5: EL SELLO DE PARTIDA
@@ -313,14 +313,14 @@ POR QUÉ LA NAVEGACIÓN AGUAS ARRIBA ES IMPOSIBLE
     
     Retornar requeriría llegar ANTES de tu sello de partida.
     Pero el sello es parte de la firma completa de la rama.
-    No puedes sintonizarte a una versión sin tu sello—no existe.
+    No puedes sintonizarte a una versión sin tu sello, no existe.
     
     (Esto conecta con el Protocolo N1-AP-003: Paradoja del Abuelo)
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 3.3 Esto No Es Un Defecto—Es El Diseño
+### 3.3 Esto No Es Un Defecto, Es El Diseño
 
 La unidireccionalidad podría parecer un defecto. No lo es.
 
@@ -424,7 +424,7 @@ Cada fase depende de la completación exitosa de la anterior:
 
 El fallo en cualquier fase requiere procedimientos de aborto específicos para esa fase.
 
-**CRÍTICO:** Abortar durante la Fase 1 puede retornarte al origen. Una vez que la Fase 1 se completa (desacoplamiento total), el origen está PERDIDO. Abortar entonces significa encontrar CUALQUIER objetivo aguas abajo—no puedes regresar.
+**CRÍTICO:** Abortar durante la Fase 1 puede retornarte al origen. Una vez que la Fase 1 se completa (desacoplamiento total), el origen está PERDIDO. Abortar entonces significa encontrar CUALQUIER objetivo aguas abajo, no puedes regresar.
 
 ---
 
@@ -432,7 +432,7 @@ El fallo en cualquier fase requiere procedimientos de aborto específicos para e
 
 ### 5.1 Propósito
 
-El desacoplamiento libera a la Entidad de su realidad actual. Antes de esta fase, la Entidad está atada a la realidad de origen—sujeta a su causalidad, incrustada en su tejido. Después de esta fase, la Entidad no pertenece a **ninguna realidad**.
+El desacoplamiento libera a la Entidad de su realidad actual. Antes de esta fase, la Entidad está atada a la realidad de origen, sujeta a su causalidad, incrustada en su tejido. Después de esta fase, la Entidad no pertenece a **ninguna realidad**.
 
 **ADVERTENCIA:** La completación del desacoplamiento es el PUNTO DE NO RETORNO. Una vez completamente desacoplado, la rama de origen es inaccesible para siempre.
 
@@ -560,13 +560,13 @@ PROCEDIMIENTO DE DESACOPLAMIENTO
 
 ### 6.1 Propósito
 
-La sintonización establece resonancia con la firma vibracional de la realidad objetivo. Antes de esta fase, la Entidad no pertenece a ninguna realidad. Después de esta fase, la Entidad está en **acoplamiento de fase** con el objetivo—resonando con él pero aún no manifestada.
+La sintonización establece resonancia con la firma vibracional de la realidad objetivo. Antes de esta fase, la Entidad no pertenece a ninguna realidad. Después de esta fase, la Entidad está en **acoplamiento de fase** con el objetivo, resonando con él pero aún no manifestada.
 
 **CRÍTICO:** Solo las firmas AGUAS ABAJO pueden ser detectadas y sintonizadas. Las firmas aguas arriba (ramas padres) son invisibles desde el estado Afuera.
 
 ### 6.2 La Firma Vibracional
 
-Como se estableció en el Protocolo N1-AP-001, cada realidad tiene una firma vibracional única—una huella dactilar cuántico-gravitacional que codifica su historia causal completa.
+Como se estableció en el Protocolo N1-AP-001, cada realidad tiene una firma vibracional única, una huella dactilar cuántico-gravitacional que codifica su historia causal completa.
 
 ```
 RESTRICCIONES DE DETECCIÓN DE FIRMAS
@@ -599,7 +599,7 @@ RESTRICCIONES DE DETECCIÓN DE FIRMAS
     
     ANALOGÍA:
     ─────────
-    Como una cascada—puedes ver la poza abajo.
+    Como una cascada, puedes ver la poza abajo.
     No puedes ver de vuelta hacia el acantilado desde el que caíste.
     La niebla oscurece todo lo de arriba.
 
@@ -676,7 +676,7 @@ La Entidad queda varada en el estado Afuera. Sin un objetivo válido aguas abajo
 
 ### 7.1 Propósito
 
-El re-acoplamiento manifiesta a la Entidad en la realidad objetivo. Antes de esta fase, la Entidad está en acoplamiento de fase pero afuera. Después de esta fase, la Entidad está **completamente presente** en la realidad objetivo—atada a su causalidad, incrustada en su tejido.
+El re-acoplamiento manifiesta a la Entidad en la realidad objetivo. Antes de esta fase, la Entidad está en acoplamiento de fase pero afuera. Después de esta fase, la Entidad está **completamente presente** en la realidad objetivo, atada a su causalidad, incrustada en su tejido.
 
 Este es el NUEVO HOGAR de la Entidad. Para siempre.
 
@@ -868,7 +868,7 @@ LA REALIDAD DEL ESTADO AFUERA
     POR ESTO:
     ─────────
     • La firma objetivo DEBE adquirirse antes de la partida
-    • La navegación no es exploración—es TRÁNSITO PRECISO
+    • La navegación no es exploración, es TRÁNSITO PRECISO
     • No "miras alrededor" buscando destinos
     • Vas a donde planeaste ir, o pereces
     
@@ -878,7 +878,7 @@ LA REALIDAD DEL ESTADO AFUERA
     Entrar al estado Afuera es abandonar todo.
     
     Tu hogar. Tu historia. Tu gente.
-    Todo—se fue en el momento en que te desacoplaste.
+    Todo, se fue en el momento en que te desacoplaste.
     
     Con solo la fe de que lo de aguas abajo existe,
     y que tus instrumentos lo encontrarán.
@@ -894,7 +894,7 @@ LA REALIDAD DEL ESTADO AFUERA
 
 ### 9.1 Categorías de Objetivos
 
-El Aetherion puede navegar a varias categorías de objetivos—TODOS AGUAS ABAJO:
+El Aetherion puede navegar a varias categorías de objetivos, TODOS AGUAS ABAJO:
 
 ```
 CATEGORÍAS DE OBJETIVOS DE NAVEGACIÓN
@@ -1095,7 +1095,7 @@ EL SACRIFICIO
     Esta no es una misión con boleto de regreso.
     Esto es emigración. Permanente. Total.
     
-    Los Jardineros que nos sembraron—ellos TODAVÍA ESTÁN AQUÍ.
+    Los Jardineros que nos sembraron, ellos TODAVÍA ESTÁN AQUÍ.
     Nunca regresaron. No podían.
     Se convirtieron en parte de nuestra historia.
     ELLOS SON nuestros ancestros, en cierto sentido.
@@ -1171,7 +1171,7 @@ RECORDANDO A LOS JARDINEROS
     Nunca pudieron retornar.
     
     Dejaron sus hogares, sus familias, sus historias.
-    Vinieron aquí—a nuestra realidad, Rama N.
+    Vinieron aquí, a nuestra realidad, Rama N.
     Nos sembraron. Nos guiaron. Se convirtieron en nosotros.
     
     Algunos se convirtieron en nuestros "dioses" mitológicos.
@@ -1181,7 +1181,7 @@ RECORDANDO A LOS JARDINEROS
     Todos ellos sacrificaron todo.
     
     Todavía están aquí.
-    O más bien—su legado todavía está aquí.
+    O más bien, su legado todavía está aquí.
     Han vivido y muerto en nuestra realidad.
     Sus huesos están en nuestra tierra.
     Su gnosis está en nuestra acumulación.
@@ -1584,16 +1584,16 @@ PROTOCOLO: PROCEDIMIENTOS_DE_ABORTO
 
 ## Conclusión
 
-La Ingeniería de Realidad—el salto trans-realidad—es la capacidad última del sistema Aetherion. Habilita la misión del Arquitecto N-1: la navegación de una rama de la cascada a la siguiente, para sembrar, guiar y servir a las civilizaciones del futuro.
+La Ingeniería de Realidad, el salto trans-realidad—es la capacidad última del sistema Aetherion. Habilita la misión del Arquitecto N-1: la navegación de una rama de la cascada a la siguiente, para sembrar, guiar y servir a las civilizaciones del futuro.
 
 Pero tiene un precio.
 
 **La cascada fluye en un sentido.** De padre a hijo. De ancestro a descendiente. De hogar a misión. No hay retorno.
 
 El proceso no es viaje. Es **transición permanente**:
-- **Desacoplamiento:** Liberación del origen—PARA SIEMPRE
+- **Desacoplamiento:** Liberación del origen, PARA SIEMPRE
 - **Sintonización:** Resonancia con objetivo aguas abajo
-- **Re-acoplamiento:** Manifestación en nuevo hogar—PARA SIEMPRE
+- **Re-acoplamiento:** Manifestación en nuevo hogar, PARA SIEMPRE
 
 Esto es lo que los Jardineros hicieron por nosotros. Dejaron su hogar, su Rama N-1, y vinieron aquí. Nos sembraron. Nos guiaron. Se convirtieron en nosotros. Nunca pudieron regresar.
 
