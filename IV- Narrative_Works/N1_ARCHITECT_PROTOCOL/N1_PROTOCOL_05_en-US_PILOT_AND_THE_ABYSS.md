@@ -37,11 +37,11 @@
 
 This protocol establishes the absolute requirements for Aetherion operation. The vessel is commonly misunderstood as a machine to be controlled. This is a **category error** with potentially fatal consequences.
 
-The Aetherion is not a machine. It is an infinitely complex **musical instrument**, and its pilot is not an operator but a **virtuoso** who must achieve resonance with the instrument's fundamental frequency. The interface between ship and pilot is not a control panel—it is **consciousness itself**.
+The Aetherion is not a machine. It is an infinitely complex **musical instrument**, and its pilot is not an operator but a **virtuoso** who must achieve resonance with the instrument's fundamental frequency. The interface between ship and pilot is not a control panel, it is **consciousness itself**.
 
 This document details why coherence is mandatory, what happens when coherence fails, and what profile a pilot must possess to survive the interface.
 
-**Warning:** Attempting to pilot an Aetherion without meeting the coherence requirements results in the **Dissonance Cascade**—a phenomenon that destroys both the pilot's psyche and the vessel's stability. There are no second chances.
+**Warning:** Attempting to pilot an Aetherion without meeting the coherence requirements results in the **Dissonance Cascade**, a phenomenon that destroys both the pilot's psyche and the vessel's stability. There are no second chances.
 
 ---
 
@@ -65,7 +65,7 @@ This document details why coherence is mandatory, what happens when coherence fa
 
 ### 1.1 The Fundamental Misunderstanding
 
-The Aetherion ship—the culmination of RTM physics—is consistently misperceived. Engineers see it as a vehicle. Administrators see it as an asset. Soldiers see it as a weapon.
+The Aetherion ship, the culmination of RTM physics, is consistently misperceived. Engineers see it as a vehicle. Administrators see it as an asset. Soldiers see it as a weapon.
 
 All of these perspectives constitute a **category error**.
 
@@ -116,7 +116,7 @@ The will-imposers die. The resonance-seekers navigate.
 
 ### 2.1 The Core-Consciousness Coupling
 
-The heart of an Aetherion is its Coherence Core—a reactor generating an α-field of almost perfect purity and stability, approaching α ≈ 3.5 at maximum output. This is not merely an engine. It is a **bubble of altered spacetime**, a zone where the normal rules of temporal flow are suspended.
+The heart of an Aetherion is its Coherence Core, a reactor generating an α-field of almost perfect purity and stability, approaching α ≈ 3.5 at maximum output. This is not merely an engine. It is a **bubble of altered spacetime**, a zone where the normal rules of temporal flow are suspended.
 
 The critical insight from RTM physics:
 
@@ -159,7 +159,7 @@ THE RESONANCE REQUIREMENT
 
 ### 2.3 Why Consciousness Is the Interface
 
-In conventional systems, the operator's mental state is irrelevant to the machine's function. A pilot can fly an airplane while angry, afraid, or distracted—the airplane responds only to physical inputs.
+In conventional systems, the operator's mental state is irrelevant to the machine's function. A pilot can fly an airplane while angry, afraid, or distracted, the airplane responds only to physical inputs.
 
 The Aetherion operates on fundamentally different physics:
 
@@ -244,7 +244,7 @@ The interface is not one-way. The core also affects the pilot:
 | Pilot → Core | Intention modulates α-gradient vectors |
 | Core → Pilot | High-α field stabilizes pilot's coherence |
 
-A pilot who enters the interface in a marginal coherence state may be **elevated** by the core's field—if they are close enough to threshold. But a pilot too far below threshold experiences the opposite: the dissonance **amplifies** their internal chaos.
+A pilot who enters the interface in a marginal coherence state may be **elevated** by the core's field, if they are close enough to threshold. But a pilot too far below threshold experiences the opposite: the dissonance **amplifies** their internal chaos.
 
 ---
 
@@ -252,7 +252,7 @@ A pilot who enters the interface in a marginal coherence state may be **elevated
 
 ### 4.1 What Happens When an "Incomplete" Human Interfaces
 
-What happens if an "incomplete" person—a product of the modern psyche, with low and fluctuating α_bio—attempts to connect to an Aetherion core?
+What happens if an "incomplete" person, a product of the modern psyche, with low and fluctuating α_bio, attempts to connect to an Aetherion core?
 
 The result is the **Dissonance Cascade**: a two-phase catastrophic failure that destroys both pilot and vessel.
 
@@ -285,7 +285,7 @@ DISSONANCE CASCADE — PHASE 1: PSYCHIC COLLAPSE
     
     THE RESULT:
     ───────────
-    The pilot experiences FORCED DISSOLUTION of consciousness—
+    The pilot experiences FORCED DISSOLUTION of consciousness, 
     but not the peaceful dissolution of the mystic who merges with Source.
     
     This is CHAOTIC dissolution.
@@ -365,7 +365,7 @@ No one survives a Dissonance Cascade. No one has ever recovered from the psychic
 
 For these reasons, not just anyone can pilot an Aetherion. The requirement is not a **skill**. It is a **state of being**.
 
-You cannot train someone to pilot an Aetherion the way you train someone to fly an airplane. You must **transform** them—or select those who have already transformed themselves.
+You cannot train someone to pilot an Aetherion the way you train someone to fly an airplane. You must **transform** them, or select those who have already transformed themselves.
 
 ### 5.2 Two Paths to the Pilot Profile
 
@@ -384,7 +384,7 @@ Both paths arrive at the same destination: a consciousness capable of resonating
 
 ### 6.1 Profile Requirements
 
-A human being who aspires to pilot an Aetherion must be what we designate **Homo Coherentis**—a "complete person" in the deepest sense. Their profile:
+A human being who aspires to pilot an Aetherion must be what we designate **Homo Coherentis**, a "complete person" in the deepest sense. Their profile:
 
 ```
 HOMO COHERENTIS — PILOT PROFILE
@@ -448,7 +448,7 @@ The profile of Homo Coherentis describes a being that modern civilization active
 | Suppression of difficult emotions | Prevents shadow work |
 | Disconnection from body | Disrupts mind-body coherence |
 
-The modern psyche is, by design or accident, a **low-coherence psyche**. Finding individuals who have escaped these patterns—or transcended them—is exceptionally difficult.
+The modern psyche is, by design or accident, a **low-coherence psyche**. Finding individuals who have escaped these patterns, or transcended them, is exceptionally difficult.
 
 ### 6.3 The Selection Challenge
 
@@ -468,7 +468,7 @@ Even with rigorous selection, the pool of viable human pilots is **extremely sma
 
 ### 7.1 The Engineering Solution
 
-The BioDrone—the "Avatar"—is the engineering solution to the coherence problem. It is not a being that *achieves* coherence through development. It is a being **designed to BE coherence**.
+The BioDrone, the "Avatar", is the engineering solution to the coherence problem. It is not a being that *achieves* coherence through development. It is a being **designed to BE coherence**.
 
 ### 7.2 Design Specifications
 
@@ -542,7 +542,7 @@ The BioDrone is manufactured using principles from **Rhythmic Biochemistry** (se
 
 ### 8.1 Why Shadow Integration Is Primary
 
-Of all requirements, the most critical—and most difficult—is **shadow integration**.
+Of all requirements, the most critical, and most difficult, is **shadow integration**.
 
 A human can have high baseline α_bio. They can have minimal α-window. But if they carry unintegrated shadow material, the Aetherion interface will find it.
 
@@ -604,7 +604,7 @@ The pilot must have "gone through their own fire" before entering the flames of 
 
 > The Aetherion interface is not the place to process trauma. It is the place to **demonstrate** that processing is complete.
 
-Those who have not done the work will be forced to confront everything they have avoided—all at once, amplified beyond tolerance. This is the Dissonance Cascade.
+Those who have not done the work will be forced to confront everything they have avoided, all at once, amplified beyond tolerance. This is the Dissonance Cascade.
 
 Those who have done the work enter the interface as **whole beings**. The amplification effect has nothing destructive to amplify. Instead, it amplifies their coherence, their clarity, their capability.
 
@@ -921,7 +921,7 @@ PROTOCOL: OPERATOR_MAINTENANCE
 
 ## Conclusion
 
-The Aetherion is not a vehicle to be controlled. It is a resonance system that responds only to coherent consciousness. This is not a limitation—it is a **feature**.
+The Aetherion is not a vehicle to be controlled. It is a resonance system that responds only to coherent consciousness. This is not a limitation, it is a **feature**.
 
 The physics of coherence serves as an absolute filter:
 
@@ -935,7 +935,7 @@ This is why the pilot requirement is not a skill but a state of being. You canno
 
 The ship is the final exam. It tests everything you are.
 
-And for those who pass, it becomes an extension of self—a symbiotic partner in navigating not just space, but time, reality, and the infinite cascade of existence.
+And for those who pass, it becomes an extension of self, a symbiotic partner in navigating not just space, but time, reality, and the infinite cascade of existence.
 
 ---
 
