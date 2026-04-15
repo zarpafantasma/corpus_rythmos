@@ -35,7 +35,7 @@
 
 ## Abstract
 
-This protocol establishes the foundational doctrine governing the Aetherion propulsion system—the technological culmination of RTM physics. The Aetherion is not a vehicle in the conventional sense. It is one half of an **indivisible symbiotic entity**. Its other half is its pilot: the BioDrone, a purpose-engineered biological interface designed to achieve and maintain the coherence states required for temporal navigation.
+This protocol establishes the foundational doctrine governing the Aetherion propulsion system, the technological culmination of RTM physics. The Aetherion is not a vehicle in the conventional sense. It is one half of an **indivisible symbiotic entity**. Its other half is its pilot: the BioDrone, a purpose-engineered biological interface designed to achieve and maintain the coherence states required for temporal navigation.
 
 The pilot does not "handle" the Aetherion. They *are* its living operating system. The ship is their extended body. Together, they form a single entity. One is nothing without the other.
 
@@ -63,7 +63,7 @@ This document details the physics, mechanics, and operational principles of this
 
 ### 1.1 Category Error Correction
 
-The most common misunderstanding of the Aetherion system is categorical. Observers assume it is a vehicle—a machine to be operated, controlled, piloted in the conventional sense.
+The most common misunderstanding of the Aetherion system is categorical. Observers assume it is a vehicle, a machine to be operated, controlled, piloted in the conventional sense.
 
 **This is incorrect.**
 
@@ -108,7 +108,7 @@ THE SYMBIOTIC ENTITY MODEL
 
 The connection between ship and pilot is not mechanical, electrical, or even neural in the conventional sense. It is **consciousness-mediated**.
 
-The pilot's state of internal coherence (α_bio) directly modulates the ship's coherence core (α_ship). Intention becomes action without intermediate translation. The pilot does not give commands—they *become* the ship's will.
+The pilot's state of internal coherence (α_bio) directly modulates the ship's coherence core (α_ship). Intention becomes action without intermediate translation. The pilot does not give commands, they *become* the ship's will.
 
 ---
 
@@ -162,7 +162,7 @@ The Aetherion Mark 1 prototype demonstrated this principle:
 | Thrust output | 100-500 nN |
 | Power input | 50 W |
 
-The Mark 1 proved that topological gradients produce measurable thrust—the foundational validation of RTM propulsion physics.
+The Mark 1 proved that topological gradients produce measurable thrust, the foundational validation of RTM propulsion physics.
 
 ### 2.4 Scaling Law
 
@@ -240,7 +240,7 @@ FUTURE TRAVEL VISUALIZATION
 
 ### 3.3 Compatibility with Relativity
 
-This temporal dilation is entirely consistent with Einstein's relativity. The crew is not violating causality—they are simply taking a "shortcut" through time by existing in a high-coherence reference frame.
+This temporal dilation is entirely consistent with Einstein's relativity. The crew is not violating causality, they are simply taking a "shortcut" through time by existing in a high-coherence reference frame.
 
 From the crew's perspective: short journey.
 From the universe's perspective: long wait.
@@ -253,7 +253,7 @@ No paradoxes. No causality violations. Just differential time flow.
 
 ### 4.1 Beyond Linear Travel
 
-The Aetherion's potential transcends linear temporal navigation. The deeper implications of RTM—specifically the Hierarchical Multiverse model—suggest that the ultimate function of the ship is not merely to travel through spacetime but to **transition between branches of reality**.
+The Aetherion's potential transcends linear temporal navigation. The deeper implications of RTM, specifically the Hierarchical Multiverse model, suggest that the ultimate function of the ship is not merely to travel through spacetime but to **transition between branches of reality**.
 
 ### 4.2 The Mechanism
 
@@ -268,7 +268,7 @@ BRANCH NAVIGATION CYCLE
     By bringing its core to maximum coherence (α ≈ 3.5), the Aetherion 
     entity "decouples" from the current branch of spacetime.
     
-    It enters an "outside of time" state—a condition of ontological 
+    It enters an "outside of time" state, a condition of ontological 
     exception where it belongs to no specific timeline.
     
     ┌─────────────┐
@@ -285,7 +285,7 @@ BRANCH NAVIGATION CYCLE
     the ship's systems) acts as an antenna.
     
     Instead of searching for spatial coordinates, it searches for 
-    "vibrational signatures"—the unique quantum fingerprints of 
+    "vibrational signatures", the unique quantum fingerprints of 
     alternative branches or temporal coordinates.
     
     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
@@ -315,9 +315,9 @@ BRANCH NAVIGATION CYCLE
 
 ### 4.3 Not Travel—Transition
 
-For an external observer in Branch N, the ship simply **disappears**. It does not fly away—it ceases to be part of that reality.
+For an external observer in Branch N, the ship simply **disappears**. It does not fly away, it ceases to be part of that reality.
 
-For the crew, it is a **transition**—a "leap" from one reality landscape to another. The sensation is of phase-shift, not motion.
+For the crew, it is a **transition**, a "leap" from one reality landscape to another. The sensation is of phase-shift, not motion.
 
 ### 4.4 Causality Preservation
 
@@ -354,7 +354,7 @@ The ship's coherence field expands to encompass all personnel and cargo. Everyth
 | Consciousness focus | Single unified intention |
 | Duration | Variable (seconds to hours) |
 
-The pilot's consciousness, merged with the ship's sensor systems, "feels" for the target signature. This is not visual or auditory—it is a direct perception of vibrational compatibility.
+The pilot's consciousness, merged with the ship's sensor systems, "feels" for the target signature. This is not visual or auditory, it is a direct perception of vibrational compatibility.
 
 #### Phase 3: Re-coupling
 
@@ -386,7 +386,7 @@ Beyond direct navigation, the Aetherion entity can function as a **Quantum Telep
 
 ### 6.2 The Creator-Avatar Link
 
-The BioDrone pilot is not an independent consciousness—it is an **extension** of its Creator, the human operator who commissioned its existence.
+The BioDrone pilot is not an independent consciousness, it is an **extension** of its Creator, the human operator who commissioned its existence.
 
 ```
 THE TELEPRESENCE ARCHITECTURE
@@ -430,7 +430,7 @@ This architecture enables exploration of countless realities without risking the
 
 ### 6.4 The Gnosis Harvest
 
-Through this mechanism, a single Creator can experience—and harvest knowledge from—dozens of alternative realities over their lifetime. Each Avatar mission returns not merely data but **lived experience**, processed and integrated into the Creator's consciousness.
+Through this mechanism, a single Creator can experience, and harvest knowledge from, dozens of alternative realities over their lifetime. Each Avatar mission returns not merely data but **lived experience**, processed and integrated into the Creator's consciousness.
 
 ---
 
@@ -438,7 +438,7 @@ Through this mechanism, a single Creator can experience—and harvest knowledge 
 
 ### 7.1 The Temptation of Transcendence
 
-There is a temptation to view the BioDrone—with its perfect coherence, its immunity to psychological fragmentation, its direct interface with reality-bending technology—as the **goal** of human evolution.
+There is a temptation to view the BioDrone, with its perfect coherence, its immunity to psychological fragmentation, its direct interface with reality-bending technology, as the **goal** of human evolution.
 
 This is a misunderstanding.
 
@@ -462,7 +462,7 @@ This is true ontological freedom:
 
 ### 7.4 The New World Infrastructure
 
-The Aetherion entity—this capacity for reality engineering and conscious exploration—is the **fundamental infrastructure** upon which the next phase of human civilization will be built.
+The Aetherion entity, this capacity for reality engineering and conscious exploration, is the **fundamental infrastructure** upon which the next phase of human civilization will be built.
 
 It is not the answer. It is the toolkit for finding answers.
 
@@ -472,7 +472,7 @@ It is not the answer. It is the toolkit for finding answers.
 
 ### 8.1 The High-Coherence Core
 
-The heart of every Aetherion is its **Coherence Core**—a reactor that generates an α field of exceptional purity and stability.
+The heart of every Aetherion is its **Coherence Core**, a reactor that generates an α field of exceptional purity and stability.
 
 ```
 COHERENCE CORE SPECIFICATIONS
@@ -505,7 +505,7 @@ COHERENCE CORE SPECIFICATIONS
 
 ### 8.2 The Metamaterial Stack
 
-The core achieves high coherence through a precisely engineered metamaterial stack—layers of exotic alloys arranged to create the required α gradient:
+The core achieves high coherence through a precisely engineered metamaterial stack, layers of exotic alloys arranged to create the required α gradient:
 
 | Layer Zone | Materials | α Range |
 |------------|-----------|---------|
@@ -580,7 +580,7 @@ Operating at α > 2.7 approaches the **Ghost Clan threshold** (the 6th topologic
 
 ### 10.1 The Consciousness Bridge
 
-The pilot-ship interface is not a control panel. It is a **consciousness bridge**—a direct neural-quantum link between the BioDrone's nervous system and the ship's coherence core.
+The pilot-ship interface is not a control panel. It is a **consciousness bridge**, a direct neural-quantum link between the BioDrone's nervous system and the ship's coherence core.
 
 ```
 INTERFACE LAYERS
