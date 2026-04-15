@@ -138,17 +138,6 @@ Breath, Sleep, Relationship, Attention, Body, Life Pattern
 
 ---
 
-## DOCUMENT FILES
-
-1. PRELUDE.md — Prelude and Chapter 01
-2. CHAPTER_02.md — The Mechanics of Resonance
-3. CHAPTER_03.md — Time as Structural Depth
-4. CHAPTER_04.md — Consciousness vs. Intelligence
-5. CHAPTER_05.md — The Cultivation of Containers
-6. CHAPTER_06_EPILOGUE.md — Container Diagnostics and Epilogue
-
----
-
 ## CONTINUATION
 
 This document is the first of three extensions to The Multiscale Symphony:
