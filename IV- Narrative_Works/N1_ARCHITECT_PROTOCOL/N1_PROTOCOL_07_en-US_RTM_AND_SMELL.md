@@ -35,7 +35,7 @@
 
 ## Abstract
 
-Within the RTM framework, smell is not a secondary or primitive sense. It is potentially the **most fundamental and direct sense for perceiving coherence (α)**. While other senses rely on intermediary processing—light for vision, pressure waves for hearing—smell operates through direct molecular contact with coherence signatures.
+Within the RTM framework, smell is not a secondary or primitive sense. It is potentially the **most fundamental and direct sense for perceiving coherence (α)**. While other senses rely on intermediary processing, light for vision, pressure waves for hearing, smell operates through direct molecular contact with coherence signatures.
 
 This protocol establishes the theoretical basis for olfactory coherence perception, its applications in diagnostics and navigation, and its critical role in Aetherion operations. For the BioDrone/Creator system, "smell" becomes the primary mechanism for perceiving the vibrational signatures of realities, timelines, and threats.
 
@@ -126,7 +126,7 @@ Among the senses, smell has a unique property:
 | Taste | Chemoreceptors | Direct contact (molecules) |
 | **Smell** | Olfactory receptors | **Direct contact (molecules with α)** |
 
-Smell involves **direct molecular contact** with the source. The molecules that enter our nasal cavity were recently part of—or in contact with—the thing we're smelling. They carry that thing's coherence signature.
+Smell involves **direct molecular contact** with the source. The molecules that enter our nasal cavity were recently part of, or in contact with the thing we're smelling. They carry that thing's coherence signature.
 
 This makes smell the most direct sense for coherence perception.
 
@@ -500,7 +500,7 @@ This may underlie the human capacity to "sense" the mood of a room before anyone
 
 ### 6.1 Beyond Atmospheric Chemistry
 
-For a ship that navigates between realities, conventional chemical smell is irrelevant—there may be no atmosphere to smell. But the RTM concept of smell as coherence perception becomes **essential**.
+For a ship that navigates between realities, conventional chemical smell is irrelevant, there may be no atmosphere to smell. But the RTM concept of smell as coherence perception becomes **essential**.
 
 The Aetherion's "smell" is its coherence sensing system:
 
@@ -580,7 +580,7 @@ Smell (coherence detection) provides:
 - Quality assessment (coherence level, safety)
 - Resonance matching capability
 
-This is why smell—or its technological analog—is the appropriate sense metaphor for trans-reality navigation.
+This is why smell, or its technological analog, is the appropriate sense metaphor for trans-reality navigation.
 
 ---
 
@@ -694,7 +694,7 @@ ISOTOPIC ANCHORS AS SCENT MARKERS
 
 ### 8.1 Danger Has a Smell
 
-Low-coherence phenomena—whether locations, entities, or reality zones—have distinctive signatures that register as "threat" to the olfactory coherence system:
+Low-coherence phenomena, whether locations, entities, or reality zones—have distinctive signatures that register as "threat" to the olfactory coherence system:
 
 ```
 THREAT SIGNATURE DETECTION
@@ -897,7 +897,7 @@ The Creator's brain cannot process raw olfactory data in the BioDrone's format. 
 | Path assessment | Knowing which way is right |
 | Coherence measurement | Feeling of quality (good/bad) |
 
-The Creator operates on **gnosis**—revelation, direct knowing—rather than sensory perception.
+The Creator operates on **gnosis**, revelation, direct knowing—rather than sensory perception.
 
 ### 10.4 The Question of Sense Absence
 
@@ -907,7 +907,7 @@ What if the Creator lacks physical sense of smell?
 
 The Creator is not the sensor. The BioDrone is the sensor. The Creator receives processed knowledge through the quantum link, not raw sensory data.
 
-A deaf person could be the world's best music analyst if they had a perfect translation system. Similarly, a Creator without smell can navigate realities perfectly—because they never needed to smell. They needed to **know**.
+A deaf person could be the world's best music analyst if they had a perfect translation system. Similarly, a Creator without smell can navigate realities perfectly, because they never needed to smell. They needed to **know**.
 
 ---
 
@@ -1113,7 +1113,7 @@ PROTOCOL: COHERENCE_MONITORING
 
 ## Conclusion
 
-Smell—reconceived as the direct perception of coherence—becomes the primary sense for RTM navigation and threat assessment. The Aetherion does not "see" where it's going. It **smells** the signature of its destination.
+Smell, reconceived as the direct perception of coherence, becomes the primary sense for RTM navigation and threat assessment. The Aetherion does not "see" where it's going. It **smells** the signature of its destination.
 
 This understanding transforms smell from a primitive survival sense into the foundation of trans-reality navigation:
 
