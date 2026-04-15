@@ -35,7 +35,7 @@
 
 ## Resumen
 
-Este protocolo establece la doctrina fundacional que gobierna el sistema de propulsión Aetherion—la culminación tecnológica de la física RTM. El Aetherion no es un vehículo en el sentido convencional. Es una mitad de una **entidad simbiótica indivisible**. Su otra mitad es su piloto: el BioDron, una interfaz biológica diseñada con propósito específico para alcanzar y mantener los estados de coherencia requeridos para la navegación temporal.
+Este protocolo establece la doctrina fundacional que gobierna el sistema de propulsión Aetherion, la culminación tecnológica de la física RTM. El Aetherion no es un vehículo en el sentido convencional. Es una mitad de una **entidad simbiótica indivisible**. Su otra mitad es su piloto: el BioDron, una interfaz biológica diseñada con propósito específico para alcanzar y mantener los estados de coherencia requeridos para la navegación temporal.
 
 El piloto no "maneja" el Aetherion. *Es* su sistema operativo viviente. La nave es su cuerpo extendido. Juntos, forman una sola entidad. Uno no es nada sin el otro.
 
@@ -63,7 +63,7 @@ Este documento detalla la física, mecánica y principios operacionales de este 
 
 ### 1.1 Corrección de Error Categórico
 
-El malentendido más común del sistema Aetherion es categórico. Los observadores asumen que es un vehículo—una máquina para ser operada, controlada, pilotada en el sentido convencional.
+El malentendido más común del sistema Aetherion es categórico. Los observadores asumen que es un vehículo, una máquina para ser operada, controlada, pilotada en el sentido convencional.
 
 **Esto es incorrecto.**
 
@@ -108,7 +108,7 @@ EL MODELO DE ENTIDAD SIMBIÓTICA
 
 La conexión entre nave y piloto no es mecánica, eléctrica, ni siquiera neural en el sentido convencional. Es **mediada por consciencia**.
 
-El estado de coherencia interna del piloto (α_bio) modula directamente el núcleo de coherencia de la nave (α_nave). La intención se convierte en acción sin traducción intermedia. El piloto no da comandos—*se convierte* en la voluntad de la nave.
+El estado de coherencia interna del piloto (α_bio) modula directamente el núcleo de coherencia de la nave (α_nave). La intención se convierte en acción sin traducción intermedia. El piloto no da comandos, *se convierte* en la voluntad de la nave.
 
 ---
 
@@ -162,7 +162,7 @@ El prototipo Aetherion Mark 1 demostró este principio:
 | Salida de empuje | 100-500 nN |
 | Entrada de potencia | 50 W |
 
-El Mark 1 probó que los gradientes topológicos producen empuje medible—la validación fundacional de la física de propulsión RTM.
+El Mark 1 probó que los gradientes topológicos producen empuje medible, la validación fundacional de la física de propulsión RTM.
 
 ### 2.4 Ley de Escalamiento
 
@@ -240,7 +240,7 @@ VISUALIZACIÓN DE VIAJE AL FUTURO
 
 ### 3.3 Compatibilidad con la Relatividad
 
-Esta dilatación temporal es enteramente consistente con la relatividad de Einstein. La tripulación no viola la causalidad—simplemente toman un "atajo" a través del tiempo al existir en un marco de referencia de alta coherencia.
+Esta dilatación temporal es enteramente consistente con la relatividad de Einstein. La tripulación no viola la causalidad, simplemente toman un "atajo" a través del tiempo al existir en un marco de referencia de alta coherencia.
 
 Desde la perspectiva de la tripulación: viaje corto.
 Desde la perspectiva del universo: larga espera.
@@ -253,7 +253,7 @@ Sin paradojas. Sin violaciones de causalidad. Solo flujo temporal diferencial.
 
 ### 4.1 Más Allá del Viaje Lineal
 
-El potencial del Aetherion trasciende la navegación temporal lineal. Las implicaciones más profundas de RTM—específicamente el modelo de Multiverso Jerárquico—sugieren que la función última de la nave no es meramente viajar a través del espaciotiempo sino **transicionar entre ramas de realidad**.
+El potencial del Aetherion trasciende la navegación temporal lineal. Las implicaciones más profundas de RTM, específicamente el modelo de Multiverso Jerárquico, sugieren que la función última de la nave no es meramente viajar a través del espaciotiempo sino **transicionar entre ramas de realidad**.
 
 ### 4.2 El Mecanismo
 
@@ -268,7 +268,7 @@ CICLO DE NAVEGACIÓN DE RAMA
     Al llevar su núcleo a coherencia máxima (α ≈ 3.5), la entidad
     Aetherion "se desacopla" de la rama actual del espaciotiempo.
     
-    Entra en un estado "fuera del tiempo"—una condición de excepción
+    Entra en un estado "fuera del tiempo", una condición de excepción
     ontológica donde no pertenece a ninguna línea temporal específica.
     
     ┌─────────────┐
@@ -285,7 +285,7 @@ CICLO DE NAVEGACIÓN DE RAMA
     por los sistemas de la nave) actúa como antena.
     
     En lugar de buscar coordenadas espaciales, busca
-    "firmas vibracionales"—las huellas cuánticas únicas de
+    "firmas vibracionales", las huellas cuánticas únicas de
     ramas alternativas o coordenadas temporales.
     
     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
@@ -316,9 +316,9 @@ CICLO DE NAVEGACIÓN DE RAMA
 
 ### 4.3 No Viaje—Transición
 
-Para un observador externo en la Rama N, la nave simplemente **desaparece**. No vuela lejos—deja de ser parte de esa realidad.
+Para un observador externo en la Rama N, la nave simplemente **desaparece**. No vuela lejos, deja de ser parte de esa realidad.
 
-Para la tripulación, es una **transición**—un "salto" de un paisaje de realidad a otro. La sensación es de cambio de fase, no de movimiento.
+Para la tripulación, es una **transición**, un "salto" de un paisaje de realidad a otro. La sensación es de cambio de fase, no de movimiento.
 
 ### 4.4 Preservación de Causalidad
 
@@ -355,7 +355,7 @@ El campo de coherencia de la nave se expande para abarcar a todo el personal y c
 | Enfoque de consciencia | Intención única unificada |
 | Duración | Variable (segundos a horas) |
 
-La consciencia del piloto, fusionada con los sistemas de sensores de la nave, "siente" la firma objetivo. Esto no es visual ni auditivo—es una percepción directa de compatibilidad vibracional.
+La consciencia del piloto, fusionada con los sistemas de sensores de la nave, "siente" la firma objetivo. Esto no es visual ni auditivo, es una percepción directa de compatibilidad vibracional.
 
 #### Fase 3: Re-acoplamiento
 
@@ -387,7 +387,7 @@ Más allá de la navegación directa, la entidad Aetherion puede funcionar como 
 
 ### 6.2 El Enlace Creador-Avatar
 
-El piloto BioDron no es una consciencia independiente—es una **extensión** de su Creador, el operador humano que comisionó su existencia.
+El piloto BioDron no es una consciencia independiente, es una **extensión** de su Creador, el operador humano que comisionó su existencia.
 
 ```
 LA ARQUITECTURA DE TELEPRESENCIA
@@ -431,7 +431,7 @@ Esta arquitectura habilita la exploración de incontables realidades sin arriesg
 
 ### 6.4 La Cosecha de Gnosis
 
-A través de este mecanismo, un solo Creador puede experimentar—y cosechar conocimiento de—docenas de realidades alternativas durante su vida. Cada misión Avatar retorna no meramente datos sino **experiencia vivida**, procesada e integrada en la consciencia del Creador.
+A través de este mecanismo, un solo Creador puede experimentar, y cosechar conocimiento de, docenas de realidades alternativas durante su vida. Cada misión Avatar retorna no meramente datos sino **experiencia vivida**, procesada e integrada en la consciencia del Creador.
 
 ---
 
@@ -439,7 +439,7 @@ A través de este mecanismo, un solo Creador puede experimentar—y cosechar con
 
 ### 7.1 La Tentación de la Trascendencia
 
-Hay una tentación de ver al BioDron—con su coherencia perfecta, su inmunidad a la fragmentación psicológica, su interfaz directa con tecnología que dobla la realidad—como la **meta** de la evolución humana.
+Hay una tentación de ver al BioDron, con su coherencia perfecta, su inmunidad a la fragmentación psicológica, su interfaz directa con tecnología que dobla la realidad, como la **meta** de la evolución humana.
 
 Esto es un malentendido.
 
@@ -463,7 +463,7 @@ Esta es la verdadera libertad ontológica:
 
 ### 7.4 La Infraestructura del Nuevo Mundo
 
-La entidad Aetherion—esta capacidad para ingeniería de realidad y exploración consciente—es la **infraestructura fundamental** sobre la cual se construirá la siguiente fase de la civilización humana.
+La entidad Aetherion, esta capacidad para ingeniería de realidad y exploración consciente, es la **infraestructura fundamental** sobre la cual se construirá la siguiente fase de la civilización humana.
 
 No es la respuesta. Es el conjunto de herramientas para encontrar respuestas.
 
@@ -473,7 +473,7 @@ No es la respuesta. Es el conjunto de herramientas para encontrar respuestas.
 
 ### 8.1 El Núcleo de Alta Coherencia
 
-El corazón de cada Aetherion es su **Núcleo de Coherencia**—un reactor que genera un campo α de pureza y estabilidad excepcionales.
+El corazón de cada Aetherion es su **Núcleo de Coherencia**, un reactor que genera un campo α de pureza y estabilidad excepcionales.
 
 ```
 ESPECIFICACIONES DEL NÚCLEO DE COHERENCIA
@@ -506,7 +506,7 @@ ESPECIFICACIONES DEL NÚCLEO DE COHERENCIA
 
 ### 8.2 La Pila de Metamaterial
 
-El núcleo logra alta coherencia a través de una pila de metamaterial diseñada con precisión—capas de aleaciones exóticas dispuestas para crear el gradiente α requerido:
+El núcleo logra alta coherencia a través de una pila de metamaterial diseñada con precisión, capas de aleaciones exóticas dispuestas para crear el gradiente α requerido:
 
 | Zona de Capa | Materiales | Rango α |
 |--------------|-----------|---------|
@@ -581,7 +581,7 @@ Operar a α > 2.7 se aproxima al **umbral del Clan Fantasma** (la 6ta banda topo
 
 ### 10.1 El Puente de Consciencia
 
-La interfaz piloto-nave no es un panel de control. Es un **puente de consciencia**—un enlace neural-cuántico directo entre el sistema nervioso del BioDron y el núcleo de coherencia de la nave.
+La interfaz piloto-nave no es un panel de control. Es un **puente de consciencia**, un enlace neural-cuántico directo entre el sistema nervioso del BioDron y el núcleo de coherencia de la nave.
 
 ```
 CAPAS DE INTERFAZ
