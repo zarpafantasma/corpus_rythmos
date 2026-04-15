@@ -35,9 +35,9 @@
 
 ## Abstract
 
-This protocol establishes the theoretical and practical framework for BioDrone fabrication—the manufacturing of biological entities capable of sustaining the permanent coherence exponent (α_bio ≈ 3.0+) required for Aetherion interface.
+This protocol establishes the theoretical and practical framework for BioDrone fabrication, the manufacturing of biological entities capable of sustaining the permanent coherence exponent (α_bio ≈ 3.0+) required for Aetherion interface.
 
-The challenge is formidable: natural biology does not produce organisms with stable α > 2.5. The BioDrone must be **engineered from first principles** using insights from Rhythmic Biochemistry—the RTM-derived understanding that enzymes are not merely catalysts but "temporal tunnels" creating micro-cavities of high coherence.
+The challenge is formidable: natural biology does not produce organisms with stable α > 2.5. The BioDrone must be **engineered from first principles** using insights from Rhythmic Biochemistry, the RTM-derived understanding that enzymes are not merely catalysts but "temporal tunnels" creating micro-cavities of high coherence.
 
 This document details the science, the fabrication process, and the profound closing of the circle: **the same physics that allows the ship to bend space is the physics used to weave the body that pilots it.**
 
@@ -82,7 +82,7 @@ Natural selection optimizes for **survival and reproduction**, not coherence. Th
 - Social navigation (requires emotional range)
 - Adaptive response (requires state flexibility)
 
-All of these **require** α-window—the variance that makes natural biology incompatible with Aetherion interface.
+All of these **require** α-window, the variance that makes natural biology incompatible with Aetherion interface.
 
 The BioDrone must be optimized for a completely different purpose: **stable resonance with a high-coherence field**. This requires engineering, not evolution.
 
@@ -90,7 +90,7 @@ The BioDrone must be optimized for a completely different purpose: **stable reso
 
 The breakthrough comes from understanding what coherence **is** at the molecular level:
 
-> Enzymes are not merely chemical catalysts. They are **temporal tunnels**—micro-cavities of high coherence that accelerate reactions by locally altering the effective flow of time.
+> Enzymes are not merely chemical catalysts. They are **temporal tunnels**, micro-cavities of high coherence that accelerate reactions by locally altering the effective flow of time.
 
 If we can understand how enzymes create coherence at the molecular scale, we can engineer organisms whose **entire biology** operates at elevated coherence.
 
@@ -151,7 +151,7 @@ The standard Michaelis-Menten kinetics can be reinterpreted through the RTM lens
 | K_m | Substrate affinity | Resonance matching threshold |
 | V_max | Maximum velocity | Maximum coherence sustainable by active site |
 
-Enzymes with higher k_cat values are those creating **deeper coherence pockets**—more intense temporal tunnels.
+Enzymes with higher k_cat values are those creating **deeper coherence pockets**, more intense temporal tunnels.
 
 ### 2.3 The Environment Dictates Selectivity
 
@@ -356,7 +356,7 @@ Critical design choice: The BioDrone **lacks** systems that generate dissonance 
 | Attachment circuitry | Social bonding stress | Simplified |
 | Memory consolidation | Trauma storage | Modified (no trauma possible) |
 
-The BioDrone is not emotionally impoverished—it is emotionally **stable**. It does not experience the fluctuations that create α-window in natural biology.
+The BioDrone is not emotionally impoverished, it is emotionally **stable**. It does not experience the fluctuations that create α-window in natural biology.
 
 ---
 
@@ -364,7 +364,7 @@ The BioDrone is not emotionally impoverished—it is emotionally **stable**. It 
 
 ### 6.1 Overview
 
-BioDrone fabrication is not cloning, not genetic modification, and not conventional bioengineering. It is **resonant gestation**—growing a biological system within a controlled coherence field that imprints the desired characteristics.
+BioDrone fabrication is not cloning, not genetic modification, and not conventional bioengineering. It is **resonant gestation**, growing a biological system within a controlled coherence field that imprints the desired characteristics.
 
 ```
 BIODRONE FABRICATION PHASES
@@ -465,7 +465,7 @@ RESONANT CAVITY CHAMBER — SPECIFICATIONS
     ──────────────
     The developing organism is IMMERSED in the coherence field.
     Every moment of its existence occurs at elevated α.
-    The field does not merely surround it—it SHAPES it.
+    The field does not merely surround it, it SHAPES it.
     
     Just as a plant grows toward light, the BioDrone's biology
     develops TOWARD COHERENCE.
@@ -515,7 +515,7 @@ COHERENCE IMPRINTING MECHANISM
     ─────────────
     The integrated organism:
     • Has coherence "baked into" every level of structure
-    • Does not need to ACHIEVE coherence—it IS coherence
+    • Does not need to ACHIEVE coherence, it IS coherence
     • Maintains high α as effortlessly as natural organisms maintain low α
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -574,10 +574,10 @@ THE LIVING TUNING FORK
     
     THE ANALOGY COMPLETES:
     ──────────────────────
-    Natural humans are like rubber bands—they stretch and contract,
+    Natural humans are like rubber bands, they stretch and contract,
     their coherence fluctuating with circumstances.
     
-    The BioDrone is like a tuning fork—it maintains its frequency
+    The BioDrone is like a tuning fork, it maintains its frequency
     regardless of circumstances, providing a stable reference.
     
     This is why it can interface with the Aetherion:
@@ -616,7 +616,7 @@ The BioDrone is not suffering from emotional absence. It is **liberated** from t
 
 ### 9.1 The Core Innovation
 
-The neural lattice is the most critical BioDrone component—the master frequency generator and Aetherion interface layer:
+The neural lattice is the most critical BioDrone component, the master frequency generator and Aetherion interface layer:
 
 ```
 NEURAL LATTICE — ARCHITECTURE
@@ -862,7 +862,7 @@ PROTOCOL: BIODRONE_VERIFICATION
 | Entanglement failure | Node damage or incompatibility | Reassign to different Creator |
 | Interface instability | Lattice defect | Cannot be remediated; unit retired |
 
-Fabrication failure rates vary but are typically 15-25%. Failed units cannot be "fixed"—coherence imprinting is permanent.
+Fabrication failure rates vary but are typically 15-25%. Failed units cannot be "fixed", coherence imprinting is permanent.
 
 ---
 
@@ -907,7 +907,7 @@ THE CLOSED CIRCLE
                           
     Machine and flesh are not separate systems interfacing.
     They are TWO EXPRESSIONS OF THE SAME PHYSICS.
-    Their compatibility is not designed—it is INEVITABLE.
+    Their compatibility is not designed, it is INEVITABLE.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
