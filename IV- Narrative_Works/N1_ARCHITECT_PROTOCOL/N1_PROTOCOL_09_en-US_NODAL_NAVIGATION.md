@@ -37,7 +37,7 @@
 
 Protocol N1-AP-008 established the fundamental mechanics of trans-reality navigation. This protocol addresses the **precision infrastructure** required for practical operations: How do you navigate to a *specific location* within a target reality? How do you synchronize operations across multiple branches? How do you establish permanent navigation waypoints?
 
-The answer lies in **Nodal Navigation**—a system of pre-placed anchors, phase synchronization protocols, and trans-scalar coordination that transforms raw trans-reality capability into a practical operational network.
+The answer lies in **Nodal Navigation**, a system of pre-placed anchors, phase synchronization protocols, and trans-scalar coordination that transforms raw trans-reality capability into a practical operational network.
 
 Without this infrastructure, the Aetherion can reach "somewhere in target reality." With it, the Aetherion can reach "exactly this point, at exactly this time, coordinated with all other operations."
 
@@ -605,7 +605,7 @@ The phase synchronization works because:
 
 ### 6.1 Concept
 
-Individual anchors combine to form a **Nodal Network**—an interconnected navigation infrastructure spanning multiple branches.
+Individual anchors combine to form a **Nodal Network**, an interconnected navigation infrastructure spanning multiple branches.
 
 ```
 THE NODAL NETWORK CONCEPT
@@ -1416,7 +1416,7 @@ The network is the road system of the multiverse. Without it, we can jump betwee
 
 ---
 > **NAVIGATION TERMINOLOGY NOTE:**
-> Throughout this protocol, "return" refers to returning to the Entity's OPERATIONAL BASE within the current branch (N). The cascade flows one direction only—return to origin branch (N-1) is ontologically impossible. The Aetherion's "home" is its Chrono-Stasis base in the target branch.
+> Throughout this protocol, "return" refers to returning to the Entity's OPERATIONAL BASE within the current branch (N). The cascade flows one direction only, return to origin branch (N-1) is ontologically impossible. The Aetherion's "home" is its Chrono-Stasis base in the target branch.
 
 ---
 ```
