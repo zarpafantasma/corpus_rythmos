@@ -35,7 +35,7 @@
 
 ## Resumen
 
-Este protocolo establece la resolución definitiva RTM a la clásica "Paradoja del Abuelo" y todas las violaciones de causalidad temporal relacionadas. El marco demuestra que la auto-modificación retroactiva no es meramente difícil o prohibida—es **estructuralmente imposible** dentro de la física de la arquitectura de cascada.
+Este protocolo establece la resolución definitiva RTM a la clásica "Paradoja del Abuelo" y todas las violaciones de causalidad temporal relacionadas. El marco demuestra que la auto-modificación retroactiva no es meramente difícil o prohibida, es **estructuralmente imposible** dentro de la física de la arquitectura de cascada.
 
 No puedes saltar de vuelta a tu realidad original en un punto antes de tu partida. Intentar hacerlo violaría el principio más fundamental del universo RTM: **la integridad causal**.
 
@@ -87,7 +87,7 @@ La paradoja no se previene mediante una regla. Se previene por la geometría de 
 
 ### 2.1 La Realidad como Dirección
 
-Como se estableció en el Protocolo N1-AP-001, cada rama del multiverso posee una **firma vibracional** única—una huella cuántico-gravitacional que actúa como su "dirección" en el registro cósmico.
+Como se estableció en el Protocolo N1-AP-001, cada rama del multiverso posee una **firma vibracional** única, una huella cuántico-gravitacional que actúa como su "dirección" en el registro cósmico.
 
 **Perspectiva Crítica:** Esta firma no es estática. Es la suma total de la **historia causal completa** de la rama.
 
@@ -113,7 +113,7 @@ COMPOSICIÓN DE LA FIRMA VIBRACIONAL
 
 ### 2.2 Tu Partida Es Parte de la Dirección
 
-Tu realidad original—llamémosla Realidad-A—está definida por una cadena ininterrumpida de causa y efecto que incluye:
+Tu realidad original, llamémosla Realidad-A, está definida por una cadena ininterrumpida de causa y efecto que incluye:
 
 - Tu nacimiento
 - Tus experiencias de vida
@@ -168,7 +168,7 @@ Para sintonizar con la Realidad-A, debes sintonizar con la versión de la realid
 
 No puedes sintonizar con una versión de la Realidad-A donde aún no has partido, porque:
 - Esa versión no tiene una firma distintiva
-- No es una realidad separada—es un *segmento* de la misma realidad
+- No es una realidad separada, es un *segmento* de la misma realidad
 - El segmento sin tu partida sería una dirección completamente diferente
 
 ### 3.3 El Único Retorno Válido
@@ -216,7 +216,7 @@ Pero la firma de la Realidad-A es **holística**. No está compuesta de segmento
 
 Una vez que partes, la firma de la Realidad-A **incluye el hecho de que estás ausente**. Esto es ahora parte de lo que hace que la Realidad-A sea únicamente la Realidad-A.
 
-Una "Realidad-A donde estás presente en el tiempo T < T₀" sería una **realidad completamente diferente**—una donde nunca partiste. Pero esa realidad no existe en la cascada, porque tú *sí* partiste.
+Una "Realidad-A donde estás presente en el tiempo T < T₀" sería una **realidad completamente diferente**, una donde nunca partiste. Pero esa realidad no existe en la cascada, porque tú *sí* partiste.
 
 ### 4.3 El Proyector de Realidad No Puede Reproducir Escenas Eliminadas
 
@@ -262,7 +262,7 @@ Puedes ir a la habitación de al lado y entrar en **otra película** (Realidad-B
 
 Si quieres retornar a tu película original, **no puedes** re-entrar a la pantalla en la marca de los 30 minutos. La película ya ha avanzado. Tu personaje estuvo ausente desde el minuto 2:00:01 en adelante.
 
-Debes re-entrar en la marca de las 2-horas-y-1-segundo (o después) y continuar viendo—y siendo parte de—la historia desde ahí.
+Debes re-entrar en la marca de las 2-horas-y-1-segundo (o después) y continuar viendo, y siendo parte de, la historia desde ahí.
 
 ### 5.4 Por Qué Forzar Falla
 
@@ -318,7 +318,7 @@ SECUENCIA DE INTERVENCIÓN INTER-REALIDAD
     la Realidad-A. En cambio, CREA UNA NUEVA RAMA: Realidad-C.
     
     La Realidad-C es una copia idéntica de la Realidad-A hasta 1950,
-    pero desde ese punto en adelante, se desarrolla una historia diferente—
+    pero desde ese punto en adelante, se desarrolla una historia diferente,
     una donde tu abuelo murió y tú nunca naciste.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -376,10 +376,10 @@ La Realidad-C es una nueva línea temporal "huérfana":
 
 - Se bifurca de la Realidad-A en 1950
 - No contiene ninguna versión de ti
-- El viajero de la Realidad-B ha tenido éxito—pero no en cambiar tu pasado
+- El viajero de la Realidad-B ha tenido éxito, pero no en cambiar tu pasado
 - Meramente han creado una nueva historia donde tú nunca llegaste a existir
 
-El viajero ahora está varado en la Realidad-C (a menos que salte de nuevo). No han logrado su objetivo de borrarte. Solo han creado un universo sin ti—un universo diferente.
+El viajero ahora está varado en la Realidad-C (a menos que salte de nuevo). No han logrado su objetivo de borrarte. Solo han creado un universo sin ti, un universo diferente.
 
 ---
 
@@ -408,7 +408,7 @@ Piensa en la cascada como una biblioteca infinita:
 
 ### 8.3 Por Qué Esta Ley Existe
 
-La ley existe porque **las firmas son holísticas**. La identidad de una realidad incluye su historia completa. Cambiar esa historia cambiaría la identidad, lo que significaría que ya no es la misma realidad—es una nueva.
+La ley existe porque **las firmas son holísticas**. La identidad de una realidad incluye su historia completa. Cambiar esa historia cambiaría la identidad, lo que significaría que ya no es la misma realidad, es una nueva.
 
 La paradoja se evita no por prohibición sino por **imposibilidad estructural**.
 
@@ -598,7 +598,7 @@ BRIEFING PSICOLÓGICO: SOBERANÍA TEMPORAL
 
 ## Conclusión
 
-La Paradoja del Abuelo se disuelve bajo el análisis RTM. No se previene mediante reglas o fuerza de voluntad—se previene por la estructura fundamental de la realidad.
+La Paradoja del Abuelo se disuelve bajo el análisis RTM. No se previene mediante reglas o fuerza de voluntad, se previene por la estructura fundamental de la realidad.
 
 Tu pasado está escrito. Tu existencia está segura. Ninguna fuerza en el multiverso puede editar los capítulos que ya han sido entintados en tu línea temporal.
 
