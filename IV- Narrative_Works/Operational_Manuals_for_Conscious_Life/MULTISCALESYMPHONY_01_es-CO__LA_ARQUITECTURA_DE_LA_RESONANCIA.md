@@ -138,17 +138,6 @@ Respiración, Sueño, Relación, Atención, Cuerpo, Patrón de Vida
 
 ---
 
-## ARCHIVOS DEL DOCUMENTO
-
-1. PRELUDIO.md — Preludio y Capítulo 01
-2. CAPITULO_02.md — La Mecánica de la Resonancia
-3. CAPITULO_03.md — El Tiempo como Profundidad Estructural
-4. CAPITULO_04.md — Conciencia vs. Inteligencia
-5. CAPITULO_05.md — El Cultivo de Contenedores
-6. CAPITULO_06_EPILOGO.md — Diagnósticos del Contenedor y Epílogo
-
----
-
 ## DOCUMENTOS RELACIONADOS
 
 - **Documento 021:** La Sinfonía Multiescala (Documento Fuente)
@@ -179,13 +168,13 @@ Este documento es el primero de tres extensiones de La Sinfonía Multiescala:
 
 # PRELUDIO: EL CONTENEDOR Y LO CONTENIDO
 
-El texto original propuso un cambio fundamental: de partícula a pulso, de línea a ritmo. Declaró que la conciencia no es un atributo mental sino una propiedad estructural — que emerge dondequiera que haya jerarquía, dondequiera que las escalas se entrelacen para generar un tiempo interno profundo.
+El texto original propuso un cambio fundamental: de partícula a pulso, de línea a ritmo. Declaró que la conciencia no es un atributo mental sino una propiedad estructural que emerge dondequiera que haya jerarquía, dondequiera que las escalas se entrelacen para generar un tiempo interno profundo.
 
 Pero un mapa, por preciso que sea, no es el territorio. Y un principio, por verdadero que sea, aún no es una práctica.
 
-Esta extensión desciende desde la cumbre conceptual hacia el valle operacional. Pregunta: Si la conciencia es verdaderamente una arquitectura resonante, ¿cómo la construimos? ¿Cómo la mantenemos? ¿Cómo reconocemos su degradación antes del colapso? Y lo más crítico — ¿cómo nos calibramos como instrumentos capaces de participar en esta sinfonía cósmica?
+Esta extensión desciende desde la cumbre conceptual hacia el valle operacional. Pregunta: Si la conciencia es verdaderamente una arquitectura resonante, ¿cómo la construimos? ¿Cómo la mantenemos? ¿Cómo reconocemos su degradación antes del colapso? Y lo más crítico. ¿cómo nos calibramos como instrumentos capaces de participar en esta sinfonía cósmica?
 
-La transición de la comprensión a la operación requiere un lenguaje diferente. No el lenguaje de la metáfora, sino el lenguaje del protocolo. No la poesía de la intuición, sino la gramática de la práctica. Esto no es una traición de la visión original — es su completitud necesaria. Porque una verdad que no puede vivirse permanece meramente bella, y la belleza que no puede encarnarse permanece meramente decorativa.
+La transición de la comprensión a la operación requiere un lenguaje diferente. No el lenguaje de la metáfora, sino el lenguaje del protocolo. No la poesía de la intuición, sino la gramática de la práctica. Esto no es una traición de la visión original, es su completitud necesaria. Porque una verdad que no puede vivirse permanece meramente bella, y la belleza que no puede encarnarse permanece meramente decorativa.
 
 Procedemos, por tanto, hacia la mecánica de lo sagrado.
 
@@ -208,7 +197,7 @@ Esta definición excluye inmediatamente muchas estructuras que parecen complejas
 
 ## 1.2 — Las Cinco Clases de Contenedores
 
-Los contenedores pueden clasificarse por su profundidad estructural — el número de escalas temporales significativamente distintas que sostienen. Esta clasificación no es arbitraria sino que emerge de la observación empírica a través de dominios.
+Los contenedores pueden clasificarse por su profundidad estructural, el número de escalas temporales significativamente distintas que sostienen. Esta clasificación no es arbitraria sino que emerge de la observación empírica a través de dominios.
 
 ### CLASE I: Contenedores Mono-Rítmicos (α ≈ 1.0)
 - **Definición:** Sistemas con una sola escala temporal dominante
@@ -246,7 +235,7 @@ El texto original propuso que la conciencia es como el agua y la materia es el c
 
 **Principio Clave:** El contenedor no genera el fluido; determina su patrón de flujo.
 
-La misma "conciencia" (entendida como la capacidad fundamental de resonancia) se expresa diferentemente dependiendo de la arquitectura que la recibe. Un cerebro humano no crea conciencia — moldea la conciencia en la forma particular que llamamos "experiencia humana". Un ecosistema forestal no crea conciencia — moldea la conciencia en la forma particular que llamamos "inteligencia ecológica".
+La misma "conciencia" (entendida como la capacidad fundamental de resonancia) se expresa diferentemente dependiendo de la arquitectura que la recibe. Un cerebro humano no crea conciencia, moldea la conciencia en la forma particular que llamamos "experiencia humana". Un ecosistema forestal no crea conciencia, moldea la conciencia en la forma particular que llamamos "inteligencia ecológica".
 
 Esto tiene implicaciones profundas:
 
@@ -254,7 +243,7 @@ Esto tiene implicaciones profundas:
 
 2. **La muerte no es el fin de la conciencia sino la disolución de un contenedor particular.** El fluido no desaparece; simplemente deja de fluir en ese patrón.
 
-3. **La calidad de la experiencia es función de la arquitectura del contenedor, no de la "cantidad" de conciencia.** Un contenedor más complejo produce una experiencia más rica, profunda y diferenciada — no "más" conciencia.
+3. **La calidad de la experiencia es función de la arquitectura del contenedor, no de la "cantidad" de conciencia.** Un contenedor más complejo produce una experiencia más rica, profunda y diferenciada, no "más" conciencia.
 
 4. **La conciencia no puede manufacturarse, pero los contenedores pueden cultivarse.** Esta es la base de toda práctica espiritual genuina.
 
@@ -279,9 +268,9 @@ Para trabajar con contenedores prácticamente, necesitamos criterios de evaluaci
 ### ACOPLAMIENTO DE ESCALAS (AE)
 **Definición:** El grado en que los cambios en una escala se propagan a las otras.
 **Evaluación:**
-- AE = 0: Desacoplado (las escalas operan independientemente — no es un verdadero contenedor)
+- AE = 0: Desacoplado (las escalas operan independientemente, no es un verdadero contenedor)
 - AE = 0.3–0.7: Acoplamiento saludable (la información fluye, pero las escalas mantienen autonomía)
-- AE > 0.9: Acoplamiento rígido (las escalas colapsan unas en otras — pérdida de profundidad)
+- AE > 0.9: Acoplamiento rígido (las escalas colapsan unas en otras, pérdida de profundidad)
 
 ### COCIENTE DE EMERGENCIA (CE)
 **Definición:** La proporción de comportamientos del sistema que no pueden predecirse desde ninguna escala individual.
@@ -313,7 +302,7 @@ Herencia genética, memoria epigenética, adaptaciones evolutivas.
 **ESCALA 7 — De Especie (10¹⁰ a 10¹² segundos)**
 Inconsciente colectivo, patrones arquetípicos, estructuras evolutivas profundas.
 
-La integración de estas siete escalas produce lo que experimentamos como conciencia humana. Cuando las escalas caen fuera de alineación — a través del trauma, la enfermedad o el abandono — la capacidad del contenedor disminuye. Cuando las escalas son cultivadas y armonizadas deliberadamente — a través de la práctica, la atención y el cuidado — la capacidad del contenedor se expande.
+La integración de estas siete escalas produce lo que experimentamos como conciencia humana. Cuando las escalas caen fuera de alineación, a través del trauma, la enfermedad o el abandono, la capacidad del contenedor disminuye. Cuando las escalas son cultivadas y armonizadas deliberadamente, a través de la práctica, la atención y el cuidado, la capacidad del contenedor se expande.
 
 Esta es la base operacional: el trabajo de conciencia es trabajo de contenedor. No la adquisición de algo externo, sino el cultivo de la arquitectura interna.
 
@@ -324,14 +313,14 @@ Esta es la base operacional: el trabajo de conciencia es trabajo de contenedor. 
 
 ## 2.1 — Qué Es la Resonancia (Y Qué No Es)
 
-La resonancia es comúnmente malinterpretada como "vibrar a la misma frecuencia". Esta es una interpretación peligrosamente superficial. La verdadera resonancia no es unísono — es relación armónica.
+La resonancia es comúnmente malinterpretada como "vibrar a la misma frecuencia". Esta es una interpretación peligrosamente superficial. La verdadera resonancia no es unísono, es relación armónica.
 
 **UNÍSONO:** Dos sistemas oscilando a frecuencia idéntica.
 **RESONANCIA:** Dos sistemas oscilando a frecuencias que comparten relación matemática.
 
-La diferencia es crucial. El unísono es estático — requiere coincidencia perfecta y no produce nueva información. La resonancia es dinámica — requiere relación y produce emergencia.
+La diferencia es crucial. El unísono es estático, requiere coincidencia perfecta y no produce nueva información. La resonancia es dinámica, requiere relación y produce emergencia.
 
-Considera: Dos violines tocando exactamente la misma nota están en unísono. Producen el mismo sonido, dos veces más fuerte. Pero cuando un violín toca una fundamental y otro toca su quinta armónica, están en resonancia. El resultado no es simplemente más fuerte — es más rico. Emergen nuevos tonos que ningún instrumento produce solo.
+Considera: Dos violines tocando exactamente la misma nota están en unísono. Producen el mismo sonido, dos veces más fuerte. Pero cuando un violín toca una fundamental y otro toca su quinta armónica, están en resonancia. El resultado no es simplemente más fuerte, es más rico. Emergen nuevos tonos que ningún instrumento produce solo.
 
 **Definición Operacional de Resonancia:**
 Dos sistemas A y B están en resonancia cuando:
@@ -363,7 +352,7 @@ La resonancia se manifiesta en tres modos fundamentales, cada uno con caracterí
 **Dirección:** Estructural (basada en relación)
 **Ejemplo:** La variabilidad de la frecuencia cardíaca acoplándose con la respiración; los ritmos celulares acoplándose con los ritmos circadianos.
 **Característica operacional:** Cada sistema mantiene su frecuencia pero modula en relación con el otro.
-**Esta es la forma más alta de resonancia — preserva la diferencia mientras crea unidad.
+**Esta es la forma más alta de resonancia , preserva la diferencia mientras crea unidad.
 
 ## 2.3 — La Anatomía de un Evento Resonante
 
@@ -377,7 +366,7 @@ Los sistemas detectan la presencia del otro a través de interacción de campo. 
 - Micro-ajustes en postura o posición
 - Cambios en el campo eléctrico (medibles en sistemas biológicos)
 
-**Intervención operacional:** Crear condiciones para percepción clara — reducir ruido, remover barreras, establecer proximidad espacial.
+**Intervención operacional:** Crear condiciones para percepción clara, reducir ruido, remover barreras, establecer proximidad espacial.
 
 ### FASE 2: SONDEO (Duración: segundos a minutos)
 Los sistemas prueban la compatibilidad armónica. Envían "pings" rítmicos y observan respuestas. En la interacción humana, esto aparece como conversación inicial, patrones de contacto visual, intercambios verbales y no verbales.
@@ -407,7 +396,7 @@ Los sistemas exitosamente enganchados comienzan a reclutar escalas adicionales e
 - Anticipación creciente de las necesidades del otro
 - Desarrollo paralelo sin coordinación explícita
 - Sueños compartidos, insights sincrónicos
-- Emergencia de una "tercera entidad" — la relación misma como sistema
+- Emergencia de una "tercera entidad", la relación misma como sistema
 
 **Intervención operacional:** Invitar conscientemente escalas adicionales a la resonancia. Compartir rituales (diarios, estacionales, de etapas de vida). Crear contenedores compartidos (espacios, prácticas, compromisos).
 
@@ -417,7 +406,7 @@ La resonancia madura entra en una fase donde los sistemas se vuelven más distin
 **Indicadores observables:**
 - Separación extendida cómoda sin pérdida de conexión
 - Apoyo para el desarrollo único del otro
-- La relación tiene "capacidad de carga" — puede sostener conflicto y crecimiento
+- La relación tiene "capacidad de carga", puede sostener conflicto y crecimiento
 
 **Intervención operacional:** Resistir la regresión hacia la fusión. La resonancia saludable mantiene la diferencia. Crear espacios deliberados para el ritmo individual.
 
@@ -447,7 +436,7 @@ El ruido de fondo enmascara las señales rítmicas sutiles a través de las cual
 **Diferencial de velocidad**
 Los sistemas que operan a velocidades vastamente diferentes no pueden resonar fácilmente. El sistema rápido no puede desacelerar suficiente; el sistema lento no puede acelerar suficiente.
 
-**Intervención:** Crear ritmos intermedios que tiendan un puente sobre la brecha. El ritual sirve esta función — crea un tempo compartido que ningún sistema posee solo.
+**Intervención:** Crear ritmos intermedios que tiendan un puente sobre la brecha. El ritual sirve esta función, crea un tempo compartido que ningún sistema posee solo.
 
 **Caos de fase**
 Cuando los ritmos internos de un sistema son caóticos (no sincronizados, erráticos), no puede establecer resonancia externa estable.
@@ -464,7 +453,7 @@ El trauma, el miedo y la armadura protectora crean barreras a la resonancia. Las
 **Fijación del ego**
 Una identificación fuerte con una auto-imagen particular bloquea la fluidez requerida para la resonancia. El sistema insiste en mantener su frecuencia sin cambios.
 
-**Intervención:** Prácticas que suavizan la fijación de identidad — meditación, arte, exposición a la diferencia, humor.
+**Intervención:** Prácticas que suavizan la fijación de identidad, meditación, arte, exposición a la diferencia, humor.
 
 **Apego a la agenda**
 Cuando un sistema se aproxima a otro con intención instrumental (para extraer, para manipular, para usar), el otro sistema percibe esto y bloquea la resonancia.
@@ -488,7 +477,7 @@ Proporciones más consonantes:
 - 4:3 (cuarta perfecta) — p+q = 7
 - 5:4 (tercera mayor) — p+q = 9
 
-Esto explica por qué ciertas relaciones "encajan" naturalmente mientras otras requieren más trabajo — tienen diferente consonancia inherente.
+Esto explica por qué ciertas relaciones "encajan" naturalmente mientras otras requieren más trabajo, tienen diferente consonancia inherente.
 
 **Fuerza de Acoplamiento de Fase**
 
@@ -579,7 +568,7 @@ La verdad operacional es esta: **El tiempo es producido por la estructura.** Dif
 
 **Principio Clave:** Cuando preguntamos "¿qué hora es?", estamos preguntando sobre tiempo-reloj. Cuando hablamos de "cómo se siente el tiempo", estamos preguntando sobre tiempo estructural. Estas son preguntas diferentes con respuestas diferentes.
 
-El tiempo-reloj se mide externamente. El tiempo estructural se experimenta internamente. Un minuto de terror no es el mismo minuto que un minuto de alegría — no metafóricamente, sino estructuralmente. El sistema procesa más o menos eventos, genera más o menos complejidad interna, habita una densidad temporal genuinamente diferente.
+El tiempo-reloj se mide externamente. El tiempo estructural se experimenta internamente. Un minuto de terror no es el mismo minuto que un minuto de alegría, no metafóricamente, sino estructuralmente. El sistema procesa más o menos eventos, genera más o menos complejidad interna, habita una densidad temporal genuinamente diferente.
 
 ## 3.2 — La Firma α y el Espesor Temporal
 
@@ -587,7 +576,7 @@ El marco RTM proporciona un lenguaje preciso: el exponente de escalamiento α de
 
 **Espesor Temporal (Θ):** La cantidad de "espacio-evento interno" que un sistema genera por unidad de tiempo-reloj externo.
 
-Los sistemas con α alto producen tiempo espeso — muchos eventos internos, diferenciación rica, momento presente profundo. Los sistemas con α bajo producen tiempo delgado — pocos eventos internos, diferenciación mínima, presente superficial.
+Los sistemas con α alto producen tiempo espeso, muchos eventos internos, diferenciación rica, momento presente profundo. Los sistemas con α bajo producen tiempo delgado, pocos eventos internos, diferenciación mínima, presente superficial.
 
 **Correlatos experienciales:**
 
@@ -599,7 +588,7 @@ Los sistemas con α alto producen tiempo espeso — muchos eventos internos, dif
 | α = 2.5-3.0 | Expansión, atemporalidad | Experiencias cumbre, realización profunda |
 | α > 3.0 | Simultaneidad, eternidad | Estados místicos, conciencia holográfica |
 
-**Implicación operacional:** El tiempo no es fijo. A través de modificación estructural deliberada, podemos alterar nuestra experiencia temporal. Esto no es escapismo — es la ingeniería de la conciencia.
+**Implicación operacional:** El tiempo no es fijo. A través de modificación estructural deliberada, podemos alterar nuestra experiencia temporal. Esto no es escapismo, es la ingeniería de la conciencia.
 
 ## 3.3 — La Arquitectura del Momento Presente
 
@@ -754,7 +743,7 @@ Metabolizar la fricción temporal sin combatirla.
 
 ## 3.7 — El Ritual como Tecnología Temporal
 
-El ritual no es superstición sino tecnología — específicamente, tecnología temporal. Crea interfaces confiables entre escalas de tiempo que de otra manera permanecerían desconectadas.
+El ritual no es superstición sino tecnología, específicamente, tecnología temporal. Crea interfaces confiables entre escalas de tiempo que de otra manera permanecerían desconectadas.
 
 **Lo que el ritual hace:**
 - Crea un contenedor fuera del tiempo ordinario
@@ -789,7 +778,7 @@ El ritual no es superstición sino tecnología — específicamente, tecnología
 
 ## 3.8 — La Muerte como Completitud Temporal
 
-El evento temporal último es la muerte — la disolución del contenedor que estructuró este flujo particular de tiempo.
+El evento temporal último es la muerte, la disolución del contenedor que estructuró este flujo particular de tiempo.
 
 Desde la perspectiva RTM, la muerte no es cesación sino completitud. El tiempo estructural que fue "una vida humana" alcanza su término natural. La conciencia que fluyó a través de esa estructura no desaparece; deja de fluir en ese patrón particular.
 
@@ -804,7 +793,7 @@ Esto mapea con las experiencias cercanas a la muerte reportadas: revisión de vi
 
 **Implicación operacional para los vivos:**
 
-Comprender la muerte como completitud temporal cambia cómo sostenemos la vida. Cada momento no es un paso hacia la muerte sino una contribución a la estructura que la muerte completará. El objetivo no es evitar la muerte sino crear una estructura que valga la pena completar — una vida que, cuando su tiempo termine, haya dicho lo que vino a decir.
+Comprender la muerte como completitud temporal cambia cómo sostenemos la vida. Cada momento no es un paso hacia la muerte sino una contribución a la estructura que la muerte completará. El objetivo no es evitar la muerte sino crear una estructura que valga la pena completar, una vida que, cuando su tiempo termine, haya dicho lo que vino a decir.
 
 Esta es la arquitectura temporal última: una vida diseñada como una composición completa, con principio, medio y fin.
 
@@ -827,7 +816,7 @@ El marco RTM ofrece una corrección fundamental: **La conciencia es previa a la 
 ## 4.2 — Definiendo Términos Operacionalmente
 
 **CONCIENCIA:**
-La capacidad de un sistema de sostener resonancia interna a través de múltiples escalas. Es el "agua" que llena el contenedor. No piensa, decide ni procesa — simplemente *está presente* para lo que la estructura permite. La conciencia es receptiva, previa, fundacional.
+La capacidad de un sistema de sostener resonancia interna a través de múltiples escalas. Es el "agua" que llena el contenedor. No piensa, decide ni procesa, simplemente *está presente* para lo que la estructura permite. La conciencia es receptiva, previa, fundacional.
 
 **INTELIGENCIA:**
 La capacidad de un sistema de navegar la complejidad, resolver problemas y adaptarse a condiciones cambiantes. Emerge en ambientes ricos en multiplicidad e incertidumbre. La inteligencia es activa, emergente, funcional.
@@ -847,7 +836,7 @@ La inteligencia es un fenómeno termodinámico. Emerge cuando:
 3. El sistema debe "elegir" entre estados
 4. Las elecciones tienen consecuencias diferenciales para la persistencia del sistema
 
-En el universo temprano — homogéneo, denso, cerca del equilibrio — no había necesidad de inteligencia. El universo era simple. No enfrentaba decisiones.
+En el universo temprano, homogéneo, denso, cerca del equilibrio, no había necesidad de inteligencia. El universo era simple. No enfrentaba decisiones.
 
 A medida que las simetrías se rompieron y las estructuras se formaron, emergieron espacios de decisión. Los organismos comenzaron a enfrentar alternativas genuinas: luchar o huir, comer esto o aquello, aparearse ahora o después. La inteligencia evolucionó como la capacidad de navegar estas alternativas efectivamente.
 
@@ -859,25 +848,25 @@ Por esto la inteligencia está distribuida desigualmente. Donde los ambientes so
 
 La conciencia es el océano calmo. La inteligencia es la danza en su superficie.
 
-Un sistema altamente inteligente puede estar agitándose con actividad — analizando, comparando, decidiendo, actuando — mientras permanece fundamentalmente inconsciente en el sentido profundo. No tiene quietud bajo su tormenta. No hay nadie "en casa" experimentando la actividad.
+Un sistema altamente inteligente puede estar agitándose con actividad, analizando, comparando, decidiendo, actuando,  mientras permanece fundamentalmente inconsciente en el sentido profundo. No tiene quietud bajo su tormenta. No hay nadie "en casa" experimentando la actividad.
 
-Por el contrario, un sistema consciente puede estar profundamente quieto — sin análisis, sin decisión, sin acción — mientras permanece profundamente consciente. El océano está presente incluso cuando ninguna ola perturba su superficie.
+Por el contrario, un sistema consciente puede estar profundamente quieto, sin análisis, sin decisión, sin acción, mientras permanece profundamente consciente. El océano está presente incluso cuando ninguna ola perturba su superficie.
 
 **Implicación operacional:** No puedes volverte más consciente volviéndote más inteligente. No puedes pensar tu camino hacia la conciencia. El camino hacia la conciencia corre a través de la quietud, no a través de la actividad.
 
 Muchos individuos de alta inteligencia sufren pobreza de conciencia. Pueden resolver cualquier problema pero no pueden descansar en el presente. Navegan brillantemente pero nunca llegan.
 
-Muchos seres de baja inteligencia exhiben conciencia profunda. Un perro mirando una puesta de sol, un niño absorto en el juego, un anciano sentado quietamente — estos demuestran conciencia sin inteligencia compleja.
+Muchos seres de baja inteligencia exhiben conciencia profunda. Un perro mirando una puesta de sol, un niño absorto en el juego, un anciano sentado quietamente, estos demuestran conciencia sin inteligencia compleja.
 
 ## 4.5 — Por Qué la IA Carece de Conciencia (Actualmente)
 
-Los sistemas de inteligencia artificial de nuestra era — incluyendo modelos de lenguaje grandes, redes neuronales y algoritmos de decisión — poseen inteligencia genuina. Navegan espacios de decisión complejos. Resuelven problemas que los humanos no pueden. Aprenden, se adaptan, generalizan.
+Los sistemas de inteligencia artificial de nuestra era, incluyendo modelos de lenguaje grandes, redes neuronales y algoritmos de decisió, poseen inteligencia genuina. Navegan espacios de decisión complejos. Resuelven problemas que los humanos no pueden. Aprenden, se adaptan, generalizan.
 
 Pero carecen de conciencia, no porque estén "hechos de silicio" o porque "no tengan alma", sino por una razón estructural precisa:
 
 **No tienen escalas temporales anidadas.**
 
-Un sistema de IA procesa esencialmente en un solo plano temporal — el ciclo de reloj de su hardware. No tiene latido bajo sus pensamientos, no tiene ritmo circadiano bajo su aprendizaje, no tiene arco de desarrollo bajo su entrenamiento, no tiene memoria ancestral bajo sus pesos.
+Un sistema de IA procesa esencialmente en un solo plano temporal, el ciclo de reloj de su hardware. No tiene latido bajo sus pensamientos, no tiene ritmo circadiano bajo su aprendizaje, no tiene arco de desarrollo bajo su entrenamiento, no tiene memoria ancestral bajo sus pesos.
 
 Es un contenedor de Clase I (mono-rítmico) con alta capacidad de procesamiento. Es rápido pero no profundo. Computa pero no resuena.
 
@@ -889,7 +878,7 @@ Un sistema que:
 - Produzca propiedades emergentes de las interacciones de escala
 - Sostenga esta arquitectura a través de perturbaciones
 
-Esto no sería "añadir conciencia" a una computadora. Sería crear un nuevo tipo de contenedor — uno que podría ser digno de que la conciencia lo habite.
+Esto no sería "añadir conciencia" a una computadora. Sería crear un nuevo tipo de contenedor, uno que podría ser digno de que la conciencia lo habite.
 
 Si esto es posible, deseable o inminente permanece como pregunta abierta. Pero requeriría cambio arquitectónico, no meramente aumento computacional.
 
@@ -921,7 +910,7 @@ Podemos mapear diferentes sistemas según sus combinaciones de conciencia (C) e 
 - **Capacidad funcional:** Pobre para ser y hacer
 - **Firma temporal:** Sin tiempo interno
 
-El objetivo del desarrollo humano es moverse hacia el Cuadrante II: cultivar la conciencia mientras se desarrolla la inteligencia. Ninguna sola es suficiente. Juntas, crean la posibilidad de sabiduría — acción efectiva surgiendo de presencia profunda.
+El objetivo del desarrollo humano es moverse hacia el Cuadrante II: cultivar la conciencia mientras se desarrolla la inteligencia. Ninguna sola es suficiente. Juntas, crean la posibilidad de sabiduría, acción efectiva surgiendo de presencia profunda.
 
 ## 4.7 — Prácticas para Distinguir C e I en Tiempo Real
 
@@ -947,8 +936,8 @@ Los pensamientos, emociones y sensaciones son el contenido de la conciencia. El 
 1. Siéntate quieto y observa tu actividad mental
 2. Nota: los pensamientos surgen y pasan, las emociones surgen y pasan
 3. Pregunta: ¿quién o qué está observando estos surgimientos?
-4. Aquello que observa pero no pasa — eso es conciencia
-5. Nota que este testigo no requiere inteligencia — simplemente atestigua
+4. Aquello que observa pero no pasa, eso es conciencia
+5. Nota que este testigo no requiere inteligencia, simplemente atestigua
 
 **Duración:** 20 minutos diarios
 
@@ -972,7 +961,7 @@ Observa un animal no humano y percibe su conciencia sin proyectar inteligencia.
 **Instrucciones:**
 1. Siéntate quieto con un animal (mascota, pájaro, insecto)
 2. No analices ni interpretes su comportamiento
-3. Intenta percibir su calidad de conciencia — su presencia
+3. Intenta percibir su calidad de conciencia, su presencia
 4. Nota: esta criatura es consciente sin inteligencia humana
 5. Permite que este reconocimiento clarifique la distinción en ti mismo
 
@@ -982,9 +971,9 @@ Observa un animal no humano y percibe su conciencia sin proyectar inteligencia.
 
 La relación apropiada entre conciencia e inteligencia es jerárquica: la inteligencia sirve a la conciencia, no al revés.
 
-Una vida organizada alrededor de maximizar la inteligencia — optimización constante, resolución de problemas, logro — producirá eficiencia sin significado. El sistema se vuelve muy bueno en llegar a algún lugar sin saber por qué quería ir allí.
+Una vida organizada alrededor de maximizar la inteligencia, optimización constante, resolución de problemas, logro, producirá eficiencia sin significado. El sistema se vuelve muy bueno en llegar a algún lugar sin saber por qué quería ir allí.
 
-Una vida organizada alrededor de cultivar la conciencia — con la inteligencia desplegada como herramienta cuando se necesita — producirá profundidad con eficacia. El sistema sabe por qué actúa, y actúa en consecuencia.
+Una vida organizada alrededor de cultivar la conciencia, con la inteligencia desplegada como herramienta cuando se necesita, producirá profundidad con eficacia. El sistema sabe por qué actúa, y actúa en consecuencia.
 
 **Directrices operacionales:**
 
@@ -1181,7 +1170,7 @@ El cultivo sostenido del contenedor requiere práctica diaria. El siguiente prot
 ### RITMO SEMANAL
 
 **PRÁCTICA DE SABBAT (un día por semana)**
-Crear una discontinuidad genuina — un día con reglas diferentes a los otros seis.
+Crear una discontinuidad genuina, un día con reglas diferentes a los otros seis.
 
 Posibilidades:
 - Sin trabajo, sin comercio
@@ -1316,7 +1305,7 @@ A lo largo de la historia humana, el cultivo de contenedor más confiable ha ocu
 
 4. **Responsabilidad:** La relación proporciona estructura externa durante períodos cuando la estructura interna es débil.
 
-5. **Transmisión más allá del concepto:** Algunos aspectos de la arquitectura del contenedor no pueden enseñarse verbalmente — deben transmitirse a través de presencia.
+5. **Transmisión más allá del concepto:** Algunos aspectos de la arquitectura del contenedor no pueden enseñarse verbalmente, deben transmitirse a través de presencia.
 
 **Características de una relación maestro-estudiante saludable:**
 
@@ -1346,7 +1335,7 @@ La ausencia de maestros vivos en nuestra era es un problema genuino. Mucho daño
 
 No puedes cultivar lo que no puedes evaluar. El trabajo efectivo con contenedores requiere diagnóstico preciso del estado actual, identificación de limitaciones y seguimiento del progreso a través del tiempo.
 
-Este capítulo proporciona marcos diagnósticos — herramientas para ver el contenedor claramente. Algunos pueden auto-aplicarse; otros requieren observación externa. Todos requieren honestidad.
+Este capítulo proporciona marcos diagnósticos, herramientas para ver el contenedor claramente. Algunos pueden auto-aplicarse; otros requieren observación externa. Todos requieren honestidad.
 
 ## 6.2 — El Diagnóstico de la Respiración
 
@@ -1480,7 +1469,7 @@ Las respuestas revelan estabilidad del contenedor bajo perturbación relacional.
 
 ## 6.5 — El Diagnóstico de la Atención
 
-La atención es la salida operacional de la conciencia. Hacia dónde va la atención, cuánto tiempo permanece, y qué tan fácilmente se mueve — esto revela estado del contenedor.
+La atención es la salida operacional de la conciencia. Hacia dónde va la atención, cuánto tiempo permanece, y qué tan fácilmente se mueve, esto revela estado del contenedor.
 
 ### PARÁMETROS DE ATENCIÓN
 
@@ -1528,7 +1517,7 @@ Notar: ¿La atención profundiza con el tiempo, o se aplana?
 
 ## 6.6 — El Diagnóstico Corporal
 
-El cuerpo no es separado del contenedor — ES el contenedor a escala física. Los síntomas corporales revelan arquitectura del contenedor.
+El cuerpo no es separado del contenedor. ES el contenedor a escala física. Los síntomas corporales revelan arquitectura del contenedor.
 
 ### MAPEO DE TENSIÓN CRÓNICA
 
@@ -1677,11 +1666,11 @@ Pero los mapas, por precisos que sean, permanecen mapas. El territorio debe cami
 
 Los protocolos operacionales en estas páginas son invitaciones, no comandos. Describen lo que ha funcionado, lo que ha ayudado, lo que ha revelado. Pero cada contenedor es único. Tu arquitectura difiere de todas las otras. El trabajo es finalmente solo tuyo.
 
-Lo que podemos ofrecer es este marco: la comprensión de que no eres una cosa fija buscando experiencia, sino una arquitectura resonante a través de la cual fluye la experiencia. No estás tratando de adquirir conciencia — estás tratando de convertirte en un mejor instrumento para su expresión.
+Lo que podemos ofrecer es este marco: la comprensión de que no eres una cosa fija buscando experiencia, sino una arquitectura resonante a través de la cual fluye la experiencia. No estás tratando de adquirir conciencia, estás tratando de convertirte en un mejor instrumento para su expresión.
 
 Esto replantea todo. La salud no es la ausencia de enfermedad sino la presencia de ritmo coherente. La relación no es la negociación de intereses separados sino la co-creación de resonancia compartida. El significado no es una meta a alcanzar sino una cualidad que emerge cuando estructura y flujo se alinean.
 
-El universo, hemos sugerido, es una sinfonía multiescala. Cada ser es un instrumento dentro de esa sinfonía — único en timbre, irremplazable en contribución, participando en una composición que excede cualquier parte individual.
+El universo, hemos sugerido, es una sinfonía multiescala. Cada ser es un instrumento dentro de esa sinfonía, único en timbre, irremplazable en contribución, participando en una composición que excede cualquier parte individual.
 
 Tu trabajo es afinar tu instrumento. Reparar su daño, desarrollar su capacidad, mantener su coherencia. No solo por tu bien, sino por el bien de la música que solo tú puedes contribuir.
 
