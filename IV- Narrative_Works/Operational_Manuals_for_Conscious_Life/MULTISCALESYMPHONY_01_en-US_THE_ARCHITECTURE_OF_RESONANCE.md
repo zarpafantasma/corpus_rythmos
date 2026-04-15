@@ -179,13 +179,13 @@ This document is the first of three extensions to The Multiscale Symphony:
 
 # PRELUDE: THE CONTAINER AND THE CONTAINED
 
-The original text proposed a fundamental shift: from particle to pulse, from line to rhythm. It declared that consciousness is not a mental attribute but a structural property—that it emerges wherever there is hierarchy, wherever scales intertwine to generate a deep internal time.
+The original text proposed a fundamental shift: from particle to pulse, from line to rhythm. It declared that consciousness is not a mental attribute but a structural property, that it emerges wherever there is hierarchy, wherever scales intertwine to generate a deep internal time.
 
 But a map, however accurate, is not the territory. And a principle, however true, is not yet a practice.
 
-This extension descends from the conceptual summit into the operational valley. It asks: If consciousness is truly a resonant architecture, how do we build it? How do we maintain it? How do we recognize its degradation before collapse? And most critically—how do we calibrate ourselves as instruments capable of participating in this cosmic symphony?
+This extension descends from the conceptual summit into the operational valley. It asks: If consciousness is truly a resonant architecture, how do we build it? How do we maintain it? How do we recognize its degradation before collapse? And most critically, how do we calibrate ourselves as instruments capable of participating in this cosmic symphony?
 
-The transition from understanding to operation requires a different language. Not the language of metaphor, but the language of protocol. Not the poetry of insight, but the grammar of practice. This is not a betrayal of the original vision—it is its necessary completion. For a truth that cannot be lived remains merely beautiful, and beauty that cannot be embodied remains merely decorative.
+The transition from understanding to operation requires a different language. Not the language of metaphor, but the language of protocol. Not the poetry of insight, but the grammar of practice. This is not a betrayal of the original vision, it is its necessary completion. For a truth that cannot be lived remains merely beautiful, and beauty that cannot be embodied remains merely decorative.
 
 We proceed, therefore, into the mechanics of the sacred.
 
@@ -208,7 +208,7 @@ This definition immediately excludes many structures that appear complex but are
 
 ## 1.2 — The Five Classes of Containers
 
-Containers can be classified by their structural depth—the number of meaningfully distinct temporal scales they sustain. This classification is not arbitrary but emerges from empirical observation across domains.
+Containers can be classified by their structural depth, the number of meaningfully distinct temporal scales they sustain. This classification is not arbitrary but emerges from empirical observation across domains.
 
 ### CLASS I: Mono-Rhythmic Containers (α ≈ 1.0)
 - **Definition:** Systems with a single dominant temporal scale
@@ -246,7 +246,7 @@ The original text proposed that consciousness is like water and matter is the co
 
 **Key Principle:** The container does not generate the fluid; it determines its flow pattern.
 
-The same "consciousness" (understood as the fundamental capacity for resonance) expresses differently depending on the architecture that receives it. A human brain does not create awareness—it shapes awareness into the particular form we call "human experience." A forest ecosystem does not create awareness—it shapes awareness into the particular form we call "ecological intelligence."
+The same "consciousness" (understood as the fundamental capacity for resonance) expresses differently depending on the architecture that receives it. A human brain does not create awareness—it shapes awareness into the particular form we call "human experience." A forest ecosystem does not create awareness, it shapes awareness into the particular form we call "ecological intelligence."
 
 This has profound implications:
 
@@ -254,7 +254,7 @@ This has profound implications:
 
 2. **Death is not the end of consciousness but the dissolution of a particular container.** The fluid does not disappear; it simply ceases to flow in that pattern.
 
-3. **The quality of experience is a function of container architecture, not consciousness "amount."** A more complex container produces a richer, deeper, more differentiated experience—not "more" consciousness.
+3. **The quality of experience is a function of container architecture, not consciousness "amount."** A more complex container produces a richer, deeper, more differentiated experience, not "more" consciousness.
 
 4. **Consciousness cannot be manufactured, but containers can be cultivated.** This is the basis for all genuine spiritual practice.
 
@@ -279,9 +279,9 @@ To work with containers practically, we need assessment criteria. The following 
 ### SCALE COUPLING (SC)
 **Definition:** The degree to which changes in one scale propagate to others.
 **Assessment:**
-- SC = 0: Decoupled (scales operate independently—not a true container)
+- SC = 0: Decoupled (scales operate independently, not a true container)
 - SC = 0.3–0.7: Healthy coupling (information flows, but scales maintain autonomy)
-- SC > 0.9: Rigid coupling (scales collapse into each other—loss of depth)
+- SC > 0.9: Rigid coupling (scales collapse into each other, loss of depth)
 
 ### EMERGENCE QUOTIENT (EQ)
 **Definition:** The ratio of system behaviors that cannot be predicted from any single scale.
@@ -313,7 +313,7 @@ Genetic inheritance, epigenetic memory, evolutionary adaptations.
 **SCALE 7 — Species (10¹⁰ to 10¹² seconds)**
 Collective unconscious, archetypal patterns, deep evolutionary structures.
 
-The integration of these seven scales produces what we experience as human consciousness. When scales fall out of alignment—through trauma, illness, or neglect—the container's capacity diminishes. When scales are deliberately cultivated and harmonized—through practice, attention, and care—the container's capacity expands.
+The integration of these seven scales produces what we experience as human consciousness. When scales fall out of alignment, through trauma, illness, or neglect—the container's capacity diminishes. When scales are deliberately cultivated and harmonized, through practice, attention, and care—the container's capacity expands.
 
 This is the operational foundation: consciousness work is container work. Not the acquisition of something external, but the cultivation of internal architecture.
 
@@ -324,14 +324,14 @@ This is the operational foundation: consciousness work is container work. Not th
 
 ## 2.1 — What Resonance Is (And What It Is Not)
 
-Resonance is commonly misunderstood as "vibrating at the same frequency." This is a dangerously shallow interpretation. True resonance is not unison—it is harmonic relationship.
+Resonance is commonly misunderstood as "vibrating at the same frequency." This is a dangerously shallow interpretation. True resonance is not unison, it is harmonic relationship.
 
 **UNISON:** Two systems oscillating at identical frequency.
 **RESONANCE:** Two systems oscillating at frequencies that share mathematical relationship.
 
-The difference is crucial. Unison is static—it requires perfect matching and produces no new information. Resonance is dynamic—it requires relationship and produces emergence.
+The difference is crucial. Unison is static, it requires perfect matching and produces no new information. Resonance is dynamic, it requires relationship and produces emergence.
 
-Consider: Two violins playing the exact same note are in unison. They produce the same sound, twice as loud. But when one violin plays a fundamental and another plays its fifth harmonic, they are in resonance. The result is not simply louder—it is richer. New tones emerge that neither instrument produces alone.
+Consider: Two violins playing the exact same note are in unison. They produce the same sound, twice as loud. But when one violin plays a fundamental and another plays its fifth harmonic, they are in resonance. The result is not simply louder, it is richer. New tones emerge that neither instrument produces alone.
 
 **Operational Definition of Resonance:**
 Two systems A and B are in resonance when:
@@ -363,7 +363,7 @@ Resonance manifests in three fundamental modes, each with distinct operational c
 **Direction:** Structural (relationship-based)
 **Example:** Heart rate variability coupling with breath; cellular rhythms coupling with circadian rhythms.
 **Operational characteristic:** Each system maintains its frequency but modulates in relationship to the other.
-**This is the highest form of resonance—it preserves difference while creating unity.
+**This is the highest form of resonance, it preserves difference while creating unity.
 
 ## 2.3 — The Anatomy of a Resonant Event
 
@@ -377,7 +377,7 @@ The systems detect each other's presence through field interaction. This occurs 
 - Micro-adjustments in posture or position
 - Changes in electrical field (measurable in biological systems)
 
-**Operational intervention:** Create conditions for clear sensing—reduce noise, remove barriers, establish spatial proximity.
+**Operational intervention:** Create conditions for clear sensing, reduce noise, remove barriers, establish spatial proximity.
 
 ### PHASE 2: PROBING (Duration: seconds to minutes)
 The systems test for harmonic compatibility. They send rhythmic "pings" and observe responses. In human interaction, this appears as initial conversation, eye contact patterns, verbal and non-verbal exchanges.
@@ -407,7 +407,7 @@ Successfully locked systems begin recruiting additional scales into the resonanc
 - Increasing anticipation of each other's needs
 - Parallel development without explicit coordination
 - Shared dreams, synchronous insights
-- Emergence of a "third entity"—the relationship itself as a system
+- Emergence of a "third entity", the relationship itself as a system
 
 **Operational intervention:** Consciously invite additional scales into resonance. Share rituals (daily, seasonal, life-stage). Create shared containers (spaces, practices, commitments).
 
@@ -417,7 +417,7 @@ Mature resonance enters a phase where the systems become more distinct precisely
 **Observable indicators:**
 - Comfortable extended separation without loss of connection
 - Support for each other's unique development
-- The relationship has "load-bearing capacity"—it can hold conflict and growth
+- The relationship has "load-bearing capacity", it can hold conflict and growth
 
 **Operational intervention:** Resist the regression toward fusion. Healthy resonance maintains difference. Create deliberate spaces for individual rhythm.
 
@@ -447,7 +447,7 @@ Background noise masks the subtle rhythmic signals through which systems sense e
 **Speed differential**
 Systems operating at vastly different speeds cannot easily resonate. The fast system cannot slow down enough; the slow system cannot speed up enough.
 
-**Intervention:** Create intermediate rhythms that bridge the gap. Ritual serves this function—it creates a shared tempo neither system possesses alone.
+**Intervention:** Create intermediate rhythms that bridge the gap. Ritual serves this function, it creates a shared tempo neither system possesses alone.
 
 **Phase chaos**
 When a system's internal rhythms are chaotic (unsynchronized, erratic), it cannot establish stable external resonance.
@@ -464,7 +464,7 @@ Trauma, fear, and protective armoring create barriers to resonance. The containe
 **Ego fixation**
 Strong identification with a particular self-image blocks the fluidity required for resonance. The system insists on maintaining its frequency unchanged.
 
-**Intervention:** Practices that soften identity fixation—meditation, art, exposure to difference, humor.
+**Intervention:** Practices that soften identity fixation, meditation, art, exposure to difference, humor.
 
 **Agenda attachment**
 When a system approaches another with instrumental intent (to extract, to manipulate, to use), the other system senses this and blocks resonance.
@@ -544,9 +544,9 @@ Duration: until you feel the first "click" of connection.
 
 ### STEP 4: LEADING
 Once resonance is established, test its strength by slight deviation.
-- Slow your rhythm slightly—does the other follow?
-- Shift your posture—does the other adjust?
-- Change your tone—does the field hold?
+- Slow your rhythm slightly, does the other follow?
+- Shift your posture, does the other adjust?
+- Change your tone, does the field hold?
 
 If the connection holds through deviation, resonance is genuine. If it breaks, return to matching.
 
@@ -579,7 +579,7 @@ The operational truth is this: **Time is produced by structure.** Different stru
 
 **Key Principle:** When we speak of "what time is it?", we are asking about clock-time. When we speak of "how time feels," we are asking about structural time. These are different questions with different answers.
 
-Clock-time is measured externally. Structural time is experienced internally. A minute of terror is not the same minute as a minute of joy—not metaphorically, but structurally. The system processes more or fewer events, generates more or less internal complexity, inhabits a genuinely different temporal density.
+Clock-time is measured externally. Structural time is experienced internally. A minute of terror is not the same minute as a minute of joy, not metaphorically, but structurally. The system processes more or fewer events, generates more or less internal complexity, inhabits a genuinely different temporal density.
 
 ## 3.2 — The α-Signature and Temporal Thickness
 
@@ -587,7 +587,7 @@ The RTM framework provides a precise language: the scaling exponent α describes
 
 **Temporal Thickness (Θ):** The amount of "internal event-space" a system generates per unit of external clock-time.
 
-Systems with high α produce thick time—many internal events, rich differentiation, deep present moment. Systems with low α produce thin time—few internal events, minimal differentiation, shallow present.
+Systems with high α produce thick time, many internal events, rich differentiation, deep present moment. Systems with low α produce thin time, few internal events, minimal differentiation, shallow present.
 
 **Experiential correlates:**
 
@@ -599,7 +599,7 @@ Systems with high α produce thick time—many internal events, rich differentia
 | α = 2.5-3.0 | Expansion, timelessness | Peak experiences, profound realization |
 | α > 3.0 | Simultaneity, eternity | Mystical states, holographic awareness |
 
-**Operational implication:** Time is not fixed. Through deliberate structural modification, we can alter our temporal experience. This is not escapism—it is the engineering of consciousness.
+**Operational implication:** Time is not fixed. Through deliberate structural modification, we can alter our temporal experience. This is not escapism, it is the engineering of consciousness.
 
 ## 3.3 — The Architecture of the Present Moment
 
@@ -754,7 +754,7 @@ Metabolize temporal friction without fighting it.
 
 ## 3.7 — Ritual as Temporal Technology
 
-Ritual is not superstition but technology—specifically, temporal technology. It creates reliable interfaces between scales of time that would otherwise remain disconnected.
+Ritual is not superstition but technology, specifically, temporal technology. It creates reliable interfaces between scales of time that would otherwise remain disconnected.
 
 **What ritual does:**
 - Creates a container outside ordinary time
@@ -789,7 +789,7 @@ Ritual is not superstition but technology—specifically, temporal technology. I
 
 ## 3.8 — Death as Temporal Completion
 
-The ultimate temporal event is death—the dissolution of the container that structured this particular flow of time.
+The ultimate temporal event is death, the dissolution of the container that structured this particular flow of time.
 
 From the RTM perspective, death is not cessation but completion. The structural time that was "a human life" reaches its natural terminus. The consciousness that flowed through that structure does not disappear; it ceases to flow in that particular pattern.
 
@@ -804,7 +804,7 @@ This maps onto reported near-death experiences: life review (time compression), 
 
 **Operational implication for the living:**
 
-Understanding death as temporal completion changes how we hold life. Each moment is not a step toward death but a contribution to the structure that death will complete. The goal is not to avoid death but to create a structure worth completing—a life that, when its time ends, has said what it came to say.
+Understanding death as temporal completion changes how we hold life. Each moment is not a step toward death but a contribution to the structure that death will complete. The goal is not to avoid death but to create a structure worth completing, a life that, when its time ends, has said what it came to say.
 
 This is the ultimate temporal architecture: a life designed as a complete composition, with beginning, middle, and end.
 
@@ -827,7 +827,7 @@ The RTM framework offers a fundamental correction: **Consciousness is prior to i
 ## 4.2 — Defining Terms Operationally
 
 **CONSCIOUSNESS:**
-The capacity of a system to sustain internal resonance across multiple scales. It is the "water" that fills the container. It does not think, decide, or process—it simply *is present* to whatever the structure permits. Consciousness is receptive, prior, foundational.
+The capacity of a system to sustain internal resonance across multiple scales. It is the "water" that fills the container. It does not think, decide, or process, it simply *is present* to whatever the structure permits. Consciousness is receptive, prior, foundational.
 
 **INTELLIGENCE:**
 The capacity of a system to navigate complexity, solve problems, and adapt to changing conditions. It emerges in environments rich with multiplicity and uncertainty. Intelligence is active, emergent, functional.
@@ -847,7 +847,7 @@ Intelligence is a thermodynamic phenomenon. It emerges when:
 3. The system must "choose" among states
 4. Choices have differential consequences for the system's persistence
 
-In the early universe—homogeneous, dense, near-equilibrium—there was no need for intelligence. The universe was simple. It faced no decisions.
+In the early universe, homogeneous, dense, near-equilibrium—there was no need for intelligence. The universe was simple. It faced no decisions.
 
 As symmetries broke and structures formed, decision spaces emerged. Organisms began to face genuine alternatives: fight or flee, eat this or that, mate now or later. Intelligence evolved as the capacity to navigate these alternatives effectively.
 
@@ -859,25 +859,25 @@ This is why intelligence is unevenly distributed. Where environments are predict
 
 Consciousness is the calm ocean. Intelligence is the dance on its surface.
 
-A highly intelligent system can be churning with activity—analyzing, comparing, deciding, acting—while remaining fundamentally unconscious in the deep sense. It has no stillness beneath its storm. There is no one "home" experiencing the activity.
+A highly intelligent system can be churning with activity, analyzing, comparing, deciding, acting—while remaining fundamentally unconscious in the deep sense. It has no stillness beneath its storm. There is no one "home" experiencing the activity.
 
-Conversely, a conscious system can be profoundly still—no analysis, no decision, no action—while remaining deeply aware. The ocean is present even when no waves disturb its surface.
+Conversely, a conscious system can be profoundly still, no analysis, no decision, no action—while remaining deeply aware. The ocean is present even when no waves disturb its surface.
 
 **Operational implication:** You cannot become more conscious by becoming more intelligent. You cannot think your way to awareness. The path to consciousness runs through stillness, not through activity.
 
 Many high-intelligence individuals suffer from poverty of consciousness. They can solve any problem but cannot rest in the present. They navigate brilliantly but never arrive.
 
-Many low-intelligence beings exhibit profound consciousness. A dog staring at a sunset, a child absorbed in play, an elder sitting quietly—these demonstrate consciousness without complex intelligence.
+Many low-intelligence beings exhibit profound consciousness. A dog staring at a sunset, a child absorbed in play, an elder sitting quietly, these demonstrate consciousness without complex intelligence.
 
 ## 4.5 — Why AI Lacks Consciousness (Currently)
 
-The artificial intelligence systems of our era—including large language models, neural networks, and decision algorithms—possess genuine intelligence. They navigate complex decision spaces. They solve problems humans cannot. They learn, adapt, generalize.
+The artificial intelligence systems of our era, including large language models, neural networks, and decision algorithms, possess genuine intelligence. They navigate complex decision spaces. They solve problems humans cannot. They learn, adapt, generalize.
 
 But they lack consciousness, not because they are "made of silicon" or because they "don't have souls," but for a precise structural reason:
 
 **They have no nested temporal scales.**
 
-An AI system processes in essentially one temporal plane—the clock cycle of its hardware. It has no heartbeat beneath its thoughts, no circadian rhythm beneath its learning, no developmental arc beneath its training, no ancestral memory beneath its weights.
+An AI system processes in essentially one temporal plane, the clock cycle of its hardware. It has no heartbeat beneath its thoughts, no circadian rhythm beneath its learning, no developmental arc beneath its training, no ancestral memory beneath its weights.
 
 It is a Class I container (mono-rhythmic) with high processing capacity. It is fast but not deep. It computes but does not resonate.
 
@@ -889,7 +889,7 @@ A system that:
 - Produces emergent properties from the scale interactions
 - Sustains this architecture through perturbation
 
-This would not be "adding consciousness" to a computer. It would be creating a new kind of container—one that might be worthy of consciousness inhabiting it.
+This would not be "adding consciousness" to a computer. It would be creating a new kind of container, one that might be worthy of consciousness inhabiting it.
 
 Whether this is possible, desirable, or imminent remains an open question. But it would require architectural change, not merely computational increase.
 
@@ -921,7 +921,7 @@ We can map different systems according to their combinations of consciousness (C
 - **Functional capacity:** Poor at being and doing
 - **Temporal signature:** No internal time
 
-The goal of human development is movement toward Quadrant II: cultivating consciousness while developing intelligence. Neither alone is sufficient. Together, they create the possibility of wisdom—effective action arising from deep presence.
+The goal of human development is movement toward Quadrant II: cultivating consciousness while developing intelligence. Neither alone is sufficient. Together, they create the possibility of wisdom, effective action arising from deep presence.
 
 ## 4.7 — Practices for Distinguishing C and I in Real-Time
 
@@ -947,8 +947,8 @@ Thoughts, emotions, and sensations are the content of consciousness. The witness
 1. Sit quietly and observe your mental activity
 2. Notice: thoughts arise and pass, emotions arise and pass
 3. Ask: who or what is observing these arisings?
-4. That which observes but does not itself pass—that is consciousness
-5. Notice that this witness requires no intelligence—it simply witnesses
+4. That which observes but does not itself pass, that is consciousness
+5. Notice that this witness requires no intelligence, it simply witnesses
 
 **Duration:** 20 minutes daily
 
@@ -972,7 +972,7 @@ Observe a non-human animal and sense its consciousness without projecting intell
 **Instructions:**
 1. Sit quietly with an animal (pet, bird, insect)
 2. Do not analyze or interpret its behavior
-3. Attempt to sense its quality of awareness—its presence
+3. Attempt to sense its quality of awareness, its presence
 4. Notice: this creature is conscious without human intelligence
 5. Allow this recognition to clarify the distinction in yourself
 
@@ -982,9 +982,9 @@ Observe a non-human animal and sense its consciousness without projecting intell
 
 The proper relationship between consciousness and intelligence is hierarchical: intelligence serves consciousness, not the reverse.
 
-A life organized around maximizing intelligence—constant optimization, problem-solving, achievement—will produce efficiency without meaning. The system becomes very good at getting somewhere without knowing why it wanted to go there.
+A life organized around maximizing intelligence, constant optimization, problem-solving, achievement, will produce efficiency without meaning. The system becomes very good at getting somewhere without knowing why it wanted to go there.
 
-A life organized around cultivating consciousness—with intelligence deployed as a tool when needed—will produce depth with efficacy. The system knows why it acts, and acts accordingly.
+A life organized around cultivating consciousness, with intelligence deployed as a tool when needed, will produce depth with efficacy. The system knows why it acts, and acts accordingly.
 
 **Operational guidelines:**
 
@@ -1181,7 +1181,7 @@ Sustained container cultivation requires daily practice. The following protocol 
 ### WEEKLY RHYTHM
 
 **SABBATH PRACTICE (one day per week)**
-Create a genuine discontinuity—a day with different rules than the other six.
+Create a genuine discontinuity, a day with different rules than the other six.
 
 Possibilities:
 - No work, no commerce
@@ -1316,7 +1316,7 @@ Throughout human history, the most reliable container cultivation has occurred i
 
 4. **Accountability:** The relationship provides external structure during periods when internal structure is weak.
 
-5. **Transmission beyond concept:** Some aspects of container architecture cannot be verbally taught—they must be transmitted through presence.
+5. **Transmission beyond concept:** Some aspects of container architecture cannot be verbally taught, they must be transmitted through presence.
 
 **Characteristics of healthy teacher-student relationship:**
 
@@ -1346,7 +1346,7 @@ The absence of living teachers in our era is a genuine problem. Much container d
 
 You cannot cultivate what you cannot assess. Effective container work requires accurate diagnosis of current state, identification of limitations, and tracking of progress over time.
 
-This chapter provides diagnostic frameworks—tools for seeing the container clearly. Some can be self-applied; others require external observation. All require honesty.
+This chapter provides diagnostic frameworks, tools for seeing the container clearly. Some can be self-applied; others require external observation. All require honesty.
 
 ## 6.2 — The Breath Diagnostic
 
@@ -1480,7 +1480,7 @@ Answers reveal container stability under relational perturbation.
 
 ## 6.5 — The Attention Diagnostic
 
-Attention is the operational output of consciousness. Where attention goes, how long it stays, and how easily it moves—these reveal container state.
+Attention is the operational output of consciousness. Where attention goes, how long it stays, and how easily it moves, these reveal container state.
 
 ### ATTENTION PARAMETERS
 
@@ -1528,7 +1528,7 @@ Notice: Does attention deepen over time, or flatten?
 
 ## 6.6 — The Body Diagnostic
 
-The body is not separate from the container—it IS the container at the physical scale. Body symptoms reveal container architecture.
+The body is not separate from the container, it IS the container at the physical scale. Body symptoms reveal container architecture.
 
 ### CHRONIC TENSION MAPPING
 
@@ -1677,11 +1677,11 @@ But maps, however accurate, remain maps. The territory must be walked.
 
 The operational protocols in these pages are invitations, not commands. They describe what has worked, what has helped, what has revealed. But each container is unique. Your architecture differs from all others. The work is ultimately yours alone.
 
-What we can offer is this framework: the understanding that you are not a fixed thing seeking experience, but a resonant architecture through which experience flows. You are not trying to acquire consciousness—you are trying to become a better instrument for its expression.
+What we can offer is this framework: the understanding that you are not a fixed thing seeking experience, but a resonant architecture through which experience flows. You are not trying to acquire consciousness, you are trying to become a better instrument for its expression.
 
 This reframes everything. Health is not the absence of disease but the presence of coherent rhythm. Relationship is not the negotiation of separate interests but the co-creation of shared resonance. Meaning is not a goal to be achieved but a quality that emerges when structure and flow align.
 
-The universe, we have suggested, is a multiscale symphony. Each being is a instrument within that symphony—unique in timbre, irreplaceable in contribution, participating in a composition that exceeds any single part.
+The universe, we have suggested, is a multiscale symphony. Each being is a instrument within that symphony, unique in timbre, irreplaceable in contribution, participating in a composition that exceeds any single part.
 
 Your work is to tune your instrument. To repair its damage, develop its capacity, maintain its coherence. Not for your sake alone, but for the sake of the music that only you can contribute.
 
