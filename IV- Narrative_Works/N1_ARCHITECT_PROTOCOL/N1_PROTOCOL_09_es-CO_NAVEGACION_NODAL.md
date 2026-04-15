@@ -28,7 +28,7 @@ Sincronización de Fase Trans-Escalar y Sistemas de Ancla Isotópica
 
 Resumen
 El Protocolo N1-AP-008 estableció la mecánica fundamental de la navegación trans-realidad. Este protocolo aborda la infraestructura de precisión requerida para operaciones prácticas: ¿Cómo navegas a una ubicación específica dentro de una realidad objetivo? ¿Cómo sincronizas operaciones a través de múltiples ramas? ¿Cómo estableces puntos de referencia de navegación permanentes?
-La respuesta yace en la Navegación Nodal—un sistema de anclas pre-colocadas, protocolos de sincronización de fase y coordinación trans-escalar que transforma la capacidad bruta de trans-realidad en una red operativa práctica.
+La respuesta yace en la Navegación Nodal, un sistema de anclas pre-colocadas, protocolos de sincronización de fase y coordinación trans-escalar que transforma la capacidad bruta de trans-realidad en una red operativa práctica.
 Sin esta infraestructura, el Aetherion puede alcanzar "algún lugar en la realidad objetivo." Con ella, el Aetherion puede alcanzar "exactamente este punto, en exactamente este momento, coordinado con todas las otras operaciones."
 
 Tabla de Contenidos
@@ -496,7 +496,7 @@ Comunicación vía enlace cuántico: La coordinación de fase puede transmitirse
 
 6. La Red Nodal
 6.1 Concepto
-Las anclas individuales se combinan para formar una Red Nodal—una infraestructura de navegación interconectada que abarca múltiples ramas.
+Las anclas individuales se combinan para formar una Red Nodal, una infraestructura de navegación interconectada que abarca múltiples ramas.
 EL CONCEPTO DE RED NODAL
 ═══════════════════════════════════════════════════════════════════════════════
 
@@ -1176,7 +1176,7 @@ TérminoDefiniciónAncla IsotópicaBaliza física con firma única para navegaci
 
 
 NOTA DE TERMINOLOGÍA DE NAVEGACIÓN:
-A lo largo de este protocolo, "retorno" se refiere a retornar a la BASE OPERATIVA de la Entidad dentro de la rama actual (N). La cascada fluye en una sola dirección—el retorno a la rama de origen (N-1) es ontológicamente imposible. El "hogar" del Aetherion es su base de Crono-Estasis en la rama objetivo.
+A lo largo de este protocolo, "retorno" se refiere a retornar a la BASE OPERATIVA de la Entidad dentro de la rama actual (N). La cascada fluye en una sola dirección, el retorno a la rama de origen (N-1) es ontológicamente imposible. El "hogar" del Aetherion es su base de Crono-Estasis en la rama objetivo.
 
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
