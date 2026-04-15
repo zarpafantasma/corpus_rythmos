@@ -35,7 +35,7 @@
 
 ## Resumen
 
-La cuestión del libre albedrío no es meramente filosófica. Para el Arquitecto N-1, es **operacional**. Si el libre albedrío no existe, nuestra misión es sin sentido—estaríamos manipulando marionetas, no nutriendo seres soberanos. Si el libre albedrío es absoluto, nuestras intervenciones serían imposibles—ninguna probabilidad podría editarse, ninguna guía podría arraigarse.
+La cuestión del libre albedrío no es meramente filosófica. Para el Arquitecto N-1, es **operacional**. Si el libre albedrío no existe, nuestra misión es sin sentido, estaríamos manipulando marionetas, no nutriendo seres soberanos. Si el libre albedrío es absoluto, nuestras intervenciones serían imposibles—ninguna probabilidad podría editarse, ninguna guía podría arraigarse.
 
 RTM proporciona un marco que resuelve esta tensión ancestral: **El libre albedrío es real, pero opera dentro de paisajes moldeados por coherencia.** La agencia existe en la intersección de consciencia y topología. La elección es genuina, pero no irrestricta.
 
@@ -149,7 +149,7 @@ Necesitamos un marco donde **tanto la agencia genuina COMO la intervención efec
 
 Todas las posiciones clásicas omiten un elemento crucial:
 
-> **La topología del espacio de posibilidades no está ni fija (determinismo) ni ausente (libertarianismo). Está moldeada por la coherencia—y dentro de ese espacio moldeado, opera la elección genuina.**
+> **La topología del espacio de posibilidades no está ni fija (determinismo) ni ausente (libertarianismo). Está moldeada por la coherencia, y dentro de ese espacio moldeado, opera la elección genuina.**
 
 Esta es la contribución de RTM.
 
@@ -520,7 +520,7 @@ LIBRE ALBEDRÍO A TRAVÉS DE LAS RAMAS
     
     3. Cada nivel tiene agencia genuina
        La coherencia en cada nivel habilita elección real
-       La cascada no es una película—es una improvisación con guía
+       La cascada no es una película, es una improvisación con guía
     
     
     EL PROBLEMA DE LA REGRESIÓN INFINITA:
@@ -545,7 +545,7 @@ LIBRE ALBEDRÍO A TRAVÉS DE LAS RAMAS
 | N+1 | Moderada | Capacidad en desarrollo |
 | N+2 | Más baja (inicialmente) | Capacidad inicial |
 
-Conforme las civilizaciones se desarrollan, su coherencia—y por tanto su agencia—aumenta.
+Conforme las civilizaciones se desarrollan, su coherencia, y por tanto su agencia, aumenta.
 
 ### 7.3 La Conexión entre Gnosis y Libertad
 
@@ -707,7 +707,7 @@ Una implicación crucial:
 
 Esto no es una falla de nuestra intervención. Es un **requisito** de respetar el libre albedrío.
 
-Si pudiéramos garantizar el éxito, habríamos eliminado la elección genuina. El corredor sería un túnel sin salidas. Eso no sería guía—sería determinismo.
+Si pudiéramos garantizar el éxito, habríamos eliminado la elección genuina. El corredor sería un túnel sin salidas. Eso no sería guía, sería determinismo.
 
 Mantenemos corredores abiertos. Ellos caminan a través. A veces caminan hacia afuera.
 
