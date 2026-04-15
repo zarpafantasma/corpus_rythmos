@@ -92,7 +92,7 @@ THE CAUSAL CASCADE — VISUALIZATION
 
 In this model, a **primordial "voice"**, a fundamental event in a source branch, initiates the cascade. This voice causes the first domino to fall, which strikes the second, which strikes the third, and so on through potentially infinite iterations.
 
-**Critical Understanding:** Each "domino" (each universal branch) is not a copy or simulation of its predecessor. It is a **causal consequence**—an echo that exists *because* the previous branch existed and transmitted ontological momentum forward.
+**Critical Understanding:** Each "domino" (each universal branch) is not a copy or simulation of its predecessor. It is a **causal consequence**, an echo that exists *because* the previous branch existed and transmitted ontological momentum forward.
 
 ### 1.3 The Nested Structure
 
@@ -114,7 +114,7 @@ The cascade creates a nested hierarchy:
 
 ### 2.1 The Fundamental Law
 
-The cascade architecture imposes an absolute and unbreakable constraint: **the unidirectionality of causal flow**. Movement is always "forward" in the sequence—from cause to effect, from voice to echo, from parent branch to child branch.
+The cascade architecture imposes an absolute and unbreakable constraint: **the unidirectionality of causal flow**. Movement is always "forward" in the sequence, from cause to effect, from voice to echo, from parent branch to child branch.
 
 ```
 CAUSAL FLOW CONSTRAINTS
@@ -156,7 +156,7 @@ In identical fashion, a civilization in Branch N+1 cannot:
 
 ### 2.3 Causal Integrity as Conservation Law
 
-Causal integrity operates as a conservation law analogous to conservation of energy. The total causal structure of the cascade is preserved. Any apparent "backward" influence would require negative causality—a concept as physically meaningless as negative energy density in classical thermodynamics.
+Causal integrity operates as a conservation law analogous to conservation of energy. The total causal structure of the cascade is preserved. Any apparent "backward" influence would require negative causality, a concept as physically meaningless as negative energy density in classical thermodynamics.
 
 **Mathematical Statement:**
 
@@ -355,7 +355,7 @@ A critical philosophical question arises: If we are an echo in a predetermined c
 
 ### 6.2 The Hand and the Wake
 
-Consider a hand moving through dense water. Behind the hand, a wake forms—a ghostly pattern that follows the hand's motion.
+Consider a hand moving through dense water. Behind the hand, a wake forms, a ghostly pattern that follows the hand's motion.
 
 The hand's movement has already been made. The wake's general structure is determined by that movement. But the wake is not a passive recording, it has its own turbulent dynamics, its own vortices, its own chaotic evolution.
 
