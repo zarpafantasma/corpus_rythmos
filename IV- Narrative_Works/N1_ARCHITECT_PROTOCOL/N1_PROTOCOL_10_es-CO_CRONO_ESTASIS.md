@@ -35,11 +35,11 @@
 
 ## Resumen
 
-El núcleo de alta coherencia del Aetherion no solo permite la navegación trans-realidad. Crea una **zona localizada de flujo temporal alterado**—una región donde el tiempo transcurre a un ritmo diferente al del entorno circundante. Esta capacidad, cuando se explota deliberadamente, produce lo que designamos como **Burbujas Temporales**: burbujas controladas de tiempo acelerado o desacelerado.
+El núcleo de alta coherencia del Aetherion no solo permite la navegación trans-realidad. Crea una **zona localizada de flujo temporal alterado**, una región donde el tiempo transcurre a un ritmo diferente al del entorno circundante. Esta capacidad, cuando se explota deliberadamente, produce lo que designamos como **Burbujas Temporales**: burbujas controladas de tiempo acelerado o desacelerado.
 
 Este protocolo establece la física de la manipulación temporal, los parámetros operacionales para la generación de Burbujas Temporales, y las aplicaciones estratégicas de la Crono-Estasis para las operaciones de Arquitectos N-1.
 
-**Capacidad Central:** Dentro de una Burbuja Temporal, pueden transcurrir años mientras solo pasan días afuera—o a la inversa, siglos externos pueden transcurrir mientras los observadores internos experimentan meros momentos. El tiempo se convierte en una dimensión navegable, no simplemente una restricción.
+**Capacidad Central:** Dentro de una Burbuja Temporal, pueden transcurrir años mientras solo pasan días afuera, o a la inversa, siglos externos pueden transcurrir mientras los observadores internos experimentan meros momentos. El tiempo se convierte en una dimensión navegable, no simplemente una restricción.
 
 ---
 
@@ -104,7 +104,7 @@ LA LEY DE ESCALAMIENTO TEMPORAL
 
 > **El tiempo no es un fondo fijo. Es una manifestación de gradientes de coherencia.**
 
-En regiones de alta coherencia, los procesos cuánticos subyacentes que dan origen al flujo temporal son "más compactos"—más sincronizados, más eficientes. Esto se manifiesta como tiempo efectivo acelerado.
+En regiones de alta coherencia, los procesos cuánticos subyacentes que dan origen al flujo temporal son "más compactos", más sincronizados, más eficientes. Esto se manifiesta como tiempo efectivo acelerado.
 
 El núcleo del Aetherion, manteniendo α ≈ 3.0-3.5, crea una zona localizada donde ocurre esta aceleración.
 
@@ -290,7 +290,7 @@ PARÁMETROS DEL MODO ACELERACIÓN
 
 ### 4.1 Definición
 
-En Modo Desaceleración, el tiempo interno transcurre **más lento** que el tiempo externo. Esto requiere suprimir la coherencia por debajo de la línea base—una operación más desafiante.
+En Modo Desaceleración, el tiempo interno transcurre **más lento** que el tiempo externo. Esto requiere suprimir la coherencia por debajo de la línea base, una operación más desafiante.
 
 ### 4.2 El Desafío
 
@@ -906,7 +906,7 @@ CRONO-ESTASIS COMO BASE OPERACIONAL
     └────────────────────────────────────────────────────────────────────────┘
     
     "Hogar" es la base de Crono-Estasis en la Rama N.
-    "Retorno" significa retorno a esta base—NUNCA a la Rama N-1.
+    "Retorno" significa retorno a esta base, NUNCA a la Rama N-1.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -1519,7 +1519,7 @@ La Burbuja Temporal no es meramente un subproducto de la operación de alta cohe
 > La cascada fluye en una sola dirección.
 >
 > Para las tripulaciones del Aetherion y los Avatares, "hogar" es la base de Burbuja Temporal en la Rama N.
-> Para los Titanes físicos, "hogar" es donde sea que se hayan asentado en la Rama N—no pueden usar Crono-Estasis para escalas de tiempo civilizacionales y deben vivir vidas mortales.
+> Para los Titanes físicos, "hogar" es donde sea que se hayan asentado en la Rama N, no pueden usar Crono-Estasis para escalas de tiempo civilizacionales y deben vivir vidas mortales.
 
 ---
 ```
