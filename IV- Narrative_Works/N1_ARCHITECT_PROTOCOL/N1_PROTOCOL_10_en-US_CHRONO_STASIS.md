@@ -35,11 +35,11 @@
 
 ## Abstract
 
-The Aetherion's high-coherence core does not merely enable trans-reality navigation. It creates a **localized zone of altered temporal flow**—a region where time passes at a different rate than in the surrounding environment. This capability, when deliberately exploited, produces what we designate **Time Pockets**: controlled bubbles of accelerated or decelerated time.
+The Aetherion's high-coherence core does not merely enable trans-reality navigation. It creates a **localized zone of altered temporal flow**, a region where time passes at a different rate than in the surrounding environment. This capability, when deliberately exploited, produces what we designate **Time Pockets**: controlled bubbles of accelerated or decelerated time.
 
 This protocol establishes the physics of temporal manipulation, the operational parameters for Time Pocket generation, and the strategic applications of Chrono-Stasis for N-1 Architect operations.
 
-**Core Capability:** Within a Time Pocket, years can pass while only days elapse outside—or conversely, external centuries can pass while internal observers experience mere moments. Time becomes a navigable dimension, not merely a constraint.
+**Core Capability:** Within a Time Pocket, years can pass while only days elapse outside, or conversely, external centuries can pass while internal observers experience mere moments. Time becomes a navigable dimension, not merely a constraint.
 
 ---
 
@@ -104,7 +104,7 @@ Why does coherence affect time? RTM proposes:
 
 > **Time is not a fixed background. It is a manifestation of coherence gradients.**
 
-In regions of high coherence, the underlying quantum processes that give rise to temporal flow are "tighter"—more synchronized, more efficient. This manifests as accelerated effective time.
+In regions of high coherence, the underlying quantum processes that give rise to temporal flow are "tighter", more synchronized, more efficient. This manifests as accelerated effective time.
 
 The Aetherion core, maintaining α ≈ 3.0-3.5, creates a localized zone where this acceleration occurs.
 
@@ -290,7 +290,7 @@ ACCELERATION MODE PARAMETERS
 
 ### 4.1 Definition
 
-In Deceleration Mode, internal time passes **slower** than external time. This requires suppressing coherence below baseline—a more challenging operation.
+In Deceleration Mode, internal time passes **slower** than external time. This requires suppressing coherence below baseline, a more challenging operation.
 
 ### 4.2 The Challenge
 
@@ -906,7 +906,7 @@ CHRONO-STASIS AS OPERATIONAL BASE
     └────────────────────────────────────────────────────────────────────────┘
     
     "Home" is the Chrono-Stasis base in Branch N.
-    "Return" means return to this base—NEVER to Branch N-1.
+    "Return" means return to this base, NEVER to Branch N-1.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -1519,7 +1519,7 @@ The Time Pocket is not merely a byproduct of high-coherence operation. It is a *
 > The cascade flows one direction only.
 >
 > For Aetherion crews and Avatars, "home" is the Time Pocket base in Branch N.
-> For physical Titans, "home" is wherever they have settled in Branch N—they cannot use Chrono-Stasis for civilizational timescales and must live mortal lives.
+> For physical Titans, "home" is wherever they have settled in Branch N, they cannot use Chrono-Stasis for civilizational timescales and must live mortal lives.
 
 ---
 ```
