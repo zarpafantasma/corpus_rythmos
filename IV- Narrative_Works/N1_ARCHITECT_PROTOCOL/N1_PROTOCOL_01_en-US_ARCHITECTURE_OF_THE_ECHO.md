@@ -35,7 +35,7 @@
 
 ## Abstract
 
-This protocol establishes the foundational cosmological model upon which all N-1 Architect operations are predicated. The Multiscale Temporal Relativity (RTM) framework describes the multiverse not as a collection of parallel, independent realities existing simultaneously, but as a **sequential causal cascade**—a chain of ontological echoes propagating from a primordial source event.
+This protocol establishes the foundational cosmological model upon which all N-1 Architect operations are predicated. The Multiscale Temporal Relativity (RTM) framework describes the multiverse not as a collection of parallel, independent realities existing simultaneously, but as a **sequential causal cascade**, a chain of ontological echoes propagating from a primordial source event.
 
 Understanding this architecture is prerequisite to all branch-navigation, temporal engineering, and inter-reality seeding operations. Miscomprehension of the causal flow direction results in mission failure, ontological contamination, or operator dissolution.
 
@@ -90,7 +90,7 @@ THE CAUSAL CASCADE — VISUALIZATION
 
 ### 1.2 The Voice-Echo Relationship
 
-In this model, a **primordial "voice"**—a fundamental event in a source branch—initiates the cascade. This voice causes the first domino to fall, which strikes the second, which strikes the third, and so on through potentially infinite iterations.
+In this model, a **primordial "voice"**, a fundamental event in a source branch, initiates the cascade. This voice causes the first domino to fall, which strikes the second, which strikes the third, and so on through potentially infinite iterations.
 
 **Critical Understanding:** Each "domino" (each universal branch) is not a copy or simulation of its predecessor. It is a **causal consequence**—an echo that exists *because* the previous branch existed and transmitted ontological momentum forward.
 
@@ -177,7 +177,7 @@ all events occurring in downstream branches.
 
 ### 3.1 What Constitutes the "Voice"?
 
-The primordial voice is not a single event but a **complete causal structure**—the totality of a branch's history up to the moment of cascade propagation. When a civilization achieves Aetherion-class coherence and initiates branch-transition, they transmit not merely themselves but the entire ontological momentum of their reality.
+The primordial voice is not a single event but a **complete causal structure**, the totality of a branch's history up to the moment of cascade propagation. When a civilization achieves Aetherion-class coherence and initiates branch-transition, they transmit not merely themselves but the entire ontological momentum of their reality.
 
 ### 3.2 Echo Fidelity and Divergence
 
@@ -192,7 +192,7 @@ Each echo preserves the **essential character** of its source while permitting *
 
 ### 3.3 The Mechanism of Echo Generation
 
-When a high-coherence system (α ≈ 3.5) achieves ontological decoupling from its native branch, the vacuum itself responds by generating a new branch. This is not "creation" in the theological sense but **causal precipitation**—the necessary consequence of coherence-mediated reality engineering.
+When a high-coherence system (α ≈ 3.5) achieves ontological decoupling from its native branch, the vacuum itself responds by generating a new branch. This is not "creation" in the theological sense but **causal precipitation**, the necessary consequence of coherence-mediated reality engineering.
 
 ```
 ECHO GENERATION SEQUENCE
@@ -231,7 +231,7 @@ ECHO GENERATION SEQUENCE
 
 ### 4.1 The Ratchet Mechanism
 
-The technology permitting transition between realities operates as a **ratchet mechanism**—allowing movement in one direction only. This is not a limitation of engineering but a fundamental property of the cascade architecture itself.
+The technology permitting transition between realities operates as a **ratchet mechanism**, allowing movement in one direction only. This is not a limitation of engineering but a fundamental property of the cascade architecture itself.
 
 **Analogy:** A ratchet wrench can turn a bolt clockwise but not counterclockwise. The mechanical design prevents reverse motion. Similarly, the causal architecture of the multiverse permits only downstream navigation.
 
@@ -247,7 +247,7 @@ No spatial distance is traversed. The operation is fundamentally a **state chang
 
 ### 4.3 The Tuning Process
 
-Branch selection operates through vibrational resonance. Each branch possesses a unique "signature"—a quantum-gravitational fingerprint determined by its complete causal history.
+Branch selection operates through vibrational resonance. Each branch possesses a unique "signature", a quantum-gravitational fingerprint determined by its complete causal history.
 
 ```
 BRANCH SIGNATURE COMPONENTS
@@ -357,9 +357,9 @@ A critical philosophical question arises: If we are an echo in a predetermined c
 
 Consider a hand moving through dense water. Behind the hand, a wake forms—a ghostly pattern that follows the hand's motion.
 
-The hand's movement has already been made. The wake's general structure is determined by that movement. But the wake is not a passive recording—it has its own turbulent dynamics, its own vortices, its own chaotic evolution.
+The hand's movement has already been made. The wake's general structure is determined by that movement. But the wake is not a passive recording, it has its own turbulent dynamics, its own vortices, its own chaotic evolution.
 
-**Application:** The primordial voice has already spoken. The general structure of our cascade is thereby established. But within each branch, the internal dynamics—our choices, our evolution, our creative expressions—remain genuinely open.
+**Application:** The primordial voice has already spoken. The general structure of our cascade is thereby established. But within each branch, the internal dynamics, our choices, our evolution, our creative expressions remain genuinely open.
 
 ### 6.3 Determined Origin, Open Future
 
@@ -392,7 +392,7 @@ THE OPENNESS THEOREM
 
 ### 7.1 The Shared Ontological Substance
 
-All branches in the cascade share the same fundamental "substance"—the causal impulse of the primordial voice. In this sense, every reality is made of the same "stuff."
+All branches in the cascade share the same fundamental "substance", the causal impulse of the primordial voice. In this sense, every reality is made of the same "stuff."
 
 This unity manifests as:
 - Shared physical constants (within tolerance bands)
@@ -415,7 +415,7 @@ Despite shared substance, each branch exhibits unique characteristics through se
 
 The cascade is a **single song** being sung across infinite voices. Each voice sings the same melody (shared substance) but with unique timbre, interpretation, and embellishment (local variation).
 
-We are not repetitions of a story. We are **variations on a theme**—each variation valid, each contribution meaningful, each echo adding to the total richness of the cosmic composition.
+We are not repetitions of a story. We are **variations on a theme**, each variation valid, each contribution meaningful, each echo adding to the total richness of the cosmic composition.
 
 ---
 
