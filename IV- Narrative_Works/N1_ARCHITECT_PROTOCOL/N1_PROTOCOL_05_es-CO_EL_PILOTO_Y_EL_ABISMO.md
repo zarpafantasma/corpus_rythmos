@@ -37,11 +37,11 @@
 
 Este protocolo establece los requisitos absolutos para la operación del Aetherion. La nave es comúnmente malinterpretada como una máquina que debe ser controlada. Este es un **error de categoría** con consecuencias potencialmente fatales.
 
-El Aetherion no es una máquina. Es un **instrumento musical** infinitamente complejo, y su piloto no es un operador sino un **virtuoso** que debe alcanzar la resonancia con la frecuencia fundamental del instrumento. La interfaz entre la nave y el piloto no es un panel de control—es **la consciencia misma**.
+El Aetherion no es una máquina. Es un **instrumento musical** infinitamente complejo, y su piloto no es un operador sino un **virtuoso** que debe alcanzar la resonancia con la frecuencia fundamental del instrumento. La interfaz entre la nave y el piloto no es un panel de control, es **la consciencia misma**.
 
 Este documento detalla por qué la coherencia es obligatoria, qué sucede cuando la coherencia falla, y qué perfil debe poseer un piloto para sobrevivir a la interfaz.
 
-**Advertencia:** Intentar pilotar un Aetherion sin cumplir con los requisitos de coherencia resulta en la **Cascada de Disonancia**—un fenómeno que destruye tanto la psique del piloto como la estabilidad de la nave. No hay segundas oportunidades.
+**Advertencia:** Intentar pilotar un Aetherion sin cumplir con los requisitos de coherencia resulta en la **Cascada de Disonancia**, un fenómeno que destruye tanto la psique del piloto como la estabilidad de la nave. No hay segundas oportunidades.
 
 ---
 
@@ -65,7 +65,7 @@ Este documento detalla por qué la coherencia es obligatoria, qué sucede cuando
 
 ### 1.1 El Malentendido Fundamental
 
-La nave Aetherion—la culminación de la física RTM—es consistentemente mal percibida. Los ingenieros la ven como un vehículo. Los administradores la ven como un activo. Los soldados la ven como un arma.
+La nave Aetherion, la culminación de la física RTM, es consistentemente mal percibida. Los ingenieros la ven como un vehículo. Los administradores la ven como un activo. Los soldados la ven como un arma.
 
 Todas estas perspectivas constituyen un **error de categoría**.
 
@@ -116,7 +116,7 @@ Los que imponen su voluntad mueren. Los que buscan la resonancia navegan.
 
 ### 2.1 El Acoplamiento Núcleo-Consciencia
 
-El corazón de un Aetherion es su Núcleo de Coherencia—un reactor que genera un campo-α de pureza y estabilidad casi perfectas, aproximándose a α ≈ 3.5 en máxima potencia. Esto no es meramente un motor. Es una **burbuja de espacio-tiempo alterado**, una zona donde las reglas normales del flujo temporal están suspendidas.
+El corazón de un Aetherion es su Núcleo de Coherencia, un reactor que genera un campo-α de pureza y estabilidad casi perfectas, aproximándose a α ≈ 3.5 en máxima potencia. Esto no es meramente un motor. Es una **burbuja de espacio-tiempo alterado**, una zona donde las reglas normales del flujo temporal están suspendidas.
 
 El hallazgo crítico de la física RTM:
 
@@ -159,7 +159,7 @@ EL REQUISITO DE RESONANCIA
 
 ### 2.3 Por Qué la Consciencia Es la Interfaz
 
-En sistemas convencionales, el estado mental del operador es irrelevante para el funcionamiento de la máquina. Un piloto puede volar un avión estando enojado, temeroso o distraído—el avión responde solo a entradas físicas.
+En sistemas convencionales, el estado mental del operador es irrelevante para el funcionamiento de la máquina. Un piloto puede volar un avión estando enojado, temeroso o distraído, el avión responde solo a entradas físicas.
 
 El Aetherion opera con una física fundamentalmente diferente:
 
@@ -244,7 +244,7 @@ La interfaz no es unidireccional. El núcleo también afecta al piloto:
 | Piloto → Núcleo | La intención modula los vectores de gradiente-α |
 | Núcleo → Piloto | El campo de alto-α estabiliza la coherencia del piloto |
 
-Un piloto que entra a la interfaz en un estado de coherencia marginal puede ser **elevado** por el campo del núcleo—si está lo suficientemente cerca del umbral. Pero un piloto demasiado por debajo del umbral experimenta lo opuesto: la disonancia **amplifica** su caos interno.
+Un piloto que entra a la interfaz en un estado de coherencia marginal puede ser **elevado** por el campo del núcleo, si está lo suficientemente cerca del umbral. Pero un piloto demasiado por debajo del umbral experimenta lo opuesto: la disonancia **amplifica** su caos interno.
 
 ---
 
@@ -252,7 +252,7 @@ Un piloto que entra a la interfaz en un estado de coherencia marginal puede ser 
 
 ### 4.1 Qué Sucede Cuando un Humano "Incompleto" Se Interfaza
 
-¿Qué sucede si una persona "incompleta"—un producto de la psique moderna, con α_bio bajo y fluctuante—intenta conectarse a un núcleo Aetherion?
+¿Qué sucede si una persona "incompleta", un producto de la psique moderna, con α_bio bajo y fluctuante, intenta conectarse a un núcleo Aetherion?
 
 El resultado es la **Cascada de Disonancia**: un fallo catastrófico de dos fases que destruye tanto al piloto como a la nave.
 
@@ -285,7 +285,7 @@ CASCADA DE DISONANCIA — FASE 1: COLAPSO PSÍQUICO
     
     EL RESULTADO:
     ─────────────
-    El piloto experimenta DISOLUCIÓN FORZADA de la consciencia—
+    El piloto experimenta DISOLUCIÓN FORZADA de la consciencia, 
     pero no la disolución pacífica del místico que se fusiona con la Fuente.
     
     Esta es una disolución CAÓTICA.
@@ -365,7 +365,7 @@ Nadie sobrevive a una Cascada de Disonancia. Nadie se ha recuperado de la fase d
 
 Por estas razones, no cualquiera puede pilotar un Aetherion. El requisito no es una **habilidad**. Es un **estado del ser**.
 
-No se puede entrenar a alguien para pilotar un Aetherion de la misma manera que se entrena a alguien para volar un avión. Debes **transformarlos**—o seleccionar a aquellos que ya se han transformado a sí mismos.
+No se puede entrenar a alguien para pilotar un Aetherion de la misma manera que se entrena a alguien para volar un avión. Debes **transformarlos**, o seleccionar a aquellos que ya se han transformado a sí mismos.
 
 ### 5.2 Dos Caminos hacia el Perfil del Piloto
 
@@ -384,7 +384,7 @@ Ambos caminos llegan al mismo destino: una consciencia capaz de resonar con el n
 
 ### 6.1 Requisitos del Perfil
 
-Un ser humano que aspira a pilotar un Aetherion debe ser lo que designamos **Homo Coherentis**—una "persona completa" en el sentido más profundo. Su perfil:
+Un ser humano que aspira a pilotar un Aetherion debe ser lo que designamos **Homo Coherentis**, una "persona completa" en el sentido más profundo. Su perfil:
 
 ```
 HOMO COHERENTIS — PERFIL DEL PILOTO
@@ -448,13 +448,13 @@ El perfil del Homo Coherentis describe un ser que la civilización moderna activ
 | Supresión de emociones difíciles | Previene el trabajo de sombra |
 | Desconexión del cuerpo | Interrumpe la coherencia mente-cuerpo |
 
-La psique moderna es, por diseño o accidente, una **psique de baja coherencia**. Encontrar individuos que han escapado de estos patrones—o los han trascendido—es excepcionalmente difícil.
+La psique moderna es, por diseño o accidente, una **psique de baja coherencia**. Encontrar individuos que han escapado de estos patrones, o los han trascendido, es excepcionalmente difícil.
 
 ### 6.3 El Desafío de Selección
 
 Los candidatos deben ser identificados a través de:
 
-1. **Evaluación de coherencia basal** — Medición biométrica de α_bio
+1. **Evaluación de coherencia basal** —  Medición biométrica de α_bio
 2. **Pruebas de estabilidad** — Medición de la ventana-α a lo largo del tiempo y bajo estrés
 3. **Evaluación de profundidad psicológica** — Evaluación de la integración de la sombra
 4. **Simulación de estrés** — Exposición a campos de alto-α simulados
@@ -468,7 +468,7 @@ Incluso con una selección rigurosa, el grupo de pilotos humanos viables es **ex
 
 ### 7.1 La Solución de Ingeniería
 
-El BioDron—el "Avatar"—es la solución de ingeniería al problema de coherencia. No es un ser que *alcanza* la coherencia a través del desarrollo. Es un ser **diseñado para SER coherencia**.
+El BioDron, el "Avatar", es la solución de ingeniería al problema de coherencia. No es un ser que *alcanza* la coherencia a través del desarrollo. Es un ser **diseñado para SER coherencia**.
 
 ### 7.2 Especificaciones de Diseño
 
@@ -542,7 +542,7 @@ El BioDron es fabricado usando principios de **Bioquímica Rítmica** (ver Proto
 
 ### 8.1 Por Qué la Integración de la Sombra Es Primordial
 
-De todos los requisitos, el más crítico—y más difícil—es la **integración de la sombra**.
+De todos los requisitos, el más crítico, y más difícil, es la **integración de la sombra**.
 
 Un humano puede tener un α_bio basal alto. Puede tener una ventana-α mínima. Pero si lleva material de sombra no integrado, la interfaz Aetherion lo encontrará.
 
@@ -604,7 +604,7 @@ El piloto debe haber "pasado por su propio fuego" antes de entrar a las llamas d
 
 > La interfaz Aetherion no es el lugar para procesar trauma. Es el lugar para **demostrar** que el procesamiento está completo.
 
-Aquellos que no han hecho el trabajo serán forzados a confrontar todo lo que han evitado—todo a la vez, amplificado más allá de la tolerancia. Esto es la Cascada de Disonancia.
+Aquellos que no han hecho el trabajo serán forzados a confrontar todo lo que han evitado, todo a la vez, amplificado más allá de la tolerancia. Esto es la Cascada de Disonancia.
 
 Aquellos que han hecho el trabajo entran a la interfaz como **seres completos**. El efecto de amplificación no tiene nada destructivo que amplificar. En su lugar, amplifica su coherencia, su claridad, su capacidad.
 
@@ -921,7 +921,7 @@ PROTOCOLO: MANTENIMIENTO_OPERADOR
 
 ## Conclusión
 
-El Aetherion no es un vehículo para ser controlado. Es un sistema de resonancia que responde solo a la consciencia coherente. Esto no es una limitación—es una **característica**.
+El Aetherion no es un vehículo para ser controlado. Es un sistema de resonancia que responde solo a la consciencia coherente. Esto no es una limitación, es una **característica**.
 
 La física de la coherencia sirve como un filtro absoluto:
 
@@ -935,7 +935,7 @@ Esta es la razón por la que el requisito del piloto no es una habilidad sino un
 
 La nave es el examen final. Pone a prueba todo lo que eres.
 
-Y para aquellos que pasan, se convierte en una extensión del ser—un compañero simbiótico en la navegación no solo del espacio, sino del tiempo, la realidad, y la cascada infinita de la existencia.
+Y para aquellos que pasan, se convierte en una extensión del ser, un compañero simbiótico en la navegación no solo del espacio, sino del tiempo, la realidad, y la cascada infinita de la existencia.
 
 ---
 
