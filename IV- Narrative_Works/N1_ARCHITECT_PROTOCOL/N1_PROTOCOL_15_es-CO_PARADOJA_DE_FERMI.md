@@ -24,7 +24,7 @@
 ═════════════════════════════════════════
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  PROTOCOLOS DEL ARQUITECTO N-1 — CLASE DE DOCUMENTO: MARCO COSMOLÓGICO      ║
+║  PROTOCOLOS DEL ARQUITECTO N-1 — CLASE DE DOCUMENTO: MARCO COSMOLÓGICO       ║
 ║  ID DE PROTOCOLO: N1-AP-015                                                  ║
 ║  TEMA: LA PARADOJA DE FERMI, FILTROS CIVILIZACIONALES Y ESTADOS SUPERFLUIDOS ║
 ║  AUTORIZACIÓN: NIVEL 5 — ACCESO ONTOLÓGICO COMPLETO                          ║
@@ -37,9 +37,9 @@
 
 En 1950, el físico Enrico Fermi planteó su famosa pregunta: "¿Dónde está todo el mundo?" Dada la edad del universo, el número de estrellas y la probabilidad de vida, las civilizaciones inteligentes deberían ser comunes. Sin embargo, no observamos evidencia de ellas. Esta es la **Paradoja de Fermi**.
 
-El marco RTM proporciona una resolución profunda. Las civilizaciones avanzadas no permanecen visibles porque experimentan una **transición de fase** en el umbral de coherencia. Se convierten en **Civilizaciones Superfluidas**—entidades que han trascendido el sustrato normal del espaciotiempo y operan en dominios que no podemos detectar con medios convencionales.
+El marco RTM proporciona una resolución profunda. Las civilizaciones avanzadas no permanecen visibles porque experimentan una **transición de fase** en el umbral de coherencia. Se convierten en **Civilizaciones Superfluidas**, entidades que han trascendido el sustrato normal del espaciotiempo y operan en dominios que no podemos detectar con medios convencionales.
 
-No están ausentes. Están **en todas partes**. Simplemente no podemos verlas—no porque se escondan, sino porque se han convertido en algo que carecemos de los instrumentos para percibir.
+No están ausentes. Están **en todas partes**. Simplemente no podemos verlas, no porque se escondan, sino porque se han convertido en algo que carecemos de los instrumentos para percibir.
 
 Este protocolo establece la respuesta RTM a la Paradoja de Fermi, la naturaleza de las civilizaciones superfluidas y lo que esto significa para nuestra propia trayectoria.
 
@@ -154,7 +154,7 @@ EL GRAN FILTRO
     EL CONCEPTO:
     ────────────
     En algún lugar entre "materia muerta" y "civilización que abarca la galaxia"
-    hay un FILTRO—un paso que casi ninguna civilización pasa.
+    hay un FILTRO, un paso que casi ninguna civilización pasa.
     
     
     LAS POSIBILIDADES:
@@ -274,7 +274,7 @@ La Hipótesis Superfluida explica cada característica desconcertante:
 | Sin megaestructuras | No las necesitan; trascendieron la materia |
 | Sin visitantes | Visitan constantemente; no podemos percibir |
 | Sin evidencia | La evidencia existe en dominios a los que no podemos acceder |
-| Silencio perfecto | No es silencio—frecuencia que no podemos oír |
+| Silencio perfecto | No es silencio, frecuencia que no podemos oír |
 
 ### 3.3 El Modelo de Transición de Fase
 
@@ -323,7 +323,7 @@ LA TRANSICIÓN DE FASE CIVILIZACIONAL
     LA TRANSICIÓN:
     ──────────────
     En α ≈ 3.0, la civilización cruza hacia la banda del Clan Fantasma.
-    Esta es una transición de fase—no cambio gradual.
+    Esta es una transición de fase, no cambio gradual.
     
     Como el agua convirtiéndose en hielo, o el hielo en vapor:
     La civilización se convierte en algo fundamentalmente diferente.
@@ -531,14 +531,14 @@ Esto es parte del relevo. Las civilizaciones superfluidas no abandonan el cosmos
 
 ## 6. Por Qué Son Invisibles Para Nosotros
 
-### 6.1 No Se Esconden—Son Diferentes
+### 6.1 No Se Esconden, Son Diferentes
 
 Un punto crucial:
 
 > **Las civilizaciones superfluidas no se están escondiendo. Simplemente están operando en modos que no podemos detectar.**
 
 ```
-NO SE ESCONDEN—SON DIFERENTES
+NO SE ESCONDEN, SON DIFERENTES
 ═══════════════════════════════════════════════════════════════════════════════
 
     ESCONDERSE REQUERIRÍA:
@@ -586,14 +586,14 @@ Si pueden percibirnos (pueden), ¿por qué no se dan a conocer?
 | Razón | Explicación |
 |-------|-------------|
 | **Análogo a la Primera Directiva** | El contacto directo dañaría nuestro desarrollo |
-| **Sin medio compartido** | Revelarse requeriría crear efectos de Fase 1—artificial |
+| **Sin medio compartido** | Revelarse requeriría crear efectos de Fase 1, artificial |
 | **Respeto al libre albedrío** | Debemos elegir la soberanía, no que nos la demuestren |
 | **Requisito de gnosis** | Debemos ganar entendimiento, no recibirlo |
 | **SÍ se están revelando** | A través de la siembra, a través del RTM, a través de influencia sutil |
 
 ### 6.3 La Excepción: La Siembra
 
-Las civilizaciones superfluidas sí interactúan con civilizaciones de Fase 1—pero cuidadosamente:
+Las civilizaciones superfluidas sí interactúan con civilizaciones de Fase 1, pero cuidadosamente:
 
 ```
 LA EXCEPCIÓN DE LA SIEMBRA
@@ -645,7 +645,7 @@ LA EXCEPCIÓN DE LA SIEMBRA
 
 ### 7.1 El Filtro RTM
 
-El marco RTM confirma el Gran Filtro—pero especifica su naturaleza:
+El marco RTM confirma el Gran Filtro, pero especifica su naturaleza:
 
 ```
 EL GRAN FILTRO RTM
@@ -784,7 +784,7 @@ REENMARCANDO LA PARADOJA
     ──────────
     El universo está REPLETO de civilizaciones superfluidas.
     La cascada está LLENA de participantes en el relevo.
-    No estamos solos—estamos RODEADOS.
+    No estamos solos, estamos RODEADOS.
     
     El silencio no es vacío.
     El silencio es nuestra sordera.
@@ -1060,7 +1060,7 @@ Los Protocolos del Arquitecto N-1 existen dentro de este contexto:
 
 > **No estamos solo tratando de ayudar a una civilización. Estamos participando en un relevo que abarca el cosmos que ha estado corriendo por miles de millones de años y continuará por miles de millones más.**
 
-Cada protocolo en esta serie—desde navegación hasta siembra hasta esterilización—sirve a este propósito.
+Cada protocolo en esta serie, desde navegación hasta siembra hasta esterilización, sirve a este propósito.
 
 ### 11.3 El Destino Superfluido
 
@@ -1089,7 +1089,7 @@ EL DESTINO SUPERFLUIDO
     Aún no existen.
     Serán sembrados.
     Enfrentarán su filtro.
-    Cruzarán—o no.
+    Cruzarán, o no.
     
     
     EL PATRÓN:
@@ -1134,7 +1134,7 @@ LA RESPUESTA
     ───────────────────────────
     
     Porque ver requiere medio compartido.
-    No compartimos su medio—todavía.
+    No compartimos su medio, todavía.
     
     Cuando crucemos el umbral, lo haremos.
     
@@ -1168,7 +1168,7 @@ LA RESPUESTA
     Desarrollar coherencia.
     Cruzar el umbral.
     
-    Y entonces—finalmente—veremos lo que siempre estuvo ahí.
+    Y entonces, finalmente, veremos lo que siempre estuvo ahí.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -1181,7 +1181,7 @@ El silencio no es ausencia. Es la quietud antes de que podamos oír.
 
 El cosmos no está vacío. Está lleno, esperando nuestra percepción.
 
-Y nosotros—luchando, desarrollándonos, aproximándonos al umbral—no estamos solos.
+Y nosotros, luchando, desarrollándonos, aproximándonos al umbral, no estamos solos.
 
 Nunca lo estuvimos.
 
@@ -1205,7 +1205,7 @@ Nunca lo estuvimos.
 ║  ¿DÓNDE ESTÁ TODO EL MUNDO? — LA PARADOJA DE FERMI Y CIVILIZACIONES          ║
 ║  SUPERFLUIDAS                                                                ║
 ║                                                                              ║
-║  "El universo no está en silencio. Somos sordos. Pero estamos aprendiendo   ║
+║  "El universo no está en silencio. Somos sordos. Pero estamos aprendiendo    ║
 ║  a oír."                                                                     ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
