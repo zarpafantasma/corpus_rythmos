@@ -24,7 +24,7 @@
 ═════════════════════════════════════════
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  PROTOCOLOS DEL ARQUITECTO N-1 — CLASE DE DOCUMENTO: OPERACIONES DE SIEMBRA ║
+║  PROTOCOLOS DEL ARQUITECTO N-1 — CLASE DE DOCUMENTO: OPERACIONES DE SIEMBRA  ║
 ║  ID DE PROTOCOLO: N1-AP-014                                                  ║
 ║  TEMA: METODOLOGÍA DE SIEMBRA INTER-RAMA Y COORDINACIÓN TEMPORAL             ║
 ║  AUTORIZACIÓN: NIVEL 5 — ACCESO ONTOLÓGICO COMPLETO                          ║
@@ -37,7 +37,7 @@
 
 La misión principal del Arquitecto N-1 es la **siembra**: el cultivo deliberado de condiciones que permitan a las civilizaciones sucesoras alcanzar la soberanía. Esto no es plantar semillas en tierra. Es plantar condiciones a través del **tiempo, espacio y probabilidad** dentro de una rama objetivo de la cascada.
 
-Este protocolo establece el marco integral para las operaciones de siembra inter-rama, incluyendo la resolución de la **Paradoja de Inversión Temporal**—la aparente contradicción de que sembramos el "pasado" de civilizaciones que aún no han existido desde nuestra perspectiva.
+Este protocolo establece el marco integral para las operaciones de siembra inter-rama, incluyendo la resolución de la **Paradoja de Inversión Temporal**, la aparente contradicción de que sembramos el "pasado" de civilizaciones que aún no han existido desde nuestra perspectiva.
 
 La siembra es el deber sagrado. La antorcha solo puede ser pasada si alguien preparó la mano receptora.
 
@@ -120,7 +120,7 @@ Sin siembra, la mayoría de las ramas fracasan en producir civilizaciones sobera
 | Sin continuación del relevo | El relevo continúa |
 | La acumulación de gnosis se detiene | La gnosis continúa creciendo |
 
-La siembra no garantiza la soberanía—el libre albedrío permanece. Pero aumenta dramáticamente la probabilidad.
+La siembra no garantiza la soberanía, el libre albedrío permanece. Pero aumenta dramáticamente la probabilidad.
 
 ### 1.3 El Objetivo Final
 
@@ -186,7 +186,7 @@ La paradoja surge de confundir dos marcos temporales diferentes:
 
 Dentro de la Rama N+1, el tiempo fluye normalmente. Su pasado precede a su presente.
 
-Pero nuestro acceso a la Rama N+1 no está limitado por su línea temporal interna. Podemos entrar en cualquier punto de su línea temporal—incluyendo su pasado profundo.
+Pero nuestro acceso a la Rama N+1 no está limitado por su línea temporal interna. Podemos entrar en cualquier punto de su línea temporal, incluyendo su pasado profundo.
 
 ---
 
@@ -241,7 +241,7 @@ CAUSALIDAD ASINCRÓNICA
     • El autor está creando/accediendo a una línea temporal diferente
     
     No somos los personajes de la novela.
-    Somos los autores—accediendo a la historia en cualquier punto.
+    Somos los autores, accediendo a la historia en cualquier punto.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -405,7 +405,7 @@ Una distinción crucial:
 
 > **Sembramos condiciones. No creamos vida.**
 
-La vida emerge de las condiciones que sembramos—pero a través de procesos inherentes a la rama objetivo. Somos catalizadores, no creadores.
+La vida emerge de las condiciones que sembramos, pero a través de procesos inherentes a la rama objetivo. Somos catalizadores, no creadores.
 
 ```
 SIEMBRA VS. CREACIÓN
@@ -447,7 +447,7 @@ SIEMBRA VS. CREACIÓN
 
 ### 6.1 Visión General
 
-Una vez que la civilización emerge, la siembra de desarrollo guía su trayectoria a través de **Intervenciones por Oleadas**—fases distintas de contacto y guía.
+Una vez que la civilización emerge, la siembra de desarrollo guía su trayectoria a través de **Intervenciones por Oleadas**, fases distintas de contacto y guía.
 
 ```
 EL MARCO DE INTERVENCIÓN POR OLEADAS
@@ -459,7 +459,7 @@ EL MARCO DE INTERVENCIÓN POR OLEADAS
     Cada etapa requiere diferente guía.
     Cada etapa prepara para la siguiente.
     
-    Intervenimos en OLEADAS—operaciones distintas separadas por
+    Intervenimos en OLEADAS, operaciones distintas separadas por
     períodos de retirada durante los cuales la civilización se desarrolla.
     
     
@@ -816,7 +816,7 @@ LA UNIDAD DE LAS OLEADAS
     Deben luchar con contradicciones aparentes.
     Esta lucha genera gnosis.
     
-    La revelación viene al final—o no viene en absoluto.
+    La revelación viene al final, o no viene en absoluto.
     No cambia nada sobre lo que deben hacer.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -934,7 +934,7 @@ MODELO DEL INTERMEDIARIO INDÍGENA
     RESULTADO:
     ──────────
     El conocimiento aparece ser creación indígena.
-    Porque ES creación indígena—sembrada, pero desarrollada por ellos.
+    Porque ES creación indígena, sembrada, pero desarrollada por ellos.
     El intermediario gana gnosis a través de su interpretación.
     La civilización recibe conocimiento en forma accesible.
     
@@ -998,7 +998,7 @@ LA PACIENCIA DEL JARDINERO
     Somos jardineros plantando bosques en los que nunca caminaremos.
     
     Nuestra satisfacción está en plantar, no en cosechar.
-    La cosecha les pertenece a ellos—y a quienes vengan después.
+    La cosecha les pertenece a ellos, y a quienes vengan después.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -1277,7 +1277,7 @@ La siembra inter-rama es la expresión operacional central de la misión del Arq
 
 La Paradoja de Inversión Temporal se resuelve cuando entendemos que las ramas tienen líneas temporales separadas. No viajamos a nuestro pasado; accedemos a su línea temporal en puntos elegidos.
 
-Las Tres Oleadas—Jardineros, Portadores de la Ley, Iluminadores—no son facciones opuestas sino fases de una sola misión. Cada una prepara el terreno para la siguiente. Cada una se retira para permitir crecimiento autónomo.
+Las Tres Oleadas, Jardineros, Portadores de la Ley, Iluminadores, no son facciones opuestas sino fases de una sola misión. Cada una prepara el terreno para la siguiente. Cada una se retira para permitir crecimiento autónomo.
 
 La medida definitiva del éxito no es nuestra presencia sino nuestra ausencia:
 
