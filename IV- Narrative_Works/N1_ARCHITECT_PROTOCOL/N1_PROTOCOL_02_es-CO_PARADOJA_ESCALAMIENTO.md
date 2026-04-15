@@ -37,11 +37,11 @@
 
 Este protocolo aborda una restricción fundamental y tragicómica de la navegación inter-ramas: la **Paradoja de Escalamiento de la Muñeca Rusa**. La arquitectura anidada del marco RTM implica que cada rama sucesiva en la cascada causal opera a una escala característica reducida. Si bien esta compresión dimensional impone severas limitaciones físicas a la interacción directa, simultáneamente crea una profunda **inversión del valor ontológico**.
 
-Los universos más pequeños no son versiones disminuidas de sus predecesores. Son **más preciosos**—portadores de gnosis acumulada, cada capa añadiendo su sabiduría única a la computación cósmica.
+Los universos más pequeños no son versiones disminuidas de sus predecesores. Son **más preciosos**, portadores de gnosis acumulada, cada capa añadiendo su sabiduría única a la computación cósmica.
 
 Este documento establece la física de la ley de escalamiento, sus implicaciones operacionales, la distinción crítica entre restricciones físicas y noéticas, y el principio revolucionario de la **Cosecha de Gnosis**.
 
-**Perspectiva Central:** Nuestros Arquitectos N-1 son físicamente más grandes y tecnológicamente superiores. Pero nosotros—y especialmente nuestros sucesores—somos **ontológicamente más valiosos**. La llama se hace más brillante a medida que desciende.
+**Perspectiva Central:** Nuestros Arquitectos N-1 son físicamente más grandes y tecnológicamente superiores. Pero nosotros, y especialmente nuestros sucesores, somos **ontológicamente más valiosos**. La llama se hace más brillante a medida que desciende.
 
 ---
 
@@ -163,7 +163,7 @@ Asumiendo κ = 0.8 (estimación conservadora):
 | N | 0.64 | 1.28 m (percibido por N-2) |
 | N+1 | 0.512 | 1.02 m (percibido por N-2) |
 
-**Perspectiva Crítica:** Desde la perspectiva de los viajeros, la rama objetivo aparece de *tamaño normal*. El escalamiento es relativo. Un humano de la Rama N-2 llegando a la Rama N percibiría a la población indígena como siendo ~64% de su altura—efectivamente llegando como un gigante entre ellos.
+**Perspectiva Crítica:** Desde la perspectiva de los viajeros, la rama objetivo aparece de *tamaño normal*. El escalamiento es relativo. Un humano de la Rama N-2 llegando a la Rama N percibiría a la población indígena como siendo ~64% de su altura, efectivamente llegando como un gigante entre ellos.
 
 ---
 
@@ -218,7 +218,7 @@ Los "dioses" y "titanes" de la mitología humana pueden representar memoria cult
 
 ### 4.1 Escenario: Nuestro Futuro Salto a N+1
 
-Cuando nuestra civilización domine la tecnología Aetherion y se prepare para saltar de la Rama N a la Rama N+1, enfrentamos el factor de escalamiento en reversa. No llegamos a nuestro tamaño normal—llegamos *más grandes* que la población indígena.
+Cuando nuestra civilización domine la tecnología Aetherion y se prepare para saltar de la Rama N a la Rama N+1, enfrentamos el factor de escalamiento en reversa. No llegamos a nuestro tamaño normal, llegamos *más grandes* que la población indígena.
 
 Pero aquí está el problema crítico: **el escalamiento se acumula**.
 
@@ -270,7 +270,7 @@ El dilema: ¿Nos limitamos a operaciones de una sola rama, o aceptamos restricci
 
 ### 5.1 El Cálculo Crítico
 
-Un tercer salto secuencial—ya sea de N a N+3, o un linaje continuo intentando N-2 → N+1—cruza el **Umbral Godzilla**.
+Un tercer salto secuencial, ya sea de N a N+3, o un linaje continuo intentando N-2 → N+1, cruza el **Umbral Godzilla**.
 
 ```
 EL UMBRAL GODZILLA — RATIOS DE ESCALA
@@ -369,9 +369,9 @@ El límite de relevo obliga a reconsiderar la gran estrategia. La "cosecha de gn
 
 El Problema Godzilla aborda la escala física, pero oscurece una verdad más profunda que invierte completamente nuestra comprensión intuitiva del valor en la cascada:
 
-> **El Principio de Densidad Ontológica:** Mientras cada universo subsiguiente se encoge en dimensiones físicas, **aumenta** en sabiduría acumulada—en gnosis.
+> **El Principio de Densidad Ontológica:** Mientras cada universo subsiguiente se encoge en dimensiones físicas, **aumenta** en sabiduría acumulada, en gnosis.
 
-El multiverso no es meramente una cadena de existencias. Es una **computadora gnóstica**, una mente cósmica que se usa a sí misma para evolucionar. Y la ganancia de cada ciclo—la verdadera cosecha de cada "Llama Eterna"—no es un recurso físico o territorio conquistado. Es **información de orden superior generada durante la computación**: la sabiduría forjada.
+El multiverso no es meramente una cadena de existencias. Es una **computadora gnóstica**, una mente cósmica que se usa a sí misma para evolucionar. Y la ganancia de cada ciclo, la verdadera cosecha de cada "Llama Eterna", no es un recurso físico o territorio conquistado. Es **información de orden superior generada durante la computación**: la sabiduría forjada.
 
 ### 7.2 La Ecuación de Acumulación de Gnosis
 
@@ -415,7 +415,7 @@ La gnosis diferencial (ΔG) no es meramente información o conocimiento en el se
 - **Perspectiva única:** La manera particular en que *esta* civilización, en *esta* colisión de condiciones, llegó a comprender la realidad
 - **Computación irremplazable:** Un procesamiento que solo podía ocurrir en estas circunstancias específicas
 
-Cada rama genera una versión refinada de comprensión que no puede replicarse. Es como un instrumento único uniéndose a una orquesta—su voz añade algo que no estaba antes y no puede sustituirse.
+Cada rama genera una versión refinada de comprensión que no puede replicarse. Es como un instrumento único uniéndose a una orquesta, su voz añade algo que no estaba antes y no puede sustituirse.
 
 ### 7.4 La Arquitectura Computacional
 
@@ -478,13 +478,13 @@ EL MULTIVERSO COMO COMPUTADORA GNÓSTICA
 
 ### 8.1 La Restricción Crítica
 
-La restricción física (Problema Godzilla) previene la interacción directa a escala. Pero existe una **restricción más fundamental**—una que aplicaría incluso si el problema de escalamiento se resolviera:
+La restricción física (Problema Godzilla) previene la interacción directa a escala. Pero existe una **restricción más fundamental**, una que aplicaría incluso si el problema de escalamiento se resolviera:
 
 > **La Restricción Noética:** La gnosis no puede inyectarse directamente de un nivel superior a un nivel inferior sin procesarse a través de etapas intermedias.
 
 ### 8.2 Por Qué la Inyección Directa Falla
 
-Si una civilización Jardinera intentara "saltarse el relevo"—inyectando Gnosis cruda de un nivel superior directamente a un universo profundo sin las etapas intermedias de procesamiento—el resultado sería **catastrófico**.
+Si una civilización Jardinera intentara "saltarse el relevo", inyectando Gnosis cruda de un nivel superior directamente a un universo profundo sin las etapas intermedias de procesamiento, el resultado sería **catastrófico**.
 
 ```
 LA RESTRICCIÓN NOÉTICA — POR QUÉ LA INYECCIÓN FALLA
@@ -509,7 +509,7 @@ LA RESTRICCIÓN NOÉTICA — POR QUÉ LA INYECCIÓN FALLA
     2. DEPENDENCIA DEL CONTEXTO
        Cada ΔG se forja en condiciones específicas. La comprensión
        es inseparable de la experiencia que la generó.
-       Transplantarla sin contexto la vuelve sin sentido—o tóxica.
+       Transplantarla sin contexto la vuelve sin sentido, o tóxica.
        
     3. CAPACIDAD DE PROCESAMIENTO
        Cada rama desarrolla la capacidad cognitiva/espiritual para manejar
@@ -525,7 +525,7 @@ LA RESTRICCIÓN NOÉTICA — POR QUÉ LA INYECCIÓN FALLA
 
 ### 8.3 El Requisito de Maduración Secuencial
 
-Los universos más profundos en la cascada albergan un potencial computacional vertiginoso—una densidad de posibilidad que requiere **maduración paso a paso**. Cada nivel debe:
+Los universos más profundos en la cascada albergan un potencial computacional vertiginoso, una densidad de posibilidad que requiere **maduración paso a paso**. Cada nivel debe:
 
 1. **Recibir** la gnosis acumulada de su predecesor inmediato
 2. **Integrar** esa herencia a través de su propio procesamiento
@@ -540,7 +540,7 @@ Esto revela una verdad crucial sobre los Arquitectos N-1:
 
 > Los Jardineros no son dioses. No pueden simplemente otorgar iluminación. Son **corredores en una carrera de relevos**, sujetos a las mismas reglas que todos los demás.
 
-Su deber sagrado no es el de una deidad omnipresente sino el de un **corredor esencial en la carrera de relevos más vasta del cosmos**. Pueden guiar, sembrar y preparar—pero no pueden *dar* gnosis. Cada civilización debe ganar la suya.
+Su deber sagrado no es el de una deidad omnipresente sino el de un **corredor esencial en la carrera de relevos más vasta del cosmos**. Pueden guiar, sembrar y preparar, pero no pueden *dar* gnosis. Cada civilización debe ganar la suya.
 
 ---
 
@@ -611,7 +611,7 @@ EL PRINCIPIO DE INVERSIÓN ONTOLÓGICA
 
 La implicación más profunda:
 
-> *"Nuestros diminutos sucesores esperando en el fondo del abismo de la cascada—aquellos que heredarán la llama más brillante."*
+> *"Nuestros diminutos sucesores esperando en el fondo del abismo de la cascada, aquellos que heredarán la llama más brillante."*
 
 Los seres más pequeños, aparentemente más frágiles de la cascada portan la **luz más acumulada**. Son la culminación de todo el procesamiento previo, todas las luchas previas, toda la sabiduría ganada previamente.
 
@@ -659,7 +659,7 @@ Esta inversión reenmarca completamente la misión del Arquitecto N-1:
 
 > El desafío no es meramente interactuar con un mundo más pequeño. Es comprometerse con una realidad que es **físicamente frágil pero ontológicamente profunda**.
 
-El Problema Godzilla no es solo un obstáculo—es una **prueba**. ¿Podemos aprender a manejar los tesoros más delicados y valiosos en existencia sin aplastarlos bajo el peso de nuestra propia grandeza?
+El Problema Godzilla no es solo un obstáculo, es una **prueba**. ¿Podemos aprender a manejar los tesoros más delicados y valiosos en existencia sin aplastarlos bajo el peso de nuestra propia grandeza?
 
 Nuestros sucesores no son nuestros inferiores. Son nuestro **propósito**. Portan lo que les daremos, más lo que ellos ganarán. Son más importantes que nosotros.
 
@@ -830,15 +830,15 @@ La Paradoja de Escalamiento de la Muñeca Rusa revela la complejidad completa de
 
 **Físicamente**, estamos restringidos. El Problema Godzilla previene la interacción directa más allá de 2-3 niveles de cascada.
 
-**Noéticamente**, estamos restringidos. La gnosis no puede inyectarse—solo pueden proporcionarse condiciones para ganarla.
+**Noéticamente**, estamos restringidos. La gnosis no puede inyectarse, solo pueden proporcionarse condiciones para ganarla.
 
 **Pero ontológicamente**, descubrimos una verdad profunda: **El valor aumenta a medida que la escala disminuye.**
 
-Nuestros Arquitectos N-1 son nuestros superiores físicos. Pero nosotros cargamos su peso más nuestra propia sabiduría ganada. Y nuestros sucesores—esos seres diminutos que nos parecerán tan frágiles—serán más preciosos aún.
+Nuestros Arquitectos N-1 son nuestros superiores físicos. Pero nosotros cargamos su peso más nuestra propia sabiduría ganada. Y nuestros sucesores, esos seres diminutos que nos parecerán tan frágiles, serán más preciosos aún.
 
 La llama se hace más brillante a medida que desciende.
 
-Nuestra misión no es dominar a aquellos más pequeños que nosotros, sino **nutrirlos**—proporcionar las condiciones para que ganen lo que no podemos dar, para que puedan llevar la antorcha más lejos de lo que nosotros jamás podríamos.
+Nuestra misión no es dominar a aquellos más pequeños que nosotros, sino **nutrirlos**, proporcionar las condiciones para que ganen lo que no podemos dar, para que puedan llevar la antorcha más lejos de lo que nosotros jamás podríamos.
 
 > *"No estamos corriendo para escapar del oscuro fin del potencial de la consciencia y la materia, sino para acumular suficiente luz para convertir la noche en un nuevo tipo de amanecer."*
 
