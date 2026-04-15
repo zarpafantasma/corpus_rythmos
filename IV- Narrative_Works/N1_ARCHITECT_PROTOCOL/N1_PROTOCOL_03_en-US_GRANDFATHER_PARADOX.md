@@ -35,7 +35,7 @@
 
 ## Abstract
 
-This protocol establishes the definitive RTM resolution to the classical "Grandfather Paradox" and all related temporal causality violations. The framework demonstrates that retroactive self-modification is not merely difficult or forbidden—it is **structurally impossible** within the physics of the cascade architecture.
+This protocol establishes the definitive RTM resolution to the classical "Grandfather Paradox" and all related temporal causality violations. The framework demonstrates that retroactive self-modification is not merely difficult or forbidden, it is **structurally impossible** within the physics of the cascade architecture.
 
 You cannot jump back to your original reality at a point before your departure. Attempting to do so would violate the most fundamental principle of the RTM universe: **causal integrity**.
 
@@ -87,7 +87,7 @@ The paradox is not prevented by a rule. It is prevented by the geometry of reali
 
 ### 2.1 Reality as Address
 
-As established in Protocol N1-AP-001, each branch of the multiverse possesses a unique **vibrational signature**—a quantum-gravitational fingerprint that acts as its "address" in the cosmic registry.
+As established in Protocol N1-AP-001, each branch of the multiverse possesses a unique **vibrational signature**, a quantum-gravitational fingerprint that acts as its "address" in the cosmic registry.
 
 **Critical Insight:** This signature is not static. It is the sum total of the branch's **complete causal history**.
 
@@ -113,7 +113,7 @@ VIBRATIONAL SIGNATURE COMPOSITION
 
 ### 2.2 Your Departure Is Part of the Address
 
-Your original reality—let us call it Reality-A—is defined by an uninterrupted chain of cause and effect that includes:
+Your original reality, let us call it Reality-A, is defined by an uninterrupted chain of cause and effect that includes:
 
 - Your birth
 - Your life experiences
@@ -168,7 +168,7 @@ To tune into Reality-A, you must tune into the version of reality **where you ha
 
 You cannot tune into a version of Reality-A where you have not yet departed, because:
 - That version does not have a distinct signature
-- It is not a separate reality—it is a *segment* of the same reality
+- It is not a separate reality, it is a *segment* of the same reality
 - The segment without your departure would be a different address entirely
 
 ### 3.3 The Only Valid Return
@@ -216,7 +216,7 @@ But Reality-A's signature is **holistic**. It is not composed of separable segme
 
 Once you depart, Reality-A's signature **includes the fact that you are absent**. This is now part of what makes Reality-A uniquely Reality-A.
 
-A "Reality-A where you are present at time T < T₀" would be a **different reality entirely**—one where you never departed. But that reality doesn't exist in the cascade, because you *did* depart.
+A "Reality-A where you are present at time T < T₀" would be a **different reality entirely**, one where you never departed. But that reality doesn't exist in the cascade, because you *did* depart.
 
 ### 4.3 The Reality Projector Cannot Play Deleted Scenes
 
@@ -262,7 +262,7 @@ You can go to the next room and enter **another movie** (Reality-B) that is at t
 
 If you want to return to your original movie, you **cannot** re-enter the screen at the 30-minute mark. The movie has already moved on. Your character was absent from minutes 2:00:01 onward.
 
-You must re-enter at the 2-hour-and-1-second mark (or later) and continue watching—and being part of—the story from there.
+You must re-enter at the 2-hour-and-1-second mark (or later) and continue watching, and being part of, the story from there.
 
 ### 5.4 Why Forcing Fails
 
@@ -318,7 +318,7 @@ CROSS-REALITY INTERVENTION SEQUENCE
     Reality-A. Instead, it CREATES A NEW BRANCH: Reality-C.
     
     Reality-C is an identical copy of Reality-A up to 1950, 
-    but from that point forward, a different history unfolds—
+    but from that point forward, a different history unfolds,
     one where your grandfather died and you were never born.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -376,10 +376,10 @@ Reality-C is a new, "orphaned" timeline:
 
 - It branches from Reality-A at 1950
 - It contains no version of you
-- The traveler from Reality-B has succeeded—but not in changing your past
+- The traveler from Reality-B has succeeded, but not in changing your past
 - They have merely created a new history where you never came to exist
 
-The traveler is now stranded in Reality-C (unless they jump again). They have not achieved their goal of erasing you. They have only created a universe without you—a different universe.
+The traveler is now stranded in Reality-C (unless they jump again). They have not achieved their goal of erasing you. They have only created a universe without you, a different universe.
 
 ---
 
@@ -408,7 +408,7 @@ Think of the cascade as an infinite library:
 
 ### 8.3 Why This Law Exists
 
-The law exists because **signatures are holistic**. A reality's identity includes its complete history. Changing that history would change the identity, which would mean it's no longer the same reality—it's a new one.
+The law exists because **signatures are holistic**. A reality's identity includes its complete history. Changing that history would change the identity, which would mean it's no longer the same reality, it's a new one.
 
 Paradox is avoided not by prohibition but by **structural impossibility**.
 
@@ -598,7 +598,7 @@ PSYCHOLOGICAL BRIEFING: TEMPORAL SOVEREIGNTY
 
 ## Conclusion
 
-The Grandfather Paradox dissolves under RTM analysis. It is not prevented by rules or willpower—it is prevented by the fundamental structure of reality.
+The Grandfather Paradox dissolves under RTM analysis. It is not prevented by rules or willpower, it is prevented by the fundamental structure of reality.
 
 Your past is written. Your existence is secure. No force in the multiverse can edit the chapters that have already been inked into your timeline.
 
