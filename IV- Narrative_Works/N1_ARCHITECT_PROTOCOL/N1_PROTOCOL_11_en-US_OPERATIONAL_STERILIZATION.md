@@ -37,7 +37,7 @@
 
 The N-1 Architect mission requires intervention in target civilizations without creating dependencies, without leaving exploitable technology, and without generating evidence that would distort the target's autonomous development. This demands **Minimal Footprint Operations** and rigorous **Asset Sterilization** protocols.
 
-The goal is paradoxical: to intervene significantly while leaving minimal trace. To guide without creating followers. To seed without creating cargo cults. To withdraw so completely that the target civilization believes—correctly, in the deepest sense—that it achieved sovereignty through its own efforts.
+The goal is paradoxical: to intervene significantly while leaving minimal trace. To guide without creating followers. To seed without creating cargo cults. To withdraw so completely that the target civilization believes, correctly, in the deepest sense, that it achieved sovereignty through its own efforts.
 
 This protocol establishes the operational security framework for achieving this delicate balance.
 
@@ -68,7 +68,7 @@ The Minimal Footprint Doctrine states:
 
 > **An intervention's success is measured not by what it leaves behind, but by what the target civilization achieves after we leave.**
 
-Our goal is not to be remembered. It is not to be worshipped. It is not to leave monuments to our power. Our goal is for the target civilization to become capable of joining the relay race—and to believe, truthfully, that they earned that capability themselves.
+Our goal is not to be remembered. It is not to be worshipped. It is not to leave monuments to our power. Our goal is for the target civilization to become capable of joining the relay race, and to believe, truthfully, that they earned that capability themselves.
 
 ### 1.2 Why Footprints Are Dangerous
 
@@ -117,7 +117,7 @@ THE DANGER OF FOOTPRINTS
 
 ### 1.3 The Paradox of Intervention
 
-The mission requires us to intervene—to seed, guide, and shape. But intervention inherently leaves traces. The resolution:
+The mission requires us to intervene, to seed, guide, and shape. But intervention inherently leaves traces. The resolution:
 
 > **We intervene in ways designed to be forgotten, misunderstood, or attributed to indigenous sources.**
 
@@ -580,7 +580,7 @@ BIODRONE BIOLOGICAL STERILIZATION
     • Under NO circumstances left in target branch
     • If BioDrone dies: Body returned to vessel IMMEDIATELY
     • If retrieval impossible: High-energy destruction in place
-    • Complete destruction required—no tissue remaining
+    • Complete destruction required, no tissue remaining
     
     This is an ABSOLUTE requirement.
 
@@ -644,7 +644,7 @@ CONTACT TRACE PROTOCOLS
 
 ### 8.1 The Sacred Withdrawal
 
-The withdrawal—the departure of the Architects from active intervention—is as important as the intervention itself:
+The withdrawal, the departure of the Architects from active intervention, is as important as the intervention itself:
 
 ```
 THE WITHDRAWAL DOCTRINE
@@ -1227,7 +1227,7 @@ Every trace we leave risks:
 - Building cargo cults instead of civilizations
 - Short-circuiting the gnosis that only struggle can generate
 
-The perfect intervention is one that, when complete, leaves the target civilization believing—correctly—that they achieved everything themselves. Our role was to create conditions. Their role was to grow.
+The perfect intervention is one that, when complete, leaves the target civilization believing, correctly, that they achieved everything themselves. Our role was to create conditions. Their role was to grow.
 
 > **The best gardener is the one whose garden believes the sun did all the work.**
 
