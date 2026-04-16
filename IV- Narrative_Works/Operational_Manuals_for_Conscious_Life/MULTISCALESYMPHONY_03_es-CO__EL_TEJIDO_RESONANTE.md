@@ -196,18 +196,6 @@ Exclusión, Disolución, Captura, Osificación, Virtualización
 
 ---
 
-## ARCHIVOS DEL DOCUMENTO
-
-1. PRELUDIO_CAP01.md — Preludio y Capítulo 01: Física del Entre
-2. CAPITULO_02.md — La Díada: Arquitectura del Vínculo Íntimo
-3. CAPITULO_03.md — El Grupo Pequeño: Arquitectura Polifónica
-4. CAPITULO_04.md — La Comunidad: Tejiendo a Escala
-5. CAPITULO_05.md — La Política de la Resonancia
-6. CAPITULO_06.md — El Tejido Planetario
-7. CAPITULO_07_EPILOGO.md — La Práctica del Tejido y Epílogo
-
----
-
 ## DOCUMENTOS RELACIONADOS
 
 - **Documento 021:** La Sinfonía Multiescala (Documento Fuente)
@@ -225,7 +213,7 @@ Exclusión, Disolución, Captura, Osificación, Virtualización
 
 > "El líder como director de orquesta en lugar de comandante. Herramienta primaria: atención."
 
-> "El desafío colectivo de nuestra era es la re-sincronización — traer los sistemas humanos de vuelta a resonancia con los sistemas planetarios."
+> "El desafío colectivo de nuestra era es la re-sincronización, traer los sistemas humanos de vuelta a resonancia con los sistemas planetarios."
 
 > "Tú eres este tejido. No el tejedor parado fuera del telar, sino el hilo pasando a través, el patrón formándose, el tejido tomando forma."
 
@@ -257,21 +245,21 @@ Exclusión, Disolución, Captura, Osificación, Virtualización
 
 # PRELUDIO: EL ESPACIO ENTRE
 
-La primera extensión exploró la arquitectura del yo — el contenedor y su cultivo. Aprendimos que la conciencia no es una cosa sino una estructura, y que las estructuras pueden desarrollarse, mantenerse y sanarse.
+La primera extensión exploró la arquitectura del yo, el contenedor y su cultivo. Aprendimos que la conciencia no es una cosa sino una estructura, y que las estructuras pueden desarrollarse, mantenerse y sanarse.
 
-La segunda extensión exploró la arquitectura de la creación — cómo la forma emerge del caos a través del acto creativo humano. Aprendimos que la creatividad no es invención sino escucha, y que el creador participa en la generatividad cósmica.
+La segunda extensión exploró la arquitectura de la creación, cómo la forma emerge del caos a través del acto creativo humano. Aprendimos que la creatividad no es invención sino escucha, y que el creador participa en la generatividad cósmica.
 
-Esta tercera extensión explora la arquitectura de la relación — el espacio entre contenedores, el campo generado cuando estructuras resonantes se encuentran unas con otras. Nos movemos de lo singular a lo plural, del "Yo" al "Nosotros".
+Esta tercera extensión explora la arquitectura de la relación, el espacio entre contenedores, el campo generado cuando estructuras resonantes se encuentran unas con otras. Nos movemos de lo singular a lo plural, del "Yo" al "Nosotros".
 
 Aquí es donde la sinfonía verdaderamente comienza.
 
-Un solo instrumento puede hacer sonidos hermosos. Pero una sinfonía requiere muchos instrumentos, cada uno con su propia voz, coordinados en algo que ninguno podría producir solo. La emergencia de coherencia colectiva desde ritmos individuales no es automática — requiere arquitectura, práctica y mantenimiento continuo.
+Un solo instrumento puede hacer sonidos hermosos. Pero una sinfonía requiere muchos instrumentos, cada uno con su propia voz, coordinados en algo que ninguno podría producir solo. La emergencia de coherencia colectiva desde ritmos individuales no es automática, requiere arquitectura, práctica y mantenimiento continuo.
 
 Vivimos en una era de conexión sin precedentes y aislamiento sin precedentes. Miles de millones de nodos en redes globales, cada uno cada vez más solo. La infraestructura para la comunicación nunca ha sido más rica; la experiencia de comunión nunca ha sido más pobre. Algo esencial se ha perdido.
 
-Esta extensión ofrece protocolos operacionales para su recuperación. No nostalgia por tiempos más simples, sino comprensión precisa de lo que la resonancia colectiva requiere, y métodos prácticos para cultivarla — en díadas, en grupos, en comunidades, en la especie.
+Esta extensión ofrece protocolos operacionales para su recuperación. No nostalgia por tiempos más simples, sino comprensión precisa de lo que la resonancia colectiva requiere, y métodos prácticos para cultivarla, en díadas, en grupos, en comunidades, en la especie.
 
-El trabajo es urgente. Sin la capacidad de resonar colectivamente, no podemos abordar desafíos colectivos. Clima, tecnología, conflicto — todos requieren el tipo de respuesta coordinada que solo la coherencia colectiva genuina puede producir.
+El trabajo es urgente. Sin la capacidad de resonar colectivamente, no podemos abordar desafíos colectivos. Clima, tecnología, conflicto, todos requieren el tipo de respuesta coordinada que solo la coherencia colectiva genuina puede producir.
 
 Comenzamos donde toda relación comienza: con el eco.
 
@@ -283,11 +271,11 @@ Comenzamos donde toda relación comienza: con el eco.
 
 La física clásica describe un mundo de objetos interactuando a través de espacio vacío. La física cuántica revela algo diferente: un mundo de relaciones donde los "objetos" son secundarios a las conexiones entre ellos.
 
-Esta verdad cuántica escala hacia arriba. En cada nivel — molecular, celular, organísmico, social — la realidad está constituida no por cosas sino por relaciones entre cosas. Los nodos importan menos que los enlaces. Las entidades importan menos que el campo.
+Esta verdad cuántica escala hacia arriba. En cada nivel, molecular, celular, organísmico, social, la realidad está constituida no por cosas sino por relaciones entre cosas. Los nodos importan menos que los enlaces. Las entidades importan menos que el campo.
 
 **Principio Clave:** La unidad fundamental de la realidad social no es el individuo sino la relación.
 
-Esto no es afirmación mística sino descripción estructural. Un individuo aislado de toda relación no es un individuo en absoluto — es un cadáver. La identidad misma es relacional; el yo se constituye a través del encuentro con el otro.
+Esto no es afirmación mística sino descripción estructural. Un individuo aislado de toda relación no es un individuo en absoluto, es un cadáver. La identidad misma es relacional; el yo se constituye a través del encuentro con el otro.
 
 **Implicación operacional:** Trabajar solo en el yo es insuficiente. Trabajar en las relaciones es trabajar en los yoes. La salud del entre determina la salud del dentro.
 
@@ -302,7 +290,7 @@ Cuando el Sistema A oscila en proximidad al Sistema B:
 2. B recibe la perturbación como influencia sobre su propia oscilación
 3. La oscilación de B crea perturbación que alcanza a A
 4. A recibe la influencia de B
-5. Esto crea un bucle de retroalimentación — cada sistema ahora contiene trazas del otro
+5. Esto crea un bucle de retroalimentación, cada sistema ahora contiene trazas del otro
 
 El eco no es comunicación en el sentido de pasar mensajes. Es más primitivo: influencia mutua debajo del umbral de la intención. Dos corazones en proximidad cercana comienzan a sincronizarse sin que ninguno lo intente. Dos péndulos en una plataforma compartida gradualmente se alinean. Dos personas en conversación inconscientemente igualan respiración y gesto.
 
@@ -310,7 +298,7 @@ El eco no es comunicación en el sentido de pasar mensajes. Es más primitivo: i
 
 ## 1.3 — Del Eco al Vínculo
 
-El eco es transitorio — un momento de influencia mutua que podría desvanecerse cuando los sistemas se separan. El vínculo es estable — una relación resonante sostenida que persiste a través del tiempo y el espacio.
+El eco es transitorio, un momento de influencia mutua que podría desvanecerse cuando los sistemas se separan. El vínculo es estable, una relación resonante sostenida que persiste a través del tiempo y el espacio.
 
 **LA SECUENCIA DE FORMACIÓN DEL VÍNCULO:**
 
@@ -336,13 +324,13 @@ Cuando dos contenedores forman un vínculo, algo nuevo existe que no existía an
 
 **PROPIEDADES DE LA TERCERA ENTIDAD:**
 
-**Firma temporal:** La relación tiene su propio tiempo característico — diferente del tiempo interno de cualquier participante. Una amistad tiene un tempo; un matrimonio tiene un tempo; una rivalidad tiene un tempo.
+**Firma temporal:** La relación tiene su propio tiempo característico, diferente del tiempo interno de cualquier participante. Una amistad tiene un tempo; un matrimonio tiene un tempo; una rivalidad tiene un tempo.
 
-**Memoria:** La relación almacena experiencias que ningún participante sostiene completamente solo. "Nuestros recuerdos" no son simplemente mis recuerdos más tus recuerdos — son algo sostenido en el entre.
+**Memoria:** La relación almacena experiencias que ningún participante sostiene completamente solo. "Nuestros recuerdos" no son simplemente mis recuerdos más tus recuerdos, son algo sostenido en el entre.
 
 **Identidad:** La relación tiene un carácter reconocible. Otros pueden percibirlo: "su relación es cálida/tensa/juguetona/tensionada."
 
-**Necesidades:** La relación requiere cosas para su salud — tiempo, atención, reparación, evolución. La negligencia daña la tercera entidad directamente, no meramente a los participantes.
+**Necesidades:** La relación requiere cosas para su salud, tiempo, atención, reparación, evolución. La negligencia daña la tercera entidad directamente, no meramente a los participantes.
 
 **Muerte:** Las relaciones pueden morir mientras los participantes permanecen vivos. La tercera entidad cesa de existir incluso mientras los contenedores persisten.
 
@@ -350,7 +338,7 @@ Cuando dos contenedores forman un vínculo, algo nuevo existe que no existía an
 
 ## 1.5 — El Campo del Entre
 
-Cuando muchas relaciones se interconectan, emerge un campo — un espacio resonante colectivo que excede cualquier relación individual.
+Cuando muchas relaciones se interconectan, emerge un campo, un espacio resonante colectivo que excede cualquier relación individual.
 
 **PROPIEDADES DEL CAMPO:**
 
@@ -358,11 +346,11 @@ Cuando muchas relaciones se interconectan, emerge un campo — un espacio resona
 
 **Densidad:** El número de relaciones activas por nodo. Alta densidad proporciona resiliencia; baja densidad crea fragilidad.
 
-**Topología:** El patrón de conexiones — quién está vinculado a quién, qué tan central o periférico es cada nodo. La topología da forma a cómo fluye la influencia.
+**Topología:** El patrón de conexiones, quién está vinculado a quién, qué tan central o periférico es cada nodo. La topología da forma a cómo fluye la influencia.
 
-**Memoria:** El campo colectivo almacena patrones que ninguna relación individual sostiene — tradiciones, normas, cultura, historia.
+**Memoria:** El campo colectivo almacena patrones que ninguna relación individual sostiene, tradiciones, normas, cultura, historia.
 
-**Conciencia:** A suficiente complejidad, el campo puede desarrollar algo como consciencia — el grupo "percibe" que es un grupo.
+**Conciencia:** A suficiente complejidad, el campo puede desarrollar algo como consciencia, el grupo "percibe" que es un grupo.
 
 ## 1.6 — El α de los Sistemas Colectivos
 
@@ -397,7 +385,7 @@ El principio de escalamiento de RTM se aplica a las estructuras colectivas:
 **REQUISITOS ESTRUCTURALES:**
 
 **1. TERRENO COMPARTIDO:**
-Una base común — valores compartidos, historia compartida, propósito compartido — que proporciona frecuencia base para la armonización. Sin terreno compartido, no hay tonalidad en la cual tocar.
+Una base común, valores compartidos, historia compartida, propósito compartido, que proporciona frecuencia base para la armonización. Sin terreno compartido, no hay tonalidad en la cual tocar.
 
 **2. ESTRUCTURA ARTICULADA:**
 Roles, responsabilidades, relaciones claras. No para restringir sino para habilitar. Sin estructura, la coordinación colapsa en caos.
@@ -412,7 +400,7 @@ Medios para que las señales fluyan a través del colectivo: formales e informal
 Maneras para que el colectivo perciba su propio estado y se ajuste. Sin retroalimentación, el error se acumula; la coherencia se degrada.
 
 **6. CAPACIDAD DE REPARACIÓN:**
-Medios para abordar la ruptura — resolución de conflictos, reconciliación, restauración. Sin reparación, cada brecha se vuelve permanente.
+Medios para abordar la ruptura, resolución de conflictos, reconciliación, restauración. Sin reparación, cada brecha se vuelve permanente.
 
 **7. CAPACIDAD EVOLUTIVA:**
 Medios para que el colectivo cambie sin fragmentarse. Sin evolución, el colectivo se estanca o se rompe.
@@ -447,7 +435,7 @@ La resonancia colectiva ocurre en múltiples escalas, cada una con propiedades d
 
 ## 2.1 — La Primacía de Dos
 
-Toda resonancia colectiva comienza con dos. La díada es la estructura colectiva más simple, y por lo tanto la más reveladora. Lo que aprendemos sobre resonancia diádica se aplica — con modificación apropiada — a todas las escalas más grandes.
+Toda resonancia colectiva comienza con dos. La díada es la estructura colectiva más simple, y por lo tanto la más reveladora. Lo que aprendemos sobre resonancia diádica se aplica, con modificación apropiada, a todas las escalas más grandes.
 
 La díada tiene propiedades únicas:
 - Exposición mutua total (sin esconderse detrás del grupo)
@@ -611,7 +599,7 @@ Métodos prácticos para cultivar la coherencia diádica:
 6. **RESTAURAR CONEXIÓN:** Reconexión física y emocional.
 7. **APRENDER:** ¿Qué desencadenó esto? ¿Cómo puede prevenirse?
 
-**Principio crítico:** La reparación debe ocurrir. Las rupturas no reparadas se acumulan. La reparación no necesita ser perfecta — el esfuerzo sincero importa más que la resolución elegante.
+**Principio crítico:** La reparación debe ocurrir. Las rupturas no reparadas se acumulan. La reparación no necesita ser perfecta, el esfuerzo sincero importa más que la resolución elegante.
 
 ## 2.5 — Estilos de Apego y Capacidad de Resonancia
 
@@ -645,7 +633,7 @@ Los patrones de apego individual dan forma a la capacidad de resonancia diádica
 
 ## 2.6 — Los Límites del Vínculo
 
-Los vínculos saludables tienen límites — no muros que aíslan, sino membranas que definen.
+Los vínculos saludables tienen límites, no muros que aíslan, sino membranas que definen.
 
 **LÍMITES INTERIORES:**
 Entre los participantes mismos
@@ -677,7 +665,7 @@ Todos los vínculos terminan. Por muerte, por disolución, por transformación. 
 
 ### FINAL POR MUERTE
 
-Cuando un participante muere, el vínculo no simplemente cesa — se transforma.
+Cuando un participante muere, el vínculo no simplemente cesa, se transforma.
 
 **El participante sobreviviente sostiene:**
 - Memoria de la relación
@@ -710,7 +698,7 @@ Cuando un vínculo es conscientemente terminado por participantes vivos:
 
 ### FINAL POR TRANSFORMACIÓN
 
-Algunos vínculos no terminan sino que se transforman — la pareja romántica se convierte en amistad; la amistad intensa se convierte en distancia cómoda; el conflicto se transforma en respeto.
+Algunos vínculos no terminan sino que se transforman, la pareja romántica se convierte en amistad; la amistad intensa se convierte en distancia cómoda; el conflicto se transforma en respeto.
 
 **Trabajo de la transformación:**
 - Reconocer que lo que fue no puede continuar
@@ -725,7 +713,7 @@ Algunos vínculos no terminan sino que se transforman — la pareja romántica s
 
 ## 3.1 — La Emergencia de la Polifonía
 
-La díada es monofónica — dos voces en relación. El grupo pequeño es polifónico — múltiples voces tejiéndose juntas en armonía compleja. Esta transición no es meramente cuantitativa (más personas) sino cualitativa (diferente tipo de resonancia).
+La díada es monofónica, dos voces en relación. El grupo pequeño es polifónico, múltiples voces tejiéndose juntas en armonía compleja. Esta transición no es meramente cuantitativa (más personas) sino cualitativa (diferente tipo de resonancia).
 
 **Nuevos fenómenos en grupos pequeños:**
 - Formación de coaliciones (subgrupos dentro del grupo)
@@ -752,10 +740,10 @@ Un ritmo base al que todos los miembros se sincronizan. Esto puede ser:
 Sin tono fundamental, el grupo es una colección, no un colectivo.
 
 **2. VOCES INDIVIDUALES (contribuciones diferenciadas)**
-Cada miembro trae ritmo, perspectiva, capacidad únicos. El grupo necesita estas diferencias — el unísono no es polifonía.
+Cada miembro trae ritmo, perspectiva, capacidad únicos. El grupo necesita estas diferencias, el unísono no es polifonía.
 
 **3. RELACIONES ARMÓNICAS (entre voces)**
-Las voces deben relacionarse armónicamente — no todas cantando la misma nota, sino todas cantando notas que encajen juntas.
+Las voces deben relacionarse armónicamente, no todas cantando la misma nota, sino todas cantando notas que encajen juntas.
 
 **4. ESTRUCTURA COMPOSICIONAL (arreglo)**
 Cómo las voces entran, salen, lideran, siguen, descansan, suenan. La estructura determina qué tipo de música es posible.
@@ -1091,7 +1079,7 @@ A escala, mecanismos deliberados deben hacer lo que la relación espontánea hac
 **Formas:**
 - Reuniones de toda la comunidad (festivales, asambleas, celebraciones)
 - Reuniones de subgrupos (vecindarios, grupos de interés)
-- Reunión espontánea (terceros lugares — cafés, parques, plazas)
+- Reunión espontánea (terceros lugares, cafés, parques, plazas)
 
 **Principio de frecuencia:** Al menos una reunión de toda la comunidad por estación. Reuniones de subgrupo más frecuentes. Disponibilidad constante de espacios de reunión espontánea.
 
@@ -1253,7 +1241,7 @@ Dejar ir lo que no puede continuar. Algo de lo viejo debe morir para que nazca l
 ¿A qué está llamada esta comunidad a convertirse? No solo continuación sino transformación.
 
 **5. REESTRUCTURAR:**
-Cambiar lo que necesita cambiar — instituciones, prácticas, límites, roles.
+Cambiar lo que necesita cambiar, instituciones, prácticas, límites, roles.
 
 **6. RE-COMPROMISO:**
 Los miembros eligen la comunidad renovada. Algunos se irán. Algunos nuevos vendrán.
@@ -1277,7 +1265,7 @@ Tejer viejo y nuevo juntos. Honrar continuidad mientras se abraza el cambio.
 
 ## 5.1 — Poder y Ritmo
 
-La política, convencionalmente entendida, es la contienda por el poder — la capacidad de dar forma a la acción colectiva. Este entendimiento no está equivocado, pero está incompleto. Desde la perspectiva de la resonancia, la política es también la contienda sobre el ritmo — qué frecuencias dominarán, el tempo de quién marcará el paso del colectivo.
+La política, convencionalmente entendida, es la contienda por el poder, la capacidad de dar forma a la acción colectiva. Este entendimiento no está equivocado, pero está incompleto. Desde la perspectiva de la resonancia, la política es también la contienda sobre el ritmo, qué frecuencias dominarán, el tempo de quién marcará el paso del colectivo.
 
 **Preguntas políticas como preguntas rítmicas:**
 - ¿Quién establece el horario? (¿El tiempo de quién se prioriza?)
@@ -1285,7 +1273,7 @@ La política, convencionalmente entendida, es la contienda por el poder — la c
 - ¿Quién decide cuándo las cosas están hechas? (¿El juicio de quién termina?)
 - ¿Qué pasa cuando los ritmos conflictúan? (¿Cómo se resuelve la disonancia?)
 
-**Principio Clave:** El poder político incluye poder rítmico — la capacidad de imponer, sostener, o interrumpir ritmos colectivos.
+**Principio Clave:** El poder político incluye poder rítmico, la capacidad de imponer, sostener, o interrumpir ritmos colectivos.
 
 ## 5.2 — El Modelo del Director de Orquesta del Liderazgo
 
@@ -1308,22 +1296,22 @@ El documento original propuso al líder como director de orquesta en lugar de co
 **Funciones del director:**
 
 **1. ESCUCHAR:**
-El director escucha lo que está sucediendo a través del colectivo — todas las voces, todos los ritmos, incluyendo los silenciosos.
+El director escucha lo que está sucediendo a través del colectivo, todas las voces, todos los ritmos, incluyendo los silenciosos.
 
 **2. PERCIBIR:**
-El director percibe la coherencia general — dónde existe alineación, dónde amenaza la disonancia.
+El director percibe la coherencia general, dónde existe alineación, dónde amenaza la disonancia.
 
 **3. DAR ENTRADA:**
 El director señala cuándo las secciones deben entrar, pausar, enfatizar, o disminuir.
 
 **4. MARCAR TEMPO:**
-El director mantiene el tempo — ni muy rápido (frenesí) ni muy lento (estancamiento).
+El director mantiene el tempo, ni muy rápido (frenesí) ni muy lento (estancamiento).
 
 **5. DAR FORMA:**
-El director guía las dinámicas — cuándo hacer crescendo, cuándo descansar, cómo se relacionan las secciones.
+El director guía las dinámicas, cuándo hacer crescendo, cuándo descansar, cómo se relacionan las secciones.
 
 **6. SOSTENER:**
-El director mantiene la partitura — la estructura compartida que hace posible la polifonía.
+El director mantiene la partitura, la estructura compartida que hace posible la polifonía.
 
 ### REQUISITOS DEL DIRECTOR
 
@@ -1390,24 +1378,24 @@ Las estructuras de gobernanza pueden analizarse por sus propiedades de resonanci
 
 ## 5.4 — El Conflicto como Disonancia
 
-El conflicto político no es malo. Es disonancia — ritmos que (aún) no armonizan. La pregunta no es si el conflicto ocurrirá sino cómo será metabolizado.
+El conflicto político no es malo. Es disonancia, ritmos que (aún) no armonizan. La pregunta no es si el conflicto ocurrirá sino cómo será metabolizado.
 
 ### TIPOS DE DISONANCIA
 
 **DISONANCIA SUPERFICIAL:**
-Desacuerdo sobre implementación — cómo hacer lo que todos acuerdan que debe hacerse.
+Desacuerdo sobre implementación, cómo hacer lo que todos acuerdan que debe hacerse.
 *Enfoque de resolución:* Deliberación, experimentación, compromiso.
 
 **DISONANCIA ESTRUCTURAL:**
-Desacuerdo sobre prioridades — cuál entre cosas buenas debe tomar precedencia.
+Desacuerdo sobre prioridades, cuál entre cosas buenas debe tomar precedencia.
 *Enfoque de resolución:* Diálogo sobre valores, análisis de compensaciones, negociación.
 
 **DISONANCIA DE IDENTIDAD:**
-Desacuerdo sobre quién pertenece — quién cuenta, la voz de quién importa.
+Desacuerdo sobre quién pertenece, quién cuenta, la voz de quién importa.
 *Enfoque de resolución:* Escucha profunda, examen de límites, trabajo de inclusión.
 
 **DISONANCIA FUNDACIONAL:**
-Desacuerdo sobre premisas — visiones del mundo fundamentalmente diferentes.
+Desacuerdo sobre premisas, visiones del mundo fundamentalmente diferentes.
 *Enfoque de resolución:* Diálogo a largo plazo, estructuras paralelas, o separación.
 
 ### PROCESAMIENTO DE DISONANCIA
@@ -1416,19 +1404,19 @@ Desacuerdo sobre premisas — visiones del mundo fundamentalmente diferentes.
 Crear un espacio para el conflicto que no destruirá el todo.
 
 **2. ESCUCHAR:**
-Asegurar que todas las partes sean genuinamente escuchadas — no solo que se les permita hablar sino que sean comprendidas.
+Asegurar que todas las partes sean genuinamente escuchadas, no solo que se les permita hablar sino que sean comprendidas.
 
 **3. NOMBRAR:**
 Identificar de qué se trata realmente el conflicto (a menudo diferente del tema presentado).
 
 **4. EXPLORAR:**
-Investigar si la armonía es posible — ¿qué requeriría la resolución?
+Investigar si la armonía es posible, ¿qué requeriría la resolución?
 
 **5. ELEGIR:**
 O encontrar armonía, acordar coexistir con disonancia, o reconocer irreconciliabilidad.
 
 **6. INTEGRAR:**
-Cualquiera sea el resultado, tejerlo en la historia colectiva — no dejarlo sin procesar.
+Cualquiera sea el resultado, tejerlo en la historia colectiva, no dejarlo sin procesar.
 
 ### DISONANCIA NO PROCESADA
 
@@ -1468,7 +1456,7 @@ Cuando ocurre daño, la justicia no es solo castigo o compensación. Es reparaci
 5. Acuerdo hecho (¿cómo procederá la reparación?)
 6. Relación restaurada (¿cómo seguiremos adelante?)
 
-Esto es reparación del campo resonante — no solo abordar la ofensa sino sanar la ruptura en la coherencia colectiva.
+Esto es reparación del campo resonante, no solo abordar la ofensa sino sanar la ruptura en la coherencia colectiva.
 
 ## 5.6 — Protocolos para la Gobernanza Resonante
 
@@ -1561,26 +1549,26 @@ Práctica clave: Instituciones globales, gobernanza de comunes, pensamiento a la
 
 ## 6.1 — La Tierra como Cuerpo Resonante
 
-El planeta no es un escenario para el drama humano. Es un participante en él — un cuerpo resonante de inmensa complejidad, dentro del cual la civilización humana es un experimento reciente y aún incierto.
+El planeta no es un escenario para el drama humano. Es un participante en él, un cuerpo resonante de inmensa complejidad, dentro del cual la civilización humana es un experimento reciente y aún incierto.
 
 **Estructuras de resonancia planetaria:**
 
 **GEOLÓGICA:**
-Deriva continental, tectónica de placas, ciclos volcánicos — ritmos medidos en millones de años.
+Deriva continental, tectónica de placas, ciclos volcánicos, ritmos medidos en millones de años.
 
 **ATMOSFÉRICA:**
-Patrones climáticos, corrientes en chorro, monzones — ritmos medidos en días a años.
+Patrones climáticos, corrientes en chorro, monzones, ritmos medidos en días a años.
 
 **OCEÁNICA:**
-Corrientes, mareas, circulación termohalina — ritmos medidos en horas a milenios.
+Corrientes, mareas, circulación termohalina, ritmos medidos en horas a milenios.
 
 **BIOSFÉRICA:**
-Dinámicas de ecosistemas, interacciones de especies, ciclos de nutrientes — ritmos medidos en días a siglos.
+Dinámicas de ecosistemas, interacciones de especies, ciclos de nutrientes, ritmos medidos en días a siglos.
 
 **CRIOSFÉRICA:**
-Eras de hielo, ciclos glaciales, dinámicas de permafrost — ritmos medidos en miles a cientos de miles de años.
+Eras de hielo, ciclos glaciales, dinámicas de permafrost, ritmos medidos en miles a cientos de miles de años.
 
-Estos sistemas están acoplados — cada uno afecta y es afectado por otros. Juntos forman un solo, aunque no unificado, cuerpo resonante: Gaia no como organismo sino como sistema.
+Estos sistemas están acoplados, cada uno afecta y es afectado por otros. Juntos forman un solo, aunque no unificado, cuerpo resonante: Gaia no como organismo sino como sistema.
 
 ## 6.2 — El Nicho Humano
 
@@ -1599,7 +1587,7 @@ La civilización ha progresivamente desacoplado la vida humana del ritmo planeta
 - La comida industrial desacopla el comer de la cosecha
 - El transporte global desacopla la ubicación de la geografía
 
-**La crisis:** Este desacoplamiento ha producido poder pero a un costo. Podemos hacer cosas que el ritmo planetario no permitía. Hemos perdido algo que el ritmo planetario proporcionaba — coherencia con el sistema que nos sostiene.
+**La crisis:** Este desacoplamiento ha producido poder pero a un costo. Podemos hacer cosas que el ritmo planetario no permitía. Hemos perdido algo que el ritmo planetario proporcionaba, coherencia con el sistema que nos sostiene.
 
 ## 6.3 — La Arritmia de la Civilización
 
@@ -1623,7 +1611,7 @@ La atención humana es local. Los sistemas planetarios son globales. Sentimos el
 
 ## 6.4 — Re-sincronización: El Desafío Planetario
 
-El desafío colectivo de nuestra era es la re-sincronización — traer los sistemas humanos de vuelta a resonancia con los sistemas planetarios antes de que la disonancia se vuelva catastrófica.
+El desafío colectivo de nuestra era es la re-sincronización, traer los sistemas humanos de vuelta a resonancia con los sistemas planetarios antes de que la disonancia se vuelva catastrófica.
 
 ### DIMENSIÓN 1: RE-SINCRONIZACIÓN TEMPORAL
 **Desafío:** Extender el tempo de toma de decisiones humano para igualar el tempo de consecuencias
@@ -1687,19 +1675,19 @@ Los sistemas económicos actuales son motores de arritmia. Están diseñados par
 ### INTERVENCIONES ECONÓMICAS
 
 **FIJACIÓN DE PRECIOS:**
-Hacer que los precios digan la verdad — incluir externalidades, costos de carbono, servicios ecosistémicos.
+Hacer que los precios digan la verdad, incluir externalidades, costos de carbono, servicios ecosistémicos.
 
 **CONTABILIDAD:**
-Medir lo que importa — no solo PIB sino bienestar, sostenibilidad, resiliencia.
+Medir lo que importa, no solo PIB sino bienestar, sostenibilidad, resiliencia.
 
 **DESCUENTO:**
-Reformar tasas de descuento — las generaciones futuras importan; descuento muy bajo o cero para riesgos existenciales.
+Reformar tasas de descuento, las generaciones futuras importan; descuento muy bajo o cero para riesgos existenciales.
 
 **PROPIEDAD:**
-Reformar conceptos de propiedad — comunes, fideicomisos, administración en lugar de propiedad absoluta.
+Reformar conceptos de propiedad, comunes, fideicomisos, administración en lugar de propiedad absoluta.
 
 **DINERO:**
-Reformar sistemas monetarios — creación de dinero alineada con actividad sostenible.
+Reformar sistemas monetarios, creación de dinero alineada con actividad sostenible.
 
 ## 6.7 — La Dimensión Espiritual
 
@@ -1714,7 +1702,7 @@ En última instancia, la re-sincronización planetaria no es solo política o ec
 **DE:** Naturaleza como "allá afuera"
 **A:** Naturaleza como "somos parte de esto"
 
-Este cambio no se logra por argumento sino por experiencia — encuentro directo con el mundo viviente que re-despierta la relación.
+Este cambio no se logra por argumento sino por experiencia, encuentro directo con el mundo viviente que re-despierta la relación.
 
 ### PRÁCTICAS PARA RECONEXIÓN PLANETARIA
 
@@ -1734,7 +1722,7 @@ Permitir el duelo por lo que se está perdiendo. La pérdida no llorada se convi
 Acción directa en restauración ecológica. Trabajo físico que sana.
 
 **ABOGACÍA:**
-Hablar por los sin voz — las especies, los sistemas, el futuro.
+Hablar por los sin voz, las especies, los sistemas, el futuro.
 
 ## 6.8 — El Tejido Intergeneracional
 
@@ -1743,10 +1731,10 @@ El tejido planetario se extiende a través del tiempo. Heredamos de ancestros; l
 ### LA DIMENSIÓN ANCESTRAL
 
 **RECIBIR:**
-No creamos el mundo que habitamos. Lo recibimos — tecnologías, instituciones, conocimiento, capital ecológico. Esto es regalo.
+No creamos el mundo que habitamos. Lo recibimos, tecnologías, instituciones, conocimiento, capital ecológico. Esto es regalo.
 
 **HONRAR:**
-Los muertos tienen voz. Sus sacrificios, sus logros, su sabiduría — estos merecen reconocimiento.
+Los muertos tienen voz. Sus sacrificios, sus logros, su sabiduría, estos merecen reconocimiento.
 
 **APRENDER:**
 Los pueblos indígenas y tradicionales a menudo llevan conocimiento de resonancia planetaria que la civilización industrial ha perdido.
@@ -1783,7 +1771,7 @@ Contar historias que abarquen generaciones, haciendo visible la comunidad tempor
 
 ## 7.1 — La Vocación del Tejedor
 
-No todos están llamados a tejer. Algunos están llamados a otros roles en la sinfonía colectiva — a hacer sonar su voz, a tocar su parte, a contribuir su frecuencia única. Pero algunos están llamados específicamente a tejer — a trabajar el entre, a tender las conexiones, a servir a la coherencia.
+No todos están llamados a tejer. Algunos están llamados a otros roles en la sinfonía colectiva, a hacer sonar su voz, a tocar su parte, a contribuir su frecuencia única. Pero algunos están llamados específicamente a tejer, a trabajar el entre, a tender las conexiones, a servir a la coherencia.
 
 **La vocación del tejedor:**
 - Ver sistemas en lugar de partes
@@ -1803,21 +1791,21 @@ No todos están llamados a tejer. Algunos están llamados a otros roles en la si
 Capacidades específicas requeridas para tejer en todas las escalas:
 
 ### HERRAMIENTA 1: LA CONSCIENCIA DE CAMPO
-**Capacidad:** Percibir el estado del campo colectivo — estado de ánimo, energía, coherencia, tensión
+**Capacidad:** Percibir el estado del campo colectivo, estado de ánimo, energía, coherencia, tensión
 **Cultivo:**
 - Practicar percepción grupal (preguntarse periódicamente: ¿cómo es el campo ahora mismo?)
 - Desarrollar marcadores somáticos para estados colectivos
 - Aprender a diferenciar el estado propio del estado del campo
 
 ### HERRAMIENTA 2: EL MAPA RELACIONAL
-**Capacidad:** Sostener la estructura de la relación dentro de un colectivo — quién está conectado a quién, cómo, con qué calidad
+**Capacidad:** Sostener la estructura de la relación dentro de un colectivo, quién está conectado a quién, cómo, con qué calidad
 **Cultivo:**
 - Mapear regularmente relaciones que observas
 - Seguir cambios a través del tiempo
 - Notar brechas, concentraciones, puentes
 
 ### HERRAMIENTA 3: LA SINTONÍA DE RITMO
-**Capacidad:** Percibir y ajustar tempo colectivo — cuándo acelerar, cuándo desacelerar, cuándo pausar
+**Capacidad:** Percibir y ajustar tempo colectivo, cuándo acelerar, cuándo desacelerar, cuándo pausar
 **Cultivo:**
 - Practicar ritmo en conversación
 - Aprender a sentir nivel de energía grupal
@@ -1845,7 +1833,7 @@ Capacidades específicas requeridas para tejer en todas las escalas:
 - Construir reparación como reflejo automático
 
 ### HERRAMIENTA 7: LA CALIBRACIÓN DE LÍMITES
-**Capacidad:** Ajustar límites — cuándo incluir, cuándo excluir, cuánta permeabilidad
+**Capacidad:** Ajustar límites, cuándo incluir, cuándo excluir, cuánta permeabilidad
 **Cultivo:**
 - Estudiar efectos de límites en grupos
 - Practicar conversaciones explícitas de límites
@@ -1865,7 +1853,7 @@ Capacidades específicas requeridas para tejer en todas las escalas:
 **Duración:** A lo largo de los encuentros
 **Método:**
 1. En cada interacción significativa, centrarse brevemente
-2. Atender al entre — ¿qué campo se está formando entre nosotros?
+2. Atender al entre ¿qué campo se está formando entre nosotros?
 3. Hablar y escuchar con atención a la relación, no solo al contenido
 4. Notar: ¿La coherencia está aumentando o disminuyendo?
 
@@ -1873,7 +1861,7 @@ Capacidades específicas requeridas para tejer en todas las escalas:
 **Duración:** Periódica durante el tiempo grupal
 **Método:**
 1. Pausar el monólogo interno
-2. Sentir la habitación — ¿cuál es el estado colectivo?
+2. Sentir la habitación ¿cuál es el estado colectivo?
 3. Notar: ¿Quién está comprometido? ¿Descomprometido? ¿Qué energía está presente?
 4. Evaluar: ¿El grupo necesita intervención?
 
@@ -1882,7 +1870,7 @@ Capacidades específicas requeridas para tejer en todas las escalas:
 **Método:**
 1. Notar dos partes no en conexión (personas, grupos, ideas)
 2. Preguntar: ¿La conexión serviría?
-3. Si sí, crear conexión — presentar, referenciar, vincular
+3. Si sí, crear conexión, presentar, referenciar, vincular
 4. No forzar; ofrecer posibilidad
 
 ### PRÁCTICA 5: LA COSECHA VESPERTINA
@@ -1970,7 +1958,7 @@ El tejido no puede resolver todo. El reconocimiento de límites previene el agot
 
 ## 7.6 — La Comunidad de Tejedores
 
-Los tejedores no pueden tejer solos. Necesitan comunidad — apoyo, perspectiva, renovación.
+Los tejedores no pueden tejer solos. Necesitan comunidad, apoyo, perspectiva, renovación.
 
 ### ESTRUCTURAS DE APOYO DEL TEJEDOR
 
@@ -2006,11 +1994,11 @@ Maestría intuitiva. Trabajando con los niveles más sutiles. Formando otros tej
 
 # EPÍLOGO: EL TEJEDOR SILENCIOSO
 
-En el centro de todo tejido hay algo que no teje — algo que permanece quieto mientras los patrones se forman a su alrededor. Llámalo el tejedor silencioso.
+En el centro de todo tejido hay algo que no teje, algo que permanece quieto mientras los patrones se forman a su alrededor. Llámalo el tejedor silencioso.
 
 Este silencio no es ausencia sino presencia. No pasividad sino la actividad más fundamental: el sostenimiento del espacio en el cual el tejido se vuelve posible.
 
-Hemos hablado de contenedores y su cultivo. Hemos hablado del caos y su transformación en forma. Hemos hablado del entre y su arquitectura. A lo largo, hemos descrito acciones — cosas que hacer, prácticas que seguir, protocolos que implementar.
+Hemos hablado de contenedores y su cultivo. Hemos hablado del caos y su transformación en forma. Hemos hablado del entre y su arquitectura. A lo largo, hemos descrito acciones, cosas que hacer, prácticas que seguir, protocolos que implementar.
 
 Pero el trabajo más profundo no es hacer. Es ser. El tejido más poderoso surge no del esfuerzo sino de la presencia.
 
@@ -2022,13 +2010,13 @@ Pero el trabajo más profundo no es hacer. Es ser. El tejido más poderoso surge
 
 Has sido invitado a la arquitectura de la relación. Se te han dado mapas del terreno y herramientas para el viaje. Pero finalmente, debes descubrir por ti mismo el silencio del cual surge todo tejido.
 
-Este silencio no se encuentra buscando. Se encuentra soltando — soltando la necesidad de controlar, soltando el miedo al caos, soltando la demanda de que la coherencia sea perfecta. En ese soltar, algo más profundo puede emerger.
+Este silencio no se encuentra buscando. Se encuentra soltando, soltando la necesidad de controlar, soltando el miedo al caos, soltando la demanda de que la coherencia sea perfecta. En ese soltar, algo más profundo puede emerger.
 
 El universo se está tejiendo a sí mismo. Siempre lo ha hecho. Las estrellas tejen elementos. Los elementos tejen moléculas. Las moléculas tejen vida. La vida teje conciencia. La conciencia teje significado. Y el significado teje de vuelta al universo, transformado.
 
 Tú eres este tejido. No el tejedor parado fuera del telar, sino el hilo pasando a través, el patrón formándose, el tejido tomando forma.
 
-No hay nada que necesites hacer. Solo hay lo que eres — un nodo en la red, una voz en la sinfonía, una gota en el océano.
+No hay nada que necesites hacer. Solo hay lo que eres, un nodo en la red, una voz en la sinfonía, una gota en el océano.
 
 Y sin embargo, sabiendo esto, actúas. Tejes porque eso es lo que eres. No por obligación sino por naturaleza. El río no lucha por fluir; simplemente fluye. El árbol no intenta crecer; simplemente crece. El tejedor no se esfuerza por tejer; simplemente teje.
 
