@@ -181,7 +181,7 @@ Esta sección aloja herramientas operacionales desarrolladas bajo el marco RTM (
 ### Lista de Aplicaciones Activas
 
 #### 1. RTM CLIMATE (Monitor Atmosférico)
-La primera implementación operacional de la Teoría RTM, una implementación comprehensiva de la Teoría RTM aplicada a la Meteorología Rítmica y física climática extrema. Este sistema unificado de doble módulo escanea telemetría satelital en tiempo real para detectar fracturas topológicas en la atmósfera—prediciendo la intensificación rápida de huracanes con un tiempo de anticipación de ~11.6 horas—mientras también rastrea transiciones de fase atmosféricas extremas.
+La primera implementación operacional de la Teoría RTM, una implementación comprehensiva de la Teoría RTM aplicada a la Meteorología Rítmica y física climática extrema. Este sistema unificado de doble módulo escanea telemetría satelital en tiempo real para detectar fracturas topológicas en la atmósfera, prediciendo la intensificación rápida de huracanes con un tiempo de anticipación de ~11.6 horas, mientras también rastrea transiciones de fase atmosféricas extremas.
 
 * **Estado:** Operacional / Prueba de Concepto
 * **Dominio:** Termodinámica Atmosférica y Física Climática Multiescala
