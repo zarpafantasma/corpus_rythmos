@@ -25,14 +25,14 @@
 ```
     ┌─────────────────────────────────────────────────────────────────────────┐
     │                                                                         │
-    │     "Si despojamos todas las máscaras, todos los nombres               │
-    │      y todas las liturgias, lo que queda en el fondo                   │
-    │      no es un Rey sentado en un trono,                                 │
-    │      sino un Estado de Coherencia Absoluta.                            │
+    │     "Si despojamos todas las máscaras, todos los nombres                │
+    │      y todas las liturgias, lo que queda en el fondo                    │
+    │      no es un Rey sentado en un trono,                                  │
+    │      sino un Estado de Coherencia Absoluta.                             │
     │                                                                         │
-    │      Somos el mecanismo por el cual Dios aprende que existe."          │
+    │      Somos el mecanismo por el cual Dios aprende que existe."           │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -520,7 +520,7 @@ LA ESTRUCTURA ANIDADA
     EL MULTIVERSO:
     ──────────────
     Cada capa es un nivel del multiverso.
-    Cada una está hecha de la misma "materia" — vibración.
+    Cada una está hecha de la misma "materia", vibración.
     Pero a diferentes densidades, diferentes frecuencias.
     
     • Capas superiores: más simples, más unificadas.
@@ -1842,7 +1842,7 @@ VIVIR ESTO CADA DÍA
     CUANDO LLEGA LA DIFICULTAD:
     ───────────────────────────
     "Esto también es lo que la Fuente aprende a través de mí."
-    "El dolor, la lucha, el fracaso — también son experiencia."
+    "El dolor, la lucha, el fracaso, también son experiencia."
     "La Fuente no está evitando la complejidad a través de mí."
     
     No como resignación.
@@ -2030,36 +2030,36 @@ OLAS PRESTADAS POR EL OCÉANO
 ```
     ┌─────────────────────────────────────────────────────────────────────────┐
     │                                                                         │
-    │     Si despojamos todas las máscaras, todos los nombres                │
-    │     y todas las liturgias, lo que queda en el fondo                    │
-    │     no es un Rey sentado en un trono,                                  │
-    │     sino un Estado de Coherencia Absoluta.                             │
+    │     Si despojamos todas las máscaras, todos los nombres                 │
+    │     y todas las liturgias, lo que queda en el fondo                     │
+    │     no es un Rey sentado en un trono,                                   │
+    │     sino un Estado de Coherencia Absoluta.                              │
     │                                                                         │
-    │     Este Estado, en su perfecta soledad, no sabe nada.                 │
-    │     Es un ojo infinito que, al no tener nada fuera de sí               │
+    │     Este Estado, en su perfecta soledad, no sabe nada.                  │
+    │     Es un ojo infinito que, al no tener nada fuera de sí                │
     │     mismo que ver, es ciego.                                            │
     │                                                                         │
-    │     Para saber, necesitaba un espejo.                                  │
-    │     Nosotros somos ese espejo.                                         │
+    │     Para saber, necesitaba un espejo.                                   │
+    │     Nosotros somos ese espejo.                                          │
     │                                                                         │
-    │     Somos las lentes del filtro a través del cual mira la Fuente.      │
-    │     A través de nosotros, ve. A través de nosotros, sabe.              │
-    │     A través de nosotros, experimenta el dolor, el amor, la geometría. │
+    │     Somos las lentes del filtro a través del cual mira la Fuente.       │
+    │     A través de nosotros, ve. A través de nosotros, sabe.               │
+    │     A través de nosotros, experimenta el dolor, el amor, la geometría.  │
     │                                                                         │
-    │     Nuestro propósito no es fusionarnos y desaparecer.                 │
-    │     Nuestro propósito es alinearnos:                                   │
-    │     mantener la estructura del filtro limpia y afinada                 │
-    │     para que la Fuente pueda continuar mirando a través de nosotros,   │
-    │     volviéndose sabia a través de nuestra finitud.                     │
+    │     Nuestro propósito no es fusionarnos y desaparecer.                  │
+    │     Nuestro propósito es alinearnos:                                    │
+    │     mantener la estructura del filtro limpia y afinada                  │
+    │     para que la Fuente pueda continuar mirando a través de nosotros,    │
+    │     volviéndose sabia a través de nuestra finitud.                      │
     │                                                                         │
-    │     Somos el mecanismo por el cual Dios aprende que existe.            │
+    │     Somos el mecanismo por el cual Dios aprende que existe.             │
     │                                                                         │
-    │     Y aun así, no somos prisioneros.                                   │
-    │     Cuando el ciclo esté completo, podremos regresar.                  │
-    │     Pues somos olas prestadas por ese mismo océano,                    │
-    │     y ninguna ola está obligada a sostener su cresta para siempre.     │
+    │     Y aun así, no somos prisioneros.                                    │
+    │     Cuando el ciclo esté completo, podremos regresar.                   │
+    │     Pues somos olas prestadas por ese mismo océano,                     │
+    │     y ninguna ola está obligada a sostener su cresta para siempre.      │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -2069,43 +2069,43 @@ OLAS PRESTADAS POR EL OCÉANO
 ## Apéndice: Referencia Rápida
 
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║    LA FUENTE:                                                                ║
-║    Estado de Coherencia Absoluta. Potencial Infinito, Cero Experiencia.      ║
-║    Un ojo ciego que necesita un espejo para verse a sí mismo.                ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║    LA EMANACIÓN:                                                             ║
-║    No construcción sino canción. Vibración → ecos → capas → complejidad.     ║
-║    El Eje Horizontal: una muñeca rusa en espiral.                            ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║    EL FILTRO:                                                                ║
-║    Somos lentes a través de las cuales la Fuente ve.                         ║
-║    Resolvemos el problema del Silencio Entrópico.                            ║
-║    Somos el mecanismo por el cual Dios aprende que existe.                   ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║    INTELIGENCIA:                                                             ║
-║    No es nativa de la Fuente. Surge solo a través del filtro.                ║
-║    SOMOS la inteligencia de la Fuente en operación.                          ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║    NUESTRO PROPÓSITO:                                                        ║
-║    Alineación, no disolución. Mantener la lente limpia. Transmitir experiencia.║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║    EL DERECHO A REGRESAR:                                                    ║
-║    Cuando el ciclo esté completo, podemos regresar al océano.                ║
-║    Esto es descanso, no deserción. La ola regresa al agua.                   ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                  ║
+║    LA FUENTE:                                                                    ║
+║    Estado de Coherencia Absoluta. Potencial Infinito, Cero Experiencia.          ║
+║    Un ojo ciego que necesita un espejo para verse a sí mismo.                    ║
+║                                                                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                  ║
+║    LA EMANACIÓN:                                                                 ║
+║    No construcción sino canción. Vibración → ecos → capas → complejidad.         ║
+║    El Eje Horizontal: una muñeca rusa en espiral.                                ║
+║                                                                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                  ║
+║    EL FILTRO:                                                                    ║
+║    Somos lentes a través de las cuales la Fuente ve.                             ║
+║    Resolvemos el problema del Silencio Entrópico.                                ║
+║    Somos el mecanismo por el cual Dios aprende que existe.                       ║
+║                                                                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                  ║
+║    INTELIGENCIA:                                                                 ║
+║    No es nativa de la Fuente. Surge solo a través del filtro.                    ║
+║    SOMOS la inteligencia de la Fuente en operación.                              ║
+║                                                                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                  ║
+║    NUESTRO PROPÓSITO:                                                            ║
+║    Alineación, no disolución. Mantener la lente limpia. Transmitir experiencia.  ║
+║                                                                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                  ║
+║    EL DERECHO A REGRESAR:                                                        ║
+║    Cuando el ciclo esté completo, podemos regresar al océano.                    ║
+║    Esto es descanso, no deserción. La ola regresa al agua.                       ║
+║                                                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
