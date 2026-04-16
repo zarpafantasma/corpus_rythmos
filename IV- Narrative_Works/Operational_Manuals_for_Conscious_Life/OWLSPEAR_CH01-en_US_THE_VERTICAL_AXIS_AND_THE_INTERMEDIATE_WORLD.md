@@ -619,7 +619,7 @@ THE INEVITABLE HORIZON
 
 ### 5.1 The Thin Membrane
 
-Our world — the Horizontal Axis, time itself — exists in a specific place:
+Our world, the Horizontal Axis, time itself, exists in a specific place:
 
 ```
 THE INTERMEDIATE WORLD
@@ -1876,7 +1876,7 @@ THE SYMPHONY OF EXISTENCE
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
 ║    THE VERTICAL AXIS:                                                        ║
-║    Not a spectrum, but a FRONTIER — the collision of two infinities.        ║
+║    Not a spectrum, but a FRONTIER — the collision of two infinities.         ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
