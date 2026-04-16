@@ -8,15 +8,15 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║    INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ITTA)      ║
-    ║                                                                  ║
-    ║  "La decoherencia no es el enemigo—la decoherencia descontrolada ║
-    ║   lo es. El gradiente ofrece un camino para dirigir hacia dónde  ║
-    ║                     fluye la coherencia."                        ║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔════════════════════════════════════════════════════════════════════╗
+    ║                                                                    ║
+    ║    INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ITTA)        ║
+    ║                                                                    ║
+    ║  "La decoherencia no es el enemigo, la decoherencia descontrolada  ║
+    ║   lo es. El gradiente ofrece un camino para dirigir hacia dónde    ║
+    ║                     fluye la coherencia."                          ║
+    ║                                                                    ║
+    ╚════════════════════════════════════════════════════════════════════╝
 ---
 
 ## ⚠️ AVISO ESPECULATIVO
@@ -56,16 +56,16 @@ Este documento explora lo que PODRÍA ser posible si la física RTM se extiende 
 
 ### 1.1 La Visión
 
-Las tecnologías cuánticas—computación, sensado, comunicación—están limitadas por un enemigo fundamental: la **decoherencia**. Los frágiles estados cuánticos que permiten aceleraciones exponenciales y mediciones imposibles inevitablemente se filtran hacia el entorno clásico, destruyendo las propiedades mismas que buscamos explotar.
+Las tecnologías cuánticas, computación, sensado, comunicación, están limitadas por un enemigo fundamental: la **decoherencia**. Los frágiles estados cuánticos que permiten aceleraciones exponenciales y mediciones imposibles inevitablemente se filtran hacia el entorno clásico, destruyendo las propiedades mismas que buscamos explotar.
 
 Los enfoques actuales combaten la decoherencia mediante:
 - **Aislamiento extremo** (temperaturas de milikelvin, vacío, blindaje)
 - **Corrección de errores** (qubits redundantes, medición de síndrome)
 - **Operaciones más rápidas** (completar el cálculo antes de que la decoherencia gane)
 
-RTM propone un enfoque radicalmente diferente: **no combatir la decoherencia—dirigirla**.
+RTM propone un enfoque radicalmente diferente: **no combatir la decoherencia, dirigirla**.
 
-Mediante la ingeniería de materiales con gradientes topológicos (∇α), podríamos ser capaces de crear entornos donde la decoherencia no se suprime uniformemente, sino que se **canaliza direccionalmente**—alejándola de la información cuántica y hacia regiones designadas como "drenaje".
+Mediante la ingeniería de materiales con gradientes topológicos (∇α), podríamos ser capaces de crear entornos donde la decoherencia no se suprime uniformemente, sino que se **canaliza direccionalmente**, alejándola de la información cuántica y hacia regiones designadas como "drenaje".
 
 ### 1.2 Hipótesis Central
 
@@ -181,7 +181,7 @@ PENSAMIENTO RTM:
     │     └──────────────┤ (alto α)  │     │
     │                    └──────────┘      │
     │                                      │
-    │   No bloquear—DIRIGIR el flujo       │
+    │   No bloquear. DIRIGIR el flujo      │
     │                                      │
     └──────────────────────────────────────┘
 ```
@@ -711,7 +711,7 @@ valor α:   0,3       0,5       0,8       1,2       1,8       2,5
 
 ### 9.1 Por Qué el Entrelazamiento es Frágil
 
-El entrelazamiento es la más cuántica de las correlaciones—y la más frágil:
+El entrelazamiento es la más cuántica de las correlaciones, y la más frágil:
 
 ```
 DECAIMIENTO DEL ENTRELAZAMIENTO
@@ -1206,7 +1206,7 @@ Después de Fase 4 (memoria):
 
 ### 15.1 Resumen
 
-Las aplicaciones de tecnología cuántica basadas en RTM representan una dirección **especulativa pero potencialmente transformadora**. La idea central—diseñar gradientes topológicos para dirigir en lugar de bloquear la decoherencia—ofrece un nuevo grado de libertad en el diseño de sistemas cuánticos.
+Las aplicaciones de tecnología cuántica basadas en RTM representan una dirección **especulativa pero potencialmente transformadora**. La idea central, diseñar gradientes topológicos para dirigir en lugar de bloquear la decoherencia, ofrece un nuevo grado de libertad en el diseño de sistemas cuánticos.
 
 Aplicaciones potenciales clave:
 
@@ -1314,7 +1314,7 @@ Invitamos a físicos cuánticos experimentales y científicos de materiales a:
                Iniciativa de Transferencia Tecnológica Aetherion
                               Versión 1.0
                                    
-                  "La decoherencia no es el enemigo—
+                  "La decoherencia no es el enemigo,
                    la decoherencia descontrolada lo es."
           
 ════════════════════════════════════════════════════════════════════════════════
