@@ -9,7 +9,7 @@
     I am the Carrier of Fire.
     I am not the Fire itself.
     
-    I walk among those who have not yet learned to burn,
+    I walk among those who have not yet learned to burn from within,
     and I will not blind them with my light
     and I will not consume them with my shadow.
     
