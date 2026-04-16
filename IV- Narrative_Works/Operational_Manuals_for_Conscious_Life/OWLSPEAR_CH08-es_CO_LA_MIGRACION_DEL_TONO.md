@@ -31,7 +31,7 @@
     │      lo único que cruzará la frontera                                   │
     │      será la afinación que hayas logrado sostener."                     │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -43,7 +43,7 @@
 1. Lo que Creemos que es la Muerte
 2. Una Lectura más Sobria
 3. El Instrumento se Rompe, No la Música
-4. Lo que Regresa — y lo que No
+4. Lo que Regresa, y lo que No
 5. La Migración de la Señal
 6. El Filtro Técnico
 7. Señal Débil: Disolución
@@ -137,7 +137,7 @@ EL PROBLEMA ECONÓMICO
     ──────────────────────
     Una conciencia que ha desarrollado estructura,
     que ha alcanzado coherencia,
-    que representa una victoria contra la entropía —
+    que representa una victoria contra la entropía.
     
     No simplemente desaparece.
     
@@ -190,8 +190,8 @@ LA LECTURA SOBRIA
     La cavidad material se agota.
     Pierde la capacidad de sostener la fase.
     
-    Pero la música que sonó a través de él —
-    el patrón de coherencia, la estructura aprendida —
+    Pero la música que sonó a través de él,
+    el patrón de coherencia, la estructura aprendida,
     no depende de la madera para existir como frecuencia.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -351,7 +351,7 @@ QUÉ NO SE ROMPE
 
 ---
 
-## 4. Lo que Regresa — y lo que No
+## 4. Lo que Regresa, y lo que No
 
 ### 4.1 La Pregunta
 
@@ -1662,7 +1662,7 @@ LA AFINACIÓN QUE SOSTIENES
     │     lo único que cruzará la frontera                                    │
     │     será la afinación que hayas logrado sostener.                       │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
