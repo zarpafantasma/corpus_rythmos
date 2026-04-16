@@ -60,7 +60,7 @@ The RTM Unified Field Framework provides the first physically consistent, mathem
 
 The key insight: The vacuum is not a uniform sea of fluctuations. It has topological structure. By creating asymmetric gradients in this structure, we can induce directional energy flow from the vacuum into measurable fields.
 
-This is NOT perpetual motion. The vacuum is not "empty" — it contains the zero-point energy of all quantum fields. RTM provides a mechanism to tap this reservoir.
+This is NOT perpetual motion. The vacuum is not "empty", it contains the zero-point energy of all quantum fields. RTM provides a mechanism to tap this reservoir.
 
 ### 1.2 Key Results from Simulations
 
@@ -122,7 +122,7 @@ Zero-point energy produces measurable effects:
 Naive vacuum energy: ~10^113 J/m^3
 Observed cosmological constant: ~10^-9 J/m^3
 
-Off by 10^122 — the worst prediction in physics.
+Off by 10^122, the worst prediction in physics.
 
 **But the discrepancy proves the vacuum has structure we do not understand.**
 
