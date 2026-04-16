@@ -11,7 +11,7 @@
 
 **Significance & Operationalization (from Concept to Test)**
 
-**Conceptual core.** In the Relativistic Temporal Multiscale (RTM) framework, characteristic process times obey a scaling law $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$, where the exponent α quantifies **structural coherence**. The original conceptual proposal reads information conservation as **transmutation** rather than destruction: complex, high-entropy content can be **re-encoded** into highly ordered structures (high $`\alpha`$), akin to rewriting an encyclopedia onto a crystalline storage medium—the **content** persists while the **form** of storage becomes more coherent.
+**Conceptual core.** In the Relativistic Temporal Multiscale (RTM) framework, characteristic process times obey a scaling law $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$, where the exponent α quantifies **structural coherence**. The original conceptual proposal reads information conservation as **transmutation** rather than destruction: complex, high-entropy content can be **re-encoded** into highly ordered structures (high $`\alpha`$), akin to rewriting an encyclopedia onto a crystalline storage medium, the **content** persists while the **form** of storage becomes more coherent.
 
 **Operational translation.** This paper converts that intuition into a **falsifiable prediction**. At a fixed location, the **log–log slope** of observed process time versus effective size satisfies
 
@@ -33,7 +33,7 @@ so **slope = coherence** (RTM) while gravitational/kinematic factors shift only 
 
 **Abstract**
 
-We develop a minimal, testable interpretation of black–hole interiors within the **Relativistic Temporal Multiscale (RTM)** framework, in which characteristic process times obey a scaling law $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$ and the exponent α quantifies structural coherence. In the **high-α** limit—interpreted operationally as extreme coherence in a highly confined, multiscale medium—**local mesoscopic times shorten steeply with scale**, asymptotically approaching “frozen” internal dynamics without modifying the background spacetime metric. We **do not** identify $`\alpha`$ with thermodynamic entropy: α is an *operational coherence* parameter, whereas black–hole entropy remains a coarse–grained horizon quantity; accordingly, a state may exhibit very large α (fast internal organization) alongside large Bekenstein–Hawking entropy (horizon state count). This resolves an otherwise superficial tension between “maximal coherence” language and standard black–hole thermodynamics.
+We develop a minimal, testable interpretation of black–hole interiors within the **Relativistic Temporal Multiscale (RTM)** framework, in which characteristic process times obey a scaling law $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$ and the exponent α quantifies structural coherence. In the **high-α** limit, interpreted operationally as extreme coherence in a highly confined, multiscale medium, **local mesoscopic times shorten steeply with scale**, asymptotically approaching “frozen” internal dynamics without modifying the background spacetime metric. We **do not** identify $`\alpha`$ with thermodynamic entropy: α is an *operational coherence* parameter, whereas black–hole entropy remains a coarse–grained horizon quantity; accordingly, a state may exhibit very large α (fast internal organization) alongside large Bekenstein–Hawking entropy (horizon state count). This resolves an otherwise superficial tension between “maximal coherence” language and standard black–hole thermodynamics.
 
 To interface RTM with gravitational redshift, we distinguish **local** from **asymptotic** clocks and treat observed times as a competition between GR time dilation and RTM’s coherence–induced shortening, schematically
 
@@ -134,7 +134,7 @@ These cutoffs ensure that even in “extreme organization” the theory does **n
 
 **2.1 Local vs. asymptotic clocks (how GR and RTM meet)**
 
-RTM speaks about **local mesoscopic times**—the characteristic duration $`T_{local}`$ of a process occurring on an effective spatial scale $`L`$ within some medium. General Relativity (GR) tells us how **local proper time** maps to the time recorded by a distant observer through gravitational (and kinematic) redshift. To first order in what we need here, the two combine **multiplicatively**:
+RTM speaks about **local mesoscopic times**, the characteristic duration $`T_{local}`$ of a process occurring on an effective spatial scale $`L`$ within some medium. General Relativity (GR) tells us how **local proper time** maps to the time recorded by a distant observer through gravitational (and kinematic) redshift. To first order in what we need here, the two combine **multiplicatively**:
 
 ``` math
 T_{\text{obs}}(r,L) \approx \left( 1 + z(r) \right)\left( \frac{L}{L_{0}} \right)^{\alpha_{\text{eff}}(r)}T_{0}
@@ -251,9 +251,9 @@ To remain consistent with standard early-universe and background constraints, we
 
 **3) Coherence vs. entropy (compatibility note)**
 
-**3.1 What α is—and what it is not**
+**3.1 What α is, and what it is not**
 
-In RTM the exponent α quantifies **operational coherence/organization**: higher $`\alpha`$ means that, over a window of scales, characteristic process times shorten sharply with decreasing $`L`$ (Sec. 1). In the black–hole draft you framed the interior as “coherence pushed to the limit,” even flirting with $`\alpha \rightarrow \infty`$ and “collapsed time” $`(T \approx 0)`$. We retain the **intuition** (very large $`\alpha\  \Rightarrow`$ very short local process times), but we do **not** identify α with thermodynamic entropy. The latter—especially in black–hole thermodynamics—is a **coarse-grained horizon quantity** unrelated to the mesoscopic organization measured by α. In other words, a system may exhibit **very large α** (fast internal organization) **together with large horizon entropy**, without contradiction.
+In RTM the exponent α quantifies **operational coherence/organization**: higher $`\alpha`$ means that, over a window of scales, characteristic process times shorten sharply with decreasing $`L`$ (Sec. 1). In the black–hole draft you framed the interior as “coherence pushed to the limit,” even flirting with $`\alpha \rightarrow \infty`$ and “collapsed time” $`(T \approx 0)`$. We retain the **intuition** (very large $`\alpha\  \Rightarrow`$ very short local process times), but we do **not** identify α with thermodynamic entropy. The latter, especially in black–hole thermodynamics, is a **coarse-grained horizon quantity** unrelated to the mesoscopic organization measured by α. In other words, a system may exhibit **very large α** (fast internal organization) **together with large horizon entropy**, without contradiction.
 
 > **Provenance (from the conceptual draft).** The language “singularity as perfect coherence with collapsed time” and “black holes as perfect information stores” appears explicitly in our conceptual source text; here we translate it into a conservative, testable statement about **high but finite** $`\alpha_{\text{eff}}`$ and re-encoding of correlations (Sec. 3.3), without asserting literal $`T = 0`$ or minimal thermodynamic entropy.
 
@@ -263,9 +263,9 @@ We separate two bookkeeping levels:
 
 - **Horizon (coarse-grained) ledger:** the Bekenstein–Hawking horizon entropy $`S_{BH}`$ counts accessible microstates at the boundary. Nothing in RTM modifies this ledger; GR + standard thermodynamics remain intact.
 
-- **Interior (operational) ledger:** $`\alpha_{\text{eff}}`$ measures how **organized** the local medium is (hierarchy, confinement, multiscale coupling). Large $`\alpha_{\text{eff}}`$ implies **short local process times** $`\mathbf{T}_{\mathbf{local}}{\mathbf{\propto}\mathbf{L}}^{\alpha_{\text{eff}}}`$ and **suppressed local entropy** production rates on the mesoscopic description—yet this is **orthogonal** to the horizon’s state count.
+- **Interior (operational) ledger:** $`\alpha_{\text{eff}}`$ measures how **organized** the local medium is (hierarchy, confinement, multiscale coupling). Large $`\alpha_{\text{eff}}`$ implies **short local process times** $`\mathbf{T}_{\mathbf{local}}{\mathbf{\propto}\mathbf{L}}^{\alpha_{\text{eff}}}`$ and **suppressed local entropy** production rates on the mesoscopic description, yet this is **orthogonal** to the horizon’s state count.
 
-Thus, “high coherence inside” (large $`\alpha_{\text{eff}}`$) and “large $`S_{BH}`$ at the horizon” can **co-exist**. The apparent tension—“maximal coherence” vs. “maximal entropy”—comes from mixing ledgers.
+Thus, “high coherence inside” (large $`\alpha_{\text{eff}}`$) and “large $`S_{BH}`$ at the horizon” can **co-exist**. The apparent tension, “maximal coherence” vs. “maximal entropy”, comes from mixing ledgers.
 
 **3.3 Information retention as re-encoding of correlations**
 
@@ -294,7 +294,7 @@ Our draft states “tiempo colapsado ($`T \approx 0`$)” and “$`\alpha \right
 
 - **Horizon consistency:** Since RTM does not touch the metric or the area law, the **horizon entropy ledger remains unchanged**. The interior **operational** order affects only local process times and correlational persistence.
 
-- **Analog horizons:** In BEC or fluid dumb-hole platforms, increasing **confinement/organization** (raising $`\alpha_{\text{eff}}`$) should **compress mesoscopic times** and increase the **slope** $`\partial\ \log\ T/\partial\ \log\ L`$ for processes defined on substructures—while the analog’s boundary entropy proxy is governed by its own coarse-graining. This isolates the **slope signature** as the test of coherence activation.
+- **Analog horizons:** In BEC or fluid dumb-hole platforms, increasing **confinement/organization** (raising $`\alpha_{\text{eff}}`$) should **compress mesoscopic times** and increase the **slope** $`\partial\ \log\ T/\partial\ \log\ L`$ for processes defined on substructures, while the analog’s boundary entropy proxy is governed by its own coarse-graining. This isolates the **slope signature** as the test of coherence activation.
 
 - **Re-encoding vs. erasure:** If high-α is the right operational picture, interventions that *lower* organization (e.g., disrupt hierarchy) should **decrease** correlational persistence (Eq. 16), offering a falsification channel.
 
@@ -317,7 +317,7 @@ The core empirical handle in this note is **slope**, not level. From Eq. (6), at
 ```
 (17)
 
-If $`\alpha_{\text{eff}}`$​ **increases** inward—because confinement/organization grows—then **slopes must evolve with radius**. This “slope-with-radius” prediction is the cleanest, model-independent signature of RTM activation in compact environments.
+If $`\alpha_{\text{eff}}`$​ **increases** inward, because confinement/organization grows, then **slopes must evolve with radius**. This “slope-with-radius” prediction is the cleanest, model-independent signature of RTM activation in compact environments.
 
 > **Provenance.** The conceptual draft motivates extreme coherence (“collapsed time,” “perfect vault”) in black-hole interiors; here we recast that intuition into a finite high-α program with falsifiable slope predictions, avoiding literal $`T = 0`$ or $`\alpha \rightarrow \infty`$.
 
@@ -380,7 +380,7 @@ This is the observational translation of Eqs. (6)–(8): **slope = RTM**, **inte
 
 - As confinement increases across geometries, $`\alpha_{\text{eff}}(g)`$ should **increase** (logistic/ramp behavior), compressing mesoscopic times preferentially at small $`L`$.
 
-- A **null** result—slopes invariant across confinement sweeps—falsifies the activation picture in that platform.
+- A **null** result, slopes invariant across confinement sweeps, falsifies the activation picture in that platform.
 
 This mirrors the draft’s coherence narrative, but in a controlled laboratory analog rather than an astrophysical environment.
 
@@ -443,7 +443,7 @@ This note is intentionally conservative. It translates the conceptual idea of �
 
 - **Level–slope disentanglement.** Redshift/kinematics change the **intercept** but not the **slope** at fixed location. However, imperfect control of $`(r,\theta,\Omega)`$ can leak level effects into slope estimates. Remedy: narrow annuli, multi-radius design, and explicit $`\mathcal{Z}(r,\theta,\Omega)`$ nuisance modeling (§2.4, §4.4).
 
-- **Classical transport look-alikes.** In some regimes, classical transport can produce slopes near 1 (ballistic) or 2 (diffusive). A **null RTM** outcome is exactly that: **no** slope evolution with radius/confinement and slopes clustering around those classical values—this is a legitimate **non-detection**, not a failure of analysis.
+- **Classical transport look-alikes.** In some regimes, classical transport can produce slopes near 1 (ballistic) or 2 (diffusive). A **null RTM** outcome is exactly that: **no** slope evolution with radius/confinement and slopes clustering around those classical values, this is a legitimate **non-detection**, not a failure of analysis.
 
 **5.4 What would falsify the high-α interpretation here**
 
@@ -464,7 +464,7 @@ This note is intentionally conservative. It translates the conceptual idea of �
 The conceptual draft develops an ambitious “library/reader/printer” storyline (Aetherion coupling, echo decoding, ontological reconstruction). These ideas are **valuable as motivation**, but they require **new hardware and untested couplings** that are not needed to define or test the **slope-based** predictions of this paper. Therefore, we keep them in a clearly labeled **Speculative Extensions** section and do not rely on them for any core claim.
 
 **Bottom line.**\
-The present framework stands or falls on a **simple, falsifiable signature**: **radial (or confinement-driven) evolution of the slope** in $`\log\ T - \log L`$. Everything else—interpretive metaphors, engineering scenarios, or extreme limit talk—remains outside the claim. If nature shows **no slope evolution**, the high-α reading is wrong **in this context**. If slope evolution is seen and is robust to proxies and nuisance modeling, the coherence activation picture earns credit and warrants deeper microphysical work.
+The present framework stands or falls on a **simple, falsifiable signature**: **radial (or confinement-driven) evolution of the slope** in $`\log\ T - \log L`$. Everything else, interpretive metaphors, engineering scenarios, or extreme limit talk, remains outside the claim. If nature shows **no slope evolution**, the high-α reading is wrong **in this context**. If slope evolution is seen and is robust to proxies and nuisance modeling, the coherence activation picture earns credit and warrants deeper microphysical work.
 
 **6) Speculative extensions (clearly labeled; not part of the core claim)**
 
@@ -474,7 +474,7 @@ The present framework stands or falls on a **simple, falsifiable signature**: **
 
 **Concept from the draft**
 
-The draft imagines approaching (but not crossing) the horizon, tuning a high-coherence device to the hole’s “signature,” emitting a **probe** and detecting a **coherence echo** that encodes interior correlations—“a library suspended out of time.”
+The draft imagines approaching (but not crossing) the horizon, tuning a high-coherence device to the hole’s “signature,” emitting a **probe** and detecting a **coherence echo** that encodes interior correlations, “a library suspended out of time.”
 
 **Minimal formal placeholder (gedanken coupling)**
 
@@ -499,7 +499,7 @@ where $`\chi`$ is a (causal) susceptibility that depends parametrically on envir
 
 **Concept from the draft**
 
-Given a “blueprint” (a correlational encoding), a network of devices would act as an **ontological printer**, shaping raw matter/energy into a macroscopic object by imposing a coherence field—an inverse of “falling into the hole.”
+Given a “blueprint” (a correlational encoding), a network of devices would act as an **ontological printer**, shaping raw matter/energy into a macroscopic object by imposing a coherence field, an inverse of “falling into the hole.”
 
 **Why this is outside current physics**
 
@@ -518,7 +518,7 @@ A toy target-state functional $`\mathcal{C}^{*}\left\lbrack \rho(x),\phi(x) \rig
 ```
 (20)
 
-with $`\mathcal{E}`$ a resource/energy cost. This is the language of **optimal control**, not evidence that such control is physically realizable at cosmic scales. We include (17) solely to clarify that “printing” would mathematically be an **inverse-problem**/control task—still far beyond any plausible implementation.
+with $`\mathcal{E}`$ a resource/energy cost. This is the language of **optimal control**, not evidence that such control is physically realizable at cosmic scales. We include (17) solely to clarify that “printing” would mathematically be an **inverse-problem**/control task, still far beyond any plausible implementation.
 
 **6.3 Ethical, safety, and epistemic notes**
 
@@ -591,7 +591,7 @@ so at fixed $`r`$:
 
 **7.3 Scope and compatibility (what this note does *not* do)**
 
-- **No modification of GR or horizon thermodynamics.** Horizon entropy $`S_{BH}`$ and the area law remain untouched; $`\alpha`$ is an **operational coherence parameter**, not entropy. Large $`\alpha_{eff}`$ inside can **coexist** with large $`S_{BH}`$ at the boundary—mixing those ledgers causes the apparent tension.
+- **No modification of GR or horizon thermodynamics.** Horizon entropy $`S_{BH}`$ and the area law remain untouched; $`\alpha`$ is an **operational coherence parameter**, not entropy. Large $`\alpha_{eff}`$ inside can **coexist** with large $`S_{BH}`$ at the boundary, mixing those ledgers causes the apparent tension.
 
 - No “$`\alpha = \infty`$” or “$`T = 0"`$ **claims.** The conceptual phrases “collapsed time”/“perfect vault” are translated into **high but finite** $`\alpha_{eff}`$ with cutoffs; what matters empirically is **slope evolution**, not literal limits.
 
@@ -613,7 +613,7 @@ so at fixed $`r`$:
 
 - “**Extreme coherence / collapsed time**”: becomes **high-**$`\mathbf{\alpha}_{\mathbf{eff}}`$ **with asymptotically short** local process times, not literal $`T = 0`$.
 
-- “**Perfect vault / information not destroyed**”: becomes **re-encoding of correlations** with slow operational evolution on the mesoscopic clock—compatible with unitary quantum evolution without altering GR.
+- “**Perfect vault / information not destroyed**”: becomes **re-encoding of correlations** with slow operational evolution on the mesoscopic clock, compatible with unitary quantum evolution without altering GR.
 
 **7.6 One-page checklist (for inclusion in methods)**
 
@@ -629,11 +629,11 @@ so at fixed $`r`$:
 
 6)  State a falsification criterion up front.
 
-**Bottom line.** The hypothesis rises or falls on a **simple measurement**: **does the slope** $`\partial\ \log\ T/\partial\ \log\ L`$ **increase as environments become more confined/organized (inward in compact objects; tighter geometries in analogs)?** If yes—and robustly so—high-α activation earns credit and merits deeper microphysical work. If not, the high-α interpretation (in this context) is wrong. The conceptual imagery remains valuable as motivation, but the **science** is this slope-based, GR-compatible test.
+**Bottom line.** The hypothesis rises or falls on a **simple measurement**: **does the slope** $`\partial\ \log\ T/\partial\ \log\ L`$ **increase as environments become more confined/organized (inward in compact objects; tighter geometries in analogs)?** If yes, and robustly so, high-α activation earns credit and merits deeper microphysical work. If not, the high-α interpretation (in this context) is wrong. The conceptual imagery remains valuable as motivation, but the **science** is this slope-based, GR-compatible test.
 
 **8) Synthetic validation of the slope-based RTM tests (A–D)**
 
-**Purpose.** This chapter reports four lightweight synthetic experiments (A–D) designed to validate the core empirical handle of this note—**the log–log slope** of observed process time $`T_{obs}`$ versus effective size $`L`$—under controlled conditions. Together they test **sensitivity** (detecting activation), **specificity** (no false activation), and **decomposition** (RTM vs. GR/kinematics) of the proposed methodology.
+**Purpose.** This chapter reports four lightweight synthetic experiments (A–D) designed to validate the core empirical handle of this note, **the log–log slope** of observed process time $`T_{obs}`$ versus effective size $`L`$—under controlled conditions. Together they test **sensitivity** (detecting activation), **specificity** (no false activation), and **decomposition** (RTM vs. GR/kinematics) of the proposed methodology.
 
 **8.1 Experimental design (common to A–D)**
 
