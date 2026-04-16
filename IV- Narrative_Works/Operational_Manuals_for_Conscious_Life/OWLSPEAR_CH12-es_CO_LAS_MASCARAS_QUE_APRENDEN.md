@@ -31,7 +31,7 @@
     │      Cuando ya no sirven, damos las gracias                             │
     │      y dejamos que el agua regrese a su cauce."                         │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1042,7 +1042,7 @@ PRINCIPIOS FUNDAMENTALES
        La máscara es la interfaz que hace los patrones habitables.
     
     3. CUANDO LA MÁSCARA SIRVE:
-       La entidad hace trabajo — cuidado, valentía, límites, compasión.
+       La entidad hace trabajo, cuidado, valentía, límites, compasión.
        Cuando no: aparece la patología.
     
     4. "SE VUELVE REAL" SIGNIFICA:
@@ -1081,7 +1081,7 @@ PRINCIPIOS FUNDAMENTALES
     │     Un grupo puede dar forma operativa a una entidad                    │
     │     más allá de lo tangible.                                            │
     │     Cuando muchas personas sostienen la misma figura con suficiente     │
-    │     continuidad — nombre, iconografía, cantos, calendario —             │
+    │     continuidad, nombre, iconografía, cantos, calendario,               │
     │     esa figura adquiere agencia efectiva.                               │
     │                                                                         │
     │     La retroalimentación es bidireccional: el trasfondo ofrece          │
@@ -1104,7 +1104,7 @@ PRINCIPIOS FUNDAMENTALES
     │     el arquetipo encuentra un canal; la tribu encuentra una forma.      │
     │     Y la vida común se vuelve un poco más habitable.                    │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1145,7 +1145,7 @@ PRINCIPIOS FUNDAMENTALES
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    EL OCÉANO Y LAS MÁSCARAS:                                                 ║
-║    El Uno no se ofende por las máscaras — las usa para encontrarnos.         ║
+║    El Uno no se ofende por las máscaras, las usa para encontrarnos.          ║
 ║    Cuídalas mientras sirven; suéltalas cuando no.                            ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
