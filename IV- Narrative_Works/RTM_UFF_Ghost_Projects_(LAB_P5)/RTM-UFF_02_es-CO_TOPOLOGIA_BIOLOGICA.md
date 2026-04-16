@@ -7,26 +7,26 @@
 **Fecha:** Marzo 2026  
 
 ---
-    ╔══════════════════════════════════════════════════════════════════════════════╗
+    ╔════════════════════════════════════════════════════════════════════════════════╗
     ║                                                        - C L A S I F I C A D O ║
-    ║    ██████╗ ████████╗███╗   ███╗      ██╗   ██╗███████╗███████╗               ║
-    ║    ██╔══██╗╚══██╔══╝████╗ ████║      ██║   ██║██╔════╝██╔════╝               ║
-    ║    ██████╔╝   ██║   ██╔████╔██║█████╗██║   ██║█████╗  █████╗                 ║
-    ║    ██╔══██╗   ██║   ██║╚██╔╝██║╚════╝██║   ██║██╔══╝  ██╔══╝                 ║
-    ║    ██║  ██║   ██║   ██║ ╚═╝ ██║      ╚██████╔╝██║     ██║                    ║
-    ║    ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝       ╚═════╝ ╚═╝     ╚═╝                    ║
-    ║                                                                              ║
-    ║                 P R O Y E C T O S   F A N T A S M A                          ║
-    ║                                                                              ║
-    ╚══════════════════════════════════════════════════════════════════════════════╝
+    ║    ██████╗ ████████╗███╗   ███╗      ██╗   ██╗███████╗███████╗                 ║
+    ║    ██╔══██╗╚══██╔══╝████╗ ████║      ██║   ██║██╔════╝██╔════╝                 ║
+    ║    ██████╔╝   ██║   ██╔████╔██║█████╗██║   ██║█████╗  █████╗                   ║
+    ║    ██╔══██╗   ██║   ██║╚██╔╝██║╚════╝██║   ██║██╔══╝  ██╔══╝                   ║
+    ║    ██║  ██║   ██║   ██║ ╚═╝ ██║      ╚██████╔╝██║     ██║                      ║
+    ║    ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝       ╚═════╝ ╚═╝     ╚═╝                      ║
+    ║                                                                                ║
+    ║                 P R O Y E C T O S   F A N T A S M A                            ║
+    ║                                                                                ║
+    ╚════════════════════════════════════════════════════════════════════════════════╝
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║                "La evolución no inventó la topología.                        ║
-║             Descubrió las bandas que la física permite.                      ║
-║       La vida está restringida por el mismo vacío que impulsa las estrellas."║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                  ║
+║                "La evolución no inventó la topología.                            ║
+║             Descubrió las bandas que la física permite.                          ║
+║       La vida está restringida por el mismo vacío que impulsa las estrellas."    ║
+║                                                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -37,7 +37,7 @@
 
 El Marco de Campo Unificado RTM revela que los sistemas biológicos no tienen topologías de red arbitrarias. La evolución ha convergido en las bandas topológicas discretas predichas por la física RTM.
 
-Perspectiva clave: Los sistemas vivos están restringidos por la misma topología del vacío que gobierna la física fundamental. La biología explora el espacio de configuraciones permitidas — las cinco bandas topológicas.
+Perspectiva clave: Los sistemas vivos están restringidos por la misma topología del vacío que gobierna la física fundamental. La biología explora el espacio de configuraciones permitidas, las cinco bandas topológicas.
 
 ### 1.2 Resultados Clave de las Simulaciones
 
