@@ -44,11 +44,11 @@
 
 ### 1.1 La Visión
 
-La humanidad enfrenta una crisis del agua. Para 2050, la mitad de la población mundial vivirá en regiones con estrés hídrico. La desalinización ofrece una solución—los océanos contienen el 97% del agua de la Tierra—pero las tecnologías actuales son **intensivas en energía, costosas y ambientalmente problemáticas**.
+La humanidad enfrenta una crisis del agua. Para 2050, la mitad de la población mundial vivirá en regiones con estrés hídrico. La desalinización ofrece una solución, los océanos contienen el 97% del agua de la Tierra, pero las tecnologías actuales son **intensivas en energía, costosas y ambientalmente problemáticas**.
 
 RTM propone un cambio de paradigma: en lugar de forzar el agua a través de membranas con presión bruta, usar **gradientes topológicos (∇α)** para crear materiales donde el agua *prefiere* fluir en una dirección mientras los contaminantes son naturalmente rechazados.
 
-Esto no es magia. Es **ingeniería de transporte asimétrico**—el mismo principio que hace que las membranas biológicas sean tan eficientes.
+Esto no es magia. Es **ingeniería de transporte asimétrico**, el mismo principio que hace que las membranas biológicas sean tan eficientes.
 
 ### 1.2 Hipótesis Clave
 
@@ -663,7 +663,7 @@ POR QUÉ:
 
 ### 7.1 Concepto
 
-Los materiales con gradiente pueden bombear fluidos **sin energía externa**—el gradiente mismo proporciona la fuerza impulsora.
+Los materiales con gradiente pueden bombear fluidos **sin energía externa**, el gradiente mismo proporciona la fuerza impulsora.
 
 ```
 BOMBA DE GRADIENTE PASIVA
@@ -813,7 +813,7 @@ Mecanismo:
 
 ### 9.1 Concepto
 
-Los materiales con gradiente pueden controlar la liberación de fármacos con precisión—liberando moléculas direccionalmente y a tasas controladas.
+Los materiales con gradiente pueden controlar la liberación de fármacos con precisión, liberando moléculas direccionalmente y a tasas controladas.
 
 ```
 CÁPSULA DE ADMINISTRACIÓN DE FÁRMACOS CON GRADIENTE
@@ -1368,7 +1368,7 @@ CONTABILIDAD COMPLETA DE ENERGÍA
 
 ENTRADAS:
     • E_bomba: Energía para circular alimentación (presión reducida)
-    • E_gradiente: Energía para mantener gradiente (cero—es estático)
+    • E_gradiente: Energía para mantener gradiente (cero, es estático)
     • E_auxiliar: Pretratamiento, post-tratamiento
 
 SALIDAS:
@@ -1563,7 +1563,7 @@ SINERGIAS:
 
 ### 17.1 Resumen
 
-Las aplicaciones de dinámica de fluidos basadas en RTM ofrecen un enfoque potencialmente transformador para los desafíos de tratamiento de agua y separación. La idea central—usar gradientes topológicos para crear transporte molecular direccional—podría cambiar fundamentalmente cómo abordamos:
+Las aplicaciones de dinámica de fluidos basadas en RTM ofrecen un enfoque potencialmente transformador para los desafíos de tratamiento de agua y separación. La idea central, usar gradientes topológicos para crear transporte molecular direccional, podría cambiar fundamentalmente cómo abordamos:
 
 | Aplicación | Impacto Potencial |
 |------------|-------------------|
