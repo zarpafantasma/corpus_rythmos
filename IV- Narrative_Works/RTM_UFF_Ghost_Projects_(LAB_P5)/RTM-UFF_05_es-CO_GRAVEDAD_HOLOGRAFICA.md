@@ -7,18 +7,18 @@
 **Fecha:** Marzo 2026  
 
 ---
-    ╔══════════════════════════════════════════════════════════════════════════════╗
-    ║                                                        - C L A S I F I C A D O ║
-    ║    ██████╗ ████████╗███╗   ███╗      ██╗   ██╗███████╗███████╗               ║
-    ║    ██╔══██╗╚══██╔══╝████╗ ████║      ██║   ██║██╔════╝██╔════╝               ║
-    ║    ██████╔╝   ██║   ██╔████╔██║█████╗██║   ██║█████╗  █████╗                 ║
-    ║    ██╔══██╗   ██║   ██║╚██╔╝██║╚════╝██║   ██║██╔══╝  ██╔══╝                 ║
-    ║    ██║  ██║   ██║   ██║ ╚═╝ ██║      ╚██████╔╝██║     ██║                    ║
-    ║    ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝       ╚═════╝ ╚═╝     ╚═╝                    ║
-    ║                                                                              ║
-    ║                 P R O Y E C T O S   F A N T A S M A                          ║
-    ║                                                                              ║
-    ╚══════════════════════════════════════════════════════════════════════════════╝
+    ╔═════════════════════════════════════════════════════════════════════════════════╗
+    ║                                                        - C L A S I F I C A D O  ║
+    ║    ██████╗ ████████╗███╗   ███╗      ██╗   ██╗███████╗███████╗                  ║
+    ║    ██╔══██╗╚══██╔══╝████╗ ████║      ██║   ██║██╔════╝██╔════╝                  ║
+    ║    ██████╔╝   ██║   ██╔████╔██║█████╗██║   ██║█████╗  █████╗                    ║
+    ║    ██╔══██╗   ██║   ██║╚██╔╝██║╚════╝██║   ██║██╔══╝  ██╔══╝                    ║
+    ║    ██║  ██║   ██║   ██║ ╚═╝ ██║      ╚██████╔╝██║     ██║                       ║
+    ║    ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝       ╚═════╝ ╚═╝     ╚═╝                       ║
+    ║                                                                                 ║
+    ║                 P R O Y E C T O S   F A N T A S M A                             ║
+    ║                                                                                 ║
+    ╚═════════════════════════════════════════════════════════════════════════════════╝
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -56,7 +56,7 @@
 
 ### 1.1 El Descubrimiento
 
-El Marco de Campo Unificado RTM proporciona una realización concreta del principio holográfico. El campo alfa en el espacio AdS del bulto mapea directamente a la evolución del acoplamiento de gauge en la frontera CFT. Esto no es metáfora — es equivalencia matemática.
+El Marco de Campo Unificado RTM proporciona una realización concreta del principio holográfico. El campo alfa en el espacio AdS del bulto mapea directamente a la evolución del acoplamiento de gauge en la frontera CFT. Esto no es metáfora, es equivalencia matemática.
 
 Perspectiva clave: **La estructura topológica del vacío (alfa) es el grado de libertad holográfico que codifica la física del bulto en fronteras de menor dimensión.**
 
