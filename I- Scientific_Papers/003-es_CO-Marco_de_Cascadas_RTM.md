@@ -30,7 +30,7 @@ Mientras que los artículos anteriores establecieron la relación de escalamient
 
 **1.1 Motivación y alcance**
 
-RTM (Relatividad Temporal Multiescala) postula que el tiempo característico de un proceso escala con un tamaño efectivo según $`{T/T}_{0}{{= (L/L}_{0})}^{\alpha}`$, donde el exponente $`\alpha`$ operacionaliza la **coherencia mesoscópica**. Los ensayos conceptuales *Simulacrum* y *La Arquitectura del Eco* motivan una imagen en la cual la información es **recodificada** en estructuras cada vez más ordenadas y propagada **secuencialmente** a través de capas anidadas—una "arquitectura de armónicos resonantes" que avanza hacia adelante en lugar de hacia atrás. Nuestro objetivo aquí es traducir esa narrativa en **firmas testeables y falsificables** que puedan ser probadas con datos reales o análogos, sin comprometerse con afirmaciones metafísicas.
+RTM (Relatividad Temporal Multiescala) postula que el tiempo característico de un proceso escala con un tamaño efectivo según $`{T/T}_{0}{{= (L/L}_{0})}^{\alpha}`$, donde el exponente $`\alpha`$ operacionaliza la **coherencia mesoscópica**. Los ensayos conceptuales *Simulacrum* y *La Arquitectura del Eco* motivan una imagen en la cual la información es **recodificada** en estructuras cada vez más ordenadas y propagada **secuencialmente** a través de capas anidadas, una "arquitectura de armónicos resonantes" que avanza hacia adelante en lugar de hacia atrás. Nuestro objetivo aquí es traducir esa narrativa en **firmas testeables y falsificables** que puedan ser probadas con datos reales o análogos, sin comprometerse con afirmaciones metafísicas.
 
 **1.2 Planteamiento del problema**
 
@@ -189,7 +189,7 @@ El acoplamiento direccional se introduce solo de $`n`$ a $`n + 1`$ (para S2), co
 
 **3. Predicciones testeables y reglas de decisión**
 
-Esta sección convierte la formulación RTM estratificada (§2) en **predicciones concretas y falsificables** con pruebas explícitas, umbrales y reglas de parada. Las predicciones se agrupan como **centrales** (deben pasar) y **de apoyo** (fortalecen la afirmación pero no son requeridas). La procedencia conceptual—*Simulacrum* (recodificación) y *La Arquitectura del Eco* (armónicos resonantes secuenciales)—se mantiene solo como **motivación**; las pruebas abajo se sostienen sobre bases operacionales.
+Esta sección convierte la formulación RTM estratificada (§2) en **predicciones concretas y falsificables** con pruebas explícitas, umbrales y reglas de parada. Las predicciones se agrupan como **centrales** (deben pasar) y **de apoyo** (fortalecen la afirmación pero no son requeridas). La procedencia conceptual, *Simulacrum* (recodificación) y *La Arquitectura del Eco* (armónicos resonantes secuenciales), se mantiene solo como **motivación**; las pruebas abajo se sostienen sobre bases operacionales.
 
 **3.1 Firma central S1 — Coherencia monótona a través de capas (prueba de pendiente)**
 
@@ -310,7 +310,7 @@ Establezca $`\varepsilon`$ por instrumento/diseño (ej., $`\varepsilon = 0.05\, 
 
 **4. Simulaciones y controles sintéticos (E1–E4)**
 
-Esta sección valida las dos firmas centrales—**(S1)** coherencia monótona a través de capas (prueba de pendiente) y **(S2)** direccionalidad hacia adelante (TE/Granger)—usando modelos sintéticos ligeros. Cada experimento especifica: **modelo**, **medición**, **regla de decisión**, y **patrones de resultado típicos**. También incluimos pruebas de estrés y un paquete mínimo de reproducibilidad.
+Esta sección valida las dos firmas centrales, **(S1)** coherencia monótona a través de capas (prueba de pendiente) y **(S2)** direccionalidad hacia adelante (TE/Granger), usando modelos sintéticos ligeros. Cada experimento especifica: **modelo**, **medición**, **regla de decisión**, y **patrones de resultado típicos**. También incluimos pruebas de estrés y un paquete mínimo de reproducibilidad.
 
 **4.1 E1 — Cascada de cuatro capas con coherencia no decreciente (S1)**
 
@@ -372,7 +372,7 @@ Patrón típico. $`{TE}_{n \rightarrow n + 1} \gg {TE}_{n + 1 \rightarrow n}`$; 
 
 - **S2:** TE y Granger son simétricos o no significativos después de FDR.
 
-**Patrón típico.** $`{\widehat{\alpha}}_{n}`$ plano a través de capas con desplazamientos de ordenada al origen no nulos; TE/Granger no muestran una dirección favorecida—esto protege contra falsos positivos.
+**Patrón típico.** $`{\widehat{\alpha}}_{n}`$ plano a través de capas con desplazamientos de ordenada al origen no nulos; TE/Granger no muestran una dirección favorecida, esto protege contra falsos positivos.
 
 **4.5 Pruebas de estrés (robustez y modos de falla)**
 
@@ -380,7 +380,7 @@ Patrón típico. $`{TE}_{n \rightarrow n + 1} \gg {TE}_{n + 1 \rightarrow n}`$; 
 
 - **Dispersión en** $`\mathbf{L}`$**.** Reducir el rango de $`L`$ infla los ICs; la potencia cae abruptamente por debajo de $`\sim 6`$ tamaños distintos/capa o $`< 0.5`$ décadas de dispersión.
 
-- **Ruido heteroscedástico/de colas pesadas.** Use ICs bootstrap; ejecute sensibilidad Huber/Theil–Sen—las afirmaciones deben persistir.
+- **Ruido heteroscedástico/de colas pesadas.** Use ICs bootstrap; ejecute sensibilidad Huber/Theil–Sen, las afirmaciones deben persistir.
 
 - **Agrupamiento incorrecto entre capas.** Mezclar $`\Xi_{n}`$ distintos dentro de una capa puede filtrar efectos de nivel en estimaciones de pendiente; mitigue con bins estrechos y definiciones de proxy consistentes.
 
@@ -540,7 +540,7 @@ Esta sección convierte la cascada RTM en **protocolos de laboratorio** que pued
 
 - **Registro:** pre-registre $`\varepsilon`$, rangos de retardo, y segmentos nulos; archive datos crudos y código.
 
-**Conclusión.** Las tres plataformas arriba proporcionan **rutas independientes** para probar la hipótesis RTM de **coherencia secuencial** bajo condiciones controladas. Un resultado positivo requiere **tanto** monotonicidad de pendiente (S1) como causalidad solo hacia adelante (S2); un resultado nulo o mixto argumenta contra la interpretación de cascada de Armónicos Resonantes **en esa plataforma**—precisamente el estándar de falsificabilidad que queremos.
+**Conclusión.** Las tres plataformas arriba proporcionan **rutas independientes** para probar la hipótesis RTM de **coherencia secuencial** bajo condiciones controladas. Un resultado positivo requiere **tanto** monotonicidad de pendiente (S1) como causalidad solo hacia adelante (S2); un resultado nulo o mixto argumenta contra la interpretación de cascada de Armónicos Resonantes **en esa plataforma**, precisamente el estándar de falsificabilidad que queremos.
 
 **6. Discusión**
 
@@ -588,7 +588,7 @@ La teoría futura debería conectar $`\alpha`$ con **ecuaciones de grano grueso*
 
 **6.5 Alcance entre dominios**
 
-La misma tubería—estimación de pendiente estratificada + TE/Granger—aplica a:
+La misma tubería, estimación de pendiente estratificada + TE/Granger, aplica a:
 
 - **Análogos de laboratorio:** cadenas de resonadores óptico/RF/mecánico; guías fluídicas/fonónicas con confinamiento creciente (como se diseñó en §5).
 
@@ -614,15 +614,15 @@ El lenguaje conceptual sobre **recodificación** y "simulacrum" permanece como *
 
 **6.8 Qué permite esto a continuación**
 
-- Una **suite de referencia**: publique pendientes $`{\widehat{\alpha}}_{n}`$​, ICs, y tablas TE/Granger para cada plataforma/fuente—permitiendo comparación directa entre laboratorios y conjuntos de datos.
+- Una **suite de referencia**: publique pendientes $`{\widehat{\alpha}}_{n}`$​, ICs, y tablas TE/Granger para cada plataforma/fuente, permitiendo comparación directa entre laboratorios y conjuntos de datos.
 
 - **Mapas de respuesta**: mida $`\alpha_{n}(g)`$ como función de acoplamiento/confinamiento para identificar **regiones de operación** donde las ganancias de coherencia son mayores.
 
 - **Hacia derivaciones**: use mapas de $`\alpha`$ empíricos para restringir **modelos efectivos** candidatos (núcleos de memoria de transporte, grafos de acoplamiento dirigido, confinamiento multiescala), guiando derivaciones en lugar de postulados.
 
-- **Ángulo de ingeniería**: si $`\alpha`$ monótono y TE hacia adelante son robustos, se puede apuntar a **diseñar** cascadas que deliberadamente **eleven** $`\alpha`$ capa por capa para tareas de control o procesamiento de información—claramente marcado como seguimiento de ingeniería, no parte de las afirmaciones presentes.
+- **Ángulo de ingeniería**: si $`\alpha`$ monótono y TE hacia adelante son robustos, se puede apuntar a **diseñar** cascadas que deliberadamente **eleven** $`\alpha`$ capa por capa para tareas de control o procesamiento de información, claramente marcado como seguimiento de ingeniería, no parte de las afirmaciones presentes.
 
-**Conclusión.** La cascada RTM es ahora una historia **testeable**: o las **pendientes suben (o se mantienen) hacia adelante** y la **causalidad apunta hacia adelante**, o no. Ambos resultados son científicamente valiosos—uno abre un programa microfísico y de ingeniería; el otro descarta limpiamente una narrativa seductora pero innecesaria para ese sistema.
+**Conclusión.** La cascada RTM es ahora una historia **testeable**: o las **pendientes suben (o se mantienen) hacia adelante** y la **causalidad apunta hacia adelante**, o no. Ambos resultados son científicamente valiosos, uno abre un programa microfísico y de ingeniería; el otro descarta limpiamente una narrativa seductora pero innecesaria para ese sistema.
 
 7.  **Divergencia Estructural y Bifurcación del Espacio de Fase**
 
@@ -726,7 +726,7 @@ Se aplican pruebas de sensibilidad adicionales como se describe en las secciones
 
 **8.9 Conclusión**
 
-La afirmación de cascada **se sostiene o cae** sobre dos observables: **(S1)** $`\alpha_{n}`$ no decreciente y **(S2)** direccionalidad solo hacia adelante. Si cualquiera falla bajo los controles anteriores—o si los resultados dependen de elecciones de proxy o desaparecen bajo verificaciones de robustez—la interpretación **no está apoyada** en ese sistema. Esa falsificabilidad es una característica, no un defecto.
+La afirmación de cascada **se sostiene o cae** sobre dos observables: **(S1)** $`\alpha_{n}`$ no decreciente y **(S2)** direccionalidad solo hacia adelante. Si cualquiera falla bajo los controles anteriores, o si los resultados dependen de elecciones de proxy o desaparecen bajo verificaciones de robustez, la interpretación **no está apoyada** en ese sistema. Esa falsificabilidad es una característica, no un defecto.
 
 **9. Conclusión y perspectiva**
 
@@ -771,7 +771,7 @@ La afirmación de cascada **se sostiene o cae** sobre dos observables: **(S1)** 
 
 Un perfil de pendiente plano (o decreciente más allá de la tolerancia) y direccionalidad simétrica **falsifican la cascada** en ese sistema. Esto es éxito del método: previene la sobre-interpretación y enfoca el trabajo futuro en por qué la coherencia **no** se acumula (acoplamiento unidireccional insuficiente, problemas de proxy, mezcla de régimen) o en observables alternativos mejor adaptados al medio.
 
-**Conclusión.** El trabajo convierte una historia multiescala convincente en **asas empíricas limpias**. Mida pendientes; separe ordenadas al origen; pruebe direccionalidad. Si la cascada hacia adelante existe, debería aparecer en estos dos números. Si no, la respuesta es igualmente valiosa—e inequívoca.
+**Conclusión.** El trabajo convierte una historia multiescala convincente en **asas empíricas limpias**. Mida pendientes; separe ordenadas al origen; pruebe direccionalidad. Si la cascada hacia adelante existe, debería aparecer en estos dos números. Si no, la respuesta es igualmente valiosa, e inequívoca.
 
 **10. Evidencia de simulación integrada**
 
@@ -813,13 +813,13 @@ Usamos cinco simulaciones ligeras para auditar las dos firmas RTM centrales bajo
 
 **Configuración.** Cuatro procesos AR independientes (sin acoplamiento).\
 **Resultado.** TE es pequeño y **simétrico**; Granger **no significativo** en ninguna dirección a través de pares.\
-**Conclusión.** La tubería **no** inventa direccionalidad—la **especificidad** es alta bajo el nulo.
+**Conclusión.** La tubería **no** inventa direccionalidad, la **especificidad** es alta bajo el nulo.
 
 **10.7 Veredicto conjunto (regla de decisión S1/S2)**
 
-- **S1:** Pasó—$`{\widehat{\alpha}}_{n}`$ es no decreciente en E1 e invariante en el control solo de ordenadas al origen E1b.
+- **S1:** Pasó, $`{\widehat{\alpha}}_{n}`$ es no decreciente en E1 e invariante en el control solo de ordenadas al origen E1b.
 
-- **S2:** Pasó—la direccionalidad hacia adelante es significativa (E2), permanece después de condicionar corriente arriba (E2c), y se desvanece bajo acoplamiento nulo (E4).
+- **S2:** Pasó, la direccionalidad hacia adelante es significativa (E2), permanece después de condicionar corriente arriba (E2c), y se desvanece bajo acoplamiento nulo (E4).
 
 - **Apoyo:** La histéresis (E3) proporciona evidencia convergente para memoria direccional.
 
@@ -827,11 +827,11 @@ Usamos cinco simulaciones ligeras para auditar las dos firmas RTM centrales bajo
 
 **10.8 Implicaciones y repercusiones**
 
-1.  **Claridad operacional.** La **separación pendiente–ordenada al origen** no es solo conceptual—sobrevive ruido, variabilidad de proxy, y grandes desplazamientos de nivel. Esto protege contra sobre-interpretar "mapeo de reloj" o retardos instrumentales como organización.
+1.  **Claridad operacional.** La **separación pendiente–ordenada al origen** no es solo conceptual, sobrevive ruido, variabilidad de proxy, y grandes desplazamientos de nivel. Esto protege contra sobre-interpretar "mapeo de reloj" o retardos instrumentales como organización.
 
 2.  **Preparación experimental.** Las mismas métricas (ICs de pendiente, TE/Granger con sustitutos, histéresis opcional) pueden portarse directamente a plataformas análogas (cadenas de resonadores, escaleras de guía de onda/cavidad, escaleras electrónicas), con $`\varepsilon`$ y cuadrículas de retardo/embedding pre-registradas.
 
-3.  **Falsificabilidad.** El programa es **falsificable con dos números**: o (i) las pendientes suben (o se mantienen) **y** (ii) la direccionalidad es solo hacia adelante—o la interpretación de cascada **no está apoyada** en ese sistema.
+3.  **Falsificabilidad.** El programa es **falsificable con dos números**: o (i) las pendientes suben (o se mantienen) **y** (ii) la direccionalidad es solo hacia adelante, o la interpretación de cascada **no está apoyada** en ese sistema.
 
 4.  **Restricciones de modelo.** Resultados positivos de S1/S2 restringen modelos efectivos (ej., transporte con núcleo de memoria, redes de acoplamiento dirigido) que pueden **predecir** cómo responde $`\alpha`$ al acoplamiento/confinamiento, permitiendo diseño dirigido de cascadas.
 
