@@ -22,7 +22,7 @@
 
 ### 1.1 La Visión
 
-Los textiles inteligentes actuales incorporan electrónica en el tejido—sensores, cables, baterías. Son voluminosos, frágiles, no lavables. RTM propone textiles que son intrínsecamente inteligentes usando fibras de metamaterial topológico. Sin baterías. Sin circuitos. Sin fragilidad.
+Los textiles inteligentes actuales incorporan electrónica en el tejido, sensores, cables, baterías. Son voluminosos, frágiles, no lavables. RTM propone textiles que son intrínsecamente inteligentes usando fibras de metamaterial topológico. Sin baterías. Sin circuitos. Sin fragilidad.
 
 ### 1.2 Métricas Clave
 
