@@ -61,7 +61,7 @@
 
 We have become a people without night.
 
-Not in the literal sense — the sun still sets, the sky still darkens. But functionally, operationally, experientially, we have eliminated night from our lives. The electric light extended day into what was once darkness. The screen extended activity into what was once rest. The global economy extended work into what was once sleep. The ideology of productivity extended doing into what was once being.
+Not in the literal sense, the sun still sets, the sky still darkens. But functionally, operationally, experientially, we have eliminated night from our lives. The electric light extended day into what was once darkness. The screen extended activity into what was once rest. The global economy extended work into what was once sleep. The ideology of productivity extended doing into what was once being.
 
 ```
 THE ELIMINATION OF NIGHT
@@ -105,7 +105,7 @@ THE ELIMINATION OF NIGHT
 
 ### 1.2 The Ideology of Light
 
-Behind the elimination of night lies an ideology — the unconscious assumption that light is good and darkness is bad:
+Behind the elimination of night lies an ideology, the unconscious assumption that light is good and darkness is bad:
 
 ```
 THE IDEOLOGY OF LIGHT
@@ -387,7 +387,7 @@ THE FEAR OF INNER DARKNESS
     
     This is uncomfortable.
     
-    The screen, the noise, the activity —
+    The screen, the noise, the activity,
     they are often not about productivity.
     They are about AVOIDANCE.
     
@@ -500,7 +500,7 @@ SOCIAL FUNCTIONS OF DARKNESS
     REST:
     ─────
     Night was when the community stopped.
-    Not just individuals — the whole social fabric.
+    Not just individuals, the whole social fabric.
     Markets closed. Battles paused. Work ended.
     The collective exhaled.
     
@@ -618,7 +618,7 @@ DARKNESS IN SPIRITUAL TRADITION
     THE JEWISH TRADITION:
     ─────────────────────
     The day begins at sunset.
-    "There was evening and there was morning — one day."
+    "There was evening and there was morning, one day."
     Darkness comes first; light emerges from it.
     The Sabbath begins in darkness.
     
