@@ -633,7 +633,7 @@ so at fixed $`r`$:
 
 **8) Synthetic validation of the slope-based RTM tests (A–D)**
 
-**Purpose.** This chapter reports four lightweight synthetic experiments (A–D) designed to validate the core empirical handle of this note, **the log–log slope** of observed process time $`T_{obs}`$ versus effective size $`L`$—under controlled conditions. Together they test **sensitivity** (detecting activation), **specificity** (no false activation), and **decomposition** (RTM vs. GR/kinematics) of the proposed methodology.
+**Purpose.** This chapter reports four lightweight synthetic experiments (A–D) designed to validate the core empirical handle of this note, **the log–log slope** of observed process time $`T_{obs}`$ versus effective size $`L`$, under controlled conditions. Together they test **sensitivity** (detecting activation), **specificity** (no false activation), and **decomposition** (RTM vs. GR/kinematics) of the proposed methodology.
 
 **8.1 Experimental design (common to A–D)**
 
