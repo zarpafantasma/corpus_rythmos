@@ -43,13 +43,13 @@
 
 ### 1.1 The Vision
 
-Sound is mechanical energy propagating through matter. For millennia, our only tools to control sound have been mass (heavy walls), absorption (soft materials), and geometry (reflection/diffraction). These approaches are crude, heavy, and imperfect—low frequencies pass through virtually everything.
+Sound is mechanical energy propagating through matter. For millennia, our only tools to control sound have been mass (heavy walls), absorption (soft materials), and geometry (reflection/diffraction). These approaches are crude, heavy, and imperfect, low frequencies pass through virtually everything.
 
 RTM offers a fundamentally different approach: **control sound by controlling the topology of space through which it travels**.
 
-The Aetherion metamaterial core creates regions where the topological exponent α differs from normal space. Sound waves entering these regions experience altered propagation characteristics—they can be bent, focused, trapped, or redirected without the massive barriers traditionally required.
+The Aetherion metamaterial core creates regions where the topological exponent α differs from normal space. Sound waves entering these regions experience altered propagation characteristics, they can be bent, focused, trapped, or redirected without the massive barriers traditionally required.
 
-This is not conventional acoustic metamaterials (which use geometric structures). This is **topological acoustic engineering**—manipulating the fabric of space itself to control how sound propagates.
+This is not conventional acoustic metamaterials (which use geometric structures). This is **topological acoustic engineering**, manipulating the fabric of space itself to control how sound propagates.
 
 ### 1.2 Key Hypothesis
 
@@ -737,7 +737,7 @@ INFRASOUND BLOCKING (Below 20 Hz):
 
     Currently IMPOSSIBLE with passive means.
     
-    Wind turbine syndrome, traffic rumble, industrial hum—
+    Wind turbine syndrome, traffic rumble, industrial hum,
     all in infrasound range that passes through everything.
     
     RTM Panel at 10 Hz:
@@ -814,7 +814,7 @@ PRINCIPLE: Bend sound waves AROUND the object, recombine on other side
 
 | Application | Impact |
 |-------------|--------|
-| **Submarine stealth** | Invisible to sonar—military revolution |
+| **Submarine stealth** | Invisible to sonar, military revolution |
 | **Underwater habitats** | Protected from whale sonar, ship noise |
 | **Medical implants** | Ultrasound-transparent pacemakers |
 | **Acoustic sensors** | Cloak sensor housing, expose only sensor |
@@ -1339,7 +1339,7 @@ MILESTONES:
 
 ### 17.1 Summary
 
-Topological acoustic metamaterials represent a new paradigm in sound control—manipulating the topology of space rather than relying on mass, geometry, or active electronics.
+Topological acoustic metamaterials represent a new paradigm in sound control, manipulating the topology of space rather than relying on mass, geometry, or active electronics.
 
 | Aspect | Conventional | RTM Approach |
 |--------|-------------|--------------|
