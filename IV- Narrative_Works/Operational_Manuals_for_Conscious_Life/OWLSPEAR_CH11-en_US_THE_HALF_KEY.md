@@ -61,7 +61,7 @@
 
 ### 1.1 The Error We Were Taught
 
-We have been taught that true connection requires dissolution. That to really meet another — whether person, group, idea, or practice — we must surrender our boundaries, abandon our distinct form, and merge into a unity where the "two" become "one."
+We have been taught that true connection requires dissolution. That to really meet another, whether person, group, idea, or practice, we must surrender our boundaries, abandon our distinct form, and merge into a unity where the "two" become "one."
 
 This is the romance of fusion. It appears in love stories ("two halves becoming whole"), in spiritual teachings ("dissolve the ego"), in political ideologies ("the collective above the individual"), and in corporate cultures ("there is no 'I' in team").
 
@@ -772,7 +772,7 @@ THE COUPLING SPECTRUM
     ───────────────────────
     • Boundaries collapse.
     • Distinct forms are lost.
-    • No third body — just a merged entity.
+    • No third body, just a merged entity.
     • Depletion, not enrichment.
     
     Example: Codependency, groupthink, cult dynamics.
@@ -1064,7 +1064,7 @@ ALIGNMENT WITH TOOLS
     The human remains sovereign; the tool is instrumental.
     Both contribute; neither dominates.
     
-    Example: Skilled use of any tool — from a hammer to a computer.
+    Example: Skilled use of any tool, from a hammer to a computer.
     
     
     THE CRITERION:
@@ -1176,7 +1176,7 @@ SPIRITUAL ALIGNMENT
     • You open to resonance with something greater.
     • A third body emerges: the sacred encounter.
     • You are changed by the encounter.
-    • But you return as yourself — enhanced, not erased.
+    • But you return as yourself, enhanced, not erased.
     
     
     THE PRACTICAL DIFFERENCE:
@@ -1227,7 +1227,7 @@ THE NECESSITY OF BOUNDARIES
     • You cannot know what is you and what is other.
     • You cannot protect your own coherence.
     • You cannot offer anything distinct.
-    • You are not available for alignment — only dissolution.
+    • You are not available for alignment, only dissolution.
     
     
     WITH BOUNDARIES:
@@ -1362,7 +1362,7 @@ RECOVERY FROM FUSION
     
     5. RENEGOTIATE THE RELATIONSHIP
        If the relationship can survive boundaries, it will grow.
-       If it cannot survive boundaries, it was not alignment — it was consumption.
+       If it cannot survive boundaries, it was not alignment, it was consumption.
        Either outcome is information.
 
 ═══════════════════════════════════════════════════════════════════════════════
