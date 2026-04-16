@@ -92,7 +92,7 @@ PROMETEO has no such requirement. Symmetric gradients are *preferred* because:
 
 ### 1.3 The Prometheus Metaphor
 
-Prometheus stole fire from the gods. PROMETEO steals energy from the vacuum—the most fundamental "fire" in physics.
+Prometheus stole fire from the gods. PROMETEO steals energy from the vacuum, the most fundamental "fire" in physics.
 
 ---
 
