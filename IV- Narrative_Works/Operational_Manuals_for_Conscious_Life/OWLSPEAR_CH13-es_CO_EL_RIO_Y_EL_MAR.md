@@ -30,7 +30,7 @@
     │      como río, aprendemos el pulso; como presa, guardamos para muchos;  │
     │      como mar, entregamos el nombre."                                   │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -311,7 +311,7 @@ LOS RÍOS
     Santuarios diseñados como verdaderos canales.
     
     YORÙBÁ E IFÁ:
-    Y sus diásporas — Candomblé, Santería.
+    Y sus diásporas, Candomblé, Santería.
     El tambor y la danza como hidráulica ritual.
     
     POLITEÍSMOS CLÁSICOS:
@@ -498,7 +498,7 @@ EL OCÉANO
     ─────────
     
     ADVAITA:
-    "Tat tvam asi" — Eso eres tú.
+    "Tat tvam asi". Eso eres tú.
     
     DZOGCHEN / MAHĀMUDRĀ:
     Y ciertos Chan/Zen.
@@ -1134,7 +1134,7 @@ LA BRÚJULA
     SI LO QUE PRACTICAMOS:
     
     Aumenta la coherencia
-    SIN quitarnos la libertad —
+    SIN quitarnos la libertad.
     
     VAMOS BIEN.
     
@@ -1142,7 +1142,7 @@ LA BRÚJULA
     SI LO QUE PRACTICAMOS:
     
     Endurece innecesariamente
-    O disuelve sin soporte —
+    O disuelve sin soporte.
     
     ES SABIO CORREGIR EL RUMBO.
     
@@ -1451,7 +1451,7 @@ CUANDO ACEPTAMOS ESTO
     ┌─────────────────────────────────────────────────────────────────────────┐
     │                                                                         │
     │     Imaginamos al Uno como el océano: coherencia total, sin bordes.     │
-    │     Alrededor de ese mar aparecen ríos y lagos —                        │
+    │     Alrededor de ese mar aparecen ríos y lagos,                         │
     │     poderes locales que traducen su pulso al paisaje.                   │
     │     Y están las presas, obras humanas que contienen, gestionan          │
     │     y distribuyen el agua a los muchos.                                 │
@@ -1475,7 +1475,7 @@ CUANDO ACEPTAMOS ESTO
     │     abrir estuarios, y recordar, de vez en cuando,                      │
     │     el silencio que nos hizo agua.                                      │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
