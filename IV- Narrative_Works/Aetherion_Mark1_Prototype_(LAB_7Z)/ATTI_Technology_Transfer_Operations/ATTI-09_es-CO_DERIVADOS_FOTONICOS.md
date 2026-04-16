@@ -44,7 +44,7 @@
 
 ### 1.1 La Visión
 
-El Sol entrega 173.000 teravatios de potencia a la Tierra—10.000 veces el consumo total de energía de la humanidad. Sin embargo, capturamos menos del 0,1% de ella. El problema no es la disponibilidad; es la **eficiencia y el costo**.
+El Sol entrega 173.000 teravatios de potencia a la Tierra, 10.000 veces el consumo total de energía de la humanidad. Sin embargo, capturamos menos del 0,1% de ella. El problema no es la disponibilidad; es la **eficiencia y el costo**.
 
 Las celdas solares actuales enfrentan limitaciones fundamentales:
 - **Límite de Shockley-Queisser:** Las celdas de unión simple no pueden exceder ~33% de eficiencia
@@ -52,7 +52,7 @@ Las celdas solares actuales enfrentan limitaciones fundamentales:
 - **Sensibilidad angular:** El rendimiento cae cuando la luz no es perpendicular
 - **Pérdidas por termalización:** Los fotones de alta energía pierden energía como calor
 
-RTM propone un cambio de paradigma: usar **gradientes topológicos (∇α)** para crear materiales que activamente **canalizan, concentran y dirigen fotones** hacia zonas de absorción óptimas—independientemente del ángulo de incidencia o longitud de onda.
+RTM propone un cambio de paradigma: usar **gradientes topológicos (∇α)** para crear materiales que activamente **canalizan, concentran y dirigen fotones** hacia zonas de absorción óptimas, independientemente del ángulo de incidencia o longitud de onda.
 
 ### 1.2 Hipótesis Central
 
@@ -687,7 +687,7 @@ La capa de gradiente puede AÑADIRSE a tipos de celdas existentes:
     │                     │                  │               │            │
     └─────────────────────────────────────────────────────────────────────┘
 
-No es un reemplazo—es una capa de MEJORA.
+No es un reemplazo, es una capa de MEJORA.
 ```
 
 ---
@@ -1814,7 +1814,7 @@ JUSTIFICACIÓN:
 
 ### 18.1 Resumen
 
-La fotónica basada en RTM ofrece un enfoque potencialmente transformador para la captura, concentración y conversión de luz. La idea central—usar gradientes topológicos para dirigir fotones independientemente del ángulo de incidencia o longitud de onda—podría mejorar significativamente:
+La fotónica basada en RTM ofrece un enfoque potencialmente transformador para la captura, concentración y conversión de luz. La idea central, usar gradientes topológicos para dirigir fotones independientemente del ángulo de incidencia o longitud de onda, podría mejorar significativamente:
 
 | Aplicación | Limitación Actual | Solución RTM |
 |------------|-------------------|--------------|
