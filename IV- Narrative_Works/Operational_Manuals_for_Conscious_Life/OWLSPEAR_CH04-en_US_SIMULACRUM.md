@@ -29,8 +29,8 @@
     │      The grammar that sustains us is not a prison: it is an instrument.  │
     │      It may have hard limits, yes, and for that, it asks for respect;    │
     │      it may have layers of meaning, and for that, it asks to be heard.   │
-    │      With both hands — the one for measuring and the one for             │
-    │      understanding — the world responds better."                         │
+    │      With both hands, the one for measuring and the one for              │
+    │      understanding, the world responds better."                          │
     │                                                                          │
     │                                      — The Owl and the Spear             │
     │                                                                          │
@@ -1673,10 +1673,10 @@ THE RESOLVING CHORD
     THAT RESPONSE:
     ──────────────
     
-    When it arrives —
+    When it arrives,
     when you've used both hands,
     when you've respected limits and heard meaning,
-    when you've measured and understood —
+    when you've measured and understood.
     
     
     IT FEELS:
@@ -1694,9 +1694,9 @@ THE RESOLVING CHORD
     for a second,
     there is no need to discuss names.
     
-    "Is it simulation?" — irrelevant.
-    "Is it real?" — irrelevant.
-    "What should we call it?" — irrelevant.
+    "Is it simulation?" irrelevant.
+    "Is it real?" irrelevant.
+    "What should we call it?" irrelevant.
     
     
     THE MUSIC IS ENOUGH.
@@ -1773,11 +1773,11 @@ CORE PRINCIPLES
     │     The grammar that sustains us is not a prison:                       │
     │     it is an instrument.                                                │
     │                                                                         │
-    │     It may have hard limits — and for that, it asks for respect.        │
-    │     It may have layers of meaning — and for that, it asks to be heard.  │
+    │     It may have hard limits, and for that, it asks for respect.         │
+    │     It may have layers of meanin, and for that, it asks to be heard.    │
     │                                                                         │
-    │     With both hands — the one for measuring and the one for             │
-    │     understanding — the world responds better.                          │
+    │     With both hands, the one for measuring and the one for              │
+    │     understanding, the world responds better.                           │
     │                                                                         │
     │     That response, when it arrives,                                     │
     │     feels less like a verdict                                           │
