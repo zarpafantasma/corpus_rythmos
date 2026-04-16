@@ -61,7 +61,7 @@ We have been taught to fear chaos and worship stillness. We look at the mountain
 
 But physics tells a different story.
 
-The mountain is slowly eroding. The pond is slowly stagnating. The corpse is slowly decomposing. What we call "stillness" is merely change too slow for human perception. And the direction of that change — the universal direction, the arrow that physics draws across all phenomena — is always the same:
+The mountain is slowly eroding. The pond is slowly stagnating. The corpse is slowly decomposing. What we call "stillness" is merely change too slow for human perception. And the direction of that change, the universal direction, the arrow that physics draws across all phenomena, is always the same:
 
 **From order to disorder. From structure to dust. From signal to noise.**
 
@@ -122,7 +122,7 @@ THE HEAT DEATH
 
 Against this background, consider what it means to be alive.
 
-Every living thing — every cell, every organism, every conscious being — exists as a *deviation* from the universal drift. We are improbable. We are local decreases in entropy. We are temporary reversals of the great averaging.
+Every living thing, every cell, every organism, every conscious being, exists as a *deviation* from the universal drift. We are improbable. We are local decreases in entropy. We are temporary reversals of the great averaging.
 
 ```
 LIFE AS STATISTICAL ANOMALY
@@ -195,7 +195,7 @@ NEGENTROPY: FORMAL DEFINITION
 
 ### 2.2 The Engine of Distinction
 
-To be alive — truly alive, not merely biological — is to be an **engine of distinction**.
+To be alive, truly alive, not merely biological, is to be an **engine of distinction**.
 
 It is the act of swimming upstream against the waterfall of dissolution. It is the continuous creation of difference in a universe that wants everything to be the same.
 
@@ -746,9 +746,9 @@ WHAT SURVIVES THE VESSEL
     The biology disperses.
     The matter returns to the universal averaging.
     
-    But THE SIGNAL — the pattern of coherence you built,
+    But THE SIGNAL, the pattern of coherence you built,
     the negentropy you accumulated through a lifetime
-    of refining the noise — THAT DOES NOT DISSOLVE.
+    of refining the noise, THAT DOES NOT DISSOLVE.
     
     Information that is sufficiently complex
     and sufficiently self-referential
