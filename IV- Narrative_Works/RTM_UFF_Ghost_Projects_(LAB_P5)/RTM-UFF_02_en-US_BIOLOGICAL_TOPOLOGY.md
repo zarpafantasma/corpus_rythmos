@@ -37,7 +37,7 @@
 
 The RTM Unified Field Framework reveals that biological systems do not have arbitrary network topologies. Evolution has converged on the discrete topological bands predicted by RTM physics.
 
-Key insight: Living systems are constrained by the same vacuum topology that governs fundamental physics. Biology explores the space of allowed configurations — the five topological bands.
+Key insight: Living systems are constrained by the same vacuum topology that governs fundamental physics. Biology explores the space of allowed configurations, the five topological bands.
 
 ### 1.2 Key Results from Simulations
 
