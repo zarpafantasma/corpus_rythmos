@@ -28,8 +28,8 @@
     │     "We are an echo with a voice of our own.                            │
     │      The form we follow is not a chain; it is music.                    │
     │      Within its beat, everyone can sign a variation worth making.       │
-    │      And if we do it with care, whoever comes after —                   │
-    │      another echo, in another stretch —                                 │
+    │      And if we do it with care, whoever comes after                     │
+    │      another echo, in another stretch                                   │
     │      will be able to recognize, from afar,                              │
     │      that here someone played with clarity."                            │
     │                                                                         │
@@ -64,7 +64,7 @@
 
 ### 1.1 Not Parallel Worlds
 
-Here we call "multiverse" — in the sense of RTM — something specific:
+Here we call "multiverse", in the sense of RTM, something specific:
 
 ```
 WHAT WE MEAN BY MULTIVERSE
@@ -336,7 +336,7 @@ WHEN THE MECHANICS BECOME VISIBLE
 
     AT TIMES:
     ─────────
-    Certain states of attention —
+    Certain states of attention.
     
     • A rare lucidity.
     • A visionary experience.
@@ -1407,8 +1407,8 @@ THE TRUTH
     
     AND IF WE DO IT WITH CARE:
     ──────────────────────────
-    Whoever comes after —
-    another echo, in another stretch —
+    Whoever comes after
+    another echo, in another stretch,
     
     Will be able to recognize, from afar,
     that here SOMEONE PLAYED WITH CLARITY.
@@ -1484,7 +1484,7 @@ CORE PRINCIPLES
 ```
     ┌─────────────────────────────────────────────────────────────────────────┐
     │                                                                         │
-    │     At some point, an act occurs — like a voice speaking in a tunnel —  │
+    │     At some point, an act occurs, like a voice speaking in a tunnel     │
     │     and what we call "realities" are echoes of that act                 │
     │     traveling at different distances, with different volumes            │
     │     and timbres.                                                        │
@@ -1495,8 +1495,8 @@ CORE PRINCIPLES
     │     complete and responsible, yet bound by structure                    │
     │     to that which precedes us.                                          │
     │                                                                         │
-    │     There is direction — that is destiny.                               │
-    │     There is choice — that is style.                                    │
+    │     There is direction, that is destiny.                                │
+    │     There is choice, that is style.                                     │
     │     We do not write the origin;                                         │
     │     we write the way it is heard here.                                  │
     │                                                                         │
@@ -1509,7 +1509,7 @@ CORE PRINCIPLES
     │     Within its beat, everyone can sign a variation worth making.        │
     │                                                                         │
     │     And if we do it with care,                                          │
-    │     whoever comes after — another echo, in another stretch —            │
+    │     whoever comes after, another echo, in another stretch               │
     │     will be able to recognize, from afar,                               │
     │     that here someone played with clarity.                              │
     │                                                                         │
@@ -1589,7 +1589,7 @@ Application:     Universal (all conscious beings)
 
 ---
 
-*"We are an echo with a voice of our own. The form we follow is not a chain; it is music. Within its beat, everyone can sign a variation worth making. And if we do it with care, whoever comes after — another echo, in another stretch — will be able to recognize, from afar, that here someone played with clarity."*
+*"We are an echo with a voice of our own. The form we follow is not a chain; it is music. Within its beat, everyone can sign a variation worth making. And if we do it with care, whoever comes after, another echo, in another stretch will be able to recognize, from afar, that here someone played with clarity."*
 
 ---
 
