@@ -202,7 +202,7 @@ All conventional BSM approaches have failed experimental tests.
 
 ### 4.1 The Core Insight
 
-The Standard Model treats the vacuum as a passive background — empty space with quantum fluctuations but no macroscopic structure.
+The Standard Model treats the vacuum as a passive background, empty space with quantum fluctuations but no macroscopic structure.
 
 RTM proposes: The vacuum has topological structure characterized by the alpha-exponent, and this structure couples to gauge fields.
 
@@ -246,7 +246,7 @@ The alpha-shift mechanism represents:
 2. Non-perturbative vacuum polarization
 3. Coupling between gauge fields and spacetime microstructure
 
-This is NOT adding new particles — it is recognizing that the vacuum itself has structure that affects gauge field propagation at high energies.
+This is NOT adding new particles, it is recognizing that the vacuum itself has structure that affects gauge field propagation at high energies.
 
 ---
 
