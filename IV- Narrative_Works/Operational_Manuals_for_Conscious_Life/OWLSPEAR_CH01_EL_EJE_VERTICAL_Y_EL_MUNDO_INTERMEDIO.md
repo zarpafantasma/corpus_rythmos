@@ -619,7 +619,7 @@ EL HORIZONTE INEVITABLE
 
 ### 5.1 La Membrana Delgada
 
-Nuestro mundo — el Eje Horizontal, el tiempo mismo — existe en un lugar específico:
+Nuestro mundo, el Eje Horizontal, el tiempo mismo, existe en un lugar específico:
 
 ```
 EL MUNDO INTERMEDIO
@@ -1876,42 +1876,42 @@ LA SINFONÍA DE LA EXISTENCIA
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
 ║    EL EJE VERTICAL:                                                          ║
-║    No un espectro, sino una FRONTERA — la colisión de dos infinitos.        ║
+║    No un espectro, sino una FRONTERA — la colisión de dos infinitos.         ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    EL ARRIBA:                                                                ║
 ║    Antes del Principio del Tiempo. Eco del Océano Primordial.                ║
-║    Atracción gravitacional hacia el origen, la coherencia, el significado.  ║
+║    Atracción gravitacional hacia el origen, la coherencia, el significado.   ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    EL ABAJO:                                                                 ║
 ║    Después del Fin del Tiempo. Premonición del Silencio Entrópico.           ║
-║    Atracción gravitacional hacia la disolución, el final, el silencio.      ║
+║    Atracción gravitacional hacia la disolución, el final, el silencio.       ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    EL MUNDO INTERMEDIO:                                                      ║
 ║    La membrana delgada en la colisión. Donde vivimos.                        ║
-║    El campo de batalla de la memoria (Arriba) y la premonición (Abajo).     ║
+║    El campo de batalla de la memoria (Arriba) y la premonición (Abajo).      ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    LA ÉTICA:                                                                 ║
 ║    Todo o nos acerca al pulso del Origen                                     ║
-║    o nos entrega a la gravedad del Final. Ningún acto es neutro.            ║
+║    o nos entrega a la gravedad del Final. Ningún acto es neutro.             ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    AMBOS SON NECESARIOS:                                                     ║
-║    El Arriba da la partitura. El Abajo da el silencio que hace posible      ║
-║    la música. Sin la amenaza del Silencio, no habría urgencia en la canción.║
+║    El Arriba da la partitura. El Abajo da el silencio que hace posible       ║
+║    la música. Sin la amenaza del Silencio, no habría urgencia en la canción. ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    LIBERTAD:                                                                 ║
-║    No escapar de la colisión, sino aprender a navegarla con maestría.       ║
+║    No escapar de la colisión, sino aprender a navegarla con maestría.        ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
