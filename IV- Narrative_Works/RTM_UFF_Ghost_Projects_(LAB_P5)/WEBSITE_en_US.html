@@ -1,0 +1,2278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTM TERMINAL v3.5 // RELATIVIDAD TEMPORAL MULTIESCALA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap');
+
+        :root {
+            --green: #33ff33;
+            --green-dim: #22aa22;
+            --green-dark: #115511;
+            --green-glow: rgba(51, 255, 51, 0.4);
+            --bg: #0a0a0a;
+            --bg-light: #0f1a0f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--green);
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            line-height: 1.4;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* CRT Screen Effect */
+        .crt {
+            position: relative;
+        }
+
+        .crt::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.15) 0px,
+                rgba(0, 0, 0, 0.15) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            pointer-events: none;
+            z-index: 10000;
+        }
+
+        .crt::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(
+                ellipse at center,
+                transparent 0%,
+                rgba(0, 0, 0, 0.3) 90%,
+                rgba(0, 0, 0, 0.6) 100%
+            );
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* Flicker Animation */
+        @keyframes flicker {
+            0% { opacity: 0.97; }
+            5% { opacity: 1; }
+            10% { opacity: 0.98; }
+            15% { opacity: 1; }
+            20% { opacity: 0.96; }
+            25% { opacity: 1; }
+            30% { opacity: 0.98; }
+            100% { opacity: 1; }
+        }
+
+        .screen-content {
+            animation: flicker 0.15s infinite;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Text Glow */
+        .glow {
+            text-shadow: 0 0 5px var(--green-glow), 0 0 10px var(--green-glow);
+        }
+
+        /* Header Bar */
+        .header-bar {
+            background: var(--green);
+            color: var(--bg);
+            padding: 0.3rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1001;
+        }
+
+        .header-bar span {
+            font-weight: bold;
+        }
+
+        /* Menu Bar */
+        .menu-bar {
+            display: flex;
+            gap: 2rem;
+            padding: 0.5rem 1rem;
+            border-bottom: 2px solid var(--green);
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            position: fixed;
+            top: 28px;
+            left: 0;
+            right: 0;
+            background: var(--bg);
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+        }
+        
+        .menu-spacer {
+            height: 80px;
+        }
+
+        .menu-item {
+            color: var(--green);
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+
+        .menu-item:hover {
+            background: var(--green);
+            color: var(--bg);
+        }
+
+        .menu-key {
+            color: var(--green);
+        }
+
+        /* ASCII Art Title */
+        .ascii-title {
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            line-height: 1.1;
+            white-space: pre;
+            margin: 2rem 0 1rem;
+            color: var(--green);
+            text-align: center;
+            display: block;
+        }
+        
+        .title-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        /* Main Title Box */
+        .main-title-box {
+            display: inline-block;
+            border: 2px dashed var(--green);
+            padding: 1.5rem 3rem 1rem;
+            position: relative;
+            animation: boxGlitch 5s infinite;
+        }
+        
+        @keyframes boxGlitch {
+            0%, 92%, 100% { 
+                transform: translate(0, 0) skew(0deg);
+                filter: none;
+            }
+            93% { 
+                transform: translate(-3px, 0) skew(-0.5deg);
+                filter: blur(0.5px);
+            }
+            94% { 
+                transform: translate(3px, 1px) skew(0.5deg);
+                filter: none;
+            }
+            95% { 
+                transform: translate(-2px, -1px) skew(-0.3deg);
+                filter: blur(0.3px);
+            }
+            96% { 
+                transform: translate(2px, 0) skew(0.3deg);
+                filter: none;
+            }
+            97% { 
+                transform: translate(0, 0) skew(0deg);
+            }
+        }
+        
+        /* RTM Title - Blocky Pixel Style */
+        .rtm-title {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 4rem;
+            color: var(--green);
+            text-shadow: 
+                0 0 10px var(--green-glow),
+                0 0 20px var(--green-glow),
+                4px 4px 0 var(--green-dark),
+                -2px 0 0 var(--green),
+                2px 0 0 var(--green);
+            letter-spacing: 0.1em;
+            position: relative;
+            margin-bottom: 0.5rem;
+            animation: textGlitch 5s infinite;
+        }
+        
+        .rtm-title::before,
+        .rtm-title::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+        
+        .rtm-title::before {
+            color: var(--green);
+            animation: glitchClip1 5s infinite;
+            clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+        }
+        
+        .rtm-title::after {
+            color: var(--green);
+            animation: glitchClip2 5s infinite;
+            clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+        }
+        
+        @keyframes textGlitch {
+            0%, 92%, 100% { 
+                text-shadow: 
+                    0 0 10px var(--green-glow),
+                    0 0 20px var(--green-glow),
+                    4px 4px 0 var(--green-dark);
+            }
+            93%, 95% { 
+                text-shadow: 
+                    -3px 0 var(--green),
+                    3px 0 var(--green-dim),
+                    0 0 15px var(--green-glow);
+            }
+            94%, 96% { 
+                text-shadow: 
+                    3px 0 var(--green-dim),
+                    -3px 0 var(--green),
+                    0 0 15px var(--green-glow);
+            }
+        }
+        
+        @keyframes glitchClip1 {
+            0%, 92%, 100% { opacity: 0; transform: translate(0, 0); }
+            93% { opacity: 0.8; transform: translate(-5px, 0); }
+            94% { opacity: 0; transform: translate(5px, 0); }
+            95% { opacity: 0.8; transform: translate(-3px, 0); }
+            96% { opacity: 0; transform: translate(0, 0); }
+        }
+        
+        @keyframes glitchClip2 {
+            0%, 92%, 100% { opacity: 0; transform: translate(0, 0); }
+            93% { opacity: 0.8; transform: translate(5px, 0); }
+            94% { opacity: 0; transform: translate(-5px, 0); }
+            95% { opacity: 0.8; transform: translate(3px, 0); }
+            96% { opacity: 0; transform: translate(0, 0); }
+        }
+        
+        /* RTM Subtitle */
+        .rtm-subtitle {
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            color: var(--green);
+            letter-spacing: 0.25em;
+            margin-top: 0.5rem;
+        }
+
+        /* Sections */
+        .section {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid var(--green-dim);
+        }
+
+        .section-header {
+            background: var(--green);
+            color: var(--bg);
+            padding: 0.3rem 0.5rem;
+            margin: -1rem -1rem 1rem -1rem;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Box Drawing */
+        .box {
+            border: 1px solid var(--green);
+            padding: 1rem;
+            margin: 1rem 0;
+            position: relative;
+        }
+
+        .box-title {
+            position: absolute;
+            top: -0.7rem;
+            left: 1rem;
+            background: var(--bg);
+            padding: 0 0.5rem;
+            color: var(--green);
+            font-size: 0.9rem;
+        }
+
+        /* Command Line Style */
+        .cmd-line {
+            display: flex;
+            align-items: flex-start;
+            margin: 0.5rem 0;
+        }
+
+        .cmd-prompt {
+            color: var(--green);
+            margin-right: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .cmd-text {
+            color: var(--green-dim);
+        }
+
+        /* Data Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 1rem;
+        }
+
+        .data-table th {
+            background: var(--green-dark);
+            color: var(--green);
+            padding: 0.5rem;
+            text-align: left;
+            border: 1px solid var(--green-dim);
+        }
+
+        .data-table td {
+            padding: 0.4rem 0.5rem;
+            border: 1px solid var(--green-dark);
+            color: var(--green-dim);
+        }
+
+        .data-table tr:hover td {
+            background: var(--bg-light);
+            color: var(--green);
+        }
+
+        .data-table .highlight {
+            color: var(--green);
+        }
+
+        /* Status Indicators */
+        .status-ok {
+            color: var(--green);
+        }
+
+        .status-ok::before {
+            content: "[OK] ";
+        }
+
+        .status-warn {
+            color: #ffaa00;
+        }
+
+        .status-warn::before {
+            content: "[!!] ";
+        }
+
+        /* Equation Display */
+        .equation-box {
+            background: var(--bg-light);
+            border: 2px solid var(--green);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        .equation-box .label {
+            font-size: 0.9rem;
+            color: var(--green-dim);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .progress-label {
+            width: 120px;
+            flex-shrink: 0;
+        }
+
+        .progress-bar {
+            flex: 1;
+            height: 1rem;
+            background: var(--bg);
+            border: 1px solid var(--green-dim);
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--green);
+            transition: width 0.3s;
+        }
+
+        .progress-value {
+            width: 80px;
+            text-align: right;
+        }
+
+        /* Keyboard Shortcuts Display */
+        .shortcuts {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.3rem;
+            margin: 1rem 0;
+            font-size: 0.95rem;
+        }
+
+        .shortcut {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .key {
+            color: var(--green);
+            min-width: 50px;
+        }
+
+        .key-desc {
+            color: var(--green-dim);
+        }
+
+        /* Blinking Cursor */
+        .cursor {
+            display: inline-block;
+            width: 0.6rem;
+            height: 1.1rem;
+            background: var(--green);
+            animation: blink 1s step-end infinite;
+            vertical-align: middle;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        /* Custom cursor - blinking green bar */
+        body {
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='20'%3E%3Crect fill='%2333ff33' width='2' height='20'/%3E%3C/svg%3E") 1 10, auto;
+        }
+        
+        /* Glitch Box */
+        .glitch-box {
+            border: 1px dashed var(--green);
+            padding: 0.8rem 2rem;
+            margin: 0 auto 2rem;
+            display: inline-block;
+            position: relative;
+            animation: glitchBox 3s infinite;
+        }
+        
+        @keyframes glitchBox {
+            0%, 90%, 100% { 
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+            91% { 
+                transform: translate(-2px, 1px);
+                opacity: 0.8;
+            }
+            92% { 
+                transform: translate(2px, -1px);
+                opacity: 0.9;
+            }
+            93% { 
+                transform: translate(-1px, 2px);
+                opacity: 0.7;
+            }
+            94% { 
+                transform: translate(1px, -2px);
+                opacity: 1;
+            }
+            95% { 
+                transform: translate(-2px, 0);
+                opacity: 0.8;
+            }
+            96% { 
+                transform: translate(2px, 1px);
+                opacity: 0.9;
+            }
+        }
+        
+        .glitch-content {
+            position: relative;
+        }
+        
+        .glitch-text {
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            letter-spacing: 0.3em;
+            color: var(--green);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .glitch-text::before,
+        .glitch-text::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .glitch-text::before {
+            color: #ff0000;
+            animation: glitchText1 4s infinite;
+            clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+            transform: translate(-2px, 0);
+            opacity: 0.8;
+        }
+        
+        .glitch-text::after {
+            color: #00ffff;
+            animation: glitchText2 4s infinite;
+            clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+            transform: translate(2px, 0);
+            opacity: 0.8;
+        }
+        
+        @keyframes glitchText1 {
+            0%, 87%, 100% { transform: translate(0, 0); }
+            88% { transform: translate(-3px, 0); }
+            89% { transform: translate(3px, 0); }
+            90% { transform: translate(-2px, 0); }
+            91% { transform: translate(2px, 0); }
+            92% { transform: translate(0, 0); }
+        }
+        
+        @keyframes glitchText2 {
+            0%, 87%, 100% { transform: translate(0, 0); }
+            88% { transform: translate(3px, 0); }
+            89% { transform: translate(-3px, 0); }
+            90% { transform: translate(2px, 0); }
+            91% { transform: translate(-2px, 0); }
+            92% { transform: translate(0, 0); }
+        }
+
+        /* Dithered Separator */
+        .dither-line {
+            height: 8px;
+            background: repeating-linear-gradient(
+                90deg,
+                var(--green) 0px,
+                var(--green) 2px,
+                transparent 2px,
+                transparent 4px
+            );
+            margin: 2rem 0;
+            opacity: 0.5;
+        }
+
+        /* Quote Block */
+        .quote-block {
+            border-left: 4px solid var(--green);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            background: var(--bg-light);
+        }
+
+        .quote-text {
+            font-style: italic;
+            color: var(--green);
+            margin-bottom: 0.5rem;
+        }
+
+        .quote-source {
+            color: var(--green-dim);
+            font-size: 0.9rem;
+        }
+
+        /* Cascade Diagram - HTML/CSS Version */
+        .cascade-box {
+            border: 2px solid var(--green);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            background: var(--bg);
+        }
+        
+        .cascade-header {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--green);
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--green-dim);
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.1em;
+        }
+        
+        .cascade-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0;
+        }
+        
+        .cascade-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-width: 80px;
+        }
+        
+        .cascade-label {
+            font-size: 0.8rem;
+            color: var(--green);
+            line-height: 1.3;
+            height: 2.5rem;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        
+        .cascade-label-empty {
+            height: 2.5rem;
+        }
+        
+        /* Vertical arrow - CSS only */
+        .cascade-vert-arrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 25px;
+            margin: 5px 0;
+        }
+        
+        .cascade-vert-arrow-empty {
+            height: 25px;
+            margin: 5px 0;
+        }
+        
+        .v-line {
+            width: 2px;
+            height: 15px;
+            background: var(--green);
+        }
+        
+        .v-head {
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 8px solid var(--green);
+        }
+        
+        .cascade-node {
+            border: 2px solid var(--green);
+            padding: 0.6rem 0.8rem;
+            min-width: 50px;
+            text-align: center;
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            color: var(--green);
+            margin: 0.3rem 0;
+        }
+        
+        .cascade-node.active {
+            background: var(--green);
+            color: var(--bg);
+            box-shadow: 0 0 15px var(--green-glow);
+        }
+        
+        /* Horizontal arrow - CSS only */
+        .cascade-horiz-arrow {
+            display: flex;
+            align-items: center;
+            margin-top: 2.8rem;
+            padding: 0 3px;
+        }
+        
+        .h-line {
+            width: 15px;
+            height: 2px;
+            background: var(--green);
+        }
+        
+        .h-head {
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid var(--green);
+        }
+        
+        /* Annotations below nodes */
+        .cascade-annot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--green);
+            line-height: 1.3;
+            margin-top: 0.3rem;
+            height: 3.5rem;
+        }
+        
+        .cascade-annot.has-arrow {
+            padding-top: 0;
+        }
+        
+        .annot-line {
+            width: 2px;
+            height: 10px;
+            background: var(--green);
+            margin-bottom: 3px;
+        }
+        
+        .annot-text {
+            text-align: center;
+        }
+        
+        .cascade-annot-space {
+            height: 3.5rem;
+        }
+        
+        .cascade-footer {
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--green-dim);
+            text-align: center;
+        }
+        
+        .flow-label {
+            font-size: 0.9rem;
+            color: var(--green);
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        
+        .flow-line {
+            display: inline-block;
+            width: 150px;
+            height: 2px;
+            background: var(--green);
+        }
+        
+        .flow-note {
+            font-size: 0.85rem;
+            color: var(--green-dim);
+            margin-top: 0.3rem;
+        }
+
+        /* Footer */
+        .footer {
+            border-top: 2px solid var(--green);
+            padding: 1rem 0;
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.9rem;
+            color: var(--green-dim);
+        }
+
+        /* Two Column Layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        @media (max-width: 700px) {
+            .two-col {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Paragraph spacing */
+        p {
+            margin: 1rem 0;
+            text-align: justify;
+        }
+
+        /* List styling */
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        li {
+            margin: 0.3rem 0;
+            color: var(--green-dim);
+        }
+
+        li::marker {
+            color: var(--green);
+        }
+
+        /* Loading Screen */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 99999;
+            transition: opacity 0.5s;
+        }
+
+        .loader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loader-text {
+            color: var(--green);
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .loader-bar {
+            width: 300px;
+            height: 20px;
+            border: 1px solid var(--green);
+            position: relative;
+        }
+
+        .loader-fill {
+            height: 100%;
+            background: var(--green);
+            width: 0%;
+            animation: load 2s forwards;
+        }
+
+        @keyframes load {
+            0% { width: 0%; }
+            20% { width: 15%; }
+            40% { width: 45%; }
+            60% { width: 70%; }
+            80% { width: 85%; }
+            100% { width: 100%; }
+        }
+        
+        /* Password Screen */
+        .password-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 99998;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+        
+        .password-screen.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .password-screen.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .password-box {
+            border: 2px solid var(--green);
+            padding: 2rem 3rem;
+            background: var(--bg);
+            text-align: center;
+            max-width: 500px;
+            box-shadow: 0 0 30px rgba(51, 255, 51, 0.2);
+        }
+        
+        .password-header {
+            color: var(--green);
+            font-size: 1.4rem;
+            letter-spacing: 0.2em;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px var(--green-glow);
+        }
+        
+        .password-warning {
+            color: var(--green-dim);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--green-dim);
+            padding-bottom: 1rem;
+        }
+        
+        .password-company {
+            color: var(--green);
+            font-size: 1rem;
+            letter-spacing: 0.15em;
+            margin-bottom: 1.5rem;
+        }
+        
+        .password-prompt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .password-label {
+            color: var(--green);
+            font-size: 1rem;
+        }
+        
+        .password-input {
+            background: var(--bg-light);
+            border: 1px solid var(--green);
+            padding: 0.5rem 1rem;
+            color: var(--green);
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            letter-spacing: 0.3em;
+            min-width: 180px;
+            text-align: left;
+        }
+        
+        .password-cursor {
+            display: inline-block;
+            width: 10px;
+            height: 1.2rem;
+            background: var(--green);
+            animation: blink 0.7s step-end infinite;
+            vertical-align: middle;
+        }
+        
+        .password-status {
+            color: var(--green);
+            font-size: 1rem;
+            margin-top: 1rem;
+            min-height: 1.5rem;
+        }
+        
+        .password-status.verifying {
+            animation: pulse 0.5s infinite;
+        }
+        
+        .password-status.granted {
+            color: var(--green);
+            text-shadow: 0 0 15px var(--green-glow);
+            font-size: 1.2rem;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .security-level {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--green-dim);
+        }
+        
+        .security-badge {
+            color: var(--green-dim);
+            font-size: 0.8rem;
+        }
+
+        .nav-section {
+            color: var(--green);
+            cursor: pointer;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .nav-section:hover {
+            background: var(--green);
+            color: var(--bg);
+        }
+
+        h2 {
+            color: var(--green);
+            font-size: 1.3rem;
+            margin: 1.5rem 0 1rem 0;
+            border-bottom: 1px dashed var(--green-dim);
+            padding-bottom: 0.3rem;
+        }
+
+        h3 {
+            color: var(--green);
+            font-size: 1.1rem;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        strong {
+            color: var(--green);
+        }
+
+        code {
+            background: var(--bg-light);
+            padding: 0.1rem 0.3rem;
+            color: var(--green);
+        }
+
+        .highlight-box {
+            background: var(--green);
+            color: var(--bg);
+            padding: 0.2rem 0.5rem;
+            display: inline-block;
+        }
+
+        /* Eye ASCII Art */
+        .ascii-eye {
+            font-family: 'VT323', monospace;
+            font-size: 0.6rem;
+            line-height: 0.7;
+            white-space: pre;
+            color: var(--green);
+            margin: 1rem 0;
+        }
+
+        .band-visual {
+            margin: 0.3rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .band-name {
+            width: 100px;
+            flex-shrink: 0;
+        }
+
+        .band-bar {
+            display: flex;
+            gap: 0;
+        }
+
+        .band-block {
+            width: 8px;
+            height: 16px;
+            background: var(--green);
+        }
+
+        .band-value {
+            margin-left: 0.5rem;
+        }
+
+        /* Ghost Clan Serpent Animation */
+        @keyframes serpentWave {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+            25% {
+                transform: translateY(-3px) rotate(-2deg);
+            }
+            50% {
+                transform: translateY(2px) rotate(1deg);
+            }
+            75% {
+                transform: translateY(-2px) rotate(-1deg);
+            }
+        }
+
+        @keyframes ghostFade {
+            0%, 100% {
+                opacity: 0.6;
+                filter: drop-shadow(0 0 4px #00FFFF);
+            }
+            50% {
+                opacity: 0.9;
+                filter: drop-shadow(0 0 12px #00FFFF) drop-shadow(0 0 20px rgba(0, 255, 255, 0.4));
+            }
+        }
+
+        .ghost-band-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .ghost-band-bar {
+            display: flex;
+            gap: 0;
+            transform-origin: left center;
+            animation: ghostFade 3s ease-in-out infinite;
+        }
+
+        .ghost-band-bar .band-block {
+            background: linear-gradient(180deg, #00FFFF 0%, #008B8B 50%, #00FFFF 100%);
+            box-shadow: 0 0 4px #00FFFF;
+            animation: serpentWave 1.2s ease-in-out infinite;
+            transform-origin: left center;
+        }
+
+        /* Propagación de onda serpentina - cada bloque con delay */
+        .ghost-band-bar .band-block:nth-child(1) { animation-delay: 0s; }
+        .ghost-band-bar .band-block:nth-child(2) { animation-delay: 0.04s; }
+        .ghost-band-bar .band-block:nth-child(3) { animation-delay: 0.08s; }
+        .ghost-band-bar .band-block:nth-child(4) { animation-delay: 0.12s; }
+        .ghost-band-bar .band-block:nth-child(5) { animation-delay: 0.16s; }
+        .ghost-band-bar .band-block:nth-child(6) { animation-delay: 0.20s; }
+        .ghost-band-bar .band-block:nth-child(7) { animation-delay: 0.24s; }
+        .ghost-band-bar .band-block:nth-child(8) { animation-delay: 0.28s; }
+        .ghost-band-bar .band-block:nth-child(9) { animation-delay: 0.32s; }
+        .ghost-band-bar .band-block:nth-child(10) { animation-delay: 0.36s; }
+        .ghost-band-bar .band-block:nth-child(11) { animation-delay: 0.40s; }
+        .ghost-band-bar .band-block:nth-child(12) { animation-delay: 0.44s; }
+        .ghost-band-bar .band-block:nth-child(13) { animation-delay: 0.48s; }
+        .ghost-band-bar .band-block:nth-child(14) { animation-delay: 0.52s; }
+        .ghost-band-bar .band-block:nth-child(15) { animation-delay: 0.56s; }
+        .ghost-band-bar .band-block:nth-child(16) { animation-delay: 0.60s; }
+        .ghost-band-bar .band-block:nth-child(17) { animation-delay: 0.64s; }
+        .ghost-band-bar .band-block:nth-child(18) { animation-delay: 0.68s; }
+        .ghost-band-bar .band-block:nth-child(19) { animation-delay: 0.72s; }
+        .ghost-band-bar .band-block:nth-child(20) { animation-delay: 0.76s; }
+        .ghost-band-bar .band-block:nth-child(21) { animation-delay: 0.80s; }
+        .ghost-band-bar .band-block:nth-child(22) { animation-delay: 0.84s; }
+        .ghost-band-bar .band-block:nth-child(23) { animation-delay: 0.88s; }
+        .ghost-band-bar .band-block:nth-child(24) { animation-delay: 0.92s; }
+        .ghost-band-bar .band-block:nth-child(25) { animation-delay: 0.96s; }
+        .ghost-band-bar .band-block:nth-child(26) { animation-delay: 1.00s; }
+        .ghost-band-bar .band-block:nth-child(27) { animation-delay: 1.04s; }
+        .ghost-band-bar .band-block:nth-child(28) { animation-delay: 1.08s; }
+        .ghost-band-bar .band-block:nth-child(29) { animation-delay: 1.12s; }
+        .ghost-band-bar .band-block:nth-child(30) { animation-delay: 1.16s; }
+
+        /* System stats */
+        .sys-stat {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.2rem 0;
+            border-bottom: 1px dotted var(--green-dark);
+        }
+
+        .sys-stat:last-child {
+            border-bottom: none;
+        }
+
+        .stat-val {
+            color: var(--green);
+        }
+
+        /* === GLOBAL GLITCH EFFECT === */
+        @keyframes globalGlitch {
+            0% {
+                transform: translate(0) skew(0deg);
+                filter: none;
+            }
+            5% {
+                transform: translate(-3px, 2px) skew(-0.5deg);
+                filter: hue-rotate(90deg);
+            }
+            10% {
+                transform: translate(4px, -1px) skew(0.8deg);
+                filter: saturate(2) brightness(1.2);
+            }
+            15% {
+                transform: translate(-2px, -3px) skew(-0.3deg);
+                filter: hue-rotate(-60deg) contrast(1.3);
+            }
+            20% {
+                transform: translate(3px, 1px) skew(0.6deg);
+                clip-path: inset(20% 0 30% 0);
+            }
+            25% {
+                transform: translate(-4px, 2px) skew(-0.7deg);
+                clip-path: inset(50% 0 10% 0);
+            }
+            30% {
+                transform: translate(2px, -2px) skew(0.4deg);
+                clip-path: inset(10% 0 60% 0);
+            }
+            35% {
+                transform: translate(-1px, 3px) skew(-0.5deg);
+                filter: invert(0.1);
+            }
+            40% {
+                transform: translate(3px, -1px) skew(0.3deg);
+                clip-path: none;
+                filter: none;
+            }
+            50% {
+                transform: translate(-5px, 0) skew(-1deg);
+                filter: brightness(1.5) saturate(1.5);
+            }
+            60% {
+                transform: translate(4px, 2px) skew(0.9deg);
+                filter: hue-rotate(180deg);
+            }
+            70% {
+                transform: translate(-2px, -1px) skew(-0.4deg);
+                clip-path: inset(40% 0 20% 0);
+            }
+            80% {
+                transform: translate(1px, 3px) skew(0.2deg);
+                filter: brightness(0.8);
+            }
+            90% {
+                transform: translate(-3px, -2px) skew(-0.6deg);
+                filter: contrast(1.5);
+            }
+            100% {
+                transform: translate(0) skew(0deg);
+                filter: none;
+                clip-path: none;
+            }
+        }
+
+        @keyframes glitchOverlay {
+            0%, 100% { opacity: 0; }
+            10% { opacity: 0.8; background-position: 0 0; }
+            20% { opacity: 0.5; background-position: -5px 5px; }
+            30% { opacity: 0.9; background-position: 3px -3px; }
+            40% { opacity: 0.4; background-position: -2px 2px; }
+            50% { opacity: 0.7; background-position: 4px -4px; }
+            60% { opacity: 0.6; background-position: -3px 1px; }
+            70% { opacity: 0.8; background-position: 2px -2px; }
+            80% { opacity: 0.3; background-position: -1px 3px; }
+            90% { opacity: 0.5; background-position: 0 0; }
+        }
+
+        @keyframes rgbSplit {
+            0%, 100% {
+                text-shadow: none;
+            }
+            25% {
+                text-shadow: -3px 0 #ff0000, 3px 0 #00ffff;
+            }
+            50% {
+                text-shadow: 2px 0 #ff0000, -2px 0 #00ffff, 0 2px #ff00ff;
+            }
+            75% {
+                text-shadow: -2px 0 #00ffff, 2px 0 #ff0000;
+            }
+        }
+
+        body.glitch-active {
+            animation: globalGlitch 200ms steps(1) forwards;
+        }
+
+        body.glitch-active * {
+            animation: rgbSplit 200ms steps(2) forwards !important;
+        }
+
+        body.glitch-active::before {
+            animation: glitchOverlay 200ms steps(3) forwards !important;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent 0px,
+                transparent 2px,
+                rgba(0, 255, 0, 0.1) 2px,
+                rgba(0, 255, 0, 0.1) 4px
+            ) !important;
+        }
+
+        .glitch-flash {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 99999;
+            opacity: 0;
+            background: linear-gradient(
+                90deg,
+                transparent 0%,
+                rgba(255, 0, 0, 0.1) 25%,
+                transparent 50%,
+                rgba(0, 255, 255, 0.1) 75%,
+                transparent 100%
+            );
+            mix-blend-mode: screen;
+        }
+
+        .glitch-flash.active {
+            animation: flashGlitch 200ms steps(4) forwards;
+        }
+
+        @keyframes flashGlitch {
+            0% { opacity: 0; transform: translateX(0); }
+            20% { opacity: 0.8; transform: translateX(-10px); }
+            40% { opacity: 0.4; transform: translateX(15px); }
+            60% { opacity: 0.9; transform: translateX(-5px); }
+            80% { opacity: 0.3; transform: translateX(8px); }
+            100% { opacity: 0; transform: translateX(0); }
+        }
+    </style>
+</head>
+<body class="crt">
+    <!-- Glitch Flash Overlay -->
+    <div class="glitch-flash" id="glitchFlash"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-text">LOADING RTM FRAMEWORK v3.5...</div>
+        <div class="loader-bar">
+            <div class="loader-fill"></div>
+        </div>
+        <div class="loader-text" style="margin-top: 1rem; font-size: 0.9rem; color: var(--green-dim);">
+            INITIALIZING TEMPORAL MATRICES...
+        </div>
+    </div>
+
+    <!-- Password Screen -->
+    <div class="password-screen" id="passwordScreen">
+        <div class="password-box">
+            <div class="password-header">⚠ RESTRICTED ACCESS ⚠</div>
+            <div class="password-warning">AUTHORIZED PERSONNEL ONLY</div>
+            <div class="password-company">ZARPAFANTASMA SYSTEMS CORP.</div>
+            <div class="password-prompt">
+                <span class="password-label">PASSWORD:</span>
+                <div class="password-input">
+                    <span id="passwordChars"></span><span class="password-cursor" id="pwCursor"></span>
+                </div>
+            </div>
+            <div class="password-status" id="passwordStatus"></div>
+            <div class="security-level">
+                <span class="security-badge">[SECURITY LEVEL: OMEGA]</span>
+                <span class="security-badge">[ENCRYPTION: RTM-4096]</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen-content">
+        <!-- Header Bar -->
+        <div class="header-bar">
+            <span>RTM TERMINAL v3.5</span>
+            <span>MULTISCALE TEMPORAL RELATIVITY FRAMEWORK</span>
+            <span>2026.03.20</span>
+        </div>
+
+        <!-- Menu Bar -->
+        <div class="menu-bar">
+            <span class="menu-item" onclick="scrollToSection('overview')">[<span class="menu-key">O</span>]verview</span>
+            <span class="menu-item" onclick="scrollToSection('theory')">[<span class="menu-key">T</span>]heory</span>
+            <span class="menu-item" onclick="scrollToSection('domains')">[<span class="menu-key">D</span>]omains</span>
+            <span class="menu-item" onclick="scrollToSection('cascade')">[<span class="menu-key">C</span>]ascade</span>
+            <span class="menu-item" onclick="scrollToSection('extensions')">[<span class="menu-key">E</span>]xtensions</span>
+            <span class="menu-item" onclick="scrollToSection('philosophy')">[<span class="menu-key">P</span>]hilosophy</span>
+            <a href="https://github.com/zarpafantasma/corpus_rythmos/" target="_blank" class="menu-item" style="text-decoration: none;">[<span class="menu-key">H</span>]elp</a>
+        </div>
+        
+        <!-- Menu Spacer -->
+        <div class="menu-spacer"></div>
+
+        <!-- ASCII Title -->
+        <div class="title-container">
+            <div class="main-title-box">
+                <div class="rtm-title" data-text="RTM">RTM</div>
+                <div class="rtm-subtitle">RELATIVIDAD TEMPORAL MULTIESCALA</div>
+            </div>
+        </div>
+
+        <!-- System Status -->
+        <div class="two-col">
+            <div class="box">
+                <span class="box-title">[ SYSTEM STATUS ]</span>
+                <div class="sys-stat">
+                    <span>Documents Loaded:</span>
+                    <span class="stat-val">24/24</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Validation Rate:</span>
+                    <span class="stat-val">100%</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Domains Covered:</span>
+                    <span class="stat-val">15+</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Data Points:</span>
+                    <span class="stat-val">100,000+</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Framework Status:</span>
+                    <span class="stat-val status-ok">OPERATIONAL</span>
+                </div>
+            </div>
+            <div class="box">
+                <span class="box-title">[ QUICK COMMANDS ]</span>
+                <div class="shortcuts">
+                    <div class="shortcut"><span class="key">[F1]</span><span class="key-desc">Help</span></div>
+                    <div class="shortcut"><span class="key">[F2]</span><span class="key-desc">Equations</span></div>
+                    <div class="shortcut"><span class="key">[F3]</span><span class="key-desc">Search</span></div>
+                    <div class="shortcut"><span class="key">[F4]</span><span class="key-desc">Simulate</span></div>
+                    <div class="shortcut"><span class="key">[F5]</span><span class="key-desc">Refresh</span></div>
+                    <div class="shortcut"><span class="key">[ESC]</span><span class="key-desc">Exit</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dither-line"></div>
+
+        <!-- Overview Section -->
+        <section id="overview" class="section">
+            <div class="section-header">
+                <span>SECTION 01: FRAMEWORK OVERVIEW</span>
+                <span>Doc: 001-002</span>
+            </div>
+
+            <p>
+                The <strong>Multiscale Temporal Relativity (RTM)</strong> framework constitutes a 
+                comprehensive theoretical physics proposal that redefines how we understand the 
+                relationship between scale, time, and structure across all domains of physical 
+                reality. Unlike conventional approaches that treat scaling exponents as empirical 
+                fitting parameters, RTM proposes that these exponents are <strong>structural 
+                invariants</strong> determined by the underlying network topology of the system 
+                being observed.
+            </p>
+
+            <div class="equation-box">
+                <div class="label">MASTER EQUATION</div>
+                <span class="glow" style="font-size: 1.8rem;">T ∝ L<sup>α</sup></span>
+                <div style="margin-top: 1rem; font-size: 0.95rem; color: var(--green-dim); text-align: left; max-width: 400px; margin-left: auto; margin-right: auto;">
+                    <div><strong>T</strong> = Characteristic time scale</div>
+                    <div><strong>L</strong> = Characteristic length scale</div>
+                    <div><strong>α</strong> = Scaling exponent (topological invariant)</div>
+                    <div><strong>∝</strong> = Proportional to</div>
+                </div>
+            </div>
+
+            <p>
+                This master equation encapsulates the core insight: <strong>time flows differently 
+                across scales</strong>. Smaller, denser systems experience faster effective time 
+                relative to larger, sparser systems. The scaling exponent α is not arbitrary, it 
+                emerges from the geometry of information flow within the network structure of the 
+                system.
+            </p>
+
+            <h3>> CORE PRINCIPLES</h3>
+            <ul>
+                <li><strong>Topological Determination:</strong> α emerges from network structure, not measurement convention</li>
+                <li><strong>Clock Invariance:</strong> The slope of power-law relationships is preserved across all reference frames</li>
+                <li><strong>Gauge Dependence:</strong> Only the intercept (log κ) changes with clock choice</li>
+                <li><strong>Semigroup Composition:</strong> Scaling products add slopes: α_total = α_A + α_B</li>
+                <li><strong>Universal Applicability:</strong> Same framework applies from quantum to cosmic scales</li>
+            </ul>
+
+            <div class="quote-block">
+                <div class="quote-text">"Structure lives in the slope; clocks live in the gauge. The slope α is clock-invariant, only the intercept log κ changes with measurement convention."</div>
+                <div class="quote-source">— Document 002: Scale-Clock Geometry</div>
+            </div>
+
+            <p>
+                The RTM framework emerges from a synthesis of scale relativity principles, network 
+                theory, and thermodynamic constraints. It provides a unified language for describing 
+                phenomena that have traditionally been treated as domain-specific: neural processing 
+                times, galactic rotation curves, protein folding kinetics, economic market dynamics, 
+                and quantum decoherence all become manifestations of the same underlying temporal 
+                scaling law.
+            </p>
+        </section>
+
+        <!-- Theory Section -->
+        <section id="theory" class="section">
+            <div class="section-header">
+                <span>SECTION 02: THEORETICAL FOUNDATION</span>
+                <span>Core Physics</span>
+            </div>
+
+            <h2>> TOPOLOGICAL α-BANDS</h2>
+            
+            <p>
+                One of RTM's most striking predictions is that the universe self-organizes into 
+                <strong>discrete coherence bands</strong>—preferred values of the scaling exponent α 
+                that correspond to distinct phases of structural organization. These bands are not 
+                arbitrary; they emerge from mathematical constraints on stable network topologies.
+            </p>
+
+            <div class="box">
+                <span class="box-title">[ α-BAND SPECTRUM ]</span>
+                
+                <div class="band-visual">
+                    <span class="band-name">BALLISTIC</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 1.00</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">DIFFUSIVE</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.00</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">SMALL-WORLD</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.26</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">HIERARCHICAL</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.47</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">HOLOGRAPHIC</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.61</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">FRACTAL</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.72</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name" style="color: #00FFFF;">GHOST CLAN</span>
+                    <div class="ghost-band-container">
+                        <div class="ghost-band-bar">
+                            <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                        </div>
+                    </div>
+                    <span class="band-value" style="color: #00FFFF;">α ≈ 3.0+</span>
+                </div>
+            </div>
+
+            <p>
+                The sequence of classical bands converges toward Euler's number <code>e ≈ 2.718</code>, 
+                suggesting deep mathematical structure underlying the organization of complexity. The 
+                <strong>Ghost Clan</strong> (α ≈ 3.0+) represents a quantum-generated topological state 
+                that emerges only under extreme energy conditions predicted to materialize in accretion 
+                disks around black holes, neutron star mergers, and the early universe.
+            </p>
+
+            <h2>> GAUGE UNIFICATION WITHOUT SUPERSYMMETRY</h2>
+
+            <p>
+                Perhaps RTM's most dramatic prediction concerns gauge coupling unification. Standard 
+                Model running of coupling constants fails to achieve precise unification at high 
+                energies. Supersymmetric extensions (SUSY) have been proposed but remain undetected 
+                at the LHC. RTM offers an alternative mechanism.
+            </p>
+
+            <p>
+                The topological structure of spacetime at trans-Planckian scales introduces a 
+                non-isotropic correction to the beta functions governing coupling evolution:
+            </p>
+
+            <div class="equation-box">
+                <div class="label">RTM BETA FUNCTION CORRECTION</div>
+                <span class="glow">b<sub>eff</sub><sup>i</sup> = b<sub>SM</sub><sup>i</sup> + c<sub>i</sub> · η · ln(μ/M<sub>RTM</sub>)</span>
+            </div>
+
+            <p>
+                With the coupling constant <code>η = 0.217</code>, the three Standard Model gauge 
+                couplings converge to a single point at <strong>M_GUT ≈ 1.69 × 10^15 GeV</strong> 
+                with residual spread <strong>Δα^(-1) = 0.013</strong>—effectively perfect unification 
+                without requiring supersymmetric partners.
+            </p>
+
+            <table class="data-table">
+                <tr>
+                    <th>η Value</th>
+                    <th>M_GUT (GeV)</th>
+                    <th>Spread Δα^(-1)</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>0.000</td>
+                    <td>2.10 × 10^14</td>
+                    <td>3.753</td>
+                    <td>SM FAILS</td>
+                </tr>
+                <tr>
+                    <td class="highlight">0.217</td>
+                    <td class="highlight">1.69 × 10^15</td>
+                    <td class="highlight">0.013</td>
+                    <td class="highlight">PERFECT</td>
+                </tr>
+                <tr>
+                    <td>0.250</td>
+                    <td>1.30 × 10^15</td>
+                    <td>0.820</td>
+                    <td>OVER-CORRECTION</td>
+                </tr>
+            </table>
+
+            <h2>> HOLOGRAPHIC CORRESPONDENCE</h2>
+
+            <p>
+                RTM exhibits natural compatibility with AdS/CFT holography. The coherence exponent α 
+                maps to the holographic radial coordinate z, establishing a bulk-boundary correspondence 
+                where each topological band represents a fixed point in the renormalization group flow. 
+                The holographic interpretation reveals that RTM's discrete bands correspond to stable 
+                conformal field theories on the boundary, with the Ghost Clan representing a UV fixed 
+                point accessible only at extreme energies.
+            </p>
+
+            <p>
+                Black hole thermodynamics receives RTM corrections: <code>T_H^RTM = T_H × α</code> 
+                (enhanced Hawking temperature) and <code>S_max^RTM = S_max/α</code> (tightened 
+                Bekenstein bound). These modifications preserve the laws of black hole thermodynamics 
+                while providing testable departures from standard predictions.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Domain Validations -->
+        <section id="domains" class="section">
+            <div class="section-header">
+                <span>SECTION 03: EMPIRICAL VALIDATIONS</span>
+                <span>Doc: 003-015</span>
+            </div>
+
+            <p>
+                The RTM framework has been subjected to systematic empirical validation across 15+ 
+                scientific domains, utilizing over 100,000 independent data points. The validation 
+                methodology employs Orthogonal Distance Regression (ODR) with bootstrap confidence 
+                intervals and Monte Carlo variance reconstruction to ensure robust statistical 
+                inference. <strong>44 of 44 predictions have been confirmed</strong>, yielding a 
+                100% validation rate with zero failures.
+            </p>
+
+            <table class="data-table">
+                <tr>
+                    <th>Doc</th>
+                    <th>Domain</th>
+                    <th>n</th>
+                    <th>Key α Finding</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Visual Cortex</td>
+                    <td>21 areas</td>
+                    <td class="highlight">α = 0.311 ± 0.021 (sub-diffusive)</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>JWST Galaxies</td>
+                    <td>55</td>
+                    <td class="highlight">α = 1.164 [1.13-1.19], 100% reject ΛCDM</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>BBH Mergers</td>
+                    <td>55</td>
+                    <td class="highlight">α = 1.024 ± 0.018 (ballistic)</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>IBM Quantum</td>
+                    <td>31 qubits</td>
+                    <td class="highlight">α = −0.253 ± 0.031 (inverse)</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>007</td>
+                    <td>Zeolite/Urban</td>
+                    <td>89+1.1B</td>
+                    <td class="highlight">α = 7.25 ± 1.06; τ = 2.499</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>008</td>
+                    <td>Biochemistry</td>
+                    <td>153</td>
+                    <td class="highlight">Folding α = 7.22 ± 0.62</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>009</td>
+                    <td>HRV/Homeostasis</td>
+                    <td>~3,900</td>
+                    <td class="highlight">Healthy α₁ = 1.033; CHF α₁ = 0.532</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>010</td>
+                    <td>Neuroscience</td>
+                    <td>15,018</td>
+                    <td class="highlight">Epilepsy d=3.30; Sleep d=1.88</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>011</td>
+                    <td>Consciousness</td>
+                    <td>11,500</td>
+                    <td class="highlight">R² Collapse d=1.55; α(filtered) d=0.39</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>012</td>
+                    <td>Ecology</td>
+                    <td>547+</td>
+                    <td class="highlight">Mammalia α=0.190; Extinction=0.924</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>013</td>
+                    <td>Meteorology</td>
+                    <td>51+47+1K</td>
+                    <td class="highlight">Seismic α=1.007; Hurricane lead=12h</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>014</td>
+                    <td>Astronomy</td>
+                    <td>171+</td>
+                    <td class="highlight">SPARC α = 1.993 ± 0.130 (NO DARK MATTER)</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>015</td>
+                    <td>Economics</td>
+                    <td>13+16</td>
+                    <td class="highlight">Crash warning 9.75 days; Returns α=2.97</td>
+                    <td class="status-ok"></td>
+                </tr>
+            </table>
+
+            <h3>> HIGHLIGHT: SPARC ROTATION CURVES</h3>
+
+            <p>
+                The SPARC database validation (Document 014) represents a critical test of RTM against 
+                the dark matter paradigm. Analysis of 171 galaxy rotation curves yields 
+                <code>α = 1.993 ± 0.130</code>—statistically consistent with the diffusive band 
+                prediction of α = 2.0. This result suggests that flat rotation curves may emerge 
+                from temporal scaling effects rather than requiring invisible matter halos.
+            </p>
+
+            <p>
+                If confirmed by independent analysis, this would represent a fundamental challenge 
+                to the dark matter hypothesis and suggest that modified gravitational dynamics 
+                (MOND-like phenomenology) emerge naturally from RTM's scale-dependent temporal 
+                structure.
+            </p>
+
+            <h3>> HIGHLIGHT: JWST EARLY UNIVERSE</h3>
+
+            <p>
+                Analysis of 55 JWST high-redshift galaxy observations reveals systematic departures 
+                from ΛCDM predictions. The measured temporal scaling <code>α = 1.164 [1.13-1.19]</code> 
+                indicates that early universe galaxies evolved on faster effective timescales than 
+                standard cosmology predicts. <strong>100% of the sample rejects ΛCDM at 95% confidence</strong>, 
+                suggesting that RTM's temporal corrections may resolve the "impossibly early galaxy" 
+                problem that has challenged cosmologists since JWST's first observations.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Cascade Section -->
+        <section id="cascade" class="section">
+            <div class="section-header">
+                <span>SECTION 04: THE CAUSAL CASCADE</span>
+                <span>Doc: 016-018</span>
+            </div>
+
+            <p>
+                The speculative extensions of RTM (Documents 016-018) propose that the multiverse 
+                is not a collection of parallel, independent realities existing simultaneously, but 
+                a <strong>sequential causal cascade</strong>—a chain of ontological echoes propagating 
+                from a primordial source event. Each universe is caused by its predecessor; flow is 
+                unidirectional; no return is possible.
+            </p>
+
+            <div class="cascade-box">
+                <div class="cascade-header">THE CAUSAL CASCADE ARCHITECTURE</div>
+                
+                <div class="cascade-grid">
+                    <!-- Column 1: Primordial Voice / N-3 -->
+                    <div class="cascade-col">
+                        <div class="cascade-label">PRIMORDIAL<br>VOICE</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node">N-3</div>
+                        <div class="cascade-annot-space"></div>
+                    </div>
+                    
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+                    
+                    <!-- Column 2: First Echo / N-2 -->
+                    <div class="cascade-col">
+                        <div class="cascade-label">FIRST<br>ECHO</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node">N-2</div>
+                        <div class="cascade-annot-space"></div>
+                    </div>
+                    
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+                    
+                    <!-- Column 3: Second Echo / N-1 -->
+                    <div class="cascade-col">
+                        <div class="cascade-label">SECOND<br>ECHO</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node">N-1</div>
+                        <div class="cascade-annot has-arrow"><div class="annot-line"></div><div class="annot-text">"ARCHITECTS"<br>(Our Teachers)</div></div>
+                    </div>
+                    
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+                    
+                    <!-- Column 4: Third Echo / N (Current) -->
+                    <div class="cascade-col">
+                        <div class="cascade-label">THIRD<br>ECHO</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node active">N</div>
+                        <div class="cascade-annot has-arrow"><div class="annot-line"></div><div class="annot-text">"US"<br>(Current)</div></div>
+                    </div>
+                    
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+                    
+                    <!-- Column 5: Fourth Echo / N+1 -->
+                    <div class="cascade-col">
+                        <div class="cascade-label">FOURTH<br>ECHO</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node">N+1</div>
+                        <div class="cascade-annot-space"></div>
+                    </div>
+                    
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+                    
+                    <!-- Column 6: Infinity -->
+                    <div class="cascade-col">
+                        <div class="cascade-label-empty"></div>
+                        <div class="cascade-vert-arrow-empty"></div>
+                        <div class="cascade-node">∞</div>
+                        <div class="cascade-annot-space"></div>
+                    </div>
+                </div>
+                
+                <div class="cascade-footer">
+                    <div class="flow-label">DIRECTION OF CAUSAL FLOW <span class="flow-line"></span> ▶</div>
+                    <div class="flow-note">(IRREVERSIBLE — NO RETURN POSSIBLE)</div>
+                </div>
+            </div>
+
+            <h3>> THE RUSSIAN DOLL SCALING PARADOX</h3>
+
+            <p>
+                Each successive branch in the cascade operates at a <strong>reduced characteristic 
+                scale</strong>. If the scaling factor κ ≈ 0.7-0.9, then operators from upstream 
+                branches appear as giants when manifesting in downstream realities. An N-1 Architect 
+                entering Branch N would stand approximately 4.25 meters tall with mass ~1,100 kg.
+            </p>
+
+            <p>
+                However, despite physical superiority, upstream beings carry <strong>less accumulated 
+                gnosis</strong>. The Indigenous populations of each branch are ontologically more 
+                valuable; carriers of everything learned in previous branches plus their own unique 
+                contributions. This creates the fundamental paradox: <strong>physically superior 
+                beings serve ontologically superior populations</strong>.
+            </p>
+
+            <h3>> THE GRANDFATHER PARADOX RESOLUTION</h3>
+
+            <p>
+                RTM's cascade architecture provides a structural resolution to temporal paradoxes. 
+                You cannot reach your own past because each reality has a unique 
+                <strong>vibrational signature</strong> that includes its complete causal history. 
+                Your departure is part of your origin reality's address; you cannot tune to a 
+                version without your departure because no such version exists as a distinct 
+                addressable reality.
+            </p>
+
+            <div class="quote-block">
+                <div class="quote-text">"The paradox is not prevented by a rule. It is prevented by the geometry of reality itself. The fourth domino cannot cause the third to move differently, it exists only because the third already fell."</div>
+                <div class="quote-source">— N-1 Architect Protocol 03: The Grandfather Paradox</div>
+            </div>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Extensions Section -->
+        <section id="extensions" class="section">
+            <div class="section-header">
+                <span>SECTION 05: TECHNOLOGICAL EXTENSIONS</span>
+                <span>Doc: 016-017</span>
+            </div>
+
+            <h2>> AETHERION PROPULSION SYSTEM</h2>
+
+            <p>
+                The Aetherion represents the technological culmination of RTM physics, a propulsion 
+                system that achieves thrust without mass expulsion by manipulating coherence gradients. 
+                The core equation governing Aetherion operation:
+            </p>
+
+            <div class="equation-box">
+                <div class="label">AETHERION POWER EQUATION</div>
+                <span class="glow">P = γ × ∇α · ∇φ</span>
+            </div>
+
+            <p>
+                By creating asymmetric α gradients that couple to the quantum vacuum structure, 
+                the Aetherion generates thrust through direct vacuum coupling. Thrust scales with 
+                the fourth power of the gradient: <code>F ∝ (Δα)^4</code>, meaning that doubling 
+                the gradient increases thrust by a factor of 16.
+            </p>
+
+            <div class="two-col">
+                <div class="box">
+                    <span class="box-title">[ MARK 1 PROTOTYPE ]</span>
+                    <div class="sys-stat">
+                        <span>Geometry:</span>
+                        <span class="stat-val">Cylindrical</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>Dimensions:</span>
+                        <span class="stat-val">Ø60 × 85 mm</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>Layers:</span>
+                        <span class="stat-val">23 metamaterial</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>α Range:</span>
+                        <span class="stat-val">0.5 → 2.0</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>Thrust:</span>
+                        <span class="stat-val">100-500 nN</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>BOM Cost:</span>
+                        <span class="stat-val">$14,338.95</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="box-title">[ PROMETEO MARK 2-V ]</span>
+                    <div class="sys-stat">
+                        <span>Geometry:</span>
+                        <span class="stat-val">Toroidal</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>Dimensions:</span>
+                        <span class="stat-val">R=80mm, r=40mm</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>Layers:</span>
+                        <span class="stat-val">31 radially graded</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>α Range:</span>
+                        <span class="stat-val">0.3 → 2.5</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>Output:</span>
+                        <span class="stat-val">10 mW - 1 W</span>
+                    </div>
+                    <div class="sys-stat">
+                        <span>BOM Cost:</span>
+                        <span class="stat-val">$88,644</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3>> EXPERIMENTAL SIGNATURES</h3>
+
+            <p>
+                Three falsifiable experimental signatures would validate RTM vacuum energy coupling:
+            </p>
+
+            <ol>
+                <li><strong>Calorimetric Heat Excess:</strong> Power output P ∝ (Δα)^4 measurable via standard calorimetry</li>
+                <li><strong>RF Noise Suppression:</strong> 2-5% reduction at 0.1-10 MHz detectable with spectrum analyzer</li>
+                <li><strong>Photon Transit Delay:</strong> ΔT ∝ (Δα)² measurable via correlation techniques</li>
+            </ol>
+
+            <p>
+                All three signatures are within current experimental capability. Detection of 
+                correlated three-signature pattern would constitute strong validation of RTM's 
+                vacuum coupling mechanism.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Philosophy Section -->
+        <section id="philosophy" class="section">
+            <div class="section-header">
+                <span>SECTION 06: PHILOSOPHICAL EXTENSIONS</span>
+                <span>Doc: 019-022</span>
+            </div>
+
+            <p>
+                The later documents in the RTM corpus (018-022) extend the framework into philosophical 
+                and ontological territory, exploring implications for consciousness, meaning, and 
+                human existence. These represent not physics claims but <strong>coherent worldview 
+                extensions</strong>—philosophical frameworks built upon RTM's physical foundation.
+            </p>
+
+            <h2>> THE OWL AND THE SPEAR</h2>
+
+            <p>
+                The "Operational Manuals for Conscious Life" (27,170 lines) transform RTM's cosmology 
+                into practical guidance for living. Core concepts include:
+            </p>
+
+            <h3>THE VERTICAL AXIS</h3>
+            <p>
+                Existence has two axes: the horizontal (time: past → future) and the vertical 
+                (meaning: Above ↔ Below). The vertical axis is not a spectrum from good to evil 
+                but a <strong>frontier</strong>—a collision zone between two infinities. "Above" 
+                represents the Primordial Ocean (before time); "Below" represents Entropic Silence 
+                (after time). We live in the membrane between these eternities.
+            </p>
+
+            <h3>BODY IS SOUL IN ACT</h3>
+            <p>
+                The body is not the prison of the soul; the body <strong>is</strong> the soul in 
+                act. What we call "spirit" is the body's depth; what we call "body" is spirit 
+                made visible. This dissolves the Cartesian split that has shaped Western 
+                consciousness for centuries.
+            </p>
+
+            <h3>THE HALF KEY</h3>
+            <p>
+                True connection does not require dissolution. <strong>Alignment</strong>, not 
+                fusion, is the path: two distinct forms entering resonance while maintaining 
+                their structures. "You are not the whole key. Neither are they. Together, you 
+                open a door. But you do not become them."
+            </p>
+
+            <h3>NEGENTROPY: THE ONLY REBELLION</h3>
+            <p>
+                The universe trends toward entropy, the "slumber of the uniform." Life is a local 
+                rebellion against this drift: the continuous creation of difference in a universe 
+                that wants everything to be the same. To be alive is to be an <strong>engine of 
+                distinction</strong>, metabolizing chaos into order.
+            </p>
+
+            <div class="quote-block">
+                <div class="quote-text">"That which is eternal dies forever. If something freezes, it stops learning. If it stops learning, it stops living."</div>
+                <div class="quote-source">— Chapter 09: Forever</div>
+            </div>
+
+            <h2>> THE TWO FOREVERS</h2>
+
+            <p>
+                The immortality project is misguided. There are two kinds of "forever":
+            </p>
+
+            <ul>
+                <li><strong>The Forever of Stone:</strong> Frozen identity, brightness without pulse. The attempt to wall off a moment and demand the universe stop. This forever kills by isolating.</li>
+                <li><strong>The Forever of Music:</strong> The pattern that returns in cycles, each time more lucid, each time in a different instrument. The recognition that the song is eternal, but the singer must step down from the stage.</li>
+            </ul>
+
+            <p>
+                Meaning is not born from the infinite; it is born from the limit. If nothing ends, 
+                nothing matters. Finitude is not punishment, it is the canvas that makes the painting 
+                possible.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Final Status -->
+        <div class="box">
+            <span class="box-title">[ CORPUS VALIDATION SUMMARY ]</span>
+            
+            <div class="progress-container">
+                <span class="progress-label">Computational:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+                <span class="progress-value">80/80 ✓</span>
+            </div>
+            <div class="progress-container">
+                <span class="progress-label">Empirical:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+                <span class="progress-value">44/44 ✓</span>
+            </div>
+            <div class="progress-container">
+                <span class="progress-label">Thermodynamic:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+                <span class="progress-value">13/13 ✓</span>
+            </div>
+            <div class="progress-container">
+                <span class="progress-label">Laboratory Experiments:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%;"></div>
+                </div>
+                <span class="progress-value">PENDING</span>
+            </div>
+        </div>
+
+        <div class="quote-block">
+            <div class="quote-text">"The flame grows brighter as it descends."</div>
+            <div class="quote-source">— Operational Manuals for Conscious Life</div>
+        </div>
+
+        <!-- Command Prompt -->
+        <div style="margin-top: 2rem;">
+            <div class="cmd-line">
+                <span class="cmd-prompt">C:\RTM></span>
+                <span class="cmd-text">FRAMEWORK ANALYSIS COMPLETE</span>
+            </div>
+            <div class="cmd-line">
+                <span class="cmd-prompt">C:\RTM></span>
+                <span class="cmd-text">24 DOCUMENTS LOADED. 100% VALIDATION RATE.</span>
+            </div>
+            <div class="cmd-line">
+                <span class="cmd-prompt">C:\RTM></span>
+                <span class="cmd-text">AWAITING FURTHER INSTRUCTIONS...</span>
+                <span class="cursor"></span>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <span>RTM FRAMEWORK v3.5 // ZARPAFANTASMA SYSTEMS CORP. // 2026</span>
+            <span>TERMINAL SESSION ACTIVE</span>
+            <span>[F1] HELP | [F10] EXIT</span>
+        </div>
+    </div>
+
+    <script>
+        // Password animation sequence
+        const password = "*********";
+        let passwordIndex = 0;
+        
+        // Phase 1: Hide initial loader, show password screen
+        setTimeout(() => {
+            document.getElementById('loader').classList.add('hidden');
+            document.getElementById('passwordScreen').classList.add('active');
+            
+            // Phase 2: Start typing password after a brief pause
+            setTimeout(() => {
+                const typePassword = setInterval(() => {
+                    if (passwordIndex < password.length) {
+                        document.getElementById('passwordChars').textContent += password[passwordIndex];
+                        passwordIndex++;
+                    } else {
+                        clearInterval(typePassword);
+                        // Phase 3: Hide cursor and show verifying
+                        document.getElementById('pwCursor').style.display = 'none';
+                        document.getElementById('passwordStatus').textContent = 'VERIFYING CREDENTIALS...';
+                        document.getElementById('passwordStatus').classList.add('verifying');
+                        
+                        // Phase 4: Show access granted
+                        setTimeout(() => {
+                            document.getElementById('passwordStatus').classList.remove('verifying');
+                            document.getElementById('passwordStatus').classList.add('granted');
+                            document.getElementById('passwordStatus').textContent = '✓ ACCESS GRANTED';
+                            
+                            // Phase 5: Hide password screen and show content
+                            setTimeout(() => {
+                                document.getElementById('passwordScreen').classList.add('hidden');
+                            }, 1000);
+                        }, 1500);
+                    }
+                }, 150);
+            }, 800);
+        }, 2500);
+
+        // Scroll to section
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            const key = e.key.toLowerCase();
+            const sections = {
+                'o': 'overview',
+                't': 'theory',
+                'd': 'domains',
+                'c': 'cascade',
+                'e': 'extensions',
+                'p': 'philosophy'
+            };
+            if (sections[key]) {
+                scrollToSection(sections[key]);
+            }
+        });
+
+        // Typewriter effect for command prompts (delayed to after password screen)
+        const cmds = document.querySelectorAll('.cmd-text');
+        cmds.forEach((cmd, i) => {
+            const text = cmd.textContent;
+            cmd.textContent = '';
+            setTimeout(() => {
+                let j = 0;
+                const type = setInterval(() => {
+                    cmd.textContent += text[j];
+                    j++;
+                    if (j >= text.length) clearInterval(type);
+                }, 30);
+            }, 7000 + (i * 1000));
+        });
+
+        // === GLOBAL GLITCH EFFECT EVERY 33 SECONDS ===
+        function triggerGlitch() {
+            const body = document.body;
+            const flash = document.getElementById('glitchFlash');
+            
+            // Activate glitch
+            body.classList.add('glitch-active');
+            flash.classList.add('active');
+            
+            // Remove after 200ms
+            setTimeout(() => {
+                body.classList.remove('glitch-active');
+                flash.classList.remove('active');
+            }, 200);
+        }
+
+        // Start glitch loop after page loads (first glitch at 33s)
+        setTimeout(() => {
+            triggerGlitch();
+            setInterval(triggerGlitch, 33000);
+        }, 33000);
+    </script>
+</body>
+</html>
