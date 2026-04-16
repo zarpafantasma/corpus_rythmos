@@ -43,7 +43,7 @@
 1. What We Think Death Is
 2. A More Sober Reading
 3. The Instrument Breaks, Not the Music
-4. What Returns — And What Does Not
+4. What Returns, and What Does Not
 5. The Migration of the Signal
 6. The Technical Filter
 7. Weak Signal: Dissolution
@@ -137,7 +137,7 @@ THE ECONOMIC PROBLEM
     ────────────────
     A consciousness that has developed structure,
     that has achieved coherence,
-    that represents a victory against entropy —
+    that represents a victory against entropy.
     
     Does not simply vanish.
     
@@ -190,8 +190,8 @@ THE SOBER READING
     The material cavity wears out.
     It loses the capacity to sustain the phase.
     
-    But the music that played through it —
-    the pattern of coherence, the learned structure —
+    But the music that played through it,
+    the pattern of coherence, the learned structure,
     does not depend on the wood to exist as frequency.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -351,7 +351,7 @@ WHAT DOES NOT BREAK
 
 ---
 
-## 4. What Returns — And What Does Not
+## 4. What Returns, and What Does Not
 
 ### 4.1 The Question
 
