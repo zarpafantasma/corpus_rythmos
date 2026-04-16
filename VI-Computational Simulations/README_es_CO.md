@@ -6,15 +6,15 @@ Esta carpeta contiene **validaciones computacionales** del marco teórico RTM. C
 
 ## ⚠️ Naturaleza de Esta Sección
 
-Esta carpeta se enfoca exclusivamente en los **Artículos 001, 016 y 017** — los tres artículos cuyas validaciones son necesariamente *computacionales* en lugar de *empíricas*.
+Esta carpeta se enfoca exclusivamente en los **Artículos 001, 016 y 017**, los tres artículos cuyas validaciones son necesariamente *computacionales* en lugar de *empíricas*.
 
 **¿Por qué estos tres?**
 
 | Artículo | Tema | Por Qué Computacional |
 |----------|------|-----------------------|
-| **001** | Ley de escala central RTM (T ∝ L^α) | Prueba la emergencia matemática de α desde la topología de red — no se necesitan datos externos |
+| **001** | Ley de escala central RTM (T ∝ L^α) | Prueba la emergencia matemática de α desde la topología de red, no se necesitan datos externos |
 | **016** | Propulsión de vacío Aetherion | No existe aparato experimental para probar efectos de gradiente de vacío |
-| **017** | Marco de Campo Unificado RTM | Formalismo QFT, holografía AdS/CFT — valida la consistencia teórica |
+| **017** | Marco de Campo Unificado RTM | Formalismo QFT, holografía AdS/CFT, valida la consistencia teórica |
 
 Los **Artículos 003–015** tienen sus validaciones en la **Carpeta VII (Validaciones Empíricas y Heurísticas)** porque esos dominios disponen de conjuntos de datos reales contra los cuales se pueden poner a prueba las predicciones RTM: latencias de la corteza visual, catálogos de ondas gravitacionales, HRV cardíaco, intensificación de huracanes, caídas de mercado, etc.
 
@@ -69,7 +69,7 @@ Las simulaciones de cada artículo incluyen:
 | `S2_2D_simulation` | El gradiente radial produce empuje | **Las fuerzas se cancelan geométricamente** — requiere pulsos asimétricos |
 | `S3_scaling_analysis` | La potencia escala con el gradiente | **La tensión almacenada escala como Δα³** — los gradientes pronunciados suprimen el ruido térmico |
 
-**Veredicto:** Los metamateriales estáticos actúan como "Capacitores Topológicos" — resortes espaciales cargados que almacenan energía del vacío pero requieren pulsos dinámicos para liberarla. **Primera Ley de la Termodinámica preservada.**
+**Veredicto:** Los metamateriales estáticos actúan como "Capacitores Topológicos", resortes espaciales cargados que almacenan energía del vacío pero requieren pulsos dinámicos para liberarla. **Primera Ley de la Termodinámica preservada.**
 
 ### Capítulo II: Propulsión y Dinámica
 
@@ -151,7 +151,7 @@ Las simulaciones de cada artículo incluyen:
 
 ## Metodología Red Team
 
-Varias simulaciones incluyen **auditorías Red Team** — pruebas adversariales diseñadas para detectar:
+Varias simulaciones incluyen **auditorías Red Team**, pruebas adversariales diseñadas para detectar:
 
 1. **Falacias de sobreunidad:** Afirmaciones de energía de la nada
 2. **Falacias de Bootstrap:** Momento sin reacción
