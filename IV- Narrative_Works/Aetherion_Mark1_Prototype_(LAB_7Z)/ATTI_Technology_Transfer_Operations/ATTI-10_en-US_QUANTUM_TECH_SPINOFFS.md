@@ -8,15 +8,15 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║         AETHERION TECHNOLOGY TRANSFER INITIATIVE (ATTI)          ║
-    ║                                                                  ║
-    ║   "Decoherence is not the enemy—it is uncontrolled decoherence.  ║
-    ║  The gradient offers a path to directing where coherence flows." ║
-    ║                                                                  ║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔═══════════════════════════════════════════════════════════════════╗
+    ║                                                                   ║
+    ║         AETHERION TECHNOLOGY TRANSFER INITIATIVE (ATTI)           ║
+    ║                                                                   ║
+    ║   "Decoherence is not the enemy, it is uncontrolled decoherence.  ║
+    ║  The gradient offers a path to directing where coherence flows."  ║
+    ║                                                                   ║
+    ║                                                                   ║
+    ╚═══════════════════════════════════════════════════════════════════╝
 ---
 
 ## ⚠️ SPECULATIVE NOTICE
@@ -56,16 +56,16 @@ This document explores what MIGHT be possible if RTM physics extends to biologic
 
 ### 1.1 The Vision
 
-Quantum technologies—computing, sensing, communication—are limited by one fundamental enemy: **decoherence**. The fragile quantum states that enable exponential speedups and impossible measurements inevitably leak into the classical environment, destroying the very properties we seek to exploit.
+Quantum technologies, computing, sensing, communication, are limited by one fundamental enemy: **decoherence**. The fragile quantum states that enable exponential speedups and impossible measurements inevitably leak into the classical environment, destroying the very properties we seek to exploit.
 
 Current approaches fight decoherence through:
 - **Extreme isolation** (millikelvin temperatures, vacuum, shielding)
 - **Error correction** (redundant qubits, syndrome measurement)
 - **Faster operations** (complete computation before decoherence wins)
 
-RTM proposes a radically different approach: **don't fight decoherence—direct it**.
+RTM proposes a radically different approach: **don't fight decoherence, direct it**.
 
-By engineering materials with topological gradients (∇α), we may be able to create environments where decoherence is not suppressed uniformly, but **channeled directionally**—away from quantum information and toward designated "drain" regions.
+By engineering materials with topological gradients (∇α), we may be able to create environments where decoherence is not suppressed uniformly, but **channeled directionally**, away from quantum information and toward designated "drain" regions.
 
 ### 1.2 Key Hypothesis
 
@@ -181,7 +181,7 @@ RTM THINKING:
     │     └──────────────┤ (high α) │      │
     │                    └──────────┘      │
     │                                      │
-    │   Don't block—DIRECT the flow        │
+    │   Don't block. DIRECT the flow       │
     │                                      │
     └──────────────────────────────────────┘
 ```
@@ -710,7 +710,7 @@ GRADIENT-MEDIATED INTERFACE
 
 ### 9.1 Why Entanglement is Fragile
 
-Entanglement is the most quantum of correlations—and the most fragile:
+Entanglement is the most quantum of correlations, and the most fragile:
 
 ```
 ENTANGLEMENT DECAY
@@ -1205,7 +1205,7 @@ After Phase 4 (memory):
 
 ### 15.1 Summary
 
-RTM-based quantum technology applications represent a **speculative but potentially transformative** direction. The core idea—engineering topological gradients to direct rather than block decoherence—offers a new degree of freedom in quantum system design.
+RTM-based quantum technology applications represent a **speculative but potentially transformative** direction. The core idea, engineering topological gradients to direct rather than block decoherence, offers a new degree of freedom in quantum system design.
 
 Key potential applications:
 
@@ -1313,7 +1313,7 @@ We invite experimental quantum physicists and materials scientists to:
                    Aetherion Technology Transfer Initiative
                               Version 1.0
                                    
-                  "Decoherence is not the enemy—
+                  "Decoherence is not the enemy,
                    uncontrolled decoherence is."
           
 ════════════════════════════════════════════════════════════════════════════════
