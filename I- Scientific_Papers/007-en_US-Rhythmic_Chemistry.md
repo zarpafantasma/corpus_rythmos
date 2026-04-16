@@ -11,7 +11,7 @@
 
 **Abstract**
 
-Conventional chemical kinetics treats the reaction environment as a passive bath and models rate constants k via Arrhenius/Eyring temperature dependences. We propose Rhythmic Chemistry, a framework grounded in Temporal Relativity in Multiscale Systems (RTM), where the characteristic process time τ scales with an effective length L as τ ∝ L^α. In this view, k is not fundamental but emerges from the coupled reactant–environment system and depends on the environment's coherence exponent α. We outline a theoretical link between α and both kinetics and selectivity, and design falsifiable experiments—sonochemistry driven by cavitation coherence and cavity-controlled chemistry—to test the predicted α-modulation of k and product ratios.
+Conventional chemical kinetics treats the reaction environment as a passive bath and models rate constants k via Arrhenius/Eyring temperature dependences. We propose Rhythmic Chemistry, a framework grounded in Temporal Relativity in Multiscale Systems (RTM), where the characteristic process time τ scales with an effective length L as τ ∝ L^α. In this view, k is not fundamental but emerges from the coupled reactant–environment system and depends on the environment's coherence exponent α. We outline a theoretical link between α and both kinetics and selectivity, and design falsifiable experiments, sonochemistry driven by cavitation coherence and cavity-controlled chemistry, to test the predicted α-modulation of k and product ratios.
 
 **Computational validation.** We implement and test the RTM chemistry framework through three simulation suites. S1 demonstrates that RTM-modified Arrhenius kinetics (k ∝ L^(−α) × exp(−E_a/RT)) produces measurable differences from classical kinetics, with the coherence exponent α recoverable from isothermal confinement data within 2.2% error. The model predicts 200× rate enhancement at 10 nm confinement for α = 2.3. S2 applies RTM to practical reactor geometries, predicting enhancement factors of 5× for mesoporous materials (10 nm pores, α = 2.2) up to \>5000× for microporous systems (2 nm), while accounting for diffusion limitations via Thiele modulus analysis. S3 demonstrates confinement-tunable selectivity: for competing reactions with different α values, selectivity can be enhanced 6× or more at 1 nm pore sizes, with explicit predictions for zeolites (ZSM-5, mordenite, faujasite) and MOFs (ZIF-8, UiO-66, MIL-101).
 
@@ -23,9 +23,9 @@ To conclusively prove the scale-invariant universality of these transport classe
 
 **1. Introduction**
 
-Predicting and controlling reaction pathways is central to modern chemistry. The **standard model**—encapsulated by Arrhenius/Eyring—successfully captures temperature and activation barriers but treats the **reaction environment as passive**. Yet multiple domains hint otherwise: **sonochemistry**, **mechanochemistry**, and **polaritonic/cavity chemistry** show that structured, driven, or resonant environments can reshape landscapes and rates. This motivates an explicit language for **environmental agency**.
+Predicting and controlling reaction pathways is central to modern chemistry. The **standard model**, encapsulated by Arrhenius/Eyring, successfully captures temperature and activation barriers but treats the **reaction environment as passive**. Yet multiple domains hint otherwise: **sonochemistry**, **mechanochemistry**, and **polaritonic/cavity chemistry** show that structured, driven, or resonant environments can reshape landscapes and rates. This motivates an explicit language for **environmental agency**.
 
-Concretely, if a reaction’s characteristic time follows the RTM law, then $`k`$ $`\propto 1{T \propto L}^{- \alpha}`$. At **fixed** $`\mathbf{\alpha}`$, shrinking the reactive length $`L`$ speeds reactions; at **fixed** $`\mathbf{L}`$, raising environmental coherence (higher $`\alpha`$) **narrows** entropic pathways and slows reactions—while enabling **selective steering** of multi-product outcomes (“coherent catalysis”). We translate these claims into **operational tests** in sonochemical and cavity platforms with strong controls for thermal/mass-transfer confounds.
+Concretely, if a reaction’s characteristic time follows the RTM law, then $`k`$ $`\propto 1{T \propto L}^{- \alpha}`$. At **fixed** $`\mathbf{\alpha}`$, shrinking the reactive length $`L`$ speeds reactions; at **fixed** $`\mathbf{L}`$, raising environmental coherence (higher $`\alpha`$) **narrows** entropic pathways and slows reactions, while enabling **selective steering** of multi-product outcomes (“coherent catalysis”). We translate these claims into **operational tests** in sonochemical and cavity platforms with strong controls for thermal/mass-transfer confounds.
 
 **2. RTM in Brief (Primer for Chemists)**
 
@@ -45,7 +45,7 @@ with $`T_{0}`$, $`L_{0}`$, $`\rho_{0}`$, $`\mathcal{T}_{0}`$, arbitrary referenc
 k \propto \frac{1}{T} \propto L^{- \alpha}
 ```
 
-This yields two immediate predictions: (i) **scale dependence**—at fixed $`\alpha`$, micro-/nano-confinement accelerates; (ii) **coherence dependence**—at fixed $`L`$, higher-$`\alpha`$ environments slow kinetics but can bias **selectivity** by stabilizing longer-dwell pathways (thermodynamic products).
+This yields two immediate predictions: (i) **scale dependence**, at fixed $`\alpha`$, micro-/nano-confinement accelerates; (ii) **coherence dependence**, at fixed $`L`$, higher-$`\alpha`$ environments slow kinetics but can bias **selectivity** by stabilizing longer-dwell pathways (thermodynamic products).
 
 **2.2 What** $`\mathbf{\alpha}`$ **means operationally**
 
@@ -182,7 +182,7 @@ We summarize the framework with a qualitative **phase diagram**:
 
 **4. Models**
 
-This chapter instantiates the Rhythmic Chemistry framework in three concrete platforms—(i) a driven noisy medium, (ii) a Fabry–Pérot cavity, and (iii) an acoustic cavitation field—plus a biochemical corollary (enzymes as micro-cavities). In each case we (a) specify the control variables that tune environmental coherence, (b) write an explicit form for the RTM correction factor $`\Xi(\alpha)`$, (c) state asymptotic limits that recover classical kinetics, and (d) extract **slope-level** predictions suitable for preregistered falsification.
+This chapter instantiates the Rhythmic Chemistry framework in three concrete platforms, (i) a driven noisy medium, (ii) a Fabry–Pérot cavity, and (iii) an acoustic cavitation field, plus a biochemical corollary (enzymes as micro-cavities). In each case we (a) specify the control variables that tune environmental coherence, (b) write an explicit form for the RTM correction factor $`\Xi(\alpha)`$, (c) state asymptotic limits that recover classical kinetics, and (d) extract **slope-level** predictions suitable for preregistered falsification.
 
 **4.1 Continuous medium with controlled noise (coherence by spectral shaping)**
 
@@ -270,7 +270,7 @@ with $`\sigma_{L_{b}}\text{/}{\overline{L}}_{b}`$ the coefficient of variation o
 
 - **Length slope:** Within a **fixed-χ\chiχ bin** $`\partial\ log\ k/\partial\ log\ L_{b} = - \alpha(\chi)`$.
 
-- **Coherence monotonicity:** At fixed $`L_{b}`$, $`k`$ decreases as $`\chi`$ increases; conversely, radical-mediated pathways may **increase** if $`\chi`$ favors more violent but less frequent collapses—yielding a **selectivity lever** between radical vs. non-radical channels.
+- **Coherence monotonicity:** At fixed $`L_{b}`$, $`k`$ decreases as $`\chi`$ increases; conversely, radical-mediated pathways may **increase** if $`\chi`$ favors more violent but less frequent collapses, yielding a **selectivity lever** between radical vs. non-radical channels.
 
 - **Collapse test:** Plot $`k\ L_{b}^{\alpha(\chi)}`$ vs. $`L_{b}`$/$`{\overline{L}}_{b}`$; curves should collapse to $`\Xi_{cavt}^{- 1}`$
 
@@ -734,7 +734,7 @@ A **global falsification** holds if ≥2 platforms fail H1–H2 under good QA. C
 
 **7. Laboratory Pipeline to Estimate the Coherence Exponent** $`\mathbf{\alpha}`$
 
-This chapter specifies **how** to estimate $`\alpha`$ from raw lab signals across platforms in a way that is auditable, cross-validatable, and portable. The pipeline is modular—each module outputs not only a point estimate but also **uncertainty** and **QA flags**. We end with a decision rule for **accepting** an $`\widehat{\alpha}`$ estimate per experiment.
+This chapter specifies **how** to estimate $`\alpha`$ from raw lab signals across platforms in a way that is auditable, cross-validatable, and portable. The pipeline is modular, each module outputs not only a point estimate but also **uncertainty** and **QA flags**. We end with a decision rule for **accepting** an $`\widehat{\alpha}`$ estimate per experiment.
 
 **7.1 Overview (flow chart)**
 
@@ -960,7 +960,7 @@ return alpha_hat, ci_alpha, alpha_slope, status, qa_flags
 
 **7.11 What this enables**
 
-With $`\alpha`$ estimated consistently and audited, Chapters 8–9 (“Results” and “Discussion”) can interpret kinetics and selectivity without ambiguity about environmental coherence. The pipeline also delineates boundaries: if $`\alpha`$ cannot be stably estimated or proxies disagree, RTM claims must be withheld for that condition—turning uncertainty into a first-class scientific output rather than an afterthought.
+With $`\alpha`$ estimated consistently and audited, Chapters 8–9 (“Results” and “Discussion”) can interpret kinetics and selectivity without ambiguity about environmental coherence. The pipeline also delineates boundaries: if $`\alpha`$ cannot be stably estimated or proxies disagree, RTM claims must be withheld for that condition, turning uncertainty into a first-class scientific output rather than an afterthought.
 
 **Chapter 8 — Results** (Pre-Registered Reporting Template)
 
@@ -1098,11 +1098,11 @@ If the experiments confirm distinct **length–rate slopes** $`\partial\ log\ k/
 
 - **Design lever:** Coherence (via $`Q`$, synchrony $`\chi`$, spectral shaping) becomes a **third knob** besides temperature and concentration.
 
-- **Throughput vs. control trade-off:** Raising $`\alpha`$ slows raw kinetics but **increases controllability**—useful for **selectivity** (H3) and **safety** (suppress runaways), with a sweet spot just above the selectivity threshold (Section 3.5).
+- **Throughput vs. control trade-off:** Raising $`\alpha`$ slows raw kinetics but **increases controllability**, useful for **selectivity** (H3) and **safety** (suppress runaways), with a sweet spot just above the selectivity threshold (Section 3.5).
 
-- **Catalyst-free steering:** Off-resonant cavity data showing selectivity changes that track $`Q`$ (and vanish when Q→0) would establish **coherent catalysis** without chemical catalysts—orthogonal to polaritonic strong-coupling regimes.
+- **Catalyst-free steering:** Off-resonant cavity data showing selectivity changes that track $`Q`$ (and vanish when Q→0) would establish **coherent catalysis** without chemical catalysts, orthogonal to polaritonic strong-coupling regimes.
 
-**If H1–H2 fail** under tight controls, we learn that—even when coherence proxies move—the rate law effectively collapses to **Arrhenius/Eyring + geometry** for these platforms. That falsifies the RTM contribution *there*, and moves Rhythmic Chemistry from a general framework to a **conditional** one (see 9.5: scope conditions).
+**If H1–H2 fail** under tight controls, we learn that, even when coherence proxies move, the rate law effectively collapses to **Arrhenius/Eyring + geometry** for these platforms. That falsifies the RTM contribution *there*, and moves Rhythmic Chemistry from a general framework to a **conditional** one (see 9.5: scope conditions).
 
 **9.2 Selectivity as a coherence phenomenon (H3)**
 
@@ -1145,7 +1145,7 @@ Even with positive results, Rhythmic Chemistry is **not universal**. Based on th
 
 - **May fail when**: reactions are barrierless and ballistic (path multiplicity is irrelevant), or when **multiple incommensurate lengths** dominate simultaneously (no single $`L`$ gives a stable slope).
 
-- **Edge cases**: extremely high coherence (very large $`\alpha`$) can **over-constrain** dynamics—expect throughput collapse and trapping, consistent with the “over-constrained regime” in Section 3.5.
+- **Edge cases**: extremely high coherence (very large $`\alpha`$) can **over-constrain** dynamics, expect throughput collapse and trapping, consistent with the “over-constrained regime” in Section 3.5.
 
 These conditions turn RTM from a blanket claim into a **map**: they tell practitioners when to reach for coherence dials and when classic thermochemistry suffices.
 
@@ -1161,7 +1161,7 @@ These conditions turn RTM from a blanket claim into a **map**: they tell practit
 
 **9.7 Methodological contributions beyond chemistry**
 
-The paper’s discipline—**slope-first inference**, **collapse checks**, **errors-in-variables**, and **dual-proxy cross-validation**—is portable. It can be adopted anywhere a dominant scale and a persistence/coherence dial exist (soft matter, micro-/nano-fabrication, even biochemical networks). If our preregistered shells become standard, “results” sections across labs will be **comparable** rather than bespoke.
+The paper’s discipline, **slope-first inference**, **collapse checks**, **errors-in-variables**, and **dual-proxy cross-validation**, is portable. It can be adopted anywhere a dominant scale and a persistence/coherence dial exist (soft matter, micro-/nano-fabrication, even biochemical networks). If our preregistered shells become standard, “results” sections across labs will be **comparable** rather than bespoke.
 
 **9.8 Limitations**
 
@@ -1187,11 +1187,11 @@ The paper’s discipline—**slope-first inference**, **collapse checks**, **err
 
 **9.10 Bottom line**
 
-Rhythmic Chemistry reframes kinetics and selectivity as properties of **reactants plus a structured, temporally persistent environment**. The core diagnostic—**slope differences in** $`\mathbf{log\ k}`$ **vs.** $`\mathbf{log\ L}`$ across coherence bins—turns a philosophical idea (“the container matters”) into a **falsifiable** statement.
+Rhythmic Chemistry reframes kinetics and selectivity as properties of **reactants plus a structured, temporally persistent environment**. The core diagnostic, **slope differences in** $`\mathbf{log\ k}`$ **vs.** $`\mathbf{log\ L}`$ across coherence bins, turns a philosophical idea (“the container matters”) into a **falsifiable** statement.
 
 - **If the preregistered tests pass**, coherence joins temperature and concentration as a **first-class control knob**, enabling greener, safer, and more programmable chemistry.
 
-- **If they fail** under rigorous controls, the framework yields a **clear boundary**: where environments cannot be said to possess a meaningful, tunable $`\alpha`$, classical kinetics suffices—and we have a method to show it.
+- **If they fail** under rigorous controls, the framework yields a **clear boundary**: where environments cannot be said to possess a meaningful, tunable $`\alpha`$, classical kinetics suffices, and we have a method to show it.
 
 Either outcome advances the field: by **adding a new lever** or by **sharpening where not to look**.
 
@@ -1203,7 +1203,7 @@ Either outcome advances the field: by **adding a new lever** or by **sharpening 
 \frac{\partial\ log\ k}{\partial\ log\ L} = - \alpha
 ```
 
-with $`\alpha`$ the environment’s **coherence exponent** estimated from independent proxies (cavity $`Q`$, cavitation synchrony $`\chi`$, spectral slopes, confinement metrics). Two **critical experiments**—sonochemical synchrony control and off-resonant Fabry–Pérot cavity scans—were designed to falsify or support this claim under stringent isothermal and mass-transfer controls. A **pre-registered Results shell** and a **laboratory pipeline** make the framework auditable and portable.
+with $`\alpha`$ the environment’s **coherence exponent** estimated from independent proxies (cavity $`Q`$, cavitation synchrony $`\chi`$, spectral slopes, confinement metrics). Two **critical experiments**, sonochemical synchrony control and off-resonant Fabry–Pérot cavity scans, were designed to falsify or support this claim under stringent isothermal and mass-transfer controls. A **pre-registered Results shell** and a **laboratory pipeline** make the framework auditable and portable.
 
 **10.1 What we contributed**
 
@@ -1267,7 +1267,7 @@ with $`\alpha`$ the environment’s **coherence exponent** estimated from indepe
 
 **10.6 Broader implications and next steps**
 
-- **Temporal gating.** Coherence is a **time resource**: pulse $`\alpha(t)`$ high to set selectivity, then low to regain throughput—testable with modulated $`Q(t)`$ or $`\chi(t)`$.
+- **Temporal gating.** Coherence is a **time resource**: pulse $`\alpha(t)`$ high to set selectivity, then low to regain throughput, testable with modulated $`Q(t)`$ or $`\chi(t)`$.
 
 - **Symmetry fingerprints.** Map product steering vs. field symmetry; a reproducible “fingerprint” would strongly corroborate $`\Xi_{i}(\alpha)`$ structure.
 
@@ -1275,7 +1275,7 @@ with $`\alpha`$ the environment’s **coherence exponent** estimated from indepe
 
 - **Microscopic ties.** Connect $`\alpha`$ to memory kernels/dynamical exponents in stochastic reaction–diffusion models, reducing reliance on empirical maps.
 
-**Bottom line.** If the preregistered tests succeed, Rhythmic Chemistry offers a **clean, quantitative** route to manipulate reactions by **designing the container’s time**—its coherence depth—rather than only the molecules or the bath temperature. If they fail, we obtain a **sharply drawn boundary** for when coherence does **not** matter, along with a reusable statistical discipline for future “environment-aware” kinetics. Either way, the field moves forward with clearer levers, clearer limits, and a clear path to replication.
+**Bottom line.** If the preregistered tests succeed, Rhythmic Chemistry offers a **clean, quantitative** route to manipulate reactions by **designing the container’s time**, its coherence depth, rather than only the molecules or the bath temperature. If they fail, we obtain a **sharply drawn boundary** for when coherence does **not** matter, along with a reusable statistical discipline for future “environment-aware” kinetics. Either way, the field moves forward with clearer levers, clearer limits, and a clear path to replication.
 
 **11. Materials and Methods**
 
@@ -1470,7 +1470,7 @@ This form makes regression and hypothesis tests straightforward (slope different
 
 - **Geometry-only limit** ($`\Xi \rightarrow 1`$, $`\alpha`$ at diffusive band): recovers confinement scaling $`{k \propto L}^{{- \alpha}_{0}}`$ with $`\alpha_{0} \approx 2.`$
 
-- **Strong-coupling/polaritonic limit** (not our regime): $`\Xi`$ no longer small/slow; hybridization terms dominate—RTM ansatz should not be applied.
+- **Strong-coupling/polaritonic limit** (not our regime): $`\Xi`$ no longer small/slow; hybridization terms dominate, RTM ansatz should not be applied.
 
 - **Over-constrained coherence** (very large $\alpha$): path multiplicity collapses; expect **both** $k \downarrow$ and yields $\downarrow$. This is a design **antipattern** (to be avoided).
 
@@ -1656,7 +1656,7 @@ A measured $`\gamma = 1.2 \pm 0.05`$ gives $`\widehat{\alpha} = 1.95 + 0.456 + 0
 
 - Status (ACCEPT/TENTATIVE) and any QA flags (stationarity, drift, confounds).
 
-> **Takeaway.** Appendix A provides the **mathematical spine**—how RTM’s scale law yields rate and selectivity predictions and how to correct for measurement error. Appendix B operationalizes $`\alpha`$: **how to get it**, **how to trust it**, and **how to combine multiple looks** at coherence into a single, auditable estimate.
+> **Takeaway.** Appendix A provides the **mathematical spine**, how RTM’s scale law yields rate and selectivity predictions and how to correct for measurement error. Appendix B operationalizes $`\alpha`$: **how to get it**, **how to trust it**, and **how to combine multiple looks** at coherence into a single, auditable estimate.
 
 **APPENDIX C — Computational Validation of RTM Chemistry Framework**
 
@@ -1949,7 +1949,7 @@ To subject the macroscopic fluid hypothesis to a rigorous "Red Team" stress test
 
 Even when heavily penalized with real-world observational noise, macroscopic urban mobility perfectly obeys the RTM thermodynamic transport limits:
 
-- **Optimal Foraging (Lévy Flight Limit):** The spatial displacement of over 1.1 billion taxi trips yields a robust power-law tail exponent of $`\mathbf{\alpha}\mathbf{= \ 3.000\ }\mathbf{\pm}\mathbf{0.156}`$. In RTM physics, $`\alpha = \ 3.0`$ marks the exact mathematical boundary of a Lévy Flight—proving that human transport naturally optimizes spatial coverage against fuel and time costs, precisely as a fluid expanding through a resistive medium.
+- **Optimal Foraging (Lévy Flight Limit):** The spatial displacement of over 1.1 billion taxi trips yields a robust power-law tail exponent of $`\mathbf{\alpha}\mathbf{= \ 3.000\ }\mathbf{\pm}\mathbf{0.156}`$. In RTM physics, $`\alpha = \ 3.0`$ marks the exact mathematical boundary of a Lévy Flight, proving that human transport naturally optimizes spatial coverage against fuel and time costs, precisely as a fluid expanding through a resistive medium.
 
 - **The Edge of Chaos (SOC):** The robust Monte Carlo simulation of traffic jam clusters reveals an exponent of $`\mathbf{\tau}\mathbf{= \ 2.499\ }\mathbf{\pm}\mathbf{0.146}`$. This is statistically indistinguishable from the theoretical percolation limit ($`\tau = \ 2.5`$). It mathematically proves that urban traffic operates in a state of Self-Organized Criticality; jams are not random accidents, but deterministic topological phase transitions within the fluid.
 
