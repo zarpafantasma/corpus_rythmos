@@ -105,7 +105,7 @@ THE EXTERNAL FIRE
 
 ### 1.2 The Fire We Don't Imagine
 
-But there is another fire — the one that changes history:
+But there is another fire, the one that changes history:
 
 ```
 THE INTERNAL FIRE
@@ -1988,7 +1988,7 @@ WHAT WE SOW
     
     NEW PRACTICES:
     Behaviors, habits, routines that embody the new seeing.
-    Not just ideas — practices.
+    Not just ideas, practices.
     
     NEW LANGUAGES:
     Ways of speaking that capture what the old language couldn't.
@@ -2154,7 +2154,7 @@ AT LAST, WE SOW
     
     AND WHEN IT CATCHES:
     ────────────────────
-    Silent, shareable, precise —
+    Silent, shareable, precise,
     It does not burn the world.
     It makes it visible.
     
