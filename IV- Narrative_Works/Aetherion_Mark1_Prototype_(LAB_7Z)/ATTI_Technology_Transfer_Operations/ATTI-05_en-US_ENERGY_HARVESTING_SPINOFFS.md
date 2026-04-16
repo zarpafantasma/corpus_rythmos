@@ -11,7 +11,7 @@
     ║                                                                  ║
     ║        AETHERION TECHNOLOGY TRANSFER INITIATIVE (ATTI)           ║
     ║                                                                  ║
-    ║   "The gradient doesn't create energy—it creates preference.     ║
+    ║   "The gradient doesn't create energy, it creates preference.     ║
     ║    And preference, sustained over time, becomes accumulation."   ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
@@ -42,7 +42,7 @@
 
 ### 1.1 The Vision
 
-Conventional vibration energy harvesting suffers from a fundamental limitation: **resonance dependency**. Piezoelectric, electromagnetic, and electrostatic harvesters achieve peak efficiency only when ambient vibrations match their designed resonant frequency. In real-world environments—factories, vehicles, human motion, infrastructure—vibrations are **broadband, variable, and unpredictable**.
+Conventional vibration energy harvesting suffers from a fundamental limitation: **resonance dependency**. Piezoelectric, electromagnetic, and electrostatic harvesters achieve peak efficiency only when ambient vibrations match their designed resonant frequency. In real-world environments, factories, vehicles, human motion, infrastructure, vibrations are **broadband, variable, and unpredictable**.
 
 RTM proposes a paradigm shift: instead of tuning a harvester to a frequency, use a **topological gradient (∇α)** to create spatial asymmetry that accumulates vibrational energy across a wide spectrum.
 
@@ -291,14 +291,14 @@ TOPOLOGICAL VIBRATION ENERGY HARVESTER (TVEH)
 ```
 Ambient vibrations couple into the metamaterial structure.
 All frequencies that can propagate in the medium contribute.
-No resonance required—just mechanical coupling.
+No resonance required, just mechanical coupling.
 ```
 
 **Stage 2: Accumulation**
 ```
 The ∇α gradient creates directional bias.
 Energy from ALL coupled frequencies flows toward the low-α zone.
-This is NOT amplification—it's spatial concentration.
+This is NOT amplification, it's spatial concentration.
 Energy from volume V concentrates into volume v << V.
 ```
 
@@ -1236,7 +1236,7 @@ CRITICAL DISTINCTION
 | **α-material correlation** | Relationship between composition and α not fully characterized | May require extensive empirical mapping |
 | **Gradient stability** | Long-term stability of α gradient under vibration | Could degrade over time |
 | **Coupling efficiency** | How well ambient vibrations couple into gradient | May be lower than predicted |
-| **Accumulation ratio** | Actual R = ρ(L)/ρ(0) achievable | Core performance metric—unknown |
+| **Accumulation ratio** | Actual R = ρ(L)/ρ(0) achievable | Core performance metric, unknown |
 | **Thermal contribution** | Magnitude of Brownian motion harvesting | Could be negligible or significant |
 
 ### 13.2 Engineering Challenges
@@ -1396,7 +1396,7 @@ If RTM's predictions about topological gradients are correct, TVEH could revolut
 
 ## Appendix B: References
 
-1. RTM Corpus v2.0 — Theoretical Foundations
+1. RTM Corpus — Theoretical Foundations
 2. RTM-PAPER-001 — Multiscale Temporal Relativity: Mathematical Framework
 3. Roundy, S. et al. (2003) — A study of low level vibrations as a power source for wireless sensor nodes
 4. Beeby, S.P. et al. (2006) — Energy harvesting vibration sources for microsystems applications
