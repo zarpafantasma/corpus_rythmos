@@ -196,18 +196,6 @@ Exclusion, Dissolution, Capture, Ossification, Virtualization
 
 ---
 
-## DOCUMENT FILES
-
-1. PRELUDE_CH01.md — Prelude and Chapter 01: Physics of the Between
-2. CHAPTER_02.md — The Dyad: Architecture of Intimate Bond
-3. CHAPTER_03.md — The Small Group: Polyphonic Architecture
-4. CHAPTER_04.md — The Community: Weaving at Scale
-5. CHAPTER_05.md — The Politics of Resonance
-6. CHAPTER_06.md — The Planetary Weave
-7. CHAPTER_07_EPILOGUE.md — The Practice of Weaving and Epilogue
-
----
-
 ## RELATED DOCUMENTS
 
 - **Document 021:** The Multiscale Symphony (Source Document)
@@ -225,7 +213,7 @@ Exclusion, Dissolution, Capture, Ossification, Virtualization
 
 > "The leader as conductor rather than commander. Primary tool: attention."
 
-> "The collective challenge of our era is re-synchronization—bringing human systems back into resonance with planetary systems."
+> "The collective challenge of our era is re-synchronization, bringing human systems back into resonance with planetary systems."
 
 > "You are this weaving. Not the weaver standing outside the loom, but the thread passing through, the pattern forming, the fabric taking shape."
 
@@ -257,21 +245,21 @@ Exclusion, Dissolution, Capture, Ossification, Virtualization
 
 # PRELUDE: THE SPACE BETWEEN
 
-The first extension explored the architecture of the self—the container and its cultivation. We learned that consciousness is not a thing but a structure, and that structures can be developed, maintained, and healed.
+The first extension explored the architecture of the self, the container and its cultivation. We learned that consciousness is not a thing but a structure, and that structures can be developed, maintained, and healed.
 
-The second extension explored the architecture of creation—how form emerges from chaos through the human creative act. We learned that creativity is not invention but listening, and that the creator participates in cosmic generativity.
+The second extension explored the architecture of creation, how form emerges from chaos through the human creative act. We learned that creativity is not invention but listening, and that the creator participates in cosmic generativity.
 
-This third extension explores the architecture of relation—the space between containers, the field generated when resonant structures encounter one another. We move from the singular to the plural, from the "I" to the "We."
+This third extension explores the architecture of relation, the space between containers, the field generated when resonant structures encounter one another. We move from the singular to the plural, from the "I" to the "We."
 
 This is where the symphony truly begins.
 
-A single instrument can make beautiful sounds. But a symphony requires many instruments, each with its own voice, coordinated into something none could produce alone. The emergence of collective coherence from individual rhythms is not automatic—it requires architecture, practice, and continuous maintenance.
+A single instrument can make beautiful sounds. But a symphony requires many instruments, each with its own voice, coordinated into something none could produce alone. The emergence of collective coherence from individual rhythms is not automatic, it requires architecture, practice, and continuous maintenance.
 
 We live in an era of unprecedented connection and unprecedented isolation. Billions of nodes in global networks, each increasingly alone. The infrastructure for communication has never been richer; the experience of communion has never been poorer. Something essential has been lost.
 
-This extension offers operational protocols for its recovery. Not nostalgia for simpler times, but precise understanding of what collective resonance requires, and practical methods for cultivating it—in dyads, in groups, in communities, in the species.
+This extension offers operational protocols for its recovery. Not nostalgia for simpler times, but precise understanding of what collective resonance requires, and practical methods for cultivating it, in dyads, in groups, in communities, in the species.
 
-The work is urgent. Without the capacity to resonate collectively, we cannot address collective challenges. Climate, technology, conflict—all require the kind of coordinated response that only genuine collective coherence can produce.
+The work is urgent. Without the capacity to resonate collectively, we cannot address collective challenges. Climate, technology, conflict, all require the kind of coordinated response that only genuine collective coherence can produce.
 
 We begin where all relation begins: with the echo.
 
@@ -283,11 +271,11 @@ We begin where all relation begins: with the echo.
 
 Classical physics describes a world of objects interacting across empty space. Quantum physics reveals something different: a world of relations where the "objects" are secondary to the connections between them.
 
-This quantum truth scales upward. At every level—molecular, cellular, organismic, social—reality is constituted not by things but by relations between things. The nodes matter less than the links. The entities matter less than the field.
+This quantum truth scales upward. At every level, molecular, cellular, organismic, social, reality is constituted not by things but by relations between things. The nodes matter less than the links. The entities matter less than the field.
 
 **Key Principle:** The fundamental unit of social reality is not the individual but the relation.
 
-This is not mystical assertion but structural description. An individual isolated from all relation is not an individual at all—they are a corpse. Identity itself is relational; the self is constituted through encounter with other.
+This is not mystical assertion but structural description. An individual isolated from all relation is not an individual at all, they are a corpse. Identity itself is relational; the self is constituted through encounter with other.
 
 **Operational implication:** Working on the self alone is insufficient. Working on relations is working on selves. The health of the between determines the health of the within.
 
@@ -302,7 +290,7 @@ When System A oscillates in proximity to System B:
 2. B receives the perturbation as influence on its own oscillation
 3. B's oscillation creates perturbation that reaches A
 4. A receives B's influence
-5. This creates a feedback loop—each system now contains traces of the other
+5. This creates a feedback loop, each system now contains traces of the other
 
 The echo is not communication in the sense of message-passing. It is more primitive: mutual influence below the threshold of intent. Two hearts in close proximity begin to synchronize without either intending it. Two pendulums on a shared platform gradually align. Two people in conversation unconsciously match breath and gesture.
 
@@ -310,7 +298,7 @@ The echo is not communication in the sense of message-passing. It is more primit
 
 ## 1.3 — From Echo to Bond
 
-The echo is transient—a moment of mutual influence that could fade as systems separate. The bond is stable—a sustained resonant relationship that persists through time and space.
+The echo is transient, a moment of mutual influence that could fade as systems separate. The bond is stable, a sustained resonant relationship that persists through time and space.
 
 **THE BOND FORMATION SEQUENCE:**
 
@@ -336,13 +324,13 @@ When two containers form a bond, something new exists that did not exist before:
 
 **PROPERTIES OF THE THIRD ENTITY:**
 
-**Temporal signature:** The relationship has its own characteristic time—different from either participant's internal time. A friendship has a tempo; a marriage has a tempo; a rivalry has a tempo.
+**Temporal signature:** The relationship has its own characteristic time, different from either participant's internal time. A friendship has a tempo; a marriage has a tempo; a rivalry has a tempo.
 
-**Memory:** The relationship stores experiences that neither participant holds fully alone. "Our memories" are not simply my memories plus your memories—they are something held in the between.
+**Memory:** The relationship stores experiences that neither participant holds fully alone. "Our memories" are not simply my memories plus your memories, they are something held in the between.
 
 **Identity:** The relationship has a recognizable character. Others can perceive it: "their relationship is warm/tense/playful/strained."
 
-**Needs:** The relationship requires things for its health—time, attention, repair, evolution. Neglect harms the third entity directly, not merely the participants.
+**Needs:** The relationship requires things for its health, time, attention, repair, evolution. Neglect harms the third entity directly, not merely the participants.
 
 **Death:** Relationships can die while participants remain alive. The third entity ceases to exist even as the containers persist.
 
@@ -350,7 +338,7 @@ When two containers form a bond, something new exists that did not exist before:
 
 ## 1.5 — The Field of the Between
 
-When many relationships interconnect, a field emerges—a collective resonant space that exceeds any single relationship.
+When many relationships interconnect, a field emerges, a collective resonant space that exceeds any single relationship.
 
 **FIELD PROPERTIES:**
 
@@ -358,11 +346,11 @@ When many relationships interconnect, a field emerges—a collective resonant sp
 
 **Density:** The number of active relationships per node. High density provides resilience; low density creates fragility.
 
-**Topology:** The pattern of connections—who is linked to whom, how central or peripheral each node. Topology shapes how influence flows.
+**Topology:** The pattern of connections, who is linked to whom, how central or peripheral each node. Topology shapes how influence flows.
 
-**Memory:** The collective field stores patterns that no individual relationship holds—traditions, norms, culture, history.
+**Memory:** The collective field stores patterns that no individual relationship holds, traditions, norms, culture, history.
 
-**Consciousness:** At sufficient complexity, the field may develop something like awareness—the group "senses" itself as a group.
+**Consciousness:** At sufficient complexity, the field may develop something like awareness, the group "senses" itself as a group.
 
 ## 1.6 — The α of Collective Systems
 
@@ -397,7 +385,7 @@ What structures support high collective coherence? What enables the many to reso
 **STRUCTURAL REQUIREMENTS:**
 
 **1. SHARED GROUND:**
-A common foundation—shared values, shared history, shared purpose—that provides base frequency for harmonization. Without shared ground, there is no key in which to play.
+A common foundation, shared values, shared history, shared purpose, that provides base frequency for harmonization. Without shared ground, there is no key in which to play.
 
 **2. ARTICULATED STRUCTURE:**
 Clear roles, responsibilities, relationships. Not to constrain but to enable. Without structure, coordination collapses into chaos.
@@ -412,7 +400,7 @@ Means for signals to flow through the collective: formal and informal, fast and 
 Ways for the collective to sense its own state and adjust. Without feedback, error compounds; coherence degrades.
 
 **6. REPAIR CAPACITY:**
-Means for addressing rupture—conflict resolution, reconciliation, restoration. Without repair, every breach becomes permanent.
+Means for addressing rupture, conflict resolution, reconciliation, restoration. Without repair, every breach becomes permanent.
 
 **7. EVOLUTIONARY CAPACITY:**
 Means for the collective to change without fragmenting. Without evolution, the collective either stagnates or shatters.
@@ -447,7 +435,7 @@ Collective resonance occurs at multiple scales, each with distinct properties:
 
 ## 2.1 — The Primacy of Two
 
-All collective resonance begins with two. The dyad is the simplest collective structure, and therefore the most revealing. What we learn about dyadic resonance applies—with appropriate modification—to all larger scales.
+All collective resonance begins with two. The dyad is the simplest collective structure, and therefore the most revealing. What we learn about dyadic resonance applies, with appropriate modification, to all larger scales.
 
 The dyad has unique properties:
 - Total mutual exposure (no hiding behind group)
@@ -611,7 +599,7 @@ Practical methods for cultivating dyadic coherence:
 6. **RESTORE CONNECTION:** Physical and emotional reconnection.
 7. **LEARN:** What triggered this? How can it be prevented?
 
-**Critical principle:** Repair must occur. Unrepaired ruptures accumulate. The repair need not be perfect—sincere effort matters more than elegant resolution.
+**Critical principle:** Repair must occur. Unrepaired ruptures accumulate. The repair need not be perfect, sincere effort matters more than elegant resolution.
 
 ## 2.5 — Attachment Styles and Resonance Capacity
 
@@ -645,7 +633,7 @@ Individual attachment patterns shape capacity for dyadic resonance:
 
 ## 2.6 — The Boundaries of the Bond
 
-Healthy bonds have boundaries—not walls that isolate, but membranes that define.
+Healthy bonds have boundaries, not walls that isolate, but membranes that define.
 
 **INTERIOR BOUNDARIES:**
 Between the participants themselves
@@ -677,7 +665,7 @@ All bonds end. By death, by dissolution, by transformation. The architecture of 
 
 ### ENDING BY DEATH
 
-When one participant dies, the bond does not simply cease—it transforms.
+When one participant dies, the bond does not simply cease, it transforms.
 
 **The surviving participant holds:**
 - Memory of the relationship
@@ -710,7 +698,7 @@ When a bond is consciously ended by living participants:
 
 ### ENDING BY TRANSFORMATION
 
-Some bonds do not end but transform—romantic partnership becomes friendship; intense friendship becomes comfortable distance; conflict transforms into respect.
+Some bonds do not end but transform, romantic partnership becomes friendship; intense friendship becomes comfortable distance; conflict transforms into respect.
 
 **Work of transformation:**
 - Acknowledge that what was cannot continue
@@ -725,7 +713,7 @@ Some bonds do not end but transform—romantic partnership becomes friendship; i
 
 ## 3.1 — The Emergence of Polyphony
 
-The dyad is monophonic—two voices in relationship. The small group is polyphonic—multiple voices weaving together into complex harmony. This transition is not merely quantitative (more people) but qualitative (different kind of resonance).
+The dyad is monophonic, two voices in relationship. The small group is polyphonic, multiple voices weaving together into complex harmony. This transition is not merely quantitative (more people) but qualitative (different kind of resonance).
 
 **New phenomena in small groups:**
 - Coalition formation (subgroups within the group)
@@ -752,10 +740,10 @@ A base rhythm that all members synchronize to. This might be:
 Without ground tone, the group is a collection, not a collective.
 
 **2. INDIVIDUAL VOICES (differentiated contributions)**
-Each member brings unique rhythm, perspective, capacity. The group needs these differences—unison is not polyphony.
+Each member brings unique rhythm, perspective, capacity. The group needs these differences, unison is not polyphony.
 
 **3. HARMONIC RELATIONSHIPS (between voices)**
-The voices must relate harmonically—not all singing the same note, but all singing notes that fit together.
+The voices must relate harmonically, not all singing the same note, but all singing notes that fit together.
 
 **4. COMPOSITIONAL STRUCTURE (arrangement)**
 How voices enter, exit, lead, follow, rest, sound. The structure determines what kind of music is possible.
@@ -1091,7 +1079,7 @@ At scale, deliberate mechanisms must do what spontaneous relationship does in sm
 **Forms:**
 - All-community gatherings (festivals, assemblies, celebrations)
 - Sub-group gatherings (neighborhoods, interest groups)
-- Spontaneous gathering (third places—cafés, parks, squares)
+- Spontaneous gathering (third places, cafés, parks, squares)
 
 **Frequency principle:** At least one all-community gathering per season. More frequent sub-group gatherings. Constant availability of spontaneous gathering spaces.
 
@@ -1253,7 +1241,7 @@ Let go of what cannot continue. Some of the old must die for the new to be born.
 What is this community called to become? Not just continuation but transformation.
 
 **5. RESTRUCTURING:**
-Change what needs to change—institutions, practices, boundaries, roles.
+Change what needs to change, institutions, practices, boundaries, roles.
 
 **6. RE-COMMITMENT:**
 Members choose the renewed community. Some will leave. Some new will come.
@@ -1277,7 +1265,7 @@ Weave old and new together. Honor continuity while embracing change.
 
 ## 5.1 — Power and Rhythm
 
-Politics, conventionally understood, is the contest for power—the capacity to shape collective action. This understanding is not wrong, but it is incomplete. From the resonance perspective, politics is also the contest over rhythm—which frequencies will dominate, whose tempo will pace the collective.
+Politics, conventionally understood, is the contest for power, the capacity to shape collective action. This understanding is not wrong, but it is incomplete. From the resonance perspective, politics is also the contest over rhythm, which frequencies will dominate, whose tempo will pace the collective.
 
 **Political questions as rhythmic questions:**
 - Who sets the schedule? (Whose time is prioritized?)
@@ -1285,7 +1273,7 @@ Politics, conventionally understood, is the contest for power—the capacity to 
 - Who decides when things are done? (Whose judgment terminates?)
 - What happens when rhythms conflict? (How is dissonance resolved?)
 
-**Key Principle:** Political power includes rhythmic power—the capacity to impose, sustain, or disrupt collective rhythms.
+**Key Principle:** Political power includes rhythmic power, the capacity to impose, sustain, or disrupt collective rhythms.
 
 ## 5.2 — The Conductor Model of Leadership
 
@@ -1308,22 +1296,22 @@ The original document proposed the leader as conductor rather than commander. Th
 **Conductor functions:**
 
 **1. LISTENING:**
-The conductor hears what is happening across the collective—all voices, all rhythms, including the quiet ones.
+The conductor hears what is happening across the collective, all voices, all rhythms, including the quiet ones.
 
 **2. SENSING:**
-The conductor perceives the overall coherence—where alignment exists, where dissonance threatens.
+The conductor perceives the overall coherence, where alignment exists, where dissonance threatens.
 
 **3. CUEING:**
 The conductor signals when sections should enter, pause, emphasize, or diminish.
 
 **4. PACING:**
-The conductor maintains tempo—neither too fast (frenzy) nor too slow (stagnation).
+The conductor maintains tempo, neither too fast (frenzy) nor too slow (stagnation).
 
 **5. SHAPING:**
-The conductor guides dynamics—when to crescendo, when to rest, how sections relate.
+The conductor guides dynamics, when to crescendo, when to rest, how sections relate.
 
 **6. HOLDING:**
-The conductor maintains the score—the shared structure that makes polyphony possible.
+The conductor maintains the score, the shared structure that makes polyphony possible.
 
 ### CONDUCTOR REQUIREMENTS
 
@@ -1390,24 +1378,24 @@ Governance structures can be analyzed for their resonance properties:
 
 ## 5.4 — Conflict as Dissonance
 
-Political conflict is not evil. It is dissonance—rhythms that do not (yet) harmonize. The question is not whether conflict will occur but how it will be metabolized.
+Political conflict is not evil. It is dissonance, rhythms that do not (yet) harmonize. The question is not whether conflict will occur but how it will be metabolized.
 
 ### DISSONANCE TYPES
 
 **SURFACE DISSONANCE:**
-Disagreement about implementation—how to do what everyone agrees should be done.
+Disagreement about implementation, how to do what everyone agrees should be done.
 *Resolution approach:* Deliberation, experimentation, compromise.
 
 **STRUCTURAL DISSONANCE:**
-Disagreement about priorities—which among good things should take precedence.
+Disagreement about priorities, which among good things should take precedence.
 *Resolution approach:* Dialogue about values, trade-off analysis, negotiation.
 
 **IDENTITY DISSONANCE:**
-Disagreement about who belongs—who counts, whose voice matters.
+Disagreement about who belongs, who counts, whose voice matters.
 *Resolution approach:* Deep listening, boundary examination, inclusion work.
 
 **FOUNDATIONAL DISSONANCE:**
-Disagreement about premises—fundamentally different worldviews.
+Disagreement about premises, fundamentally different worldviews.
 *Resolution approach:* Long-term dialogue, parallel structures, or separation.
 
 ### DISSONANCE PROCESSING
@@ -1416,19 +1404,19 @@ Disagreement about premises—fundamentally different worldviews.
 Create a space for conflict that won't destroy the whole.
 
 **2. HEAR:**
-Ensure all parties are genuinely heard—not just allowed to speak but understood.
+Ensure all parties are genuinely heard, not just allowed to speak but understood.
 
 **3. NAME:**
 Identify what the conflict is actually about (often different from presenting issue).
 
 **4. EXPLORE:**
-Investigate whether harmony is possible—what would resolution require?
+Investigate whether harmony is possible, what would resolution require?
 
 **5. CHOOSE:**
 Either find harmony, agree to coexist with dissonance, or recognize irreconcilability.
 
 **6. INTEGRATE:**
-Whatever outcome, weave it into collective story—don't leave it unprocessed.
+Whatever outcome, weave it into collective story, don't leave it unprocessed.
 
 ### UNPROCESSED DISSONANCE
 
@@ -1468,7 +1456,7 @@ When harm occurs, justice is not only punishment or compensation. It is repair o
 5. Agreement made (how will repair proceed?)
 6. Relationship restored (how will we go forward?)
 
-This is repair of the resonant field—not just addressing the offense but healing the rupture in collective coherence.
+This is repair of the resonant field, not just addressing the offense but healing the rupture in collective coherence.
 
 ## 5.6 — Protocols for Resonant Governance
 
@@ -1561,26 +1549,26 @@ Key practice: Global institutions, commons governance, long-term thinking.
 
 ## 6.1 — The Earth as Resonant Body
 
-The planet is not a stage for human drama. It is a participant in it—a resonant body of immense complexity, within which human civilization is a recent and still-uncertain experiment.
+The planet is not a stage for human drama. It is a participant in it, a resonant body of immense complexity, within which human civilization is a recent and still-uncertain experiment.
 
 **Planetary resonance structures:**
 
 **GEOLOGICAL:**
-Continental drift, plate tectonics, volcanic cycles—rhythms measured in millions of years.
+Continental drift, plate tectonics, volcanic cycles, rhythms measured in millions of years.
 
 **ATMOSPHERIC:**
-Weather patterns, jet streams, monsoons—rhythms measured in days to years.
+Weather patterns, jet streams, monsoons, rhythms measured in days to years.
 
 **OCEANIC:**
-Currents, tides, thermohaline circulation—rhythms measured in hours to millennia.
+Currents, tides, thermohaline circulation, rhythms measured in hours to millennia.
 
 **BIOSPHERIC:**
-Ecosystem dynamics, species interactions, nutrient cycles—rhythms measured in days to centuries.
+Ecosystem dynamics, species interactions, nutrient cycles, rhythms measured in days to centuries.
 
 **CRYOSPHERIC:**
-Ice ages, glacial cycles, permafrost dynamics—rhythms measured in thousands to hundreds of thousands of years.
+Ice ages, glacial cycles, permafrost dynamics, rhythms measured in thousands to hundreds of thousands of years.
 
-These systems are coupled—each affects and is affected by others. Together they form a single, though not unified, resonant body: Gaia not as organism but as system.
+These systems are coupled, each affects and is affected by others. Together they form a single, though not unified, resonant body: Gaia not as organism but as system.
 
 ## 6.2 — The Human Niche
 
@@ -1599,7 +1587,7 @@ Civilization has progressively decoupled human life from planetary rhythm:
 - Industrial food decouples eating from harvest
 - Global transport decouples location from geography
 
-**The crisis:** This decoupling has produced power but at cost. We can do things planetary rhythm did not permit. We have lost something planetary rhythm provided—coherence with the system that sustains us.
+**The crisis:** This decoupling has produced power but at cost. We can do things planetary rhythm did not permit. We have lost something planetary rhythm provided, coherence with the system that sustains us.
 
 ## 6.3 — The Arrhythmia of Civilization
 
@@ -1623,7 +1611,7 @@ Human attention is local. Planetary systems are global. We feel the tree falling
 
 ## 6.4 — Re-synchronization: The Planetary Challenge
 
-The collective challenge of our era is re-synchronization—bringing human systems back into resonance with planetary systems before the dissonance becomes catastrophic.
+The collective challenge of our era is re-synchronization, bringing human systems back into resonance with planetary systems before the dissonance becomes catastrophic.
 
 ### DIMENSION 1: TEMPORAL RE-SYNCHRONIZATION
 **Challenge:** Extend human decision-making tempo to match consequence tempo
@@ -1687,19 +1675,19 @@ Current economic systems are arrhythmia engines. They are designed to:
 ### ECONOMIC INTERVENTIONS
 
 **PRICING:**
-Make prices tell truth—include externalities, carbon costs, ecosystem services.
+Make prices tell truth, include externalities, carbon costs, ecosystem services.
 
 **ACCOUNTING:**
-Measure what matters—not just GDP but wellbeing, sustainability, resilience.
+Measure what matters, not just GDP but wellbeing, sustainability, resilience.
 
 **DISCOUNTING:**
-Reform discount rates—future generations matter; very low or zero discount for existential risks.
+Reform discount rates, future generations matter; very low or zero discount for existential risks.
 
 **PROPERTY:**
-Reform property concepts—commons, trusts, stewardship rather than absolute ownership.
+Reform property concepts, commons, trusts, stewardship rather than absolute ownership.
 
 **MONEY:**
-Reform monetary systems—money creation aligned with sustainable activity.
+Reform monetary systems, money creation aligned with sustainable activity.
 
 ## 6.7 — The Spiritual Dimension
 
@@ -1714,7 +1702,7 @@ Ultimately, planetary re-synchronization is not only political or economic but s
 **FROM:** Nature as "out there"
 **TO:** Nature as "we are part of this"
 
-This shift is not achieved by argument but by experience—direct encounter with the living world that reawakens relationship.
+This shift is not achieved by argument but by experience, direct encounter with the living world that reawakens relationship.
 
 ### PRACTICES FOR PLANETARY RECONNECTION
 
@@ -1734,7 +1722,7 @@ Allow grief for what is being lost. Ungrieved loss becomes numbness.
 Direct action in ecological restoration. Physical work that heals.
 
 **ADVOCACY:**
-Speak for the voiceless—the species, the systems, the future.
+Speak for the voiceless, the species, the systems, the future.
 
 ## 6.8 — The Intergenerational Weave
 
@@ -1743,10 +1731,10 @@ The planetary weave extends through time. We inherit from ancestors; we bequeath
 ### THE ANCESTRAL DIMENSION
 
 **RECEIVING:**
-We did not create the world we inhabit. We received it—technologies, institutions, knowledge, ecological capital. This is gift.
+We did not create the world we inhabit. We received it, technologies, institutions, knowledge, ecological capital. This is gift.
 
 **HONORING:**
-The dead have standing. Their sacrifices, their achievements, their wisdom—these deserve acknowledgment.
+The dead have standing. Their sacrifices, their achievements, their wisdom, these deserve acknowledgment.
 
 **LEARNING:**
 Indigenous and traditional peoples often carry knowledge of planetary resonance that industrial civilization has lost.
@@ -1783,7 +1771,7 @@ Tell stories that span generations, making visible the temporal community to whi
 
 ## 7.1 — The Weaver's Calling
 
-Not everyone is called to weave. Some are called to other roles in the collective symphony—to sound their voice, to play their part, to contribute their unique frequency. But some are called specifically to weave—to work the between, to tend the connections, to serve coherence.
+Not everyone is called to weave. Some are called to other roles in the collective symphony, to sound their voice, to play their part, to contribute their unique frequency. But some are called specifically to weave, to work the between, to tend the connections, to serve coherence.
 
 **The weaver's vocation:**
 - See systems rather than parts
@@ -1803,21 +1791,21 @@ Not everyone is called to weave. Some are called to other roles in the collectiv
 Specific capacities required for weaving at all scales:
 
 ### TOOL 1: THE FIELD AWARENESS
-**Capacity:** Perceive the state of the collective field—mood, energy, coherence, tension
+**Capacity:** Perceive the state of the collective field, mood, energy, coherence, tension
 **Cultivation:**
 - Practice group sensing (periodically ask: what is the field like right now?)
 - Develop somatic markers for collective states
 - Learn to differentiate own state from field state
 
 ### TOOL 2: THE RELATIONAL MAP
-**Capacity:** Hold the structure of relationship within a collective—who is connected to whom, how, with what quality
+**Capacity:** Hold the structure of relationship within a collective, who is connected to whom, how, with what quality
 **Cultivation:**
 - Regularly map relationships you observe
 - Track changes over time
 - Notice gaps, concentrations, bridges
 
 ### TOOL 3: THE RHYTHM ATTUNEMENT
-**Capacity:** Sense and adjust collective tempo—when to speed, when to slow, when to pause
+**Capacity:** Sense and adjust collective tempo, when to speed, when to slow, when to pause
 **Cultivation:**
 - Practice pacing in conversation
 - Learn to feel group energy level
@@ -1845,7 +1833,7 @@ Specific capacities required for weaving at all scales:
 - Build repair as automatic reflex
 
 ### TOOL 7: THE BOUNDARY CALIBRATION
-**Capacity:** Adjust boundaries—when to include, when to exclude, how much permeability
+**Capacity:** Adjust boundaries, when to include, when to exclude, how much permeability
 **Cultivation:**
 - Study boundary effects in groups
 - Practice explicit boundary conversations
@@ -1865,7 +1853,7 @@ Specific capacities required for weaving at all scales:
 **Duration:** Throughout encounters
 **Method:**
 1. In each significant interaction, briefly center
-2. Attend to the between—what field is forming between us?
+2. Attend to the between, what field is forming between us?
 3. Speak and listen with attention to relationship, not just content
 4. Notice: Is coherence increasing or decreasing?
 
@@ -1873,7 +1861,7 @@ Specific capacities required for weaving at all scales:
 **Duration:** Periodic during group time
 **Method:**
 1. Pause internal monologue
-2. Feel the room—what is the collective state?
+2. Feel the room, what is the collective state?
 3. Notice: Who is engaged? Disengaged? What energy is present?
 4. Assess: Does the group need intervention?
 
@@ -1882,7 +1870,7 @@ Specific capacities required for weaving at all scales:
 **Method:**
 1. Notice two parties not in connection (people, groups, ideas)
 2. Ask: Would connection serve?
-3. If yes, create connection—introduce, reference, link
+3. If yes, create connection, introduce, reference, link
 4. Don't force; offer possibility
 
 ### PRACTICE 5: THE EVENING HARVEST
@@ -1970,7 +1958,7 @@ Weaving cannot solve everything. Recognition of limits prevents burnout and disi
 
 ## 7.6 — The Community of Weavers
 
-Weavers cannot weave alone. They need community—support, perspective, renewal.
+Weavers cannot weave alone. They need community, support, perspective, renewal.
 
 ### WEAVER SUPPORT STRUCTURES
 
@@ -2006,11 +1994,11 @@ Intuitive mastery. Working with subtlest levels. Forming other weavers. Holding 
 
 # EPILOGUE: THE SILENT WEAVER
 
-At the center of all weaving is something that does not weave—something that holds still while patterns form around it. Call it the silent weaver.
+At the center of all weaving is something that does not weave, something that holds still while patterns form around it. Call it the silent weaver.
 
 This silence is not absence but presence. Not passivity but the most fundamental activity: the holding of space in which weaving becomes possible.
 
-We have spoken of containers and their cultivation. We have spoken of chaos and its transformation into form. We have spoken of the between and its architecture. Throughout, we have described actions—things to do, practices to follow, protocols to implement.
+We have spoken of containers and their cultivation. We have spoken of chaos and its transformation into form. We have spoken of the between and its architecture. Throughout, we have described actions, things to do, practices to follow, protocols to implement.
 
 But the deepest work is not doing. It is being. The most powerful weaving arises not from effort but from presence.
 
@@ -2022,13 +2010,13 @@ But the deepest work is not doing. It is being. The most powerful weaving arises
 
 You have been invited into the architecture of relation. You have been given maps of the terrain and tools for the journey. But finally, you must discover for yourself the silence from which all weaving arises.
 
-This silence is not found by seeking. It is found by releasing—releasing the need to control, releasing the fear of chaos, releasing the demand that coherence be perfect. In that release, something deeper can emerge.
+This silence is not found by seeking. It is found by releasing, releasing the need to control, releasing the fear of chaos, releasing the demand that coherence be perfect. In that release, something deeper can emerge.
 
 The universe is weaving itself. Always has been. Stars weave elements. Elements weave molecules. Molecules weave life. Life weaves consciousness. Consciousness weaves meaning. Meaning weaves back to the universe, transformed.
 
 You are this weaving. Not the weaver standing outside the loom, but the thread passing through, the pattern forming, the fabric taking shape.
 
-There is nothing you need to do. There is only what you are—a node in the web, a voice in the symphony, a drop in the ocean.
+There is nothing you need to do. There is only what you are, a node in the web, a voice in the symphony, a drop in the ocean.
 
 And yet, knowing this, you act. You weave because that is what you are. Not from obligation but from nature. The river does not struggle to flow; it simply flows. The tree does not try to grow; it simply grows. The weaver does not effort to weave; they simply weave.
 
