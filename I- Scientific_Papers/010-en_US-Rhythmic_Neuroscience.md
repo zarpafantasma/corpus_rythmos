@@ -13,7 +13,7 @@
 
 We introduce Rhythmic Neuroscience (RTM-Neuro), an application of the Temporal Relativity in Multiscale Systems (RTM) framework to nervous tissue. RTM posits that the characteristic time to complete operations scales with spatial extent via a power law τ(L) ∝ L^α, where the coherence exponent α encodes the transport/organization class of the underlying medium. Lower α reflects faster decorrelation per added scale (fragmentation, advective spreading), whereas higher α reflects persistent multiscale integration (hierarchy, memory, recurrence).
 
-We advance three falsifiable hypotheses: (i) Access as coherence—during conscious wakefulness, α is elevated and stable over a decade in spatial scale, with successful collapse diagnostics indicating a regime where persistence increases sharply with extent; (ii) Task-locked binding—short-lived rises in α accompany binding and working-memory episodes, followed by normalization; (iii) Clinical fingerprints—disorders of consciousness show chronically low or unstable α, while certain depressive phenotypes show rigidly elevated plateaus.
+We advance three falsifiable hypotheses: (i) Access as coherence, during conscious wakefulness, α is elevated and stable over a decade in spatial scale, with successful collapse diagnostics indicating a regime where persistence increases sharply with extent; (ii) Task-locked binding, short-lived rises in α accompany binding and working-memory episodes, followed by normalization; (iii) Clinical fingerprints, disorders of consciousness show chronically low or unstable α, while certain depressive phenotypes show rigidly elevated plateaus.
 
 **Computational validation.** We implement and test the RTM-Neuro framework through three simulation suites. S1 demonstrates that the τ(L) ∝ L^α relationship produces distinct signatures across frequency bands (delta α ≈ 2.5, gamma α ≈ 1.5) and consciousness states (awake α ≈ 2.15, deep anesthesia α ≈ 1.45). S2 validates the estimation methodology: α is recoverable with \<2% error from noisy τ(L) data, robust to measurement noise up to σ ≈ 0.3, and yields large effect sizes (Cohen's d ≈ 2.85) for discriminating awake from anesthetized states. S3 models the threshold hypothesis: when α crosses a critical value (α_c ≈ 2.0), the system transitions between conscious and unconscious regimes, with transition dynamics matching observed LOC/ROC phenomenology in anesthesia.
 
@@ -27,7 +27,7 @@ Furthermore, we validate that the brain projects its multiscale topology into th
 
 **1.1 The open problem: from ingredients to access**
 
-Neuroscience has rich **ingredient lists** for cognition—oscillations, connectivity motifs, synaptic dynamics—but a persistent gap remains between the **presence of ingredients** and the **emergence of conscious access**. Power in a band, or even pairwise connectivity, does not guarantee that information can be *maintained and routed* across relevant spatial and temporal scales to support global availability. A practical, falsifiable marker of **multiscale integration capacity** is still missing.
+Neuroscience has rich **ingredient lists** for cognition, oscillations, connectivity motifs, synaptic dynamics, but a persistent gap remains between the **presence of ingredients** and the **emergence of conscious access**. Power in a band, or even pairwise connectivity, does not guarantee that information can be *maintained and routed* across relevant spatial and temporal scales to support global availability. A practical, falsifiable marker of **multiscale integration capacity** is still missing.
 
 **1.2 RTM in brief**
 
@@ -37,7 +37,7 @@ The RTM framework states that, within windows where a dominant mechanism holds, 
 T(L) = C\text{ }L^{\alpha},C > 0.
 ```
 
-The **exponent** $`\alpha = \frac{d\log T}{d\log L}`$ acts as an **operational fingerprint** of the transport/organization class: lower $`\alpha`$ reflects faster decorrelation per added scale (fragmentation/advective spreading), whereas higher $`\alpha`$ reflects **coherent, long-lived organization** whose persistence grows steeply with scale. RTM includes diagnostics—**slope stability** and **data collapse** under the correct $`\alpha`$—that make the claim testable rather than metaphorical.
+The **exponent** $`\alpha = \frac{d\log T}{d\log L}`$ acts as an **operational fingerprint** of the transport/organization class: lower $`\alpha`$ reflects faster decorrelation per added scale (fragmentation/advective spreading), whereas higher $`\alpha`$ reflects **coherent, long-lived organization** whose persistence grows steeply with scale. RTM includes diagnostics, **slope stability** and **data collapse** under the correct $`\alpha`$, that make the claim testable rather than metaphorical.
 
 **1.3 Specializing RTM to neural systems**
 
@@ -53,7 +53,7 @@ Estimating $`\alpha_{\text{neural}}`$ amounts to fitting the slope of $`\log T`$
 
 We advance three falsifiable hypotheses:
 
-1.  **Access as coherence:** During **conscious wakefulness**, $`\alpha_{\text{neural}}`$ is **elevated and stable** over a decade in scale, with successful collapse—indicating a regime where persistence increases sharply with spatial extent (multiscale integration). Under **general anesthesia** or deep NREM, $`\alpha_{\text{neural}}`$ **drops** and/or becomes **unstable**, reflecting fragmentation and reduced routing capacity.
+1.  **Access as coherence:** During **conscious wakefulness**, $`\alpha_{\text{neural}}`$ is **elevated and stable** over a decade in scale, with successful collapse, indicating a regime where persistence increases sharply with spatial extent (multiscale integration). Under **general anesthesia** or deep NREM, $`\alpha_{\text{neural}}`$ **drops** and/or becomes **unstable**, reflecting fragmentation and reduced routing capacity.
 
 2.  **Task-locked binding:** Short-lived **rises** in $`\alpha_{\text{neural}}`$ accompany **binding/working-memory** episodes (e.g., delay maintenance, perceptual integration), followed by normalization once the episode ends.
 
@@ -67,7 +67,7 @@ Because raw neurophysiological data (EEG/MEG) is notoriously noisy and heavily v
 
 **1.6. Empirical Validation: Cognitive Acoustic Emissions and Topological Friction (APPENDIX B)**
 
-If the human brain operates as an RTM-governed multiscale topological network (as demonstrated in Appendix A), the physical information it exports into the environment must carry the exact geometric signature of that network. To test this, we analyzed human-generated acoustic waves—specifically music and speech—and compared them against environmental soundscapes and physical material attenuation.
+If the human brain operates as an RTM-governed multiscale topological network (as demonstrated in Appendix A), the physical information it exports into the environment must carry the exact geometric signature of that network. To test this, we analyzed human-generated acoustic waves, specifically music and speech, and compared them against environmental soundscapes and physical material attenuation.
 
 Classical acoustics asserts that the attenuation of sound is a simple function of the square of the frequency. However, heuristic data shows complex systems exhibit ubiquitous "Pink Noise" (1/f) scaling. In Appendix B, we apply a robust "Red Team" analytical pipeline to prove that this 1/f signature is not a trivial artifact of generic complexity. We reframe acoustic attenuation as "Topological Friction," demonstrating how mechanical waves navigate the structural hierarchy of different media. By establishing these physical limits, we prove that the fractal timing and spectral slopes inherent in human music and language are direct, physical projections of the neural network's topological coherence layer.
 
@@ -124,7 +124,7 @@ Unless noted, we use $`T = T_{\rho}`$ (electrophysiology) and $`T = T_{\text{ER}
 | **Hierarchical integration** | Multiscale assemblies with corridor-like routing | $\alpha \in (2,3]$ |
 | **Strongly coherent** | Stabilized, long-lived multiscale integration (global access episodes) | $\alpha \gtrsim 2.5$ (heuristic upper band) |
 
-Higher $`\alpha`$means **persistence grows steeply with scale**—signals can be maintained/routed across larger extents without rapid decay.
+Higher $`\alpha`$means **persistence grows steeply with scale**, signals can be maintained/routed across larger extents without rapid decay.
 
 **2.5 Relation to spectra, waves, and conduction**
 
@@ -333,7 +333,7 @@ Exclude a window if any holds:
 
 - **Event alignment:** induction/recovery markers (anesthesia), sleep stage boundaries, task epochs, TMS timestamps.
 
-- **Collateral metrics:** spectral power, PCI-like complexity, traveling-wave velocity $`v_{\phi}`$, CFC strength—reported to test incremental value.
+- **Collateral metrics:** spectral power, PCI-like complexity, traveling-wave velocity $`v_{\phi}`$, CFC strength, reported to test incremental value.
 
 **3.11 Parameter YAML (template)**
 
@@ -685,7 +685,7 @@ Failing any primary falsifier leads to revising or rejecting RTM-Neuro’s centr
 
 **6. Clinical Applications**
 
-**Objective.** Translate $`\alpha_{\text{neural}}`$ —the RTM coherence exponent—into clinical biomarkers and control variables for **disorders of consciousness (DoC)** and **psychiatric rhythmopathies**, with protocols for **bedside monitoring** and **closed-loop neuromodulation**. We specify endpoints, falsifiers, and deployment details (QC, safety, interoperability).
+**Objective.** Translate $`\alpha_{\text{neural}}`$ , the RTM coherence exponent, into clinical biomarkers and control variables for **disorders of consciousness (DoC)** and **psychiatric rhythmopathies**, with protocols for **bedside monitoring** and **closed-loop neuromodulation**. We specify endpoints, falsifiers, and deployment details (QC, safety, interoperability).
 
 **6.1 Disorders of consciousness (coma/VS/MCS)**
 
@@ -731,7 +731,7 @@ DoC patients exhibit impaired long-range integration. RTM predicts **chronic red
 
 **6.2.1 Major depressive disorder (MDD)**
 
-**Hypothesis.** A subset shows **over-stabilized dynamics** (rigid high $`\alpha`$) with **low variance**—reduced cognitive flexibility; treatment responders show $`\alpha`$**normalization** (slight decrease and increased variance).
+**Hypothesis.** A subset shows **over-stabilized dynamics** (rigid high $`\alpha`$) with **low variance**, reduced cognitive flexibility; treatment responders show $`\alpha`$**normalization** (slight decrease and increased variance).
 
 **Design.** $`N \approx 120`$MDD (medication-free) + $`N \approx 120`$controls; resting EEG ± task (n-back).\
 **Endpoints.** Group Δ$`\widehat{\alpha}`$ and variance; **treatment tracking** (SSRI/TMS/ECT) over 6–8 weeks; mixed models relating Δ$`\alpha`$ to **HAM-D/MADRS** change.\
@@ -800,7 +800,7 @@ If $`\alpha`$ indexes multiscale integration, **steering** $`\alpha`$may restore
 
 **6.6 Summary (ready to keep as-is)**
 
-RTM-Neuro yields **decision-grade candidates** for clinical translation: a bedside **integration index** ($`\widehat{\alpha}`$ + collapse pass-rate) for **DoC** prognosis and monitoring; **state fingerprints** and **treatment-tracking** in **psychiatric rhythmopathies**; and a **closed-loop control variable** for neuromodulation that targets multiscale organization—not merely power or pairwise connectivity. Each claim is paired with **falsifiers**, QC gates, and patient-safe deployment pathways, enabling rigorous evaluation before routine clinical use.
+RTM-Neuro yields **decision-grade candidates** for clinical translation: a bedside **integration index** ($`\widehat{\alpha}`$ + collapse pass-rate) for **DoC** prognosis and monitoring; **state fingerprints** and **treatment-tracking** in **psychiatric rhythmopathies**; and a **closed-loop control variable** for neuromodulation that targets multiscale organization, not merely power or pairwise connectivity. Each claim is paired with **falsifiers**, QC gates, and patient-safe deployment pathways, enabling rigorous evaluation before routine clinical use.
 
 **7. Results Templates & Statistical Plan**
 
@@ -992,9 +992,9 @@ A window/epoch is **excluded** if any hold:
 
 **8. Discussion**
 
-**8.1 What** $`\mathbf{\alpha}_{\text{neural}}`$ **measures—an integration capacity, not a frequency**
+**8.1 What** $`\mathbf{\alpha}_{\text{neural}}`$ **measures, an integration capacity, not a frequency**
 
-Within RTM, the slope $`\alpha = d\ \log T/d\ \log L`$ quantifies **how persistence grows with scale**. In neural tissue, high and stable $`\alpha_{\text{neural}}`$ implies that signals can be **maintained and routed** as spatial extent increases—an operational marker of **multiscale integration**—whereas low or unstable $`\alpha`$ indicates **fragmentation**: rapid decorrelation per added millimeter or hop on the connectome. Unlike spectral power or band ratios, $`\alpha`$ is **scale-relational**: it compares *time* and *space* (or graph distance), not energy at a frequency.
+Within RTM, the slope $`\alpha = d\ \log T/d\ \log L`$ quantifies **how persistence grows with scale**. In neural tissue, high and stable $`\alpha_{\text{neural}}`$ implies that signals can be **maintained and routed** as spatial extent increases, an operational marker of **multiscale integration**, whereas low or unstable $`\alpha`$ indicates **fragmentation**: rapid decorrelation per added millimeter or hop on the connectome. Unlike spectral power or band ratios, $`\alpha`$ is **scale-relational**: it compares *time* and *space* (or graph distance), not energy at a frequency.
 
 **8.2 Relation to classical markers (power, connectivity, PCI)**
 
@@ -1002,11 +1002,11 @@ Within RTM, the slope $`\alpha = d\ \log T/d\ \log L`$ quantifies **how persiste
 
 - **Static/functional connectivity.** FC captures pairwise associations; $`\alpha`$summarizes **distance–time scaling** across many pairs simultaneously.
 
-- **PCI/perturbational complexity.** PCI quantifies spatiotemporal complexity after perturbation. $`\alpha`$complements PCI by asking whether **larger extents live longer**—two views of the same event space: *what the brain can express* (PCI) and *how long it can sustain expression as it spreads* ($`\alpha`$).
+- **PCI/perturbational complexity.** PCI quantifies spatiotemporal complexity after perturbation. $`\alpha`$complements PCI by asking whether **larger extents live longer**, two views of the same event space: *what the brain can express* (PCI) and *how long it can sustain expression as it spreads* ($`\alpha`$).
 
 **8.3 A mechanistic picture: waves, corridors, and gates**
 
-We interpret increases in $`\alpha`$ as the emergence of **routing corridors**—phase-aligned traveling waves, recurrent loops, and neuromodulatory gating—that **stiffen** large-scale organization. Decreases in $`\alpha`$reflect **shear and competition** among assemblies (wave break-up, desynchronizing inputs), shortening persistence as scale rises. Cross-frequency coupling (e.g., θ/α phase modulating γ bursts) provides a **bridge** that can elevate $`\alpha`$when sustained across parcels; failed CFC lowers it.
+We interpret increases in $`\alpha`$ as the emergence of **routing corridors**, phase-aligned traveling waves, recurrent loops, and neuromodulatory gating, that **stiffen** large-scale organization. Decreases in $`\alpha`$reflect **shear and competition** among assemblies (wave break-up, desynchronizing inputs), shortening persistence as scale rises. Cross-frequency coupling (e.g., θ/α phase modulating γ bursts) provides a **bridge** that can elevate $`\alpha`$when sustained across parcels; failed CFC lowers it.
 
 **8.4 Where RTM-Neuro could fail (scientific falsifiers)**
 
@@ -1083,7 +1083,7 @@ If borne out, three payoffs follow:
 3.  a **causal handle** for intervention design (target ranges of $`\alpha`$, task-locked modulation).\
     If refuted by preregistered falsifiers (no slope stability, no collapse, no incremental value), RTM-Neuro still advances the field by **narrowing** where and when multiscale organization governs access.
 
-In sum, RTM-Neuro repositions consciousness and cognition research on a **scaling-law foundation**: what matters is not only *how strong* local signals are, but **how their persistence grows with reach**. That simple question—captured by $`\alpha_{\text{neural}}`$—is measurable, auditable, and actionable.
+In sum, RTM-Neuro repositions consciousness and cognition research on a **scaling-law foundation**: what matters is not only *how strong* local signals are, but **how their persistence grows with reach**. That simple question, captured by $`\alpha_{\text{neural}}`$, is measurable, auditable, and actionable.
 
 **10. Computational Validation of RTM-Neuro Framework**
 
@@ -1149,7 +1149,7 @@ Consciousness states map to characteristic α values:
 
 > [!NOTE]
 > **Clarification on Delta Dominance vs. Global Fragmentation:**
-> *It may appear counterintuitive that the Delta frequency band inherently possesses a high structural coherence ($\alpha \approx 2.5$), yet the NREM N3 sleep state—which is heavily dominated by Delta activity—exhibits a globally collapsed exponent ($\alpha = 1.50$). Under the RTM framework, this resolves cleanly by distinguishing local generator coherence from global transport topology. In N3, while individual Delta waves represent highly structured local synchrony, the cross-cortical network is topologically fragmented. Consequently, global multiscale integration fails, driving the macroscopic state exponent down to an advective/diffusive regime ($\alpha = 1.50$), precisely mirroring the loss of conscious access.*
+> *It may appear counterintuitive that the Delta frequency band inherently possesses a high structural coherence ($\alpha \approx 2.5$), yet the NREM N3 sleep state, which is heavily dominated by Delta activity, exhibits a globally collapsed exponent ($\alpha = 1.50$). Under the RTM framework, this resolves cleanly by distinguishing local generator coherence from global transport topology. In N3, while individual Delta waves represent highly structured local synchrony, the cross-cortical network is topologically fragmented. Consequently, global multiscale integration fails, driving the macroscopic state exponent down to an advective/diffusive regime ($\alpha = 1.50$), precisely mirroring the loss of conscious access.*
 
 **10.2.4 Recovery Validation**
 
