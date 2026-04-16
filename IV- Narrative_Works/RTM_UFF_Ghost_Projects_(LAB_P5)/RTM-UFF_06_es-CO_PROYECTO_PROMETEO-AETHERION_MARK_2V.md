@@ -82,7 +82,7 @@ describe transferencia de potencia, no fuerza. El Mark 1 convierte esta potencia
 
 ### 1.2 Simetría vs. Asimetría
 
-El Mark 1 requiere asimetría para producir empuje neto. Un gradiente simétrico produciría fuerzas iguales y opuestas—empuje neto cero.
+El Mark 1 requiere asimetría para producir empuje neto. Un gradiente simétrico produciría fuerzas iguales y opuestas, empuje neto cero.
 
 PROMETEO no tiene tal requisito. Los gradientes simétricos son *preferidos* porque:
 - Máximo (Δα) total alcanzable
@@ -92,7 +92,7 @@ PROMETEO no tiene tal requisito. Los gradientes simétricos son *preferidos* por
 
 ### 1.3 La Metáfora de Prometeo
 
-Prometeo robó el fuego de los dioses. PROMETEO roba energía del vacío—el "fuego" más fundamental en física.
+Prometeo robó el fuego de los dioses. PROMETEO roba energía del vacío, el "fuego" más fundamental en física.
 
 ---
 
