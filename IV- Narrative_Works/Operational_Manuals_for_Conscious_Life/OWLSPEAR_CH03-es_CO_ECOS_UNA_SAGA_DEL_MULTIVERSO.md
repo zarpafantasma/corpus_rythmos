@@ -29,12 +29,12 @@
     │      La forma que seguimos no es una cadena; es música.                 │
     │      Dentro de su pulso, cada quien puede firmar                        │
     │      una variación que valga la pena.                                   │
-    │      Y si lo hacemos con cuidado, quien venga después —                 │
-    │      otro eco, en otro tramo —                                          │
+    │      Y si lo hacemos con cuidado, quien venga después                   │
+    │      otro eco, en otro tramo                                            │
     │      podrá reconocer, desde lejos,                                      │
     │      que aquí alguien tocó con claridad."                               │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -65,7 +65,7 @@
 
 ### 1.1 No Mundos Paralelos
 
-Aquí llamamos "multiverso" —en el sentido del RTM— a algo específico:
+Aquí llamamos "multiverso", en el sentido del RTM, a algo específico:
 
 ```
 QUÉ ENTENDEMOS POR MULTIVERSO
@@ -337,7 +337,7 @@ CUANDO LA MECÁNICA SE VUELVE VISIBLE
 
     EN OCASIONES:
     ─────────────
-    Ciertos estados de atención —
+    Ciertos estados de atención.
     
     • Una lucidez poco común.
     • Una experiencia visionaria.
@@ -1408,8 +1408,8 @@ LA VERDAD
     
     Y SI LO HACEMOS CON CUIDADO:
     ────────────────────────────
-    Quien venga después —
-    otro eco, en otro tramo —
+    Quien venga después,
+    otro eco, en otro tramo.
     
     Podrá reconocer, desde lejos,
     que aquí ALGUIEN TOCÓ CON CLARIDAD.
@@ -1485,7 +1485,7 @@ PRINCIPIOS FUNDAMENTALES
 ```
     ┌─────────────────────────────────────────────────────────────────────────┐
     │                                                                         │
-    │     En algún momento, un acto ocurre —como una voz que habla            │
+    │     En algún momento, un acto ocurre como una voz que habla             │
     │     en un túnel— y lo que llamamos "realidades" son ecos de ese acto    │
     │     viajando a diferentes distancias, con diferentes volúmenes          │
     │     y timbres.                                                          │
@@ -1496,8 +1496,8 @@ PRINCIPIOS FUNDAMENTALES
     │     completos y responsables, pero sujetos por la estructura            │
     │     a lo que nos precede.                                               │
     │                                                                         │
-    │     Hay dirección — eso es el destino.                                  │
-    │     Hay elección — eso es el estilo.                                    │
+    │     Hay dirección, eso es el destino.                                   │
+    │     Hay elección, eso es el estilo.                                     │
     │     No escribimos el origen;                                            │
     │     escribimos la manera en que se escucha aquí.                        │
     │                                                                         │
@@ -1511,7 +1511,7 @@ PRINCIPIOS FUNDAMENTALES
     │     que valga la pena.                                                  │
     │                                                                         │
     │     Y si lo hacemos con cuidado,                                        │
-    │     quien venga después — otro eco, en otro tramo —                     │
+    │     quien venga después, otro eco, en otro tramo                        │
     │     podrá reconocer, desde lejos,                                       │
     │     que aquí alguien tocó con claridad.                                 │
     │                                                                         │
@@ -1591,7 +1591,7 @@ Aplicación:      Universal (todos los seres conscientes)
 
 ---
 
-*"Somos un eco con voz propia. La forma que seguimos no es una cadena; es música. Dentro de su pulso, cada quien puede firmar una variación que valga la pena. Y si lo hacemos con cuidado, quien venga después — otro eco, en otro tramo — podrá reconocer, desde lejos, que aquí alguien tocó con claridad."*
+*"Somos un eco con voz propia. La forma que seguimos no es una cadena; es música. Dentro de su pulso, cada quien puede firmar una variación que valga la pena. Y si lo hacemos con cuidado, quien venga después, otro eco, en otro tramo, podrá reconocer, desde lejos, que aquí alguien tocó con claridad."*
 
 ---
 
