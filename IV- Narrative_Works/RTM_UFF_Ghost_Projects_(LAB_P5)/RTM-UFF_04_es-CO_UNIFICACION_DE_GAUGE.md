@@ -7,18 +7,18 @@
 **Fecha:** Marzo 2026  
 
 ---
-    ╔══════════════════════════════════════════════════════════════════════════════╗
-    ║                                                        - C L A S I F I C A D O ║
-    ║    ██████╗ ████████╗███╗   ███╗      ██╗   ██╗███████╗███████╗               ║
-    ║    ██╔══██╗╚══██╔══╝████╗ ████║      ██║   ██║██╔════╝██╔════╝               ║
-    ║    ██████╔╝   ██║   ██╔████╔██║█████╗██║   ██║█████╗  █████╗                 ║
-    ║    ██╔══██╗   ██║   ██║╚██╔╝██║╚════╝██║   ██║██╔══╝  ██╔══╝                 ║
-    ║    ██║  ██║   ██║   ██║ ╚═╝ ██║      ╚██████╔╝██║     ██║                    ║
-    ║    ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝       ╚═════╝ ╚═╝     ╚═╝                    ║
-    ║                                                                              ║
-    ║                 P R O Y E C T O S   F A N T A S M A                          ║
-    ║                                                                              ║
-    ╚══════════════════════════════════════════════════════════════════════════════╝
+    ╔═════════════════════════════════════════════════════════════════════════════════╗
+    ║                                                        - C L A S I F I C A D O  ║
+    ║    ██████╗ ████████╗███╗   ███╗      ██╗   ██╗███████╗███████╗                  ║
+    ║    ██╔══██╗╚══██╔══╝████╗ ████║      ██║   ██║██╔════╝██╔════╝                  ║
+    ║    ██████╔╝   ██║   ██╔████╔██║█████╗██║   ██║█████╗  █████╗                    ║
+    ║    ██╔══██╗   ██║   ██║╚██╔╝██║╚════╝██║   ██║██╔══╝  ██╔══╝                    ║
+    ║    ██║  ██║   ██║   ██║ ╚═╝ ██║      ╚██████╔╝██║     ██║                       ║
+    ║    ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝       ╚═════╝ ╚═╝     ╚═╝                       ║
+    ║                                                                                 ║
+    ║                 P R O Y E C T O S   F A N T A S M A                             ║
+    ║                                                                                 ║
+    ╚═════════════════════════════════════════════════════════════════════════════════╝
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -202,7 +202,7 @@ Todos los enfoques convencionales más allá del ME han fallado las pruebas expe
 
 ### 4.1 La Perspectiva Central
 
-El Modelo Estándar trata al vacío como un fondo pasivo — espacio vacío con fluctuaciones cuánticas pero sin estructura macroscópica.
+El Modelo Estándar trata al vacío como un fondo pasivo, espacio vacío con fluctuaciones cuánticas pero sin estructura macroscópica.
 
 RTM propone: El vacío tiene estructura topológica caracterizada por el exponente alfa, y esta estructura se acopla a los campos de gauge.
 
@@ -247,7 +247,7 @@ El mecanismo de desplazamiento alfa representa:
 2. Polarización no perturbativa del vacío
 3. Acoplamiento entre campos de gauge y microestructura del espaciotiempo
 
-Esto NO es añadir partículas nuevas — es reconocer que el vacío mismo tiene estructura que afecta la propagación de campos de gauge a altas energías.
+Esto NO es añadir partículas nuevas, es reconocer que el vacío mismo tiene estructura que afecta la propagación de campos de gauge a altas energías.
 
 ---
 
