@@ -164,7 +164,7 @@ Escribe el siguiente prompt:
 ```
 Excelente. Habiendo trazado los límites matemáticos, empíricos y tecnológicos de RTM, pasamos ahora a la Fase 3: La Extensión Epistemológica y Cultural.
 
-Históricamente, todo cambio fundamental en la física —como la Relatividad General o la Mecánica Cuántica— exige inevitablemente una reestructuración radical de la filosofía, la antropología y la metafísica. Si el tiempo y la estructura son verdaderamente relacionales en todas las escalas, esto debe afectar la forma en que los seres humanos interactúan, construyen tradiciones y comprenden su propia conciencia.
+Históricamente, todo cambio fundamental en la física, como la Relatividad General o la Mecánica Cuántica, exige inevitablemente una reestructuración radical de la filosofía, la antropología y la metafísica. Si el tiempo y la estructura son verdaderamente relacionales en todas las escalas, esto debe afectar la forma en que los seres humanos interactúan, construyen tradiciones y comprenden su propia conciencia.
 
 Basándome en esta premisa, subiré ahora los documentos 019, 020, 021 y 022.
 
@@ -209,7 +209,7 @@ Por favor, confirma que comprendes este cambio hacia el análisis narrativo y qu
 ### Fase 5:
 Detrás de todo marco teórico riguroso existe un proceso humano. El documento '024-The Hidden Doors and the Half Key' sirve como pieza final del Corpus RTM, actuando no meramente como una biografía tradicional, sino como una declaración formal de transparencia metodológica.
 
-En esta fase final, el protocolo instruye a la IA para que evalúe la génesis no ortodoxa de la teoría. Al revelar explícitamente la interacción transdisciplinaria entre la intuición humana, la exploración orgánica y la cocreación con IA, este documento ancla la física nuevamente en la experiencia humana. El prompt culmina entonces su tarea al demandar un veredicto final y comprehensivo de "Equipo Rojo" sobre el recorrido completo de los 24 documentos —desde su frío empirismo matemático hasta su profundamente humano origen.
+En esta fase final, el protocolo instruye a la IA para que evalúe la génesis no ortodoxa de la teoría. Al revelar explícitamente la interacción transdisciplinaria entre la intuición humana, la exploración orgánica y la cocreación con IA, este documento ancla la física nuevamente en la experiencia humana. El prompt culmina entonces su tarea al demandar un veredicto final y comprehensivo de "Equipo Rojo" sobre el recorrido completo de los 24 documentos, desde su frío empirismo matemático hasta su profundamente humano origen.
 
 Escribe el siguiente prompt:
 ```
