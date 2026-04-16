@@ -245,7 +245,6 @@ El corpus comprende **24 documentos** a través de cinco categorías:
 | 023-Recuerda, la Llama Eterna | Ficción | Novela que mitologiza el marco | CARPETA IV |
 | +Prototipo Aetherion Mark1 (LAB 7Z) | Especulativo/Narrativo | Tecnología Antigravedad y Herramientas Relacionadas | CARPETA IV |
 | +Protocolo N1_ARQUITECTO | Especulativo/Narrativo | Protocolos de Civilización Entre-Ramas | CARPETA IV |
-| +Manuales_Operacionales_para_Vida_Consciente | Operativo/Narrativo | Actualización Ontológica | CARPETA IV |
 | +Proyectos RTT-UFF G.H.O.S.T (LAB P5) | Especulativo/Narrativo | Bomba de Vacío ZPE y Hallazgos del MCU | CARPETA IV |
 
 ### Personal
