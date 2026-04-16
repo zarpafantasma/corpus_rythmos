@@ -12,8 +12,8 @@
     ║                                                                  ║
     ║    INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ITTA)      ║
     ║                                                                  ║
-    ║    "La gravedad no es una restricción fundamental de la         ║
-    ║   metalurgia. Es simplemente una variable ambiental—una que     ║
+    ║    "La gravedad no es una restricción fundamental de la          ║
+    ║   metalurgia. Es simplemente una variable ambiental, una que     ║
     ║                   ahora podemos controlar."                      ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
@@ -46,13 +46,13 @@
 
 ### 1.1 La Visión
 
-Cada material que usamos—cada aleación, cada cristal, cada compuesto—fue formado bajo la tiranía de la gravedad terrestre. Durante 10.000 años de historia metalúrgica, la gravedad ha sido una restricción invisible pero absoluta, dictando qué materiales son posibles y cuáles permanecen para siempre fuera de alcance.
+Cada material que usamos, cada aleación, cada cristal, cada compuesto, fue formado bajo la tiranía de la gravedad terrestre. Durante 10.000 años de historia metalúrgica, la gravedad ha sido una restricción invisible pero absoluta, dictando qué materiales son posibles y cuáles permanecen para siempre fuera de alcance.
 
 Las agencias espaciales han sabido por mucho tiempo que los entornos de microgravedad permiten la creación de materiales imposibles de sintetizar en la Tierra. La Estación Espacial Internacional ha producido fibra óptica superior, cristales de proteínas perfectos y aleaciones novedosas. Pero a más de $20.000 por kilogramo a órbita, la manufactura espacial sigue siendo económicamente impracticable.
 
 RTM ofrece una alternativa radical: **traer la microgravedad a la Tierra**.
 
-El concepto de la Forja Aetherion aprovecha el gradiente topológico (∇α) para crear zonas localizadas donde la fuerza gravitacional efectiva se anula o se controla con precisión. Dentro de estas "burbujas de estasis topológica", los materiales pueden procesarse como si estuvieran en órbita—sin el cohete, sin la estación espacial, sin los costos astronómicos.
+El concepto de la Forja Aetherion aprovecha el gradiente topológico (∇α) para crear zonas localizadas donde la fuerza gravitacional efectiva se anula o se controla con precisión. Dentro de estas "burbujas de estasis topológica", los materiales pueden procesarse como si estuvieran en órbita, sin el cohete, sin la estación espacial, sin los costos astronómicos.
 
 ### 1.2 Hipótesis Central
 
@@ -62,7 +62,7 @@ HIPÓTESIS CENTRAL
 
 Si el mecanismo de propulsión Aetherion genera empuje creando
 gradientes topológicos asimétricos, entonces una configuración
-SIMÉTRICA debería crear LEVITACIÓN—anulación gravitacional localizada.
+SIMÉTRICA debería crear LEVITACIÓN, anulación gravitacional localizada.
 
     MODO PROPULSIÓN (Aetherion Mark 1):
     
@@ -461,30 +461,30 @@ Bajo gravedad normal (1G), las fuerzas macroscópicas dominan:
         
     Ratio: F_enlace / F_gravedad ≈ 10¹⁶
     
-    Espera—¡la fuerza de enlace es MUCHO mayor que la gravedad!
+    Espera, ¡la fuerza de enlace es MUCHO mayor que la gravedad!
     
     Entonces, ¿por qué gana la gravedad?
     
     RESPUESTA: No se trata de átomos individuales.
                Se trata de la DERIVA ESTADÍSTICA de miles de millones de átomos.
     
-    ┌─────────────────────────────────────────────────────────────────────┐
-    │                                                                     │
-    │   En metal fundido, los átomos se mueven aleatoriamente (mov.       │
-    │   térmico). Velocidad térmica promedio a 1700°C: ~500 m/s           │
-    │                                                                     │
-    │   Pero hay un pequeño SESGO debido a la gravedad:                   │
-    │   Átomos pesados derivan ABAJO a ~1 mm/s                            │
-    │   Átomos ligeros derivan ARRIBA a ~1 mm/s                           │
-    │                                                                     │
-    │   En 60 segundos:                                                   │
-    │   • 6 cm de separación                                              │
-    │   • Miles de millones de átomos ahora en lugar equivocado           │
-    │   • No pueden formar enlaces apropiados con átomos "compañeros"     │
-    │                                                                     │
-    │   LA GRAVEDAD NO ROMPE ENLACES—IMPIDE QUE SE FORMEN.                │
-    │                                                                     │
-    └─────────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │                                                                      │
+    │   En metal fundido, los átomos se mueven aleatoriamente (mov.        │
+    │   térmico). Velocidad térmica promedio a 1700°C: ~500 m/s            │
+    │                                                                      │
+    │   Pero hay un pequeño SESGO debido a la gravedad:                    │
+    │   Átomos pesados derivan ABAJO a ~1 mm/s                             │
+    │   Átomos ligeros derivan ARRIBA a ~1 mm/s                            │
+    │                                                                      │
+    │   En 60 segundos:                                                    │
+    │   • 6 cm de separación                                               │
+    │   • Miles de millones de átomos ahora en lugar equivocado            │
+    │   • No pueden formar enlaces apropiados con átomos "compañeros"      │
+    │                                                                      │
+    │   LA GRAVEDAD NO ROMPE ENLACES, IMPIDE QUE SE FORMEN.                │
+    │                                                                      │
+    └──────────────────────────────────────────────────────────────────────┘
 
 
 Bajo estasis topológica (g ≈ 0):
@@ -501,7 +501,7 @@ Bajo estasis topológica (g ≈ 0):
     
     ┌────────────────────────────────────────────────────────────────────┐
     │                                                                    │
-    │   Átomos de Ti y Al mezclados:   Se forman enlaces Ti-Al:         │
+    │   Átomos de Ti y Al mezclados:   Se forman enlaces Ti-Al:          │
     │                                                                    │
     │   Ti ○ Al ○ Ti ○ Al            Ti─Al─Ti─Al                         │
     │   ○ Ti ○ Al ○ Ti ○      →      │  │  │  │                          │
@@ -818,7 +818,7 @@ IMPACTO POTENCIAL:
 PROBLEMA DE CRISTALIZACIÓN
 ════════════════════════════════════════════════════════════════════════════════
 
-ZBLAN es un vidrio—debería ser amorfo (sin estructura cristalina).
+ZBLAN es un vidrio, debería ser amorfo (sin estructura cristalina).
 Pero en la Tierra, siempre cristaliza parcialmente.
 
     ENFRIAMIENTO BAJO GRAVEDAD:
@@ -1446,7 +1446,7 @@ RESULTADO:
 ESTRUCTURAS RETICULARES DE METAMATERIALES DE DISEÑO
 ════════════════════════════════════════════════════════════════════════════════
 
-Los metamateriales tienen propiedades que no se encuentran en la naturaleza—
+Los metamateriales tienen propiedades que no se encuentran en la naturaleza, 
 coeficiente de Poisson negativo, índice de refracción negativo, relaciones
 rigidez/peso extremas.
 
@@ -2355,7 +2355,7 @@ CAPTURA REALISTA (Año 10): $500M-1 MM/año
 
 ### 18.1 Resumen
 
-La Forja Aetherion representa una aplicación potencialmente transformadora de la tecnología RTM a la ciencia de materiales. Al crear condiciones de microgravedad localizada en la Tierra, podríamos fabricar materiales actualmente imposibles de producir—o solo producibles en el ambiente prohibitivamente caro del espacio.
+La Forja Aetherion representa una aplicación potencialmente transformadora de la tecnología RTM a la ciencia de materiales. Al crear condiciones de microgravedad localizada en la Tierra, podríamos fabricar materiales actualmente imposibles de producir, o solo producibles en el ambiente prohibitivamente caro del espacio.
 
 | Aplicación | Limitación Actual | Solución Forja |
 |------------|-------------------|----------------|
@@ -2399,7 +2399,7 @@ CIENCIA DE MATERIALES:
     • Ciencia digna de Premio Nobel
 
 ESTO SERÍA LA CUARTA REVOLUCIÓN INDUSTRIAL.
-No automatización de procesos existentes—
+No automatización de procesos existentes, 
 Creación de materiales y capacidades enteramente nuevos.
 ```
 
