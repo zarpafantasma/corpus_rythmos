@@ -32,7 +32,7 @@
     │      Pero lo que suele obtenerse no es oro, sino una aleación gris      │
     │      sin memoria de lo que fue."                                        │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -61,7 +61,7 @@
 
 ### 1.1 El Error que Nos Enseñaron
 
-Nos han enseñado que la verdadera conexión requiere disolución. Que para encontrarse de verdad con otro —ya sea una persona, un grupo, una idea o una práctica— debemos renunciar a nuestros límites, abandonar nuestra forma distintiva y fusionarnos en una unidad donde los "dos" se vuelven "uno."
+Nos han enseñado que la verdadera conexión requiere disolución. Que para encontrarse de verdad con otro, ya sea una persona, un grupo, una idea o una práctica, debemos renunciar a nuestros límites, abandonar nuestra forma distintiva y fusionarnos en una unidad donde los "dos" se vuelven "uno."
 
 Esta es la romántica de la fusión. Aparece en las historias de amor ("dos mitades que se completan"), en las enseñanzas espirituales ("disuelve el ego"), en las ideologías políticas ("el colectivo por encima del individuo") y en las culturas corporativas ("no hay 'yo' en el equipo").
 
@@ -772,7 +772,7 @@ EL ESPECTRO DE ACOPLAMIENTO
     ──────────────────────────
     • Los límites colapsan.
     • Las formas distintas se pierden.
-    • No hay tercer cuerpo — solo una entidad fusionada.
+    • No hay tercer cuerpo, solo una entidad fusionada.
     • Agotamiento, no enriquecimiento.
     
     Ejemplo: Codependencia, pensamiento de grupo, dinámicas de secta.
@@ -1064,7 +1064,7 @@ ALINEACIÓN CON LAS HERRAMIENTAS
     El humano permanece soberano; la herramienta es instrumental.
     Ambos contribuyen; ninguno domina.
     
-    Ejemplo: El uso hábil de cualquier herramienta — desde un martillo hasta una computadora.
+    Ejemplo: El uso hábil de cualquier herramienta, desde un martillo hasta una computadora.
     
     
     EL CRITERIO:
@@ -1176,7 +1176,7 @@ ALINEACIÓN ESPIRITUAL
     • Te abres a la resonancia con algo mayor.
     • Emerge un tercer cuerpo: el encuentro sagrado.
     • El encuentro te transforma.
-    • Pero regresas siendo tú mismo — potenciado, no borrado.
+    • Pero regresas siendo tú mismo, potenciado, no borrado.
     
     
     LA DIFERENCIA PRÁCTICA:
@@ -1227,7 +1227,7 @@ LA NECESIDAD DE LOS LÍMITES
     • No puedes saber qué eres tú y qué es el otro.
     • No puedes proteger tu propia coherencia.
     • No puedes ofrecer nada distinto.
-    • No estás disponible para la alineación — solo para la disolución.
+    • No estás disponible para la alineación, solo para la disolución.
     
     
     CON LÍMITES:
@@ -1362,7 +1362,7 @@ RECUPERACIÓN DE LA FUSIÓN
     
     5. RENEGOCIA LA RELACIÓN
        Si la relación puede sobrevivir a los límites, crecerá.
-       Si no puede sobrevivir a los límites, no era alineación — era consumo.
+       Si no puede sobrevivir a los límites, no era alineación, era consumo.
        Cualquier resultado es información.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -1483,7 +1483,7 @@ PRÁCTICA DIARIA
     │                                                                         │
     │     Esa es la matemática de la media llave.                             │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
