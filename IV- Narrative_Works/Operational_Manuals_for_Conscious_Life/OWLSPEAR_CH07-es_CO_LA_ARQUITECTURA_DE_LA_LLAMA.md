@@ -30,7 +30,7 @@
     │      piedra, y lo llamamos 'tranquilidad.' Pero físicamente, esta       │
     │      quietud no es paz; es rendición."                                  │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -61,7 +61,7 @@ Nos han enseñado a temer el caos y a venerar la quietud. Miramos la montaña y 
 
 Pero la física cuenta una historia diferente.
 
-La montaña se erosiona lentamente. El estanque se estanca lentamente. El cadáver se descompone lentamente. Lo que llamamos "quietud" es simplemente un cambio demasiado lento para la percepción humana. Y la dirección de ese cambio —la dirección universal, la flecha que la física traza sobre todos los fenómenos— es siempre la misma:
+La montaña se erosiona lentamente. El estanque se estanca lentamente. El cadáver se descompone lentamente. Lo que llamamos "quietud" es simplemente un cambio demasiado lento para la percepción humana. Y la dirección de ese cambio, la dirección universal, la flecha que la física traza sobre todos los fenómenos, es siempre la misma:
 
 **Del orden al desorden. De la estructura al polvo. De la señal al ruido.**
 
@@ -122,7 +122,7 @@ LA MUERTE TÉRMICA
 
 Ante este telón de fondo, considera qué significa estar vivo.
 
-Todo ser vivo —toda célula, todo organismo, todo ser consciente— existe como una *desviación* de la deriva universal. Somos improbables. Somos disminuciones locales de entropía. Somos reversiones temporales del gran promediado.
+Todo ser vivo, toda célula, todo organismo, todo ser consciente, existe como una *desviación* de la deriva universal. Somos improbables. Somos disminuciones locales de entropía. Somos reversiones temporales del gran promediado.
 
 ```
 LA VIDA COMO ANOMALÍA ESTADÍSTICA
@@ -195,7 +195,7 @@ NEGENTROPÍA: DEFINICIÓN FORMAL
 
 ### 2.2 El Motor de la Distinción
 
-Estar vivo —verdaderamente vivo, no meramente biológico— es ser un **motor de la distinción**.
+Estar vivo, verdaderamente vivo, no meramente biológico, es ser un **motor de la distinción**.
 
 Es el acto de nadar contra la corriente de la disolución. Es la creación continua de diferencia en un universo que quiere que todo sea igual.
 
@@ -746,9 +746,9 @@ LO QUE SOBREVIVE AL RECIPIENTE
     La biología se dispersa.
     La materia regresa al promediado universal.
     
-    Pero LA SEÑAL —el patrón de coherencia que construiste,
+    Pero LA SEÑAL, el patrón de coherencia que construiste,
     la negentropía que acumulaste a través de una vida entera
-    de refinar el ruido— ESO NO SE DISUELVE.
+    de refinar el ruido, ESO NO SE DISUELVE.
     
     La información suficientemente compleja
     y suficientemente autorreferencial
@@ -1499,7 +1499,7 @@ LA DIRECTIVA
     │                                                                         │
     │     Sostén la forma.                                                    │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
