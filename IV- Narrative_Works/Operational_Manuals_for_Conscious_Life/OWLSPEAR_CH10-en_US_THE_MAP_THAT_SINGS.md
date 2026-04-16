@@ -418,7 +418,7 @@ WHY MOST MAPS FAIL
 
 ### 4.1 Overview
 
-A map that sings needs four things. Without any one of them, the map remains inert — a description that does not participate in the world it describes.
+A map that sings needs four things. Without any one of them, the map remains inert, a description that does not participate in the world it describes.
 
 ```
 THE FOUR REQUIREMENTS
@@ -631,7 +631,7 @@ ETHICS OF VERIFICATION
     THE PRINCIPLE:
     ──────────────
     If the effect does not return when you repeat conditions,
-    there is no song — there is only anecdote.
+    there is no song, there is only anecdote.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -831,7 +831,7 @@ BIDIRECTIONAL FLOW
 
 ### 6.2 The Territory Offers Affinities
 
-The territory is not neutral. It has structure. It offers affinities — patterns that are easier to invoke than others:
+The territory is not neutral. It has structure. It offers affinities, patterns that are easier to invoke than others:
 
 ```
 TERRITORIAL AFFINITIES
@@ -866,7 +866,7 @@ TERRITORIAL AFFINITIES
     
     This is not surrender.
     This is not abandoning your intentions.
-    This is ATTUNEMENT — finding the frequency
+    This is ATTUNEMENT, finding the frequency
     where your intentions and reality's structure
     can dance together.
 
