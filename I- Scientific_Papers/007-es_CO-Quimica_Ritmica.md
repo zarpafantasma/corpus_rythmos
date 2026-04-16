@@ -11,7 +11,7 @@
 
 **Resumen**
 
-La cinética química convencional trata al entorno de reacción como un baño pasivo y modela las constantes de velocidad k mediante dependencias de temperatura tipo Arrhenius/Eyring. Proponemos la Química Rítmica, un marco fundamentado en la Relatividad Temporal en Sistemas Multiescala (RTM), donde el tiempo característico del proceso τ escala con una longitud efectiva L como τ ∝ L^α. En esta perspectiva, k no es fundamental sino que emerge del sistema acoplado reactivo-entorno y depende del exponente de coherencia α del entorno. Describimos un vínculo teórico entre α y tanto la cinética como la selectividad, y diseñamos experimentos falsificables—sonoquímica impulsada por coherencia de cavitación y química controlada por cavidades—para probar la modulación predicha de k y las proporciones de productos mediante α.
+La cinética química convencional trata al entorno de reacción como un baño pasivo y modela las constantes de velocidad k mediante dependencias de temperatura tipo Arrhenius/Eyring. Proponemos la Química Rítmica, un marco fundamentado en la Relatividad Temporal en Sistemas Multiescala (RTM), donde el tiempo característico del proceso τ escala con una longitud efectiva L como τ ∝ L^α. En esta perspectiva, k no es fundamental sino que emerge del sistema acoplado reactivo-entorno y depende del exponente de coherencia α del entorno. Describimos un vínculo teórico entre α y tanto la cinética como la selectividad, y diseñamos experimentos falsificables, sonoquímica impulsada por coherencia de cavitación y química controlada por cavidades, para probar la modulación predicha de k y las proporciones de productos mediante α.
 
 **Validación computacional.** Implementamos y probamos el marco de química RTM a través de tres conjuntos de simulaciones. S1 demuestra que la cinética de Arrhenius modificada por RTM (k ∝ L^(−α) × exp(−E_a/RT)) produce diferencias medibles respecto a la cinética clásica, con el exponente de coherencia α recuperable a partir de datos de confinamiento isotérmico con un error del 2.2%. El modelo predice un mejoramiento de la velocidad de 200× a un confinamiento de 10 nm para α = 2.3. S2 aplica RTM a geometrías de reactores prácticos, prediciendo factores de mejora de 5× para materiales mesoporosos (poros de 10 nm, α = 2.2) hasta >5000× para sistemas microporosos (2 nm), mientras considera las limitaciones de difusión mediante análisis del módulo de Thiele. S3 demuestra selectividad ajustable por confinamiento: para reacciones competitivas con diferentes valores de α, la selectividad puede mejorarse 6× o más con tamaños de poro de 1 nm, con predicciones explícitas para zeolitas (ZSM-5, mordenita, faujasita) y MOFs (ZIF-8, UiO-66, MIL-101).
 
@@ -23,9 +23,9 @@ Para probar concluyentemente la universalidad invariante de escala de estas clas
 
 **1. Introducción**
 
-Predecir y controlar las rutas de reacción es central para la química moderna. El **modelo estándar**—encapsulado por Arrhenius/Eyring—captura exitosamente la temperatura y las barreras de activación pero trata al **entorno de reacción como pasivo**. Sin embargo, múltiples dominios sugieren lo contrario: la **sonoquímica**, la **mecanoquímica**, y la **química polaritónica/de cavidad** muestran que los entornos estructurados, impulsados o resonantes pueden remodelar paisajes y velocidades. Esto motiva un lenguaje explícito para la **agencia ambiental**.
+Predecir y controlar las rutas de reacción es central para la química moderna. El **modelo estándar**, encapsulado por Arrhenius/Eyring, captura exitosamente la temperatura y las barreras de activación pero trata al **entorno de reacción como pasivo**. Sin embargo, múltiples dominios sugieren lo contrario: la **sonoquímica**, la **mecanoquímica**, y la **química polaritónica/de cavidad** muestran que los entornos estructurados, impulsados o resonantes pueden remodelar paisajes y velocidades. Esto motiva un lenguaje explícito para la **agencia ambiental**.
 
-Concretamente, si el tiempo característico de una reacción sigue la ley RTM, entonces $`k`$ $`\propto 1{T \propto L}^{- \alpha}`$. A $`\mathbf{\alpha}`$ **fijo**, reducir la longitud reactiva $`L`$ acelera las reacciones; a $`\mathbf{L}`$ **fijo**, aumentar la coherencia ambiental (mayor $`\alpha`$) **estrecha** las rutas entrópicas y ralentiza las reacciones—mientras permite el **direccionamiento selectivo** de resultados multi-producto ("catálisis coherente"). Traducimos estas afirmaciones en **pruebas operacionales** en plataformas sonoquímicas y de cavidad con controles estrictos para confusores térmicos/de transferencia de masa.
+Concretamente, si el tiempo característico de una reacción sigue la ley RTM, entonces $`k`$ $`\propto 1{T \propto L}^{- \alpha}`$. A $`\mathbf{\alpha}`$ **fijo**, reducir la longitud reactiva $`L`$ acelera las reacciones; a $`\mathbf{L}`$ **fijo**, aumentar la coherencia ambiental (mayor $`\alpha`$) **estrecha** las rutas entrópicas y ralentiza las reacciones, mientras permite el **direccionamiento selectivo** de resultados multi-producto ("catálisis coherente"). Traducimos estas afirmaciones en **pruebas operacionales** en plataformas sonoquímicas y de cavidad con controles estrictos para confusores térmicos/de transferencia de masa.
 
 **2. RTM en Breve (Manual para Químicos)**
 
@@ -45,7 +45,7 @@ con $`T_{0}`$, $`L_{0}`$, $`\rho_{0}`$, $`\mathcal{T}_{0}`$, referencias arbitra
 k \propto \frac{1}{T} \propto L^{- \alpha}
 ```
 
-Esto produce dos predicciones inmediatas: (i) **dependencia de escala**—a $`\alpha`$ fijo, el micro-/nano-confinamiento acelera; (ii) **dependencia de coherencia**—a $`L`$ fijo, entornos con mayor $`\alpha`$ ralentizan la cinética pero pueden sesgar la **selectividad** estabilizando rutas de mayor permanencia (productos termodinámicos).
+Esto produce dos predicciones inmediatas: (i) **dependencia de escala**, a $`\alpha`$ fijo, el micro-/nano-confinamiento acelera; (ii) **dependencia de coherencia**, a $`L`$ fijo, entornos con mayor $`\alpha`$ ralentizan la cinética pero pueden sesgar la **selectividad** estabilizando rutas de mayor permanencia (productos termodinámicos).
 
 **2.2 Qué significa** $`\mathbf{\alpha}`$ **operacionalmente**
 
@@ -182,7 +182,7 @@ Resumimos el marco con un **diagrama de fase** cualitativo:
 
 **4. Modelos**
 
-Este capítulo instancia el marco de Química Rítmica en tres plataformas concretas—(i) un medio ruidoso impulsado, (ii) una cavidad Fabry–Pérot, y (iii) un campo de cavitación acústica—más un corolario bioquímico (enzimas como micro-cavidades). En cada caso (a) especificamos las variables de control que ajustan la coherencia ambiental, (b) escribimos una forma explícita para el factor de corrección RTM $`\Xi(\alpha)`$, (c) establecemos límites asintóticos que recuperan la cinética clásica, y (d) extraemos predicciones **a nivel de pendiente** adecuadas para falsificación pre-registrada.
+Este capítulo instancia el marco de Química Rítmica en tres plataformas concretas, (i) un medio ruidoso impulsado, (ii) una cavidad Fabry–Pérot, y (iii) un campo de cavitación acústica, más un corolario bioquímico (enzimas como micro-cavidades). En cada caso (a) especificamos las variables de control que ajustan la coherencia ambiental, (b) escribimos una forma explícita para el factor de corrección RTM $`\Xi(\alpha)`$, (c) establecemos límites asintóticos que recuperan la cinética clásica, y (d) extraemos predicciones **a nivel de pendiente** adecuadas para falsificación pre-registrada.
 
 **4.1 Medio continuo con ruido controlado (coherencia por conformación espectral)**
 
@@ -270,7 +270,7 @@ con $`\sigma_{L_{b}}\text{/}{\overline{L}}_{b}`$ el coeficiente de variación de
 
 - **Pendiente de longitud:** Dentro de un **compartimento de χ fijo** $`\partial\ log\ k/\partial\ log\ L_{b} = - \alpha(\chi)`$.
 
-- **Monotonicidad de coherencia:** A $`L_{b}`$ fijo, $`k`$ disminuye cuando $`\chi`$ aumenta; inversamente, las rutas mediadas por radicales pueden **aumentar** si $`\chi`$ favorece colapsos más violentos pero menos frecuentes—produciendo una **palanca de selectividad** entre canales radicales vs. no radicales.
+- **Monotonicidad de coherencia:** A $`L_{b}`$ fijo, $`k`$ disminuye cuando $`\chi`$ aumenta; inversamente, las rutas mediadas por radicales pueden **aumentar** si $`\chi`$ favorece colapsos más violentos pero menos frecuentes, produciendo una **palanca de selectividad** entre canales radicales vs. no radicales.
 
 - **Prueba de colapso:** Graficar $`k\ L_{b}^{\alpha(\chi)}`$ vs. $`L_{b}`$/$`{\overline{L}}_{b}`$; las curvas deben colapsar a $`\Xi_{cavt}^{- 1}`$
 
@@ -734,7 +734,7 @@ Una **falsificación global** se mantiene si ≥2 plataformas fallan H1–H2 baj
 
 **7. Pipeline de Laboratorio para Estimar el Exponente de Coherencia** $`\mathbf{\alpha}`$
 
-Este capítulo especifica **cómo** estimar $`\alpha`$ desde señales de laboratorio crudas a través de plataformas de manera auditable, validable cruzadamente, y portable. El pipeline es modular—cada módulo produce no solo una estimación puntual sino también **incertidumbre** y **banderas de AC**. Terminamos con una regla de decisión para **aceptar** una estimación de $`\widehat{\alpha}`$ por experimento.
+Este capítulo especifica **cómo** estimar $`\alpha`$ desde señales de laboratorio crudas a través de plataformas de manera auditable, validable cruzadamente, y portable. El pipeline es modular, cada módulo produce no solo una estimación puntual sino también **incertidumbre** y **banderas de AC**. Terminamos con una regla de decisión para **aceptar** una estimación de $`\widehat{\alpha}`$ por experimento.
 
 **7.1 Descripción general (diagrama de flujo)**
 
@@ -960,7 +960,7 @@ return alpha_hat, ci_alpha, alpha_slope, status, qa_flags
 
 **7.11 Qué habilita esto**
 
-Con $`\alpha`$ estimado consistentemente y auditado, los Capítulos 8–9 ("Resultados" y "Discusión") pueden interpretar cinética y selectividad sin ambigüedad sobre coherencia ambiental. El pipeline también delinea fronteras: si $`\alpha`$ no puede ser estimado establemente o los indicadores discrepan, las afirmaciones RTM deben retenerse para esa condición—convirtiendo la incertidumbre en un producto científico de primera clase en lugar de una reflexión tardía.
+Con $`\alpha`$ estimado consistentemente y auditado, los Capítulos 8–9 ("Resultados" y "Discusión") pueden interpretar cinética y selectividad sin ambigüedad sobre coherencia ambiental. El pipeline también delinea fronteras: si $`\alpha`$ no puede ser estimado establemente o los indicadores discrepan, las afirmaciones RTM deben retenerse para esa condición, convirtiendo la incertidumbre en un producto científico de primera clase en lugar de una reflexión tardía.
 
 **Capítulo 8 — Resultados** (Plantilla de Reporte Pre-Registrada)
 
@@ -1096,9 +1096,9 @@ Este capítulo interpreta el marco de Química Rítmica a la luz de los puntos f
 
 Si los experimentos confirman **pendientes longitud–velocidad** distintas $`\partial\ log\ k/\partial\ log\ L = - \alpha`$ entre compartimentos de coherencia (H1) y una **disminución de velocidad monótona** a L fijo cuando la coherencia aumenta (H2), entonces la afirmación central se sostiene: **el entorno no es un baño pasivo**. En cambio, lleva una estructura ajustable, consciente de escala, resumida por $`\alpha`$ que **estrecha el conjunto de rutas**. En la práctica:
 
-- **Direccionamiento sin catalizador:** Datos de cavidad fuera de resonancia mostrando cambios de selectividad que siguen a $`Q`$ (y desaparecen cuando Q→0) establecerían **catálisis coherente** sin catalizadores químicos—ortogonal a regímenes de acoplamiento fuerte polaritónicos.
+- **Direccionamiento sin catalizador:** Datos de cavidad fuera de resonancia mostrando cambios de selectividad que siguen a $`Q`$ (y desaparecen cuando Q→0) establecerían **catálisis coherente** sin catalizadores químicos, ortogonal a regímenes de acoplamiento fuerte polaritónicos.
 
-**Si H1–H2 fallan** bajo controles estrictos, aprendemos que—incluso cuando los indicadores de coherencia se mueven—la ley de velocidad efectivamente colapsa a **Arrhenius/Eyring + geometría** para estas plataformas. Eso falsifica la contribución RTM *allí*, y mueve la Química Rítmica de un marco general a uno **condicional** (ver 9.5: condiciones de alcance).
+**Si H1–H2 fallan** bajo controles estrictos, aprendemos que, incluso cuando los indicadores de coherencia se mueven, la ley de velocidad efectivamente colapsa a **Arrhenius/Eyring + geometría** para estas plataformas. Eso falsifica la contribución RTM *allí*, y mueve la Química Rítmica de un marco general a uno **condicional** (ver 9.5: condiciones de alcance).
 
 **9.2 Selectividad como fenómeno de coherencia (H3)**
 
@@ -1141,7 +1141,7 @@ Incluso con resultados positivos, la Química Rítmica **no es universal**. Bas�
 
 - **Puede fallar cuando**: las reacciones son sin barrera y balísticas (la multiplicidad de rutas es irrelevante), o cuando **múltiples longitudes inconmensurables** dominan simultáneamente (ningún $`L`$ único da una pendiente estable).
 
-- **Casos límite**: coherencia extremadamente alta ($`\alpha`$ muy grande) puede **sobre-restringir** la dinámica—esperar colapso de rendimiento y atrapamiento, consistente con el "régimen sobre-restringido" en la Sección 3.5.
+- **Casos límite**: coherencia extremadamente alta ($`\alpha`$ muy grande) puede **sobre-restringir** la dinámica, esperar colapso de rendimiento y atrapamiento, consistente con el "régimen sobre-restringido" en la Sección 3.5.
 
 Estas condiciones convierten a RTM de una afirmación general a un **mapa**: dicen a los practicantes cuándo usar diales de coherencia y cuándo la termoquímica clásica basta.
 
@@ -1157,7 +1157,7 @@ Estas condiciones convierten a RTM de una afirmación general a un **mapa**: dic
 
 **9.7 Contribuciones metodológicas más allá de la química**
 
-La disciplina del artículo—**inferencia de pendiente primero**, **verificaciones de colapso**, **errores en variables**, y **validación cruzada de indicador dual**—es portable. Puede adoptarse donde quiera que exista una escala dominante y un dial de persistencia/coherencia (materia blanda, micro-/nano-fabricación, incluso redes bioquímicas). Si nuestros cascarones pre-registrados se vuelven estándar, las secciones de "resultados" entre laboratorios serán **comparables** en lugar de a medida.
+La disciplina del artículo, **inferencia de pendiente primero**, **verificaciones de colapso**, **errores en variables**, y **validación cruzada de indicador dual**, es portable. Puede adoptarse donde quiera que exista una escala dominante y un dial de persistencia/coherencia (materia blanda, micro-/nano-fabricación, incluso redes bioquímicas). Si nuestros cascarones pre-registrados se vuelven estándar, las secciones de "resultados" entre laboratorios serán **comparables** en lugar de a medida.
 
 **9.8 Limitaciones**
 
@@ -1183,11 +1183,11 @@ La disciplina del artículo—**inferencia de pendiente primero**, **verificacio
 
 **9.10 Conclusión**
 
-La Química Rítmica reenmarca la cinética y selectividad como propiedades de **reactivos más un entorno estructurado, temporalmente persistente**. El diagnóstico central—**diferencias de pendiente en** $`\mathbf{log\ k}`$ **vs.** $`\mathbf{log\ L}`$ entre compartimentos de coherencia—convierte una idea filosófica ("el contenedor importa") en una declaración **falsificable**.
+La Química Rítmica reenmarca la cinética y selectividad como propiedades de **reactivos más un entorno estructurado, temporalmente persistente**. El diagnóstico central, **diferencias de pendiente en** $`\mathbf{log\ k}`$ **vs.** $`\mathbf{log\ L}`$ entre compartimentos de coherencia, convierte una idea filosófica ("el contenedor importa") en una declaración **falsificable**.
 
 - **Si las pruebas pre-registradas pasan**, la coherencia se une a la temperatura y concentración como un **dial de control de primera clase**, habilitando química más verde, segura, y programable.
 
-- **Si fallan** bajo controles rigurosos, el marco produce una **frontera clara**: donde los entornos no pueden decirse que posean un $`\alpha`$ significativo y ajustable, la cinética clásica basta—y tenemos un método para mostrarlo.
+- **Si fallan** bajo controles rigurosos, el marco produce una **frontera clara**: donde los entornos no pueden decirse que posean un $`\alpha`$ significativo y ajustable, la cinética clásica basta, y tenemos un método para mostrarlo.
 
 Cualquier resultado avanza el campo: **agregando una nueva palanca** o **agudizando dónde no buscar**.
 
@@ -1199,7 +1199,7 @@ Cualquier resultado avanza el campo: **agregando una nueva palanca** o **agudiza
 \frac{\partial\ log\ k}{\partial\ log\ L} = - \alpha
 ```
 
-con $`\alpha`$ el **exponente de coherencia** del entorno estimado desde indicadores independientes (cavidad $`Q`$, sincronía de cavitación $`\chi`$, pendientes espectrales, métricas de confinamiento). Dos **experimentos críticos**—control de sincronía sonoquímica y escaneos de cavidad Fabry–Pérot fuera de resonancia—fueron diseñados para falsificar o apoyar esta afirmación bajo estrictos controles isotérmicos y de transferencia de masa. Un **cascarón de Resultados pre-registrado** y un **pipeline de laboratorio** hacen el marco auditable y portable.
+con $`\alpha`$ el **exponente de coherencia** del entorno estimado desde indicadores independientes (cavidad $`Q`$, sincronía de cavitación $`\chi`$, pendientes espectrales, métricas de confinamiento). Dos **experimentos críticos**, control de sincronía sonoquímica y escaneos de cavidad Fabry–Pérot fuera de resonancia, fueron diseñados para falsificar o apoyar esta afirmación bajo estrictos controles isotérmicos y de transferencia de masa. Un **cascarón de Resultados pre-registrado** y un **pipeline de laboratorio** hacen el marco auditable y portable.
 
 **10.1 Qué contribuimos**
 
@@ -1263,7 +1263,7 @@ con $`\alpha`$ el **exponente de coherencia** del entorno estimado desde indicad
 
 **10.6 Implicaciones más amplias y próximos pasos**
 
-- **Compuerta temporal.** La coherencia es un **recurso temporal**: pulsar $`\alpha(t)`$ alto para establecer selectividad, luego bajo para recuperar rendimiento—comprobable con $`Q(t)`$ o $`\chi(t)`$ modulados.
+- **Compuerta temporal.** La coherencia es un **recurso temporal**: pulsar $`\alpha(t)`$ alto para establecer selectividad, luego bajo para recuperar rendimiento, comprobable con $`Q(t)`$ o $`\chi(t)`$ modulados.
 
 - **Huellas de simetría.** Mapear direccionamiento de producto vs. simetría de campo; una "huella" reproducible corroboraría fuertemente la estructura de $`\Xi_{i}(\alpha)`$.
 
@@ -1271,7 +1271,7 @@ con $`\alpha`$ el **exponente de coherencia** del entorno estimado desde indicad
 
 - **Vínculos microscópicos.** Conectar $`\alpha`$ a kernels de memoria/exponentes dinámicos en modelos estocásticos de reacción–difusión, reduciendo dependencia de mapas empíricos.
 
-**Conclusión.** Si las pruebas pre-registradas tienen éxito, la Química Rítmica ofrece una ruta **limpia, cuantitativa** para manipular reacciones **diseñando el tiempo del contenedor**—su profundidad de coherencia—en lugar de solo las moléculas o la temperatura del baño. Si fallan, obtenemos una **frontera claramente trazada** para cuándo la coherencia **no** importa, junto con una disciplina estadística reutilizable para cinética futura "consciente del entorno". De cualquier manera, el campo avanza con palancas más claras, límites más claros, y un camino claro hacia la replicación.
+**Conclusión.** Si las pruebas pre-registradas tienen éxito, la Química Rítmica ofrece una ruta **limpia, cuantitativa** para manipular reacciones **diseñando el tiempo del contenedor**, su profundidad de coherencia, en lugar de solo las moléculas o la temperatura del baño. Si fallan, obtenemos una **frontera claramente trazada** para cuándo la coherencia **no** importa, junto con una disciplina estadística reutilizable para cinética futura "consciente del entorno". De cualquier manera, el campo avanza con palancas más claras, límites más claros, y un camino claro hacia la replicación.
 
 **11. Materiales y Métodos**
 
@@ -1466,7 +1466,7 @@ Esta forma hace la regresión y pruebas de hipótesis directas (pendiente difere
 
 - **Límite solo geometría** ($`\Xi \rightarrow 1`$, $`\alpha`$ en banda difusiva): recupera escalamiento de confinamiento $`{k \propto L}^{{- \alpha}_{0}}`$ con $`\alpha_{0} \approx 2.`$
 
-- **Límite de acoplamiento fuerte/polaritónico** (no nuestro régimen): $`\Xi`$ ya no pequeño/lento; términos de hibridación dominan—el ansatz RTM no debería aplicarse.
+- **Límite de acoplamiento fuerte/polaritónico** (no nuestro régimen): $`\Xi`$ ya no pequeño/lento; términos de hibridación dominan, el ansatz RTM no debería aplicarse.
 
 - **Coherencia sobre-restringida** ($\alpha$ muy grande): la multiplicidad de rutas colapsa; esperar **tanto** $k \downarrow$ como rendimientos $\downarrow$. Este es un **antipatrón** de diseño (a evitar).
 
@@ -1652,7 +1652,7 @@ Un $`\gamma = 1.2 \pm 0.05`$ medido da $`\widehat{\alpha} = 1.95 + 0.456 + 0.086
 
 - Estado (ACEPTAR/TENTATIVO) y cualquier bandera de AC (estacionariedad, deriva, confusores).
 
-> **Conclusión.** El Apéndice A proporciona la **columna vertebral matemática**—cómo la ley de escala de RTM produce predicciones de velocidad y selectividad y cómo corregir error de medición. El Apéndice B operacionaliza $`\alpha`$: **cómo obtenerlo**, **cómo confiar en él**, y **cómo combinar múltiples miradas** a la coherencia en una única estimación auditable.
+> **Conclusión.** El Apéndice A proporciona la **columna vertebral matemática**, cómo la ley de escala de RTM produce predicciones de velocidad y selectividad y cómo corregir error de medición. El Apéndice B operacionaliza $`\alpha`$: **cómo obtenerlo**, **cómo confiar en él**, y **cómo combinar múltiples miradas** a la coherencia en una única estimación auditable.
 
 **APÉNDICE C — Validación Computacional del Marco de Química RTM**
 
@@ -1945,7 +1945,7 @@ Para someter la hipótesis del fluido macroscópico a una prueba de estrés rigu
 
 Incluso cuando se penaliza fuertemente con ruido observacional del mundo real, la movilidad urbana macroscópica obedece perfectamente los límites de transporte termodinámico RTM:
 
-- **Forrajeo Óptimo (Límite de Vuelo de Lévy):** El desplazamiento espacial de más de 1.1 mil millones de viajes en taxi produce un exponente de cola de ley de potencia robusto de $`\mathbf{\alpha}\mathbf{= \ 3.000\ }\mathbf{\pm}\mathbf{0.156}`$. En física RTM, $`\alpha = \ 3.0`$ marca el límite matemático exacto de un Vuelo de Lévy—probando que el transporte humano optimiza naturalmente la cobertura espacial contra costos de combustible y tiempo, precisamente como un fluido expandiéndose a través de un medio resistivo.
+- **Forrajeo Óptimo (Límite de Vuelo de Lévy):** El desplazamiento espacial de más de 1.1 mil millones de viajes en taxi produce un exponente de cola de ley de potencia robusto de $`\mathbf{\alpha}\mathbf{= \ 3.000\ }\mathbf{\pm}\mathbf{0.156}`$. En física RTM, $`\alpha = \ 3.0`$ marca el límite matemático exacto de un Vuelo de Lévy, probando que el transporte humano optimiza naturalmente la cobertura espacial contra costos de combustible y tiempo, precisamente como un fluido expandiéndose a través de un medio resistivo.
 
 - **El Borde del Caos (SOC):** La simulación Monte Carlo robusta de clústeres de atascos de tráfico revela un exponente de $`\mathbf{\tau}\mathbf{= \ 2.499\ }\mathbf{\pm}\mathbf{0.146}`$. Esto es estadísticamente indistinguible del límite teórico de percolación ($`\tau = \ 2.5`$). Prueba matemáticamente que el tráfico urbano opera en un estado de Criticalidad Auto-Organizada; los atascos no son accidentes aleatorios, sino transiciones de fase topológicas determinísticas dentro del fluido.
 
