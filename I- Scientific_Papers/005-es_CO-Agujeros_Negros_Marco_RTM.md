@@ -11,7 +11,7 @@
 
 **Significancia y Operacionalización (del Concepto a la Prueba)**
 
-**Núcleo conceptual.** En el marco de Relatividad Temporal Multiescala (RTM), los tiempos característicos de proceso obedecen una ley de escalamiento $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$, donde el exponente α cuantifica la **coherencia estructural**. La propuesta conceptual original lee la conservación de información como **transmutación** en lugar de destrucción: el contenido complejo de alta entropía puede ser **recodificado** en estructuras altamente ordenadas (alto $`\alpha`$), análogo a reescribir una enciclopedia en un medio de almacenamiento cristalino—el **contenido** persiste mientras la **forma** de almacenamiento se vuelve más coherente.
+**Núcleo conceptual.** En el marco de Relatividad Temporal Multiescala (RTM), los tiempos característicos de proceso obedecen una ley de escalamiento $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$, donde el exponente α cuantifica la **coherencia estructural**. La propuesta conceptual original lee la conservación de información como **transmutación** en lugar de destrucción: el contenido complejo de alta entropía puede ser **recodificado** en estructuras altamente ordenadas (alto $`\alpha`$), análogo a reescribir una enciclopedia en un medio de almacenamiento cristalino, el **contenido** persiste mientras la **forma** de almacenamiento se vuelve más coherente.
 
 **Traducción operacional.** Este artículo convierte esa intuición en una **predicción falsificable**. En una ubicación fija, la **pendiente log–log** del tiempo de proceso observado versus el tamaño efectivo satisface
 
@@ -33,7 +33,7 @@ así que **pendiente = coherencia** (RTM) mientras que los factores gravitaciona
 
 **Resumen**
 
-Desarrollamos una interpretación minimal y testeable de los interiores de agujeros negros dentro del marco de **Relatividad Temporal Multiescala (RTM)**, en el cual los tiempos característicos de proceso obedecen una ley de escalamiento $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$ y el exponente α cuantifica la coherencia estructural. En el límite de **alto α**—interpretado operacionalmente como coherencia extrema en un medio altamente confinado y multiescala—**los tiempos mesoscópicos locales se acortan abruptamente con la escala**, aproximándose asintóticamente a dinámica interna "congelada" sin modificar la métrica del espaciotiempo de fondo. **No** identificamos $`\alpha`$ con entropía termodinámica: α es un parámetro de *coherencia operacional*, mientras que la entropía de agujero negro permanece como una cantidad de horizonte de grano grueso; correspondientemente, un estado puede exhibir α muy grande (organización interna rápida) junto con gran entropía de Bekenstein–Hawking (conteo de estados del horizonte). Esto resuelve una tensión de otra manera superficial entre el lenguaje de "coherencia máxima" y la termodinámica estándar de agujeros negros.
+Desarrollamos una interpretación minimal y testeable de los interiores de agujeros negros dentro del marco de **Relatividad Temporal Multiescala (RTM)**, en el cual los tiempos característicos de proceso obedecen una ley de escalamiento $`{T/T}_{0}\left( {= (L/L}_{0} \right)^{\alpha}`$ y el exponente α cuantifica la coherencia estructural. En el límite de **alto α**, interpretado operacionalmente como coherencia extrema en un medio altamente confinado y multiescala, **los tiempos mesoscópicos locales se acortan abruptamente con la escala**, aproximándose asintóticamente a dinámica interna "congelada" sin modificar la métrica del espaciotiempo de fondo. **No** identificamos $`\alpha`$ con entropía termodinámica: α es un parámetro de *coherencia operacional*, mientras que la entropía de agujero negro permanece como una cantidad de horizonte de grano grueso; correspondientemente, un estado puede exhibir α muy grande (organización interna rápida) junto con gran entropía de Bekenstein–Hawking (conteo de estados del horizonte). Esto resuelve una tensión de otra manera superficial entre el lenguaje de "coherencia máxima" y la termodinámica estándar de agujeros negros.
 
 Para interfacear RTM con el corrimiento al rojo gravitacional, distinguimos relojes **locales** de **asintóticos** y tratamos los tiempos observados como una competencia entre la dilatación temporal de GR y el acortamiento inducido por coherencia de RTM, esquemáticamente
 
@@ -134,7 +134,7 @@ Estos cortes aseguran que incluso en "organización extrema" la teoría **no** p
 
 **2.1 Relojes locales vs. asintóticos (cómo se encuentran GR y RTM)**
 
-RTM habla sobre **tiempos mesoscópicos locales**—la duración característica $`T_{local}`$ de un proceso que ocurre en una escala espacial efectiva $`L`$ dentro de algún medio. La Relatividad General (GR) nos dice cómo el **tiempo propio local** se mapea al tiempo registrado por un observador distante a través del corrimiento al rojo gravitacional (y cinemático). En primer orden de lo que necesitamos aquí, los dos se combinan **multiplicativamente**:
+RTM habla sobre **tiempos mesoscópicos locales**, la duración característica $`T_{local}`$ de un proceso que ocurre en una escala espacial efectiva $`L`$ dentro de algún medio. La Relatividad General (GR) nos dice cómo el **tiempo propio local** se mapea al tiempo registrado por un observador distante a través del corrimiento al rojo gravitacional (y cinemático). En primer orden de lo que necesitamos aquí, los dos se combinan **multiplicativamente**:
 
 ``` math
 T_{\text{obs}}(r,L) \approx \left( 1 + z(r) \right)\left( \frac{L}{L_{0}} \right)^{\alpha_{\text{eff}}(r)}T_{0}
@@ -251,9 +251,9 @@ Para permanecer consistente con restricciones estándar de universo temprano y f
 
 **3) Coherencia vs. entropía (nota de compatibilidad)**
 
-**3.1 Qué es α—y qué no es**
+**3.1 Qué es α, y qué no es**
 
-En RTM el exponente α cuantifica la **coherencia/organización operacional**: mayor $`\alpha`$ significa que, sobre una ventana de escalas, los tiempos característicos de proceso se acortan abruptamente con $`L`$ decreciente (Sec. 1). En el borrador de agujeros negros enmarcaste el interior como "coherencia llevada al límite," incluso coqueteando con $`\alpha \rightarrow \infty`$ y "tiempo colapsado" $`(T \approx 0)`$. Retenemos la **intuición** (muy grande $`\alpha\  \Rightarrow`$ tiempos de proceso locales muy cortos), pero **no** identificamos α con entropía termodinámica. Esta última—especialmente en termodinámica de agujeros negros—es una **cantidad de horizonte de grano grueso** no relacionada con la organización mesoscópica medida por α. En otras palabras, un sistema puede exhibir **α muy grande** (organización interna rápida) **junto con gran entropía del horizonte**, sin contradicción.
+En RTM el exponente α cuantifica la **coherencia/organización operacional**: mayor $`\alpha`$ significa que, sobre una ventana de escalas, los tiempos característicos de proceso se acortan abruptamente con $`L`$ decreciente (Sec. 1). En el borrador de agujeros negros enmarcaste el interior como "coherencia llevada al límite," incluso coqueteando con $`\alpha \rightarrow \infty`$ y "tiempo colapsado" $`(T \approx 0)`$. Retenemos la **intuición** (muy grande $`\alpha\  \Rightarrow`$ tiempos de proceso locales muy cortos), pero **no** identificamos α con entropía termodinámica. Esta última, especialmente en termodinámica de agujeros negros, es una **cantidad de horizonte de grano grueso** no relacionada con la organización mesoscópica medida por α. En otras palabras, un sistema puede exhibir **α muy grande** (organización interna rápida) **junto con gran entropía del horizonte**, sin contradicción.
 
 > **Procedencia (del borrador conceptual).** El lenguaje "singularidad como coherencia perfecta con tiempo colapsado" y "agujeros negros como almacenes perfectos de información" aparece explícitamente en nuestro texto fuente conceptual; aquí lo traducimos a una declaración conservadora y testeable sobre $`\alpha_{\text{eff}}`$ **alto pero finito** y recodificación de correlaciones (Sec. 3.3), sin afirmar literal $`T = 0`$ o entropía termodinámica mínima.
 
@@ -263,9 +263,9 @@ Separamos dos niveles de contabilidad:
 
 - **Libro mayor del horizonte (grano grueso):** la entropía del horizonte de Bekenstein–Hawking $`S_{BH}`$ cuenta microestados accesibles en la frontera. Nada en RTM modifica este libro mayor; GR + termodinámica estándar permanecen intactos.
 
-- **Libro mayor interior (operacional):** $`\alpha_{\text{eff}}`$ mide qué tan **organizado** está el medio local (jerarquía, confinamiento, acoplamiento multiescala). Grande $`\alpha_{\text{eff}}`$ implica **tiempos de proceso locales cortos** $`\mathbf{T}_{\mathbf{local}}{\mathbf{\propto}\mathbf{L}}^{\alpha_{\text{eff}}}`$ y tasas de **producción de entropía local suprimidas** en la descripción mesoscópica—sin embargo esto es **ortogonal** al conteo de estados del horizonte.
+- **Libro mayor interior (operacional):** $`\alpha_{\text{eff}}`$ mide qué tan **organizado** está el medio local (jerarquía, confinamiento, acoplamiento multiescala). Grande $`\alpha_{\text{eff}}`$ implica **tiempos de proceso locales cortos** $`\mathbf{T}_{\mathbf{local}}{\mathbf{\propto}\mathbf{L}}^{\alpha_{\text{eff}}}`$ y tasas de **producción de entropía local suprimidas** en la descripción mesoscópica, sin embargo esto es **ortogonal** al conteo de estados del horizonte.
 
-Así, "alta coherencia adentro" (grande $`\alpha_{\text{eff}}`$) y "grande $`S_{BH}`$ en el horizonte" pueden **coexistir**. La tensión aparente—"coherencia máxima" vs. "entropía máxima"—viene de mezclar libros mayores.
+Así, "alta coherencia adentro" (grande $`\alpha_{\text{eff}}`$) y "grande $`S_{BH}`$ en el horizonte" pueden **coexistir**. La tensión aparente, "coherencia máxima" vs. "entropía máxima", viene de mezclar libros mayores.
 
 **3.3 Retención de información como recodificación de correlaciones**
 
@@ -294,7 +294,7 @@ Nuestro borrador declara "tiempo colapsado ($`T \approx 0`$)" y "$`\alpha \right
 
 - **Consistencia del horizonte:** Dado que RTM no toca la métrica ni la ley de área, el **libro mayor de entropía del horizonte permanece sin cambios**. El **orden operacional** interior afecta solo los tiempos de proceso locales y la persistencia correlacional.
 
-- **Horizontes análogos:** En plataformas de BEC o agujero sordo fluídico, aumentar el **confinamiento/organización** (elevar $`\alpha_{\text{eff}}`$) debería **comprimir tiempos mesoscópicos** y aumentar la **pendiente** $`\partial\ \log\ T/\partial\ \log\ L`$ para procesos definidos en subestructuras—mientras que el proxy de entropía de frontera del análogo está gobernado por su propio grano grueso. Esto aísla la **firma de pendiente** como la prueba de activación de coherencia.
+- **Horizontes análogos:** En plataformas de BEC o agujero sordo fluídico, aumentar el **confinamiento/organización** (elevar $`\alpha_{\text{eff}}`$) debería **comprimir tiempos mesoscópicos** y aumentar la **pendiente** $`\partial\ \log\ T/\partial\ \log\ L`$ para procesos definidos en subestructuras, mientras que el proxy de entropía de frontera del análogo está gobernado por su propio grano grueso. Esto aísla la **firma de pendiente** como la prueba de activación de coherencia.
 
 - **Recodificación vs. borrado:** Si alto α es la imagen operacional correcta, las intervenciones que *reducen* organización (ej., interrumpir jerarquía) deberían **disminuir** la persistencia correlacional (Ec. 16), ofreciendo un canal de falsificación.
 
@@ -317,7 +317,7 @@ El asa empírica central en esta nota es la **pendiente**, no el nivel. De la Ec
 ```
 (17)
 
-Si $`\alpha_{\text{eff}}`$​ **aumenta** hacia adentro—porque crece el confinamiento/organización—entonces las **pendientes deben evolucionar con el radio**. Esta predicción de "pendiente-con-radio" es la firma más limpia e independiente del modelo de activación RTM en entornos compactos.
+Si $`\alpha_{\text{eff}}`$​ **aumenta** hacia adentro, porque crece el confinamiento/organización, entonces las **pendientes deben evolucionar con el radio**. Esta predicción de "pendiente-con-radio" es la firma más limpia e independiente del modelo de activación RTM en entornos compactos.
 
 > **Procedencia.** El borrador conceptual motiva coherencia extrema ("tiempo colapsado," "bóveda perfecta") en interiores de agujeros negros; aquí replanteamos esa intuición en un programa de alto α finito con predicciones de pendiente falsificables, evitando literal $`T = 0`$ o $`\alpha \rightarrow \infty`$.
 
@@ -380,7 +380,7 @@ Esta es la traducción observacional de las Ecs. (6)–(8): **pendiente = RTM**,
 
 - A medida que aumenta el confinamiento a través de geometrías, $`\alpha_{\text{eff}}(g)`$ debería **aumentar** (comportamiento logístico/rampa), comprimiendo tiempos mesoscópicos preferencialmente a pequeño $`L`$.
 
-- Un resultado **nulo**—pendientes invariantes a través de barridos de confinamiento—falsifica la imagen de activación en esa plataforma.
+- Un resultado **nulo**, pendientes invariantes a través de barridos de confinamiento, falsifica la imagen de activación en esa plataforma.
 
 Esto refleja la narrativa de coherencia del borrador, pero en un análogo de laboratorio controlado en lugar de un entorno astrofísico.
 
@@ -443,7 +443,7 @@ Esta nota es intencionalmente conservadora. Traduce la idea conceptual de "coher
 
 - **Desentrañamiento nivel–pendiente.** El corrimiento al rojo/cinemática cambia la **ordenada al origen** pero no la **pendiente** a ubicación fija. Sin embargo, control imperfecto de $`(r,\theta,\Omega)`$ puede filtrar efectos de nivel en estimaciones de pendiente. Remedio: anillos estrechos, diseño multirradio, y modelado explícito de nuisance de $`\mathcal{Z}(r,\theta,\Omega)`$ (§2.4, §4.4).
 
-- **Imitadores de transporte clásico.** En algunos regímenes, el transporte clásico puede producir pendientes cerca de 1 (balístico) o 2 (difusivo). Un resultado **nulo de RTM** es exactamente eso: **sin** evolución de pendiente con radio/confinamiento y pendientes agrupándose alrededor de esos valores clásicos—esta es una **no-detección** legítima, no una falla del análisis.
+- **Imitadores de transporte clásico.** En algunos regímenes, el transporte clásico puede producir pendientes cerca de 1 (balístico) o 2 (difusivo). Un resultado **nulo de RTM** es exactamente eso: **sin** evolución de pendiente con radio/confinamiento y pendientes agrupándose alrededor de esos valores clásicos, esta es una **no-detección** legítima, no una falla del análisis.
 
 **5.4 Modos de falla concretos**
 
@@ -464,7 +464,7 @@ Esta nota es intencionalmente conservadora. Traduce la idea conceptual de "coher
 El borrador conceptual desarrolla una historia ambiciosa de "biblioteca/lector/impresora" (acoplamiento Aetherion, decodificación de eco, reconstrucción ontológica). Estas ideas son **valiosas como motivación**, pero requieren **nuevo hardware y acoplamientos no probados** que no son necesarios para definir o probar las predicciones **basadas en pendiente** de este artículo. Por tanto, las mantenemos en una sección de **Extensiones Especulativas** claramente etiquetada y no dependemos de ellas para ninguna afirmación central.
 
 **Conclusión.**\
-El presente marco se sostiene o cae sobre una **firma simple y falsificable**: **evolución radial (o impulsada por confinamiento) de la pendiente** en $`\log\ T - \log L`$. Todo lo demás—metáforas interpretativas, escenarios de ingeniería, o hablar de límites extremos—permanece fuera de la afirmación. Si la naturaleza muestra **sin evolución de pendiente**, la lectura de alto α está equivocada **en este contexto**. Si se ve evolución de pendiente y es robusta a proxies y modelado de nuisance, la imagen de activación de coherencia gana crédito y merece trabajo microfísico más profundo.
+El presente marco se sostiene o cae sobre una **firma simple y falsificable**: **evolución radial (o impulsada por confinamiento) de la pendiente** en $`\log\ T - \log L`$. Todo lo demás, metáforas interpretativas, escenarios de ingeniería, o hablar de límites extremos, permanece fuera de la afirmación. Si la naturaleza muestra **sin evolución de pendiente**, la lectura de alto α está equivocada **en este contexto**. Si se ve evolución de pendiente y es robusta a proxies y modelado de nuisance, la imagen de activación de coherencia gana crédito y merece trabajo microfísico más profundo.
 
 **6) Extensiones especulativas (claramente etiquetadas; no parte de la afirmación central)**
 
@@ -474,7 +474,7 @@ El presente marco se sostiene o cae sobre una **firma simple y falsificable**: *
 
 **Concepto del borrador**
 
-El borrador imagina acercarse (pero no cruzar) al horizonte, sintonizar un dispositivo de alta coherencia a la "firma" del agujero, emitir una **sonda** y detectar un **eco de coherencia** que codifica correlaciones interiores—"una biblioteca suspendida fuera del tiempo."
+El borrador imagina acercarse (pero no cruzar) al horizonte, sintonizar un dispositivo de alta coherencia a la "firma" del agujero, emitir una **sonda** y detectar un **eco de coherencia** que codifica correlaciones interiores, "una biblioteca suspendida fuera del tiempo."
 
 **Marcador de posición formal minimal (acoplamiento gedanken)**
 
@@ -499,7 +499,7 @@ donde $`\chi`$ es una susceptibilidad (causal) que depende paramétricamente de 
 
 **Concepto del borrador**
 
-Dado un "plano" (una codificación correlacional), una red de dispositivos actuaría como una **impresora ontológica**, moldeando materia/energía cruda en un objeto macroscópico imponiendo un campo de coherencia—un inverso de "caer en el agujero."
+Dado un "plano" (una codificación correlacional), una red de dispositivos actuaría como una **impresora ontológica**, moldeando materia/energía cruda en un objeto macroscópico imponiendo un campo de coherencia, un inverso de "caer en el agujero."
 
 **Por qué esto está fuera de la física actual**
 
@@ -518,7 +518,7 @@ Un funcional de estado objetivo de juguete $`\mathcal{C}^{*}\left\lbrack \rho(x)
 ```
 (20)
 
-con $`\mathcal{E}`$ un costo de recurso/energía. Este es el lenguaje de **control óptimo**, no evidencia de que tal control sea físicamente realizable a escalas cósmicas. Incluimos (17) únicamente para clarificar que "imprimir" sería matemáticamente una tarea de **problema inverso**/control—aún muy lejos de cualquier implementación plausible.
+con $`\mathcal{E}`$ un costo de recurso/energía. Este es el lenguaje de **control óptimo**, no evidencia de que tal control sea físicamente realizable a escalas cósmicas. Incluimos (17) únicamente para clarificar que "imprimir" sería matemáticamente una tarea de **problema inverso**/control, aún muy lejos de cualquier implementación plausible.
 
 **6.3 Notas éticas, de seguridad y epistémicas**
 
@@ -591,7 +591,7 @@ así que a $`r`$ fijo:
 
 **7.3 Alcance y compatibilidad (qué esta nota *no* hace)**
 
-- **Sin modificación de GR ni termodinámica del horizonte.** La entropía del horizonte $`S_{BH}`$ y la ley de área permanecen intactas; $`\alpha`$ es un **parámetro de coherencia operacional**, no entropía. Grande $`\alpha_{eff}`$ adentro puede **coexistir** con grande $`S_{BH}`$ en la frontera—mezclar esos libros mayores causa la tensión aparente.
+- **Sin modificación de GR ni termodinámica del horizonte.** La entropía del horizonte $`S_{BH}`$ y la ley de área permanecen intactas; $`\alpha`$ es un **parámetro de coherencia operacional**, no entropía. Grande $`\alpha_{eff}`$ adentro puede **coexistir** con grande $`S_{BH}`$ en la frontera, mezclar esos libros mayores causa la tensión aparente.
 
 - Sin afirmaciones de "$`\alpha = \infty`$" o "$`T = 0"`$**.** Las frases conceptuales "tiempo colapsado"/"bóveda perfecta" se traducen en $`\alpha_{eff}`$ **alto pero finito** con cortes; lo que importa empíricamente es la **evolución de pendiente**, no límites literales.
 
@@ -613,7 +613,7 @@ así que a $`r`$ fijo:
 
 - "**Coherencia extrema / tiempo colapsado**": se convierte en **alto** $`\mathbf{\alpha}_{\mathbf{eff}}`$ **con tiempos de proceso locales asintóticamente cortos**, no literal $`T = 0`$.
 
-- "**Bóveda perfecta / información no destruida**": se convierte en **recodificación de correlaciones** con evolución operacional lenta en el reloj mesoscópico—compatible con evolución cuántica unitaria sin alterar GR.
+- "**Bóveda perfecta / información no destruida**": se convierte en **recodificación de correlaciones** con evolución operacional lenta en el reloj mesoscópico, compatible con evolución cuántica unitaria sin alterar GR.
 
 **7.6 Lista de verificación de una página (para inclusión en métodos)**
 
@@ -629,11 +629,11 @@ así que a $`r`$ fijo:
 
 6)  Declare un criterio de falsificación por adelantado.
 
-**Conclusión.** La hipótesis se sostiene o cae sobre una **medición simple**: **¿aumenta la pendiente** $`\partial\ \log\ T/\partial\ \log\ L`$ **a medida que los entornos se vuelven más confinados/organizados (hacia adentro en objetos compactos; geometrías más estrechas en análogos)?** Si sí—y robustamente así—la activación de alto α gana crédito y merece trabajo microfísico más profundo. Si no, la interpretación de alto α (en este contexto) está equivocada. La imaginería conceptual permanece valiosa como motivación, pero la **ciencia** es esta prueba basada en pendiente, compatible con GR.
+**Conclusión.** La hipótesis se sostiene o cae sobre una **medición simple**: **¿aumenta la pendiente** $`\partial\ \log\ T/\partial\ \log\ L`$ **a medida que los entornos se vuelven más confinados/organizados (hacia adentro en objetos compactos; geometrías más estrechas en análogos)?** Si sí, y robustamente así, la activación de alto α gana crédito y merece trabajo microfísico más profundo. Si no, la interpretación de alto α (en este contexto) está equivocada. La imaginería conceptual permanece valiosa como motivación, pero la **ciencia** es esta prueba basada en pendiente, compatible con GR.
 
 **8) Validación sintética de las pruebas RTM basadas en pendiente (A–D)**
 
-**Propósito.** Este capítulo reporta cuatro experimentos sintéticos ligeros (A–D) diseñados para validar el asa empírica central de esta nota—**la pendiente log–log** del tiempo de proceso observado $`T_{obs}`$ versus tamaño efectivo $`L`$—bajo condiciones controladas. Juntos prueban **sensibilidad** (detectar activación), **especificidad** (sin falsa activación), y **descomposición** (RTM vs. GR/cinemática) de la metodología propuesta.
+**Propósito.** Este capítulo reporta cuatro experimentos sintéticos ligeros (A–D) diseñados para validar el asa empírica central de esta nota, **la pendiente log–log** del tiempo de proceso observado $`T_{obs}`$ versus tamaño efectivo $`L`$, bajo condiciones controladas. Juntos prueban **sensibilidad** (detectar activación), **especificidad** (sin falsa activación), y **descomposición** (RTM vs. GR/cinemática) de la metodología propuesta.
 
 **8.1 Diseño experimental (común a A–D)**
 
