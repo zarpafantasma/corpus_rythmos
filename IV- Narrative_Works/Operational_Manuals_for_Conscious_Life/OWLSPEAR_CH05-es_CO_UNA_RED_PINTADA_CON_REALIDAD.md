@@ -30,7 +30,7 @@
     │      con reglas similares y nuestra atención fija en las mismas cosas,  │
     │      el mundo se vuelve predecible: repite sus hábitos."                │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -59,9 +59,9 @@
 
 La idea no es mística. Es arquitectónica.
 
-Lo que llamamos "realidad cotidiana" —el mundo en que los trenes llegan a tiempo, las paredes permanecen sólidas y las leyes de la física se repiten sin excepción— no se mantiene a sí mismo de manera automática. Se mantiene porque nosotros lo mantenemos. Juntos. Mediante un acto colectivo, inconsciente y continuo de estabilización.
+Lo que llamamos "realidad cotidiana", el mundo en que los trenes llegan a tiempo, las paredes permanecen sólidas y las leyes de la física se repiten sin excepción, no se mantiene a sí mismo de manera automática. Se mantiene porque nosotros lo mantenemos. Juntos. Mediante un acto colectivo, inconsciente y continuo de estabilización.
 
-Esto no quiere decir que la realidad sea "meramente subjetiva" o que las leyes físicas sean opcionales. Las leyes son reales. La materia es real. Pero la *resolución* a la que la realidad se manifiesta —el grado en que permanece predecible, la medida en que tolera la variación— es función de algo que podemos llamar el **campo de consenso**.
+Esto no quiere decir que la realidad sea "meramente subjetiva" o que las leyes físicas sean opcionales. Las leyes son reales. La materia es real. Pero la *resolución* a la que la realidad se manifiesta, el grado en que permanece predecible, la medida en que tolera la variación, es función de algo que podemos llamar el **campo de consenso**.
 
 ```
 LA INTUICIÓN FUNDAMENTAL
@@ -84,7 +84,7 @@ LA INTUICIÓN FUNDAMENTAL
     → El margen para lo inusual se expande.
     
     La red puede seguir siendo red aunque varios nodos colapsen.
-    Pero la calidad de la red —su rigidez o elasticidad—
+    Pero la calidad de la red, su rigidez o elasticidad,
     la determina la configuración de los nodos restantes.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -108,7 +108,7 @@ Si la realidad es una construcción colaborativa mantenida por el consenso, ento
 
 2. **Los entornos difieren en su densidad de consenso.** El centro de una ciudad concurrida al mediodía opera bajo condiciones distintas a las de un campo vacío a medianoche.
 
-3. **Las experiencias de transición —sueños, visiones, sincronicidades, anomalías— no son rupturas en la realidad sino variaciones en la resolución a la que la realidad se renderiza.** Ocurren cuando el campo de consenso se afloja lo suficiente para permitirlas.
+3. **Las experiencias de transición, sueños, visiones, sincronicidades, anomalías, no son rupturas en la realidad sino variaciones en la resolución a la que la realidad se renderiza.** Ocurren cuando el campo de consenso se afloja lo suficiente para permitirlas.
 
 4. **Podemos aprender a navegar estas condiciones.** Abriendo cuando abrir sirve; cerrando cuando se necesita cierre; moviéndose entre densidad y dispersión con consciencia en lugar de accidente.
 
@@ -189,7 +189,7 @@ EFECTOS DE ESCALA
 
 ### 2.3 Alineación (A)
 
-El número solo no es suficiente. Mil personas en caos —cada una con supuestos distintos, esperando resultados diferentes, operando bajo reglas diferentes— no crean el mismo campo que mil personas sincronizadas en un ritual.
+El número solo no es suficiente. Mil personas en caos, cada una con supuestos distintos, esperando resultados diferentes, operando bajo reglas diferentes, no crean el mismo campo que mil personas sincronizadas en un ritual.
 
 La alineación mide el grado en que los participantes comparten:
 
@@ -460,7 +460,7 @@ EFECTOS DEL ALTO CONSENSO
 
 ### 5.1 Características
 
-Los entornos de bajo consenso son donde la red se afloja. No son "mejores" ni "peores" que los entornos de alto consenso —son *contextos operativos distintos* con posibilidades diferentes y riesgos diferentes.
+Los entornos de bajo consenso son donde la red se afloja. No son "mejores" ni "peores" que los entornos de alto consenso, son *contextos operativos distintos* con posibilidades diferentes y riesgos diferentes.
 
 ```
 PERFIL DE ENTORNO DE BAJO CONSENSO
@@ -525,7 +525,7 @@ EFECTOS DEL BAJO CONSENSO
 
 ### 5.3 Ejemplos
 
-**El Taller Vacío de Noche:** Las máquinas están en silencio. Los trabajadores se han ido a casa. Queda una persona, sola con sus herramientas. Los rígidos horarios del día han soltado su grip. En esta grieta, una solución que no habría llegado durante las horas ocupadas aparece sin esfuerzo —no por magia, sino porque la escena dejó de empujar contra ella.
+**El Taller Vacío de Noche:** Las máquinas están en silencio. Los trabajadores se han ido a casa. Queda una persona, sola con sus herramientas. Los rígidos horarios del día han soltado su grip. En esta grieta, una solución que no habría llegado durante las horas ocupadas aparece sin esfuerzo, no por magia, sino porque la escena dejó de empujar contra ella.
 
 **El Camino Largo sin Tráfico:** Horas conduciendo por un paisaje vacío. Sin otros coches. Sin señales de presencia humana. El campo de consenso cae a la línea base. El viajero entra en un estado liminal. Ocurren conversaciones con personas ausentes. Los recuerdos se reorganizan. La distancia recorrida en kilómetros no guarda relación con la distancia recorrida en la mente.
 
@@ -647,7 +647,7 @@ CLASIFICACIÓN DE ANOMALÍAS
 
 ### 7.1 Las Herramientas de Modulación del Consenso
 
-Las comunidades que trabajan con los bordes del consenso han desarrollado, durante milenios, herramientas para regular el campo. No son decoraciones ni supersticiones. Son *tecnologías de fase* —instrumentos prácticos para elevar o bajar la coherencia de un grupo.
+Las comunidades que trabajan con los bordes del consenso han desarrollado, durante milenios, herramientas para regular el campo. No son decoraciones ni supersticiones. Son *tecnologías de fase*, instrumentos prácticos para elevar o bajar la coherencia de un grupo.
 
 ```
 LOS TRES INSTRUMENTOS
@@ -655,7 +655,7 @@ LOS TRES INSTRUMENTOS
 
     ┌─────────────────────────────────────────────────────────────────────┐
     │                                                                     │
-    │                      TECNOLOGÍAS DE FASE                           │
+    │                      TECNOLOGÍAS DE FASE                            │
     │                                                                     │
     │   ┌─────────────┐      ┌──────────────┐      ┌──────────────┐       │
     │   │  LENGUAJE   │      │    GESTO     │      │   ESPACIO    │       │
@@ -806,7 +806,7 @@ EL ESPACIO COMO TECNOLOGÍA DE FASE
 
 ### 8.1 El Protocolo Básico
 
-Para quienes deseen trabajar con entornos de bajo consenso —ya sea para la creatividad, la comprensión, la sanación o la exploración— un protocolo simple es suficiente:
+Para quienes deseen trabajar con entornos de bajo consenso, ya sea para la creatividad, la comprensión, la sanación o la exploración, un protocolo simple es suficiente:
 
 ```
 PROTOCOLO BÁSICO DE APERTURA/CIERRE
@@ -845,7 +845,7 @@ PROTOCOLO BÁSICO DE APERTURA/CIERRE
     ───────────────
     6. TOMA NOTAS EN UN ESTADO DESAPEGADO.
        • Escribe o graba inmediatamente después.
-       • Aún no interpretes —solo registra.
+       • Aún no interpretes, solo registra.
        • La documentación "fría" preserva la exactitud.
     
     7. CIERRA DELIBERADAMENTE.
@@ -923,7 +923,7 @@ PROTOCOLO DE CIERRE DE EMERGENCIA
     
     2. AUMENTA A: Regresa a rutinas suaves.
        • Sigue un guión familiar (prepara té, dobla ropa).
-       • No improvises —sigue lo que conoces.
+       • No improvises, sigue lo que conoces.
     
     3. AUMENTA θ: Enfoca la atención en tareas simples.
        • Cuenta objetos. Nombra colores. Toca texturas.
@@ -986,7 +986,7 @@ LA CIUDAD Y EL DESIERTO
 
 ### 9.2 Las Zonas Intermedias
 
-Entre los extremos se encuentran entornos intermedios: talleres, laboratorios, templos, bibliotecas, estudios. Estos son espacios diseñados para el *aflojamiento controlado* —suficiente consenso para mantener la estructura, pero no tanto que la novedad sea imposible.
+Entre los extremos se encuentran entornos intermedios: talleres, laboratorios, templos, bibliotecas, estudios. Estos son espacios diseñados para el *aflojamiento controlado*, suficiente consenso para mantener la estructura, pero no tanto que la novedad sea imposible.
 
 ```
 ZONAS INTERMEDIAS
@@ -1158,7 +1158,7 @@ Este marco no es un sistema de creencias. Es un método.
 
 Puedes probarlo. Ve a un lugar concurrido y nota cuán predecible se vuelve el mundo. Ve a un lugar vacío y nota cómo los bordes se suavizan. Trabaja con un grupo pequeño y alineado y nota qué se vuelve posible que era imposible solo. Practica abrir y cerrar y nota cómo se convierte en una habilidad.
 
-La red es real. La sostenemos juntos. Y cuando entendemos cómo funciona, podemos trabajar con ella —no para escapar de la realidad, sino para participar en su composición.
+La red es real. La sostenemos juntos. Y cuando entendemos cómo funciona, podemos trabajar con ella, no para escapar de la realidad, sino para participar en su composición.
 
 ```
     ┌─────────────────────────────────────────────────────────────────────────┐
@@ -1177,7 +1177,7 @@ La red es real. La sostenemos juntos. Y cuando entendemos cómo funciona, podemo
     │                                                                         │
     │      Otras veces, es suficiente para que veamos mejor."                 │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
