@@ -22,7 +22,7 @@
 
 ### 1.1 La Visión
 
-La infraestructura civil enfrenta enemigos eternos: gravedad, terremotos, vibración, fatiga, corrosión. Luchamos con masa—más concreto, más acero. RTM ofrece estructuras que gestionan activamente las fuerzas a través del control topológico. Cimentaciones que se desacoplan de las ondas sísmicas. Puentes que amortiguan vibraciones sin masa. Infraestructura que detecta su propio daño.
+La infraestructura civil enfrenta enemigos eternos: gravedad, terremotos, vibración, fatiga, corrosión. Luchamos con masa, más concreto, más acero. RTM ofrece estructuras que gestionan activamente las fuerzas a través del control topológico. Cimentaciones que se desacoplan de las ondas sísmicas. Puentes que amortiguan vibraciones sin masa. Infraestructura que detecta su propio daño.
 
 ### 1.2 Métricas Clave
 
