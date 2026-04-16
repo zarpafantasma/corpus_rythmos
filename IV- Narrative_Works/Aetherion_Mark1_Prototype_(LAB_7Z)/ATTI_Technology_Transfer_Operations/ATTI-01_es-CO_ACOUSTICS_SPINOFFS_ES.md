@@ -43,13 +43,13 @@
 
 ### 1.1 La Visión
 
-El sonido es energía mecánica que se propaga a través de la materia. Durante milenios, nuestras únicas herramientas para controlar el sonido han sido la masa (paredes pesadas), la absorción (materiales blandos) y la geometría (reflexión/difracción). Estos enfoques son rudimentarios, pesados e imperfectos—las frecuencias bajas atraviesan prácticamente todo.
+El sonido es energía mecánica que se propaga a través de la materia. Durante milenios, nuestras únicas herramientas para controlar el sonido han sido la masa (paredes pesadas), la absorción (materiales blandos) y la geometría (reflexión/difracción). Estos enfoques son rudimentarios, pesados e imperfectos, las frecuencias bajas atraviesan prácticamente todo.
 
 RTM ofrece un enfoque fundamentalmente diferente: **controlar el sonido controlando la topología del espacio a través del cual viaja**.
 
-El núcleo de metamaterial Aetherion crea regiones donde el exponente topológico α difiere del espacio normal. Las ondas sonoras que entran en estas regiones experimentan características de propagación alteradas—pueden ser dobladas, enfocadas, atrapadas o redirigidas sin las barreras masivas tradicionalmente requeridas.
+El núcleo de metamaterial Aetherion crea regiones donde el exponente topológico α difiere del espacio normal. Las ondas sonoras que entran en estas regiones experimentan características de propagación alteradas, pueden ser dobladas, enfocadas, atrapadas o redirigidas sin las barreras masivas tradicionalmente requeridas.
 
-Esto no son metamateriales acústicos convencionales (que usan estructuras geométricas). Esto es **ingeniería acústica topológica**—manipular el tejido del espacio mismo para controlar cómo se propaga el sonido.
+Esto no son metamateriales acústicos convencionales (que usan estructuras geométricas). Esto es **ingeniería acústica topológica**, manipular el tejido del espacio mismo para controlar cómo se propaga el sonido.
 
 ### 1.2 Hipótesis Clave
 
@@ -739,7 +739,7 @@ BLOQUEO DE INFRASONIDO (Por debajo de 20 Hz):
 
     Actualmente IMPOSIBLE con medios pasivos.
     
-    Síndrome de turbinas eólicas, retumbo del tráfico, zumbido industrial—
+    Síndrome de turbinas eólicas, retumbo del tráfico, zumbido industrial, 
     todos en el rango de infrasonido que atraviesa todo.
     
     Panel RTM a 10 Hz:
@@ -816,7 +816,7 @@ GRADIENTE α PARA CAMUFLAJE:
 
 | Aplicación | Impacto |
 |------------|---------|
-| **Sigilo de submarinos** | Invisible al sonar—revolución militar |
+| **Sigilo de submarinos** | Invisible al sonar, revolución militar |
 | **Hábitats submarinos** | Protegidos del sonar de ballenas, ruido de barcos |
 | **Implantes médicos** | Marcapasos transparentes al ultrasonido |
 | **Sensores acústicos** | Camuflar la carcasa del sensor, exponer solo el sensor |
@@ -1342,7 +1342,7 @@ HITOS:
 
 ### 17.1 Resumen
 
-Los metamateriales acústicos topológicos representan un nuevo paradigma en el control del sonido—manipulando la topología del espacio en lugar de depender de masa, geometría o electrónica activa.
+Los metamateriales acústicos topológicos representan un nuevo paradigma en el control del sonido, manipulando la topología del espacio en lugar de depender de masa, geometría o electrónica activa.
 
 | Aspecto | Convencional | Enfoque RTM |
 |---------|--------------|-------------|
