@@ -31,7 +31,7 @@
     │      sino la alternancia precisa que permite a cada una volverse        │
     │      fértil."                                                           │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -62,7 +62,7 @@
 
 Nos hemos convertido en un pueblo sin noche.
 
-No en sentido literal — el sol sigue poniéndose, el cielo sigue oscureciéndose. Pero funcional, operativa y experiencialmente, hemos eliminado la noche de nuestras vidas. La luz eléctrica extendió el día hacia lo que antes era oscuridad. La pantalla extendió la actividad hacia lo que antes era descanso. La economía global extendió el trabajo hacia lo que antes era sueño. La ideología de la productividad extendió el hacer hacia lo que antes era simplemente ser.
+No en sentido literal, el sol sigue poniéndose, el cielo sigue oscureciéndose. Pero funcional, operativa y experiencialmente, hemos eliminado la noche de nuestras vidas. La luz eléctrica extendió el día hacia lo que antes era oscuridad. La pantalla extendió la actividad hacia lo que antes era descanso. La economía global extendió el trabajo hacia lo que antes era sueño. La ideología de la productividad extendió el hacer hacia lo que antes era simplemente ser.
 
 ```
 LA ELIMINACIÓN DE LA NOCHE
@@ -106,7 +106,7 @@ LA ELIMINACIÓN DE LA NOCHE
 
 ### 1.2 La Ideología de la Luz
 
-Detrás de la eliminación de la noche hay una ideología — la suposición inconsciente de que la luz es buena y la oscuridad es mala:
+Detrás de la eliminación de la noche hay una ideología, la suposición inconsciente de que la luz es buena y la oscuridad es mala:
 
 ```
 LA IDEOLOGÍA DE LA LUZ
@@ -388,7 +388,7 @@ EL MIEDO A LA OSCURIDAD INTERIOR
     
     Esto es incómodo.
     
-    La pantalla, el ruido, la actividad —
+    La pantalla, el ruido, la actividad,
     a menudo no son sobre productividad.
     Son sobre EVASIÓN.
     
@@ -501,7 +501,7 @@ FUNCIONES SOCIALES DE LA OSCURIDAD
     DESCANSO:
     ─────────
     La noche era cuando la comunidad se detenía.
-    No solo los individuos — todo el tejido social.
+    No solo los individuos, todo el tejido social.
     Los mercados cerraban. Las batallas pausaban. El trabajo terminaba.
     El colectivo exhalaba.
     
@@ -619,7 +619,7 @@ LA OSCURIDAD EN LA TRADICIÓN ESPIRITUAL
     LA TRADICIÓN JUDÍA:
     ───────────────────
     El día comienza al atardecer.
-    "Y fue la tarde y fue la mañana — un día."
+    "Y fue la tarde y fue la mañana, un día."
     Primero viene la oscuridad; de ella emerge la luz.
     El Sabat comienza en la oscuridad.
     
@@ -1679,7 +1679,7 @@ LO QUE ESPERA EN LA OSCURIDAD
     │     Sin ella, estás solo medio vivo.                                    │
     │     Con ella, estás entero.                                             │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
