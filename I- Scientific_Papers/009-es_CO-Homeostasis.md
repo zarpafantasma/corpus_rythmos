@@ -10,7 +10,7 @@
 
 </div>
 
-**Background.** Classical homeostasis describes how living systems stabilize internal variables, yet it rarely explains how coherence across vastly different scales—ion channels, organs, behavior—emerges or collapses. Relativistic Temporal Multiscale (RTM) theory postulates a scale-free power law τ ∝ L^α linking characteristic time and spatial scale through a dimensionless exponent that operationalizes multiscale organization. Here we extend this lens to biology by defining a dimensionless biological coherence index C_bio: the ratio of oscillatory power contained in phase-locked ("coherent") frequency bands to that in phase-random ("incoherent") bands across heart-rate variability (HRV), electroencephalography (EEG) and molecular rhythms.
+**Background.** Classical homeostasis describes how living systems stabilize internal variables, yet it rarely explains how coherence across vastly different scales, ion channels, organs, behavior, emerges or collapses. Relativistic Temporal Multiscale (RTM) theory postulates a scale-free power law τ ∝ L^α linking characteristic time and spatial scale through a dimensionless exponent that operationalizes multiscale organization. Here we extend this lens to biology by defining a dimensionless biological coherence index C_bio: the ratio of oscillatory power contained in phase-locked ("coherent") frequency bands to that in phase-random ("incoherent") bands across heart-rate variability (HRV), electroencephalography (EEG) and molecular rhythms.
 
 **Objective.** To test whether targeted multiscale stimuli can increase C_bio and produce measurable shifts in physiological and inflammatory markers.
 
@@ -26,7 +26,7 @@ We also validate the RTM homeostasis framework in cardiovascular dynamics throug
 
 **1 Introduction**
 
-**1.1 Concept:** Living organisms survive by preserving a narrow range of internal states—pH, temperature, ionic balance, redox potential—despite external fluctuations. Canonical physiology calls this *homeostasis* and typically models it as a set of negative-feedback loops that restore specific set points \[1\]. Yet empirical work over the past two decades shows that health is not merely the absence of drift from set points; it is characterised by structured variability that spans time-scales from milliseconds (ion-channel flicker) to years (endocrine seasonality) \[2, 3\]. Loss of this multiscale structure—manifest as heart-rate-variability compression, EEG desynchronisation, or disrupted circadian cycling—is a robust marker of ageing and chronic disease \[4\].
+**1.1 Concept:** Living organisms survive by preserving a narrow range of internal states, pH, temperature, ionic balance, redox potential, despite external fluctuations. Canonical physiology calls this *homeostasis* and typically models it as a set of negative-feedback loops that restore specific set points \[1\]. Yet empirical work over the past two decades shows that health is not merely the absence of drift from set points; it is characterised by structured variability that spans time-scales from milliseconds (ion-channel flicker) to years (endocrine seasonality) \[2, 3\]. Loss of this multiscale structure, manifest as heart-rate-variability compression, EEG desynchronisation, or disrupted circadian cycling, is a robust marker of ageing and chronic disease \[4\].
 
 Relativistic Temporal Multiscale (RTM) theory offers a natural lens for this phenomenon. RTM postulates a power-law relation
 
@@ -34,9 +34,9 @@ Relativistic Temporal Multiscale (RTM) theory offers a natural lens for this phe
 T \propto L^{\alpha_{RT}},
 ```
 
-which links characteristic time $`T`$ and spatial scale $`L`$ through a dimensionless exponent $`\alpha_{RT}`$ \[5\]. Previous RTM work identified distinct regimes—ballistic ($`\alpha_{RT} \approx 1`$), diffusive ($`\alpha_{RT} \approx 2`$), biological–fractal ($`\alpha_{RT} \approx 2.5`$) and quantum-confinement ($`\alpha_{RT} \approx 3.5`$)—and showed how transitions between them can underlie phenomena as diverse as ion transport and black-hole information paradoxes \[6–8\].
+which links characteristic time $`T`$ and spatial scale $`L`$ through a dimensionless exponent $`\alpha_{RT}`$ \[5\]. Previous RTM work identified distinct regimes, ballistic ($`\alpha_{RT} \approx 1`$), diffusive ($`\alpha_{RT} \approx 2`$), biological–fractal ($`\alpha_{RT} \approx 2.5`$) and quantum-confinement ($`\alpha_{RT} \approx 3.5`$), and showed how transitions between them can underlie phenomena as diverse as ion transport and black-hole information paradoxes \[6–8\].
 
-In this paper we extend the RTM framework to physiology by introducing a **biological coherence index** $`C_{bio}`$. Operationally, $`C_{bio}`$ measures the ratio of oscillatory power contained in phase-locked (“coherent”) frequency bands to that in phase-random (“incoherent”) bands across multiple biosignals—heart-rate variability (HRV), electroencephalography (EEG), and molecular transcription rhythms. Although inspired by RTM’s scaling exponent, $`C_{bio}`$ is not itself a log–log slope; it is an observable, dimension-less index of multiscale spectral coherence that we *hypothesise* to track the underlying $`\alpha_{RT}`$ in living networks.
+In this paper we extend the RTM framework to physiology by introducing a **biological coherence index** $`C_{bio}`$. Operationally, $`C_{bio}`$ measures the ratio of oscillatory power contained in phase-locked (“coherent”) frequency bands to that in phase-random (“incoherent”) bands across multiple biosignals, heart-rate variability (HRV), electroencephalography (EEG), and molecular transcription rhythms. Although inspired by RTM’s scaling exponent, $`C_{bio}`$ is not itself a log–log slope; it is an observable, dimension-less index of multiscale spectral coherence that we *hypothesise* to track the underlying $`\alpha_{RT}`$ in living networks.
 
 Our central homeo-resonance hypothesis states:
 
@@ -227,7 +227,7 @@ Several limitations of $`C_{bio}`$ as currently defined deserve emphasis:
   When molecular rhythms are unavailable, their weight is set to zero and the remaining $`w_{i}`$are renormalised to $`\sum_{i}^{}{w_{i} = 1}`$. This means early implementations of $`C_{bio}`$ largely reflect neural–autonomic coherence.
 
 - **Dynamic** $`C_{bio}(t)`$**.**\
-  Sliding-window estimates reveal temporal trajectories—rises during rest, drops under stress—that may better predict acute events (arrhythmia, migraine) than a single static value.
+  Sliding-window estimates reveal temporal trajectories, rises during rest, drops under stress, that may better predict acute events (arrhythmia, migraine) than a single static value.
 
 - **Environmental coupling (**$`\alpha_{place}`$**).**\
   As explored in Section 3.2, architectural and environmental features may modulate PLV and, indirectly, $`C_{bio}`$ via sensory entrainment. Future protocols should formally model this coupling instead of treating the environment as neutral.
@@ -312,7 +312,7 @@ The coherence-centred view makes several concrete, falsifiable predictions:
 3.  **Clinical linkage**\
     Short-term gains in $`C_{bio}^{\log}`$ should correlate with downstream reductions in CRP and IL-6 within 24 h and, over longer horizons, with improvements in sleep quality, fatigue and stress resilience.
 
-These predictions can be directly tested in the Phase-I/II protocols outlined in Sections 3 and 4. A consistent failure to observe them—despite robust measurement—would argue against the proposed homeo-resonance mechanism and would motivate revising or abandoning the RTM-based framing for homeostasis.
+These predictions can be directly tested in the Phase-I/II protocols outlined in Sections 3 and 4. A consistent failure to observe them, despite robust measurement, would argue against the proposed homeo-resonance mechanism and would motivate revising or abandoning the RTM-based framing for homeostasis.
 
 **3 Materials and Methods**
 
@@ -547,9 +547,9 @@ Single-modality studies have individually shown:
 
 - 432 Hz music enhances cortico-cardiac synchrony.
 
-Our protocol is the first to synchronise all four modalities and to quantify the integrated outcome with $`C_{bio}`$. Should the anticipated effect materialise, it would argue that **synergy—not dose escalation—is the key to unlocking larger physiological shifts**, a conclusion in line with network-control models that predict supra-additive gains when multiple hubs are perturbed coherently.
+Our protocol is the first to synchronise all four modalities and to quantify the integrated outcome with $`C_{bio}`$. Should the anticipated effect materialise, it would argue that **synergy, not dose escalation, is the key to unlocking larger physiological shifts**, a conclusion in line with network-control models that predict supra-additive gains when multiple hubs are perturbed coherently.
 
-By providing a single, cross-modal index that integrates HRV, EEG and (in future phases) molecular rhythms, $`C_{bio}`$ also offers a way to compare and aggregate disparate interventions—respiratory training, neuromodulation, light therapy, architectural design—within one quantitative framework. This could help rationalise a currently fragmented literature in which “coherence” is often invoked qualitatively but rarely measured in a standardised way.
+By providing a single, cross-modal index that integrates HRV, EEG and (in future phases) molecular rhythms, $`C_{bio}`$ also offers a way to compare and aggregate disparate interventions, respiratory training, neuromodulation, light therapy, architectural design, within one quantitative framework. This could help rationalise a currently fragmented literature in which “coherence” is often invoked qualitatively but rarely measured in a standardised way.
 
 **5.3 Limitations of the pilot design**
 
@@ -569,7 +569,7 @@ By providing a single, cross-modal index that integrates HRV, EEG and (in future
 
 **Coherence-scanner development.** Real-time coherence feedback could enable adaptive dosing, personalised to each individual’s dynamic $`C_{bio}(t)`$ trajectory. A portable “coherence scanner” would allow at-home monitoring, closed-loop adjustment of breathing/stimulation protocols, and large-scale data collection to refine normative ranges.
 
-**Clinical translation.** Populations with documented coherence loss—chronic pain, dysautonomia, metabolic syndrome, major depression—will be prioritised once safety and durability are proven in healthy volunteers. In such cohorts, even modest increases in $`C_{bio}`$ might translate into meaningful improvements in fatigue, sleep and autonomic stability.
+**Clinical translation.** Populations with documented coherence loss, chronic pain, dysautonomia, metabolic syndrome, major depression, will be prioritised once safety and durability are proven in healthy volunteers. In such cohorts, even modest increases in $`C_{bio}`$ might translate into meaningful improvements in fatigue, sleep and autonomic stability.
 
 **Mechanistic probes.** Parallel OMICs and functional-MRI sub-studies should map how changes in $`C_{bio}`$ correlate with immune timing, redox state and large-scale brain networks. This would help disentangle whether $`C_{bio}`$ primarily tracks autonomic tone, cortical network organisation, inflammatory status, or a composite of all three.
 
@@ -577,7 +577,7 @@ By providing a single, cross-modal index that integrates HRV, EEG and (in future
 
 **5.5 Concluding perspective**
 
-This study is intentionally scoped as a proof-of-mechanism. Demonstrating that $`C_{bio}`$ can be acutely elevated in humans—with safety, quantifiable effect size and a clear analytical pipeline—would mark a pivotal step toward an evidence-based **“coherence medicine.”** Whether sustained elevation of $`C_{bio}`$ (and the underlying $`\alpha_{RT}`$it is hypothesised to track) translates into clinically meaningful outcomes will now hinge on rigorous, longer-term trials and on the field’s ability to standardise both measurement and intervention across laboratories.
+This study is intentionally scoped as a proof-of-mechanism. Demonstrating that $`C_{bio}`$ can be acutely elevated in humans, with safety, quantifiable effect size and a clear analytical pipeline, would mark a pivotal step toward an evidence-based **“coherence medicine.”** Whether sustained elevation of $`C_{bio}`$ (and the underlying $`\alpha_{RT}`$it is hypothesised to track) translates into clinically meaningful outcomes will now hinge on rigorous, longer-term trials and on the field’s ability to standardise both measurement and intervention across laboratories.
 
 **6 Conclusions**
 
@@ -603,7 +603,7 @@ Looking forward, the long-term vision is a progressive shift from isolated, moda
 
 - The RTM framework offers a common language for comparing coherence across domains: from molecular clocks to neural networks, from individual physiology to group-level synchrony.
 
-For now, these ambitions remain hypothetical. What is concrete is the invitation: to treat coherence not as a vague metaphor, but as a measurable, manipulable property of living systems—and to let $`C_{bio}`$, however provisional, serve as one of the first rulers with which we learn to measure it.
+For now, these ambitions remain hypothetical. What is concrete is the invitation: to treat coherence not as a vague metaphor, but as a measurable, manipulable property of living systems, and to let $`C_{bio}`$, however provisional, serve as one of the first rulers with which we learn to measure it.
 
 **Appendix A**
 
