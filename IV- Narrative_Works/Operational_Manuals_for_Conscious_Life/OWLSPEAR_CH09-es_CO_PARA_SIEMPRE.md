@@ -71,10 +71,10 @@ IX. LA LIBERACIÓN FINAL
 ```
 ╔═════════════════════════════════════════════════════════════════════════════╗
 ║                                                                             ║
-║    "Cuando llegue el momento, lo que no muere —el mármol inmutable,         ║
-║    el eterno— muere para siempre. Pero lo que muere bien —cede              ║
+║    "Cuando llegue el momento, lo que no muere, el mármol inmutable,         ║
+║    el eterno, muere para siempre. Pero lo que muere bien, cede              ║
 ║    la forma a tiempo, permite el relevo, devuelve el tono al                ║
-║    océano— no se pierde: cambia de modo."                                   ║
+║    océano, no se pierde: cambia de modo."                                   ║
 ║                                                                             ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -90,7 +90,7 @@ La vida no es un objeto.
 La vida es coherencia dinámica a múltiples escalas.
 Es una onda estacionaria que mantiene su forma solo al permitir que un río continuo de energía, materia e información fluya a través de ella.
 
-Intentar "fijar" esta onda —convertir el proceso dinámico en un objeto estático— es matemáticamente desastroso.
+Intentar "fijar" esta onda, convertir el proceso dinámico en un objeto estático, es matemáticamente desastroso.
 Degrada la plasticidad del sistema.
 Rompe el acoplamiento necesario con el entorno en constante cambio.
 Aumenta la fragilidad del sistema hasta que la menor perturbación lo destroza.
@@ -104,7 +104,7 @@ Lo segundo es la muerte del intérprete, disfrazada de negativa a abandonar el e
 
 ## II. LAS CONSECUENCIAS DEL NODO CONGELADO
 
-Cuando un nodo dentro de una red se niega a transmitir la energía hacia adelante —cuando busca volverse "inmortal" acumulando su estado actual— las consecuencias se propagan en todas las escalas de la existencia.
+Cuando un nodo dentro de una red se niega a transmitir la energía hacia adelante, cuando busca volverse "inmortal" acumulando su estado actual, las consecuencias se propagan en todas las escalas de la existencia.
 Esto no es mera poesía filosófica. Es física estructural.
 
 ### A. Consecuencias Biológicas (La Homeostasis Rígida)
@@ -157,7 +157,7 @@ Al final, apenas queda una pequeña fracción no reemplazada.
 El resto es continuidad lograda mediante reajustes, no mediante la inmovilidad.
 Somos lo que re-sincronizamos, no lo que nunca se mueve.
 
-A partir de esta realidad física, la promesa de vivir para siempre como una estatua inmutable —el mismo yo, la misma postura, el mismo mármol— es un profundo malentendido de lo que somos.
+A partir de esta realidad física, la promesa de vivir para siempre como una estatua inmutable, el mismo yo, la misma postura, el mismo mármol, es un profundo malentendido de lo que somos.
 No es vida extendida.
 Es la definición de un cadáver.
 
@@ -181,7 +181,7 @@ No es un fallo técnico del universo.
 Es una transición de fase topológica.
 
 La muerte es la decoherencia del instrumento.
-La cavidad física —el resonador biológico— pierde su elasticidad.
+La cavidad física, el resonador biológico, pierde su elasticidad.
 Pierde su calidad de resonancia.
 Ya no puede sostener el patrón de la onda estacionaria frente a la resistencia termodinámica del entorno.
 La fricción finalmente supera la estructura.
@@ -191,7 +191,7 @@ No.
 
 Los detalles biográficos se disuelven.
 Los recuerdos específicos vinculados al almacenamiento químico del cerebro se desvanecen.
-Pero la estructura aprendida —la afinación, la claridad, la compasión, la inteligencia del ritmo— persiste.
+Pero la estructura aprendida, la afinación, la claridad, la compasión, la inteligencia del ritmo, persiste.
 Ese "tono" regresa al océano del que venimos.
 
 Morir no es caer en la nada.
@@ -304,7 +304,7 @@ Años vividos con plasticidad intacta.
 Con curiosidad despierta.
 Con un humor que no se rompe cuando el mundo empuja.
 
-Una técnica médica o tecnológica que añade duración biológica pero reduce la coherencia sistémica —mantener un cuerpo respirando mientras la mente se ha perdido, o aislar a una persona en seguridad estéril a costa de la conexión humana— no añade vida.
+Una técnica médica o tecnológica que añade duración biológica pero reduce la coherencia sistémica, mantener un cuerpo respirando mientras la mente se ha perdido, o aislar a una persona en seguridad estéril a costa de la conexión humana, no añade vida.
 Solo alarga la espera.
 Extiende el lienzo sin añadir pintura.
 
@@ -315,8 +315,8 @@ Es enseñarte a maximizar la amplitud y claridad de tu señal mientras la cavida
 
 Regresamos al axioma central.
 
-Cuando llegue el momento, lo que no muere —el inmutable, el temeroso, el mármol eterno— muere para siempre. Se quiebra porque no puede doblarse.
-Lo que muere bien —lo que cede la forma a tiempo, permite el relevo y devuelve el tono al océano— no se pierde.
+Cuando llegue el momento, lo que no muere, el inmutable, el temeroso, el mármol eterno, muere para siempre. Se quiebra porque no puede doblarse.
+Lo que muere bien, lo que cede la forma a tiempo, permite el relevo y devuelve el tono al océano, no se pierde.
 Cambia de modo.
 
 Esa es la tarea última tanto del Cartógrafo como del estudiante:
