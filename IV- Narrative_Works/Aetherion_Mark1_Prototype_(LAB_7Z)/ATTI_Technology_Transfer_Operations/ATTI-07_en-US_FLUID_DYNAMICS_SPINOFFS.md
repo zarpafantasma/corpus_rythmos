@@ -44,11 +44,11 @@
 
 ### 1.1 The Vision
 
-Humanity faces a water crisis. By 2050, half the world's population will live in water-stressed regions. Desalination offers a solution—the oceans contain 97% of Earth's water—but current technologies are **energy-intensive, expensive, and environmentally problematic**.
+Humanity faces a water crisis. By 2050, half the world's population will live in water-stressed regions. Desalination offers a solution, the oceans contain 97% of Earth's water, but current technologies are **energy-intensive, expensive, and environmentally problematic**.
 
 RTM proposes a paradigm shift: instead of forcing water through membranes with brute-force pressure, use **topological gradients (∇α)** to create materials where water *prefers* to flow in one direction while contaminants are naturally rejected.
 
-This is not magic. It's **asymmetric transport engineering**—the same principle that makes biological membranes so efficient.
+This is not magic. It's **asymmetric transport engineering**, the same principle that makes biological membranes so efficient.
 
 ### 1.2 Key Hypothesis
 
@@ -663,7 +663,7 @@ WHY:
 
 ### 7.1 Concept
 
-Gradient materials can pump fluids **without external power**—the gradient itself provides the driving force.
+Gradient materials can pump fluids **without external power**, the gradient itself provides the driving force.
 
 ```
 PASSIVE GRADIENT PUMP
@@ -813,7 +813,7 @@ Mechanism:
 
 ### 9.1 Concept
 
-Gradient materials can control drug release with precision—releasing molecules directionally and at controlled rates.
+Gradient materials can control drug release with precision, releasing molecules directionally and at controlled rates.
 
 ```
 GRADIENT DRUG DELIVERY CAPSULE
@@ -1367,7 +1367,7 @@ COMPLETE ENERGY ACCOUNTING
 
 INPUTS:
     • E_pump: Energy to circulate feed (reduced pressure)
-    • E_gradient: Energy to maintain gradient (zero—it's static)
+    • E_gradient: Energy to maintain gradient (zero, it's static)
     • E_auxiliary: Pretreatment, post-treatment
 
 OUTPUTS:
@@ -1562,7 +1562,7 @@ SYNERGIES:
 
 ### 17.1 Summary
 
-RTM-based fluid dynamics applications offer a potentially transformative approach to water treatment and separation challenges. The core insight—using topological gradients to create directional molecular transport—could fundamentally change how we approach:
+RTM-based fluid dynamics applications offer a potentially transformative approach to water treatment and separation challenges. The core insight, using topological gradients to create directional molecular transport, could fundamentally change how we approach:
 
 | Application | Potential Impact |
 |-------------|-----------------|
