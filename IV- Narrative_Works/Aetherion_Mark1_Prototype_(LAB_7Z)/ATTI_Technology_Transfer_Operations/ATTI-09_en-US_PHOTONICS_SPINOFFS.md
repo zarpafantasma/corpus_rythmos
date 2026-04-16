@@ -44,7 +44,7 @@
 
 ### 1.1 The Vision
 
-The Sun delivers 173,000 terawatts of power to Earth—10,000 times humanity's total energy consumption. Yet we capture less than 0.1% of it. The problem isn't availability; it's **efficiency and cost**.
+The Sun delivers 173,000 terawatts of power to Earth, 10,000 times humanity's total energy consumption. Yet we capture less than 0.1% of it. The problem isn't availability; it's **efficiency and cost**.
 
 Current solar cells face fundamental limitations:
 - **Shockley-Queisser limit:** Single-junction cells can't exceed ~33% efficiency
@@ -52,7 +52,7 @@ Current solar cells face fundamental limitations:
 - **Angular sensitivity:** Performance drops when light isn't perpendicular
 - **Thermalization losses:** High-energy photons lose energy as heat
 
-RTM proposes a paradigm shift: use **topological gradients (∇α)** to create materials that actively **funnel, concentrate, and direct photons** toward optimal absorption zones—regardless of incident angle or wavelength.
+RTM proposes a paradigm shift: use **topological gradients (∇α)** to create materials that actively **funnel, concentrate, and direct photons** toward optimal absorption zones, regardless of incident angle or wavelength.
 
 ### 1.2 Key Hypothesis
 
@@ -684,7 +684,7 @@ The gradient layer can be ADDED to existing cell types:
     │                     │                  │               │            │
     └─────────────────────────────────────────────────────────────────────┘
 
-Not a replacement—an ENHANCEMENT layer.
+Not a replacement, an ENHANCEMENT layer.
 ```
 
 ---
@@ -1810,7 +1810,7 @@ RATIONALE:
 
 ### 18.1 Summary
 
-RTM-based photonics offers a potentially transformative approach to light capture, concentration, and conversion. The core insight—using topological gradients to direct photons regardless of incident angle or wavelength—could significantly improve:
+RTM-based photonics offers a potentially transformative approach to light capture, concentration, and conversion. The core insight, using topological gradients to direct photons regardless of incident angle or wavelength, could significantly improve:
 
 | Application | Current Limitation | RTM Solution |
 |-------------|-------------------|--------------|
