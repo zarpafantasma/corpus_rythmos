@@ -8,14 +8,14 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║        AETHERION TECHNOLOGY TRANSFER INITIATIVE (ATTI)           ║
-    ║                                                                  ║
-    ║      "Gravity is not a fundamental constraint of metallurgy.     ║
-    ║  It is merely an environmental variable—one we can now control." ║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔═══════════════════════════════════════════════════════════════════╗
+    ║                                                                   ║
+    ║        AETHERION TECHNOLOGY TRANSFER INITIATIVE (ATTI)            ║
+    ║                                                                   ║
+    ║      "Gravity is not a fundamental constraint of metallurgy.      ║
+    ║  It is merely an environmental variable, one we can now control." ║
+    ║                                                                   ║
+    ╚═══════════════════════════════════════════════════════════════════╝
 
 
 ## Table of Contents
@@ -45,13 +45,13 @@
 
 ### 1.1 The Vision
 
-Every material we use—every alloy, every crystal, every composite—was formed under the tyranny of Earth's gravity. For 10,000 years of metallurgical history, gravity has been an invisible but absolute constraint, dictating what materials are possible and what remains forever out of reach.
+Every material we use, every alloy, every crystal, every composite, was formed under the tyranny of Earth's gravity. For 10,000 years of metallurgical history, gravity has been an invisible but absolute constraint, dictating what materials are possible and what remains forever out of reach.
 
 Space agencies have long known that microgravity environments enable the creation of materials impossible to synthesize on Earth. The International Space Station has produced superior fiber optics, perfect protein crystals, and novel alloys. But at $20,000+ per kilogram to orbit, space manufacturing remains economically impractical.
 
 RTM offers a radical alternative: **bring microgravity to Earth**.
 
-The Aetherion Forge concept leverages the topological gradient (∇α) to create localized zones where the effective gravitational force is nullified or precisely controlled. Within these "topological stasis bubbles," materials can be processed as if in orbit—without the rocket, without the space station, without the astronomical costs.
+The Aetherion Forge concept leverages the topological gradient (∇α) to create localized zones where the effective gravitational force is nullified or precisely controlled. Within these "topological stasis bubbles," materials can be processed as if in orbit, without the rocket, without the space station, without the astronomical costs.
 
 ### 1.2 Key Hypothesis
 
@@ -61,7 +61,7 @@ CENTRAL HYPOTHESIS
 
 If the Aetherion propulsion mechanism generates thrust by creating
 asymmetric topological gradients, then a SYMMETRIC configuration
-should create LEVITATION—localized gravity nullification.
+should create LEVITATION, localized gravity nullification.
 
     PROPULSION MODE (Aetherion Mark 1):
     
@@ -460,7 +460,7 @@ Under normal gravity (1G), macroscopic forces dominate:
         
     Ratio: F_bond / F_gravity ≈ 10¹⁶
     
-    Wait—bonding force is MUCH larger than gravity!
+    Wait, bonding force is MUCH larger than gravity!
     
     So why does gravity win?
     
@@ -481,7 +481,7 @@ Under normal gravity (1G), macroscopic forces dominate:
     │   • Billions of atoms now in wrong place                            │
     │   • Cannot form proper bonds with "partner" atoms                   │
     │                                                                     │
-    │   GRAVITY DOESN'T BREAK BONDS—IT PREVENTS THEM FROM FORMING.        │
+    │   GRAVITY DOESN'T BREAK BONDS, IT PREVENTS THEM FROM FORMING.       │
     │                                                                     │
     └─────────────────────────────────────────────────────────────────────┘
 
@@ -815,7 +815,7 @@ POTENTIAL IMPACT:
 CRYSTALLIZATION PROBLEM
 ════════════════════════════════════════════════════════════════════════════════
 
-ZBLAN is a glass—it should be amorphous (no crystal structure).
+ZBLAN is a glass, it should be amorphous (no crystal structure).
 But on Earth, it always crystallizes partially.
 
     COOLING UNDER GRAVITY:
@@ -1442,7 +1442,7 @@ RESULT:
 DESIGNER METAMATERIAL LATTICES
 ════════════════════════════════════════════════════════════════════════════════
 
-Metamaterials have properties not found in nature—negative Poisson ratio,
+Metamaterials have properties not found in nature, negative Poisson ratio,
 negative refractive index, extreme stiffness-to-weight ratios.
 
 The key is STRUCTURE, not composition.
@@ -2349,7 +2349,7 @@ REALISTIC CAPTURE (Year 10): $500M-1B/year
 
 ### 18.1 Summary
 
-The Aetherion Forge represents a potentially transformative application of RTM technology to materials science. By creating localized microgravity conditions on Earth, we could manufacture materials currently impossible to produce—or only producible in the prohibitively expensive environment of space.
+The Aetherion Forge represents a potentially transformative application of RTM technology to materials science. By creating localized microgravity conditions on Earth, we could manufacture materials currently impossible to produce, or only producible in the prohibitively expensive environment of space.
 
 | Application | Current Limitation | Forge Solution |
 |-------------|-------------------|----------------|
@@ -2393,7 +2393,7 @@ MATERIALS SCIENCE:
     • Nobel Prize-worthy science
 
 THIS WOULD BE THE FOURTH INDUSTRIAL REVOLUTION.
-Not automation of existing processes—
+Not automation of existing processes, 
 Creation of entirely new materials and capabilities.
 ```
 
