@@ -59,9 +59,9 @@
 
 The idea is not mystical. It is architectural.
 
-What we call "everyday reality" — the world in which trains arrive on schedule, walls remain solid, and the laws of physics repeat without exception — does not maintain itself automatically. It is maintained because we maintain it. Together. Through a continuous, unconscious, collective act of stabilization.
+What we call "everyday reality",  the world in which trains arrive on schedule, walls remain solid, and the laws of physics repeat without exception,  does not maintain itself automatically. It is maintained because we maintain it. Together. Through a continuous, unconscious, collective act of stabilization.
 
-This is not to say that reality is "merely subjective" or that physical laws are optional. The laws are real. Matter is real. But the *resolution* at which reality manifests — the degree to which it remains predictable, the extent to which it tolerates variation — is a function of something we can call the **field of consensus**.
+This is not to say that reality is "merely subjective" or that physical laws are optional. The laws are real. Matter is real. But the *resolution* at which reality manifests,  the degree to which it remains predictable, the extent to which it tolerates variation,  is a function of something we can call the **field of consensus**.
 
 ```
 THE FUNDAMENTAL INSIGHT
@@ -84,7 +84,7 @@ THE FUNDAMENTAL INSIGHT
     → The margin for the unusual expands.
     
     The web can remain a web even if several nodes collapse.
-    But the quality of the web — its rigidity or elasticity — 
+    But the quality of the web,  its rigidity or elasticity,  
     is determined by the configuration of the remaining nodes.
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -108,7 +108,7 @@ If reality is a collaborative construct maintained by consensus, then:
 
 2. **Environments differ in their consensus density.** A crowded city center at noon operates under different conditions than an empty field at midnight.
 
-3. **Transitional experiences — dreams, visions, synchronicities, anomalies — are not breaks in reality but variations in the resolution at which reality is rendered.** They occur when the consensus field loosens enough to permit them.
+3. **Transitional experiences,  dreams, visions, synchronicities, anomalies,  are not breaks in reality but variations in the resolution at which reality is rendered.** They occur when the consensus field loosens enough to permit them.
 
 4. **We can learn to navigate these conditions.** Opening when opening serves; closing when closure is needed; moving between density and sparsity with awareness rather than accident.
 
@@ -189,7 +189,7 @@ SCALING EFFECTS
 
 ### 2.3 Alignment (A)
 
-Number alone is not sufficient. A thousand people in chaos — each holding different assumptions, expecting different outcomes, operating under different rules — do not create the same field as a thousand people synchronized in ritual.
+Number alone is not sufficient. A thousand people in chaos,  each holding different assumptions, expecting different outcomes, operating under different rules,  do not create the same field as a thousand people synchronized in ritual.
 
 Alignment measures the degree to which participants share:
 
@@ -460,7 +460,7 @@ EFFECTS OF HIGH CONSENSUS
 
 ### 5.1 Characteristics
 
-Low-consensus environments are where the web loosens. They are not "better" or "worse" than high-consensus environments — they are *different operational contexts* with different possibilities and different risks.
+Low-consensus environments are where the web loosens. They are not "better" or "worse" than high-consensus environments,  they are *different operational contexts* with different possibilities and different risks.
 
 ```
 LOW-CONSENSUS ENVIRONMENT PROFILE
@@ -525,7 +525,7 @@ EFFECTS OF LOW CONSENSUS
 
 ### 5.3 Examples
 
-**The Empty Workshop at Night:** The machines are silent. The workers have gone home. One person remains, alone with their tools. The rigid schedules of the day have released their grip. In this gap, a solution that would not arrive during the busy hours appears effortlessly — not because of magic, but because the scene stopped pushing against it.
+**The Empty Workshop at Night:** The machines are silent. The workers have gone home. One person remains, alone with their tools. The rigid schedules of the day have released their grip. In this gap, a solution that would not arrive during the busy hours appears effortlessly,  not because of magic, but because the scene stopped pushing against it.
 
 **The Long Road with No Traffic:** Hours of driving through empty landscape. No other cars. No signs of human presence. The consensus field drops to baseline. The traveler enters a liminal state. Conversations with absent people occur. Memories rearrange themselves. The distance traveled in miles has no relationship to the distance traveled in mind.
 
@@ -647,7 +647,7 @@ ANOMALY CLASSIFICATION
 
 ### 7.1 The Tools of Consensus Modulation
 
-Communities that work with the edges of consensus have, for millennia, developed tools to regulate the field. These are not decorations or superstitions. They are *phase technologies* — practical instruments for raising or lowering the coherence of a group.
+Communities that work with the edges of consensus have, for millennia, developed tools to regulate the field. These are not decorations or superstitions. They are *phase technologies*,  practical instruments for raising or lowering the coherence of a group.
 
 ```
 THE THREE INSTRUMENTS
@@ -806,7 +806,7 @@ SPACE AS PHASE TECHNOLOGY
 
 ### 8.1 The Basic Protocol
 
-For those who wish to work with low-consensus environments — whether for creativity, insight, healing, or exploration — a simple protocol is sufficient:
+For those who wish to work with low-consensus environments,  whether for creativity, insight, healing, or exploration,  a simple protocol is sufficient:
 
 ```
 BASIC OPENING/CLOSING PROTOCOL
@@ -845,7 +845,7 @@ BASIC OPENING/CLOSING PROTOCOL
     ──────────────
     6. TAKE NOTES IN A DETACHED STATE.
        • Write or record immediately after.
-       • Do not interpret yet — just record.
+       • Do not interpret yet,  just record.
        • "Cold" documentation preserves accuracy.
     
     7. CLOSE DELIBERATELY.
@@ -923,7 +923,7 @@ EMERGENCY CLOSING PROTOCOL
     
     2. INCREASE A: Return to gentle routines.
        • Follow a familiar script (make tea, fold laundry).
-       • Do not improvise — follow what is known.
+       • Do not improvise,  follow what is known.
     
     3. INCREASE θ: Focus attention on simple tasks.
        • Count objects. Name colors. Touch textures.
@@ -986,7 +986,7 @@ THE CITY AND THE DESERT
 
 ### 9.2 The Intermediate Zones
 
-Between the extremes lie intermediate environments: workshops, laboratories, temples, libraries, studios. These are spaces designed for *controlled loosening* — enough consensus to maintain structure, but not so much that novelty is impossible.
+Between the extremes lie intermediate environments: workshops, laboratories, temples, libraries, studios. These are spaces designed for *controlled loosening*,  enough consensus to maintain structure, but not so much that novelty is impossible.
 
 ```
 INTERMEDIATE ZONES
@@ -1158,7 +1158,7 @@ This framework is not a belief system. It is a method.
 
 You can test it. Go to a crowded place and notice how predictable the world becomes. Go to an empty place and notice how the edges soften. Work with a small, aligned group and notice what becomes possible that was impossible alone. Practice opening and closing and notice how it becomes a skill.
 
-The web is real. We hold it up together. And when we understand how it works, we can work with it — not to escape reality, but to participate in its composition.
+The web is real. We hold it up together. And when we understand how it works, we can work with it,  not to escape reality, but to participate in its composition.
 
 ```
     ┌─────────────────────────────────────────────────────────────────────────┐
