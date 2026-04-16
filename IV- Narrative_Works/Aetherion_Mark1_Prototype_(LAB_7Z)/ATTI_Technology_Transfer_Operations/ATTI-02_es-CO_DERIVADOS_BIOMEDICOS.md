@@ -8,14 +8,14 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)  ║
-    ║                                                                  ║
-    ║            "La muerte no es un evento—es un proceso.             ║
-    ║       Y los procesos pueden ralentizarse, pausarse o redirigirse."║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔══════════════════════════════════════════════════════════════════════╗
+    ║                                                                      ║
+    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)      ║
+    ║                                                                      ║
+    ║            "La muerte no es un evento, es un proceso.                ║
+    ║       Y los procesos pueden ralentizarse, pausarse o redirigirse."   ║
+    ║                                                                      ║
+    ╚══════════════════════════════════════════════════════════════════════╝
 ---
 
 ## ⚠️ AVISO ESPECULATIVO
@@ -64,9 +64,9 @@ Cada año, millones mueren no porque la medicina carezca del conocimiento para s
 
 El tiempo es el enemigo de la medicina de emergencia. Y no tenemos armas contra él.
 
-RTM propone una solución radical: **no luches contra el tiempo—cambia su flujo**.
+RTM propone una solución radical: **no luches contra el tiempo, cambia su flujo**.
 
-La Cámara de Estasis Topológica aprovecha la relación entre el exponente topológico RTM (α) y las dinámicas temporales para crear regiones localizadas donde el tiempo biológico fluye a una fracción de su velocidad normal. Dentro de tal campo, el metabolismo celular, el sangrado y la degradación de tejidos del paciente proceden a 1/50 de la velocidad normal—ganando horas o días donde antes solo había minutos.
+La Cámara de Estasis Topológica aprovecha la relación entre el exponente topológico RTM (α) y las dinámicas temporales para crear regiones localizadas donde el tiempo biológico fluye a una fracción de su velocidad normal. Dentro de tal campo, el metabolismo celular, el sangrado y la degradación de tejidos del paciente proceden a 1/50 de la velocidad normal, ganando horas o días donde antes solo había minutos.
 
 Esto no es criónica. No hay congelación, no hay daño por cristales de hielo, no hay proceso de reanimación. El paciente simplemente experimenta el tiempo más lentamente mientras está rodeado por el campo. Cuando el campo se desactiva, vuelve al flujo temporal normal, biológicamente más joven por el diferencial de tiempo.
 
@@ -136,7 +136,7 @@ IMPLICACIÓN BIOLÓGICA:
 LA MUERTE COMO PROCESO
 ════════════════════════════════════════════════════════════════════════════════
 
-La muerte no es un momento—es una cascada de fallas celulares:
+La muerte no es un momento, es una cascada de fallas celulares:
 
     LESIÓN
        │
@@ -273,7 +273,7 @@ TRASPLANTE DE ÓRGANOS:
 METABOLISMO CELULAR Y TIEMPO
 ════════════════════════════════════════════════════════════════════════════════
 
-Todos los procesos biológicos son cinéticos—dependen del movimiento molecular y
+Todos los procesos biológicos son cinéticos, dependen del movimiento molecular y
 las tasas de reacción química. Estas tasas están fundamentalmente ligadas a:
 
 1. TEMPERATURA (ecuación de Arrhenius):
@@ -358,7 +358,7 @@ LIMITACIONES:
     └────────────────────────────────────────────────────────────────────┘
 
 Incluso con hipotermia, un paciente de trauma transportado desde ubicación
-remota aún enfrenta las mismas restricciones fundamentales de tiempo—solo
+remota aún enfrenta las mismas restricciones fundamentales de tiempo, solo
 ligeramente extendidas.
 ```
 
@@ -550,10 +550,10 @@ RESPUESTA: α Natural y α Artificial son fundamentalmente diferentes.
     │                                                                    │
     │   α = 2.0        α = 3.0        α = 3.5        α = 4.0             │
     │                                                                    │
-    │   ┌────┐        ┌────────┐    ┌──────────┐    ╳╳╳╳╳╳╳╳╳            │
-    │   │ ╱  │        │╱╲╱╲╱╲╱╲│    │╱╲╱╲╱╲╱╲╱╲│    ╳ NO PUEDE╳          │
-    │   │╱   │        │╲╱╲╱╲╱╲╱│    │╲╱╲╱╲╱╲╱╲╱│    ╳ EXISTIR ╳          │
-    │   └────┘        └────────┘    └──────────┘    ╳╳╳╳╳╳╳╳╳            │
+    │   ┌────┐        ┌────────┐    ┌──────────┐    ╳╳╳╳╳╳╳╳╳╳╳╳         │
+    │   │ ╱  │        │╱╲╱╲╱╲╱╲│    │╱╲╱╲╱╲╱╲╱╲│    ╳ NO PUEDE ╳         │
+    │   │╱   │        │╲╱╲╱╲╱╲╱│    │╲╱╲╱╲╱╲╱╲╱│    ╳  EXISTIR ╳         │
+    │   └────┘        └────────┘    └──────────┘    ╳╳╳╳╳╳╳╳╳╳╳╳         │
     │                                                                    │
     │   Llenado de    Llenado de    Empaque         Imposible            │
     │   superficie    volumen       máximo          en 3D                │
@@ -564,7 +564,7 @@ RESPUESTA: α Natural y α Artificial son fundamentalmente diferentes.
 α ARTIFICIAL (hasta ~50+):
 
     El Aetherion crea un campo α ARTIFICIAL.
-    Esto no es escalado de red—es MANIPULACIÓN MÉTRICA.
+    Esto no es escalado de red, es MANIPULACIÓN MÉTRICA.
     
     El núcleo de metamaterial no hace crecer una red orgánica.
     FUERZA al vacío local a comportarse como si existieran más dimensiones.
@@ -590,7 +590,7 @@ RESPUESTA: α Natural y α Artificial son fundamentalmente diferentes.
     │                                                                    │
     └────────────────────────────────────────────────────────────────────┘
 
-    El campo artificial es "antinatural"—impuesto violentamente sobre el
+    El campo artificial es "antinatural", impuesto violentamente sobre el
     espaciotiempo.
     Energía apagada → colapso instantáneo de vuelta a α = 1.
 ```
@@ -629,7 +629,7 @@ DESDE AFUERA (perspectiva del observador):
 
     "El corazón del paciente latía tan lento que podíamos ver cada contracción
      como una flor abriéndose en cámara lenta. Como una vez cada 40 segundos.
-     Sus ojos nos seguían, pero tan lentamente—el movimiento sacádico que
+     Sus ojos nos seguían, pero tan lentamente, el movimiento sacádico que
      normalmente no notamos tomó un segundo completo. Parecía congelado, pero
      estaba vivo. Solo... lento."
 
@@ -639,7 +639,7 @@ CONSCIENCIA:
     ┌────────────────────────────────────────────────────────────────────┐
     │                                                                    │
     │   El cerebro genera consciencia a través del disparo neuronal.     │
-    │   El disparo neuronal es electroquímico—depende del tiempo.        │
+    │   El disparo neuronal es electroquímico, depende del tiempo.       │
     │                                                                    │
     │   A α = 50:                                                        │
     │   • Las neuronas disparan a 1/50 de la velocidad                   │
@@ -1015,7 +1015,7 @@ EL PROBLEMA GEOGRÁFICO:
     │                      ╲  ╱                                           │
     │                    Houston ●          ● Miami                       │
     │                                                                     │
-    │   Distancia máx. transporte corazón (4 hr): ~2,400 km              │
+    │   Distancia máx. transporte corazón (4 hr): ~2,400 km               │
     │   Seattle-Miami: 5,300 km = IMPOSIBLE para corazón                  │
     │                                                                     │
     │   Un corazón compatible en Seattle no puede llegar a un paciente    │
@@ -1189,7 +1189,7 @@ CAMPO DE ESTASIS CON GRADIENTE SELECTIVO:
     │   Tejido del paciente: Ralentización máxima (20×)                  │
     │                                                                    │
     │   El gradiente es tan suave que el cirujano no lo nota.            │
-    │   Las herramientas se mueven ligeramente más lento en la punta—    │
+    │   Las herramientas se mueven ligeramente más lento en la punta,    │
     │   ¡proporciona mejor control!                                      │
     │   El sangrado y respuesta tisular del paciente son 20× más lentos. │
     │                                                                    │
@@ -1299,7 +1299,7 @@ ESCENARIO CON ESTASIS PORTÁTIL:
     │       ┌─────────────────────────┐                                   │
     │       │░░░░░░░░░░░░░░░░░░░░░░░░░│                                   │
     │       │░░░  SOLO CABEZA/CEREBRO ░│  ← Estasis cerebral selectiva    │
-    │       │░░░     (α = 10)       ░░░│                                   │
+    │       │░░░     (α = 10)       ░░░│                                  │
     │       │░░░░░░░░░░░░░░░░░░░░░░░░░│                                   │
     │       └─────────────────────────┘                                   │
     │       ┌─────────────────────────┐                                   │
@@ -1443,48 +1443,48 @@ SEPSIS: CUANDO EL TIEMPO SE ACABA
 
     La mortalidad por sepsis aumenta ~8% por hora de antibióticos retrasados
     
-    ┌────────────────────────────────────────────────────────────────────┐
-    │                                                                    │
-    │   Tasa de                                                          │
-    │   mortalidad                                                       │
-    │                                                                    │
-    │   80%│                                        ╱───────────         │
-    │      │                                      ╱                      │
-    │   60%│                                    ╱                        │
-    │      │                                  ╱                          │
-    │   40%│                                ╱                            │
-    │      │                              ╱                              │
-    │   20%│                            ╱                                │
-    │      │                          ╱                                  │
-    │    0%│────────────────────────╱                                    │
-    │      └───────────────────────────────────────────────────────────► │
-    │           2     4     6     8    10    12   Horas hasta antibióticos│
-    │                                                                    │
-    └────────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │                                                                      │
+    │   Tasa de                                                            │
+    │   mortalidad                                                         │
+    │                                                                      │
+    │   80%│                                        ╱───────────           │
+    │      │                                      ╱                        │
+    │   60%│                                    ╱                          │
+    │      │                                  ╱                            │
+    │   40%│                                ╱                              │
+    │      │                              ╱                                │
+    │   20%│                            ╱                                  │
+    │      │                          ╱                                    │
+    │    0%│────────────────────────╱                                      │
+    │      └───────────────────────────────────────────────────────────►   │
+    │           2     4     6     8    10    12   Horas hasta antibióticos │
+    │                                                                      │
+    └──────────────────────────────────────────────────────────────────────┘
 
 
 APLICACIÓN DE ESTASIS (especulativa):
 
     Si el paciente se coloca en estasis:
     
-    ┌─────────────────────────────────────────────────────────────────────┐
-    │                                                                     │
-    │   ESTASIS DE CUERPO COMPLETO (α = 10)                               │
-    │                                                                     │
-    │   Biología del paciente ralentizada 10×                             │
-    │   Reproducción del patógeno ralentizada 10× (están dentro del campo)│
-    │                                                                     │
-    │   Tiempo de duplicación efectivo:                                   │
-    │       E. coli: 20 min → 200 min (3.3 horas)                         │
-    │       S. aureus: 30 min → 300 min (5 horas)                         │
-    │                                                                     │
-    │   Más tiempo para:                                                  │
-    │   • Identificar patógeno                                            │
-    │   • Cultivar sensibilidad                                           │
-    │   • Seleccionar antibiótico óptimo                                  │
-    │   • Trasladar a instalación apropiada                               │
-    │                                                                     │
-    └─────────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │                                                                      │
+    │   ESTASIS DE CUERPO COMPLETO (α = 10)                                │
+    │                                                                      │
+    │   Biología del paciente ralentizada 10×                              │
+    │   Reproducción del patógeno ralentizada 10× (están dentro del campo) │
+    │                                                                      │
+    │   Tiempo de duplicación efectivo:                                    │
+    │       E. coli: 20 min → 200 min (3.3 horas)                          │
+    │       S. aureus: 30 min → 300 min (5 horas)                          │
+    │                                                                      │
+    │   Más tiempo para:                                                   │
+    │   • Identificar patógeno                                             │
+    │   • Cultivar sensibilidad                                            │
+    │   • Seleccionar antibiótico óptimo                                   │
+    │   • Trasladar a instalación apropiada                                │
+    │                                                                      │
+    └──────────────────────────────────────────────────────────────────────┘
 
 NOTA: Esto asume que los patógenos dentro del paciente también son afectados
 por el campo. Si el campo solo afecta estructuras más grandes, esto puede
@@ -1821,7 +1821,7 @@ MITIGACIÓN:
 
     1. ZONA DE TRANSICIÓN DE GRADIENTE (primaria)
     
-       Sin límites abruptos—siempre gradientes suaves
+       Sin límites abruptos, siempre gradientes suaves
        α cambia gradualmente sobre ~1 metro
        Máximo ∇α < 0.5 /cm en todas partes
        
@@ -1854,7 +1854,7 @@ PELIGRO 1: FALLA DE ENERGÍA
     
     Riesgo: Colapso súbito del campo
     Efecto: El paciente experimenta "tirón" temporal instantáneo
-    Severidad: Desconocida—posiblemente fatal
+    Severidad: Desconocida, posiblemente fatal
     
     Mitigación:
     ┌─────────────────────────────────────────────────────────────────────┐
@@ -2146,18 +2146,18 @@ CONSENTIMIENTO INFORMADO:
 
     Desafío: ¿Cómo se obtiene consentimiento para dilatación temporal?
     
-    ┌────────────────────────────────────────────────────────────────────┐
-    │                                                                    │
-    │   Preguntas que deben responderse:                                 │
-    │                                                                    │
-    │   • ¿Está el paciente consciente durante la estasis?               │
-    │   • Si está consciente, ¿la consciencia ralentizada es angustiante?│
-    │   • ¿Cuáles son los efectos desconocidos a largo plazo?            │
-    │   • ¿Puede retirarse el consentimiento durante la estasis?         │
-    │     (El paciente tardaría horas en decir "alto")                   │
-    │   • Si el paciente pierde capacidad, ¿quién decide?                │
-    │                                                                    │
-    └────────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │                                                                      │
+    │   Preguntas que deben responderse:                                   │
+    │                                                                      │
+    │   • ¿Está el paciente consciente durante la estasis?                 │
+    │   • Si está consciente, ¿la consciencia ralentizada es angustiante?  │
+    │   • ¿Cuáles son los efectos desconocidos a largo plazo?              │
+    │   • ¿Puede retirarse el consentimiento durante la estasis?           │
+    │     (El paciente tardaría horas en decir "alto")                     │
+    │   • Si el paciente pierde capacidad, ¿quién decide?                  │
+    │                                                                      │
+    └──────────────────────────────────────────────────────────────────────┘
 
 
 USO DE EMERGENCIA:
@@ -2334,28 +2334,28 @@ LO QUE NO SABEMOS
    • ¿Está el paciente consciente?
    • Si está consciente, ¿cuál es la experiencia subjetiva?
    • ¿Podría la consciencia ralentizada prolongada causar daño psicológico?
-   • Desconocido—sin precedentes.
+   • Desconocido, sin precedentes.
 
 2. EFECTOS CELULARES
    • ¿Todos los procesos celulares se ralentizan igual?
    • ¿Algunos procesos son más afectados que otros?
    • ¿Podría el ralentizamiento diferencial causar problemas?
-   • Desconocido—requiere pruebas.
+   • Desconocido, requiere pruebas.
 
 3. EFECTOS A LARGO PLAZO
    • ¿La estasis causa envejecimiento acelerado después?
    • ¿Hay efectos acumulativos con uso repetido?
-   • Desconocido—no hay forma de predecir.
+   • Desconocido, no hay forma de predecir.
 
 4. INTERACCIONES CON MEDICAMENTOS
    • ¿Cómo se comportan los medicamentos en tiempo ralentizado?
    • ¿Se necesitan ajustes de dosis?
-   • Desconocido—farmacocinética compleja.
+   • Desconocido, farmacocinética compleja.
 
 5. EFECTOS DE LÍMITE DE CAMPO
    • Incluso con gradientes, ¿hay efectos sutiles de límite?
    • ¿Podría haber gradientes a nivel celular que no podemos controlar?
-   • Desconocido—puede ser límite fundamental.
+   • Desconocido, puede ser límite fundamental.
 ```
 
 ### 19.3 Criterios de Falsificación
@@ -2482,7 +2482,7 @@ PROYECCIONES DE MERCADO (especulativas):
 
 ### 21.1 Resumen
 
-La Cámara de Estasis Topológica representa quizás la aplicación potencial más transformadora de la tecnología RTM—si funciona. Al manipular el flujo del tiempo mismo, podríamos superar la restricción fundamental que ha limitado la medicina desde sus inicios: la carrera contra el deterioro biológico.
+La Cámara de Estasis Topológica representa quizás la aplicación potencial más transformadora de la tecnología RTM, si funciona. Al manipular el flujo del tiempo mismo, podríamos superar la restricción fundamental que ha limitado la medicina desde sus inicios: la carrera contra el deterioro biológico.
 
 | Aplicación | Restricción Actual | Solución con Estasis |
 |------------|-------------------|----------------------|
