@@ -519,7 +519,7 @@ THE NESTED STRUCTURE
     THE MULTIVERSE:
     ───────────────
     Each layer is a level of the multiverse.
-    Each is made of the same "stuff" — vibration.
+    Each is made of the same "stuff", vibration.
     But at different densities, different frequencies.
     
     • Higher layers: simpler, more unified.
@@ -1841,7 +1841,7 @@ LIVING THIS DAILY
     WHEN DIFFICULTY COMES:
     ──────────────────────
     "This too is what the Source learns through me."
-    "Pain, struggle, failure — these are also experience."
+    "Pain, struggle, failure, these are also experience."
     "The Source is not avoiding complexity through me."
     
     Not as resignation.
