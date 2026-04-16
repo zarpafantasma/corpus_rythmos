@@ -71,10 +71,10 @@ IX. THE FINAL RELEASE
 ```
 ╔═════════════════════════════════════════════════════════════════════════════╗
 ║                                                                             ║
-║    “When the time comes, that which does not die —the immutable,            ║
-║    the eternal marble— dies forever. But that which dies well —surrenders   ║
-║     the form in time, allows for the relay, returns the tone to the         ║
-║    ocean— is not lost: it changes mode.”                                    ║
+║    “When the time comes, that which does not die, the immutable,            ║
+║    the eternal marble, dies forever. But that which dies well, surrenders   ║
+║    the form in time, allows for the relay, returns the tone to the          ║
+║    ocean, is not lost: it changes mode.”                                    ║
 ║                                                                             ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -90,7 +90,7 @@ Life is not an object.
 Life is multi-scale dynamic coherence.
 It is a standing wave that maintains its shape only by allowing a continuous river of energy, matter, and information to flow through it.
 
-Attempting to "fix" this wave—to turn the dynamic process into a static object—is mathematically disastrous.
+Attempting to "fix" this wave, to turn the dynamic process into a static object, is mathematically disastrous.
 It degrades the plasticity of the system.
 It breaks the necessary coupling with the ever-changing environment.
 It increases the system's fragility until the slightest perturbation shatters it.
@@ -104,7 +104,7 @@ The second is the death of the player, disguised as a refusal to leave the stage
 
 ## II. THE CONSEQUENCES OF THE FROZEN NODE
 
-When a node within a network refuses to pass the energy forward—when it seeks to become "immortal" by hoarding its current state—the consequences ripple across all scales of existence.
+When a node within a network refuses to pass the energy forward, when it seeks to become "immortal" by hoarding its current state, the consequences ripple across all scales of existence.
 This is not merely philosophical poetry. It is structural physics.
 
 ### A. Biological Consequences (The Rigid Homeostasis)
@@ -157,7 +157,7 @@ In the end, barely a tiny non-replaced fraction remains.
 The rest is continuity achieved through readjustments, not through immobility.
 We are what we re-synchronize, not what never moves.
 
-From this physical reality, the promise of living forever as an immutable statue—the same self, the same posture, the same marble—is a profound misunderstanding of what we are.
+From this physical reality, the promise of living forever as an immutable statue, the same self, the same posture, the same marble, is a profound misunderstanding of what we are.
 It is not extended life.
 It is the definition of a corpse.
 
@@ -181,7 +181,7 @@ It is not a technical failure of the universe.
 It is a topological phase transition.
 
 Death is the decoherence of the instrument.
-The physical cavity—the biological resonator—loses its elasticity.
+The physical cavity, the biological resonator, loses its elasticity.
 It loses its resonance quality.
 It can no longer sustain the pattern of the standing wave against the thermodynamic drag of the environment.
 The friction finally overcomes the structure.
@@ -191,7 +191,7 @@ No.
 
 The biographical details dissolve.
 The specific memories tied to the chemical storage of the brain fade.
-But the learned structure—the tuning, the clarity, the compassion, the intelligence of the rhythm—persists.
+But the learned structure, the tuning, the clarity, the compassion, the intelligence of the rhythm, persists.
 That “tone” returns to the ocean from which we come.
 
 To die is not to fall into nothingness.
@@ -304,7 +304,7 @@ Years lived with intact plasticity.
 With awakened curiosity.
 With a humor that does not break when the world pushes back.
 
-A medical or technological technique that adds biological duration, but lowers systemic coherence—keeping a body breathing while the mind is lost, or isolating a person in sterile safety at the cost of human connection—does not add life.
+A medical or technological technique that adds biological duration, but lowers systemic coherence, keeping a body breathing while the mind is lost, or isolating a person in sterile safety at the cost of human connection, does not add life.
 It only lengthens the wait.
 It stretches the canvas without adding any paint.
 
@@ -315,8 +315,8 @@ It is to teach you how to maximize the amplitude and clarity of your signal whil
 
 We return to the central axiom.
 
-When the time comes, that which does not die—the immutable, the fearful, the eternal marble—dies forever. It shatters because it cannot bend.
-That which dies well—that which surrenders the form in time, allows for the relay, and returns the tone to the ocean—is not lost.
+When the time comes, that which does not die, the immutable, the fearful, the eternal marble, dies forever. It shatters because it cannot bend.
+That which dies well, that which surrenders the form in time, allows for the relay, and returns the tone to the ocean, is not lost.
 It changes mode.
 
 That is the ultimate task of the Cartographer and the student alike:
