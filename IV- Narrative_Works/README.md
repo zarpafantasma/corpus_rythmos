@@ -114,46 +114,6 @@ Operational manual for "N-1 Architects" — beings who navigate the multiversal 
 
 ---
 
-#### 🦉 Operational_Manuals_for_Conscious_Life
-**Extends:** 021 - The Multiscale Symphony & 022 - The Owl and the Spear
-
-This folder contains two sets of extensions:
-
-##### The Owl and the Spear Extensions (18 chapters)
-
-| Chapter | Title | Subject |
-|---------|-------|---------|
-| 01 | The Vertical Axis and the Intermediate World | The frontier between Before-Time and After-Time |
-| 02 | Source, The Primordial Conscience | Nature of the "Above" — pure potential without intelligence |
-| 03 | Echoes: A Multiverse Saga | Sequential manifestation through the cascade |
-| 04 | Simulacrum | The relationship between form and essence |
-| 05 | Web Painted with Reality | How consciousness weaves experience |
-| 06 | Body is Soul in Act | Embodiment as necessary condition for meaning |
-| 07 | Architecture of the Flame | Structure of coherent consciousness |
-| 08 | Migration of the Tone | How α shifts through life stages |
-| 09 | Forever | The nature of eternity outside time |
-| 10 | The Map that Sings | Reality as self-reading score |
-| 11 | The Half Key | Why both axes are necessary |
-| 12 | Learning Masks | Persona as navigational tool |
-| 13 | River and Sea | Individual vs collective consciousness |
-| 14 | The Broken Tongue | Language as imperfect coherence technology |
-| 15 | Singing Substances | Chemistry and consciousness |
-| 16 | The People Without Night | Civilizations that lost the Vertical Axis |
-| 17 | Fires Over the Immutable Tree | Change within eternal structure |
-| 18 | On Prophets and Kings | Two modes of civilizational leadership |
-
-##### The Multiscale Symphony Extensions (3 operational manuals)
-
-| Document | Title | Contents |
-|----------|-------|----------|
-| `MULTISCALESYMPHONY_01` | **The Architecture of Resonance** | Taxonomy of resonant containers, mechanics of resonance, time as structural depth, consciousness vs intelligence, container cultivation and diagnostics |
-| `MULTISCALESYMPHONY_02` | **Creativity from Chaos** | Physics of emergence, anatomy of creative process, induced chaos method, art as listening, liturgy of making, the creator and the machine (AI), creativity as spiritual path |
-| `MULTISCALESYMPHONY_03` | **The Resonant Weave** | Physics of relation ("the between"), the dyad (intimate bonds), small group polyphony, community architecture, politics of resonance, the planetary weave |
-
-**Framing:** Practical philosophy for "conscious life" — extending abstract principles into daily operational protocols
-
----
-
 ## Reading Approach
 
 These materials can be read two ways:
@@ -174,8 +134,6 @@ Both readings are valid. The narrative layer exists because some truths are easi
 | Aetherion_Mark1_Prototype | 016, 017 | Engineering implementation |
 | RTM_UFF_Ghost_Projects | 017 | Advanced theoretical extensions |
 | N1_ARCHITECT_PROTOCOL | 018 | Operational implications |
-| Operational_Manuals (Owl/Spear) | 022 | Philosophical expansion |
-| Operational_Manuals (Multiscale Symphony) | 021 | Practical protocols for resonance, creativity, and collective coherence |
 
 ---
 
