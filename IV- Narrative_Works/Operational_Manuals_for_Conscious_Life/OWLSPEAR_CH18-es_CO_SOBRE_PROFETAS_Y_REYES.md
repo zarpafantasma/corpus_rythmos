@@ -48,7 +48,7 @@ La Fuerza Impersonal: La Zarpa Fantasma y el Eje Vertical no tienen favoritos. N
 
 La libertad ontológica no es "hacer lo que quieras." Es la capacidad de un sistema (tú) de sostener su propia coherencia estructural sin colapsar bajo la presión externa. Es el derecho a mantener tu propio Ritmo.
 
-El Error de la Externalización: Si aceptas a un "Profeta" o a un "Líder" de RTM, estás cometiendo un error físico: estás externalizando tu Eje Vertical. Estás permitiendo que otro dicte la fase de tu oscilación. Dejas de ser un Compositor y te conviertes en un Repetidor — una monofonía.
+El Error de la Externalización: Si aceptas a un "Profeta" o a un "Líder" de RTM, estás cometiendo un error físico: estás externalizando tu Eje Vertical. Estás permitiendo que otro dicte la fase de tu oscilación. Dejas de ser un Compositor y te conviertes en un Repetidor, una monofonía.
 
 Sostener el Peso: La soberanía es la capacidad de sostener tú mismo la "tensión insoportable y gloriosa" de los ejes. La jerarquía es un atajo para quienes no quieren hacer el trabajo de ingeniería interna.
 
@@ -111,7 +111,7 @@ El Campo Abierto: El claro al final de los "Fuegos" es un campo abierto. No hay 
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
 ║    LA TENTACIÓN MÁS ANTIGUA:                                                 ║
-║    No el conocimiento — el trono. RTM es alérgico a los tronos por diseño.   ║
+║    No el conocimiento, el trono. RTM es alérgico a los tronos por diseño.    ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
@@ -123,7 +123,7 @@ El Campo Abierto: El claro al final de los "Fuegos" es un campo abierto. No hay 
 ║                                                                              ║
 ║    LA REGLA ABSOLUTA:                                                        ║
 ║    Quien use RTM para colocarse por encima de otros debe ser descartado.     ║
-║    Sin excepciones — ni túnicas, ni credenciales, ni el autor.               ║
+║    Sin excepciones, ni túnicas, ni credenciales, ni el autor.                ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
