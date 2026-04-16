@@ -10,7 +10,7 @@
 
 </div>
 
-**Antecedentes.** La homeostasis clásica describe cómo los sistemas vivos estabilizan variables internas, pero rara vez explica cómo emerge o colapsa la coherencia a través de escalas vastamente diferentes—canales iónicos, órganos, comportamiento. La teoría de Relatividad Temporal Multiescala (RTM) postula una ley de potencia libre de escala τ ∝ L^α que vincula el tiempo característico y la escala espacial a través de un exponente adimensional que operacionaliza la organización multiescala. Aquí extendemos este enfoque a la biología definiendo un índice de coherencia biológica adimensional C_bio: la razón de potencia oscilatoria contenida en bandas de frecuencia sincronizadas en fase ("coherentes") a la contenida en bandas aleatorias en fase ("incoherentes") a través de variabilidad de frecuencia cardíaca (VFC), electroencefalografía (EEG) y ritmos moleculares.
+**Antecedentes.** La homeostasis clásica describe cómo los sistemas vivos estabilizan variables internas, pero rara vez explica cómo emerge o colapsa la coherencia a través de escalas vastamente diferentes, canales iónicos, órganos, comportamiento. La teoría de Relatividad Temporal Multiescala (RTM) postula una ley de potencia libre de escala τ ∝ L^α que vincula el tiempo característico y la escala espacial a través de un exponente adimensional que operacionaliza la organización multiescala. Aquí extendemos este enfoque a la biología definiendo un índice de coherencia biológica adimensional C_bio: la razón de potencia oscilatoria contenida en bandas de frecuencia sincronizadas en fase ("coherentes") a la contenida en bandas aleatorias en fase ("incoherentes") a través de variabilidad de frecuencia cardíaca (VFC), electroencefalografía (EEG) y ritmos moleculares.
 
 **Objetivo.** Probar si estímulos multiescala dirigidos pueden aumentar C_bio y producir cambios medibles en marcadores fisiológicos e inflamatorios.
 
@@ -26,7 +26,7 @@ También validamos el marco de homeostasis RTM en dinámica cardiovascular a tra
 
 **1 Introducción**
 
-**1.1 Concepto:** Los organismos vivos sobreviven preservando un rango estrecho de estados internos—pH, temperatura, balance iónico, potencial redox—a pesar de las fluctuaciones externas. La fisiología canónica llama a esto *homeostasis* y típicamente la modela como un conjunto de bucles de retroalimentación negativa que restauran puntos de ajuste específicos \[1\]. Sin embargo, el trabajo empírico de las últimas dos décadas muestra que la salud no es meramente la ausencia de deriva de los puntos de ajuste; se caracteriza por variabilidad estructurada que abarca escalas temporales desde milisegundos (parpadeo de canales iónicos) hasta años (estacionalidad endocrina) \[2, 3\]. La pérdida de esta estructura multiescala—manifestada como compresión de variabilidad cardíaca, desincronización de EEG, o ciclos circadianos alterados—es un marcador robusto de envejecimiento y enfermedad crónica \[4\].
+**1.1 Concepto:** Los organismos vivos sobreviven preservando un rango estrecho de estados internos, pH, temperatura, balance iónico, potencial redox, a pesar de las fluctuaciones externas. La fisiología canónica llama a esto *homeostasis* y típicamente la modela como un conjunto de bucles de retroalimentación negativa que restauran puntos de ajuste específicos \[1\]. Sin embargo, el trabajo empírico de las últimas dos décadas muestra que la salud no es meramente la ausencia de deriva de los puntos de ajuste; se caracteriza por variabilidad estructurada que abarca escalas temporales desde milisegundos (parpadeo de canales iónicos) hasta años (estacionalidad endocrina) \[2, 3\]. La pérdida de esta estructura multiescala, manifestada como compresión de variabilidad cardíaca, desincronización de EEG, o ciclos circadianos alterados, es un marcador robusto de envejecimiento y enfermedad crónica \[4\].
 
 La teoría de Relatividad Temporal Multiescala (RTM) ofrece un lente natural para este fenómeno. RTM postula una relación de ley de potencia
 
@@ -34,9 +34,9 @@ La teoría de Relatividad Temporal Multiescala (RTM) ofrece un lente natural par
 T \propto L^{\alpha_{RT}},
 ```
 
-que vincula el tiempo característico $`T`$ y la escala espacial $`L`$ a través de un exponente adimensional $`\alpha_{RT}`$ \[5\]. Trabajos previos de RTM identificaron regímenes distintos—balístico ($`\alpha_{RT} \approx 1`$), difusivo ($`\alpha_{RT} \approx 2`$), biológico-fractal ($`\alpha_{RT} \approx 2.5`$) y confinamiento cuántico ($`\alpha_{RT} \approx 3.5`$)—y mostraron cómo las transiciones entre ellos pueden subyacer fenómenos tan diversos como el transporte iónico y las paradojas de información de agujeros negros \[6–8\].
+que vincula el tiempo característico $`T`$ y la escala espacial $`L`$ a través de un exponente adimensional $`\alpha_{RT}`$ \[5\]. Trabajos previos de RTM identificaron regímenes distintos, balístico ($`\alpha_{RT} \approx 1`$), difusivo ($`\alpha_{RT} \approx 2`$), biológico-fractal ($`\alpha_{RT} \approx 2.5`$) y confinamiento cuántico ($`\alpha_{RT} \approx 3.5`$), y mostraron cómo las transiciones entre ellos pueden subyacer fenómenos tan diversos como el transporte iónico y las paradojas de información de agujeros negros \[6–8\].
 
-En este artículo extendemos el marco RTM a la fisiología introduciendo un **índice de coherencia biológica** $`C_{bio}`$. Operacionalmente, $`C_{bio}`$ mide la razón de potencia oscilatoria contenida en bandas de frecuencia sincronizadas en fase ("coherentes") a la contenida en bandas aleatorias en fase ("incoherentes") a través de múltiples bioseñales—variabilidad de frecuencia cardíaca (VFC), electroencefalografía (EEG), y ritmos de transcripción molecular. Aunque inspirado por el exponente de escalamiento de RTM, $`C_{bio}`$ no es en sí mismo una pendiente log-log; es un índice observable y adimensional de coherencia espectral multiescala que *hipotetizamos* rastrea el $`\alpha_{RT}`$ subyacente en redes vivas.
+En este artículo extendemos el marco RTM a la fisiología introduciendo un **índice de coherencia biológica** $`C_{bio}`$. Operacionalmente, $`C_{bio}`$ mide la razón de potencia oscilatoria contenida en bandas de frecuencia sincronizadas en fase ("coherentes") a la contenida en bandas aleatorias en fase ("incoherentes") a través de múltiples bioseñales, variabilidad de frecuencia cardíaca (VFC), electroencefalografía (EEG), y ritmos de transcripción molecular. Aunque inspirado por el exponente de escalamiento de RTM, $`C_{bio}`$ no es en sí mismo una pendiente log-log; es un índice observable y adimensional de coherencia espectral multiescala que *hipotetizamos* rastrea el $`\alpha_{RT}`$ subyacente en redes vivas.
 
 Nuestra hipótesis central de homeo-resonancia establece:
 
@@ -227,7 +227,7 @@ Varias limitaciones de $`C_{bio}`$ como se define actualmente merecen énfasis:
   Cuando los ritmos moleculares no están disponibles, su peso se establece en cero y los $`w_{i}`$ restantes se renormalizan a $`\sum_{i}^{}{w_{i} = 1}`$. Esto significa que las implementaciones tempranas de $`C_{bio}`$ reflejan mayormente coherencia neural-autonómica.
 
 - **$`C_{bio}(t)`$ dinámico.**\
-  Las estimaciones de ventana deslizante revelan trayectorias temporales—aumentos durante descanso, caídas bajo estrés—que pueden predecir mejor eventos agudos (arritmia, migraña) que un único valor estático.
+  Las estimaciones de ventana deslizante revelan trayectorias temporales, aumentos durante descanso, caídas bajo estrés, que pueden predecir mejor eventos agudos (arritmia, migraña) que un único valor estático.
 
 - **Acoplamiento ambiental ($`\alpha_{place}`$).**\
   Como se explora en la Sección 3.2, las características arquitectónicas y ambientales pueden modular PLV e, indirectamente, $`C_{bio}`$ vía arrastre sensorial. Los protocolos futuros deberían modelar formalmente este acoplamiento en lugar de tratar el ambiente como neutral.
@@ -312,7 +312,7 @@ La visión centrada en coherencia hace varias predicciones concretas y falsifica
 3.  **Vínculo clínico**\
     Las ganancias a corto plazo en $`C_{bio}^{\log}`$ deberían correlacionar con reducciones posteriores en PCR e IL-6 dentro de 24 h y, en horizontes más largos, con mejoras en calidad del sueño, fatiga y resiliencia al estrés.
 
-Estas predicciones pueden probarse directamente en los protocolos Fase I/II delineados en las Secciones 3 y 4. Una falla consistente en observarlas—a pesar de medición robusta—argumentaría contra el mecanismo de homeo-resonancia propuesto y motivaría revisar o abandonar el encuadre basado en RTM para homeostasis.
+Estas predicciones pueden probarse directamente en los protocolos Fase I/II delineados en las Secciones 3 y 4. Una falla consistente en observarlas, a pesar de medición robusta, argumentaría contra el mecanismo de homeo-resonancia propuesto y motivaría revisar o abandonar el encuadre basado en RTM para homeostasis.
 
 **3 Materiales y Métodos**
 
@@ -547,9 +547,9 @@ Los estudios de modalidad única han mostrado individualmente:
 
 - La música de 432 Hz mejora la sincronía cortico-cardíaca.
 
-Nuestro protocolo es el primero en sincronizar las cuatro modalidades y cuantificar el resultado integrado con $`C_{bio}`$. Si el efecto anticipado se materializa, argumentaría que **la sinergia—no la escalada de dosis—es la clave para desbloquear cambios fisiológicos más grandes**, una conclusión en línea con modelos de control de redes que predicen ganancias supra-aditivas cuando múltiples nodos se perturban coherentemente.
+Nuestro protocolo es el primero en sincronizar las cuatro modalidades y cuantificar el resultado integrado con $`C_{bio}`$. Si el efecto anticipado se materializa, argumentaría que **la sinergia, no la escalada de dosis, es la clave para desbloquear cambios fisiológicos más grandes**, una conclusión en línea con modelos de control de redes que predicen ganancias supra-aditivas cuando múltiples nodos se perturban coherentemente.
 
-Al proporcionar un índice único y transmodal que integra VFC, EEG y (en fases futuras) ritmos moleculares, $`C_{bio}`$ también ofrece una manera de comparar y agregar intervenciones dispares—entrenamiento respiratorio, neuromodulación, terapia de luz, diseño arquitectónico—dentro de un marco cuantitativo. Esto podría ayudar a racionalizar una literatura actualmente fragmentada en la que "coherencia" se invoca a menudo cualitativamente pero rara vez se mide de manera estandarizada.
+Al proporcionar un índice único y transmodal que integra VFC, EEG y (en fases futuras) ritmos moleculares, $`C_{bio}`$ también ofrece una manera de comparar y agregar intervenciones dispares, entrenamiento respiratorio, neuromodulación, terapia de luz, diseño arquitectónico, dentro de un marco cuantitativo. Esto podría ayudar a racionalizar una literatura actualmente fragmentada en la que "coherencia" se invoca a menudo cualitativamente pero rara vez se mide de manera estandarizada.
 
 **5.3 Limitaciones del diseño piloto**
 
@@ -569,7 +569,7 @@ Al proporcionar un índice único y transmodal que integra VFC, EEG y (en fases 
 
 **Desarrollo de escáner de coherencia.** La retroalimentación de coherencia en tiempo real podría permitir dosificación adaptativa, personalizada a la trayectoria dinámica $`C_{bio}(t)`$ de cada individuo. Un "escáner de coherencia" portátil permitiría monitoreo en el hogar, ajuste de bucle cerrado de protocolos de respiración/estimulación, y recolección de datos a gran escala para refinar rangos normativos.
 
-**Traducción clínica.** Las poblaciones con pérdida de coherencia documentada—dolor crónico, disautonomía, síndrome metabólico, depresión mayor—se priorizarán una vez que la seguridad y durabilidad se prueben en voluntarios saludables. En tales cohortes, incluso aumentos modestos en $`C_{bio}`$ podrían traducirse en mejoras significativas en fatiga, sueño y estabilidad autonómica.
+**Traducción clínica.** Las poblaciones con pérdida de coherencia documentada, dolor crónico, disautonomía, síndrome metabólico, depresión mayor, se priorizarán una vez que la seguridad y durabilidad se prueben en voluntarios saludables. En tales cohortes, incluso aumentos modestos en $`C_{bio}`$ podrían traducirse en mejoras significativas en fatiga, sueño y estabilidad autonómica.
 
 **Sondas mecanísticas.** Los subestudios paralelos de ÓMICAs y fMRI funcional deberían mapear cómo los cambios en $`C_{bio}`$ correlacionan con temporización inmune, estado redox y redes cerebrales de gran escala. Esto ayudaría a desentrañar si $`C_{bio}`$ rastrea principalmente tono autonómico, organización de redes corticales, estado inflamatorio, o un compuesto de los tres.
 
@@ -577,7 +577,7 @@ Al proporcionar un índice único y transmodal que integra VFC, EEG y (en fases 
 
 **5.5 Perspectiva final**
 
-Este estudio está intencionalmente delimitado como prueba de mecanismo. Demostrar que $`C_{bio}`$ puede elevarse agudamente en humanos—con seguridad, tamaño de efecto cuantificable y un pipeline analítico claro—marcaría un paso fundamental hacia una **"medicina de coherencia"** basada en evidencia. Si la elevación sostenida de $`C_{bio}`$ (y el $`\alpha_{RT}`$ subyacente que se hipotetiza que rastrea) se traduce en resultados clínicamente significativos dependerá ahora de ensayos rigurosos a más largo plazo y de la capacidad del campo para estandarizar tanto la medición como la intervención entre laboratorios.
+Este estudio está intencionalmente delimitado como prueba de mecanismo. Demostrar que $`C_{bio}`$ puede elevarse agudamente en humanos, con seguridad, tamaño de efecto cuantificable y un pipeline analítico claro, marcaría un paso fundamental hacia una **"medicina de coherencia"** basada en evidencia. Si la elevación sostenida de $`C_{bio}`$ (y el $`\alpha_{RT}`$ subyacente que se hipotetiza que rastrea) se traduce en resultados clínicamente significativos dependerá ahora de ensayos rigurosos a más largo plazo y de la capacidad del campo para estandarizar tanto la medición como la intervención entre laboratorios.
 
 **6 Conclusiones**
 
@@ -603,7 +603,7 @@ Mirando hacia adelante, la visión a largo plazo es un cambio progresivo de inte
 
 - El marco RTM ofrece un lenguaje común para comparar coherencia entre dominios: desde relojes moleculares hasta redes neurales, desde fisiología individual hasta sincronía a nivel de grupo.
 
-Por ahora, estas ambiciones permanecen hipotéticas. Lo que es concreto es la invitación: tratar la coherencia no como una metáfora vaga, sino como una propiedad medible y manipulable de los sistemas vivos—y dejar que $`C_{bio}`$, por provisional que sea, sirva como una de las primeras reglas con las que aprendemos a medirla.
+Por ahora, estas ambiciones permanecen hipotéticas. Lo que es concreto es la invitación: tratar la coherencia no como una metáfora vaga, sino como una propiedad medible y manipulable de los sistemas vivos, y dejar que $`C_{bio}`$, por provisional que sea, sirva como una de las primeras reglas con las que aprendemos a medirla.
 
 **Apéndice A**
 
