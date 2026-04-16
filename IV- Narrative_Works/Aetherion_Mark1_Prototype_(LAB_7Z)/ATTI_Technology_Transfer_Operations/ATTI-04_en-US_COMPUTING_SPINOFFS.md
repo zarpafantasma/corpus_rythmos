@@ -46,9 +46,9 @@
 
 Quantum computing promises exponential speedup for problems in cryptography, drug discovery, materials science, and optimization. Yet after decades of research and billions invested, we still cannot build a practical, error-corrected quantum computer. The reason: **decoherence**.
 
-Qubits—the fundamental units of quantum information—are extraordinarily fragile. Any interaction with their environment causes quantum states to collapse. Current solutions require cooling processors to millikelvin temperatures using multi-million-dollar cryogenic systems, yet even then coherence lasts only microseconds to milliseconds.
+Qubits, the fundamental units of quantum information, are extraordinarily fragile. Any interaction with their environment causes quantum states to collapse. Current solutions require cooling processors to millikelvin temperatures using multi-million-dollar cryogenic systems, yet even then coherence lasts only microseconds to milliseconds.
 
-RTM offers a radical reframing: decoherence is not primarily a thermal problem—it's a **topological** one. The structure of spacetime itself (characterized by α < 0 in quantum-sensitive regions) actively diffuses quantum information. By engineering local topology with the Aetherion core, we can create "coherence shields" where quantum states are protected by the geometry of space rather than extreme cold.
+RTM offers a radical reframing: decoherence is not primarily a thermal problem, it's a **topological** one. The structure of spacetime itself (characterized by α < 0 in quantum-sensitive regions) actively diffuses quantum information. By engineering local topology with the Aetherion core, we can create "coherence shields" where quantum states are protected by the geometry of space rather than extreme cold.
 
 ### 1.2 Key Hypothesis
 
@@ -353,7 +353,7 @@ QUANTUM DECOHERENCE:
     → Quantum coherence is UNSTABLE in normal space
     → The environment actively "absorbs" quantum information
     → Superposition MUST collapse given enough time
-    → This is NOT just thermal—it's GEOMETRIC
+    → This is NOT just thermal, it's GEOMETRIC
     
     
     ┌────────────────────────────────────────────────────────────────────┐
@@ -968,7 +968,7 @@ RTM VIEW:
     Qubit in α < 0 region → entropy flows TO environment (forced)
     Qubit in α = 1 region → entropy flow STOPPED (no forcing)
     
-    The entropy isn't deleted—it's redirected.
+    The entropy isn't deleted, it's redirected.
     The environment still increases in entropy via other channels.
     
 
@@ -1074,7 +1074,7 @@ MILESTONES:
 
 ### 17.1 Summary
 
-The Topological Coherence Shield represents a potential paradigm shift in quantum computing—from fighting temperature to engineering topology.
+The Topological Coherence Shield represents a potential paradigm shift in quantum computing, from fighting temperature to engineering topology.
 
 | Aspect | Current Approach | RTM Approach |
 |--------|-----------------|--------------|
