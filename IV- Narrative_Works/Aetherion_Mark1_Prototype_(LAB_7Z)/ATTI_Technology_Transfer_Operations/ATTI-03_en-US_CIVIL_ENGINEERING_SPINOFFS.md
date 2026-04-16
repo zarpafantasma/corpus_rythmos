@@ -22,7 +22,7 @@
 
 ### 1.1 The Vision
 
-Civil infrastructure faces eternal enemies: gravity, earthquakes, vibration, fatigue, corrosion. We fight with mass—more concrete, more steel. RTM offers structures that actively manage forces through topological control. Foundations that decouple from seismic waves. Bridges that damp vibrations without mass. Infrastructure that senses its own damage.
+Civil infrastructure faces eternal enemies: gravity, earthquakes, vibration, fatigue, corrosion. We fight with mass, more concrete, more steel. RTM offers structures that actively manage forces through topological control. Foundations that decouple from seismic waves. Bridges that damp vibrations without mass. Infrastructure that senses its own damage.
 
 ### 1.2 Key Metrics
 
