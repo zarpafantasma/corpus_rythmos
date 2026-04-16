@@ -47,9 +47,9 @@
 
 Los terremotos matan un promedio de 20.000 personas al año y causan más de $100 mil millones en daños. A pesar de un siglo de sismología, no podemos predecirlos. Solo podemos medirlos después de que la destrucción ha comenzado.
 
-El problema fundamental: los sismógrafos convencionales miden **energía cinética**—las vibraciones físicas después de que las rocas ya se han roto. Para cuando las ondas P llegan a los sensores, el terremoto está ocurriendo. Los tiempos de alerta se miden en segundos, no en horas.
+El problema fundamental: los sismógrafos convencionales miden **energía cinética**, las vibraciones físicas después de que las rocas ya se han roto. Para cuando las ondas P llegan a los sensores, el terremoto está ocurriendo. Los tiempos de alerta se miden en segundos, no en horas.
 
-RTM ofrece un cambio de paradigma: medir el **estrés topológico** que causa los terremotos, no las vibraciones que resultan de ellos. El núcleo de metamaterial Aetherion, cuando opera pasivamente (sin energía), se convierte en un detector extraordinariamente sensible de cambios en la topología del espaciotiempo local. A medida que las placas tectónicas se presionan entre sí, crean distorsiones medibles en el campo α—días o semanas antes de la falla mecánica.
+RTM ofrece un cambio de paradigma: medir el **estrés topológico** que causa los terremotos, no las vibraciones que resultan de ellos. El núcleo de metamaterial Aetherion, cuando opera pasivamente (sin energía), se convierte en un detector extraordinariamente sensible de cambios en la topología del espaciotiempo local. A medida que las placas tectónicas se presionan entre sí, crean distorsiones medibles en el campo α, días o semanas antes de la falla mecánica.
 
 Esto no es detección de terremotos. Esto es **predicción de terremotos**.
 
@@ -151,7 +151,7 @@ EL PROBLEMA DE LA PREDICCIÓN:
 
     ┌────────────────────────────────────────────────────────────────────┐
     │                                                                    │
-    │   "La predicción de terremotos individuales aún no es posible,    │
+    │   "La predicción de terremotos individuales aún no es posible,     │
     │    y puede que nunca lo sea."                                      │
     │                                                                    │
     │    — Servicio Geológico de EE.UU. (posición oficial, 2024)         │
@@ -402,7 +402,7 @@ LA BRECHA ENTRE SEGUNDOS vs. DÍAS:
 EL LÍMITE FUNDAMENTAL
 ════════════════════════════════════════════════════════════════════════════════
 
-PROBLEMA: No es la sensibilidad del instrumento—es la FÍSICA.
+PROBLEMA: No es la sensibilidad del instrumento, es la FÍSICA.
 
     Incluso con sismógrafos perfectos:
     • Las ondas todavía viajan a velocidad de la roca
@@ -1353,7 +1353,7 @@ ENERGÍA DE RED:
 LA DETECCIÓN PASIVA ES NATURAL
 ════════════════════════════════════════════════════════════════════════════════
 
-El sensor Aetherion es PASIVO—no crea energía.
+El sensor Aetherion es PASIVO, no crea energía.
 
 Flujo de energía:
     
@@ -1507,7 +1507,7 @@ HITOS:
 
 ### 18.1 Resumen
 
-El Sismógrafo Topológico representa un cambio fundamental en la ciencia de terremotos—de medir las consecuencias de la ruptura a detectar el estrés que la causa.
+El Sismógrafo Topológico representa un cambio fundamental en la ciencia de terremotos, de medir las consecuencias de la ruptura a detectar el estrés que la causa.
 
 | Aspecto | Convencional | Enfoque RTM |
 |---------|--------------|-------------|
