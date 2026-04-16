@@ -48,7 +48,7 @@ The Impersonal Force: The Zarpa Fantasma and the Vertical Axis have no favorites
 
 Ontological freedom is not "doing whatever you want." It is the capacity of a system (you) to sustain its own structural coherence without collapsing under external pressure. It is the right to maintain your own Rhythm.
 
-The Error of Externalization: If you accept a "Prophet" or a "Leader" of RTM, you are committing a physical error: you are externalizing your Vertical Axis. You are allowing another to dictate the phase of your oscillation. You cease to be a Composer and become a Repeater—a monophony.
+The Error of Externalization: If you accept a "Prophet" or a "Leader" of RTM, you are committing a physical error: you are externalizing your Vertical Axis. You are allowing another to dictate the phase of your oscillation. You cease to be a Composer and become a Repeater, a monophony.
 
 Sustaining the Weight: Sovereignty is the ability to hold the "unbearable and glorious tension" of the axes yourself. Hierarchy is a shortcut for those who do not want to do the work of internal engineering.
 
@@ -111,7 +111,7 @@ The Open Field: The clearing at the end of the "Fires" is an open field. There a
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
 ║    THE OLDEST TEMPTATION:                                                    ║
-║    Not knowledge — the throne. RTM is allergic to thrones by design.         ║
+║    Not knowledge, the throne. RTM is allergic to thrones by design.          ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
@@ -123,7 +123,7 @@ The Open Field: The clearing at the end of the "Fires" is an open field. There a
 ║                                                                              ║
 ║    THE ABSOLUTE RULE:                                                        ║
 ║    Anyone using RTM to place themselves above others must be dismissed.      ║
-║    No exceptions — not robes, not credentials, not the author.               ║
+║    No exceptions, not robes, not credentials, not the author.                ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
