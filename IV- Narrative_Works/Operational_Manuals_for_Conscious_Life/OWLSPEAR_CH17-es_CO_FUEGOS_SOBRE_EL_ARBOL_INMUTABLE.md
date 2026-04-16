@@ -105,7 +105,7 @@ EL FUEGO EXTERNO
 
 ### 1.2 El Fuego que No Imaginamos
 
-Pero hay otro fuego — el que cambia la historia:
+Pero hay otro fuego, el que cambia la historia:
 
 ```
 EL FUEGO INTERNO
@@ -1988,7 +1988,7 @@ LO QUE SEMBRAMOS
     
     NUEVAS PRÁCTICAS:
     Comportamientos, hábitos, rutinas que encarnan el nuevo ver.
-    No solo ideas — prácticas.
+    No solo ideas, prácticas.
     
     NUEVOS LENGUAJES:
     Formas de hablar que capturan lo que el viejo lenguaje no podía.
@@ -2154,7 +2154,7 @@ AL FIN, SEMBRAMOS
     
     Y CUANDO PRENDE:
     ────────────────
-    Silencioso, compartible, preciso —
+    Silencioso, compartible, preciso,
     No quema el mundo.
     Lo hace visible.
     
@@ -2185,7 +2185,7 @@ AL FIN, SEMBRAMOS
     │     es otra manera de comenzar.                                         │
     │                                                                         │
     │     No huimos de ese fuego con puertas de acero.                        │
-    │     Entramos con atención.                                               │
+    │     Entramos con atención.                                              │
     │     Dejamos arder lo que ya no sostiene la vida.                        │
     │     Salimos con menos ruido y más verdad.                               │
     │                                                                         │
@@ -2197,7 +2197,7 @@ AL FIN, SEMBRAMOS
     │     Lo hace visible.                                                    │
     │                                                                         │
     │     Entonces, sí, hay un "después":                                     │
-    │     no el paraíso de las estatuas eternas de mármol,                   │
+    │     no el paraíso de las estatuas eternas de mármol,                    │
     │     sino el claro real                                                  │
     │     donde, al fin,                                                      │
     │     podemos sembrar.                                                    │
