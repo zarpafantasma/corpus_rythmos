@@ -153,7 +153,7 @@ so the regression slope of $`{log\ }T^{\#}`$ on $`\log L`$equals $`\alpha`$.
 *Proof.* Immediate from the corollary.
 
 **Remark 2.8 (Environment-dependent clocks).**\
-If the clock factor depends on an external label $`x`$ but not on $`L`$, i.e. $`T^{\#}(L;x) = c(x)\text{ }T(L;x)`$—then within any fixed $`x`$-environment bin the slope stays $`\alpha(x)`$, while the intercept shifts by $`\log c(x)`$.
+If the clock factor depends on an external label $`x`$ but not on $`L`$, i.e. $`T^{\#}(L;x) = c(x)\text{ }T(L;x)`$, then within any fixed $`x`$-environment bin the slope stays $`\alpha(x)`$, while the intercept shifts by $`\log c(x)`$.
 
 **Proposition 2.9 (Uniqueness up to clock).**\
 If $`T_{1}(L) = \kappa_{1}L^{\alpha_{1}}`$ and $`T_{2}(L) = \kappa_{2}L^{\alpha_{2}}`$ satisfy $`T_{2}(L) = c\text{ }T_{1}(L)`$ for all $`L`$ with some $`c > 0`$, then $`\alpha_{1} = \alpha_{2}`$ and $`c = \kappa_{2}/\kappa_{1}`$.
@@ -277,7 +277,7 @@ Under this,
 \omega \mapsto \omega^{\#}\text{\:\,} = \text{\:\,}d(v + \phi(x)) - \alpha\text{ }du\text{\:\,} = \text{\:\,}\omega + d\phi(x).
 ```
 
-Thus $`\omega`$ is defined **up to addition of exact 1-forms pulled back from** $`X`$—a standard gauge freedom.
+Thus $`\omega`$ is defined **up to addition of exact 1-forms pulled back from** $`X`$, a standard gauge freedom.
 
 **Proposition 3.2 (Slope is gauge-invariant).**\
 Clock changes $`v \mapsto v + \phi(x)`$ do not alter the $`\alpha`$-coefficient of $`du`$. Hence $`\alpha`$ is a gauge-invariant object, while $`v`$ and $`\omega`$ shift by exact forms.
