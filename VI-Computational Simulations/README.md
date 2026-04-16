@@ -6,15 +6,15 @@ This folder contains **computational validations** of the RTM theoretical framew
 
 ## ⚠️ Nature of This Section
 
-This folder focuses exclusively on **Papers 001, 016, and 017** — the three papers whose validations are necessarily *computational* rather than *empirical*.
+This folder focuses exclusively on **Papers 001, 016, and 017**, the three papers whose validations are necessarily *computational* rather than *empirical*.
 
 **Why these three?**
 
 | Paper | Topic | Why Computational |
 |-------|-------|-------------------|
-| **001** | Core RTM scaling law (T ∝ L^α) | Tests mathematical emergence of α from network topology — no external data needed |
+| **001** | Core RTM scaling law (T ∝ L^α) | Tests mathematical emergence of α from network topology, no external data needed |
 | **016** | Aetherion vacuum propulsion | No experimental apparatus exists to test vacuum gradient effects |
-| **017** | RTM Unified Field Framework | QFT formalism, AdS/CFT holography — validates theoretical consistency |
+| **017** | RTM Unified Field Framework | QFT formalism, AdS/CFT holography, validates theoretical consistency |
 
 **Papers 003–015** have their validations in **Folder VII (Empirical and Heuristic Validations)** because those domains have real-world datasets against which RTM predictions can be tested: visual cortex latencies, gravitational wave catalogs, cardiac HRV, hurricane intensification, market crashes, etc.
 
@@ -151,7 +151,7 @@ Each paper's simulations include:
 
 ## Red Team Methodology
 
-Several simulations include **Red Team audits** — adversarial tests designed to catch:
+Several simulations include **Red Team audits**, adversarial tests designed to catch:
 
 1. **Overunity fallacies:** Claims of energy from nothing
 2. **Bootstrap fallacies:** Momentum without reaction
