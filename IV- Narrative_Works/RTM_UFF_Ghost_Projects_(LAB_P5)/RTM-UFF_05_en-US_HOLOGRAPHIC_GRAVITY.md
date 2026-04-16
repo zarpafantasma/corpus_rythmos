@@ -56,7 +56,7 @@
 
 ### 1.1 The Discovery
 
-The RTM Unified Field Framework provides a concrete realization of the holographic principle. The alpha-field in the bulk AdS space maps directly to gauge coupling running on the boundary CFT. This is not metaphor — it is mathematical equivalence.
+The RTM Unified Field Framework provides a concrete realization of the holographic principle. The alpha-field in the bulk AdS space maps directly to gauge coupling running on the boundary CFT. This is not metaphor, it is mathematical equivalence.
 
 Key insight: **The topological structure of the vacuum (alpha) is the holographic degree of freedom that encodes bulk physics on lower-dimensional boundaries.**
 
