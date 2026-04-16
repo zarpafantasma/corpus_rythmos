@@ -1042,7 +1042,7 @@ CORE PRINCIPLES
        The mask is the interface that makes patterns habitable.
     
     3. WHEN THE MASK SERVES:
-       The entity does work — care, courage, limits, compassion.
+       The entity does work, care, courage, limits, compassion.
        When it doesn't: pathology appears.
     
     4. "BECOMES REAL" MEANS:
@@ -1076,36 +1076,36 @@ CORE PRINCIPLES
 ## Closing: The Water Returns to Its Course
 
 ```
-    ┌─────────────────────────────────────────────────────────────────────────┐
-    │                                                                         │
-    │     A group can give operational form to an entity beyond-the-tangible. │
-    │     When many people sustain the same figure with sufficient continuity │
-    │     — name, iconography, chants, calendar —                             │
-    │     that figure acquires effective agency.                              │
-    │                                                                         │
-    │     The feedback is two-way: the background offers patterns;            │
-    │     the tribe gives them a mask for its own landscape.                  │
-    │     That suit is not a decorative whim:                                 │
-    │     it is the interface through which the pattern becomes               │
-    │     legible and habitable for a specific people.                        │
-    │                                                                         │
-    │     The ocean — the One — is not offended by masks:                     │
-    │     it uses them to find us.                                            │
-    │     Nor do we absolutize them:                                          │
-    │     we tend to them as long as they serve.                              │
-    │     When they no longer serve, we give thanks                           │
-    │     and let the water return to its course.                             │
-    │                                                                         │
-    │     The entity that deserves to endure is not the one                   │
-    │     that imposes itself through fear;                                   │
-    │     it is the one that learns with us without losing its tone.          │
-    │     If that alliance occurs, both parties win:                          │
-    │     the archetype finds a channel; the tribe finds a form.              │
-    │     And common life becomes a little more habitable.                    │
-    │                                                                         │
-    │                                      — The Owl and the Spear            │
-    │                                                                         │
-    └─────────────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────────────┐
+    │                                                                          │
+    │     A group can give operational form to an entity beyond-the-tangible.  │
+    │     When many people sustain the same figure with sufficient continuity, │
+    │     name, iconography, chants, calendar,                                 │
+    │     that figure acquires effective agency.                               │
+    │                                                                          │
+    │     The feedback is two-way: the background offers patterns;             │
+    │     the tribe gives them a mask for its own landscape.                   │
+    │     That suit is not a decorative whim:                                  │
+    │     it is the interface through which the pattern becomes                │
+    │     legible and habitable for a specific people.                         │
+    │                                                                          │
+    │     The ocean — the One — is not offended by masks:                      │
+    │     it uses them to find us.                                             │
+    │     Nor do we absolutize them:                                           │
+    │     we tend to them as long as they serve.                               │
+    │     When they no longer serve, we give thanks                            │
+    │     and let the water return to its course.                              │
+    │                                                                          │
+    │     The entity that deserves to endure is not the one                    │
+    │     that imposes itself through fear;                                    │
+    │     it is the one that learns with us without losing its tone.           │
+    │     If that alliance occurs, both parties win:                           │
+    │     the archetype finds a channel; the tribe finds a form.               │
+    │     And common life becomes a little more habitable.                     │
+    │                                                                          │
+    │                                      — The Owl and the Spear             │
+    │                                                                          │
+    └──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -1144,7 +1144,7 @@ CORE PRINCIPLES
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    THE OCEAN AND MASKS:                                                      ║
-║    The One is not offended by masks — it uses them to find us.               ║
+║    The One is not offended by masks, it uses them to find us.                ║
 ║    Tend them while they serve; release when they don't.                      ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
