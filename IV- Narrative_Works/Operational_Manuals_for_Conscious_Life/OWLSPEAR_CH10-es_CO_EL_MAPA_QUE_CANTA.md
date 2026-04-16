@@ -28,7 +28,7 @@
     │     "Un mapa suficientemente coherente no solo describe el              │
     │      territorio; lo invita a reorganizarse."                            │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -418,7 +418,7 @@ POR QUÉ FALLAN LA MAYORÍA DE LOS MAPAS
 
 ### 4.1 Resumen
 
-Un mapa que canta necesita cuatro cosas. Sin cualquiera de ellas, el mapa permanece inerte — una descripción que no participa en el mundo que describe.
+Un mapa que canta necesita cuatro cosas. Sin cualquiera de ellas, el mapa permanece inerte, una descripción que no participa en el mundo que describe.
 
 ```
 LOS CUATRO REQUISITOS
@@ -631,7 +631,7 @@ El cuarto requisito es la honestidad:
     EL PRINCIPIO:
     ─────────────
     Si el efecto no regresa al repetir las condiciones,
-    no hay canción — solo hay anécdota.
+    no hay canción, solo hay anécdota.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -831,7 +831,7 @@ FLUJO BIDIRECCIONAL
 
 ### 6.2 El Territorio Ofrece Afinidades
 
-El territorio no es neutral. Tiene estructura. Ofrece afinidades — patrones que son más fáciles de invocar que otros:
+El territorio no es neutral. Tiene estructura. Ofrece afinidades, patrones que son más fáciles de invocar que otros:
 
 ```
 AFINIDADES TERRITORIALES
@@ -866,7 +866,7 @@ AFINIDADES TERRITORIALES
     
     Esto no es rendición.
     Esto no es abandonar tus intenciones.
-    Esto es AFINACIÓN — encontrar la frecuencia
+    Esto es AFINACIÓN, encontrar la frecuencia
     donde tus intenciones y la estructura de la realidad
     pueden bailar juntas.
 
@@ -1652,7 +1652,7 @@ EL ARTE DE LA REALIDAD
     │     Y nosotros aprendemos con él,                                       │
     │     que es, al final, de lo que se trata todo.                          │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
