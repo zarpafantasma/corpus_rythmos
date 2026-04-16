@@ -11,7 +11,7 @@
     ║                                                                  ║
     ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)  ║
     ║                                                                  ║
-    ║   "El gradiente no crea energía—crea preferencia.                ║
+    ║   "El gradiente no crea energía, crea preferencia.               ║
     ║    Y la preferencia, sostenida en el tiempo, se convierte        ║
     ║    en acumulación."                                              ║
     ║                                                                  ║
@@ -43,7 +43,7 @@
 
 ### 1.1 La Visión
 
-La cosecha convencional de energía vibratoria sufre de una limitación fundamental: **dependencia de resonancia**. Los cosechadores piezoeléctricos, electromagnéticos y electrostáticos logran máxima eficiencia solo cuando las vibraciones ambientales coinciden con su frecuencia resonante diseñada. En entornos del mundo real—fábricas, vehículos, movimiento humano, infraestructura—las vibraciones son **de banda ancha, variables e impredecibles**.
+La cosecha convencional de energía vibratoria sufre de una limitación fundamental: **dependencia de resonancia**. Los cosechadores piezoeléctricos, electromagnéticos y electrostáticos logran máxima eficiencia solo cuando las vibraciones ambientales coinciden con su frecuencia resonante diseñada. En entornos del mundo real, fábricas, vehículos, movimiento humano, infraestructura, las vibraciones son **de banda ancha, variables e impredecibles**.
 
 RTM propone un cambio de paradigma: en lugar de sintonizar un cosechador a una frecuencia, usar un **gradiente topológico (∇α)** para crear asimetría espacial que acumule energía vibratoria a través de un amplio espectro.
 
@@ -223,7 +223,7 @@ EFECTO DEL GRADIENTE ∇α EN VIBRACIONES
     │   SE ACUMULAN   │  ═══════════════════►   │   SE DISPERSAN  │
     │   aquí          │    La energía fluye     │                 │
     │                 │    hacia α alto         │                 │
-    │   ◉◉◉◉◉      │                         │       ·         │
+    │   ◉◉◉◉◉      │                          │       ·         │
     │                 │                         │                 │
     └─────────────────┴─────────────────────────┴─────────────────┘
                               │
@@ -293,14 +293,14 @@ COSECHADOR DE ENERGÍA VIBRATORIA TOPOLÓGICO (CEVT)
 ```
 Las vibraciones ambientales se acoplan a la estructura de metamaterial.
 Todas las frecuencias que pueden propagarse en el medio contribuyen.
-No se requiere resonancia—solo acoplamiento mecánico.
+No se requiere resonancia, solo acoplamiento mecánico.
 ```
 
 **Etapa 2: Acumulación**
 ```
 El gradiente ∇α crea sesgo direccional.
 La energía de TODAS las frecuencias acopladas fluye hacia la zona de α bajo.
-Esto NO es amplificación—es concentración espacial.
+Esto NO es amplificación, es concentración espacial.
 La energía del volumen V se concentra en volumen v << V.
 ```
 
@@ -393,20 +393,20 @@ SECCIÓN TRANSVERSAL DEL CEVT
     │░░░░░░░░░░░ CAPA DE ACOPLAMIENTO ░░░░░░░░░░│   │ 2mm
     │░░░░░░░░░░░ (α alto = 2.0)       ░░░░░░░░░░│   │
     ├───────────────────────────────────────────┤  ─┼─
-    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│   │
-    │▒▒▒▒▒▒▒▒▒▒▒ ZONA DE GRADIENTE ▒▒▒▒▒▒▒▒▒▒▒▒│   │
-    │▒▒▒▒▒▒▒▒▒▒▒ (α: 2.0 → 0.5)   ▒▒▒▒▒▒▒▒▒▒▒▒▒│   │ 15mm
-    │▒▒▒▒▒▒▒▒▒▒▒    ∇α ≈ 100/m    ▒▒▒▒▒▒▒▒▒▒▒▒▒│   │
-    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│   │
+    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│    │
+    │▒▒▒▒▒▒▒▒▒▒▒ ZONA DE GRADIENTE ▒▒▒▒▒▒▒▒▒▒▒▒│    │
+    │▒▒▒▒▒▒▒▒▒▒▒ (α: 2.0 → 0.5)   ▒▒▒▒▒▒▒▒▒▒▒▒▒│    │ 15mm
+    │▒▒▒▒▒▒▒▒▒▒▒    ∇α ≈ 100/m    ▒▒▒▒▒▒▒▒▒▒▒▒▒│    │
+    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│    │
     ├───────────────────────────────────────────┤  ─┼─
-    │▓▓▓▓▓▓▓▓ ZONA DE ACUMULACIÓN ▓▓▓▓▓▓▓▓▓▓▓▓▓│   │ 3mm
-    │▓▓▓▓▓▓▓▓ (α bajo = 0.5)      ▓▓▓▓▓▓▓▓▓▓▓▓▓│   │
+    │▓▓▓▓▓▓▓▓ ZONA DE ACUMULACIÓN ▓▓▓▓▓▓▓▓▓▓▓▓▓│    │ 3mm
+    │▓▓▓▓▓▓▓▓ (α bajo = 0.5)      ▓▓▓▓▓▓▓▓▓▓▓▓▓│    │
     ├───────────────────────────────────────────┤  ─┼─
-    │████████████ MATRIZ PIEZO ████████████████│   │ 2mm
-    │████████████ (PZT-5H)     ████████████████│   │
+    │████████████ MATRIZ PIEZO ████████████████│    │ 2mm
+    │████████████ (PZT-5H)     ████████████████│    │
     ├───────────────────────────────────────────┤  ─┼─
-    │▓▓▓▓▓▓▓▓ PLACA DE RESPALDO ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│   │ 3mm
-    │▓▓▓▓▓▓▓▓ (montaje rígido)  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│   │
+    │▓▓▓▓▓▓▓▓ PLACA DE RESPALDO ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│    │ 3mm
+    │▓▓▓▓▓▓▓▓ (montaje rígido)  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│    │
     └───────────────────────────────────────────┘  ─┴─
                                                    25mm total
 ```
@@ -990,7 +990,7 @@ APLICACIÓN: SISTEMA DE MONITOREO DE PRESIÓN DE NEUMÁTICOS (TPMS)
                     │    │ Sensor  │    │     Todas las superficies
                     │    └────┬────┘    │
                     │         │         │
-                    │    PARED │ NEUMÁT.│
+                    │   PARED │ NEUMÁT. │
                     │         │         │
                     │         │ RF      │
                     │         ▼         │
@@ -1238,7 +1238,7 @@ DISTINCIÓN CRÍTICA
 | **Correlación α-material** | Relación entre composición y α no completamente caracterizada | Puede requerir mapeo empírico extenso |
 | **Estabilidad del gradiente** | Estabilidad a largo plazo del gradiente α bajo vibración | Podría degradarse con el tiempo |
 | **Eficiencia de acoplamiento** | Qué tan bien las vibraciones ambientales se acoplan al gradiente | Puede ser menor que la predicha |
-| **Razón de acumulación** | R = ρ(L)/ρ(0) real alcanzable | Métrica de rendimiento central—desconocida |
+| **Razón de acumulación** | R = ρ(L)/ρ(0) real alcanzable | Métrica de rendimiento central, desconocida |
 | **Contribución térmica** | Magnitud de cosecha de movimiento Browniano | Podría ser insignificante o significativa |
 
 ### 13.2 Desafíos de Ingeniería
@@ -1398,7 +1398,7 @@ Si las predicciones de RTM sobre gradientes topológicos son correctas, CEVT pod
 
 ## Apéndice B: Referencias
 
-1. RTM Corpus v2.0 — Fundamentos Teóricos
+1. RTM Corpus — Fundamentos Teóricos
 2. RTM-PAPER-001 — Relatividad Temporal Multiescala: Marco Matemático
 3. Roundy, S. et al. (2003) — A study of low level vibrations as a power source for wireless sensor nodes
 4. Beeby, S.P. et al. (2006) — Energy harvesting vibration sources for microsystems applications
