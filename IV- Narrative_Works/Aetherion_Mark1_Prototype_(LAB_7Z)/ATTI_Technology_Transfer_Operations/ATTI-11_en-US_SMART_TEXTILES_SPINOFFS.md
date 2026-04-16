@@ -22,7 +22,7 @@
 
 ### 1.1 The Vision
 
-Current smart textiles embed electronics into fabric—sensors, wires, batteries. They're bulky, fragile, unwashable. RTM proposes textiles that are intrinsically intelligent using topological metamaterial fibers. No batteries. No circuits. No fragility.
+Current smart textiles embed electronics into fabric, sensors, wires, batteries. They're bulky, fragile, unwashable. RTM proposes textiles that are intrinsically intelligent using topological metamaterial fibers. No batteries. No circuits. No fragility.
 
 ### 1.2 Key Metrics
 
