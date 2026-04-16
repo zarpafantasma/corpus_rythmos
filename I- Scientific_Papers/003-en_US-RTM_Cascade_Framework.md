@@ -30,7 +30,7 @@ While previous papers established the static scaling relationship $`T\backslash 
 
 **1.1 Motivation and scope**
 
-RTM (Multiscale Temporal Relativity) posits that the characteristic time of a process scales with an effective size according to $`{T/T}_{0}{{= (L/L}_{0})}^{\alpha}`$ , where the exponent $`\alpha`$ operationalizes **mesoscopic coherence**. The conceptual essays *Simulacrum* and *La Arquitectura del Eco* motivate a picture in which information is **re-encoded** into increasingly ordered structures and propagated **sequentially** across nested layers—an “resonant harmonics architecture” that advances forward rather than backward. Our goal here is to translate that narrative into **testable, falsifiable signatures** that can be probed with real or analog data, without committing to metaphysical claims.
+RTM (Multiscale Temporal Relativity) posits that the characteristic time of a process scales with an effective size according to $`{T/T}_{0}{{= (L/L}_{0})}^{\alpha}`$ , where the exponent $`\alpha`$ operationalizes **mesoscopic coherence**. The conceptual essays *Simulacrum* and *La Arquitectura del Eco* motivate a picture in which information is **re-encoded** into increasingly ordered structures and propagated **sequentially** across nested layers, an “resonant harmonics architecture” that advances forward rather than backward. Our goal here is to translate that narrative into **testable, falsifiable signatures** that can be probed with real or analog data, without committing to metaphysical claims.
 
 **1.2 Problem statement**
 
@@ -189,7 +189,7 @@ Directional coupling is introduced only from $`n`$ to $`n + 1`$ (for S2), with a
 
 **3. Testable predictions and decision rules**
 
-This section turns the layered RTM formulation (§2) into **concrete, falsifiable predictions** with explicit tests, thresholds, and stopping rules. The predictions are grouped as **core** (must pass) and **supporting** (strengthen the claim but are not required). Conceptual provenance—*Simulacrum* (re-encoding) and *La Arquitectura del Eco* (sequential “resonant harmonics”)—is kept as **motivation only**; the tests below stand on operational grounds.
+This section turns the layered RTM formulation (§2) into **concrete, falsifiable predictions** with explicit tests, thresholds, and stopping rules. The predictions are grouped as **core** (must pass) and **supporting** (strengthen the claim but are not required). Conceptual provenance, *Simulacrum* (re-encoding) and *La Arquitectura del Eco* (sequential “resonant harmonics”), is kept as **motivation only**; the tests below stand on operational grounds.
 
 **3.1 Core signature S1 — Monotone coherence across layers (slope test)**
 
@@ -310,7 +310,7 @@ Set $`\varepsilon`$ by instrument/design (e.g., $`\varepsilon = 0.05\, - \, 0.1`
 
 **4. Simulations and synthetic controls (E1–E4)**
 
-This section validates the two core signatures—**(S1)** monotone coherence across layers (slope test) and **(S2)** forward directionality (TE/Granger)—using lightweight synthetic models. Each experiment specifies: **model**, **measurement**, **decision rule**, and **typical outcome patterns**. We also include stress tests and a minimal reproducibility pack.
+This section validates the two core signatures, **(S1)** monotone coherence across layers (slope test) and **(S2)** forward directionality (TE/Granger), using lightweight synthetic models. Each experiment specifies: **model**, **measurement**, **decision rule**, and **typical outcome patterns**. We also include stress tests and a minimal reproducibility pack.
 
 **4.1 E1 — Four-layer cascade with non-decreasing coherence (S1)**
 
@@ -372,7 +372,7 @@ Typical pattern. $`{TE}_{n \rightarrow n + 1} \gg {TE}_{n + 1 \rightarrow n}`$; 
 
 - **S2:** TE and Granger are symmetric or non-significant after FDR.
 
-**Typical pattern.** Flat $`{\widehat{\alpha}}_{n}`$ across layers with non-zero intercept shifts; TE/Granger do not show a favored direction—this safeguards against false positives.
+**Typical pattern.** Flat $`{\widehat{\alpha}}_{n}`$ across layers with non-zero intercept shifts; TE/Granger do not show a favored direction, this safeguards against false positives.
 
 **4.5 Stress tests (robustness and failure modes)**
 
@@ -380,7 +380,7 @@ Typical pattern. $`{TE}_{n \rightarrow n + 1} \gg {TE}_{n + 1 \rightarrow n}`$; 
 
 - **Span in** $`\mathbf{L}`$**.** Reducing the $`L`$ range inflates CIs; power drops steeply below $`\sim 6`$ distinct sizes/layer or $`< 0.5`$ decades span.
 
-- **Heteroskedastic/heavy-tailed noise.** Use bootstrap CIs; run Huber/Theil–Sen sensitivity—claims must persist.
+- **Heteroskedastic/heavy-tailed noise.** Use bootstrap CIs; run Huber/Theil–Sen sensitivity, claims must persist.
 
 - **Mis-binning across layers.** Mixing distinct $`\Xi_{n}`$ within a layer can bleed level effects into slope estimates; mitigate with narrow bins and consistent proxy definitions.
 
@@ -540,7 +540,7 @@ This section turns the RTM cascade into **laboratory protocols** that can produc
 
 - **Registration:** pre-register $`\varepsilon`$, lag ranges, and null segments; archive raw data and code.
 
-**Bottom line.** The three platforms above provide **independent routes** to test the RTM **sequential-coherence** hypothesis under controlled conditions. A positive result requires **both** slope monotonicity (S1) and forward-only causality (S2); a null or mixed result argues against the Resonant Harmonics -cascade interpretation **in that platform**—precisely the falsifiability standard we want.
+**Bottom line.** The three platforms above provide **independent routes** to test the RTM **sequential-coherence** hypothesis under controlled conditions. A positive result requires **both** slope monotonicity (S1) and forward-only causality (S2); a null or mixed result argues against the Resonant Harmonics -cascade interpretation **in that platform**, precisely the falsifiability standard we want.
 
 **6. Discussion**
 
@@ -588,7 +588,7 @@ Future theory should connect $`\alpha`$ to **coarse-grained equations** (e.g., g
 
 **6.5 Cross-domain reach**
 
-The same pipeline—layered slope estimation + TE/Granger—applies to:
+The same pipeline, layered slope estimation + TE/Granger, applies to:
 
 - **Laboratory analogs:** optical/RF/mechanical resonator chains; fluid/phononic guides with increasing confinement (as designed in §5).
 
@@ -614,15 +614,15 @@ Conceptual language about **re-encoding** and “simulacrum” remains **motivat
 
 **6.8 What this enables next**
 
-- A **benchmark suite**: publish slopes $`{\widehat{\alpha}}_{n}`$​, CIs, and TE/Granger tables for each platform/source—enabling direct comparison across labs and datasets.
+- A **benchmark suite**: publish slopes $`{\widehat{\alpha}}_{n}`$​, CIs, and TE/Granger tables for each platform/source, enabling direct comparison across labs and datasets.
 
 - **Response maps**: measure $`\alpha_{n}(g)`$ as a function of coupling/confinement to identify **operating regions** where coherence gains are largest.
 
 - **Toward derivations**: use empirical $`\alpha`$ maps to constrain candidate **effective models** (memory kernels, directed coupling graphs, multiscale transport).
 
-- **Engineering angle**: if monotone $`\alpha`$ and forward TE are robust, one can aim to **design** cascades that purposely **raise** $`\alpha`$ layer by layer for control or information-processing tasks—clearly marked as engineering follow-up, not part of the present claims.
+- **Engineering angle**: if monotone $`\alpha`$ and forward TE are robust, one can aim to **design** cascades that purposely **raise** $`\alpha`$ layer by layer for control or information-processing tasks, clearly marked as engineering follow-up, not part of the present claims.
 
-**Bottom line.** The RTM cascade is now a **testable** story: either **slopes rise (or hold) forward** and **causality points forward**, or they don’t. Both outcomes are scientifically valuable—one opens a microphysical and engineering program; the other cleanly rules out a seductive but unneeded narrative for that system.
+**Bottom line.** The RTM cascade is now a **testable** story: either **slopes rise (or hold) forward** and **causality points forward**, or they don’t. Both outcomes are scientifically valuable, one opens a microphysical and engineering program; the other cleanly rules out a seductive but unneeded narrative for that system.
 
 7.  **Structural Divergence and Phase Space Bifurcation**
 
@@ -744,7 +744,7 @@ This chapter states what our RTM cascade test **does** and **does not** establis
 
 **8.9 Bottom line**
 
-The cascade claim **stands or falls** on two observables: **(S1)** non-decreasing αn $`\alpha_{n\alpha n}`$ and **(S2)** forward-only directionality. If either fails under the controls above—or if results hinge on proxy choices or vanish under robustness checks—the interpretation is **not supported** in that system. That falsifiability is a feature, not a bug.
+The cascade claim **stands or falls** on two observables: **(S1)** non-decreasing αn $`\alpha_{n\alpha n}`$ and **(S2)** forward-only directionality. If either fails under the controls above, or if results hinge on proxy choices or vanish under robustness checks, the interpretation is **not supported** in that system. That falsifiability is a feature, not a bug.
 
 **9. Conclusion and outlook**
 
@@ -789,7 +789,7 @@ The cascade claim **stands or falls** on two observables: **(S1)** non-decreasin
 
 A flat (or decreasing beyond tolerance) slope profile and symmetric directionality **falsify the cascade** in that system. This is success of the method: it prevents over-interpretation and focuses future work on why coherence does **not** accumulate (insufficient one-way coupling, proxy issues, regime mixing) or on alternative observables better suited to the medium.
 
-**Bottom line.** The work converts a compelling multiscale story into **clean empirical handles**. Measure slopes; separate intercepts; test directionality. If the forward cascade exists, it should show up in these two numbers. If it doesn’t, the answer is equally valuable—and unambiguous.
+**Bottom line.** The work converts a compelling multiscale story into **clean empirical handles**. Measure slopes; separate intercepts; test directionality. If the forward cascade exists, it should show up in these two numbers. If it doesn’t, the answer is equally valuable, and unambiguous.
 
 **10. Integrated simulation evidence**
 
@@ -831,13 +831,13 @@ We used five lightweight simulations to audit the two core RTM signatures under 
 
 **Setup.** Four independent AR processes (no coupling).\
 **Result.** TE is small and **symmetric**; Granger **not significant** in either direction across pairs.\
-**Conclusion.** The pipeline does **not** invent directionality—**specificity** is high under the null.
+**Conclusion.** The pipeline does **not** invent directionality, **specificity** is high under the null.
 
 **10.7 Joint verdict (S1/S2 decision rule)**
 
 - **S1:** Passed —$`{\widehat{\alpha}}_{n}`$ is non-decreasing in E1 and invariant in the intercept-only control E1b.
 
-- **S2:** Passed—forward directionality is significant (E2), remains after upstream conditioning (E2c), and vanishes under null coupling (E4).
+- **S2:** Passed, forward directionality is significant (E2), remains after upstream conditioning (E2c), and vanishes under null coupling (E4).
 
 - **Support:** Hysteresis (E3) provides convergent evidence for directional memory.
 
@@ -845,11 +845,11 @@ We used five lightweight simulations to audit the two core RTM signatures under 
 
 **10.8 Implications and repercussions**
 
-1.  **Operational clarity.** The **slope–intercept separation** is not just conceptual—it survives noise, proxy variability, and large level shifts. This guards against over-interpreting “clock mapping” or instrument delays as organization.
+1.  **Operational clarity.** The **slope–intercept separation** is not just conceptual, it survives noise, proxy variability, and large level shifts. This guards against over-interpreting “clock mapping” or instrument delays as organization.
 
 2.  **Experimental readiness.** The same metrics (slope CIs, TE/Granger with surrogates, optional hysteresis) can be ported directly to analog platforms (resonator chains, waveguide/cavity ladders, electronic ladders), with preregistered $`\varepsilon`$ and lag/embedding grids.
 
-3.  **Falsifiability.** The program is **two-number falsifiable**: either (i) slopes rise (or hold) **and** (ii) directionality is forward-only—or the cascade interpretation is **not supported** in that system.
+3.  **Falsifiability.** The program is **two-number falsifiable**: either (i) slopes rise (or hold) **and** (ii) directionality is forward-only, or the cascade interpretation is **not supported** in that system.
 
 4.  **Model constraints.** Positive S1/S2 results constrain effective models (e.g., memory-kernel transport, directed coupling networks) that can **predict** how $`\alpha`$ responds to coupling/confinement, enabling targeted design of cascades.
 
