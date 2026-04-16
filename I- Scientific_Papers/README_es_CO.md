@@ -1,6 +1,6 @@
 # I - Artículos Científicos
 
-Esta carpeta contiene el corpus teórico completo de la **Relatividad Temporal Multiescala (RTM)** — un marco unificado que propone que el exponente de escala α en las relaciones de ley de potencia es un invariante estructural determinado por la topología de la red.
+Esta carpeta contiene el corpus teórico completo de la **Relatividad Temporal Multiescala (RTM)**, un marco unificado que propone que el exponente de escala α en las relaciones de ley de potencia es un invariante estructural determinado por la topología de la red.
 
 ---
 
