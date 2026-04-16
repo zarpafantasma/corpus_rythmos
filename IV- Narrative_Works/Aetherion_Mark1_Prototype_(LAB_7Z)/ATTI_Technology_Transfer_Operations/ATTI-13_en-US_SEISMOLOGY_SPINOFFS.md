@@ -47,9 +47,9 @@
 
 Earthquakes kill an average of 20,000 people per year and cause $100+ billion in damage. Despite a century of seismology, we cannot predict them. We can only measure them after the destruction has begun.
 
-The fundamental problem: conventional seismographs measure **kinetic energy**—the physical vibrations after rocks have already broken. By the time P-waves reach sensors, the earthquake is happening. Warning times are measured in seconds, not hours.
+The fundamental problem: conventional seismographs measure **kinetic energy**, the physical vibrations after rocks have already broken. By the time P-waves reach sensors, the earthquake is happening. Warning times are measured in seconds, not hours.
 
-RTM offers a paradigm shift: measure the **topological stress** that causes earthquakes, not the vibrations that result from them. The Aetherion metamaterial core, when operated passively (unpowered), becomes an extraordinarily sensitive detector of local spacetime topology changes. As tectonic plates strain against each other, they create measurable distortions in the α field—days or weeks before mechanical failure.
+RTM offers a paradigm shift: measure the **topological stress** that causes earthquakes, not the vibrations that result from them. The Aetherion metamaterial core, when operated passively (unpowered), becomes an extraordinarily sensitive detector of local spacetime topology changes. As tectonic plates strain against each other, they create measurable distortions in the α field, days or weeks before mechanical failure.
 
 This is not earthquake detection. This is **earthquake prediction**.
 
@@ -402,7 +402,7 @@ THE SECONDS vs. DAYS GAP:
 THE FUNDAMENTAL LIMIT
 ════════════════════════════════════════════════════════════════════════════════
 
-PROBLEM: Not instrument sensitivity—PHYSICS.
+PROBLEM: Not instrument sensitivity, PHYSICS.
 
     Even with perfect seismographs:
     • Waves still travel at rock speed
@@ -1352,7 +1352,7 @@ NETWORK POWER:
 PASSIVE DETECTION IS NATURAL
 ════════════════════════════════════════════════════════════════════════════════
 
-The Aetherion sensor is PASSIVE—it doesn't create energy.
+The Aetherion sensor is PASSIVE, it doesn't create energy.
 
 Energy flow:
     
@@ -1506,7 +1506,7 @@ MILESTONES:
 
 ### 18.1 Summary
 
-The Topological Seismograph represents a fundamental shift in earthquake science—from measuring the consequences of rupture to detecting the stress that causes it.
+The Topological Seismograph represents a fundamental shift in earthquake science, from measuring the consequences of rupture to detecting the stress that causes it.
 
 | Aspect | Conventional | RTM Approach |
 |--------|-------------|--------------|
