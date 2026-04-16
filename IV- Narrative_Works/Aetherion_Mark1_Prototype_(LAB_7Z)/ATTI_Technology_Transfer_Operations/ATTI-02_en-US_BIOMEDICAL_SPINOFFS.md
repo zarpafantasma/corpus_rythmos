@@ -12,7 +12,7 @@
     ║                                                                  ║
     ║        AETHERION TECHNOLOGY TRANSFER INITIATIVE (ATTI)           ║
     ║                                                                  ║
-    ║            "Death is not an event—it is a process.               ║
+    ║            "Death is not an event, it is a process.              ║
     ║       And processes can be slowed, paused, or redirected."       ║
     ║                                                                  ║
     ╚══════════════════════════════════════════════════════════════════╝
@@ -27,7 +27,7 @@ The applications described here represent theoretical extrapolations of RTM prin
    Experimental Basis: NONE
    Regulatory Status: NOT APPLICABLE (theoretical)
    
-This document explores what MIGHT be possible if RTM physics extends to biological systems. It should be read as speculative science fiction grounded in the RTM theoretical framework.
+This document explores what MIGHT be possible if RTM physics extends to biological systems. It should be read as speculative science grounded in the RTM theoretical framework.
 
 ---                                                                             
 
@@ -64,9 +64,9 @@ Every year, millions die not because medicine lacks the knowledge to save them, 
 
 Time is the enemy of emergency medicine. And we have no weapons against it.
 
-RTM proposes a radical solution: **don't fight against time—change its flow**.
+RTM proposes a radical solution: **don't fight against time, change its flow**.
 
-The Topological Stasis Chamber leverages the relationship between the RTM topological exponent (α) and temporal dynamics to create localized regions where biological time flows at a fraction of its normal rate. Inside such a field, a patient's cellular metabolism, bleeding, and tissue degradation proceed at 1/50th normal speed—buying hours or days where before there were only minutes.
+The Topological Stasis Chamber leverages the relationship between the RTM topological exponent (α) and temporal dynamics to create localized regions where biological time flows at a fraction of its normal rate. Inside such a field, a patient's cellular metabolism, bleeding, and tissue degradation proceed at 1/50th normal speed, buying hours or days where before there were only minutes.
 
 This is not cryonics. There is no freezing, no ice crystal damage, no revival process. The patient simply experiences time more slowly while surrounded by the field. When the field is deactivated, they return to normal temporal flow, biologically younger by the time differential.
 
@@ -136,7 +136,7 @@ BIOLOGICAL IMPLICATION:
 DEATH AS A PROCESS
 ════════════════════════════════════════════════════════════════════════════════
 
-Death is not a moment—it is a cascade of cellular failures:
+Death is not a moment, it is a cascade of cellular failures:
 
     INJURY
        │
@@ -273,7 +273,7 @@ ORGAN TRANSPLANT:
 CELLULAR METABOLISM AND TIME
 ════════════════════════════════════════════════════════════════════════════════
 
-All biological processes are kinetic—they depend on molecular motion and
+All biological processes are kinetic, they depend on molecular motion and
 chemical reaction rates. These rates are fundamentally tied to:
 
 1. TEMPERATURE (Arrhenius equation):
@@ -357,7 +357,7 @@ LIMITATIONS:
     └────────────────────────────────────────────────────────────────────┘
 
 Even with hypothermia, a trauma patient transported from a remote location
-still faces the same fundamental time constraints—just slightly extended.
+still faces the same fundamental time constraints, just slightly extended.
 ```
 
 ### 3.2 Cryopreservation: The Broken Promise
@@ -563,10 +563,10 @@ NATURAL α (≤ 3.5):
     │                                                                    │
     │   α = 2.0        α = 3.0        α = 3.5        α = 4.0             │
     │                                                                    │
-    │   ┌────┐        ┌────────┐    ┌──────────┐    ╳╳╳╳╳╳╳╳╳            │
+    │   ┌────┐        ┌────────┐    ┌──────────┐    ╳╳╳╳╳╳╳╳╳╳           │
     │   │ ╱  │        │╱╲╱╲╱╲╱╲│    │╱╲╱╲╱╲╱╲╱╲│    ╳ CANNOT ╳           │
-    │   │╱   │        │╲╱╲╱╲╱╲╱│    │╲╱╲╱╲╱╲╱╲╱│    ╳  EXIST  ╳          │
-    │   └────┘        └────────┘    └──────────┘    ╳╳╳╳╳╳╳╳╳            │
+    │   │╱   │        │╲╱╲╱╲╱╲╱│    │╲╱╲╱╲╱╲╱╲╱│    ╳  EXIST ╳           │
+    │   └────┘        └────────┘    └──────────┘    ╳╳╳╳╳╳╳╳╳╳           │
     │                                                                    │
     │   Surface       Volume        Maximum          Impossible          │
     │   filling       filling       packing          in 3D               │
@@ -577,7 +577,7 @@ NATURAL α (≤ 3.5):
 ARTIFICIAL α (up to ~50+):
 
     The Aetherion creates an ARTIFICIAL α field.
-    This is not network scaling—it is METRIC MANIPULATION.
+    This is not network scaling, it is METRIC MANIPULATION.
     
     The metamaterial core doesn't grow an organic network.
     It FORCES the local vacuum to behave as if more dimensions exist.
@@ -602,7 +602,7 @@ ARTIFICIAL α (up to ~50+):
     │                                                                    │
     └────────────────────────────────────────────────────────────────────┘
 
-    The artificial field is "unnatural"—violently imposed on spacetime.
+    The artificial field is "unnatural", violently imposed on spacetime.
     Power off → instant collapse back to α = 1.
 ```
 
@@ -640,7 +640,7 @@ FROM OUTSIDE (observer's perspective):
 
     "The patient's heart was beating so slowly we could see each contraction
      like a time-lapse flower blooming. About once every 40 seconds.
-     Their eyes tracked us, but so slowly—the saccade we'd normally miss
+     Their eyes tracked us, but so slowly, the saccade we'd normally miss
      took a full second. They seemed frozen, but they were alive.
      Just... slow."
 
@@ -650,7 +650,7 @@ CONSCIOUSNESS:
     ┌────────────────────────────────────────────────────────────────────┐
     │                                                                    │
     │   The brain generates consciousness through neural firing.         │
-    │   Neural firing is electrochemical—it depends on time.             │
+    │   Neural firing is electrochemical, it depends on time.            │
     │                                                                    │
     │   At α = 50:                                                       │
     │   • Neurons fire at 1/50th rate                                    │
@@ -1234,7 +1234,7 @@ SOLUTION: GRADUATED FIELD WITH INSTRUMENT ZONE
     │   Patient tissue: Maximum slowing (20×)                            │
     │                                                                    │
     │   The gradient is smooth enough that the surgeon doesn't notice.   │
-    │   Tools move slightly slower at the tip—provides better control!   │
+    │   Tools move slightly slower at the tip, provides better control!  │
     │   Patient's bleeding and tissue response is 20× slower.            │
     │                                                                    │
     └────────────────────────────────────────────────────────────────────┘
@@ -1865,7 +1865,7 @@ MITIGATION:
 
     1. GRADIENT TRANSITION ZONE (primary)
     
-       No sharp boundaries—always smooth gradients
+       No sharp boundaries, always smooth gradients
        α changes gradually over ~1 meter
        Maximum ∇α < 0.5 /cm everywhere
        
@@ -1898,7 +1898,7 @@ HAZARD 1: POWER FAILURE
     
     Risk: Sudden field collapse
     Effect: Patient experiences instant temporal "jerk"
-    Severity: Unknown—possibly fatal
+    Severity: Unknown, possibly fatal
     
     Mitigation:
     ┌─────────────────────────────────────────────────────────────────────┐
@@ -2377,28 +2377,28 @@ WHAT WE DON'T KNOW
    • Is the patient aware?
    • If aware, what is the subjective experience?
    • Could prolonged slowed consciousness cause psychological harm?
-   • Unknown—no precedent.
+   • Unknown, no precedent.
 
 2. CELLULAR EFFECTS
    • Do all cellular processes slow equally?
    • Are some processes more affected than others?
    • Could differential slowing cause problems?
-   • Unknown—requires testing.
+   • Unknown, requires testing.
 
 3. LONG-TERM EFFECTS
    • Does stasis cause accelerated aging afterward?
    • Are there cumulative effects with repeated use?
-   • Unknown—no way to predict.
+   • Unknown, no way to predict.
 
 4. DRUG INTERACTIONS
    • How do medications behave in slowed time?
    • Are dosing adjustments needed?
-   • Unknown—complex pharmacokinetics.
+   • Unknown, complex pharmacokinetics.
 
 5. FIELD BOUNDARY EFFECTS
    • Even with gradients, are there subtle boundary effects?
    • Could there be cell-level gradients we can't control?
-   • Unknown—may be fundamental limit.
+   • Unknown, may be fundamental limit.
 ```
 
 ### 19.3 Falsification Criteria
@@ -2525,7 +2525,7 @@ MARKET PROJECTIONS (speculative):
 
 ### 21.1 Summary
 
-The Topological Stasis Chamber represents perhaps the most transformative potential application of RTM technology—if it works. By manipulating the flow of time itself, we could overcome the fundamental constraint that has limited medicine since its beginning: the race against biological decay.
+The Topological Stasis Chamber represents perhaps the most transformative potential application of RTM technology, if it works. By manipulating the flow of time itself, we could overcome the fundamental constraint that has limited medicine since its beginning: the race against biological decay.
 
 | Application | Current Constraint | Stasis Solution |
 |-------------|-------------------|-----------------|
