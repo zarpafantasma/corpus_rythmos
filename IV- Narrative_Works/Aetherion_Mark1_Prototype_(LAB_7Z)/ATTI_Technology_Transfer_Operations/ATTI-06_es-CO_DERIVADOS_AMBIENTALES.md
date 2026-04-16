@@ -22,7 +22,7 @@
 
 ### 1.1 La Visión
 
-Los desafíos ambientales—captura de CO₂, purificación de agua, remediación de contaminación—son fundamentalmente problemas de separación y transporte. Las soluciones actuales luchan contra la termodinámica: intensivas en energía, costosas, a menudo imprácticas a escala.
+Los desafíos ambientales, captura de CO₂, purificación de agua, remediación de contaminación, son fundamentalmente problemas de separación y transporte. Las soluciones actuales luchan contra la termodinámica: intensivas en energía, costosas, a menudo imprácticas a escala.
 
 RTM ofrece un nuevo enfoque: usar gradientes topológicos para impulsar separación molecular, concentrar contaminantes y permitir remediación ambiental pasiva. El mismo ∇α que crea empuje puede transportar selectivamente moléculas, separar mezclas y catalizar reacciones.
 
