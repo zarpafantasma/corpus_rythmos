@@ -85,7 +85,7 @@ EL MECANISMO CENTRAL
     
     Cuando todos usan las mismas palabras,
     en el mismo ritmo,
-    con los mismos patrones de respiración —
+    con los mismos patrones de respiración.
     
     Se sincronizan.
     Físicamente.
@@ -497,7 +497,7 @@ PÉRDIDA DE FASE
     La creencia puede permanecer.
     
     Pero la sincronización física
-    que hacía que millones se movieran como uno —
+    que hacía que millones se movieran como uno.
     
     Esa puede perderse
     mientras la fe permanece.
@@ -1198,7 +1198,7 @@ PRINCIPIOS FUNDAMENTALES
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║    CUANDO SE SOSTIENE:                                                       ║
-║    Continuidad física de garganta en garganta. Repetible sin esfuerzo.      ║
+║    Continuidad física de garganta en garganta. Repetible sin esfuerzo.       ║
 ║    Transferible entre lugares. El cuerpo recuerda.                           ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
