@@ -18,13 +18,13 @@ Desarrollamos una fundación rigurosa para la **Relatividad Temporal Multiescala
 \omega\text{\:\,} = \text{\:\,}d(\log T)\text{\:\,} - \text{\:\,}\alpha\text{ }d(\log L),
 ```
 
-y demostramos que el **colapso**—independencia residual de $`\log T - \alpha\ \log L`$ respecto a $`{log\ }L`$—es equivalente a la **exactitud/planitud** de $`\omega`$ en un bin; la mezcla de regímenes y alternativas no potenciales aparecen como **holonomía/curvatura**. Embebemos RTM en **variación regular** con **exponentes variables**, cuantificando el sesgo de ventana finita y mostrando que las estadísticas de colapso escalan con la curvatura. Un operador de **renormalización** (dilatación de escala + re-gauge) tiene leyes de potencia como **puntos fijos** y es **contractivo** en clases Hölder/Zygmund; los relojes lentamente variables yacen en una **variedad central**, y los exponentes lentamente variables producen **atracción adiabática**. En dinámica, RTM actúa como un **reloj dependiente del espacio** para difusiones y formas de Dirichlet, dando exponentes de similaridad $`z = m + \alpha`$ y leyes de tiempo de salida $`T \sim R^{\text{ }m + \alpha}`$ con cotas de error adiabáticas. Para inferencia bajo errores en variables, mostramos consistencia de **ODR/TLS**, **SIMEX**, y **Theil–Sen** para $`\alpha`$ local, y formalizamos la estadística de colapso como una prueba de especificación contra curvatura. Un empaquetado teórico-categorial hace de los relojes un gauge y de la pendiente el invariante de móduli, clarificando el comportamiento funtorial bajo productos y engrosamiento.  Concluimos con contraejemplos constructivos y problemas abiertos (pruebas de holonomía, configuraciones de grafos, problemas inversos, ruido de colas pesadas).
+y demostramos que el **colapso**, independencia residual de $`\log T - \alpha\ \log L`$ respecto a $`{log\ }L`$, es equivalente a la **exactitud/planitud** de $`\omega`$ en un bin; la mezcla de regímenes y alternativas no potenciales aparecen como **holonomía/curvatura**. Embebemos RTM en **variación regular** con **exponentes variables**, cuantificando el sesgo de ventana finita y mostrando que las estadísticas de colapso escalan con la curvatura. Un operador de **renormalización** (dilatación de escala + re-gauge) tiene leyes de potencia como **puntos fijos** y es **contractivo** en clases Hölder/Zygmund; los relojes lentamente variables yacen en una **variedad central**, y los exponentes lentamente variables producen **atracción adiabática**. En dinámica, RTM actúa como un **reloj dependiente del espacio** para difusiones y formas de Dirichlet, dando exponentes de similaridad $`z = m + \alpha`$ y leyes de tiempo de salida $`T \sim R^{\text{ }m + \alpha}`$ con cotas de error adiabáticas. Para inferencia bajo errores en variables, mostramos consistencia de **ODR/TLS**, **SIMEX**, y **Theil–Sen** para $`\alpha`$ local, y formalizamos la estadística de colapso como una prueba de especificación contra curvatura. Un empaquetado teórico-categorial hace de los relojes un gauge y de la pendiente el invariante de móduli, clarificando el comportamiento funtorial bajo productos y engrosamiento.  Concluimos con contraejemplos constructivos y problemas abiertos (pruebas de holonomía, configuraciones de grafos, problemas inversos, ruido de colas pesadas).
 
 **1. Introducción**
 
 **1.1 Problema y perspectiva**
 
-Muchos sistemas exhiben una relación sistemática entre un **tiempo característico** $`T`$ y un **proxy de escala** $`L`$: las unidades más grandes operan con relojes más lentos, las unidades más pequeñas con relojes más rápidos. RTM postula que **dentro de un entorno fijo** esta relación es **multiplicativamente consistente** bajo reescalamiento de $`L`$. La práctica empírica—vista a través de la física, biología y economía—es examinar la pendiente de $`\log T`$ vs. $`{log\ }L`$ y probar si los residuos "colapsan" después de eliminar la tendencia por esa pendiente.
+Muchos sistemas exhiben una relación sistemática entre un **tiempo característico** $`T`$ y un **proxy de escala** $`L`$: las unidades más grandes operan con relojes más lentos, las unidades más pequeñas con relojes más rápidos. RTM postula que **dentro de un entorno fijo** esta relación es **multiplicativamente consistente** bajo reescalamiento de $`L`$. La práctica empírica, vista a través de la física, biología y economía, es examinar la pendiente de $`\log T`$ vs. $`{log\ }L`$ y probar si los residuos "colapsan" después de eliminar la tendencia por esa pendiente.
 
 Este artículo suministra una **columna vertebral matemática** para esa práctica. Nuestra afirmación central es que la **pendiente** $`\alpha`$ es el objeto estructural (invariante bajo cambios de reloj), mientras que los **relojes** son un gauge. Con esta separación, RTM se convierte en una teoría limpia que vincula: (i) ecuaciones funcionales → leyes de potencia, (ii) una **1-forma/conexión** cuya planitud codifica el colapso, (iii) **variación regular** con exponentes variables para cuantificar efectos de ventana finita, (iv) **renormalización** como dinámica de dilatación de escala con puntos fijos de ley de potencia, (v) **difusiones con relojes dependientes del espacio**, y (vi) **identificabilidad estadística** bajo error de medición.
 
@@ -64,7 +64,7 @@ Nuestro uso de ecuaciones de Cauchy multiplicativas y **variación regular** sig
 
 **1.4 Alcance y falsificabilidad**
 
-RTM está destinado para **bins**—dominios donde el entorno es suficientemente estable para que los relojes sean $`L`$-independientes. La teoría **predice sus propios modos de falla**: la curvatura no potencial o las mezclas de regímenes producen holonomía y estadísticas de colapso no nulas. Estos son **límites de alcance**, no defectos.
+RTM está destinado para **bins**, dominios donde el entorno es suficientemente estable para que los relojes sean $`L`$-independientes. La teoría **predice sus propios modos de falla**: la curvatura no potencial o las mezclas de regímenes producen holonomía y estadísticas de colapso no nulas. Estos son **límites de alcance**, no defectos.
 
 **1.5 Hoja de ruta del artículo**
 
@@ -109,7 +109,7 @@ f(b_{1}b_{2}) = f(b_{1})\text{ }f(b_{2})\ \ \ \ \ \ \ \ (\text{composición de s
 
 **Axioma 2.2 (Regularidad moderada).**\
 Ya sea (i) $`f`$ es medible en $`\mathbb{R}_{> 0}`$, o (ii) $`f`$ es continua en $`b = 1`$.\
-(Cualquier regularidad estándar—Baire/medible/localmente acotada—servirá.)
+(Cualquier regularidad estándar, Baire/medible/localmente acotada, servirá.)
 
 **Definición 2.3 (Transformación de reloj).**\
 Un cambio de unidades de medición o temporización base es un mapa $`T \mapsto T^{\#}`$ de la forma $`T^{\#}(L) = c\text{ }T(L)`$ para alguna constante $`c > 0`$ (o, más generalmente, $`c = c(x)`$ dependiendo de un parámetro de **entorno** externo $`x`$, pero *independiente de* $`L`$ dentro de un entorno fijo).
@@ -153,7 +153,7 @@ así que la pendiente de regresión de $`{log\ }T^{\#}`$ sobre $`\log L`$ es igu
 *Demostración.* Inmediato del corolario.
 
 **Observación 2.8 (Relojes dependientes del entorno).**\
-Si el factor de reloj depende de una etiqueta externa $`x`$ pero no de $`L`$—es decir, $`T^{\#}(L;x) = c(x)\text{ }T(L;x)`$—entonces dentro de cualquier bin de $`x`$-entorno fijo la pendiente permanece $`\alpha(x)`$, mientras que la ordenada al origen se desplaza por $`\log c(x)`$.
+Si el factor de reloj depende de una etiqueta externa $`x`$ pero no de $`L`$, es decir, $`T^{\#}(L;x) = c(x)\text{ }T(L;x)`$, entonces dentro de cualquier bin de $`x`$-entorno fijo la pendiente permanece $`\alpha(x)`$, mientras que la ordenada al origen se desplaza por $`\log c(x)`$.
 
 **Proposición 2.9 (Unicidad salvo reloj).**\
 Si $`T_{1}(L) = \kappa_{1}L^{\alpha_{1}}`$ y $`T_{2}(L) = \kappa_{2}L^{\alpha_{2}}`$ satisfacen $`T_{2}(L) = c\text{ }T_{1}(L)`$ para todo $`L`$ con algún $`c > 0`$, entonces $`\alpha_{1} = \alpha_{2}`$ y $`c = \kappa_{2}/\kappa_{1}`$.
@@ -277,7 +277,7 @@ Bajo esto,
 \omega \mapsto \omega^{\#}\text{\:\,} = \text{\:\,}d(v + \phi(x)) - \alpha\text{ }du\text{\:\,} = \text{\:\,}\omega + d\phi(x).
 ```
 
-Así $`\omega`$ está definida **salvo adición de 1-formas exactas retrotaídas desde** $`X`$—una libertad de gauge estándar.
+Así $`\omega`$ está definida **salvo adición de 1-formas exactas retrotaídas desde** $`X`$, una libertad de gauge estándar.
 
 **Proposición 3.2 (La pendiente es invariante de gauge).**\
 Los cambios de reloj $`v \mapsto v + \phi(x)`$ no alteran el coeficiente $`\alpha`$ de $`du`$. Por tanto $`\alpha`$ es un objeto invariante de gauge, mientras que $`v`$ y $`\omega`$ se desplazan por formas exactas.
@@ -314,7 +314,7 @@ d\omega\text{\:\,} = \text{\:\,} - \text{ }d\alpha \land du.
 
 Así una condición **necesaria y suficiente** para el colapso es que $`\partial\alpha/\partial u = 0`$ y que cualquier dependencia en $`x`$ de $`\alpha`$ no cree holonomía alrededor de lazos con extensión en $`u`$. Para $`\alpha`$ constante, $`d\omega = 0`$ automáticamente.
 
-*Observación.* Si $`\alpha = \alpha(x)`$ solo, $`d\omega = - (\partial\alpha/\partial x)\text{ }dx \land du`$. La planitud entonces requiere que a lo largo de cualquier lazo en $`E`$ con extensión no nula en $`u`$, la variación en $`x`$ se integre a cero—equivalentemente, que el campo sea **independiente del camino** después de fijar el gauge. En la práctica trabajamos en bins pequeños donde $`\alpha`$ es aproximadamente constante, así que $`d\omega \approx 0`$.
+*Observación.* Si $`\alpha = \alpha(x)`$ solo, $`d\omega = - (\partial\alpha/\partial x)\text{ }dx \land du`$. La planitud entonces requiere que a lo largo de cualquier lazo en $`E`$ con extensión no nula en $`u`$, la variación en $`x`$ se integre a cero, equivalentemente, que el campo sea **independiente del camino** después de fijar el gauge. En la práctica trabajamos en bins pequeños donde $`\alpha`$ es aproximadamente constante, así que $`d\omega \approx 0`$.
 
 **3.4 Holonomía, mezcla de regímenes, y por qué el colapso puede (y debe) fallar**
 
@@ -704,11 +704,11 @@ Bajo el gauge de pendiente exacta $`f(b) = b^{\alpha(u_{0})}`$ o el gauge auto-n
 \sup_{u \in I} \mid \log(\mathcal{R}_{b}^{n}T)(e^{u}) - (\alpha(u_{0})\text{ }u + C_{n}) \mid \text{\:\,} \leq \text{\:\,}C\text{ }\varepsilon\text{ }n\ \log b\text{\:\,} + \text{\:\,}o(1),
 ```
 
-donde $`C_{n}`$ es una constante (dependiente del gauge). Para $`I`$ fijo, cuando $`n`$ crece el lado derecho permanece **pequeño** siempre que la deriva acumulada $`\varepsilon\text{ }n\ \log b`$ sea pequeña—este es el **régimen adiabático**. Por tanto en ventanas finitas el flujo **sigue** una ley de potencia local con exponente cercano a $`\alpha(u_{0})`$.
+donde $`C_{n}`$ es una constante (dependiente del gauge). Para $`I`$ fijo, cuando $`n`$ crece el lado derecho permanece **pequeño** siempre que la deriva acumulada $`\varepsilon\text{ }n\ \log b`$ sea pequeña, este es el **régimen adiabático**. Por tanto en ventanas finitas el flujo **sigue** una ley de potencia local con exponente cercano a $`\alpha(u_{0})`$.
 
 *Esbozo.* Descomponer $`\int_{u_{0}}^{u + n\log b}{\alpha(s)ds = \alpha(u_{0})(u + n\log b - u_{0}) + \int\alpha'(s)(u + n\log b - s)ds}`$. El resto escala con $`\varepsilon n\ \log b`$; la variación lenta de $`\kappa`$ se maneja como en 5.5.
 
-*Interpretación.* Si $`\alpha`$ deriva lentamente, la renormalización aún empuja hacia **comportamiento local de ley de potencia** en cualquier ventana fija—precisamente la configuración empírica de RTM.
+*Interpretación.* Si $`\alpha`$ deriva lentamente, la renormalización aún empuja hacia **comportamiento local de ley de potencia** en cualquier ventana fija, precisamente la configuración empírica de RTM.
 
 **5.6 Alternativas no potenciales: la curvatura genera modos inestables**
 
@@ -729,7 +729,7 @@ $$\inf_{n \geq 0} \sup_{u \in I} |\varepsilon_n(u)| \geq \delta,$$
 
 es decir, **la renormalización no contrae** a una ley de potencia en esa ventana. Esto se alinea con la **falla de colapso** (Sec. 4.4).
 
-*Conclusión.* La curvatura persistente es una **característica inestable** bajo el flujo RG—precisamente lo que detecta nuestra prueba de colapso.
+*Conclusión.* La curvatura persistente es una **característica inestable** bajo el flujo RG, precisamente lo que detecta nuestra prueba de colapso.
 
 **5.7 Resumen e implicaciones**
 
@@ -1027,7 +1027,7 @@ Reportar $`Q`$, $`{\widehat{\tau}}^{2}`$, e influencia **leave-one-family-out**.
 
 - El sesgo de ventana finita por deriva/curvatura es $`O(\varepsilon h)`$; manejar con agrupamiento en bins y puntos de cambio.
 
-- La **estadística de colapso** es una prueba de especificación: tiende a 0 bajo el modelo RTM y permanece positiva con curvatura no potencial—incluso con error de medición.
+- La **estadística de colapso** es una prueba de especificación: tiende a 0 bajo el modelo RTM y permanece positiva con curvatura no potencial, incluso con error de medición.
 
 - Publicar **incertidumbre, diagnósticos de colapso, y heterogeneidad**; cuando la heterogeneidad de fusión es alta, preferir pendientes a nivel de familia sobre un solo índice.
 
@@ -1226,7 +1226,7 @@ v^{\#}(u) = \alpha u + \log\kappa + \log c(e^{u}),
 
 y $`\omega^{\#} = \omega + d\ \log c(e^{u})`$ adquiere un **componente** $`du`$.
 
-- **Interpretación:** esto **no** es un gauge permisible en RTM (los relojes deben ser $`L`$-independientes dentro del bin). El colapso debería y fallará—señalando correctamente la mala especificación.
+- **Interpretación:** esto **no** es un gauge permisible en RTM (los relojes deben ser $`L`$-independientes dentro del bin). El colapso debería y fallará, señalando correctamente la mala especificación.
 
 **9.3 Construcciones compuestas trabajadas**
 
@@ -1295,10 +1295,10 @@ Proporcionamos una columna vertebral rigurosa para RTM:
 
 - En dinámica, los exponentes RTM actúan como **campos de reloj locales** para difusiones/EDPs, produciendo exponentes de similaridad $`z = m + \alpha`$ y aproximaciones **adiabáticas** cuando $`\alpha`$ deriva (Sec. 6).
 
-- Estadísticamente, **ODR/SIMEX/Theil–Sen** recuperan consistentemente $`\alpha`$ local bajo EIV, y la **estadística de colapso** es una prueba de especificación contra curvatura—incluso con ruido (Sec. 7).
+- Estadísticamente, **ODR/SIMEX/Theil–Sen** recuperan consistentemente $`\alpha`$ local bajo EIV, y la **estadística de colapso** es una prueba de especificación contra curvatura, incluso con ruido (Sec. 7).
 
 - Una formulación **categorial** empaqueta invariancia, gauges, y engrosamiento funtorialmente (Sec. 8).
 
-El programa produce un principio compacto: **la estructura vive en la pendiente**, los relojes viven en el gauge. Donde los bins son estables y el colapso se sostiene, RTM da una descripción falsificable y transportable de cómo **el tiempo se estira con la escala**. Donde el colapso falla, RTM proporciona un **diagnóstico**—curvatura o mezcla de regímenes—no un parche. Los problemas abiertos arriba delinean un camino para profundizar la teoría (gauges no simplemente conexos, problemas inversos, grafos, colas pesadas) y conectarla con análisis y probabilidad más amplios.
+El programa produce un principio compacto: **la estructura vive en la pendiente**, los relojes viven en el gauge. Donde los bins son estables y el colapso se sostiene, RTM da una descripción falsificable y transportable de cómo **el tiempo se estira con la escala**. Donde el colapso falla, RTM proporciona un **diagnóstico**, curvatura o mezcla de regímenes, no un parche. Los problemas abiertos arriba delinean un camino para profundizar la teoría (gauges no simplemente conexos, problemas inversos, grafos, colas pesadas) y conectarla con análisis y probabilidad más amplios.
 
 *© 2026 Álvaro José Quiceno Rendón. Este documento se distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).*
