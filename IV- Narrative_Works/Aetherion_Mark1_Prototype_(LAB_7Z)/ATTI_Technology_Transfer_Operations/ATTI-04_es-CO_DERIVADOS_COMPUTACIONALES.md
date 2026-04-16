@@ -46,9 +46,9 @@
 
 La computación cuántica promete aceleración exponencial para problemas en criptografía, descubrimiento de fármacos, ciencia de materiales y optimización. Sin embargo, después de décadas de investigación y miles de millones invertidos, aún no podemos construir una computadora cuántica práctica con corrección de errores. La razón: **decoherencia**.
 
-Los qubits—las unidades fundamentales de información cuántica—son extraordinariamente frágiles. Cualquier interacción con su entorno causa el colapso de los estados cuánticos. Las soluciones actuales requieren enfriar los procesadores a temperaturas de milikelvin usando sistemas criogénicos de millones de dólares, y aun así la coherencia dura solo microsegundos a milisegundos.
+Los qubits, las unidades fundamentales de información cuántica, son extraordinariamente frágiles. Cualquier interacción con su entorno causa el colapso de los estados cuánticos. Las soluciones actuales requieren enfriar los procesadores a temperaturas de milikelvin usando sistemas criogénicos de millones de dólares, y aun así la coherencia dura solo microsegundos a milisegundos.
 
-RTM ofrece un replanteamiento radical: la decoherencia no es principalmente un problema térmico—es un problema **topológico**. La estructura del espaciotiempo mismo (caracterizada por α < 0 en regiones sensibles cuánticamente) difunde activamente la información cuántica. Al diseñar topología local con el núcleo Aetherion, podemos crear "escudos de coherencia" donde los estados cuánticos están protegidos por la geometría del espacio en lugar de frío extremo.
+RTM ofrece un replanteamiento radical: la decoherencia no es principalmente un problema térmico, es un problema **topológico**. La estructura del espaciotiempo mismo (caracterizada por α < 0 en regiones sensibles cuánticamente) difunde activamente la información cuántica. Al diseñar topología local con el núcleo Aetherion, podemos crear "escudos de coherencia" donde los estados cuánticos están protegidos por la geometría del espacio en lugar de frío extremo.
 
 ### 1.2 Hipótesis Clave
 
@@ -355,7 +355,7 @@ DECOHERENCIA CUÁNTICA:
     → La coherencia cuántica es INESTABLE en el espacio normal
     → El entorno "absorbe" activamente la información cuántica
     → La superposición DEBE colapsar dado suficiente tiempo
-    → Esto NO es solo térmico—es GEOMÉTRICO
+    → Esto NO es solo térmico, es GEOMÉTRICO
     
     
     ┌────────────────────────────────────────────────────────────────────┐
@@ -973,7 +973,7 @@ VISIÓN RTM:
     Qubit en región α < 0 → la entropía fluye HACIA el entorno (forzado)
     Qubit en región α = 1 → flujo de entropía DETENIDO (sin forzar)
     
-    La entropía no se elimina—se redirige.
+    La entropía no se elimina, se redirige.
     El entorno aún aumenta su entropía a través de otros canales.
     
 
@@ -1079,7 +1079,7 @@ HITOS:
 
 ### 17.1 Resumen
 
-El Escudo de Coherencia Topológica representa un cambio de paradigma potencial en computación cuántica—de luchar contra la temperatura a diseñar topología.
+El Escudo de Coherencia Topológica representa un cambio de paradigma potencial en computación cuántica, de luchar contra la temperatura a diseñar topología.
 
 | Aspecto | Enfoque Actual | Enfoque RTM |
 |---------|----------------|-------------|
