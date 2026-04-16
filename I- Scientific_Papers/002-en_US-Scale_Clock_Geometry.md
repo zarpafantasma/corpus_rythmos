@@ -18,13 +18,13 @@ We develop a rigorous foundation for **Multiscale Temporal Relativity (RTM)** as
 \omega\text{\:\,} = \text{\:\,}d(\log T)\text{\:\,} - \text{\:\,}\alpha\text{ }d(\log L),
 ```
 
-and prove that **collapse**—residual independence of $`\log T - \alpha\ \log L`$ from $`{log\ }L`$—is equivalent to **exactness/flatness** of $`\omega`$ on a bin; regime mixing and non-power alternatives appear as **holonomy/curvature**. We embed RTM in **regular variation** with **variable exponents**, quantifying finite-window bias and showing that collapse statistics scale with curvature. A **renormalization** operator (scale dilation + re-gauge) has power laws as **fixed points** and is **contractive** in Hölder/Zygmund classes; slowly varying clocks lie on a **center manifold**, and slowly drifting exponents yield **adiabatic attraction**. In dynamics, RTM acts as a **space-dependent clock** for diffusions and Dirichlet forms, giving similarity exponents $`z = m + \alpha`$ and exit-time laws $`T \sim R^{\text{ }m + \alpha}`$ with adiabatic error bounds. For inference under errors-in-variables, we show consistency of **ODR/TLS**, **SIMEX**, and **Theil–Sen** for local $`\alpha`$, and formalize the collapse statistic as a specification test against curvature. A category-theoretic packaging makes clocks a gauge and slope the moduli invariant, clarifying functorial behavior under products and coarse-graining. We conclude with constructive counterexamples and open problems (holonomy tests, graph settings, inverse problems, heavy-tailed noise).
+and prove that **collapse**, residual independence of $`\log T - \alpha\ \log L`$ from $`{log\ }L`$, is equivalent to **exactness/flatness** of $`\omega`$ on a bin; regime mixing and non-power alternatives appear as **holonomy/curvature**. We embed RTM in **regular variation** with **variable exponents**, quantifying finite-window bias and showing that collapse statistics scale with curvature. A **renormalization** operator (scale dilation + re-gauge) has power laws as **fixed points** and is **contractive** in Hölder/Zygmund classes; slowly varying clocks lie on a **center manifold**, and slowly drifting exponents yield **adiabatic attraction**. In dynamics, RTM acts as a **space-dependent clock** for diffusions and Dirichlet forms, giving similarity exponents $`z = m + \alpha`$ and exit-time laws $`T \sim R^{\text{ }m + \alpha}`$ with adiabatic error bounds. For inference under errors-in-variables, we show consistency of **ODR/TLS**, **SIMEX**, and **Theil–Sen** for local $`\alpha`$, and formalize the collapse statistic as a specification test against curvature. A category-theoretic packaging makes clocks a gauge and slope the moduli invariant, clarifying functorial behavior under products and coarse-graining. We conclude with constructive counterexamples and open problems (holonomy tests, graph settings, inverse problems, heavy-tailed noise).
 
 **1. Introduction**
 
 **1.1 Problem and viewpoint**
 
-Many systems exhibit a systematic relation between a **characteristic time** $`T`$ and a **scale proxy** $`L`$: larger units operate on slower clocks, smaller units on faster clocks. RTM posits that **inside a fixed environment** this relation is **multiplicatively consistent** under rescaling of $`L`$. The empirical practice—seen across physics, biology, and economics—is to examine the slope of $`\log T`$ vs. $`{log\ }L`$ and test whether residuals “collapse” after detrending by that slope.
+Many systems exhibit a systematic relation between a **characteristic time** $`T`$ and a **scale proxy** $`L`$: larger units operate on slower clocks, smaller units on faster clocks. RTM posits that **inside a fixed environment** this relation is **multiplicatively consistent** under rescaling of $`L`$. The empirical practice, seen across physics, biology, and economics, is to examine the slope of $`\log T`$ vs. $`{log\ }L`$ and test whether residuals “collapse” after detrending by that slope.
 
 This paper supplies a **mathematical backbone** for that practice. Our central claim is that the **slope** $`\alpha`$ is the structural object (invariant under clock changes), while **clocks** are a gauge. With this separation, RTM becomes a clean theory linking: (i) functional equations → power laws, (ii) a **1-form/connection** whose flatness encodes collapse, (iii) **regular variation** with variable exponents to quantify finite-window effects, (iv) **renormalization** as scale-dilation dynamics with power-law fixed points, (v) **diffusions with space-dependent clocks**, and (vi) **statistical identifiability** under measurement error.
 
@@ -64,7 +64,7 @@ Our use of multiplicative Cauchy equations and **regular variation** follows Kar
 
 **1.4 Scope and falsifiability**
 
-RTM is intended for **bins**—domains where environment is stable enough that clocks are $`L`$-independent. The theory **predicts its own failure modes**: non-power curvature or regime mixtures produce holonomy and non-vanishing collapse statistics. These are **scope boundaries**, not defects.
+RTM is intended for **bins**, domains where environment is stable enough that clocks are $`L`$-independent. The theory **predicts its own failure modes**: non-power curvature or regime mixtures produce holonomy and non-vanishing collapse statistics. These are **scope boundaries**, not defects.
 
 **1.5 Paper roadmap**
 
@@ -109,7 +109,7 @@ f(b_{1}b_{2}) = f(b_{1})\text{ }f(b_{2})\ \ \ \ \ \ \ \ (\text{semigroup compo
 
 **Axiom 2.2 (Mild regularity).**\
 Either (i) $`f`$ is measurable on $`\mathbb{R}_{> 0}`$, or (ii) $`f`$is continuous at $`b = 1`$.\
-(Any standard regularity—Baire/measurable/locally bounded—will do.)
+(Any standard regularity, Baire/measurable/locally bounded, will do.)
 
 **Definition 2.3 (Clock transform).**\
 A change of measurement units or baseline timing is a map $`T \mapsto T^{\#}`$ of the form $`T^{\#}(L) = c\text{ }T(L)`$ for some constant $`c > 0`$ (or, more generally, $`c = c(x)`$ depending on an external **environment** parameter $`x`$, but *independent of* $`L`$ within a fixed environment).
@@ -153,7 +153,7 @@ so the regression slope of $`{log\ }T^{\#}`$ on $`\log L`$equals $`\alpha`$.
 *Proof.* Immediate from the corollary.
 
 **Remark 2.8 (Environment-dependent clocks).**\
-If the clock factor depends on an external label $`x`$ but not on $`L`$—i.e. $`T^{\#}(L;x) = c(x)\text{ }T(L;x)`$—then within any fixed $`x`$-environment bin the slope stays $`\alpha(x)`$, while the intercept shifts by $`\log c(x)`$.
+If the clock factor depends on an external label $`x`$ but not on $`L`$, i.e. $`T^{\#}(L;x) = c(x)\text{ }T(L;x)`$—then within any fixed $`x`$-environment bin the slope stays $`\alpha(x)`$, while the intercept shifts by $`\log c(x)`$.
 
 **Proposition 2.9 (Uniqueness up to clock).**\
 If $`T_{1}(L) = \kappa_{1}L^{\alpha_{1}}`$ and $`T_{2}(L) = \kappa_{2}L^{\alpha_{2}}`$ satisfy $`T_{2}(L) = c\text{ }T_{1}(L)`$ for all $`L`$ with some $`c > 0`$, then $`\alpha_{1} = \alpha_{2}`$ and $`c = \kappa_{2}/\kappa_{1}`$.
@@ -314,7 +314,7 @@ d\omega\text{\:\,} = \text{\:\,} - \text{ }d\alpha \land du.
 
 Thus a **necessary and sufficient** condition for collapse is that $`\partial\alpha/\partial u = 0`$ and that any $`x`$-dependence of $`\alpha`$ does not create holonomy around loops with $`u`$-extent. For constant $`\alpha`$, $`d\omega = 0`$ automatically.
 
-*Remark.* If $`\alpha = \alpha(x)`$ only, $`d\omega = - (\partial\alpha/\partial x)\text{ }dx \land du`$. Flatness then requires that along any loop in $`E`$ with nonzero $`u`$-extent, the $`x`$-variation integrates to zero—equivalently, that the field be **path-independent** after gauge fixing. In practice we work on small bins where $`\alpha`$ is approximately constant, so $`d\omega \approx 0`$.
+*Remark.* If $`\alpha = \alpha(x)`$ only, $`d\omega = - (\partial\alpha/\partial x)\text{ }dx \land du`$. Flatness then requires that along any loop in $`E`$ with nonzero $`u`$-extent, the $`x`$-variation integrates to zero, equivalently, that the field be **path-independent** after gauge fixing. In practice we work on small bins where $`\alpha`$ is approximately constant, so $`d\omega \approx 0`$.
 
 **3.4 Holonomy, regime mixing, and why collapse can (and should) fail**
 
@@ -704,11 +704,11 @@ Under the exact-slope gauge $`f(b) = b^{\alpha(u_{0})}`$ or the self-normalizing
 \sup_{u \in I} \mid \log(\mathcal{R}_{b}^{n}T)(e^{u}) - (\alpha(u_{0})\text{ }u + C_{n}) \mid \text{\:\,} \leq \text{\:\,}C\text{ }\varepsilon\text{ }n\ \log b\text{\:\,} + \text{\:\,}o(1),
 ```
 
-where $`C_{n}`$ is a (gauge-dependent) constant. For fixed $`I`$, as $`n`$ grows the right-hand side remains **small** provided the cumulative drift $`\varepsilon\text{ }n\ \log b`$is small—this is the **adiabatic regime**. Hence on finite windows the flow **tracks** a local power law with exponent near $`\alpha(u_{0})`$.
+where $`C_{n}`$ is a (gauge-dependent) constant. For fixed $`I`$, as $`n`$ grows the right-hand side remains **small** provided the cumulative drift $`\varepsilon\text{ }n\ \log b`$is small, this is the **adiabatic regime**. Hence on finite windows the flow **tracks** a local power law with exponent near $`\alpha(u_{0})`$.
 
 *Sketch.* Decompose $`\int_{u_{0}}^{u + n\log b}{\alpha(s)ds = \alpha(u_{0})(u + n\log b - u_{0}) + \int\alpha'(s)(u + n\log b - s)ds}`$. The remainder scales with $`\varepsilon n\ \log b`$; slow variation of $`\kappa`$ handled as in 5.5.
 
-*Interpretation.* If $`\alpha`$ drifts slowly, renormalization still pushes toward **local power-law behavior** on any fixed window—precisely the empirical RTM setting.
+*Interpretation.* If $`\alpha`$ drifts slowly, renormalization still pushes toward **local power-law behavior** on any fixed window, precisely the empirical RTM setting.
 
 **5.6 Non-power alternatives: curvature generates unstable modes**
 
@@ -729,7 +729,7 @@ $$\inf_{n \geq 0} \sup_{u \in I} |\varepsilon_n(u)| \geq \delta,$$
 
 i.e., **renormalization does not contract** to a power law on that window. This aligns with **collapse failure** (Sec. 4.4).
 
-*Conclusion.* Persistent curvature is an **unstable feature** under RG flow—precisely what our collapse test detects.
+*Conclusion.* Persistent curvature is an **unstable feature** under RG flow, precisely what our collapse test detects.
 
 **5.7 Summary and implications**
 
@@ -1044,7 +1044,7 @@ Report $`Q`$, $`{\widehat{\tau}}^{2}`$, and **leave-one-family-out** influence. 
 
 - Finite-window bias from drift/curvature is $`O(\varepsilon h)`$; manage with binning and changepoints.
 
-- The **collapse statistic** is a specification test: it tends to 0 under the RTM model and stays positive with non-power curvature—even with measurement error.
+- The **collapse statistic** is a specification test: it tends to 0 under the RTM model and stays positive with non-power curvature, even with measurement error.
 
 - Publish **uncertainty, collapse diagnostics, and heterogeneity**; when fusion heterogeneity is high, prefer family-wise slopes over a single index.
 
@@ -1243,7 +1243,7 @@ v^{\#}(u) = \alpha u + \log\kappa + \log c(e^{u}),
 
 and $`\omega^{\#} = \omega + d\ \log c(e^{u})`$ acquires a $`du`$**-component**.
 
-- **Interpretation:** this is **not** a permissible gauge in RTM (clocks must be $`L`$-independent in-bin). Collapse should and will fail—correctly flagging misspecification.
+- **Interpretation:** this is **not** a permissible gauge in RTM (clocks must be $`L`$-independent in-bin). Collapse should and will fail, correctly flagging misspecification.
 
 **9.3 Worked composite constructions**
 
@@ -1312,10 +1312,10 @@ We provided a rigorous backbone for RTM:
 
 - In dynamics, RTM exponents act as **local clock fields** for diffusions/PDEs, yielding similarity exponents $`z = m + \alpha`$ and **adiabatic** approximations when $`\alpha`$ drifts (Sec. 6).
 
-- Statistically, **ODR/SIMEX/Theil–Sen** consistently recover local $`\alpha`$under EIV, and the **collapse statistic** is a specification test against curvature—even with noise (Sec. 7).
+- Statistically, **ODR/SIMEX/Theil–Sen** consistently recover local $`\alpha`$under EIV, and the **collapse statistic** is a specification test against curvature, even with noise (Sec. 7).
 
 - A **categorical** formulation packages invariance, gauges, and coarse-graining functorially (Sec. 8).
 
-The program yields a compact principle: **structure lives in the slope**, clocks live in the gauge. Where bins are stable and collapse holds, RTM gives a falsifiable, transportable description of how **time stretches with scale**. Where collapse fails, RTM provides a **diagnostic**—curvature or regime mixing—not a fudge. The open problems above outline a path to deepen the theory (non-simply connected gauges, inverse problems, graphs, heavy tails) and to connect it with broader analysis and probability.
+The program yields a compact principle: **structure lives in the slope**, clocks live in the gauge. Where bins are stable and collapse holds, RTM gives a falsifiable, transportable description of how **time stretches with scale**. Where collapse fails, RTM provides a **diagnostic**, curvature or regime mixing, not a fudge. The open problems above outline a path to deepen the theory (non-simply connected gauges, inverse problems, graphs, heavy tails) and to connect it with broader analysis and probability.
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
