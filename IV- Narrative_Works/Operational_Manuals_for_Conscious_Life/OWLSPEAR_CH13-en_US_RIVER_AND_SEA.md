@@ -311,7 +311,7 @@ THE RIVERS
     Shrines designed as true channels.
     
     YORÙBÁ AND IFÁ:
-    And their diasporas — Candomblé, Santería.
+    And their diasporas, Candomblé, Santería.
     Drum and dance as ritual hydraulics.
     
     CLASSICAL POLYTHEISMS:
@@ -498,7 +498,7 @@ THE OCEAN
     ─────────
     
     ADVAITA:
-    "Tat tvam asi" — That thou art.
+    "Tat tvam asi". That thou art.
     
     DZOGCHEN / MAHĀMUDRĀ:
     And certain Chan/Zen.
@@ -1134,7 +1134,7 @@ THE COMPASS
     IF WHAT WE PRACTICE:
     
     Increases coherence
-    WITHOUT taking away freedom —
+    WITHOUT taking away freedom.
     
     WE ARE DOING WELL.
     
@@ -1142,7 +1142,7 @@ THE COMPASS
     IF WHAT WE PRACTICE:
     
     Hardens unnecessarily
-    OR dissolves without support —
+    OR dissolves without support.
     
     IT IS WISE TO CORRECT THE COURSE.
     
@@ -1451,7 +1451,7 @@ WHEN WE ACCEPT THIS
     ┌─────────────────────────────────────────────────────────────────────────┐
     │                                                                         │
     │     We imagine the One as the ocean: total coherence, without edges.    │
-    │     Around that sea, rivers and lakes appear —                          │
+    │     Around that sea, rivers and lakes appear,                           │
     │     local powers that translate its pulse into the landscape.           │
     │     And there are the dams, human works that contain, manage,           │
     │     and distribute the water to many.                                   │
