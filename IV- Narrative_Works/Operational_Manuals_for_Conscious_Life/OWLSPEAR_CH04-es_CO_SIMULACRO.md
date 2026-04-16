@@ -29,8 +29,8 @@
     │      La gramática que nos sostiene no es una prisión: es un instrumento. │
     │      Puede tener límites duros, sí, y por eso pide respeto;              │
     │      puede tener capas de sentido, y por eso pide ser escuchada.         │
-    │      Con ambas manos — la que mide y la que                              │
-    │      comprende — el mundo responde mejor."                               │
+    │      Con ambas manos, la que mide y la que                               │
+    │      comprende, el mundo responde mejor."                                │
     │                                                                          │
     │                                      — El Búho y la Lanza                │
     │                                                                          │
@@ -1673,10 +1673,10 @@ EL ACORDE QUE RESUELVE
     ESA RESPUESTA:
     ──────────────
     
-    Cuando llega —
+    Cuando llega,
     cuando has usado ambas manos,
     cuando has respetado los límites y escuchado el sentido,
-    cuando has medido y comprendido —
+    cuando has medido y comprendido.
     
     
     SE SIENTE:
@@ -1694,9 +1694,9 @@ EL ACORDE QUE RESUELVE
     por un segundo,
     no hay necesidad de discutir nombres.
     
-    "¿Es simulación?" — irrelevante.
-    "¿Es real?" — irrelevante.
-    "¿Cómo deberíamos llamarlo?" — irrelevante.
+    "¿Es simulación?" irrelevante.
+    "¿Es real?" irrelevante.
+    "¿Cómo deberíamos llamarlo?" irrelevante.
     
     
     LA MÚSICA ES SUFICIENTE.
@@ -1759,38 +1759,38 @@ PRINCIPIOS FUNDAMENTALES
 ## Cierre: La Música Es Suficiente
 
 ```
-    ┌─────────────────────────────────────────────────────────────────────────┐
-    │                                                                         │
-    │     Cuando decimos "simulación," no estamos diciendo "mentira."         │
-    │     Estamos diciendo gramática: la manera en que el mundo se organiza   │
-    │     para volverse legible y habitable.                                  │
-    │                                                                         │
-    │     Podemos mirarlo como una máquina, como maduración, como información.│
-    │     Estos son diferentes micrófonos sobre la misma onda:                │
-    │     cada uno captura un aspecto de la canción.                          │
-    │                                                                         │
-    │     No estamos atrapados; estamos involucrados.                         │
-    │     La gramática que nos sostiene no es una prisión:                    │
-    │     es un instrumento.                                                  │
-    │                                                                         │
-    │     Puede tener límites duros — y por eso, pide respeto.               │
-    │     Puede tener capas de sentido — y por eso, pide ser escuchada.      │
-    │                                                                         │
-    │     Con ambas manos — la que mide y la que comprende —                 │
-    │     el mundo responde mejor.                                            │
-    │                                                                         │
-    │     Esa respuesta, cuando llega,                                        │
-    │     se siente menos como un veredicto                                   │
-    │     y más como un acorde que resuelve.                                  │
-    │                                                                         │
-    │     Y en esa resolución, por un segundo,                                │
-    │     no hay necesidad de discutir nombres:                               │
-    │                                                                         │
-    │     La música es suficiente.                                            │
-    │                                                                         │
-    │                                      — El Búho y la Lanza              │
-    │                                                                         │
-    └─────────────────────────────────────────────────────────────────────────┘
+    ┌───────────────────────────────────────────────────────────────────────────┐
+    │                                                                           │
+    │     Cuando decimos "simulación," no estamos diciendo "mentira."           │
+    │     Estamos diciendo gramática: la manera en que el mundo se organiza     │
+    │     para volverse legible y habitable.                                    │
+    │                                                                           │
+    │     Podemos mirarlo como una máquina, como maduración, como información.  │
+    │     Estos son diferentes micrófonos sobre la misma onda:                  │
+    │     cada uno captura un aspecto de la canción.                            │
+    │                                                                           │
+    │     No estamos atrapados; estamos involucrados.                           │
+    │     La gramática que nos sostiene no es una prisión:                      │
+    │     es un instrumento.                                                    │
+    │                                                                           │
+    │     Puede tener límites duros — y por eso, pide respeto.                  │
+    │     Puede tener capas de sentido — y por eso, pide ser escuchada.         │
+    │                                                                           │
+    │     Con ambas manos — la que mide y la que comprende —                    │
+    │     el mundo responde mejor.                                              │
+    │                                                                           │
+    │     Esa respuesta, cuando llega,                                          │
+    │     se siente menos como un veredicto                                     │
+    │     y más como un acorde que resuelve.                                    │
+    │                                                                           │
+    │     Y en esa resolución, por un segundo,                                  │
+    │     no hay necesidad de discutir nombres:                                 │
+    │                                                                           │
+    │     La música es suficiente.                                              │
+    │                                                                           │
+    │                                      — El Búho y la Lanza                 │
+    │                                                                           │
+    └───────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
