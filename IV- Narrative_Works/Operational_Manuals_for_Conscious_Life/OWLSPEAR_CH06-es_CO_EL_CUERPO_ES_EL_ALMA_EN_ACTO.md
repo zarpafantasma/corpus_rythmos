@@ -1262,7 +1262,7 @@ CUERPO Y COHERENCIA
     
     EL ENFOQUE INTEGRADO:
     ─────────────────────
-    Mente, cuerpo, emoción, energía — todo junto.
+    Mente, cuerpo, emoción, energía, todo junto.
     Sin privilegiar uno como punto de entrada.
     Trabajar el sistema completo como un todo.
 
@@ -1913,7 +1913,7 @@ EL SER HUMANO COMPLETO
     │     La cosa entera.                                                     │
     │     El alma en acto.                                                    │
     │                                                                         │
-    │                                      — El Búho y la Lanza              │
+    │                                      — El Búho y la Lanza               │
     │                                                                         │
     └─────────────────────────────────────────────────────────────────────────┘
 ```
