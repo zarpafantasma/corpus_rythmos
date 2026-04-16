@@ -1262,7 +1262,7 @@ BODY AND COHERENCE
     
     THE INTEGRATED APPROACH:
     ────────────────────────
-    Mind, body, emotion, energy — all together.
+    Mind, body, emotion, energy, all together.
     Not privileging one as the entry point.
     Working the whole system as a whole.
 
@@ -1647,7 +1647,7 @@ SIGNS OF RECOVERING EMBODIMENT
     
     YOU FEEL:
     ─────────
-    • The full range — pleasure and pain.
+    • The full range, pleasure and pain.
     • Emotions localized in the body.
     • Connection between inside and outside.
     
@@ -1830,7 +1830,7 @@ CORE PRINCIPLES
 
 ### 14.2 The Whole Human
 
-The goal is the whole human — body and soul united:
+The goal is the whole human, body and soul united:
 
 ```
 THE WHOLE HUMAN
