@@ -85,7 +85,7 @@ THE CENTRAL MECHANISM
     
     When everyone uses the same words,
     in the same rhythm,
-    with the same breath patterns —
+    with the same breath patterns.
     
     They synchronize.
     Physically.
@@ -497,7 +497,7 @@ LOSS OF PHASE
     Belief can remain.
     
     But the physical synchronization
-    that made millions move as one —
+    that made millions move as one.
     
     That can be lost
     while faith remains.
