@@ -114,46 +114,6 @@ Manual operacional para "Arquitectos N-1" — seres que navegan la cascada multi
 
 ---
 
-#### 🦉 Operational_Manuals_for_Conscious_Life
-**Extiende:** 021 - La Sinfonía Multiescala y 022 - El Búho y la Lanza
-
-Esta carpeta contiene dos conjuntos de extensiones:
-
-##### Extensiones de El Búho y la Lanza (18 capítulos)
-
-| Capítulo | Título | Tema |
-|----------|--------|------|
-| 01 | El Eje Vertical y el Mundo Intermedio | La frontera entre el Antes-del-Tiempo y el Después-del-Tiempo |
-| 02 | La Fuente, la Consciencia Primordial | Naturaleza del "Arriba" — potencial puro sin inteligencia |
-| 03 | Ecos: Una Saga del Multiverso | Manifestación secuencial a través de la cascada |
-| 04 | Simulacro | La relación entre forma y esencia |
-| 05 | Tela Pintada con Realidad | Cómo la consciencia teje la experiencia |
-| 06 | El Cuerpo es el Alma en Acto | La encarnación como condición necesaria del sentido |
-| 07 | Arquitectura de la Llama | Estructura de la consciencia coherente |
-| 08 | Migración del Tono | Cómo α se desplaza a lo largo de las etapas de la vida |
-| 09 | Por Siempre | La naturaleza de la eternidad fuera del tiempo |
-| 10 | El Mapa que Canta | La realidad como partitura que se lee a sí misma |
-| 11 | La Media Llave | Por qué ambos ejes son necesarios |
-| 12 | Máscaras que Aprenden | La persona como herramienta de navegación |
-| 13 | Río y Mar | Consciencia individual vs. colectiva |
-| 14 | La Lengua Rota | El lenguaje como tecnología de coherencia imperfecta |
-| 15 | Sustancias que Cantan | Química y consciencia |
-| 16 | El Pueblo Sin Noche | Civilizaciones que perdieron el Eje Vertical |
-| 17 | Fuegos Sobre el Árbol Inmutable | El cambio dentro de la estructura eterna |
-| 18 | Sobre Profetas y Reyes | Dos modos de liderazgo civilizatorio |
-
-##### Extensiones de La Sinfonía Multiescala (3 manuales operacionales)
-
-| Documento | Título | Contenido |
-|-----------|--------|-----------|
-| `MULTISCALESYMPHONY_01` | **La Arquitectura de la Resonancia** | Taxonomía de contenedores resonantes, mecánica de la resonancia, el tiempo como profundidad estructural, consciencia vs. inteligencia, cultivo y diagnóstico de contenedores |
-| `MULTISCALESYMPHONY_02` | **Creatividad desde el Caos** | Física de la emergencia, anatomía del proceso creativo, método del caos inducido, el arte como escucha, liturgia del hacer, el creador y la máquina (IA), la creatividad como camino espiritual |
-| `MULTISCALESYMPHONY_03` | **El Tejido Resonante** | Física de la relación ("el entre"), la díada (vínculos íntimos), polifonía en grupos pequeños, arquitectura comunitaria, política de la resonancia, el tejido planetario |
-
-**Encuadre:** Filosofía práctica para la "vida consciente" — extensión de principios abstractos hacia protocolos operacionales cotidianos
-
----
-
 ## Enfoque de Lectura
 
 Estos materiales pueden leerse de dos maneras:
@@ -174,8 +134,6 @@ Ambas lecturas son válidas. La capa narrativa existe porque algunas verdades so
 | Aetherion_Mark1_Prototype | 016, 017 | Implementación de ingeniería |
 | RTM_UFF_Ghost_Projects | 017 | Extensiones teóricas avanzadas |
 | N1_ARCHITECT_PROTOCOL | 018 | Implicaciones operacionales |
-| Manuales Operacionales (Búho/Lanza) | 022 | Expansión filosófica |
-| Manuales Operacionales (Sinfonía Multiescala) | 021 | Protocolos prácticos para la resonancia, la creatividad y la coherencia colectiva |
 
 ---
 
