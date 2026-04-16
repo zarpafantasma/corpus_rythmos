@@ -60,7 +60,7 @@ El Marco de Campo Unificado RTM proporciona la primera vía físicamente consist
 
 La idea clave: El vacío no es un mar uniforme de fluctuaciones. Tiene estructura topológica. Al crear gradientes asimétricos en esta estructura, podemos inducir flujo direccional de energía desde el vacío hacia campos medibles.
 
-Esto NO es movimiento perpetuo. El vacío no está "vacío" — contiene la energía de punto cero de todos los campos cuánticos. RTM proporciona un mecanismo para aprovechar este reservorio.
+Esto NO es movimiento perpetuo. El vacío no está "vacío", contiene la energía de punto cero de todos los campos cuánticos. RTM proporciona un mecanismo para aprovechar este reservorio.
 
 ### 1.2 Resultados Clave de las Simulaciones
 
@@ -122,7 +122,7 @@ La energía de punto cero produce efectos medibles:
 Energía del vacío ingenua: ~10^113 J/m^3
 Constante cosmológica observada: ~10^-9 J/m^3
 
-Desfasado por 10^122 — la peor predicción en física.
+Desfasado por 10^122, la peor predicción en física.
 
 **Pero la discrepancia prueba que el vacío tiene una estructura que no comprendemos.**
 
