@@ -61,7 +61,7 @@ Adversarial re-analyses designed to stress-test Phase 1 findings:
 
 **Phase 2 (ROBUST):** ODR analysis with photometric redshift uncertainties. α = 1.34 ± 0.12 survives error propagation.
 
-**Interpretation:** High-z galaxies aren't "too old" — cosmic time flows faster in denser regions (α > 1).
+**Interpretation:** High-z galaxies aren't "too old", cosmic time flows faster in denser regions (α > 1).
 
 ---
 
@@ -83,7 +83,7 @@ Adversarial re-analyses designed to stress-test Phase 1 findings:
 
 **Phase 2 (ROBUST):** Confirmed with processor-level variance. Inverse scaling robust.
 
-**Interpretation:** Quantum coherence represents INVERSE transport (α < 0) — larger systems decohere faster.
+**Interpretation:** Quantum coherence represents INVERSE transport (α < 0), larger systems decohere faster.
 
 ---
 
@@ -106,7 +106,7 @@ Adversarial re-analyses designed to stress-test Phase 1 findings:
 
 **Phase 2 (ROBUST):** Subject-level reconstruction with variance injection.
 
-**Key finding:** Protein folding α ≈ 7.2 — highly cooperative, explaining exponential sensitivity to sequence.
+**Key finding:** Protein folding α ≈ 7.2, highly cooperative, explaining exponential sensitivity to sequence.
 
 ---
 
@@ -171,7 +171,7 @@ Adversarial re-analyses designed to stress-test Phase 1 findings:
 - Oceanography (Richardson dispersion)
 - Seismology (Omori-Gutenberg laws)
 
-**Forensic case study:** Hurricane Otis (2023) — α dropped to 1.11 before 93 kt/24h intensification.
+**Forensic case study:** Hurricane Otis (2023), α dropped to 1.11 before 93 kt/24h intensification.
 
 ---
 
@@ -228,7 +228,7 @@ Phase 2 validations applied adversarial statistics:
 
 4. **Conservative error injection:** Deliberately inflate measurement uncertainty (10-20%) to ensure results aren't artifacts of underestimated noise.
 
-**Pattern observed:** Phase 1 often showed inflated R² values (r = 0.99 suspicious). Phase 2 typically finds r = 0.4-0.8 — still highly significant but more realistic.
+**Pattern observed:** Phase 1 often showed inflated R² values (r = 0.99 suspicious). Phase 2 typically finds r = 0.4-0.8, still highly significant but more realistic.
 
 ---
 
@@ -269,7 +269,7 @@ python analyze_domain_rtm.py
 
 ## Key Insight
 
-The RTM scaling exponent α is **not a fitting parameter** — it is a **structural invariant** determined by network topology. This explains why:
+The RTM scaling exponent α is **not a fitting parameter**, it is a **structural invariant** determined by network topology. This explains why:
 
 - Ballistic transport (α = 1) appears in gravitational waves AND seismic ruptures AND pandemic spread
 - Sub-diffusive transport (α < 0.5) appears in visual cortex AND other parallel-processing systems
