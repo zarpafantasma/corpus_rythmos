@@ -13,7 +13,7 @@
 
 Introducimos la Neurociencia Rítmica (RTM-Neuro), una aplicación del marco de Relatividad Temporal en Sistemas Multiescala (RTM) al tejido nervioso. RTM postula que el tiempo característico para completar operaciones escala con la extensión espacial mediante una ley de potencia τ(L) ∝ L^α, donde el exponente de coherencia α codifica la clase de transporte/organización del medio subyacente. Un α menor refleja decorrelación más rápida por escala añadida (fragmentación, dispersión advectiva), mientras que un α mayor refleja integración multiescala persistente (jerarquía, memoria, recurrencia).
 
-Avanzamos tres hipótesis falsificables: (i) Acceso como coherencia—durante la vigilia consciente, α está elevado y estable sobre una década en escala espacial, con diagnósticos de colapso exitosos indicando un régimen donde la persistencia aumenta marcadamente con la extensión; (ii) Vinculación bloqueada por tarea—aumentos breves en α acompañan episodios de vinculación y memoria de trabajo, seguidos de normalización; (iii) Huellas clínicas—los trastornos de consciencia muestran α crónicamente bajo o inestable, mientras ciertos fenotipos depresivos muestran mesetas rígidamente elevadas.
+Avanzamos tres hipótesis falsificables: (i) Acceso como coherencia, durante la vigilia consciente, α está elevado y estable sobre una década en escala espacial, con diagnósticos de colapso exitosos indicando un régimen donde la persistencia aumenta marcadamente con la extensión; (ii) Vinculación bloqueada por tarea, aumentos breves en α acompañan episodios de vinculación y memoria de trabajo, seguidos de normalización; (iii) Huellas clínicas, los trastornos de consciencia muestran α crónicamente bajo o inestable, mientras ciertos fenotipos depresivos muestran mesetas rígidamente elevadas.
 
 **Validación computacional.** Implementamos y probamos el marco RTM-Neuro a través de tres conjuntos de simulación. S1 demuestra que la relación τ(L) ∝ L^α produce firmas distintas a través de bandas de frecuencia (delta α ≈ 2.5, gamma α ≈ 1.5) y estados de consciencia (despierto α ≈ 2.15, anestesia profunda α ≈ 1.45). S2 valida la metodología de estimación: α es recuperable con error <2% de datos τ(L) ruidosos, robusto a ruido de medición hasta σ ≈ 0.3, y produce tamaños de efecto grandes (d de Cohen ≈ 2.85) para discriminar estados despiertos de anestesiados. S3 modela la hipótesis de umbral: cuando α cruza un valor crítico (α_c ≈ 2.0), el sistema transiciona entre regímenes conscientes e inconscientes, con dinámicas de transición que coinciden con la fenomenología observada de PDC/RDC en anestesia.
 
@@ -27,7 +27,7 @@ Además, validamos que el cerebro proyecta su topología multiescala al ambiente
 
 **1.1 El problema abierto: de ingredientes a acceso**
 
-La neurociencia tiene ricas **listas de ingredientes** para la cognición—oscilaciones, motivos de conectividad, dinámicas sinápticas—pero persiste una brecha entre la **presencia de ingredientes** y la **emergencia del acceso consciente**. La potencia en una banda, o incluso la conectividad por pares, no garantiza que la información pueda ser *mantenida y enrutada* a través de escalas espaciales y temporales relevantes para soportar disponibilidad global. Un marcador práctico y falsificable de **capacidad de integración multiescala** todavía está ausente.
+La neurociencia tiene ricas **listas de ingredientes** para la cognición, oscilaciones, motivos de conectividad, dinámicas sinápticas, pero persiste una brecha entre la **presencia de ingredientes** y la **emergencia del acceso consciente**. La potencia en una banda, o incluso la conectividad por pares, no garantiza que la información pueda ser *mantenida y enrutada* a través de escalas espaciales y temporales relevantes para soportar disponibilidad global. Un marcador práctico y falsificable de **capacidad de integración multiescala** todavía está ausente.
 
 **1.2 RTM en breve**
 
@@ -37,7 +37,7 @@ El marco RTM establece que, dentro de ventanas donde un mecanismo dominante se m
 T(L) = C\text{ }L^{\alpha},C > 0.
 ```
 
-El **exponente** $`\alpha = \frac{d\log T}{d\log L}`$ actúa como una **huella operacional** de la clase de transporte/organización: un α menor refleja decorrelación más rápida por escala añadida (fragmentación/dispersión advectiva), mientras que un α mayor refleja **organización coherente y duradera** cuya persistencia crece pronunciadamente con la escala. RTM incluye diagnósticos—**estabilidad de pendiente** y **colapso de datos** bajo el α correcto—que hacen la afirmación comprobable en lugar de metafórica.
+El **exponente** $`\alpha = \frac{d\log T}{d\log L}`$ actúa como una **huella operacional** de la clase de transporte/organización: un α menor refleja decorrelación más rápida por escala añadida (fragmentación/dispersión advectiva), mientras que un α mayor refleja **organización coherente y duradera** cuya persistencia crece pronunciadamente con la escala. RTM incluye diagnósticos, **estabilidad de pendiente** y **colapso de datos** bajo el α correcto, que hacen la afirmación comprobable en lugar de metafórica.
 
 **1.3 Especializando RTM para sistemas neurales**
 
@@ -53,7 +53,7 @@ Estimar $`\alpha_{\text{neural}}`$ equivale a ajustar la pendiente de $`\log T`$
 
 Avanzamos tres hipótesis falsificables:
 
-1.  **Acceso como coherencia:** Durante la **vigilia consciente**, $`\alpha_{\text{neural}}`$ está **elevado y estable** sobre una década en escala, con colapso exitoso—indicando un régimen donde la persistencia aumenta marcadamente con la extensión espacial (integración multiescala). Bajo **anestesia general** o NREM profundo, $`\alpha_{\text{neural}}`$ **cae** y/o se vuelve **inestable**, reflejando fragmentación y capacidad de enrutamiento reducida.
+1.  **Acceso como coherencia:** Durante la **vigilia consciente**, $`\alpha_{\text{neural}}`$ está **elevado y estable** sobre una década en escala, con colapso exitoso, indicando un régimen donde la persistencia aumenta marcadamente con la extensión espacial (integración multiescala). Bajo **anestesia general** o NREM profundo, $`\alpha_{\text{neural}}`$ **cae** y/o se vuelve **inestable**, reflejando fragmentación y capacidad de enrutamiento reducida.
 
 2.  **Vinculación bloqueada por tarea:** **Aumentos** breves en $`\alpha_{\text{neural}}`$ acompañan episodios de **vinculación/memoria de trabajo** (ej., mantenimiento de retardo, integración perceptual), seguidos de normalización una vez que el episodio termina.
 
@@ -67,7 +67,7 @@ Dado que los datos neurofisiológicos crudos (EEG/MEG) son notoriamente ruidosos
 
 **1.6. Validación Empírica: Emisiones Acústicas Cognitivas y Fricción Topológica (APÉNDICE B)**
 
-Si el cerebro humano opera como una red topológica multiescala gobernada por RTM (como se demostró en el Apéndice A), la información física que exporta al ambiente debe portar la firma geométrica exacta de esa red. Para probar esto, analizamos ondas acústicas generadas por humanos—específicamente música y habla—y las comparamos contra paisajes sonoros ambientales y atenuación de materiales físicos.
+Si el cerebro humano opera como una red topológica multiescala gobernada por RTM (como se demostró en el Apéndice A), la información física que exporta al ambiente debe portar la firma geométrica exacta de esa red. Para probar esto, analizamos ondas acústicas generadas por humanos, específicamente música y habla, y las comparamos contra paisajes sonoros ambientales y atenuación de materiales físicos.
 
 La acústica clásica afirma que la atenuación del sonido es una función simple del cuadrado de la frecuencia. Sin embargo, los datos heurísticos muestran que los sistemas complejos exhiben ubicuo escalamiento de "Ruido Rosa" (1/f). En el Apéndice B, aplicamos un pipeline analítico robusto de "Equipo Rojo" para probar que esta firma 1/f no es un artefacto trivial de complejidad genérica. Reenmarcamos la atenuación acústica como "Fricción Topológica", demostrando cómo las ondas mecánicas navegan la jerarquía estructural de diferentes medios. Al establecer estos límites físicos, probamos que el tiempo fractal y las pendientes espectrales inherentes en la música y lenguaje humanos son proyecciones físicas directas de la capa de coherencia topológica de la red neural.
 
@@ -124,7 +124,7 @@ A menos que se indique, usamos $`T = T_{\rho}`$ (electrofisiología) y $`T = T_{
 | **Integración jerárquica** | Ensambles multiescala con enrutamiento tipo corredor | $\alpha \in (2,3]$ |
 | **Fuertemente coherente** | Integración multiescala estabilizada y duradera (episodios de acceso global) | $\alpha \gtrsim 2.5$ (banda superior heurística) |
 
-Un α mayor significa que **la persistencia crece pronunciadamente con la escala**—las señales pueden mantenerse/enrutarse a través de extensiones mayores sin decaimiento rápido.
+Un α mayor significa que **la persistencia crece pronunciadamente con la escala**, las señales pueden mantenerse/enrutarse a través de extensiones mayores sin decaimiento rápido.
 
 **2.5 Relación con espectros, ondas y conducción**
 
@@ -333,7 +333,7 @@ Excluir una ventana si se cumple alguna:
 
 - **Alineación de eventos:** marcadores de inducción/recuperación (anestesia), límites de etapa de sueño, épocas de tarea, marcas temporales EMT.
 
-- **Métricas colaterales:** potencia espectral, complejidad tipo-PCI, velocidad de onda viajera $`v_{\phi}`$, fuerza AEF—reportadas para probar valor incremental.
+- **Métricas colaterales:** potencia espectral, complejidad tipo-PCI, velocidad de onda viajera $`v_{\phi}`$, fuerza AEF, reportadas para probar valor incremental.
 
 **3.11 YAML de parámetros (plantilla)**
 
@@ -685,7 +685,7 @@ Fallar cualquier falsificador primario lleva a revisar o rechazar la afirmación
 
 **6. Aplicaciones Clínicas**
 
-**Objetivo.** Traducir $`\alpha_{\text{neural}}`$—el exponente de coherencia RTM—en biomarcadores y variables de control para **trastornos de consciencia (TdC)** y **ritmopatías psiquiátricas**, con protocolos para **monitoreo junto a la cama** y **neuromodulación de bucle cerrado**. Especificamos endpoints, falsificadores y detalles de despliegue (CC, seguridad, interoperabilidad).
+**Objetivo.** Traducir $`\alpha_{\text{neural}}`$, el exponente de coherencia RTM, en biomarcadores y variables de control para **trastornos de consciencia (TdC)** y **ritmopatías psiquiátricas**, con protocolos para **monitoreo junto a la cama** y **neuromodulación de bucle cerrado**. Especificamos endpoints, falsificadores y detalles de despliegue (CC, seguridad, interoperabilidad).
 
 **6.1 Trastornos de consciencia (coma/EV/ECM)**
 
@@ -731,7 +731,7 @@ Los pacientes con TdC exhiben integración de largo alcance deteriorada. RTM pre
 
 **6.2.1 Trastorno depresivo mayor (TDM)**
 
-**Hipótesis.** Un subconjunto muestra **dinámicas sobreestabilizadas** (α rígidamente alto) con **baja varianza**—flexibilidad cognitiva reducida; los respondedores a tratamiento muestran **normalización** de $`\alpha`$ (ligera disminución y varianza aumentada).
+**Hipótesis.** Un subconjunto muestra **dinámicas sobreestabilizadas** (α rígidamente alto) con **baja varianza**, flexibilidad cognitiva reducida; los respondedores a tratamiento muestran **normalización** de $`\alpha`$ (ligera disminución y varianza aumentada).
 
 **Diseño.** $`N \approx 120`$ TDM (sin medicación) + $`N \approx 120`$ controles; EEG en reposo ± tarea (n-back).\
 **Endpoints.** Δ$`\widehat{\alpha}`$ grupal y varianza; **seguimiento de tratamiento** (ISRS/EMT/TEC) durante 6–8 semanas; modelos mixtos relacionando Δ$`\alpha`$ con cambio en **HAM-D/MADRS**.\
@@ -800,7 +800,7 @@ Si $`\alpha`$ indexa integración multiescala, **dirigir** $`\alpha`$ puede rest
 
 **6.6 Resumen (listo para mantener tal cual)**
 
-RTM-Neuro produce **candidatos de grado decisión** para traducción clínica: un **índice de integración** junto a la cama ($`\widehat{\alpha}`$ + tasa de aprobación de colapso) para pronóstico y monitoreo de **TdC**; **huellas de estado** y **seguimiento de tratamiento** en **ritmopatías psiquiátricas**; y una **variable de control de bucle cerrado** para neuromodulación que apunta a organización multiescala—no meramente potencia o conectividad por pares. Cada afirmación está emparejada con **falsificadores**, compuertas CC, y vías de despliegue seguras para pacientes, permitiendo evaluación rigurosa antes del uso clínico rutinario.
+RTM-Neuro produce **candidatos de grado decisión** para traducción clínica: un **índice de integración** junto a la cama ($`\widehat{\alpha}`$ + tasa de aprobación de colapso) para pronóstico y monitoreo de **TdC**; **huellas de estado** y **seguimiento de tratamiento** en **ritmopatías psiquiátricas**; y una **variable de control de bucle cerrado** para neuromodulación que apunta a organización multiescala, no meramente potencia o conectividad por pares. Cada afirmación está emparejada con **falsificadores**, compuertas CC, y vías de despliegue seguras para pacientes, permitiendo evaluación rigurosa antes del uso clínico rutinario.
 
 **7. Plantillas de Resultados y Plan Estadístico**
 
@@ -992,9 +992,9 @@ Una ventana/época se **excluye** si se cumple alguna:
 
 **8. Discusión**
 
-**8.1 Qué mide** $`\mathbf{\alpha}_{\text{neural}}`$**—una capacidad de integración, no una frecuencia**
+**8.1 Qué mide** $`\mathbf{\alpha}_{\text{neural}}`$**, una capacidad de integración, no una frecuencia**
 
-Dentro de RTM, la pendiente $`\alpha = d\ \log T/d\ \log L`$ cuantifica **cómo la persistencia crece con la escala**. En tejido neural, $`\alpha_{\text{neural}}`$ alto y estable implica que las señales pueden ser **mantenidas y enrutadas** a medida que la extensión espacial aumenta—un marcador operacional de **integración multiescala**—mientras que $`\alpha`$ bajo o inestable indica **fragmentación**: decorrelación rápida por milímetro añadido o salto en el conectoma. A diferencia de la potencia espectral o razones de banda, $`\alpha`$ es **relacional de escala**: compara *tiempo* y *espacio* (o distancia de grafo), no energía en una frecuencia.
+Dentro de RTM, la pendiente $`\alpha = d\ \log T/d\ \log L`$ cuantifica **cómo la persistencia crece con la escala**. En tejido neural, $`\alpha_{\text{neural}}`$ alto y estable implica que las señales pueden ser **mantenidas y enrutadas** a medida que la extensión espacial aumenta, un marcador operacional de **integración multiescala**, mientras que $`\alpha`$ bajo o inestable indica **fragmentación**: decorrelación rápida por milímetro añadido o salto en el conectoma. A diferencia de la potencia espectral o razones de banda, $`\alpha`$ es **relacional de escala**: compara *tiempo* y *espacio* (o distancia de grafo), no energía en una frecuencia.
 
 **8.2 Relación con marcadores clásicos (potencia, conectividad, PCI)**
 
@@ -1002,11 +1002,11 @@ Dentro de RTM, la pendiente $`\alpha = d\ \log T/d\ \log L`$ cuantifica **cómo 
 
 - **Conectividad estática/funcional.** CF captura asociaciones por pares; $`\alpha`$ resume **escalamiento distancia–tiempo** a través de muchos pares simultáneamente.
 
-- **PCI/complejidad perturbacional.** PCI cuantifica complejidad espaciotemporal después de perturbación. $`\alpha`$ complementa PCI al preguntar si **extensiones mayores viven más tiempo**—dos vistas del mismo espacio de eventos: *qué puede expresar el cerebro* (PCI) y *cuánto tiempo puede sostener la expresión mientras se dispersa* ($`\alpha`$).
+- **PCI/complejidad perturbacional.** PCI cuantifica complejidad espaciotemporal después de perturbación. $`\alpha`$ complementa PCI al preguntar si **extensiones mayores viven más tiempo**, dos vistas del mismo espacio de eventos: *qué puede expresar el cerebro* (PCI) y *cuánto tiempo puede sostener la expresión mientras se dispersa* ($`\alpha`$).
 
 **8.3 Una imagen mecanística: ondas, corredores y compuertas**
 
-Interpretamos los aumentos en $`\alpha`$ como la emergencia de **corredores de enrutamiento**—ondas viajeras alineadas en fase, bucles recurrentes, y compuertas neuromoduladoras—que **endurecen** la organización a gran escala. Las disminuciones en $`\alpha`$ reflejan **cizallamiento y competencia** entre ensambles (ruptura de onda, entradas desincronizadoras), acortando la persistencia a medida que la escala sube. El acoplamiento entre frecuencias (ej., fase θ/α modulando ráfagas γ) proporciona un **puente** que puede elevar $`\alpha`$ cuando se sostiene a través de parcelas; AEF fallido lo baja.
+Interpretamos los aumentos en $`\alpha`$ como la emergencia de **corredores de enrutamiento**, ondas viajeras alineadas en fase, bucles recurrentes, y compuertas neuromoduladoras, que **endurecen** la organización a gran escala. Las disminuciones en $`\alpha`$ reflejan **cizallamiento y competencia** entre ensambles (ruptura de onda, entradas desincronizadoras), acortando la persistencia a medida que la escala sube. El acoplamiento entre frecuencias (ej., fase θ/α modulando ráfagas γ) proporciona un **puente** que puede elevar $`\alpha`$ cuando se sostiene a través de parcelas; AEF fallido lo baja.
 
 **8.4 Dónde podría fallar RTM-Neuro (falsificadores científicos)**
 
@@ -1083,7 +1083,7 @@ Si se confirma, siguen tres beneficios:
 3.  una **manija causal** para diseño de intervención (apuntar a rangos de $`\alpha`$, modulación bloqueada por tarea).\
     Si es refutado por falsificadores prerregistrados (sin estabilidad de pendiente, sin colapso, sin valor incremental), RTM-Neuro todavía avanza el campo al **estrechar** dónde y cuándo la organización multiescala gobierna el acceso.
 
-En suma, RTM-Neuro reposiciona la investigación de consciencia y cognición sobre un **fundamento de ley de escalamiento**: lo que importa no es solo *qué tan fuertes* son las señales locales, sino **cómo su persistencia crece con el alcance**. Esa pregunta simple—capturada por $`\alpha_{\text{neural}}`$—es medible, auditable y accionable.
+En suma, RTM-Neuro reposiciona la investigación de consciencia y cognición sobre un **fundamento de ley de escalamiento**: lo que importa no es solo *qué tan fuertes* son las señales locales, sino **cómo su persistencia crece con el alcance**. Esa pregunta simple, capturada por $`\alpha_{\text{neural}}`$, es medible, auditable y accionable.
 
 **10. Validación Computacional del Marco RTM-Neuro**
 
@@ -1149,7 +1149,7 @@ Los estados de consciencia mapean a valores α característicos:
 
 > [!NOTE]
 > **Aclaración sobre Dominancia Delta vs. Fragmentación Global:**
-> *Puede parecer contraintuitivo que la banda de frecuencia Delta posea inherentemente alta coherencia estructural ($\alpha \approx 2.5$), mientras que el estado de sueño NREM N3—que está dominado fuertemente por actividad Delta—exhibe un exponente globalmente colapsado ($\alpha = 1.50$). Bajo el marco RTM, esto se resuelve limpiamente distinguiendo coherencia de generador local de topología de transporte global. En N3, mientras las ondas Delta individuales representan sincronía local altamente estructurada, la red transcortical está topológicamente fragmentada. Consecuentemente, la integración multiescala global falla, empujando el exponente de estado macroscópico hacia un régimen advectivo/difusivo ($\alpha = 1.50$), reflejando precisamente la pérdida de acceso consciente.*
+> *Puede parecer contraintuitivo que la banda de frecuencia Delta posea inherentemente alta coherencia estructural ($\alpha \approx 2.5$), mientras que el estado de sueño NREM N3, que está dominado fuertemente por actividad Delta, exhibe un exponente globalmente colapsado ($\alpha = 1.50$). Bajo el marco RTM, esto se resuelve limpiamente distinguiendo coherencia de generador local de topología de transporte global. En N3, mientras las ondas Delta individuales representan sincronía local altamente estructurada, la red transcortical está topológicamente fragmentada. Consecuentemente, la integración multiescala global falla, empujando el exponente de estado macroscópico hacia un régimen advectivo/difusivo ($\alpha = 1.50$), reflejando precisamente la pérdida de acceso consciente.*
 
 **10.2.4 Validación de Recuperación**
 
