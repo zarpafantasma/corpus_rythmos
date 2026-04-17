@@ -15,27 +15,27 @@ We propose Rhythmic Meteorology (RTM-Atmo): an operational application of Tempor
 
 **Computational validation.** We implement and test the RTM-Atmo framework through three simulation suites. S1 demonstrates τ(L) scaling for six atmospheric regimes, recovering α values ranging from 1.2 (tropical disturbances) to 2.6 (blocking highs) with mean estimation error of 1.1%, and validates data collapse under rescaling (CV = 0.20). S2 applies RTM-Atmo to tropical cyclogenesis detection, showing that α-drop precedes genesis by 18-30 hours on average, providing earlier warning than traditional vorticity thresholds (6-12 h lead). Detection skill achieves POD = 0.86, FAR = 0.14, CSI = 0.76 in simulated ensemble tests. S3 demonstrates automatic regime classification based on α boundaries: Advective (α \< 1.5), Hierarchical (α = 1.5-2.0), Coherent (α = 2.0-2.5), Strongly Coherent (α \> 2.5), achieving 87% overall classification accuracy with F1 scores of 0.83-0.93 across classes.
 
-We design falsifiable tests on reanalyses and satellite archives: slope stability and data collapse within regimes, discrete α-shifts at onsets, and skill over persistence/threshold baselines. If validated, α becomes a lightweight, reproducible layer for forecasters—complementary to NWP/ML guidance—offering early warnings tied to physically interpretable changes in multiscale organization.
+We design falsifiable tests on reanalyses and satellite archives: slope stability and data collapse within regimes, discrete α-shifts at onsets, and skill over persistence/threshold baselines. If validated, α becomes a lightweight, reproducible layer for forecasters, complementary to NWP/ML guidance, offering early warnings tied to physically interpretable changes in multiscale organization.
 
 Finally, to establish a rigorous topological baseline, we contrast these adaptive thermodynamic systems with the pure mechanics of the Earth. Although seismology falls outside the meteorological domain, a control analysis of 51 historical earthquakes ($`M_{w}`$ 5.7 to 9.2) reveals that seismic rupture time scales with fault length under an exponent of $`\mathbf{\alpha}\mathbf{= \ 1.003\ }\mathbf{\pm}\mathbf{0.016}`$. This exact collapse into the ballistic propagation regime ($`p\  = \ 0.876`$ against the null hypothesis $`\alpha = \ 1`$) demonstrates that when the RTM framework is applied to linear mechanical systems, it perfectly recovers classical Newtonian physics. This consolidates the mathematical universality of the $`\alpha`$ exponent before applying it to atmospheric chaos.
 
-**Systematic empirical validation**$`\mathbf{\rightarrow}`$**(APPENDIX B)**. We validate the RTM-Atmo framework through a systematic analysis of 48 tropical cyclones—including 26 Rapid Intensification (RI) events—in the East Pacific basin (2021-2024) using the IBTrACS dataset. Initial heuristic models relied on categorical binning; however, to absorb inherent satellite measurement noise ($`\sim 5`$ kt), we deployed a Continuous Errors-in-Variables (ODR) pipeline. The robust analysis demonstrates that the wind-pressure coupling exponent ($`\alpha`$) acts as a strictly continuous, predictive proxy for structural coherence. We identify a critical topological "danger zone" ($`\alpha < \ 1.25`$) where storms violently transition into a 'Superfluid' state. The predictive ODR slope ($`- 99.02\  \pm 11.99`$) proves that microscopic topological tightening triggers massive kinetic explosions. Crucially, this coherence collapse precedes the kinetic wind explosion by an operational mean of 11.6 hours.
+**Systematic empirical validation**$`\mathbf{\rightarrow}`$**(APPENDIX B)**. We validate the RTM-Atmo framework through a systematic analysis of 48 tropical cyclones, including 26 Rapid Intensification (RI) events, in the East Pacific basin (2021-2024) using the IBTrACS dataset. Initial heuristic models relied on categorical binning; however, to absorb inherent satellite measurement noise ($`\sim 5`$ kt), we deployed a Continuous Errors-in-Variables (ODR) pipeline. The robust analysis demonstrates that the wind-pressure coupling exponent ($`\alpha`$) acts as a strictly continuous, predictive proxy for structural coherence. We identify a critical topological "danger zone" ($`\alpha < \ 1.25`$) where storms violently transition into a 'Superfluid' state. The predictive ODR slope ($`- 99.02\  \pm 11.99`$) proves that microscopic topological tightening triggers massive kinetic explosions. Crucially, this coherence collapse precedes the kinetic wind explosion by an operational mean of 11.6 hours.
 
-We also validate the RTM transport theory through a 5-domain analysis of climate extremes$`\rightarrow`$**(APPENDIX D)** and a solid-earth ballistic control test$`\rightarrow`$**(APPENDIX C)**. Utilizing ERA5 reanalysis and Monte Carlo spatial variance simulations, we demonstrate that global climate operates dynamically near a critical regime ($`\beta = \ 0.98`$), while extreme events fractionate into distinct RTM transport classes. Daily precipitation strictly obeys ballistic limits (7%°C), whereas variance-corrected Intensity-Duration-Frequency (IDF) curves and heatwaves exhibit robust sub-diffusive scaling ($`\beta = \  - 0.75`$ and $`\alpha = \ 0.43\  \pm 0.002`$, respectively), indicating long-term multiscale memory. Conversely, the seismic control test (absorbing seismogram inversion noise via ODR) yields a mathematically perfect ballistic exponent of $`\alpha = \ 1.007\  \pm 0.016`$. This conclusively proves that extreme natural phenomena—whether atmospheric, climatic, or tectonic—are deterministic phase transitions strictly governed by multiscale topological scaling.
+We also validate the RTM transport theory through a 5-domain analysis of climate extremes$`\rightarrow`$**(APPENDIX D)** and a solid-earth ballistic control test$`\rightarrow`$**(APPENDIX C)**. Utilizing ERA5 reanalysis and Monte Carlo spatial variance simulations, we demonstrate that global climate operates dynamically near a critical regime ($`\beta = \ 0.98`$), while extreme events fractionate into distinct RTM transport classes. Daily precipitation strictly obeys ballistic limits (7%°C), whereas variance-corrected Intensity-Duration-Frequency (IDF) curves and heatwaves exhibit robust sub-diffusive scaling ($`\beta = \  - 0.75`$ and $`\alpha = \ 0.43\  \pm 0.002`$, respectively), indicating long-term multiscale memory. Conversely, the seismic control test (absorbing seismogram inversion noise via ODR) yields a mathematically perfect ballistic exponent of $`\alpha = \ 1.007\  \pm 0.016`$. This conclusively proves that extreme natural phenomena, whether atmospheric, climatic, or tectonic, are deterministic phase transitions strictly governed by multiscale topological scaling.
 
 Additionally, we extend the RTM framework into the densest planetary fluid by analyzing global ocean dynamics and turbulence$`\rightarrow`$**(APPENDIX E)**. Utilizing data from AVISO+ satellite altimetry and over 1,000 global drifter pairs, we evaluated the mesoscale Kinetic Energy (KE) spectrum and turbulent pair-dispersion. To strictly correct for the immense observational noise inherent to ocean currents and satellite sensor drift, we deployed an Errors-in-Variables (ODR) model and Monte Carlo variance reconstructions. The robust analysis proves that oceanic pair-dispersion converges mathematically to the theoretical Richardson limit ($`n\  = \ 2.913\  \pm 0.337`$), identical to the optimal Lévy Flight transport class ($`\alpha = \ 3.0`$). Furthermore, the variance-corrected KE spectrum confirms that macroscopic fluid energy does not dissipate randomly, but cascades through a strict hierarchy of topological constraints (ODR slope = -0.525). This confirms the oceans operate as a mathematically predictable, scale-invariant multiscale network.
 
-Finally, we validate the RTM framework for operational tornado warning improvement**→(APPENDIX F)**. Utilizing the TorNet 2021 benchmark dataset (MIT Lincoln Laboratory) comprising 1,105 radar records from 9 major tornado outbreaks, we demonstrate that the RTM scaling exponent (α) discriminates between confirmed tornadoes (TOR) and false alarm warnings (WRN) with a large effect size (Cohen's d = 0.96, p \< 10⁻⁴⁹). The framework replicates across 7 of 9 outbreaks (78%), with the correlation between rotation differential and effect size reaching r = 0.96. Crucially, RTM does not propose earlier tornado detection—mesocyclone algorithms already achieve high POD. Rather, α addresses the persistent false alarm problem (FAR ≈ 70%) by identifying rotation signatures lacking complete vortical coupling across scales. Deployed as a secondary filter, the threshold α \> 0.85 reduces FAR by 16 percentage points while maintaining 85% POD—matching 30 years of cumulative NWS improvement in a single diagnostic layer.
+Finally, we validate the RTM framework for operational tornado warning improvement**→(APPENDIX F)**. Utilizing the TorNet 2021 benchmark dataset (MIT Lincoln Laboratory) comprising 1,105 radar records from 9 major tornado outbreaks, we demonstrate that the RTM scaling exponent (α) discriminates between confirmed tornadoes (TOR) and false alarm warnings (WRN) with a large effect size (Cohen's d = 0.96, p \< 10⁻⁴⁹). The framework replicates across 7 of 9 outbreaks (78%), with the correlation between rotation differential and effect size reaching r = 0.96. Crucially, RTM does not propose earlier tornado detection, mesocyclone algorithms already achieve high POD. Rather, α addresses the persistent false alarm problem (FAR ≈ 70%) by identifying rotation signatures lacking complete vortical coupling across scales. Deployed as a secondary filter, the threshold α \> 0.85 reduces FAR by 16 percentage points while maintaining 85% POD, matching 30 years of cumulative NWS improvement in a single diagnostic layer.
 
 **1. Introduction**
 
 **1.1 Motivation: forecasting the onset problem**
 
-Operational forecasting excels at tracking the **evolution** of well-formed systems yet still struggles with the **onset** of high-impact regimes: tropical cyclogenesis and rapid intensification (RI), explosive cyclogenesis (“weather bombs”), and tornadic outbreaks. These transitions are multiscale reorganizations in which **transport architecture**—how energy, mass, and information propagate across scales—changes abruptly. Traditional indicators (e.g., vorticity thresholds, CAPE, shear) capture ingredients but not the **re-wiring** of pathways that enables fast growth. We seek a compact, quantitative signal of that re-wiring.
+Operational forecasting excels at tracking the **evolution** of well-formed systems yet still struggles with the **onset** of high-impact regimes: tropical cyclogenesis and rapid intensification (RI), explosive cyclogenesis (“weather bombs”), and tornadic outbreaks. These transitions are multiscale reorganizations in which **transport architecture**, how energy, mass, and information propagate across scales, changes abruptly. Traditional indicators (e.g., vorticity thresholds, CAPE, shear) capture ingredients but not the **re-wiring** of pathways that enables fast growth. We seek a compact, quantitative signal of that re-wiring.
 
 **1.2 RTM in brief**
 
-**Multiscale Temporal Relativity (RTM)** states that for a process confined by an effective length $`L`$, the characteristic completion time $`T`$ follows a power law $`T(L) = C\text{ }L^{\alpha}`$ over windows where the mechanism is stable. The exponent $`\alpha`$is an **operational fingerprint** of the **transport class**—diffusive, hierarchical/fractal, guided/partially ballistic, or (heuristically) strongly coherent. In prior domains, **slope stability**, **data collapse** after rescaling by $`L^{\alpha}`$, and **discrete** $`\alpha`$**-shifts** under controlled perturbations serve as falsifiable signatures that a single transport class governs the observed dynamics.
+**Multiscale Temporal Relativity (RTM)** states that for a process confined by an effective length $`L`$, the characteristic completion time $`T`$ follows a power law $`T(L) = C\text{ }L^{\alpha}`$ over windows where the mechanism is stable. The exponent $`\alpha`$is an **operational fingerprint** of the **transport class**, diffusive, hierarchical/fractal, guided/partially ballistic, or (heuristically) strongly coherent. In prior domains, **slope stability**, **data collapse** after rescaling by $`L^{\alpha}`$, and **discrete** $`\alpha`$**-shifts** under controlled perturbations serve as falsifiable signatures that a single transport class governs the observed dynamics.
 
 **1.3 Specializing RTM to the atmosphere**
 
@@ -67,19 +67,19 @@ Beyond tropical cyclones, we extended this validation across 5 distinct domains 
 
 While seismic rupture dynamics do not strictly belong to meteorology, validating RTM requires establishing an unquestionable physical baseline. In the atmosphere, we observe highly complex fluids seeking coherence. But what happens when we apply the scaling law to a purely mechanical system devoid of fluid feedback?
 
-An earthquake—the propagation of a fracture through solid rock—represents the ideal ballistic system for this stress test. By applying Orthogonal Distance Regression (ODR) to absorb typical geophysical seismogram inversion noise ($`\sim 15\%`$ variance), we demonstrate that RTM maps linear kinetics with microscopic accuracy ($`\alpha = \ 1.007`$). This perfect mathematical collapse into Newtonian physics grants us the authority to use variations of this exact exponent to predict the non-linear chaos of cyclogenesis and climate extremes.
+An earthquake, the propagation of a fracture through solid rock, represents the ideal ballistic system for this stress test. By applying Orthogonal Distance Regression (ODR) to absorb typical geophysical seismogram inversion noise ($`\sim 15\%`$ variance), we demonstrate that RTM maps linear kinetics with microscopic accuracy ($`\alpha = \ 1.007`$). This perfect mathematical collapse into Newtonian physics grants us the authority to use variations of this exact exponent to predict the non-linear chaos of cyclogenesis and climate extremes.
 
 **1.7. Systematic Empirical Validation: Global Ocean Dynamics and Macroscopic Fluids (APPENDIX E)**
 
 The atmosphere and the ocean are fundamentally coupled complex fluids. If the RTM framework governs the rapid intensification of hurricanes in the atmosphere, its topological scaling laws must mathematically translate to the denser, slower-moving fluid of the global ocean. To subject the framework to this planetary test, we analyzed macroscopic ocean circulation, focusing on turbulent pair-dispersion (the Richardson $`t^{3}`$ law) and the mesoscale Kinetic Energy (KE) spectrum.
 
-Oceanographic data—collected via satellite altimetry and drifter buoys—contains massive systemic noise due to wind shear, wave interactions, and instrumental drift. Initial heuristic studies often rely on static point-estimates that ignore this uncertainty. To strictly isolate the true physical scaling laws, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo simulations to absorb up to 15% calibration noise. The variance-corrected data robustly proves that the ocean behaves as a deterministic, multiscale topological network, where turbulent dispersion perfectly obeys the RTM macroscopic transport limits.
+Oceanographic data, collected via satellite altimetry and drifter buoys, contains massive systemic noise due to wind shear, wave interactions, and instrumental drift. Initial heuristic studies often rely on static point-estimates that ignore this uncertainty. To strictly isolate the true physical scaling laws, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo simulations to absorb up to 15% calibration noise. The variance-corrected data robustly proves that the ocean behaves as a deterministic, multiscale topological network, where turbulent dispersion perfectly obeys the RTM macroscopic transport limits.
 
 **1.9. Systematic Empirical Validation: Tornado Warning False Alarm Reduction (APPENDIX F)**
 
-One of the most persistent operational challenges in severe weather forecasting is the tornado false alarm problem. Despite decades of technological advancement—from the deployment of WSR-88D Doppler radar to dual-polarization upgrades—the National Weather Service (NWS) false alarm rate for tornado warnings has remained stubbornly high, hovering near 70%. This "cry wolf" effect erodes public trust and compliance: when seven of every ten tornado warnings fail to verify, the protective value of the warning system degrades.
+One of the most persistent operational challenges in severe weather forecasting is the tornado false alarm problem. Despite decades of technological advancement, from the deployment of WSR-88D Doppler radar to dual-polarization upgrades, the National Weather Service (NWS) false alarm rate for tornado warnings has remained stubbornly high, hovering near 70%. This "cry wolf" effect erodes public trust and compliance: when seven of every ten tornado warnings fail to verify, the protective value of the warning system degrades.
 
-The fundamental challenge is not detection—modern mesocyclone detection algorithms achieve Probability of Detection (POD) exceeding 90%. The challenge is discrimination: identifying which rotating storms will actually produce surface tornadoes versus those that will remain elevated or dissipate. Traditional approaches rely on ingredient-based thresholds (rotation velocity, CAPE, shear), but these capture potential rather than realized organization.
+The fundamental challenge is not detection, modern mesocyclone detection algorithms achieve Probability of Detection (POD) exceeding 90%. The challenge is discrimination: identifying which rotating storms will actually produce surface tornadoes versus those that will remain elevated or dissipate. Traditional approaches rely on ingredient-based thresholds (rotation velocity, CAPE, shear), but these capture potential rather than realized organization.
 
 Under the RTM-Atmo framework, tornado formation is reconceptualized as a topological phase transition. A tornado requires complete vortical coupling across scales: from the parent mesocyclone (∼10 km) through the tornado-scale vortex (∼100 m) to surface contact. The RTM exponent α, computed as:
 
@@ -89,7 +89,7 @@ Under the RTM-Atmo framework, tornado formation is reconceptualized as a topolog
 
 captures this multiscale coupling efficiency. High α indicates coherent energy cascade from storm-scale to surface; low α indicates incomplete coupling where rotation exists aloft but fails to organize downward.
 
-To validate this hypothesis, we subjected the framework to the TorNet 2021 benchmark dataset—a rigorously curated collection of NEXRAD radar data from MIT Lincoln Laboratory. By deploying the same Errors-in-Variables methodology used throughout this work, we demonstrate that α provides statistically robust discrimination between confirmed tornadoes and false alarms, with the critical finding that α functions as a FAR reduction tool rather than a competing detection algorithm.
+To validate this hypothesis, we subjected the framework to the TorNet 2021 benchmark dataset, a rigorously curated collection of NEXRAD radar data from MIT Lincoln Laboratory. By deploying the same Errors-in-Variables methodology used throughout this work, we demonstrate that α provides statistically robust discrimination between confirmed tornadoes and false alarms, with the critical finding that α functions as a FAR reduction tool rather than a competing detection algorithm.
 
 The single inverted case (outbreak 210317) reveals the physical boundary conditions of the framework: when anomalous precipitation loading (KDP) dominates the radar signature, α measures the topology of the hydrometeor field rather than the vorticity field. This failure mode is diagnosable from polarimetric context, providing a natural gating mechanism for operational deployment.
 
@@ -166,7 +166,7 @@ Examples (heuristic):
 - **3D inertial range** $`p = 5/3 \Rightarrow \alpha \approx 1/3`$ (fast decorrelation; guided/advective end).
 
 - **2D inverse cascade** $`p = 5/3 \Rightarrow \alpha \approx 1/3`$, while **enstrophy range** $`p = 3 \Rightarrow \alpha \approx 1`$.\
-  Large atmospheric $`\alpha`$($`\gtrsim 2`$) therefore indicates **organization beyond inertial scaling**—e.g., stratification, rotation, moist processes, and structural coherence that extend persistence faster than simple cascade arguments predict. We treat this mapping as *diagnostic*, not axiomatic, and verify with collapse tests.
+  Large atmospheric $`\alpha`$($`\gtrsim 2`$) therefore indicates **organization beyond inertial scaling**, e.g., stratification, rotation, moist processes, and structural coherence that extend persistence faster than simple cascade arguments predict. We treat this mapping as *diagnostic*, not axiomatic, and verify with collapse tests.
 
 **2.5 Estimating** $`\mathbf{\alpha}_{\mathbf{atm}}`$**: windows and regressions**
 
@@ -603,7 +603,7 @@ Seasonal means of $`{\widehat{\alpha}}_{atm}(x,y)`$ reveal coherent **high-**$`\
 Layer-resolved exponents show **low-tropospheric** $`\alpha`$larger over warm pools and western boundary currents; upper levels exhibit enhanced $`\alpha`$in jet cores. Vertical coherence index (corr$`(\alpha_{925},\alpha_{500})`$) = $`\lbrack r\rbrack`$.
 
 **Collapse/stability.**\
-Across windows passing diagnostics, the **collapse score** $`C`$ (variance reduction after rescaling) has median $`\lbrack 0.xx\rbrack`$(IQR $`\lbrack 0.xx\text{–}0.xx\rbrack`$) with **KS** $`p > 0.05`$in $`\lbrack X\rbrack\%`$ of windows—consistent with a single transport class locally.
+Across windows passing diagnostics, the **collapse score** $`C`$ (variance reduction after rescaling) has median $`\lbrack 0.xx\rbrack`$(IQR $`\lbrack 0.xx\text{–}0.xx\rbrack`$) with **KS** $`p > 0.05`$in $`\lbrack X\rbrack\%`$ of windows, consistent with a single transport class locally.
 
 **Figure 1.** *Global* $`\alpha_{atm}`$ *climatology.* (A) DJF mean $`\widehat{\alpha}`$; (B) JJA mean; (C) vertical section (zonal mean); (D) histogram and collapse-score distribution. Shaded hatching marks regions failing diagnostics.
 
@@ -700,15 +700,15 @@ Across reanalysis and geostationary archives, the $`\alpha_{atm}`$ field exhibit
 
 **6. Discussion**
 
-**6.1 What does** $`\mathbf{\alpha}_{\mathbf{atm}}`$ **measure—physically?**
+**6.1 What does** $`\mathbf{\alpha}_{\mathbf{atm}}`$ **measure, physically?**
 
 Within RTM, the exponent $`\alpha`$is an **operational fingerprint** of the transport class that governs how persistence scales with feature size. In the atmosphere, $`\alpha_{atm}`$ reflects the **play between advection, shear/strain, rotation, stratification, and moist microphysics**:
 
-- $`\alpha \downarrow`$**(toward 1–2):** faster decorrelation with scale—indicative of **advective/filamenting** regimes where shear and frontogenesis fragment structures (pre-frontal zones, baroclinic leaf, convective line growth).
+- $`\alpha \downarrow`$**(toward 1–2):** faster decorrelation with scale, indicative of **advective/filamenting** regimes where shear and frontogenesis fragment structures (pre-frontal zones, baroclinic leaf, convective line growth).
 
 - $`\alpha \approx 2`$**:** **mixing-dominated** persistence (quasi-diffusive) in weakly organized background.
 
-- $`\alpha \uparrow`$**(**$`\gtrsim 2.5`$**):** **coherent organization**—vortical confinement, stratified layers, jet-cored waveguides or moist conveyor belts—where larger scales live disproportionately longer.
+- $`\alpha \uparrow`$**(**$`\gtrsim 2.5`$**):** **coherent organization**, vortical confinement, stratified layers, jet-cored waveguides or moist conveyor belts, where larger scales live disproportionately longer.
 
 Thus, $`\alpha_{atm}`$ summarizes **pathway architecture**, complementary to ingredient metrics like CAPE, $`\zeta`$, or shear. It measures *how the system holds together across scales*, not just whether ingredients exist.
 
@@ -718,7 +718,7 @@ RTM predicts that **transitions between transport classes** appear as **discrete
 
 **6.3 Relation to spectra and cascades**
 
-Classical cascade arguments relate turnover times to spectral slopes. When $`\alpha_{atm}`$ notably exceeds inertial-range expectations, it suggests **constraints beyond inertial turbulence**—rotation, stratification, moisture–radiation feedbacks—that **stiffen** structures. Conversely, $`\alpha`$ near advective limits highlights regimes where **strain dominates** and memory is short. In this sense, $`\alpha`$ acts as a **bridge variable** connecting spectral diagnostics with object-based organization (e.g., vortex consolidation, frontal tightening).
+Classical cascade arguments relate turnover times to spectral slopes. When $`\alpha_{atm}`$ notably exceeds inertial-range expectations, it suggests **constraints beyond inertial turbulence**, rotation, stratification, moisture–radiation feedbacks, that **stiffen** structures. Conversely, $`\alpha`$ near advective limits highlights regimes where **strain dominates** and memory is short. In this sense, $`\alpha`$ acts as a **bridge variable** connecting spectral diagnostics with object-based organization (e.g., vortex consolidation, frontal tightening).
 
 **6.4 Added value relative to standard predictors**
 
@@ -736,11 +736,11 @@ Vertical consistency of $`\alpha`$ (e.g., low-level dip with mid/upper reboundin
 
 - **Data artefacts:** diurnal aliasing in Tb, scan geometry or resampling can distort $`T`$. Our audits (night-only, grid jitter) are essential; failure there invalidates local $`\alpha`$.
 
-- **Insufficient scale span:** without ≥1 decade in $`L`$, slopes are unstable—mark as **class-unstable**, don’t map.
+- **Insufficient scale span:** without ≥1 decade in $`L`$, slopes are unstable, mark as **class-unstable**, don’t map.
 
 - **Dry dynamics / topography:** orographic forcing can mimic organization; $`\alpha`$-signals must be corroborated by dynamical fields (avoid Tb-only conclusions).
 
-- **Regime interleaving:** multiple mechanisms inside a window yield **piecewise** $`\alpha`$; forcing a single slope obscures the signature—prefer explicit piecewise fits or smaller windows.
+- **Regime interleaving:** multiple mechanisms inside a window yield **piecewise** $`\alpha`$; forcing a single slope obscures the signature, prefer explicit piecewise fits or smaller windows.
 
 **6.7 What would falsify RTM-Atmo?**
 
@@ -762,7 +762,7 @@ Vertical consistency of $`\alpha`$ (e.g., low-level dip with mid/upper reboundin
 
 **6.9 Broader implications**
 
-If confirmed, $`\alpha_{atm}`$ offers a **compact, mechanism-aware** layer that reframes onset prediction as **transport-class inference**. It can support **ML nowcasting** (as a physically interpretable feature), **NWP post-processing** (to reweight members during pre-onset), and **situational awareness** (identifying reorganization corridors). Even if refuted, publishing preregistered failures will **tighten limits** on when and where multiscale organization governs onset—clarifying the interaction space of turbulence, rotation, stratification, and moist physics.
+If confirmed, $`\alpha_{atm}`$ offers a **compact, mechanism-aware** layer that reframes onset prediction as **transport-class inference**. It can support **ML nowcasting** (as a physically interpretable feature), **NWP post-processing** (to reweight members during pre-onset), and **situational awareness** (identifying reorganization corridors). Even if refuted, publishing preregistered failures will **tighten limits** on when and where multiscale organization governs onset, clarifying the interaction space of turbulence, rotation, stratification, and moist physics.
 
 **7. Operationalization**
 
@@ -873,7 +873,7 @@ Define an **RTM-Atmo Alert** when all hold simultaneously within an ROI (5×5° 
 
 - Context: vorticity/Eady tercile, SST flag, ensemble probability (if fused).
 
-- **Plain-English note:** “A falling $`\alpha`$indicates structures decorrelate faster with scale—typical **before** cyclogenesis/RI/explosive deepening. If the signal rebounds, consolidation is underway.”
+- **Plain-English note:** “A falling $`\alpha`$indicates structures decorrelate faster with scale, typical **before** cyclogenesis/RI/explosive deepening. If the signal rebounds, consolidation is underway.”
 
 **Do/Don’t.**
 
@@ -1051,7 +1051,7 @@ If deployed publicly, release code/configs under a permissive license (e.g., MIT
 
 **9. Conclusion**
 
-We introduced **Rhythmic Meteorology (RTM-Atmo)**—an application of the RTM framework in which the **scaling exponent** $`\alpha_{atm}`$ quantifies how atmospheric **persistence** grows with **feature scale** across space, time, variables, and levels. Conceptually, $`\alpha_{atm}`$ acts as a **transport-class indicator**: high values mark **coherent, organized** flow (vortical/stratified/jet-guided), while **rapid negative excursions** ($`\Delta\alpha\text{ } \downarrow`$) signal **fragmentation and class switching** that often precede **onset events** (tropical cyclogenesis, rapid intensification, explosive baroclinic development).
+We introduced **Rhythmic Meteorology (RTM-Atmo)**, an application of the RTM framework in which the **scaling exponent** $`\alpha_{atm}`$ quantifies how atmospheric **persistence** grows with **feature scale** across space, time, variables, and levels. Conceptually, $`\alpha_{atm}`$ acts as a **transport-class indicator**: high values mark **coherent, organized** flow (vortical/stratified/jet-guided), while **rapid negative excursions** ($`\Delta\alpha\text{ } \downarrow`$) signal **fragmentation and class switching** that often precede **onset events** (tropical cyclogenesis, rapid intensification, explosive baroclinic development).
 
 Methodologically, we specified a **reproducible pipeline**: multiscale feature extraction (wavelets/objects), windowed regressions of $`\log T`$ on $`\log L`$, **uncertainty quantification** (bootstrap, errors-in-variables), and **collapse diagnostics** that verify single-mechanism behavior. We defined **preregistered experiments** (E1–E4) to evaluate precursor value relative to persistence and standard predictors, phase-stratified backgrounds, and operational fusion with ensembles. The **operationalization** chapter detailed real-time products (maps, anomalies, confidence layers), QC gates, alert logic, and a governance plan emphasizing transparency, calibration, and ethical communication.
 
@@ -1066,7 +1066,7 @@ If the experiments confirm our predictions, $`\alpha_{atm}`$offers a **compact, 
 
 **Future work** includes (i) adaptive windows and **piecewise-**$`\alpha`$ to resolve mixed mechanisms, (ii) cross-sensor validation (scatterometer winds, microwave sounders, radar composites), (iii) coupling RTM-Atmo to **data assimilation** (flow-dependent priors) and **ML nowcasting** as an interpretable feature, and (iv) extension to hydrology and wildland fire weather where transport-class shifts also precede rapid regime changes.
 
-In short, RTM-Atmo reframes onset prediction as **transport-class inference**. Whether confirmed or refuted, it provides a **testable, operationally minded** bridge between turbulence, moist dynamics, and decision support—turning multiscale organization into actionable forecaster awareness.
+In short, RTM-Atmo reframes onset prediction as **transport-class inference**. Whether confirmed or refuted, it provides a **testable, operationally minded** bridge between turbulence, moist dynamics, and decision support, turning multiscale organization into actionable forecaster awareness.
 
 **10. Supplementary Information**
 
@@ -1547,7 +1547,7 @@ When examining localized extreme events, the RTM framework proves that atmospher
 
 The atmosphere and ocean are fundamentally coupled complex fluids. If RTM governs hurricane intensification in the atmosphere, its topological scaling laws must translate to the denser, slower-moving ocean. We subjected the framework to this planetary test by analyzing turbulent pair-dispersion (the Richardson t³ law) and the mesoscale Kinetic Energy (KE) spectrum.
 
-Oceanographic data—collected via AVISO+ satellite altimetry and drifter buoys—contains massive systemic noise from wind shear, wave interactions, and instrumental drift. To isolate true physical scaling, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo variance reconstruction.
+Oceanographic data, collected via AVISO+ satellite altimetry and drifter buoys, contains massive systemic noise from wind shear, wave interactions, and instrumental drift. To isolate true physical scaling, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo variance reconstruction.
 
 **E.2. Richardson Dispersion: The t³ Law**
 
@@ -1591,7 +1591,7 @@ The mesoscale KE spectrum describes how kinetic energy distributes across spatia
 
 \| **\*\*Robust ODR\*\*** \| **\*\*-0.525\*\*** \| **\*\*±0.038\*\*** \|
 
-The variance-corrected slope confirms that macroscopic fluid energy does not dissipate randomly. Instead, it cascades through a strict hierarchy of topological constraints—from submesoscale turbulence (10 km) through mesoscale eddies (100-300 km) to basin-scale circulation (\>1000 km).
+The variance-corrected slope confirms that macroscopic fluid energy does not dissipate randomly. Instead, it cascades through a strict hierarchy of topological constraints, from submesoscale turbulence (10 km) through mesoscale eddies (100-300 km) to basin-scale circulation (\>1000 km).
 
 **E.4. RTM Interpretation**
 
@@ -1609,7 +1609,7 @@ The variance-corrected slope confirms that macroscopic fluid energy does not dis
 
 2\. **Energy cascades are topologically constrained:** The robust KE spectrum proves that energy transfer across scales is not stochastic but follows deterministic geometric rules.
 
-3\. **Macroscopic fluids are scale-invariant networks:** Both metrics confirm the ocean operates as a mathematically predictable multiscale system—the same topological architecture governing atmospheric organization.
+3\. **Macroscopic fluids are scale-invariant networks:** Both metrics confirm the ocean operates as a mathematically predictable multiscale system, the same topological architecture governing atmospheric organization.
 
 **E.5. Falsifiability**
 
@@ -1659,7 +1659,7 @@ Cohen's d = **0.96**, p = 2.03 × 10⁻⁴⁹
 
 \| Inverted \| 1 \| 11% \|
 
-**Critical finding:** The correlation between (VEL_TOR − VEL_WRN) and Cohen's d is **r = 0.96**. This reveals the mechanism: α discriminates when tornadoes exhibit stronger rotation than false alarms—precisely when the framework should work.
+**Critical finding:** The correlation between (VEL_TOR − VEL_WRN) and Cohen's d is **r = 0.96**. This reveals the mechanism: α discriminates when tornadoes exhibit stronger rotation than false alarms, precisely when the framework should work.
 
 **F.4. FAR Reduction**
 
@@ -1687,7 +1687,7 @@ The single inverted outbreak (d = -0.68) exhibited anomalous precipitation signa
 
 \| **210317** \| 5.86 \| **6.74** \|
 
-False alarms had higher rotation (VEL = 49.5 vs 42.9 m/s) AND higher precipitation loading (KDP = 6.74, highest in dataset). The RTM framework detected coherent coupling—but of the precipitation core, not the vorticity field. This failure mode is diagnosable via KDP thresholds.
+False alarms had higher rotation (VEL = 49.5 vs 42.9 m/s) AND higher precipitation loading (KDP = 6.74, highest in dataset). The RTM framework detected coherent coupling, but of the precipitation core, not the vorticity field. This failure mode is diagnosable via KDP thresholds.
 
 **F.6. Multivariable Validation**
 
