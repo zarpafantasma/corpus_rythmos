@@ -8,7 +8,7 @@
 
 </div>
 
-> **Nota del Autor sobre la Robustez del Marco:** La arquitectura teórica del Marco de Campo Unificado RTM ha sido sometida a una auditoría integral de "Equipo Rojo" de Fase 2 para asegurar su consistencia matemática y física. Mientras que las derivaciones centrales de teoría de campos—incluyendo correcciones cuánticas de bucle y correspondencia holográfica AdS/CFT—fueron validadas como robustas (Equipo Verde), las implementaciones numéricas específicas respecto a la unificación de acoplamientos gauge y transporte multiescala fueron refinadas. Este documento se preserva en su forma conceptual original, con todas las calibraciones técnicas y registros de auditoría proporcionados en los Apéndices finales. Estas actualizaciones aseguran que las predicciones del marco para escalas $`M_{GUT}`$ y anclaje biológico de $`\alpha`$ estén fundamentadas en realidad física 3D de alta fidelidad.
+> **Nota del Autor sobre la Robustez del Marco:** La arquitectura teórica del Marco de Campo Unificado RTM ha sido sometida a una auditoría integral de "Equipo Rojo" de Fase 2 para asegurar su consistencia matemática y física. Mientras que las derivaciones centrales de teoría de campos, incluyendo correcciones cuánticas de bucle y correspondencia holográfica AdS/CFT, fueron validadas como robustas (Equipo Verde), las implementaciones numéricas específicas respecto a la unificación de acoplamientos gauge y transporte multiescala fueron refinadas. Este documento se preserva en su forma conceptual original, con todas las calibraciones técnicas y registros de auditoría proporcionados en los Apéndices finales. Estas actualizaciones aseguran que las predicciones del marco para escalas $`M_{GUT}`$ y anclaje biológico de $`\alpha`$ estén fundamentadas en realidad física 3D de alta fidelidad.
 
 **1 | Resumen**
 
@@ -18,11 +18,11 @@ El marco comienza estableciendo el exponente de escalamiento temporal α como un
 
 Central para la unificación es la demostración de que las ecuaciones de campo RTM se reducen a la física establecida en los límites apropiados: la ecuación de Klein-Gordon para campos escalares libres, las ecuaciones de campo de Einstein para el sector métrico, y la ley de potencia original RTM T ∝ L^α cuando los gradientes son despreciables. Esto asegura que el marco sea una extensión genuina de la física conocida en lugar de una construcción ad hoc.
 
-Introducimos términos de acoplamiento entre α y un escalar secundario φ—el campo Aetherion—mostrando cómo los gradientes espaciales ∇α pueden impulsar la dinámica de φ y desbloquear la extracción de energía del punto cero. El término g_αφ(∇α)²φ² reduce la barrera en V(α) cuando φ es grande, proporcionando el mecanismo por el cual metamateriales diseñados podrían inducir transiciones α controladas. Esta incorporación del programa Aetherion dentro del Marco Unificado lo establece como el objetivo principal de validación experimental: un dispositivo de prueba de concepto cuyo éxito o fracaso probaría directamente las predicciones centrales del marco.
+Introducimos términos de acoplamiento entre α y un escalar secundario φ, el campo Aetherion, mostrando cómo los gradientes espaciales ∇α pueden impulsar la dinámica de φ y desbloquear la extracción de energía del punto cero. El término g_αφ(∇α)²φ² reduce la barrera en V(α) cuando φ es grande, proporcionando el mecanismo por el cual metamateriales diseñados podrían inducir transiciones α controladas. Esta incorporación del programa Aetherion dentro del Marco Unificado lo establece como el objetivo principal de validación experimental: un dispositivo de prueba de concepto cuyo éxito o fracaso probaría directamente las predicciones centrales del marco.
 
-La validación numérica se proporciona a través de discretización por diferencias finitas de las ecuaciones de campo acopladas en 1D, 2D y 3D, con pruebas de convergencia de referencia que confirman tanto el esquema de discretización como el mecanismo de acoplamiento Aetherion. Especificamos el procedimiento completo de calibración de parámetros, asegurando que cualquier implementación—teórica o experimental—herede valores consistentes a través del corpus RTM.
+La validación numérica se proporciona a través de discretización por diferencias finitas de las ecuaciones de campo acopladas en 1D, 2D y 3D, con pruebas de convergencia de referencia que confirman tanto el esquema de discretización como el mecanismo de acoplamiento Aetherion. Especificamos el procedimiento completo de calibración de parámetros, asegurando que cualquier implementación, teórica o experimental, herede valores consistentes a través del corpus RTM.
 
-El marco concluye delineando predicciones falsificables: fuerzas análogas a Casimir entre discontinuidades de α, pruebas de precisión de violaciones del principio de equivalencia, sondas holográficas de anomalías de flujo temporal, y las firmas multimodales esperadas de prototipos de cámaras Aetherion. Al fundamentar estas predicciones en una estructura unificada de teoría de campos, RTM transiciona de una relación de escalamiento descriptiva a un marco prescriptivo capaz de generar física nueva—con Aetherion sirviendo como su primer campo de pruebas empírico.
+El marco concluye delineando predicciones falsificables: fuerzas análogas a Casimir entre discontinuidades de α, pruebas de precisión de violaciones del principio de equivalencia, sondas holográficas de anomalías de flujo temporal, y las firmas multimodales esperadas de prototipos de cámaras Aetherion. Al fundamentar estas predicciones en una estructura unificada de teoría de campos, RTM transiciona de una relación de escalamiento descriptiva a un marco prescriptivo capaz de generar física nueva, con Aetherion sirviendo como su primer campo de pruebas empírico.
 
 La viabilidad operacional del marco se establece además a través de una serie de auditorías computacionales robustas (**Apéndice E)**. Mientras que los sectores cuántico y holográfico demuestran alta estabilidad perturbativa, la auditoría del Equipo Rojo identificó y resolvió no linealidades críticas en la unificación de acoplamientos gauge y dimensionalidad fractal. Específicamente, se encontró que la introducción de un **Desplazamiento Topológico Aditivo No Isotrópico** era necesaria para lograr convergencia de $`M_{GUT}`$ en un solo punto. Además, las simulaciones verifican que las bandas $`\alpha`$ de RTM son propiedades emergentes de variedades espaciales 3D y jerarquías de transporte ponderadas por flujo, proporcionando un puente falsificable entre física de altas energías y complejidad biofísica.
 
@@ -36,7 +36,7 @@ El marco de Relatividad Temporal Multiescala **(RTM)** postula que **el tiempo n
 {T \propto L}^{\alpha}
 ```
 
-donde el **exponente de escalamiento** α encapsula características estructurales clave—dimensionalidad, conectividad, densidad y efectos térmicos—y toma **bandas cuantizadas** asociadas con regímenes dinámicos distintos (balístico, difusivo, jerárquico/biológico, confinado cuánticamente)
+donde el **exponente de escalamiento** α encapsula características estructurales clave, dimensionalidad, conectividad, densidad y efectos térmicos, y toma **bandas cuantizadas** asociadas con regímenes dinámicos distintos (balístico, difusivo, jerárquico/biológico, confinado cuánticamente)
 
 - **Régimen balístico** $`\mathbf{(\alpha \approx 1)}`$: transporte dominado por dinámicas rectilíneas impulsadas por inercia.
 
@@ -55,7 +55,7 @@ RTM unifica estos dominios dispares mostrando que **la misma ley de escalamiento
 | α | Exponente de escalamiento temporal: relaciona el tiempo característico $`T`$ con la escala $`L`$. |
 | T | Tiempo característico (ej., tiempo de decoherencia, retardo de propagación). |
 | L | Escala de longitud dominante (ej., tamaño del sistema, diámetro de red). |
-| ρ | Densidad estructural local (nodos o interacciones por volumen)—modula $`T`$ como $`\rho^{- 1/2}`$ |
+| ρ | Densidad estructural local (nodos o interacciones por volumen), modula $`T`$ como $`\rho^{- 1/2}`$ |
 | Θ(T) | Función térmica: considera efectos de temperatura en tasas dinámicas. |
 
 Tabla adaptada del marco RTM
@@ -153,7 +153,7 @@ Sin embargo, hay distinciones clave:
 
 - El *z* tradicional aparece en contextos estrechos: ralentización crítica, ruptura de remolinos turbulentos, difusión anómala en clusters de percolación.
 
-- El *α* de RTM se aplica **universalmente** a través de redes físicas, biológicas y de procesamiento de información—independientemente de si se encuentran en un punto crítico.
+- El *α* de RTM se aplica **universalmente** a través de redes físicas, biológicas y de procesamiento de información, independientemente de si se encuentran en un punto crítico.
 
 3.  **Cuantización vs. Continuo**
 
@@ -163,7 +163,7 @@ Sin embargo, hay distinciones clave:
 
 4.  **Falsificabilidad y Predicciones**
 
-- Mientras que medir *z* a menudo requiere ajustar parámetros de control a la criticalidad, las predicciones de RTM para α pueden ser **validadas directamente** midiendo tiempos de primer paso medio o relajación a través de escalas—incluso lejos de cualquier transición.
+- Mientras que medir *z* a menudo requiere ajustar parámetros de control a la criticalidad, las predicciones de RTM para α pueden ser **validadas directamente** midiendo tiempos de primer paso medio o relajación a través de escalas, incluso lejos de cualquier transición.
 
 - Este enfoque estructural eleva una relación numérica de escalamiento a un **marco predictivo** con fundamentos geométricos a través de regímenes nunca tradicionalmente asociados con dinámica crítica.
 
@@ -173,7 +173,7 @@ Sin embargo, hay distinciones clave:
 
 - En flujos turbulentos, correlaciones temporales de incrementos de velocidad satisfacen $`{\tau\mathcal{(l) \propto l}}^{2/3}`$, correspondiendo a $`z \approx 2/3`$, pero estas surgen de dinámica de cascada en lugar de topología estructural.
 
-Al posicionar α junto a—pero distinto de—los exponentes críticos tradicionales, RTM unifica el comportamiento temporal multiescala bajo un **paradigma estructural**, extendiéndose mucho más allá del reino de la criticalidad hacia la rica complejidad de sistemas jerárquicos y confinados.
+Al posicionar α junto a, pero distinto de, los exponentes críticos tradicionales, RTM unifica el comportamiento temporal multiescala bajo un **paradigma estructural**, extendiéndose mucho más allá del reino de la criticalidad hacia la rica complejidad de sistemas jerárquicos y confinados.
 
 **2.4 Marco Filosófico y Falsificabilidad**
 
@@ -183,7 +183,7 @@ RTM no se presenta como un ejercicio puramente técnico, sino como una **ciencia
   "Este artículo es un mapa, no el territorio. Las ecuaciones describen la gramática de la resonancia, pero no capturan la poesía de la experiencia misma. El exponente α puede ser un correlato de la coherencia de un sistema, pero no es su alma. Hemos ofrecido una 'prueba de la comida' rigurosa y verificable, pero este análisis técnico es simplemente la entrada a un banquete mucho más amplio de comprensión."
 
 - **Respuesta a una Crisis de Coherencia**\
-  RTM nació de un sentido de **arritmia** en sistemas sociales, ecológicos y psicológicos. Al reconectar la objetividad científica con preguntas de significado, RTM busca **tender un puente** entre el mundo del modelador cuantitativo y el mundo del buscador de misticismo, arte y filosofía—demostrando que fenómenos como la expansión del tiempo en una catedral o la unidad de una multitud cantando tienen una arquitectura física describible.
+  RTM nació de un sentido de **arritmia** en sistemas sociales, ecológicos y psicológicos. Al reconectar la objetividad científica con preguntas de significado, RTM busca **tender un puente** entre el mundo del modelador cuantitativo y el mundo del buscador de misticismo, arte y filosofía, demostrando que fenómenos como la expansión del tiempo en una catedral o la unidad de una multitud cantando tienen una arquitectura física describible.
 
 - **Falsificabilidad como Invitación**\
   "Para la Comunidad Científica: Ofrece un modelo cuantitativo y comprobable para explorar la física de sistemas complejos y multiescala. Invitamos a la colaboración, crítica y validación experimental para refinar o refutar sus afirmaciones."\
@@ -192,7 +192,7 @@ RTM no se presenta como un ejercicio puramente técnico, sino como una **ciencia
 - **Ancla y Llamado a la Integración**\
   Mientras que las exploraciones **filosóficas y poéticas** continúan en un corpus paralelo, este artículo es el **ancla** que conecta el significado con la medición. Concluye con un llamado a una ciencia que sea tanto **empíricamente rigurosa** como **existencialmente relevante**, cuyo valor último reside no solo en el poder predictivo sino en profundizar nuestra comprensión de nuestro lugar en un cosmos resonante e interconectado.
 
-Con este marco, cada capítulo subsiguiente debe fundamentar sus afirmaciones matemáticas y experimentales en **predicciones comprobables**—asegurando que RTM permanezca abierto a **refutación** y **refinamiento** en lugar de afirmación dogmática.
+Con este marco, cada capítulo subsiguiente debe fundamentar sus afirmaciones matemáticas y experimentales en **predicciones comprobables**, asegurando que RTM permanezca abierto a **refutación** y **refinamiento** en lugar de afirmación dogmática.
 
 **3 | Parte II – Formalismo de Teoría de Campos y Unificación**
 
@@ -481,7 +481,7 @@ $`\Gamma \sim Ae^{{- S}_{bounce}/\hslash}`$
 F\_Q \sim -\frac{\hbar}{L^2} \frac{\partial}{\partial \alpha} (\Delta \alpha)^2
 ```
 
-donde $`L`$ es la longitud del gradiente. Para gradientes pronunciados en escalas sub-milimétricas, esta fuerza puede alcanzar niveles de pico-Newton—pequeños pero potencialmente medibles.
+donde $`L`$ es la longitud del gradiente. Para gradientes pronunciados en escalas sub-milimétricas, esta fuerza puede alcanzar niveles de pico-Newton, pequeños pero potencialmente medibles.
 
 **(c) Dispersión anómala y núcleos no locales**
 
@@ -495,7 +495,7 @@ donde $`\Pi(k)`$ codifica la polarización del vacío. En espacio de posición, 
 
 - **Impacto fenomenológico.** Tales no localidades modifican la ecuación de campo RTM de una forma de Poisson simple a una ecuación integro-diferencial. Pueden suavizar gradientes de α pronunciados e introducir dispersión en la velocidad de propagación de ondas α.
 
-Juntos, estos efectos cuánticos—tunelamiento, presiones tipo Casimir, y dispersión no local—añaden dinámicas ricas y nuevas al marco RTM. En la práctica, se debe equilibrar los fenómenos clásicos deseados impulsados por gradientes contra la fuga o suavizado cuántico no deseado, guiando el diseño de perfiles de metamateriales y regímenes operacionales.
+Juntos, estos efectos cuánticos, tunelamiento, presiones tipo Casimir, y dispersión no local, añaden dinámicas ricas y nuevas al marco RTM. En la práctica, se debe equilibrar los fenómenos clásicos deseados impulsados por gradientes contra la fuga o suavizado cuántico no deseado, guiando el diseño de perfiles de metamateriales y regímenes operacionales.
 
 **3.1.4 Correcciones Cuánticas de Uno y Dos Bucles**
 
@@ -567,7 +567,7 @@ Numéricamente (ver Tabla 3.1-2) el desplazamiento de dos bucles de los mínimos
 
 **3.2 Extensión al Campo de Salto de Rama β y la Escalera Multiversal**
 
-Para modelar **saltos discretos** entre capas de coherencia RTM adyacentes, introducimos un segundo campo escalar $`\beta(x) -`$ el **parámetro de orden de índice de rama**—que etiqueta cada banda α cuantizada como un "universo local" distinto.
+Para modelar **saltos discretos** entre capas de coherencia RTM adyacentes, introducimos un segundo campo escalar $`\beta(x) -`$ el **parámetro de orden de índice de rama**, que etiqueta cada banda α cuantizada como un "universo local" distinto.
 
 **3.2.1 Potencial de Múltiples Pozos V(β)**
 
@@ -593,7 +593,7 @@ donde el **acoplamiento no mínimo**
 
 $`g_{\beta\alpha}\beta{\mid \nabla\alpha \mid}^{2}`$
 
-reduce la barrera en $`V(\beta)`$ cuando $`\mid \nabla\alpha \mid`$ es grande—es decir, un gradiente espacial fuerte en $`\alpha`$, generado por un núcleo Aetherion, puede **impulsar** a $`\beta`$ sobre la barrera.
+reduce la barrera en $`V(\beta)`$ cuando $`\mid \nabla\alpha \mid`$ es grande, es decir, un gradiente espacial fuerte en $`\alpha`$, generado por un núcleo Aetherion, puede **impulsar** a $`\beta`$ sobre la barrera.
 
 La variación produce las ecuaciones de campo acopladas
 
@@ -625,7 +625,7 @@ El flujo del grupo de renormalización entonces determina cómo los acoplamiento
 
 **3.3.2 Dualidad Holográfica (AdS/CFT)**
 
-Vía la **correspondencia AdS/CFT**, una teoría gravitacional de $`d + 1`$ dimensiones en espacio Anti–de Sitter puede ser dual a una teoría de campos conforme de $`d`$ dimensiones—con $`\alpha(x)`$ jugando el papel de un acoplamiento de frontera. En esta imagen:
+Vía la **correspondencia AdS/CFT**, una teoría gravitacional de $`d + 1`$ dimensiones en espacio Anti–de Sitter puede ser dual a una teoría de campos conforme de $`d`$ dimensiones, con $`\alpha(x)`$ jugando el papel de un acoplamiento de frontera. En esta imagen:
 
 - La **coordenada radial** $`r`$ de AdS se mapea a la escala del GR $`\mu`$ en la TCC dual,
 
@@ -663,7 +663,7 @@ S \le 2\pi k\_B \frac{E L}{\hbar c} [\alpha(L)]^{-1}
 
 mostrando que el almacenamiento máximo de información escala inversamente con el exponente de escalamiento temporal local y aplicando límites sobre la extracción de energía y transiciones de salto de rama.
 
-Juntos, estos acoplamientos garantizan que el marco RTM–Aetherion permanezca **compatible tanto con principios de campos cuánticos como gravitacionales**, mientras proporciona vías claras para **predicciones falsificables**—desde pruebas de precisión de violaciones del principio de equivalencia hasta sondas holográficas de anomalías de flujo temporal.
+Juntos, estos acoplamientos garantizan que el marco RTM–Aetherion permanezca **compatible tanto con principios de campos cuánticos como gravitacionales**, mientras proporciona vías claras para **predicciones falsificables**, desde pruebas de precisión de violaciones del principio de equivalencia hasta sondas holográficas de anomalías de flujo temporal.
 
 **3.4 Recuperación de Límites Conocidos: Klein–Gordon, Relatividad General, y Dinámica RTM**
 
@@ -720,7 +720,7 @@ con $`\alpha_{0}`$ tomando uno de los valores cuantizados $`\{ 1,2,2.5,3.5\}`$ d
 **Conclusión de la Recuperación de Límites**\
 Estas verificaciones de consistencia aseguran que el marco RTM–Aetherion es una extensión genuina de la física conocida, interpolando suavemente entre teoría de campos escalares, Relatividad General, y fenomenología RTM multiescala.
 
-Con la recuperación de límites conocidos ahora completa en la Sección 3.4, pasamos a un análisis completo del Grupo de Renormalización—culminando en la unificación exacta de acoplamientos gauge del Modelo Estándar con ajuste de umbrales en la Sección 3.5.
+Con la recuperación de límites conocidos ahora completa en la Sección 3.4, pasamos a un análisis completo del Grupo de Renormalización, culminando en la unificación exacta de acoplamientos gauge del Modelo Estándar con ajuste de umbrales en la Sección 3.5.
 
 **3.5 Unificación por Grupo de Renormalización de los Tres Acoplamientos Gauge del ME con Ajuste Exacto de Umbrales**
 
@@ -1109,7 +1109,7 @@ que integra a una **densidad de potencia extraíble** neta $`P \propto \gamma\va
 
 **5.2 Identificación de Parámetros M, γ, y κ**
 
-Para hacer el lagrangiano unificado RTM–Aetherion cuantitativamente predictivo, debemos **calibrar** sus tres parámetros clave—$`M`$ (rigidez del $`\alpha`$), $`\gamma`$ (intensidad de acoplamiento $`\varphi - \alpha`$), y $`\kappa`$ (exponente material relacionando índice de refracción con α). Describimos a continuación cómo se extrae cada uno de simulaciones RTM y Aetherion
+Para hacer el lagrangiano unificado RTM–Aetherion cuantitativamente predictivo, debemos **calibrar** sus tres parámetros clave, $`M`$ (rigidez del $`\alpha`$), $`\gamma`$ (intensidad de acoplamiento $`\varphi - \alpha`$), y $`\kappa`$ (exponente material relacionando índice de refracción con α). Describimos a continuación cómo se extrae cada uno de simulaciones RTM y Aetherion
 
 **5.2.1 Rigidez M**
 
@@ -1181,7 +1181,7 @@ para apilamientos de $`{TiO}_{2}/{SiO}_{2}`$, consistente con teoría de medio e
 | $\gamma$ | Acoplamiento de extracción de energía $\varphi-\alpha$ | $180 \pm 20$ |
 | $\kappa$ | Exponente índice de refracción $\rightarrow \alpha$ | $\approx 3.0$ |
 
-Con estos valores numéricos en mano, la acción RTM–Aetherion se convierte en un modelo completamente especificado y **falsificable**—listo para simulaciones predictivas y guiar diseños de reactores experimentales.
+Con estos valores numéricos en mano, la acción RTM–Aetherion se convierte en un modelo completamente especificado y **falsificable**, listo para simulaciones predictivas y guiar diseños de reactores experimentales.
 
 **5.3 Control de Gradiente y Mitigación Inercial (Inmunidad a Fuerza G)**
 
@@ -1221,7 +1221,7 @@ Diseñando una región de $`\alpha`$ elevado ("cabina de alta coherencia"), el t
 d\tau = \frac{dt}{a_{cabina}} \Longrightarrow a_{eff}\frac{a_{ext}}{a_{cabina}}
 ```
 
-Por ejemplo, con $`a_{cabina} = 3`$ y una maniobra externa de 100 g, los ocupantes experimentan solo ≈ 11 g; aumentando $`a_{cabina}`$ a 4 lo reduce a ≈ 1.9 g—bien dentro de la tolerancia humana.
+Por ejemplo, con $`a_{cabina} = 3`$ y una maniobra externa de 100 g, los ocupantes experimentan solo ≈ 11 g; aumentando $`a_{cabina}`$ a 4 lo reduce a ≈ 1.9 g, bien dentro de la tolerancia humana.
 
 **Implicaciones de Diseño:**
 
@@ -1331,7 +1331,7 @@ relativo a la línea base ficticia. Esta supresión simulada escala linealmente 
 
 Específicamente, nuestro solver predice un exponente de **2.00 ± 0.03**, proporcionando una relación cuadrática precisa a probar.
 
-Estos tres observables simulados independientes—potencia térmica, redistribución de modos RF, y retardo de fotones—todos exhiben el escalamiento lineal o cuadrático predicho con Δα. Tal concordancia cuantitativa a través de diferentes canales físicos simulados proporciona un conjunto robusto de predicciones. Una confirmación experimental de estos resultados ofrecería fuerte apoyo empírico de que las leyes de escalamiento derivadas de RTM pueden realizarse en dispositivos físicos.
+Estos tres observables simulados independientes, potencia térmica, redistribución de modos RF, y retardo de fotones, todos exhiben el escalamiento lineal o cuadrático predicho con Δα. Tal concordancia cuantitativa a través de diferentes canales físicos simulados proporciona un conjunto robusto de predicciones. Una confirmación experimental de estos resultados ofrecería fuerte apoyo empírico de que las leyes de escalamiento derivadas de RTM pueden realizarse en dispositivos físicos.
 
 **6.4 Limitaciones Actuales y Próximos Pasos**
 
@@ -1356,7 +1356,7 @@ Mientras que nuestro prototipo de cámara Aetherion y el marco RTM–Aetherion h
 
 4.  **Simplificaciones de Teoría de Campos**
 
-- Hemos tratado α(x) y β(x) como campos escalares clásicos; las fluctuaciones cuánticas de estos parámetros de orden—y su reacción sobre φ—permanecen inexploradas.
+- Hemos tratado α(x) y β(x) como campos escalares clásicos; las fluctuaciones cuánticas de estos parámetros de orden, y su reacción sobre φ, permanecen inexploradas.
 
 - Operadores de orden superior en la TEC (ej., α²F², términos (∂α)⁴) pueden contribuir correcciones no despreciables a altas densidades de gradiente o energía.
 
@@ -1399,7 +1399,7 @@ Mientras que nuestro prototipo de cámara Aetherion y el marco RTM–Aetherion h
 
     - Comparar resultados contra el reactor Aetherion para confirmar universalidad de las bandas α cuantizadas.
 
-Al abordar sistemáticamente estas limitaciones—a través de simulación, investigación de materiales, metrología mejorada, refinamiento teórico, y validación multiplataforma—trazamos un camino claro hacia un **Programa de Campo Unificado robusto y falsificable** fundamentado en principios de Multiescala Temporal Relativista.
+Al abordar sistemáticamente estas limitaciones, a través de simulación, investigación de materiales, metrología mejorada, refinamiento teórico, y validación multiplataforma, trazamos un camino claro hacia un **Programa de Campo Unificado robusto y falsificable** fundamentado en principios de Multiescala Temporal Relativista.
 
 **7 | Parte VI – Hoja de Ruta hacia un Marco de Campo Unificado Falsificable**
 
@@ -1437,7 +1437,7 @@ Al final de cada fase principal hay un "punto de control de hito" donde predicci
 
 - Fin de Fase E: exponentes de decoherencia y retardos ópticos en plataformas independientes vs. bandas RTM.
 
-Esta hoja de ruta estructurada asegura que el Marco de Campo Unificado RTM progrese a través de fundamentación teórica rigurosa, computación escalable, prototipos diseñados, y pruebas empíricas diversas—culminando en una Teoría de Todo verdaderamente falsificable.
+Esta hoja de ruta estructurada asegura que el Marco de Campo Unificado RTM progrese a través de fundamentación teórica rigurosa, computación escalable, prototipos diseñados, y pruebas empíricas diversas, culminando en una Teoría de Todo verdaderamente falsificable.
 
 **7.2 Agenda de Extensión: Cosmología, Consciencia, y Computación Jerárquica**
 
@@ -1463,7 +1463,7 @@ Construyendo sobre el marco central del Marco de Campo Unificado RTM y su prueba
   Modelar "momentos presentes" subjetivos como núcleos de ancho finito de α elevado dentro del campo α global. Simular cómo gradientes α dinámicos podrían subyacer ventanas de vinculación consciente (pulsos de 100 ms) y probar vía tareas psicofísicas de temporización.
 
 - **Trastornos de Ritmo**\
-  Enmarcar patologías—temblor parkinsoniano, descargas epilépticas—como desplazamientos aberrantes en bandas α locales. Predecir que la estimulación cerebral profunda sintonizada para restaurar gradientes α saludables normalizará la agrupación de escalas de tiempo y mejorará la integración cognitiva.
+  Enmarcar patologías, temblor parkinsoniano, descargas epilépticas, como desplazamientos aberrantes en bandas α locales. Predecir que la estimulación cerebral profunda sintonizada para restaurar gradientes α saludables normalizará la agrupación de escalas de tiempo y mejorará la integración cognitiva.
 
 **7.2.3 Computación Jerárquica y Teoría de la Información**
 
@@ -1476,7 +1476,7 @@ Construyendo sobre el marco central del Marco de Campo Unificado RTM y su prueba
 - **Computación RTM Mejorada por Cuántica**\
   Integrar campos RTM con celosías de qubits: usar gradientes espaciales de α para controlar tasas de decoherencia e ingeniar subespacios lógicos protegidos. Simular procesos de recocido cuántico en los que pozos de α guían el sistema hacia mínimos globales, y probar en dispositivos de pequeña escala.
 
-Estos hilos de extensión no solo expanden el Marco de Campo Unificado RTM a nuevos dominios sino que también proporcionan **predicciones falsificables adicionales**—desde firmas cosmológicas y ritmos neurofisiológicos hasta referencias computacionales—reforzando así la universalidad y profundidad del paradigma de escalamiento temporal.
+Estos hilos de extensión no solo expanden el Marco de Campo Unificado RTM a nuevos dominios sino que también proporcionan **predicciones falsificables adicionales**, desde firmas cosmológicas y ritmos neurofisiológicos hasta referencias computacionales, reforzando así la universalidad y profundidad del paradigma de escalamiento temporal.
 
 **Apéndice A – Glosario de Símbolos y Notación**
 
@@ -1561,7 +1561,7 @@ $`|\mathbf{\ }\mathbf{\chi}^{\mathbf{2}}\ |`$ Estadístico global de bondad de a
 
 **8.1 Resumen de Resultados Principales**
 
-Hemos demostrado que el Marco de Campo Unificado RTM—construido sobre un esqueleto del Modelo Estándar de dos bucles más un mecanismo de desplazamiento α—puede lograr unificación precisa de los tres acoplamientos gauge del ME una vez que se incluye un conjunto físicamente motivado de nuevos estados. Calculando **correcciones exactas de umbral de un bucle** en la masa de cada partícula y realizando un **ajuste del GR de abajo hacia arriba** desde $`M_{Z}`$ encontramos
+Hemos demostrado que el Marco de Campo Unificado RTM, construido sobre un esqueleto del Modelo Estándar de dos bucles más un mecanismo de desplazamiento α, puede lograr unificación precisa de los tres acoplamientos gauge del ME una vez que se incluye un conjunto físicamente motivado de nuevos estados. Calculando **correcciones exactas de umbral de un bucle** en la masa de cada partícula y realizando un **ajuste del GR de abajo hacia arriba** desde $`M_{Z}`$ encontramos
 
 ``` math
 g_{\star} = 0.542,\ \ \ \ \ \ \ \ \mu_{\star} = 1.2 \times 10^{16}\ GeV,\ \ \ \ \ \ \ \ \eta = 0.082,
@@ -1633,7 +1633,7 @@ Extendiendo esta cota a sistemas RTM **no gravitacionales** y multiescala reempl
 S \leq {2\pi k}_{B}\frac{EL}{\hslash c}{\lbrack\alpha(L)\rbrack}^{- 1}
 ```
 
-donde $L$ es la escala característica del sistema y $\alpha(L)$ su exponente RTM. Físicamente, esto refleja que mayor α (flujo temporal más lento) reduce la máxima información—o entropía—almacenable dentro de un presupuesto dado de energía y tamaño. En el límite $\alpha \to 1$, se recupera la forma gravitacional estándar; para $\alpha > 1$, la cota se estrecha proporcionalmente, aplicando límites más estrictos sobre esquemas de extracción de energía y transiciones de salto de rama.
+donde $L$ es la escala característica del sistema y $\alpha(L)$ su exponente RTM. Físicamente, esto refleja que mayor α (flujo temporal más lento) reduce la máxima información, o entropía, almacenable dentro de un presupuesto dado de energía y tamaño. En el límite $\alpha \to 1$, se recupera la forma gravitacional estándar; para $\alpha > 1$, la cota se estrecha proporcionalmente, aplicando límites más estrictos sobre esquemas de extracción de energía y transiciones de salto de rama.
 
 **Apéndice C – Materiales, Fabricación, y Tolerancias de Gradiente Δα**
 
