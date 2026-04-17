@@ -22,7 +22,7 @@ We formalize four predictions spanning anesthesia, sleep, psychedelics, and task
 
 **1. Significance**
 
-- **Bridges a common critique (“no physical mechanism”)** by offering a concrete, testable mesoscopic mechanism—**coherence accumulation**—that does not require quantum non-computability.
+- **Bridges a common critique (“no physical mechanism”)** by offering a concrete, testable mesoscopic mechanism, **coherence accumulation**, that does not require quantum non-computability.
 
 - **Portable metrics** (slope α, conditional directionality) can be evaluated on EEG/MEG/ECoG/fMRI and on bench analogs, enabling convergent evidence.
 
@@ -358,7 +358,7 @@ When simulating the full subject-level probability density across the neurophysi
 
 - **Preservation under Ketamine:** Despite profound motor paralysis, ketamine preserves the specific topological transport regime of the waking cortex. The spectral slope remains statistically anchored to the healthy baseline ($`\Delta\beta \approx - 0.10`$), maintaining the structural "fluidity" of the neural network.
 
-**Conclusion:** This physically explains why the mind under ketamine remains phenomenologically conscious—experiencing complex hallucinations and vivid dreams—while the physical body is anesthetized. It definitively proves that conscious access is a macroscopic boundary defined by the multiscale topological coherence of the cortical network.
+**Conclusion:** This physically explains why the mind under ketamine remains phenomenologically conscious, experiencing complex hallucinations and vivid dreams, while the physical body is anesthetized. It definitively proves that conscious access is a macroscopic boundary defined by the multiscale topological coherence of the cortical network.
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
 
