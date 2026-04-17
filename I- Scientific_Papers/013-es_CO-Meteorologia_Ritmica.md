@@ -15,27 +15,27 @@ Proponemos la Meteorología Rítmica (RTM-Atmo): una aplicación operacional de 
 
 **Validación computacional.** Implementamos y probamos el marco RTM-Atmo a través de tres suites de simulación. S1 demuestra el escalamiento τ(L) para seis regímenes atmosféricos, recuperando valores de α que van desde 1.2 (perturbaciones tropicales) hasta 2.6 (bloqueos anticiclónicos) con error medio de estimación del 1.1%, y valida el colapso de datos bajo reescalamiento (CV = 0.20). S2 aplica RTM-Atmo a la detección de ciclogénesis tropical, mostrando que la caída de α precede la génesis por 18-30 horas en promedio, proporcionando alertas más tempranas que los umbrales tradicionales de vorticidad (6-12 h de anticipación). La habilidad de detección alcanza POD = 0.86, FAR = 0.14, CSI = 0.76 en pruebas de ensemble simuladas. S3 demuestra la clasificación automática de regímenes basada en límites de α: Advectivo (α \< 1.5), Jerárquico (α = 1.5-2.0), Coherente (α = 2.0-2.5), Fuertemente Coherente (α \> 2.5), logrando 87% de precisión de clasificación general con puntuaciones F1 de 0.83-0.93 entre clases.
 
-Diseñamos pruebas falsificables sobre reanálisis y archivos satelitales: estabilidad de pendiente y colapso de datos dentro de regímenes, desplazamientos discretos de α en los inicios, y habilidad sobre líneas base de persistencia/umbral. Si se valida, α se convierte en una capa ligera y reproducible para pronosticadores—complementaria a la guía NWP/ML—ofreciendo alertas tempranas vinculadas a cambios físicamente interpretables en la organización multiescala.
+Diseñamos pruebas falsificables sobre reanálisis y archivos satelitales: estabilidad de pendiente y colapso de datos dentro de regímenes, desplazamientos discretos de α en los inicios, y habilidad sobre líneas base de persistencia/umbral. Si se valida, α se convierte en una capa ligera y reproducible para pronosticadores, complementaria a la guía NWP/ML, ofreciendo alertas tempranas vinculadas a cambios físicamente interpretables en la organización multiescala.
 
 Finalmente, para establecer una línea base topológica rigurosa, contrastamos estos sistemas termodinámicos adaptativos con la mecánica pura de la Tierra. Aunque la sismología cae fuera del dominio meteorológico, un análisis de control de 51 terremotos históricos ($`M_{w}`$ 5.7 a 9.2) revela que el tiempo de ruptura sísmica escala con la longitud de falla bajo un exponente de $`\mathbf{\alpha}\mathbf{= \ 1.003\ }\mathbf{\pm}\mathbf{0.016}`$. Este colapso exacto en el régimen de propagación balística ($`p\  = \ 0.876`$ contra la hipótesis nula $`\alpha = \ 1`$) demuestra que cuando el marco RTM se aplica a sistemas mecánicos lineales, recupera perfectamente la física newtoniana clásica. Esto consolida la universalidad matemática del exponente $`\alpha`$ antes de aplicarlo al caos atmosférico.
 
-**Validación empírica sistemática**$`\mathbf{\rightarrow}`$**(APÉNDICE B)**. Validamos el marco RTM-Atmo a través de un análisis sistemático de 48 ciclones tropicales—incluyendo 26 eventos de Intensificación Rápida (IR)—en la cuenca del Pacífico Oriental (2021-2024) usando el conjunto de datos IBTrACS. Los modelos heurísticos iniciales dependían de discretización categórica; sin embargo, para absorber el ruido inherente de medición satelital ($`\sim 5`$ kt), desplegamos un pipeline de Regresión de Distancia Ortogonal (ODR) con Errores en Variables Continuas. El análisis robusto demuestra que el exponente de acoplamiento viento-presión ($`\alpha`$) actúa como un proxy estrictamente continuo y predictivo para la coherencia estructural. Identificamos una "zona de peligro" topológica crítica ($`\alpha < \ 1.25`$) donde las tormentas transicionan violentamente a un estado 'Superfluido'. La pendiente ODR predictiva ($`- 99.02\  \pm 11.99`$) prueba que el ajuste topológico microscópico desencadena explosiones cinéticas masivas. Crucialmente, este colapso de coherencia precede la explosión cinética del viento por una media operacional de 11.6 horas.
+**Validación empírica sistemática**$`\mathbf{\rightarrow}`$**(APÉNDICE B)**. Validamos el marco RTM-Atmo a través de un análisis sistemático de 48 ciclones tropicales, incluyendo 26 eventos de Intensificación Rápida (IR), en la cuenca del Pacífico Oriental (2021-2024) usando el conjunto de datos IBTrACS. Los modelos heurísticos iniciales dependían de discretización categórica; sin embargo, para absorber el ruido inherente de medición satelital ($`\sim 5`$ kt), desplegamos un pipeline de Regresión de Distancia Ortogonal (ODR) con Errores en Variables Continuas. El análisis robusto demuestra que el exponente de acoplamiento viento-presión ($`\alpha`$) actúa como un proxy estrictamente continuo y predictivo para la coherencia estructural. Identificamos una "zona de peligro" topológica crítica ($`\alpha < \ 1.25`$) donde las tormentas transicionan violentamente a un estado 'Superfluido'. La pendiente ODR predictiva ($`- 99.02\  \pm 11.99`$) prueba que el ajuste topológico microscópico desencadena explosiones cinéticas masivas. Crucialmente, este colapso de coherencia precede la explosión cinética del viento por una media operacional de 11.6 horas.
 
-También validamos la teoría de transporte RTM a través de un análisis de 5 dominios de extremos climáticos$`\rightarrow`$**(APÉNDICE D)** y una prueba de control balístico de tierra sólida$`\rightarrow`$**(APÉNDICE C)**. Utilizando reanálisis ERA5 y simulaciones Monte Carlo de varianza espacial, demostramos que el clima global opera dinámicamente cerca de un régimen crítico ($`\beta = \ 0.98`$), mientras que los eventos extremos se fraccionan en clases de transporte RTM distintas. La precipitación diaria obedece estrictamente límites balísticos (7%°C), mientras que las curvas de Intensidad-Duración-Frecuencia (IDF) corregidas por varianza y las olas de calor exhiben escalamiento sub-difusivo robusto ($`\beta = \  - 0.75`$ y $`\alpha = \ 0.43\  \pm 0.002`$, respectivamente), indicando memoria multiescala a largo plazo. Por el contrario, la prueba de control sísmica (absorbiendo ruido de inversión de sismogramas vía ODR) produce un exponente balístico matemáticamente perfecto de $`\alpha = \ 1.007\  \pm 0.016`$. Esto prueba conclusivamente que los fenómenos naturales extremos—ya sean atmosféricos, climáticos o tectónicos—son transiciones de fase determinísticas estrictamente gobernadas por escalamiento topológico multiescala.
+También validamos la teoría de transporte RTM a través de un análisis de 5 dominios de extremos climáticos$`\rightarrow`$**(APÉNDICE D)** y una prueba de control balístico de tierra sólida$`\rightarrow`$**(APÉNDICE C)**. Utilizando reanálisis ERA5 y simulaciones Monte Carlo de varianza espacial, demostramos que el clima global opera dinámicamente cerca de un régimen crítico ($`\beta = \ 0.98`$), mientras que los eventos extremos se fraccionan en clases de transporte RTM distintas. La precipitación diaria obedece estrictamente límites balísticos (7%°C), mientras que las curvas de Intensidad-Duración-Frecuencia (IDF) corregidas por varianza y las olas de calor exhiben escalamiento sub-difusivo robusto ($`\beta = \  - 0.75`$ y $`\alpha = \ 0.43\  \pm 0.002`$, respectivamente), indicando memoria multiescala a largo plazo. Por el contrario, la prueba de control sísmica (absorbiendo ruido de inversión de sismogramas vía ODR) produce un exponente balístico matemáticamente perfecto de $`\alpha = \ 1.007\  \pm 0.016`$. Esto prueba conclusivamente que los fenómenos naturales extremos, ya sean atmosféricos, climáticos o tectónicos, son transiciones de fase determinísticas estrictamente gobernadas por escalamiento topológico multiescala.
 
 Adicionalmente, extendemos el marco RTM al fluido planetario más denso analizando la dinámica oceánica global y la turbulencia$`\rightarrow`$**(APÉNDICE E)**. Utilizando datos de altimetría satelital AVISO+ y más de 1,000 pares de derivadores globales, evaluamos el espectro de Energía Cinética (EC) mesoescalar y la dispersión turbulenta de pares. Para corregir estrictamente el inmenso ruido observacional inherente a las corrientes oceánicas y la deriva de sensores satelitales, desplegamos un modelo de Errores en Variables (ODR) y reconstrucciones Monte Carlo de varianza. El análisis robusto prueba que la dispersión oceánica de pares converge matemáticamente al límite teórico de Richardson ($`n\  = \ 2.913\  \pm 0.337`$), idéntico a la clase óptima de transporte de Vuelo de Lévy ($`\alpha = \ 3.0`$). Además, el espectro de EC corregido por varianza confirma que la energía fluida macroscópica no se disipa aleatoriamente, sino que cascadea a través de una jerarquía estricta de restricciones topológicas (pendiente ODR = -0.525). Esto confirma que los océanos operan como una red multiescala matemáticamente predecible e invariante de escala.
 
-Finalmente, validamos el marco RTM para la mejora operacional de alertas de tornados**→(APÉNDICE F)**. Utilizando el conjunto de datos de referencia TorNet 2021 (MIT Lincoln Laboratory) que comprende 1,105 registros de radar de 9 brotes mayores de tornados, demostramos que el exponente de escalamiento RTM (α) discrimina entre tornados confirmados (TOR) y alertas de falsa alarma (WRN) con un tamaño de efecto grande (d de Cohen = 0.96, p \< 10⁻⁴⁹). El marco se replica en 7 de 9 brotes (78%), con la correlación entre diferencial de rotación y tamaño de efecto alcanzando r = 0.96. Crucialmente, RTM no propone detección más temprana de tornados—los algoritmos de mesociclón ya logran alto POD. Más bien, α aborda el persistente problema de falsas alarmas (FAR ≈ 70%) identificando firmas de rotación que carecen de acoplamiento vorticial completo a través de escalas. Desplegado como filtro secundario, el umbral α \> 0.85 reduce FAR en 16 puntos porcentuales mientras mantiene 85% POD—igualando 30 años de mejora acumulada del NWS en una sola capa diagnóstica.
+Finalmente, validamos el marco RTM para la mejora operacional de alertas de tornados**→(APÉNDICE F)**. Utilizando el conjunto de datos de referencia TorNet 2021 (MIT Lincoln Laboratory) que comprende 1,105 registros de radar de 9 brotes mayores de tornados, demostramos que el exponente de escalamiento RTM (α) discrimina entre tornados confirmados (TOR) y alertas de falsa alarma (WRN) con un tamaño de efecto grande (d de Cohen = 0.96, p \< 10⁻⁴⁹). El marco se replica en 7 de 9 brotes (78%), con la correlación entre diferencial de rotación y tamaño de efecto alcanzando r = 0.96. Crucialmente, RTM no propone detección más temprana de tornados, los algoritmos de mesociclón ya logran alto POD. Más bien, α aborda el persistente problema de falsas alarmas (FAR ≈ 70%) identificando firmas de rotación que carecen de acoplamiento vorticial completo a través de escalas. Desplegado como filtro secundario, el umbral α \> 0.85 reduce FAR en 16 puntos porcentuales mientras mantiene 85% POD, igualando 30 años de mejora acumulada del NWS en una sola capa diagnóstica.
 
 **1. Introducción**
 
 **1.1 Motivación: el problema del pronóstico de inicio**
 
-El pronóstico operacional sobresale en el seguimiento de la **evolución** de sistemas bien formados pero aún lucha con el **inicio** de regímenes de alto impacto: ciclogénesis tropical e intensificación rápida (IR), ciclogénesis explosiva ("bombas meteorológicas"), y brotes de tornados. Estas transiciones son reorganizaciones multiescala en las que la **arquitectura de transporte**—cómo la energía, masa e información se propagan a través de escalas—cambia abruptamente. Los indicadores tradicionales (p. ej., umbrales de vorticidad, CAPE, cizalladura) capturan ingredientes pero no el **recableado** de rutas que permite el crecimiento rápido. Buscamos una señal compacta y cuantitativa de ese recableado.
+El pronóstico operacional sobresale en el seguimiento de la **evolución** de sistemas bien formados pero aún lucha con el **inicio** de regímenes de alto impacto: ciclogénesis tropical e intensificación rápida (IR), ciclogénesis explosiva ("bombas meteorológicas"), y brotes de tornados. Estas transiciones son reorganizaciones multiescala en las que la **arquitectura de transporte**, cómo la energía, masa e información se propagan a través de escalas, cambia abruptamente. Los indicadores tradicionales (p. ej., umbrales de vorticidad, CAPE, cizalladura) capturan ingredientes pero no el **recableado** de rutas que permite el crecimiento rápido. Buscamos una señal compacta y cuantitativa de ese recableado.
 
 **1.2 RTM en breve**
 
-La **Relatividad Temporal Multiescala (RTM)** establece que para un proceso confinado por una longitud efectiva $`L`$, el tiempo de completación característico $`T`$ sigue una ley de potencia $`T(L) = C\text{ }L^{\alpha}`$ sobre ventanas donde el mecanismo es estable. El exponente $`\alpha`$ es una **huella digital operacional** de la **clase de transporte**—difusiva, jerárquica/fractal, guiada/parcialmente balística, o (heurísticamente) fuertemente coherente. En dominios previos, la **estabilidad de pendiente**, el **colapso de datos** después de reescalar por $`L^{\alpha}`$, y los **desplazamientos discretos** de $`\alpha`$ bajo perturbaciones controladas sirven como firmas falsificables de que una única clase de transporte gobierna la dinámica observada.
+La **Relatividad Temporal Multiescala (RTM)** establece que para un proceso confinado por una longitud efectiva $`L`$, el tiempo de completación característico $`T`$ sigue una ley de potencia $`T(L) = C\text{ }L^{\alpha}`$ sobre ventanas donde el mecanismo es estable. El exponente $`\alpha`$ es una **huella digital operacional** de la **clase de transporte**, difusiva, jerárquica/fractal, guiada/parcialmente balística, o (heurísticamente) fuertemente coherente. En dominios previos, la **estabilidad de pendiente**, el **colapso de datos** después de reescalar por $`L^{\alpha}`$, y los **desplazamientos discretos** de $`\alpha`$ bajo perturbaciones controladas sirven como firmas falsificables de que una única clase de transporte gobierna la dinámica observada.
 
 **1.3 Especializando RTM a la atmósfera**
 
@@ -67,19 +67,19 @@ Más allá de los ciclones tropicales, extendimos esta validación a través de 
 
 Aunque la dinámica de ruptura sísmica no pertenece estrictamente a la meteorología, validar RTM requiere establecer una línea base física incuestionable. En la atmósfera, observamos fluidos altamente complejos buscando coherencia. Pero ¿qué sucede cuando aplicamos la ley de escalamiento a un sistema puramente mecánico desprovisto de retroalimentación fluida?
 
-Un terremoto—la propagación de una fractura a través de roca sólida—representa el sistema balístico ideal para esta prueba de estrés. Al aplicar Regresión de Distancia Ortogonal (ODR) para absorber el ruido típico de inversión sismográfica geofísica ($`\sim 15\%`$ de varianza), demostramos que RTM mapea la cinética lineal con precisión microscópica ($`\alpha = \ 1.007`$). Este colapso matemático perfecto a la física newtoniana nos otorga la autoridad para usar variaciones de este exponente exacto para predecir el caos no lineal de la ciclogénesis y los extremos climáticos.
+Un terremoto, la propagación de una fractura a través de roca sólida, representa el sistema balístico ideal para esta prueba de estrés. Al aplicar Regresión de Distancia Ortogonal (ODR) para absorber el ruido típico de inversión sismográfica geofísica ($`\sim 15\%`$ de varianza), demostramos que RTM mapea la cinética lineal con precisión microscópica ($`\alpha = \ 1.007`$). Este colapso matemático perfecto a la física newtoniana nos otorga la autoridad para usar variaciones de este exponente exacto para predecir el caos no lineal de la ciclogénesis y los extremos climáticos.
 
 **1.7. Validación Empírica Sistemática: Dinámica Oceánica Global y Fluidos Macroscópicos (APÉNDICE E)**
 
 La atmósfera y el océano son fluidos complejos fundamentalmente acoplados. Si el marco RTM gobierna la intensificación rápida de huracanes en la atmósfera, sus leyes de escalamiento topológico deben traducirse matemáticamente al fluido más denso y de movimiento más lento del océano global. Para someter el marco a esta prueba planetaria, analizamos la circulación oceánica macroscópica, enfocándonos en la dispersión turbulenta de pares (la ley $`t^{3}`$ de Richardson) y el espectro de Energía Cinética (EC) mesoescalar.
 
-Los datos oceanográficos—recolectados vía altimetría satelital y boyas derivadoras—contienen ruido sistémico masivo debido a cizalladura del viento, interacciones de olas y deriva instrumental. Los estudios heurísticos iniciales frecuentemente dependen de estimaciones puntuales estáticas que ignoran esta incertidumbre. Para aislar estrictamente las verdaderas leyes de escalamiento físico, desplegamos Regresión de Distancia Ortogonal (ODR) y simulaciones Monte Carlo para absorber hasta 15% de ruido de calibración. Los datos corregidos por varianza prueban robustamente que el océano se comporta como una red topológica determinística y multiescala, donde la dispersión turbulenta obedece perfectamente los límites de transporte macroscópico RTM.
+Los datos oceanográficos, recolectados vía altimetría satelital y boyas derivadoras, contienen ruido sistémico masivo debido a cizalladura del viento, interacciones de olas y deriva instrumental. Los estudios heurísticos iniciales frecuentemente dependen de estimaciones puntuales estáticas que ignoran esta incertidumbre. Para aislar estrictamente las verdaderas leyes de escalamiento físico, desplegamos Regresión de Distancia Ortogonal (ODR) y simulaciones Monte Carlo para absorber hasta 15% de ruido de calibración. Los datos corregidos por varianza prueban robustamente que el océano se comporta como una red topológica determinística y multiescala, donde la dispersión turbulenta obedece perfectamente los límites de transporte macroscópico RTM.
 
 **1.9. Validación Empírica Sistemática: Reducción de Falsas Alarmas en Alertas de Tornados (APÉNDICE F)**
 
-Uno de los desafíos operacionales más persistentes en el pronóstico de clima severo es el problema de falsas alarmas de tornados. A pesar de décadas de avance tecnológico—desde el despliegue del radar Doppler WSR-88D hasta las actualizaciones de doble polarización—la tasa de falsas alarmas del Servicio Meteorológico Nacional (NWS) para alertas de tornados ha permanecido obstinadamente alta, rondando el 70%. Este efecto de "gritar lobo" erosiona la confianza y cumplimiento público: cuando siete de cada diez alertas de tornado no se verifican, el valor protector del sistema de alertas se degrada.
+Uno de los desafíos operacionales más persistentes en el pronóstico de clima severo es el problema de falsas alarmas de tornados. A pesar de décadas de avance tecnológico, desde el despliegue del radar Doppler WSR-88D hasta las actualizaciones de doble polarización, la tasa de falsas alarmas del Servicio Meteorológico Nacional (NWS) para alertas de tornados ha permanecido obstinadamente alta, rondando el 70%. Este efecto de "gritar lobo" erosiona la confianza y cumplimiento público: cuando siete de cada diez alertas de tornado no se verifican, el valor protector del sistema de alertas se degrada.
 
-El desafío fundamental no es la detección—los algoritmos modernos de detección de mesociclones logran Probabilidad de Detección (POD) superior al 90%. El desafío es la discriminación: identificar qué tormentas rotatorias realmente producirán tornados en superficie versus aquellas que permanecerán elevadas o se disiparán. Los enfoques tradicionales dependen de umbrales basados en ingredientes (velocidad de rotación, CAPE, cizalladura), pero estos capturan potencial en lugar de organización realizada.
+El desafío fundamental no es la detección, los algoritmos modernos de detección de mesociclones logran Probabilidad de Detección (POD) superior al 90%. El desafío es la discriminación: identificar qué tormentas rotatorias realmente producirán tornados en superficie versus aquellas que permanecerán elevadas o se disiparán. Los enfoques tradicionales dependen de umbrales basados en ingredientes (velocidad de rotación, CAPE, cizalladura), pero estos capturan potencial en lugar de organización realizada.
 
 Bajo el marco RTM-Atmo, la formación de tornados se reconceptualiza como una transición de fase topológica. Un tornado requiere acoplamiento vorticial completo a través de escalas: desde el mesociclón padre (∼10 km) a través del vórtice a escala de tornado (∼100 m) hasta el contacto con la superficie. El exponente RTM α, calculado como:
 
@@ -89,7 +89,7 @@ Bajo el marco RTM-Atmo, la formación de tornados se reconceptualiza como una tr
 
 captura esta eficiencia de acoplamiento multiescala. α alto indica cascada de energía coherente desde la escala de tormenta hasta la superficie; α bajo indica acoplamiento incompleto donde la rotación existe en altura pero falla en organizarse hacia abajo.
 
-Para validar esta hipótesis, sometimos el marco al conjunto de datos de referencia TorNet 2021—una colección rigurosamente curada de datos de radar NEXRAD del MIT Lincoln Laboratory. Al desplegar la misma metodología de Errores en Variables utilizada a lo largo de este trabajo, demostramos que α proporciona discriminación estadísticamente robusta entre tornados confirmados y falsas alarmas, con el hallazgo crítico de que α funciona como una herramienta de reducción de FAR en lugar de un algoritmo de detección competidor.
+Para validar esta hipótesis, sometimos el marco al conjunto de datos de referencia TorNet 2021, una colección rigurosamente curada de datos de radar NEXRAD del MIT Lincoln Laboratory. Al desplegar la misma metodología de Errores en Variables utilizada a lo largo de este trabajo, demostramos que α proporciona discriminación estadísticamente robusta entre tornados confirmados y falsas alarmas, con el hallazgo crítico de que α funciona como una herramienta de reducción de FAR en lugar de un algoritmo de detección competidor.
 
 El único caso invertido (brote 210317) revela las condiciones de frontera físicas del marco: cuando la carga de precipitación anómala (KDP) domina la firma de radar, α mide la topología del campo de hidrometeoros en lugar del campo de vorticidad. Este modo de falla es diagnosticable desde el contexto polarimétrico, proporcionando un mecanismo de compuerta natural para el despliegue operacional.
 
@@ -166,7 +166,7 @@ Ejemplos (heurísticos):
 - **Rango inercial 3D** $`p = 5/3 \Rightarrow \alpha \approx 1/3`$ (decorrelación rápida; extremo guiado/advectivo).
 
 - **Cascada inversa 2D** $`p = 5/3 \Rightarrow \alpha \approx 1/3`$, mientras que **rango de enstrofía** $`p = 3 \Rightarrow \alpha \approx 1`$.\
-  $`\alpha`$ atmosférico grande ($`\gtrsim 2`$) por lo tanto indica **organización más allá del escalamiento inercial**—p. ej., estratificación, rotación, procesos húmedos, y coherencia estructural que extienden la persistencia más rápido de lo que predicen argumentos simples de cascada. Tratamos este mapeo como *diagnóstico*, no axiomático, y verificamos con pruebas de colapso.
+  $`\alpha`$ atmosférico grande ($`\gtrsim 2`$) por lo tanto indica **organización más allá del escalamiento inercial**, p. ej., estratificación, rotación, procesos húmedos, y coherencia estructural que extienden la persistencia más rápido de lo que predicen argumentos simples de cascada. Tratamos este mapeo como *diagnóstico*, no axiomático, y verificamos con pruebas de colapso.
 
 **2.5 Estimando** $`\mathbf{\alpha}_{\mathbf{atm}}`$**: ventanas y regresiones**
 
@@ -603,7 +603,7 @@ Las medias estacionales de $`{\widehat{\alpha}}_{atm}(x,y)`$ revelan cinturones 
 Los exponentes resueltos por capa muestran $`\alpha`$ **troposférico bajo** mayor sobre piscinas cálidas y corrientes de frontera occidental; los niveles superiores exhiben $`\alpha`$ aumentado en núcleos de jets. Índice de coherencia vertical (corr$`(\alpha_{925},\alpha_{500})`$) = $`\lbrack r\rbrack`$.
 
 **Colapso/estabilidad.**\
-A través de ventanas que pasan diagnósticos, el **puntaje de colapso** $`C`$ (reducción de varianza después de reescalar) tiene mediana $`\lbrack 0.xx\rbrack`$ (RIC $`\lbrack 0.xx\text{–}0.xx\rbrack`$) con **KS** $`p > 0.05`$ en $`\lbrack X\rbrack\%`$ de ventanas—consistente con una única clase de transporte localmente.
+A través de ventanas que pasan diagnósticos, el **puntaje de colapso** $`C`$ (reducción de varianza después de reescalar) tiene mediana $`\lbrack 0.xx\rbrack`$ (RIC $`\lbrack 0.xx\text{–}0.xx\rbrack`$) con **KS** $`p > 0.05`$ en $`\lbrack X\rbrack\%`$ de ventanas, consistente con una única clase de transporte localmente.
 
 **Figura 1.** *Climatología global de* $`\alpha_{atm}`$. (A) Media DJF de $`\widehat{\alpha}`$; (B) media JJA; (C) sección vertical (media zonal); (D) histograma y distribución de puntaje de colapso. El rayado sombreado marca regiones que fallan diagnósticos.
 
@@ -700,31 +700,31 @@ A través de reanálisis y archivos geoestacionarios, el campo $`\alpha_{atm}`$ 
 
 **6. Discusión**
 
-**6.1 ¿Qué mide** $`\mathbf{\alpha}_{\mathbf{atm}}`$ **—físicamente?**
+**6.1 ¿Qué mide** $`\mathbf{\alpha}_{\mathbf{atm}}`$ **, físicamente?**
 
 Dentro de RTM, el exponente $`\alpha`$ es una **huella digital operacional** de la clase de transporte que gobierna cómo la persistencia escala con el tamaño de característica. En la atmósfera, $`\alpha_{atm}`$ refleja la **interacción entre advección, cizalladura/deformación, rotación, estratificación y microfísica húmeda**:
 
-- $`\alpha \downarrow`$ **(hacia 1–2):** decorrelación más rápida con la escala—indicativo de regímenes **advectivos/filamentantes** donde la cizalladura y la frontogénesis fragmentan estructuras (zonas pre-frontales, hoja baroclínica, crecimiento de líneas convectivas).
+- $`\alpha \downarrow`$ **(hacia 1–2):** decorrelación más rápida con la escala, indicativo de regímenes **advectivos/filamentantes** donde la cizalladura y la frontogénesis fragmentan estructuras (zonas pre-frontales, hoja baroclínica, crecimiento de líneas convectivas).
 
 - $`\alpha \approx 2`$**:** persistencia **dominada por mezcla** (cuasi-difusiva) en fondo débilmente organizado.
 
-- $`\alpha \uparrow`$ **(**$`\gtrsim 2.5`$**):** **organización coherente**—confinamiento vorticial, capas estratificadas, guías de ondas nucleadas por jets o cintas transportadoras húmedas—donde las escalas más grandes viven desproporcionadamente más tiempo.
+- $`\alpha \uparrow`$ **(**$`\gtrsim 2.5`$**):** **organización coherente**, confinamiento vorticial, capas estratificadas, guías de ondas nucleadas por jets o cintas transportadoras húmedas, donde las escalas más grandes viven desproporcionadamente más tiempo.
 
 Por lo tanto, $`\alpha_{atm}`$ resume la **arquitectura de rutas**, complementaria a métricas de ingredientes como CAPE, $`\zeta`$, o cizalladura. Mide *cómo el sistema se mantiene unido a través de escalas*, no solo si los ingredientes existen.
 
 **6.2 Por qué las caídas de** $`\mathbf{\alpha}`$ **preceden los inicios**
 
-Antes de que un sistema reorganice hacia un nuevo régimen de alta intensidad (ciclón, IR, bomba), los mecanismos de transporte existentes frecuentemente se fragmentan: la cizalladura estira filamentos, la convección distribuye energía caóticamente, los frentes se agudizan pero el núcleo permanece sin consolidar. Esta fragmentación reduce $`\alpha`$. La caída señala una **transición de clase**—el sistema descartando su arquitectura de transporte antigua antes de converger hacia una nueva estructura coherente. Capturamos el **proceso de recableado** en lugar del resultado.
+Antes de que un sistema reorganice hacia un nuevo régimen de alta intensidad (ciclón, IR, bomba), los mecanismos de transporte existentes frecuentemente se fragmentan: la cizalladura estira filamentos, la convección distribuye energía caóticamente, los frentes se agudizan pero el núcleo permanece sin consolidar. Esta fragmentación reduce $`\alpha`$. La caída señala una **transición de clase**, el sistema descartando su arquitectura de transporte antigua antes de converger hacia una nueva estructura coherente. Capturamos el **proceso de recableado** en lugar del resultado.
 
 **6.6 Modos de fallo y casos límite**
 
 - **Artefactos de datos:** aliasing diurno en Tb, geometría de escaneo o remuestreo pueden distorsionar $`T`$. Nuestras auditorías (solo-noche, jitter de cuadrícula) son esenciales; el fallo allí invalida $`\alpha`$ local.
 
-- **Amplitud de escala insuficiente:** sin ≥1 década en $`L`$, las pendientes son inestables—marcar como **clase-inestable**, no mapear.
+- **Amplitud de escala insuficiente:** sin ≥1 década en $`L`$, las pendientes son inestables, marcar como **clase-inestable**, no mapear.
 
 - **Dinámica seca / topografía:** el forzamiento orográfico puede imitar organización; señales de $`\alpha`$ deben corroborarse con campos dinámicos (evitar conclusiones solo-Tb).
 
-- **Intercalado de regímenes:** múltiples mecanismos dentro de una ventana producen **α por partes**; forzar una única pendiente oscurece la firma—preferir ajustes por partes explícitos o ventanas más pequeñas.
+- **Intercalado de regímenes:** múltiples mecanismos dentro de una ventana producen **α por partes**; forzar una única pendiente oscurece la firma, preferir ajustes por partes explícitos o ventanas más pequeñas.
 
 **6.7 ¿Qué falsificaría RTM-Atmo?**
 
@@ -746,7 +746,7 @@ Antes de que un sistema reorganice hacia un nuevo régimen de alta intensidad (c
 
 **6.9 Implicaciones más amplias**
 
-Si se confirma, $`\alpha_{atm}`$ ofrece una capa **compacta, consciente del mecanismo** que reenmarca la predicción de inicio como **inferencia de clase de transporte**. Puede apoyar **nowcasting ML** (como característica físicamente interpretable), **post-procesamiento NWP** (para reponderar miembros durante pre-inicio), y **conciencia situacional** (identificando corredores de reorganización). Incluso si se refuta, publicar fallos preregistrados **ajustará los límites** sobre cuándo y dónde la organización multiescala gobierna el inicio—clarificando el espacio de interacción de turbulencia, rotación, estratificación y física húmeda.
+Si se confirma, $`\alpha_{atm}`$ ofrece una capa **compacta, consciente del mecanismo** que reenmarca la predicción de inicio como **inferencia de clase de transporte**. Puede apoyar **nowcasting ML** (como característica físicamente interpretable), **post-procesamiento NWP** (para reponderar miembros durante pre-inicio), y **conciencia situacional** (identificando corredores de reorganización). Incluso si se refuta, publicar fallos preregistrados **ajustará los límites** sobre cuándo y dónde la organización multiescala gobierna el inicio, clarificando el espacio de interacción de turbulencia, rotación, estratificación y física húmeda.
 
 **7. Operacionalización**
 
@@ -857,7 +857,7 @@ Definir una **Alerta RTM-Atmo** cuando todo lo siguiente se cumple simultáneame
 
 - Contexto: tercil de vorticidad/Eady, bandera SST, probabilidad de ensemble (si se fusiona).
 
-- **Nota en lenguaje llano:** "Una $`\alpha`$ cayendo indica que las estructuras se decorrelacionan más rápido con la escala—típico **antes** de ciclogénesis/IR/profundización explosiva. Si la señal rebota, la consolidación está en marcha."
+- **Nota en lenguaje llano:** "Una $`\alpha`$ cayendo indica que las estructuras se decorrelacionan más rápido con la escala, típico **antes** de ciclogénesis/IR/profundización explosiva. Si la señal rebota, la consolidación está en marcha."
 
 **Hacer/No hacer.**
 
@@ -1035,7 +1035,7 @@ Si se despliega públicamente, liberar código/configuraciones bajo licencia per
 
 **9. Conclusión**
 
-Introdujimos la **Meteorología Rítmica (RTM-Atmo)**—una aplicación del marco RTM en la cual el **exponente de escalamiento** $`\alpha_{atm}`$ cuantifica cómo la **persistencia** atmosférica crece con la **escala de característica** a través del espacio, tiempo, variables y niveles. Conceptualmente, $`\alpha_{atm}`$ actúa como un **indicador de clase de transporte**: valores altos marcan flujo **coherente, organizado** (vorticial/estratificado/guiado por jets), mientras que **excursiones negativas rápidas** ($`\Delta\alpha\text{ } \downarrow`$) señalan **fragmentación y cambio de clase** que frecuentemente preceden **eventos de inicio** (ciclogénesis tropical, intensificación rápida, desarrollo baroclínico explosivo).
+Introdujimos la **Meteorología Rítmica (RTM-Atmo)**, una aplicación del marco RTM en la cual el **exponente de escalamiento** $`\alpha_{atm}`$ cuantifica cómo la **persistencia** atmosférica crece con la **escala de característica** a través del espacio, tiempo, variables y niveles. Conceptualmente, $`\alpha_{atm}`$ actúa como un **indicador de clase de transporte**: valores altos marcan flujo **coherente, organizado** (vorticial/estratificado/guiado por jets), mientras que **excursiones negativas rápidas** ($`\Delta\alpha\text{ } \downarrow`$) señalan **fragmentación y cambio de clase** que frecuentemente preceden **eventos de inicio** (ciclogénesis tropical, intensificación rápida, desarrollo baroclínico explosivo).
 
 Metodológicamente, especificamos un **pipeline reproducible**: extracción de características multiescala (wavelets/objetos), regresiones en ventana de $`\log T`$ sobre $`\log L`$, **cuantificación de incertidumbre** (bootstrap, errores en variables), y **diagnósticos de colapso** que verifican comportamiento de mecanismo único. Definimos **experimentos preregistrados** (E1–E4) para evaluar valor precursor relativo a persistencia y predictores estándar, fondos estratificados por fase, y fusión operacional con ensembles. El capítulo de **operacionalización** detalló productos en tiempo real (mapas, anomalías, capas de confianza), compuertas de CC, lógica de alertas, y un plan de gobernanza enfatizando transparencia, calibración y comunicación ética.
 
@@ -1050,7 +1050,7 @@ Si los experimentos confirman nuestras predicciones, $`\alpha_{atm}`$ ofrece una
 
 **Trabajo futuro** incluye (i) ventanas adaptativas y **α por partes** para resolver mecanismos mixtos, (ii) validación entre sensores (vientos de escaterómetro, sondeadores de microondas, compuestos de radar), (iii) acoplamiento de RTM-Atmo a **asimilación de datos** (priors dependientes de flujo) y **nowcasting ML** como característica interpretable, y (iv) extensión a hidrología y clima de incendios forestales donde los cambios de clase de transporte también preceden cambios rápidos de régimen.
 
-En resumen, RTM-Atmo reenmarca la predicción de inicio como **inferencia de clase de transporte**. Ya sea confirmado o refutado, proporciona un **puente comprobable, orientado operacionalmente** entre turbulencia, dinámica húmeda y soporte a decisiones—convirtiendo la organización multiescala en conciencia accionable para pronosticadores.
+En resumen, RTM-Atmo reenmarca la predicción de inicio como **inferencia de clase de transporte**. Ya sea confirmado o refutado, proporciona un **puente comprobable, orientado operacionalmente** entre turbulencia, dinámica húmeda y soporte a decisiones, convirtiendo la organización multiescala en conciencia accionable para pronosticadores.
 
 **10. Información Suplementaria**
 
@@ -1531,7 +1531,7 @@ Al examinar eventos extremos localizados, el marco RTM prueba que las anomalías
 
 La atmósfera y el océano son fluidos complejos fundamentalmente acoplados. Si RTM gobierna la intensificación de huracanes en la atmósfera, sus leyes de escalamiento topológico deben traducirse al océano más denso y de movimiento más lento. Sometimos el marco a esta prueba planetaria analizando la dispersión turbulenta de pares (la ley t³ de Richardson) y el espectro de Energía Cinética (EC) mesoescalar.
 
-Los datos oceanográficos—recolectados vía altimetría satelital AVISO+ y boyas derivadoras—contienen ruido sistémico masivo de cizalladura del viento, interacciones de olas y deriva instrumental. Para aislar el verdadero escalamiento físico, desplegamos Regresión de Distancia Ortogonal (ODR) y reconstrucción de varianza Monte Carlo.
+Los datos oceanográficos, recolectados vía altimetría satelital AVISO+ y boyas derivadoras, contienen ruido sistémico masivo de cizalladura del viento, interacciones de olas y deriva instrumental. Para aislar el verdadero escalamiento físico, desplegamos Regresión de Distancia Ortogonal (ODR) y reconstrucción de varianza Monte Carlo.
 
 **E.2. Dispersión de Richardson: La Ley t³**
 
@@ -1575,7 +1575,7 @@ El espectro de EC mesoescalar describe cómo la energía cinética se distribuye
 
 \| **\*\*ODR Robusto\*\*** \| **\*\*-0.525\*\*** \| **\*\*±0.038\*\*** \|
 
-La pendiente corregida por varianza confirma que la energía fluida macroscópica no se disipa aleatoriamente. En cambio, cascadea a través de una jerarquía estricta de restricciones topológicas—desde turbulencia submesoescalar (10 km) a través de remolinos mesoescalares (100-300 km) hasta circulación a escala de cuenca (\>1000 km).
+La pendiente corregida por varianza confirma que la energía fluida macroscópica no se disipa aleatoriamente. En cambio, cascadea a través de una jerarquía estricta de restricciones topológicas, desde turbulencia submesoescalar (10 km) a través de remolinos mesoescalares (100-300 km) hasta circulación a escala de cuenca (\>1000 km).
 
 **E.4. Interpretación RTM**
 
@@ -1593,7 +1593,7 @@ La pendiente corregida por varianza confirma que la energía fluida macroscópic
 
 2\. **Las cascadas de energía están topológicamente restringidas:** El espectro robusto de EC prueba que la transferencia de energía entre escalas no es estocástica sino que sigue reglas geométricas determinísticas.
 
-3\. **Los fluidos macroscópicos son redes invariantes de escala:** Ambas métricas confirman que el océano opera como un sistema multiescala matemáticamente predecible—la misma arquitectura topológica que gobierna la organización atmosférica.
+3\. **Los fluidos macroscópicos son redes invariantes de escala:** Ambas métricas confirman que el océano opera como un sistema multiescala matemáticamente predecible, la misma arquitectura topológica que gobierna la organización atmosférica.
 
 **E.5. Falsificabilidad**
 
@@ -1643,7 +1643,7 @@ d de Cohen = **0.96**, p = 2.03 × 10⁻⁴⁹
 
 \| Invertido \| 1 \| 11% \|
 
-**Hallazgo crítico:** La correlación entre (VEL_TOR − VEL_WRN) y d de Cohen es **r = 0.96**. Esto revela el mecanismo: α discrimina cuando los tornados exhiben rotación más fuerte que las falsas alarmas—precisamente cuando el marco debería funcionar.
+**Hallazgo crítico:** La correlación entre (VEL_TOR − VEL_WRN) y d de Cohen es **r = 0.96**. Esto revela el mecanismo: α discrimina cuando los tornados exhiben rotación más fuerte que las falsas alarmas, precisamente cuando el marco debería funcionar.
 
 **F.4. Reducción de FAR**
 
@@ -1671,7 +1671,7 @@ El único brote invertido (d = -0.68) exhibió firmas de precipitación anómala
 
 \| **210317** \| 5.86 \| **6.74** \|
 
-Las falsas alarmas tenían mayor rotación (VEL = 49.5 vs 42.9 m/s) Y mayor carga de precipitación (KDP = 6.74, más alto en el conjunto de datos). El marco RTM detectó acoplamiento coherente—pero del núcleo de precipitación, no del campo de vorticidad. Este modo de fallo es diagnosticable vía umbrales de KDP.
+Las falsas alarmas tenían mayor rotación (VEL = 49.5 vs 42.9 m/s) Y mayor carga de precipitación (KDP = 6.74, más alto en el conjunto de datos). El marco RTM detectó acoplamiento coherente, pero del núcleo de precipitación, no del campo de vorticidad. Este modo de fallo es diagnosticable vía umbrales de KDP.
 
 **F.6. Validación Multivariable**
 
