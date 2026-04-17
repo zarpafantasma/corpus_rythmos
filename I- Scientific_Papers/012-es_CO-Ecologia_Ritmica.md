@@ -13,7 +13,7 @@
 
 Los ecosistemas no simplemente "tienen" tiempos característicos; los componen a través de escalas. Proponemos la Ecología Rítmica (RTM-Eco), un marco de pendiente primaria que modela el tempo ecosistémico mediante la ley de escala τ ∝ L^α, donde L es un proxy de tamaño apropiado a la capa (área de parche quemado, tamaño de cuenca, profundidad trófica, escala de red de hábitat), τ es un tiempo característico (recuperación a la línea base pre-perturbación, tiempo de ciclado de nutrientes, tiempo de recolonización), y α es un exponente de coherencia que captura la organización multiescala del sistema. Dentro de contenedores de coherencia (segmentos ambientales con forzamiento cuasi-constante), probamos si los datos ecosistémicos colapsan a una ley de potencias, estimamos α con métodos de errores en variables, y fusionamos pendientes aceptadas entre familias de procesos para construir un Índice de Coherencia Ecosistémica (ECI) en tiempo real.
 
-**Validación computacional.** Implementamos y probamos el marco RTM-Eco mediante tres suites de simulación. S1 demuestra el escalamiento τ(L) para la recuperación del NDVI post-incendio en cinco tipos de ecosistemas, mostrando que α varía característicamente por bioma (bosque boreal α≈0.35, pastizal α≈0.22, matorral mediterráneo α≈0.28), con α recuperable de datos satelitales ruidosos con 0.7% de error. S2 aplica RTM-Eco a la hidrología de cuencas, computando el escalamiento del tiempo de residencia en cinco tipos de cuencas (humedal α≈0.55, urbano α≈0.25), y deriva un Índice de Coherencia Ecosistémica (ECI) que clasifica sistemas por resiliencia: humedales (ECI=0.86) \>\> tierras bajas forestadas (0.61) \>\> agrícola (0.24) \>\> urbano (0.11). S3 valida la Hipótesis H2—que el declive de α anticipa cambios de régimen—modelando escenarios de degradación ecosistémica (desertificación forestal, eutrofización lacustre, blanqueamiento coralino, invasión de pastizales), encontrando que el declive de α proporciona 4-11 años de alerta temprana antes del colapso de la variable de estado.
+**Validación computacional.** Implementamos y probamos el marco RTM-Eco mediante tres suites de simulación. S1 demuestra el escalamiento τ(L) para la recuperación del NDVI post-incendio en cinco tipos de ecosistemas, mostrando que α varía característicamente por bioma (bosque boreal α≈0.35, pastizal α≈0.22, matorral mediterráneo α≈0.28), con α recuperable de datos satelitales ruidosos con 0.7% de error. S2 aplica RTM-Eco a la hidrología de cuencas, computando el escalamiento del tiempo de residencia en cinco tipos de cuencas (humedal α≈0.55, urbano α≈0.25), y deriva un Índice de Coherencia Ecosistémica (ECI) que clasifica sistemas por resiliencia: humedales (ECI=0.86) \>\> tierras bajas forestadas (0.61) \>\> agrícola (0.24) \>\> urbano (0.11). S3 valida la Hipótesis H2, que el declive de α anticipa cambios de régimen, modelando escenarios de degradación ecosistémica (desertificación forestal, eutrofización lacustre, blanqueamiento coralino, invasión de pastizales), encontrando que el declive de α proporciona 4-11 años de alerta temprana antes del colapso de la variable de estado.
 
 Formulamos hipótesis falsificables: (H1) mayor α predice recuperación más ordenada; (H2) declives significativos de α anticipan cambios de régimen; (H3) curvas maestras emergen dentro de contenedores entre clases de perturbación. El marco complementa las métricas clásicas de resiliencia al convertir la geometría del tempo en una señal medible, robusta a unidades, para monitoreo, alerta temprana y diseño de conservación.
 
@@ -21,17 +21,17 @@ Formulamos hipótesis falsificables: (H1) mayor α predice recuperación más or
 
 Además, validamos el marco de transporte RTM en dinámica poblacional macroscópica mediante un análisis masivo de más de 4,500 series temporales de la Base de Datos Global de Dinámica Poblacional (GPDD) y meta-análisis de la Ley de Potencias de Taylor$`\mathbf{\rightarrow}`$**(APÉNDICE C)**. Para prevenir falacias ecológicas de estimación puntual, utilizamos simulaciones de Monte Carlo para reconstruir la verdadera varianza biológica. El análisis robusto demuestra conclusivamente que el 99.7% de las poblaciones biológicas evitan estrictamente las fluctuaciones aleatorias (Poisson), auto-organizándose en cambio en Dinámica de Transporte Crítico caracterizada por ruido rosa $`1\text{/}f`$ ($`\beta = \ 0.82`$). Además, los datos empíricos de riesgo de extinción escalan impecablemente con las predicciones topológicas teóricas de RTM (pendiente predictiva ODR $`= \ 0.92\  \pm 0.02`$). Esto prueba definitivamente que el colapso ecológico es fundamentalmente una transición de fase topológica que ocurre al borde del caos.
 
-Finalmente, extendemos el marco RTM a redes socio-ecológicas humanas mediante un análisis de la dinámica de propagación global del COVID-19 (APÉNDICE D). Los modelos epidemiológicos iniciales frecuentemente asumen difusión espacial homogénea (modelos SIR clásicos) y tratan los datos de salud pública como estimaciones puntuales perfectas. Para corregir rigurosamente los sesgos de atenuación severos—específicamente, una varianza masiva de $`\sim 20\%`$ en el subreporte global de casos—desplegamos un modelo de Errores en Variables (ODR) a través de las distribuciones pandémicas de 100 naciones. El análisis robusto revela un exponente topológico libre de escala de $`\alpha = 0.953 \pm 0.044`$, prácticamente idéntico al atractor teórico de Zipf ($`\alpha \approx 1.0`$) para redes libres de escala. Además, las simulaciones de varianza de Monte Carlo del parámetro de sobredispersión producen $`k = 0.226 \pm 0.131`$. Porque $`k\  \ll 1`$, esto rechaza matemáticamente la transmisión Poisson homogénea, confirmando que el virus explota centros "super-propagadores" hiper-conectados. Esto prueba que las pandemias globales no operan como difusiones térmicas clásicas, sino como fenómenos de transporte topológico altamente asimétricos y de cola pesada.
+Finalmente, extendemos el marco RTM a redes socio-ecológicas humanas mediante un análisis de la dinámica de propagación global del COVID-19 (APÉNDICE D). Los modelos epidemiológicos iniciales frecuentemente asumen difusión espacial homogénea (modelos SIR clásicos) y tratan los datos de salud pública como estimaciones puntuales perfectas. Para corregir rigurosamente los sesgos de atenuación severos, específicamente, una varianza masiva de $`\sim 20\%`$ en el subreporte global de casos, desplegamos un modelo de Errores en Variables (ODR) a través de las distribuciones pandémicas de 100 naciones. El análisis robusto revela un exponente topológico libre de escala de $`\alpha = 0.953 \pm 0.044`$, prácticamente idéntico al atractor teórico de Zipf ($`\alpha \approx 1.0`$) para redes libres de escala. Además, las simulaciones de varianza de Monte Carlo del parámetro de sobredispersión producen $`k = 0.226 \pm 0.131`$. Porque $`k\  \ll 1`$, esto rechaza matemáticamente la transmisión Poisson homogénea, confirmando que el virus explota centros "super-propagadores" hiper-conectados. Esto prueba que las pandemias globales no operan como difusiones térmicas clásicas, sino como fenómenos de transporte topológico altamente asimétricos y de cola pesada.
 
 **1. Introducción**
 
 **1.1 Motivación: la geometría faltante del tiempo ecológico**
 
-La ecología abunda en tasas, rezagos y ciclos—desde la recuperación post-incendio y las oscilaciones poblacionales hasta el recambio biogeoquímico y la recolonización metapoblacional. Sin embargo, estos tiempos frecuentemente se tratan **localmente** (por sitio, por especie) en lugar de como una **geometría multiescala del tempo**. Los gestores necesitan señales que: (i) sean **robustas a unidades** entre sensores y métodos, (ii) integren **entre procesos** (vegetación, nutrientes, movimiento), y (iii) sean **falsificables** y auditables. RTM-Eco responde a esta necesidad enfocándose en la **pendiente**—cómo el tiempo característico se estira con el tamaño—en lugar de en relojes que dependen de unidades y líneas base.
+La ecología abunda en tasas, rezagos y ciclos, desde la recuperación post-incendio y las oscilaciones poblacionales hasta el recambio biogeoquímico y la recolonización metapoblacional. Sin embargo, estos tiempos frecuentemente se tratan **localmente** (por sitio, por especie) en lugar de como una **geometría multiescala del tempo**. Los gestores necesitan señales que: (i) sean **robustas a unidades** entre sensores y métodos, (ii) integren **entre procesos** (vegetación, nutrientes, movimiento), y (iii) sean **falsificables** y auditables. RTM-Eco responde a esta necesidad enfocándose en la **pendiente**, cómo el tiempo característico se estira con el tamaño, en lugar de en relojes que dependen de unidades y líneas base.
 
 **1.2 Del escalamiento clásico a un marco de pendiente primaria**
 
-El escalamiento clásico relaciona patrón y proceso (ej., especies–área, doseles fractales, tamaños de incendio en ley de potencias), pero el monitoreo operacional aún se apoya en umbrales con reloj (días desde el incendio, percentiles de recuperación fijos). RTM (Relatividad Temporal Multiescala) reenmarca el problema: dentro de un segmento ambiental donde las condiciones extrínsecas son efectivamente constantes, el par $(L, T)$ sigue una ley de potencias con exponente de coherencia $\alpha$, mientras que el intercepto es un calibre (un reloj que puede cambiar con unidades o líneas base sin alterar la pendiente). La especialización ecológica—RTM-Eco—instancia esto con $L$ y $T$ ecológicos, define contenedores de coherencia, y trata el colapso (sin tendencia residual después de remover la pendiente ajustada) como una prueba de especificación para comportamiento tipo ley de potencias.
+El escalamiento clásico relaciona patrón y proceso (ej., especies–área, doseles fractales, tamaños de incendio en ley de potencias), pero el monitoreo operacional aún se apoya en umbrales con reloj (días desde el incendio, percentiles de recuperación fijos). RTM (Relatividad Temporal Multiescala) reenmarca el problema: dentro de un segmento ambiental donde las condiciones extrínsecas son efectivamente constantes, el par $(L, T)$ sigue una ley de potencias con exponente de coherencia $\alpha$, mientras que el intercepto es un calibre (un reloj que puede cambiar con unidades o líneas base sin alterar la pendiente). La especialización ecológica, RTM-Eco, instancia esto con $L$ y $T$ ecológicos, define contenedores de coherencia, y trata el colapso (sin tendencia residual después de remover la pendiente ajustada) como una prueba de especificación para comportamiento tipo ley de potencias.
 
 **1.3 Conceptos y definiciones clave**
 
@@ -52,7 +52,7 @@ Ambos ejes son ruidosos (mapear áreas, temporizar recuperación), así que los 
 **1.5 Hipótesis y valor práctico**
 
 Pre-registramos tres afirmaciones falsificables:\
-**H1 (Resiliencia):** mayor $`\alpha_{eco}`$ corresponde a perfiles de recuperación *más ordenados* (amortiguados ante choques) a través de escalas—incluso si el $`T`$ absoluto aumenta—porque los gradientes de tempo dificultan las cascadas de sincronización.\
+**H1 (Resiliencia):** mayor $`\alpha_{eco}`$ corresponde a perfiles de recuperación *más ordenados* (amortiguados ante choques) a través de escalas, incluso si el $`T`$ absoluto aumenta, porque los gradientes de tempo dificultan las cascadas de sincronización.\
 **H2 (Decoherencia):** declives agudos en $`\alpha_{eco}`$ prefiguran **cambios de régimen** (ej., bosque→matorral, estados claro→turbio) y aparecerán como caídas *limpias* en $`{ECI}_{Eco}(t)`$ cuando la heterogeneidad es baja.\
 **H3 (Curvas maestras):** dentro de un BIN, $`T_{\text{rec}}`$ colapsa sobre $`L^{\alpha_{eco}}`$ a través de tipos de perturbación de la misma familia (ej., severidades de incendio), habilitando **comparabilidad entre sitios**.
 
@@ -105,7 +105,7 @@ Un **BIN** es un subconjunto máximo de registros que satisface etiquetas de amb
 \text{BIN} = \{\text{bioma, banda estacional, régimen de manejo, clase de anomalía climática, conjunto de sensores}\}.
 ```
 
-Cualquier cambio en etiquetas—nueva estación, cambio de manejo, conjunto de sensores—**crea un nuevo BIN**.
+Cualquier cambio en etiquetas, nueva estación, cambio de manejo, conjunto de sensores, **crea un nuevo BIN**.
 
 **Compuerta de cobertura.** Un BIN es elegible para estimación de pendiente solo si contiene $`\geq 6`$ valores **distintos** de $`L`$ que abarcan $`\geq 0.6`$ en $`u = \log L`$.
 
@@ -186,7 +186,7 @@ y requerimos $`I^{2} < 50\%`$ para publicar un número único (de lo contrario r
 
 - **Alta heterogeneidad (DIVERGENCIA_FAMILIA).** $`I^{2} \geq 50\%`$: **no** fusionar; publicar $`{\widehat{\alpha}}_{f}`$ por familia e investigar mecanismos.
 
-**2.8 Qué** $`\mathbf{\alpha}_{\mathbf{eco}}`$ **significa—y qué no**
+**2.8 Qué** $`\mathbf{\alpha}_{\mathbf{eco}}`$ **significa, y qué no**
 
 - **Sí:** cuantifica el **gradiente de tempo** a través de escalas dentro de un BIN; mayor $`\alpha_{eco}`$ significa que agregados más grandes se ralentizan relativamente más, lo que frecuentemente **amortigua** cascadas de sincronización después de choques (recuperación más ordenada).
 
@@ -324,7 +324,7 @@ con **pre** calculado en una ventana de 2–3 años, enmascarado de nubes, empar
 
 Cuando existen múltiples candidatos de $`L`$ o $`T`$, pre-registrar un **primario** y conducir:
 
-- **Concordancia entre proxies.** Calcular $`\widehat{\alpha}`$ bajo alternativas (ej., $`L =`$ área vs. tamaño efectivo basado en perímetro); esperar diferencias en $`\kappa`$, no en $`\alpha`$—si el colapso se mantiene.
+- **Concordancia entre proxies.** Calcular $`\widehat{\alpha}`$ bajo alternativas (ej., $`L =`$ área vs. tamaño efectivo basado en perímetro); esperar diferencias en $`\kappa`$, no en $`\alpha`$, si el colapso se mantiene.
 
 - **Cordura mecanística.** Verificar que cambiar el **reloj** (normalización del sensor) no cambia $`\widehat{\alpha}`$; si lo hace, su proxy probablemente incorpora un reloj oculto.
 
@@ -613,7 +613,7 @@ Esta sección convierte los fundamentos (Secs. 2–4) en **recetas de construcci
 
 - **Pendientes espectrales** (RS): espectros de potencia de campos de NDVI/biomasa; verificar consistencia entre exponentes espectrales y bandas de $`\widehat{\alpha}`$ cualitativamente (no fusionar a menos que se cumpla el criterio de colapso).
 
-- **Diversidad/conectividad**: Shannon/Simpson, modularidad $`Q_{\text{mod}}`$; usar como **covariables** para explicar variación en $`\kappa`$ o como estratificadores para BINs—no como $`L`$ a menos que esté pre-registrado.
+- **Diversidad/conectividad**: Shannon/Simpson, modularidad $`Q_{\text{mod}}`$; usar como **covariables** para explicar variación en $`\kappa`$ o como estratificadores para BINs, no como $`L`$ a menos que esté pre-registrado.
 
 **5.6 Productos de datos y reproducibilidad**
 
@@ -706,7 +706,7 @@ $`T`$**.** Tiempo a 50% de decaimiento del pulso de nutrientes ($`{NO}_{3}^{-}`$
 
 - Primario: $`{\widehat{\alpha}}_{nut}`$.
 
-- Secundario (H2): adelanto/rezago **estilo Granger**—¿$`\Delta^{-}\widehat{\alpha}`$ precede cambios a estados turbios?
+- Secundario (H2): adelanto/rezago **estilo Granger**, ¿$`\Delta^{-}\widehat{\alpha}`$ precede cambios a estados turbios?
 
 **Decisión.** H2 apoyada si $`\Delta\widehat{\alpha} \leq - \theta`$ predice indicadores de cambio de régimen con AUC ≥0.70 a $`I^{2} < 50\%`$.
 
@@ -1040,11 +1040,11 @@ Para cada repositorio de estudio de caso:
 
 - **Cuándo RTM-Eco funciona.** Forzamiento estable dentro de BINs; cobertura multiescala clara; relojes desacoplados de $`L`$. Colapsos son comunes; bandas de $`\alpha`$ estables; fusión significativa.
 
-- **Cuándo no.** Relojes estacionales/de eventos fuertes embebidos en $`T`$ o $`L`$; regímenes por tramos; cobertura escasa—esperar **NO_COLAPSO/MEZCLA_RÉGIMEN** y publicar como **límites de alcance**.
+- **Cuándo no.** Relojes estacionales/de eventos fuertes embebidos en $`T`$ o $`L`$; regímenes por tramos; cobertura escasa, esperar **NO_COLAPSO/MEZCLA_RÉGIMEN** y publicar como **límites de alcance**.
 
 - **Valor agregado.** Incluso los negativos son informativos: **mapean los límites** del tempo invariante de escala y apuntan a mecanismos (ej., sistemas dominados por hidrología) donde los modelos mecanísticos deberían tomar la delantera.
 
-**Resumen.** Estos casos demuestran cómo RTM-Eco puede desplegarse de extremo a extremo—desde **extracción de proxy** hasta **compuertas de colapso**, desde **fusión** hasta **alertas y guías de acción**—y, igualmente importante, cómo reconocer y publicar **límites de alcance**. A continuación, la Sección 9 proporciona **Plantillas de resultados y estándares de reporte** para hacer la comparación entre estudios directa y auditable.
+**Resumen.** Estos casos demuestran cómo RTM-Eco puede desplegarse de extremo a extremo, desde **extracción de proxy** hasta **compuertas de colapso**, desde **fusión** hasta **alertas y guías de acción**, y, igualmente importante, cómo reconocer y publicar **límites de alcance**. A continuación, la Sección 9 proporciona **Plantillas de resultados y estándares de reporte** para hacer la comparación entre estudios directa y auditable.
 
 **9. Plantillas de Resultados y Estándares de Reporte**
 
@@ -1189,7 +1189,7 @@ Para cada **NO_COLAPSO / MEZCLA_RÉGIMEN / COBERTURA_ESCASA**:
 
 > *Dentro de \[etiquetas de BIN\], la recuperación de vegetación colapsó sobre* $`T_{\text{rec}} \propto L^{\alpha}`$*(ODR* $`\widehat{\alpha} = 2.31\text{ }\lbrack 2.17,2.45\rbrack`$*;* $`R_{\text{colapso}}^{2} = 0.018`$*; placebo pasado). Los pulsos de nutrientes produjeron* $`\widehat{\alpha} = 2.05\text{ }\lbrack 1.83,2.28\rbrack`$*(colapso pasado). Movimiento falló colapso (0.061) y fue marcado NO_COLAPSO. La fusión de efectos aleatorios (REML) de vegetación+nutrientes produjo* $`{\widehat{\alpha}}_{Eco} = 2.27`$*(EE 0.07),* $`I^{2} = 19\%`$*. El ECI móvil cruzó el nivel de Alerta (Z=−2.67) con baja heterogeneidad; la fusión permaneció activa.*
 
-**Resumen.** Estas plantillas estandarizan cómo los resultados de RTM-Eco se **muestran y auditan**. Adoptarlas (más el hash de YAML) hace la comparación multi-sitio, revisión por pares y replicación directas—y convierte "ritmo" de metáfora en **evidencia operacional**.
+**Resumen.** Estas plantillas estandarizan cómo los resultados de RTM-Eco se **muestran y auditan**. Adoptarlas (más el hash de YAML) hace la comparación multi-sitio, revisión por pares y replicación directas, y convierte "ritmo" de metáfora en **evidencia operacional**.
 
 **10. Discusión**
 
@@ -1215,7 +1215,7 @@ Sin embargo, un $`\alpha`$ mayor **no** garantiza recuperación absoluta más r�
 
 - **Alometría y fractales.** Muchas tasas ecológicas obedecen leyes de potencias (ej., escalamiento metabólico). RTM-Eco **re-centra** el análisis en la **pendiente** bajo **pruebas de colapso** y **estimación EIV**, protegiendo contra leyes de potencias espurias y dependencia de unidades.
 
-- **Conectividad y modularidad.** La teoría de redes vincula modularidad con robustez. RTM-Eco predice que **modularidad moderada** frecuentemente eleva $`\alpha`$ (al prevenir sincronía sistémica) mientras que modularidad excesiva puede perjudicar el rendimiento—de ahí las palancas de diseño en Sec. 7.5.
+- **Conectividad y modularidad.** La teoría de redes vincula modularidad con robustez. RTM-Eco predice que **modularidad moderada** frecuentemente eleva $`\alpha`$ (al prevenir sincronía sistémica) mientras que modularidad excesiva puede perjudicar el rendimiento, de ahí las palancas de diseño en Sec. 7.5.
 
 **10.3 Bosquejos mecanísticos detrás de** $`\mathbf{\alpha}_{\mathbf{eco}}`$
 
@@ -1233,7 +1233,7 @@ Estos bosquejos motivan intervenciones (escalonamiento de corredores, heterogene
 
 **10.4 Por qué importa el "colapso" (más allá de la calidad del ajuste)**
 
-En ecología, muchas leyes de potencias reportadas resultan de **linealización log–log** sin verificaciones de modelo. El colapso eleva la afirmación de "una línea ajusta" a "**no queda estructura residual sistemática** después de remover la pendiente y cambiar relojes". Es una **prueba de especificación**: los estados de falla (NO_COLAPSO, MEZCLA_RÉGIMEN) son **resultados**, no molestias—apuntando a **relojes ocultos**, **quiebres**, o **límites de alcance** donde los modelos mecanísticos deberían tomar precedencia.
+En ecología, muchas leyes de potencias reportadas resultan de **linealización log–log** sin verificaciones de modelo. El colapso eleva la afirmación de "una línea ajusta" a "**no queda estructura residual sistemática** después de remover la pendiente y cambiar relojes". Es una **prueba de especificación**: los estados de falla (NO_COLAPSO, MEZCLA_RÉGIMEN) son **resultados**, no molestias, apuntando a **relojes ocultos**, **quiebres**, o **límites de alcance** donde los modelos mecanísticos deberían tomar precedencia.
 
 **10.5 Ética de fusión: cuándo un indicador único está justificado**
 
@@ -1273,7 +1273,7 @@ Todas las acciones deben evaluarse con **Efectos Mínimos Detectables** pre-regi
 
 La trayectoria principal de investigación es (i) ensamblar **conjuntos de datos multi-familia, co-localizados** con registros estrictos de BIN, (ii) estandarizar **artefactos de colapso** y **métodos YAML**, (iii) ejecutar **pruebas de intervención** que intenten **ingeniar** $`\alpha`$ (escalonamiento de corredores, heterogeneidad de mosaico), y (iv) comparar cambios de $`\alpha`$ contra métricas **clásicas de alerta temprana** para clarificar complementariedades.
 
-**Resumen.** RTM-Eco reenmarca el tiempo ecológico como una **pendiente invariante de calibre** dentro de regímenes coherentes, respaldada por **colapso falsificable** y **fusión controlada por heterogeneidad**. Su novedad reside no en postular otra ley de potencias sino en **hacer la geometría del tempo operacional**, auditable, y directamente mapeable a **palancas de diseño**—mientras trata las fallas como límites informativos en lugar de anomalías a suavizar.
+**Resumen.** RTM-Eco reenmarca el tiempo ecológico como una **pendiente invariante de calibre** dentro de regímenes coherentes, respaldada por **colapso falsificable** y **fusión controlada por heterogeneidad**. Su novedad reside no en postular otra ley de potencias sino en **hacer la geometría del tempo operacional**, auditable, y directamente mapeable a **palancas de diseño**, mientras trata las fallas como límites informativos en lugar de anomalías a suavizar.
 
 **11. Limitaciones y Alcance**
 
@@ -1281,7 +1281,7 @@ RTM-Eco es **fenomenológico** y **local al contenedor**. Su valor depende de qu
 
 **11.1 Localidad y dependencia de régimen**
 
-**Qué es.** $`\alpha_{eco}`$ se define **dentro de un contenedor de coherencia (BIN)**—un segmento con forzamiento cuasi-constante (bioma, estación, manejo, conjunto de sensores, clase de anomalía).
+**Qué es.** $`\alpha_{eco}`$ se define **dentro de un contenedor de coherencia (BIN)**, un segmento con forzamiento cuasi-constante (bioma, estación, manejo, conjunto de sensores, clase de anomalía).
 
 **Implicaciones.**
 
@@ -1313,7 +1313,7 @@ RTM-Eco es **fenomenológico** y **local al contenedor**. Su valor depende de qu
 
 **11.3 Cobertura e influencia**
 
-**Riesgo.** Cobertura escasa—especialmente a grandes escalas—induce **alta influencia** y $`\widehat{\alpha}`$ inestable.
+**Riesgo.** Cobertura escasa, especialmente a grandes escalas, induce **alta influencia** y $`\widehat{\alpha}`$ inestable.
 
 **Mitigación.**
 
@@ -1403,7 +1403,7 @@ RTM-Eco es **fenomenológico** y **local al contenedor**. Su valor depende de qu
 
 **11.11 Resumen**
 
-RTM-Eco es **poderoso donde sus supuestos se cumplen**—regímenes coherentes, proxies limpios, cobertura multiescala—y **honesto** donde no, al convertir fallas en **límites de alcance**. Tratar $`\alpha_{eco}`$ como un **descriptor local, invariante de calibre** de geometría de tempo; controlar fusión; y emparejar diseño consciente de pendiente con pruebas causales dirigidas. La siguiente sección detalla **Métodos y Reproducibilidad** para estandarizar implementaciones entre laboratorios y paisajes.
+RTM-Eco es **poderoso donde sus supuestos se cumplen**, regímenes coherentes, proxies limpios, cobertura multiescala, y **honesto** donde no, al convertir fallas en **límites de alcance**. Tratar $`\alpha_{eco}`$ como un **descriptor local, invariante de calibre** de geometría de tempo; controlar fusión; y emparejar diseño consciente de pendiente con pruebas causales dirigidas. La siguiente sección detalla **Métodos y Reproducibilidad** para estandarizar implementaciones entre laboratorios y paisajes.
 
 **12. Métodos y Reproducibilidad**
 
@@ -1643,7 +1643,7 @@ Configurar CI para:
 
 - **Impacto ambiental.** Intervenciones de corredor/escalonamiento y mosaico pasan evaluación de impacto; **barandas** pre-registradas (rendimiento, pisos de biodiversidad).
 
-- **Ciencia abierta.** Publicar **negativos** y **límites de alcance**; sin eliminación de archivos de contenedores fallidos—marcar como superados con procedencia.
+- **Ciencia abierta.** Publicar **negativos** y **límites de alcance**; sin eliminación de archivos de contenedores fallidos, marcar como superados con procedencia.
 
 **12.14 Reutilización y extensión**
 
@@ -1665,7 +1665,7 @@ Estos métodos convierten RTM-Eco en un **flujo de trabajo portable y auditable*
 
 - Una perspectiva de alerta temprana basada en **declives en** $`\alpha_{eco}`$ (o el $`{ECI}_{Eco}(t)`$ fusionado), complementaria a la ralentización crítica.
 
-- **Palancas de diseño** (gestión "consciente de pendiente"): escalonamiento de corredores, objetivos de modularidad, heterogeneidad de mosaico, suavizado de flujo—probados con protocolos falsificables.
+- **Palancas de diseño** (gestión "consciente de pendiente"): escalonamiento de corredores, objetivos de modularidad, heterogeneidad de mosaico, suavizado de flujo, probados con protocolos falsificables.
 
 **Qué no afirma.**\
 RTM-Eco es **fenomenológico** y **local al contenedor**; no reemplaza modelos mecanísticos ni garantiza recuperación absoluta más rápida. Las fallas (NO_COLAPSO, MEZCLA_RÉGIMEN, alto $`I^{2}`$) son **resultados de primera clase** que mapean límites de alcance y apuntan a mecanismos.
@@ -1681,7 +1681,7 @@ RTM-Eco es **fenomenológico** y **local al contenedor**; no reemplaza modelos m
 4.  **Artefactos abiertos**: benchmarks sintéticos pasa/falla, paneles de colapso, forest plots, y el **YAML de Métodos** en cada figura (verificado por CI).
 
 **Perspectivas.**\
-Si se replica entre biomas y familias de procesos, $`\alpha_{eco}`$ podría servir como un **biomarcador de coherencia ecosistémica**, habilitando **alertas auditables** y diseño de conservación **consciente de pendiente**. Incluso donde RTM-Eco falla, sus diagnósticos revelan dónde dominan los **relojes ocultos**, **regímenes por tramos**, o **divergencia de mecanismos**—información crucial para la gestión.
+Si se replica entre biomas y familias de procesos, $`\alpha_{eco}`$ podría servir como un **biomarcador de coherencia ecosistémica**, habilitando **alertas auditables** y diseño de conservación **consciente de pendiente**. Incluso donde RTM-Eco falla, sus diagnósticos revelan dónde dominan los **relojes ocultos**, **regímenes por tramos**, o **divergencia de mecanismos**, información crucial para la gestión.
 
 **APÉNDICE A — Validación Computacional del Marco RTM-Eco**
 
@@ -1933,7 +1933,7 @@ RTM postula que las poblaciones ecológicas no fluctúan aleatoriamente, sino qu
 
 **Conclusión:** El marco RTM escala exitosamente a ecosistemas globales. Clasifica correctamente a las poblaciones biológicas como operando cerca del borde del caos, causando que se agrupen espacialmente y fluctúen temporalmente en una clase de transporte topológico matemáticamente predecible.
 
-**APÉNDICE D — Validación Empírica: El Transporte Topológico de Pandemias Globales (COVID-19):** El marco RTM postula que las interacciones biológicas macroscópicas—ya sean dinámicas depredador-presa o transmisiones virales—están gobernadas por la topología de su red multiescala subyacente. Para validar esto en ecología humana, analizamos la dinámica de propagación de la pandemia global de COVID-19 (2020-2023).
+**APÉNDICE D — Validación Empírica: El Transporte Topológico de Pandemias Globales (COVID-19):** El marco RTM postula que las interacciones biológicas macroscópicas, ya sean dinámicas depredador-presa o transmisiones virales, están gobernadas por la topología de su red multiescala subyacente. Para validar esto en ecología humana, analizamos la dinámica de propagación de la pandemia global de COVID-19 (2020-2023).
 
 **D.1 La Falacia de Difusión y el Sesgo de Reporte:** La epidemiología tradicional frecuentemente se basa en modelos Susceptible-Infectado-Recuperado (SIR), que matemáticamente asumen que las poblaciones se mezclan homogéneamente, similar a partículas en un gas difundiendo. Además, los ajustes heurísticos de ley de potencias de distribuciones de casos globales típicamente usan regresión de Mínimos Cuadrados Ordinarios (OLS), que ciegamente asume que el reporte de salud pública es impecablemente preciso. En realidad, los datos de pandemia sufren de varianza masiva país-por-país en capacidad de pruebas, transparencia política, y subreporte asintomático. Fallar en propagar este ruido introduce un sesgo de atenuación severo.
 
