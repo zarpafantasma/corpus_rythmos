@@ -8,7 +8,7 @@
 
 </div>
 
-> **Author’s Note on Framework Robustness:** The theoretical architecture of the RTM Unified Field Framework has been subjected to a comprehensive Phase 2 "Red Team" audit to ensure its mathematical and physical consistency. While the core field-theoretic derivations—including quantum loop corrections and holographic AdS/CFT correspondence—were validated as robust (Green Team), specific numerical implementations regarding gauge unification and multiscale transport were refined. This document is preserved in its original conceptual form, with all technical calibrations and audit logs provided in the final Appendices. These updates ensure that the framework's predictions for $M_{GUT}$ scales and biological $\alpha$-anchoring are anchored in high-fidelity 3D physical reality.
+> **Author’s Note on Framework Robustness:** The theoretical architecture of the RTM Unified Field Framework has been subjected to a comprehensive Phase 2 "Red Team" audit to ensure its mathematical and physical consistency. While the core field-theoretic derivations, including quantum loop corrections and holographic AdS/CFT correspondence, were validated as robust (Green Team), specific numerical implementations regarding gauge unification and multiscale transport were refined. This document is preserved in its original conceptual form, with all technical calibrations and audit logs provided in the final Appendices. These updates ensure that the framework's predictions for $M_{GUT}$ scales and biological $\alpha$-anchoring are anchored in high-fidelity 3D physical reality.
 
 **1 \| Abstract**
 
@@ -18,11 +18,11 @@ The framework begins by establishing the temporal-scaling exponent α as a dynam
 
 Central to the unification is the demonstration that the RTM field equations reduce to established physics in appropriate limits: the Klein-Gordon equation for free scalar fields, Einstein's field equations for the metric sector, and the original RTM power law T ∝ L^α when gradients are negligible. This ensures the framework is a genuine extension of known physics rather than an ad hoc construction.
 
-We introduce coupling terms between α and a secondary scalar φ—the Aetherion field—showing how spatial gradients ∇α can drive φ dynamics and unlock zero-point energy extraction. The term g_αφ(∇α)²φ² lowers the barrier in V(α) when φ is large, providing the mechanism by which engineered metamaterials might induce controlled α-transitions. This embedding of the Aetherion program within the Unified Framework establishes it as the primary experimental validation target: a proof-of-concept device whose success or failure would directly test the framework's core predictions.
+We introduce coupling terms between α and a secondary scalar φ, the Aetherion field, showing how spatial gradients ∇α can drive φ dynamics and unlock zero-point energy extraction. The term g_αφ(∇α)²φ² lowers the barrier in V(α) when φ is large, providing the mechanism by which engineered metamaterials might induce controlled α-transitions. This embedding of the Aetherion program within the Unified Framework establishes it as the primary experimental validation target: a proof-of-concept device whose success or failure would directly test the framework's core predictions.
 
-Numerical validation is provided through finite-difference discretization of the coupled field equations in 1D, 2D, and 3D, with benchmark convergence tests confirming both the discretization scheme and the Aetherion coupling mechanism. We specify the complete parameter calibration procedure, ensuring that any implementation—theoretical or experimental—inherits consistent values across the RTM corpus.
+Numerical validation is provided through finite-difference discretization of the coupled field equations in 1D, 2D, and 3D, with benchmark convergence tests confirming both the discretization scheme and the Aetherion coupling mechanism. We specify the complete parameter calibration procedure, ensuring that any implementation, theoretical or experimental, inherits consistent values across the RTM corpus.
 
-The framework concludes by outlining falsifiable predictions: Casimir-analog forces between α-discontinuities, precision tests of equivalence-principle violations, holographic probes of time-flow anomalies, and the multi-modal signatures expected from Aetherion chamber prototypes. By grounding these predictions in a unified field-theoretic structure, RTM transitions from a descriptive scaling relation to a prescriptive framework capable of generating novel physics—with Aetherion serving as its first empirical proving ground.
+The framework concludes by outlining falsifiable predictions: Casimir-analog forces between α-discontinuities, precision tests of equivalence-principle violations, holographic probes of time-flow anomalies, and the multi-modal signatures expected from Aetherion chamber prototypes. By grounding these predictions in a unified field-theoretic structure, RTM transitions from a descriptive scaling relation to a prescriptive framework capable of generating novel physics, with Aetherion serving as its first empirical proving ground.
 
 The framework’s operational viability is further established through a series of robust computational audits (**Appendix E)**. While the quantum and holographic sectors demonstrate high perturbative stability, the Red Team audit identified and resolved critical non-linearities in gauge coupling unification and fractal dimensionality. Specifically, the introduction of a **Non-Isotropic Additive Topological Shift** was found to be necessary for achieving single-point $`M_{GUT}`$ convergence. Furthermore, the simulations verify that the RTM $`\alpha`$-bands are emergent properties of 3D spatial manifolds and flow-weighted transport hierarchies, providing a falsifiable bridge between high-energy physics and biophysical complexity.
 
@@ -36,7 +36,7 @@ The Multiscale Temporal Relativity **(RTM)** framework posits that **time is not
 {T \propto L}^{\alpha}
 ```
 
-where the **scaling exponent** α encapsulates key structural features—dimensionality, connectivity, density, and thermal effects—and takes on **quantized bands** associated with distinct dynamical regimes (ballistic, diffusive, hierarchical/biological, quantum-confined)
+where the **scaling exponent** α encapsulates key structural features, dimensionality, connectivity, density, and thermal effects, and takes on **quantized bands** associated with distinct dynamical regimes (ballistic, diffusive, hierarchical/biological, quantum-confined)
 
 - **Ballistic regime** $`\mathbf{(\alpha \approx 1)}`$: transport dominated by straight‐line, inertia-driven dynamics.
 
@@ -55,7 +55,7 @@ RTM unifies these disparate domains by showing that **the same scaling law holds
 | α | Temporal-scaling exponent: relates characteristic time $`T`$ to scale $`L`$. |
 | T | Characteristic time (e.g., decoherence time, propagation delay). |
 | L | Dominant length scale (e.g., system size, network diameter). |
-| ρ | Local structural density (nodes or interactions per volume)—modulates $`T`$ as $`\rho^{- 1/2}`$ |
+| ρ | Local structural density (nodes or interactions per volume), modulates $`T`$ as $`\rho^{- 1/2}`$ |
 | Θ(T) | Thermal function: accounts for temperature effects on dynamical rates. |
 
 Table adapted from the RTM framework
@@ -153,7 +153,7 @@ However, there are key distinctions:
 
 - Traditional *z* appears in narrow contexts: critical slowing down, turbulent eddy‐breakup, anomalous diffusion in percolation clusters.
 
-- RTM’s *α* applies **universally** across physical, biological, and information‐processing networks—regardless of whether they sit at a critical point.
+- RTM’s *α* applies **universally** across physical, biological, and information‐processing networks, regardless of whether they sit at a critical point.
 
 3.  **Quantization vs. Continuum**
 
@@ -163,7 +163,7 @@ However, there are key distinctions:
 
 4.  **Falsifiability and Predictions**
 
-- While measuring *z* often requires tuning control parameters to criticality, RTM’s predictions for α can be **validated directly** by measuring mean-first-passage or relaxation times across scales—even far from any transition .
+- While measuring *z* often requires tuning control parameters to criticality, RTM’s predictions for α can be **validated directly** by measuring mean-first-passage or relaxation times across scales, even far from any transition .
 
 - This structural approach elevates a numerical scaling relationship into a **predictive framework** with geometric foundations across regimes never traditionally associated with critical dynamics
 
@@ -173,7 +173,7 @@ However, there are key distinctions:
 
 - In turbulent flows, temporal correlations of velocity increments satisfy $`{\tau\mathcal{(l) \propto l}}^{2/3}`$, corresponding to $`z \approx 2/3`$, but these arise from cascade dynamics rather than structural topology.
 
-By positioning α alongside—but distinct from—traditional critical exponents, RTM unifies multiscale temporal behavior under a **structural paradigm**, extending well beyond the realm of criticality into the rich complexity of hierarchical and confined systems.
+By positioning α alongside, but distinct from, traditional critical exponents, RTM unifies multiscale temporal behavior under a **structural paradigm**, extending well beyond the realm of criticality into the rich complexity of hierarchical and confined systems.
 
 **2.4 Philosophical Framework and Falsifiability**
 
@@ -183,7 +183,7 @@ RTM is not presented as a purely technical exercise, but as an **integrated scie
   “This paper is a map, not the territory. The equations describe the grammar of resonance, but they do not capture the poetry of the experience itself. The exponent α may be a correlate of a system’s coherence, but it is not its soul. We have offered a rigorous, verifiable ‘proof of the meal,’ but this technical analysis is merely the entryway to a much larger banquet of understanding.”
 
 - **Response to a Crisis of Coherence**\
-  RTM was born from a sense of **arrhythmia** in social, ecological, and psychological systems. By reconnecting scientific objectivity with questions of meaning, RTM seeks to **bridge** the quantitative modeler’s world and the seeker’s world of mysticism, art, and philosophy—demonstrating that phenomena such as the expansion of time in a cathedral or the unity of a crowd in song have a describable physical architecture.
+  RTM was born from a sense of **arrhythmia** in social, ecological, and psychological systems. By reconnecting scientific objectivity with questions of meaning, RTM seeks to **bridge** the quantitative modeler’s world and the seeker’s world of mysticism, art, and philosophy, demonstrating that phenomena such as the expansion of time in a cathedral or the unity of a crowd in song have a describable physical architecture.
 
 - **Falsifiability as an Invitation**\
   “For the Scientific Community: It offers a testable, quantitative model to explore the physics of complex, multiscale systems. We invite collaboration, critique, and experimental validation to refine or refute its claims.”\
@@ -192,7 +192,7 @@ RTM is not presented as a purely technical exercise, but as an **integrated scie
 - **Anchor and Call to Integration**\
   While the **philosophical and poetic** explorations continue in a parallel corpus, this paper is the **anchor** that connects meaning to measurement. It concludes with a call for a science that is both **empirically rigorous** and **existentially relevant**, whose ultimate value lies not only in predictive power but in deepening our understanding of our place in a resonant, interconnected cosmos.
 
-With this framework, every subsequent chapter must ground its mathematical and experimental claims in **testable predictions**—ensuring that RTM remains open to **refutation** and **refinement** rather than dogmatic assertion.
+With this framework, every subsequent chapter must ground its mathematical and experimental claims in **testable predictions**, ensuring that RTM remains open to **refutation** and **refinement** rather than dogmatic assertion.
 
 **3 \| Part II – Field–Theory Formalism and Unification**
 
@@ -481,7 +481,7 @@ $`\Gamma \sim Ae^{{- S}_{bounce}/\hslash}`$
 F\_Q \sim -\frac{\hbar}{L^2} \frac{\partial}{\partial \alpha} (\Delta \alpha)^2
 ```
 
-where $`L`$ is the gradient length. For steep gradients at sub-millimeter scales, this force can reach pico-Newton levels—small but potentially measurable.
+where $`L`$ is the gradient length. For steep gradients at sub-millimeter scales, this force can reach pico-Newton levels, small but potentially measurable.
 
 **(c) Anomalous dispersion and nonlocal kernels**
 
@@ -495,7 +495,7 @@ where $`\Pi(k)`$ encodes vacuum polarization. In position space, this yields non
 
 - **Phenomenological impact.** Such nonlocalities modify the RTM field equation from a simple Poisson form to an integrodifferential equation. They can smear sharp α-gradients and introduce dispersion in the α-wave propagation speed.
 
-Together, these quantum effects—tunneling, Casimir-like pressures, and nonlocal dispersion—add rich new dynamics to the RTM framework. In practice, one must balance the desired classical gradient-driven phenomena against unwanted quantum leakage or smoothing, guiding the design of metamaterial profiles and operational regimes.
+Together, these quantum effects, tunneling, Casimir-like pressures, and nonlocal dispersion, add rich new dynamics to the RTM framework. In practice, one must balance the desired classical gradient-driven phenomena against unwanted quantum leakage or smoothing, guiding the design of metamaterial profiles and operational regimes.
 
 **3.1.4 One-Loop and Two-Loop Quantum Corrections**
 
@@ -567,7 +567,7 @@ Numerically (see Table 3.1-2) the two-loop shift of the α-band minima is ≲0.8
 
 **3.2 Extension to the Branch-Jump Field β and the Multiversal Ladder**
 
-To model **discrete jumps** between adjacent RTM coherence layers, we introduce a second scalar field $`\beta(x) -`$ the **branch-index order parameter**—which labels each quantized α-band as a distinct “local universe” .
+To model **discrete jumps** between adjacent RTM coherence layers, we introduce a second scalar field $`\beta(x) -`$ the **branch-index order parameter**, which labels each quantized α-band as a distinct “local universe” .
 
 **3.2.1 Multi-Well Potential V(β)**
 
@@ -593,7 +593,7 @@ where the **non-minimal coupling**
 
 $`g_{\beta\alpha}\beta{\mid \nabla\alpha \mid}^{2}`$
 
-lowers the barrier in $`V(\beta)`$ when $`\mid \nabla\alpha \mid`$ is large—i.e., a strong spatial gradient in $`\alpha`$, generated by an Aetherion core, can **drive** $`\beta`$ over the barrier .
+lowers the barrier in $`V(\beta)`$ when $`\mid \nabla\alpha \mid`$ is large, i.e., a strong spatial gradient in $`\alpha`$, generated by an Aetherion core, can **drive** $`\beta`$ over the barrier .
 
 Variation yields the coupled field equations
 
@@ -625,7 +625,7 @@ Renormalization-group running then determines how the effective couplings $`c_{i
 
 **3.3.2 Holographic Duality (AdS/CFT)**
 
-Via the **AdS/CFT correspondence**, a $`d + 1`$-dimensional gravitational theory in Anti–de Sitter space can be dual to a $`d`$-dimensional conformal field theory—with $`\alpha(x)`$ playing the role of a boundary coupling. In this picture:
+Via the **AdS/CFT correspondence**, a $`d + 1`$-dimensional gravitational theory in Anti–de Sitter space can be dual to a $`d`$-dimensional conformal field theory, with $`\alpha(x)`$ playing the role of a boundary coupling. In this picture:
 
 - The **radial coordinate** $`r`$ of AdS maps to the RG scale $`\mu`$ in the dual CFT,
 
@@ -663,7 +663,7 @@ S \le 2\pi k\_B \frac{E L}{\hbar c} [\alpha(L)]^{-1}
 
 showing that maximal information storage scales inversely with the local temporal-scaling exponent and enforcing limits on energy extraction and branch-hop transitions.
 
-Together, these couplings guarantee that the RTM–Aetherion framework remains **compatible with both quantum-field and gravitational principles**, while providing clear avenues for **falsifiable predictions**—from precision tests of equivalence-principle violations to holographic probes of time-flow anomalies.
+Together, these couplings guarantee that the RTM–Aetherion framework remains **compatible with both quantum-field and gravitational principles**, while providing clear avenues for **falsifiable predictions**, from precision tests of equivalence-principle violations to holographic probes of time-flow anomalies.
 
 **3.4 Recovering Known Limits: Klein–Gordon, General Relativity, and RTM Dynamics**
 
@@ -720,7 +720,7 @@ with $`\alpha_{0}`$ taking one of the quantized values $`\{ 1,2,2.5,3.5\}`$ dete
 **Conclusion of Recovering Limits**\
 These consistency checks ensure that the RTM–Aetherion framework is a genuine extension of known physics, smoothly interpolating between scalar-field theory, General Relativity, and the multiscale RTM phenomenology.
 
-With the recovery of known limits now complete in Section 3.4, we turn next to a full Renormalization-Group analysis—culminating in the exact threshold–matched gauge-coupling unification of the Standard Model (with threshold matching) in Section 3.5.
+With the recovery of known limits now complete in Section 3.4, we turn next to a full Renormalization-Group analysis, culminating in the exact threshold–matched gauge-coupling unification of the Standard Model (with threshold matching) in Section 3.5.
 
 **3.5 Renormalization-Group Unification of the Three SM Gauge Couplings with Exact Threshold Matching**
 
@@ -1109,7 +1109,7 @@ which integrates to a net **extractable power density** $`P \propto \gamma\varph
 
 **5.2 Identification of Parameters M, γ, and κ**
 
-To make the unified RTM–Aetherion Lagrangian quantitatively predictive, we must **calibrate** its three key parameters—$`M`$ (stiffness of the $`\alpha`$), $`\gamma`$ ($`\varphi - \alpha`$ coupling strength), and $`\kappa`$ (material exponent relating refractive index to α). We outline below how each is extracted from RTM simulations and Aetherion
+To make the unified RTM–Aetherion Lagrangian quantitatively predictive, we must **calibrate** its three key parameters, $`M`$ (stiffness of the $`\alpha`$), $`\gamma`$ ($`\varphi - \alpha`$ coupling strength), and $`\kappa`$ (material exponent relating refractive index to α). We outline below how each is extracted from RTM simulations and Aetherion
 
 **5.2.1 Stiffness M**
 
@@ -1181,7 +1181,7 @@ for $`{TiO}_{2}/{SiO}_{2}`$ stacks, consistent with effective-medium theory and 
 | $\gamma$ | $\varphi-\alpha$ energy-extraction coupling | $180 \pm 20$ |
 | $\kappa$ | Refractive-index $\rightarrow \alpha$ exponent | $\approx 3.0$ |
 
-With these numerical values in hand, the RTM–Aetherion action becomes a fully specified, **falsifiable** model—ready for predictive simulations and guiding experimental reactor designs.
+With these numerical values in hand, the RTM–Aetherion action becomes a fully specified, **falsifiable** model, ready for predictive simulations and guiding experimental reactor designs.
 
 **5.3 Gradient Control and Inertial Mitigation (G-Force Immunity)**
 
@@ -1221,7 +1221,7 @@ By engineering a region of elevated $`\alpha`$ (“high-coherence cabin”), pro
 d\tau = \frac{dt}{a_{cabin}} \Longrightarrow a_{eff}\frac{a_{ext}}{a_{cabin}}
 ```
 
-For example, with $`a_{cabin} = 3`$ and a 100 g external maneuver, occupants experience only ≈ 11 g; increasing $`a_{cabin}`$ to 4 reduces it to ≈ 1.9 g—well within human tolerance.
+For example, with $`a_{cabin} = 3`$ and a 100 g external maneuver, occupants experience only ≈ 11 g; increasing $`a_{cabin}`$ to 4 reduces it to ≈ 1.9 g, well within human tolerance.
 
 **Design Implications:**
 
@@ -1331,7 +1331,7 @@ relative to the dummy baseline. This simulated suppression scales linearly with 
 
 Specifically, our solver predicts an exponent of **2.00 ± 0.03**, providing a precise quadratic relationship to be tested.
 
-These three independent simulated observables—thermal power, RF-mode redistribution, and photon delay—all exhibit the predicted linear or quadratic scaling with Δα. Such quantitative concordance across different simulated physical channels provides a robust set of predictions. An experimental confirmation of these results would offer strong empirical support that the RTM-derived scaling laws can be realized in physical devices.
+These three independent simulated observables, thermal power, RF-mode redistribution, and photon delay, all exhibit the predicted linear or quadratic scaling with Δα. Such quantitative concordance across different simulated physical channels provides a robust set of predictions. An experimental confirmation of these results would offer strong empirical support that the RTM-derived scaling laws can be realized in physical devices.
 
 **6.4 Current Limitations and Next Steps**
 
@@ -1356,7 +1356,7 @@ While our prototype Aetherion chamber and RTM–Aetherion framework have yielded
 
 4.  **Field-Theory Simplifications**
 
-- We have treated α(x) and β(x) as classical scalar fields; quantum fluctuations of these order parameters—and their backreaction on φ—remain unexplored.
+- We have treated α(x) and β(x) as classical scalar fields; quantum fluctuations of these order parameters, and their backreaction on φ, remain unexplored.
 
 - Higher-order operators in the EFT (e.g., α²F², (∂α)⁴ terms) may contribute non-negligible corrections at high gradient or energy densities.
 
@@ -1399,7 +1399,7 @@ While our prototype Aetherion chamber and RTM–Aetherion framework have yielded
 
     - Compare results against the Aetherion reactor to confirm universality of the quantized α bands.
 
-By systematically addressing these limitations—through simulation, materials research, enhanced metrology, theoretical refinement, and cross-platform validation—we chart a clear path toward a **robust, falsifiable Unified Field Program** grounded in Relativistic Temporal Multiscale principles.
+By systematically addressing these limitations, through simulation, materials research, enhanced metrology, theoretical refinement, and cross-platform validation, we chart a clear path toward a **robust, falsifiable Unified Field Program** grounded in Relativistic Temporal Multiscale principles.
 
 **7 \| Part VI – Roadmap toward a Falsifiable Unified Field Framework**
 
@@ -1437,7 +1437,7 @@ At the end of each major phase there is a “milestone checkpoint” where speci
 
 - End of Phase E: decoherence exponents and optical delays in independent platforms vs. RTM bands.
 
-This structured roadmap ensures the RTM Unified Field Framework progresses through rigorous theoretical grounding, scalable computation, engineered prototypes, and diverse empirical tests—culminating in a truly falsifiable Theory of Everything.
+This structured roadmap ensures the RTM Unified Field Framework progresses through rigorous theoretical grounding, scalable computation, engineered prototypes, and diverse empirical tests, culminating in a truly falsifiable Theory of Everything.
 
 **7.2 Extension Agenda: Cosmology, Consciousness, and Hierarchical Computation**
 
@@ -1463,7 +1463,7 @@ Building on the core RTM Unified Field Framework framework and its Aetherion pro
   Model subjective “present moments” as finite-width kernels of elevated α within the global α-field. Simulate how dynamic α-gradients could underlie conscious binding windows (100 ms pulses) and test via psychophysical timing tasks.
 
 - **Disorders of Rhythm**\
-  Frame pathologies—Parkinsonian tremor, epileptic discharges—as aberrant shifts in local α-bands. Predict that deep-brain stimulation tuned to restore healthy α gradients will normalize time-scale clustering and improve cognitive integration.
+  Frame pathologies, Parkinsonian tremor, epileptic discharges, as aberrant shifts in local α-bands. Predict that deep-brain stimulation tuned to restore healthy α gradients will normalize time-scale clustering and improve cognitive integration.
 
 **7.2.3 Hierarchical Computation and Information Theory**
 
@@ -1476,7 +1476,7 @@ Building on the core RTM Unified Field Framework framework and its Aetherion pro
 - **Quantum-Enhanced RTM Computing**\
   Integrate RTM fields with qubit lattices: use spatial α-gradients to control decoherence rates and engineer protected logical subspaces. Simulate quantum annealing processes in which α wells guide the system toward global minima, and test on small-scale devices.
 
-These extension threads not only expand RTM Unified Field Framework into new domains but also provide **additional falsifiable predictions**—from cosmological signatures and neurophysiological rhythms to computational benchmarks—thus reinforcing the universality and depth of the temporal-scaling paradigm.
+These extension threads not only expand RTM Unified Field Framework into new domains but also provide **additional falsifiable predictions**, from cosmological signatures and neurophysiological rhythms to computational benchmarks, thus reinforcing the universality and depth of the temporal-scaling paradigm.
 
 **Appendix A – Glossary of Symbols and Notation**
 
@@ -1561,7 +1561,7 @@ $`|\mathbf{\ }\mathbf{\chi}^{\mathbf{2}}\ |`$ Global goodness-of-fit statistic c
 
 **8.1 Summary of Main Results**
 
-We have shown that the RTM Unified Field Framework—built on a two-loop Standard Model backbone plus an α-shift mechanism—can achieve precise unification of the three SM gauge couplings once a physically motivated set of new states is included. By computing **exact one-loop threshold corrections** at each particle’s mass and performing a **bottom-up RG fit** from $`M_{Z}`$ we found
+We have shown that the RTM Unified Field Framework, built on a two-loop Standard Model backbone plus an α-shift mechanism, can achieve precise unification of the three SM gauge couplings once a physically motivated set of new states is included. By computing **exact one-loop threshold corrections** at each particle’s mass and performing a **bottom-up RG fit** from $`M_{Z}`$ we found
 
 ``` math
 g_{\star} = 0.542,\ \ \ \ \ \ \ \ \mu_{\star} = 1.2 \times 10^{16}\ GeV,\ \ \ \ \ \ \ \ \eta = 0.082,
@@ -1633,7 +1633,7 @@ Extending this bound to **non‐gravitational** and multiscale RTM systems repla
 S \leq {2\pi k}_{B}\frac{EL}{\hslash c}{\lbrack\alpha(L)\rbrack}^{- 1}
 ```
 
-where $L$ is the system's characteristic scale and $\alpha(L)$ its RTM exponent. Physically, this reflects that higher $\alpha$ (slower temporal flow) reduces the maximum information—or entropy—storable within a given energy and size budget. In the limit $\alpha \to 1$, one recovers the standard gravitational form; for $\alpha > 1$, the bound tightens proportionally, enforcing stricter limits on energy-extraction schemes and branch-jump transitions.
+where $L$ is the system's characteristic scale and $\alpha(L)$ its RTM exponent. Physically, this reflects that higher $\alpha$ (slower temporal flow) reduces the maximum information, or entropy, storable within a given energy and size budget. In the limit $\alpha \to 1$, one recovers the standard gravitational form; for $\alpha > 1$, the bound tightens proportionally, enforcing stricter limits on energy-extraction schemes and branch-jump transitions.
 
 **Appendix C – Materials, Fabrication, and Δα Gradient Tolerances**
 
