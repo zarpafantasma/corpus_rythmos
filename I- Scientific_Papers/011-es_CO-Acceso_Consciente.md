@@ -22,7 +22,7 @@ Formalizamos cuatro predicciones abarcando anestesia, sueño, psicodélicos y ac
 
 **1. Significancia**
 
-- **Aborda una crítica común ("sin mecanismo físico")** ofreciendo un mecanismo mesoscópico concreto y comprobable—**acumulación de coherencia**—que no requiere no-computabilidad cuántica.
+- **Aborda una crítica común ("sin mecanismo físico")** ofreciendo un mecanismo mesoscópico concreto y comprobable, **acumulación de coherencia**, que no requiere no-computabilidad cuántica.
 
 - **Métricas portátiles** (pendiente α, direccionalidad condicional) pueden evaluarse en EEG/MEG/ECoG/fMRI y en análogos de banco, permitiendo evidencia convergente.
 
@@ -358,6 +358,6 @@ Al simular la densidad de probabilidad completa a nivel de sujeto a través del 
 
 - **Preservación bajo Ketamina:** A pesar de la parálisis motora profunda, la ketamina preserva el régimen de transporte topológico específico de la corteza despierta. La pendiente espectral permanece estadísticamente anclada a la línea base saludable ($`\Delta\beta \approx - 0.10`$), manteniendo la "fluidez" estructural de la red neural.
 
-**Conclusión:** Esto explica físicamente por qué la mente bajo ketamina permanece fenomenológicamente consciente—experimentando alucinaciones complejas y sueños vívidos—mientras el cuerpo físico está anestesiado. Prueba definitivamente que el acceso consciente es un límite macroscópico definido por la coherencia topológica multiescala de la red cortical.
+**Conclusión:** Esto explica físicamente por qué la mente bajo ketamina permanece fenomenológicamente consciente, experimentando alucinaciones complejas y sueños vívidos, mientras el cuerpo físico está anestesiado. Prueba definitivamente que el acceso consciente es un límite macroscópico definido por la coherencia topológica multiescala de la red cortical.
 
 *© 2026 Álvaro José Quiceno Rendón. Este documento se distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).*
