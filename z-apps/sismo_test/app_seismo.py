@@ -315,7 +315,14 @@ st.sidebar.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-selected_region = st.sidebar.selectbox("MONITORING REGION", list(REGIONS.keys()))
+selected_region = st.sidebar.selectbox("MONITORING REGION", list(REGIONS.keys()) + ["⚙ Custom Coordinates"])
+
+if selected_region == "⚙ Custom Coordinates":
+    st.sidebar.markdown("<div style='color:#38BDF8;font-size:10px;letter-spacing:1px;margin-bottom:5px;'>CUSTOM TARGET</div>", unsafe_allow_html=True)
+    custom_lat = st.sidebar.number_input("Latitude", value=39.5, min_value=-90.0, max_value=90.0, step=0.1, format="%.1f")
+    custom_lon = st.sidebar.number_input("Longitude", value=142.0, min_value=-180.0, max_value=180.0, step=0.1, format="%.1f")
+    custom_radius = st.sidebar.slider("Radius (km)", min_value=50, max_value=2000, value=300, step=50)
+
 days_window = st.sidebar.selectbox("TIME WINDOW", [7, 14, 30, 60, 90, 180], index=2, format_func=lambda x: f"{x} days")
 min_magnitude = st.sidebar.selectbox("MIN MAGNITUDE", [0.5, 1.0, 1.5, 2.0, 2.5, 3.0], index=1, format_func=lambda x: f"M ≥ {x}")
 
@@ -375,7 +382,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Fetch data
-reg = REGIONS[selected_region]
+if selected_region == "⚙ Custom Coordinates":
+    reg = {"lat": custom_lat, "lon": custom_lon, "radius": custom_radius}
+    display_region = f"Custom ({custom_lat:.1f}°, {custom_lon:.1f}°, {custom_radius}km)"
+else:
+    reg = REGIONS[selected_region]
+    display_region = selected_region
 raw_df = fetch_usgs_data(reg["lat"], reg["lon"], reg["radius"], days_window, min_magnitude)
 
 if raw_df is not None and len(raw_df) > 0:
@@ -423,7 +435,7 @@ if raw_df is not None and len(raw_df) > 0:
         st.markdown(f"""
         <div style="border-left: 4px solid {status_color}; background-color: #0F172A; padding: 15px; border-radius: 4px; margin-top: 15px;">
             <span style="color: {status_color}; font-weight: 600; letter-spacing: 1px;">STATE: {status_text}</span><br>
-            <span style="color: #94A3B8; font-size: 0.9em;">Region: {selected_region}</span>
+            <span style="color: #94A3B8; font-size: 0.9em;">Region: {display_region}</span>
         </div>
         """, unsafe_allow_html=True)
         
