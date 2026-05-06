@@ -9,6 +9,7 @@ import requests
 import folium
 from streamlit_folium import st_folium
 import urllib3
+from scipy import stats as sp_stats
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -143,7 +144,6 @@ def fetch_multiscale_data(lat, lon):
                 if mask.sum() < 10:
                     alphas.append(np.nan)
                     continue
-                from scipy import stats as sp_stats
                 s, _, _, _, _ = sp_stats.linregress(lw[mask], lv[mask])
                 alphas.append(abs(s))
             scale_alphas[scale] = [np.nan] * window + alphas
@@ -675,8 +675,7 @@ def run_hurricane_module():
                             w_window = np.array([fetch_wind[j] for j in range(max(0,i-12), i)])
                             l_window = np.array([L_raw[j] for j in range(max(0,i-12), i)])
                             if np.std(w_window) > 0.5 and np.std(l_window) > 0.5:
-                                from scipy import stats as sp
-                                r_val = sp.pearsonr(w_window, l_window)[0]
+                                r_val = sp_stats.pearsonr(w_window, l_window)[0]
                                 alpha = 1.8 - abs(r_val) * np.std(l_window) * 0.15
                             else:
                                 alpha = 1.8
