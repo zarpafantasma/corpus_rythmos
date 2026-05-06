@@ -9,7 +9,23 @@ import requests
 import folium
 from streamlit_folium import st_folium
 import urllib3
-from scipy import stats as sp_stats
+
+# Pure numpy replacements for scipy (avoids Streamlit Cloud dependency issues)
+def _linregress_slope(x, y):
+    """Returns slope of linear regression (numpy only)."""
+    x, y = np.asarray(x, dtype=float), np.asarray(y, dtype=float)
+    mx, my = x.mean(), y.mean()
+    var_x = np.sum((x - mx)**2)
+    if var_x == 0: return 0.0
+    return np.sum((x - mx) * (y - my)) / var_x
+
+def _pearsonr(x, y):
+    """Returns Pearson correlation coefficient (numpy only)."""
+    x, y = np.asarray(x, dtype=float), np.asarray(y, dtype=float)
+    cc = np.corrcoef(x, y)
+    if cc.shape == (2, 2):
+        return cc[0, 1]
+    return 0.0
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -144,7 +160,7 @@ def fetch_multiscale_data(lat, lon):
                 if mask.sum() < 10:
                     alphas.append(np.nan)
                     continue
-                s, _, _, _, _ = sp_stats.linregress(lw[mask], lv[mask])
+                s = _linregress_slope(lw[mask], lv[mask])
                 alphas.append(abs(s))
             scale_alphas[scale] = [np.nan] * window + alphas
 
@@ -675,7 +691,7 @@ def run_hurricane_module():
                             w_window = np.array([fetch_wind[j] for j in range(max(0,i-12), i)])
                             l_window = np.array([L_raw[j] for j in range(max(0,i-12), i)])
                             if np.std(w_window) > 0.5 and np.std(l_window) > 0.5:
-                                r_val = sp_stats.pearsonr(w_window, l_window)[0]
+                                r_val = _pearsonr(w_window, l_window)
                                 alpha = 1.8 - abs(r_val) * np.std(l_window) * 0.15
                             else:
                                 alpha = 1.8
