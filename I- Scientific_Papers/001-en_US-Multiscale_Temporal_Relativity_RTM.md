@@ -11,23 +11,23 @@
 
 **Abstract**
 
-Power-law relationships between time and length scales $T \propto L^{\alpha}$ appear throughout physics, from diffusion ($\alpha = \ 2$) to wave propagation ($\alpha = \ 1$) to critical phenomena. These scaling laws are typically treated as isolated phenomenological descriptions, each derived within its own domain and lacking mutual connection. ***Relatividad Temporal Multiescala*** (RTM) proposes something stronger: that the exponent $\alpha$ is not merely a fitting parameter but a **structural invariant** determined by the topology and architecture of the system. Under this view, $\alpha$ encodes the geometry of information flow---whether ballistic, diffusive, hierarchical, or confined---and systems with equivalent structural organization must share the same $\alpha$ regardless of their microscopic constituents.
+Power-law relationships between time and length scales $T \propto L^{\alpha}$ appear throughout physics, from diffusion ($\alpha = \ 2$) to wave propagation ($\alpha = \ 1$) to critical phenomena. These scaling laws are typically treated as isolated phenomenological descriptions, each derived within its own domain and lacking mutual connection. ***Relatividad Temporal Multiescala*** (RTM) proposes something stronger: that the exponent $\alpha$ is not merely a fitting parameter but a **structural invariant** determined by the topology and architecture of the system. Under this view, $\alpha$ encodes the geometry of information flow -whether ballistic, diffusive, hierarchical, or confined- and systems with equivalent structural organization must share the same $\alpha$ regardless of their microscopic constituents.
 
-This reframing transforms scattered scaling observations into a unified classification scheme. We identify and validate distinct scaling bands: **ballistic** ($\alpha \approx 1$), **diffusive** $(\alpha \approx 2)$, **fractal/biological** ($\alpha \approx 2.3$ --2.5), **hierarchical/cortical** ($\alpha \approx 2.5 - 2.7$), **holographic** $(\alpha \rightarrow 3)$, and **quantum-confined** $(\alpha \approx 3.5)$. The discreteness of these bands---rather than a continuum of possible exponents---constitutes a central falsifiable prediction distinguishing RTM from generic scaling phenomenology.
+This reframing transforms scattered scaling observations into a unified classification scheme. We identify and validate distinct scaling bands: **ballistic** ($\alpha \approx 1$), **diffusive** $(\alpha \approx 2)$, **fractal/biological** ($\alpha \approx 2.3$ -2.5), **hierarchical/cortical** ($\alpha \approx 2.5 - 2.7$), **holographic** $(\alpha \rightarrow 3)$, and **quantum-confined** $(\alpha \approx 3.5)$. The discreteness of these bands -rather than a continuum of possible exponents- constitutes a central falsifiable prediction distinguishing RTM from generic scaling phenomenology.
 
-We present comprehensive numerical validation across **seven distinct network topologies.** Six regimes are independently confirmed with $R^{2} > 0.98$, including the holographic regime ($\alpha = \ 2.9499\  \pm 0.0683$, $ R^{2} = 0.997$, 95% CI $\lbrack 2.82,3.08\rbrack$ tightly bracketing the theoretical $\alpha = \ 3.0$). For the quantum-confined regime, we construct a lattice model with boundary confinement that produces $\alpha = \ 3.4907\  \pm 0.0677$ $(R^{2} = 0.997$), with a 95% confidence interval $\lbrack 3.42,3.56\rbrack$ that includes the theoretical target $\alpha = \ 3.5$. This constitutes a **proof-of-concept consistency check**---demonstrating that a simple confinement mechanism generates the predicted exponent---rather than an independent validation, as the model parameters are calibrated to the target. Definitive validation of the quantum-confined regime requires quantum simulation or experimental measurement as outlined in Section 5.4.
+We present comprehensive numerical validation across **seven distinct network topologies.** Six regimes are independently confirmed with $R^{2} > 0.98$, including the holographic regime ($\alpha = \ 2.9499\  \pm 0.0683$, $ R^{2} = 0.997$, 95% CI $\lbrack 2.82,3.08\rbrack$ tightly bracketing the theoretical $\alpha = \ 3.0$). For the quantum-confined regime, we construct a lattice model with boundary confinement that produces $\alpha = \ 3.4907\  \pm 0.0677$ $(R^{2} = 0.997$), with a 95% confidence interval $\lbrack 3.42,3.56\rbrack$ that includes the theoretical target $\alpha = \ 3.5$. This constitutes a **proof-of-concept consistency check** -demonstrating that a simple confinement mechanism generates the predicted exponent- rather than an independent validation, as the model parameters are calibrated to the target. Definitive validation of the quantum-confined regime requires quantum simulation or experimental measurement as outlined in Section 5.4.
 
 ***All simulations are fully reproducible with accompanying code, Docker containers, and datasets.***
 
-**Appendix J** provides a minimal, model-independent derivation of the power law and general bounds on $\alpha$, while Appendices B--D summarize heuristic mappings suggesting plausible values in quantum-confined regimes. By combining this rigorous foundation with transparent accounting of finite-size effects and systematic computational validation, the framework presents RTM as a falsifiable bridge linking quantum, classical, and biological timescales---with independent numerical confirmation across the spectrum from $\alpha = \ 1\ to\ \alpha \approx 3.0$, and a consistent (model-dependent) demonstration at $\alpha \approx 3.5$ that motivates experimental programs for decisive tests.
+**Appendix J** provides a minimal, model-independent derivation of the power law and general bounds on $\alpha$, while Appendices B-D summarize heuristic mappings suggesting plausible values in quantum-confined regimes. By combining this rigorous foundation with transparent accounting of finite-size effects and systematic computational validation, the framework presents RTM as a falsifiable bridge linking quantum, classical, and biological timescales, with independent numerical confirmation across the spectrum from $\alpha = \ 1\ to\ \alpha \approx 3.0$, and a consistent (model-dependent) demonstration at $\alpha \approx 3.5$ that motivates experimental programs for decisive tests.
 
 **Introduction**
 
 The nature of time and its relationship with spatial scale represents one of the fundamental problems in theoretical physics. While Einstein\'s relativity established how time varies with velocity and gravity, less explored has been the question of how it might systematically vary between systems of different spatial scales.
 
-Power-law scaling between characteristic times **T** and system sizes **L** is ubiquitous in physics. Random walkers exhibit **T ∝ L²** (diffusion); ballistic particles show **T ∝ L**; critical systems near phase transitions display **T ∝ L\^z** with dynamical exponent **z**. These relationships are well-established and experimentally verified. The question RTM addresses is not whether such scaling exists---it manifestly does---but whether these diverse exponents reflect a deeper organizing principle.
+Power-law scaling between characteristic times **T** and system sizes **L** is ubiquitous in physics. Random walkers exhibit **T ∝ L²** (diffusion); ballistic particles show **T ∝ L**; critical systems near phase transitions display **T ∝ L\^z** with dynamical exponent **z**. These relationships are well-established and experimentally verified. The question RTM addresses is not whether such scaling exists -it manifestly does- but whether these diverse exponents reflect a deeper organizing principle.
 
-Traditional approaches treat each scaling regime as a separate phenomenon: diffusion is analyzed with Fick\'s laws, wave propagation with hyperbolic PDEs, anomalous transport with fractional calculus, critical dynamics with renormalization group methods. The exponent in each case emerges from the specific microscopic model. **RTM** inverts this logic. We propose that the exponent **α** is primary---determined by the structural architecture of the system---and that microscopic dynamics must conform to whichever **α-band** the structure selects. This is not a relabeling of known physics but a claim about causation: structure determines temporal scaling, not the reverse.
+Traditional approaches treat each scaling regime as a separate phenomenon: diffusion is analyzed with Fick\'s laws, wave propagation with hyperbolic PDEs, anomalous transport with fractional calculus, critical dynamics with renormalization group methods. The exponent in each case emerges from the specific microscopic model. **RTM** inverts this logic. We propose that the exponent **α** is primary -determined by the structural architecture of the system- and that microscopic dynamics must conform to whichever **α-band** the structure selects. This is not a relabeling of known physics but a claim about causation: structure determines temporal scaling, not the reverse.
 
 The dimensionless parameter α quantifies how the characteristic time T of a physical system scales with its spatial size L according to **T ∝ L\^α**. We have identified distinct universality classes characterized by their scaling exponents:
 
@@ -49,15 +49,15 @@ We identify distinct universality classes characterized by their scaling exponen
 
 Three features distinguish RTM from conventional scaling analysis:
 
-First, universality across domains. A Sierpiński gasket, a bronchial tree, and a hierarchical computer network may have nothing in common microscopically, yet RTM predicts---and simulations confirm---that they share α ≈ 2.3--2.5 because their recursive branching structures are topologically equivalent. This cross-domain invariance is not assumed; it is derived from structural equivalence and verified numerically.
+First, universality across domains. A Sierpiński gasket, a bronchial tree, and a hierarchical computer network may have nothing in common microscopically, yet RTM predicts -and simulations confirm- that they share α ≈ 2.3-2.5 because their recursive branching structures are topologically equivalent. This cross-domain invariance is not assumed; it is derived from structural equivalence and verified numerically.
 
-Second, discrete bands rather than a continuum. Generic scaling arguments permit any positive α. RTM claims that stable physical systems cluster into discrete bands corresponding to distinct transport regimes. An α of 1.5, for instance, would require a system interpolating between ballistic and diffusive transport---possible transiently, but not as a stable architectural class. The band structure is a prediction that could be falsified by discovering stable systems with α values falling cleanly between the identified bands.
+Second, discrete bands rather than a continuum. Generic scaling arguments permit any positive α. RTM claims that stable physical systems cluster into discrete bands corresponding to distinct transport regimes. An α of 1.5, for instance, would require a system interpolating between ballistic and diffusive transport, possible transiently, but not as a stable architectural class. The band structure is a prediction that could be falsified by discovering stable systems with α values falling cleanly between the identified bands.
 
-Third, predictive power from geometry. Given a network\'s topology---its degree distribution, modularity, fractal dimension, hierarchical depth---RTM provides a methodology to predict α before measuring dynamics. This inverts the standard workflow where exponents are extracted post hoc from time series. Sections 4--6 demonstrate this predictive capacity across seven network types.
+Third, predictive power from geometry. Given a network\'s topology -its degree distribution, modularity, fractal dimension, hierarchical depth- RTM provides a methodology to predict α before measuring dynamics. This inverts the standard workflow where exponents are extracted post hoc from time series. Sections 4-6 demonstrate this predictive capacity across seven network types.
 
-In local three-dimensional systems, motivated mappings from quantum gravity and holography suggest plausible bounds for α in confined regimes (often cited around 3.5), but these are not complete first-principles derivations. In this paper we separate claims accordingly: Appendix J provides a minimal, model-independent derivation of the power-law relation **T ∝ L\^α** and general bounds on α; links to loop quantum gravity and AdS/CFT are retained as heuristic conjectures summarized in Appendices B--D.
+In local three-dimensional systems, motivated mappings from quantum gravity and holography suggest plausible bounds for α in confined regimes (often cited around 3.5), but these are not complete first-principles derivations. In this paper we separate claims accordingly: Appendix J provides a minimal, model-independent derivation of the power-law relation **T ∝ L\^α** and general bounds on α; links to loop quantum gravity and AdS/CFT are retained as heuristic conjectures summarized in Appendices B-D.
 
-Intuition suggests that processes in smaller systems can complete more rapidly---a pattern also seen in biology, where smaller organisms tend to have faster characteristic times---yet our claim is that this reflects a scaling principle whose exponent depends on the universality class (local vs. long-range dynamics, integer vs. fractal topology, transport mechanism) rather than on any single microscopic model.
+Intuition suggests that processes in smaller systems can complete more rapidly -a pattern also seen in biology, where smaller organisms tend to have faster characteristic times- yet our claim is that this reflects a scaling principle whose exponent depends on the universality class (local vs. long-range dynamics, integer vs. fractal topology, transport mechanism) rather than on any single microscopic model.
 
 Our approach focuses on:
 
@@ -65,7 +65,7 @@ Our approach focuses on:
 >
 > • Comprehensive numerical validation across seven network topologies, with fully reproducible simulations confirming RTM predictions for ballistic, diffusive, fractal, biological, hierarchical, and holographic regimes.
 >
-> • Heuristic mappings to quantum field theory, loop quantum gravity, string theory, and holographic principles (see Appendices B--D; status: conjectural) motivating the quantum-confined regime (α ≈ 3.5) as a theoretical prediction.
+> • Heuristic mappings to quantum field theory, loop quantum gravity, string theory, and holographic principles (see Appendices B-D; status: conjectural) motivating the quantum-confined regime (α ≈ 3.5) as a theoretical prediction.
 >
 > • Directly verifiable predictions with current technology in controlled quantum systems and computational simulations, with clear specification of resources required for validating remaining theoretical predictions.
 >
@@ -90,7 +90,7 @@ This work establishes a rigorous foundation for understanding how time flows dif
 | $\mathcal{T}$ | Temperature (Kelvin). |
 | $\Theta(\mathcal{T})$ | Dimensionless temperature factor. Common choices: $\mathcal{T}/\mathcal{T}_0$, or $\sqrt{\mathcal{T}_s / \mathcal{T}_\ell}$ for hybrid small/large-scale couplings. |
 | $d, d_f$ | Effective spatial dimensionality (integer or fractal). Examples: vascular networks $d_f \approx 2.5$; neuronal networks $d_f \approx 2.2$. |
-| $z$ | Dynamic exponent governing time--space scaling out of equilibrium (do not identify $z$ with $\alpha$). Ballistic $z = 1$; diffusive $z = 2$. |
+| $z$ | Dynamic exponent governing time-space scaling out of equilibrium (do not identify $z$ with $\alpha$). Ballistic $z = 1$; diffusive $z = 2$. |
 | $\Phi(G, \hbar, L)$ | Transition function bridging quantum and gravitational regimes, entering some heuristic derivations (notation preserved from the draft). |
 | $\Omega(G, \hbar, L)$ | Quantum-gravitational transition function (distinct from $\Phi$); used in the combined-regime discussion. |
 | $dt_s, dt_\ell$ | Short-scale and large-scale time intervals used in coupled dynamics/derivations. |
@@ -155,7 +155,7 @@ In the RTM framework, it is essential to distinguish between two structurally di
 \
 **A. Local Structural Density (ρ):** This refers to the concentration of nodes or interactions within a fixed spatial region. An increase in ρ tends to accelerate short-range processes, as there are more parallel paths or higher frequency of local interactions. This effect leads to a reduction in transit time over small distances and is reflected in the square-root scaling relationship discussed in Section 2.1.\
 \
-**B. Hierarchical Structural Density:** This refers to the depth or nesting of modular structures---such as multi-level trees, layered networks, or recursive graphs. As hierarchy increases, signals must traverse more intermediary stages, leading to longer global timescales. This phenomenon is captured by the scaling exponent α, which increases with hierarchical depth and complexity.\
+**B. Hierarchical Structural Density:** This refers to the depth or nesting of modular structures, such as multi-level trees, layered networks, or recursive graphs. As hierarchy increases, signals must traverse more intermediary stages, leading to longer global timescales. This phenomenon is captured by the scaling exponent α, which increases with hierarchical depth and complexity.\
 \
 These two forms of density operate at different levels:\
 - Local density accelerates local dynamics (micro scale),\
@@ -167,17 +167,17 @@ This duality resolves apparent contradictions, such as the coexistence of faster
 
 **2.3 Theoretical Framework of Parameter** $\alpha$
 
-This section provides a step‑by‑step derivation of the scale--time exponent α from several fundamental frameworks --- quantum field theory (QFT), loop quantum gravity (LQG), string theory and holographic duality --- and clarifies the dynamic regimes in which each result is valid. In the original draft α was equated with the spatial dimension d for locally interacting systems. Here that statement is refined to distinguish explicitly between ballistic, diffusive and anomalous transport.
+This section provides a step‑by‑step derivation of the scale-time exponent α from several fundamental frameworks -quantum field theory (QFT), loop quantum gravity (LQG), string theory and holographic duality- and clarifies the dynamic regimes in which each result is valid. In the original draft α was equated with the spatial dimension d for locally interacting systems. Here that statement is refined to distinguish explicitly between ballistic, diffusive and anomalous transport.
 
 **2.4 Relationship to Critical Exponents**
 
-The RTM framework shares a formal resemblance with the dynamic critical exponent z, widely used in the theory of critical phenomena and phase transitions. Both describe a power-law relationship between time and space of the form ${t\  \sim L}^{z}$ or ${T\  \sim \ L}^{\alpha}$. In certain local regimes---such as classical diffusion---RTM's α and the traditional z exponent can numerically coincide.\
+The RTM framework shares a formal resemblance with the dynamic critical exponent z, widely used in the theory of critical phenomena and phase transitions. Both describe a power-law relationship between time and space of the form ${t\  \sim L}^{z}$ or ${T\  \sim \ L}^{\alpha}$. In certain local regimes -such as classical diffusion- RTM's α and the traditional z exponent can numerically coincide.\
 \
 However, this similarity does not diminish the originality of RTM. While z is a phenomenological parameter relevant near critical points in specific physical systems, α in RTM is a structural exponent defined by the system's spatial architecture: modularity, hierarchy, confinement, recursion depth, etc.\
 \
 RTM generalizes the idea of temporal scaling beyond narrow physical scenarios, extending it to neural networks, fractals, quantum graphs, and biological tissues. In this sense, RTM is not a reformulation of z, but a structural synthesis: it proposes that temporal scaling laws are not emergent quirks, but consequences of form.\
 \
-In summary, RTM does not deny the connection to z but builds upon it---elevating a numerical exponent into a framework with predictive geometric foundations across regimes never traditionally associated with critical dynamics.
+In summary, RTM does not deny the connection to z but builds upon it, elevating a numerical exponent into a framework with predictive geometric foundations across regimes never traditionally associated with critical dynamics.
 
 | **Connection to Scale-Clock Geometry (Doc 002, Sec. 6)** |
 | :--- |
@@ -249,7 +249,7 @@ $$\alpha_{holo} = 3 + 2 - 1.5 = 3.5$$
 
 This value has been corroborated by holographic calculations of entanglement entropy scaling and quantum quench dynamics in strongly correlated systems.
 
-The notable convergence of these two independent theoretical approaches---string theory and holographic principles---to the same value of $\alpha \approx 3.5$ provides strong theoretical support for our model\'s predictions in quantum-dominated systems.
+The notable convergence of these two independent theoretical approaches -string theory and holographic principles- to the same value of $\alpha \approx 3.5$ provides strong theoretical support for our model\'s predictions in quantum-dominated systems.
 
 **Table of *α* Values Across Theories and Systems.**
 
@@ -265,13 +265,13 @@ The notable convergence of these two independent theoretical approaches---string
 
 To prevent apparent inconsistencies, we distinguish two assumption sets for the high‑regime:
 
-**Scenario A --- Holographic/relativistic (no strong confinement).**
+**Scenario A - Holographic/relativistic (no strong confinement).**
 
 Assumptions: effective relativistic scaling (z ≈ 1), smooth $d_{eff}$, no boundary‑dominated term.\
 Prediction: α_high ≈ 3.0.\
 When it applies: long‑wavelength transport without geometric confinement; the temperature factor Θ(𝓣) does not introduce additional boundary corrections.
 
-**Scenario B --- Quantum‑confined with hierarchical/boundary correction.**
+**Scenario B - Quantum‑confined with hierarchical/boundary correction.**
 
 Assumptions: geometric or hierarchical confinement such that a boundary (edge) term contributes additively to the exponent.\
 Prediction: α_high ≈ 3.5.\
@@ -330,7 +330,7 @@ This theoretical bridge not only addresses the apparent disconnect between discr
 
 **2.6 Hierarchy of α-Domains**
 
-This section introduces a unified classification of the different physical regimes where distinct analytical expressions for the temporal scaling exponent α apply. Each domain is defined by characteristic physical conditions---such as coherence length, interaction range, or fractal geometry---and is associated with a corresponding α formula derived from theoretical principles. A comparative table summarizes the conditions, governing expressions, and representative examples, enabling consistent interpretation and application of α across quantum, classical, biological, and gravitational systems.
+This section introduces a unified classification of the different physical regimes where distinct analytical expressions for the temporal scaling exponent α apply. Each domain is defined by characteristic physical conditions -such as coherence length, interaction range, or fractal geometry- and is associated with a corresponding α formula derived from theoretical principles. A comparative table summarizes the conditions, governing expressions, and representative examples, enabling consistent interpretation and application of α across quantum, classical, biological, and gravitational systems.
 
 **Domains of Validity for α**
 
@@ -458,7 +458,7 @@ For a spherical system of radius $R$ and uniform density $\rho$, we have $M = \ 
 
 $$\frac{{dt}_{proper}}{{dt}_{coordinate}} = \sqrt{1 - \frac{8\pi G}{{3c}^{2}}}\ {\rho R}^{2}$$
 
-Indeed, higher density $\rho$ results in lower $\frac{dt_{\text{proper}}}{dt_{\text{coordinate}}}$, indicating time dilation (time flows more slowly) for mass--energy density, not for local interaction density $\rho$.
+Indeed, higher density $\rho$ results in lower $\frac{dt_{\text{proper}}}{dt_{\text{coordinate}}}$, indicating time dilation (time flows more slowly) for mass-energy density, not for local interaction density $\rho$.
 
 However, our model includes the term $\sqrt{\frac{\rho_{s}}{\rho_{l}}}$ which suggests the opposite. This apparent contradiction is resolved by considering:
 
@@ -520,9 +520,6 @@ b.  For local interactions: $\alpha_{i} \approx d_{i}$
 
 c.  For quantum-dominated systems: $\alpha_{i} \approx d_{i} + 1\text{/}2$
 
-```{=html}
-<!-- -->
-```
 3.  **Coupling Analysis:** Quantify the coupling strength between subsystems using correlation functions:
 
 $$C_{ij}(r) = \left\langle \phi_{i}(0)\phi_{j}(r) \right\rangle - \left\langle \phi_{i} \right\rangle\left\langle \phi_{j} \right\rangle$$
@@ -570,7 +567,7 @@ The coupling between these layers is achieved through carefully designed interfa
 
 **4.2 Calculation of Effective α in Hybrid and Multiscale Systems: Example with Biological Networks**
 
-In hybrid or multiscale systems composed of multiple physical regimes --- such as biological networks --- the effective value of α must be calculated as a weighted average across subsystems rather than assuming a single universal value throughout the system.
+In hybrid or multiscale systems composed of multiple physical regimes -such as biological networks- the effective value of α must be calculated as a weighted average across subsystems rather than assuming a single universal value throughout the system.
 
 **Weighted Average Formalism**
 
@@ -616,7 +613,7 @@ These values reflect the interplay between fractal structure, metabolic optimiza
 
 The deviation from the fundamental value α ≈ 3.5 does not invalidate the theoretical framework but highlights its flexibility: the same underlying principle applies across all scales, but the effective value observed depends on how different subsystems contribute to the global dynamics.
 
-This also explains why classical biological systems --- operating far from quantum dominance and shaped by natural selection for energy efficiency --- exhibit lower effective α values than those seen in quantum systems.
+This also explains why classical biological systems -operating far from quantum dominance and shaped by natural selection for energy efficiency- exhibit lower effective α values than those seen in quantum systems.
 
 **4.3 Ballistic vs Diffusive Scaling Experiment**
 
@@ -653,11 +650,11 @@ With $L_{i}$ acting only within local correlation volumes defined by $\xi_{i}$
 
 5.  **Extension: Flat Small-World Topologies**
 
-> We study Watts--Strogatz "flat" small-world networks (ring with random shortcuts). The characteristic scale is the **average graph-geodesic length** $\mathcal{l}(N)$ (mean shortest-path in hops). Across ensembles with $N \in \{ 100,200,400,800,1600\}$, $p = 0.1$, $k = 4$, the observed scaling is **logarithmic**:
+> We study Watts-Strogatz "flat" small-world networks (ring with random shortcuts). The characteristic scale is the **average graph-geodesic length** $\mathcal{l}(N)$ (mean shortest-path in hops). Across ensembles with $N \in \{ 100,200,400,800,1600\}$, $p = 0.1$, $k = 4$, the observed scaling is **logarithmic**:
 >
 > $$\mathcal{l}(N)\text{\:\,} \approx \text{\:\,}a + b\text{ }\log N$$
 >
-> with small residuals under the log model and clear misfit under any single power law over this range. If one **forces** a power-law fit on log--log axes, the finite window returns an apparent slope $\alpha_{\text{eff}} \ll 1$; we interpret this as a **model-specification artifact**, not evidence of a genuinely sub-linear temporal band.
+> with small residuals under the log model and clear misfit under any single power law over this range. If one **forces** a power-law fit on log-log axes, the finite window returns an apparent slope $\alpha_{\text{eff}} \ll 1$; we interpret this as a **model-specification artifact**, not evidence of a genuinely sub-linear temporal band.
 >
 > **RTM interpretation.** Small-world shortcuts change the **effective metric**: when the "clock" counts hops, $\mathcal{l} \sim \log N$. Relative to Euclidean system size $L \propto N$, a physical traversal time with per-hop latency $\tau$ is $T_{\text{phys}} \approx \tau l(N) \propto \log L$. Hence the small-world case lies **outside** the standard RTM template $T \propto L^{\alpha}$ for Euclidean traversal. If one adopts the **graph-geodesic length** $L^{'}: = \mathcal{l}(N)$ (or $L^{'}: = \log N$) as the scale, then $T \propto L^{'}$ with $\alpha = 1$ in that metric.
 >
@@ -919,7 +916,7 @@ RTM currently does not account for the effects of general relativity or spacetim
 
 **2. Non-Equilibrium Systems**
 
-RTM currently assumes quasi-stationary statistical conditions within each scale. However, strongly non-equilibrium systems---such as turbulent flows, active biological matter, or excitatory networks---may require extensions or dynamic renormalization. These systems could display scale-induced accelerations or stochastic scaling violations, demanding new formulations.
+RTM currently assumes quasi-stationary statistical conditions within each scale. However, strongly non-equilibrium systems -such as turbulent flows, active biological matter, or excitatory networks- may require extensions or dynamic renormalization. These systems could display scale-induced accelerations or stochastic scaling violations, demanding new formulations.
 
 **5. Verifiable Predictions and Experimental Designs**
 
@@ -1117,7 +1114,7 @@ The model consists of: - Watts-Strogatz small-world graphs - Ring lattice base w
 
 The flat small-world network yields α ≈ 2.04, only marginally above the diffusive baseline. This indicates that while small-world shortcuts reduce absolute path lengths, they do not fundamentally alter the scaling regime. The network remains effectively diffusive when measured against its intrinsic graph-geodesic length scale.
 
-This result establishes an important baseline: small-world topology alone does not produce the elevated α values (2.3--2.7) observed in biological neural networks. Additional hierarchical or modular structure is required to reach the cortical-type scaling regime.
+This result establishes an important baseline: small-world topology alone does not produce the elevated α values (2.3-2.7) observed in biological neural networks. Additional hierarchical or modular structure is required to reach the cortical-type scaling regime.
 
 -   **Simulation D: Sierpiński Fractal Network**
 
@@ -1161,7 +1158,7 @@ The fitted exponent α = 2.32 matches the theoretical walk dimension d_w = ln(5)
 
 The RTM paper previously reported α ≈ 2.48 based on simulations extending to g = 7. The difference likely reflects pre-asymptotic corrections visible only at higher generations. Our result, matching d_w exactly, validates the fundamental fractal scaling mechanism.
 
-This simulation confirms RTM predictions for self-similar fractal media and establishes the fractal regime (α ≈ 2.3--2.5) as distinct from both diffusive (α ≈ 2) and hierarchical-modular (α ≈ 2.5--2.7) scaling.
+This simulation confirms RTM predictions for self-similar fractal media and establishes the fractal regime (α ≈ 2.3-2.5) as distinct from both diffusive (α ≈ 2) and hierarchical-modular (α ≈ 2.5-2.7) scaling.
 
 -   **Simulation E: Synthetic Vascular Network (Fractal Tree)**
 
@@ -1199,11 +1196,11 @@ The model consists of: - Deterministic 3D fractal tree embedded in ℝ³ - Branc
 
 **Interpretation**
 
-The vascular tree yields α ≈ 2.39, consistent with the RTM prediction of α ≈ 2.4--2.6 for biological fractal networks. The hierarchical branching structure creates bottlenecks that slow transport beyond simple diffusion, but evolutionary optimization prevents the extreme slowdown seen in unoptimized hierarchies.
+The vascular tree yields α ≈ 2.39, consistent with the RTM prediction of α ≈ 2.4-2.6 for biological fractal networks. The hierarchical branching structure creates bottlenecks that slow transport beyond simple diffusion, but evolutionary optimization prevents the extreme slowdown seen in unoptimized hierarchies.
 
 This α value explains scaling laws observed in real biological systems: - Blood circulation time scales with organism size\^0.25 (Kleiber\'s law) - Neural processing time increases with brain complexity - Metabolic rates follow allometric scaling
 
-The vascular tree confirms that biological networks occupy a distinct scaling regime between diffusive (α ≈ 2) and cortical-hierarchical (α ≈ 2.5--2.7) transport.
+The vascular tree confirms that biological networks occupy a distinct scaling regime between diffusive (α ≈ 2) and cortical-hierarchical (α ≈ 2.5-2.7) transport.
 
 -   **Simulation F: Hierarchical Small-World Modular Network**
 
@@ -1211,7 +1208,7 @@ The vascular tree confirms that biological networks occupy a distinct scaling re
 
 Cortical neural networks exhibit hierarchical modular organization: local circuits form densely connected modules, which are interconnected through hub nodes in a tree-like hierarchy. This structure creates temporal bottlenecks that elevate the scaling exponent above both diffusive and flat small-world baselines.
 
-The model consists of: - Base modules: complete graphs K₈ (8 fully connected nodes) - Branching factor: 3 child modules per parent hub - Depth: 2--6 hierarchical levels - Tree-like hub connections between modules - Observable: MFPT from root hub to the farthest node in the deepest module
+The model consists of: - Base modules: complete graphs K₈ (8 fully connected nodes) - Branching factor: 3 child modules per parent hub - Depth: 2-6 hierarchical levels - Tree-like hub connections between modules - Observable: MFPT from root hub to the farthest node in the deepest module
 
 **Methodology**
 
@@ -1241,11 +1238,11 @@ The model consists of: - Base modules: complete graphs K₈ (8 fully connected n
 
 **Interpretation**
 
-The hierarchical small-world network yields α ≈ 2.67, confirming RTM predictions for cortical-type networks (α ≈ 2.5--2.7). This represents a significant elevation (+0.63) above the flat small-world baseline (α ≈ 2.04), quantifying the temporal cost of hierarchical modular organization.
+The hierarchical small-world network yields α ≈ 2.67, confirming RTM predictions for cortical-type networks (α ≈ 2.5-2.7). This represents a significant elevation (+0.63) above the flat small-world baseline (α ≈ 2.04), quantifying the temporal cost of hierarchical modular organization.
 
 The elevated α reflects: - Bottlenecks at hub nodes connecting different modules - Increased path lengths through the hierarchical tree structure - Trapping within local modules before escaping to higher levels
 
-This result validates the RTM prediction that cortical neural networks, with their characteristic hierarchical modular architecture, exhibit temporal scaling in the range α ≈ 2.3--2.7, distinct from both simple diffusion and flat small-world topologies.
+This result validates the RTM prediction that cortical neural networks, with their characteristic hierarchical modular architecture, exhibit temporal scaling in the range α ≈ 2.3-2.7, distinct from both simple diffusion and flat small-world topologies.
 
 -   **Simulation G: Holographic Decay Network ($\mathbf{P}\left( \mathbf{r} \right)\mathbf{\propto}\mathbf{r}^{\mathbf{- 3}}$)**
 
@@ -1263,7 +1260,7 @@ The model consists of:
 
 \- **Observable:** Mean First-Passage Time (MFPT) from origin $(0,0,0)$ to farthest corner $(L - 1,L - 1,L - 1)$
 
-The $r^{- 3}$ decay is the critical ingredient: in three dimensions, $P(r)\backslash proptor^{- d}$ produces a network where long-range shortcuts become rare enough that transport time scales with the *\*volume\** ($L^{3}$) rather than the surface area or linear extent. This is the network analog of the holographic principle---information capacity scales with volume in the presence of holographic-decay correlations.
+The $r^{- 3}$ decay is the critical ingredient: in three dimensions, $P(r)\backslash proptor^{- d}$ produces a network where long-range shortcuts become rare enough that transport time scales with the *\*volume\** ($L^{3}$) rather than the surface area or linear extent. This is the network analog of the holographic principle, information capacity scales with volume in the presence of holographic-decay correlations.
 
 **Methodology**
 
@@ -1341,7 +1338,7 @@ However, we can test the *structural validity* of this prediction. If $\alpha$ i
 
 **The \"Sticky Boundary\" Model**
 
-We hypothesize that the transition from the Holographic regime (**α ≈ 3.0**) to the Quantum regime (**α ≈ 3.5**) is driven by **boundary impedance**---a slowing of information transport at the edges of the system, analogous to the accumulation of wave-function density in a quantum well.
+We hypothesize that the transition from the Holographic regime (**α ≈ 3.0**) to the Quantum regime (**α ≈ 3.5**) is driven by **boundary impedance**, a slowing of information transport at the edges of the system, analogous to the accumulation of wave-function density in a quantum well.
 
 To test this, we constructed a **Confinement Proxy Model**:
 
@@ -1383,9 +1380,9 @@ All code released under CC BY 4.0 license.
 
 \| D. **Sierpiński Fractal** \| Deterministic fractal \| $d_{w} \approx 2.32$ \| $2.3245\  \pm 0.0157$ \| $\lbrack 2.2832,\, 2.3558\rbrack$ \| 0.9999 \| ✅ Confirmed \|
 
-\| E. **Vascular Tree** \| 3D fractal tree \| 2.4--2.6 \| $2.3875\  \pm 0.1595$ \| $\lbrack 2.0599,\, 3.4305\rbrack$ \| 0.9868 \| ✅ Confirmed \|
+\| E. **Vascular Tree** \| 3D fractal tree \| 2.4-2.6 \| $2.3875\  \pm 0.1595$ \| $\lbrack 2.0599,\, 3.4305\rbrack$ \| 0.9868 \| ✅ Confirmed \|
 
-\| F**.** **Hierarchical SW** \| Modular hierarchy \| 2.5--2.7 \| $2.6684\  \pm 0.0806$ \| $\lbrack 2.4845,\, 2.9035\rbrack$ \| 0.9973 \| ✅ Confirmed \|
+\| F**.** **Hierarchical SW** \| Modular hierarchy \| 2.5-2.7 \| $2.6684\  \pm 0.0806$ \| $\lbrack 2.4845,\, 2.9035\rbrack$ \| 0.9973 \| ✅ Confirmed \|
 
 \| G. **Holographic Decay** \| $P(r) \propto r^{- 3}$ lattice \| $\rightarrow 3.0$ \| $2.9499\  \pm 0.0683$ \| $\lbrack 2.8151,\, 3.0806\rbrack$ \| 0.9968 \| ✅ Confirmed \|
 
@@ -1447,7 +1444,7 @@ All code released under CC BY 4.0 license.
 
 \-\--
 
-*\*RTM --- Multiscale Temporal Relativity. Computational validation suite: seven regimes independently confirmed ($\alpha = \ 1$ *to* $\alpha \approx 3$); one regime consistent with prediction via model-dependent demonstration ($\alpha \approx 3.5$).\**
+*\*RTM - Multiscale Temporal Relativity. Computational validation suite: seven regimes independently confirmed ($\alpha = \ 1$ *to* $\alpha \approx 3$); one regime consistent with prediction via model-dependent demonstration ($\alpha \approx 3.5$).\**
 
 **5.4 Reproducibility and Supplementary Materials**
 
@@ -1646,7 +1643,7 @@ All code is released under **CC BY 4.0 license**.
 
 **6.5 Conclusion on Validity**
 
-The numerical validation confirms RTM predictions across the full theoretical spectrum. The consistency across diverse topologies---from simple 1-D chains to confined 3D lattices---provides strong empirical support that $T \propto L^{\alpha}$ reflects a fundamental structural invariant governing temporal scaling across physical systems.
+The numerical validation confirms RTM predictions across the full theoretical spectrum. The consistency across diverse topologies -from simple 1-D chains to confined 3D lattices- provides strong empirical support that $T \propto L^{\alpha}$ reflects a fundamental structural invariant governing temporal scaling across physical systems.
 
 **7. Limitations and Computational Outlook**
 
@@ -1934,17 +1931,17 @@ $$\frac{{dt}_{s}}{{dt}_{l}} = \left( \frac{L_{l}}{L_{s}} \right)^{\alpha} \cdot 
 
 captures the essential operational principles while yielding directly testable predictions with current technology.
 
-We provide a **minimal rigorous foundation** (Appendix J) for the power-law relation ${T \propto L}^{\alpha}$ and for **model-independent bounds** on $\alpha$. Links to quantum field theory, loop quantum gravity, string theory, and holographic ideas are kept **as motivated conjectures and heuristic bounds**, not as complete first-principles derivations (see Appendix J.5 and Appendices B--D). Under this clarified separation, $\alpha$ is an **observable** whose value depends on the **universality class** (local vs. long-range dynamics, integer vs. fractal topology, quantum-confined regimes).
+We provide a **minimal rigorous foundation** (Appendix J) for the power-law relation ${T \propto L}^{\alpha}$ and for **model-independent bounds** on $\alpha$. Links to quantum field theory, loop quantum gravity, string theory, and holographic ideas are kept **as motivated conjectures and heuristic bounds**, not as complete first-principles derivations (see Appendix J.5 and Appendices B-D). Under this clarified separation, $\alpha$ is an **observable** whose value depends on the **universality class** (local vs. long-range dynamics, integer vs. fractal topology, quantum-confined regimes).
 
 Apparent tensions with General Relativity are resolved at the **operational** level: our framework addresses how clocks tied to structure and transport rescale with $L$, while GR governs spacetime geometry; the two are complementary outside gravity-dominated regimes. The formalism unifies these viewpoints by separating **slope** (the exponent $\alpha$) from **intercept** (clock/offset effects), thus preserving consistency with relativistic redshift and dilation.
 
-The program is fully **falsifiable**. It predicts: (i) stable slopes in $\log T - \log L$ within a class; (ii) **data collapse** when rescaling ${T \leftarrow T/L}^{\alpha}$; (iii) **class switching**---predictable jumps of $\alpha$ --when the generator of dynamics is deliberately changed (e.g., local diffusion → long-jump dynamics); and (iv) **fractality tests** where $\alpha$ matches the walk dimension $d_{w}$. Passing or failing these tests decides the framework irrespective of philosophical motivation.
+The program is fully **falsifiable**. It predicts: (i) stable slopes in $\log T - \log L$ within a class; (ii) **data collapse** when rescaling ${T \leftarrow T/L}^{\alpha}$; (iii) **class switching**, predictable jumps of $\alpha$ when the generator of dynamics is deliberately changed (e.g., local diffusion → long-jump dynamics); and (iv) **fractality tests** where $\alpha$ matches the walk dimension $d_{w}$. Passing or failing these tests decides the framework irrespective of philosophical motivation.
 
 Technically, the near-term roadmap is viable with existing tools: precision kinetics and transport in chemistry and materials; mesoscale biological rhythms (with robust controls for arousal and confounders); astronomical rotation/transport analyses binned by coherence proxies; and metrology for timing, RF noise, and calorimetry where applicable. These experiments enable precise estimation of $\alpha$, discrimination among universality classes, and stress-tests of the collapse predictions.
 
-Philosophically, the model reframes "time" as a property **emergent from structure and process**: smaller or more coherent systems complete characteristic acts faster **when** the governing class admits a lower effective walk dimension or higher transport efficiency. By treating metaphysical or high-energy links as **heuristic**, and by placing the empirical program at the center, we aim to offer a modest but concrete step toward a more unified description of time across domains---from quantum to cosmological scales---without overstating theoretical provenance.
+Philosophically, the model reframes "time" as a property **emergent from structure and process**: smaller or more coherent systems complete characteristic acts faster **when** the governing class admits a lower effective walk dimension or higher transport efficiency. By treating metaphysical or high-energy links as **heuristic**, and by placing the empirical program at the center, we aim to offer a modest but concrete step toward a more unified description of time across domains -from quantum to cosmological scales- without overstating theoretical provenance.
 
-This work therefore establishes a **clear research program** with transparent claims: a constructive theorem for the power law and bounds (Appendix J); heuristic high-energy mappings explicitly labeled as such (Appendices B--D); and a suite of decisive experiments. Whether confirmed or refuted, the results should sharpen our understanding of how temporal behavior scales with structure.
+This work therefore establishes a **clear research program** with transparent claims: a constructive theorem for the power law and bounds (Appendix J); heuristic high-energy mappings explicitly labeled as such (Appendices B-D); and a suite of decisive experiments. Whether confirmed or refuted, the results should sharpen our understanding of how temporal behavior scales with structure.
 
 **Convergence Across Scales :**\
 The difference between *α*≈3.5 (theoretical) and *α*≈2.5 (biological) underscores the model's ability to integrate heterogeneous dynamics. Factors like fractal structure, non-equilibrium thermodynamics, and evolutionary optimization do not invalidate the theory but enrich it, suggesting its broad applicability across scales, from the quantum to the classical.
@@ -1965,19 +1962,19 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 -   Birrell, N. D., & Davies, P. C. W. (1982). *Quantum Fields in Curved Space*. Cambridge University Press.
 
--   DeWitt, B. S. (1975). Quantum field theory in curved spacetime. *Physics Reports, 19*(6), 295--357.
+-   DeWitt, B. S. (1975). Quantum field theory in curved spacetime. *Physics Reports, 19*(6), 295-357.
 
 > **Loop Quantum Gravity (LQG)**
 
--   Rovelli, C., & Smolin, L. (1995). Spin networks and quantum gravity. *Physical Review D, 52*(10), 5743--5759.
+-   Rovelli, C., & Smolin, L. (1995). Spin networks and quantum gravity. *Physical Review D, 52*(10), 5743-5759.
 
--   Ashtekar, A., & Lewandowski, J. (2004). Background independent quantum gravity: A status report. *Classical and Quantum Gravity, 21*(15), R53--R152.
+-   Ashtekar, A., & Lewandowski, J. (2004). Background independent quantum gravity: A status report. *Classical and Quantum Gravity, 21*(15), R53-R152.
 
 > **String Theory**
 
 -   Polchinski, J. (1998). *String Theory Vol. I & II*. Cambridge University Press.
 
--   Maldacena, J. M. (1999). The large-N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics, 2*(2), 231--252. (AdS/CFT correspondence)
+-   Maldacena, J. M. (1999). The large-N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics, 2*(2), 231-252. (AdS/CFT correspondence)
 
 > **Holographic Principles**
 
@@ -1989,13 +1986,13 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 -   Zaanen, J., Liu, Y., Sun, Y. W., & Schalm, K. (2015). *Holographic Duality in Condensed Matter Physics*. Cambridge University Press.Effective Field Theory (EFT)
 
--   Burgess, C. P. (2007). An introduction to effective field theory. *Annual Review of Nuclear and Particle Science, 57*, 329--362.
+-   Burgess, C. P. (2007). An introduction to effective field theory. *Annual Review of Nuclear and Particle Science, 57*, 329-362.
 
 > **Black Hole Thermodynamics**
 
--   Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics, 43*(3), 199--220.
+-   Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics, 43*(3), 199-220.
 
--   Bekenstein, J. D. (1973). Black holes and entropy. *Physical Review D, 7*(8), 2333--2346.
+-   Bekenstein, J. D. (1973). Black holes and entropy. *Physical Review D, 7*(8), 2333-2346.
 
 **Recent Theoretical Advances**
 
@@ -2003,7 +2000,7 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 -   Hartle, J. B. (2021). Spacetime quantum mechanics and the quantum mechanics of spacetime. *Living Reviews in Relativity, 24*(1), 2.
 
--   Susskind, L. (2016). Computational complexity and black hole horizons. *Fortschritte der Physik, 64*(1), 24--43.
+-   Susskind, L. (2016). Computational complexity and black hole horizons. *Fortschritte der Physik, 64*(1), 24-43.
 
 > **Quantum Gravity and Unification**
 
@@ -2011,25 +2008,25 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 -   Witten, E. (2021). Why does quantum field theory in curved spacetime make sense? *arXiv:2112.11614*.
 
--   Browaeys, A., & Lahaye, T. (2020). Many-body physics with individually controlled Rydberg atoms. *Nature Physics, 16*(2), 132--142.
+-   Browaeys, A., & Lahaye, T. (2020). Many-body physics with individually controlled Rydberg atoms. *Nature Physics, 16*(2), 132-142.
 
 > **Fractal and Non-Equilibrium Systems**
 
 -   Mandelbrot, B. B. (1982). *The Fractal Geometry of Nature*. W.H. Freeman.
 
--   Goldenfeld, N., & Woese, C. (2007). Biology's next revolution. *Nature, 445*(7126), 369--372.
+-   Goldenfeld, N., & Woese, C. (2007). Biology's next revolution. *Nature, 445*(7126), 369-372.
 
 **Experimental and Computational Validation**
 
 > **Quantum Systems**
 
--   Gross, C., & Bloch, I. (2017). Quantum simulations with ultracold atoms in optical lattices. *Science, 357*(6355), 995--1001.
+-   Gross, C., & Bloch, I. (2017). Quantum simulations with ultracold atoms in optical lattices. *Science, 357*(6355), 995-1001.
 
 -   Monroe, C., et al. (2021). Programmable quantum simulations of spin systems with trapped ions. *Reviews of Modern Physics, 93*(2), 025001.
 
 > **AdS/CFT and Condensed Matter**
 
--   Sachdev, S. (2012). What can gauge-gravity duality teach us about condensed matter physics? *Annual Review of Condensed Matter Physics, 3*(1), 9--33.
+-   Sachdev, S. (2012). What can gauge-gravity duality teach us about condensed matter physics? *Annual Review of Condensed Matter Physics, 3*(1), 9-33.
 
 > **Multiscale Simulations**
 
@@ -2039,7 +2036,7 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 > **Advanced Metrology**
 
--   Ludlow, A. D., et al. (2015). Optical atomic clocks. *Reviews of Modern Physics, 87*(2), 637--701.
+-   Ludlow, A. D., et al. (2015). Optical atomic clocks. *Reviews of Modern Physics, 87*(2), 637-701.
 
 **Emerging Applications**
 
@@ -2047,13 +2044,13 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 -   Preskill, J. (2018). Quantum computing in the NISQ era and beyond. *Quantum, 2*, 79.
 
--   Arute, F., et al. (2019). Quantum supremacy using a programmable superconducting processor. *Nature, 574*(7779), 505--510.
+-   Arute, F., et al. (2019). Quantum supremacy using a programmable superconducting processor. *Nature, 574*(7779), 505-510.
 
 > **Biological and Complex Systems**
 
--   West, G. B., et al. (1997). A general model for the origin of allometric scaling laws in biology. *Science, 276*(5309), 122--126.
+-   West, G. B., et al. (1997). A general model for the origin of allometric scaling laws in biology. *Science, 276*(5309), 122-126.
 
--   Bassett, D. S., & Bullmore, E. T. (2017). Small-world brain networks revisited. *The Neuroscientist, 23*(5), 499--516.
+-   Bassett, D. S., & Bullmore, E. T. (2017). Small-world brain networks revisited. *The Neuroscientist, 23*(5), 499-516.
 
 > **Cosmology and Planck-Scale Physics**
 
@@ -2071,13 +2068,13 @@ The Multiscale Temporal Relativity model presented in this paper offers a falsif
 
 **Recent Theoretical Advances**
 
--   Hohenberg, P. C., & Halperin, B. I. (1977). Theory of dynamic critical phenomena. Rev. Mod. Phys., 49, 435--479.
+-   Hohenberg, P. C., & Halperin, B. I. (1977). Theory of dynamic critical phenomena. Rev. Mod. Phys., 49, 435-479.
 
 -   Stanley, H. E. (1971). Introduction to Phase Transitions and Critical Phenomena. Oxford University Press.
 
 # **Appendices**
 
-## **Appendix A -- Derivations of the Scaling Exponent α**
+## **Appendix A - Derivations of the Scaling Exponent α**
 
 This appendix provides detailed derivations of the scaling law
 
@@ -2101,21 +2098,21 @@ for multiple physical regimes discussed in the RTM framework. Each section lists
 
 **2. Reusable Derivation Template**
 
-This section shows---in full detail and with concrete numbers from the RTM paper---how to go from basic physical premises to the scaling law ${T \propto L}^{\alpha}$
+This section shows -in full detail and with concrete numbers from the RTM paper- how to go from basic physical premises to the scaling law ${T \propto L}^{\alpha}$
 
 **2.1 Assumptions**
 
-1.  **Geometry & isotropy** -- The medium is homogeneous and three-dimensional on the scale of interest; boundaries are regular or far away.
+1.  **Geometry & isotropy** - The medium is homogeneous and three-dimensional on the scale of interest; boundaries are regular or far away.
 
-2.  **Dominant interaction range** -- Only *local* (nearest-neighbour) hops matter; long-range forces are negligible.
+2.  **Dominant interaction range** - Only *local* (nearest-neighbour) hops matter; long-range forces are negligible.
 
-3.  **Constant intensive variables** -- Temperature $\Theta$ and local (not hierarchical) density $\rho$ are uniform between the two systems whose times you compare.
+3.  **Constant intensive variables** - Temperature $\Theta$ and local (not hierarchical) density $\rho$ are uniform between the two systems whose times you compare.
 
-4.  **Single characteristic length** -- A well-defined linear size $L$ exists (e.g. lattice edge, vessel length, ion-chain extent).
+4.  **Single characteristic length** - A well-defined linear size $L$ exists (e.g. lattice edge, vessel length, ion-chain extent).
 
-5.  **Markovian transport** -- Memory effects and external fields are absent, so a Fick-type diffusion equation applies.
+5.  **Markovian transport** - Memory effects and external fields are absent, so a Fick-type diffusion equation applies.
 
-6.  **Scale separation** -- Microscopic mean free path $\mathcal{l \ll}L$ justifying a continuum description.
+6.  **Scale separation** - Microscopic mean free path $\mathcal{l \ll}L$ justifying a continuum description.
 
 These assumptions set up the **diffusive** benchmark that the RTM paper lists as the "control" regime with $\alpha \simeq 2\ $
 
@@ -2184,7 +2181,7 @@ The diffusive benchmark $\alpha = 2$ sits at the centre of the "staircase" of ex
 
 *This fully worked template can now be reused: swap the governing equation in* $§\ 2.2$ *(e.g. Schrödinger for quantum, telegraph for ballistic) and redo* $§§\ 2.3 - 2.4$ *to obtain the corresponding α and final scaling law.*
 
-**3. Worked example -- Diffusive regime** $\mathbf{(}\mathbf{\alpha}\mathbf{= 2)}$
+**3. Worked example - Diffusive regime** $\mathbf{(}\mathbf{\alpha}\mathbf{= 2)}$
 
 **3.1 Assumptions**
 
@@ -2389,16 +2386,16 @@ RTM does not confine itself to a particular dimensional ontology. Instead, it pr
 
 **J.1 Minimal, operational postulates**
 
--   **P1 -- Scale locality (Markov in scale):** rescaling by $\lambda_{1}$ followed by $\lambda_{2}$ is equivalent to a single rescaling by $\lambda_{1}$ $\lambda_{2}$ in the effective dynamics of the observable $T$.
+-   **P1 - Scale locality (Markov in scale):** rescaling by $\lambda_{1}$ followed by $\lambda_{2}$ is equivalent to a single rescaling by $\lambda_{1}$ $\lambda_{2}$ in the effective dynamics of the observable $T$.
 
--   **P2 -- Regularity:** $T(L)$ is continuous and strictly monotone in $L$ within the regime of interest.
+-   **P2 - Regularity:** $T(L)$ is continuous and strictly monotone in $L$ within the regime of interest.
 
--   **P3 -- Clock invariance (multiplicative gauge; offsets handled explicitly).**\
+-   **P3 - Clock invariance (multiplicative gauge; offsets handled explicitly).**\
     Within a fixed environment bin, changing the operational clock means a **multiplicative** rescaling of the measured characteristic times: $T^{'} = cT$ with $c > 0$ independent of $L$. This shifts $\log T$ by a constant ($\log c$) and therefore **does not change the slope** $\alpha$ in $\log T$ vs. $\log L$; it only shifts the intercept.\
-    **Additive** timestamp artefacts (e.g., constant latency/dead time) yield $T_{\text{obs}} = cT + b$ and are **not** pure log--log gauges; they can bias $\alpha$ unless $T \gg b/c$ over the fitted window or $b$ is estimated and removed prior to logging (use $T_{eff} = T_{\text{obs}} - b$, $T_{\text{obs}} > b$).\
+    **Additive** timestamp artefacts (e.g., constant latency/dead time) yield $T_{\text{obs}} = cT + b$ and are **not** pure log-log gauges; they can bias $\alpha$ unless $T \gg b/c$ over the fitted window or $b$ is estimated and removed prior to logging (use $T_{eff} = T_{\text{obs}} - b$, $T_{\text{obs}} > b$).\
     Examples of multiplicative clocks include unit changes (s↔ms), uniform timebase rescalings, or uniform rate/time scaling factors; examples of additive artefacts include fixed pipeline delays and detector dead time.
 
--   **P4 -- Finite causality:** there is a finite maximal speed/rate for the propagation of influence (Lieb--Robinson--type or hydrodynamic analog).
+-   **P4 - Finite causality:** there is a finite maximal speed/rate for the propagation of influence (Lieb--Robinson type or hydrodynamic analog).
 
 **J.2 Theorem:** power law is necessary
 
@@ -2436,7 +2433,7 @@ with $\alpha \in \mathbb{R,}C > 0.$
 
 In earlier drafts we linked $\alpha \approx 3.5$ to LQG/holography through conceptual mappings and additional assumptions (e.g., node counting, holographic $\theta$, etc.). We **formally reclassify** those sections as:
 
--   **Conjecture** $H_{QG}$ (*speculative*): in quantum-confined regimes with effective dimension $d_{eff} \approx 3$ and strong holographic corrections, $\alpha$ falls in the range 3.0--3.5
+-   **Conjecture** $H_{QG}$ (*speculative*): in quantum-confined regimes with effective dimension $d_{eff} \approx 3$ and strong holographic corrections, $\alpha$ falls in the range 3.0-3.5
 
 -   **Status:** *Heuristic*, pending a complete derivation or direct experimental evidence.
 
