@@ -6,7 +6,7 @@
 <div align="center">
 
 # Relatividad Temporal Multiescala (RTM)
-### *Una Sinfonía Multiescala de Estructura y Tiempo*
+### *Una sinfonía multiescala de estructura y tiempo*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19325100.svg)](https://doi.org/10.5281/zenodo.19325100)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -17,271 +17,326 @@
 [![Open Science](https://img.shields.io/badge/Open%20Science-%E2%9C%93-blue)](https://en.wikipedia.org/wiki/Open_science)
 [![Email](https://img.shields.io/badge/Contact-Email-white?logo=gmail&logoColor=red)](mailto:zarpafantasma@gmail.com)
 
-**Relatividad Temporal Multiescala (RTM)** es un marco transdisciplinario que propone que el tiempo no es un contenedor de fondo universal, sino una propiedad emergente de la estructura organizada.
+**Relatividad Temporal Multiescala (RTM)** es un marco transdisciplinario que propone que el tiempo no es un contenedor de fondo universal, sino una propiedad emergente de la estructura organizada. 
 
 </div>
 
 ---
 
-## El Axioma Central
+## El axioma central
 
-En el corazón de RTM yace una única ley falsificable:
+En el corazón de la RTM hay una única ley falsable:
 $$T \propto L^\alpha$$
 
 Donde:
-* **$T$ (Ritmo):** El tiempo interno característico o frecuencia operacional.
+* **$T$ (Ritmo):** El tiempo interno característico o la frecuencia operacional.
 * **$L$ (Escala):** La extensión física u organizacional de un sistema.
-* **$\alpha$ (Exponente de Coherencia):** Un invariante topológico que describe cómo el sistema "espesa" el tiempo a través de la complejidad.
+* **$\alpha$ (Exponente de coherencia):** Un invariante topológico que describe cómo el sistema “espesa” el tiempo a través de la complejidad.
 
-Desde el **ringdown balístico de agujeros negros** ($\alpha \approx 1$) hasta la **rotación difusiva de galaxias** ($\alpha \to 2$) y el **escalamiento inverso de procesadores cuánticos** ($\alpha < 0$), RTM proporciona una métrica unificada para el ritmo de la existencia.
-
----
-
-## Afirmación Central
-
-RTM reconoce que el escalamiento por ley de potencias es un fenómeno bien documentado en mecánica estadística, alometría y teoría de redes. Sin embargo, mientras que la ciencia convencional típicamente trata estos exponentes de escalamiento meramente como descripciones de restricciones geométricas o difusión anómala que ocurre contra un reloj de fondo absoluto, RTM postula que $\alpha$ es la métrica fundamental e independiente del sustrato del tiempo mismo. El marco no solo describe el escalamiento; lo trata como una ontología relacional.
-
-| Rango de α | Clase de Transporte | Ejemplos |
-|------------|---------------------|----------|
-| α < 0 | Inverso | Decoherencia cuántica, fragilidad de redes |
-| α ≈ 0.5 | Difusivo | Difusión molecular, caminatas aleatorias |
-| α ≈ 1.0 | Balístico/Advectivo | Propagación de ondas, rupturas sísmicas, ringdown de OG |
-| α ≈ 1.5-2.0 | Jerárquico | Redes biológicas, cascadas neurales, galaxias |
-| α > 2.0 | Coherente/Organizado | Ciclones maduros, estados conscientes |
-
-La metodología es **pendiente primero**: α se estima únicamente mediante regresión log-log multipunto con errores en variables (EIV), y solo cuando los diagnósticos de colapso pasan. Cuando los datos eligen otras gramáticas, reportamos modos de fallo (SIN_COLAPSO, ESCALAMIENTO-LOG, MULTI-RÉGIMEN) en lugar de forzar leyes de potencias.
-
-**RTM es falsificacionista.** Cada afirmación viene con código reproducible, datos públicos y criterios explícitos de aprobación/fallo. Si los experimentos fallan, las extensiones fallan.
+Desde el **ringdown balístico de los agujeros negros** ($\alpha \approx 1$), pasando por la **integración superbalística de la corteza visual** ($\alpha \approx 0.31$), hasta el **escalamiento inverso de los procesadores cuánticos** ($\alpha < 0$), la RTM proporciona una métrica unificada para el ritmo de la existencia.
 
 ---
 
-## Validación Empírica
+## Afirmación central
 
-### Filosofía de Validación: ROBUSTO vs Heurístico
+La RTM reconoce que el escalamiento por leyes de potencia es un fenómeno bien documentado en la mecánica estadística, la alometría y la teoría de redes. Sin embargo, mientras que la ciencia convencional suele tratar estos exponentes de escalamiento solo como descripciones de restricciones geométricas o de difusión anómala que ocurren frente a un reloj de fondo absoluto, la RTM plantea que $\alpha$ es la métrica fundamental del tiempo mismo, independiente del sustrato. El marco no se limita a describir el escalamiento; lo trata como una ontología relacional.
 
-RTM distingue entre dos niveles de evidencia empírica:
+| Rango de α | Clase de transporte | Ejemplos |
+|---------|-----------------|----------|
+| α < 0 | Inversa | Decoherencia cuántica, difusión de Stokes-Einstein |
+| α ≈ 0.3 | Superbalística (paralela jerárquica) | Integración de la corteza visual |
+| α ≈ 1.0 | Balística/advectiva | Propagación de ondas, rupturas sísmicas, ringdown de ondas gravitacionales |
+| α ≈ 2.0 | Difusiva | Difusión molecular, caminatas aleatorias |
+| α >> 1 | Impulsada por la topología | Plegamiento de proteínas (α ≈ 7), confinamiento en zeolitas |
+
+La metodología es **primero la pendiente**: α se estima únicamente mediante regresión log-log multipunto con errores en variables (EIV), y solo cuando los diagnósticos de colapso pasan. Cuando los datos eligen otras gramáticas, reportamos modos de falla (NO_COLLAPSE, LOG-SCALING, MULTI-REGIME) en lugar de forzar leyes de potencia.
+
+**La RTM es falsacionista.** Cada afirmación viene acompañada de código reproducible, datos públicos y criterios explícitos de aprobación/fallo. Si los experimentos fallan, las extensiones fallan.
+
+---
+
+## Validación empírica
+
+### Filosofía de validación: ROBUST vs heurística
+
+La RTM distingue entre dos niveles de evidencia empírica:
 
 | Nivel | Metodología | Estado |
-|-------|-------------|--------|
-| **🟢 ROBUSTO (Equipo Rojo)** | ODR, Monte Carlo, varianza a nivel de sujeto, aislamiento de covariables | **Evidencia primaria** |
-| **🟡 Heurístico** | OLS, estimaciones puntuales, promedios agregados | Exploratorio / suplementario |
+|------|-------------|--------|
+| **ROBUST (Red Team)** | ODR, Monte Carlo, varianza a nivel de sujeto, aislamiento de covariables | **Evidencia primaria** |
+| **Heurística** | OLS, estimaciones puntuales, promedios agregados | Exploratoria / suplementaria |
 
-Todas las validaciones ROBUSTAS han pasado por auditorías adversariales de "Equipo Rojo" corrigiendo:
+Todas las validaciones ROBUST han pasado por auditorías adversariales de “Red Team” que corrigen:
 - **Sesgo de atenuación** (OLS → ODR)
 - **Falacia de agregación** (medias → distribuciones a nivel de sujeto)
 - **Paradoja de Simpson** (confusores aislados)
 - **Falacia ecológica** (varianza poblacional reconstruida)
 
----
+### Clasificación de novedad
 
-## 🟢 Validaciones ROBUSTAS (Auditadas por Equipo Rojo)
+Para distinguir entre predicciones de la RTM genuinamente novedosas y demostraciones de consistencia con resultados establecidos, cada validación se clasifica así:
 
-**24 dominios | ODR + Monte Carlo | Errores en Variables propagados**
-
-### Astrofísica y Cosmología
-
-| Dominio | α Robusto | Método | Clase RTM |
-|---------|-----------|--------|-----------|
-| **Rotación Galáctica (SPARC)** | **1.993 ± 0.130** | ODR + MC (n=52 curvas planas) | Jerárquico (α→2) |
-| **Agujeros Negros Binarios (O1-O3)** | **1.037 ± 0.018** | ODR + Corrección de espín (n=55) | Balístico |
-| **Sismología** | **1.007 ± 0.016** | ODR (n=51 fallas) | Balístico |
-
-### Física y Química
-
-| Dominio | α Robusto | Método | Clase RTM |
-|---------|-----------|--------|-----------|
-| **Decoherencia Cuántica** | **-0.259 ± 0.049** | ODR Multivariable (normalizado por tecnología) | Inverso |
-| **Química (Volumen)** | **-1.23 ± 0.04** | ODR (Stokes-Einstein) | Inverso |
-| **Química (Confinada)** | **+7.25 ± 1.06** | ODR + Normalización Guest | Crítico/Resonante |
-| **Física de Plasmas** | **-1.52 → -1.72** | Relajación dinámica (IK→K5/3) | Fricción topológica |
-
-### Neurociencia y Conciencia
-
-| Dominio | Hallazgo | Método | Tamaño de Efecto |
-|---------|----------|--------|------------------|
-| **Corteza Visual** | α = 0.311 ± 0.021 | ODR (n=21 áreas) | Sub-difusivo |
-| **Neurociencia (4 dominios)** | Convulsión/Sueño/Meditación/LSD | MC a nivel de sujeto (n=15,018) | d = 0.98–3.30 |
-| **Conciencia** | Ketamina vs Propofol | Varianza MC (n=30,873) | p < 10⁻¹⁰ |
-
-### Biología y Medicina
-
-| Dominio | Hallazgo | Método | Significancia |
-|---------|----------|--------|---------------|
-| **Bioquímica (Plegamiento)** | α = +7.22 ± 0.62 | ODR normalizado por EC | Topológico |
-| **Bioquímica (Enzima)** | α ≈ 0 | ODR normalizado por EC | Químico (local) |
-| **Cardíaco (VFC)** | Sano α=1.03, ICC α=0.53 | MC a nivel de sujeto | p < 10⁻¹⁰ |
-| **Homeostasis** | Caída ICC = -0.322 | Regresión multivariable | Edad aislada |
-| **Ecología (Alometría)** | α = 0.19–0.24 | ODR (Mammalia/Aves/Reptilia) | Cuarto de potencia |
-| **Dinámica Poblacional** | β = 0.82 (1/f) | MC + Ley de Taylor | Crítico |
-
-### Tierra y Clima
-
-| Dominio | Hallazgo | Método | Clase RTM |
-|---------|----------|--------|-----------|
-| **IR de Huracanes** | Ventana de advertencia de 11.6h | ODR Continuo | Transición de fase |
-| **Extremos Climáticos** | α = 0.43 ± 0.002 | ODR de varianza espacial | Sub-difusivo |
-| **Oceanografía** | n = 2.913 ± 0.337 | MC (1,090 derivadores) | Richardson t³ |
-| **Alertas de Tornados** | -16 pts TAF @ 85% PDD | TorNet (1,105 registros) | Acoplamiento vortical |
-
-### Sistemas Socioeconómicos
-
-| Dominio | Hallazgo | Método | Significancia |
-|---------|----------|--------|---------------|
-| **Epidemiología (COVID)** | α = 0.953 ± 0.044 | ODR + MC (k=0.226) | Libre de escala |
-| **Colapsos Financieros** | Advertencia de 10 días | MC + ODR | d = -1.45 |
-| **Retornos de Mercado** | α = 2.966 ± 0.236 | MC (16 mercados) | Cúbico inverso |
-| **Transporte Urbano** | α = 3.00 ± 0.16, τ = 2.50 | ODR + MC | Lévy/SOC |
-| **Acústica** | β = 0.88–0.96, H = 0.81 | Firma cognitiva | Ruido rosa 1/f |
+| Etiqueta | Significado |
+|-----|---------|
+| **NOVEDOSA** | Predicción específica de la RTM probada con datos nuevos |
+| **CONVERGENTE** | La RTM recupera correctamente física conocida dentro de su marco |
+| **CONSISTENTE** | Los datos son consistentes con la RTM, pero también con teorías establecidas |
 
 ---
 
-## Resumen de Hallazgos ROBUSTOS Clave
+## Validaciones ROBUST (auditadas por Red Team)
 
-### La Universalidad Balística (α ≈ 1.0)
-Tres sistemas físicos completamente independientes convergen en el mismo exponente:
-- **Fusiones de agujeros negros:** α = 1.037 ± 0.018
-- **Rupturas sísmicas:** α = 1.007 ± 0.016  
-- **Epidemias:** α = 0.953 ± 0.044
+**24 dominios | ODR + Monte Carlo | Errores en variables propagados | Campañas de flanqueo: abril de 2026**
 
-### El Atractor Jerárquico (α ≈ 2.0)
-- **Curvas de rotación galáctica planas:** α = 1.993 ± 0.130 (Materia Oscura como topología)
+### Astrofísica y cosmología
 
-### La Clase Inversa (α < 0)
-- **Decoherencia cuántica:** α = -0.259 ± 0.049 (la coherencia se degrada con la escala)
-- **Difusión en volumen:** α = -1.23 ± 0.04 (fricción de Stokes-Einstein)
+| Dominio | α robusto | Método | Clase RTM | Novedad |
+|--------|----------|--------|-----------|---------|
+| **Agujeros negros binarios (O1-O3)** | **1.024 ± 0.018** | ODR + corrección de espín (n=55) | Balística | CONVERGENTE |
+| **Sismología** | **1.007 ± 0.016** | ODR (n=51 fallas) | Balística | CONVERGENTE |
+| **Universo temprano JWST** | **Tendencia exceso–z ρ=0.43, p=0.006** | Independiente de calibración (n=55) | Alta coherencia | NOVEDOSA |
+| **Estructura galáctica SPARC** | **21 hallazgos significativos** | 6 campañas de flanqueo (n=171) | Estructural-cinemática | NOVEDOSA |
 
-### El Umbral Crítico
-- **Conciencia:** El Propofol destruye la topología (Δβ ≈ -1.25), la Ketamina la preserva (Δβ ≈ -0.10)
-- **Salud cardíaca:** α ≈ 1.0 (sano) → α ≈ 0.5 (colapso por ICC)
+> **Nota sobre SPARC (actualizada en abril de 2026):** La campaña de flanqueo en 6 ataques analíticos independientes produjo 21 hallazgos significativos. La identidad α = 2 de curva plana es tautológica (retirada de las afirmaciones). Hallazgos novedosos sobrevivientes: (1) la concentración bariónica predice la discrepancia de masa a masa fija (ρ parcial = +0.346, p = 0.0001); (2) la pendiente SB predice la diversidad de curvas de rotación a V_flat fijo (ρ parcial = +0.329, p = 0.0001); (3) no universalidad de la escala de aceleración — la concentración predice la aceleración de transición DM con R²_mass = 0.0004 vs R²_conc = 0.225 (ρ parcial = −0.574, p = 3×10⁻⁷); (4) efectividad bariónica ρ parcial = −0.446 (p = 9.4×10⁻⁸); (5) conspiración de forma barión-halo confirmada (r media = +0.274, CI bootstrap [0.14, 0.40]); (6) conspiración rica en gas r = +0.70 vs pobre en gas r = −0.15 (p < 10⁻⁴); (7) acoplamiento local punto a punto: f_gas → ρ_DM (ρ = −0.177, p = 2.5×10⁻¹⁸, n = 2,411 puntos radiales, efectos fijos por galaxia). La predicción directa v(r) falla (RTM gana 2/135 vs NFW). No se respalda reemplazar la materia oscura.
+
+### Física y química
+
+| Dominio | α robusto | Método | Clase RTM | Novedad |
+|--------|----------|--------|-----------|---------|
+| **Decoherencia cuántica** | **−0.259 ± 0.049** | ODR multivariable (n=31) | Inversa | NOVEDOSA |
+| **Química (a granel)** | **−1.23 ± 0.04** | ODR (Stokes-Einstein, n=54) | Inversa | CONVERGENTE |
+| **Química (confinada)** | **+7.25 ± 1.06** | ODR + normalización por huésped (n=35) | Crítica/resonante | CONVERGENTE |
+| **Física de plasmas** | **−1.52 → −1.72** | Compilación de literatura (IK→K41) | Relajación topológica | CONSISTENTE |
+
+> **Nota sobre cuántica:** La identificación de la paradoja de Simpson (α ingenua > 0 se invierte a α = −0.259 tras retirar el confusor año) es la contribución clave. El CI bootstrap [−0.382, −0.038] excluye cero al 95%. Es el hallazgo novedoso más fuerte del subcorpus de física.
+
+### Neurociencia y consciencia
+
+| Dominio | Hallazgo | Método | Tamaño del efecto | Novedad |
+|--------|---------|--------|-------------|---------|
+| **Corteza visual** | α = 0.311 ± 0.021 | ODR (n=21 áreas) | Superbalística | CONSISTENTE |
+| **Neurociencia (4 dominios)** | Convulsión/sueño/meditación/LSD | MC a nivel de sujeto (n~15,000) | d = 0.98–3.30 | CONSISTENTE |
+| **Consciencia** | α × R² triplica el tamaño del efecto | 6 flancos, EEG UCI (n=11,500) | d: 0.33 → 0.97 (ojos abiertos vs cerrados) | NOVEDOSA |
+| **Colapso R² en epilepsia** | La convulsión destruye la estructura de ley de potencia | UCI (n=11,500) | d = −1.55 | NOVEDOSA |
+
+> **Nota sobre consciencia (actualizada en abril de 2026):** La campaña de flanqueo (6 flancos, cero fallas) produjo nuevos hallazgos clave: (1) el producto α × R² triplica el tamaño del efecto de discriminación (d: 0.33 → 0.97 para ojos abiertos vs cerrados, AUC: 0.60 → 0.78); (2) clasificador 2D con validación cruzada: AUC = 0.911 (convulsión), 0.794 (ojos abiertos vs cerrados); (3) la conspiración α-R² se estrecha durante convulsiones (el CI bootstrap de Δρ excluye 0); (4) gradiente anestésico — <20% de cambio espectral preserva la consciencia (ketamina 5%), >40% la pierde (propofol 69%); (5) predicción REM: REM debería mostrar pendiente pronunciada PERO R² alto (comprobable con polisomnografía NSRR). Puntuación actualizada 72% → 78%.
+
+### Biología y medicina
+
+| Dominio | Hallazgo | Método | Significancia | Novedad |
+|--------|---------|--------|--------------|---------|
+| **Bioquímica (plegamiento)** | α = +7.22 ± 0.62 | ODR normalizado por EC (n=84) | Topológica | CONVERGENTE |
+| **Bioquímica (enzima)** | α ≈ 0 (p=0.71) | ODR normalizado por EC (n=69) | Química (local) | CONVERGENTE |
+| **Plegamiento vs enzima** | Separación completa | Bootstrap (3000) | d = 6.98, 0% de solapamiento | CONVERGENTE |
+| **Cardiaco (HRV)** | Escalera de severidad de arritmia ρ = −0.957 | MC a nivel de sujeto + flanqueo | d = 1.25 → 3.28 (α × CI) | CONSISTENTE |
+| **Homeostasis** | Penalización por CHF −0.323 (≡ 68 años) | Regresión multivariable (n=18) | Edad aislada, CI excluye 0 | CONSISTENTE |
+| **Ecología (alometría)** | Los residuales de Kleiber predicen longevidad | AnAge + flanqueo GPDD | ρ = −0.184, p = 0.0005 | NOVEDOSA |
+| **Dinámica poblacional** | Tamaño corporal → color espectral ρ = +0.867 | GPDD (n=978 series) | p = 0.0025 | NOVEDOSA |
+
+> **Nota sobre cardiaco (actualizada en abril de 2026):** Campaña de flanqueo (8 flancos, 5 aciertos): (1) el producto α × CI duplica el tamaño del efecto (d: 1.25 → 3.28 para sanos vs CHF); (2) dosis-respuesta al ejercicio: declive acelerado (Δα: 0.10 → 0.20 → 0.25), ρ = −0.971; (3) escalera de severidad de arritmia ρ = −0.957, mapeo monotónico casi perfecto desde peligro clínico a clase topológica (1/9 violaciones); (4) penalización CHF −0.323 replicada exactamente desde ROBUST. Puntuación actualizada 65% → 72%.
+
+> **Nota sobre ecología (actualizada en abril de 2026):** Campaña de flanqueo (5 flancos, 4 aciertos): (1) los residuales de Kleiber predicen longevidad a masa fija (ρ global = −0.184, p = 0.0005; 89% negativo dentro de cada orden); (2) la conspiración de forma depredador-presa se intensifica antes de los colapsos (d = −2.52 antes del colapso Moose 1996, d = −1.10 antes del colapso Wolf 2012); (3) paradoja de Simpson en Amphibia — Anura α = 0.55 vs Caudata α = 0.03 (topología respiratoria); (4) tamaño corporal → color espectral (ρ = +0.867, p = 0.0025). Falló la predicción del precursor β. Puntuación actualizada 55% → 70%.
+
+### Tierra y clima
+
+| Dominio | Hallazgo | Método | Clase RTM | Novedad |
+|--------|---------|--------|-----------|---------|
+| **Alertas de tornado** | **α subsume VEL (ΔAUC = 0.000)** | TorNet MIT (n=1,105) | Acoplamiento vortical | NOVEDOSA |
+| **Predicción EF de tornado** | α predice la intensidad EF dentro de TOR | TorNet (n=435 confirmados) | Acoplamiento vortical | NOVEDOSA |
+| **RI de huracanes** | Anticipación temporal de 11.6 h | ODR continuo (n=48 tormentas) | Transición de fase (tiempo) | CONSISTENTE |
+| **Sismología (tipos de falla)** | Falla normal α = 0.865, CI excluye 1.0 | ODR (n=5 fallas normales) | Subbalística | NOVEDOSA |
+| **Extremos climáticos** | α = 0.43 ± 0.002 | ODR de varianza espacial | Subdifusiva | CONSISTENTE |
+| **Oceanografía** | n = 2.913 ± 0.337 | Compilación de literatura | Richardson t³ | CONSISTENTE |
+
+> **Nota sobre tornado (actualizada en abril de 2026):** La validación novedosa más fuerte del corpus. Tres hallazgos confirmados en 1,105 eventos TorNet: (1) α discrimina tornados confirmados de falsas alarmas (d = 0.96, CV AUC = 0.751); (2) **α subsume completamente la velocidad bruta** — ΔAUC = 0.000 cuando se agrega VEL a α (la velocidad es redundante); (3) α predice la intensidad EF dentro de tornados confirmados (ρ = +0.446, p < 10⁻⁴). Modelo óptimo: α + KDP (CV AUC = 0.769). Replica en 7/9 brotes independientes. Relevante operativamente: reducción de FAR de 16 puntos al 85% de POD.
+
+> **Nota sobre RI de huracanes (actualizada en abril de 2026):** Red Team confirmó circularidad — α se correlaciona con el viento en ρ = 0.957; tras controlar por viento, α no añade información predictiva independiente (ΔR² < 0.015, todas las correlaciones parciales ns, 13 pruebas, 3 rondas). El hallazgo sobreviviente es el **momento temporal** de la caída de α (6-18 h antes de la explosión cinética) y la consistencia de α_MIN (CV = 0.096 en 26 eventos RI). Se retiró la afirmación “α como predictor estructural independiente”. El huracán Otis ocupa el puesto #1 en α_STD y α_gap entre todas las tormentas RI.
+
+### Sistemas socioeconómicos
+
+| Dominio | Hallazgo | Método | Significancia | Novedad |
+|--------|---------|--------|--------------|---------|
+| **Epidemiología (COVID)** | α ≈ 1.0 (Zipf) | ODR + MC (k=0.226) | Resultado conocido | CONSISTENTE |
+| **Colapsos financieros (forense)** | Anticipación en muestra de ~10 días | MC + ODR (n=13 eventos) | d = 1.45, en muestra | CONSISTENTE | 
+| **Coherencia multiescala** | Colapso σ = 0.031 vs control σ = 0.310 | BTC 1 min (3 meses) | Separación 10x | NOVEDOSA |
+| **Rendimientos de mercado** | α = 2.966 ± 0.236 | Literatura (16 mercados) | Gabaix 2003 | CONSISTENTE |
+
+> **Nota sobre finanzas (actualizada en abril de 2026):** Campaña de flanqueo (5 flancos): precisión de predicción de colapsos fuera de muestra = **25%** (1/4 eventos posteriores a 2022). El umbral de caída de α entrenado con colapsos previos a 2022 no generaliza. La métrica de **coherencia multiescala** es el hallazgo novedoso sobreviviente: σ transescala de α = 0.031-0.034 durante meses de colapso vs σ = 0.310 durante control (diferencia 10x). Ningún indicador financiero estándar mide esto. Los patrones DFA forenses son reales (d = 1.45 en muestra); la predicción prospectiva aún no está validada. La afirmación “alerta temprana de 10 días” se reformuló como observación forense en muestra.
+
+### Patrones emergentes transdominio (descubrimiento de Red Team, abril de 2026)
+
+Tres patrones emergieron de forma independiente en campañas de flanqueo en múltiples dominios:
+
+**1. El amplificador métrico 2D.** Combinar α con una métrica de calidad (R², CI o σ) amplifica de manera consistente la discriminación más allá de cualquiera de las métricas por separado:
+- Consciencia: α × R² — d: 0.33 → 0.97 (ojos abiertos vs cerrados)
+- Cardiaco: α × CI — d: 1.25 → 3.28 (sanos vs CHF)
+- Economía: σ_transescala — separación 10x (colapso vs control)
+
+**2. Los sistemas se acoplan MÁS estrechamente antes/durante las crisis.** En contra de la intuición, los estados de crisis muestran MAYOR acoplamiento, no menor:
+- Galaxias: conspiración barión-halo r = +0.70 (ricas en gas), r = −0.15 (pobres en gas)
+- Ecosistemas: la conspiración de forma depredador-presa se intensifica antes de los colapsos (d = −2.52)
+- Mercados: coherencia multiescala σ → 0.03 durante los colapsos (todas las escalas se bloquean)
+- Cerebros: la conspiración α-R² se estrecha durante convulsiones (el CI bootstrap de Δρ excluye 0)
+
+**3. El medio gas/fluido habilita el acoplamiento estructural.** El medio que llena el potencial determina si aparecen efectos estructurales:
+- Galaxias: efectos estructurales solo en la submuestra rica en gas
+- Corazones: un corazón trasplantado (denervado) tiene SD1 = 8 ms (variabilidad cero)
+- Ambos: retirar el medio de acoplamiento colapsa la señal estructural a cero
+  
+---
+
+## Análisis heurísticos (exploratorios)
+
+Los siguientes análisis aportaron evidencia direccional inicial, pero tienen limitaciones metodológicas (OLS, agregación, estimaciones puntuales). Se conservan como suplementos exploratorios, no como evidencia primaria.
+
+| Dominio | Hallazgo original | Limitación | Estado |
+|--------|------------------|------------|--------|
+| GW O4 (sintético) | α = 1.018 | Extrapolación sintética | Reemplazado por O1-O3 ROBUST |
+| Promedios de varios dominios | R² alto | Falacia de agregación | Reemplazado por nivel de sujeto |
 
 ---
 
-## 🟡 Análisis Heurísticos (Exploratorios)
+## Aplicaciones y herramientas predictivas de RTM (z.apps)
 
-Los siguientes análisis proporcionaron evidencia direccional inicial pero sufren de limitaciones metodológicas (OLS, agregación, estimaciones puntuales). Se conservan como suplementos exploratorios, no como evidencia primaria.
+Esta sección aloja herramientas operativas desarrolladas bajo el marco RTM. Estas aplicaciones traducen la matemática de escalamiento en interfaces predictivas.
 
-| Dominio | Hallazgo Original | Limitación | Estado |
-|---------|-------------------|------------|--------|
-| OG O4 (sintético) | α = 1.018 | Extrapolación sintética | Superado por O1-O3 ROBUSTO |
-| Universo Temprano JWST | Temporización de estructura | Épocas limitadas | Exploratorio |
-| Varios promedios de dominio | R² alto | Falacia de agregación | Superado por nivel de sujeto |
-
----
-## Aplicaciones Predictivas y Herramientas RTM (z.apps)
-
-Esta sección aloja herramientas operacionales desarrolladas bajo el marco RTM (Coherencia Estructural Topológica). Estas aplicaciones traducen matemáticas rítmicas complejas en interfaces predictivas, permitiendo la detección de fracturas estructurales en sistemas no lineales antes de que se manifiesten como eventos cinéticos.
-
-### Objetivos Centrales
-- **Detección Temprana:** Identificar la transición de estados laminares a turbulentos.
-- **Integridad Estructural:** Monitorear el coeficiente $\alpha$ para evaluar la estabilidad del sistema.
-- **Tiempo de Anticipación:** Proporcionar una ventana predictiva antes de que reaccionen las métricas tradicionales oficiales (métricas cinéticas).
+### Objetivos centrales
+- **Detección temprana:** Identificar la transición de estados laminares a turbulentos.
+- **Integridad estructural:** Monitorear el coeficiente $\alpha$ para evaluar la estabilidad del sistema.
+- **Tiempo de anticipación:** Proporcionar una ventana predictiva antes de que reaccionen las métricas cinéticas tradicionales.
 
 ---
 
-### Lista de Aplicaciones Activas
+### 1. RTM CLIMATE (Monitor atmosférico)
 
-#### 1. RTM CLIMATE (Monitor Atmosférico)
-La primera implementación operacional de la Teoría RTM, una implementación comprehensiva de la Teoría RTM aplicada a la Meteorología Rítmica y física climática extrema. Este sistema unificado de doble módulo escanea telemetría satelital en tiempo real para detectar fracturas topológicas en la atmósfera, prediciendo la intensificación rápida de huracanes con un tiempo de anticipación de ~11.6 horas, mientras también rastrea transiciones de fase atmosféricas extremas.
+La primera implementación operativa de la teoría RTM aplicada a la meteorología rítmica y la física de climas extremos. Este sistema de doble módulo procesa datos atmosféricos en tiempo real para detectar patrones estructurales en la dinámica atmosférica.
 
-* **Estado:** Operacional / Prueba de Concepto
-* **Dominio:** Termodinámica Atmosférica y Física Climática Multiescala
-* **Lanzar App:** [Consola RTM CLIMATE MONITOR](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
-* **Escalando la Visión:** Mientras que la plataforma actual opera tanto como escáner localizado y analizador de macro-clima, la hoja de ruta final prevé una red de detección autónoma a escala planetaria. Aprovechando telemetría global masiva, matemáticas tensoriales GPU y un gemelo digital 3D, la arquitectura final monitoreará la viscosidad topológica completa de la Tierra en tiempo real. Lee el plan completo aquí: [Visión de Arquitectura Global (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/atmospheric-monitor/RTM%20CLIMATE-Global-Architecture-Vision.pdf).
+**Qué mide:**
 
-> **AVISO: Esta es una herramienta de investigación estrictamente académica para la termodinámica atmosférica multiescala. Está diseñada para la validación meteorológica teórica y no abusa, no hace spam ni realiza extracción masiva de datos (web scraping) de APIs comerciales.**
+**(a) Radar de ciclogénesis en vivo.** Rastrea el exponente de acoplamiento volumen-presión (α) como indicador temporal. Las pruebas adversariales (Red Team, abril de 2026) confirmaron que α se correlaciona con la velocidad del viento en ρ = 0.957 después de 13 pruebas independientes en 3 rondas; el valor operativo está en el **momento** de las caídas de α (6-18 h antes de la explosión cinética del viento), no en la predicción de magnitud. La magnitud de α es redundante con la velocidad del viento (ΔR² < 0.015, todas las correlaciones parciales no significativas tras controlar por viento).
+
+**(b) Monitor de coherencia multiescala (novedoso).** Calcula α simultáneamente en ventanas de 1 h, 3 h, 6 h y 12 h. La desviación estándar transescala (σ) es la métrica nativa de RTM que sobrevive: durante crisis estructurales, σ → 0.03 (todas las escalas se acoplan simultáneamente); en condiciones normales, σ → 0.31 (las escalas operan de forma independiente). Ninguna herramienta meteorológica estándar mide esta cantidad. Referencia: los meses de colapso de BTC (análogo financiero) mostraron σ = 0.031-0.034 vs control σ = 0.310.
+
+**Hallazgos de Red Team (abril de 2026):**
+
+- La magnitud α en huracanes es redundante con la velocidad del viento — confirmado en 13 pruebas independientes en 3 rondas. Este módulo ahora se enfoca en el momento temporal y la coherencia transescala, no en niveles absolutos de α.
+- La discriminación de tornados sigue siendo el resultado empírico más fuerte del corpus meteorológico RTM: d = 0.96, CV AUC = 0.751, α subsume completamente la velocidad bruta (ΔAUC = 0.000 cuando se agrega VEL a α) en 1,105 eventos TorNet del MIT.
+- Falla normal (extensional) α = 0.865, el CI del 95% excluye 1.0 — hallazgo sismológico genuinamente novedoso.
+
+> **AVISO:** Prueba de concepto estrictamente académica. No es un sistema oficial de alerta meteorológica y no debe usarse como tal. No abusa, no hace spam ni realiza raspado masivo de APIs comerciales de datos.
+
+- **Estado:** Operativo / prueba de concepto (v2 — posterior a auditoría Red Team)
+- **Dominio:** Termodinámica atmosférica y física climática multiescala
+* **Abrir app:** [Consola RTM CLIMATE MONITOR](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
 
 ---
-#### 2. RTM ECONOMIC MONITOR (Motor Cripto)
-La segunda implementación operacional de la Teoría RTM, demostrando su universalidad a través de disciplinas al aplicar los mismos principios topológicos a la complejidad financiera. Esta herramienta escanea datos de mercado en tiempo real (como BTC/USDT) para detectar fracturas estructurales en la liquidez. Está diseñada para identificar el momento exacto en que la "fricción" matemática del mercado colapsa, prediciendo eventos de volatilidad severa (crashes relámpago o bombeos explosivos) días antes de que reaccionen los indicadores de momento cinético tradicionales.
+### 2. RTM ECONOMIC MONITOR (motor cripto)
 
-* **Estado:** Operacional / Prueba de Concepto
-* **Dominio:** Finanzas Cuantitativas y Topología de Mercado
-* **Lanzar App:** [Consola RTM ECONOMIC MONITOR](https://corpusrythmos-cryptomonitor.streamlit.app/)
-* **Escalando la Visión:** Mientras que el actual RTM ECONOMIC MONITOR opera como un escáner localizado de activo único, la hoja de ruta final aborda el desafío central absoluto de la física financiera: **la reflexividad del mercado**. Debido a que los mercados son auto-conscientes, la predicción generalizada de una fractura de liquidez topológica alterará inherentemente su línea temporal (el Efecto Observador). Para sobrevivir a su propio éxito, la arquitectura final prevé un **Motor Reflexivo de Segundo Orden**. Aprovechando matemáticas tensoriales conductuales y modelado de bucles de retroalimentación. Lee el plan completo aquí: [Visión de Arquitectura Económica (PDF)](https://github.com/zarpafantasma/corpus_rythmos/blob/main/z-apps/cryptocurrency_monitor/RTM_Economic_Monitor.pdf)
+La segunda implementación operativa de la teoría RTM, que aplica principios topológicos a la microestructura de los mercados financieros. Monitorea datos de mercado en tiempo real (BTC/USDT vía Kraken) para rastrear el coeficiente de acoplamiento volumen-volatilidad (α) y la coherencia estructural transescala.
 
-> **DESCARGO DE RESPONSABILIDAD: Esta es una herramienta académica de análisis de datos topológicos de solo lectura. NO ejecuta operaciones de mercado, NO mina criptomonedas y NO constituye asesoramiento financiero.**
+**Qué mide:**
+
+**(a) Radar de microestructura.** Rastrea α como descriptor estructural del acoplamiento de mercado. Cuando α aumenta, el volumen mueve el precio con menor eficiencia — una señal de fricción interna creciente. Es un descriptor estructural, no un sistema de predicción de colapsos.
+
+**(b) Monitor de coherencia multiescala (novedoso — sobreviviente de Red Team).** La única métrica económica RTM que pasó pruebas adversariales como genuinamente novedosa. Calcula α simultáneamente en agregaciones de 1 min, 5 min, 15 min y 60 min; rastrea la desviación estándar transescala (σ). Durante meses de colapso de BTC (COVID marzo de 2020, FTX noviembre de 2022), σ = 0.031-0.034; durante el mes de control (septiembre de 2023), σ = 0.310 — 10 veces menos coherente. El mercado no pierde coherencia durante los colapsos: la gana. Todas las escalas se bloquean simultáneamente. Ningún indicador financiero estándar mide la coherencia α transescala.
+
+**(c) Radar DFA macro.** Rastrea la memoria de largo alcance (DFA α) en una ventana móvil de 7 días. Mide la persistencia de la autocorrelación de retornos. Solo contexto estructural.
+
+**(d) Laboratorio forense.** Reconstrucción post hoc de patrones estructurales durante eventos de colapso conocidos (COVID, FTX, prohibición de China, control). Análisis forense — no predicción prospectiva.
+
+**Hallazgos de Red Team (abril de 2026):**
+
+- Precisión de predicción de colapsos fuera de muestra: **25%** (1 de 4 eventos posteriores a 2022 clasificado correctamente). El umbral de caída de α entrenado con colapsos previos a 2022 no generaliza entre regímenes de mercado.
+- Los patrones forenses (anticipación de 60 min en COVID, anticipación de 96 horas en FTX) son observaciones en muestra identificadas después del hecho, no predicciones prospectivas validadas.
+- Se eliminó el lenguaje “EXIT MARKETS” en v2. Todas las alertas de BIFURCATION ahora incluyen un aviso explícito de precisión fuera de muestra.
+- El acoplamiento volumen-volatilidad es real y no aleatorio (r global > 0.88 en todos los meses). El descriptor estructural es válido; la aplicación predictiva aún no está validada.
+
+> **DESCARGO DE RESPONSABILIDAD:** Herramienta académica de análisis topológico de solo lectura. NO ejecuta operaciones, NO mina criptomonedas y NO constituye asesoría financiera. La precisión de predicción de colapsos fuera de muestra es del 25%. No es una señal operativa de trading.
+
+- **Estado:** Operativo / prueba de concepto (v2 — posterior a auditoría Red Team)
+- **Dominio:** Finanzas cuantitativas y topología de mercado
+* **Abrir app:** [Consola RTM ECONOMIC MONITOR](https://corpusrythmos-cryptomonitor.streamlit.app/)
 ---
 
-## Estructura del Corpus
+## Estructura del corpus
 
-El corpus comprende **24 documentos** a través de cinco categorías:
+El corpus comprende **24 documentos** distribuidos en cinco categorías:
 
-### Científico / Técnico
+### Científica / técnica
 
 | Documento | Tipo | Descripción | Ubicación |
-|-----------|------|-------------|-----------|
-| 001-RTM — Analítico | Fundamento | Invarianza central, métodos de estimación, clases de transporte | CARPETA I |
-| 002-Geometría Escala-Reloj | Fundamento | Columna vertebral matemática, invarianza de calibre, cotas de sesgo | CARPETA I |
-| 003-Marco de Cascada RTM | Marco | Prueba de dos firmas para cascadas direccionales | CARPETA I |
-| 004-Universo Temprano | Especulativo | Temporización de formación de estructuras | CARPETA I |
-| 005-Agujeros Negros en RTM | Especulativo | Escalamiento de horizonte, acreción | CARPETA I |
-| 006-Computación Cuántica Consciente de RTM | Dominio | Diagnósticos entre capas | CARPETA I |
-| 007-Química Rítmica | Dominio | Geometría de confinamiento, cinética de reacción | CARPETA I |
-| 008-Bioquímica Rítmica | Dominio | Escalamiento enzimático, máquinas moleculares | CARPETA I |
+|----------|------|-------------|------|
+| 001-RTM — Analítico | Fundamento | Invariancia central, métodos de estimación, clases de transporte | CARPETA I |
+| 002-Geometría escala–reloj | Fundamento | Columna matemática, invariancia gauge, límites de sesgo | CARPETA I |
+| 003-Marco de cascadas RTM | Marco | Prueba de dos firmas para cascadas direccionales | CARPETA I |
+| 004-Universo temprano | Especulativo | Temporización de formación de estructura | CARPETA I |
+| 005-Agujeros negros en RTM | Especulativo | Escalamiento de horizonte, acreción | CARPETA I |
+| 006-Computación cuántica consciente de RTM | Dominio | Diagnósticos entre capas | CARPETA I |
+| 007-Química rítmica | Dominio | Geometría de confinamiento, cinética de reacción | CARPETA I |
+| 008-Bioquímica rítmica | Dominio | Escalamiento enzimático, máquinas moleculares | CARPETA I |
 | 009-Homeostasis | Dominio | Índice de coherencia biológica (C_bio) | CARPETA I |
-| 010-Neurociencia Rítmica | Dominio | Escalamiento neural, marcadores de conciencia | CARPETA I |
-| 011-Acceso Consciente | Dominio | Hipótesis de umbral de coherencia | CARPETA I |
-| 012-Ecología Rítmica | Dominio | Cascadas tróficas, resiliencia de ecosistemas | CARPETA I |
-| 013-Meteorología Rítmica | Dominio | Regímenes atmosféricos, ciclogénesis | CARPETA I |
-| 014-Astronomía Rítmica | Dominio | Dinámica galáctica | CARPETA I |
-| 015-Economía Rítmica | Dominio | Índice de Coherencia Económica (ECI) | CARPETA I |
-| 016-Aetherion | Experimental | Concepto de propulsión por gradiente | CARPETA II |
-| 017-Marco de Campo Unificado RTM | Especulativo | Lagrangiano efectivo, bandas topológicas | CARPETA II |
+| 010-Neurociencia rítmica | Dominio | Escalamiento neural, marcadores de consciencia | CARPETA I |
+| 011-Acceso consciente | Dominio | Hipótesis de umbral de coherencia | CARPETA I |
+| 012-Ecología rítmica | Dominio | Cascadas tróficas, resiliencia de ecosistemas | CARPETA I |
+| 013-Meteorología rítmica | Dominio | Regímenes atmosféricos, ciclogénesis | CARPETA I |
+| 014-Astronomía rítmica | Dominio | Dinámica galáctica | CARPETA I |
+| 015-Economía rítmica | Dominio | Índice de coherencia económica (ECI) | CARPETA I |
+| 016-Aetherion | Experimental | Concepto de propulsión impulsada por gradiente | CARPETA II |
+| 017-Marco de campo unificado RTM | Especulativo | Lagrangiano efectivo, bandas topológicas | CARPETA II |
 
-### Filosófico / Metodológico
-
-| Documento | Tipo | Descripción | Ubicación |
-|-----------|------|-------------|-----------|
-| 018-El Marco Aetherion e Implicaciones | Manual/Especulativo | Manual práctico, orientación del aetherion | CARPETA II |
-| 019-La Gramática del Ritmo | Métodos | Manual práctico, estándares de estimación | CARPETA III |
-| 020-La Sinfonía Multiescala | Ensayo | Orientación filosófica | CARPETA III |
-| 021-Física de la Tradición | Antropología | Aplicaciones culturales, acústica ritual | CARPETA III |
-| 022-El Búho y la Lanza | Manual | Higiene fenomenológica | CARPETA III |
-| Extensiones Filosoficas | Operativo/Narrativo | Actualización Ontológica | CARPETA III |
-
-### Literario
+### Filosófica / metodológica
 
 | Documento | Tipo | Descripción | Ubicación |
-|-----------|------|-------------|-----------|
-| 023-Recuerda, la Llama Eterna | Ficción | Novela que mitologiza el marco | CARPETA IV |
-| +Prototipo Aetherion Mark1 (LAB 7Z) | Especulativo/Narrativo | Tecnología Antigravedad y Herramientas Relacionadas | CARPETA IV |
-| +Protocolo N1_ARQUITECTO | Especulativo/Narrativo | Protocolos de Civilización Entre-Ramas | CARPETA IV |
-| +Proyectos RTT-UFF G.H.O.S.T (LAB P5) | Especulativo/Narrativo | Bomba de Vacío ZPE y Hallazgos del MCU | CARPETA IV |
+|----------|------|-------------|------|
+| 018-El marco Aetherion y sus implicaciones | Manual/especulativo | Guía práctica, orientación aetherion | CARPETA II |
+| 019-La gramática del ritmo | Métodos | Guía práctica, estándares de estimación | CARPETA III |
+| 020-La sinfonía multiescala | Ensayo | Orientación filosófica | CARPETA III |
+| 021-Física de la tradición | Antropología | Aplicaciones culturales, acústica ritual | CARPETA III |
+| 022-El búho y la lanza | Manual | Higiene fenomenológica | CARPETA III |
+| +Extensiones_filosóficas | Operativo | Actualización ontológica | CARPETA III |
+
+### Literaria
+
+| Documento | Tipo | Descripción | Ubicación |
+|----------|------|-------------|------|
+| 023-Recuerda, la llama eterna | Ficción | Novela que mitologiza el marco | CARPETA IV |
+| +Prototipo Aetherion Mark1 (LAB 7Z) | Especulativo/narrativo | Tecnología antigravedad y herramientas relacionadas | CARPETA IV |
+| +N1_ARCHITECT_PROTOCOL | Especulativo/narrativo | Protocolos de civilización InterBranch | CARPETA IV |
+| +Proyectos RTT-UFF G.H.O.S.T (LAB P5) | Especulativo/narrativo | Bomba de vacío ZPE y hallazgos UFF | CARPETA IV |
 
 ### Personal
 
 | Documento | Tipo | Descripción | Ubicación |
-|-----------|------|-------------|-----------|
-| 024-Las Puertas Ocultas y la Media Llave | Origen | Un relato franco de la autoría y creación de RTM | CARPETA V |
+|----------|------|-------------|------|
+| 024-Las puertas ocultas y la media llave | Origen | Relato sincero sobre la autoría y creación de la RTM | CARPETA V |
 
+#### Todos los documentos proporcionados en formato MarkDown (.MD) y PDF están acompañados por sus archivos fuente DOCX originales (carpeta /original-docs), lo que permite editar, bifurcar o traducir directamente el material.
 
-#### Todos los artículos proporcionados en formato MarkDown (.MD) y PDF están acompañados por sus archivos fuente DOCX originales (carpeta /original-docs), permitiendo la edición directa, bifurcación o traducción del material.
+### Convenciones y etiquetas de estado:
 
-### Convenciones y Etiquetas de Estado:
+- Ruta de lectura (sugerida): Fundamentos → Marco → Aplicaciones de dominio → Aetherion → Filosofía → Ficción → Sobre el autor.
+- Descargos: las afirmaciones científicas son falsables; las filosóficas/metafísicas no son empíricas; lo literario es ficción; “Sobre el autor” es transparencia de proceso.
 
-- Ruta de lectura (sugerida): Fundamentos → Marco → Aplicaciones de dominio → Aetherion → Filosofía → Ficción → Sobre el Autor.
-- Descargos de responsabilidad: las afirmaciones científicas son falsificables; las filosóficas/metafísicas son no empíricas; lo literario es ficción; "Sobre el Autor" es transparencia de proceso.
+### Rutas de lectura por audiencia:
 
-### Rutas de Lectura por Audiencia:
-
-- Físicos: Geometría Escala-Reloj → RTM Analítico → Aetherion → omitir filosofía inicialmente
-- Filósofos: Sinfonía Multiescala → El Búho y la Lanza → luego Fundamentos
-- Lectores generales: Puertas Ocultas → Llama Eterna → trabajar hacia atrás hacia la ciencia
-- Escépticos: Criterios de Falsificación → ejecutar las simulaciones → ejecutar las validaciones empíricas (ROBUSTO).
-
----
-
-## Simulaciones Computacionales
-
-El corpus incluye **más de 70 suites de simulación** demostrando:
-
-- **Validez metodológica**: Recuperación de α con < 2% de error
-- **Distinguibilidad**: Tamaños de efecto (d > 1.5) separando predicciones de nulos  
-- **Mapeo de parámetros**: Rangos de α y umbrales críticos por dominio
+- Físicos: Geometría escala-reloj → RTM analítica → Aetherion → omitir filosofía inicialmente
+- Filósofos: Sinfonía multiescala → Búho y lanza → luego fundamentos
+- Lectores generales: Puertas ocultas → Llama eterna → avanzar hacia atrás hasta la ciencia
+- Escépticos: Criterios de falsación → ejecutar las simulaciones → ejecutar las validaciones empíricas (ROBUST).
 
 ---
 
-## Comenzando
+## Simulaciones computacionales
+
+El corpus incluye **más de 70 suites de simulación** que demuestran:
+
+- **Validez metodológica**: recuperación de α con error < 2%
+- **Distinguibilidad**: tamaños del efecto (d > 1.5) que separan predicciones de nulos  
+- **Mapeo de parámetros**: rangos de α y umbrales críticos por dominio
+
+---
+
+## Primeros pasos
 
 ### Requisitos
 
@@ -302,7 +357,7 @@ cd corpus_rythmos
 pip install -r requirements.txt
 ```
 
-### Ejecutando Simulaciones
+### Ejecución de simulaciones
 
 Cada simulación es autocontenida:
 
@@ -311,21 +366,21 @@ cd 009-Homeostasis/S1_cbio_hrv/
 python S1_cbio_hrv.py
 ```
 
-### Ejemplo Rápido
+### Ejemplo rápido
 
 ```python
 import numpy as np
 from scipy import odr
 
-# Escalamiento RTM con ODR (Errores en Variables)
+# Escalamiento RTM con ODR (errores en variables)
 def rtm_model(B, x):
-    return B[0] + B[1] * x  # log-log lineal
+    return B[0] + B[1] * x  # lineal log-log
 
-# Ejemplo: Escalamiento de ruptura sísmica
+# Ejemplo: escalamiento de ruptura sísmica
 log_L = np.array([1.5, 1.8, 2.0, 2.3, 2.5, 2.8])  # log(Longitud)
 log_T = np.array([1.48, 1.82, 2.01, 2.28, 2.52, 2.79])  # log(Duración)
-sx = 0.15 * np.ones_like(log_L)  # 15% incertidumbre en longitud
-sy = 0.20 * np.ones_like(log_T)  # 20% incertidumbre en duración
+sx = 0.15 * np.ones_like(log_L)  # incertidumbre de longitud del 15%
+sy = 0.20 * np.ones_like(log_T)  # incertidumbre de duración del 20%
 
 # Ajuste ODR
 model = odr.Model(rtm_model)
@@ -334,14 +389,14 @@ fit = odr.ODR(data, model, beta0=[0, 1])
 result = fit.run()
 
 print(f"RTM α = {result.beta[1]:.3f} ± {result.sd_beta[1]:.3f}")
-# Esperado: α ≈ 1.00 (Balístico)
+# Esperado: α ≈ 1.00 (balístico)
 ```
 
 ---
 
 ## Citación
 
-Si usa este trabajo, por favor cítelo usando el DOI:
+Si usas este trabajo, por favor cítalo usando el DOI:
 
 > **DOI:** [10.5281/zenodo.19325100](https://doi.org/10.5281/zenodo.19325100)
 
@@ -360,16 +415,16 @@ Si usa este trabajo, por favor cítelo usando el DOI:
 
 ---
 
-## Contribuciones
+## Contribuir
 
-RTM invita al escrutinio. Las contribuciones son bienvenidas:
+La RTM invita al escrutinio. Las contribuciones son bienvenidas:
 
-- **Pruebas empíricas**: Aplica la metodología a nuevos conjuntos de datos
-- **Replicación**: Reproduce simulaciones, reporta discrepancias
-- **Crítica**: Identifica fallas, explicaciones alternativas, modos de fallo
-- **Extensiones**: Propón nuevas aplicaciones de dominio
+- **Pruebas empíricas**: aplicar la metodología a nuevos conjuntos de datos
+- **Replicación**: reproducir simulaciones, reportar discrepancias
+- **Crítica**: identificar fallas, explicaciones alternativas, modos de falla
+- **Extensiones**: proponer nuevas aplicaciones de dominio
 
-Por favor abre un issue o pull request.
+Por favor abre un issue o un pull request.
 
 ---
 
@@ -389,7 +444,7 @@ Este trabajo está licenciado bajo una [Licencia Creative Commons Atribución 4.
 
 http://zarpafantasma.com/rtm
 
-"El tiempo no es lo que pasa, sino lo que pulsa."
+“El tiempo no es lo que pasa, sino lo que pulsa.”
 
 © 2026 Álvaro José Quiceno Rendón. Licenciado bajo CC BY 4.0.
 </div>
