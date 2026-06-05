@@ -13,9 +13,9 @@
 
 Power-law relationships between time and length scales $T \propto L^{\alpha}$ appear throughout physics, from diffusion ($\alpha = \ 2$) to wave propagation ($\alpha = \ 1$) to critical phenomena. These scaling laws are typically treated as isolated phenomenological descriptions, each derived within its own domain and lacking mutual connection. ***Relatividad Temporal Multiescala*** (RTM) proposes something stronger: that the exponent $\alpha$ is not merely a fitting parameter but a **structural invariant** determined by the topology and architecture of the system. Under this view, $\alpha$ encodes the geometry of information flow---whether ballistic, diffusive, hierarchical, or confined---and systems with equivalent structural organization must share the same $\alpha$ regardless of their microscopic constituents.
 
-This reframing transforms scattered scaling observations into a unified classification scheme. We identify and validate distinct scaling bands: **ballistic** ($\alpha \approx 1$), **diffusive** $(\alpha \approx 2)$, **fractal/biological** ($\alpha \approx 2.3$--2.5), **hierarchical/cortical** ($\alpha \approx 2.5 - 2.7$), **holographic** $(\alpha \rightarrow 3)$, and **quantum-confined** $(\alpha \approx 3.5)$. The discreteness of these bands---rather than a continuum of possible exponents---constitutes a central falsifiable prediction distinguishing RTM from generic scaling phenomenology.
+This reframing transforms scattered scaling observations into a unified classification scheme. We identify and validate distinct scaling bands: **ballistic** ($\alpha \approx 1$), **diffusive** $(\alpha \approx 2)$, **fractal/biological** ($\alpha \approx 2.3$ --2.5), **hierarchical/cortical** ($\alpha \approx 2.5 - 2.7$), **holographic** $(\alpha \rightarrow 3)$, and **quantum-confined** $(\alpha \approx 3.5)$. The discreteness of these bands---rather than a continuum of possible exponents---constitutes a central falsifiable prediction distinguishing RTM from generic scaling phenomenology.
 
-We present comprehensive numerical validation across **seven distinct network topologies.** Six regimes are independently confirmed with $R^{2} > 0.98$, including the holographic regime ($\alpha = \ 2.9499\  \pm 0.0683$, $R^{2} = 0.997$, 95% CI $\lbrack 2.82,3.08\rbrack$ tightly bracketing the theoretical $\alpha = \ 3.0$). For the quantum-confined regime, we construct a lattice model with boundary confinement that produces $\alpha = \ 3.4907\  \pm 0.0677$ $(R^{2} = 0.997$), with a 95% confidence interval $\lbrack 3.42,3.56\rbrack$ that includes the theoretical target $\alpha = \ 3.5$. This constitutes a **proof-of-concept consistency check**---demonstrating that a simple confinement mechanism generates the predicted exponent---rather than an independent validation, as the model parameters are calibrated to the target. Definitive validation of the quantum-confined regime requires quantum simulation or experimental measurement as outlined in Section 5.4.
+We present comprehensive numerical validation across **seven distinct network topologies.** Six regimes are independently confirmed with $R^{2} > 0.98$, including the holographic regime ($\alpha = \ 2.9499\  \pm 0.0683$, $ R^{2} = 0.997$, 95% CI $\lbrack 2.82,3.08\rbrack$ tightly bracketing the theoretical $\alpha = \ 3.0$). For the quantum-confined regime, we construct a lattice model with boundary confinement that produces $\alpha = \ 3.4907\  \pm 0.0677$ $(R^{2} = 0.997$), with a 95% confidence interval $\lbrack 3.42,3.56\rbrack$ that includes the theoretical target $\alpha = \ 3.5$. This constitutes a **proof-of-concept consistency check**---demonstrating that a simple confinement mechanism generates the predicted exponent---rather than an independent validation, as the model parameters are calibrated to the target. Definitive validation of the quantum-confined regime requires quantum simulation or experimental measurement as outlined in Section 5.4.
 
 ***All simulations are fully reproducible with accompanying code, Docker containers, and datasets.***
 
@@ -83,7 +83,7 @@ This work establishes a rigorous foundation for understanding how time flows dif
 
 | Symbol | Description |
 | :--- | :--- |
-| $\alpha$ | Temporal scaling exponent linking the characteristic time $T$ to the length scale $L$ via the master law. Distinct from the dynamic exponent $z$. Typical regimes: ballistic $\approx 1$, diffusive $\approx 2$, biological/fractal $\approx 2.3$–$2.7$, confined quantum $\approx 3.0$–$3.5$ (heuristic bounds; see Appendix J.5). |
+| $\alpha$ | Temporal scaling exponent linking the characteristic time $T$ to the length scale $L$ via the master law. Distinct from the dynamic exponent $z$. Typical regimes: ballistic $\approx 1$, diffusive $\approx 2$, biological/fractal $\approx 2.3$ – $2.7$, confined quantum $\approx 3.0$ – $3.5$ (heuristic bounds; see Appendix J.5). |
 | $T$ | Characteristic time of the system (e.g., decoherence time, first-passage time). Dimensionless master law: $T/T_0 = (L/L_0)^\alpha \cdot \Theta(\mathcal{T}) / \sqrt{\rho/\rho_0}$. |
 | $L$ | Characteristic spatial length (ionic-chain length, condensate radius, network diameter, etc.). |
 | $\rho$ | Local structural density (mass/volume or nodes/volume). At fixed $L$, higher $\rho$ accelerates dynamics: $T \propto 1/\sqrt{\rho}$. |
@@ -227,7 +227,7 @@ Further corrections from $\alpha^{'}$ expansions reduce this value to approximat
 
 **Derivation from Holographic Principles:**
 
-The holographic principle provides another approach to deriving $\alpha \approx 3.5$. According to the AdS/CFT correspondence, a gravitational theory in $(d + 1)$-dimensional anti-de Sitter space is dual to a conformal field theory in $d$ dimensions.
+The holographic principle provides another approach to deriving $\alpha \approx 3.5$. According to the AdS/CFT correspondence, a gravitational theory in $(d + 1)$ -dimensional anti-de Sitter space is dual to a conformal field theory in $d$ dimensions.
 
 For quantum systems with strong correlations, the dynamical critical exponent $z$ in the holographic theory relates directly to our parameter $\alpha$:
 
@@ -655,12 +655,11 @@ With $L_{i}$ acting only within local correlation volumes defined by $\xi_{i}$
 
 > We study Watts--Strogatz "flat" small-world networks (ring with random shortcuts). The characteristic scale is the **average graph-geodesic length** $\mathcal{l}(N)$ (mean shortest-path in hops). Across ensembles with $N \in \{ 100,200,400,800,1600\}$, $p = 0.1$, $k = 4$, the observed scaling is **logarithmic**:
 >
-> $$\mathcal{l}(N)\text{\:\,} \approx \text{\:\,}a + b\text{ }\log N
-> $$
+> $$\mathcal{l}(N)\text{\:\,} \approx \text{\:\,}a + b\text{ }\log N$$
 >
 > with small residuals under the log model and clear misfit under any single power law over this range. If one **forces** a power-law fit on log--log axes, the finite window returns an apparent slope $\alpha_{\text{eff}} \ll 1$; we interpret this as a **model-specification artifact**, not evidence of a genuinely sub-linear temporal band.
 >
-> **RTM interpretation.** Small-world shortcuts change the **effective metric**: when the "clock" counts hops, $\mathcal{l} \sim \log N$. Relative to Euclidean system size $L \propto N$, a physical traversal time with per-hop latency $\tau$ is $T_{\text{phys}} \approx \tau l(N) \propto \log L$. Hence the small-world case lies **outside** the standard RTM template $T \propto L^{\alpha}$ for Euclidean traversal. If one adopts the **graph-geodesic length** $L^{'}: = \mathcal{l}(N)$(or $L^{'}: = \log N$) as the scale, then $T \propto L^{'}$ with $\alpha = 1$ in that metric.
+> **RTM interpretation.** Small-world shortcuts change the **effective metric**: when the "clock" counts hops, $\mathcal{l} \sim \log N$. Relative to Euclidean system size $L \propto N$, a physical traversal time with per-hop latency $\tau$ is $T_{\text{phys}} \approx \tau l(N) \propto \log L$. Hence the small-world case lies **outside** the standard RTM template $T \propto L^{\alpha}$ for Euclidean traversal. If one adopts the **graph-geodesic length** $L^{'}: = \mathcal{l}(N)$ (or $L^{'}: = \log N$) as the scale, then $T \propto L^{'}$ with $\alpha = 1$ in that metric.
 >
 > We exclude the small-world case from the results table because its scaling is **logarithmic** ($\mathcal{l} \sim \log N$), not a power law. The table summarizes **power-law** regimes via $\alpha$; forcing a power fit here would yield a misleading $\alpha_{\text{eff}} \ll 1$ that reflects model misspecification rather than a genuine RTM band.
 >
@@ -794,9 +793,6 @@ Where θ is the volumetric water content. This explains why water infiltration r
 
 3.  Extract the characteristic coupling lengths $L_{ij}$ and coupling parameters $\lambda_{ij}$, ${\ \gamma}_{ij}$
 
-```{=html}
-<!-- -->
-```
 2.  **Quantum System Temporal Scaling**
 
 > **Objective:** Measure α in quantum systems of different sizes
@@ -829,7 +825,7 @@ Where θ is the volumetric water content. This explains why water infiltration r
 
 3.  Compare with theoretical predictions for 1D quantum systems
 
-***Protocol for Measuring Decoherence Time (***$\mathbf{\tau}_{\mathbf{decoh}\mathbf{}}$***​) in Bose-Einstein Condensates:***
+***Protocol for Measuring Decoherence Time ($\mathbf{\tau}_{\mathbf{decoh}\mathbf{}}$) in Bose-Einstein Condensates:***
 
 1.  State Preparation: Create superpositions using *π*/2 microwave pulses in a 10 μm BEC.
 
@@ -1251,7 +1247,7 @@ The elevated α reflects: - Bottlenecks at hub nodes connecting different module
 
 This result validates the RTM prediction that cortical neural networks, with their characteristic hierarchical modular architecture, exhibit temporal scaling in the range α ≈ 2.3--2.7, distinct from both simple diffusion and flat small-world topologies.
 
--   **Simulation G: Holographic Decay Network (**$\mathbf{P}\left( \mathbf{r} \right)\mathbf{\propto}\mathbf{r}^{\mathbf{- 3}}$**)**
+-   **Simulation G: Holographic Decay Network ($\mathbf{P}\left( \mathbf{r} \right)\mathbf{\propto}\mathbf{r}^{\mathbf{- 3}}$)**
 
 **Model Description**
 
@@ -1335,7 +1331,7 @@ The holographic decay network yields $\backslash alpha\  = \ 2.9499\ \backslash 
 
 The $r^{- 3}$ decay creates a network structure where information/transport time scales with the volume ($L^{3}$) rather than the surface area or linear extent. This is consistent with holographic bounds on information processing: the degree of \"trapping\" introduced by the holographic decay law produces a temporal cost that grows volumetrically.
 
--   **Simulation H: Lattice Proxy for the Quantum-Confined Regime (**$\mathbf{\alpha \approx}\mathbf{3.5}$**)**
+-   **Simulation H: Lattice Proxy for the Quantum-Confined Regime ($\mathbf{\alpha \approx}\mathbf{3.5}$)**
 
 **Motivation and Challenge**
 
@@ -1383,7 +1379,7 @@ All code released under CC BY 4.0 license.
 
 \| B. **Diffusive 1-D** \| Linear + RW \| 2.00 \| $1.9698\  \pm 0.0089$ \| $\lbrack 1.9448,\, 1.9878\rbrack$ \| 0.9999 \| ✅ Confirmed \|
 
-\| C. **Flat Small-World** \| Watts-Strogatz \| $\sim$`<!-- -->`{=html}2.0 \| $2.0428\  \pm 0.0146$ \| $\lbrack 2.0109,\, 2.0749\rbrack$ \| 0.9998 \| ✅ Confirmed \|
+\| C. **Flat Small-World** \| Watts-Strogatz \| $\sim$ <!-- -->`{=html}2.0 \| $2.0428\  \pm 0.0146$ \| $\lbrack 2.0109,\, 2.0749\rbrack$ \| 0.9998 \| ✅ Confirmed \|
 
 \| D. **Sierpiński Fractal** \| Deterministic fractal \| $d_{w} \approx 2.32$ \| $2.3245\  \pm 0.0157$ \| $\lbrack 2.2832,\, 2.3558\rbrack$ \| 0.9999 \| ✅ Confirmed \|
 
@@ -1401,7 +1397,7 @@ All code released under CC BY 4.0 license.
 > **Note on Scaling Refinement:**
 > The $\alpha$ values presented in this foundational table represent first-order linear approximations (2D projections) used during the initial hypothesis phase.
 >
-> Subsequent audits within the **RTM Unified Field Framework** (see Doc 017 & 020) have refined these constants to account for **3D Vacuum Topology**. Specifically, the biological/conscious band is now anchored to the **Sierpiński Tetrahedron limit** ($\alpha \approx 2.51$–$2.69$), which ensures *Superfluid Information Transport*. Readers are advised to use the refined values found in later technical reports for precise engineering or simulation purposes.
+> Subsequent audits within the **RTM Unified Field Framework** (see Doc 017 & 020) have refined these constants to account for **3D Vacuum Topology**. Specifically, the biological/conscious band is now anchored to the **Sierpiński Tetrahedron limit** ($\alpha \approx 2.51$ – $2.69$), which ensures *Superfluid Information Transport*. Readers are advised to use the refined values found in later technical reports for precise engineering or simulation purposes.
 
 **Status Key**
 
@@ -1421,7 +1417,7 @@ All code released under CC BY 4.0 license.
 
 \- **Consistent (model-dependent):** 1 (quantum-confined)
 
-\- **Average** $\mathbf{R}^{\mathbf{2}}$**:** 0.9972
+\- **Average** $\mathbf{R}^{\mathbf{2}}$ **:** 0.9972
 
 \- **Independently validated exponent range:** $\alpha = \ 1.00$ to $\alpha = \ 2.95$
 
@@ -1451,7 +1447,7 @@ All code released under CC BY 4.0 license.
 
 \-\--
 
-*\*RTM --- Multiscale Temporal Relativity. Computational validation suite: seven regimes independently confirmed (*$\alpha = \ 1$ *to* $\alpha \approx 3$*); one regime consistent with prediction via model-dependent demonstration (*$\alpha \approx 3.5$*).\**
+*\*RTM --- Multiscale Temporal Relativity. Computational validation suite: seven regimes independently confirmed ($\alpha = \ 1$ *to* $\alpha \approx 3$); one regime consistent with prediction via model-dependent demonstration ($\alpha \approx 3.5$).\**
 
 **5.4 Reproducibility and Supplementary Materials**
 
@@ -1571,8 +1567,8 @@ Table 1 summarizes the results obtained from high-resolution simulations across 
 | **B. Diffusive 1-D** | Linear + RW | $2.00$ | $1.9698 \pm 0.0089$ | $0.9999$ | ✓ |
 | **C. Flat Small-W.** | Watts-Strogatz | $\approx 2.0$ | $2.0428 \pm 0.0146$ | $0.9998$ | ✓ |
 | **D. Sierpiński** | Fractal gasket | $d_w \approx 2.32$ | $2.3245 \pm 0.0157$ | $0.9999$ | ✓ |
-| **E. Vascular Tree** | 3D fractal tree | $2.4$–$2.6$ | $2.3875 \pm 0.1595$ | $0.9868$ | ✓ |
-| **F. Hierarchical** | Modular SW | $2.5$–$2.7$ | $2.6684 \pm 0.0806$ | $0.9973$ | ✓ |
+| **E. Vascular Tree** | 3D fractal tree | $2.4$ – $2.6$ | $2.3875 \pm 0.1595$ | $0.9868$ | ✓ |
+| **F. Hierarchical** | Modular SW | $2.5$ – $2.7$ | $2.6684 \pm 0.0806$ | $0.9973$ | ✓ |
 | **G. Holographic** | $P(r) \propto r^{-3}$ | $\to 3.0$ | $2.9499 \pm 0.0683$ | $0.9968$ | ✓ |
 | **H. Quantum Confined** | 3D lattice + conf. | $\to 3.0$ | $3.4907 \pm 0.0677$ | $0.9974$ | $\small \text{◐}$ |
 
@@ -1584,7 +1580,7 @@ $◐$ = Consistent/Model-dependent= Exponent reproduced via physically motivated
 
 **6.2 Results by Regime**
 
-**Ballistic (**$\mathbf{\alpha}$**=1) and Diffusive (**$\mathbf{\alpha}$**=2) Regimes**
+**Ballistic ($\mathbf{\alpha}$ =1) and Diffusive ($\mathbf{\alpha}$ =2) Regimes**
 
 The fundamental baselines of the theory were reproduced with exact precision. The ballistic simulation yielded $\alpha\  = \ 1.0000$, and the diffusive simulation yielded $\alpha\  \approx \ 1.97$, confirming that RTM correctly encapsulates standard classical transport mechanics as limit cases.
 
@@ -1612,7 +1608,7 @@ The proof-of-concept simulation (H) using a 3D lattice with boundary confinement
 
 -   **Consistent (Model-dependent):** 1 (Quantum-Confined).
 
--   **Average** $\mathbf{R}^{\mathbf{2}}$**:** **0.9969** (Improved from previous versions).
+-   **Average** $\mathbf{R}^{\mathbf{2}}$ **:** **0.9969** (Improved from previous versions).
 
 -   **Validated exponent range:** $\alpha\  = \ 1.00$ to $\mathbf{\alpha\  \approx \ 3.50}$.
 
@@ -1760,7 +1756,7 @@ Where $\Omega(G,\hslash,L)$ is a transition function that depends on the gravita
 
 1.  $\Omega(G,\hslash,L) \rightarrow 1$ when $L \ll L_{P}$ (quantum-dominated regime)
 
-2.  $\Omega(G,\hslash,L) \rightarrow \frac{1 - f(\kappa s)}{1 - f(\kappa l)}$ when $L \gg L_{P}\ $(gravity-dominated regime)
+2.  $\Omega(G,\hslash,L) \rightarrow \frac{1 - f(\kappa s)}{1 - f(\kappa l)}$ when $L \gg L_{P}\ $ (gravity-dominated regime)
 
 Where $L_{P} = \sqrt{\hslash}G\text{/}c^{3}$ is the Planck length and $f(\kappa)$ is a function of the curvature parameter $\kappa = 2GM\text{/}\left( c^{2}L \right)$.
 
@@ -1776,21 +1772,21 @@ The transition function $\Omega(G,\hslash,L),$ which interpolates between the qu
 \
 At leading order in semiclassical gravity, quantum loop corrections induce higher-order curvature terms in the effective action. For example, the one-loop corrected action in four-dimensional spacetime takes the form:\
 \
-$S_{e}ff = \int_{}^{}{d^{4}x}\sqrt{( - g)}\left\lbrack \left( 1\text{/}16\pi G \right)R + c^{1}R^{2} + c^{2}R_{\mu\nu}R^{\mu\nu} + \ldots \right\rbrack,$\
+$S_{e}ff = \int_{}^{}{d^{4}x}\sqrt{( - g)}\left\lbrack \left( 1\text{/}16\pi G \right)R + c^{1}R^{2} + c^{2}R_{\mu\nu}R^{\mu\nu} + \ldots \right\rbrack,$
 \
 where the coefficients c₁, c₂ scale as ℏG, and become relevant at small length scales. The ratio of the quantum correction to the leading Einstein term scales as:\
 \
-$Q(L)\ \sim\ (\hslash G\ /\ L²)\ /\ (1/G)\ \sim\ (L\_ P\ /\ L)²,$\
+$Q(L)\ \sim\ (\hslash G\ /\ L²)\ /\ (1/G)\ \sim\ (L\_ P\ /\ L)²,$
 \
 where $L\_ P\  = \ \sqrt{}(\hslash G\ /\ c³)$ is the Planck length. This scaling also appears in effective corrections to Newtonian gravity, such as:\
 \
-$V(r) = - Gm^{1}m^{2}\text{/}r\left\lbrack 1 + \kappa\left( L_{P}\text{/}r \right)^{2} \right\rbrack,$\
+$V(r) = - Gm^{1}m^{2}\text{/}r\left\lbrack 1 + \kappa\left( L_{P}\text{/}r \right)^{2} \right\rbrack,$
 \
 with κ = 41/(10π) (Faller, 2008).\
 \
 These observations suggest that a natural definition for the transition function is the normalized ratio of quantum to classical contributions:\
 \
-$\Omega(L) = \left\lbrack \beta\left( L_{P}\text{/}L \right)^{2} \right\rbrack\text{/}\left\lbrack 1 + \beta\left( L_{P}\text{/}L \right)^{2} \right\rbrack,$\
+$\Omega(L) = \left\lbrack \beta\left( L_{P}\text{/}L \right)^{2} \right\rbrack\text{/}\left\lbrack 1 + \beta\left( L_{P}\text{/}L \right)^{2} \right\rbrack,$
 \
 where $\beta$ is an $O(1)$ constant encoding the strength of quantum corrections in the specific renormalization scheme.\
 \
@@ -1802,7 +1798,7 @@ This form satisfies all desired physical constraints:\
 \
 The function is dimensionless, monotonic, and bounded between 0 and 1. Its structure mirrors the renormalization group (RG) behavior of scale-dependent couplings, such as the running gravitational constant G(k) in asymptotic safety scenarios:\
 \
-$G(k) = G^{0}\text{/}\left\lbrack 1 + \omega G^{0}k^{2} \right\rbrack \Rightarrow \Omega(k) = 1 - G(k)\text{/}G^{0} = \left\lbrack \omega\left( L_{P}\text{/}L \right)^{2} \right\rbrack\text{/}\left\lbrack 1 + \omega\left( L_{P}\text{/}L \right)^{2} \right\rbrack$\
+$G(k) = G^{0}\text{/}\left\lbrack 1 + \omega G^{0}k^{2} \right\rbrack \Rightarrow \Omega(k) = 1 - G(k)\text{/}G^{0} = \left\lbrack \omega\left( L_{P}\text{/}L \right)^{2} \right\rbrack\text{/}\left\lbrack 1 + \omega\left( L_{P}\text{/}L \right)^{2} \right\rbrack$
 \
 Alternative functional forms, such as exponential decays $\Omega = exp\left\lbrack - \left( L\text{/}L_{P} \right)^{p} \right\rbrack$ or logistic-type sigmoids, are mathematically equivalent to leading order in $(L_P/L)^2$ and produce indistinguishable predictions within current experimental accuracy. The chosen rational form provides a minimal analytic expression that connects naturally with known quantum corrections and remains consistent with effective field theory expectations.\
 \
@@ -1842,7 +1838,7 @@ These limits correspond exactly to the expected behaviors in gravitational and q
 
 The coefficients $\alpha_{1}$ and $\beta$ that appear in the effective metric and quantum corrections can be derived from quantum field theory in curved spacetime:
 
-1.  **Coefficient** $\alpha_{1}$**:**
+1.  **Coefficient** $\alpha_{1}$ **:**
 
 This coefficient emerges from the calculation of the renormalized energy-momentum tensor in curved spacetime:
 
@@ -1852,7 +1848,7 @@ Where $N_{s}$ represents the number of fields with spin $s$ in the theory.
 
 For the Standard Model of particles, we obtain $\alpha 1 \approx - 0.0236$, a value that can be experimentally verified through precise measurements of quantum gravitational effects.
 
-2.  **Coefficient** $\beta$**:**
+2.  **Coefficient** $\beta$ **:**
 
 This coefficient arises from the renormalization of the $R^{2}$ operator in the effective action:
 
@@ -1942,7 +1938,7 @@ We provide a **minimal rigorous foundation** (Appendix J) for the power-law rela
 
 Apparent tensions with General Relativity are resolved at the **operational** level: our framework addresses how clocks tied to structure and transport rescale with $L$, while GR governs spacetime geometry; the two are complementary outside gravity-dominated regimes. The formalism unifies these viewpoints by separating **slope** (the exponent $\alpha$) from **intercept** (clock/offset effects), thus preserving consistency with relativistic redshift and dilation.
 
-The program is fully **falsifiable**. It predicts: (i) stable slopes in $\log T - \log L$ within a class; (ii) **data collapse** when rescaling ${T \leftarrow T/L}^{\alpha}$; (iii) **class switching**---predictable jumps of $\alpha$---when the generator of dynamics is deliberately changed (e.g., local diffusion → long-jump dynamics); and (iv) **fractality tests** where $\alpha$ matches the walk dimension $d_{w}$. Passing or failing these tests decides the framework irrespective of philosophical motivation.
+The program is fully **falsifiable**. It predicts: (i) stable slopes in $\log T - \log L$ within a class; (ii) **data collapse** when rescaling ${T \leftarrow T/L}^{\alpha}$; (iii) **class switching**---predictable jumps of $\alpha$ --when the generator of dynamics is deliberately changed (e.g., local diffusion → long-jump dynamics); and (iv) **fractality tests** where $\alpha$ matches the walk dimension $d_{w}$. Passing or failing these tests decides the framework irrespective of philosophical motivation.
 
 Technically, the near-term roadmap is viable with existing tools: precision kinetics and transport in chemistry and materials; mesoscale biological rhythms (with robust controls for arousal and confounders); astronomical rotation/transport analyses binned by coherence proxies; and metrology for timing, RF noise, and calorimetry where applicable. These experiments enable precise estimation of $\alpha$, discrimination among universality classes, and stress-tests of the collapse predictions.
 
@@ -2446,7 +2442,7 @@ In earlier drafts we linked $\alpha \approx 3.5$ to LQG/holography through conce
 
 -   **Proper use:** treat as **bounds/intuition** to guide experiments; **not** as a proof.
 
-**J.6 Empirical consequences (how to falsify** $\mathbf{\alpha}$**)**
+**J.6 Empirical consequences (how to falsify** $\mathbf{\alpha}$)
 
 **1. Slope test:** estimate $\alpha$ by $\log\ T - \log L$ regression with bootstraps and **ANCOVA** across environments (temperature, density, redshift).
 
