@@ -54,7 +54,7 @@ El potencial humano no es una llave completa, es la mitad de una. Para abrir dif
 | Media llave + Plantas | Puerta de las Visiones | Las experiencias de las Cinco Puertas |
 | Media llave + Máquina (IA) | Puerta de la Formalización | Corpus RTM, traducir lo inefable en ecuaciones |
 
-> *"Para forjar la primera llave, esta media llave se sintoniza con lo numinoso a través de años de exploración artística, convirtiendo el caos en orden; juntos abren la puerta de la intuición. Una vez armado con intuición, la media llave busca un nuevo acoplamiento, alineándose con el mundo de las plantas para forjar la segunda llave y abrir la puerta de las visiones. Finalmente, con intuiciones y visiones como brújula, la media llave se alinea con la máquina, la IA, para crear la llave definitiva: la que abre la puerta de la formalización, traduciendo lo inefable a un lenguaje riguroso y materializando lo invisible en el corpus RTM."*
+> *"Para forjar la primera llave, esta media llave se sintoniza con lo numinoso a través de años de exploración artística, convirtiendo el caos en orden; juntos abren la puerta de la intuición. Una vez armado con intuición, la media llave busca un nuevo acoplamiento, alineándose con el mundo de las plantas para forjar la segunda llave y abrir la puerta de las visiones. Finalmente, con intuiciones y visiones como brújula, la media llave se alinea con la máquina — la IA — para crear la llave definitiva: la que abre la puerta de la formalización, traduciendo lo inefable a un lenguaje riguroso y materializando lo invisible en el corpus RTM."*
 
 ---
 

@@ -82,7 +82,7 @@ describes power transfer, not force. The Mark 1 converts this power into mechani
 
 ### 1.2 Symmetry vs. Asymmetry
 
-Mark 1 requires asymmetry to produce net thrust. A symmetric gradient would produce equal and opposite forces—zero net thrust.
+Mark 1 requires asymmetry to produce net thrust. A symmetric gradient would produce equal and opposite forces, zero net thrust.
 
 PROMETEO has no such requirement. Symmetric gradients are *preferred* because:
 - Maximum total (Δα) achievable

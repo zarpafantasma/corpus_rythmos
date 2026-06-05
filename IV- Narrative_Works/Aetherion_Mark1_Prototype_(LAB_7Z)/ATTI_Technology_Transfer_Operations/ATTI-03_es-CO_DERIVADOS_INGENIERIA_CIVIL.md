@@ -8,14 +8,14 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)  ║
-    ║                                                                  ║ 
-    ║       "El concreto se agrieta. El acero se oxida.                ║
-    ║        La topología perdura."                                    ║
-    ║                                                                  ║ 
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔══════════════════════════════════════════════════════════════════════╗
+    ║                                                                      ║
+    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)      ║
+    ║                                                                      ║ 
+    ║       "El concreto se agrieta. El acero se oxida.                    ║
+    ║        La topología perdura."                                        ║
+    ║                                                                      ║ 
+    ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 ## 1. Resumen Ejecutivo

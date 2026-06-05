@@ -181,7 +181,7 @@ RTM THINKING:
     │     └──────────────┤ (high α) │      │
     │                    └──────────┘      │
     │                                      │
-    │   Don't block. DIRECT the flow       │
+    │   Don't block, DIRECT the flow       │
     │                                      │
     └──────────────────────────────────────┘
 ```

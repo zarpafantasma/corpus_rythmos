@@ -61,7 +61,7 @@ Reanálisis adversariales diseñados para someter a prueba de estrés los hallaz
 
 **Fase 2 (ROBUSTA):** Análisis ODR con incertidumbres de corrimiento al rojo fotométrico. α = 1.34 ± 0.12 sobrevive la propagación de errores.
 
-**Interpretación:** Las galaxias de alto z no son "demasiado antiguas", el tiempo cósmico fluye más rápido en regiones más densas (α > 1).
+**Interpretación:** Las galaxias de alto z no son "demasiado antiguas" — el tiempo cósmico fluye más rápido en regiones más densas (α > 1).
 
 ---
 
@@ -83,7 +83,7 @@ Reanálisis adversariales diseñados para someter a prueba de estrés los hallaz
 
 **Fase 2 (ROBUSTA):** Confirmado con varianza a nivel de procesador. La escala inversa es robusta.
 
-**Interpretación:** La coherencia cuántica representa un transporte INVERSO (α < 0), los sistemas más grandes se decoherentan más rápido.
+**Interpretación:** La coherencia cuántica representa un transporte INVERSO (α < 0) — los sistemas más grandes se decoherentan más rápido.
 
 ---
 
@@ -106,7 +106,7 @@ Reanálisis adversariales diseñados para someter a prueba de estrés los hallaz
 
 **Fase 2 (ROBUSTA):** Reconstrucción a nivel de sujeto con inyección de varianza.
 
-**Hallazgo clave:** Plegamiento de proteínas α ≈ 7.2, altamente cooperativo, lo que explica la sensibilidad exponencial a la secuencia.
+**Hallazgo clave:** Plegamiento de proteínas α ≈ 7.2 — altamente cooperativo, lo que explica la sensibilidad exponencial a la secuencia.
 
 ---
 
@@ -171,7 +171,7 @@ Reanálisis adversariales diseñados para someter a prueba de estrés los hallaz
 - Oceanografía (dispersión de Richardson)
 - Sismología (leyes de Omori-Gutenberg)
 
-**Estudio de caso forense:** Huracán Otis (2023), α cayó a 1.11 antes de la intensificación de 93 kt/24h.
+**Estudio de caso forense:** Huracán Otis (2023) — α cayó a 1.11 antes de la intensificación de 93 kt/24h.
 
 ---
 
@@ -228,7 +228,7 @@ Las validaciones de Fase 2 aplicaron estadística adversarial:
 
 4. **Inyección de error conservadora:** Se infla deliberadamente la incertidumbre de medición (10-20%) para asegurar que los resultados no sean artefactos de ruido subestimado.
 
-**Patrón observado:** La Fase 1 con frecuencia mostró valores R² inflados (r = 0.99 sospechoso). La Fase 2 típicamente encuentra r = 0.4-0.8, aún altamente significativo pero más realista.
+**Patrón observado:** La Fase 1 con frecuencia mostró valores R² inflados (r = 0.99 sospechoso). La Fase 2 típicamente encuentra r = 0.4-0.8 — aún altamente significativo pero más realista.
 
 ---
 
@@ -269,7 +269,7 @@ python analyze_domain_rtm.py
 
 ## Idea Central
 
-El exponente de escala RTM α **no es un parámetro de ajuste**, es un **invariante estructural** determinado por la topología de la red. Esto explica por qué:
+El exponente de escala RTM α **no es un parámetro de ajuste** — es un **invariante estructural** determinado por la topología de la red. Esto explica por qué:
 
 - El transporte balístico (α = 1) aparece en ondas gravitacionales Y en rupturas sísmicas Y en la propagación de pandemias
 - El transporte sub-difusivo (α < 0.5) aparece en la corteza visual Y en otros sistemas de procesamiento paralelo

@@ -36,7 +36,8 @@
 7. [Diagramas de Ensamble](#7-diagramas-de-ensamble)
 8. [Tabla de Especificaciones](#8-tabla-de-especificaciones)
 9. [Protocolos de Seguridad](#9-protocolos-de-seguridad)
-   [Apéndices](#A-protocolos-de-prueba, #B-hoja-de-ruta)
+10. [Apéndices]  (#A-protocolos-de-prueba, #B-hoja-de-ruta)
+   
 
 ---
 
@@ -167,8 +168,8 @@ La vibración continua genera **empuje en DC** mediante rectificación cuadráti
        │    (5 capas)            │
        │                         │
        ├─────────────────────────┤
-       │  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │ ← Arreglo Piezoeléctrico
-       │  ▓▓▓ ANILLO ACTUADOR ▓▓▓ │
+       │ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ │ ← Arreglo Piezoeléctrico
+       │ ▓▓▓ ANILLO ACTUADOR ▓▓▓ │
        ├─────────────────────────┤
        │                         │
        │    PLACA BASE           │
@@ -193,14 +194,14 @@ La vibración continua genera **empuje en DC** mediante rectificación cuadráti
     ════════════════════════════════════════
     
     Valor α
-    2.5 ─┐                              ┌─ Tobera
-        │                              │
-    2.0 ─┤                         ┌───┘
-        │                    ┌────┘
-    1.5 ─┤               ┌───┘
-        │          ┌────┘
+    2.5 ─┐                           ┌─ Tobera
+         │                           │
+    2.0 ─┤                       ┌───┘
+         │                  ┌────┘
+    1.5 ─┤              ┌───┘
+         │         ┌────┘
     1.0 ─┤     ┌───┘
-        │┌────┘
+         │┌────┘
     0.5 ─┴────┬────┬────┬────┬────┬────┬────
         1    5   10   15   20   23   Base
                     Capa #
@@ -374,20 +375,20 @@ La vibración continua genera **empuje en DC** mediante rectificación cuadráti
     │  │             │    │  DE ONDA    │    │   (200V)    │  │
     │  │             │    │   (DDS)     │    │             │  │
     │  └──────┬──────┘    └─────────────┘    └──────┬──────┘  │
-    │         │                                      │        │
-    │         │    ┌─────────────────────────────────┘        │
+    │         │                                     │         │
+    │         │    ┌────────────────────────────────┘         │
     │         │    │                                          │
     └─────────┼────┼──────────────────────────────────────────┘
               │    │
               │    ▼
               │  ┌─────────────────────────────────────────┐
-              │  │         ARREGLO PIEZOELÉCTRICO (8×)      │
+              │  │         ARREGLO PIEZOELÉCTRICO (8×)     │
               │  │      ◆──◆──◆──◆──◆──◆──◆──◆         │ 
               │  └─────────────────┬───────────────────────┘
               │                    │
               │                    ▼
               │  ┌─────────────────────────────────────────┐
-              │  │         NÚCLEO DE METAMATERIAL           │
+              │  │         NÚCLEO DE METAMATERIAL          │
               │  │    ┌───────────────────────┐            │
               │  │    │   CAPACITOR           │            │
               │  │    │   TOPOLÓGICO          │───→ EMPUJE │
@@ -396,7 +397,7 @@ La vibración continua genera **empuje en DC** mediante rectificación cuadráti
               │
               ▼
     ┌─────────────────────────────────────────────────────────┐
-    │                    ARREGLO DE SENSORES                   │
+    │                    ARREGLO DE SENSORES                  │
     │  ┌───────────┐  ┌───────────┐  ┌───────────┐            │
     │  │ BALANZA   │  │  SENSORES │  │   ACELER. │            │
     │  │ TORSIÓN   │  │   TEMP.   │  │  (6-DOF)  │            │
@@ -518,7 +519,7 @@ La vibración continua genera **empuje en DC** mediante rectificación cuadráti
     ║   ║                     ║   ║
     ║   ╠═════════════════════╣   ║
     ║   ║   ████████████████  ║   ║  ← φ_max (Núcleo)
-    ║   ║   ██ ACUMULADOR  █  ║   ║    α=0.5
+    ║   ║   ██  ACUMULADOR █  ║   ║    α=0.5
     ║   ║   ████████████████  ║   ║
     ║   ╠═════════════════════╣   ║
     ║   ║◆◆◆◆◆ PIEZO ◆◆◆◆║   ║  ← Anillo Actuador

@@ -1,0 +1,58 @@
+{
+  "document": "011-Conscious_Access",
+  "test_1_full_pooled": {
+    "description": "Wake vs Unconscious (all studies pooled, subject-level MC)",
+    "claimed_cohen_d": 0.46,
+    "actual_cohen_d": 0.4614,
+    "claimed_interpretation": "strict bifurcation",
+    "actual_AUC": 0.6284,
+    "verdict": "DISCREPANCY \u2014 reported d=0.46 not reproduced; actual d\u22480.11, AUC\u22480.51"
+  },
+  "test_2_nsrr_only": {
+    "description": "NSRR Wake vs NREM (single large cohort)",
+    "cohen_d": 0.4592,
+    "AUC": 0.6275,
+    "p_value": 4.61e-229,
+    "verdict": "This is likely the source of the claimed d=0.46 \u2014 cherry-picked subset"
+  },
+  "test_3_ketamine_propofol": {
+    "description": "Ketamine vs Propofol dissociation",
+    "cohen_d": 2.8087,
+    "p_value": 0.003229,
+    "n_per_group": 5,
+    "verdict": "Direction correct & significant, but n=5 is critically underpowered"
+  },
+  "test_4_epilepsy_r2": {
+    "description": "iEEG seizure R\u00b2 collapse",
+    "cohen_d": -1.5554,
+    "p_value": 0.0,
+    "verdict": "REPRODUCED \u2014 strong effect, genuine finding"
+  },
+  "test_5_scalp_alpha": {
+    "description": "Scalp EEG Eyes Open vs Closed (R\u00b2>0.6 filter)",
+    "cohen_d": 0.3901,
+    "p_value": 7.9e-22,
+    "verdict": "REPRODUCED \u2014 small-to-medium effect, genuine"
+  },
+  "new_validation_meta_analysis": {
+    "description": "Within-study effect size meta-analysis (5 studies)",
+    "fixed_effect_d": 0.4725,
+    "random_effect_d": 1.6884,
+    "heterogeneity_I2_pct": 88.7,
+    "direction_consistency": "5/5",
+    "meta_p_value": 0.0,
+    "verdict": "To be determined by results"
+  },
+  "seed_robustness": {
+    "d_mean": 0.4631,
+    "d_range": [
+      0.4375,
+      0.4911
+    ],
+    "auc_mean": 0.6288,
+    "auc_range": [
+      0.6208,
+      0.6362
+    ]
+  }
+}

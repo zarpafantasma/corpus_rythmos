@@ -1,0 +1,8 @@
+Test,Alpha,SE,R2
+OLS,0.3034,0.0203,0.9213
+ODR,0.3113,0.0206,
+Population,0.281,,0.6772
+Bootstrap_mean,0.3087,0.0355,
+Theil_Sen,0.347,,
+Ventral,0.2747,,0.9669
+Dorsal,0.3278,,0.9463

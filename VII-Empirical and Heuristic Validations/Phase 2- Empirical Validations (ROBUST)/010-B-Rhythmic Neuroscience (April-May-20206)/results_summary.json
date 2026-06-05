@@ -1,0 +1,13 @@
+{
+  "neuro": {
+    "epilepsy_d": 3.3,
+    "meditation_d": 1.12,
+    "psychedelics_d": 0.98,
+    "sleep_d": 1.88
+  },
+  "acoustics": {
+    "diffusive_eta": 1.93,
+    "fractal_eta": 1.11,
+    "monotonic_hierarchy": true
+  }
+}

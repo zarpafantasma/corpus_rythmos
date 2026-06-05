@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
 # Rhythmic Ecology
 **A Slope-First Framework for Ecosystem Resilience and Regime Shifts**  
@@ -17,11 +17,13 @@ cosystems do not merely "have" characteristic times; they compose them across sc
 
 We formulate falsifiable hypotheses: (H1) higher α predicts more orderly recovery; (H2) significant α declines anticipate regime shifts; (H3) master-curves emerge within bins across disturbance classes. The framework complements classical resilience metrics by turning tempo geometry into a measurable, unit-robust signal for monitoring, early warning, and conservation design.
 
-**Preliminary empirical validation**$`\mathbf{\rightarrow}`$**(APPENDIX B)**. Beyond simulation, we ground the RTM-Eco framework in biological reality through an allometric analysis of the AnAge Database (n=547). Initial heuristic analysis confirmed that the maximum longevity of vertebrates scales with adult body mass. To definitively correct for the statistical attenuation bias caused by massive intra-species body mass variance ($`\sim 20\%`$) and observational longevity uncertainty ($`\sim 25\%`$), we deployed a rigorous Orthogonal Distance Regression (ODR) pipeline. The variance-corrected coherence exponents for Mammalia ($`\alpha = \ 0.190\  \pm 0.011`$), Aves ($`\alpha = \ 0.213\  \pm 0.015`$), and Reptilia ($`\alpha = \ 0.241\  \pm 0.077`$) align exceptionally well with theoretical transport network limits ($`\alpha \approx 0.25`$). This demonstrates that the "pace of life" is not an absolute constant but a topological variable governed by the structural volume of the organism.
+**Preliminary empirical validation** $`\mathbf{\rightarrow}`$ **(APPENDIX B)**. Beyond simulation, we ground the RTM-Eco framework in biological reality through an allometric analysis of the AnAge Database (n=547). Initial heuristic analysis confirmed that the maximum longevity of vertebrates scales with adult body mass. To definitively correct for the statistical attenuation bias caused by massive intra-species body mass variance ($`\sim 20\%`$) and observational longevity uncertainty ($`\sim 25\%`$), we deployed a rigorous Orthogonal Distance Regression (ODR) pipeline. The variance-corrected coherence exponents for Mammalia ($`\alpha = \ 0.190\  \pm 0.011`$), Aves ($`\alpha = \ 0.213\  \pm 0.015`$), and Reptilia ($`\alpha = \ 0.241\  \pm 0.077`$) align exceptionally well with theoretical transport network limits ($`\alpha \approx 0.25`$). This demonstrates that the "pace of life" is not an absolute constant but a topological variable governed by the structural volume of the organism.
 
-Furthermore, we validate the RTM transport framework in macroscopic population dynamics through a massive analysis of over 4,500 time series from the Global Population Dynamics Database (GPDD) and Taylor's Power Law meta-analyses$`\mathbf{\rightarrow}`$**(APPENDIX C)**. To prevent point-estimate ecological fallacies, we utilized Monte Carlo simulations to reconstruct true biological variance. The robust analysis conclusively demonstrates that 99.7% of biological populations strictly avoid random (Poisson) fluctuations, self-organizing instead into Critical Transport Dynamics characterized by $`1\text{/}f`$ pink noise ($`\beta = \ 0.82`$). Moreover, extinction risk empirical data scales flawlessly with theoretical RTM topological predictions (ODR predictive slope $`= \ 0.92\  \pm 0.02`$). This definitively proves that ecological collapse is fundamentally a topological phase transition occurring at the edge of chaos.
+Furthermore, we validate the RTM transport framework in macroscopic population dynamics through a massive analysis of over 4,500 time series from the Global Population Dynamics Database (GPDD) and Taylor's Power Law meta-analyses $`\mathbf{\rightarrow}`$ **(APPENDIX C)**. To prevent point-estimate ecological fallacies, we utilized Monte Carlo simulations to reconstruct true biological variance. The robust analysis shows that 99.7% of biological populations exhibit non-Poisson fluctuations, consistent with Critical Transport Dynamics characterized by $`1/f`$ pink noise ($`\beta = 0.82`$). Extinction risk empirical data scales with RTM topological predictions (ODR predictive slope $`= 0.92 \pm 0.02`$). These results are consistent with ecological collapse being a topological phase transition, though the causal mechanism requires further falsification.
 
-Finally, we extend the RTM framework to human socio-ecological networks through an analysis of global COVID-19 spreading dynamics (APPENDIX D). Initial epidemiological models often assume homogenous spatial diffusion (classical SIR models) and treat public health data as perfect point-estimates. To rigorously correct for severe attenuation biases, specifically, a massive $`\sim 20\%`$ variance in global case underreporting, we deployed an Errors-in-Variables (ODR) model across the pandemic distributions of 100 nations. The robust analysis reveals a scale-free topological exponent of $`\alpha = 0.953 \pm 0.044`$, practically identical to the theoretical Zipf attractor ($`\alpha \approx 1.0`$) for scale-free networks. Furthermore, Monte Carlo variance simulations of the overdispersion parameter yield $`k = 0.226 \pm 0.131`$. Because $`k\  \ll 1`$, this mathematically rejects homogenous Poisson transmission, confirming that the virus exploits hyper-connected "super-spreader" hubs. This proves that global pandemics do not operate as classical thermal diffusions, but as highly asymmetric, fat-tailed topological transport phenomena.
+Finally, we extend the RTM framework to human socio-ecological networks through an analysis of global COVID-19 spreading dynamics (APPENDIX D). We deployed an Errors-in-Variables (ODR) model across the pandemic distributions of 100 nations to correct for severe attenuation biases from heterogeneous case underreporting. The robust analysis yields a scale-free topological exponent of $`\alpha = 0.953 \pm 0.044`$, consistent with the Zipf attractor ($`\alpha \approx 1.0`$) for scale-free networks. Monte Carlo variance simulations yield $`k = 0.226 \pm 0.131`$. Because $`k \ll 1`$, this is inconsistent with homogeneous Poisson transmission, supporting the RTM interpretation that COVID-19 spread as a topological transport phenomenon through a scale-free network. These findings are convergent with known results in network epidemiology (Barabási 2002, Lloyd-Smith et al. 2005).
+
+**Flanking campaign findings (April 2026)** $`\mathbf{\rightarrow}`$ **(APPENDIX E)**. Independent adversarial testing (5 flanks, 4 hits) extended the RTM-Eco empirical base with novel predictions. (1) **Kleiber residuals predict longevity:** at fixed body mass, species whose metabolic rate exceeds the Kleiber prediction live shorter, global Spearman $`\rho = -0.184`$, $`p = 0.0005`$ ($`n = 350`$ mammals), 89% of orders show the same direction ($`t`$ -test $`p = 0.007`$). (2) **Predator-prey shape conspiracy:** the shape of wolf and moose population dynamics correlate ($`r = -0.385`$), and this anti-correlation intensifies before ecosystem crashes (Isle Royale: $`d = -2.52`$ pre-moose 1996, $`d = -1.10`$ pre-wolf 2012). (3) **Amphibia Simpson's Paradox:** overall Amphibia $`\alpha = 0.091`$ masks Anura (frogs, developed lungs) $`\alpha = 0.55`$ vs. Caudata (salamanders, cutaneous respiration) $`\alpha = 0.03`$ ,respiratory topology drives the exponent. (4) **Body size → spectral color:** Spearman $`\rho = +0.867`$, $`p = 0.0025`$ across 9 GPDD taxon groups, RTM provides the mechanism (more topological layers → redder noise). One prediction failed: rolling spectral $`\beta`$ does not predict future population instability in Isle Royale (wrong direction, ns). exogenous shocks drive those crashes, not endogenous phase transitions. Full results: Appendix E.
 
 **1. Introduction**
 
@@ -31,19 +33,19 @@ Ecology abounds with rates, lags, and cycles, from post-fire recovery and popula
 
 **1.2 From classical scaling to a slope-first framework**
 
-Classical scaling relates pattern and process (e.g., species–area, fractal canopies, power-law fire sizes), but operational monitoring still leans on clocked thresholds (days since fire, fixed recovery percentiles). RTM (Multiscale Temporal Relativity) reframes the problem: inside an environment slice where extrinsic conditions are effectively constant, the pair $(L, T)$ follows a power law with coherence exponent $\alpha$, while the intercept is a gauge (a clock that can change with units or baselines without altering slope). The ecological specialization, RTM-Eco, instantiates this with ecological $L$ and $T$, defines coherence bins, and treats collapse (no residual trend after removing the fitted slope) as a specification test for power-like behavior.
+Classical scaling relates pattern and process (e.g., species–area, fractal canopies, power-law fire sizes), but operational monitoring still leans on clocked thresholds (days since fire, fixed recovery percentiles). RTM (Multiscale Temporal Relativity) reframes the problem: inside an environment slice where extrinsic conditions are effectively constant, the pair $ (L, T)$ follows a power law with coherence exponent $\alpha$, while the intercept is a gauge (a clock that can change with units or baselines without altering slope). The ecological specialization, RTM-Eco, instantiates this with ecological $L$ and $T$, defines coherence bins, and treats collapse (no residual trend after removing the fitted slope) as a specification test for power-like behavior.
 
 **1.3 Key concepts and definitions**
 
 - **Scale proxy** $`L`$ (by family): burned patch area; watershed/catchment size; habitat patch/network scale (graph diameter or module size); trophic depth or connectance class; territory/home-range scale.
 
-- **Characteristic time** $`T`$: time-to-recovery (e.g., NDVI/biomass to 80–95% of the pre-event median); successional time to a target guild; nutrient half-cycle; recolonization time across a corridor.
+- **Characteristic time** $`T`$ : time-to-recovery (e.g., NDVI/biomass to 80–95% of the pre-event median); successional time to a target guild; nutrient half-cycle; recolonization time across a corridor.
 
 - **Coherence bin (BIN)**: a maximal slice with stable drivers (biome/season band, management regime, climate anomaly class, sensor stack).
 
 - **Collapse**: with $`x = \log L`$, $`y = \log T`$, fit $`y = \alpha x + c`$; require that residuals $`\widetilde{y} = y - \widehat{\alpha}x - \widehat{c}`$ show **no trend vs.** $`x`$ (e.g., $`R_{\text{collapse}}^{2} < 0.05`$, LOESS flatness) and pass a **clock placebo** (multiplying $`T`$ by a constant leaves $`\widehat{\alpha}`$ unchanged).
 
-- $`\alpha_{eco}`$: the **gauge-invariant** slope within a BIN; compared across regions and times via uncertainty-aware estimation.
+- $`\alpha_{eco}`$ : the **gauge-invariant** slope within a BIN; compared across regions and times via uncertainty-aware estimation.
 
 **1.4 Estimation and falsifiability**
 
@@ -62,9 +64,9 @@ To ground RTM-Eco in biological reality, we tested the core scaling hypothesis (
 
 The results (detailed in **Appendix B**) confirm a pervasive **Temporal Allometry**:
 
-1.  **The Metabolic Clock:** For endothermic classes, the scaling exponent converged to a narrow band: **Aves (**$`\mathbf{\alpha \approx}\mathbf{0.21}`$**)** and **Mammalia (**$`\mathbf{\alpha \approx}\mathbf{0.18}`$**)**. This validates the RTM prediction that biological time is not absolute but relative to the structural volume of the organism.
+1.  **The Metabolic Clock:** For endothermic classes, the scaling exponent converged to a narrow band: **Aves (**$`\mathbf{\alpha \approx}\mathbf{0.21}`$ **)** and **Mammalia (**$`\mathbf{\alpha \approx}\mathbf{0.18}`$ **)**. This validates the RTM prediction that biological time is not absolute but relative to the structural volume of the organism.
 
-2.  **Universality:** Despite the immense ecological differences between a 5g shrew and a 100,000kg blue whale, their lifespans lie on the same continuous slope. This suggests that "aging" is not merely a genetic program but a thermodynamic inevitability governed by the transport efficiency of the organism's network.
+2.  **Universality:** Despite the immense ecological differences between a 5g shrew and a 100,000kg blue whale, their lifespans lie on the same continuous slope. This suggests that "aging" is not merely a genetic program but is partly constrained by the transport efficiency of the organism's metabolic network, a convergent result consistent with West, Brown & Enquist (1997) and Kleiber's Law.
 
 **2. RTM Foundations for Ecology (RTM-Eco)**
 
@@ -111,7 +113,7 @@ Any change in tags, new season, management switch, sensor stack, **creates a new
 
 **2.3 Collapse as a specification test**
 
-Fitting a line on $`(u,v)`$is not yet evidence of power-law scaling. We require **collapse**:
+Fitting a line on $`(u,v)`$ is not yet evidence of power-law scaling. We require **collapse**:
 
 **Procedure 2.3 (Collapse test).**
 
@@ -119,7 +121,7 @@ Fitting a line on $`(u,v)`$is not yet evidence of power-law scaling. We require 
 
 2.  Form residuals $`\widetilde{v} = v - \widehat{\alpha}u - \widehat{c}`$.
 
-3.  Test for **no trend** of $`\widetilde{v}`$ vs. $`u`$:
+3.  Test for **no trend** of $`\widetilde{v}`$ vs. $`u`$ :
 
     - linear re-regression $`R_{\text{collapse}}^{2}: = R^{2}(\widetilde{v} \sim u) < 0.05`$;
 
@@ -131,8 +133,8 @@ If all pass, the BIN **collapses** and we report $`{\widehat{\alpha}}_{eco}`$ wi
 
 **Proposition 2.4 (Collapse ⇔ exactness, binwise).**
 
-On a simply connected BIN where $`v(u)`$ is differentiable, define the 1-form $`\omega = dv - \alpha\text{ }du`$. Then **collapse** holds if and only if $`\omega`$ is **exact** with $`\alpha`$constant on the BIN.\
-*Sketch.* If $`v = \alpha u + \log\kappa`$, then $`dv - \alpha\text{ }du = d(\log\kappa)`$ is exact and independent of $`u`$; residuals are flat. Conversely, a flat residual field implies $`v`$is affine in $`u`$ on the BIN.
+On a simply connected BIN where $`v(u)`$ is differentiable, define the 1-form $`\omega = dv - \alpha\text{ }du`$. Then **collapse** holds if and only if $`\omega`$ is **exact** with $`\alpha`$ constant on the BIN.\
+*Sketch.* If $`v = \alpha u + \log\kappa`$, then $`dv - \alpha\text{ }du = d(\log\kappa)`$ is exact and independent of $`u`$; residuals are flat. Conversely, a flat residual field implies $`v`$ is affine in $`u`$ on the BIN.
 
 **2.4 Local exponents and adiabatic windows**
 
@@ -148,7 +150,7 @@ Let $`h > 0`$ be a symmetric window in $`u`$. The local slope
 
 (using an EIV estimator) satisfies $`\widehat{\alpha}(u;h) = \alpha(u) + O(\varepsilon h)`$ if $`\mid \partial_{u}\alpha \mid \leq \varepsilon`$ on the window (adiabatic regime).
 
-**Practice.** Start with $`h`$ covering ~8–12 distinct $`L`$values; shrink if collapse fails and variance remains acceptable.
+**Practice.** Start with $`h`$ covering ~8–12 distinct $`L`$ values; shrink if collapse fails and variance remains acceptable.
 
 **2.5 Error models and estimands (high level)**
 
@@ -178,15 +180,15 @@ and we require $`I^{2} < 50\%`$ to publish a single number (otherwise report fam
 
 **2.7 Failure modes and scope boundaries**
 
-- **Curvature (NO_COLLAPSE).** Persistent trend in $`\widetilde{v}`$ vs $`u`$: scale-dependent clocks or multi-mechanism mixing; split the BIN or report as **out-of-scope** for RTM.
+- **Curvature (NO_COLLAPSE).** Persistent trend in $`\widetilde{v}`$ vs $`u`$ : scale-dependent clocks or multi-mechanism mixing; split the BIN or report as **out-of-scope** for RTM.
 
 - **Kinks (REGIME_MIX).** Piecewise slopes; run changepoint detection and split.
 
 - **Thin coverage (THIN_COVERAGE).** Span \<0.6 in $`\log L`$ or too few distinct scales; collect more data or discard.
 
-- **High heterogeneity (FAMILY_DIVERGENCE).** $`I^{2} \geq 50\%`$: do **not** fuse; publish family-wise $`{\widehat{\alpha}}_{f}`$ and investigate mechanisms.
+- **High heterogeneity (FAMILY_DIVERGENCE).** $`I^{2} \geq 50\%`$ : do **not** fuse; publish family-wise $`{\widehat{\alpha}}_{f}`$ and investigate mechanisms.
 
-**2.8 What** $`\mathbf{\alpha}_{\mathbf{eco}}`$ **does, and does not mean**
+**2.8 What** $`\mathbf{\alpha}_{\mathbf{eco}}`$ **does —and does not— mean**
 
 - **Does:** quantify the **tempo gradient** across scales inside a BIN; higher $`\alpha_{eco}`$ means larger aggregates slow relatively more, which often **dampens** synchronization cascades after shocks (more orderly recovery).
 
@@ -202,9 +204,9 @@ We now instantiate RTM-Eco with **workable choices** of scale $`L`$, time $`T`$,
 
 **3.1 Vegetation recovery (remote sensing)**
 
-**Scale** $`L`$**.** Burned patch area (ha), polygonized from fire perimeters; alternatively **disturbance footprint** (windthrow, clear-cut) in ha. For mosaics, use the **effective patch size** (area after dissolving holes \< threshold) and record **edge-to-area ratio** as a covariate (not part of $`L`$).
+**Scale** $`L`$ **.** Burned patch area (ha), polygonized from fire perimeters; alternatively **disturbance footprint** (windthrow, clear-cut) in ha. For mosaics, use the **effective patch size** (area after dissolving holes \< threshold) and record **edge-to-area ratio** as a covariate (not part of $`L`$).
 
-**Time** $`T`$**.** $`T_{\text{rec}}(p)`$: time (days) to regain a fraction $`p \in \lbrack 0.8,0.95\rbrack`$ of the pre-event median signal (NDVI/EVI/SAVI; canopy height for LiDAR). Define:
+**Time** $`T`$ **.** $`T_{\text{rec}}(p)`$ : time (days) to regain a fraction $`p \in \lbrack 0.8,0.95\rbrack`$ of the pre-event median signal (NDVI/EVI/SAVI; canopy height for LiDAR). Define:
 
 ``` math
 T_{\text{rec}}(p) = \inf\{\text{ }t > 0:\text{ RS}(t) \geq p \cdot {\widetilde{\text{RS}}}_{\text{pre}}\text{ }\},
@@ -230,9 +232,9 @@ with **pre** computed on a 2–3 yr window, cloud-masked, season-matched.
 
 **3.2 Nutrient / biogeochemical cycling**
 
-**Scale** $`L`$**.** Watershed/catchment area ($`{km}^{2}`$); for lakes, morphometric scale (surface area or volume); for soils, plot extent ($`m^{2}`$) with depth band fixed.
+**Scale** $`L`$ **.** Watershed/catchment area ($`{km}^{2}`$); for lakes, morphometric scale (surface area or volume); for soils, plot extent ($`m^{2}`$) with depth band fixed.
 
-**Time** $`T`$**.** Characteristic turnover or **half-cycle**:
+**Time** $`T`$ **.** Characteristic turnover or **half-cycle**:
 
 - **Streams/Lakes:** time-to-recovery of **chlorophyll-a** or **Secchi depth** to $`p`$ of baseline; or residence time of nitrate/phosphate pulse (time-to-50% decay).
 
@@ -254,9 +256,9 @@ with **pre** computed on a 2–3 yr window, cloud-masked, season-matched.
 
 **3.3 Movement & metapopulation**
 
-**Scale** $`L`$**.** **Connectivity scale** of habitat network: graph diameter of the occupied component, or effective module size $`m`$ (nodes per module) when modular. Alternative: **inter-patch distance** percentile (e.g., p75) as size proxy for landscape.
+**Scale** $`L`$ **.** **Connectivity scale** of habitat network: graph diameter of the occupied component, or effective module size $`m`$ (nodes per module) when modular. Alternative: **inter-patch distance** percentile (e.g., p75) as size proxy for landscape.
 
-**Time** $`T`$**.** **Recolonization time** $`T_{\text{recol}}`$: time from local extinction to re-appearance/persistence (≥$`k`$ detections in $`w`$days) within a patch, or **time-to-first passage** across corridor for tagged individuals (telemetry).
+**Time** $`T`$ **.** **Recolonization time** $`T_{\text{recol}}`$ : time from local extinction to re-appearance/persistence (≥$`k`$ detections in $`w`$ days) within a patch, or **time-to-first passage** across corridor for tagged individuals (telemetry).
 
 **BIN.** {species/guild, season/migratory phase, detection method, corridor management, disturbance class}.
 
@@ -270,13 +272,13 @@ with **pre** computed on a 2–3 yr window, cloud-masked, season-matched.
 
 - Minimum of 8–12 distinct $`L`$ scales (networks of different sizes or modular splits).
 
-- Collapse panel must include residuals vs. both $`u`$and **utilization** to rule out traffic effects.
+- Collapse panel must include residuals vs. both $`u`$ and **utilization** to rule out traffic effects.
 
 **3.4 Trophic / network dynamics**
 
-**Scale** $`L`$**.** **Trophic depth** (longest path length), **connectance class**, or **module size** in the empirical/Modeled food web. Keep the chosen proxy fixed within a BIN.
+**Scale** $`L`$ **.** **Trophic depth** (longest path length), **connectance class**, or **module size** in the empirical/Modeled food web. Keep the chosen proxy fixed within a BIN.
 
-**Time** $`T`$**.** **Return time** of a perturbed node set (e.g., removal of a keystone or biomass pulse) to within $`p`$ of pre-perturbation biomasses, measured in model time or experiment days.
+**Time** $`T`$ **.** **Return time** of a perturbed node set (e.g., removal of a keystone or biomass pulse) to within $`p`$ of pre-perturbation biomasses, measured in model time or experiment days.
 
 **BIN.** {ecosystem type, temperature band, enrichment/press level, model/mesocosm class, interaction-strength prior}.
 
@@ -302,7 +304,7 @@ with **pre** computed on a 2–3 yr window, cloud-masked, season-matched.
 
 4.  **Coverage check.** Ensure ≥6 distinct $`L`$, span ≥0.6 in $`u`$.
 
-5.  **Estimator choice.** Fit ODR/TLS (primary); compute Theil–Sen as robust check; run SIMEX if $`Var(\xi_{u})`$is known/estimable.
+5.  **Estimator choice.** Fit ODR/TLS (primary); compute Theil–Sen as robust check; run SIMEX if $`Var(\xi_{u})`$ is known/estimable.
 
 6.  **Collapse.** Compute residual trend $`R_{\text{collapse}}^{2}`$; run LOESS diagnostic; apply clock placebo.
 
@@ -324,7 +326,7 @@ with **pre** computed on a 2–3 yr window, cloud-masked, season-matched.
 
 When multiple candidate $`L`$ or $`T`$ exist, pre-register a **primary** and conduct:
 
-- **Cross-proxy agreement.** Compute $`\widehat{\alpha}`$ under alternatives (e.g., $`L =`$area vs. perimeter-based effective size); expect differences in $`\kappa`$, not in $`\alpha`$, if collapse holds.
+- **Cross-proxy agreement.** Compute $`\widehat{\alpha}`$ under alternatives (e.g., $`L =`$ area vs. perimeter-based effective size); expect differences in $`\kappa`$, not in $`\alpha`$ ,if collapse holds.
 
 - **Mechanism sanity.** Verify that changing the **clock** (sensor normalization) does not change $`\widehat{\alpha}`$; if it does, your proxy likely embeds a hidden clock.
 
@@ -368,13 +370,13 @@ with measurement errors $`\xi_{i},\varepsilon_{i}`$ (zero-mean, finite variance)
 
 **4.2 Primary estimator: Orthogonal Distance Regression (ODR/TLS)**
 
-We minimize orthogonal residuals with per-point weights $`w_{i}`$:
+We minimize orthogonal residuals with per-point weights $`w_{i}`$ :
 
 ``` math
 \underset{\alpha,c\ \ \ \ \ }{\min\ \ \ \ \ }\sum_{i}^{}{w_{i}\text{ }\frac{(y_{i} - \alpha x_{i} - c)^{2}}{\sigma_{y,i}^{2} + \alpha^{2}\sigma_{x,i}^{2}}}
 ```
 
-- **Weights.** If replicate SEs are available, set $`\sigma_{x,i},\sigma_{y,i}`$accordingly; else use $`w_{i} = 1`$.
+- **Weights.** If replicate SEs are available, set $`\sigma_{x,i},\sigma_{y,i}`$ accordingly; else use $`w_{i} = 1`$.
 
 - **Initialization.** **Theil–Sen** slope (Sec. 4.3) and median intercept.
 
@@ -422,7 +424,7 @@ Given $`\widehat{\alpha},\widehat{c}`$, compute residuals $`{\widetilde{y}}_{i} 
 
 **4.6 Local slopes and windowing (drifting environments)**
 
-When drivers drift slowly, estimate **local** $`\alpha(u;h)`$ over windows of width $`h`$ in $`x = \log L`$:
+When drivers drift slowly, estimate **local** $`\alpha(u;h)`$ over windows of width $`h`$ in $`x = \log L`$ :
 
 - Choose $`h`$ to include **8–12 distinct scales** when possible.
 
@@ -432,9 +434,9 @@ When drivers drift slowly, estimate **local** $`\alpha(u;h)`$ over windows of wi
 
 **4.7 Heterogeneity and fusion across families**
 
-For accepted families $`f\mathcal{\in F}`$, with estimators $`{\widehat{\alpha}}_{f}`$ and variances $`{\widehat{\sigma}}_{f}^{2}`$:
+For accepted families $`f\mathcal{\in F}`$, with estimators $`{\widehat{\alpha}}_{f}`$ and variances $`{\widehat{\sigma}}_{f}^{2}`$ :
 
-- **Cochran’s** $`Q`$ and $`I^{2}`$:
+- **Cochran’s** $`Q`$ and $`I^{2}`$ :
 
 ``` math
 Q = \sum_{f}^{}{w_{f}^{FE}({\widehat{\alpha}}_{f} - {\overset{ˉ}{\alpha}}_{FE})^{2},w_{f}^{FE} = 1/{\widehat{\sigma}}_{f}^{2},I^{2} = \max\{ 0,\frac{Q - ( \mid \mathcal{F} \mid - 1)}{Q}\}.}
@@ -454,7 +456,7 @@ Q = \sum_{f}^{}{w_{f}^{FE}({\widehat{\alpha}}_{f} - {\overset{ˉ}{\alpha}}_{FE})
 
 - **Estimator trio.** ODR (primary), Theil–Sen (robust), SIMEX band (if available).
 
-- **Window sensitivity.** $`h`$± 25%: $`\widehat{\alpha}`$ stable and collapse still passing.
+- **Window sensitivity.** $`h`$ ± 25%: $`\widehat{\alpha}`$ stable and collapse still passing.
 
 - **Leverage check.** Leave-one-scale-out.
 
@@ -497,15 +499,15 @@ report:
 
 **4.10 Common pitfalls (and fixes)**
 
-- **Seasonal clocks leaking into** $`T`$**.** Match month-of-year or include phenology as BIN tag; otherwise NO_COLLAPSE.
+- **Seasonal clocks leaking into** $`T`$ **.** Match month-of-year or include phenology as BIN tag; otherwise NO_COLLAPSE.
 
-- **Hidden clocks in** $`L`$**.** Effective patch size defined with severity-dependent buffers can imprint curvature; fix the definition or treat severity as **covariate**, not part of $`L`$.
+- **Hidden clocks in** $`L`$ **.** Effective patch size defined with severity-dependent buffers can imprint curvature; fix the definition or treat severity as **covariate**, not part of $`L`$.
 
 - **Thin coverage.** Merge adjacent strata **only if tags are identical** except for the one being merged; re-check changepoints.
 
 **4.11 Summary**
 
-We defined an **EIV-aware** pipeline to estimate $`\alpha_{eco}`$, turned “power law” into a **falsifiable specification** via **collapse**, and set principled rules to **fuse** (or refuse to fuse) across ecological families. With these mechanics in place, Section 5 develops **measurement proxies** and validation workflows (remote sensing spectra, fractal structure, network metrics) for building reliable $`(L,T)`$datasets in the wild.
+We defined an **EIV-aware** pipeline to estimate $`\alpha_{eco}`$, turned “power law” into a **falsifiable specification** via **collapse**, and set principled rules to **fuse** (or refuse to fuse) across ecological families. With these mechanics in place, Section 5 develops **measurement proxies** and validation workflows (remote sensing spectra, fractal structure, network metrics) for building reliable $`(L,T)`$ datasets in the wild.
 
 **5. Measurement Proxies & Validation Workflows**
 
@@ -515,9 +517,9 @@ This section turns the foundations (Secs. 2–4) into **data-building recipes**.
 
 **5.1.1 Proxies**
 
-- **Scale** $`L`$: burned/disturbance **patch area** (ha) from polygonized perimeters; alternative $`L`$: **effective area** after dissolving holes $`< \rho`$ ha; report $`\rho`$.
+- **Scale** $`L`$ : burned/disturbance **patch area** (ha) from polygonized perimeters; alternative $`L`$ : **effective area** after dissolving holes $`< \rho`$ ha; report $`\rho`$.
 
-- **Time** $`T`$: **time-to-recovery** $`T_{\text{rec}}(p)`$ to fraction $`p \in \{ 0.80,0.90,0.95\}`$ of pre-event median signal (NDVI/EVI/SAVI; LiDAR canopy height if available).
+- **Time** $`T`$ : **time-to-recovery** $`T_{\text{rec}}(p)`$ to fraction $`p \in \{ 0.80,0.90,0.95\}`$ of pre-event median signal (NDVI/EVI/SAVI; LiDAR canopy height if available).
 
 **5.1.2 Extraction (RS workflow)**
 
@@ -525,7 +527,7 @@ This section turns the foundations (Secs. 2–4) into **data-building recipes**.
 
 2.  **Event detection**: threshold/severity index (dNBR or RBR) with spatial cleaning (morphological opening/closing).
 
-3.  **Patch delineation**: 8-neighbor connectivity; dissolve interior holes $`< \rho`$ha.
+3.  **Patch delineation**: 8-neighbor connectivity; dissolve interior holes $`< \rho`$ ha.
 
 4.  **Baseline**: median RS over 24–36 months pre-event, matched by month-of-year.
 
@@ -545,9 +547,9 @@ This section turns the foundations (Secs. 2–4) into **data-building recipes**.
 
 **5.2.1 Proxies**
 
-- **Scale** $`L`$: watershed **area** ($`{km}^{2}`$); for lakes, **surface area** or **volume**; for soils, **plot extent** at fixed depth band.
+- **Scale** $`L`$ : watershed **area** ($`{km}^{2}`$); for lakes, **surface area** or **volume**; for soils, **plot extent** at fixed depth band.
 
-- **Time** $`T`$:
+- **Time** $`T`$ :
 
   - **Pulse-decay**: time from peak to 50% decay in nitrate/phosphate/Chl-a (residence/turnover).
 
@@ -571,9 +573,9 @@ This section turns the foundations (Secs. 2–4) into **data-building recipes**.
 
 **5.3.1 Proxies**
 
-- **Scale** $`L`$: **graph diameter** of occupied habitat component; or **module size** $`m`$in modular networks; alternative: p75 of inter-patch distances.
+- **Scale** $`L`$ : **graph diameter** of occupied habitat component; or **module size** $`m`$ in modular networks; alternative: p75 of inter-patch distances.
 
-- **Time** $`T`$: **recolonization time** $`T_{\text{recol}}`$ (extinction→persistence) or **first-passage time** across corridor (telemetry).
+- **Time** $`T`$ : **recolonization time** $`T_{\text{recol}}`$ (extinction→persistence) or **first-passage time** across corridor (telemetry).
 
 **5.3.2 Extraction**
 
@@ -591,9 +593,9 @@ This section turns the foundations (Secs. 2–4) into **data-building recipes**.
 
 **5.4.1 Proxies**
 
-- **Scale** $`L`$: **trophic depth** (longest path), **module size**, or **connectance class** fixed per BIN.
+- **Scale** $`L`$ : **trophic depth** (longest path), **module size**, or **connectance class** fixed per BIN.
 
-- **Time** $`T`$: **return time** after press/pulse (keystone removal, enrichment) to within $`p`$ of pre-perturbation biomasses.
+- **Time** $`T`$ : **return time** after press/pulse (keystone removal, enrichment) to within $`p`$ of pre-perturbation biomasses.
 
 **5.4.2 Extraction**
 
@@ -605,11 +607,11 @@ This section turns the foundations (Secs. 2–4) into **data-building recipes**.
 
 - **Replicates**: cluster bootstrap CIs.
 
-- **Alternative** $`L`$: replicate with connectance vs. depth; $`\widehat{\alpha}`$ should be consistent if BIN is unchanged and collapse holds.
+- **Alternative** $`L`$ : replicate with connectance vs. depth; $`\widehat{\alpha}`$ should be consistent if BIN is unchanged and collapse holds.
 
 **5.5 Structural proxies & spectra (cross-cutting)**
 
-- **Fractal metrics** (landscape): perimeter–area scaling; box-counting dimension of patch mosaics; test that substituting $`L`$by a **fractal-adjusted size** changes $`\widehat{c}`$, not $`\widehat{\alpha}`$.
+- **Fractal metrics** (landscape): perimeter–area scaling; box-counting dimension of patch mosaics; test that substituting $`L`$ by a **fractal-adjusted size** changes $`\widehat{c}`$, not $`\widehat{\alpha}`$.
 
 - **Spectral slopes** (RS): power spectra of NDVI/biomass fields; verify consistency between spectral exponents and $`\widehat{\alpha}`$ bands qualitatively (not fused unless collapse criterion is met).
 
@@ -635,7 +637,7 @@ This section turns the foundations (Secs. 2–4) into **data-building recipes**.
 
 Provide two toy datasets (per family):
 
-1.  **Power-law + noise** that **passes collapse** (ODR recovers $`\alpha`$within CI).
+1.  **Power-law + noise** that **passes collapse** (ODR recovers $`\alpha`$ within CI).
 
 2.  **Curved** (e.g., $`v = \alpha u + \beta u^{2}`$) that **fails collapse** (residual trend, LOESS drift).\
     These ensure the pipeline and reporting catch both success and **scope boundaries**.
@@ -663,8 +665,8 @@ We now operationalize the RTM-Eco claims into **testable hypotheses** with **A/B
 **6.2 Protocol A — Remote sensing of post-disturbance vegetation recovery**
 
 **BIN.** {biome, season band, sensor stack, management regime, severity class, climate anomaly class}.\
-$`L`$**.** Patch area (ha), holes dissolved \<$`\rho`$ ha.\
-$`T`$**.** $`T_{\text{rec}}(p)`$to $`p \in \{ 0.80,0.90,0.95\}`$ of pre-event RS median.
+$`L`$ **.** Patch area (ha), holes dissolved \<$`\rho`$ ha.\
+$`T`$ **.** $`T_{\text{rec}}(p)`$ to $`p \in \{ 0.80,0.90,0.95\}`$ of pre-event RS median.
 
 **Design.**
 
@@ -680,7 +682,7 @@ $`T`$**.** $`T_{\text{rec}}(p)`$to $`p \in \{ 0.80,0.90,0.95\}`$ of pre-event RS
 
 - Primary: $`{\widehat{\alpha}}_{veg}`$ with CI; **Accept/Reject** by collapse gate.
 
-- Secondary (H1): tail ratio p95/p50 in $`T_{\text{rec}}`$ stratified by $`L`$-quantiles; test monotonicity vs. $`\widehat{\alpha}`$.
+- Secondary (H1): tail ratio p95/p50 in $`T_{\text{rec}}`$ stratified by $`L`$ -quantiles; test monotonicity vs. $`\widehat{\alpha}`$.
 
 **Decision.** H3 supported if ≥70% of strata pass collapse with consistent $`\widehat{\alpha}`$ bands; H1 supported if $`\partial(\text{p95/p50})/\partial\widehat{\alpha} < 0`$ (CI excludes 0).
 
@@ -691,8 +693,8 @@ $`T`$**.** $`T_{\text{rec}}(p)`$to $`p \in \{ 0.80,0.90,0.95\}`$ of pre-event RS
 **6.3 Protocol B — Lake/stream biogeochemistry**
 
 **BIN.** {hydroregion, season band, trophic state, flow regime, management class}.\
-$`L`$**.** Watershed area ($`{km}^{2}`$); for lakes, surface area or volume.\
-$`T`$**.** Time-to-50% decay of nutrient pulse ($`{NO}_{3}^{-}`$, $`{PO}_{4}^{3 -}`$, Chl-a) or recovery to $`p`$of baseline.
+$`L`$ **.** Watershed area ($`{km}^{2}`$); for lakes, surface area or volume.\
+$`T`$ **.** Time-to-50% decay of nutrient pulse ($`{NO}_{3}^{-}`$, $`{PO}_{4}^{3 -}`$, Chl-a) or recovery to $`p`$ of baseline.
 
 **Design.**
 
@@ -715,8 +717,8 @@ $`T`$**.** Time-to-50% decay of nutrient pulse ($`{NO}_{3}^{-}`$, $`{PO}_{4}^{3 
 **6.4 Protocol C — Movement & metapopulation**
 
 **BIN.** {species/guild, migratory phase, detection method, corridor management}.\
-$`L`$**.** Network diameter or module size $`m`$.\
-$`T`$**.** Recolonization time $`T_{\text{recol}}`$ or first-passage time.
+$`L`$ **.** Network diameter or module size $`m`$.\
+$`T`$ **.** Recolonization time $`T_{\text{recol}}`$ or first-passage time.
 
 **Design.**
 
@@ -739,8 +741,8 @@ $`T`$**.** Recolonization time $`T_{\text{recol}}`$ or first-passage time.
 **6.5 Protocol D — Trophic/network dynamics (mesocosm or simulation)**
 
 **BIN.** {ecosystem type, temperature band, enrichment class, interaction-strength prior}.\
-$`L`$**.** Trophic depth / module size.\
-$`T`$**.** Return time to within $`p`$ of baseline after press/pulse (keystone removal, enrichment).
+$`L`$ **.** Trophic depth / module size.\
+$`T`$ **.** Return time to within $`p`$ of baseline after press/pulse (keystone removal, enrichment).
 
 **Design.**
 
@@ -760,11 +762,11 @@ Given accepted family-wise slopes $`\{{\widehat{\alpha}}_{f,t}\}`$, compute the 
 Z_{t} = \frac{{\widehat{\alpha}}_{Eco}(t) - \mu_{t \mid t - 30}}{\sigma_{t \mid t - 30}} \leq - z_{\star},
 ```
 
-with $`\mu,\sigma`$computed over a 30-day EWMA (or 6–12 months for slow systems), and $`z_{\star} \in \{ 1.5,2.0,2.5\}`$ as pre-registered tiers (advisory/watch/warning). Require $`I^{2} < 50\%`$ at $`t`$; otherwise **suspend** fusion and publish family-wise alarms.
+with $`\mu,\sigma`$ computed over a 30-day EWMA (or 6–12 months for slow systems), and $`z_{\star} \in \{ 1.5,2.0,2.5\}`$ as pre-registered tiers (advisory/watch/warning). Require $`I^{2} < 50\%`$ at $`t`$; otherwise **suspend** fusion and publish family-wise alarms.
 
 **6.7 Statistical analysis plan (SAP)**
 
-- **Primary analyses:** ODR slopes with cluster bootstrap CIs; collapse decision via $`R_{\text{collapse}}^{2}`$+ LOESS + placebo.
+- **Primary analyses:** ODR slopes with cluster bootstrap CIs; collapse decision via $`R_{\text{collapse}}^{2}`$ + LOESS + placebo.
 
 - **Multiplicity:** Control FDR over multiple BINs/time windows within each hypothesis family.
 
@@ -776,9 +778,9 @@ with $`\mu,\sigma`$computed over a 30-day EWMA (or 6–12 months for slow system
 
 **6.8 Power & sample size heuristics**
 
-- **Slope change detection (H4):** With $`{span}_{u}`$=1.0 and $`N \geq 150`$ pairs, bootstrap power ≥80% to detect $`\Delta\alpha = 0.10`$ under moderate noise (CV≈0.2).
+- **Slope change detection (H4):** With $`{span}_{u}`$ =1.0 and $`N \geq 150`$ pairs, bootstrap power ≥80% to detect $`\Delta\alpha = 0.10`$ under moderate noise (CV≈0.2).
 
-- **Collapse pass rate (H3):** For strata with ≥10 scales across 1.0 span, false pass rate at $`R_{\text{collapse}}^{2} < 0.05`$≈ 5% by construction; simulate to calibrate LOESS band width.
+- **Collapse pass rate (H3):** For strata with ≥10 scales across 1.0 span, false pass rate at $`R_{\text{collapse}}^{2} < 0.05`$ ≈ 5% by construction; simulate to calibrate LOESS band width.
 
 - **Fusion stability (H5):** Need ≥2 accepted families; target $`I^{2} \leq 35\%`$ for stable $`{\widehat{\alpha}}_{Eco}`$.
 
@@ -796,13 +798,13 @@ with $`\mu,\sigma`$computed over a 30-day EWMA (or 6–12 months for slow system
 
 These protocols translate RTM-Eco into **falsifiable experiments** and **operational monitoring**: estimate slopes with EIV-aware methods, require **collapse** for specification validity, fuse only when **heterogeneity** is low, and treat **declines in** $`\alpha_{eco}`$ as early warnings with documented error control. Section 7 defines the **fusion pipeline and the real-time** $`\mathbf{ECI}_{Eco}(t)`$ in more detail, including heterogeneity handling and alert playbooks for managers.
 
-**7. Fusion & the Ecosystem Coherence Index (**$`\mathbf{ECI}_{\mathbf{Eco}}\mathbf{(t)}`$**)**
+**7. Fusion & the Ecosystem Coherence Index (**$`\mathbf{ECI}_{\mathbf{Eco}}\mathbf{(t)}`$ **)**
 
 We now turn accepted, family-wise slopes into a **single, auditable indicator** and specify how to run it in real time, gate it with heterogeneity, and connect it to management playbooks.
 
 **7.1 From family-wise** $`{\widehat{\mathbf{\alpha}}}_{\mathbf{f}}`$ **to a fused slope**
 
-At time $`t`$within a BIN, suppose $`F_{t}`$families pass **collapse** (Sec. 4.5), yielding $`\{{\widehat{\alpha}}_{f,t},\text{ }{\widehat{\sigma}}_{f,t}^{2}\}_{f = 1}^{F_{t}}`$.
+At time $`t`$ within a BIN, suppose $`F_{t}`$ families pass **collapse** (Sec. 4.5), yielding $`\{{\widehat{\alpha}}_{f,t},\text{ }{\widehat{\sigma}}_{f,t}^{2}\}_{f = 1}^{F_{t}}`$.
 
 **Fixed-effects baseline.**
 
@@ -820,7 +822,7 @@ At time $`t`$within a BIN, suppose $`F_{t}`$families pass **collapse** (Sec. 4.5
 
 **7.2 Rolling estimation and windowing**
 
-Compute $`{\widehat{\alpha}}_{f,t}`$on **sliding windows** in $`x = \log L`$(width $`h`$; Sec. 4.6) and **calendar windows** suited to system tempo (e.g., 30–90 days for RS; season-long for trophic studies). Each window must pass coverage + collapse **within itself**.
+Compute $`{\widehat{\alpha}}_{f,t}`$ on **sliding windows** in $`x = \log L`$ (width $`h`$; Sec. 4.6) and **calendar windows** suited to system tempo (e.g., 30–90 days for RS; season-long for trophic studies). Each window must pass coverage + collapse **within itself**.
 
 **Smoothing.** For display and alerting, apply a **3-point median** to $`{\widehat{\alpha}}_{Eco}(t)`$; keep raw values for audits.
 
@@ -846,7 +848,7 @@ Z_{t} = \frac{{\widehat{\alpha}}_{Eco}(t) - \mu_{t \mid H}}{\sigma_{t \mid H}},\
 
 with horizon $`H`$ matched to the system (e.g., 180 days forests, 30–60 days lakes).
 
-**Alert tiers (publish only if** $`I_{t}^{2} < 50\%`$**):**
+**Alert tiers (publish only if** $`I_{t}^{2} < 50\%`$ **):**
 
 - **Advisory:** $`Z_{t} \leq - 1.5`$ for ≥2 consecutive windows.
 
@@ -856,7 +858,7 @@ with horizon $`H`$ matched to the system (e.g., 180 days forests, 30–60 days l
 
 **Auto-suspend:** If $`I_{t}^{2} \geq 50\%`$ or any family loses **collapse**, suspend fusion and issue a **heterogeneity bulletin** instead of an alert.
 
-**7.5 Interpreting** $`\mathbf{\alpha}_{\mathbf{Eco}}`$**: design levers**
+**7.5 Interpreting** $`\mathbf{\alpha}_{\mathbf{Eco}}`$ **: design levers**
 
 A higher $`\alpha_{Eco}`$ implies **steeper time–scale stretching**, which often **dampens synchronization cascades** after shocks. Practical levers to **raise** $`\alpha`$ (validated by protocols in Sec. 6):
 
@@ -868,23 +870,23 @@ A higher $`\alpha_{Eco}`$ implies **steeper time–scale stretching**, which oft
 
 - **Biogeochemistry:** **flow regime** smoothing (baseflow support) to avoid pulse synchrony across catchments.
 
-**Trade-offs.** Raising $`\alpha`$may **slow** absolute recovery (bigger systems take longer), but **reduces tail amplification** (p95/p50) and improves predictability. Operate on a **Pareto front**: maximize $`\alpha`$ subject to throughput/fidelity floors relevant to the management goal.
+**Trade-offs.** Raising $`\alpha`$ may **slow** absolute recovery (bigger systems take longer), but **reduces tail amplification** (p95/p50) and improves predictability. Operate on a **Pareto front**: maximize $`\alpha`$ subject to throughput/fidelity floors relevant to the management goal.
 
 **7.6 Reporting template (ECI panel)**
 
 For each BIN, maintain a standard panel:
 
-1.  **Time series** of $`{\widehat{\alpha}}_{Eco}(t)`$with 50/95% bands; background shaded by $`I_{t}^{2}`$tiers.
+1.  **Time series** of $`{\widehat{\alpha}}_{Eco}(t)`$ with 50/95% bands; background shaded by $`I_{t}^{2}`$ tiers.
 
 2.  **Alert bands** and markers (advisory/watch/warning); annotate suspensions (high $`I^{2}`$).
 
-3.  **Forest inset** of current family-wise $`{\widehat{\alpha}}_{f,t}`$with weights $`w_{f,t}`$.
+3.  **Forest inset** of current family-wise $`{\widehat{\alpha}}_{f,t}`$ with weights $`w_{f,t}`$.
 
 4.  **Methods YAML hash** for full reproducibility.
 
 **7.7 Failure handling & negative-result policy**
 
-- **Heterogeneity spike (high** $`I^{2}`$**).** Publish a **divergence note** with family-wise slopes; recommend mechanism work (which family deviated first?).
+- **Heterogeneity spike (high** $`I^{2}`$ **).** Publish a **divergence note** with family-wise slopes; recommend mechanism work (which family deviated first?).
 
 - **Collapse loss.** Remove the affected family from fusion; if $`F_{t} < 2`$, **suspend ECI** and publish status.
 
@@ -894,13 +896,13 @@ All failures are **first-class artifacts** (kept in the repo) to prevent hindsig
 
 **7.8 Minimal example (numbers)**
 
-Suppose at $`t`$: vegetation and nutrients pass collapse with
+Suppose at $`t`$ : vegetation and nutrients pass collapse with
 
 ``` math
 {\widehat{\alpha}}_{veg} = 2.32 \pm 0.08,{\widehat{\alpha}}_{nut} = 2.18 \pm 0.12.
 ```
 
-REML yields $`{\widehat{\tau}}^{2} = 0.00`$(negligible heterogeneity), so
+REML yields $`{\widehat{\tau}}^{2} = 0.00`$ (negligible heterogeneity), so
 
 ``` math
 {\widehat{\alpha}}_{Eco}(t) = 2.27,SE = 0.07,I_{t}^{2} = 12\%.
@@ -950,9 +952,9 @@ We illustrate RTM-Eco with three archetypal systems. Each case shows **operation
 
 **Proxies.**
 
-- $`L`$: burned patch area (ha), holes dissolved \<$`\rho`$=2 ha.
+- $`L`$ : burned patch area (ha), holes dissolved \<$`\rho`$ =2 ha.
 
-- $`T`$: $`T_{rec}(0.9)`$to 90% of pre-event NDVI median (month-matched).
+- $`T`$ : $`T_{rec}(0.9)`$ to 90% of pre-event NDVI median (month-matched).
 
 **Pipeline.** Build 10–15 years of events; require ≥6 distinct $`L`$, span ≥0.6 in $`\log L`$. Fit ODR, bootstrap CIs (cluster by patch), collapse test + placebo.
 
@@ -962,7 +964,7 @@ We illustrate RTM-Eco with three archetypal systems. Each case shows **operation
 
 - **Edge-logged strata**: more **NO_COLLAPSE** in El Niño years (seasonal/management clocks leak); if collapse passes, slightly **lower** $`\widehat{\alpha}`$ and heavier tails.
 
-**Management implication.** A sustained **drop** in $`{\widehat{\alpha}}_{veg}`$ (or ECI) during El Niño → trigger **Watch**: staggered fuel-break maintenance and **asynchronous** restoration windows to raise $`\alpha`$without boosting mean $`T`$.
+**Management implication.** A sustained **drop** in $`{\widehat{\alpha}}_{veg}`$ (or ECI) during El Niño → trigger **Watch**: staggered fuel-break maintenance and **asynchronous** restoration windows to raise $`\alpha`$ without boosting mean $`T`$.
 
 **Negative result worth publishing.** If collapse fails systematically for high-severity mega-patches, classify as **scope boundary** (curvature): likely scale-dependent clocks (hydraulic failure, soil hydrophobicity) → create **separate BIN** or treat with mechanistic models.
 
@@ -974,9 +976,9 @@ We illustrate RTM-Eco with three archetypal systems. Each case shows **operation
 
 **Proxies.**
 
-- $`L`$: watershed area ($`{km}^{2}`$) or lake surface area ($`{km}^{2}`$).
+- $`L`$ : watershed area ($`{km}^{2}`$) or lake surface area ($`{km}^{2}`$).
 
-- $`T`$: pulse **half-life** to 50% decay in Chl-a (or recovery of Secchi to $`p = 0.9`$of baseline).
+- $`T`$ : pulse **half-life** to 50% decay in Chl-a (or recovery of Secchi to $`p = 0.9`$ of baseline).
 
 **Pipeline.** Weekly/biweekly sampling; censored-data handling; ODR + TS; collapse diagnostics; **Granger-style** lead/lag from $`\Delta^{-}\widehat{\alpha}`$ to regime markers (Secchi, hypoxia duration).
 
@@ -986,7 +988,7 @@ We illustrate RTM-Eco with three archetypal systems. Each case shows **operation
 
 - **Eutrophic high-press**: occasional **REGIME_MIX** (piecewise slopes pre/post aeration or load change) → split by management changepoint.
 
-**Early warning.** A 2–3 window **drop** in $`{\widehat{\alpha}}_{nut}`$with $`I^{2} < 35\%`$→ **Advisory/Watch** to pre-empt turbid shift (reduce inflows, pulse-smoothing operations).
+**Early warning.** A 2–3 window **drop** in $`{\widehat{\alpha}}_{nut}`$ with $`I^{2} < 35\%`$ → **Advisory/Watch** to pre-empt turbid shift (reduce inflows, pulse-smoothing operations).
 
 **Negative result.** Storm-dominated lakes may show persistent **NO_COLLAPSE** (clocked by event hydrology) → declare **out-of-scope** for RTM-Eco unless a narrower BIN removes storm clocks.
 
@@ -998,9 +1000,9 @@ We illustrate RTM-Eco with three archetypal systems. Each case shows **operation
 
 **Proxies.**
 
-- $`L`$: habitat-graph **module size** $`m`$ (nodes per module) or component diameter.
+- $`L`$ : habitat-graph **module size** $`m`$ (nodes per module) or component diameter.
 
-- $`T`$: **recolonization time** $`T_{recol}`$ (extinction→persistence ≥$`k`$ detections in $`w`$days) or **first-passage** time across corridors.
+- $`T`$ : **recolonization time** $`T_{recol}`$ (extinction→persistence ≥$`k`$ detections in $`w`$ days) or **first-passage** time across corridors.
 
 **Design (A/B).**
 
@@ -1057,7 +1059,7 @@ This section specifies **exact artifacts** every RTM-Eco analysis must produce, 
 
 **Required annotations.**
 
-- $`\widehat{\alpha}`$(50/95% CI), $`\widehat{c}`$, estimator, bootstrap $`B`$, leverage max.
+- $`\widehat{\alpha}`$ (50/95% CI), $`\widehat{c}`$, estimator, bootstrap $`B`$, leverage max.
 
 - Coverage: \#distinct $`L`$, span in $`\log L`$.
 
@@ -1066,7 +1068,7 @@ This section specifies **exact artifacts** every RTM-Eco analysis must produce, 
 **9.2 Figure 2 — Forest plot (family-wise slopes in a BIN)**
 
 **Caption template.**\
-*Family-wise coherence exponents and fused estimate for \[BIN tags\].* Points: $`{\widehat{\alpha}}_{f} \pm`$<!-- -->95% CI; size $`\propto w_{f} = 1/({\widehat{\sigma}}_{f}^{2} + {\widehat{\tau}}^{2})`$. Diamond: $`{\widehat{\alpha}}_{Eco}`$(REML) if $`I^{2} < 50\%`$; otherwise “fusion suspended”.
+*Family-wise coherence exponents and fused estimate for \[BIN tags\].* Points: $`{\widehat{\alpha}}_{f} \pm`$ <!-- -->95% CI; size $`\propto w_{f} = 1/({\widehat{\sigma}}_{f}^{2} + {\widehat{\tau}}^{2})`$. Diamond: $`{\widehat{\alpha}}_{Eco}`$ (REML) if $`I^{2} < 50\%`$; otherwise “fusion suspended”.
 
 **Required annotations.**
 
@@ -1187,7 +1189,7 @@ For every **NO_COLLAPSE / REGIME_MIX / THIN_COVERAGE**:
 
 **9.10 Minimal text block for Results section (plug-in)**
 
-> *Within the \[BIN tags\], vegetation recovery collapsed on* $`T_{\text{rec}} \propto L^{\alpha}`$*(ODR* $`\widehat{\alpha} = 2.31\text{ }\lbrack 2.17,2.45\rbrack`$*;* $`R_{\text{collapse}}^{2} = 0.018`$*; placebo passed). Nutrient pulses yielded* $`\widehat{\alpha} = 2.05\text{ }\lbrack 1.83,2.28\rbrack`$*(collapse passed). Movement failed collapse (0.061) and was flagged NO_COLLAPSE. Random-effects fusion (REML) of vegetation+nutrients gave* $`{\widehat{\alpha}}_{Eco} = 2.27`$*(SE 0.07),* $`I^{2} = 19\%`$*. The rolling ECI crossed the Warning tier (Z=−2.67) with low heterogeneity; fusion remained active.*
+> *Within the \[BIN tags\], vegetation recovery collapsed on* $`T_{\text{rec}} \propto L^{\alpha}`$ *(ODR* $`\widehat{\alpha} = 2.31\text{ }\lbrack 2.17,2.45\rbrack`$ *;* $`R_{\text{collapse}}^{2} = 0.018`$ *; placebo passed). Nutrient pulses yielded* $`\widehat{\alpha} = 2.05\text{ }\lbrack 1.83,2.28\rbrack`$ *(collapse passed). Movement failed collapse (0.061) and was flagged NO_COLLAPSE. Random-effects fusion (REML) of vegetation+nutrients gave* $`{\widehat{\alpha}}_{Eco} = 2.27`$ *(SE 0.07),* $`I^{2} = 19\%`$ *. The rolling ECI crossed the Warning tier (Z=−2.67) with low heterogeneity; fusion remained active.*
 
 **Summary.** These templates standardize how RTM-Eco results are **shown and audited**. Adopting them (plus the YAML hash) makes multi-site comparison, peer review, and replication straightforward, and turns “rhythm” from metaphor into **operational evidence**.
 
@@ -1197,7 +1199,7 @@ This section interprets $`\alpha_{eco}`$ as a **structural property of tempo**, 
 
 **10.1 What a higher** $`\mathbf{\alpha}_{\mathbf{eco}}`$ **“buys” (and what it doesn’t)**
 
-A larger $`\alpha_{eco}`$means **steeper stretching of time with scale**: as systems become larger (patches, catchments, network modules), their characteristic times increase **predictably**. This tends to:
+A larger $`\alpha_{eco}`$ means **steeper stretching of time with scale**: as systems become larger (patches, catchments, network modules), their characteristic times increase **predictably**. This tends to:
 
 - **Dampen synchronization cascades** after shocks (extremes at small scales do not scale up linearly), reducing **tail amplification** (p95/p50).
 
@@ -1221,13 +1223,13 @@ However, a higher $`\alpha`$ does **not** guarantee faster absolute recovery; it
 
 RTM-Eco is phenomenological but **mechanism-compatible**. Several generative pictures explain why $`\alpha`$ varies:
 
-1.  **Diffusive aggregation (**$`\alpha \approx 2`$**).** When disturbances/recoveries spread via near-diffusive transport (seed rain, nutrient diffusion), $`T \sim L^{2}`$within a BIN.
+1.  **Diffusive aggregation (**$`\alpha \approx 2`$ **).** When disturbances/recoveries spread via near-diffusive transport (seed rain, nutrient diffusion), $`T \sim L^{2}`$ within a BIN.
 
-2.  **Hierarchical assembly (**$`\alpha > 2`$**).** Recovery requires **sequential modules** (e.g., soil microbes → pioneers → canopy) or **routing** through networks; each stage adds latency, steepening $`\alpha`$.
+2.  **Hierarchical assembly (**$`\alpha > 2`$ **).** Recovery requires **sequential modules** (e.g., soil microbes → pioneers → canopy) or **routing** through networks; each stage adds latency, steepening $`\alpha`$.
 
 3.  **Clock leakage / multi-mechanism mixing (**$`\alpha`$ **unstable).** If the proxy $`T`$ embeds seasonal/management clocks or combines regimes, residuals curve → NO_COLLAPSE.
 
-4.  **Synchronous forcing (lower effective** $`\alpha`$**).** Highly synchronized pulses (storm-dominated hydrology, synchronous planting/harvest) flatten the tempo gradient, facilitating system-wide extremes.
+4.  **Synchronous forcing (lower effective** $`\alpha`$ **).** Highly synchronized pulses (storm-dominated hydrology, synchronous planting/harvest) flatten the tempo gradient, facilitating system-wide extremes.
 
 These sketches motivate interventions (corridor phasing, mosaic heterogeneity, baseflow support) that **steer** $`\alpha`$.
 
@@ -1257,7 +1259,7 @@ All actions should be evaluated with pre-registered **Minimum Detectable Effects
 
 - **REGIME_MIX.** Kinks imply **piecewise** slopes; splitting often recovers valid $`\alpha`$ within sub-regimes.
 
-- **High** $`I^{2}`$**.** Real divergence among families: the right move is **not** averaging it away but making divergence **actionable** (triage interventions).
+- **High** $`I^{2}`$ **.** Real divergence among families: the right move is **not** averaging it away but making divergence **actionable** (triage interventions).
 
 **10.8 Limitations revisited (preview of Sec. 11)**
 
@@ -1317,7 +1319,7 @@ RTM-Eco is **phenomenological** and **bin-local**. Its value depends on how clea
 
 **Mitigation.**
 
-- Require ≥6 distinct $`L`$and span ≥0.6 in $`\log L`$.
+- Require ≥6 distinct $`L`$ and span ≥0.6 in $`\log L`$.
 
 - Report **max leverage** and **leave-one-scale-out** sensitivity; drop bins that fail stability.
 
@@ -1538,9 +1540,9 @@ At time window $`\lbrack t_{0},t_{1}\rbrack`$ within a BIN:
 
 - Collect accepted $`\{{\widehat{\alpha}}_{f},{\widehat{\sigma}}_{f}^{2}\}`$.
 
-- Compute $`Q,I^{2}`$ estimate $`{\widehat{\tau}}^{2}`$(REML).
+- Compute $`Q,I^{2}`$ estimate $`{\widehat{\tau}}^{2}`$ (REML).
 
-- If $`I^{2} < 0.50`$ and $`F \geq 2`$:
+- If $`I^{2} < 0.50`$ and $`F \geq 2`$ :
 
 ``` math
 {\widehat{\alpha}}_{Eco} = \frac{\sum_{f}^{}{{\widehat{\alpha}}_{f}/({\widehat{\sigma}}_{f}^{2} + {\widehat{\tau}}^{2})}}{\sum_{f}^{}{1/({\widehat{\sigma}}_{f}^{2} + {\widehat{\tau}}^{2})}},\ \ \ \ \ SE = 1/\sqrt{\sum_{f}^{}{1/({\widehat{\sigma}}_{f}^{2} + {\widehat{\tau}}^{2})}}
@@ -1548,7 +1550,7 @@ At time window $`\lbrack t_{0},t_{1}\rbrack`$ within a BIN:
 
 Else **suspend fusion**; output family-wise.
 
-**ECI time series.** Slide $`\lbrack t_{0},t_{1}\rbrack`$ with step $`s`$(e.g., 30 d). Maintain EWMA baseline $`H`$; compute $`Z_{t}`$and alert tiers (Sec. 7.4). Store in eci.tsv.
+**ECI time series.** Slide $`\lbrack t_{0},t_{1}\rbrack`$ with step $`s`$ (e.g., 30 d). Maintain EWMA baseline $`H`$; compute $`Z_{t}`$ and alert tiers (Sec. 7.4). Store in eci.tsv.
 
 **12.8 Software environment**
 
@@ -1909,7 +1911,7 @@ The RTM framework predicts that the characteristic time of an organism (Longevit
 
 - **Reptilia:** $`\alpha = \ 0.241\  \pm 0.077`$ (Remarkably close to the perfect $`0.25`$ limit).
 
-**Conclusion:** By accounting for biological variance, the RTM framework proves that lifespan is not an arbitrary genetic timer, but a strict physical property dictated by the topology of the organism's multiscale metabolic network.
+**Conclusion:** By accounting for biological variance, the RTM framework demonstrates that lifespan scales predictably with body mass, consistent with topological constraints on metabolic network efficiency. The variance-corrected exponents (Mammalia $`\alpha = 0.190 \pm 0.011`$, Aves $`\alpha = 0.213 \pm 0.015`$, Reptilia $`\alpha = 0.241 \pm 0.077`$) converge near the theoretical $`\alpha \approx 0.25`$ transport limit, a convergent result. Flanking analysis (Appendix E.1) revealed an additional finding: at fixed body mass, deviations from Kleiber's Law (metabolic residuals) predict longevity residuals ($`\rho = -0.184`$, $`p = 0.0005`$), suggesting that metabolic topology — not just metabolic rate — modulates lifespan. This is an RTM-specific prediction not made by standard allometric theory.
 
 **APPENDIX C — Empirical Validation: Ecosystems as Multiscale Resonators**
 
@@ -1931,7 +1933,7 @@ RTM posits that ecological populations do not fluctuate randomly, but interact w
 
 3.  **The Color of Life (GPDD):** Injecting variance into thousands of temporal series confirms that the global ecosystem's spectral redness heavily gravitates towards the critical RTM limit of $`1\text{/}f`$ pink noise, landing at a robust $`\mathbf{\beta}\mathbf{= \ 0.82}`$.
 
-**Conclusion:** The RTM framework successfully scales to global ecosystems. It correctly classifies biological populations as operating near the edge of chaos, causing them to clump spatially and fluctuate temporally in a mathematically predictable topological transport class.
+**Conclusion:** These results are consistent with ecological collapse being a topological phase transition, with the $`1/f`$ spectral pattern emerging as a consequence of critical-state dynamics. The ODR predictive slope of $`0.92 \pm 0.02`$ for extinction risk is convergent with known extinction scaling (Pimm et al. 1988). The novel RTM contribution here is the unified topological classification rather than the individual scaling laws.
 
 **APPENDIX D — Empirical Validation: The Topological Transport of Global Pandemics (COVID-19):** The RTM framework posits that macroscopic biological interactions, whether predator-prey dynamics or viral transmissions, are governed by the topology of their underlying multiscale network. To validate this in human ecology, we analyzed the spreading dynamics of the global COVID-19 pandemic (2020-2023).
 
@@ -1945,11 +1947,115 @@ RTM posits that ecological populations do not fluctuate randomly, but interact w
 
 **D.3 The Scale-Free Pandemic (Robust Findings):** Even after absorbing extreme real-world variance, the pandemic strictly obeys RTM network physics:
 
-- **The Zipf Attractor:** The noise-corrected ODR analysis reveals that the global rank-frequency case distribution converges tightly to a topological exponent of $`\mathbf{\alpha}\mathbf{= \ 0.953\ }\mathbf{\pm}\mathbf{0.044}`$. This is statistically indistinguishable from the theoretical limit of $`\alpha = \ 1.0`$ (Zipf's Law). It mathematically proves that COVID-19 did not spread through homogenous geographic diffusion, but rather teleported across a highly structured, scale-free global transport network.
+- **The Zipf Attractor:** The noise-corrected ODR analysis reveals that the global rank-frequency case distribution converges tightly to a topological exponent of $`\mathbf{\alpha}\mathbf{= \ 0.953\ }\mathbf{\pm}\mathbf{0.044}`$. This is statistically indistinguishable from the theoretical limit of $`\alpha = \ 1.0`$ (Zipf's Law). This is consistent with COVID-19 spreading primarily through a highly structured, scale-free global transport network, convergent with network epidemiology findings (Barabási 2002, Lloyd-Smith et al. 2005).
 
 - **Fat-Tailed Transmission:** The simulated overdispersion parameter anchors robustly at $`\mathbf{k\  = \ 0.226\ }\mathbf{\pm}\mathbf{0.131}`$. A value significantly lower than $`1.0`$ decisively rejects random (Poisson) transmission. It confirms that the pandemic's expansion was topologically "fat-tailed," driven almost entirely by hyper-connected nodes (super-spreaders) rather than average individual interactions.
 
-**Conclusion:** The RTM framework successfully scales to global epidemiology. It proves that a pandemic is not merely a biological event, but a macroscopic topological transport phenomenon. The virus acts as a tracer fluid, perfectly mapping the highly asymmetric, scale-free structure of modern human ecological network.
+**Conclusion:** The RTM framework successfully scales to global epidemiology. A pandemic is not merely a biological event, it is also a macroscopic topological transport phenomenon. The virus acts as a tracer of the asymmetric, scale-free structure of modern human ecological networks. These results are convergent with established network science and provide a unified RTM interpretation of known epidemiological scaling laws.
+
+### APPENDIX E — Flanking Campaign: Novel RTM-Eco Empirical Findings (April 2026)
+
+This appendix presents findings from five independent analytical flanks applied to the RTM-Eco empirical data (AnAge n=547 species, GPDD n=978 series, Isle Royale n=66 years). Four of five flanks produced positive results; one failed. All computations are reproducible via rtm_ecology_flanks.py.
+
+**E.1 Kleiber Residuals Predict Longevity**
+
+RTM predicts that metabolic topology — not just metabolic rate — determines lifespan. Test: at fixed body mass, do deviations from Kleiber's Law (BMR residuals) predict deviations from the mass-longevity relationship (longevity residuals)?
+
+*Method:* Compute OLS residuals of log(BMR) on log(mass) and log(longevity) on log(mass) separately for Mammalia with BMR data ($`n = 350`$). Correlate the residuals.
+
+*Result:* Spearman $`\rho = -0.184`$ , $`p = 5.5 \times 10^{-4}`$ .Species burning MORE energy than Kleiber predicts live SHORTER than their mass-matched peers. Within-order consistency: mean within-order $`\rho = -0.275`$, 89% negative, $`t`$ -test $`p = 0.007`$.
+
+| Order | $n$ | $\rho$ | $p$ |
+|-------|-----|--------|-----|
+| Rodentia | 115 | -0.302 | 0.001 |
+| Carnivora | 51 | -0.276 | 0.050 |
+| Diprotodontia | 19 | -0.553 | 0.014 |
+| Chiroptera | 32 | -0.251 | 0.166 |
+| Primates | 24 | +0.027 | 0.901 |
+
+*RTM interpretation:* Species whose vascular networks are less efficient (higher BMR at fixed mass) age faster. This is an RTM-specific prediction that Kleiber's Law and standard allometric theory do not make, they predict the average, not the residual structure.
+
+**E.2 Predator-Prey Shape Conspiracy**
+
+Analogous to the baryon-halo shape conspiracy in SPARC (Doc 014): do the SHAPES of predator and prey population dynamics mirror each other, and does this coupling change before ecosystem crashes?
+
+*Method:* Normalize wolf and moose time series (Isle Royale, 1959-2024) to unit amplitude. Compute rolling Pearson correlation of shapes in 15-year windows.
+
+*Results:*
+
+| Crash event | Baseline $r$ | Pre-crash $r$ | $d$ | $p$ |
+|-------------|-------------|---------------|-----|-----|
+| Moose 1996 (vegetation crash) | -0.029 | -0.442 | **-2.52** | **0.000** |
+| Wolf 2012 (inbreeding collapse) | -0.281 | -0.579 | **-1.10** | **0.016** |
+
+Before both crashes, the predator-prey shape anti-correlation INTENSIFIES, the ecosystem couples more tightly before breaking. This is the same cross-domain pattern as SPARC (baryon-halo conspiracy tightens in gas-rich galaxies), economics (multi-scale coherence drops during crashes), and consciousness (α-R² conspiracy tightens during seizures).
+
+Lag structure: wolves lead moose by 2-3 years (strongest correlation at lag -2 to -3). Top-down control is measurable from shape dynamics.
+
+**E.3 Amphibia Simpson's Paradox**
+
+*Finding:* Overall Amphibia $`\alpha = 0.091`$ (previously an embarrassment, near zero scaling) is a Simpson's Paradox caused by mixing two fundamentally different respiratory topologies:
+
+| Order | $n$ | $\alpha$ | $R^2$ | Biology |
+|-------|-----|---------|-------|---------|
+| **Anura** (frogs/toads) | 8 | **0.550** | **0.558** | Developed lungs |
+| **Caudata** (salamanders) | 8 | **0.031** | **0.075** | Cutaneous respiration |
+
+Frogs ($`\alpha = 0.55`$) scale similarly to mammals and birds. Salamanders ($`\alpha = 0.03`$) show essentially no mass-longevity scaling. RTM interpretation: vascular/respiratory topology determines $`\alpha`$. More complex gas exchange → higher $`\alpha`$.
+
+Complexity ladder: $`\alpha`$ increases with vascular complexity (Spearman $`\rho = +0.40`$ across 4 classes; $`n = 4`$, not significant, but directionally consistent). Caveat: $`n = 8`$ per Amphibia order is small; replication with AmphibiaWeb data recommended.
+
+**E.4 Body Size Predicts Spectral Color (GPDD)**
+
+RTM predicts larger organisms (more topological layers) should have redder population noise (higher $`\beta`$).
+
+| Taxon | Body mass | $\beta$ | $n$ series |
+|-------|-----------|---------|-----------|
+| Zooplankton | ~0.001g | 0.55 | 67 |
+| Insects | ~0.1g | 0.65 | 89 |
+| Freshwater Inv. | ~5g | 0.71 | 34 |
+| Amphibians | ~20g | 0.88 | 23 |
+| Fish | ~100g | 0.78 | 312 |
+| Birds | ~200g | 0.92 | 234 |
+| Reptiles | ~500g | 0.82 | 18 |
+| Mammals | ~5,000g | 1.05 | 156 |
+
+Spearman $`\rho = +0.867`$, $`p = 0.0025`$. Larger organisms have redder noise. RTM mechanism: more hierarchical topological layers buffer short-term fluctuations, producing longer-range autocorrelation. Note: this pattern was noted by Inchausti & Halley (2001) as an empirical observation. RTM provides the mechanistic interpretation via transport network depth.
+
+**E.5 Failed Prediction: β Does Not Predict Future Instability**
+
+RTM's H2 (spectral β as early warning of regime shift) was tested directly on Isle Royale. Rolling $`\beta`$ (past 15 years) was correlated with future coefficient of variation (next 5 years).
+
+*Result:* Wolves: $`\rho = -0.210`$, $`p = 0.162`$ (wrong direction). Moose: $`\rho = +0.027`$, $`p = 0.856`$ (null).
+
+*Why:* Isle Royale crashes are **exogenous shocks** (canine parvovirus 1980, inbreeding threshold 2012, vegetation overshoot 1996), not endogenous phase transitions. RTM's precursor signal (β-shift) is designed to detect the latter. The distinction between exogenous-shock collapses and endogenous-criticality collapses is a genuine boundary condition for H2, and should be stated explicitly in future applications.
+
+**E.6 Summary**
+
+| Flank | Result | Key finding | For RTM |
+|-------|--------|------------|---------|
+| Kleiber residuals → longevity | **POSITIVE** | $`\rho = -0.184`$, $`p = 0.0005`$ | Novel RTM-specific prediction |
+| Shape conspiracy (Isle Royale) | **POSITIVE** | Pre-crash $`d = -2.52`$, $-1.10$ | Cross-domain pattern confirmed |
+| Amphibia Simpson's Paradox | **POSITIVE** | Anura $`\alpha = 0.55`$ vs Caudata $`\alpha = 0.03`$ | Topology → exponent (caveat: $`n = 8`$) |
+| Body size → spectral color | **POSITIVE** | $`\rho = +0.867`$, $`p = 0.0025`$ | RTM mechanism for known pattern |
+| β predicts future instability | **FAILED** | Wrong direction, $`p > 0.15`$ | H2 limited to endogenous transitions |
+
+---
+
+## 8. GLOBAL TONE CORRECTIONS — Apply throughout
+
+| Original phrase | Replace with |
+|-----------------|-------------|
+| "conclusively demonstrates" | "shows" or "is consistent with" |
+| "definitively proves" | "demonstrates" |
+| "proves that" (empirical claims) | "is consistent with" |
+| "strictly avoid" | "exhibit non-Poisson" |
+| "scales flawlessly" | "scales" |
+| "mathematically rejects" | "is inconsistent with" |
+| "This proves that global pandemics" | "These results are consistent with global pandemics" |
+| "teleported across" | "spread across" |
+| "perfectly mapping" | "tracing" |
+
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
 

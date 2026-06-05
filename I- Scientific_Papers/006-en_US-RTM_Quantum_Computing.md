@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
 # **RTM-Aware Quantum Computing**  
 **A Multiscale, Slope-First Framework for Coherence, Scheduling, and Design**  
@@ -13,14 +13,13 @@
 
 We introduce a **slope-first** methodology for quantum computing based on **Multiscale Temporal Relativity (RTM)**. Inside a fixed operational regime, RTM posits that a characteristic time $T$ scales with a size/scale proxy $L$ by a power law,
 
-$$\log T\text{\:\,} = \text{\:\,}\alpha\text{ }\log L\text{\:\,} + \text{\:\,}c,
-$$
+$\log T = \alpha \log L + c$
 
-where the **coherence exponent** $\alpha$ is the **clock-invariant** structural signal and $c$ encodes clock/units. We adapt RTM to quantum stacks---**physical**, **QEC**, **compiler/runtime**, and **I/O--cryo**---by defining layer-specific $(L,T)$ pairs (e.g., number of active qubits vs. stable calibration time; code distance vs. logical-failure time; multiplexing degree vs. readout latency; circuit width vs. makespan), and estimating binwise slopes under errors-in-variables (ODR/TLS, Theil--Sen, SIMEX). A **collapse test** validates scaling and guards against regime mixing; clean family-wise slopes are fused into a real-time $\mathbf{ECI}_{QC}$**(t)** with uncertainty and QA gates.
+where the **coherence exponent** $\alpha$ is the **clock-invariant** structural signal and $c$ encodes clock/units. We adapt RTM to quantum stacks---**physical**, **QEC**, **compiler/runtime**, and **I/O--cryo**---by defining layer-specific $ (L,T)$ pairs (e.g., number of active qubits vs. stable calibration time; code distance vs. logical-failure time; multiplexing degree vs. readout latency; circuit width vs. makespan), and estimating binwise slopes under errors-in-variables (ODR/TLS, Theil--Sen, SIMEX). A **collapse test** validates scaling and guards against regime mixing; clean family-wise slopes are fused into a real-time $\mathbf{ECI}_{QC}$ **(t)** with uncertainty and QA gates.
 
-We formulate **falsifiable** hypotheses: **(H1)** higher pre-shock $\alpha$ predicts longer stability margins (fewer forced recalibrations, lower logical error at fixed $d$); **(H2)** **decoherence events**---significant QA-clean drops in ${ECI}_{QC}$---lead spikes in logical error, queueing, or makespan; **(H3)** micro→meso→macro **tempo cascades** exhibit non-decreasing $\alpha$ within stable regimes. We demonstrate how **RTM-aware scheduling** (batching, staggered resets, low-variance routing), **QEC cadence design** (desynchronization of syndrome cycles), and **modular sizing** (sweet spots for interconnect) can improve throughput and reliability without changing physical fidelities. The framework is reproducible, gauge-robust (unit/clock changes do not affect $\alpha$), and designed to fail gracefully (no-collapse and high heterogeneity become scope boundaries, not post-hoc fixes).
+We formulate **falsifiable** hypotheses: **(H1)** higher pre-shock $\alpha$ predicts longer stability margins (fewer forced recalibrations, lower logical error at fixed $d$); **(H2)** **decoherence events**---significant QA-clean drops in ${ECI}_{QC}$ ,lead spikes in logical error, queueing, or makespan; **(H3)** micro→meso→macro **tempo cascades** exhibit non-decreasing $\alpha$ within stable regimes. We demonstrate how **RTM-aware scheduling** (batching, staggered resets, low-variance routing), **QEC cadence design** (desynchronization of syndrome cycles), and **modular sizing** (sweet spots for interconnect) can improve throughput and reliability without changing physical fidelities. The framework is reproducible, gauge-robust (unit/clock changes do not affect $\alpha$), and designed to fail gracefully (no-collapse and high heterogeneity become scope boundaries, not post-hoc fixes).
 
-**Systematic empirical validation**$\mathbf{\rightarrow}$**(APPENDIX G)**. We validate the RTM diagnostic framework in quantum hardware through a systematic analysis of 31 IBM Quantum processors spanning 5 to 1121 qubits. Initial raw scaling analysis suggested a positive coherence-to-size relationship ($\alpha \approx + 0.23$); however, RTM isolates this as a statistical illusion driven by a manufacturing confounder (generational technology improvements). To definitively untangle chronological engineering advancements from true topological transport scaling, we deployed a Multivariable Orthogonal Distance Regression (ODR) pipeline, injecting a realistic $15\%$ cryogenic calibration noise margin. When algebraically normalizing the technological gain factor ($\gamma = \  + 0.139$ dex/year), the true topological scaling reveals a strictly negative exponent of $\mathbf{\alpha}\mathbf{= \  - 0.259\ }\mathbf{\pm}\mathbf{0.049}$. This places macroscopic quantum decoherence unequivocally in the Inverse Transport Class ($\alpha < \ 0$), alongside classical Stokes-Einstein diffusion. This empirical result proves that as quantum system size ($N$) increases, topological noise (crosstalk, correlated defects) scales collectively rather than independently, causing the system to decohere faster. RTM successfully separates underlying physical scaling laws from engineering artifacts, demonstrating that massive coherence requires architectural resonance, not merely brute-force monolithic scaling.
+**Systematic empirical validation** $`\mathbf{\rightarrow}`$ **(APPENDIX G).** We validate the RTM diagnostic framework in quantum hardware through a systematic analysis of 31 IBM Quantum processors spanning 5 to 1121 qubits. Initial raw scaling analysis yielded a positive coherence-to-size relationship ($`\alpha \approx +0.23`$) ,a **Simpson's Paradox** driven by a manufacturing confounder (generational technology improvements). To untangle chronological engineering advancements from true topological scaling, we deployed a Multivariable ODR pipeline, injecting a $`15\%`$ cryogenic calibration noise margin. After normalizing the technological gain factor ($`\gamma = +0.139`$ dex/year), the isolated physical scaling reveals a robust negative exponent of $`\mathbf{\alpha = -0.259 \pm 0.049}`$, bootstrap CI [ $`-0.382, -0.038`$ ], which excludes zero at 95% confidence. This places macroscopic quantum decoherence in the **Inverse Transport Class** ($`\alpha < 0`$), alongside classical Stokes-Einstein diffusion. The key finding is the **Simpson's Paradox identification**: naive analysis concludes quantum processors are improving with scale ($`\alpha > 0`$); RTM's confounder-aware pipeline reveals the opposite is true at fixed technology generation. This is classified as **NOVEL** by the Red Team (April 2026) ,the confounder-reversal pattern is not visible without multivariable decomposition. RTM successfully separates physical scaling laws from engineering artifacts, demonstrating that massive coherence requires architectural resonance, not brute-force monolithic scaling. Full audit: Appendix H.
 
 **1. Introduction**
 
@@ -28,7 +27,7 @@ We formulate **falsifiable** hypotheses: **(H1)** higher pre-shock $\alpha$ pred
 
 Quantum performance is usually summarized by **point metrics**---single- and two-qubit fidelities, $T_{1}/T_{2}$, logical error rates, or benchmark figures (QED-C, QV). Yet practical reliability and throughput hinge on something orthogonal: **how timing stretches across scale** in a multistage stack---qubits and resonators, code cycles, compilers, cryogenic I/O. When small subsystems respond quickly and larger ones respond more slowly in a disciplined, layered fashion, shocks are **dissipated**; when timings **flatten**, disturbances percolate across layers and synchronize failures (stalling readout, spiking logical error, or forcing global recalibrations).
 
-**Multiscale Temporal Relativity (RTM)** provides a compact language for this phenomenon. Inside a fixed regime, RTM expects a power-law relation between a **characteristic time** $T$ and a **scale proxy** $L$: the **slope** $\alpha$ in $\log T = \alpha \log L + c$ is structural (invariant to time units), while the intercept $c$ is a **clock** (gauge). We bring this principle to quantum computing and show that measuring, validating, and **engineering** $\alpha$ yields actionable levers, independent of nominal units, to improve stability and throughput.
+**Multiscale Temporal Relativity (RTM)** provides a compact language for this phenomenon. Inside a fixed regime, RTM expects a power-law relation between a **characteristic time** $T$ and a **scale proxy** $L$: the **slope** $\alpha$ in $\log T = \alpha \log L + c$ is structural (invariant to time units), while the intercept $c$ is a **clock** (gauge). We bring this principle to quantum computing and show that measuring, validating, and **engineering** $\alpha$ yields actionable levers — independent of nominal units — to improve stability and throughput.
 
 **1.2 RTM in one line**
 
@@ -39,11 +38,11 @@ A change of clock or units shifts $c$ but leaves $\alpha$ unchanged. Thus $\alph
 
 This paper makes five contributions:
 
-1.  **Operationalization of RTM for QC.** We define layer-specific $(L,T)$ pairs for **physical**, **QEC**, **compiler/runtime**, and **I/O--cryo** layers (e.g., $L =$ active qubits, $T =$ stable calibration time; $L = d$, $T =$ cycles to logical failure; $L =$ multiplexing degree, $T =$ readout latency; $L =$ circuit width, $T =$ makespan).
+1.  **Operationalization of RTM for QC.** We define layer-specific $ (L,T)$ pairs for **physical**, **QEC**, **compiler/runtime**, and **I/O--cryo** layers (e.g., $L =$ active qubits, $T =$ stable calibration time; $L = d$, $T =$ cycles to logical failure; $L =$ multiplexing degree, $T =$ readout latency; $L =$ circuit width, $T =$ makespan).
 
 2.  **Validation & estimation.** We provide a **collapse test** (residual independence of $\log T - \alpha \log L$ from $\log L$) to detect regime mixing and non-power curvature, and adopt **errors-in-variables** estimation (ODR/TLS, Theil-Sen, SIMEX) with bootstrap uncertainty and changepoint guards.
 
-3.  **A single real-time indicator.** We fuse family-wise slopes into $\mathbf{ECI}_{QC}$**(t)** via random-effects meta-analysis with heterogeneity controls ($Q$, $I^{2}$, ${\widehat{\tau}}^{2}$); we publish QA flags and withhold fusion when proxies disagree.
+3.  **A single real-time indicator.** We fuse family-wise slopes into $\mathbf{ECI}_{QC}$ **(t)** via random-effects meta-analysis with heterogeneity controls ($Q$, $I^{2}$, ${\widehat{\tau}}^{2}$); we publish QA flags and withhold fusion when proxies disagree.
 
 4.  **Design levers.** We formalize **RTM-aware scheduling** (batching, staggered resets, low-variance routing), **QEC cadence design** (desynchronization to avoid phase lock between physical errors and syndrome extraction), and **modular sizing** (choosing module/interconnect scales that elevate $\alpha$ without throttling throughput).
 
@@ -55,7 +54,7 @@ This paper makes five contributions:
 
 -   **Is not:** a causal parameter by default; level changes in $T$ (units, clocks, offsets) do **not** change $\alpha$. When collapse fails, $\alpha$ is **undefined** for that bin and should not be fused.
 
-**1.5 Layer-specific** $\mathbf{(}\mathbf{L}\mathbf{,}\mathbf{T}\mathbf{)}$**exemplars (preview)**
+**1.5 Layer-specific** $\mathbf{(}\mathbf{L}\mathbf{,}\mathbf{T}\mathbf{)}$ **exemplars (preview)**
 
 -   **Physical:** $L =$ active qubits / coupler degree / cluster size; $T =$ stable calibration interval, gate/RO latency, mean time to drift.
 
@@ -87,7 +86,7 @@ This paper makes five contributions:
 
 Our framework complements fidelity-centric and error-model approaches by adding a **scale--tempo geometry**. It is compatible with (not a replacement for) surface/LDPC code theory, compilation/routing heuristics, and queueing models; it contributes a **gauge-invariant** statistic $\alpha$ and a **collapse** specification test to separate **structure** from **clock** effects. In the language of stochastic processes, our dynamics section (later) connects RTM to **time-changed diffusions**; in meta-analysis terms, our fusion mimics **random-effects** with explicit **heterogeneity gates**.
 
-**1.9. Systematic Empirical Validation: The Illusion of Monolithic Scaling**$\mathbf{\rightarrow}$**(APPENDIX G)**
+**1.9. Systematic Empirical Validation: The Illusion of Monolithic Scaling**$\mathbf{\rightarrow}$ **(APPENDIX G)**
 
 A fundamental premise of RTM is its ability to diagnose the true transport class of a system by observing its scaling exponent. In the race to build fault-tolerant quantum computers, hardware developers have continuously scaled up monolithic processor sizes (qubit counts). Superficially, historical data seems to suggest that larger processors possess better coherence times ($T_{2}$). However, within the RTM framework, we must ask: is this improvement a property of the spatial scale ($\alpha > \ 0$), or is it an artificial offset generated by continuous technological advancements?
 
@@ -101,14 +100,13 @@ This section states the RTM axioms, derives the **power-law** form $T = \kappa L
 
 **A1 --- Scale semigroup.** For any dilation $b > 0$,
 
-$$T(bL) = f(b)\text{ }T(L),
-$$
+$T(bL) = f(b)\text{ }T(L)$
 
-with $f(1) = 1$ and $f(b_{1}b_{2}) = f(b_{1})f(b_{2})$.
+with $f(1)=1$ and $f(b_{1}b_{2}) = f(b_{1})f(b_{2})$.
 
 **A2 --- Mild regularity.** $f$ is measurable (or continuous at $b = 1$).
 
-**A3 --- Clock invariance in-bin.** Allowed **clock changes** multiply $T$ by a factor $c > 0$**independent of** $L$ inside the bin (unit changes, timestamp baselines, fixed-latency offsets). In QC practice: rescaling time units, constant readout overheads, constant cryo I/O baselines.
+**A3 --- Clock invariance in-bin.** Allowed **clock changes** multiply $T$ by a factor $c>0$ **independent of** $L$ inside the bin (unit changes, timestamp baselines, fixed-latency offsets). In QC practice: rescaling time units, constant readout overheads, constant cryo I/O baselines.
 
 **A4 --- Binning.** Comparisons are made within bins where environment is stable. If a changepoint is detected, the bin must be split.
 
@@ -116,14 +114,13 @@ with $f(1) = 1$ and $f(b_{1}b_{2}) = f(b_{1})f(b_{2})$.
 
 Let $u = \log L$, $v = \log T$. From A1--A2, the multiplicative Cauchy equation gives $f(b) = b^{\alpha}$ for some $\alpha \in \mathbb{R}$. Hence
 
-$$T(L) = \kappa L^{\alpha},v(u) = \alpha u + \log\kappa.
-$$
+$T(L) = \kappa L^{\alpha},v(u) = \alpha u + \log\kappa$
 
 **Interpretation.** $\alpha$ is the **coherence exponent** (slope); $\kappa$ is a **clock** (intercept).
 
 **2.3 Clocks (multiplicative gauge vs. additive latency)**
 
-In RTM, a "clock change" inside a fixed bin is a **multiplicative** rescaling of all characteristic times: $T^{'} = cT$, $c > 0$ independent of $L$. This includes time-unit conversions (ns↔µs), uniform timebase/tick-rate rescalings, or uniform calibration factors. In log coordinates, $\log T^{'} = \log T + \log c$, so $\alpha$ is unchanged and only the intercept shifts.\
+In RTM, a "clock change" inside a fixed bin is a **multiplicative** rescaling of all characteristic times: $T^{'} = cT$, $c>0$ independent of $L$. This includes time-unit conversions (ns↔µs), uniform timebase/tick-rate rescalings, or uniform calibration factors. In log coordinates, $\log T^{'} = \log T + \log c$, so $\alpha$ is unchanged and only the intercept shifts.\
 By contrast, **constant latencies** (e.g., fixed readout preamble, pipeline delay, timestamp baseline offsets) are **additive**: $T_{\text{obs}} = T + b$. On log--log plots this is not a pure intercept shift and can bias $\alpha$, especially when $T$ is not $\gg b$. Therefore, before estimating $\alpha$, either:\
 (i) estimate/subtract the latency $b$ and fit using $T_{eff} = \max(T_{\text{obs}} - b,\varepsilon)$, or\
 (ii) restrict analysis to regimes where $T_{\text{obs}} \gg b$ and report sensitivity of $\alpha$ to plausible $b$.
@@ -132,8 +129,7 @@ By contrast, **constant latencies** (e.g., fixed readout preamble, pipeline dela
 
 Given observations $\{(L_i, T_i)\}_i$ *in a bin, define* $x_i = \log L_i$, $y_i = \log T_i$. Fit a binwise slope $\hat{\alpha}$ (Section 5) and examine **residuals**
 
-$${\widetilde{y}}_{i}: = y_{i} - \widehat{\alpha}x_{i}.
-$$
+${\widetilde{y}}_{i}: = y_{i} - \widehat{\alpha}x_{i}$
 
 **Collapse test.** In a valid RTM bin, $\widetilde{y}$ should be **independent of** $x$ (up to noise). We operationalize with:
 
@@ -149,18 +145,15 @@ $$
 
 In practice, $\alpha$ can drift slowly with environment or scale (e.g., across utilization bands or multiplexing factors). Write
 
-$$v(u) = \int_{u_{0}}^{u}{\alpha(s)\text{ }ds + \log\kappa(u),}
-$$
+$v(u) = \int_{u_{0}}^{u}{\alpha(s)\text{ }ds + \log\kappa(u),}$
 
 with $\mid \alpha^{'}(u) \mid \leq \varepsilon$ small on the window and $\kappa$ **slowly varying**. For any symmetric window of width $h$ in $u$,
 
-$$\widehat{\alpha}(u;h)\text{\:\,} = \text{\:\,}\alpha(u)\text{\:\,} + \text{\:\,}O(\varepsilon h)\text{\:\,} + \text{\:\,}O(\text{slow-variation}),
-$$
+$\widehat{\alpha}(u;h)\text{\:\,} = \text{\:\,}\alpha(u)\text{\:\,} + \text{\:\,}O(\varepsilon h)\text{\:\,} + \text{\:\,}O(\text{slow-variation})$
 
 and
 
-$$R_{\text{collapse}}^{2}\text{\:\,} = \text{\:\,}O((\varepsilon h)^{2}).
-$$
+$R_{\text{collapse}}^{2}\text{\:\,} = \text{\:\,}O((\varepsilon h)^{2})$
 
 **Rule.** Choose bins/windows small enough that curvature is negligible; otherwise split the bin.
 
@@ -172,31 +165,31 @@ RTM is designed to **predict its own failure**:
 
 2.  **Curvature (non-power).** Example: a multiplexing-dependent overhead that grows nonlinearly with $L$. Residuals trend with $x$; collapse fails even after rebinning.
 
-3.  **Scale-dependent clocks.** Any "clock" factor $c(L)$ that depends on $L$ is not a gauge; it injects $du$-components into the 1-form and must be modeled explicitly (or the bin rejected).
+3.  **Scale-dependent clocks.** Any "clock" factor $c(L)$ that depends on $L$ is not a gauge; it injects $du$ ,components into the 1-form and must be modeled explicitly (or the bin rejected).
 
 **2.7 QC layer mapping (notation and exemplars)**
 
-We will use these **canonical** $(L,T)$ pairs in later sections (others may be added if they pass collapse):
+We will use these **canonical** $ (L,T)$ pairs in later sections (others may be added if they pass collapse):
 
 -   **Physical**:\
     $L =$ number of **active qubits** (or cluster/coupler degree);\
-    $T =$**stable calibration interval**, **gate** latency, **readout** latency, or **mean time to drift**.
+    $T =$ **stable calibration interval**, **gate** latency, **readout** latency, or **mean time to drift**.
 
 -   **QEC**:\
-    $L =$**code distance** $d$ (or logical-qubit count);\
-    $T =$**cycles to logical failure** at fixed target error.
+    $L =$ **code distance** $d$ (or logical-qubit count);\
+    $T =$ **cycles to logical failure** at fixed target error.
 
 -   **Compiler/Runtime**:\
-    $L =$**circuit width** or **post-mapping depth**;\
-    $T =$**makespan** or **queueing delay**.
+    $L =$ **circuit width** or **post-mapping depth**;\
+    $T =$ **makespan** or **queueing delay**.
 
 -   **I/O--Cryo**:\
-    $L =$**multiplexing degree** or readout-channel count;\
-    $T =$**effective readout latency** / **BER-recovery half-life** / **p95 queue length (in time)**.
+    $L =$ **multiplexing degree** or readout-channel count;\
+    $T =$ **effective readout latency** / **BER-recovery half-life** / **p95 queue length (in time)**.
 
 Each family produces a binwise $\hat{\alpha}\_f$. Only families that **pass collapse** and QA contribute to the fused indicator $ECI\_{\text{QC}}(t)$ (Section 6).
 
-**2.8 Why** $\mathbf{\alpha}$**matters operationally**
+**2.8 Why** $\mathbf{\alpha}$ **matters operationally**
 
 -   **Comparability**: $\alpha$ is invariant to unit changes and constant overheads, enabling **cross-lab** and **cross-generation** comparison.
 
@@ -212,14 +205,13 @@ RTM in QC reduces to three binwise statements: (i) **power-law** scaling $T = \k
 
 We recast RTM for quantum stacks in geometric form. The key object is the **RTM 1-form**
 
-$$\omega\text{\:\,} = \text{\:\,}d(\log T)\text{\:\,} - \text{\:\,}\alpha(x)\text{ }d(\log L),
-$$
+$\omega\text{\:\,} = \text{\:\,}d(\log T)\text{\:\,} - \text{\:\,}\alpha(x)\text{ }d(\log L),$
 
 defined on a bin $E$ with **environment** coordinates $x$ (temperature, firmware, topology, syndrome schedule, utilization band) and **scale** $u = \log L$. In this language, **collapse** is equivalent to **exactness/flatness** of $\omega$; regime seams and non-power curvature appear as **holonomy/curvature**. This section states the results and instantiates them with QC failure modes.
 
 **3.1 Spaces, bins, and the RTM 1-form**
 
--   **State space.** $M = X \times \mathbb{R}$ with coordinates $(x,u)$, where $u = \log L$.
+-   **State space.** $M = X \times \mathbb{R}$ with coordinates $ (x,u)$, where $u = \log L$.
 
 -   **Clock potential.** $v(x,u) = \log T(x,L)$.
 
@@ -233,11 +225,8 @@ v \mapsto v^{\#} = v + \phi(x).
 
 Then
 
-``` math
-$$
-\omega \mapsto \omega^{\#} = \omega + d\phi(x)
-$$
-```
+$\omega \mapsto \omega^{\#} = \omega + d\phi(x)$
+
 a **gauge transformation** by an exact 1-form pulled back from $X$. Hence $\alpha$ **is gauge-invariant**.
 
 **3.2 Collapse ⇔ exactness/flatness**
@@ -245,52 +234,48 @@ a **gauge transformation** by an exact 1-form pulled back from $X$. Hence $\alph
 **Theorem 3.1 (Collapse** $\Leftrightarrow$ **exactness).**\
 On a simply connected bin $E$, the following are equivalent:
 
-1.  (RTM chart) $v(x,u) = \alpha(x)\text{ }u + \log\kappa(x)$(or $v = \int\alpha(x,s)\text{ }ds + \log\kappa(x)$ for slow drift).
+1.  (RTM chart) $v(x,u) = \alpha(x)\text{ }u + \log\kappa(x)$ (or $v = \int\alpha(x,s)\text{ }ds + \log\kappa(x)$ for slow drift).
 
 2.  (**Collapse**) Residual $\widetilde{v}: = v - \alpha u$ is independent of $u$ in $E$.
 
-3.  (**Exactness**) $\omega = d\psi$ on $E$ for some $\psi(x)$(no $u$-dependence).
+3.  (**Exactness**) $\omega = d\psi$ on $E$ for some $\psi(x)$ (no $u$ dependence).
 
 **Corollary 3.2 (Flatness test).**\
-$d\omega = 0$ is necessary and (on simply connected $E$) sufficient for collapse. With $\alpha = \alpha(x,u)$,
+$d\omega=0$ is necessary and (on simply connected $E$) sufficient for collapse. With $\alpha = \alpha(x,u)$,
 
-$$d\omega\text{\:\,} = \text{\:\,} - \text{ }d\alpha \land du.
-$$
+$d\omega\text{\:\,} = \text{\:\,} - \text{ }d\alpha \land du.$
 
 Thus curvature (non-power behavior) or regime mixing gives $d\alpha/\text{ }du \neq 0$ and **breaks collapse**.
 
 **3.3 Holonomy and regime seams (QC failure modes)**
 
-Define **holonomy** around a closed loop $\gamma \subset E$: $\mathcal{H(}\gamma) = \oint_{\gamma}^{}{\omega.\ }$ If $\mathcal{H(}\gamma) \neq 0$, collapse cannot hold globally.
+Define **holonomy** around a closed loop $\gamma \subset E$ : $\mathcal{H(}\gamma) =\oint_{\gamma}^{}{\omega.\ }$ If $\mathcal{H(}\gamma) \neq 0$, collapse cannot hold globally.
 
 **QC instances.**
 
 -   **Scheduler seam.** Changing the syndrome-extraction cadence mid-bin (new FPGA image) produces a kink in $v(u)$; loops that cross the seam pick up nonzero holonomy → **rebin**.
 
--   **Readout chain swap.** A per-channel overhead that *depends on multiplexing* behaves like a scale-dependent clock $c(L)$; this is **not gauge** and injects $du$-components → collapse fails (and should).
+-   **Readout chain swap.** A per-channel overhead that *depends on multiplexing* behaves like a scale-dependent clock $c(L)$; this is **not gauge** and injects $du$ components → collapse fails (and should).
 
--   **Thermal drift window.** A slow utilization ramp changes $\alpha$ across $u$; if $\partial_{u}\alpha$ is not small on the window, $d\omega \neq 0$→ split the bin or shrink the window.
+-   **Thermal drift window.** A slow utilization ramp changes $\alpha$ across $u$; if $\partial_{u}\alpha$ is not small on the window, $d\omega \neq 0$ → split the bin or shrink the window.
 
-**3.4 Adiabatic collapse (slowly varying** $\mathbf{\alpha}$**)**
+**3.4 Adiabatic collapse (slowly varying** $\mathbf{\alpha}$ **)**
 
 If $\mid \partial_{u}\alpha \mid \leq \varepsilon$ on a window of width $h$,
 
-$$\widetilde{v}(x,u) = v - \alpha(u_{0},x)\text{ }u = \log\kappa(x) + O(\varepsilon h),
-$$
+$\widetilde{v}(x,u) = v - \alpha(u_{0},x)\text{ }u = \log\kappa(x) + O(\varepsilon h)$
 
 and the empirical collapse statistic obeys
 
-$$R_{\text{collapse}}^{2} = O\text{ }((\varepsilon h)^{2}).
-$$
+$R_{\text{collapse}}^{2} = O\text{ }((\varepsilon h)^{2})$
 
 **Practice.** Choose $h$ so that $\varepsilon h \ll 1$; otherwise, reduce the bin or model the drift explicitly.
 
 **3.5 Morphisms (reparametrizations) and gauge**
 
-Let $\Phi = (\varphi,\psi)$ map $(X_{A},L_{A},v_{A}) \rightarrow (X_{B},L_{B},v_{B})$, where $\varphi:X_{A} \rightarrow X_{B}$ reparametrizes environment and $\psi:X_{B} \rightarrow \mathbb{R}$ is a clock change. Then
+Let $\Phi = (\varphi,\psi)$ map $ (X_{A},L_{A},v_{A}) \rightarrow (X_{B},L_{B},v_{B})$, where $\varphi:X_{A} \rightarrow X_{B}$ reparametrizes environment and $\psi:X_{B} \rightarrow \mathbb{R}$ is a clock change. Then
 
-$$\Phi^{*}\omega_{B}\text{\:\,} = \text{\:\,}\omega_{A}\text{\:\,} + \text{\:\,}d(\psi \circ \varphi).
-$$
+$\Phi^{*}\omega_{B}\text{\:\,} = \text{\:\,}\omega_{A}\text{\:\,} + \text{\:\,}d(\psi \circ \varphi)$
 
 Interpretation: transporting the structure from $B$ to $A$ preserves **slope** and alters only the **clock** by an exact form. This formalizes cross-lab/device comparisons when units/baselines differ.
 
@@ -305,7 +290,7 @@ Interpretation: transporting the structure from $B$ to $A$ preserves **slope** a
 
 4.  **Window control.** Ensure $\mid \partial_{u}\alpha \mid \text{ }h$ is small (adiabatic regime).
 
-5.  **Publish/withhold.** Only bins passing 1--4 contribute to ${ECI}_{QC}$(t); otherwise label NO_COLLAPSE or REGIME_MIX.
+5.  **Publish/withhold.** Only bins passing 1--4 contribute to ${ECI}_{QC}$ (t); otherwise label NO_COLLAPSE or REGIME_MIX.
 
 **3.7 What this buys us operationally**
 
@@ -324,7 +309,7 @@ The scale--clock geometry makes two RTM statements precise for QC:
 2.  **Collapse equals exactness/flatness of** $\omega$, and its failure is informative (curvature or seams).\
     We will now leverage this to define **operational** $(L,T)$ (Sec. 4) and to estimate $\widehat{\alpha}$ robustly under measurement error (Sec. 5).
 
-**4. Operational** $\mathbf{(}\mathbf{L}\mathbf{,}\mathbf{T}\mathbf{)}$**Definitions and Binning Protocol**
+**4. Operational** $\mathbf{(}\mathbf{L}\mathbf{,}\mathbf{T}\mathbf{)}$ **Definitions and Binning Protocol**
 
 This section turns RTM into **measurable practice** for quantum stacks. We define layer-specific $(L,T)$ pairs, specify **sampling**, **units**, and **guards**, and give a binning protocol that avoids regime mixing. Throughout, $u = \log L$, $v = \log T$.
 
@@ -332,7 +317,7 @@ This section turns RTM into **measurable practice** for quantum stacks. We defin
 
 -   **One mechanism per family.** Each $(L,T)$ pair should reflect a single dominant mechanism (e.g., readout pipeline, not a mixture of readout + routing).
 
--   **Monotone** $L$**.** $L$ should increase with "problem size" at that layer (width, distance, channels, cluster size).
+-   **Monotone** $L$ **.** $L$ should increase with "problem size" at that layer (width, distance, channels, cluster size).
 
 -   **Clock independence.** Within a bin, **multiplicative** timebase changes ($T^{'} = cT$) are allowed gauges (unit/timebase rescalings). **Additive** overheads ($T_{\text{obs}} = T + b$) must be subtracted, modeled, or avoided (fit only where $T \gg b$); otherwise they may bias slopes and invalidate collapse.
 
@@ -340,15 +325,15 @@ This section turns RTM into **measurable practice** for quantum stacks. We defin
 
 **4.2 Physical layer**
 
-**Candidates for** $L$**:**
+**Candidates for** $L$ **:**
 
 -   $L =$ number of **active qubits** in the workload window;
 
--   $L =$**cluster size** (connected qubits participating simultaneously);
+-   $L =$ **cluster size** (connected qubits participating simultaneously);
 
--   $L =$**coupler degree** (average fanout).
+-   $L =$ **coupler degree** (average fanout).
 
-**Candidates for** $T$**:**
+**Candidates for** $T$ **:**
 
 -   **Stable calibration interval** (time until any qubit in the cluster exits tolerance);
 
@@ -370,8 +355,8 @@ This section turns RTM into **measurable practice** for quantum stacks. We defin
 
 **4.3 Error Correction (QEC)**
 
-$L$**:** code **distance** $d$ (primary), or number of **logical qubits** at fixed $d$.\
-$T$**:**
+$L$ **:** code **distance** $d$ (primary), or number of **logical qubits** at fixed $d$.\
+$T$ **:**
 
 -   **Cycles to logical failure** at a fixed target error (median or survival quantile);
 
@@ -389,8 +374,8 @@ $T$**:**
 
 **4.4 Compiler / Runtime**
 
-$L$**:** circuit **width** (max concurrent qubits) or **post-mapping depth**; optionally **active layers** after routing.\
-$T$**:**
+$L$ **:** circuit **width** (max concurrent qubits) or **post-mapping depth**; optionally **active layers** after routing.\
+$T$ **:**
 
 -   **Makespan** (submission → completion);
 
@@ -406,8 +391,8 @@ $T$**:**
 
 **4.5 I/O -- Cryo / Readout**
 
-$L$**:** **multiplexing degree** (channels per line) or number of concurrent readout channels.\
-$T$**:**
+$L$ **:** **multiplexing degree** (channels per line) or number of concurrent readout channels.\
+$T$ **:**
 
 -   **Readout latency** (median p50 and tail p95);
 
@@ -429,8 +414,7 @@ A **bin** is a maximal interval where the environment is effectively constant.
 
 **Bin key (example):**
 
-$$\text{BIN} = \{\text{platform},\text{ temperature band},\text{ firmware hash},\text{ topology ID},\text{ routing policy},\text{ syndrome cadence},\text{ utilization band}\}.
-$$
+$\text{BIN} = \{\text{platform},\text{ temperature band},\text{ firmware hash},\text{ topology ID},\text{ routing policy},\text{ syndrome cadence},\text{ utilization band}\}$
 
 **Procedure.**
 
@@ -446,8 +430,7 @@ $$
 
 Create a tidy table per bin with columns:
 
-$$x = log\ L,\ y = \log T,\text{ family},\text{ BIN tags},\text{ replicate ID},\text{ timestamp},\text{ weights }\rbrack.
-$$
+$x = log\ L,\ y = \log T,\text{ family},\text{ BIN tags},\text{ replicate ID},\text{ timestamp},\text{ weights }\rbrack$
 
 -   **Replicates.** If multiple runs at same $L$, aggregate to robust summaries (median $y$, MAD-based SE) or pass all and let ODR handle them with replicate weights.
 
@@ -491,7 +474,7 @@ Bins or families failing any gate are flagged (NO_COLLAPSE, REGIME_MIX, THIN_COV
 
 -   We defined a **binning protocol** that enforces environment constancy and guards against regime mixing.
 
--   We set **acceptance gates** (coverage, collapse, placebo, changepoints, EIV fit) that determine whether a family's slope enters downstream fusion (${ECI}_{QC}$(t)).
+-   We set **acceptance gates** (coverage, collapse, placebo, changepoints, EIV fit) that determine whether a family's slope enters downstream fusion (${ECI}_{QC}$ (t)).
 
 **5. Estimation Under Errors-in-Variables (EIV) and Collapse Thresholds**
 
@@ -501,8 +484,7 @@ We now specify **how** to estimate the binwise slope $\alpha$ robustly when both
 
 Inside a **fixed bin**, the target is the **local slope** $\alpha$ in
 
-$$y = \alpha x + c + r(x),
-$$
+$y = \alpha x + c + r(x)$
 
 with $r \equiv 0$ under exact RTM or $\mid r^{'}(x) \mid \leq \varepsilon$ under slow drift on a window. Because $x$ is noisy, **OLS is attenuated**; we use EIV-aware estimators.
 
@@ -532,19 +514,15 @@ with effective (possibly heterogeneous) $(\sigma_x, \sigma_y)$ from replicate va
 
 -   Jackknife leverage check: no single point contributes $> 25\%$ of slope influence.
 
-**5.3 SIMEX (when** $\mathbf{Var}\mathbf{(}\mathbf{\xi}\mathbf{)}$**is known/estimated)**
+**5.3 SIMEX (when** $\mathbf{Var}\mathbf{(}\mathbf{\xi}\mathbf{)}$ **is known/estimated)**
 
 If you can estimate $\sigma_{\xi}^{2} = Var(\xi)$ (e.g., repeated $L$ at the same setting), apply **SIMEX**:
 
-1. For $\lambda \in \Lambda = \{0.5, 1.0, 1.5, 2.0\}$, generate pseudo-samples
-``` math
-$$x_i^{(\lambda)} = x_i^{obs} + \sqrt{\lambda} {\tilde{\xi}}_i, \quad {\tilde{\xi}}_i \sim \mathcal{N}(0, \sigma_\xi^2).$$
-```
+1. For $\lambda \in \Lambda = \{0.5, 1.0, 1.5, 2.0\}$, generate pseudo-samples $x_i^{(\lambda)} = x_i^{obs} + \sqrt{\lambda} {\tilde{\xi}}_i, \quad {\tilde{\xi}}_i \sim \mathcal{N}(0, \sigma_\xi^2).$
 
+2.  Fit a naive slope $\widehat{\alpha}(\lambda)$ by ODR or OLS.
 
-3.  Fit a naive slope $\widehat{\alpha}(\lambda)$ by ODR or OLS.
-
-4.  Fit a quadratic $\widehat{\alpha}(\lambda) = a + b\lambda + c\lambda^{2}$ and **extrapolate to** $\lambda = - 1$:\
+3.  Fit a quadratic $\widehat{\alpha}(\lambda) = a + b\lambda + c\lambda^{2}$ and **extrapolate to** $\lambda = - 1$ :
     ${\widehat{\alpha}}_{\text{SIMEX}} = a - b + c$.
 
 **Use.** Prefer ODR as the base fitting routine; report SIMEX as a **sensitivity** estimate next to ODR. If $\sigma_{\xi}^{2}$ is uncertain, give a band (low/med/high) for ${\widehat{\alpha}}_{\text{SIMEX}}$.
@@ -553,8 +531,7 @@ $$x_i^{(\lambda)} = x_i^{obs} + \sqrt{\lambda} {\tilde{\xi}}_i, \quad {\tilde{\x
 
 The **Theil--Sen** slope is the median of all pairwise slopes
 
-$$\alpha_{ij} = \frac{y_{j}^{obs} - y_{i}^{obs}}{x_{j}^{obs} - x_{i}^{obs}}(i < j),
-$$
+$\alpha_{ij} = \frac{y_{j}^{obs} - y_{i}^{obs}}{x_{j}^{obs} - x_{i}^{obs}}(i < j)$
 
 with a robust intercept from the median of $y_{i}^{obs} - \widehat{\alpha}x_{i}^{obs}$.
 
@@ -570,8 +547,7 @@ with a robust intercept from the median of $y_{i}^{obs} - \widehat{\alpha}x_{i}^
 
 If slow drift is suspected, estimate slopes on **symmetric windows** in $x$ of width $h$. From the adiabatic bias bound,
 
-$$\widehat{\alpha}(u;h) = \alpha(u) + O(\varepsilon h),
-$$
+$\widehat{\alpha}(u;h) = \alpha(u) + O(\varepsilon h)$
 
 choose $h$ so that $\varepsilon h \ll 1$. Practically: start with $h \approx 0.8$ in $\log L$ span if coverage allows; shrink until collapse passes (Sec. 5.7) without exploding variance.
 
@@ -589,8 +565,7 @@ choose $h$ so that $\varepsilon h \ll 1$. Practically: start with $h \approx 0.8
 
 Given $\hat{\alpha}$, compute residuals $\tilde{y}_i = y_i^{obs} - \hat{\alpha}x_i^{obs} - \hat{c}$ and regress $\tilde{y}$ on $x$ (with the same weights used in estimation). Define
 
-$$R_{\text{collapse}}^{2}: = R^{2}(\widetilde{y} \sim x).
-$$
+$R_{\text{collapse}}^{2}: = R^{2}(\widetilde{y} \sim x)$
 
 **Decision rule (default):**
 
@@ -610,7 +585,7 @@ $$
 
 To avoid brittle fits:
 
--   **Distinct** $L$**points** $\geq 6$ and $\log L$ span $\geq 0.6$.
+-   **Distinct** $L$ **points** $\geq 6$ and $\log L$ span $\geq 0.6$.
 
 -   **Balanced leverage:** the largest leverage point contributes $\leq 25\%$ of the ODR slope influence.
 
@@ -636,7 +611,7 @@ Bins failing these gates are flagged THIN_COVERAGE or LEVERAGE_RISK.
 
 **5.10 What we publish per accepted family**
 
--   ${\widehat{\alpha}}_{f} \pm$`<!-- -->`{=html}50/95% CI (ODR); Theil--Sen as robustness; SIMEX band if applicable.
+-   ${\widehat{\alpha}}_{f} \pm$ `<!-- -->` {=html}50/95% CI (ODR); Theil--Sen as robustness; SIMEX band if applicable.
 
 -   Collapse diagnostics: $R_{\text{collapse}}^{2}$, placebo check, window width $h$.
 
@@ -654,15 +629,15 @@ Only accepted families enter **fusion** (Sec. 6). If $\geq 2$ families pass, we 
 
 -   Control **finite-window bias** by choosing $h$ small enough (adiabatic regime) and splitting bins when needed.
 
--   Publish complete **diagnostics** and **flags**; only clean families proceed to fusion and to the real-time ${ECI}_{QC}$(t).
+-   Publish complete **diagnostics** and **flags**; only clean families proceed to fusion and to the real-time ${ECI}_{QC}$ (t).
 
 **6. Building the Real-Time Indicator** $\mathbf{ECI}_{\mathbf{QC}}\mathbf{(}\mathbf{t}\mathbf{)}$
 
 We now construct a **single, real-time** coherence indicator for a platform by fusing the **accepted** family-wise slopes $\{{\widehat{\alpha}}_{f,t}\}$ from Section 5. The fusion is **random-effects** (to acknowledge between-family heterogeneity), runs on a rolling clock, and drives **QA gates** and **decoherence alerts**.
 
-**6.1 Inputs and preconditions (per time** $\mathbf{t}$**)**
+**6.1 Inputs and preconditions (per time** $\mathbf{t}$ **)**
 
-For each family $f \in \mathcal{F}_{t}$ (Physical, QEC, Compiler/Runtime, I/O--Cryo):
+For each family $f\in\mathcal{F}_{t}$ (Physical, QEC, Compiler/Runtime, I/O--Cryo):
 
 -   A binwise estimate $\hat{\alpha}\_{f,t}$ with variance $\hat{\sigma}\_{f,t}^2$ (bootstrap or replicate-weighted),
 
@@ -676,13 +651,11 @@ A fusion at time $t$ proceeds **only if** $\mid \mathcal{F}_{t} \mid \geq 2$.
 
 We estimate the between-family variance ${\widehat{\tau}}_{t}^{2}$ (default **REML**; DerSimonian--Laird as sensitivity). Define weights
 
-$$w_{f,t}\text{\:\,} = \text{\:\,}\frac{1}{{\widehat{\sigma}}_{f,t}^{2} + {\widehat{\tau}}_{t}^{2}}.
-$$
+$w_{f,t}\text{\:\,} = \text{\:\,}\frac{1}{{\widehat{\sigma}}_{f,t}^{2} + {\widehat{\tau}}_{t}^{2}}$
 
 Then the fused slope and its variance are
 
-$${\widehat{\alpha}}_{QC}(t) = \frac{\sum_{f \in \mathcal{F}_{t}}^{}{w_{f,t}\text{ }{\widehat{\alpha}}_{f,t}}}{\sum_{f \in \mathcal{F}_{t}}^{}w_{f,t}},\ \ Var({\widehat{\alpha}}_{QC}(t)) = \frac{1}{\sum_{f \in \mathcal{F}_{t}}^{}w_{f,t}}.
-$$
+${\widehat{\alpha}}_{QC}(t) = \frac{\sum_{f \in \mathcal{F}_{t}}^{}{w_{f,t}\text{ }{\widehat{\alpha}}_{f,t}}}{\sum_{f \in \mathcal{F}_{t}}^{}w_{f,t}},\ \ Var({\widehat{\alpha}}_{QC}(t)) = \frac{1}{\sum_{f \in \mathcal{F}_{t}}^{}w_{f,t}}$
 
 Report 50% and 95% intervals via normal approximation or by a **bootstrap-over-families** (resample families with replacement, recompute ${\widehat{\tau}}_{t}^{2}$ and the fused mean).
 
@@ -690,13 +663,11 @@ Report 50% and 95% intervals via normal approximation or by a **bootstrap-over-f
 
 Compute the fixed-effect baseline
 
-$$w_{f,t}^{FE} = \frac{1}{{\widehat{\sigma}}_{f,t}^{2}},\ \ {\widehat{\alpha}}_{FE}(t) = \frac{\sum_{f}^{}{w_{f,t}^{FE}\text{ }{\widehat{\alpha}}_{f,t}}}{\sum_{f}^{}w_{f,t}^{FE}}.
-$$
+$w_{f,t}^{FE} = \frac{1}{{\widehat{\sigma}}_{f,t}^{2}},\ \ {\widehat{\alpha}}_{FE}(t) = \frac{\sum_{f}^{}{w_{f,t}^{FE}\text{ }{\widehat{\alpha}}_{f,t}}}{\sum_{f}^{}w_{f,t}^{FE}}$
 
-**Cochran's** $Q$ **and** $I^{2}$**:**
+**Cochran's** $Q$ **and** $I^{2}$ **:**
 
-$$Q_{t} = \sum_{f}^{}{w_{f,t}^{FE}\text{ }({\widehat{\alpha}}_{f,t} - {\widehat{\alpha}}_{FE}(t))^{2},\ \ I_{t}^{2} = \max}\{ 0,\text{\:\,}\frac{Q_{t} - ( \mid \mathcal{F}_{t} \mid - 1)}{Q_{t}}\} \times 100\%.
-$$
+$Q_{t} = \sum_{f}^{}{w_{f,t}^{FE}\text{ }({\widehat{\alpha}}_{f,t} - {\widehat{\alpha}}_{FE}(t))^{2},\ \ I_{t}^{2} = \max}\{ 0,\text{\:\,}\frac{Q_{t} - ( \mid \mathcal{F}_{t} \mid - 1)}{Q_{t}}\} \times 100\%$
 
 **Fusion gates (pre-registered):**
 
@@ -705,7 +676,7 @@ $$
 (ii) $I\_t^2 < 50\%$ (*moderate or lower heterogeneity*), and  
 (iii) REML converges with finite $\hat{\tau}\_t^2$ not exceeding a historical cap (e.g., $\leq$ 90th percentile over past clean windows).  
 
--   If any fails, **withhold fusion** and publish family-wise ${\widehat{\alpha}}_{f,t}$+ diagnostics; flag FAMILY_DIVERGENCE.
+-   If any fails, **withhold fusion** and publish family-wise ${\widehat{\alpha}}_{f,t}$ + diagnostics; flag FAMILY_DIVERGENCE.
 
 **6.4 Real-time operation (rolling windows)**
 
@@ -775,7 +746,7 @@ This ensures **reproducibility** and enables post-mortems when alerts fire.
 
 $ECI\_{\text{QC}}(t)$ is a **random-effects fusion** of QA-clean, binwise slopes. Heterogeneity gates ($I\_t^2 < 50\%$, $|\mathcal{F}\_t| \geq 2$) prevent misleading single numbers when proxies disagree. Real-time smoothing and Z-scores turn slope dynamics into **actionable alerts** for **decoherence events**, while dashboards and provenance keep the system auditable.
 
-**7. RTM-Aware Design: Engineering** $\mathbf{\alpha}$**without Sacrificing Throughput**
+**7. RTM-Aware Design: Engineering** $\mathbf{\alpha}$ **without Sacrificing Throughput**
 
 This section turns RTM into **design levers**. Goal: increase the **coherence exponent** $\alpha$ (stronger tempo stratification across scale) while keeping or improving throughput. We give layer-specific controls, optimization targets, and guardrails.
 
@@ -784,7 +755,7 @@ This section turns RTM into **design levers**. Goal: increase the **coherence ex
 We treat $\alpha$ as an **operational objective** within a bin:\
 $$\max_{\text{\:\,controls }\theta}\ \ \ \alpha(\theta)\ \ \ s.t.\ \ \ \ throughput\  \geq \ B,\ \ fidelity\  \geq \ F,\ \ \ \ \ collapse\ passes.$$
 
--   **Controls** $\theta$: scheduler parameters, QEC cadence/jitter, routing constraints, multiplexing limits, module sizes.
+-   **Controls** $\theta$ : scheduler parameters, QEC cadence/jitter, routing constraints, multiplexing limits, module sizes.
 
 -   **Constraints**: a throughput floor $\mathcal{B}$ (e.g., jobs/hour), fidelity floor $\mathcal{F}$, and **collapse gates** (Sec. 5.7).
 
@@ -802,10 +773,9 @@ $$\max_{\text{\:\,controls }\theta}\ \ \ \alpha(\theta)\ \ \ s.t.\ \ \ \ through
 
 3.  **Low-variance routing.** Prefer routes with **low path-time variance** even if path length increases slightly.
 
-**Objective.** For a job DAG with ops $o$ having nominal durations $\tau_{o}$ and routes $p(o)$:
+**Objective.** For a job DAG with ops $o$ having nominal durations $\tau_{o}$ and routes $p(o)$ :
 
-$$\underset{\text{\:\,schedule},\text{ }p( \cdot )}{\min}\text{\:\,}\underset{\text{desynchronize heavy ops}}{\underbrace{{Var}_{t}\lbrack N_{\text{long}}(t)\rbrack}}\text{\:\,} + \text{\:\,}\lambda\text{\:\,}\underset{\text{low-variance routing}}{\underbrace{\sum_{o \in \mathcal{O}}^{}{Var(T_{\text{route}}(p(o)))}}}.
-$$
+$\underset{\text{\:\,schedule},\text{ }p( \cdot )}{\min}\text{\:\,}\underset{\text{desynchronize heavy ops}}{\underbrace{{Var}_{t}\lbrack N_{\text{long}}(t)\rbrack}}\text{\:\,} + \text{\:\,}\lambda\text{\:\,}\underset{\text{low-variance routing}}{\underbrace{\sum_{o \in \mathcal{O}}^{}{Var(T_{\text{route}}(p(o)))}}}$
 
 subject to makespan budget. This reduces temporal "pile-ups," lifting $\alpha$.
 
@@ -841,17 +811,15 @@ Two architectural motifs to **steer flows**:
 
 Let total qubits $Q$ be partitioned into $Q/m$ modules of size $m$. Approximate **characteristic time**:
 
-$$T(m)\text{\:\,} = \text{\:\,}A\text{ }m^{a}\text{\:\,} + \text{\:\,}B\text{ }(\frac{Q}{m})^{b}\text{     }\text{(intra-module cost + interconnect cost)}.
-$$
+$T(m)\text{\:\,} = \text{\:\,}A\text{ }m^{a}\text{\:\,} + \text{\:\,}B\text{ }(\frac{Q}{m})^{b}\text{     }\text{(intra-module cost + interconnect cost)}$
 
 **Optimal module size** (minimizes $T$):
 
-$$m^{\star}\text{\:\,} = \text{\:\,}{(\frac{B\text{ }b}{A\text{ }a})}^{\frac{1}{a + b}}\text{\:\,}Q^{\frac{b}{a + b}}.\ 
-$$
+$m^{\star}\text{\:\,} = \text{\:\,}{(\frac{B\text{ }b}{A\text{ }a})}^{\frac{1}{a + b}}\text{\:\,}Q^{\frac{b}{a + b}}$
 
--   $a > 0$: intra-module scaling (e.g., calibration, routing within module).
+-   $a>0$ : intra-module scaling (e.g., calibration, routing within module).
 
--   $b > 0$: inter-module scaling (e.g., photonic/ion link latency).
+-   $b>0$ : inter-module scaling (e.g., photonic/ion link latency).
 
 **Design use.** Measure $a,b$ empirically (RTM per mechanism), estimate $A,B$, compute $m^{\star}$. Operate near $m^{\star}$ and verify that $\widehat{\alpha}$ **does not collapse** (still power-like) in that neighborhood.
 
@@ -893,7 +861,7 @@ relax A minimally (keep collapse passing)
 
 log QA: collapse R\^2, I\^2_t, flags; revert actions if flags trip
 
--   $\alpha_{\text{floor}}$: pre-registered minimal acceptable fused slope.
+-   $\alpha_{\text{floor}}$ : pre-registered minimal acceptable fused slope.
 
 -   **Revert** any action that causes NO_COLLAPSE or $I_{t}^{2} \geq 50\%$.
 
@@ -907,11 +875,11 @@ log QA: collapse R\^2, I\^2_t, flags; revert actions if flags trip
 
 **7.9 Quick-start playbooks**
 
--   **If** $\alpha_{QEC} \downarrow$**:** add 1--3% cadence jitter; introduce 2--3 phase groups for syndrome; re-measure collapse.
+-   **If** $\alpha_{QEC} \downarrow$ **:** add 1--3% cadence jitter; introduce 2--3 phase groups for syndrome; re-measure collapse.
 
--   **If** $\alpha_{IO} \downarrow$**:** reduce multiplex cap 10--20%; add 1--2 cycle offsets; keep $p95/p50 \leq 1.6$.
+-   **If** $\alpha_{IO} \downarrow$ **:** reduce multiplex cap 10--20%; add 1--2 cycle offsets; keep $p95/p50 \leq 1.6$.
 
--   **If** $\alpha_{runtime} \downarrow$**:** enable readout batching; penalize high-variance routes; cap concurrent long ops per wave.
+-   **If** $\alpha_{runtime} \downarrow$ **:** enable readout batching; penalize high-variance routes; cap concurrent long ops per wave.
 
 -   **Architectural planning:** estimate $a,b,A,B$ and set module size near $m^{\star}$; confirm power-like scaling around that point.
 
@@ -963,9 +931,9 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 **Design.**
 
--   $L$: active-qubit **cluster size** (simultaneously engaged).
+-   $L$ : active-qubit **cluster size** (simultaneously engaged).
 
--   $T$: **stable calibration interval** (time to first out-of-tolerance flag in cluster).
+-   $T$ : **stable calibration interval** (time to first out-of-tolerance flag in cluster).
 
 -   Arms: **Control** (baseline scheduler) vs. **RTM-aware** (readout batching + staggered resets, ±2--4% offsets).
 
@@ -993,9 +961,9 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 **Design.**
 
--   $L$: **code distance** $d$ (e.g., $d \in \{ 3,5,7,9\}$).
+-   $L$ : **code distance** $d$ (e.g., $d \in \{ 3,5,7,9\}$).
 
--   $T$: **cycles to logical failure** (median or survival quantile at fixed target error).
+-   $T$ : **cycles to logical failure** (median or survival quantile at fixed target error).
 
 -   Arms: Control (fixed period $P$) vs. Jitter ($P_{k} = P(1 + \eta_{k})$, $\eta_{k} \sim \mathcal{U}\lbrack - 0.02,0.02\rbrack$) and/or 2--3 **phase groups**.
 
@@ -1021,9 +989,9 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 **Design.**
 
--   $L$: **post-mapping circuit width** (or active layers).
+-   $L$ : **post-mapping circuit width** (or active layers).
 
--   $T$: **makespan** (submit→complete).
+-   $T$ : **makespan** (submit→complete).
 
 -   Arms: Baseline policy vs. RTM-aware (waves + variance-penalized routing).
 
@@ -1037,7 +1005,7 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 **Success criteria.**
 
--   $\Delta{\widehat{\alpha}}_{\text{runtime}} \geq 0.10$(CI excludes 0) and p95/p50 improves ≥10%.
+-   $\Delta{\widehat{\alpha}}_{\text{runtime}} \geq 0.10$ (CI excludes 0) and p95/p50 improves ≥10%.
 
 **8.5 Protocol D --- I/O--Cryo multiplexing**
 
@@ -1045,9 +1013,9 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 **Design.**
 
--   $L$: **multiplexing degree** (channels/line).
+-   $L$ : **multiplexing degree** (channels/line).
 
--   $T$: **readout latency p95** (and p50).
+-   $T$ : **readout latency p95** (and p50).
 
 -   Arms: Synchronous windows vs. offset windows (phase pattern $\phi_{j}$).
 
@@ -1059,7 +1027,7 @@ Bootstrap CIs (pairs/cluster). Predefine **minimal detectable effect** (MDE) on 
 
 **8.6 Protocol E --- Modular sizing (planning study)**
 
-**Hypothesis (H3-Mod).** There exists a module size $m^{\star}$ that minimizes $T(m) = Am^{a} + B(Q/m)^{b}$ with empirically measured $a,b > 0$, and operating near $m^{\star}$ preserves power-like scaling (collapse holds).
+**Hypothesis (H3-Mod).** There exists a module size $m^{\star}$ that minimizes $T(m) = Am^{a} + B(Q/m)^{b}$ with empirically measured $a,b>0$, and operating near $m^{\star}$ preserves power-like scaling (collapse holds).
 
 **Design.**
 
@@ -1090,7 +1058,7 @@ Across A--D, if ≥2 families pass gates at overlapping times, compute ${\wideha
 
 **8.9 Power and duration (rules of thumb)**
 
--   With span ≥0.8 in $\log L$, 8--12 distinct $L$ points, and moderate noise (SNR≈5--10), ODR detects $\Delta\alpha \approx 0.10$--0.15 at 95% with ≈200--400 total observations per arm.
+-   With span ≥0.8 in $\log L$, 8--12 distinct $L$ points, and moderate noise (SNR≈5--10), ODR detects $\Delta\alpha \approx 0.10$ --0.15 at 95% with ≈200--400 total observations per arm.
 
 -   If noise is higher or drift suspected, shrink windows (Sec. 5.5) and extend duration.
 
@@ -1126,7 +1094,7 @@ Four small multiples per family $f$ within a bin:
 
 1.  **Log--log fit:** $y = \log T$ vs. $x = \log L$ with ODR line and 95% band.
 
-2.  **Residual vs.** $x$**:** $\widetilde{y} = y - \widehat{\alpha}x - \widehat{c}$ with LOESS; show $R_{\text{collapse}}^{2}$.
+2.  **Residual vs.** $x$ **:** $\widetilde{y} = y - \widehat{\alpha}x - \widehat{c}$ with LOESS; show $R_{\text{collapse}}^{2}$.
 
 3.  **Coverage/leverage:** scatter highlighting leverage points; annotate span in $\log L$, \# distinct $L$.
 
@@ -1135,7 +1103,7 @@ Four small multiples per family $f$ within a bin:
 **Fig. 2 --- Forest plot & heterogeneity.**\
 Per time slice (or per experiment arm), show $\hat{\alpha}\_f \pm \text{CI}$, weights $w\_f$, the fused $\hat{\alpha}\_{\text{QC}}$ (diamond), and heterogeneity stats: $Q, I^2, \hat{\tau}^2$.
 
-**Fig. 3 ---**$\mathbf{ECI}_{QC}$**(t) time series.**\
+**Fig. 3 ---**$\mathbf{ECI}_{QC}$ **(t) time series.**\
 Rolling fused slope with 50/95% bands; background ribbon colored by $I^{2}$ (green \<25%, amber 25--50%, red ≥50%). Mark **decoherence events** (advisory/watch/warning) and platform events (recalibrations, firmware changes).
 
 **Fig. 4 --- KPI panel (paired with Fig. 3).**\
@@ -1186,7 +1154,7 @@ PSD of error processes showing how cadence jitter/multi-phase moves line spectra
 
 -   **Estimators:** ODR (primary), Theil--Sen, SIMEX (± bands for $\sigma_{\xi}^{2}$).
 
--   **Windows:** repeat with $h$± 25%; $\widehat{\alpha}$ stable and collapse still passing.
+-   **Windows:** repeat with $h$ ± 25%; $\widehat{\alpha}$ stable and collapse still passing.
 
 -   **Placebos:** clock rescaling; **Shuffles:** permute $L$ within-day---slope → \~0.
 
@@ -1207,13 +1175,13 @@ Publish bins/arms that **failed**:
 
 -   BIN keys listed and unchanged.
 
--   \# distinct $L$≥ 6 and span ≥ 0.6.
+-   \# distinct $L$ ≥ 6 and span ≥ 0.6.
 
 -   ODR converged; Theil--Sen reported; SIMEX (if $\sigma_{\xi}^{2}$ known).
 
 -   Collapse: $R^{2} < 0.05$; placebo OK; no changepoints.
 
--   Fusion: $\mid \mathcal{F}_{t} \mid \geq 2$; $I^{2} < 50\%$; REML converged.
+-   Fusion: $\mid \mathcal{F}_{t} \mid \geq 2$; $ I^{2} < 50\%$; REML converged.
 
 -   KPIs: throughput, makespan p95/p50, logical error, uptime---guardrails applied.
 
@@ -1270,7 +1238,7 @@ RTM's **collapse** gate turns failures into diagnostics:
 
 -   REGIME_MIX**:** kinks → hidden seams (firmware/scheduler swaps); rebin or split.
 
--   **High** $I^{2}$**:** proxies disagree → do **not** fuse; inspect per-family controls.
+-   **High** $I^{2}$ **:** proxies disagree → do **not** fuse; inspect per-family controls.
 
 Publishing these cases maps **scope boundaries** (where RTM does *not* apply), which is scientifically useful and prevents overreach.
 
@@ -1379,7 +1347,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 -   **Windows:** ±25% $h$ sensitivity; $\widehat{\alpha}$ stability required.
 
--   **Placebos & shuffles:** clock rescaling invariance; $L$-shuffles yield near-zero slopes.
+-   **Placebos & shuffles:** clock rescaling invariance; $L$ ,shuffles yield near zero slopes.
 
 -   **Leave-one-family-out** fusion; **fixed-effect** vs **random-effects** comparison.
 
@@ -1391,7 +1359,7 @@ RTM-QC adds a **third axis**---the **geometry of tempo**---to fidelity and scale
 
 **13. Conclusion & Outlook**
 
-We presented **RTM-aware quantum computing (RTM-QC)**: a **slope-first** framework that measures and **engineers** the geometry of time across scale. Inside stable bins, the characteristic time $T$ scales with a size proxy $L$ as $T \propto L^{\alpha}$; the **coherence exponent** $\alpha$ is invariant to clocks and thus comparable across devices, stacks, and labs. With **collapse** as a falsifiable gate and **errors-in-variables** estimation, $\alpha$ becomes a reliable operational signal. Fusing clean, layer-wise slopes yields a real-time $\mathbf{ECI}_{QC}$**(t)** that supports **early warnings** (decoherence events) and **design decisions** (scheduler, QEC cadence, modular sizing, I/O offsets).
+We presented **RTM-aware quantum computing (RTM-QC)**: a **slope-first** framework that measures and **engineers** the geometry of time across scale. Inside stable bins, the characteristic time $T$ scales with a size proxy $L$ as $T \propto L^{\alpha}$; the **coherence exponent** $\alpha$ is invariant to clocks and thus comparable across devices, stacks, and labs. With **collapse** as a falsifiable gate and **errors-in-variables** estimation, $\alpha$ becomes a reliable operational signal. Fusing clean, layer-wise slopes yields a real-time $\mathbf{ECI}_{QC}$ **(t)** that supports **early warnings** (decoherence events) and **design decisions** (scheduler, QEC cadence, modular sizing, I/O offsets).
 
 **What this adds.** RTM-QC complements fidelity/QEC by introducing a third axis---**tempo geometry**---that explains and controls tails, queues, and synchronization cascades. Modest, reversible controls (batching, staggered resets, micro-jitter, low-variance routing) can **raise** $\alpha$ without degrading throughput or fidelity when used with guardrails.
 
@@ -1409,7 +1377,7 @@ We presented **RTM-aware quantum computing (RTM-QC)**: a **slope-first** framewo
 
 **Longer-term questions.** Incorporate $\alpha$ into **time-changed diffusion models** of queues; develop **holonomy tests** to distinguish curvature from seams; extend to **modular networks** and **neutral-atom** platforms; integrate learning-based controllers that respect collapse gates.
 
-**Bottom line.** RTM-QC gives quantum teams a **unit-robust, falsifiable lever** over multiscale timing. Measure the slope, **validate by collapse**, fuse when families agree, and **engineer** $\alpha$---not as a slogan, but as a reproducible practice to deliver more stable and efficient quantum computation.
+**Bottom line.** RTM-QC gives quantum teams a **unit-robust, falsifiable lever** over multiscale timing. Measure the slope, **validate by collapse**, fuse when families agree, and **engineer** $\alpha$ ,not as a slogan, but as a reproducible practice to deliver more stable and efficient quantum computation.
 
 **Appendices**
 
@@ -1417,10 +1385,9 @@ We presented **RTM-aware quantum computing (RTM-QC)**: a **slope-first** framewo
 
 **A.1 Semigroup → power law**
 
-Assume binwise scale semigroup $T(bL) = f(b)T(L)$, $f(1) = 1$, and measurability near $b = 1$. Then $f(b) = b^{\alpha}$ and
+Assume binwise scale semigroup $T(bL) = f(b)T(L)$, $f(1) = 1$, and measurability near $b=1$. Then $f(b) = b^{\alpha}$ and
 
-$$T(L) = \kappa L^{\alpha},v(u) = \log T = \alpha u + \log\kappa,u = \log L.
-$$
+$T(L) = \kappa L^{\alpha},v(u) = \log T = \alpha u + \log\kappa,u = \log L$
 
 $\alpha$ is **gauge-invariant**; $\kappa$ is a **clock**.
 
@@ -1428,17 +1395,15 @@ $\alpha$ is **gauge-invariant**; $\kappa$ is a **clock**.
 
 Define the RTM 1-form $\omega = dv - \alpha\text{ }du$. **Collapse** (residual independence of $v - \alpha u$ from $u$) is equivalent to **exactness** of $\omega$ on a simply connected bin:
 
-$$\omega = d\psi(x),d\omega = 0,\psi\text{ independent of }u.
-$$
+$\omega = d\psi(x),d\omega = 0,\psi\text{ independent of }u$
 
 If $\alpha = \alpha(x,u)$, then $d\omega = - d\alpha \land du$; nonzero curvature breaks collapse.
 
 **A.3 Variable exponents (finite-window bias)**
 
-For slowly varying $\alpha(u)$:
+For slowly varying $\alpha(u)$ :
 
-$$v(u) = \int_{u_{0}}^{u}{\alpha(s)\text{ }ds + \log\kappa(u),\widehat{\alpha}(u;h) = \alpha(u) + O(\varepsilon h),}
-$$
+$v(u) = \int_{u_{0}}^{u}{\alpha(s)\text{ }ds + \log\kappa(u),\widehat{\alpha}(u;h) = \alpha(u) + O(\varepsilon h)$
 
 and $R_{\text{collapse}}^{2} = O((\varepsilon h)^{2})$ for window width $h$.
 
@@ -1448,8 +1413,7 @@ and $R_{\text{collapse}}^{2} = O((\varepsilon h)^{2})$ for window width $h$.
 
 Minimize orthogonal residuals:
 
-$$\underset{\alpha,c}{\min}\sum_{i}^{}\frac{(y_{i} - \alpha x_{i} - c)^{2}}{\sigma_{y,i}^{2} + \alpha^{2}\sigma_{x,i}^{2}}.
-$$
+$\underset{\alpha,c}{\min}\sum_{i}^{}\frac{(y_{i} - \alpha x_{i} - c)^{2}}{\sigma_{y,i}^{2} + \alpha^{2}\sigma_{x,i}^{2}}$
 
 **Init:** Theil--Sen; **CIs:** bootstrap pairs/cluster; **checks:** condition number \< $10^{4}$; max leverage \< 25%.
 
@@ -1549,19 +1513,19 @@ eci_rt:
 
 **Appendix E --- Notation Glossary**
 
--   $L$: scale proxy (layer-specific); $u = \log L$.
+-   $L$ : scale proxy (layer-specific); $u = \log L$.
 
--   $T$: characteristic time; $v = \log T$.
+-   $T$ : characteristic time; $v = \log T$.
 
--   $\alpha$: **coherence exponent** (slope; clock-invariant).
+-   $\alpha$ : **coherence exponent** (slope; clock-invariant).
 
 -   **Bin**: environment slice with fixed {platform, temperature band, firmware hash, topology ID, routing policy, syndrome cadence, utilization band}.
 
 -   **Collapse**: $R^{2}(\widetilde{y} \sim x) < 0.05$ for $\widetilde{y} = y - \widehat{\alpha}x$; residuals show no trend vs $x$.
 
--   $\mathbf{ECI}_{QC}(t)$: fused slope via random-effects at time $t$.
+-   $\mathbf{ECI}_{QC}(t)$ : fused slope via random-effects at time $t$.
 
--   $Q,I^{2},\tau^{2}$: heterogeneity statistics for fusion.
+-   $Q,I^{2},\tau^{2}$ : heterogeneity statistics for fusion.
 
 -   ODR/TLS, Theil--Sen, SIMEX: slope estimators under EIV.
 
@@ -1573,7 +1537,7 @@ eci_rt:
 
     -   Fit ODR; compute residuals $\widetilde{y}$.
 
-    -   Plot $y$ vs $x$+ ODR band; residual vs $x$ with LOESS.
+    -   Plot $y$ vs $x$ + ODR band; residual vs $x$ with LOESS.
 
     -   Annotate $R^2\_{\text{collapse}}$, #L, span, leverage.
 
@@ -1583,7 +1547,7 @@ eci_rt:
 
     -   Overlay fused ${\widehat{\alpha}}_{QC}$.
 
--   $\mathbf{ECI}_{QC}(t)$:
+-   $\mathbf{ECI}_{QC}(t)$ :
 
     -   Rolling fusion; show 50/95% bands; background colored by $I^{2}$ tiers; mark alert tiers.
 
@@ -1609,8 +1573,64 @@ Once the continuous improvement of superconducting materials is algebraically no
 
 -   **Technological Gain Factor:** The model precisely extracts the engineering progression, showing that IBM hardware coherence improves by a factor of $\mathbf{\gamma}\mathbf{= \  + 0.139}$ **dex/year**.
 
--   **True Topological Exponent:** After subtracting $\gamma$, the isolated physical scaling reveals a robust, strictly negative exponent of $\mathbf{\alpha}\mathbf{= \  - 0.259\ }\mathbf{\pm}\mathbf{0.049}$.
+- **True Topological Exponent:** After subtracting $`\gamma`$, the isolated physical scaling reveals a negative exponent of $`\mathbf{\alpha = -0.259 \pm 0.049}`$, bootstrap CI [ $`-0.382, -0.038`$ ]. The CI excludes zero, confirming the Inverse Transport classification is not an artifact of noise injection.
 
-**Conclusion:** Macroscopic quantum decoherence resides securely inside the **Inverse Transport Class** ($\alpha < \ 0$). RTM empirically validates that decoherence in large processor arrays is not a localized, per-qubit phenomenon, but a massive collective topological leakage: structural coherence naturally and predictably degrades as the geometric network size increases.
+**Conclusion:** The Multivariable ODR model demonstrates that the raw positive scaling ($`\alpha \approx +0.23`$) is a **Simpson's Paradox** produced by confounding of time with scale. After removing the year confounder ($`\gamma = +0.139`$ dex/year), the true physical scaling is negative, decoherence worsens non-linearly with system size at a fixed technology generation. This finding is classified as **NOVEL** by the Red Team (April 2026): the confounder-reversal is not visible without multivariable decomposition, and it carries a direct engineering implication, monolithic scaling of superconducting qubits without architectural innovations that suppress collective decoherence will produce diminishing returns in coherence time per qubit.
+
+### APPENDIX H — Red Team Audit: Verification and Certification (April 2026)
+
+The empirical claims in this document were subjected to independent adversarial audit by the RTM Red Team using **Claude Opus 4.6 with Extended Thinking** in April 2026. This document received the **highest score in the entire RTM corpus (82%)**. The following verification record is provided for transparency.
+
+**H.1 What Was Tested**
+
+| Claim | Test | Result |
+|-------|------|--------|
+| Raw α = +0.23 (naive, uncorrected) | OLS regression, 31 processors | **Confirmed** ✓ |
+| Year confounder γ = +0.139 dex/year | Multivariable ODR | **Confirmed** ✓ |
+| Corrected α = −0.259 ± 0.049 | ODR after year normalization | **Confirmed** ✓ |
+| Bootstrap CI [−0.382, −0.038] excludes 0 | Bootstrap 3,000 iterations | **Confirmed — CI excludes zero** ✓ |
+| 15% cryogenic noise injection | Conservative error margin | **Survives noise injection** ✓ |
+| Simpson's Paradox identification | Raw vs. corrected direction reversal | **Confirmed — direction reverses completely** ✓ |
+| Inverse Transport Class placement (α < 0) | Classification check | **Confirmed** ✓ |
+
+**H.2 Classification Verdict**
+
+| Finding | Classification | Rationale |
+|---------|---------------|-----------|
+| Simpson's Paradox identification (α: +0.23 → −0.259) | **NOVEL** | Direction reversal not visible without multivariable decomposition; not reported in IBM quantum literature |
+| Inverse Transport Class (α < 0) | **NOVEL** | RTM-native classification; no prior topological framing of quantum decoherence scaling |
+| Year confounder γ = +0.139 dex/year | **CONVERGENT** | Consistent with known IBM hardware roadmap improvements |
+| Architectural implication (monolithic scaling fails) | **CONSISTENT** | Consistent with known quantum error correction literature (Preskill 2018) |
+
+**H.3 Why This Is the Strongest Finding in the Corpus**
+
+The Red Team identified three properties that make this finding exceptional:
+
+1. **The reversal is complete and large.** The sign of α flips from +0.23 to −0.259 — not a small shift, but a complete reversal. This means the naive conclusion ("larger processors are better") is not just quantitatively wrong, it is directionally wrong.
+
+2. **The confounder is physically meaningful.** The year confounder (γ = +0.139 dex/year) captures genuine engineering progress. Removing it correctly isolates the physics. This is a methodologically sound decomposition, not an ad-hoc correction.
+
+3. **The engineering implication is direct and actionable.** If monolithic scaling worsens decoherence at fixed technology generation, then the path to large-scale quantum computing requires architectural innovation (error correction, modular design, topological qubits), not simply adding more qubits to a monolithic chip. This prediction is falsifiable by the experimental protocols in Sections 3-9.
+
+**H.4 Tone Corrections Applied**
+
+| Original phrase | Corrected to |
+|-----------------|-------------|
+| "unequivocally in the Inverse Transport Class" | "in the Inverse Transport Class" |
+| "definitively proves that the raw positive scaling is a statistical mirage" | "demonstrates that the raw positive scaling is a Simpson's Paradox" |
+| "strictly negative exponent" | "negative exponent" |
+| "proves that as quantum system size increases, topological noise scales collectively" | "is consistent with topological noise scaling collectively" |
+| "This empirical result proves that" | "This empirical result demonstrates that" |
+
+**H.5 Note on Experimental Protocols (Sections 3-9)**
+
+The experimental protocols constitute the majority of the document and are correctly framed as **engineering prescriptions** derived from the RTM-QC framework, not as empirical validations. The Red Team confirms this framing is appropriate. The protocols are internally consistent with the Inverse Transport finding and generate specific, falsifiable predictions ($`\Delta\hat{\alpha}_{runtime} \geq 0.10`$, CI excludes 0) that can be tested on real quantum hardware.
+
+**H.6 Red Team Verdict**
+
+The Simpson's Paradox identification ($`\alpha: +0.23 \rightarrow -0.259`$, bootstrap CI [−0.382, −0.038]) is the most methodologically rigorous novel finding in the entire corpus. The confounder-aware multivariable ODR correctly separates physics from engineering, the reversal is statistically confirmed, and the engineering implication is direct and actionable.
+
+The finding is novel in the strict sense: it reveals structure in the IBM quantum hardware dataset that is not visible without RTM's confounder-decomposition approach, and generates predictions that existing quantum benchmarking frameworks do not make. No flanking campaign was required, the finding stands on its own merit.
+
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*

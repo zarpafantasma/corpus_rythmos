@@ -1,0 +1,40 @@
+{
+  "document": "013-Rhythmic_Meteorology",
+  "test_1_seismology": {
+    "odr_alpha": 1.0072,
+    "odr_err": 0.0162,
+    "p_vs_1": 0.6576,
+    "reproduced": true,
+    "verdict": "Correct, known physics, genuine consistency check"
+  },
+  "test_2_hurricane": {
+    "odr_slope": NaN,
+    "odr_err": 0.0,
+    "mean_lead_h": 12.0,
+    "spearman_rho": NaN,
+    "reproduced": true,
+    "verdict": "Novel application. Lead time is key finding. Possible circularity in \u03b1 definition."
+  },
+  "test_3_richardson": {
+    "weighted_mean_n": 2.9741,
+    "p_vs_3": 0.0011,
+    "reproduced": true,
+    "verdict": "Known result (1926). Reframed."
+  },
+  "test_4_climate": {
+    "reproduced": true,
+    "verdict": "Known results. Heatwave \u03b1=0.43 most novel."
+  },
+  "test_5_tornado": {
+    "cohen_d": 0.96,
+    "replication_rate": "7/9",
+    "far_reduction": -15.9,
+    "pod": 0.851,
+    "alpha_p": 0.0181,
+    "vel_p": 0.8364,
+    "p_discrepancy": "Report says 0.003, CSV shows 0.018",
+    "reproduced": true,
+    "verdict": "STRONGEST finding. Novel, real data, operational, large effect."
+  },
+  "overall": "Net POSITIVE. Tornado validation is genuinely novel and strong. Hurricane RI lead time is promising but needs independence check. Known results (seismo, Richardson, climate) are consistent."
+}

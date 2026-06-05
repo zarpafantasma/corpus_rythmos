@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
 # Conscious Access as a Multiscale Coherence Threshold
 **An RTM-Operational Hypothesis**  
@@ -18,11 +18,13 @@ Competing theories of consciousness often appeal to non-classical physics or to 
 
 We formalize four predictions spanning anesthesia, sleep, psychedelics, and task access/awareness; we pre-register power, surrogates, and null-controls. This does not solve the "hard problem," but provides falsifiable, modality-agnostic signatures of conscious access without invoking quantum collapse. Positive results would show that (S1) slopes α rise with conscious access and (S2) information flow is forward-only along the engaged hierarchy.
 
-**Large-scale empirical validation (The Ketamine Dissociation) )**$`\mathbf{\rightarrow (}\mathbf{APPENDIX\ B)}`$**.** We empirically validate the RTM conscious access threshold using EEG spectral slope data from 30,873 subjects (including a large-scale replication of n=10,255). Initial heuristic modeling suggested that the multiscale coherence slope ($`\beta`$) reliably separated all conscious from unconscious states with an accuracy of 85.7% (AUC: 0.80). However, to subject this hypothesis to rigorous clinical scrutiny, we deployed a Monte Carlo "subject-level" variance reconstruction, explicitly penalizing the model with the massive natural variance of the datasets. The robust analysis reveals that pooling REM sleep (a paradoxical highly-viscous conscious state) with Wakefulness creates an aggregation fallacy. When isolating Wakefulness versus True Unconsciousness (NREM / Propofol), the topology strictly bifurcates (Cohen's $`d = 0.46,p < 10^{- 10}`$), re-establishing $`\beta`$ as a deterministic structural threshold. Most triumphantly, this variance-corrected model perfectly resolves the "ketamine dissociation": while the anesthetic propofol violently collapses the network's topological coherence (steepening the slope, $`\Delta\beta \approx - 1.25`$) and eradicating consciousness, ketamine preserves the conscious scaling regime ($`\Delta\beta \approx - 0.10`$), allowing for vivid subjective experiences despite inducing complete behavioral unresponsiveness. This empirically demonstrates that the RTM exponent is a direct index of the topology of consciousness, rather than merely motor reactivity.
+**Large-scale empirical validation** $`\mathbf{\rightarrow}`$ **(APPENDIX B)**. We empirically validate the RTM conscious access threshold using EEG spectral slope data from 30,873 subjects (including a large-scale replication of $`n = 10,255`$). The robust Monte Carlo subject-level analysis reveals that pooling REM sleep with Wakefulness creates an aggregation fallacy. When isolating Wakefulness versus True Unconsciousness (NREM / Propofol), the topology bifurcates (Cohen's $`d = 0.46`$, $`p < 10^{-10}`$). The ketamine dissociation is captured: propofol steepens the slope ($`\Delta\beta \approx -1.25`$) and collapses consciousness, while ketamine preserves the conscious regime ($`\Delta\beta \approx -0.10`$), consistent with preserved subjective experience despite behavioral unresponsiveness. These results are consistent with RTM's prediction that consciousness is a macroscopic topological threshold rather than a localized neurochemical event.
+
+**Flanking campaign findings (April 2026)** $`\mathbf{\rightarrow}`$ **(APPENDIX C)**. Independent adversarial testing (6 flanks, zero failures) produced four major advances: (1) **The $`\alpha \times R^2`$ amplifier:** combining spectral slope $`\alpha`$ with power-law collapse quality $`R^2`$ nearly triples the discrimination effect size for Eyes Open vs. Eyes Closed (d:0.33 $`\rightarrow`$ 0.97; AUC: 0.60 $`\rightarrow`$ 0.78). (2) **Cross-validated 2D classifier:** $`\alpha + R^2`$ achieves AUC = 0.911 (Healthy vs. Seizure) and AUC = 0.794 (Eyes Open vs. Closed) in 5-fold cross-validation on 11,500 UCI EEG recordings, outperforming either metric alone. (3) ** $`\alpha`$ - $`R^2`$ conspiracy during seizures:** the coupling between $`\alpha`$ and $`R^2`$ tightens during seizures relative to healthy states ($`\Delta\rho`$ bootstrap CI excludes 0), consistent with the cross-domain pattern that crises produce MORE structural coupling, not less. (4) **Anesthetic gradient threshold:** $`|\Delta\beta/\beta_{wake}| < 20\%`$ preserves consciousness (ketamine: 5%); $`> 40\%`$ loses it (propofol: 69%, xenon: 66%). **REM prediction (testable):** REM should show steep slope BUT high $`R^2`$ (intact power-law structure despite slow dynamics). If confirmed on polysomnography data (NSRR), the 2D metric $`\alpha \times R^2`$ resolves the REM paradox. Full results: Appendix C.
 
 **1. Significance**
 
-- **Bridges a common critique (“no physical mechanism”)** by offering a concrete, testable mesoscopic mechanism, **coherence accumulation**, that does not require quantum non-computability.
+- **Bridges a common critique (“no physical mechanism”)** by offering a concrete, testable mesoscopic mechanism —**coherence accumulation**— that does not require quantum non-computability.
 
 - **Portable metrics** (slope α, conditional directionality) can be evaluated on EEG/MEG/ECoG/fMRI and on bench analogs, enabling convergent evidence.
 
@@ -44,7 +46,7 @@ We formalize four predictions spanning anesthesia, sleep, psychedelics, and task
 
 **H3 (Psychedelics).** Psychedelics increase **coherence within local layers** (possible rise in $`\widehat{\alpha}`$ locally) while **reducing net forward directionality** between distant layers (greater bidirectionality/looping), predicting decoupling between S1 and S2.
 
-**H4 (Perturbational access).** TMS-evoked responses in conscious states show **monotone or rising** $`\widehat{\mathbf{\alpha}}`$across spatial scales and **significant forward conditional TE/Granger** from sensory to associative areas; both effects weaken under loss of consciousness.
+**H4 (Perturbational access).** TMS-evoked responses in conscious states show **monotone or rising** $`\widehat{\mathbf{\alpha}}`$ across spatial scales and **significant forward conditional TE/Granger** from sensory to associative areas; both effects weaken under loss of consciousness.
 
 **Decision rule:** RTM-conscious access is **supported** if (S1) $`\widehat{\alpha}`$ rises or holds across engaged levels **and** (S2) conditional directionality is forward-only (after FDR) in conscious but not unconscious/no-report conditions.
 
@@ -56,7 +58,7 @@ We formalize four predictions spanning anesthesia, sleep, psychedelics, and task
 
 2.  **Temporal windowing / spectral banding:** estimate $`T`$ within log-spaced windows (or band-limited signals where $`L \sim 1/f`$).
 
-**Characteristic time** $`\mathbf{T}`$**:**
+**Characteristic time** $`\mathbf{T}`$ **:**
 
 - Autocorrelation time (integral or 1/e).
 
@@ -98,9 +100,9 @@ We formalize four predictions spanning anesthesia, sleep, psychedelics, and task
 
 **7. Mechanistic modeling (mesoscopic, non-quantum)**
 
-- **Network:** layered E-I rate or spiking model with tunable feedforward $`g_{f}`$​, feedback $`g_{b}`$​, and neuromodulatory gain $`m`$.
+- **Network:** layered E-I rate or spiking model with tunable feedforward $`g_{f}`$ , feedback $`g_{b}`$ , and neuromodulatory gain $`m`$.
 
-- **Predictions:** increasing $`g_{f}`$​ and coherence drives **higher** $`\mathbf{\alpha}`$ and **forward-only** TE; sedation modeled as reduced mmm and increased noise → lower $`\alpha`$, weaker directionality; psychedelic-like state as increased local gain with altered long-range coupling → mixed S1/S2.
+- **Predictions:** increasing $`g_{f}`$ and coherence drives **higher** $`\mathbf{\alpha}`$ and **forward-only** TE; sedation modeled as reduced mmm and increased noise → lower $`\alpha`$, weaker directionality; psychedelic-like state as increased local gain with altered long-range coupling → mixed S1/S2.
 
 - **Fit-to-data:** choose parameters to match empirical $`\widehat{\alpha}`$ and TE patterns; compare with symmetric/alternative models (AIC/BIC and out-of-sample).
 
@@ -346,11 +348,11 @@ Initial validation relied on comparing the simple arithmetic means of spectral s
 
 To subject the RTM predictions to real-world clinical scrutiny, we deployed a Monte Carlo subject-level simulation ($`n = 30,873`$). Using reported Standard Errors of the Mean (SEM), we mathematically reconstructed the true continuous variance of human neurophysiology. We then strictly separated Wakefulness from True Unconsciousness (NREM / Propofol) to evaluate the core RTM predictive capacity without the REM paradox confounder.
 
-Even when heavily penalized with massive human variance, the topology strictly bifurcates. Wakefulness operates in a highly integrated regime ($`\beta = \  - 2.10\  \pm 2.02`$), while True Unconsciousness collapses into a disconnected, viscous state ($`\beta = \  - 2.84\  \pm 1.01`$). This structural separation is highly statistically significant (Cohen's $`d = 0.46,p < 10^{- 10}`$).
+When controlling for the aggregation fallacy and penalizing with full subject-level variance, Wakefulness ($`\beta = -2.10 \pm 2.02`$) and True Unconsciousness ($`\beta = -2.84 \pm 1.01`$) separate significantly (Cohen's $`d = 0.46`$, $`p < 10^{-10}`$). Note: $`\beta`$ alone achieves AUC = 0.60 for Eyes Open vs. Closed (weak discrimination). The flanking campaign (Appendix C) shows that the $`\alpha \times R^2`$ product increases AUC to 0.78 for this comparison, the 2D metric is the recommended diagnostic tool.
 
 **B.3 The Ketamine Dissociation: Structural Friction vs. Fluidity**
 
-The greatest predictive triumph of the robust RTM framework is evidenced in the resolution of the "ketamine dissociation." Both propofol and ketamine induce profound behavioral unresponsiveness in patients, which has historically confounded clinical electrophysiology and classical classifiers.
+The ketamine dissociation provides a critical test case for the RTM framework. Both propofol and ketamine induce profound behavioral unresponsiveness in patients, which has historically confounded clinical electrophysiology and classical classifiers.
 
 When simulating the full subject-level probability density across the neurophysiological state space, classical models blur. However, RTM topology differentiates both states with strict mathematical precision:
 
@@ -358,7 +360,105 @@ When simulating the full subject-level probability density across the neurophysi
 
 - **Preservation under Ketamine:** Despite profound motor paralysis, ketamine preserves the specific topological transport regime of the waking cortex. The spectral slope remains statistically anchored to the healthy baseline ($`\Delta\beta \approx - 0.10`$), maintaining the structural "fluidity" of the neural network.
 
-**Conclusion:** This physically explains why the mind under ketamine remains phenomenologically conscious, experiencing complex hallucinations and vivid dreams, while the physical body is anesthetized. It definitively proves that conscious access is a macroscopic boundary defined by the multiscale topological coherence of the cortical network.
+**Conclusion:** The ketamine/propofol dissociation is consistent with RTM's prediction that conscious access is governed by a macroscopic topological threshold. Propofol crosses it ($`\Delta\beta \approx -1.25`$, 69% spectral change); ketamine does not ($`\Delta\beta \approx -0.10`$, 5% spectral change). A clean operational criterion emerges: $`|\Delta\beta/\beta_{wake}| < 20\%`$ preserves consciousness; $`> 40\%`$ loses it. This demonstrates that RTM's topological threshold is consistent with known pharmacological phenomenology, and provides a quantitative criterion absent from standard neurophysiology. The REM paradox (phenomenologically conscious but spectrally "unconscious") remains open; Appendix C proposes a testable resolution via the $`\alpha \times R^2`$ two-dimensional metric.
+
+### APPENDIX C — Flanking Campaign: The Two-Dimensional Consciousness Metric (April 2026)
+
+This appendix presents findings from six independent analytical flanks applied to 11,500 UCI EEG recordings (5 classes: Normal, Seizure, Tumor, Eyes Open, Eyes Closed). All computations are reproducible via rtm_consciousness_flanks.py.
+
+**C.1 The $`\alpha \times R^2`$ Plane**
+
+RTM predicts that consciousness requires BOTH the correct exponent ($`\alpha`$) AND intact power-law structure ($`R^2`$). Testing the product $`\alpha \times R^2`$ vs. either dimension alone:
+
+**Eyes Open vs. Eyes Closed:**
+
+| Metric | Cohen's $d$ | AUC |
+|--------|------------|-----|
+| $`\alpha`$ alone | +0.331 | 0.598 |
+| $`R^2`$ alone | +0.706 | 0.709 |
+| ** $`\alpha \times R^2`$ ** | **+0.970** | **0.784** |
+
+The product nearly triples the effect size. The 2D metric captures what neither dimension alone can: consciousness requires both fluid scaling AND preserved scale-free structure.
+
+**Healthy vs. Seizure:**
+
+| Metric | Cohen's $d$ | AUC |
+|--------|------------|-----|
+| $`\alpha`$ alone | −0.276 | 0.451 |
+| $`R^2`$ alone | +1.556 | 0.897 |
+| ** $`\alpha + R^2`$ ** | **—** | **0.911** (CV) |
+
+For seizure detection, $`R^2`$ alone is the dominant signal (seizures destroy power-law structure). Adding $`\alpha`$ to $`R^2`$ in a linear model pushes CV AUC from 0.896 to 0.911.
+
+**C.2 Cross-Validated Classifier**
+
+5-fold cross-validated AUC across 11,500 recordings:
+
+| Model | Healthy vs. Seizure | Eyes Open vs. Closed |
+|-------|--------------------|--------------------|
+| $`\alpha`$ alone | 0.550 ± 0.012 | 0.598 ± 0.014 |
+| $`R^2`$ alone | 0.896 ± 0.011 | 0.709 ± 0.010 |
+| ** $`\alpha + R^2`$ ** | **0.911 ± 0.011** | **0.794 ± 0.015** |
+| $`\alpha \times R^2`$ | 0.748 ± 0.017 | 0.784 ± 0.016 |
+
+In both comparisons, the two-feature model outperforms either feature alone. This validates the 2D consciousness framework: the linear combination of $`\alpha`$ and $`R^2`$ extracts complementary information.
+
+**C.3 $`\alpha`$ - $`R^2`$ Conspiracy**
+
+All states show negative within-class $`\alpha`$ - $`R^2`$ correlation (higher slope → lower power-law quality). The coupling TIGHTENS during seizures:
+
+| State | $`\rho(\alpha, R^2)`$ |
+|-------|---------------------|
+| Eyes Open | −0.592 |
+| **Seizure** | **−0.565** |
+| Healthy | −0.446 |
+| Tumor | −0.409 |
+| Eyes Closed | −0.406 |
+
+Bootstrap $`\Delta\rho`$ (Healthy − Seizure): mean = +0.119, 95% CI = [+0.072, +0.166], excludes zero. Seizures constrain the system to a narrow manifold in the $`\alpha`$ - $`R^2`$ plane, consistent with the cross-domain pattern: crises show more coupling, not less.
+
+**C.4 Anesthetic Gradient**
+
+| Agent | Wake $`\beta`$ | Anesthesia $`\beta`$ | $`|\Delta\beta/\beta_{wake}|`$ | Conscious? |
+|-------|-------------|-------------------|-----------------------------|-----------|
+| Ketamine | −1.85 | −1.95 | **5%** | **YES** |
+| Xenon | −1.75 | −2.90 | 66% | NO |
+| Propofol | −1.80 | −3.05 | 69% | NO |
+
+Operational threshold: $`< 20\%`$ spectral change → consciousness preserved; $`> 40\%`$ → consciousness lost. The 20-40% zone is the transition region. This quantitative criterion is absent from standard neurophysiology and represents a novel RTM contribution.
+
+**C.5 REM Resolution — A Testable Prediction**
+
+The REM paradox: REM has steep slopes ($`\beta \approx -3.25`$, "unconscious-like") but is phenomenologically conscious (dreaming). The 2D metric generates a specific, testable prediction:
+
+- **Wake:** moderate $`\alpha`$, high $`R^2`$ → conscious
+- **REM:** low $`\alpha`$, **high $`R^2`$ ** (intact power-law structure) → conscious (dreaming)
+- **NREM:** low $`\alpha`$, **low $`R^2`$ ** (degraded structure) → unconscious
+
+If REM shows high $`R^2`$ despite steep slopes, the 2D metric $`\alpha \times R^2`$ separates all three states cleanly. This is directly testable on polysomnography data (NSRR). If confirmed, the REM paradox is resolved. If disconfirmed, it constrains the framework.
+
+**C.6 Variance as State Diagnostic**
+
+| State | $`\alpha`$ CV | $`R^2`$ CV |
+|-------|-----------|---------|
+| **Seizure** | **0.380** | **0.192** |
+| Eyes Open | 0.404 | 0.211 |
+| Eyes Closed | 0.240 | 0.204 |
+| Healthy | 0.219 | 0.076 |
+| Tumor | 0.188 | 0.077 |
+
+Seizure and Eyes Open show maximum variance. For $`R^2`$, seizure CV = 0.192 (highest), consistent with RTM's prediction that pathological/transitional states show maximal structural variance.
+
+**C.7 Summary**
+
+| Flank | Result | Key metric | For RTM |
+|-------|--------|-----------|---------|
+| $`\alpha \times R^2`$ plane | **STRONG** | $`d`$ : 0.33 → 0.97 (EO vs EC) | 2D metric is the correct tool |
+| $`R^2`$ vs $`\alpha`$ comparison | INSIGHTFUL | $`R^2`$ wins pathology; $`\alpha`$ wins cross-modality | Complementary dimensions |
+| $`\alpha`$ - $`R^2`$ conspiracy | GENUINE | Seizure tightens coupling ($`\Delta\rho`$ CI excl. 0) | Crisis = more coupling |
+| CV classifier | **STRONG** | AUC = 0.794-0.911 (cross-validated) | Clinical-grade discrimination |
+| Anesthetic gradient | CLEAN | <20% preserves; >40% loses | Novel operational threshold |
+| REM prediction | TESTABLE | Requires polysomnography $`R^2`$ data | Falsifiable, not yet confirmed |
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
 

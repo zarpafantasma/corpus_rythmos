@@ -415,18 +415,18 @@ VALOR α VS POSICIÓN AXIAL
 α
 2.5 ─┬─────────────────────────────────────────────────┬─ Tobera
      │                                            ╱╱╱╱╱│
-2.0 ─┤                                      ╱╱╱╱╱     │
-     │                                ╱╱╱╱╱           │
-1.5 ─┤                          ╱╱╱╱╱                 │─ Gradiente
-     │                    ╱╱╱╱╱                       │  (LINEAL)
-1.0 ─┤              ╱╱╱╱╱                             │
-     │        ╱╱╱╱╱                                   │
-0.5 ─┼───────────────────────┬────────────────────────┤─ Acumulador
-     │        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│                        │
-     │                       │                        │
-2.5 ─┼───────────────────────┴────────────────────────┤─ Base
-     │                                                │
-     └────────┬────────┬────────┬────────┬────────┬───┘
+2.0 ─┤                                      ╱╱╱╱╱      │
+     │                                ╱╱╱╱╱            │
+1.5 ─┤                          ╱╱╱╱╱                  │─ Gradiente
+     │                    ╱╱╱╱╱                        │  (LINEAL)
+1.0 ─┤              ╱╱╱╱╱                              │
+     │        ╱╱╱╱╱                                    │
+0.5 ─┼───────────────────────┬─────────────────────────┤─ Acumulador
+     │        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│                         │
+     │                       │                         │
+2.5 ─┼───────────────────────┴─────────────────────────┤─ Base
+     │                                                 │
+     └────────┬────────┬────────┬────────┬────────┬────┘
               0        5       10       15       20   z (mm)
               
      BASE    ACUM       ZONA GRADIENTE        TOBERA
@@ -767,7 +767,7 @@ Rev  │ Fecha      │ Descripción              │ Autor
 
      +-----------------------------------------------------------------------+
      | PROPIETARIO Y CONFIDENCIAL | ZARPAFANTASMA SYSTEMS CORP.              |
-     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5         |
+     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5          |
      |-----------------------------------------------------------------------|
      | ADVERTENCIA: El acceso, distribución o reproducción no autorizada de  |
      | este documento está estrictamente prohibida según el Protocolo Legal  |

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/athena.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/athena.png" width="200" alt="Diagrama de Atenea">
 
 # El Búho y la Lanza
 **Tejiendo la Física del Ritmo en el Tejido de la Existencia**  

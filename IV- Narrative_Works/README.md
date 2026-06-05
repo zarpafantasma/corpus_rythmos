@@ -1,6 +1,6 @@
 # IV - Narrative Works
 
-This folder contains **fiction and narrative extensions** of the RTM corpus. These are not separate from the science, they are the science wrapped in story, making the implications tangible.
+This folder contains **fiction and narrative extensions** of the RTM corpus. These are not separate from the science — they are the science wrapped in story, making the implications tangible.
 
 ---
 
@@ -11,9 +11,9 @@ The materials here operate on two levels simultaneously:
 1. **Surface layer:** Narrative fiction, "leaked documents," operational protocols with dramatic framing
 2. **Deep layer:** Legitimate extensions of the theoretical physics and philosophy from Sections I-III
 
-The narrative wrapper is intentional. When implications become sufficiently strange, vacuum energy extraction, multiversal navigation, operational protocols for "Architects" seeding civilizations, story becomes the only digestible container.
+The narrative wrapper is intentional. When implications become sufficiently strange — vacuum energy extraction, multiversal navigation, operational protocols for "Architects" seeding civilizations — story becomes the only digestible container.
 
-> *"These are not separate from the science, they are the science wearing a mask so you can look at it directly."*
+> *"These are not separate from the science — they are the science wearing a mask so you can look at it directly."*
 
 ---
 
@@ -25,11 +25,11 @@ The narrative wrapper is intentional. When implications become sufficiently stra
 
 A mythological translation of the entire RTM corpus into story form. The novel follows humanity's cosmic journey through the lens of RTM physics:
 
-- **Book One:** The Symphony of the Flesh, The Primordial Ocean folds into time (T ∝ L^α), Earth as a "coherence accelerator," the asteroid impact as ontological rupture
-- **Book Two:** The Collision of the Axes, The Gardeners arrive, the Horizontal Axis (time cascade) meets the Vertical Axis (Above/Below), the Zarpa Fantasma as emissary of Archetypal Order
-- **Book Three:** Echoes of the Future, UAPs as prototypes from the previous branch, the paradox of inverted time (our past = their advanced future), the Cold War of Polyphony vs Monophony
-- **Book Four:** The Eternal Flame, The relay race of gnosis, the received testament (RTM itself), the choice between Return to Source or Self-Mastery
-- **Book Five:** Ouroboros, A revelation about the true nature of the Gardeners and Ecorivals, the Three Waves of intervention, the Judgment as integration of both axes
+- **Book One:** The Symphony of the Flesh — The Primordial Ocean folds into time (T ∝ L^α), Earth as a "coherence accelerator," the asteroid impact as ontological rupture
+- **Book Two:** The Collision of the Axes — The Gardeners arrive, the Horizontal Axis (time cascade) meets the Vertical Axis (Above/Below), the Zarpa Fantasma as emissary of Archetypal Order
+- **Book Three:** Echoes of the Future — UAPs as prototypes from the previous branch, the paradox of inverted time (our past = their advanced future), the Cold War of Polyphony vs Monophony
+- **Book Four:** The Eternal Flame — The relay race of gnosis, the received testament (RTM itself), the choice between Return to Source or Self-Mastery
+- **Book Five:** Ouroboros — A revelation about the true nature of the Gardeners and Ecorivals, the Three Waves of intervention, the Judgment as integration of both axes
 
 **Key concept:** The RTM corpus is framed as a "testament" deliberately planted by our future selves to guide us through the Great Filter.
 
@@ -37,7 +37,7 @@ A mythological translation of the entire RTM corpus into story form. The novel f
 
 ### 📁 Extension Folders
 
-These folders extend specific papers from Sections I-III with detailed technical specifications, operational protocols, and worldbuilding, all wrapped in narrative framing (classified documents, leaked presentations, protocol manuals).
+These folders extend specific papers from Sections I-III with detailed technical specifications, operational protocols, and worldbuilding — all wrapped in narrative framing (classified documents, leaked presentations, protocol manuals).
 
 ---
 
@@ -70,7 +70,7 @@ Advanced theoretical projects building on the Unified Field Framework:
 
 | Document | Contents |
 |----------|----------|
-| `PROMETEO_PROJECT-AETHERION_MARK_2V_.md` | Mark 2-V "PROMETEO", dedicated vacuum energy extraction (not propulsion). Toroidal geometry, Δα = 2.2, target COP > 1 |
+| `PROMETEO_PROJECT-AETHERION_MARK_2V_.md` | Mark 2-V "PROMETEO" — dedicated vacuum energy extraction (not propulsion). Toroidal geometry, Δα = 2.2, target COP > 1 |
 | `GAUGE_UNIFICATION.md` | α-field gauge coupling to Standard Model |
 | `HOLOGRAPHIC_GRAVITY.md` | AdS/CFT correspondence with RTM |
 | `TOPOLOGICAL_BANDS.md` | Mathematical structure of α quantization |
@@ -81,14 +81,15 @@ Advanced theoretical projects building on the Unified Field Framework:
 | `PROMETEO_BLUEPRINTS.pdf` | Technical drawings |
 | `PROMETEO_PRESENTATION.pdf` | Slide deck overview |
 
-**Framing:** "Ghost Projects", theoretical work too speculative for main corpus but too important to discard
+**Framing:** "Ghost Projects" — theoretical work too speculative for main corpus but too important to discard
 
 ---
 
 #### 📜 N1_ARCHITECT_PROTOCOL
-**Extends:** 018 - The Aetherion Framework and Implications
+**Extends:** 018 - The Aetherion Framework and Implications  
+023 - Remember the Eternal Flame
 
-Operational manual for "N-1 Architects", beings who navigate the multiversal cascade to seed civilizations:
+Operational manual for "N-1 Architects" — beings who navigate the multiversal cascade to seed civilizations:
 
 | Protocol | Subject |
 |----------|---------|
@@ -110,7 +111,7 @@ Operational manual for "N-1 Architects", beings who navigate the multiversal cas
 | `16_ABSOLUTE_PROHIBITIONS` | Actions that dissolve operators or collapse branches |
 | `N1_ARCHITECT_GRADUATION.pdf` | Final certification requirements |
 
-**Framing:** Classified operational manual with "LEVEL 5, FULL ONTOLOGICAL ACCESS" clearance headers
+**Framing:** Classified operational manual with "LEVEL 5 — FULL ONTOLOGICAL ACCESS" clearance headers
 
 ---
 
@@ -118,7 +119,7 @@ Operational manual for "N-1 Architects", beings who navigate the multiversal cas
 
 These materials can be read two ways:
 
-**As fiction:** Enjoy the worldbuilding, the dramatic framing, the "what if" speculation. The classified document aesthetic, the ominous warnings, these are storytelling devices.
+**As fiction:** Enjoy the worldbuilding, the dramatic framing, the "what if" speculation. The classified document aesthetic, the ominous warnings — these are storytelling devices.
 
 **As theory:** Strip away the narrative wrapper and you find legitimate extensions of RTM physics and philosophy. The engineering specs in Aetherion Mark 1 follow from the field equations in 016-017. The N1 Protocols operationalize the implications of 018. The Operational Manuals expand 021-022 into practical guidance.
 

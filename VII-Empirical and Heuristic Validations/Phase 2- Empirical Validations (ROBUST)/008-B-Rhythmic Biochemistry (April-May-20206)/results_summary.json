@@ -1,0 +1,18 @@
+{
+  "test1_folding": {
+    "odr_alpha": 7.218,
+    "odr_se": 0.617,
+    "boot_ci": [
+      6.255,
+      8.379
+    ],
+    "r2": 0.6254
+  },
+  "test2_enzymes": {
+    "odr_alpha": 0.256,
+    "odr_se": 0.69,
+    "boot_ci": [
+      -1.515,
+      1.923
+    ],
+    "alpha_significantly_nonzero": 

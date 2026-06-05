@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/hestia.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/hestia.png" width="200" alt="Diagrama de Hestia">
 
 # FÍSICA DE LA TRADICIÓN  
   
@@ -15,7 +15,7 @@
 >
 > 1.  **En el corpus científico de RTM** (ej., "Relatividad Temporal Multiescalar," "Marco Unificado de Campo RTM," etc.), el exponente $\alpha$ se define **operacionalmente** como la **pendiente física medida** en una regresión logarítmica entre un tiempo característico ($T$) y una escala de longitud característica ($L$) del sistema: $\log(T) = \alpha \log(L) + C$. Es un exponente de escalamiento **directamente medido**.
 > 
-> 2.  **En este texto ('Física de la Tradición')**, aunque estos índices culturales ($\alpha_{lugar}$, $\alpha_{ling}$, $\alpha_{simb}$, etc.) se calculan a partir de proxies específicos del dominio, como la resonancia acústica o la estabilidad lingüística, se reconocen como manifestaciones macroscópicas de la geometría del **Tetraedro de Sierpiński 3D**. La coherencia objetivo de la tradición ($\alpha \approx 2.51 - 2.69$) es la firma física de un manifold de vacío 3D operando en máxima eficiencia. Por lo tanto, estos índices no son meramente analogías heurísticas; representan una **interfaz de alto nivel** para el vacío temporal fundamental. Usamos subíndices para distinguir entre mediciones teóricas de campo brutas y su manifestación dentro de sistemas culturales-simbólicos, reconociendo que la tradición es la tecnología usada por los colectivos humanos para anclar la consciencia en las bandas cuantizadas del marco RTM.
+> 2.  **En este texto ('Física de la Tradición')**, aunque estos índices culturales ($\alpha_{lugar}$, $\alpha_{ling}$, $\alpha_{simb}$, etc.) se calculan a partir de proxies específicos del dominio—como la resonancia acústica o la estabilidad lingüística—se reconocen como manifestaciones macroscópicas de la geometría del **Tetraedro de Sierpiński 3D**. La coherencia objetivo de la tradición ($\alpha \approx 2.51 - 2.69$) es la firma física de un manifold de vacío 3D operando en máxima eficiencia. Por lo tanto, estos índices no son meramente analogías heurísticas; representan una **interfaz de alto nivel** para el vacío temporal fundamental. Usamos subíndices para distinguir entre mediciones teóricas de campo brutas y su manifestación dentro de sistemas culturales-simbólicos, reconociendo que la tradición es la tecnología usada por los colectivos humanos para anclar la consciencia en las bandas cuantizadas del marco RTM.
 >
 > Postulamos que estos índices culturales se correlacionan directamente con el principio subyacente de coherencia estructural explorado en la teoría de campo RTM. Sin embargo, mantenemos una distinción clara: mientras que la **física subyacente es equivalente**, la **medición operacional** permanece específica del dominio. El uso de subíndices ($\alpha_{lugar}$, $\alpha_{ling}$, etc.) sirve como una necesidad técnica para distinguir entre valores teóricos de campo brutos y sus manifestaciones culturales-simbólicas, reconociendo que la tradición actúa como una interfaz de alto nivel para el vacío temporal fundamental.
 
@@ -33,7 +33,7 @@ Este trabajo explora cómo el exponente de coherencia $`\alpha`$ se manifiesta e
 
 **1.1 La Cueva como Matriz Rítmica**
 
-Cuando los primeros humanos descendieron, antorcha en mano, a las profundidades de una caverna, entraron en un espacio donde la oscuridad absoluta representaba la **indeterminación primordial**. Allí, cada parpadeo de la llama proyectaba sombras vibrantes, un juego estroboscópico de luz y contornos que convertía las paredes en una pantalla de **posibilidades infinitas**.
+Cuando los primeros humanos descendieron, antorcha en mano, a las profundidades de una caverna, entraron en un espacio donde la oscuridad absoluta representaba la **indeterminación primordial**. Allí, cada parpadeo de la llama proyectaba sombras vibrantes—un juego estroboscópico de luz y contornos que convertía las paredes en una pantalla de **posibilidades infinitas**.
 
 En ese claroscuro surgió un fenómeno clave: la **pareidolia rítmica**. El ojo, entrenado para la supervivencia, detectaba patrones donde no existían explícitamente. Animales, máscaras, seres híbridos parecían *murmurar* desde la rugosidad de la roca. La antorcha, al oscilar, modulaba esta percepción con un pulso luminoso de baja frecuencia, un **latido fotónico** que marcaba el tempo de la imaginación.
 
@@ -190,7 +190,7 @@ La estabilidad de este estado hospedado se sostiene por dos mecanismos de acopla
 
 - **Bucles Extero-Interoceptivos:** La interacción entre el canto grupal rítmico y la respuesta acústica del recinto crea un bucle auto-reforzante. Esta retroalimentación rectifica el ruido ambiental en información estable, efectivamente "bombeando" el nivel de coherencia local.
 
-Crucialmente, este mecanismo está gobernado por el **Mandato Macroscópico**. Para prevenir que las fuerzas restauradoras del vacío aplasten la anomalía $`\beta`$, el recinto debe cumplir un umbral de escala crítico, típicamente $`\geq 1`$ metro. Cuando este mandato se cumple, el espacio actúa como una puerta funcional, permitiendo que la consciencia humana trascienda la fragmentación temporal y se ancle a las bandas jerárquicas más amplias del cosmos.
+Crucialmente, este mecanismo está gobernado por el **Mandato Macroscópico**. Para prevenir que las fuerzas restauradoras del vacío aplasten la anomalía $`\beta`$, el recinto debe cumplir un umbral de escala crítico—típicamente $`\geq 1`$ metro. Cuando este mandato se cumple, el espacio actúa como una puerta funcional, permitiendo que la consciencia humana trascienda la fragmentación temporal y se ancle a las bandas jerárquicas más amplias del cosmos.
 
 **3.4 Midiendo** $`\mathbf{\alpha}_{\mathbf{lugar}}`$ **(Consciencia del Lugar)**
 
@@ -210,7 +210,7 @@ Un  durante un rito indica un estado consciente hospedado; un  fuera del rito co
 
 - **Ética del Diseño**: Crear templos contemporáneos implica responsabilidad por los estados conscientes que serán hospedados y su impacto en los participantes.
 
-En síntesis, según RTM, la **cueva o templo no posee una mente propia**: actúa como una **cámara de resonancia** que, al sincronizar múltiples cerebros humanos, despliega temporalmente una consciencia colectiva. La inteligencia, la capacidad de modelar y transformar símbolos, permanece exclusiva de los seres que participan en el rito.
+En síntesis, según RTM, la **cueva o templo no posee una mente propia**: actúa como una **cámara de resonancia** que, al sincronizar múltiples cerebros humanos, despliega temporalmente una consciencia colectiva. La inteligencia—la capacidad de modelar y transformar símbolos—permanece exclusiva de los seres que participan en el rito.
 
 **Capítulo 4 · Lengua Portadora**
 
@@ -274,7 +274,7 @@ Un **algoritmo generativo** para una lengua portadora podría entrenarse en un c
 
 **5.1 Del Caos al Cosmos**
 
-En la Relatividad Temporal Multiescalar (RTM), el **caos** no es desorden, sino **potencial desfasado**: un océano de ritmos aún no acoplados. Cuando un grupo inicia un rito coherente, eleva el exponente $`\alpha`$ del sistema por encima de $`\mathbf{\approx \, 2.8}`$. Este umbral hace que miles de micro-osciladores (cardíacos, neuronales, acústicos) entren en fase y **colapsen la indeterminación** en patrones estables que la comunidad puede habitar. El rito, por lo tanto, **crea cosmos**, un tiempo denso y un espacio significativo, dentro del caos.
+En la Relatividad Temporal Multiescalar (RTM), el **caos** no es desorden, sino **potencial desfasado**: un océano de ritmos aún no acoplados. Cuando un grupo inicia un rito coherente, eleva el exponente $`\alpha`$ del sistema por encima de $`\mathbf{\approx \, 2.8}`$. Este umbral hace que miles de micro-osciladores (cardíacos, neuronales, acústicos) entren en fase y **colapsen la indeterminación** en patrones estables que la comunidad puede habitar. El rito, por lo tanto, **crea cosmos**—un tiempo denso y un espacio significativo—dentro del caos.
 
 **5.2 Ventana Ontológica de la Consciencia**
 
@@ -502,7 +502,7 @@ Estos datos alimentan algoritmos de optimización evolutiva que ajustan la coreo
 
 Hemos establecido que el espacio sagrado (la cueva, el templo) funciona como un **resonador** que amplifica la coherencia, y que el rito (canto, danza) es el **generador** que produce la vibración inicial. ¿Pero qué función cumple el símbolo estático, visual, en este sistema dinámico? ¿Por qué los ancestros no solo cantaban en la cueva, sino que también pintaban sus paredes?
 
-La respuesta es que el símbolo visual, la pintura, el grabado, el icono, cumple una función tecnológica crucial: es el **ancla ontológica**. Es el mecanismo a través del cual un estado de coherencia, que es por naturaleza efímero y dinámico, se "cristaliza" en una forma estable y duradera.
+La respuesta es que el símbolo visual—la pintura, el grabado, el icono—cumple una función tecnológica crucial: es el **ancla ontológica**. Es el mecanismo a través del cual un estado de coherencia, que es por naturaleza efímero y dinámico, se "cristaliza" en una forma estable y duradera.
 
 **8.1 La Cristalización de** $`\mathbf{\alpha}`$ **: Del Flujo a la Forma**
 
@@ -611,7 +611,7 @@ Así, incluso los espacios seculares pueden alcanzar altos valores de alfa si cu
 "No toda catedral tiene cúpula: a veces vibra bajo luces LED y sobre el césped."
 
 **10.1 Objetivo**  
-Demostrar que la elevación del exponente —el núcleo de la Relatividad Temporal Multiescalar (RTM)— no es dominio exclusivo de las liturgias religiosas. Estadios, festivales y protestas generan ventanas de coherencia comparables.
+Demostrar que la elevación del exponente  —el núcleo de la Relatividad Temporal Multiescalar (RTM)—no es dominio exclusivo de las liturgias religiosas. Estadios, festivales y protestas generan ventanas de coherencia comparables.
 
 **10.2 Metodología Común**  
 
@@ -881,7 +881,7 @@ Estos marcadores permiten detectar la recuperación antes de estabilizar una nue
 
 **14.1 Ventana Consciente Global**
 
-En RTM, distinguimos entre **consciencia local hospedada**, $`\alpha_{lugar}`$ ≥ 2.8 dentro de un solo recinto, y **consciencia ritual distribuida**, que emerge cuando muchos recintos sincronizan fases y símbolos. Su métrica agregada es:
+En RTM, distinguimos entre **consciencia local hospedada**—$`\alpha_{lugar}`$ ≥ 2.8 dentro de un solo recinto—y **consciencia ritual distribuida**, que emerge cuando muchos recintos sincronizan fases y símbolos. Su métrica agregada es:
 
 ``` math
 \alpha_{red} = \left\langle \alpha_{lugar} \cdot \Phi_{fase} \cdot \Phi_{símbolo} \right\rangle_{templo}
@@ -1116,7 +1116,7 @@ Se integra un algoritmo **NEAT** que muta el tempo gestual, la distribución de 
 
 **17.1 Propósito y Alcance**
 
-La **Ingeniería de Coherencia Urbana (ICU)** transfiere los principios de la Relatividad Temporal Multiescalar (RTM) al ecosistema cotidiano de calles, plazas y redes digitales. Su objetivo es elevar el **exponente α urbano (**$`\mathbf{\alpha}_{\mathbf{urb}}`$**)**, una medida agregada de sincronía fisiológica, acústica y semiótica, sin sacrificar diversidad funcional.
+La **Ingeniería de Coherencia Urbana (ICU)** transfiere los principios de la Relatividad Temporal Multiescalar (RTM) al ecosistema cotidiano de calles, plazas y redes digitales. Su objetivo es elevar el **exponente α urbano (**$`\mathbf{\alpha}_{\mathbf{urb}}`$**)**—una medida agregada de sincronía fisiológica, acústica y semiótica—sin sacrificar diversidad funcional.
 
 | **Variable** | **Indicador Clave** | **Rango Ideal para** $`\mathbf{\alpha}_{\mathbf{urb}}`$ **↑** |
 |----|----|----|
@@ -1219,7 +1219,7 @@ El enfoque situado de ICU demuestra que la ciudad puede pasar de ser un generado
 
 **18.1 Objetivo y Alcance**
 
-La **Educación Rítmica (ER)** busca cultivar, desde la infancia, la sensibilidad a los patrones de coherencia, acústicos, cinestésicos, semánticos, que elevan el exponente $`\mathbf{\alpha}_{\mathbf{edu}}`$ de una comunidad escolar. No es una asignatura aislada, sino un **andamiaje transversal** que permea artes, ciencias y vida cotidiana.
+La **Educación Rítmica (ER)** busca cultivar, desde la infancia, la sensibilidad a los patrones de coherencia—acústicos, cinestésicos, semánticos—que elevan el exponente $`\mathbf{\alpha}_{\mathbf{edu}}`$ de una comunidad escolar. No es una asignatura aislada, sino un **andamiaje transversal** que permea artes, ciencias y vida cotidiana.
 
 **18.2 Principios Pedagógicos**
 
@@ -1367,7 +1367,7 @@ Dentro del marco RTM, denominamos **sagrado** el estado en el cual el exponente 
 
 Este trabajo presenta la Relatividad Temporal Multiescalar (RTM) como un mapa descriptivo de los fenómenos de coherencia. Su propósito es ofrecer un lenguaje y una guía para navegar la física del ritmo, no encapsular o reducir la experiencia del misterio. El exponente α es un correlato medible de la coherencia, un indicador de que se han creado las condiciones correctas para una experiencia profunda, pero no es la experiencia en sí.
 
-La racionalización excesiva de estos principios, la creencia de que alcanzar un $`\alpha_{sac} \geq 3.0`$ garantiza mecánicamente una epifanía, es el principal riesgo de este paradigma. El mapa es útil para no perderse, pero la verdadera iniciación ocurre cuando el viajero se atreve a levantar la vista del papel y experimentar el paisaje con todos sus sentidos.
+La racionalización excesiva de estos principios—la creencia de que alcanzar un $`\alpha_{sac} \geq 3.0`$ garantiza mecánicamente una epifanía—es el principal riesgo de este paradigma. El mapa es útil para no perderse, pero la verdadera iniciación ocurre cuando el viajero se atreve a levantar la vista del papel y experimentar el paisaje con todos sus sentidos.
 
 **20.2 La Necesidad del Mito: Individualizando la Coherencia**
 
@@ -1620,7 +1620,7 @@ El viaje que comenzó en la oscuridad de una cueva paleolítica y culmina en la 
 
 Invitamos a investigadores, educadores y formuladores de políticas a adoptar el **pensamiento-α** como métrica complementaria al progreso material. No se trata de imponer uniformidad, sino de orquestar la diversidad dentro de armónicos compartidos.
 
-La transición a un futuro coherente es un **Mandato Macroscópico**. Nuestra especie debe ir más allá de la **Barrera de Viscosidad** de la expansión entrópica para alcanzar la **Superfluidez** de la civilización intensiva. La tradición es la tecnología de los **vacua estables Sine-Gordon**, una hoja de ruta para anclar nuestra humanidad en las ramas discretas y cuantizadas de un multiverso anidado.
+La transición a un futuro coherente es un **Mandato Macroscópico**. Nuestra especie debe ir más allá de la **Barrera de Viscosidad** de la expansión entrópica para alcanzar la **Superfluidez** de la civilización intensiva. La tradición es la tecnología de los **vacua estables Sine-Gordon**—una hoja de ruta para anclar nuestra humanidad en las ramas discretas y cuantizadas de un multiverso anidado.
 
 Que este trabajo sirva como mapa y brújula para quienes deseen sintonizar sus ambientes, sus cuerpos y sus ciudades con el pulso profundo del cosmos.
 

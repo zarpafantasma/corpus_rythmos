@@ -1,0 +1,28 @@
+{
+  "A_hrv": {
+    "n": 18,
+    "age_decay": -0.0048,
+    "chf_penalty": -0.322,
+    "r2": 0.9728,
+    "boot_age_ci": [
+      -0.00568,
+      -0.00395
+    ],
+    "boot_chf_ci": [
+      -0.359,
+      -0.288
+    ]
+  },
+  "B1_chf": {
+    "agg_r": -0.9944,
+    "subj_r": -0.4342,
+    "subj_p": 1.5831577659337602e-11,
+    "healthy_mean": 1.078,
+    "nyha4_mean": 0.532,
+    "cohens_d": 2.28
+  },
+  "B2_scd": {
+    "scd_cohens_d": 1.72,
+    "mi_cohens_d": 1.53
+  }
+}

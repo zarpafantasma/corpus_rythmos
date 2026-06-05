@@ -668,7 +668,7 @@ Verificado Por: _________________ Fecha: _________
 
      +-----------------------------------------------------------------------+
      | PROPIETARIO Y CONFIDENCIAL | ZARPAFANTASMA SYSTEMS CORP.              |
-     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5         |
+     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5          |
      |-----------------------------------------------------------------------|
      | ADVERTENCIA: El acceso, distribución o reproducción no autorizada de  |
      | este documento está estrictamente prohibida según el Protocolo Legal  |

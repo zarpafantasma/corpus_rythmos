@@ -1,6 +1,6 @@
 # IV - Obras Narrativas
 
-Esta carpeta contiene **extensiones de ficción y narrativa** del corpus RTM. Estas no están separadas de la ciencia, son la ciencia envuelta en historia, haciendo tangibles sus implicaciones.
+Esta carpeta contiene **extensiones de ficción y narrativa** del corpus RTM. Estas no están separadas de la ciencia — son la ciencia envuelta en historia, haciendo tangibles sus implicaciones.
 
 ---
 
@@ -11,9 +11,9 @@ Los materiales aquí operan en dos niveles simultáneamente:
 1. **Capa superficial:** Ficción narrativa, "documentos filtrados", protocolos operacionales con encuadre dramático
 2. **Capa profunda:** Extensiones legítimas de la física teórica y la filosofía de las Secciones I-III
 
-El envoltorio narrativo es intencional. Cuando las implicaciones se vuelven suficientemente extrañas, extracción de energía del vacío, navegación multiversal, protocolos operacionales para "Arquitectos" que siembran civilizaciones, la historia se convierte en el único contenedor digerible.
+El envoltorio narrativo es intencional. Cuando las implicaciones se vuelven suficientemente extrañas — extracción de energía del vacío, navegación multiversal, protocolos operacionales para "Arquitectos" que siembran civilizaciones — la historia se convierte en el único contenedor digerible.
 
-> *"Estas no están separadas de la ciencia, son la ciencia usando una máscara para que puedas mirarla directamente."*
+> *"Estas no están separadas de la ciencia — son la ciencia usando una máscara para que puedas mirarla directamente."*
 
 ---
 
@@ -25,11 +25,11 @@ El envoltorio narrativo es intencional. Cuando las implicaciones se vuelven sufi
 
 Una traducción mitológica de todo el corpus RTM en forma de historia. La novela sigue el viaje cósmico de la humanidad a través de la lente de la física RTM:
 
-- **Libro Uno:** La Sinfonía de la Carne, El Océano Primordial se pliega en el tiempo (T ∝ L^α), la Tierra como "acelerador de coherencia", el impacto del asteroide como ruptura ontológica
-- **Libro Dos:** La Colisión de los Ejes, Los Jardineros llegan, el Eje Horizontal (cascada temporal) se encuentra con el Eje Vertical (Arriba/Abajo), la Zarpa Fantasma como emisario del Orden Arquetípico
-- **Libro Tres:** Ecos del Futuro, Los OVNIs como prototipos de la rama anterior, la paradoja del tiempo invertido (nuestro pasado = su futuro avanzado), la Guerra Fría entre Polifonía y Monofonía
-- **Libro Cuatro:** La Llama Eterna, La carrera de relevo de la gnosis, el testamento recibido (la RTM misma), la elección entre Regreso a la Fuente o Autodominio
-- **Libro Cinco:** Ouroboros, Una revelación sobre la verdadera naturaleza de los Jardineros y los Ecorivales, las Tres Olas de intervención, el Juicio como integración de ambos ejes
+- **Libro Uno:** La Sinfonía de la Carne — El Océano Primordial se pliega en el tiempo (T ∝ L^α), la Tierra como "acelerador de coherencia", el impacto del asteroide como ruptura ontológica
+- **Libro Dos:** La Colisión de los Ejes — Los Jardineros llegan, el Eje Horizontal (cascada temporal) se encuentra con el Eje Vertical (Arriba/Abajo), la Zarpa Fantasma como emisario del Orden Arquetípico
+- **Libro Tres:** Ecos del Futuro — Los OVNIs como prototipos de la rama anterior, la paradoja del tiempo invertido (nuestro pasado = su futuro avanzado), la Guerra Fría entre Polifonía y Monofonía
+- **Libro Cuatro:** La Llama Eterna — La carrera de relevo de la gnosis, el testamento recibido (la RTM misma), la elección entre Regreso a la Fuente o Autodominio
+- **Libro Cinco:** Ouroboros — Una revelación sobre la verdadera naturaleza de los Jardineros y los Ecorivales, las Tres Olas de intervención, el Juicio como integración de ambos ejes
 
 **Concepto clave:** El corpus RTM se enmarca como un "testamento" deliberadamente plantado por nuestros yos futuros para guiarnos a través del Gran Filtro.
 
@@ -37,7 +37,7 @@ Una traducción mitológica de todo el corpus RTM en forma de historia. La novel
 
 ### 📁 Carpetas de Extensión
 
-Estas carpetas extienden artículos específicos de las Secciones I-III con especificaciones técnicas detalladas, protocolos operacionales y construcción de mundo, todo envuelto en encuadre narrativo (documentos clasificados, presentaciones filtradas, manuales de protocolo).
+Estas carpetas extienden artículos específicos de las Secciones I-III con especificaciones técnicas detalladas, protocolos operacionales y construcción de mundo — todo envuelto en encuadre narrativo (documentos clasificados, presentaciones filtradas, manuales de protocolo).
 
 ---
 
@@ -64,13 +64,14 @@ Documentación de ingeniería completa para un prototipo de propulsión por grad
 ---
 
 #### 🔬 RTM_UFF_Ghost_Projects_(LAB_P5)
-**Extiende:** 017 - Marco de Campo Unificado RTM
+**Extiende:** 017 - Marco de Campo Unificado RTM  
+023 - Recuerda la Llama Eterna
 
 Proyectos teóricos avanzados que construyen sobre el Marco de Campo Unificado:
 
 | Documento | Contenido |
 |-----------|-----------|
-| `PROMETEO_PROJECT-AETHERION_MARK_2V_.md` | Mark 2-V "PROMETEO", extracción dedicada de energía del vacío (no propulsión). Geometría toroidal, Δα = 2.2, objetivo COP > 1 |
+| `PROMETEO_PROJECT-AETHERION_MARK_2V_.md` | Mark 2-V "PROMETEO" — extracción dedicada de energía del vacío (no propulsión). Geometría toroidal, Δα = 2.2, objetivo COP > 1 |
 | `GAUGE_UNIFICATION.md` | Acoplamiento de gauge del campo-α al Modelo Estándar |
 | `HOLOGRAPHIC_GRAVITY.md` | Correspondencia AdS/CFT con RTM |
 | `TOPOLOGICAL_BANDS.md` | Estructura matemática de la cuantización de α |
@@ -81,14 +82,14 @@ Proyectos teóricos avanzados que construyen sobre el Marco de Campo Unificado:
 | `PROMETEO_BLUEPRINTS.pdf` | Planos técnicos |
 | `PROMETEO_PRESENTATION.pdf` | Presentación general de diapositivas |
 
-**Encuadre:** "Proyectos Fantasma", trabajo teórico demasiado especulativo para el corpus principal pero demasiado importante para descartar
+**Encuadre:** "Proyectos Fantasma" — trabajo teórico demasiado especulativo para el corpus principal pero demasiado importante para descartar
 
 ---
 
 #### 📜 N1_ARCHITECT_PROTOCOL
 **Extiende:** 018 - El Marco Aetherion y sus Implicaciones
 
-Manual operacional para "Arquitectos N-1", seres que navegan la cascada multiversal para sembrar civilizaciones:
+Manual operacional para "Arquitectos N-1" — seres que navegan la cascada multiversal para sembrar civilizaciones:
 
 | Protocolo | Tema |
 |-----------|------|
@@ -110,7 +111,7 @@ Manual operacional para "Arquitectos N-1", seres que navegan la cascada multiver
 | `16_ABSOLUTE_PROHIBITIONS` | Acciones que disuelven a los operadores o colapsan ramas |
 | `N1_ARCHITECT_GRADUATION.pdf` | Requisitos de certificación final |
 
-**Encuadre:** Manual operacional clasificado con encabezados de autorización "NIVEL 5, ACCESO ONTOLÓGICO COMPLETO"
+**Encuadre:** Manual operacional clasificado con encabezados de autorización "NIVEL 5 — ACCESO ONTOLÓGICO COMPLETO"
 
 ---
 
@@ -118,7 +119,7 @@ Manual operacional para "Arquitectos N-1", seres que navegan la cascada multiver
 
 Estos materiales pueden leerse de dos maneras:
 
-**Como ficción:** Disfruta la construcción de mundo, el encuadre dramático, la especulación del "¿y si…?". La estética del documento clasificado, las advertencias ominosas, estos son recursos narrativos.
+**Como ficción:** Disfruta la construcción de mundo, el encuadre dramático, la especulación del "¿y si…?". La estética del documento clasificado, las advertencias ominosas — estos son recursos narrativos.
 
 **Como teoría:** Retira el envoltorio narrativo y encontrarás extensiones legítimas de la física y la filosofía RTM. Las especificaciones de ingeniería del Aetherion Mark 1 se derivan de las ecuaciones de campo del 016-017. Los Protocolos N1 operacionalizan las implicaciones del 018. Los Manuales Operacionales expanden el 021-022 hacia orientaciones prácticas.
 
@@ -134,6 +135,8 @@ Ambas lecturas son válidas. La capa narrativa existe porque algunas verdades so
 | Aetherion_Mark1_Prototype | 016, 017 | Implementación de ingeniería |
 | RTM_UFF_Ghost_Projects | 017 | Extensiones teóricas avanzadas |
 | N1_ARCHITECT_PROTOCOL | 018 | Implicaciones operacionales |
+| Manuales Operacionales (Búho/Lanza) | 022 | Expansión filosófica |
+| Manuales Operacionales (Sinfonía Multiescala) | 021 | Protocolos prácticos para la resonancia, la creatividad y la coherencia colectiva |
 
 ---
 

@@ -1,0 +1,43 @@
+{
+  "test1": {
+    "status": "PLAUSIBLE",
+    "n_processors": 31
+  },
+  "test2": {
+    "naive_alpha": 0.2266,
+    "naive_r2": 0.1987,
+    "odr_alpha": -0.259,
+    "odr_alpha_se": 0.0488,
+    "odr_gamma": 0.1388,
+    "odr_gamma_se": 0.0105
+  },
+  "test3": {
+    "year_qubits_rho": 0.7618,
+    "partial_r": -0.7083,
+    "partial_p": 0.0,
+    "residualized_slope": -0.259
+  },
+  "test4": {
+    "note": "see output for era-specific slopes"
+  },
+  "test5": {
+    "boot_alpha": -0.2498,
+    "boot_alpha_std": 0.0865,
+    "ci_alpha": [
+      -0.3817,
+      -0.0384
+    ],
+    "boot_gamma": 0.1365,
+    "ci_gamma": [
+      0.1066,
+      0.1621
+    ]
+  },
+  "test6": {
+    "loo_range": [
+      -0.304,
+      -0.1846
+    ],
+    "alpha_no_condor_seattle": -0.1249
+  }
+}

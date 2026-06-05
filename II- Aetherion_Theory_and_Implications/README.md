@@ -1,6 +1,6 @@
 # II - Aetherion Theory and Implications
 
-This folder contains the most speculative extension of RTM: **Aetherion**, a theoretical program exploring vacuum energy extraction, propulsion without propellant, and the physical architecture of multiversal navigation.
+This folder contains the most speculative extension of RTM: **Aetherion** — a theoretical program exploring vacuum energy extraction, propulsion without propellant, and the physical architecture of multiversal navigation.
 
 ---
 

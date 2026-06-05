@@ -8,14 +8,14 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║      INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ITTA)    ║
-    ║                                                                  ║
-    ║                "El calor fluye de lo caliente a lo frío.         ║
-    ║                A menos que la topología diga lo contrario."      ║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔═════════════════════════════════════════════════════════════════════╗
+    ║                                                                     ║
+    ║      INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ITTA)       ║
+    ║                                                                     ║
+    ║                "El calor fluye de lo caliente a lo frío.            ║
+    ║                A menos que la topología diga lo contrario."         ║
+    ║                                                                     ║
+    ╚═════════════════════════════════════════════════════════════════════╝
 
 
 ## Tabla de Contenidos
@@ -122,18 +122,18 @@ Enfriadores Peltier:
 
 ### 3.4 La Capacidad Faltante
 
-    ┌────────────────────────────────────────────────────────────────────┐
-    │                                                                    │
-    │   LO QUE PODEMOS HACER:         LO QUE NO PODEMOS HACER:           │
-    │                                                                    │
-    │   ✓ Conducir calor              ✗ Conducir solo en una dirección   │
-    │   ✓ Aislar                      ✗ Aislamiento perfecto (R = ∞)     │
-    │   ✓ Bombear calor (con energía) ✗ Bombear eficientemente (>50% Carnot) │
-    │   ✓ Distribuir calor            ✗ Concentrar calor pasivamente     │
-    │                                                                    │
-    │   RTM promete TODO esto.                                           │
-    │                                                                    │
-    └────────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────────────┐
+    │                                                                          │
+    │   LO QUE PODEMOS HACER:         LO QUE NO PODEMOS HACER:                 │
+    │                                                                          │
+    │   ✓ Conducir calor              ✗ Conducir solo en una dirección        │
+    │   ✓ Aislar                      ✗ Aislamiento perfecto (R = ∞)          │
+    │   ✓ Bombear calor (con energía) ✗ Bombear eficientemente (>50% Carnot)  │
+    │   ✓ Distribuir calor            ✗ Concentrar calor pasivamente          │
+    │                                                                          │
+    │   RTM promete TODO esto.                                                 │
+    │                                                                          │
+    └──────────────────────────────────────────────────────────────────────────┘
 
 ---
 
@@ -265,9 +265,9 @@ Control activo del flujo de calor:
     │                                                                   │
     │   ESTADO APAGADO:                ESTADO ENCENDIDO:                │
     │                                                                   │
-    │   CALIENTE │▓▓▓▓▓▓▓▓▓▓│ FRÍO    CALIENTE │░░░░░░░░░░│ FRÍO        │
-    │            │▓▓ α ALTO ▓│                  │░░ α BAJO ░│            │
-    │            │▓▓▓▓▓▓▓▓▓▓▓│                  │░░░░░░░░░░░│            │
+    │   CALIENTE │▓▓▓▓▓▓▓▓▓▓▓│ FRÍO    CALIENTE│░░░░░░░░░░░│ FRÍO       │
+    │            │▓▓ α ALTO ▓│                 │░░ α BAJO ░│            │
+    │            │▓▓▓▓▓▓▓▓▓▓▓│                 │░░░░░░░░░░░│            │
     │            ═══╳═════════                  ═══════════════►        │
     │            k → 0                          k = k_max               │
     │                                                                   │
@@ -306,8 +306,8 @@ La Ley de Moore continúa pero el enfriamiento no puede seguir el ritmo:
     │           │                              │                         │
     │      ╱────┴────╲                   ╱─────┴─────╲                   │
     │     ╱           ╲                 ╱             ╲                  │
-    │    ╱  dispersión  ╲              ╱  dispersión   ╲                 │
-    │   ╱    gradual     ╲            ╱   INSTANTÁNEA   ╲                │
+    │    ╱  dispersión ╲               ╱  dispersión   ╲                 │
+    │   ╱    gradual    ╲             ╱   INSTANTÁNEA   ╲                │
     │  ════════════════════          ══════════════════════              │
     │                                                                    │
     │   k = 400 W/m·K                k_eff = 100,000 W/m·K               │
@@ -353,7 +353,7 @@ Barrera de α alto bloquea el ingreso de calor:
     │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     │
     │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     │
     │   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     │
-    │   ▓▓▓▓▓▓▓▓▓▓▓▓ BARRERA DE α ALTO (k → 0) ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     │
+    │   ▓▓▓▓▓▓▓▓▓▓▓▓ BARRERA DE α ALTO (k → 0) ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     │
     │   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     │
     │   ┌────────────────────────────────────────────────────────────┐   │
     │   │                                                            │   │

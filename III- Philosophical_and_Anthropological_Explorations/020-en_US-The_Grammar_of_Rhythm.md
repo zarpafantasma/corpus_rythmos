@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/apollo.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/apollo.png" width="200" alt="Diagrama de Apolo">
 
 # The Grammar of Rhythm
 **Unifying Life, Mind, and Matter under RTM**
@@ -12,11 +12,11 @@
 
 **Abstract**
 
-Time does not simply pass; it **learns** the shapes it moves through. A heartbeat, a thought, a step across a room, each keeps tempo with the size of the structure that carries it. This book names that relation **Multiscale Temporal Relativity (RTM)**: within a coherent window, the proper duration $`T`$ of a process follows the characteristic length $`L`$ that sustains it, and the relation is a slope $`\alpha`$ that says how time leans on form.
+Time does not simply pass; it **learns** the shapes it moves through. A heartbeat, a thought, a step across a room—each keeps tempo with the size of the structure that carries it. This book names that relation **Multiscale Temporal Relativity (RTM)**: within a coherent window, the proper duration $`T`$ of a process follows the characteristic length $`L`$ that sustains it, and the relation is a slope $`\alpha`$ that says how time leans on form.
 
-We keep the poetry, and we keep the proof. The scientific spine is simple and strict: $`\alpha`$ **is estimated only as a multi-point log–log slope of** $`\log T`$ **on** $`\log L`$ inside windows that pass collapse and regularity checks. When the world chooses other grammars, small-world shortcuts, for example, we say so ($`T \sim \log L`$) rather than forcing power. Signals like spectral slopes $`\beta`$, phase-locking, coherence, or echo/delay measures are welcomed as **auxiliary** companions to the story, illuminating, never substituting, and never converted into $`\alpha`$ by universal formula.
+We keep the poetry, and we keep the proof. The scientific spine is simple and strict: $`\alpha`$ **is estimated only as a multi-point log–log slope of** $`\log T`$ **on** $`\log L`$ inside windows that pass collapse and regularity checks. When the world chooses other grammars—small-world shortcuts, for example—we say so ($`T \sim \log L`$) rather than forcing power. Signals like spectral slopes $`\beta`$, phase-locking, coherence, or echo/delay measures are welcomed as **auxiliary** companions to the story—illuminating, never substituting, and never converted into $`\alpha`$ by universal formula.
 
-With that discipline, RTM becomes a lens for life, memory, intelligence, consciousness, and design: how $`\alpha`$**-bands** stabilize meaning, how gradients $`\nabla\alpha`$ channel energy and information, how failure (NO_COLLAPSE, LOG-SCALING, MULTI-REGIME) teaches where the tale must change scales. The philosophical arc is that coherence is not an ornament but a covenant between structure and time; the empirical arc is that this covenant can be **measured**, **falsified**, and **repaired**. We write in two voices, lyric and technical, so that the reader can feel the rhythm and verify it, in the same breath.
+With that discipline, RTM becomes a lens for life, memory, intelligence, consciousness, and design: how $`\alpha`$**-bands** stabilize meaning, how gradients $`\nabla\alpha`$ channel energy and information, how failure (NO_COLLAPSE, LOG-SCALING, MULTI-REGIME) teaches where the tale must change scales. The philosophical arc is that coherence is not an ornament but a covenant between structure and time; the empirical arc is that this covenant can be **measured**, **falsified**, and **repaired**. We write in two voices—lyric and technical—so that the reader can feel the rhythm and verify it, in the same breath.
 
 **Chapter 1 · Life — Rhythm That Sustains**
 
@@ -24,11 +24,11 @@ With that discipline, RTM becomes a lens for life, memory, intelligence, conscio
 
 **1.1 A promise between structure and time (poetic prelude)**
 
-Life is not a straight line, it is a **held tempo**. A capillary remembers how long blood should linger; a lung remembers how long air should stay; a limb remembers how long a step should take. Duration is not arbitrary. It leans on the size of the form that bears it. When form frays, time forgets. When form returns, time keeps time again.
+Life is not a straight line—it is a **held tempo**. A capillary remembers how long blood should linger; a lung remembers how long air should stay; a limb remembers how long a step should take. Duration is not arbitrary. It leans on the size of the form that bears it. When form frays, time forgets. When form returns, time keeps time again.
 
 **1.2 The claim (technical statement)**
 
-Within a coherent window, one mechanism, one effective geometry, the **proper duration** $`T`$ of a process scales with a characteristic **length** $`L`$ as
+Within a coherent window—one mechanism, one effective geometry—the **proper duration** $`T`$ of a process scales with a characteristic **length** $`L`$ as
 
 ``` math
 T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (multi-point slope estimated on a collapse-valid window).}
@@ -40,15 +40,15 @@ We estimate $`\alpha`$ only by regressing $`\log T`$ on $`\log L`$ with errors-i
 
 **1.3 What “size” and “time” mean in living systems**
 
-- **Structural length** $`L`$**:** a mechanism-tied scale, vessel path length or radius, membrane or dendritic cable length, fiber/axon span, cortical wavelength $`\lambda/2`$, organismal body length, or a validated surrogate that preserves geometry.
+- **Structural length** $`L`$**:** a mechanism-tied scale—vessel path length or radius, membrane or dendritic cable length, fiber/axon span, cortical wavelength $`\lambda/2`$, organismal body length, or a validated surrogate that preserves geometry.
 
-- **Proper time** $`T`$**:** the process duration coherent with that structure, circulation time, diffusion or reaction half-time, oscillation period $`T = 1/f`$, gait cycle, developmental stage time, turnover time.
+- **Proper time** $`T`$**:** the process duration coherent with that structure—circulation time, diffusion or reaction half-time, oscillation period $`T = 1/f`$, gait cycle, developmental stage time, turnover time.
 
 - **Windows:** keep mechanism and metric constant (transport law, loading, topology). If mechanisms mix or metrics shift, report **MULTI-REGIME** or **NO_COLLAPSE** rather than averaging.
 
 **1.4 Lyric Box · On breath**
 
-Breath is a hinge between distances. The chest opens to the measure of its bones; alveoli count quietly, like beads. Blood does not rush because it can, it lingers because it must, keeping an appointment with the length of its corridors. What we name “rest” is the hourglass a body can lift without spilling.
+Breath is a hinge between distances. The chest opens to the measure of its bones; alveoli count quietly, like beads. Blood does not rush because it can—it lingers because it must, keeping an appointment with the length of its corridors. What we name “rest” is the hourglass a body can lift without spilling.
 
 *(Bridge: in the chapters ahead, choosing the structural scale* $`L`$ *fixes the span a process can bear; the slope* $`\alpha`$*tells how* $`T`$ *keeps pace with* $`L`$ *within that span.)*
 
@@ -140,7 +140,7 @@ $`L`$ as limb length or airway path; $`T`$ as cycle period. $`\alpha \approx 1`$
 
 **1.11 Lyric coda · What life protects**
 
-Life protects **intervals**. Not just a heartbeat, but the **right** length of a heartbeat; not just a breath, but the **right** length of a breath. The word for that rightness here is $`\alpha`$, a modest name for a covenant: how far a structure reaches and how long a process is allowed to become itself.
+Life protects **intervals**. Not just a heartbeat, but the **right** length of a heartbeat; not just a breath, but the **right** length of a breath. The word for that rightness here is $`\alpha`$—a modest name for a covenant: how far a structure reaches and how long a process is allowed to become itself.
 
 **1.12 What this chapter does not do**
 
@@ -160,7 +160,7 @@ To sustain life is to keep a workable $`\alpha`$**-band**: a structural span $`L
 
 **2.1 Poetic prelude · The fold**
 
-Memory is a fold the present makes to touch itself later. A dendrite tucks a signal under its branch; a map in cortex creases the world so it can be carried. We do not store things, we store **durations** shaped by **distances**. When the fold holds, the future arrives already half-remembered.
+Memory is a fold the present makes to touch itself later. A dendrite tucks a signal under its branch; a map in cortex creases the world so it can be carried. We do not store things—we store **durations** shaped by **distances**. When the fold holds, the future arrives already half-remembered.
 
 *(Bridge: in RTM, a “fold” is the pairing of a structural scale* $`L`$ *with a proper duration* $`T`$ *that keeps pace through a stable slope* $`\alpha`$ *measured on a collapse-valid window.)*
 
@@ -182,7 +182,7 @@ We estimate $`\alpha`$ by errors-in-variables regression (ODR/TLS or Theil–Sen
 
 - **Proper time** $`T`$**:** STDP/plasticity window width; consolidation delay; retention half-life; replay cycle period; working-memory decay to criterion; retrieval latency at fixed accuracy.
 
-**Windows.** Keep mechanism, state, and task constant. Mixing (e.g., consolidation plus rehearsal) breaks collapse, report **MULTI-REGIME** or segment slopes with a registered breakpoint.
+**Windows.** Keep mechanism, state, and task constant. Mixing (e.g., consolidation plus rehearsal) breaks collapse—report **MULTI-REGIME** or segment slopes with a registered breakpoint.
 
 **2.4 Lyric Box · The library of distances**
 
@@ -278,7 +278,7 @@ If retrieval uses hubs or addressable indices, timing follows $`T \sim \log L`$;
 
 **2.12 Lyric coda · What remembering really keeps**
 
-What we keep is not the picture but the **interval** needed to find it again. We keep the time a structure asks of us, the minute a corridor requires, the breath a sentence takes. To remember is to honor that exchange: a length for a duration, a distance for a stay.
+What we keep is not the picture but the **interval** needed to find it again. We keep the time a structure asks of us—the minute a corridor requires, the breath a sentence takes. To remember is to honor that exchange: a length for a duration, a distance for a stay.
 
 **2.13 What this chapter does not do**
 
@@ -290,7 +290,7 @@ What we keep is not the picture but the **interval** needed to find it again. We
 
 **2.14 Take-home**
 
-Memory is a **discipline of folds**, pairing structural spans $`L`$ with durations $`T`$ so that a slope $`\alpha`$ holds. The poetry is the image of a corridor lit just long enough; the science is the slope that proves the light was set to the corridor’s length.
+Memory is a **discipline of folds**—pairing structural spans $`L`$ with durations $`T`$ so that a slope $`\alpha`$ holds. The poetry is the image of a corridor lit just long enough; the science is the slope that proves the light was set to the corridor’s length.
 
 **Chapter 3 · Intelligence — The Adaptive Dance**
 
@@ -298,7 +298,7 @@ Memory is a **discipline of folds**, pairing structural spans $`L`$ with duratio
 
 **3.1 Poetic prelude · The leap that lands**
 
-Intelligence is the art of **arriving**, not just moving. It is the knack for choosing a structure that will bear the time you are about to spend. The expert does not merely think faster; they **stand in the right-sized place**. From there, answers feel close, not because distance vanished, but because distance and duration made a pact.
+Intelligence is the art of **arriving**—not just moving. It is the knack for choosing a structure that will bear the time you are about to spend. The expert does not merely think faster; they **stand in the right-sized place**. From there, answers feel close, not because distance vanished, but because distance and duration made a pact.
 
 *(Bridge: we will name that pact by a slope* $`\alpha`$ *that ties process time* $`T`$ *to structural size* $`L`$ *inside a coherent window.)*
 
@@ -312,7 +312,7 @@ T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (multi-point slope o
 
 We estimate $`\alpha`$ only by errors-in-variables regression (ODR/TLS or Theil–Sen; optional SIMEX) and publish **NO_COLLAPSE** when diagnostics fail. When the effective metric is shortcut-like (e.g., indexed retrieval), we report $`T \sim \log L`$ instead of forcing a power law.
 
-**Policy (slope-first).** Information scores, spectral $`\beta`$, synchrony/coherence, confidence, and reward proxies are **auxiliary**, interpretive covariates, never substitutes for $`\alpha`$, never converted to $`\alpha`$ by universal formulas.
+**Policy (slope-first).** Information scores, spectral $`\beta`$, synchrony/coherence, confidence, and reward proxies are **auxiliary**—interpretive covariates, never substitutes for $`\alpha`$, never converted to $`\alpha`$ by universal formulas.
 
 **3.3 What “size” and “time” mean for intelligence**
 
@@ -320,7 +320,7 @@ We estimate $`\alpha`$ only by errors-in-variables regression (ODR/TLS or Theil�
 
 - **Proper time** $`T`$**:** decision latency, time-to-criterion, settling time to tolerance, convergence time for a policy/estimator, wall-clock to stable performance.
 
-**Windows.** Hold architecture, optimizer/policy, task distribution, and cost constant. Strategy switches or curriculum changes mid-window break collapse, report **MULTI-REGIME** rather than averaging.
+**Windows.** Hold architecture, optimizer/policy, task distribution, and cost constant. Strategy switches or curriculum changes mid-window break collapse—report **MULTI-REGIME** rather than averaging.
 
 **3.4 Lyric Box · Choosing the room**
 
@@ -412,7 +412,7 @@ $`L`$=problem scale (e.g., syllogism scope); $`T`$=time-to-first-solution at fix
 
 - **Strategy drift inside a bin:** policy changes or instruction creep → curvature; re-bin or enforce fixed policy.
 
-- **Hidden resource caps:** memory/compute limits activate at large $`L`$; segmented slopes emerge, report breakpoints.
+- **Hidden resource caps:** memory/compute limits activate at large $`L`$; segmented slopes emerge—report breakpoints.
 
 - **Shortcut artifacts:** indexing/retrieval compresses distance → **LOG-SCALING**; label explicitly.
 
@@ -420,7 +420,7 @@ $`L`$=problem scale (e.g., syllogism scope); $`T`$=time-to-first-solution at fix
 
 **3.12 Lyric coda · The dance**
 
-A good answer begins before it is spoken. The mind steps into the **room that fits**, and time, relieved, keeps pace. The dance is not speed but **fit**, a slope held steady while the music changes.
+A good answer begins before it is spoken. The mind steps into the **room that fits**, and time, relieved, keeps pace. The dance is not speed but **fit**—a slope held steady while the music changes.
 
 **3.13 What this chapter does not do**
 
@@ -446,7 +446,7 @@ To be conscious is to **keep** a chord from fraying. Sensations, memories, and i
 
 **4.2 The claim (technical statement)**
 
-Within a coherent state, fixed task, arousal, and effective geometry, conscious access operates in windows where
+Within a coherent state—fixed task, arousal, and effective geometry—conscious access operates in windows where
 
 ``` math
 T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (multi-point slope estimated on a collapse-valid window)}.
@@ -454,7 +454,7 @@ T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (multi-point slope e
 
 We estimate $`\alpha`$by errors-in-variables regression (ODR/TLS or Theil–Sen; optional SIMEX), and we publish **NO_COLLAPSE** when diagnostics fail. Where effective topologies provide shortcuts (hub-dominated broadcast), we report $`T \sim \log L`$ rather than forcing a power law.
 
-**Policy (slope-first).** Spectral slope $`\beta`$, PLV/coherence, perturbational indices, ignition thresholds, and delay/echo measures are **auxiliary**, interpretive correlates under explicit models, never substitutes for $`\alpha`$, never converted to $`\alpha`$ by universal formula.
+**Policy (slope-first).** Spectral slope $`\beta`$, PLV/coherence, perturbational indices, ignition thresholds, and delay/echo measures are **auxiliary**—interpretive correlates under explicit models, never substitutes for $`\alpha`$, never converted to $`\alpha`$ by universal formula.
 
 **4.3 What “size” and “time” mean for consciousness**
 
@@ -462,7 +462,7 @@ We estimate $`\alpha`$by errors-in-variables regression (ODR/TLS or Theil–Sen;
 
 - **Proper time** $`T`$**:** evidence accumulation time; access or report latency corrected for motor delay; ignition dwell time; binding window; sustained attention window.
 
-**Windows.** Keep state and mechanism constant: task block, arousal band, and network configuration. Strategy swaps (e.g., attention shifts) or state drifts break collapse, report **MULTI-REGIME** or **NO_COLLAPSE**.
+**Windows.** Keep state and mechanism constant: task block, arousal band, and network configuration. Strategy swaps (e.g., attention shifts) or state drifts break collapse—report **MULTI-REGIME** or **NO_COLLAPSE**.
 
 **4.4 Lyric Box · The window**
 
@@ -588,7 +588,7 @@ Consciousness is an **integrative window**: a structural span $`L`$ held for a d
 
 **5.1 Poetic prelude · How the answer arrives early**
 
-Intuition is the **quiet shortcut** that doesn’t lie. It feels like leaping, but it is mostly **remembering the right size**, standing in a shape that already knows how long the work should take. What looks like magic is a practiced fit: the world offers a span, and we answer with the time that span can hold.
+Intuition is the **quiet shortcut** that doesn’t lie. It feels like leaping, but it is mostly **remembering the right size**—standing in a shape that already knows how long the work should take. What looks like magic is a practiced fit: the world offers a span, and we answer with the time that span can hold.
 
 *(Bridge: we will name the span by a structural scale* $`L`$*, the answer-time by a duration* $`T`$*, and their pact by a slope* $`\alpha`$*measured on a collapse-valid window.)*
 
@@ -622,7 +622,7 @@ A good glance is not speed but **fit**. You place your attention in a bowl the p
 
 - **Template retrieval:** reusing a stored mapping at scale $`L`$ often yields near-linear timing ($`\alpha \approx 1`$) when access and actuation bandwidths are stable.
 
-- **Chunked reasoning:** increasing chunk size raises $`L`$ while avoiding serial search; slopes depend on chunk assembly cost, breakpoints mark the limit of usable chunks (**MULTI-REGIME**).
+- **Chunked reasoning:** increasing chunk size raises $`L`$ while avoiding serial search; slopes depend on chunk assembly cost—breakpoints mark the limit of usable chunks (**MULTI-REGIME**).
 
 - **Similarity kernels & indexing:** if access is effectively logarithmic in span (e.g., addressable memory), timing behaves $`T \sim \log L`$ (non-power).
 
@@ -715,13 +715,13 @@ Fit $`\log T = a + \alpha\log L`$ across conditions (e.g., novice vs. expert).
 
 - **Cue confounds:** larger $`L`$ inadvertently eases the task; match difficulty across levels.
 
-- **Template overreach:** one template fits only part of the span; slopes segment, report **MULTI-REGIME**.
+- **Template overreach:** one template fits only part of the span; slopes segment—report **MULTI-REGIME**.
 
 - **Shortcut masquerade:** true addressing makes $`T \sim \log L`$; label **LOG-SCALING** and stop.
 
 **5.13 Lyric coda · The feel of a true leap**
 
-The best leaps are not far; they are **exact**. You land where the ground was waiting. The answer feels immediate because the scale was right, and time, grateful, did not have to wander.
+The best leaps are not far; they are **exact**. You land where the ground was waiting. The answer feels immediate because the scale was right, and time—grateful—did not have to wander.
 
 **5.14 What this chapter does not do**
 
@@ -741,7 +741,7 @@ Intuition is **fast band-keeping**: choosing a structural scale $`L`$ and a dura
 
 **6.1 Poetic prelude · The house we build for evidence**
 
-Stories are quick; evidence is patient. If we want results that travel, across labs, years, and languages, we must give truth a good house: rooms with clear doors, windows that open, floors that hold. In this book that house is a simple covenant: **structure first, time second, slope from many points, and honesty when the line won’t hold**.
+Stories are quick; evidence is patient. If we want results that travel—across labs, years, and languages—we must give truth a good house: rooms with clear doors, windows that open, floors that hold. In this book that house is a simple covenant: **structure first, time second, slope from many points, and honesty when the line won’t hold**.
 
 *(Bridge: the house rules below keep the lyric alive without letting it rewrite the data.)*
 
@@ -751,7 +751,7 @@ Stories are quick; evidence is patient. If we want results that travel, across l
 
 2.  **Windows matter:** bins are pre-registered (scale $`L`$, clock $`T`$, bounds, changepoints, exclusions). Mixed mechanisms ⇒ **MULTI-REGIME** or **NO_COLLAPSE**.
 
-3.  **Auxiliaries ≠** $`\alpha`$**:** spectral $`\beta`$, PLV/coherence, echo/delay, information scores are **auxiliary**, never substitutes, never converted by universal formulas.
+3.  **Auxiliaries ≠** $`\alpha`$**:** spectral $`\beta`$, PLV/coherence, echo/delay, information scores are **auxiliary**—never substitutes, never converted by universal formulas.
 
 4.  **Topology honesty:** if effective geometry implies $`T \sim \log L`$, report **LOG-SCALING**; do not force a power law.
 
@@ -883,7 +883,7 @@ A failed line is a map: it shows where the river forks, where the ground lifts, 
 
 **6.14 Closing coda · Culture as a measurable promise**
 
-A culture of coherence is not anti-poetry; it is poetry with scaffolding. We keep the song, and we show the score. When future readers open this book, may they hear both: the rhythm of a world that keeps time with its forms, and the quiet proof that the rhythm was really there.
+A culture of coherence is not anti-poetry; it is poetry with scaffolding. We keep the song—and we show the score. When future readers open this book, may they hear both: the rhythm of a world that keeps time with its forms, and the quiet proof that the rhythm was really there.
 
 **Appendix A · Concepts & Definitions (Technical Only)**
 
@@ -1050,7 +1050,7 @@ For every $`\alpha`$-claim include:
 
 - **Placebos:**
 
-  - *Clock placebo:* rescale timestamps or add jitter, $`\widehat{\alpha}`$ should remain within CI if structure drives the slope.
+  - *Clock placebo:* rescale timestamps or add jitter—$`\widehat{\alpha}`$ should remain within CI if structure drives the slope.
 
   - *Structure placebo:* shuffle spatial structure (hold clock) — collapse should fail or $`\widehat{\alpha}`$ drift if structure is causal.
 
@@ -1061,7 +1061,7 @@ $`\alpha`$ is a **measured slope** of $`\log T`$ on $`\log L`$ within collapse-v
 
 **Appendix B · Protocols (Technical Only)**
 
-**Policy.** In all protocols below, $`\alpha`$ is estimated **only** as a multi-point log–log slope of $`\log T`$ on $`\log L`$ within a collapse-valid window. Spectral slopes ($`\beta`$), PLV/coherence, echo/delay measures, and related indices are **auxiliary**, they are reported with uncertainty but never converted to $`\alpha`$ by universal formulas.
+**Policy.** In all protocols below, $`\alpha`$ is estimated **only** as a multi-point log–log slope of $`\log T`$ on $`\log L`$ within a collapse-valid window. Spectral slopes ($`\beta`$), PLV/coherence, echo/delay measures, and related indices are **auxiliary**—they are reported with uncertainty but never converted to $`\alpha`$ by universal formulas.
 
 **B.1 Heart Rate Variability (HRV) — Auxiliary Observables (Not** $`\mathbf{\alpha}`$**)**
 
@@ -1453,7 +1453,7 @@ Fail any → **NO_COLLAPSE** (unless semi-log linear ⇒ **LOG-SCALING**).
 
 **D.8 Ethics & Communication**
 
-- **Equivalence of value:** A clean **NO_COLLAPSE** is as informative as a positive slope, it maps the boundary of mechanism.
+- **Equivalence of value:** A clean **NO_COLLAPSE** is as informative as a positive slope—it maps the boundary of mechanism.
 
 - **No euphemisms:** Do not rename **LOG-SCALING** as “weak scaling.” State it plainly and model it appropriately.
 
@@ -1477,14 +1477,14 @@ Fail any → **NO_COLLAPSE** (unless semi-log linear ⇒ **LOG-SCALING**).
 - **Q:** Semi-log works; can I still quote $`\alpha`$?\
   **A:** No. Label **LOG-SCALING** and report $`b`$.
 
-- **Q:** Collapse fails but auxiliaries look great, can I infer $`\alpha`$from $`\beta`$?\
+- **Q:** Collapse fails but auxiliaries look great—can I infer $`\alpha`$from $`\beta`$?\
   **A:** No. Auxiliaries remain auxiliaries; no universal conversion.
 
-- **Q:** My span is small (0.3 decades) but fit looks straight, OK to report?\
+- **Q:** My span is small (0.3 decades) but fit looks straight—OK to report?\
   **A:** Exploratory only; expand span or mark **NO_COLLAPSE** (insufficient granularity).
 
 **Appendix D Summary.**\
-Negative outcomes are **evidence**: they locate boundaries, reveal wrong metrics, expose regime mixing, and point to alternate grammars (e.g., $`T \sim \log L`$). Treat **NO_COLLAPSE**, **LOG-SCALING**, **MULTI-REGIME**, and **AUXILIARY-ONLY** as publishable first-class results with the same care, diagnostics, captions, manifests, as positive $`\alpha`$-findings.
+Negative outcomes are **evidence**: they locate boundaries, reveal wrong metrics, expose regime mixing, and point to alternate grammars (e.g., $`T \sim \log L`$). Treat **NO_COLLAPSE**, **LOG-SCALING**, **MULTI-REGIME**, and **AUXILIARY-ONLY** as publishable first-class results with the same care—diagnostics, captions, manifests—as positive $`\alpha`$-findings.
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
 

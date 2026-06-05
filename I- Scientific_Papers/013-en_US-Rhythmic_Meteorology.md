@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
 # Rhythmic Meteorology 
 **(RTM-Atmo)**  
@@ -15,27 +15,29 @@ We propose Rhythmic Meteorology (RTM-Atmo): an operational application of Tempor
 
 **Computational validation.** We implement and test the RTM-Atmo framework through three simulation suites. S1 demonstrates τ(L) scaling for six atmospheric regimes, recovering α values ranging from 1.2 (tropical disturbances) to 2.6 (blocking highs) with mean estimation error of 1.1%, and validates data collapse under rescaling (CV = 0.20). S2 applies RTM-Atmo to tropical cyclogenesis detection, showing that α-drop precedes genesis by 18-30 hours on average, providing earlier warning than traditional vorticity thresholds (6-12 h lead). Detection skill achieves POD = 0.86, FAR = 0.14, CSI = 0.76 in simulated ensemble tests. S3 demonstrates automatic regime classification based on α boundaries: Advective (α \< 1.5), Hierarchical (α = 1.5-2.0), Coherent (α = 2.0-2.5), Strongly Coherent (α \> 2.5), achieving 87% overall classification accuracy with F1 scores of 0.83-0.93 across classes.
 
-We design falsifiable tests on reanalyses and satellite archives: slope stability and data collapse within regimes, discrete α-shifts at onsets, and skill over persistence/threshold baselines. If validated, α becomes a lightweight, reproducible layer for forecasters, complementary to NWP/ML guidance, offering early warnings tied to physically interpretable changes in multiscale organization.
+We design falsifiable tests on reanalyses and satellite archives: slope stability and data collapse within regimes, discrete α-shifts at onsets, and skill over persistence/threshold baselines. If validated, α becomes a lightweight, reproducible layer for forecasters—complementary to NWP/ML guidance—offering early warnings tied to physically interpretable changes in multiscale organization.
 
 Finally, to establish a rigorous topological baseline, we contrast these adaptive thermodynamic systems with the pure mechanics of the Earth. Although seismology falls outside the meteorological domain, a control analysis of 51 historical earthquakes ($`M_{w}`$ 5.7 to 9.2) reveals that seismic rupture time scales with fault length under an exponent of $`\mathbf{\alpha}\mathbf{= \ 1.003\ }\mathbf{\pm}\mathbf{0.016}`$. This exact collapse into the ballistic propagation regime ($`p\  = \ 0.876`$ against the null hypothesis $`\alpha = \ 1`$) demonstrates that when the RTM framework is applied to linear mechanical systems, it perfectly recovers classical Newtonian physics. This consolidates the mathematical universality of the $`\alpha`$ exponent before applying it to atmospheric chaos.
 
-**Systematic empirical validation**$`\mathbf{\rightarrow}`$**(APPENDIX B)**. We validate the RTM-Atmo framework through a systematic analysis of 48 tropical cyclones, including 26 Rapid Intensification (RI) events, in the East Pacific basin (2021-2024) using the IBTrACS dataset. Initial heuristic models relied on categorical binning; however, to absorb inherent satellite measurement noise ($`\sim 5`$ kt), we deployed a Continuous Errors-in-Variables (ODR) pipeline. The robust analysis demonstrates that the wind-pressure coupling exponent ($`\alpha`$) acts as a strictly continuous, predictive proxy for structural coherence. We identify a critical topological "danger zone" ($`\alpha < \ 1.25`$) where storms violently transition into a 'Superfluid' state. The predictive ODR slope ($`- 99.02\  \pm 11.99`$) proves that microscopic topological tightening triggers massive kinetic explosions. Crucially, this coherence collapse precedes the kinetic wind explosion by an operational mean of 11.6 hours.
+**Systematic empirical validation** $`\mathbf{\rightarrow}`$ **(APPENDIX B)**. We validate the RTM-Atmo framework through a systematic analysis of 48 tropical cyclones — including 26 Rapid Intensification (RI) events — in the East Pacific basin (2021-2024) using the IBTrACS dataset. To absorb inherent satellite measurement noise ($`\sim 5`$ kt), we deployed a Continuous Errors-in-Variables (ODR) pipeline. The analysis reveals that the wind-pressure coupling exponent ($`\alpha`$) varies systematically with storm intensification rate (ODR slope $`= -99.02 \pm 11.99`$). Storms crossing $`\alpha < 1.25`$ are associated with Rapid Intensification; crucially, the sharpest $`\alpha`$ -drop precedes the kinetic wind explosion by an operational mean of **11.6 hours** — the surviving operational finding.
 
-We also validate the RTM transport theory through a 5-domain analysis of climate extremes$`\rightarrow`$**(APPENDIX D)** and a solid-earth ballistic control test$`\rightarrow`$**(APPENDIX C)**. Utilizing ERA5 reanalysis and Monte Carlo spatial variance simulations, we demonstrate that global climate operates dynamically near a critical regime ($`\beta = \ 0.98`$), while extreme events fractionate into distinct RTM transport classes. Daily precipitation strictly obeys ballistic limits (7%°C), whereas variance-corrected Intensity-Duration-Frequency (IDF) curves and heatwaves exhibit robust sub-diffusive scaling ($`\beta = \  - 0.75`$ and $`\alpha = \ 0.43\  \pm 0.002`$, respectively), indicating long-term multiscale memory. Conversely, the seismic control test (absorbing seismogram inversion noise via ODR) yields a mathematically perfect ballistic exponent of $`\alpha = \ 1.007\  \pm 0.016`$. This conclusively proves that extreme natural phenomena, whether atmospheric, climatic, or tectonic, are deterministic phase transitions strictly governed by multiscale topological scaling.
+We also validate the RTM transport theory through a 5-domain analysis of climate extremes $`\rightarrow`$ **(APPENDIX D)** and a solid-earth ballistic control test $`\rightarrow`$ **(APPENDIX C)**. Utilizing ERA5 reanalysis and Monte Carlo spatial variance simulations, we demonstrate that global climate operates dynamically near a critical regime ($`\beta = \ 0.98`$), while extreme events fractionate into distinct RTM transport classes. Daily precipitation strictly obeys ballistic limits (7%°C), whereas variance-corrected Intensity-Duration-Frequency (IDF) curves and heatwaves exhibit robust sub-diffusive scaling ($`\beta = \  - 0.75`$ and $`\alpha = \ 0.43\  \pm 0.002`$, respectively), indicating long-term multiscale memory. Conversely, the seismic control test (absorbing seismogram inversion noise via ODR) yields a mathematically perfect ballistic exponent of $`\alpha = \ 1.007\  \pm 0.016`$. These results are consistent with extreme natural phenomena — atmospheric, climatic, and tectonic — being governed by multiscale topological scaling, and establish RTM as a descriptive framework convergent with known physical scaling laws.
 
-Additionally, we extend the RTM framework into the densest planetary fluid by analyzing global ocean dynamics and turbulence$`\rightarrow`$**(APPENDIX E)**. Utilizing data from AVISO+ satellite altimetry and over 1,000 global drifter pairs, we evaluated the mesoscale Kinetic Energy (KE) spectrum and turbulent pair-dispersion. To strictly correct for the immense observational noise inherent to ocean currents and satellite sensor drift, we deployed an Errors-in-Variables (ODR) model and Monte Carlo variance reconstructions. The robust analysis proves that oceanic pair-dispersion converges mathematically to the theoretical Richardson limit ($`n\  = \ 2.913\  \pm 0.337`$), identical to the optimal Lévy Flight transport class ($`\alpha = \ 3.0`$). Furthermore, the variance-corrected KE spectrum confirms that macroscopic fluid energy does not dissipate randomly, but cascades through a strict hierarchy of topological constraints (ODR slope = -0.525). This confirms the oceans operate as a mathematically predictable, scale-invariant multiscale network.
+Additionally, we extend the RTM framework into the densest planetary fluid by analyzing global ocean dynamics and turbulence $`\rightarrow`$ **(APPENDIX E)**. Utilizing data from AVISO+ satellite altimetry and over 1,000 global drifter pairs, we evaluated the mesoscale Kinetic Energy (KE) spectrum and turbulent pair-dispersion. To strictly correct for the immense observational noise inherent to ocean currents and satellite sensor drift, we deployed an Errors-in-Variables (ODR) model and Monte Carlo variance reconstructions. The robust analysis proves that oceanic pair-dispersion converges mathematically to the theoretical Richardson limit ($`n\  = \ 2.913\  \pm 0.337`$), identical to the optimal Lévy Flight transport class ($`\alpha = \ 3.0`$). Furthermore, the variance-corrected KE spectrum confirms that macroscopic fluid energy does not dissipate randomly, but cascades through a strict hierarchy of topological constraints (ODR slope = -0.525). This confirms the oceans operate as a mathematically predictable, scale-invariant multiscale network.
 
-Finally, we validate the RTM framework for operational tornado warning improvement**→(APPENDIX F)**. Utilizing the TorNet 2021 benchmark dataset (MIT Lincoln Laboratory) comprising 1,105 radar records from 9 major tornado outbreaks, we demonstrate that the RTM scaling exponent (α) discriminates between confirmed tornadoes (TOR) and false alarm warnings (WRN) with a large effect size (Cohen's d = 0.96, p \< 10⁻⁴⁹). The framework replicates across 7 of 9 outbreaks (78%), with the correlation between rotation differential and effect size reaching r = 0.96. Crucially, RTM does not propose earlier tornado detection, mesocyclone algorithms already achieve high POD. Rather, α addresses the persistent false alarm problem (FAR ≈ 70%) by identifying rotation signatures lacking complete vortical coupling across scales. Deployed as a secondary filter, the threshold α \> 0.85 reduces FAR by 16 percentage points while maintaining 85% POD, matching 30 years of cumulative NWS improvement in a single diagnostic layer.
+Finally, we validate the RTM framework for operational tornado warning improvement**→(APPENDIX F)**. Utilizing the TorNet 2021 benchmark dataset (MIT Lincoln Laboratory) comprising 1,105 radar records from 9 major tornado outbreaks, we demonstrate that the RTM scaling exponent (α) discriminates between confirmed tornadoes (TOR) and false alarm warnings (WRN) with a large effect size (Cohen's d = 0.96, p \< 10⁻⁴⁹). The framework replicates across 7 of 9 outbreaks (78%), with the correlation between rotation differential and effect size reaching r = 0.96. Crucially, RTM does not propose earlier tornado detection—mesocyclone algorithms already achieve high POD. Rather, α addresses the persistent false alarm problem (FAR ≈ 70%) by identifying rotation signatures lacking complete vortical coupling across scales. Deployed as a secondary filter, the threshold α \> 0.85 reduces FAR by 16 percentage points while maintaining 85% POD—matching 30 years of cumulative NWS improvement in a single diagnostic layer.
+
+**Red Team caveat (April 2026).** Independent adversarial validation (13 tests, 3 analytical rounds) confirmed that $`\alpha_{\min}`$ correlates with maximum wind speed at $`\rho = 0.957`$. After controlling for wind speed, $`\alpha`$ adds no independent predictive information ($`\Delta R^2 < 0.015`$, all partial correlations non-significant). The operational value is therefore in the **timing** of the $`\alpha`$ -drop (6-18 hours before kinetic explosion), not in $`\alpha`$ as an independent structural predictor beyond wind. The ODR slope is real; its interpretation as "topological tightening triggering kinetic explosions" requires the caveat that $`\alpha`$ and wind are nearly collinear in this dataset. Full audit results: Appendix B.4.
 
 **1. Introduction**
 
 **1.1 Motivation: forecasting the onset problem**
 
-Operational forecasting excels at tracking the **evolution** of well-formed systems yet still struggles with the **onset** of high-impact regimes: tropical cyclogenesis and rapid intensification (RI), explosive cyclogenesis (“weather bombs”), and tornadic outbreaks. These transitions are multiscale reorganizations in which **transport architecture**, how energy, mass, and information propagate across scales, changes abruptly. Traditional indicators (e.g., vorticity thresholds, CAPE, shear) capture ingredients but not the **re-wiring** of pathways that enables fast growth. We seek a compact, quantitative signal of that re-wiring.
+Operational forecasting excels at tracking the **evolution** of well-formed systems yet still struggles with the **onset** of high-impact regimes: tropical cyclogenesis and rapid intensification (RI), explosive cyclogenesis (“weather bombs”), and tornadic outbreaks. These transitions are multiscale reorganizations in which **transport architecture**—how energy, mass, and information propagate across scales—changes abruptly. Traditional indicators (e.g., vorticity thresholds, CAPE, shear) capture ingredients but not the **re-wiring** of pathways that enables fast growth. We seek a compact, quantitative signal of that re-wiring.
 
 **1.2 RTM in brief**
 
-**Multiscale Temporal Relativity (RTM)** states that for a process confined by an effective length $`L`$, the characteristic completion time $`T`$ follows a power law $`T(L) = C\text{ }L^{\alpha}`$ over windows where the mechanism is stable. The exponent $`\alpha`$is an **operational fingerprint** of the **transport class**, diffusive, hierarchical/fractal, guided/partially ballistic, or (heuristically) strongly coherent. In prior domains, **slope stability**, **data collapse** after rescaling by $`L^{\alpha}`$, and **discrete** $`\alpha`$**-shifts** under controlled perturbations serve as falsifiable signatures that a single transport class governs the observed dynamics.
+**Multiscale Temporal Relativity (RTM)** states that for a process confined by an effective length $`L`$, the characteristic completion time $`T`$ follows a power law $`T(L) = C\text{ }L^{\alpha}`$ over windows where the mechanism is stable. The exponent $`\alpha`$ is an **operational fingerprint** of the **transport class**—diffusive, hierarchical/fractal, guided/partially ballistic, or (heuristically) strongly coherent. In prior domains, **slope stability**, **data collapse** after rescaling by $`L^{\alpha}`$, and **discrete** $`\alpha`$ **-shifts** under controlled perturbations serve as falsifiable signatures that a single transport class governs the observed dynamics.
 
 **1.3 Specializing RTM to the atmosphere**
 
@@ -49,17 +51,17 @@ We treat the atmosphere as a layered, driven-dissipative, multiscale medium. Let
 
 We advance three core, testable claims:
 
-1.  **Slope stability & collapse within regimes.** In quasi-stationary regimes (mature cyclones, blocking highs), $`\alpha_{atm}`$is stable over at least one decade in $`L`$, and multiscale curves collapse under rescaling by $`L^{\alpha_{atm}}`$.
+1.  **Slope stability & collapse within regimes.** In quasi-stationary regimes (mature cyclones, blocking highs), $`\alpha_{atm}`$ is stable over at least one decade in $`L`$, and multiscale curves collapse under rescaling by $`L^{\alpha_{atm}}`$.
 
-2.  **Pre-onset** $`\alpha`$**-drop.** Prior to regime transitions (tropical genesis, RI, explosive baroclinic growth), $`\alpha_{atm}`$exhibits a **rapid fall** relative to local baselines and neighboring regions within a 12–48 h window.
+2.  **Pre-onset** $`\alpha`$ **-drop.** Prior to regime transitions (tropical genesis, RI, explosive baroclinic growth), $`\alpha_{atm}`$ exhibits a **rapid fall** relative to local baselines and neighboring regions within a 12–48 h window.
 
-3.  **Added predictive skill.** $`\alpha_{atm}`$improves lead-time skill against persistence and simple thresholds (e.g., $`\mid \zeta \mid`$or CAPE alone) and remains informative after conditioning on standard predictors.
+3.  **Added predictive skill.** $`\alpha_{atm}`$ improves lead-time skill against persistence and simple thresholds (e.g., $`\mid \zeta \mid`$ or CAPE alone) and remains informative after conditioning on standard predictors.
 
 **1.5. Systematic Empirical Validation: Rapid Intensification Predictability and Climate Extremes (APPENDIX B & D)**
 
-One of the greatest operational challenges in modern meteorology is the prediction of Rapid Intensification (RI) in tropical cyclones. Standard forecasting models often fail to capture the explosive, non-linear onset of RI. Under the RTM-Atmo framework, RI is a Topological Bifurcation Event. Before a storm can rapidly convert latent heat into violent kinetic energy, it must first reduce its 'Topological Viscosity' (minimizing $`\alpha`$) to achieve a 'Superfluid' coupling between its pressure deficit and its wind field.
+One of the greatest operational challenges in modern meteorology is the prediction of Rapid Intensification (RI) in tropical cyclones. Standard forecasting models often fail to capture the explosive, non-linear onset of RI. Under the RTM-Atmo framework, RI is a Topological Bifurcation Event in which the wind-pressure coupling exponent $`\alpha`$ decreases systematically before kinetic explosion.
 
-To test this, we move beyond isolated case studies and arbitrary categorical bins. By deploying Continuous Errors-in-Variables (ODR) modeling on 48 recent tropical cyclones, we absorb satellite measurement noise to reveal the true underlying physical scaling. We demonstrate that crossing the continuous superfluid threshold ($`\alpha < \ 1.25`$) is a universal precursor to RI, providing ~11.6 hours of critical operational lead time.
+To test this, we deploy Continuous Errors-in-Variables (ODR) modeling on 48 recent tropical cyclones (26 RI events), mapping $`\alpha_{\min}`$ against maximum intensification rate. The analysis confirms a strong systematic relationship (ODR slope $`= -99.02 \pm 11.99`$), and continuous tracking shows that the sharpest $`\alpha`$ -drop precedes the kinetic RI threshold by an operational mean of **11.6 hours**. This timing lead is the primary operational finding. **Note:** independent adversarial validation (Red Team, April 2026) confirmed that $`\alpha`$ correlates with wind speed at $`\rho = 0.957`$; after controlling for wind, $`\alpha`$ does not provide independent structural information ($`\Delta R^2 < 0.015`$). The "superfluid threshold" ($`\alpha < 1.25`$) is therefore a kinematic description of the wind field, not an independent topological predictor. Full audit: Appendix B.4.
 
 Beyond tropical cyclones, we extended this validation across 5 distinct domains of global climate extremes. By injecting massive spatial variance (simulating 7,000 ERA5 grid cells) to avoid point-estimate ecological fallacies, the data rigorously confirms that the baseline global temperature operates near a Critical regime ($`\beta = \ 0.98`$). However, extreme events fractionate into predictable scaling classes: daily precipitation obeys Ballistic limits, whereas heatwaves (ODR $`\alpha = \ 0.43`$) and rainfall IDF curves (mean $`\beta = \  - 0.75`$) exhibit robust Sub-Diffusive scaling, physically explaining the heavy-tailed clustering of severe weather.
 
@@ -67,19 +69,19 @@ Beyond tropical cyclones, we extended this validation across 5 distinct domains 
 
 While seismic rupture dynamics do not strictly belong to meteorology, validating RTM requires establishing an unquestionable physical baseline. In the atmosphere, we observe highly complex fluids seeking coherence. But what happens when we apply the scaling law to a purely mechanical system devoid of fluid feedback?
 
-An earthquake, the propagation of a fracture through solid rock, represents the ideal ballistic system for this stress test. By applying Orthogonal Distance Regression (ODR) to absorb typical geophysical seismogram inversion noise ($`\sim 15\%`$ variance), we demonstrate that RTM maps linear kinetics with microscopic accuracy ($`\alpha = \ 1.007`$). This perfect mathematical collapse into Newtonian physics grants us the authority to use variations of this exact exponent to predict the non-linear chaos of cyclogenesis and climate extremes.
+An earthquake—the propagation of a fracture through solid rock—represents the ideal ballistic system for this stress test. By applying Orthogonal Distance Regression (ODR) to absorb typical geophysical seismogram inversion noise ($`\sim 15\%`$ variance), we demonstrate that RTM maps linear kinetics with microscopic accuracy ($`\alpha = \ 1.007`$). This perfect mathematical collapse into Newtonian physics grants us the authority to use variations of this exact exponent to predict the non-linear chaos of cyclogenesis and climate extremes.
 
 **1.7. Systematic Empirical Validation: Global Ocean Dynamics and Macroscopic Fluids (APPENDIX E)**
 
 The atmosphere and the ocean are fundamentally coupled complex fluids. If the RTM framework governs the rapid intensification of hurricanes in the atmosphere, its topological scaling laws must mathematically translate to the denser, slower-moving fluid of the global ocean. To subject the framework to this planetary test, we analyzed macroscopic ocean circulation, focusing on turbulent pair-dispersion (the Richardson $`t^{3}`$ law) and the mesoscale Kinetic Energy (KE) spectrum.
 
-Oceanographic data, collected via satellite altimetry and drifter buoys, contains massive systemic noise due to wind shear, wave interactions, and instrumental drift. Initial heuristic studies often rely on static point-estimates that ignore this uncertainty. To strictly isolate the true physical scaling laws, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo simulations to absorb up to 15% calibration noise. The variance-corrected data robustly proves that the ocean behaves as a deterministic, multiscale topological network, where turbulent dispersion perfectly obeys the RTM macroscopic transport limits.
+Oceanographic data—collected via satellite altimetry and drifter buoys—contains massive systemic noise due to wind shear, wave interactions, and instrumental drift. Initial heuristic studies often rely on static point-estimates that ignore this uncertainty. To strictly isolate the true physical scaling laws, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo simulations to absorb up to 15% calibration noise. The variance-corrected data robustly proves that the ocean behaves as a deterministic, multiscale topological network, where turbulent dispersion perfectly obeys the RTM macroscopic transport limits.
 
 **1.9. Systematic Empirical Validation: Tornado Warning False Alarm Reduction (APPENDIX F)**
 
-One of the most persistent operational challenges in severe weather forecasting is the tornado false alarm problem. Despite decades of technological advancement, from the deployment of WSR-88D Doppler radar to dual-polarization upgrades, the National Weather Service (NWS) false alarm rate for tornado warnings has remained stubbornly high, hovering near 70%. This "cry wolf" effect erodes public trust and compliance: when seven of every ten tornado warnings fail to verify, the protective value of the warning system degrades.
+One of the most persistent operational challenges in severe weather forecasting is the tornado false alarm problem. Despite decades of technological advancement—from the deployment of WSR-88D Doppler radar to dual-polarization upgrades—the National Weather Service (NWS) false alarm rate for tornado warnings has remained stubbornly high, hovering near 70%. This "cry wolf" effect erodes public trust and compliance: when seven of every ten tornado warnings fail to verify, the protective value of the warning system degrades.
 
-The fundamental challenge is not detection, modern mesocyclone detection algorithms achieve Probability of Detection (POD) exceeding 90%. The challenge is discrimination: identifying which rotating storms will actually produce surface tornadoes versus those that will remain elevated or dissipate. Traditional approaches rely on ingredient-based thresholds (rotation velocity, CAPE, shear), but these capture potential rather than realized organization.
+The fundamental challenge is not detection—modern mesocyclone detection algorithms achieve Probability of Detection (POD) exceeding 90%. The challenge is discrimination: identifying which rotating storms will actually produce surface tornadoes versus those that will remain elevated or dissipate. Traditional approaches rely on ingredient-based thresholds (rotation velocity, CAPE, shear), but these capture potential rather than realized organization.
 
 Under the RTM-Atmo framework, tornado formation is reconceptualized as a topological phase transition. A tornado requires complete vortical coupling across scales: from the parent mesocyclone (∼10 km) through the tornado-scale vortex (∼100 m) to surface contact. The RTM exponent α, computed as:
 
@@ -89,7 +91,7 @@ Under the RTM-Atmo framework, tornado formation is reconceptualized as a topolog
 
 captures this multiscale coupling efficiency. High α indicates coherent energy cascade from storm-scale to surface; low α indicates incomplete coupling where rotation exists aloft but fails to organize downward.
 
-To validate this hypothesis, we subjected the framework to the TorNet 2021 benchmark dataset, a rigorously curated collection of NEXRAD radar data from MIT Lincoln Laboratory. By deploying the same Errors-in-Variables methodology used throughout this work, we demonstrate that α provides statistically robust discrimination between confirmed tornadoes and false alarms, with the critical finding that α functions as a FAR reduction tool rather than a competing detection algorithm.
+To validate this hypothesis, we subjected the framework to the TorNet 2021 benchmark dataset—a rigorously curated collection of NEXRAD radar data from MIT Lincoln Laboratory. By deploying the same Errors-in-Variables methodology used throughout this work, we demonstrate that α provides statistically robust discrimination between confirmed tornadoes and false alarms, with the critical finding that α functions as a FAR reduction tool rather than a competing detection algorithm.
 
 The single inverted case (outbreak 210317) reveals the physical boundary conditions of the framework: when anomalous precipitation loading (KDP) dominates the radar signature, α measures the topology of the hydrometeor field rather than the vorticity field. This failure mode is diagnosable from polarimetric context, providing a natural gating mechanism for operational deployment.
 
@@ -99,15 +101,15 @@ The single inverted case (outbreak 210317) reveals the physical boundary conditi
 
 We restate RTM’s four postulates for a geophysical fluid:
 
-- **P1 — Scale semigroup.** Rescaling a characteristic feature length $`L`$ by $`\lambda_{1}`$ then $`\lambda_{2}`$ is equivalent to rescaling by $`\lambda_{1}\lambda_{2}`$ for any *mechanism-invariant* observable time $`T`$(e.g., lifetime, e-folding time of autocorrelation, lead time to threshold).
+- **P1 — Scale semigroup.** Rescaling a characteristic feature length $`L`$ by $`\lambda_{1}`$ then $`\lambda_{2}`$ is equivalent to rescaling by $`\lambda_{1}\lambda_{2}`$ for any *mechanism-invariant* observable time $`T`$ (e.g., lifetime, e-folding time of autocorrelation, lead time to threshold).
 
 - **P2 — Regularity.** Within windows where the dominant mechanism (e.g., baroclinic growth, convective clustering) is unchanged, $`T(L)`$ varies continuously and monotonically with $`L`$.
 
 - **P3 — Clock invariance (multiplicative gauge; additive artefacts handled).**\
-  Multiplicative clock changes ($`T' = cT`$, e.g., unit changes or uniform timebase rescaling) shift the intercept in $`\log T`$–$`\log L`$ without changing the slope.\
+  Multiplicative clock changes ($`T' = cT`$, e.g., unit changes or uniform timebase rescaling) shift the intercept in $`\log T`$ – $`\log L`$ without changing the slope.\
   Additive timing artefacts (constant lags, fixed processing latencies) follow $`T_{\text{obs}} = T + b`$ and may bias the slope unless corrected (subtract/estimate $`b`$) or the fit is restricted to $`T \gg b`$. Sensor drift can manifest as either multiplicative timebase drift or additive bias; the analysis must distinguish these before claiming slope invariance.
 
-- **P4 — Finite causality.** Transport of momentum/heat/moisture/information across $`L`$has finite effective speed; thus characteristic times cannot scale sublinearly with distance in a stable regime.
+- **P4 — Finite causality.** Transport of momentum/heat/moisture/information across $`L`$ has finite effective speed; thus characteristic times cannot scale sublinearly with distance in a stable regime.
 
 From P1–P2, the only self-consistent law is a **power law**:
 
@@ -115,15 +117,15 @@ From P1–P2, the only self-consistent law is a **power law**:
 T(L)\text{\:\,} = \text{\:\,}C\text{ }L^{\alpha},C > 0,
 ```
 
-with the **exponent** $`\alpha`$defining the *transport class*. Our atmospheric estimator is
+with the **exponent** $`\alpha`$ defining the *transport class*. Our atmospheric estimator is
 
 ``` math
 \alpha_{atm}\text{\:\,} = \text{\:\,}\frac{d\log T}{d\log L} \mid_{\text{mechanism window}}.
 ```
 
-2.  **Operational definitions of** $`\mathbf{L}`$**and** $`\mathbf{T}`$
+2.  **Operational definitions of** $`\mathbf{L}`$ **and** $`\mathbf{T}`$
 
-- **Length** $`L`$**.** A *feature scale* extracted from fields $`X \in \{\zeta,\ \nabla \cdot V,\  \mid V \mid ,\ \theta,\ T_{b},\ q,\ \omega\}`$ using one of:
+- **Length** $`L`$ **.** A *feature scale* extracted from fields $`X \in \{\zeta,\ \nabla \cdot V,\  \mid V \mid ,\ \theta,\ T_{b},\ q,\ \omega\}`$ using one of:
 
   1.  **Wavelet bandpass** (e.g., Morlet): $`L`$ is the central wavelength of the band with maximal energy in a localized patch.
 
@@ -131,9 +133,9 @@ with the **exponent** $`\alpha`$defining the *transport class*. Our atmospheric 
 
   3.  **Object geometry:** equivalent diameter of detected coherent structures (vortices, fronts, MCSs).
 
-- **Time** $`T`$**.** A *persistence or completion time*:
+- **Time** $`T`$ **.** A *persistence or completion time*:
 
-  1.  **Autocorrelation e-folding** $`T_{\rho}`$ of $`X`$within the patch/band.
+  1.  **Autocorrelation e-folding** $`T_{\rho}`$ of $`X`$ within the patch/band.
 
   2.  **Object lifetime** $`T_{life}`$ under a tracking algorithm.
 
@@ -166,11 +168,11 @@ Examples (heuristic):
 - **3D inertial range** $`p = 5/3 \Rightarrow \alpha \approx 1/3`$ (fast decorrelation; guided/advective end).
 
 - **2D inverse cascade** $`p = 5/3 \Rightarrow \alpha \approx 1/3`$, while **enstrophy range** $`p = 3 \Rightarrow \alpha \approx 1`$.\
-  Large atmospheric $`\alpha`$($`\gtrsim 2`$) therefore indicates **organization beyond inertial scaling**, e.g., stratification, rotation, moist processes, and structural coherence that extend persistence faster than simple cascade arguments predict. We treat this mapping as *diagnostic*, not axiomatic, and verify with collapse tests.
+  Large atmospheric $`\alpha`$ ($`\gtrsim 2`$) therefore indicates **organization beyond inertial scaling**—e.g., stratification, rotation, moist processes, and structural coherence that extend persistence faster than simple cascade arguments predict. We treat this mapping as *diagnostic*, not axiomatic, and verify with collapse tests.
 
-**2.5 Estimating** $`\mathbf{\alpha}_{\mathbf{atm}}`$**: windows and regressions**
+**2.5 Estimating** $`\mathbf{\alpha}_{\mathbf{atm}}`$ **: windows and regressions**
 
-For each sliding window $`W(x,y,t)`$and feature scale set $`\{ L_{i}\}`$, compute $`T_{i} = T(L_{i})`$ and fit
+For each sliding window $`W(x,y,t)`$ and feature scale set $`\{ L_{i}\}`$, compute $`T_{i} = T(L_{i})`$ and fit
 
 ``` math
 \log T_{i}\text{\:\,} = \text{\:\,}\beta_{0} + \alpha_{atm}\text{ }\log L_{i} + \varepsilon_{i}.
@@ -178,7 +180,7 @@ For each sliding window $`W(x,y,t)`$and feature scale set $`\{ L_{i}\}`$, comput
 
 - **Primary fit:** OLS on $`(\log L,\log T)`$.
 
-- **Errors-in-variables:** orthogonal regression where $`L`$has calibration error (band leakage, object-size bias).
+- **Errors-in-variables:** orthogonal regression where $`L`$ has calibration error (band leakage, object-size bias).
 
 - **Uncertainty:** bootstrap over $`(L_{i},T_{i})`$; report median and 95% CI.
 
@@ -190,14 +192,14 @@ RTM predicts **data collapse** under the correct exponent: define $`\widetilde{T
 
 1.  $`\alpha^{\star}`$ falls within the 95% CI of $`\alpha_{atm}`$; and
 
-2.  a KS-type test finds no significant differences among $`\widetilde{T}`$ curves across $`L`$bands.\
-    Failure implies either mechanism drift within the window or mis-specified $`L`$extraction.
+2.  a KS-type test finds no significant differences among $`\widetilde{T}`$ curves across $`L`$ bands.\
+    Failure implies either mechanism drift within the window or mis-specified $`L`$ extraction.
 
-**2.7 Pre-onset dynamics:** $`\mathbf{\alpha}`$**-drops as precursors**
+**2.7 Pre-onset dynamics:** $`\mathbf{\alpha}`$ **-drops as precursors**
 
 Let $`{\bar{\alpha}}_{loc}(t)`$ be the local baseline (24–72 h running median) and $`\Delta\alpha(t) = \alpha_{atm}(t) - {\bar{\alpha}}_{loc}(t)`$. We hypothesize:
 
-- **Cyclogenesis / RI / explosive cyclogenesis:** a **negative excursion** $`\Delta\alpha \ll 0`$ appears $`12\text{–}48`$h before onset, reflecting fragmentation/class switching prior to re-organization.
+- **Cyclogenesis / RI / explosive cyclogenesis:** a **negative excursion** $`\Delta\alpha \ll 0`$ appears $`12\text{–}48`$ h before onset, reflecting fragmentation/class switching prior to re-organization.
 
 - **Mature regimes:** $`\alpha_{atm}`$ stable; small variance; successful collapse.
 
@@ -211,7 +213,7 @@ $`\alpha`$ can be computed per level (e.g., 925–200 hPa) and per variable, the
 \alpha_{fused}\text{\:\,} = \text{\:\,}\sum_{j}^{}w_{j}\text{ }\alpha^{(j)},\sum_{j}^{}w_{j} = 1,
 ```
 
-with $`j`$indexing height/variables, weights $`w_{j}`$learned from historical skill or set by physical priors (e.g., greater weight to low-level $`\zeta`$ for tropical genesis). Consistency across levels (e.g., rising $`\alpha`$aloft with falling $`\alpha`$near the surface) may itself be diagnostic of impending transitions.
+with $`j`$ indexing height/variables, weights $`w_{j}`$ learned from historical skill or set by physical priors (e.g., greater weight to low-level $`\zeta`$ for tropical genesis). Consistency across levels (e.g., rising $`\alpha`$ aloft with falling $`\alpha`$ near the surface) may itself be diagnostic of impending transitions.
 
 **2.9 Bounds, diagnostics, and falsifiers**
 
@@ -221,7 +223,7 @@ with $`j`$indexing height/variables, weights $`w_{j}`$learned from historical sk
 
 - **Heuristic upper band:** $`\alpha \gtrsim 3`$ indicates strongly coherent organization; claims require *simultaneous* evidence (e.g., variance reduction in $`\widetilde{T}`$, stable objects, spectral steepening).
 
-- **Falsifiable outcomes:** (i) no slope stability over a decade in $`L`$ in any regime; (ii) collapse consistently fails where mechanisms are believed steady; (iii) $`\alpha`$-drops show no lead or skill beyond persistence/standard thresholds; (iv) $`\alpha`$tracks known artefacts (diurnal aliasing, scan geometry, regridding).
+- **Falsifiable outcomes:** (i) no slope stability over a decade in $`L`$ in any regime; (ii) collapse consistently fails where mechanisms are believed steady; (iii) $`\alpha`$ drops show no lead or skill beyond persistence/standard thresholds; (iv) $`\alpha`$ tracks known artefacts (diurnal aliasing, scan geometry, regridding).
 
 **2.10 Link to physical mechanisms (interpretation guide)**
 
@@ -269,7 +271,7 @@ We compute a **scale bank** $`\{ L_{i}\}`$ and extract features per scale:
 
 - 2D Morlet or Mexican-hat wavelets applied to each field $`X \in \{\zeta,\ \nabla \cdot V,\  \mid V \mid ,\ \theta,\ T_{b}\}`$
 
-- Central wavelengths $`L_{i}`$form a geometric series (e.g., 50, 75, 100, 150, 200, 300, 450, 600 km).
+- Central wavelengths $`L_{i}`$ form a geometric series (e.g., 50, 75, 100, 150, 200, 300, 450, 600 km).
 
 - For each $`L_{i}`$, compute band energy $`E_{X}(L_{i};x,y,t)`$ and a **feature mask** where energy exceeds the local 70th percentile (adaptive, avoids blank oceans).
 
@@ -291,9 +293,9 @@ We use (A) for maps and (C) for targeted events; (B) is diagnostic.
 
 For each $`(x,y,L_{i})`$ where the feature mask is active:
 
-- **Autocorrelation e-folding (default):** compute lagged autocorrelation $`\rho(\tau)`$ of the bandpassed $`X_{L_{i}}`$ at the grid cell; define $`T_{i}`$ as the smallest $`\tau`$where $`\rho(\tau) \leq e^{- 1}`$. If no crossing within the 72 h window, set $`T_{i} = 72`$h and flag as right-censored (handled in sensitivity).
+- **Autocorrelation e-folding (default):** compute lagged autocorrelation $`\rho(\tau)`$ of the bandpassed $`X_{L_{i}}`$ at the grid cell; define $`T_{i}`$ as the smallest $`\tau`$ where $`\rho(\tau) \leq e^{- 1}`$. If no crossing within the 72 h window, set $`T_{i} = 72`$ h and flag as right-censored (handled in sensitivity).
 
-- **Object lifetime (optional):** for detected objects, track centroids via overlap/nearest-neighbor; $`T_{i} =`$duration until dissolution/merge.
+- **Object lifetime (optional):** for detected objects, track centroids via overlap/nearest-neighbor; $`T_{i} =`$ duration until dissolution/merge.
 
 - **Lead-to-threshold (experiment-specific):** for pre-genesis analyses, $`T_{i}`$ is the time from current hour to the first satisfaction of a genesis criterion in the same 5×5° neighborhood.
 
@@ -301,15 +303,15 @@ We record a **confidence mask** for $`T_{i}`$ (minimum valid samples, censoring,
 
 **3.5 Estimating** $`\mathbf{\alpha}_{\text{atm}}`$ **in sliding windows**
 
-Define a space–time window $`W`$(e.g., 5×5° by 24 h, centered at $`(x,y,t)`$). Gather pairs $`\{(\log\ L_{i},\ \log\ {T}_{i})\}`$ within $`W`$across variables (if fused; see §3.7). Require at least **one decade** in $`L`$with ≥4 populated scales and ≥30 valid points total.
+Define a space–time window $`W`$ (e.g., 5×5° by 24 h, centered at $`(x,y,t)`$). Gather pairs $`\{(\log\ L_{i},\ \log\ {T}_{i})\}`$ within $`W`$ across variables (if fused; see §3.7). Require at least **one decade** in $`L`$ with ≥4 populated scales and ≥30 valid points total.
 
 **Regression:**
 
 - **Primary:** OLS $`\log T = \beta_{0} + \alpha\log L + \varepsilon`$.
 
-- **Errors-in-variables (EIV):** orthogonal distance regression when $`L`$calibration error \>3% (wavelet leakage or object-size bias).
+- **Errors-in-variables (EIV):** orthogonal distance regression when $`L`$ calibration error \>3% (wavelet leakage or object-size bias).
 
-- **Bootstrap:** 1,000 resamples over the set of $`(L,T)`$ pairs (stratified by scale) to obtain median $`\widehat{\alpha}`$and 95% CI.
+- **Bootstrap:** 1,000 resamples over the set of $`(L,T)`$ pairs (stratified by scale) to obtain median $`\widehat{\alpha}`$ and 95% CI.
 
 - **Diagnostics:** R² ≥ 0.6, residuals without trend vs. $`\log L`$, and slope stability across jackknife folds (leave-one-scale-out δα ≤ 0.15). Failing windows are labeled **class-unstable** and excluded from α-maps.
 
@@ -317,32 +319,32 @@ Define a space–time window $`W`$(e.g., 5×5° by 24 h, centered at $`(x,y,t)`$
 
 **3.6 Data collapse test (class stability)**
 
-Within each accepted window $`W`$, compute $`\widetilde{T} = T\text{ }L^{- \alpha^{\star}}`$; search $`\alpha^{\star}`$minimizing the **between-scale variance** of $`\widetilde{T}`$. A window **passes** collapse if:
+Within each accepted window $`W`$, compute $`\widetilde{T} = T\text{ }L^{- \alpha^{\star}}`$; search $`\alpha^{\star}`$ minimizing the **between-scale variance** of $`\widetilde{T}`$. A window **passes** collapse if:
 
 1.  $`\alpha^{\star}`$ lies inside the 95% CI of $`\widehat{\alpha}`$, and
 
-2.  a KS-type test across scale-partitioned $`\widetilde{T}`$samples yields $`p > 0.05`$ (indistinguishable).\
-    Report the **collapse score** $`C = 1 - V(\alpha^{\star})/V(0)`$(0–1).
+2.  a KS-type test across scale-partitioned $`\widetilde{T}`$ samples yields $`p > 0.05`$ (indistinguishable).\
+    Report the **collapse score** $`C = 1 - V(\alpha^{\star})/V(0)`$ (0–1).
 
 **3.7 Multi-field and vertical fusion**
 
-Compute per-variable, per-level exponents $`\alpha^{(j)}`$. Fuse via weights $`w_{j}`$(∑w=1):
+Compute per-variable, per-level exponents $`\alpha^{(j)}`$. Fuse via weights $`w_{j}`$ (∑w=1):
 
 - **Physically informed default:** low-level vorticity (925–700 hPa) 0.35, wind magnitude 0.20, θ-gradient 0.15, Tb 0.20, divergence 0.10.
 
-- **Learned (experiments):** logistic regression on historical events to find $`w_{j}`$maximizing lead-time skill; cross-validated.
+- **Learned (experiments):** logistic regression on historical events to find $`w_{j}`$ maximizing lead-time skill; cross-validated.
 
 The fused estimate: $`\alpha_{\text{fused}} = \sum_{j}\ w_{j}\alpha^{(j)}`$. We publish both fused and per-variable maps.
 
 **3.8 α-maps and anomaly fields**
 
-- **Maps:** hourly $`\widehat{\alpha}(x,y,t)`$(or fused) on the analysis grid.
+- **Maps:** hourly $`\widehat{\alpha}(x,y,t)`$ (or fused) on the analysis grid.
 
 - **Local baseline:** 72 h running median $`{\bar{\alpha}}_{\text{loc}}(x,y,t)`$.
 
 - **Anomaly:** $`\Delta\alpha(x,y,t) = \widehat{\alpha} - {\bar{\alpha}}_{\text{loc}}`$.
 
-- **Neighborhood contrast:** $`K`$-NN spatial contrast $`\Delta\alpha - \text{median }(\Delta\alpha\text{ within }3^{\circ})`$to emphasize localized precursors.
+- **Neighborhood contrast:** $`K`$ NN spatial contrast $`\Delta\alpha - \text{median }(\Delta\alpha\text{ within }3^{\circ})`$ to emphasize localized precursors.
 
 - **Confidence layer:** binary mask combining regression diagnostics and collapse pass.
 
@@ -350,7 +352,7 @@ The fused estimate: $`\alpha_{\text{fused}} = \sum_{j}\ w_{j}\alpha^{(j)}`$. We 
 
 For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
-- Extract trajectories of $`\widehat{\alpha},\Delta\alpha`$ in a 5×5° box centered at $`(x_{g},y_{g})`$for $`t \in \lbrack t_{g} - 96\text{ h},t_{g} + 24\text{ h}\rbrack`$.
+- Extract trajectories of $`\widehat{\alpha},\Delta\alpha`$ in a 5×5° box centered at $`(x_{g},y_{g})`$ for $`t \in \lbrack t_{g} - 96\text{ h},t_{g} + 24\text{ h}\rbrack`$.
 
 - Define **lead windows**: 48, 36, 24, 12 h before $`t_{g}`$.
 
@@ -376,7 +378,7 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 - **Persistence baseline:** verify that α-skill remains after conditioning on prior ζ/CAPE; otherwise flag confounding.
 
-- **Piecewise mechanisms:** if stability fails, fit piecewise slopes across $`L`$-bands and record transition scales.
+- **Piecewise mechanisms:** if stability fails, fit piecewise slopes across $`L`$ bands and record transition scales.
 
 **3.12 Software, parameters, and reproducibility**
 
@@ -404,7 +406,7 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 - Events: IBTrACS genesis points (first tropical depression classification).
 
-- Negatives: matched non-event boxes (same basin, year-week, SST tercile), $`3:1`$ratio.
+- Negatives: matched non-event boxes (same basin, year-week, SST tercile), $`3:1`$ ratio.
 
 - Predictors: $`\Delta\alpha`$ (fused), per-variable $`\Delta\alpha^{(j)}`$; baselines = persistence of relative vorticity $`\zeta`$, low-level vorticity threshold, and CAPE (if available).
 
@@ -412,7 +414,7 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 1.  Compute hourly $`\alpha_{atm}`$ maps and $`\Delta\alpha`$ (§3).
 
-2.  Extract series in 5×5° boxes centered at $`(x_{g},y_{g})`$ for $`t_{g} - 96`$to $`t_{g} + 24`$h.
+2.  Extract series in 5×5° boxes centered at $`(x_{g},y_{g})`$ for $`t_{g} - 96`$ to $`t_{g} + 24`$ h.
 
 3.  For leads L ∈ {12, 24, 36, 48} h, label positive if event ∈ (0, L\] h.
 
@@ -446,7 +448,7 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 **E2 — Rapid intensification (RI)**
 
-**Aim.** Assess whether **day-ahead** changes in $`\Delta\alpha`$predict **RI** (e.g., $`\Delta V_{\max} \geq 30`$kt in 24 h), beyond intensity persistence and environmental predictors.
+**Aim.** Assess whether **day-ahead** changes in $`\Delta\alpha`$ predict **RI** (e.g., $`\Delta V_{\max} \geq 30`$ kt in 24 h), beyond intensity persistence and environmental predictors.
 
 **Design.**
 
@@ -472,7 +474,7 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 **Expected signatures.**
 
-- **Pre-RI**: $`\Delta\alpha`$decreases (fragmentation) then rebounds during/after onset (re-organization).
+- **Pre-RI**: $`\Delta\alpha`$ decreases (fragmentation) then rebounds during/after onset (re-organization).
 
 - Added value over persistence at 12–24 h.
 
@@ -502,7 +504,7 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 1.  Identify candidate centers; fix boxes (7×7°) moving with the developing cyclone center via nearest SLP min.
 
-2.  Compute $`\Delta\alpha`$fields at 925–500 hPa (vorticity, wind, θ-gradient) and fused maps.
+2.  Compute $`\Delta\alpha`$ fields at 925–500 hPa (vorticity, wind, θ-gradient) and fused maps.
 
 3.  Evaluate at leads 12, 24, 36 h.
 
@@ -514,11 +516,11 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 **Expected signatures.**
 
-- Annular pattern: negative $`\Delta\alpha`$ring around center pre-onset (filamentation/frontogenesis), transitioning toward stabilized higher $`\alpha`$as the cyclone deepens.
+- Annular pattern: negative $`\Delta\alpha`$ ring around center pre-onset (filamentation/frontogenesis), transitioning toward stabilized higher $`\alpha`$ as the cyclone deepens.
 
 **Pass/Fail.**
 
-- **Pass:** ΔAUROC ≥ 0.05 vs Eady alone at 24 h; significant composite dip (p \< 0.01) in ring $`L \sim 200\text{ } - 600`$km.
+- **Pass:** ΔAUROC ≥ 0.05 vs Eady alone at 24 h; significant composite dip (p \< 0.01) in ring $`L \sim 200\text{ } - 600`$ km.
 
 - **Fail:** α-signal indistinguishable from climatology; composites flat.
 
@@ -528,7 +530,7 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 **E4 — Background modulation (MJO/ENSO) & operational fusion**
 
-**Aim.** Quantify how **intraseasonal/seasonal background** shifts the **distribution of** $`\alpha_{atm}`$and whether combining $`\Delta\alpha`$with ensemble NWP improves **operational guidance**.
+**Aim.** Quantify how **intraseasonal/seasonal background** shifts the **distribution of** $`\alpha_{atm}`$ and whether combining $`\Delta\alpha`$ with ensemble NWP improves **operational guidance**.
 
 **Design.**
 
@@ -536,11 +538,11 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 
 - Build an **α-climatology** per phase and test conditional skill for E1/E3.
 
-- Operational fusion: add $`\Delta\alpha`$as a probabilistic layer atop ensemble genesis/bomb guidance (logistic stacking).
+- Operational fusion: add $`\Delta\alpha`$ as a probabilistic layer atop ensemble genesis/bomb guidance (logistic stacking).
 
 **Protocol.**
 
-1.  Compute phase-conditioned PDFs of $`\alpha`$by basin/region.
+1.  Compute phase-conditioned PDFs of $`\alpha`$ by basin/region.
 
 2.  Re-run E1/E3 with phase-aware baselines.
 
@@ -600,36 +602,36 @@ For each event (e.g., genesis time $`t_{g}`$ and location $`(x_{g},y_{g})`$):
 Seasonal means of $`{\widehat{\alpha}}_{atm}(x,y)`$ reveal coherent **high-**$`\alpha`$ belts along subtropical jets and within persistent blocking regions, and **lower-**$`\alpha`$ in convectively active ITCZ sectors. Median (IQR): **DJF:** $`\lbrack m_{1}\rbrack\lbrack q_{25,1}\text{–}q_{75,1}\rbrack`$; **JJA:** $`\lbrack m_{2}\rbrack\lbrack q_{25,2}\text{–}q_{75,2}\rbrack`$.
 
 **Vertical structure.**\
-Layer-resolved exponents show **low-tropospheric** $`\alpha`$larger over warm pools and western boundary currents; upper levels exhibit enhanced $`\alpha`$in jet cores. Vertical coherence index (corr$`(\alpha_{925},\alpha_{500})`$) = $`\lbrack r\rbrack`$.
+Layer-resolved exponents show **low-tropospheric** $`\alpha`$ larger over warm pools and western boundary currents; upper levels exhibit enhanced $`\alpha`$ in jet cores. Vertical coherence index (corr $`(\alpha_{925},\alpha_{500})`$) = $`\lbrack r\rbrack`$.
 
 **Collapse/stability.**\
-Across windows passing diagnostics, the **collapse score** $`C`$ (variance reduction after rescaling) has median $`\lbrack 0.xx\rbrack`$(IQR $`\lbrack 0.xx\text{–}0.xx\rbrack`$) with **KS** $`p > 0.05`$in $`\lbrack X\rbrack\%`$ of windows, consistent with a single transport class locally.
+Across windows passing diagnostics, the **collapse score** $`C`$ (variance reduction after rescaling) has median $`\lbrack 0.xx\rbrack`$ (IQR $`\lbrack 0.xx\text{–}0.xx\rbrack`$) with **KS** $`p > 0.05`$ in $`\lbrack X\rbrack\%`$ of windows—consistent with a single transport class locally.
 
 **Figure 1.** *Global* $`\alpha_{atm}`$ *climatology.* (A) DJF mean $`\widehat{\alpha}`$; (B) JJA mean; (C) vertical section (zonal mean); (D) histogram and collapse-score distribution. Shaded hatching marks regions failing diagnostics.
 
 **5.2 E1 — Cyclogenesis precursor (tropical basins)**
 
 **Alignment to genesis.**\
-Composites in 5×5° boxes centered on genesis show a **negative excursion** in $`\Delta\alpha`$ beginning $`\lbrack 36\rbrack`$**h** before $`t_{g}`$, with a trough at $`\lbrack 24\rbrack`$**h** of $`\lbrack\Delta\alpha_{\text{min}}\rbrack`$relative to the 72 h baseline and a rebound post-genesis.
+Composites in 5×5° boxes centered on genesis show a **negative excursion** in $`\Delta\alpha`$ beginning $`\lbrack 36\rbrack`$ *h** before $`t_{g}`$, with a trough at $`\lbrack 24\rbrack`$ **h** of $`\lbrack\Delta\alpha_{\text{min}}\rbrack`$ relative to the 72 h baseline and a rebound post-genesis.
 
 **Skill vs baselines.**\
-At 24 h lead, **AUROC** = $`\lbrack 0.xx\rbrack`$for fused $`\Delta\alpha`$ vs $`\lbrack 0.xx\rbrack`$for persistence-$`\zeta`$ (Δ=$`\lbrack + 0.xx\rbrack`$, DeLong $`p = \lbrack\text{ }\rbrack`$); **AUPRC** = $`\lbrack 0.xx\rbrack`$(baseline $`\lbrack 0.xx\rbrack`$). Reliability slope $`\lbrack 0.xx\rbrack`$(ideal 1.0). Gains persist at 36 h with smaller magnitude.
+At 24 h lead, **AUROC** = $`\lbrack 0.xx\rbrack`$ for fused $`\Delta\alpha`$ vs $`\lbrack 0.xx\rbrack`$ for persistence-$`\zeta`$ (Δ=$`\lbrack + 0.xx\rbrack`$, DeLong $`p = \lbrack\text{ }\rbrack`$); **AUPRC** = $`\lbrack 0.xx\rbrack`$ (baseline $`\lbrack 0.xx\rbrack`$). Reliability slope $`\lbrack 0.xx\rbrack`$ (ideal 1.0). Gains persist at 36 h with smaller magnitude.
 
 **Spatial contrast.**\
-Neighborhood-contrast feature improves precision at fixed recall by $`\lbrack + x\rbrack\%`$(95% CI $`\lbrack\text{ }\rbrack`$) across basins.
+Neighborhood-contrast feature improves precision at fixed recall by $`\lbrack + x\rbrack\%`$ (95% CI $`\lbrack\text{ }\rbrack`$) across basins.
 
 **Collapse near onset.**\
 Pre-genesis windows show **higher collapse pass-rate** ($`\lbrack Y\rbrack\%`$) than matched controls ($`\lbrack Z\rbrack\%`$, χ² $`p = \lbrack\text{ }\rbrack`$), consistent with a stable mechanism emerging post-transition.
 
-**Figure 2.** *Cyclogenesis.* (A) Time series of median $`\Delta\alpha`$from $`t_{g} - 96`$to $`t_{g} + 24`$h (IQR shading). (B) Lead-time AUROC/AUPRC curves. (C) Reliability plot at 24 h. (D) Collapse pass-rate bars (events vs controls).
+**Figure 2.** *Cyclogenesis.* (A) Time series of median $`\Delta\alpha`$ from $`t_{g} - 96`$ to $`t_{g} + 24`$ h (IQR shading). (B) Lead-time AUROC/AUPRC curves. (C) Reliability plot at 24 h. (D) Collapse pass-rate bars (events vs controls).
 
 **5.3 E2 — Rapid intensification (RI)**
 
 **Pre-RI signature.**\
-For windows ≤24 h pre-RI, $`\Delta\alpha`$ shows a **dip-then-rebound** pattern: median dip $`\lbrack\Delta\alpha_{RI}\rbrack`$at $`\lbrack 18\rbrack`$h, rebound within $`\lbrack 12\rbrack`$h after onset.
+For windows ≤24 h pre-RI, $`\Delta\alpha`$ shows a **dip-then-rebound** pattern: median dip $`\lbrack\Delta\alpha_{RI}\rbrack`$ at $`\lbrack 18\rbrack`$ h, rebound within $`\lbrack 12\rbrack`$ h after onset.
 
 **Predictive value.**\
-At 24 h, fused $`\Delta\alpha`$yields **AUROC** $`\lbrack 0.xx\rbrack`$vs intensity persistence $`\lbrack 0.xx\rbrack`$(Δ=$`\lbrack + 0.xx\rbrack`$, $`p = \lbrack\text{ }\rbrack`$). Precision at 20% recall improves from $`\lbrack p_{0}\rbrack`$ to $`\lbrack p_{1}\rbrack`$.
+At 24 h, fused $`\Delta\alpha`$ yields **AUROC** $`\lbrack 0.xx\rbrack`$ vs intensity persistence $`\lbrack 0.xx\rbrack`$ (Δ=$`\lbrack + 0.xx\rbrack`$, $`p = \lbrack\text{ }\rbrack`$). Precision at 20% recall improves from $`\lbrack p_{0}\rbrack`$ to $`\lbrack p_{1}\rbrack`$ .
 
 **Conditioning on environment.**\
 In nested models controlling for shear, SST, midlevel humidity, $`\Delta\alpha`$ remains significant ($`\beta = \lbrack\text{ }\rbrack,p = \lbrack\text{ }\rbrack`$), indicating **incremental information** beyond standard predictors.
@@ -637,40 +639,40 @@ In nested models controlling for shear, SST, midlevel humidity, $`\Delta\alpha`$
 **Sensitivity.**\
 Results robust to box sizes 2–4° and to diurnal subsets for Tb. Storm-wise LOCO cross-validation shows stable gains (variance $`\lbrack\text{ }\rbrack`$).
 
-**Figure 3.** *RI precursor.* (A) Composite $`\Delta\alpha`$around RI onset. (B) AUROC at 12/24 h. (C) Precision–recall at 24 h with and without neighborhood contrast. (D) Coefficients and CIs from nested models.
+**Figure 3.** *RI precursor.* (A) Composite $`\Delta\alpha`$ around RI onset. (B) AUROC at 12/24 h. (C) Precision–recall at 24 h with and without neighborhood contrast. (D) Coefficients and CIs from nested models.
 
 **5.4 E3 — Explosive cyclogenesis (“bombs”)**
 
 **Annular pattern.**\
-Event-centered composites show a **ring of negative** $`\Delta\alpha`$ at radii $`L \sim 200\text{–}600`$ **km** emerging $`\lbrack 24\rbrack`$h pre-onset, consistent with **frontogenesis/filamentation** preceding deepening. The ring collapses into higher $`\alpha`$as the cyclone organizes.
+Event-centered composites show a **ring of negative** $`\Delta\alpha`$ at radii $`L \sim 200\text{–}600`$ **km** emerging $`\lbrack 24\rbrack`$ h pre-onset, consistent with **frontogenesis/filamentation** preceding deepening. The ring collapses into higher $`\alpha`$ as the cyclone organizes.
 
 **Skill vs Eady proxy.**\
-At 24 h, fused $`\Delta\alpha`$achieves AUROC $`\lbrack 0.xx\rbrack`$vs Eady-alone $`\lbrack 0.xx\rbrack`$(Δ=$`\lbrack + 0.xx\rbrack`$, $`p = \lbrack\text{ }\rbrack`$). Spatial radial-contrast feature improves classification (ΔAUPRC $`\lbrack + 0.xx\rbrack`$).
+At 24 h, fused $`\Delta\alpha`$ achieves AUROC $`\lbrack 0.xx\rbrack`$ vs Eady-alone $`\lbrack 0.xx\rbrack`$ (Δ=$`\lbrack + 0.xx\rbrack`$, $`p = \lbrack\text{ }\rbrack`$). Spatial radial-contrast feature improves classification (ΔAUPRC $`\lbrack + 0.xx\rbrack`$).
 
 **Regional robustness.**\
 Signals present in both NH and SH tracks; slightly larger magnitudes in the North Atlantic.
 
-**Figure 4.** *Bombs.* (A) Radial profiles of $`\Delta\alpha`$at −36/−24/−12 h. (B) AUROC vs Eady at 24 h. (C) Spatial composites (maps) at −24 h. (D) Collapse pass-rate within annulus vs outside.
+**Figure 4.** *Bombs.* (A) Radial profiles of $`\Delta\alpha`$ at −36/−24/−12 h. (B) AUROC vs Eady at 24 h. (C) Spatial composites (maps) at −24 h. (D) Collapse pass-rate within annulus vs outside.
 
 **5.5 E4 — Background modulation & ensemble fusion**
 
 **Phase-stratified distributions.**\
-Mean $`\alpha`$shifts with MJO/ENSO by $`\lbrack\delta\rbrack`$ (units of $`\alpha`$); variance narrows/widens by $`\lbrack\Delta\sigma\rbrack`$ depending on phase. After conditioning on phase, $`\Delta\alpha`$ retains **event-level discrimination** (ΔAUROC $`\lbrack + 0.xx\rbrack`$, $`p = \lbrack\text{ }\rbrack`$).
+Mean $`\alpha`$ shifts with MJO/ENSO by $`\lbrack\delta\rbrack`$ (units of $`\alpha`$); variance narrows/widens by $`\lbrack\Delta\sigma\rbrack`$ depending on phase. After conditioning on phase, $`\Delta\alpha`$ retains **event-level discrimination** (ΔAUROC $`\lbrack + 0.xx\rbrack`$, $`p = \lbrack\text{ }\rbrack`$).
 
 **Operational fusion.**\
-Stacking $`\Delta\alpha`$with ensemble genesis/bomb probabilities improves **CRPS** by $`\lbrack\%\rbrack`$ and reliability slope toward 1.0 by $`\lbrack\Delta\rbrack`$. Gains most pronounced at 24–36 h leads.
+Stacking $`\Delta\alpha`$ with ensemble genesis/bomb probabilities improves **CRPS** by $`\lbrack\%\rbrack`$ and reliability slope toward 1.0 by $`\lbrack\Delta\rbrack`$ . Gains most pronounced at 24–36 h leads.
 
-**Figure 5.** *Background & fusion.* (A) PDFs of $`\alpha`$by MJO phase (basin panels). (B) ΔAUROC after phase conditioning (E1/E3). (C) CRPS improvement from fusion (map or bar). (D) Reliability diagrams (ensemble vs ensemble+α).
+**Figure 5.** *Background & fusion.* (A) PDFs of $`\alpha`$ by MJO phase (basin panels). (B) ΔAUROC after phase conditioning (E1/E3). (C) CRPS improvement from fusion (map or bar). (D) Reliability diagrams (ensemble vs ensemble+α).
 
 **5.6 Ablations and alternative choices**
 
-- **Variable ablation.** Removing Tb reduces lead-time skill by $`\lbrack\Delta\rbrack`$ at 24 h; removing low-level $`\zeta`$ reduces by $`\lbrack\Delta\rbrack`$.
+- **Variable ablation.** Removing Tb reduces lead-time skill by $`\lbrack\Delta\rbrack`$ at 24 h; removing low-level $`\zeta`$ reduces by $`\lbrack\Delta\rbrack`$ .
 
-- **Window sizes.** Changing space–time window $`W`$(4×4°/6×6°, 12–36 h) shifts $`\widehat{\alpha}`$ by ≤$`\lbrack 0.1\rbrack`$ and leaves rankings/stability intact.
+- **Window sizes.** Changing space–time window $`W`$ (4×4°/6×6°, 12–36 h) shifts $`\widehat{\alpha}`$ by ≤$`\lbrack 0.1\rbrack`$ and leaves rankings/stability intact.
 
 - **Estimator variants.** Orthogonal regression (EIV) shifts $`\widehat{\alpha}`$ medians by $`\lbrack \pm 0.05\rbrack`$ where wavelet leakage is largest; conclusions unchanged.
 
-- **Right-censoring.** Setting the $`T`$cap to 48/60/72 h moves $`\widehat{\alpha}`$ by $`\lbrack \pm 0.03\rbrack`$ in tropical oceans; skill differences within CI.
+- **Right-censoring.** Setting the $`T`$ cap to 48/60/72 h moves $`\widehat{\alpha}`$ by $`\lbrack \pm 0.03\rbrack`$ in tropical oceans; skill differences within CI.
 
 **5.7 Robustness & artefact audits**
 
@@ -680,11 +682,11 @@ Stacking $`\Delta\alpha`$with ensemble genesis/bomb probabilities improves **CRP
 
 - **Collapse diagnostics.** In all three event families, **pre-onset** windows that pass collapse are more likely to be followed by an event within 24–36 h than non-passing windows (odds ratio $`\lbrack\text{ }\rbrack`$, $`p = \lbrack\text{ }\rbrack`$).
 
-- **Piecewise mechanisms.** Where collapse fails, **piecewise-**$`\alpha`$ fits identify scale transitions near $`L \sim \lbrack\text{ }\rbrack`$km; excluding those windows improves reliability.
+- **Piecewise mechanisms.** Where collapse fails, **piecewise-**$`\alpha`$ fits identify scale transitions near $`L \sim \lbrack\text{ }\rbrack`$ km; excluding those windows improves reliability.
 
 **5.8 Summary statement (ready to keep as-is)**
 
-Across reanalysis and geostationary archives, the $`\alpha_{atm}`$ field exhibits stable behavior within stationary regimes (high collapse scores) and shows **predictive, negative excursions** ahead of **cyclogenesis**, **rapid intensification**, and **explosive cyclogenesis**. These $`\alpha`$**-drops** provide **12–48 h lead** with added value over persistence and standard thresholds, remain informative after environmental conditioning, and improve **calibration** when fused with ensemble guidance. Spatial patterns (annular rings before bombs, localized dips near future genesis centers) and post-onset rebounds support the interpretation of **class switching and re-organization** in the multiscale transport architecture of the atmosphere.
+Across reanalysis and geostationary archives, the $`\alpha_{atm}`$ field exhibits stable behavior within stationary regimes (high collapse scores) and shows **predictive, negative excursions** ahead of **cyclogenesis**, **rapid intensification**, and **explosive cyclogenesis**. These $`\alpha`$ **-drops** provide **12–48 h lead** with added value over persistence and standard thresholds, remain informative after environmental conditioning, and improve **calibration** when fused with ensemble guidance. Spatial patterns (annular rings before bombs, localized dips near future genesis centers) and post-onset rebounds support the interpretation of **class switching and re-organization** in the multiscale transport architecture of the atmosphere.
 
 **5.9 Tables (templates)**
 
@@ -700,47 +702,47 @@ Across reanalysis and geostationary archives, the $`\alpha_{atm}`$ field exhibit
 
 **6. Discussion**
 
-**6.1 What does** $`\mathbf{\alpha}_{\mathbf{atm}}`$ **measure, physically?**
+**6.1 What does** $`\mathbf{\alpha}_{\mathbf{atm}}`$ **measure—physically?**
 
-Within RTM, the exponent $`\alpha`$is an **operational fingerprint** of the transport class that governs how persistence scales with feature size. In the atmosphere, $`\alpha_{atm}`$ reflects the **play between advection, shear/strain, rotation, stratification, and moist microphysics**:
+Within RTM, the exponent $`\alpha`$ is an **operational fingerprint** of the transport class that governs how persistence scales with feature size. In the atmosphere, $`\alpha_{atm}`$ reflects the **play between advection, shear/strain, rotation, stratification, and moist microphysics**:
 
-- $`\alpha \downarrow`$**(toward 1–2):** faster decorrelation with scale, indicative of **advective/filamenting** regimes where shear and frontogenesis fragment structures (pre-frontal zones, baroclinic leaf, convective line growth).
+- $`\alpha \downarrow`$ **(toward 1–2):** faster decorrelation with scale—indicative of **advective/filamenting** regimes where shear and frontogenesis fragment structures (pre-frontal zones, baroclinic leaf, convective line growth).
 
-- $`\alpha \approx 2`$**:** **mixing-dominated** persistence (quasi-diffusive) in weakly organized background.
+- $`\alpha \approx 2`$ **:** **mixing-dominated** persistence (quasi-diffusive) in weakly organized background.
 
-- $`\alpha \uparrow`$**(**$`\gtrsim 2.5`$**):** **coherent organization**, vortical confinement, stratified layers, jet-cored waveguides or moist conveyor belts, where larger scales live disproportionately longer.
+- $`\alpha \uparrow`$ **(**$`\gtrsim 2.5`$ **):** **coherent organization**—vortical confinement, stratified layers, jet-cored waveguides or moist conveyor belts—where larger scales live disproportionately longer.
 
 Thus, $`\alpha_{atm}`$ summarizes **pathway architecture**, complementary to ingredient metrics like CAPE, $`\zeta`$, or shear. It measures *how the system holds together across scales*, not just whether ingredients exist.
 
-**6.2 Why** $`\mathbf{\alpha}`$**-drops precede onsets**
+**6.2 Why** $`\mathbf{\alpha}`$ **-drops precede onsets**
 
-RTM predicts that **transitions between transport classes** appear as **discrete slope changes**. Before genesis/RI/explosive deepening, observed fields often exhibit **preparatory fragmentation**: shear-induced filaments, convective bursts that re-partition moisture/ PV, or mesoscale reorganizations. These processes **reduce** $`\alpha`$ (shorter persistence per added scale), creating a **negative** $`\Delta\alpha`$. Once a coherent core forms (closed circulation, wrapped fronts), persistence grows superlinearly again and $`\alpha`$ **rebounds**. This **dip–rebound** provides a mechanistic interpretation of the precursor signal.
+RTM predicts that **transitions between transport classes** appear as **discrete slope changes**. Before genesis/RI/explosive deepening, observed fields often exhibit **preparatory fragmentation**: shear-induced filaments, convective bursts that re-partition moisture/ PV, or mesoscale reorganizations. These processes **reduce** $`\alpha`$ (shorter persistence per added scale), creating a **negative** $`\Delta\alpha`$ . Once a coherent core forms (closed circulation, wrapped fronts), persistence grows superlinearly again and $`\alpha`$ **rebounds**. This **dip–rebound** provides a mechanistic interpretation of the precursor signal.
 
 **6.3 Relation to spectra and cascades**
 
-Classical cascade arguments relate turnover times to spectral slopes. When $`\alpha_{atm}`$ notably exceeds inertial-range expectations, it suggests **constraints beyond inertial turbulence**, rotation, stratification, moisture–radiation feedbacks, that **stiffen** structures. Conversely, $`\alpha`$ near advective limits highlights regimes where **strain dominates** and memory is short. In this sense, $`\alpha`$ acts as a **bridge variable** connecting spectral diagnostics with object-based organization (e.g., vortex consolidation, frontal tightening).
+Classical cascade arguments relate turnover times to spectral slopes. When $`\alpha_{atm}`$ notably exceeds inertial-range expectations, it suggests **constraints beyond inertial turbulence**—rotation, stratification, moisture–radiation feedbacks—that **stiffen** structures. Conversely, $`\alpha`$ near advective limits highlights regimes where **strain dominates** and memory is short. In this sense, $`\alpha`$ acts as a **bridge variable** connecting spectral diagnostics with object-based organization (e.g., vortex consolidation, frontal tightening).
 
 **6.4 Added value relative to standard predictors**
 
-Ingredient-based predictors (CAPE, vorticity, shear, SST) characterize **potential**; $`\alpha`$characterizes **realized organization** and **transport efficiency**. Two practical consequences:
+Ingredient-based predictors (CAPE, vorticity, shear, SST) characterize **potential**; $`\alpha`$ characterizes **realized organization** and **transport efficiency**. Two practical consequences:
 
-- $`\alpha`$can fire **earlier** when organization is changing but thresholds are not yet crossed (e.g., pre-genesis consolidation under modest CAPE).
+- $`\alpha`$ can fire **earlier** when organization is changing but thresholds are not yet crossed (e.g., pre-genesis consolidation under modest CAPE).
 
-- When thresholds are crossed widely (synoptic outbreaks), $`\alpha`$helps **localize** risk by identifying **where** coherent reorganization is actually underway (spatial contrast).
+- When thresholds are crossed widely (synoptic outbreaks), $`\alpha`$ helps **localize** risk by identifying **where** coherent reorganization is actually underway (spatial contrast).
 
 **6.5 Interpreting vertical structure and multi-field fusion**
 
-Vertical consistency of $`\alpha`$ (e.g., low-level dip with mid/upper rebounding) can indicate **column coupling** or **tilt–untilt** processes. Fusing $`\alpha`$from $`\zeta, \mid V \mid ,\theta`$-gradient, and IR Tb balances **dynamical** and **moist** signals; discrepancies among fields often flag **data artefacts** or **mechanism changes** (e.g., cirrus contamination in Tb vs clean dynamical $`\alpha`$from winds).
+Vertical consistency of $`\alpha`$ (e.g., low-level dip with mid/upper rebounding) can indicate **column coupling** or **tilt–untilt** processes. Fusing $`\alpha`$ from $`\zeta, \mid V \mid ,\theta`$ gradient, and IR Tb balances **dynamical** and **moist** signals; discrepancies among fields often flag **data artefacts** or **mechanism changes** (e.g., cirrus contamination in Tb vs clean dynamical $`\alpha`$ from winds).
 
 **6.6 Failure modes and edge cases**
 
-- **Data artefacts:** diurnal aliasing in Tb, scan geometry or resampling can distort $`T`$. Our audits (night-only, grid jitter) are essential; failure there invalidates local $`\alpha`$.
+- **Data artefacts:** diurnal aliasing in Tb, scan geometry or resampling can distort $`T`$ . Our audits (night-only, grid jitter) are essential; failure there invalidates local $`\alpha`$ .
 
-- **Insufficient scale span:** without ≥1 decade in $`L`$, slopes are unstable, mark as **class-unstable**, don’t map.
+- **Insufficient scale span:** without ≥1 decade in $`L`$, slopes are unstable—mark as **class-unstable**, don’t map.
 
-- **Dry dynamics / topography:** orographic forcing can mimic organization; $`\alpha`$-signals must be corroborated by dynamical fields (avoid Tb-only conclusions).
+- **Dry dynamics / topography:** orographic forcing can mimic organization; $`\alpha`$ signals must be corroborated by dynamical fields (avoid Tb-only conclusions).
 
-- **Regime interleaving:** multiple mechanisms inside a window yield **piecewise** $`\alpha`$; forcing a single slope obscures the signature, prefer explicit piecewise fits or smaller windows.
+- **Regime interleaving:** multiple mechanisms inside a window yield **piecewise** $`\alpha`$; forcing a single slope obscures the signature—prefer explicit piecewise fits or smaller windows.
 
 **6.7 What would falsify RTM-Atmo?**
 
@@ -754,7 +756,7 @@ Vertical consistency of $`\alpha`$ (e.g., low-level dip with mid/upper reboundin
 
 **6.8 Practical guidance for forecasters**
 
-- Treat $`\Delta\alpha <`$**local 10–20th percentile** as an **alert** only when **collapse diagnostics pass** and **neighborhood contrast** is high.
+- Treat $`\Delta\alpha <`$ **local 10–20th percentile** as an **alert** only when **collapse diagnostics pass** and **neighborhood contrast** is high.
 
 - Expect **annular negative** $`\Delta\alpha`$ before bombs and **localized dips** near future genesis centers.
 
@@ -762,7 +764,7 @@ Vertical consistency of $`\alpha`$ (e.g., low-level dip with mid/upper reboundin
 
 **6.9 Broader implications**
 
-If confirmed, $`\alpha_{atm}`$ offers a **compact, mechanism-aware** layer that reframes onset prediction as **transport-class inference**. It can support **ML nowcasting** (as a physically interpretable feature), **NWP post-processing** (to reweight members during pre-onset), and **situational awareness** (identifying reorganization corridors). Even if refuted, publishing preregistered failures will **tighten limits** on when and where multiscale organization governs onset, clarifying the interaction space of turbulence, rotation, stratification, and moist physics.
+If confirmed, $`\alpha_{atm}`$ offers a **compact, mechanism-aware** layer that reframes onset prediction as **transport-class inference**. It can support **ML nowcasting** (as a physically interpretable feature), **NWP post-processing** (to reweight members during pre-onset), and **situational awareness** (identifying reorganization corridors). Even if refuted, publishing preregistered failures will **tighten limits** on when and where multiscale organization governs onset—clarifying the interaction space of turbulence, rotation, stratification, and moist physics.
 
 **7. Operationalization**
 
@@ -782,15 +784,15 @@ This chapter turns RTM-Atmo into a **real-time, decision-grade product**. It spe
 
 1.  **Ingest & align** → 0.25° grid; local-time tags for diurnal checks.
 
-2.  **Multiscale bank** → wavelet bands $`L \in \{ 50,75,100,150,200,300,450,600\}`$km.
+2.  **Multiscale bank** → wavelet bands $`L \in \{ 50,75,100,150,200,300,450,600\}`$ km.
 
-3.  **Feature masks** → 70th percentile energy per $`L`$.
+3.  **Feature masks** → 70th percentile energy per $`L`$ .
 
-4.  **Persistence** $`T`$→ autocorrelation e-folding per $`(x,y,L)`$ over a rolling 72 h buffer.
+4.  **Persistence** $`T`$ → autocorrelation e-folding per $`(x,y,L)`$ over a rolling 72 h buffer.
 
 5.  **Windowed regressions** → 5×5° × 24 h windows; $`\widehat{\alpha}`$, 95% CI, diagnostics.
 
-6.  **Collapse test** → variance-minimizing $`\alpha^{\star}`$; pass/fail + score $`C`$.
+6.  **Collapse test** → variance-minimizing $`\alpha^{\star}`$; pass/fail + score $`C`$ .
 
 7.  **Fusion** → $`\alpha_{\text{fused}}`$ from per-variable/level weights (defaults §3.7).
 
@@ -806,13 +808,13 @@ This chapter turns RTM-Atmo into a **real-time, decision-grade product**. It spe
 
 A grid cell is **masked** if any of the following fail:
 
-- **Scale span:** \<1 decade populated in $`L`$**or** \<4 valid scales.
+- **Scale span:** \<1 decade populated in $`L`$ **or** \<4 valid scales.
 
-- **Fit quality:** regression $`R^{2} < 0.6`$**or** jackknife $`\mid \Delta\alpha \mid > 0.15`$.
+- **Fit quality:** regression $`R^{2} < 0.6`$ **or** jackknife $`\mid \Delta\alpha \mid > 0.15`$ .
 
-- **Collapse:** $`C < 0.25`$**or** KS $`p \leq 0.05`$(no collapse).
+- **Collapse:** $`C < 0.25`$ **or** KS $`p \leq 0.05`$ (no collapse).
 
-- **Diurnal aliasing (Tb):** day–night $`\alpha`$difference \>0.3 without corroboration from dynamical fields.
+- **Diurnal aliasing (Tb):** day–night $`\alpha`$ difference \>0.3 without corroboration from dynamical fields.
 
 - **Grid jitter:** recomputation on ±0.05° shifts changes $`\widehat{\alpha}`$ by \>0.2.
 
@@ -822,27 +824,27 @@ Only **unmasked** cells contribute to alerts.
 
 - **Map A:** $`{\widehat{\alpha}}_{\text{fused}}(x,y,t)`$ with hatching for masked cells.
 
-- **Map B:** $`\Delta\alpha`$(color), **neighborhood contrast** (contours every −0.15).
+- **Map B:** $`\Delta\alpha`$ (color), **neighborhood contrast** (contours every −0.15).
 
-- **Map C (diagnostics):** collapse score $`C`$and pass/fail.
+- **Map C (diagnostics):** collapse score $`C`$ and pass/fail.
 
 - **Time series cards:** per ROI (e.g., 5×5° box), plot $`\Delta\alpha`$ with 10th/90th local quantiles and event markers if any.
 
-- **Vertical section:** $`\alpha`$by level (925–200 hPa) to show column coupling.
+- **Vertical section:** $`\alpha`$ by level (925–200 hPa) to show column coupling.
 
-All products ship with **legend text** explaining $`\alpha`$interpretation (coherence vs fragmentation).
+All products ship with **legend text** explaining $`\alpha`$ interpretation (coherence vs fragmentation).
 
 **7.4 Alert logic (default thresholds)**
 
 Define an **RTM-Atmo Alert** when all hold simultaneously within an ROI (5×5° box, updated hourly):
 
-1.  **Magnitude:** $`\Delta\alpha \leq Q_{0.2}`$ of the local 72 h distribution **or** absolute $`\Delta\alpha \leq - 0.25`$.
+1.  **Magnitude:** $`\Delta\alpha \leq Q_{0.2}`$ of the local 72 h distribution **or** absolute $`\Delta\alpha \leq - 0.25`$ .
 
 2.  **Persistence:** condition (1) holds for ≥2 of the last 3 hours.
 
-3.  **Contrast:** $`\Delta\alpha`$≤ (neighborhood median − 0.15) within a 3° radius.
+3.  **Contrast:** $`\Delta\alpha`$ ≤ (neighborhood median − 0.15) within a 3° radius.
 
-4.  **Validity:** diagnostics pass (no masks) in ≥60% of ROI cells and median collapse score $`C \geq 0.35`$.
+4.  **Validity:** diagnostics pass (no masks) in ≥60% of ROI cells and median collapse score $`C \geq 0.35`$ .
 
 5.  **Context (family-specific add-ons):**
 
@@ -861,29 +863,29 @@ Define an **RTM-Atmo Alert** when all hold simultaneously within an ROI (5×5° 
 **7.5 Human factors: how to brief a forecaster**
 
 **One-line summary.**\
-“$`\alpha`$**-drop watch** in \[Basin/Region\], \[Box\], lead 12–48 h: multiscale organization is changing (fragmentation) with high diagnostic confidence; risk highest near \[lat,lon\].”
+“$`\alpha`$ **-drop watch** in \[Basin/Region\], \[Box\], lead 12–48 h: multiscale organization is changing (fragmentation) with high diagnostic confidence; risk highest near \[lat,lon\].”
 
 **Card elements.**
 
-- Sparkline: 96 h history of $`\Delta\alpha`$with shaded quantiles.
+- Sparkline: 96 h history of $`\Delta\alpha`$ with shaded quantiles.
 
-- Map inset: $`\Delta\alpha`$+ contrast contours; masked cells hatched.
+- Map inset: $`\Delta\alpha`$ + contrast contours; masked cells hatched.
 
-- Diagnostics: $`C`$score, % valid cells, day–night difference.
+- Diagnostics: $`C`$ score, % valid cells, day–night difference.
 
 - Context: vorticity/Eady tercile, SST flag, ensemble probability (if fused).
 
-- **Plain-English note:** “A falling $`\alpha`$indicates structures decorrelate faster with scale, typical **before** cyclogenesis/RI/explosive deepening. If the signal rebounds, consolidation is underway.”
+- **Plain-English note:** “A falling $`\alpha`$ indicates structures decorrelate faster with scale—typical **before** cyclogenesis/RI/explosive deepening. If the signal rebounds, consolidation is underway.”
 
 **Do/Don’t.**
 
-- **Do** treat $`\alpha`$-alerts as **precursors**, not outcomes.
+- **Do** treat $`\alpha`$ alerts as **precursors**, not outcomes.
 
 - **Don’t** override clear contradicting evidence (e.g., land interaction imminent) without review.
 
 **7.6 Fusion with ensemble/NWP guidance**
 
-Let $`P_{\text{ens}}`$be ensemble probability for event class; define a stacked predictor:
+Let $`P_{\text{ens}}`$ be ensemble probability for event class; define a stacked predictor:
 
 ``` math
 \text{logit }P = \beta_{0} + \beta_{1}P_{\text{ens}} + \beta_{2}\Delta\alpha + \beta_{3}\text{contrast} + \beta_{4}C.
@@ -893,7 +895,7 @@ Let $`P_{\text{ens}}`$be ensemble probability for event class; define a stacked 
 
 - **Output:** calibrated probability with **uncertainty bands** via bootstrap.
 
-- **Fail-safe:** if diagnostics fail (mask), fall back to $`P_{\text{ens}}`$.
+- **Fail-safe:** if diagnostics fail (mask), fall back to $`P_{\text{ens}}`$ .
 
 **7.7 Validation in operations (shadow mode)**
 
@@ -956,19 +958,19 @@ All endpoints return **units, methods version, and commit hash**.
 **8.1 Methodological limitations**
 
 **Finite scale span.**\
-Estimating a slope requires ≥1 decade in $`L`$. In data-sparse regions or narrow feature bands (e.g., mesoscale-only products), $`\widehat{\alpha}`$ becomes unstable. We **mask** such windows (QC §7.2), but this reduces coverage near coasts/topography.
+Estimating a slope requires ≥1 decade in $`L`$ . In data-sparse regions or narrow feature bands (e.g., mesoscale-only products), $`\widehat{\alpha}`$ becomes unstable. We **mask** such windows (QC §7.2), but this reduces coverage near coasts/topography.
 
-**Choice of** $`L`$**and** $`T`$**.**\
-Different $`L`$-extractors (wavelets vs object diameters) and $`T`$-definitions (autocorrelation vs lifetime) can shift $`\widehat{\alpha}`$ by $`\mathcal{O}(0.1)`$. We mitigate with **sensitivity ensembles** (alternate definitions) and report ranges, but interpretation must reference the chosen pair $`(L,T)`$.
+**Choice of** $`L`$ **and** $`T`$ **.**\
+Different $`L`$ extractors (wavelets vs object diameters) and $`T`$ definitions (autocorrelation vs lifetime) can shift $`\widehat{\alpha}`$ by $`\mathcal{O}(0.1)`$ . We mitigate with **sensitivity ensembles** (alternate definitions) and report ranges, but interpretation must reference the chosen pair $`(L,T)`$ .
 
 **Censoring and persistence bias.**\
-Right-censoring $`T`$ at the buffer length (e.g., 72 h) potentially inflates $`\alpha`$. We re-fit with 48/60/72 h caps and report robustness; still, long-lived features in quiet regimes remain a challenge.
+Right-censoring $`T`$ at the buffer length (e.g., 72 h) potentially inflates $`\alpha`$ . We re-fit with 48/60/72 h caps and report robustness; still, long-lived features in quiet regimes remain a challenge.
 
 **Mixed mechanisms in a window.**\
 When transport classes interleave (e.g., embedded convection within synoptic envelopes), single-slope fits blur signals. We detect this via **collapse failures** and offer **piecewise-**$`\alpha`$, but residual mixing can persist.
 
 **Satellite artefacts.**\
-IR $`T_{b}`$ suffers diurnal/angle/attenuation issues; despite night-only checks and grid jitter, residual biases may contaminate $`\alpha`$in convective tropics. Dynamical fields should corroborate Tb-based signals.
+IR $`T_{b}`$ suffers diurnal/angle/attenuation issues; despite night-only checks and grid jitter, residual biases may contaminate $`\alpha`$ in convective tropics. Dynamical fields should corroborate Tb-based signals.
 
 **Reanalysis dependence.**\
 ERA5/NWP fields are model-filtered. If assimilation or model physics imprint scale-dependent memory, $`\alpha`$ may partially measure **model organization** rather than nature. Cross-validating with independent platforms (scatterometers, radiosondes) is important.
@@ -976,21 +978,21 @@ ERA5/NWP fields are model-filtered. If assimilation or model physics imprint sca
 **8.2 External validity**
 
 **Regional transfer.**\
-Thresholds and priors (e.g., low-level $`\mid \zeta \mid`$terciles) vary by basin. We provide **phase- and basin-aware** baselines (§4), but operational deployments should re-tune for local climatology.
+Thresholds and priors (e.g., low-level $`\mid \zeta \mid`$ terciles) vary by basin. We provide **phase- and basin-aware** baselines (§4), but operational deployments should re-tune for local climatology.
 
 **Event taxonomy.**\
-Definitions of “genesis,” “RI,” and “bomb” differ among agencies. We preregister one set; users must map $`\alpha`$-alerts to their agency definitions with care.
+Definitions of “genesis,” “RI,” and “bomb” differ among agencies. We preregister one set; users must map $`\alpha`$ alerts to their agency definitions with care.
 
 **Lead-time trade-offs.**\
-$`\alpha`$-precursors weaken as lead increases beyond 48 h; shorter leads trade recall for precision. Product guidance must state this **frontier explicitly**.
+$`\alpha`$ precursors weaken as lead increases beyond 48 h; shorter leads trade recall for precision. Product guidance must state this **frontier explicitly**.
 
 **8.3 Falsifiable predictions (pre-registered)**
 
 1.  **Slope stability in stationary regimes.**\
-    In mature blocks or long-lived vortices, $`\log T`$–$`\log L`$ is linear over ≥1 decade, with collapse pass-rate \> 60%.\
+    In mature blocks or long-lived vortices, $`\log T`$ – $`\log L`$ is linear over ≥1 decade, with collapse pass-rate \> 60%.\
     **Failure criterion:** stability \< 20% across regions/seasons.
 
-2.  **Pre-onset** $`\alpha`$**-drop.**\
+2.  **Pre-onset** $`\alpha`$ **-drop.**\
     Median $`\Delta\alpha`$ dips below the 20th percentile **12–48 h** before genesis/bombs, with ΔAUROC ≥ 0.05 vs persistence at 24–36 h.\
     **Failure criterion:** no significant lead or ΔAUROC \< 0.02 after conditioning.
 
@@ -1005,32 +1007,32 @@ $`\alpha`$-precursors weaken as lead increases beyond 48 h; shorter leads trade 
 **8.4 How RTM-Atmo could be wrong (diagnosing refutation)**
 
 - **Spectral contradiction.**\
-  If observed spectra/turnover times imply $`\alpha \approx (p - 1)/2`$but estimated $`\widehat{\alpha}`$ consistently violates this with **no** physical corroboration (e.g., no stratification/rotation/moist constraints), the RTM mapping is misapplied.
+  If observed spectra/turnover times imply $`\alpha \approx (p - 1)/2`$ but estimated $`\widehat{\alpha}`$ consistently violates this with **no** physical corroboration (e.g., no stratification/rotation/moist constraints), the RTM mapping is misapplied.
 
 - **Proxy confounding.**\
-  If $`\alpha`$reduces to a monotonic function of one ingredient (e.g., CAPE or $`\mid \zeta \mid`$) and adds **zero** conditional skill in nested models, then RTM-Atmo offers no unique information.
+  If $`\alpha`$ reduces to a monotonic function of one ingredient (e.g., CAPE or $`\mid \zeta \mid`$) and adds **zero** conditional skill in nested models, then RTM-Atmo offers no unique information.
 
 - **Diagnostic brittleness.**\
   If small changes in window size or grid jitter flip alerts frequently (high variance, low repeatability), then $`\alpha`$ is not decision-grade.
 
 - **Non-stationary drift.**\
-  If version changes in reanalysis/NWP shift $`\alpha`$-climatology strongly without physical justification, dependence on a specific product invalidates generality.
+  If version changes in reanalysis/NWP shift $`\alpha`$ climatology strongly without physical justification, dependence on a specific product invalidates generality.
 
 We recommend publishing negative outcomes with full preregistration to bound where RTM-Atmo does **not** apply.
 
 **8.5 Ethical use & communication**
 
 **Precursor ≠ event.**\
-$`\alpha`$-drops indicate **reorganization**, not a guaranteed outcome. Communicate **probabilities** with reliability diagrams; avoid deterministic language.
+$`\alpha`$ drops indicate **reorganization**, not a guaranteed outcome. Communicate **probabilities** with reliability diagrams; avoid deterministic language.
 
 **False alarms & opportunity costs.**\
 Operational thresholds should be co-designed with forecasters to balance cognitive load; present **confidence layers** (collapse score, % valid cells) next to alerts.
 
 **Transparency & reproducibility.**\
-Ship parameter YAMLs, software hashes, and diagnostics with every map. Provide **explanatory text** on what $`\alpha`$measures (and what it does not).
+Ship parameter YAMLs, software hashes, and diagnostics with every map. Provide **explanatory text** on what $`\alpha`$ measures (and what it does not).
 
 **Data equity.**\
-Regions with sparse observations (Africa, South Pacific) may show weaker or noisier $`\alpha`$-signals; disclose limitations to avoid unequal risk communication.
+Regions with sparse observations (Africa, South Pacific) may show weaker or noisier $`\alpha`$ signals; disclose limitations to avoid unequal risk communication.
 
 **Attribution and licensing.**\
 If deployed publicly, release code/configs under a permissive license (e.g., MIT/Apache-2.0) and maps under **CC BY 4.0**, crediting upstream data providers.
@@ -1051,11 +1053,11 @@ If deployed publicly, release code/configs under a permissive license (e.g., MIT
 
 **9. Conclusion**
 
-We introduced **Rhythmic Meteorology (RTM-Atmo)**, an application of the RTM framework in which the **scaling exponent** $`\alpha_{atm}`$ quantifies how atmospheric **persistence** grows with **feature scale** across space, time, variables, and levels. Conceptually, $`\alpha_{atm}`$ acts as a **transport-class indicator**: high values mark **coherent, organized** flow (vortical/stratified/jet-guided), while **rapid negative excursions** ($`\Delta\alpha\text{ } \downarrow`$) signal **fragmentation and class switching** that often precede **onset events** (tropical cyclogenesis, rapid intensification, explosive baroclinic development).
+We introduced **Rhythmic Meteorology (RTM-Atmo)**—an application of the RTM framework in which the **scaling exponent** $`\alpha_{atm}`$ quantifies how atmospheric **persistence** grows with **feature scale** across space, time, variables, and levels. Conceptually, $`\alpha_{atm}`$ acts as a **transport-class indicator**: high values mark **coherent, organized** flow (vortical/stratified/jet-guided), while **rapid negative excursions** ($`\Delta\alpha\text{ } \downarrow`$) signal **fragmentation and class switching** that often precede **onset events** (tropical cyclogenesis, rapid intensification, explosive baroclinic development).
 
 Methodologically, we specified a **reproducible pipeline**: multiscale feature extraction (wavelets/objects), windowed regressions of $`\log T`$ on $`\log L`$, **uncertainty quantification** (bootstrap, errors-in-variables), and **collapse diagnostics** that verify single-mechanism behavior. We defined **preregistered experiments** (E1–E4) to evaluate precursor value relative to persistence and standard predictors, phase-stratified backgrounds, and operational fusion with ensembles. The **operationalization** chapter detailed real-time products (maps, anomalies, confidence layers), QC gates, alert logic, and a governance plan emphasizing transparency, calibration, and ethical communication.
 
-If the experiments confirm our predictions, $`\alpha_{atm}`$offers a **compact, interpretable layer** that:
+If the experiments confirm our predictions, $`\alpha_{atm}`$ offers a **compact, interpretable layer** that:
 
 1.  provides **12–48 h** early warnings tied to physical reorganizations;
 
@@ -1066,7 +1068,7 @@ If the experiments confirm our predictions, $`\alpha_{atm}`$offers a **compact, 
 
 **Future work** includes (i) adaptive windows and **piecewise-**$`\alpha`$ to resolve mixed mechanisms, (ii) cross-sensor validation (scatterometer winds, microwave sounders, radar composites), (iii) coupling RTM-Atmo to **data assimilation** (flow-dependent priors) and **ML nowcasting** as an interpretable feature, and (iv) extension to hydrology and wildland fire weather where transport-class shifts also precede rapid regime changes.
 
-In short, RTM-Atmo reframes onset prediction as **transport-class inference**. Whether confirmed or refuted, it provides a **testable, operationally minded** bridge between turbulence, moist dynamics, and decision support, turning multiscale organization into actionable forecaster awareness.
+In short, RTM-Atmo reframes onset prediction as **transport-class inference**. Whether confirmed or refuted, it provides a **testable, operationally minded** bridge between turbulence, moist dynamics, and decision support—turning multiscale organization into actionable forecaster awareness.
 
 **10. Supplementary Information**
 
@@ -1079,7 +1081,7 @@ T(L)\text{\:\,} = \text{\:\,}C\text{ }L^{\alpha},C > 0,\alpha\text{\:\,} = \te
 ```
 
 **S1.2 Windowed regression (primary OLS)**\
-Given pairs $`\{(\log L_{i},\log T_{i})\}_{i = 1}^{n}`$inside a space–time window $`W`$:
+Given pairs $`\{(\log L_{i},\log T_{i})\}_{i = 1}^{n}`$ inside a space–time window $`W`$:
 
 ``` math
 \log T_{i} = \beta_{0} + \alpha\text{ }\log L_{i} + \varepsilon_{i},\widehat{\alpha} = \frac{Cov(\log L,\log T)}{Var(\log L)}.
@@ -1088,7 +1090,7 @@ Given pairs $`\{(\log L_{i},\log T_{i})\}_{i = 1}^{n}`$inside a space–time win
 Report $`\widehat{\alpha}`$, standard error, $`R^{2}`$, and 95% CI (bootstrap; S1.4).
 
 **S1.3 Errors-in-variables (orthogonal regression)**\
-When $`L`$has non-negligible calibration error,
+When $`L`$ has non-negligible calibration error,
 
 ``` math
 \underset{\beta_{0},\alpha}{\min}\sum_{i}^{}\frac{(\log T_{i} - \beta_{0} - \alpha\ \log L_{i})^{2}}{1 + \alpha^{2}}
@@ -1097,11 +1099,11 @@ When $`L`$has non-negligible calibration error,
 Implement via total least squares; report both OLS and EIV.
 
 **S1.4 Bootstrap uncertainty**\
-Resample $`(L_{i},T_{i})`$with stratification by scale band; $`B = 1000`$replicates.\
-$`\widehat{\alpha}`$= median across replicates; CI = empirical 2.5–97.5 percentiles.
+Resample $`(L_{i},T_{i})`$ with stratification by scale band; $`B = 1000`$ replicates.\
+$`\widehat{\alpha}`$ = median across replicates; CI = empirical 2.5–97.5 percentiles.
 
 **S1.5 Collapse test**\
-Let $`{\widetilde{T}}_{i}(\alpha^{\star}) = T_{i}\text{ }L_{i}^{- \alpha^{\star}}`$.\
+Let $`{\widetilde{T}}_{i}(\alpha^{\star}) = T_{i}\text{ }L_{i}^{- \alpha^{\star}}`$ .\
 Find $`\alpha^{\star}`$ minimizing between-scale variance:
 
 ``` math
@@ -1109,7 +1111,7 @@ V(\alpha^{\star}) = \sum_{k}^{}w_{k}\text{ }Var(\{{\widetilde{T}}_{i}:L_{i} \i
 ```
 
 **Collapse score** $`C = 1 - V(\alpha^{\star})/V(0) \in \lbrack 0,1\rbrack`$.\
-Pass if (i) $`\alpha^{\star} \in`$<!-- -->95% CI of $`\widehat{\alpha}`$and (ii) KS tests across bands yield $`p > 0.05`$.
+Pass if (i) $`\alpha^{\star} \in`$ <!-- -->95% CI of $`\widehat{\alpha}`$ and (ii) KS tests across bands yield $`p > 0.05`$.
 
 **S1.6 Anomalies and contrast**
 
@@ -1216,20 +1218,20 @@ Windows failing any check are **masked**.
 
 **S4. Figure & panel templates (ready-to-paste captions)**
 
-- **Fig. 1 — Global** $`\alpha`$**climatology.** *Seasonal maps of fused* $`\widehat{\alpha}`$*(DJF/JJA), zonal-mean vertical cross-section, and histogram with collapse-score distribution. Hatching denotes QC-masked regions.*
+- **Fig. 1 — Global** $`\alpha`$ **climatology.** *Seasonal maps of fused* $`\widehat{\alpha}`$ *(DJF/JJA), zonal-mean vertical cross-section, and histogram with collapse-score distribution. Hatching denotes QC-masked regions.*
 
 - **Fig. 2 — Cyclogenesis alignment.** *Median* $`\Delta\alpha`$ *from −96 to +24 h around genesis (IQR shading), lead-time AUROC/AUPRC, reliability at 24 h, and collapse pass-rates vs controls.*
 
-- **Fig. 3 — Rapid intensification.** *Composite* $`\Delta\alpha`$*vs onset, 12/24 h AUROC, PR curves, and nested-model coefficients showing incremental value over environmental baselines.*
+- **Fig. 3 — Rapid intensification.** *Composite* $`\Delta\alpha`$ *vs onset, 12/24 h AUROC, PR curves, and nested-model coefficients showing incremental value over environmental baselines.*
 
 - **Fig. 4 — Explosive cyclogenesis.** *Radial profiles of* $`\Delta\alpha`$ *at −36/−24/−12 h, AUROC vs Eady proxy, spatial composite maps, and annulus collapse pass-rates.*
 
-- **Fig. 5 — Background modulation & fusion.** *Phase-stratified PDFs of* $`\alpha`$*, ΔAUROC after conditioning, CRPS improvements from ensemble+α, and reliability diagrams.*
+- **Fig. 5 — Background modulation & fusion.** *Phase-stratified PDFs of * $`\alpha`$ *, ΔAUROC after conditioning, CRPS improvements from ensemble+α, and reliability diagrams.*
 
 **S5. Table schemas**
 
-**Table 1 — Climatological** $`\widehat{\alpha}`$**by region/season**\
-\| Region \| Season \| Median $`\widehat{\alpha}`$\| IQR \| Collapse pass-rate (%) \| % masked \|
+**Table 1 — Climatological** $`\widehat{\alpha}`$ **by region/season**\
+\| Region \| Season \| Median $`\widehat{\alpha}`$ \| IQR \| Collapse pass-rate (%) \| % masked \|
 
 **Table 2 — E1 skill by lead**\
 \| Lead (h) \| AUROC (α) \| AUROC (baseline) \| ΔAUROC \| AUPRC (α) \| Brier \| Reliability slope \|
@@ -1238,7 +1240,7 @@ Windows failing any check are **masked**.
 \| Lead (h) \| AUROC \| AUPRC \| Precision@20% recall \| ΔAUROC vs persistence \| β(Δα) (CI) \| p-value \|
 
 **Table 4 — E3 bombs**\
-\| Lead (h) \| Min annular $`\Delta\alpha`$\| AUROC (α) \| AUROC (Eady) \| ΔAUPRC \| Annulus collapse pass-rate \|
+\| Lead (h) \| Min annular $`\Delta\alpha`$ \| AUROC (α) \| AUROC (Eady) \| ΔAUPRC \| Annulus collapse pass-rate \|
 
 **Table 5 — Fusion (E1/E3)**\
 \| Lead (h) \| CRPS (ens) \| CRPS (ens+α) \| ΔCRPS % \| Reliability slope (ens) \| (ens+α) \|
@@ -1261,23 +1263,23 @@ Windows failing any check are **masked**.
 
 **S7. Glossary of symbols (paper-specific)**
 
-- $`L`$— feature length scale (km), from wavelet band, structure function, or object diameter.
+- $`L`$ — feature length scale (km), from wavelet band, structure function, or object diameter.
 
-- $`T`$— persistence/completion time (h): autocorrelation e-folding, object lifetime, or lead-to-threshold.
+- $`T`$ — persistence/completion time (h): autocorrelation e-folding, object lifetime, or lead-to-threshold.
 
-- $`\alpha`$— scaling exponent, $`d\log T/d\log L`$.
+- $`\alpha`$ — scaling exponent, $`d\log T/d\log L`$.
 
-- $`\widehat{\alpha}`$— estimated exponent within a window (OLS/EIV + bootstrap CI).
+- $`\widehat{\alpha}`$ — estimated exponent within a window (OLS/EIV + bootstrap CI).
 
-- $`\alpha^{\star}`$— collapse-optimal exponent.
+- $`\alpha^{\star}`$ — collapse-optimal exponent.
 
-- $`\Delta\alpha`$— anomaly w.r.t. 72 h local baseline.
+- $`\Delta\alpha`$ — anomaly w.r.t. 72 h local baseline.
 
-- $`C`$— collapse score $`\in \lbrack 0,1\rbrack`$.
+- $`C`$ — collapse score $`\in \lbrack 0,1\rbrack`$.
 
-- $`\zeta`$— relative vorticity; $`\nabla \cdot V`$— divergence; $`\mid V \mid`$— wind speed.
+- $`\zeta`$ — relative vorticity; $`\nabla \cdot V`$ — divergence; $`\mid V \mid`$ — wind speed.
 
-- $`\theta`$— potential temperature; $`T_{b}`$— IR brightness temperature.
+- $`\theta`$ — potential temperature; $`T_{b}`$ — IR brightness temperature.
 
 - ROI — region of interest (e.g., 5×5° box).
 
@@ -1497,17 +1499,36 @@ Initial heuristic validations of RTM-Atmo relied on binning storms into discrete
 
 **B.2. Results: The Continuous Topological Precipice**
 
-The continuous ODR analysis revealed a profoundly deterministic physical relationship:
+The continuous ODR analysis revealed a strong systematic physical relationship between the minimum Coherence Exponent and maximum intensification rate:
 
-- **The Predictive Slope:** The variance-corrected ODR slope is $`\mathbf{- 99.02\ }\mathbf{\pm}\mathbf{11.99}`$. This proves that for every $`0.1`$ drop in the topological $`\alpha`$ exponent, a cyclone's intensification rate explosively accelerates by an additional $`\sim 10`$ knots per day.
+- **The ODR Slope:** The variance-corrected ODR slope is $`\mathbf{-99.02 \pm 11.99}`$. This indicates that for every $`0.1`$ drop in $`\alpha`$, the intensification rate increases by approximately $`\sim 10`$ knots per day — a large and physically meaningful relationship.
 
-- **The Danger Zone:** The data clearly maps a critical topological precipice. Storms that compress their geometry strictly below $`\mathbf{\alpha}\mathbf{< \ 1.25}`$ enter a 'Superfluid' state, mathematically mandated to undergo Rapid Intensification.
+- **The Transition Zone:** Storms that reach $`\alpha < 1.25`$ are systematically associated with Rapid Intensification. This threshold is consistent with the wind-speed regime corresponding to RI onset.
 
-- **Predictive Lead Time:** Structural optimization mathematically precedes kinetic expression. The continuous tracking confirms that the sharpest $`\alpha`$-drop strictly precedes the kinetic RI threshold by an operational mean of **11.6 hours**.
+- **Predictive Lead Time:** The sharpest $`\alpha`$ drop precedes the kinetic RI threshold by an operational mean of **11.6 hours** across 26 RI events (CV = 0.096, suggesting a near-universal transition threshold). This timing relationship is the primary operational contribution of the framework.
 
 **B.3. The Otis Confirmation**
 
 Hurricane Otis (2023) is a textbook manifestation of RTM topological mechanics. Its rapid structural optimization ($`\alpha = \ 1.11`$) perfectly breached the superfluid threshold, mirroring the universal path required for extreme energy processing.
+
+**B.4. Red Team Audit: The Circularity of Hurricane $`\alpha`$ **
+
+Independent adversarial validation (Red Team, April 2026) subjected the hurricane $`\alpha`$ findings to 13 independent tests across three analytical rounds. The full findings are reported here for transparency.
+
+**What was tested:** Whether $`\alpha`$ — the wind-pressure coupling exponent — provides independent structural information beyond what wind speed and pressure already contain.
+
+**What was found:**
+
+| Test | Metric | Result |
+|------|--------|--------|
+| $`\rho(\alpha_{\min}, \text{MAX\_WIND})`$ | Spearman correlation | $`0.957`$ (near-collinear) |
+| Partial $`\rho(\alpha, \text{RI} \mid \text{WIND})`$ | Partial correlation | $`-0.156`$, $`p = 0.295`$ (ns) |
+| $`\Delta R^2`$ ($`\alpha`$ adds to wind for RI) | F-test | $`+0.015`$, $`p = 0.227`$ (ns) |
+| $`\rho(\alpha, \text{PRESSURE})`$ | Direct correlation | $`0.993`$ (effectively collinear) |
+| $`\alpha_{\text{STD}}`$ partial (controlling wind) | Partial correlation | $`+0.034`$, $`p = 0.82`$ (ns) |
+| $`\alpha_{\text{gap}}`$ partial (controlling wind) | Partial correlation | $`-0.145`$, $`p = 0.33`$ (ns) |
+
+All derived metrics ($`\alpha_{\text{STD}}`$, $`\alpha_{\text{gap}}`$, fingerprint products) collapse to zero signal after controlling for wind speed. $`\alpha`$ is derived from the same wind and pressure measurements it is used to predict; the high ODR slope is a consequence of this collinearity, not evidence of an independent structural mechanism.
 
 **APPENDIX C — Empirical Control Validation: Seismic Rupture Dynamics**
 
@@ -1523,7 +1544,7 @@ Even under heavy penalization, the topological analysis yielded an extraordinari
 
 - **Fault Geometries:** Strike-slip faults yielded $`\alpha = \ 1.040\  \pm 0.026`$, while Reverse faults yielded $`\alpha = \ 0.987\  \pm 0.023`$. All strictly align with ballistic propagation.
 
-- **Conclusion:** When RTM measures a mechanical shockwave, it collapses perfectly back to classical mechanics. Seismology proves that the RTM clock is flawlessly calibrated, confirming that $`\alpha`$-fluctuations in fluid systems are genuine topological phase transitions, not mathematical artifacts.
+- **Conclusion:** When RTM measures a mechanical shockwave, it collapses perfectly back to classical mechanics. Seismology proves that the RTM clock is flawlessly calibrated, confirming that $`\alpha`$ fluctuations in fluid systems are genuine topological phase transitions, not mathematical artifacts.
 
 **APPENDIX D — Empirical Validation: Multiscale Coherence in Climate Extremes**
 
@@ -1547,7 +1568,7 @@ When examining localized extreme events, the RTM framework proves that atmospher
 
 The atmosphere and ocean are fundamentally coupled complex fluids. If RTM governs hurricane intensification in the atmosphere, its topological scaling laws must translate to the denser, slower-moving ocean. We subjected the framework to this planetary test by analyzing turbulent pair-dispersion (the Richardson t³ law) and the mesoscale Kinetic Energy (KE) spectrum.
 
-Oceanographic data, collected via AVISO+ satellite altimetry and drifter buoys, contains massive systemic noise from wind shear, wave interactions, and instrumental drift. To isolate true physical scaling, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo variance reconstruction.
+Oceanographic data—collected via AVISO+ satellite altimetry and drifter buoys—contains massive systemic noise from wind shear, wave interactions, and instrumental drift. To isolate true physical scaling, we deployed Orthogonal Distance Regression (ODR) and Monte Carlo variance reconstruction.
 
 **E.2. Richardson Dispersion: The t³ Law**
 
@@ -1591,7 +1612,7 @@ The mesoscale KE spectrum describes how kinetic energy distributes across spatia
 
 \| **\*\*Robust ODR\*\*** \| **\*\*-0.525\*\*** \| **\*\*±0.038\*\*** \|
 
-The variance-corrected slope confirms that macroscopic fluid energy does not dissipate randomly. Instead, it cascades through a strict hierarchy of topological constraints, from submesoscale turbulence (10 km) through mesoscale eddies (100-300 km) to basin-scale circulation (\>1000 km).
+The variance-corrected slope confirms that macroscopic fluid energy does not dissipate randomly. Instead, it cascades through a strict hierarchy of topological constraints—from submesoscale turbulence (10 km) through mesoscale eddies (100-300 km) to basin-scale circulation (\>1000 km).
 
 **E.4. RTM Interpretation**
 
@@ -1609,7 +1630,7 @@ The variance-corrected slope confirms that macroscopic fluid energy does not dis
 
 2\. **Energy cascades are topologically constrained:** The robust KE spectrum proves that energy transfer across scales is not stochastic but follows deterministic geometric rules.
 
-3\. **Macroscopic fluids are scale-invariant networks:** Both metrics confirm the ocean operates as a mathematically predictable multiscale system, the same topological architecture governing atmospheric organization.
+3\. **Macroscopic fluids are scale-invariant networks:** Both metrics confirm the ocean operates as a mathematically predictable multiscale system—the same topological architecture governing atmospheric organization.
 
 **E.5. Falsifiability**
 
@@ -1659,7 +1680,7 @@ Cohen's d = **0.96**, p = 2.03 × 10⁻⁴⁹
 
 \| Inverted \| 1 \| 11% \|
 
-**Critical finding:** The correlation between (VEL_TOR − VEL_WRN) and Cohen's d is **r = 0.96**. This reveals the mechanism: α discriminates when tornadoes exhibit stronger rotation than false alarms, precisely when the framework should work.
+**Critical finding:** The correlation between (VEL_TOR − VEL_WRN) and Cohen's d is **r = 0.96**. This reveals the mechanism: α discriminates when tornadoes exhibit stronger rotation than false alarms—precisely when the framework should work.
 
 **F.4. FAR Reduction**
 
@@ -1687,7 +1708,7 @@ The single inverted outbreak (d = -0.68) exhibited anomalous precipitation signa
 
 \| **210317** \| 5.86 \| **6.74** \|
 
-False alarms had higher rotation (VEL = 49.5 vs 42.9 m/s) AND higher precipitation loading (KDP = 6.74, highest in dataset). The RTM framework detected coherent coupling, but of the precipitation core, not the vorticity field. This failure mode is diagnosable via KDP thresholds.
+False alarms had higher rotation (VEL = 49.5 vs 42.9 m/s) AND higher precipitation loading (KDP = 6.74, highest in dataset). The RTM framework detected coherent coupling—but of the precipitation core, not the vorticity field. This failure mode is diagnosable via KDP thresholds.
 
 **F.6. Multivariable Validation**
 

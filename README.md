@@ -33,7 +33,7 @@ Where:
 * **$L$ (Scale):** The physical or organizational extent of a system.
 * **$\alpha$ (Coherence Exponent):** A topological invariant describing how the system "thickens" time through complexity.
 
-From the **ballistic ringdown of black holes** ($\alpha \approx 1$) to the **diffusive rotation of galaxies** ($\alpha \to 2$) and the **inverse scaling of quantum processors** ($\alpha < 0$), RTM provides a unified metric for the rhythm of existence.
+From the **ballistic ringdown of black holes** ($\alpha \approx 1$) to the **super-ballistic integration of the visual cortex** ($\alpha \approx 0.31$) and the **inverse scaling of quantum processors** ($\alpha < 0$), RTM provides a unified metric for the rhythm of existence.
 
 ---
 
@@ -43,11 +43,11 @@ RTM acknowledges that power-law scaling is a well-documented phenomenon in stati
 
 | α Range | Transport Class | Examples |
 |---------|-----------------|----------|
-| α < 0 | Inverse | Quantum decoherence, network fragility |
-| α ≈ 0.5 | Diffusive | Molecular diffusion, random walks |
+| α < 0 | Inverse | Quantum decoherence, Stokes-Einstein diffusion |
+| α ≈ 0.3 | Super-Ballistic (hierarchical parallel) | Visual cortex integration |
 | α ≈ 1.0 | Ballistic/Advective | Wave propagation, seismic ruptures, GW ringdown |
-| α ≈ 1.5-2.0 | Hierarchical | Biological networks, neural cascades, galaxies |
-| α > 2.0 | Coherent/Organized | Mature cyclones, conscious states |
+| α ≈ 2.0 | Diffusive | Molecular diffusion, random walks |
+| α >> 1 | Topology-driven | Protein folding (α ≈ 7), zeolite confinement |
 
 The methodology is **slope-first**: α is estimated only by multi-point log-log regression with errors-in-variables (EIV), and only when collapse diagnostics pass. When the data choose other grammars, we report failure modes (NO_COLLAPSE, LOG-SCALING, MULTI-REGIME) rather than forcing power laws.
 
@@ -63,8 +63,8 @@ RTM distinguishes between two tiers of empirical evidence:
 
 | Tier | Methodology | Status |
 |------|-------------|--------|
-| **🟢 ROBUST (Red Team)** | ODR, Monte Carlo, subject-level variance, covariate isolation | **Primary evidence** |
-| **🟡 Heuristic** | OLS, point-estimates, aggregated averages | Exploratory / supplementary |
+| **ROBUST (Red Team)** | ODR, Monte Carlo, subject-level variance, covariate isolation | **Primary evidence** |
+| **Heuristic** | OLS, point-estimates, aggregated averages | Exploratory / supplementary |
 
 All ROBUST validations have undergone adversarial "Red Team" audits correcting for:
 - **Attenuation bias** (OLS → ODR)
@@ -72,114 +72,141 @@ All ROBUST validations have undergone adversarial "Red Team" audits correcting f
 - **Simpson's paradox** (confounders isolated)
 - **Ecological fallacy** (population variance reconstructed)
 
+### Novelty Classification
+
+To distinguish between genuinely novel RTM predictions and demonstrations of consistency with established results, each validation is classified:
+
+| Tag | Meaning |
+|-----|---------|
+| **NOVEL** | RTM-specific prediction tested on new data |
+| **CONVERGENT** | RTM correctly recovers known physics under its framework |
+| **CONSISTENT** | Data is consistent with RTM but also with established theories |
+
 ---
 
-## 🟢 ROBUST Validations (Red Team Audited)
+## ROBUST Validations (Red Team Audited)
 
-**24 domains | ODR + Monte Carlo | Errors-in-Variables propagated**
+**24 domains | ODR + Monte Carlo | Errors-in-Variables propagated | Flanking campaigns: April 2026**
 
 ### Astrophysics & Cosmology
 
-| Domain | Robust α | Method | RTM Class |
-|--------|----------|--------|-----------|
-| **Galactic Rotation (SPARC)** | **1.993 ± 0.130** | ODR + MC (n=52 flat curves) | Hierarchical (α→2) |
-| **Binary Black Holes (O1-O3)** | **1.037 ± 0.018** | ODR + Spin-correction (n=55) | Ballistic |
-| **Seismology** | **1.007 ± 0.016** | ODR (n=51 faults) | Ballistic |
+| Domain | Robust α | Method | RTM Class | Novelty |
+|--------|----------|--------|-----------|---------|
+| **Binary Black Holes (O1-O3)** | **1.024 ± 0.018** | ODR + Spin-correction (n=55) | Ballistic | CONVERGENT |
+| **Seismology** | **1.007 ± 0.016** | ODR (n=51 faults) | Ballistic | CONVERGENT |
+| **JWST Early Universe** | **Excess–z trend ρ=0.43, p=0.006** | Calibration-independent (n=55) | High-Coherence | NOVEL |
+| **SPARC Galaxy Structure** | **21 significant findings** | 6 flanking campaigns (n=171) | Structural-kinematic | NOVEL |
+
+> **Note on SPARC (updated April 2026):** Flanking campaign across 6 independent analytical attacks produced 21 significant findings. The flat-curve α = 2 identity is tautological (removed from claims). Surviving novel findings: (1) baryonic concentration predicts mass discrepancy at fixed mass (partial ρ = +0.346, p = 0.0001); (2) SB slope predicts rotation curve diversity at fixed V_flat (partial ρ = +0.329, p = 0.0001); (3) acceleration scale non-universality — concentration predicts DM transition acceleration with R²_mass = 0.0004 vs R²_conc = 0.225 (partial ρ = −0.574, p = 3×10⁻⁷); (4) baryon effectiveness partial ρ = −0.446 (p = 9.4×10⁻⁸); (5) baryon-halo shape conspiracy confirmed (mean r = +0.274, bootstrap CI [0.14, 0.40]); (6) gas-rich conspiracy r = +0.70 vs gas-poor r = −0.15 (p < 10⁻⁴); (7) local point-by-point coupling: f_gas → ρ_DM (ρ = −0.177, p = 2.5×10⁻¹⁸, n = 2,411 radius points, galaxy fixed effects). Direct v(r) prediction fails (RTM wins 2/135 vs NFW). Dark matter replacement not supported.
 
 ### Physics & Chemistry
 
-| Domain | Robust α | Method | RTM Class |
-|--------|----------|--------|-----------|
-| **Quantum Decoherence** | **-0.259 ± 0.049** | Multivariable ODR (tech-normalized) | Inverse |
-| **Chemistry (Bulk)** | **-1.23 ± 0.04** | ODR (Stokes-Einstein) | Inverse |
-| **Chemistry (Confined)** | **+7.25 ± 1.06** | ODR + Guest-normalization | Critical/Resonant |
-| **Plasma Physics** | **-1.52 → -1.72** | Dynamic relaxation (IK→K5/3) | Topological friction |
+| Domain | Robust α | Method | RTM Class | Novelty |
+|--------|----------|--------|-----------|---------|
+| **Quantum Decoherence** | **−0.259 ± 0.049** | Multivariable ODR (n=31) | Inverse | NOVEL |
+| **Chemistry (Bulk)** | **−1.23 ± 0.04** | ODR (Stokes-Einstein, n=54) | Inverse | CONVERGENT |
+| **Chemistry (Confined)** | **+7.25 ± 1.06** | ODR + Guest-normalization (n=35) | Critical/Resonant | CONVERGENT |
+| **Plasma Physics** | **−1.52 → −1.72** | Literature compilation (IK→K41) | Topological relaxation | CONSISTENT |
+
+> **Note on Quantum:** Simpson's Paradox identification (naive α > 0 reverses to α = −0.259 after year confounder removal) is the key contribution. Bootstrap CI [−0.382, −0.038] excludes zero at 95%. Strongest novel finding in the physics sub-corpus.
 
 ### Neuroscience & Consciousness
 
-| Domain | Finding | Method | Effect Size |
-|--------|---------|--------|-------------|
-| **Visual Cortex** | α = 0.311 ± 0.021 | ODR (n=21 areas) | Sub-diffusive |
-| **Neuroscience (4 domains)** | Seizure/Sleep/Meditation/LSD | MC subject-level (n=15,018) | d = 0.98–3.30 |
-| **Consciousness** | Ketamine vs Propofol | MC variance (n=30,873) | p < 10⁻¹⁰ |
+| Domain | Finding | Method | Effect Size | Novelty |
+|--------|---------|--------|-------------|---------|
+| **Visual Cortex** | α = 0.311 ± 0.021 | ODR (n=21 areas) | Super-ballistic | CONSISTENT |
+| **Neuroscience (4 domains)** | Seizure/Sleep/Meditation/LSD | MC subject-level (n~15,000) | d = 0.98–3.30 | CONSISTENT |
+| **Consciousness** | α × R² triples effect size | 6 flanks, UCI EEG (n=11,500) | d: 0.33 → 0.97 (EO vs EC) | NOVEL |
+| **Epilepsy R² Collapse** | Seizure destroys power-law structure | UCI (n=11,500) | d = −1.55 | NOVEL |
+
+> **Note on Consciousness (updated April 2026):** Flanking campaign (6 flanks, zero failures) produced key new findings: (1) α × R² product triples discrimination effect size (d: 0.33 → 0.97 for Eyes Open vs Closed, AUC: 0.60 → 0.78); (2) cross-validated 2D classifier: AUC = 0.911 (seizure), 0.794 (EO vs EC); (3) α-R² conspiracy tightens during seizures (Δρ bootstrap CI excludes 0); (4) anesthetic gradient — <20% spectral change preserves consciousness (ketamine 5%), >40% loses it (propofol 69%); (5) REM prediction: REM should show steep slope BUT high R² (testable on NSRR polysomnography). Score updated 72% → 78%.
 
 ### Biology & Medicine
 
-| Domain | Finding | Method | Significance |
-|--------|---------|--------|--------------|
-| **Biochemistry (Folding)** | α = +7.22 ± 0.62 | EC-normalized ODR | Topological |
-| **Biochemistry (Enzyme)** | α ≈ 0 | EC-normalized ODR | Chemical (local) |
-| **Cardiac (HRV)** | Healthy α=1.03, CHF α=0.53 | Subject-level MC | p < 10⁻¹⁰ |
-| **Homeostasis** | CHF drop = -0.322 | Multivariable regression | Age-isolated |
-| **Ecology (Allometry)** | α = 0.19–0.24 | ODR (Mammalia/Aves/Reptilia) | Quarter-power |
-| **Population Dynamics** | β = 0.82 (1/f) | MC + Taylor's Law | Critical |
+| Domain | Finding | Method | Significance | Novelty |
+|--------|---------|--------|--------------|---------|
+| **Biochemistry (Folding)** | α = +7.22 ± 0.62 | EC-normalized ODR (n=84) | Topological | CONVERGENT |
+| **Biochemistry (Enzyme)** | α ≈ 0 (p=0.71) | EC-normalized ODR (n=69) | Chemical (local) | CONVERGENT |
+| **Folding vs Enzyme** | Complete separation | Bootstrap (3000) | d = 6.98, 0% overlap | CONVERGENT |
+| **Cardiac (HRV)** | Arrhythmia severity ladder ρ = −0.957 | Subject-level MC + flanking | d = 1.25 → 3.28 (α × CI) | CONSISTENT |
+| **Homeostasis** | CHF penalty −0.323 (≡ 68 years) | Multivariable regression (n=18) | Age-isolated, CI excludes 0 | CONSISTENT |
+| **Ecology (Allometry)** | Kleiber residuals predict longevity | AnAge + GPDD flanking | ρ = −0.184, p = 0.0005 | NOVEL |
+| **Population Dynamics** | Body size → spectral color ρ = +0.867 | GPDD (n=978 series) | p = 0.0025 | NOVEL |
+
+> **Note on Cardiac (updated April 2026):** Flanking campaign (8 flanks, 5 hits): (1) α × CI product doubles effect size (d: 1.25 → 3.28 for Healthy vs CHF); (2) exercise dose-response: accelerating decline (Δα: 0.10 → 0.20 → 0.25), ρ = −0.971; (3) arrhythmia severity ladder ρ = −0.957, near-perfect monotonic mapping from clinical danger to topological class (1/9 violations); (4) CHF penalty −0.323 replicated exactly from ROBUST. Score updated 65% → 72%.
+
+> **Note on Ecology (updated April 2026):** Flanking campaign (5 flanks, 4 hits): (1) Kleiber residuals predict longevity at fixed mass (global ρ = −0.184, p = 0.0005; 89% negative within-order); (2) predator-prey shape conspiracy intensifies before crashes (d = −2.52 pre-crash Moose 1996, d = −1.10 pre-crash Wolf 2012); (3) Amphibia Simpson's Paradox — Anura α = 0.55 vs Caudata α = 0.03 (respiratory topology); (4) body size → spectral color (ρ = +0.867, p = 0.0025). β precursor prediction failed. Score updated 55% → 70%.
 
 ### Earth & Climate
 
-| Domain | Finding | Method | RTM Class |
-|--------|---------|--------|-----------|
-| **Hurricane RI** | 11.6h warning window | Continuous ODR | Phase transition |
-| **Climate Extremes** | α = 0.43 ± 0.002 | Spatial variance ODR | Sub-diffusive |
-| **Oceanography** | n = 2.913 ± 0.337 | MC (1,090 drifters) | Richardson t³ |
-| **Tornado Warnings** | -16 pts FAR @ 85% POD | TorNet (1,105 records) | Vortical coupling |
+| Domain | Finding | Method | RTM Class | Novelty |
+|--------|---------|--------|-----------|---------|
+| **Tornado Warnings** | **α subsumes VEL (ΔAUC = 0.000)** | TorNet MIT (n=1,105) | Vortical coupling | NOVEL |
+| **Tornado EF Prediction** | α predicts EF intensity within TOR | TorNet (n=435 confirmed) | Vortical coupling | NOVEL |
+| **Hurricane RI** | 11.6h timing lead | Continuous ODR (n=48 storms) | Phase transition (timing) | CONSISTENT |
+| **Seismology (fault types)** | Normal fault α = 0.865, CI excl. 1.0 | ODR (n=5 normal faults) | Sub-ballistic | NOVEL |
+| **Climate Extremes** | α = 0.43 ± 0.002 | Spatial variance ODR | Sub-diffusive | CONSISTENT |
+| **Oceanography** | n = 2.913 ± 0.337 | Literature compilation | Richardson t³ | CONSISTENT |
+
+> **Note on Tornado (updated April 2026):** The strongest novel validation in the corpus. Three findings confirmed across 1,105 TorNet events: (1) α discriminates confirmed tornadoes from false alarms (d = 0.96, CV AUC = 0.751); (2) **α completely subsumes raw velocity** — ΔAUC = 0.000 when VEL is added to α (velocity is redundant); (3) α predicts EF intensity within confirmed tornadoes (ρ = +0.446, p < 10⁻⁴). Optimal model: α + KDP (CV AUC = 0.769). Replicates across 7/9 independent outbreaks. Operationally relevant: 16-point FAR reduction at 85% POD.
+
+> **Note on Hurricane RI (updated April 2026):** Red Team confirmed circularity — α correlates with wind at ρ = 0.957; after controlling for wind, α adds no independent predictive information (ΔR² < 0.015, all partial correlations ns, 13 tests, 3 rounds). The surviving finding is the **timing** of the α-drop (6-18h before kinetic explosion) and α_MIN consistency (CV = 0.096 across 26 RI events). "α as independent structural predictor" claim removed. Hurricane Otis ranks #1 in α_STD and α_gap among all RI storms.
 
 ### Socioeconomic Systems
 
-| Domain | Finding | Method | Significance |
-|--------|---------|--------|--------------|
-| **Epidemiology (COVID)** | α = 0.953 ± 0.044 | ODR + MC (k=0.226) | Scale-free |
-| **Financial Crashes** | 10-day warning | MC + ODR | d = -1.45 |
-| **Market Returns** | α = 2.966 ± 0.236 | MC (16 markets) | Inverse cubic |
-| **Urban Transport** | α = 3.00 ± 0.16, τ = 2.50 | ODR + MC | Lévy/SOC |
-| **Acoustics** | β = 0.88–0.96, H = 0.81 | Cognitive signature | 1/f pink noise |
+| Domain | Finding | Method | Significance | Novelty |
+|--------|---------|--------|--------------|---------|
+| **Epidemiology (COVID)** | α ≈ 1.0 (Zipf) | ODR + MC (k=0.226) | Known result | CONSISTENT |
+| **Financial Crashes (forensic)** | ~10-day in-sample lead | MC + ODR (n=13 events) | d = 1.45, in-sample | CONSISTENT | 
+| **Multi-Scale Coherence** | Crash σ = 0.031 vs control σ = 0.310 | BTC 1-min (3 months) | 10x separation | NOVEL |
+| **Market Returns** | α = 2.966 ± 0.236 | Literature (16 markets) | Gabaix 2003 | CONSISTENT |
 
+> **Note on Finance (updated April 2026):** Flanking campaign (5 flanks): out-of-sample crash prediction accuracy = **25%** (1/4 post-2022 events). The α-drop threshold trained on pre-2022 crashes does not generalize. The **Multi-Scale Coherence** metric is the surviving novel finding: cross-scale σ of α = 0.031-0.034 during crash months vs σ = 0.310 during control (10x difference). No standard financial indicator measures this. The forensic DFA patterns are real (d = 1.45 in-sample); prospective prediction is not yet validated. "10-day early warning" claim reframed as in-sample forensic observation.
+
+### Cross-Domain Emergent Patterns (Red Team Discovery, April 2026)
+
+Three patterns emerged independently across flanking campaigns in multiple domains:
+
+**1. The 2D metric amplifier.** Combining α with a quality metric (R², CI, or σ) consistently amplifies discrimination beyond either metric alone:
+- Consciousness: α × R² — d: 0.33 → 0.97 (EO vs EC)
+- Cardiac: α × CI — d: 1.25 → 3.28 (Healthy vs CHF)
+- Economics: σ_cross-scale — 10x separation (crash vs control)
+
+**2. Systems couple MORE tightly before/during crises.** Contrary to intuition, crisis states show HIGHER coupling, not lower:
+- Galaxies: baryon-halo conspiracy r = +0.70 (gas-rich), r = −0.15 (gas-poor)
+- Ecosystems: predator-prey shape conspiracy intensifies before crashes (d = −2.52)
+- Markets: multi-scale coherence σ → 0.03 during crashes (all scales lock)
+- Brains: α-R² conspiracy tightens during seizures (Δρ bootstrap CI excludes 0)
+
+**3. Gas/fluid medium enables structural coupling.** The medium that fills the potential determines whether structural effects appear:
+- Galaxies: structural effects only in gas-rich subsample
+- Hearts: transplanted (denervated) heart has SD1 = 8ms (zero variability)
+- Both: removing the coupling medium collapses the structural signal to zero
+  
 ---
 
-## Key ROBUST Findings Summary
-
-### The Ballistic Universality (α ≈ 1.0)
-Three entirely independent physical systems converge on the same exponent:
-- **Black hole mergers:** α = 1.037 ± 0.018
-- **Seismic ruptures:** α = 1.007 ± 0.016  
-- **Epidemics:** α = 0.953 ± 0.044
-
-### The Hierarchical Attractor (α ≈ 2.0)
-- **Flat galaxy rotation curves:** α = 1.993 ± 0.130 (Dark Matter as topology)
-
-### The Inverse Class (α < 0)
-- **Quantum decoherence:** α = -0.259 ± 0.049 (coherence degrades with scale)
-- **Bulk diffusion:** α = -1.23 ± 0.04 (Stokes-Einstein friction)
-
-### The Critical Threshold
-- **Consciousness:** Propofol destroys topology (Δβ ≈ -1.25), Ketamine preserves it (Δβ ≈ -0.10)
-- **Cardiac health:** α ≈ 1.0 (healthy) → α ≈ 0.5 (CHF collapse)
-
----
-
-## 🟡 Heuristic Analyses (Exploratory)
+## Heuristic Analyses (Exploratory)
 
 The following analyses provided initial directional evidence but suffer from methodological limitations (OLS, aggregation, point-estimates). They are retained as exploratory supplements, not primary evidence.
 
 | Domain | Original Finding | Limitation | Status |
 |--------|------------------|------------|--------|
 | GW O4 (synthetic) | α = 1.018 | Synthetic extrapolation | Superseded by O1-O3 ROBUST |
-| JWST Early Universe | Structure timing | Limited epochs | Exploratory |
 | Various domain averages | High R² | Aggregation fallacy | Superseded by subject-level |
 
 ---
-## RTM Predictive Applications & Tools (z.apss)
 
-This section hosts operational tools developed under the RTM (Topological Structural Coherence) framework. These applications translate complex rhythmic mathematics into predictive interfaces, allowing for the detection of structural fractures in non-linear systems before they manifest as kinetic events.
+## RTM Predictive Applications & Tools (z.apps)
+
+This section hosts operational tools developed under the RTM framework. These applications translate the scaling mathematics into predictive interfaces.
 
 ### Core Objectives
 - **Early Detection:** Identifying the transition from laminar to turbulent states.
 - **Structural Integrity:** Monitoring the $\alpha$ coefficient to assess system stability.
-- **Lead Time:** Providing a predictive window before official traditional metrics (kinetic metrics) react.
+- **Lead Time:** Providing a predictive window before traditional kinetic metrics react.
 
 ---
 
-### List of Active Applications  
-  
 ### 1. RTM CLIMATE (Atmospheric Monitor)
 
 The first operational implementation of RTM Theory applied to Rhythmic Meteorology and extreme climate physics. This dual-module system processes real-time atmospheric data to detect structural patterns in atmospheric dynamics.
@@ -266,6 +293,7 @@ The corpus comprises **24 documents** across five categories:
 | 020-The Multiscale Symphony | Essay | Philosophical orientation | FOLDER III |
 | 021-Physics of Tradition | Anthropology | Cultural applications, ritual acoustics | FOLDER III |
 | 022-The Owl and the Spear | Manual | Phenomenological hygiene | FOLDER III |
+| +Philosophical_Extensions | Operative | Ontological Update | FOLDER III |
 
 ### Literary
 
@@ -282,13 +310,12 @@ The corpus comprises **24 documents** across five categories:
 |----------|------|-------------|------|
 | 024-The Hidden Doors and the Half Key | Origin | A candid account of the authorship and creation of RTM | FOLDER V |
 
-
 #### All papers provided in MarkDown (.MD) and PDF format are accompanied by their original DOCX source files (/original-docs folder), enabling direct editing, forking, or translation of the material.
 
 ### Conventions & Status Tags:
 
 - Reading path (suggested): Foundations → Framework → Domain applications → Aetherion → Philosophy → Fiction → About the Autor.
-- Disclaimers: scientific claims are falsifiable; philosophical/metaphysical are non-empirical; literary is fiction; “About the Autor” is process transparency.
+- Disclaimers: scientific claims are falsifiable; philosophical/metaphysical are non-empirical; literary is fiction; "About the Autor" is process transparency.
 
 ### Reading Paths by Audience:
 

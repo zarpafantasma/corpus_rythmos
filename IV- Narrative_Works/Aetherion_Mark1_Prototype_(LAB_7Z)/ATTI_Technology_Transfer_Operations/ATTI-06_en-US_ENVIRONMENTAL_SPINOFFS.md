@@ -22,7 +22,7 @@
 
 ### 1.1 The Vision
 
-Environmental challenges. CO₂ capture, water purification, pollution remediation. are fundamentally separation and transport problems. Current solutions fight thermodynamics: energy-intensive, expensive, often impractical at scale.
+Environmental challenges, CO₂ capture, water purification, pollution remediation, are fundamentally separation and transport problems. Current solutions fight thermodynamics: energy-intensive, expensive, often impractical at scale.
 
 RTM offers a new approach: use topological gradients to drive molecular separation, concentrate pollutants, and enable passive environmental remediation. The same ∇α that creates thrust can selectively transport molecules, separate mixtures, and catalyze reactions.
 

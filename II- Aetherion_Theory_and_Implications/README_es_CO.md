@@ -1,6 +1,6 @@
 # II - Teoría Aetherion e Implicaciones
 
-Esta carpeta contiene la extensión más especulativa de la RTM: **Aetherion**, un programa teórico que explora la extracción de energía del vacío, la propulsión sin propelente y la arquitectura física de la navegación multiversal.
+Esta carpeta contiene la extensión más especulativa de la RTM: **Aetherion** — un programa teórico que explora la extracción de energía del vacío, la propulsión sin propelente y la arquitectura física de la navegación multiversal.
 
 ---
 

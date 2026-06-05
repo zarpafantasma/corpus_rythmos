@@ -1,0 +1,153 @@
+{
+  "new_validation": "012_RTM_topological_invariant",
+  "test_A_within_order": {
+    "n_orders": 9,
+    "alpha_mean": 0.1143,
+    "alpha_std": 0.0708,
+    "alpha_cv": 0.6193,
+    "alpha_range": [
+      -0.0059,
+      0.2215
+    ],
+    "shapiro_p": 0.2654,
+    "order_details": [
+      {
+        "order": "Rodentia",
+        "n": 115,
+        "ols_alpha": 0.1825,
+        "odr_alpha": 0.1897,
+        "odr_err": 0.0232,
+        "r2": 0.354,
+        "log_m_range": 3.564
+      },
+      {
+        "order": "Carnivora",
+        "n": 51,
+        "ols_alpha": 0.1344,
+        "odr_alpha": 0.1366,
+        "odr_err": 0.0225,
+        "r2": 0.4224,
+        "log_m_range": 3.0409
+      },
+      {
+        "order": "Chiroptera",
+        "n": 32,
+        "ols_alpha": 0.1151,
+        "odr_alpha": 0.1202,
+        "odr_err": 0.0474,
+        "r2": 0.1643,
+        "log_m_range": 2.4422
+      },
+      {
+        "order": "Primates",
+        "n": 24,
+        "ols_alpha": 0.2191,
+        "odr_alpha": 0.2215,
+        "odr_err": 0.0279,
+        "r2": 0.7366,
+        "log_m_range": 3.0499
+      },
+      {
+        "order": "Artiodactyla",
+        "n": 19,
+        "ols_alpha": 0.1357,
+        "odr_alpha": 0.1378,
+        "odr_err": 0.0381,
+        "r2": 0.4278,
+        "log_m_range": 2.4013
+      },
+      {
+        "order": "Diprotodontia",
+        "n": 19,
+        "ols_alpha": 0.1135,
+        "odr_alpha": 0.1145,
+        "odr_err": 0.0289,
+        "r2": 0.4767,
+        "log_m_range": 3.3259
+      },
+      {
+        "order": "Dasyuromorphia",
+        "n": 18,
+        "ols_alpha": 0.11,
+        "odr_alpha": 0.1114,
+        "odr_err": 0.0353,
+        "r2": 0.3773,
+        "log_m_range": 2.936
+      },
+      {
+        "order": "Soricomorpha",
+        "n": 12,
+        "ols_alpha": 0.0028,
+        "odr_alpha": 0.003,
+        "odr_err": 0.0943,
+        "r2": 0.0001,
+        "log_m_range": 1.31
+      },
+      {
+        "order": "Didelphimorphia",
+        "n": 10,
+        "ols_alpha": -0.0056,
+        "odr_alpha": -0.0059,
+        "odr_err": 0.1077,
+        "r2": 0.0003,
+        "log_m_range": 1.4929
+      }
+    ]
+  },
+  "test_B_collapse": {
+    "n_good_fits": 6,
+    "n_weak_fits": 3,
+    "mean_r2": 0.3288
+  },
+  "test_C_sensitivity": {
+    "alpha_range": 0.0,
+    "results": [
+      {
+        "mass_err": 0.05,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      },
+      {
+        "mass_err": 0.1,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      },
+      {
+        "mass_err": 0.15,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      },
+      {
+        "mass_err": 0.2,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      },
+      {
+        "mass_err": 0.25,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      },
+      {
+        "mass_err": 0.3,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      },
+      {
+        "mass_err": 0.4,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      },
+      {
+        "mass_err": 0.5,
+        "odr_alpha": 0.1901,
+        "delta": 0.0051
+      }
+    ]
+  },
+  "test_D_model_comparison": {
+    "aic_universal": -1448.2,
+    "aic_specific": -1593.7,
+    "delta_aic": 145.5,
+    "universal_alpha": 0.1587
+  }
+}

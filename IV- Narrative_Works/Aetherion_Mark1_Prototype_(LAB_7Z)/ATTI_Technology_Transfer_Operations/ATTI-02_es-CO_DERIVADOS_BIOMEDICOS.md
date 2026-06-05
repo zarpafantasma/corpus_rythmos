@@ -10,10 +10,10 @@
 
     ╔══════════════════════════════════════════════════════════════════════╗
     ║                                                                      ║
-    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)      ║
+    ║      INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)        ║
     ║                                                                      ║
-    ║            "La muerte no es un evento, es un proceso.                ║
-    ║       Y los procesos pueden ralentizarse, pausarse o redirigirse."   ║
+    ║          "La muerte no es un evento, es un proceso.                  ║
+    ║     Y los procesos pueden ralentizarse, pausarse o redirigirse."     ║
     ║                                                                      ║
     ╚══════════════════════════════════════════════════════════════════════╝
 ---
@@ -203,23 +203,23 @@ TRAUMA:
     • Muchos sobrevivirían si el tratamiento comenzara 30 minutos antes
     
     "La Hora Dorada":
-    ┌────────────────────────────────────────────────────────────────────┐
-    │   Tasa de                                                          │
-    │   Supervivencia                                                    │
-    │   100%│─╲                                                          │
-    │       │  ╲                                                         │
-    │    75%│   ╲                                                        │
-    │       │    ╲                                                       │
-    │    50%│     ╲──────────────────                                    │
-    │       │                                                            │
-    │    25%│                                                            │
-    │       │                                                            │
-    │     0%│────────────────────────────────────────────────────────    │
-    │       └───────────────────────────────────────────────────────►    │
-    │           15    30    45    60    90    120   Minutos              │
-    │                                                                    │
-    │   La supervivencia cae exponencialmente con el tiempo al tratamiento│
-    └────────────────────────────────────────────────────────────────────┘
+    ┌───────────────────────────────────────────────────────────────────────┐
+    │   Tasa de                                                             │
+    │   Supervivencia                                                       │
+    │   100%│─╲                                                             │
+    │       │  ╲                                                            │
+    │    75%│   ╲                                                           │
+    │       │    ╲                                                          │
+    │    50%│     ╲──────────────────                                       │
+    │       │                                                               │
+    │    25%│                                                               │
+    │       │                                                               │
+    │     0%│────────────────────────────────────────────────────────       │
+    │       └───────────────────────────────────────────────────────►       │
+    │           15    30    45    60    90    120   Minutos                 │
+    │                                                                       │
+    │   La supervivencia cae exponencialmente con el tiempo al tratamiento  │
+    └───────────────────────────────────────────────────────────────────────┘
 
 
 ACCIDENTE CEREBROVASCULAR (ACV):
@@ -552,7 +552,7 @@ RESPUESTA: α Natural y α Artificial son fundamentalmente diferentes.
     │                                                                    │
     │   ┌────┐        ┌────────┐    ┌──────────┐    ╳╳╳╳╳╳╳╳╳╳╳╳         │
     │   │ ╱  │        │╱╲╱╲╱╲╱╲│    │╱╲╱╲╱╲╱╲╱╲│    ╳ NO PUEDE ╳         │
-    │   │╱   │        │╲╱╲╱╲╱╲╱│    │╲╱╲╱╲╱╲╱╲╱│    ╳  EXISTIR ╳         │
+    │   │╱   │        │╲╱╲╱╲╱╲╱│    │╲╱╲╱╲╱╲╱╲╱│    ╳ EXISTIR  ╳         │
     │   └────┘        └────────┘    └──────────┘    ╳╳╳╳╳╳╳╳╳╳╳╳         │
     │                                                                    │
     │   Llenado de    Llenado de    Empaque         Imposible            │
@@ -694,11 +694,11 @@ SECCIÓN TRANSVERSAL DE LA CÁMARA DE ESTASIS
     ║   │   └─────────────────────────────────────────────────────────┘  │   ║
     ║   │                                                                │   ║
     ║   │   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │   ║
-    ║   │   ▓▓▓▓▓▓▓▓▓▓▓ MATRIZ DEL NÚCLEO AETHERION (bajo cama) ▓▓▓▓▓▓▓  │   ║
+    ║   │   ▓▓▓▓▓▓▓▓▓ MATRIZ DEL NÚCLEO AETHERION (bajo cama) ▓▓▓▓▓▓▓▓▓  │   ║
     ║   │   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │   ║
     ║   │                                                                │   ║
     ║   │   ███████████████████████████████████████████████████████████  │   ║
-    ║   │   ██████████████ SISTEMAS DE POTENCIA Y ENFRIAMIENTO █████████ │   ║
+    ║   │   ███████████ SISTEMAS DE POTENCIA Y ENFRIAMIENTO ███████████  │   ║
     ║   │   ███████████████████████████████████████████████████████████  │   ║
     ║   │                                                                │   ║
     ║   └────────────────────────────────────────────────────────────────┘   ║
@@ -1015,7 +1015,7 @@ EL PROBLEMA GEOGRÁFICO:
     │                      ╲  ╱                                           │
     │                    Houston ●          ● Miami                       │
     │                                                                     │
-    │   Distancia máx. transporte corazón (4 hr): ~2,400 km               │
+    │   Distancia máx. transporte corazón (4 hr): ~2,400 km              │
     │   Seattle-Miami: 5,300 km = IMPOSIBLE para corazón                  │
     │                                                                     │
     │   Un corazón compatible en Seattle no puede llegar a un paciente    │
@@ -1296,12 +1296,12 @@ ESCENARIO CON ESTASIS PORTÁTIL:
     │   Tasa de muerte neuronal: 190,000/min (desde 1.9M/min)             │
     │   Ventana efectiva de tratamiento: 10× más larga                    │
     │                                                                     │
-    │       ┌─────────────────────────┐                                   │
-    │       │░░░░░░░░░░░░░░░░░░░░░░░░░│                                   │
-    │       │░░░  SOLO CABEZA/CEREBRO ░│  ← Estasis cerebral selectiva    │
-    │       │░░░     (α = 10)       ░░░│                                  │
-    │       │░░░░░░░░░░░░░░░░░░░░░░░░░│                                   │
-    │       └─────────────────────────┘                                   │
+    │       ┌──────────────────────────┐                                  │
+    │       │░░░░░░░░░░░░░░░░░░░░░░░░░░│                                  │
+    │       │░░  SOLO CABEZA/CEREBRO ░░│  ← Estasis cerebral selectiva    │
+    │       │░░░░     (α = 10)     ░░░░│                                  │
+    │       │░░░░░░░░░░░░░░░░░░░░░░░░░░│                                  │
+    │       └──────────────────────────┘                                  │
     │       ┌─────────────────────────┐                                   │
     │       │    RESTO DEL CUERPO     │  ← Tiempo normal                  │
     │       │       (α = 1)           │     El cuerpo puede evaluarse,    │
@@ -1375,7 +1375,7 @@ CON ESTASIS LOCALIZADA DEL TUMOR:
     │   │                          │                                      │
     │   │   ░░░░░░░░░░░░░░░░░░░░   │                                      │
     │   │   ░░ REGIÓN TUMORAL ░░   │  ← Estasis localizada (α = 10)       │
-    │   │   ░░ (ralentizada 10×) ░ │     División tumoral ralentizada     │
+    │   │   ░░(ralentizada 10×)░   │     División tumoral ralentizada     │
     │   │   ░░░░░░░░░░░░░░░░░░░░   │                                      │
     │   │                          │                                      │
     │   │      TEJIDO NORMAL       │  ← Sin estasis (α = 1)               │
@@ -1443,48 +1443,48 @@ SEPSIS: CUANDO EL TIEMPO SE ACABA
 
     La mortalidad por sepsis aumenta ~8% por hora de antibióticos retrasados
     
-    ┌──────────────────────────────────────────────────────────────────────┐
-    │                                                                      │
-    │   Tasa de                                                            │
-    │   mortalidad                                                         │
-    │                                                                      │
-    │   80%│                                        ╱───────────           │
-    │      │                                      ╱                        │
-    │   60%│                                    ╱                          │
-    │      │                                  ╱                            │
-    │   40%│                                ╱                              │
-    │      │                              ╱                                │
-    │   20%│                            ╱                                  │
-    │      │                          ╱                                    │
-    │    0%│────────────────────────╱                                      │
-    │      └───────────────────────────────────────────────────────────►   │
-    │           2     4     6     8    10    12   Horas hasta antibióticos │
-    │                                                                      │
-    └──────────────────────────────────────────────────────────────────────┘
+    ┌────────────────────────────────────────────────────────────────────┐
+    │                                                                    │
+    │   Tasa de                                                          │
+    │   mortalidad                                                       │
+    │                                                                    │
+    │   80%│                                        ╱───────────         │
+    │      │                                      ╱                      │
+    │   60%│                                    ╱                        │
+    │      │                                  ╱                          │
+    │   40%│                                ╱                            │
+    │      │                              ╱                              │
+    │   20%│                            ╱                                │
+    │      │                          ╱                                  │
+    │    0%│────────────────────────╱                                    │
+    │      └───────────────────────────────────────────────────────────► │
+    │           2     4     6     8    10    12   Horas hasta antibióticos│
+    │                                                                    │
+    └────────────────────────────────────────────────────────────────────┘
 
 
 APLICACIÓN DE ESTASIS (especulativa):
 
     Si el paciente se coloca en estasis:
     
-    ┌──────────────────────────────────────────────────────────────────────┐
-    │                                                                      │
-    │   ESTASIS DE CUERPO COMPLETO (α = 10)                                │
-    │                                                                      │
-    │   Biología del paciente ralentizada 10×                              │
-    │   Reproducción del patógeno ralentizada 10× (están dentro del campo) │
-    │                                                                      │
-    │   Tiempo de duplicación efectivo:                                    │
-    │       E. coli: 20 min → 200 min (3.3 horas)                          │
-    │       S. aureus: 30 min → 300 min (5 horas)                          │
-    │                                                                      │
-    │   Más tiempo para:                                                   │
-    │   • Identificar patógeno                                             │
-    │   • Cultivar sensibilidad                                            │
-    │   • Seleccionar antibiótico óptimo                                   │
-    │   • Trasladar a instalación apropiada                                │
-    │                                                                      │
-    └──────────────────────────────────────────────────────────────────────┘
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │                                                                     │
+    │   ESTASIS DE CUERPO COMPLETO (α = 10)                               │
+    │                                                                     │
+    │   Biología del paciente ralentizada 10×                             │
+    │   Reproducción del patógeno ralentizada 10× (están dentro del campo)│
+    │                                                                     │
+    │   Tiempo de duplicación efectivo:                                   │
+    │       E. coli: 20 min → 200 min (3.3 horas)                         │
+    │       S. aureus: 30 min → 300 min (5 horas)                         │
+    │                                                                     │
+    │   Más tiempo para:                                                  │
+    │   • Identificar patógeno                                            │
+    │   • Cultivar sensibilidad                                           │
+    │   • Seleccionar antibiótico óptimo                                  │
+    │   • Trasladar a instalación apropiada                               │
+    │                                                                     │
+    └─────────────────────────────────────────────────────────────────────┘
 
 NOTA: Esto asume que los patógenos dentro del paciente también son afectados
 por el campo. Si el campo solo afecta estructuras más grandes, esto puede
@@ -1760,19 +1760,19 @@ ARQUITECTURA DEL SISTEMA DE CÁMARA DE ESTASIS
 │   │     └───────────────────────────────────────────┘                 │    │
 │   │                           │                                       │    │
 │   │     ┌─────────────────────┴─────────────────────┐                 │    │
-│   │     │▓▓▓▓▓▓▓▓▓▓▓ MATRIZ AETHERION ▓▓▓▓▓▓▓▓▓▓▓▓▓│                  │    │
+│   │     │▓▓▓▓▓▓▓▓▓▓▓ MATRIZ AETHERION ▓▓▓▓▓▓▓▓▓▓▓▓▓ │                 │    │
 │   │     └─────────────────────┬─────────────────────┘                 │    │
 │   │                           │                                       │    │
 │   └───────────────────────────┼───────────────────────────────────────┘    │
 │                               │                                            │
 │   ┌───────────────────────────┼───────────────────────────────────────┐    │
-│   │                           │              SISTEMAS DE SOPORTE      │    │
-│   │   ┌───────────┐   ┌───────┴───────┐   ┌───────────┐               │    │
-│   │   │  FUENTE   │   │   SISTEMA     │   │  SISTEMAS │               │    │
-│   │   │  DE       │   │   DE          │   │  DE       │               │    │
-│   │   │  ENERGÍA  │   │   ENFRIAMIENTO│   │  SEGURIDAD│               │    │
-│   │   │  2 MW     │   │   LHe/LN₂     │   │           │               │    │
-│   │   └───────────┘   └───────────────┘   └───────────┘               │    │
+│   │                           │            SISTEMAS DE SOPORTE        │    │
+│   │   ┌───────────┐   ┌───────┴───────┐   ┌─────────────┐             │    │
+│   │   │  FUENTE   │   │   SISTEMA     │   │  SISTEMAS   │             │    │
+│   │   │  DE       │   │   DE          │   │  DE         │             │    │
+│   │   │  ENERGÍA  │   │   ENFRIAMIENTO│   │  SEGURIDAD  │             │    │
+│   │   │  2 MW     │   │   LHe/LN₂     │   │             │             │    │
+│   │   └───────────┘   └───────────────┘   └─────────────┘             │    │
 │   │                                                                   │    │
 │   └───────────────────────────────────────────────────────────────────┘    │
 │                                                                            │
@@ -1793,7 +1793,7 @@ EL PELIGRO:
 
     Si existe un límite abrupto de α, y una parte del cuerpo lo cruza:
     
-    AFUERA (α = 1)    │    ADENTRO (α = 50)
+    AFUERA (α = 1)     │    ADENTRO (α = 50)
                        │
        Flujo sanguíneo:│    Flujo sanguíneo:
        5 L/min         │    100 mL/min

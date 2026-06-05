@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/athena.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/athena.png" width="200" alt="Diagrama de Atenea">
 
 # The Owl and the Spear
 **Weaving the Physics of Rhythm into the Fabric of Existence**  

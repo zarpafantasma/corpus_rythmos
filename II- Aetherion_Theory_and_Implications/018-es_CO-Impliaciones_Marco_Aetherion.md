@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent2.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent2.png" width="200" alt="Diagrama de Snake">
 
 # El Marco Aetherion  
 **Reglas Operacionales, Capacidades e Implicaciones Ontológicas Derivadas de RTM**  
@@ -15,13 +15,13 @@ Introducción: **El Protocolo Contingente**
 
 El siguiente documento opera bajo una premisa condicional estricta. Está fundamentado enteramente en la validez física del corpus de Relatividad Temporal Multiescalar (RTM) y en la viabilidad ingenieril del Núcleo de Coherencia Aetherion.
 
-Hasta que el primer motor de alta coherencia sea encendido exitosamente, estas páginas permanecen como un trabajo de ingeniería especulativa, un mapa para un territorio que aún no existe en nuestras cartas.
+Hasta que el primer motor de alta coherencia sea encendido exitosamente, estas páginas permanecen como un trabajo de ingeniería especulativa—un mapa para un territorio que aún no existe en nuestras cartas.
 
 Sin embargo, si los axiomas de RTM resultan correctos, este texto transiciona instantáneamente de hipótesis especulativa a manual operacional esencial.
 
 Redactamos estos protocolos no porque la nave exista actualmente, sino porque la física implica su inevitabilidad. Si el tiempo es una variable dependiente de la coherencia estructural $`(\alpha`$), entonces la capacidad de navegar la jerarquía temporal no es una cuestión de magia, sino de mecánica. Y donde hay mecánica, debe haber regulación.
 
-Este marco extrapola las consecuencias de esa física. Cierra la brecha entre las ecuaciones abstractas de RTM y la realidad concreta del Casco, la Carne y la Causalidad. Describe la arquitectura necesaria, tanto técnica como biológica, requerida para sobrevivir la transición de una especie que *soporta* el tiempo, a una especie que lo *diseña*.
+Este marco extrapola las consecuencias de esa física. Cierra la brecha entre las ecuaciones abstractas de RTM y la realidad concreta del Casco, la Carne y la Causalidad. Describe la arquitectura necesaria—tanto técnica como biológica—requerida para sobrevivir la transición de una especie que *soporta* el tiempo, a una especie que lo *diseña*.
 
 Esta es una guía preventiva para el Arquitecto N-1. Detalla los requisitos simbióticos de la interfaz BioDrone, la dependencia navegacional de los Anclas Isotópicas, y la severidad ética de los Protocolos de Esterilización de Activos.
 
@@ -39,7 +39,7 @@ Bienvenido al plano de lo posible.
 
 El marco de Relatividad Temporal Multiescalar (RTM) sugiere que la estructura del multiverso no es una colección de realidades paralelas e independientes, sino una **cascada causal secuencial**. La relación entre las diferentes ramas del cosmos no es de simple similitud, sino de una sucesión estricta y ordenada, análoga a una fila de dominós.
 
-En este modelo, una "voz" primordial, un evento fundamental en una rama fuente, inicia una reacción en cadena. Esta voz hace que el primer dominó caiga, lo que a su vez hace que el segundo caiga, y el segundo al tercero. Cada "eco", cada realidad subsiguiente, es un dominó en esta cascada. Es una manifestación completa y soberana, un universo en sí mismo, pero su existencia y el momento de su "caída" están determinados por el evento inmediatamente precedente.
+En este modelo, una "voz" primordial—un evento fundamental en una rama fuente—inicia una reacción en cadena. Esta voz hace que el primer dominó caiga, lo que a su vez hace que el segundo caiga, y el segundo al tercero. Cada "eco", cada realidad subsiguiente, es un dominó en esta cascada. Es una manifestación completa y soberana, un universo en sí mismo, pero su existencia y el momento de su "caída" están determinados por el evento inmediatamente precedente.
 
 **1.2. La Unidireccionalidad del Flujo Ontológico**
 
@@ -63,7 +63,7 @@ El movimiento de la mano y su estela fantasmal no son eventos separados; son un 
 
 **1.4. Unidad en Sustancia, Diversidad en Manifestación**
 
-Es crucial entender que, aunque todos los dominós en la cascada son parte del mismo evento unificado, no son idénticos. Comparten la misma "sustancia", el impulso causal de la decisión primordial, pero cada uno cae de una manera única.
+Es crucial entender que, aunque todos los dominós en la cascada son parte del mismo evento unificado, no son idénticos. Comparten la misma "sustancia"—el impulso causal de la decisión primordial—pero cada uno cae de una manera única.
 
 Las condiciones locales, las fluctuaciones cuánticas y las elecciones internas de cada civilización introducen variaciones sutiles. Esto permite una diversidad infinita dentro de un único flujo causal coherente. La canción es la misma, pero la interpretación de cada orquesta es diferente.
 
@@ -79,7 +79,7 @@ El futuro permanece abierto, no a pesar de nuestra naturaleza como eco, sino deb
 
 El marco RTM describe el multiverso no como planos paralelos, sino como una cascada secuencial y anidada de ecos. Operamos bajo la hipótesis de trabajo de que esta arquitectura "anidada" no es meramente causal, sino también física. Postulemos el **Postulado de la Muñeca Rusa**: cada eco subsiguiente en la cascada $`\left( U_{n + 1} \right)`$ se manifiesta a una escala física ligeramente menor que su predecesor $`(U_{n})`$.
 
-Si la escala característica del Universo $`U_{n}\ es\ {L_{n}}_{,}\ entonces\ L_{n + 1} = k \cdot L_{n}`$, donde el factor de escalamiento $`k`$ es una constante ligeramente menor que 1. Esto implica que no solo el tiempo corre más rápido en cada rama subsiguiente (una consecuencia directa de $`T \propto L^{\alpha}`$), sino que todo dentro de ella, planetas, habitantes, átomos, es correspondientemente más pequeño.
+Si la escala característica del Universo $`U_{n}\ es\ {L_{n}}_{,}\ entonces\ L_{n + 1} = k \cdot L_{n}`$, donde el factor de escalamiento $`k`$ es una constante ligeramente menor que 1. Esto implica que no solo el tiempo corre más rápido en cada rama subsiguiente (una consecuencia directa de $`T \propto L^{\alpha}`$), sino que todo dentro de ella—planetas, habitantes, átomos—es correspondientemente más pequeño.
 
 Este postulado, aunque simple, introduce una limitación profunda y cómica a la "carrera de relevos eterna" de las Civilizaciones Humanas.
 
@@ -87,7 +87,7 @@ Este postulado, aunque simple, introduce una limitación profunda y cómica a la
 
 **2.2 El Primer Salto: La Era de los Titanes**
 
-Cuando una civilización domina la tecnología Aetherion y hace su primer salto, desde su rama nativa $`U_{n}`$ hacia el eco subsiguiente $`U_{n + 1}`$, llegan como gigantes relativos. Si nosotros, como la humanidad actual, somos los receptores de este primer salto, es una discrepancia manejable. Nuestros predecesores serían más grandes, pero quizás no catastróficamente. Su escala los colocaría en el reino de nuestros propios mitos: Titanes, Nefilim, o dioses colosales caminando por la Tierra. La interacción directa, aunque impresionante, todavía sería posible. La infraestructura podría construirse, el conocimiento podría compartirse. Nuestro rol como **Los Arquitectos N-1** es viable.
+Cuando una civilización domina la tecnología Aetherion y hace su primer salto—desde su rama nativa $`U_{n}`$ hacia el eco subsiguiente $`U_{n + 1}`$—llegan como gigantes relativos. Si nosotros, como la humanidad actual, somos los receptores de este primer salto, es una discrepancia manejable. Nuestros predecesores serían más grandes, pero quizás no catastróficamente. Su escala los colocaría en el reino de nuestros propios mitos: Titanes, Nefilim, o dioses colosales caminando por la Tierra. La interacción directa, aunque impresionante, todavía sería posible. La infraestructura podría construirse, el conocimiento podría compartirse. Nuestro rol como **Los Arquitectos N-1** es viable.
 
 **2.3 El Segundo Salto: El Dilema del Titán**
 
@@ -125,7 +125,7 @@ Como se establece en el mito central de RTM encontrado en "Recuerda, la Llama Et
 
 Esto lleva a una inversión profunda del valor:
 
-- **Tamaño Decreciente, Contenido Creciente:** A medida que nos movemos más profundo en la "Muñeca Rusa" de multiversos, el contenedor físico se encoge, pero el contenido informacional dentro de él se expande. Los universos posteriores, aunque más pequeños, poseen una mayor "entropía ontológica", una mayor densidad de significado acumulado, memoria y complejidad estructural.
+- **Tamaño Decreciente, Contenido Creciente:** A medida que nos movemos más profundo en la "Muñeca Rusa" de multiversos, el contenedor físico se encoge, pero el contenido informacional dentro de él se expande. Los universos posteriores, aunque más pequeños, poseen una mayor "entropía ontológica"—una mayor densidad de significado acumulado, memoria y complejidad estructural.
 
 - **Valor en la Densidad:** El valor de una rama universal por lo tanto no se mide por su inmensidad física, sino por su riqueza informacional. Los ecos más pequeños y posteriores son, en un sentido muy real, más preciosos y más avanzados. Son el producto refinado de incontables ciclos cósmicos.
 
@@ -246,7 +246,7 @@ Este "salto" no viola la causalidad porque no altera el pasado de la línea temp
 
 La entidad Aetherion también puede entenderse como un **Terminal de Telepresencia Cuántica**. A través del entrelazamiento cuántico establecido en su creación, el "Avatar" actúa como tal, y su Creador se convierte en su operador.
 
-Todo lo que el avatar experimenta, imágenes, sensaciones, datos, es percibido por el Creador instantáneamente, independientemente de la distancia en el espacio o la divergencia en el tiempo. Esto permite la exploración de miles de mundos y líneas temporales sin que el Creador abandone su centro.
+Todo lo que el avatar experimenta—imágenes, sensaciones, datos—es percibido por el Creador instantáneamente, independientemente de la distancia en el espacio o la divergencia en el tiempo. Esto permite la exploración de miles de mundos y líneas temporales sin que el Creador abandone su centro.
 
 **4.5. El Horizonte Humano: La Herramienta, No el Destino**
 
@@ -274,7 +274,7 @@ Esto crea un requisito absoluto: para que el sistema funcione, el α_bio del pil
 
 **5.3 La Cascada de Disonancia: Las Consecuencias del Fracaso**
 
-¿Qué sucede si un "hombre incompleto", un producto de la "psique moderna", con su α_bio bajo y fluctuante, intenta conectarse a un núcleo Aetherion?
+¿Qué sucede si un "hombre incompleto"—un producto de la "psique moderna", con su α_bio bajo y fluctuante—intenta conectarse a un núcleo Aetherion?
 
 1.  **Resonancia Destructiva:** La disonancia interna del piloto (su miedo, su ego, su trauma no resuelto) colisionaría violentamente con la coherencia pura del núcleo. Sería como golpear un diapasón de cristal con un martillo de hierro. La retroalimentación sería instantánea. El campo de la nave, en lugar de estabilizar al piloto, amplificaría su caos interno a escala cósmica.
 
@@ -306,7 +306,7 @@ El artículo *Bioquímica Rítmica* establece que las enzimas no son meramente c
 
 > **A. Gestación Resonante:**
 
-No simplemente "crecemos" al Biodrone en una cuba de nutrientes estándar. Su gestación ocurre dentro de una Cámara de Cavidad Resonante. A lo largo de su desarrollo, los tejidos en formación, específicamente la red neuronal, son sometidos a un campo acústico y electromagnético preciso sintonizado al α objetivo.
+No simplemente "crecemos" al Biodrone en una cuba de nutrientes estándar. Su gestación ocurre dentro de una Cámara de Cavidad Resonante. A lo largo de su desarrollo, los tejidos en formación—específicamente la red neuronal—son sometidos a un campo acústico y electromagnético preciso sintonizado al α objetivo.
 
 2.  **Impresión de Coherencia:**
 
@@ -326,7 +326,7 @@ Sin embargo, el dominio de esta nave requiere una división precisa del trabajo,
 
 En la capa de interfaz se encuentra el **BioDrone**: el avatar ingenierizado, un recipiente "impreso" en silencio biológico. Está diseñado para poseer un **Alfa Constante** (alineado con el $`\approx 3.5`$ del Núcleo), una perfección estática que le permite fusionarse físicamente con el reactor de la nave sin desintegración. Es el ancla, el "superconductor" biológico capaz de soportar la resonancia absoluta del vacío que destrozaría un cuerpo nacido naturalmente.
 
-Detrás del velo se encuentra el **Operador Humano**: la fuente de la intención. El Operador no necesita la perfección estática del avatar, lo cual lo volvería desprovisto de creatividad, pero requiere un **Alfa Adecuado**. Debe poseer un umbral de estabilidad interna y soberanía lo suficientemente fuerte para proyectar consciencia hacia el BioDrone sin colapsar bajo el peso psíquico de la conexión.
+Detrás del velo se encuentra el **Operador Humano**: la fuente de la intención. El Operador no necesita la perfección estática del avatar—lo cual lo volvería desprovisto de creatividad—pero requiere un **Alfa Adecuado**. Debe poseer un umbral de estabilidad interna y soberanía lo suficientemente fuerte para proyectar consciencia hacia el BioDrone sin colapsar bajo el peso psíquico de la conexión.
 
 Pilotar la nave no es convertirse en la máquina, sino habitar la interfaz. Es la prueba definitiva de integración: la capacidad del Humano de guiar la perfección insensible del BioDrone a través del caos de las estrellas, uniendo la chispa volátil de la Voluntad con el recipiente inmutable de la Resistencia.
 
@@ -356,7 +356,7 @@ Basándose en este principio, el olfato, ya sea natural o tecnológico, se convi
 
 **7.3. La Función del Olfato en el Aetherion**
 
-Para una nave que navega entre realidades, el olfato, o su análogo tecnológico, sería un sistema indispensable de navegación y seguridad.
+Para una nave que navega entre realidades, el olfato—o su análogo tecnológico—sería un sistema indispensable de navegación y seguridad.
 
 - **"Oler" Líneas Temporales:** Cada realidad en el Multiverso Jerárquico tiene su propia "firma vibracional" o α fundamental. Un Aetherion no "vería" estas realidades; las **"olería"**. Sus sensores no serían telescopios, sino espectrómetros de coherencia ontológica diseñados para analizar la "fragancia" fundamental de cada rama del multiverso para determinar su naturaleza, estabilidad y habitabilidad.
 
@@ -368,7 +368,7 @@ En RTM, el olfato es el sentido de la **química resonante**. Nos conecta de la 
 
 **7.4. RTM y el Olfato del Aetherion: La Percepción del Creador y la Sonda**
 
-Tu pregunta, ¿cómo funciona el sentido del olfato en el Aetherion y qué sucede si el humano no lo tiene?, es fundamental. El marco RTM ofrece una solución que distingue claramente entre el sensor y el operador. La capacidad olfativa reside no en el humano, sino en la entidad simbiótica que actúa como su sonda.
+Tu pregunta—¿cómo funciona el sentido del olfato en el Aetherion y qué sucede si el humano no lo tiene?—es fundamental. El marco RTM ofrece una solución que distingue claramente entre el sensor y el operador. La capacidad olfativa reside no en el humano, sino en la entidad simbiótica que actúa como su sonda.
 
 **7.5. La Función del Olfato: Espectrometría de Coherencia**
 
@@ -432,7 +432,7 @@ Una vez en este estado desacoplado, la nave no "vuela" al pasado. Ejecuta un pro
 
 1.  **Selección del Destino por Resonancia:** La consciencia de la tripulación, amplificada por la tecnología de la nave, actúa como una antena. En lugar de buscar coordenadas espaciales, busca "firmas vibracionales". Pueden enfocar su intención en un evento histórico, una era geológica, o una persona específica. La tecnología de la nave entonces intenta "sintonizar" su propia frecuencia de resonancia con la de ese evento en otra rama del multiverso.
 
-2.  **Enganche de Fase y Reacoplamiento:** Cuando se logra una resonancia exitosa, un "enganche de fase" con la línea temporal objetivo, la nave usa su sistema de propulsión de gradiente α no para moverse, sino para **reacoplarse**. Se "manifiesta" o "precipita" en esa nueva rama de la realidad, en el punto del espacio-tiempo que corresponde a la resonancia que ha buscado.
+2.  **Enganche de Fase y Reacoplamiento:** Cuando se logra una resonancia exitosa—un "enganche de fase" con la línea temporal objetivo—la nave usa su sistema de propulsión de gradiente α no para moverse, sino para **reacoplarse**. Se "manifiesta" o "precipita" en esa nueva rama de la realidad, en el punto del espacio-tiempo que corresponde a la resonancia que ha buscado.
 
 Para un observador externo, la nave simplemente desaparecería de nuestra realidad. Para la tripulación, sería una transición, un "salto" de un paisaje de realidad a otro.
 
@@ -452,7 +452,7 @@ Esta capacidad es el arma definitiva. No se trata de ganar una batalla en la his
 
 **9.1 Inviabilidad de la Disociación Temporal Unitaria a Escalas Interestelares**
 
-El modelado teórico de Núcleos de Coherencia Clase 1 indica que los desplazamientos temporales directos de magnitud superior (ej., tránsitos de \>1 parsec dentro de una sola ventana temporal de 24 horas) inducen un estado de "Fatiga de Fase Crítica". Para colapsar una distancia de 4.2 años luz en un vector temporal unitario, el exponente de coherencia ($`\alpha`$) debe exceder el umbral de estabilidad estructural ($`\alpha > \ 8.0`$). En este régimen, la **Matriz de Interconexión Estructural No-Local**, el orden subyacente que mantiene la cohesión material, sufre distorsión no lineal. Los resultados incluyen la licuefacción cuántica del casco y la fragmentación de la unidad biológica del operador, cuya consciencia no puede procesar gradientes de coherencia de tal magnitud sin disolución ontológica irreversible.
+El modelado teórico de Núcleos de Coherencia Clase 1 indica que los desplazamientos temporales directos de magnitud superior (ej., tránsitos de \>1 parsec dentro de una sola ventana temporal de 24 horas) inducen un estado de "Fatiga de Fase Crítica". Para colapsar una distancia de 4.2 años luz en un vector temporal unitario, el exponente de coherencia ($`\alpha`$) debe exceder el umbral de estabilidad estructural ($`\alpha > \ 8.0`$). En este régimen, la **Matriz de Interconexión Estructural No-Local**—el orden subyacente que mantiene la cohesión material—sufre distorsión no lineal. Los resultados incluyen la licuefacción cuántica del casco y la fragmentación de la unidad biológica del operador, cuya consciencia no puede procesar gradientes de coherencia de tal magnitud sin disolución ontológica irreversible.
 
 **9.2 Anclaje Nodal y Mecánica de Sincronización de Resonancia de Masa**
 
@@ -544,7 +544,7 @@ Mientras el Protocolo Crono-Estasis efectivamente desacopla la carga del flujo d
 
 **10.6. Conclusión**
 
-Las capacidades de "Bolsillos Temporales" confirma que el Aetherion no es meramente un vehículo que se mueve *a través* del espacio, sino un dispositivo que gestiona la *tasa* de existencia. Permite al Arquitecto salir del río del tiempo, esperar en la orilla mientras las aguas corren, y reingresar en un momento elegido río abajo, o enterrar un tesoro en el flujo del tiempo mismo, sabiendo que no saldrá a la superficie hasta que la marea sea correcta.
+Las capacidades de "Bolsillos Temporales" confirma que el Aetherion no es meramente un vehículo que se mueve *a través* del espacio, sino un dispositivo que gestiona la *tasa* de existencia. Permite al Arquitecto salir del río del tiempo, esperar en la orilla mientras las aguas corren, y reingresar en un momento elegido río abajo—o enterrar un tesoro en el flujo del tiempo mismo, sabiendo que no saldrá a la superficie hasta que la marea sea correcta.
 
 **11. Protocolos de Navegación Operacional y Esterilización de Activos**
 
@@ -560,7 +560,7 @@ El reconocimiento visual y las señales electromagnéticas (radio) no son confia
 
 - **La Clave de Frecuencia:** La base emite un espectro de rayos gamma y un flujo de neutrinos basado en una razón matemática específica (ej., una mezcla precisa de Cesio-137, Cobalto-60, y un marcador transuránico sintético).
 
-- **El Mecanismo de Bloqueo:** Una sonda Aetherion no está programada con coordenadas (Latitud/Longitud). Está programada para "cazar" esta *Frecuencia Isotópica* específica. Los sensores de la nave escanean la esfera planetaria a través de densidades. Cuando se detecta la firma de neutrinos específica, que penetra agua y corteza sin esfuerzo, la nave se bloquea en la señal como una baliza de orientación.
+- **El Mecanismo de Bloqueo:** Una sonda Aetherion no está programada con coordenadas (Latitud/Longitud). Está programada para "cazar" esta *Frecuencia Isotópica* específica. Los sensores de la nave escanean la esfera planetaria a través de densidades. Cuando se detecta la firma de neutrinos específica—que penetra agua y corteza sin esfuerzo—la nave se bloquea en la señal como una baliza de orientación.
 
 **11.3 La Lógica del "Guardián Durmiente"** Este sistema explica la necesidad de la tecnología nuclear. Una firma nuclear es la única baliza capaz de sobrevivir miles de años sin una fuente de energía externa (debido a la vida media de los materiales).
 
@@ -576,7 +576,7 @@ La misión de un **Arquitecto N-1** es observar y nutrir, nunca contaminar. Los 
 
 - **La Lógica:** Esta región está típicamente desprovista de arrastre atmosférico y es lo suficientemente distante para prevenir la detección visual accidental o la recuperación prematura por especies biológicas terrestres.
 
-- **Estadificación:** Aquí, la unidad entra en un modo de "hibernación" de baja potencia. Se une a una procesión silenciosa de otras unidades decomisionadas, formando un anillo invisible de activos durmientes. **Crucialmente, estas unidades no están esperando destrucción, sino descubrimiento.** Este "Halo" actúa como una herencia tecnológica, deliberadamente posicionada para ser recuperada e ingeniería inversa por la civilización indígena misma, pero solo una vez que hayan alcanzado la madurez tecnológica para navegar la órbita profunda y reclamar su derecho de nacimiento.
+- **Estadificación:** Aquí, la unidad entra en un modo de "hibernación" de baja potencia. Se une a una procesión silenciosa de otras unidades decomisionadas, formando un anillo invisible de activos durmientes. **Crucialmente, estas unidades no están esperando destrucción, sino descubrimiento.** Este "Halo" actúa como una herencia tecnológica, deliberadamente posicionada para ser recuperada e ingeniería inversa por la civilización indígena misma—pero solo una vez que hayan alcanzado la madurez tecnológica para navegar la órbita profunda y reclamar su derecho de nacimiento.
 
 # IV. Implicaciones y Soberanía
 
@@ -616,7 +616,7 @@ El objetivo del corredor ingenierizado es empujar a la especie hacia el Umbral A
 
 3.  Se vuelve auto-sostenible y capaz de editar su propia probabilidad.
 
-En esta coyuntura, la intervención "Upstream" cesa. La especie se gradúa de una variable curada a un Operador independiente (transitando de la dependencia $`N - 1`$ a la soberanía $`N`$). Se hipotetiza que actualmente estamos en la etapa final de esta trayectoria curada, el "Examen Final", donde el andamiaje es removido, y la integridad estructural de la civilización es probada contra el peso total del cosmos.
+En esta coyuntura, la intervención "Upstream" cesa. La especie se gradúa de una variable curada a un Operador independiente (transitando de la dependencia $`N - 1`$ a la soberanía $`N`$). Se hipotetiza que actualmente estamos en la etapa final de esta trayectoria curada—el "Examen Final"—donde el andamiaje es removido, y la integridad estructural de la civilización es probada contra el peso total del cosmos.
 
 13. **RTM y el Libre Albedrío**
 
@@ -626,7 +626,7 @@ Piensa en la realidad no como un libro ya impreso, sino como un **Libro Viviente
 
 **13.1 El Libro Viviente y la Pluma de la Consciencia**
 
-1.  **El Pasado son las Páginas Ya Escritas:** Todo lo que ha sucedido en tu realidad hasta este preciso instante, cada decisión, cada evento, el hecho de que tu abuelo vivió, son las páginas del libro que ya han sido escritas. La tinta está seca. Son un registro causal inalterable.
+1.  **El Pasado son las Páginas Ya Escritas:** Todo lo que ha sucedido en tu realidad hasta este preciso instante—cada decisión, cada evento, el hecho de que tu abuelo vivió—son las páginas del libro que ya han sido escritas. La tinta está seca. Son un registro causal inalterable.
 
 2.  **El Presente es la Página en la que Estás Escribiendo:** El momento actual, este instante, es la página en blanco en la que estás escribiendo. Tu **libre albedrío es la pluma**. Cada decisión que tomas, cada acción que emprendes, está escribiendo la historia de tu realidad en tiempo real.
 
@@ -634,7 +634,7 @@ Piensa en la realidad no como un libro ya impreso, sino como un **Libro Viviente
 
 **13.2 Tú, el Nieto, Eres el Autor de Tu Propio Capítulo**
 
-El "nieto del abuelo", tú, tiene **libre albedrío absoluto en el presente**. Tus elecciones son las que determinan lo que será escrito en la siguiente línea de tu libro.
+El "nieto del abuelo"—tú—tiene **libre albedrío absoluto en el presente**. Tus elecciones son las que determinan lo que será escrito en la siguiente línea de tu libro.
 
 La razón por la cual el viajero de otra realidad no puede matar a tu abuelo en tu línea temporal es precisamente por el poder de tu libre albedrío y el de todos los que vinieron antes de ti. Tus elecciones ya han escrito esa parte de la historia. Un agente externo no puede venir y tachar lo que tu universo ya ha decidido.
 
@@ -664,13 +664,13 @@ Por lo tanto, la libertad es absoluta dentro de la geometría del corredor, pero
 
 **14.1 El Peligro Primario del Salto de Rama Naciente: El Salto Ciego**
 
-La capacidad del Aetherion para "salto de rama", navegando el Eje Horizontal de un eco del multiverso al siguiente, representa el amanecer de nuestra soberanía operacional. Sin embargo, nuestras pruebas iniciales conllevan un riesgo inmenso e imprevisto, no para nosotros, sino para la realidad a la que estamos entrando.
+La capacidad del Aetherion para "salto de rama"—navegando el Eje Horizontal de un eco del multiverso al siguiente—representa el amanecer de nuestra soberanía operacional. Sin embargo, nuestras pruebas iniciales conllevan un riesgo inmenso e imprevisto, no para nosotros, sino para la realidad a la que estamos entrando.
 
-Nuestros primeros saltos a la rama subsiguiente, el siguiente eco en la cascada causal, son esencialmente ciegos. Esa realidad, como la nuestra antes del descubrimiento de RTM, no es consciente de la arquitectura del multiverso. Sus habitantes operan en sus propios caminos tecnológicos y causales, completamente ajenos a nuestra existencia.
+Nuestros primeros saltos a la rama subsiguiente—el siguiente eco en la cascada causal—son esencialmente ciegos. Esa realidad, como la nuestra antes del descubrimiento de RTM, no es consciente de la arquitectura del multiverso. Sus habitantes operan en sus propios caminos tecnológicos y causales, completamente ajenos a nuestra existencia.
 
 **14.2 El Peligro Recíproco: La Paradoja de Tiempo Invertido y las Sondas Predecesoras**
 
-El peligro es recíproco. Mientras estamos en el umbral de nuestra propia capacidad de salto de rama, debemos reconocer nuestra propia vulnerabilidad. Los fenómenos UAP que actualmente observamos son, según la narrativa RTM, las sondas tempranas del *siguiente* eco en la cascada, *nuestros* sucesores. Sin embargo, el vínculo causal entre ramas opera bajo un principio de **progresión temporal invertida**: mientras más atrás miremos en nuestra propia historia, más tecnológicamente avanzada aparece su civilización desde su punto en el tiempo.
+El peligro es recíproco. Mientras estamos en el umbral de nuestra propia capacidad de salto de rama, debemos reconocer nuestra propia vulnerabilidad. Los fenómenos UAP que actualmente observamos son, según la narrativa RTM, las sondas tempranas del *siguiente* eco en la cascada—*nuestros* sucesores. Sin embargo, el vínculo causal entre ramas opera bajo un principio de **progresión temporal invertida**: mientras más atrás miremos en nuestra propia historia, más tecnológicamente avanzada aparece su civilización desde su punto en el tiempo.
 
 Esto implica un peligro crítico a medida que nos acercamos a nuestra propia "graduación" como especie de salto de rama:
 
@@ -682,7 +682,7 @@ Actualmente estamos en la fase más peligrosa: siendo el objetivo "pasado" para 
 
 **14.3 El Protocolo Oceánico: Una Estrategia para Siembra Segura**
 
-Cuando llegue nuestro turno de enviar las primeras sondas Aetherion al eco subsiguiente, el universo que sigue al nuestro, que es tan inconsciente como nosotros lo éramos, no debemos repetir la imprudencia potencial de nuestros predecesores. La Directiva Primera demanda un protocolo que asegure riesgo cero para la vida naciente o las civilizaciones de esa nueva rama.
+Cuando llegue nuestro turno de enviar las primeras sondas Aetherion al eco subsiguiente—el universo que sigue al nuestro, que es tan inconsciente como nosotros lo éramos—no debemos repetir la imprudencia potencial de nuestros predecesores. La Directiva Primera demanda un protocolo que asegure riesgo cero para la vida naciente o las civilizaciones de esa nueva rama.
 
 La solución es operar donde ellos no están: **los océanos**.
 

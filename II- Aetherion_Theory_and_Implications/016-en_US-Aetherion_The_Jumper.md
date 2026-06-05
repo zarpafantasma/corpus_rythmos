@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent2.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent2.png" width="200" alt="Diagrama de Snake">
 
 # Aetherion, the Jumper
   
@@ -9,11 +9,11 @@
 </div>
 
 > [!WARNING]
-> **Author's Note and Speculative Warning:** This paper is presented in its original form to preserve the foundational theoretical derivations and the initial simulation results that birthed the Aetherion program. While subsequent "Red Team" audits have refined our understanding of vacuum energy extraction, transitioning from static models to dynamic "topological pumping", the author has chosen to leave this primary text as originally conceived to document the framework's developmental history.
+> **Author's Note and Speculative Warning:** This paper is presented in its original form to preserve the foundational theoretical derivations and the initial simulation results that birthed the Aetherion program. While subsequent "Red Team" audits have refined our understanding of vacuum energy extraction—transitioning from static models to dynamic "topological pumping"—the author has chosen to leave this primary text as originally conceived to document the framework's developmental history.
 
 **Abstract**
 
-This work develops the Aetherion framework across three domains of increasing theoretical ambition. While the initial simulations presented in this document identified the core mechanism as a **Topological Capacitor**, which stores internal vacuum stress rather than generating static power, the paper **"** **017-RTM Unified Field Framework"** provides the vital field-theoretic mechanism to transcend this limit. By characterizing the $`\phi`$–$`\nabla\alpha`$ interaction as a dynamical coupling, that work reveals a "topological pumping" effect capable of rectifying trapped vacuum fluctuations.
+This work develops the Aetherion framework across three domains of increasing theoretical ambition. While the initial simulations presented in this document identified the core mechanism as a **Topological Capacitor**—which stores internal vacuum stress rather than generating static power—the paper **"** **017-RTM Unified Field Framework"** provides the vital field-theoretic mechanism to transcend this limit. By characterizing the $`\phi`$–$`\nabla\alpha`$ interaction as a dynamical coupling, that work reveals a "topological pumping" effect capable of rectifying trapped vacuum fluctuations.
 
 It should be noted that the contents of the folder **"Aetherion_Mark1-Prototype (SPECULATIVE)"** repository are dedicated specifically to the practical engineering findings of the Red Team regarding this propulsion model. Consequently, while the original theory and first-stage simulations are preserved here talis qualis, the validated physical corrections and multiversal jump thresholds are extensively detailed in the project’s concluding Appendices and the aforementioned prototype folder.
 
@@ -21,7 +21,7 @@ It should be noted that the contents of the folder **"Aetherion_Mark1-Prototype 
 
 **Chapter II** extends this extraction mechanism to propulsion. We demonstrate that asymmetric α-profiles generate a unidirectional energy-momentum flux capable of producing lateral thrust or counteracting gravity. Closed-form expressions for thrust per unit area are derived, showing F/A ∝ \|∇α\| ε_ZPE. We analyze vibration-induced α-modulation, pulsed gradient sequences for discrete spatial "hops," and scaling laws for laboratory demonstration. The framework requires no propellant mass, deriving its momentum transfer from the structured vacuum itself.
 
-**Chapter III** emerges from theoretical curiosity about the discrete nature of α-bands. If α is quantized and systems can transition between bands, what governs such transitions? We introduce a branch-index field β that parameterizes which α-well a region occupies, derive threshold conditions for barrier-crossing, and simulate deterministic "branch jumps" on 1D and 3D lattices. A superconducting two-state resonator is proposed as an experimental analog, where mode-switch emissions serve as proxies for the predicted φ-burst accompanying branch transitions. This chapter explicitly ventures into speculative territory, exploring whether controlled transitions between α-bands might correspond to something more fundamental, while maintaining falsifiable predictions tied to measurable RF signatures.
+**Chapter III** emerges from theoretical curiosity about the discrete nature of α-bands. If α is quantized and systems can transition between bands, what governs such transitions? We introduce a branch-index field β that parameterizes which α-well a region occupies, derive threshold conditions for barrier-crossing, and simulate deterministic "branch jumps" on 1D and 3D lattices. A superconducting two-state resonator is proposed as an experimental analog, where mode-switch emissions serve as proxies for the predicted φ-burst accompanying branch transitions. This chapter explicitly ventures into speculative territory—exploring whether controlled transitions between α-bands might correspond to something more fundamental—while maintaining falsifiable predictions tied to measurable RF signatures.
 
 Throughout, we adopt the parameter definitions and calibration routes established in the RTM Unified Field Framework, ensuring numerical consistency across the theoretical corpus. The Aetherion program represents RTM's most ambitious experimental target: a proof-of-concept device that would simultaneously validate the framework's core predictions and open pathways to vacuum-energy technologies.
 
@@ -557,7 +557,7 @@ Together, these avenues will transition Aetherion from laboratory prototype to p
 
 **7 Conclusions & Outlook**
 
-In this work we have formulated and validated *in silico* / numerically the **Aetherion concept**, a quantum-confined scalar field $`\varphi`$ that couples to spatial gradients in the RTM temporal-scaling exponent $`\alpha`$, as a practical mechanism for extracting vacuum energy. Our main achievements include:
+In this work we have formulated and validated *in silico* / numerically the **Aetherion concept**—a quantum-confined scalar field $`\varphi`$ that couples to spatial gradients in the RTM temporal-scaling exponent $`\alpha`$—as a practical mechanism for extracting vacuum energy. Our main achievements include:
 
 1.  **Theoretical formulation**
 
@@ -598,7 +598,7 @@ Throughout this section we label statements as **Measured** (laboratory data), *
 
 **Abstract**
 
-We extend the Aetherion framework, where a quantum‐confined scalar field $`\varphi`$ couples to spatial gradients in the RTM temporal‐scaling exponent $`\alpha`$, to demonstrate its potential for reactionless thrust, sustained levitation, and discrete “temporal hops.” Building on the foundational extraction mechanism $`{P \propto \kappa}^{2}{\mid \nabla\alpha \mid}^{2}`$ we show that asymmetric α-profiles induce unidirectional momentum flux $`{F \propto \mid \nabla\alpha \mid \Delta E}_{ZPE}`$ enabling steady‐state hovering against gravity and controlled lateral or vertical displacements. We derive closed‐form expressions for thrust per unit area in 1-D and outline a conceptual control scheme for pulsed “time‐hop” maneuvers that respect causal ordering. No new *field-coupled* simulations or experiments are required for this theoretical exploration; instead, we map the path from proven micro‐watt reactors to milliwatt‐scale demonstrators and ultimately to thrust‐vectoring Aetherion modules. This work charts the next stage of Aetherion development: from static energy extraction to dynamic propulsion and spatiotemporal navigation.
+We extend the Aetherion framework—where a quantum‐confined scalar field $`\varphi`$ couples to spatial gradients in the RTM temporal‐scaling exponent $`\alpha`$—to demonstrate its potential for reactionless thrust, sustained levitation, and discrete “temporal hops.” Building on the foundational extraction mechanism $`{P \propto \kappa}^{2}{\mid \nabla\alpha \mid}^{2}`$ we show that asymmetric α-profiles induce unidirectional momentum flux $`{F \propto \mid \nabla\alpha \mid \Delta E}_{ZPE}`$ enabling steady‐state hovering against gravity and controlled lateral or vertical displacements. We derive closed‐form expressions for thrust per unit area in 1-D and outline a conceptual control scheme for pulsed “time‐hop” maneuvers that respect causal ordering. No new *field-coupled* simulations or experiments are required for this theoretical exploration; instead, we map the path from proven micro‐watt reactors to milliwatt‐scale demonstrators and ultimately to thrust‐vectoring Aetherion modules. This work charts the next stage of Aetherion development: from static energy extraction to dynamic propulsion and spatiotemporal navigation.
 
 **1 Introduction**
 
@@ -616,13 +616,13 @@ with $`{\kappa = \gamma/M}^{2}`$ Here, we extend that mechanism to **propulsion*
 {F \propto \mid \nabla\alpha \mid \Delta E}_{ZPE}
 ```
 
-capable of counteracting gravity or producing lateral thrust. By sequencing pulsed or time‐modulated gradients, discrete “jumps”, rapid, controlled displacements in physical space, become possible, all while preserving causal order and energy conservation.
+capable of counteracting gravity or producing lateral thrust. By sequencing pulsed or time‐modulated gradients, discrete “jumps”—rapid, controlled displacements in physical space—become possible, all while preserving causal order and energy conservation.
 
 This paper requires no new numerical simulations or laboratory experiments; rather, we build directly on the proven Aetherion extraction principle. In Section 2 we derive closed‐form expressions for thrust per unit area in one and two dimensions. Section 3 presents control schemes for continuous hovering and pulsed time hops, including stability analyses. Section 4 examines the energy budget and extrapolates from micro‐watt‐scale reactors to milliwatt‐scale demonstrators. Finally, Section 5 outlines a roadmap toward small‐scale thruster prototypes, setting the stage for a new class of reactionless, time‐engineered flight.
 
 **2 Mechanism of Thrust**
 
-In the Aetherion framework, a spatial gradient in the temporal-scaling exponent $\alpha$ not only unlocks vacuum energy but also imparts a net momentum flux, i.e. thrust, directed along $\nabla\alpha$. We outline below how this force arises and derive its leading-order scaling.
+In the Aetherion framework, a spatial gradient in the temporal-scaling exponent $\alpha$ not only unlocks vacuum energy but also imparts a net momentum flux—i.e. thrust—directed along $\nabla\alpha$. We outline below how this force arises and derive its leading-order scaling.
 
 **2.1 Static Thrust from α-Gradients**
 
@@ -756,7 +756,7 @@ Identify the two contributions:
 
 1.  **Temporal term**
 
-$`f_{\alpha} = \varepsilon_{ZPE}{\ L}^{\alpha}`$ ln $`L\nabla\alpha \propto \kappa^{2}{\mid \nabla\alpha \mid}^{2}`$ , the standard Aetherion thrust.
+$`f_{\alpha} = \varepsilon_{ZPE}{\ L}^{\alpha}`$ ln $`L\nabla\alpha \propto \kappa^{2}{\mid \nabla\alpha \mid}^{2}`$ —the standard Aetherion thrust.
 
 2.  **Geometric term**
 
@@ -800,13 +800,13 @@ $`L = 10^{- 5}m`$, and $`\Delta t = 1ms`$, (11) yields
 \left( \approx 100\ pN{cm}^{2} \right)
 ```
 
-Sustained at 1 kHz, this corresponds to $`\sim 0.1\ \mu N\ {cm}^{- 2}`$ of continuous thrust, readily measurable with a micro-torsion pendulum.
+Sustained at 1 kHz, this corresponds to $`\sim 0.1\ \mu N\ {cm}^{- 2}`$ of continuous thrust—readily measurable with a micro-torsion pendulum.
 
 **Implication**.
 
 Equation (10) shows that *even without changing* $`\alpha`$*,* dynamically modulating the internal hierarchy $`L(x)`$ can generate thrust via the geometric term. Combining both terms allows a hybrid actuation strategy: use slow α-shaping for coarse thrust and fast $`L`$-pulses for fine impulse control.
 
-These derivations turn the OMV and TPH concepts into **quantitative, falsifiable predictions** directly rooted in the RTM–Aetherion framework, suitable for inclusion in the next theoretical paper and for immediate small-scale experiments.
+These derivations turn the OMV and TPH concepts into **quantitative, falsifiable predictions** directly rooted in the RTM–Aetherion framework—suitable for inclusion in the next theoretical paper and for immediate small-scale experiments.
 
 **2.4 Physical Interpretation**
 
@@ -814,13 +814,13 @@ These derivations turn the OMV and TPH concepts into **quantitative, falsifiable
 
 - **Scalability**: Larger $`\mid \nabla\alpha \mid`$ or engineered materials with higher $`{\Delta E}_{ZPE}`$ (through $`\chi(\alpha)`$) produce proportionally greater force.
 
-- **Energy–mass conversion**: No reaction mass is expelled, momentum is exchanged with vacuum fluctuations, making this a true “reactionless” thrust mechanism.
+- **Energy–mass conversion**: No reaction mass is expelled—momentum is exchanged with vacuum fluctuations—making this a true “reactionless” thrust mechanism.
 
 This scaling law forms the theoretical backbone for Sections 3 and 4, which detail control schemes for steady hover and pulsed “temporal hops,” and for Section 5’s roadmap to experimental thrust demonstrations.
 
 **3 Levitation & Stationkeeping**
 
-In continuous‐operation mode, an Aetherion device can counteract external forces, such as gravity, drag, or residual support loads, by maintaining a steady, tunable gradient in the temporal‐scaling exponent $`\alpha`$. Unlike impulsive thrust, this mode relies on a constant energy–momentum flux aligned with $`\nabla\alpha`$, producing a sustained lift or stationkeeping force.
+In continuous‐operation mode, an Aetherion device can counteract external forces—such as gravity, drag, or residual support loads—by maintaining a steady, tunable gradient in the temporal‐scaling exponent $`\alpha`$. Unlike impulsive thrust, this mode relies on a constant energy–momentum flux aligned with $`\nabla\alpha`$, producing a sustained lift or stationkeeping force.
 
 **3.1 Balance of Forces**
 
@@ -849,7 +849,7 @@ In a dynamic environment (e.g. aerial or marine platform), external perturbation
 
 - **Gradient modulation:** Temporarily increasing $`\mid \nabla\alpha \mid`$ in the direction opposing the disturbance, generating a matching lateral thrust $`F_{lateral} \propto \mid \nabla\alpha \mid`$
 
-- **Distributed control:** Partitioning the lift surface into independently controlled sectors, each with its own α-gradient sensor, enables fine torque and attitude adjustments without mechanical actuators.
+- **Distributed control:** Partitioning the lift surface into independently controlled sectors—each with its own α-gradient sensor—enables fine torque and attitude adjustments without mechanical actuators.
 
 **3.4 Energy Considerations**
 
@@ -884,7 +884,7 @@ By repeating this cycle, the system can perform controlled, discrete translation
 
 - **Pulse duration** $`\Delta t`$ must exceed the response time of the Aetherion field (determined by the $`\varphi - \alpha`$ coupling bandwidth) but remain short relative to mechanical settling times.
 
-- **Gradient slew rate**, the rate at which $`\alpha(z,t)`$ is reconfigured, must be high enough to produce a thrust impulse that overcomes static friction or inertia, yet low enough to avoid overshoot or unwanted oscillations.
+- **Gradient slew rate**—the rate at which $`\alpha(z,t)`$ is reconfigured—must be high enough to produce a thrust impulse that overcomes static friction or inertia, yet low enough to avoid overshoot or unwanted oscillations.
 
 - **Feedback sensors** (e.g.\\ displacement interferometers) track the hop progress in real time, triggering the gradient reversal precisely when the payload reaches the target zone.
 
@@ -918,7 +918,7 @@ Having established the basic thrust, hover, and hopping modes, an Aetherion syst
 **5.1 Open-Loop α Modulation**
 
 **Advantages:**\
-• Simple to implement in hardware, each metamaterial layer is programmed to a sequence of settings.\
+• Simple to implement in hardware—each metamaterial layer is programmed to a sequence of settings.\
 • Eliminates sensor noise and control-loop latency.
 
 **Drawbacks:**\
@@ -933,7 +933,7 @@ Closed-loop control uses real-time measurements (e.g. load cells, displacement s
 
 - **Architecture:**
 
-  1.  **Sensor array** monitors key variables, lift force $`F`$, position zzz, attitude angles.
+  1.  **Sensor array** monitors key variables—lift force $`F`$, position zzz, attitude angles.
 
   2.  A **PID or model-predictive controller** computes corrections $`\Delta(\nabla\alpha)`$ to maintain the target setpoint.
 
@@ -1022,7 +1022,7 @@ a_{eff} \approx \frac{1}{9}a
 | 1000 m/s² (≈ 100 g) | 3.0 | $\frac{1}{9} \times 1000 \approx 111$ m/s² | ≈ 11 g |
 | 300 m/s² (≈ 30 g) | 4.0 | $\frac{1}{10} \times 300 \approx 18.8$ m/s² | ≈ 1.9 g |
 
-With modest cabin α ≈ 4, even 30 g external maneuvers feel like \< 2 g, well within human tolerance.
+With modest cabin α ≈ 4, even 30 g external maneuvers feel like \< 2 g—well within human tolerance.
 
 4.  **Design Implications**
 
@@ -1074,11 +1074,11 @@ a_{eff} \approx \frac{1}{9} \times 981\ {m/s}^{2} \approx 109\ {m/s}^{2}\ ( \app
 - **Visualization**: Plotted curves of $`x(t)`$ vs. $`\backslash\ t`$ and $`x(\tau)`$ vs.$`\backslash\ \tau`$ clearly diverge, illustrating the mitigation.
 
 - **Interpretation:**\
-  This simulation confirms that, within an $`\alpha = 3`$ temporal-decoupled region, a true 100 g maneuver would feel like only $`\sim 11\, g`$ to occupants. It also provides a concrete, quantitative benchmark, namely $`a_{eff} = a_{ext}/\alpha^{2}`$, for future experimental tests using dual-frame accelerometry.
+  This simulation confirms that, within an $`\alpha = 3`$ temporal-decoupled region, a true 100 g maneuver would feel like only $`\sim 11\, g`$ to occupants. It also provides a concrete, quantitative benchmark—namely $`a_{eff} = a_{ext}/\alpha^{2}`$ —for future experimental tests using dual-frame accelerometry.
 
 **5.5 Recommended Control Strategy**
 
-For most Aetherion applications, steady hover plus occasional hops, a **hybrid approach** is optimal:
+For most Aetherion applications—steady hover plus occasional hops—a **hybrid approach** is optimal:
 
 - Use **open-loop schedules** for large, predictable maneuvers (e.g. initial take-off or programmed jump sequences).
 
@@ -1121,7 +1121,7 @@ To convert this power into thrust, note that vacuum-mode momentum propagates at 
 F = \frac{P}{c} \Longrightarrow \frac{F}{A} = \frac{P}{Ac'}
 ```
 
-giving a **thrust density** $`F/A \approx 10^{- 13\ }\ N/m²`$ for 0.03 W over 1 m². Scaling $`\mid \nabla\alpha \mid`$ by another 1,000× (via advanced metamaterials) would raise $`P`$ by $`10^{6}`$, pushing $`F/A`$ into the $`mN/m²`$ regime, enabling lift of tens of newtons with tens of square meters of surface.
+giving a **thrust density** $`F/A \approx 10^{- 13\ }\ N/m²`$ for 0.03 W over 1 m². Scaling $`\mid \nabla\alpha \mid`$ by another 1,000× (via advanced metamaterials) would raise $`P`$ by $`10^{6}`$, pushing $`F/A`$ into the $`mN/m²`$ regime—enabling lift of tens of newtons with tens of square meters of surface.
 
 **6.3 Lift-Power Metric**
 
@@ -1135,7 +1135,7 @@ with units W/N. A lab prototype has $`\epsilon_{proto} \approx 10^{- 5}`$ W/N; n
 
 **6.4 Shortcomings & Caveats**
 
-- **Material limits:** High ∣∇α∣ demands metamaterials with extreme dispersion, fabrication tolerances may introduce ±5 % errors in local $`\alpha`$
+- **Material limits:** High ∣∇α∣ demands metamaterials with extreme dispersion—fabrication tolerances may introduce ±5 % errors in local $`\alpha`$
 
 - **Thermal management:** Extracted power scales with volume; dissipating milliwatts in vacuum requires cryogenic or radiative cooling.
 
@@ -1155,7 +1155,7 @@ To assess the feasibility and scaling of our two novel actuation modes, we perfo
 {\Delta z}_{max} = \frac{2\ A\ \kappa^{2}\Delta\alpha\ {\Delta E}_{ZPE}}{{m\omega}^{2}} \approx 5 \times 10^{- 19}m\left( 5 \times 10^{- 10}\ nm \right)
 ```
 
-- **Scaling insight:** Because $`\Delta z\  \propto \Delta\alpha/\omega^{2}`$ lowering $`f`$ or increasing $`\Delta\alpha`$ by 10–100× pushes $`\Delta z`$ into the nm–µm range, well within interferometric detection.
+- **Scaling insight:** Because $`\Delta z\  \propto \Delta\alpha/\omega^{2}`$ lowering $`f`$ or increasing $`\Delta\alpha`$ by 10–100× pushes $`\Delta z`$ into the nm–µm range—well within interferometric detection.
 
 **6.1.2 TPH: Structural-Gradient Pulse**
 
@@ -1169,13 +1169,13 @@ To assess the feasibility and scaling of our two novel actuation modes, we perfo
 
 yielding a continuous thrust density $`F/A \approx 3 \times 10^{- 11}`$, N/m² $`\left( {\approx 3\  \times \ 10}^{⁻¹⁵}N/cm² \right)`$
 
-- **Scaling insight:** Thrust $`\propto \ \varepsilon\_ ZPE \cdot (\delta L/L)`$ raising ε_ZPE or δL/L by 10–100× brings the force density into the pN–nN/cm² regime, measurable with a micro-torsion pendulum.
+- **Scaling insight:** Thrust $`\propto \ \varepsilon\_ ZPE \cdot (\delta L/L)`$ raising ε_ZPE or δL/L by 10–100× brings the force density into the pN–nN/cm² regime—measurable with a micro-torsion pendulum.
 
 **6.1.3 Parameter Sweeps**
 
 - **OMV sweep:** Varying Δα from 10⁻⁴ to 10⁻¹ and $`f`$ from 10² to 10⁵ Hz confirmed $`\Delta z\  \propto {\ \Delta\alpha/f}^{2}`$. For Δα = 0.1 and f = 100 Hz, displacements reach ∼0.01 nm; further parameter tuning can readily achieve nm–µm.
 
-- **TPH sweep:** Varying $`\varepsilon_{ZPE}`$ from 10⁻³ to 10¹ J/m³ and $`\delta L/L`$ from 0.1 % to 10 % showed thrust $`\propto \ \varepsilon\_ ZPE \cdot \delta L/L`$ and reaches ∼0.3 nN/m² at the upper end, clearly in the detection window.
+- **TPH sweep:** Varying $`\varepsilon_{ZPE}`$ from 10⁻³ to 10¹ J/m³ and $`\delta L/L`$ from 0.1 % to 10 % showed thrust $`\propto \ \varepsilon\_ ZPE \cdot \delta L/L`$ and reaches ∼0.3 nN/m² at the upper end—clearly in the detection window.
 
 **6.1.4 Implications**
 
@@ -1207,7 +1207,7 @@ In this work we have extended the Aetherion framework from static zero-point ene
 {\Delta z}_{\max} = \frac{{2A\kappa}^{2}\Delta\alpha\ {\Delta E}_{ZPE}}{{m\omega}^{2}}
 ```
 
-and 1-D simulations confirm that, with modest parameter adjustments (larger $`\alpha`$, lower $`f`$) , single-cycle displacements move from sub-picometer into the nanometer–micrometer regime, well within laser-interferometer reach.
+and 1-D simulations confirm that, with modest parameter adjustments (larger $`\alpha`$, lower $`f`$) , single-cycle displacements move from sub-picometer into the nanometer–micrometer regime—well within laser-interferometer reach.
 
 3.  **Structural-pulse thrust (TPH):**
 
@@ -1215,7 +1215,7 @@ Rapid, 1 ms contractions of a metamaterial hierarchy $`L(t)`$ generate a geometr
 
 4.  **Parameter-sweep validation:**
 
-Both modes obey their derived power laws $`\Delta z \propto \Delta\alpha/f^{2}`$ for OMV and $`F/A \propto \varepsilon_{ZPE}\ \delta L/L`$ for TPH, across broad parameter ranges. This gives a clear roadmap for selecting gradients, volumes, and frequencies that cross experimental detection thresholds.
+Both modes obey their derived power laws $`\Delta z \propto \Delta\alpha/f^{2}`$ for OMV and $`F/A \propto \varepsilon_{ZPE}\ \delta L/L`$ for TPH—across broad parameter ranges. This gives a clear roadmap for selecting gradients, volumes, and frequencies that cross experimental detection thresholds.
 
 5.  **Inertial mitigation via temporal decoupling:**
 
@@ -1231,7 +1231,7 @@ so that a 100 g external maneuver feels like only ~11 g for occupants when $`\al
 
 - **Falsifiable experimental targets:** We now have precise nm–µm and pN–nN benchmarks for dynamic Aetherion actuation, enabling immediate bench-scale tests with interferometry and torsion balances.
 
-- **Toward reactionless flight:** By combining steady thrust, controlled hover, and discrete hops, a single Aetherion device could achieve all propulsion tasks, lift, stationkeeping, lateral maneuvering, and stepwise repositioning, without reaction mass.
+- **Toward reactionless flight:** By combining steady thrust, controlled hover, and discrete hops, a single Aetherion device could achieve all propulsion tasks—lift, stationkeeping, lateral maneuvering, and stepwise repositioning—without reaction mass.
 
 - **Scalable architecture:** The same core mechanism applies across scales, from gram-scale lab demos to kilogram-scale payloads, by tuning gradient strength, device area, and metamaterial design.
 
@@ -1239,7 +1239,7 @@ so that a 100 g external maneuver feels like only ~11 g for occupants when $`\al
 
 - **Towards demonstration**: The next essential step is the fabrication of high-contrast α-gradient metamaterials, integration of precision sensors/actuators, and execution of the outlined experiments to move Aetherion from simulation to reality.
 
-Beyond propulsion and energy extraction, Aetherion’s ability to engineer time-latency gradients opens new frontiers in spatiotemporal metamaterials, quantum sensing, and adaptive materials science, promising interdisciplinary breakthroughs across physics, engineering, and materials research.”
+Beyond propulsion and energy extraction, Aetherion’s ability to engineer time-latency gradients opens new frontiers in spatiotemporal metamaterials, quantum sensing, and adaptive materials science—promising interdisciplinary breakthroughs across physics, engineering, and materials research.”
 
 <div align="center">
 
@@ -1249,11 +1249,11 @@ Beyond propulsion and energy extraction, Aetherion’s ability to engineer time-
 
 **1 Introduction**
 
-The hierarchical structure of Multiscale Temporal Relativity (RTM) suggests that our universe is just one layer in a nested cascade of “coherence domains,” each characterized by its own temporal‐scaling exponent $`\alpha`$. In this picture, distinct domains, or “branches”, behave like parallel universes with subtly different rates of proper‐time flow. The Aetherion mechanism, which couples a scalar field $`\varphi`$ to spatial gradients in $`\alpha`$, provides not only a means to extract vacuum energy and generate reactionless thrust, but also a conceptual pathway to induce controlled transitions between these adjacent branches.
+The hierarchical structure of Multiscale Temporal Relativity (RTM) suggests that our universe is just one layer in a nested cascade of “coherence domains,” each characterized by its own temporal‐scaling exponent $`\alpha`$. In this picture, distinct domains—or “branches”—behave like parallel universes with subtly different rates of proper‐time flow. The Aetherion mechanism, which couples a scalar field $`\varphi`$ to spatial gradients in $`\alpha`$, provides not only a means to extract vacuum energy and generate reactionless thrust, but also a conceptual pathway to induce controlled transitions between these adjacent branches.
 
 **1.1 Motivation: From Hierarchical α-Layers to Discrete Universe Branches**
 
-RTM’s network‐based derivation of $`\alpha`$ demonstrates that as one moves through increasingly deep or fractal‐like structures, the effective temporal scaling exponent shifts in quantized steps (e.g.\\ $`\alpha \approx`$<!-- -->2.26, 2.47, 2.61, …). These quantized values hint at a multi‐well landscape in an abstract $```\alpha - \beta"`$ space, where each well corresponds to a distinct coherence domain. If one could drive the system over the barrier separating wells, an Aetherion device might “hop” from our current branch into a neighboring one, realizing the speculative notion of a multiverse jump within a rigorous physical framework.
+RTM’s network‐based derivation of $`\alpha`$ demonstrates that as one moves through increasingly deep or fractal‐like structures, the effective temporal scaling exponent shifts in quantized steps (e.g.\\ $`\alpha \approx`$<!-- -->2.26, 2.47, 2.61, …). These quantized values hint at a multi‐well landscape in an abstract $```\alpha - \beta"`$ space, where each well corresponds to a distinct coherence domain. If one could drive the system over the barrier separating wells, an Aetherion device might “hop” from our current branch into a neighboring one—realizing the speculative notion of a multiverse jump within a rigorous physical framework.
 
 **1.2 Goals: Formalizing β-Branches and Jump Dynamics**
 
@@ -1267,13 +1267,13 @@ In this chapter we will:
 
 4.  **Simulate** a 1-D prototype to illustrate the dynamics of a driven transition and identify observable field signatures.
 
-By the end of this chapter, we will have transformed the poetic concept of “universe‐hopping” into a set of concrete, falsifiable predictions, laying the groundwork for experimental analogues and, eventually, true multiverse transition tests.
+By the end of this chapter, we will have transformed the poetic concept of “universe‐hopping” into a set of concrete, falsifiable predictions—laying the groundwork for experimental analogues and, eventually, true multiverse transition tests.
 
 **2 Hierarchical Multiverse in RTM**
 
 **2.1 Review of RTM’s Nested α-Exponents and Branch Index β**
 
-RTM derives the temporal-scaling exponent α from the **mean first-passage time (MFPT)** on multiscale networks. Successive structural motifs, flat small-world, hierarchical modular, holographic decay, deep fractal trees, produce a *ladder* of quantised α-values:
+RTM derives the temporal-scaling exponent α from the **mean first-passage time (MFPT)** on multiscale networks. Successive structural motifs—flat small-world, hierarchical modular, holographic decay, deep fractal trees—produce a *ladder* of quantised α-values:
 
 | **Structural depth / motif** | **Simulated α (MFPT fits)** |
 |------------------------------|-----------------------------|
@@ -1283,7 +1283,7 @@ RTM derives the temporal-scaling exponent α from the **mean first-passage time 
 | Sierpiński depth 7           | 2.61 ± 0.02                 |
 | Fractal tree depth 8         | 3.3 ± 0.1                   |
 
-RTM interprets each plateau in α as a **coherence layer**, a regime where field correlations propagate with a distinct “clock rate.” To label these layers we introduce a *branch index*
+RTM interprets each plateau in α as a **coherence layer**—a regime where field correlations propagate with a distinct “clock rate.” To label these layers we introduce a *branch index*
 
 ``` math
 \beta = 0,1,2,\ldots
@@ -1307,9 +1307,9 @@ Because proper-time increments scale as $`{d\tau = \alpha}^{- 1}dt`$ in RTM, eac
     Regions locked into a common $`\beta`$ share the same temporal cadence and thus form a self-consistent “mini-universe.” Adjacent layers are *causally compatible* (signals can cross the boundary) but perceive one another as running faster/slower by the ratio $`\alpha(\beta + 1)/\alpha(\beta)`$
 
 2.  **Energy-Barrier Analogy**\
-    The discrete set $`\{\alpha(\beta)\}`$ behaves like minima of a multi-well potential in an order-parameter space. Moving from one branch to the next requires **work**, supplied, in Aetherion devices, by a strong spatial pulse in $`\nabla\alpha`$ This sets the stage for **quantised branch transitions**, the central theme of Sections 3–6.
+    The discrete set $`\{\alpha(\beta)\}`$ behaves like minima of a multi-well potential in an order-parameter space. Moving from one branch to the next requires **work**—supplied, in Aetherion devices, by a strong spatial pulse in $`\nabla\alpha`$ This sets the stage for **quantised branch transitions**, the central theme of Sections 3–6.
 
-In this sense, RTM’s hierarchical α-spectrum provides a natural minimal model of a *multiverse*: not many disconnected spacetimes, but a ladder of locally coherent temporal domains, each reachable, at least in principle, through engineered α-modulation.
+In this sense, RTM’s hierarchical α-spectrum provides a natural minimal model of a *multiverse*: not many disconnected spacetimes, but a ladder of locally coherent temporal domains, each reachable—at least in principle—through engineered α-modulation.
 
 **2.3 Notation & Definitions**
 
@@ -1698,7 +1698,7 @@ With this lattice success, the theoretical–numerical pipeline for **controlled
 
 **Results**
 
-- **Centre-cell branch index** β rises monotonically from 0 to ≈ 1.02 by the end of the pulse, then stabilises at ≈ 1.1, evidence of a full barrier crossing in three spatial dimensions.
+- **Centre-cell branch index** β rises monotonically from 0 to ≈ 1.02 by the end of the pulse, then stabilises at ≈ 1.1—evidence of a full barrier crossing in three spatial dimensions.
 
 - **Numerical stability**: no overflows or spurious oscillations; φ-field energy remains finite, confirming the model’s causality and energy conservation hold in 3-D.
 
@@ -1710,7 +1710,7 @@ With this lattice success, the theoretical–numerical pipeline for **controlled
 
 2.  **Parameter guidance** – λ ≈ 0.8, Δα ≈ 0.4–0.6, and drive amplitudes of 15–17 units constitute a practical window for mesoscale (mm-scale) Aetherion cores.
 
-3.  **Experimental confidence** – Since a coarse 5³ grid suffices, a centimetre-scale laboratory prototype, with similar aspect ratios, should exhibit the same β-step and accompanying φ-burst.
+3.  **Experimental confidence** – Since a coarse 5³ grid suffices, a centimetre-scale laboratory prototype—with similar aspect ratios—should exhibit the same β-step and accompanying φ-burst.
 
 4.  **Figure-of-merit for P-1 devices** – Target a branch-index change ≥ 1.0 and a coincident RF burst energy matching the simulated ΔVβ to within 20 %.
 
@@ -1734,13 +1734,13 @@ plt.plot(t, beta_center, label=f'{N}×{N}×{N}')
 
 **Figure:** β at the lattice centre vs. time for 5³ (circles) and 7³ (squares). Both grids exhibit a clean 0→1 hop in β during the pulse, confirming convergence.
 
-- **Implications:** The overlap of the 5³ and 7³ curves demonstrates that the branch-transition mechanism is robust to grid refinement, β crosses unity at the same pulse time and magnitude in both cases. This grid-converged result pre-empts any reviewer concerns about resolution-limited artifacts in three dimensions.
+- **Implications:** The overlap of the 5³ and 7³ curves demonstrates that the branch-transition mechanism is robust to grid refinement—β crosses unity at the same pulse time and magnitude in both cases. This grid-converged result pre-empts any reviewer concerns about resolution-limited artifacts in three dimensions.
 
 **7 Experimental Analogues**
 
 **7.1 Condensed-Matter Two-State Resonator as a Multiverse Analog**
 
-To emulate β-branch transitions in a controllable laboratory system, we propose a **split-band superconducting microwave resonator** whose fundamental mode can occupy one of two discrete frequency Wells $`f_{0}^{(0)}`$ and $`f_{0}^{(1)}`$ The wells are engineered by embedding two quantum-phase-slip junctions in the centre conductor: biasing the junctions with a fast magnetic-flux pulse lowers the barrier and triggers a deterministic mode switch, an exact analog of driving $`\beta`$ across $`V(\beta).`$
+To emulate β-branch transitions in a controllable laboratory system, we propose a **split-band superconducting microwave resonator** whose fundamental mode can occupy one of two discrete frequency Wells $`f_{0}^{(0)}`$ and $`f_{0}^{(1)}`$ The wells are engineered by embedding two quantum-phase-slip junctions in the centre conductor: biasing the junctions with a fast magnetic-flux pulse lowers the barrier and triggers a deterministic mode switch—an exact analog of driving $`\beta`$ across $`V(\beta).`$
 
 | **RTM variable** | **Resonator analog** | **Control knob** |
 |----|----|----|
@@ -1748,7 +1748,7 @@ To emulate β-branch transitions in a controllable laboratory system, we propose
 | **∇α drive energy** | Stored magnetic energy $`E_{L}`$*=*$`\frac{1}{2}L_{loop\ }I^{2}`$ | Pulse amplitude ΔΦ |
 | **φ-burst emission** | RF burst at $`f_{0}^{(0)}`$*−* $`f_{0}^{(1)}`$ | Spectrum analyser |
 
-A 10 GHz lumped-element resonator with junction inductance $`L_{J} \sim 1\ nH`$ yields a mode splitting of ∼\sim∼25 MHz, wide enough to resolve the burst yet narrow enough that $`\mu J`$-scale pulses can cross the barrier.
+A 10 GHz lumped-element resonator with junction inductance $`L_{J} \sim 1\ nH`$ yields a mode splitting of ∼\sim∼25 MHz—wide enough to resolve the burst yet narrow enough that $`\mu J`$-scale pulses can cross the barrier.
 
 **7.2 Measurement of Mode-Switch Emission as Proxy for φ Burst**
 
@@ -1831,7 +1831,7 @@ Our three-dimensional verification (Section 6.5) of a clean β = 0→1 branch ju
 
 - **φ-Burst Signature:** A finite, damped energy spike in the φ-field accompanied the jump, matching our analytic expectations without spurious growth.
 
-- **Energy-Momentum Conservation:** Drive energy consumed equaled the β-barrier height to within a few percent, no hidden sources or runaway modes.
+- **Energy-Momentum Conservation:** Drive energy consumed equaled the β-barrier height to within a few percent—no hidden sources or runaway modes.
 
 - **Causal Integrity:** All field updates remained local to the core; no superluminal or retrocausal effects manifested in 3-D.
 
@@ -1859,7 +1859,7 @@ Building on the full suite of demos, key experimental observables are:
 | **P-3** | Multi-hop navigation | Sequential β = 0→1→2; proper-time accumulation matches model; low heating |
 | **P-4** | Full-scale Aetherion vehicle | Controlled hops, hover, & translation; energy cost/jump ≤ 5 kJ |
 
-**In summary,** the new 3-D lattice demonstration, together with our 1-D and 2-D actuation and inertial-shielding results, cements RTM–Aetherion as a falsifiable, experimentally tractable theory of reactionless propulsion and multiverse branch-hopping. The next step is the physical realization of these parameter windows in analogue resonators and metamaterial cores, a journey that, once begun, promises to turn speculative “universe-hops” into laboratory reality.
+**In summary,** the new 3-D lattice demonstration, together with our 1-D and 2-D actuation and inertial-shielding results, cements RTM–Aetherion as a falsifiable, experimentally tractable theory of reactionless propulsion and multiverse branch-hopping. The next step is the physical realization of these parameter windows in analogue resonators and metamaterial cores—a journey that, once begun, promises to turn speculative “universe-hops” into laboratory reality.
 
 **Appendix A Materials & Fabrication: Engineering a Δα ≃ 0.5 Gradient**
 
@@ -1908,11 +1908,11 @@ A two-stack design (800 nm total) repeated in series four times achieves the tar
 
 1.  **Core substrate:** Mount the graded-stack on a low-loss quartz wafer (1 cm² area), embedding electrodes or piezo-actuators on the backside to apply ∇α pulses via strain-induced refractive-index modulation.
 
-2.  **Drive mechanism:** A voltage-driven piezo stack can induce ±2 % thickness variation in the high-n layers on microsecond timescales, yielding a dynamic Δα_pulse ≃ 0.1 over the 1 ms pulse, sufficient to trigger OMV, TPH, or β-jump protocols.
+2.  **Drive mechanism:** A voltage-driven piezo stack can induce ±2 % thickness variation in the high-n layers on microsecond timescales, yielding a dynamic Δα_pulse ≃ 0.1 over the 1 ms pulse—sufficient to trigger OMV, TPH, or β-jump protocols.
 
 3.  **Sensing:** Integrate fiber-coupled interferometric probes to read out local phase shifts (∝ Δn_eff) with \< 1 nm resolution, confirming the engineered α-profile in situ.
 
-This appendix gives experimentalists a **clear blueprint**, from material selection, through deposition specs, to active ∇α pulsing, for realizing the Δα≈0.5 gradient necessary in Sections 2–5. It also quantifies the tolerances and losses, ensuring the fabricated cores meet the theoretical requirements for Aetherion demonstrations.
+This appendix gives experimentalists a **clear blueprint**—from material selection, through deposition specs, to active ∇α pulsing—for realizing the Δα≈0.5 gradient necessary in Sections 2–5. It also quantifies the tolerances and losses, ensuring the fabricated cores meet the theoretical requirements for Aetherion demonstrations.
 
 **APPENDAGES**
 
@@ -1944,7 +1944,7 @@ The transition of the spacecraft from our universe (Branch 0) to a higher cohere
 
 - **The Sine-Gordon Topological Potential:** Initial models utilized a polynomial potential that created mathematical biases and unstable vacua. The robust pipeline implements a **Modified Topological Sine-Gordon Potential** ($`V(\beta) = \lambda\sin^{2}(\pi\beta)\exp( - k\beta)`$). This crystallographic approach guarantees perfectly stable, zero-energy vacua exactly at integer branch values ($`\beta = \ 0,\ 1,\ 2\ldots`$), while modeling the exponential decay of energetic barriers in higher dimensional layers.
 
-- **The Avalanche Effect and Topological Shear:** Because barrier energies decay in higher dimensions, a super-critical pulse poses a catastrophic "Avalanche" risk, where the ship overshoots Branch 1 and plummets into the deep multiverse. This dictates the absolute necessity of **Topological Damping (**$`\mathbf{\eta}`$**)**, the hull must act as a massive structural brake. Additionally, a mere 5% desynchronization in the drive grid causes lethal "Topological Shear," requiring heavily cross-linked synchronization architectures to ensure the entire macroscopic mass jumps coherently.
+- **The Avalanche Effect and Topological Shear:** Because barrier energies decay in higher dimensions, a super-critical pulse poses a catastrophic "Avalanche" risk, where the ship overshoots Branch 1 and plummets into the deep multiverse. This dictates the absolute necessity of **Topological Damping (**$`\mathbf{\eta}`$**)**—the hull must act as a massive structural brake. Additionally, a mere 5% desynchronization in the drive grid causes lethal "Topological Shear," requiring heavily cross-linked synchronization architectures to ensure the entire macroscopic mass jumps coherently.
 
 - **3D Surface Tension and The Macroscopic Limit:** Nucleating a 3D bubble of a new universe inside an existing one generates immense restorative forces (the 3D Laplacian, $`\nabla^{2}`$). The simulations prove that at microscopic scales (e.g., $`R\  = \ 1`$ cm), multiversal surface tension requires mathematically impossible gradients to overcome. However, classical nucleation scaling ($`1\text{/}\sqrt{R}`$) dictates that as the core radius increases past 1 meter, the surface tension asymptotically vanishes, and the energy threshold drops to a stable, achievable limit ($`0.49`$/m).
 

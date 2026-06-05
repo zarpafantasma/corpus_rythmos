@@ -737,7 +737,7 @@ INFRASOUND BLOCKING (Below 20 Hz):
 
     Currently IMPOSSIBLE with passive means.
     
-    Wind turbine syndrome, traffic rumble, industrial hum,
+    Wind turbine syndrome, traffic rumble, industrial hum, 
     all in infrasound range that passes through everything.
     
     RTM Panel at 10 Hz:

@@ -8,14 +8,14 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)  ║
-    ║                                                                  ║
-    ║          "El problema no es que los qubits sean frágiles.        ║
-    ║    El problema es que el espacio mismo es hostil a la coherencia."║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔══════════════════════════════════════════════════════════════════════╗
+    ║                                                                      ║
+    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)      ║
+    ║                                                                      ║
+    ║          "El problema no es que los qubits sean frágiles.            ║
+    ║    El problema es que el espacio mismo es hostil a la coherencia."   ║
+    ║                                                                      ║
+    ╚══════════════════════════════════════════════════════════════════════╝
 
 
 ## Tabla de Contenidos
@@ -170,21 +170,21 @@ EL PROBLEMA DE CORRECCIÓN DE ERRORES:
     
 ¿POR QUÉ TANTOS ERRORES?
 
-    ┌────────────────────────────────────────────────────────────────────┐
-    │                                                                    │
-    │   Tiempo de coherencia del qubit (T₂):    ~100 µs (superconductor) │
-    │   Tiempo de operación de compuerta:       ~50 ns                   │
-    │   Operaciones antes de error:             ~2000                    │
-    │                                                                    │
-    │   El algoritmo de Shor necesita:          ~10⁹ operaciones         │
-    │                                                                    │
-    │   BRECHA: Se necesitan 500,000× más operaciones de las físicamente │
-    │           posibles                                                 │
-    │                                                                    │
-    │   Por esto las computadoras cuánticas no pueden hacer nada útil    │
-    │   todavía.                                                         │
-    │                                                                    │
-    └────────────────────────────────────────────────────────────────────┘
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │                                                                     │
+    │   Tiempo de coherencia del qubit (T₂):    ~100 µs (superconductor)  │
+    │   Tiempo de operación de compuerta:       ~50 ns                    │
+    │   Operaciones antes de error:             ~2000                     │
+    │                                                                     │
+    │   El algoritmo de Shor necesita:          ~10⁹ operaciones          │
+    │                                                                     │
+    │   BRECHA: Se necesitan 500,000× más operaciones de las físicamente  │
+    │           posibles                                                  │
+    │                                                                     │
+    │   Por esto las computadoras cuánticas no pueden hacer nada útil     │
+    │   todavía.                                                          │
+    │                                                                     │
+    └─────────────────────────────────────────────────────────────────────┘
 ```
 
 ### 2.3 La Pregunta de $15 Mil Millones
@@ -213,7 +213,7 @@ Para mantener la coherencia de los qubits, los sistemas actuales requieren:
     │                           │                                         │
     │                    ┌──────┴──────┐                                  │
     │                    │   ETAPA 3   │  1 K                             │
-    │                    │ (He bombeado)│                                  │
+    │                    │(He bombeado)│                                  │
     │                    └──────┬──────┘                                  │
     │                           │                                         │
     │                    ┌──────┴──────┐                                  │
@@ -226,10 +226,10 @@ Para mantener la coherencia de los qubits, los sistemas actuales requieren:
     │                    │   (mezcla)  │                                  │
     │                    └──────┬──────┘                                  │
     │                           │                                         │
-    │                    ┌──────┴──────┐                                  │
-    │                    │   QUBITS    │  10-15 mK                        │
-    │                    │ (¡finalmente!)│                                 │
-    │                    └─────────────┘                                  │
+    │                    ┌──────┴───────┐                                 │
+    │                    │   QUBITS     │  10-15 mK                       │
+    │                    │(¡finalmente!)│                                 │
+    │                    └──────────────┘                                 │
     │                                                                     │
     │   Altura: 3 metros                                                  │
     │   Costo: $5-15 millones                                             │
@@ -452,8 +452,8 @@ SECCIÓN TRANSVERSAL DEL ESCUDO DE COHERENCIA
     ║    └────────────────────────────────────────────────────────────┘    ║
     ║                                                                      ║
     ║    ┌───────────────────────────────────────────────────────────┐     ║
-    ║    │▓▓▓▓▓▓▓▓▓▓▓▓▓ MATRIZ PIEZOELÉCTRICA (PZT-5H) ▓▓▓▓▓▓▓▓▓▓▓▓▓│     ║
-    ║    │▓▓▓▓▓▓▓▓▓▓▓▓▓ (mantiene campo α = 1.0)       ▓▓▓▓▓▓▓▓▓▓▓▓▓│     ║
+    ║    │▓▓▓▓▓▓▓▓▓▓▓▓▓ MATRIZ PIEZOELÉCTRICA (PZT-5H) ▓▓▓▓▓▓▓▓▓▓▓▓▓▓│     ║
+    ║    │▓▓▓▓▓▓▓▓▓▓▓▓▓ (mantiene campo α = 1.0)       ▓▓▓▓▓▓▓▓▓▓▓▓▓▓│     ║
     ║    └───────────────────────────────────────────────────────────┘     ║
     ║                                                                      ║
     ║    ┌────────────────────────────────────────────────────────────┐    ║
@@ -493,7 +493,7 @@ MODO ESCUDO (Escudo de Coherencia):
     │              ▼                      ▼                              │
     │   ┌──────────────────────────────────────────────────────┐         │
     │   │                                                      │         │
-    │   │     Ondas acústicas simétricas convergen en el centro│         │
+    │   │   Ondas acústicas simétricas convergen en el centro  │         │
     │   │                                                      │         │
     │   │            ──►  ◄──    ──►  ◄──                      │         │
     │   │                                                      │         │

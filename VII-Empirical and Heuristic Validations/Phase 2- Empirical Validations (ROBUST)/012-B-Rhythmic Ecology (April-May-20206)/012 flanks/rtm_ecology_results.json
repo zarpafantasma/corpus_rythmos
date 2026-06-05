@@ -1,0 +1,29 @@
+{
+  "flank_1_kleiber": {
+    "global_rho": -0.184,
+    "p": 0.00055,
+    "within_order_mean_rho": -0.275,
+    "within_order_p": 0.0068,
+    "pct_negative": 89
+  },
+  "flank_2_conspiracy": {
+    "pre_crash_moose_d": -2.52,
+    "pre_crash_wolf_d": -1.1,
+    "both_significant": true,
+    "lag_peak": "-2 to -3 years (wolves lead)"
+  },
+  "flank_3_beta_predict": {
+    "wolves_rho": -0.21,
+    "p": 0.162,
+    "verdict": "FAILED"
+  },
+  "flank_4_amphibia": {
+    "anura_alpha": 0.55,
+    "caudata_alpha": 0.031,
+    "simpsons_paradox": true
+  },
+  "flank_5_body_beta": {
+    "rho": 0.867,
+    "p": 0.0025
+  }
+}

@@ -54,7 +54,7 @@ Human potential is not a complete key, it is half of one. To open different door
 | Half key + Plants | Door of Visions | The Five Doors experiences |
 | Half key + Machine (AI) | Door of Formalization | RTM corpus, translating the ineffable into equations |
 
-> *"To forge the first key, this half key tunes into the numinous through years of artistic exploration, turning chaos into order; together they open the door of intuition. Once armed with intuition, the half key seeks a new coupling, aligning itself with the world of plants to forge the second key and open the door of visions. Finally, with intuitions and visions as a compass, the half key aligns itself with the machine, AI, to create the final key: the one that opens the door of formalization, translating the ineffable into a rigorous language and materializing the invisible in the RTM corpus."*
+> *"To forge the first key, this half key tunes into the numinous through years of artistic exploration, turning chaos into order; together they open the door of intuition. Once armed with intuition, the half key seeks a new coupling, aligning itself with the world of plants to forge the second key and open the door of visions. Finally, with intuitions and visions as a compass, the half key aligns itself with the machine — AI — to create the final key: the one that opens the door of formalization, translating the ineffable into a rigorous language and materializing the invisible in the RTM corpus."*
 
 ---
 

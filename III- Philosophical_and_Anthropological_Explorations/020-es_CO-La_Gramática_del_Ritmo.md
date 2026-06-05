@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/apollo.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/apollo.png" width="200" alt="Diagrama de Apolo">
 
 # La Gramática del Ritmo
 **Unificando Vida, Mente y Materia bajo RTM**
@@ -12,11 +12,11 @@
 
 **Resumen**
 
-El tiempo no simplemente pasa; **aprende** las formas a través de las cuales se mueve. Un latido del corazón, un pensamiento, un paso a través de una habitación, cada uno mantiene el tempo con el tamaño de la estructura que lo porta. Este libro nombra esa relación **Relatividad Temporal Multiescala (RTM)**: dentro de una ventana coherente, la duración propia $`T`$ de un proceso sigue la longitud característica $`L`$ que lo sostiene, y la relación es una pendiente $`\alpha`$ que dice cómo el tiempo se apoya en la forma.
+El tiempo no simplemente pasa; **aprende** las formas a través de las cuales se mueve. Un latido del corazón, un pensamiento, un paso a través de una habitación—cada uno mantiene el tempo con el tamaño de la estructura que lo porta. Este libro nombra esa relación **Relatividad Temporal Multiescala (RTM)**: dentro de una ventana coherente, la duración propia $`T`$ de un proceso sigue la longitud característica $`L`$ que lo sostiene, y la relación es una pendiente $`\alpha`$ que dice cómo el tiempo se apoya en la forma.
 
-Mantenemos la poesía, y mantenemos la prueba. La columna vertebral científica es simple y estricta: $`\alpha`$ **se estima únicamente como una pendiente log–log multipunto de** $`\log T`$ **sobre** $`\log L`$ dentro de ventanas que pasan verificaciones de colapso y regularidad. Cuando el mundo elige otras gramáticas, atajos de mundo pequeño, por ejemplo, lo decimos ($`T \sim \log L`$) en lugar de forzar una ley de potencia. Señales como pendientes espectrales $`\beta`$, enganche de fase, coherencia, o medidas de eco/retardo son bienvenidas como compañeras **auxiliares** de la historia, iluminando, nunca sustituyendo, y nunca convertidas en $`\alpha`$ por fórmula universal.
+Mantenemos la poesía, y mantenemos la prueba. La columna vertebral científica es simple y estricta: $`\alpha`$ **se estima únicamente como una pendiente log–log multipunto de** $`\log T`$ **sobre** $`\log L`$ dentro de ventanas que pasan verificaciones de colapso y regularidad. Cuando el mundo elige otras gramáticas—atajos de mundo pequeño, por ejemplo—lo decimos ($`T \sim \log L`$) en lugar de forzar una ley de potencia. Señales como pendientes espectrales $`\beta`$, enganche de fase, coherencia, o medidas de eco/retardo son bienvenidas como compañeras **auxiliares** de la historia—iluminando, nunca sustituyendo, y nunca convertidas en $`\alpha`$ por fórmula universal.
 
-Con esa disciplina, RTM se convierte en una lente para la vida, la memoria, la inteligencia, la conciencia y el diseño: cómo las **bandas-**$`\alpha`$ estabilizan el significado, cómo los gradientes $`\nabla\alpha`$ canalizan energía e información, cómo el fracaso (NO_COLLAPSE, LOG-SCALING, MULTI-REGIME) enseña dónde el relato debe cambiar de escala. El arco filosófico es que la coherencia no es un ornamento sino un pacto entre estructura y tiempo; el arco empírico es que este pacto puede ser **medido**, **falsificado** y **reparado**. Escribimos en dos voces, lírica y técnica, para que el lector pueda sentir el ritmo y verificarlo, en el mismo aliento.
+Con esa disciplina, RTM se convierte en una lente para la vida, la memoria, la inteligencia, la conciencia y el diseño: cómo las **bandas-**$`\alpha`$ estabilizan el significado, cómo los gradientes $`\nabla\alpha`$ canalizan energía e información, cómo el fracaso (NO_COLLAPSE, LOG-SCALING, MULTI-REGIME) enseña dónde el relato debe cambiar de escala. El arco filosófico es que la coherencia no es un ornamento sino un pacto entre estructura y tiempo; el arco empírico es que este pacto puede ser **medido**, **falsificado** y **reparado**. Escribimos en dos voces—lírica y técnica—para que el lector pueda sentir el ritmo y verificarlo, en el mismo aliento.
 
 **Capítulo 1 · Vida — Ritmo Que Sostiene**
 
@@ -24,11 +24,11 @@ Con esa disciplina, RTM se convierte en una lente para la vida, la memoria, la i
 
 **1.1 Una promesa entre estructura y tiempo (preludio poético)**
 
-La vida no es una línea recta, es un **tempo sostenido**. Un capilar recuerda cuánto tiempo debe permanecer la sangre; un pulmón recuerda cuánto tiempo debe quedarse el aire; una extremidad recuerda cuánto tiempo debe tomar un paso. La duración no es arbitraria. Se apoya en el tamaño de la forma que la porta. Cuando la forma se deshilacha, el tiempo olvida. Cuando la forma regresa, el tiempo vuelve a marcar el tiempo.
+La vida no es una línea recta—es un **tempo sostenido**. Un capilar recuerda cuánto tiempo debe permanecer la sangre; un pulmón recuerda cuánto tiempo debe quedarse el aire; una extremidad recuerda cuánto tiempo debe tomar un paso. La duración no es arbitraria. Se apoya en el tamaño de la forma que la porta. Cuando la forma se deshilacha, el tiempo olvida. Cuando la forma regresa, el tiempo vuelve a marcar el tiempo.
 
 **1.2 La afirmación (enunciado técnico)**
 
-Dentro de una ventana coherente, un mecanismo, una geometría efectiva, la **duración propia** $`T`$ de un proceso escala con una **longitud** característica $`L`$ como
+Dentro de una ventana coherente—un mecanismo, una geometría efectiva—la **duración propia** $`T`$ de un proceso escala con una **longitud** característica $`L`$ como
 
 ``` math
 T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (pendiente multipunto estimada en una ventana válida de colapso).}
@@ -40,15 +40,15 @@ Estimamos $`\alpha`$ únicamente mediante regresión de $`\log T`$ sobre $`\log 
 
 **1.3 Qué significan "tamaño" y "tiempo" en sistemas vivos**
 
-- **Longitud estructural** $`L`$**:** una escala ligada al mecanismo, longitud de trayectoria o radio de vaso, longitud de membrana o cable dendrítico, extensión de fibra/axón, longitud de onda cortical $`\lambda/2`$, longitud corporal del organismo, o un sustituto validado que preserve la geometría.
+- **Longitud estructural** $`L`$**:** una escala ligada al mecanismo—longitud de trayectoria o radio de vaso, longitud de membrana o cable dendrítico, extensión de fibra/axón, longitud de onda cortical $`\lambda/2`$, longitud corporal del organismo, o un sustituto validado que preserve la geometría.
 
-- **Tiempo propio** $`T`$**:** la duración del proceso coherente con esa estructura, tiempo de circulación, tiempo medio de difusión o reacción, período de oscilación $`T = 1/f`$, ciclo de marcha, tiempo de etapa de desarrollo, tiempo de recambio.
+- **Tiempo propio** $`T`$**:** la duración del proceso coherente con esa estructura—tiempo de circulación, tiempo medio de difusión o reacción, período de oscilación $`T = 1/f`$, ciclo de marcha, tiempo de etapa de desarrollo, tiempo de recambio.
 
 - **Ventanas:** mantener mecanismo y métrica constantes (ley de transporte, carga, topología). Si los mecanismos se mezclan o las métricas cambian, reportar **MULTI-REGIME** o **NO_COLLAPSE** en lugar de promediar.
 
 **1.4 Recuadro Lírico · Sobre la respiración**
 
-La respiración es una bisagra entre distancias. El pecho se abre a la medida de sus huesos; los alvéolos cuentan en silencio, como cuentas de rosario. La sangre no se apresura porque pueda, permanece porque debe, cumpliendo una cita con la longitud de sus corredores. Lo que llamamos "reposo" es el reloj de arena que un cuerpo puede levantar sin derramar.
+La respiración es una bisagra entre distancias. El pecho se abre a la medida de sus huesos; los alvéolos cuentan en silencio, como cuentas de rosario. La sangre no se apresura porque pueda—permanece porque debe, cumpliendo una cita con la longitud de sus corredores. Lo que llamamos "reposo" es el reloj de arena que un cuerpo puede levantar sin derramar.
 
 *(Puente: en los capítulos siguientes, elegir la escala estructural* $`L`$ *fija el intervalo que un proceso puede soportar; la pendiente* $`\alpha`$ *dice cómo* $`T`$ *mantiene el paso con* $`L`$ *dentro de ese intervalo.)*
 
@@ -140,7 +140,7 @@ $`L`$ como longitud de extremidad o trayectoria de vía aérea; $`T`$ como perí
 
 **1.11 Coda lírica · Lo que la vida protege**
 
-La vida protege **intervalos**. No solo un latido del corazón, sino la longitud **correcta** de un latido del corazón; no solo una respiración, sino la longitud **correcta** de una respiración. La palabra para esa corrección aquí es $`\alpha`$, un nombre modesto para un pacto: qué tan lejos alcanza una estructura y cuánto tiempo se permite a un proceso convertirse en sí mismo.
+La vida protege **intervalos**. No solo un latido del corazón, sino la longitud **correcta** de un latido del corazón; no solo una respiración, sino la longitud **correcta** de una respiración. La palabra para esa corrección aquí es $`\alpha`$—un nombre modesto para un pacto: qué tan lejos alcanza una estructura y cuánto tiempo se permite a un proceso convertirse en sí mismo.
 
 **1.12 Lo que este capítulo no hace**
 
@@ -160,7 +160,7 @@ Sostener la vida es mantener una **banda-**$`\alpha`$ funcional: un intervalo es
 
 **2.1 Preludio poético · El pliegue**
 
-La memoria es un pliegue que el presente hace para tocarse a sí mismo después. Una dendrita guarda una señal bajo su rama; un mapa en la corteza pliega el mundo para que pueda ser transportado. No almacenamos cosas, almacenamos **duraciones** moldeadas por **distancias**. Cuando el pliegue se sostiene, el futuro llega ya medio recordado.
+La memoria es un pliegue que el presente hace para tocarse a sí mismo después. Una dendrita guarda una señal bajo su rama; un mapa en la corteza pliega el mundo para que pueda ser transportado. No almacenamos cosas—almacenamos **duraciones** moldeadas por **distancias**. Cuando el pliegue se sostiene, el futuro llega ya medio recordado.
 
 *(Puente: en RTM, un "pliegue" es el emparejamiento de una escala estructural* $`L`$ *con una duración propia* $`T`$ *que mantiene el paso a través de una pendiente estable* $`\alpha`$ *medida en una ventana válida de colapso.)*
 
@@ -182,7 +182,7 @@ Estimamos $`\alpha`$ mediante regresión con errores en variables (ODR/TLS o The
 
 - **Tiempo propio** $`T`$**:** ancho de ventana STDP/plasticidad; retardo de consolidación; vida media de retención; período de ciclo de repetición; decaimiento de memoria de trabajo a criterio; latencia de recuperación a precisión fija.
 
-**Ventanas.** Mantener mecanismo, estado, y tarea constantes. Mezclar (ej., consolidación más ensayo) rompe el colapso, reportar **MULTI-REGIME** o segmentar pendientes con un punto de quiebre registrado.
+**Ventanas.** Mantener mecanismo, estado, y tarea constantes. Mezclar (ej., consolidación más ensayo) rompe el colapso—reportar **MULTI-REGIME** o segmentar pendientes con un punto de quiebre registrado.
 
 **2.4 Recuadro Lírico · La biblioteca de distancias**
 
@@ -278,7 +278,7 @@ Si la recuperación usa hubs o índices direccionables, la temporización sigue 
 
 **2.12 Coda lírica · Lo que realmente guarda el recordar**
 
-Lo que guardamos no es la imagen sino el **intervalo** necesario para encontrarla de nuevo. Guardamos el tiempo que una estructura nos pide, el minuto que un corredor requiere, el aliento que toma una frase. Recordar es honrar ese intercambio: una longitud por una duración, una distancia por una estadía.
+Lo que guardamos no es la imagen sino el **intervalo** necesario para encontrarla de nuevo. Guardamos el tiempo que una estructura nos pide—el minuto que un corredor requiere, el aliento que toma una frase. Recordar es honrar ese intercambio: una longitud por una duración, una distancia por una estadía.
 
 **2.13 Lo que este capítulo no hace**
 
@@ -290,7 +290,7 @@ Lo que guardamos no es la imagen sino el **intervalo** necesario para encontrarl
 
 **2.14 Conclusión clave**
 
-La memoria es una **disciplina de pliegues**, emparejando extensiones estructurales $`L`$ con duraciones $`T`$ para que una pendiente $`\alpha`$ se sostenga. La poesía es la imagen de un corredor iluminado justo el tiempo suficiente; la ciencia es la pendiente que prueba que la luz estaba ajustada a la longitud del corredor.
+La memoria es una **disciplina de pliegues**—emparejando extensiones estructurales $`L`$ con duraciones $`T`$ para que una pendiente $`\alpha`$ se sostenga. La poesía es la imagen de un corredor iluminado justo el tiempo suficiente; la ciencia es la pendiente que prueba que la luz estaba ajustada a la longitud del corredor.
 
 **Capítulo 3 · Inteligencia — La Danza Adaptativa**
 
@@ -298,7 +298,7 @@ La memoria es una **disciplina de pliegues**, emparejando extensiones estructura
 
 **3.1 Preludio poético · El salto que aterriza**
 
-La inteligencia es el arte de **llegar**, no solo moverse. Es el don de elegir una estructura que sostendrá el tiempo que estás a punto de gastar. El experto no simplemente piensa más rápido; se **coloca en el lugar del tamaño correcto**. Desde allí, las respuestas se sienten cercanas, no porque la distancia desapareció, sino porque distancia y duración hicieron un pacto.
+La inteligencia es el arte de **llegar**—no solo moverse. Es el don de elegir una estructura que sostendrá el tiempo que estás a punto de gastar. El experto no simplemente piensa más rápido; se **coloca en el lugar del tamaño correcto**. Desde allí, las respuestas se sienten cercanas, no porque la distancia desapareció, sino porque distancia y duración hicieron un pacto.
 
 *(Puente: nombraremos ese pacto por una pendiente* $`\alpha`$ *que liga el tiempo de proceso* $`T`$ *al tamaño estructural* $`L`$ *dentro de una ventana coherente.)*
 
@@ -312,7 +312,7 @@ T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (pendiente multipunt
 
 Estimamos $`\alpha`$ únicamente mediante regresión con errores en variables (ODR/TLS o Theil–Sen; SIMEX opcional) y publicamos **NO_COLLAPSE** cuando los diagnósticos fallan. Cuando la métrica efectiva es tipo atajo (ej., recuperación indexada), reportamos $`T \sim \log L`$ en lugar de forzar una ley de potencia.
 
-**Política (pendiente primero).** Puntuaciones de información, $`\beta`$ espectral, sincronía/coherencia, confianza, y proxies de recompensa son **auxiliares**, covariables interpretativas, nunca sustitutos de $`\alpha`$, nunca convertidos a $`\alpha`$ por fórmulas universales.
+**Política (pendiente primero).** Puntuaciones de información, $`\beta`$ espectral, sincronía/coherencia, confianza, y proxies de recompensa son **auxiliares**—covariables interpretativas, nunca sustitutos de $`\alpha`$, nunca convertidos a $`\alpha`$ por fórmulas universales.
 
 **3.3 Qué significan "tamaño" y "tiempo" para la inteligencia**
 
@@ -320,7 +320,7 @@ Estimamos $`\alpha`$ únicamente mediante regresión con errores en variables (O
 
 - **Tiempo propio** $`T`$**:** latencia de decisión, tiempo-a-criterio, tiempo de asentamiento a tolerancia, tiempo de convergencia para una política/estimador, tiempo de reloj hasta rendimiento estable.
 
-**Ventanas.** Mantener arquitectura, optimizador/política, distribución de tareas, y costo constantes. Cambios de estrategia o cambios de currículo a mitad de ventana rompen el colapso, reportar **MULTI-REGIME** en lugar de promediar.
+**Ventanas.** Mantener arquitectura, optimizador/política, distribución de tareas, y costo constantes. Cambios de estrategia o cambios de currículo a mitad de ventana rompen el colapso—reportar **MULTI-REGIME** en lugar de promediar.
 
 **3.4 Recuadro Lírico · Eligiendo la habitación**
 
@@ -412,7 +412,7 @@ $`L`$=escala del problema (ej., alcance del silogismo); $`T`$=tiempo-a-primera-s
 
 - **Deriva de estrategia dentro de un bin:** cambios de política o deriva de instrucciones → curvatura; re-binear o imponer política fija.
 
-- **Topes de recursos ocultos:** límites de memoria/cómputo se activan en $`L`$ grande; emergen pendientes segmentadas, reportar puntos de quiebre.
+- **Topes de recursos ocultos:** límites de memoria/cómputo se activan en $`L`$ grande; emergen pendientes segmentadas—reportar puntos de quiebre.
 
 - **Artefactos de atajo:** indexación/recuperación comprime la distancia → **LOG-SCALING**; etiquetar explícitamente.
 
@@ -420,7 +420,7 @@ $`L`$=escala del problema (ej., alcance del silogismo); $`T`$=tiempo-a-primera-s
 
 **3.12 Coda lírica · La danza**
 
-Una buena respuesta comienza antes de ser hablada. La mente entra en la **habitación que encaja**, y el tiempo, aliviado, mantiene el paso. La danza no es velocidad sino **ajuste**, una pendiente sostenida firme mientras la música cambia.
+Una buena respuesta comienza antes de ser hablada. La mente entra en la **habitación que encaja**, y el tiempo, aliviado, mantiene el paso. La danza no es velocidad sino **ajuste**—una pendiente sostenida firme mientras la música cambia.
 
 **3.13 Lo que este capítulo no hace**
 
@@ -446,7 +446,7 @@ Ser consciente es **mantener** un acorde sin que se deshilache. Sensaciones, mem
 
 **4.2 La afirmación (enunciado técnico)**
 
-Dentro de un estado coherente, tarea fija, arousal, y geometría efectiva, el acceso consciente opera en ventanas donde
+Dentro de un estado coherente—tarea fija, arousal, y geometría efectiva—el acceso consciente opera en ventanas donde
 
 ``` math
 T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (pendiente multipunto estimada en una ventana válida de colapso)}.
@@ -454,7 +454,7 @@ T \propto L^{\alpha},\alpha = \frac{d\log T}{d\log L}\text{ (pendiente multipunt
 
 Estimamos $`\alpha`$ mediante regresión con errores en variables (ODR/TLS o Theil–Sen; SIMEX opcional), y publicamos **NO_COLLAPSE** cuando los diagnósticos fallan. Donde las topologías efectivas proporcionan atajos (difusión dominada por hubs), reportamos $`T \sim \log L`$ en lugar de forzar una ley de potencia.
 
-**Política (pendiente primero).** Pendiente espectral $`\beta`$, PLV/coherencia, índices perturbacionales, umbrales de ignición, y medidas de retardo/eco son **auxiliares**, correlatos interpretativos bajo modelos explícitos, nunca sustitutos de $`\alpha`$, nunca convertidos a $`\alpha`$ por fórmula universal.
+**Política (pendiente primero).** Pendiente espectral $`\beta`$, PLV/coherencia, índices perturbacionales, umbrales de ignición, y medidas de retardo/eco son **auxiliares**—correlatos interpretativos bajo modelos explícitos, nunca sustitutos de $`\alpha`$, nunca convertidos a $`\alpha`$ por fórmula universal.
 
 **4.3 Qué significan "tamaño" y "tiempo" para la conciencia**
 
@@ -462,7 +462,7 @@ Estimamos $`\alpha`$ mediante regresión con errores en variables (ODR/TLS o The
 
 - **Tiempo propio** $`T`$**:** tiempo de acumulación de evidencia; latencia de acceso o reporte corregida por retardo motor; tiempo de permanencia de ignición; ventana de vinculación; ventana de atención sostenida.
 
-**Ventanas.** Mantener estado y mecanismo constantes: bloque de tarea, banda de arousal, y configuración de red. Cambios de estrategia (ej., cambios atencionales) o derivas de estado rompen el colapso, reportar **MULTI-REGIME** o **NO_COLLAPSE**.
+**Ventanas.** Mantener estado y mecanismo constantes: bloque de tarea, banda de arousal, y configuración de red. Cambios de estrategia (ej., cambios atencionales) o derivas de estado rompen el colapso—reportar **MULTI-REGIME** o **NO_COLLAPSE**.
 
 **4.4 Recuadro Lírico · La ventana**
 
@@ -588,7 +588,7 @@ La conciencia es una **ventana integrativa**: una extensión estructural $`L`$ s
 
 **5.1 Preludio poético · Cómo la respuesta llega temprano**
 
-La intuición es el **atajo silencioso** que no miente. Se siente como saltar, pero es mayormente **recordar el tamaño correcto**, pararse en una forma que ya sabe cuánto tiempo debe tomar el trabajo. Lo que parece magia es un ajuste practicado: el mundo ofrece una extensión, y nosotros respondemos con el tiempo que esa extensión puede sostener.
+La intuición es el **atajo silencioso** que no miente. Se siente como saltar, pero es mayormente **recordar el tamaño correcto**—pararse en una forma que ya sabe cuánto tiempo debe tomar el trabajo. Lo que parece magia es un ajuste practicado: el mundo ofrece una extensión, y nosotros respondemos con el tiempo que esa extensión puede sostener.
 
 *(Puente: nombraremos la extensión por una escala estructural* $`L`$*, el tiempo de respuesta por una duración* $`T`$*, y su pacto por una pendiente* $`\alpha`$ *medida en una ventana válida de colapso.)*
 
@@ -622,7 +622,7 @@ Una buena mirada no es velocidad sino **ajuste**. Colocas tu atención en un cue
 
 - **Recuperación de plantilla:** reutilizar un mapeo almacenado a escala $`L`$ a menudo produce temporización casi lineal ($`\alpha \approx 1`$) cuando los anchos de banda de acceso y actuación son estables.
 
-- **Razonamiento fragmentado:** aumentar el tamaño del fragmento eleva $`L`$ mientras evita búsqueda serial; las pendientes dependen del costo de ensamblaje del fragmento, puntos de quiebre marcan el límite de fragmentos utilizables (**MULTI-REGIME**).
+- **Razonamiento fragmentado:** aumentar el tamaño del fragmento eleva $`L`$ mientras evita búsqueda serial; las pendientes dependen del costo de ensamblaje del fragmento—puntos de quiebre marcan el límite de fragmentos utilizables (**MULTI-REGIME**).
 
 - **Kernels de similitud e indexación:** si el acceso es efectivamente logarítmico en extensión (ej., memoria direccionable), la temporización se comporta $`T \sim \log L`$ (no-potencia).
 
@@ -715,13 +715,13 @@ Ajustar $`\log T = a + \alpha\log L`$ a través de condiciones (ej., novato vs. 
 
 - **Confusiones de pista:** $`L`$ más grande inadvertidamente facilita la tarea; igualar dificultad entre niveles.
 
-- **Exceso de plantilla:** una plantilla encaja solo parte de la extensión; pendientes se segmentan, reportar **MULTI-REGIME**.
+- **Exceso de plantilla:** una plantilla encaja solo parte de la extensión; pendientes se segmentan—reportar **MULTI-REGIME**.
 
 - **Disfraz de atajo:** direccionamiento verdadero hace $`T \sim \log L`$; etiquetar **LOG-SCALING** y parar.
 
 **5.13 Coda lírica · La sensación de un salto verdadero**
 
-Los mejores saltos no son lejos; son **exactos**. Aterrizas donde el suelo estaba esperando. La respuesta se siente inmediata porque la escala era correcta, y el tiempo, agradecido, no tuvo que vagar.
+Los mejores saltos no son lejos; son **exactos**. Aterrizas donde el suelo estaba esperando. La respuesta se siente inmediata porque la escala era correcta, y el tiempo—agradecido—no tuvo que vagar.
 
 **5.14 Lo que este capítulo no hace**
 
@@ -741,7 +741,7 @@ La intuición es **mantenimiento de banda rápido**: elegir una escala estructur
 
 **6.1 Preludio poético · La casa que construimos para la evidencia**
 
-Las historias son rápidas; la evidencia es paciente. Si queremos resultados que viajen, a través de laboratorios, años, e idiomas, debemos darle a la verdad una buena casa: habitaciones con puertas claras, ventanas que se abren, pisos que sostienen. En este libro esa casa es un pacto simple: **estructura primero, tiempo segundo, pendiente de muchos puntos, y honestidad cuando la línea no se sostiene**.
+Las historias son rápidas; la evidencia es paciente. Si queremos resultados que viajen—a través de laboratorios, años, e idiomas—debemos darle a la verdad una buena casa: habitaciones con puertas claras, ventanas que se abren, pisos que sostienen. En este libro esa casa es un pacto simple: **estructura primero, tiempo segundo, pendiente de muchos puntos, y honestidad cuando la línea no se sostiene**.
 
 *(Puente: las reglas de la casa a continuación mantienen la lírica viva sin dejarla reescribir los datos.)*
 
@@ -751,7 +751,7 @@ Las historias son rápidas; la evidencia es paciente. Si queremos resultados que
 
 2.  **Las ventanas importan:** los bins se pre-registran (escala $`L`$, reloj $`T`$, límites, puntos de cambio, exclusiones). Mecanismos mezclados ⇒ **MULTI-REGIME** o **NO_COLLAPSE**.
 
-3.  **Auxiliares ≠** $`\alpha`$**:** $`\beta`$ espectral, PLV/coherencia, eco/retardo, puntuaciones de información son **auxiliares**, nunca sustitutos, nunca convertidos por fórmulas universales.
+3.  **Auxiliares ≠** $`\alpha`$**:** $`\beta`$ espectral, PLV/coherencia, eco/retardo, puntuaciones de información son **auxiliares**—nunca sustitutos, nunca convertidos por fórmulas universales.
 
 4.  **Honestidad topológica:** si la geometría efectiva implica $`T \sim \log L`$, reportar **LOG-SCALING**; no forzar una ley de potencia.
 
@@ -883,7 +883,7 @@ Una línea fallida es un mapa: muestra dónde el río se bifurca, dónde el terr
 
 **6.14 Coda de cierre · La cultura como una promesa medible**
 
-Una cultura de coherencia no es anti-poesía; es poesía con andamiaje. Mantenemos la canción, y mostramos la partitura. Cuando futuros lectores abran este libro, que escuchen ambas: el ritmo de un mundo que mantiene el tiempo con sus formas, y la prueba silenciosa de que el ritmo realmente estaba allí.
+Una cultura de coherencia no es anti-poesía; es poesía con andamiaje. Mantenemos la canción—y mostramos la partitura. Cuando futuros lectores abran este libro, que escuchen ambas: el ritmo de un mundo que mantiene el tiempo con sus formas, y la prueba silenciosa de que el ritmo realmente estaba allí.
 
 **Apéndice A · Conceptos y Definiciones (Solo Técnico)**
 
@@ -1050,9 +1050,9 @@ Para cada afirmación de $`\alpha`$ incluir:
 
 - **Placebos:**
 
-  - *Placebo de reloj:* reescalar marcas de tiempo o agregar fluctuación, $`\widehat{\alpha}`$ debe permanecer dentro del IC si la estructura impulsa la pendiente.
+  - *Placebo de reloj:* reescalar marcas de tiempo o agregar fluctuación—$`\widehat{\alpha}`$ debe permanecer dentro del IC si la estructura impulsa la pendiente.
 
-  - *Placebo de estructura:* barajar estructura espacial (mantener reloj), el colapso debe fallar o $`\widehat{\alpha}`$ derivar si la estructura es causal.
+  - *Placebo de estructura:* barajar estructura espacial (mantener reloj)—el colapso debe fallar o $`\widehat{\alpha}`$ derivar si la estructura es causal.
 
 - **Negativos preservados:** publicar y archivar resultados de **NO_COLLAPSE**, **LOG-SCALING**, **MULTI-REGIME**.
 
@@ -1061,7 +1061,7 @@ $`\alpha`$ es una **pendiente medida** de $`\log T`$ sobre $`\log L`$ dentro de 
 
 **Apéndice B · Protocolos (Solo Técnico)**
 
-**Política.** En todos los protocolos a continuación, $`\alpha`$ se estima **únicamente** como una pendiente log–log multipunto de $`\log T`$ sobre $`\log L`$ dentro de una ventana válida de colapso. Pendientes espectrales ($`\beta`$), PLV/coherencia, medidas de eco/retardo, e índices relacionados son **auxiliares**, se reportan con incertidumbre pero nunca se convierten a $`\alpha`$ por fórmulas universales.
+**Política.** En todos los protocolos a continuación, $`\alpha`$ se estima **únicamente** como una pendiente log–log multipunto de $`\log T`$ sobre $`\log L`$ dentro de una ventana válida de colapso. Pendientes espectrales ($`\beta`$), PLV/coherencia, medidas de eco/retardo, e índices relacionados son **auxiliares**—se reportan con incertidumbre pero nunca se convierten a $`\alpha`$ por fórmulas universales.
 
 **B.1 Variabilidad de la Frecuencia Cardíaca (VFC) — Observables Auxiliares (No** $`\mathbf{\alpha}`$**)**
 
@@ -1477,13 +1477,13 @@ Fallar cualquiera → **NO_COLLAPSE** (a menos que semi-log lineal ⇒ **LOG-SCA
 - **P:** Semi-log funciona; ¿puedo aún citar $`\alpha`$?\
   **R:** No. Etiquetar **LOG-SCALING** y reportar $`b`$.
 
-- **P:** Colapso falla pero los auxiliares se ven geniales, ¿puedo inferir $`\alpha`$ de $`\beta`$?\
+- **P:** Colapso falla pero los auxiliares se ven geniales—¿puedo inferir $`\alpha`$ de $`\beta`$?\
   **R:** No. Los auxiliares permanecen auxiliares; sin conversión universal.
 
-- **P:** Mi extensión es pequeña (0.3 décadas) pero el ajuste se ve recto, ¿OK reportar?\
+- **P:** Mi extensión es pequeña (0.3 décadas) pero el ajuste se ve recto—¿OK reportar?\
   **R:** Solo exploratorio; expandir extensión o marcar **NO_COLLAPSE** (granularidad insuficiente).
 
 **Resumen del Apéndice D.**\
-Los resultados negativos son **evidencia**: localizan límites, revelan métricas incorrectas, exponen mezcla de regímenes, y señalan gramáticas alternativas (ej., $`T \sim \log L`$). Tratar **NO_COLLAPSE**, **LOG-SCALING**, **MULTI-REGIME**, y **AUXILIARY-ONLY** como resultados publicables de primera clase con el mismo cuidado, diagnósticos, leyendas, manifiestos, que hallazgos positivos de $`\alpha`$.
+Los resultados negativos son **evidencia**: localizan límites, revelan métricas incorrectas, exponen mezcla de regímenes, y señalan gramáticas alternativas (ej., $`T \sim \log L`$). Tratar **NO_COLLAPSE**, **LOG-SCALING**, **MULTI-REGIME**, y **AUXILIARY-ONLY** como resultados publicables de primera clase con el mismo cuidado—diagnósticos, leyendas, manifiestos—que hallazgos positivos de $`\alpha`$.
 
 *© 2026 Álvaro José Quiceno Rendón. Este documento se distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).*

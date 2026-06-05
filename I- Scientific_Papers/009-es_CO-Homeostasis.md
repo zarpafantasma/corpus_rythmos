@@ -1,876 +1,975 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent1.png" width="200" alt="Diagrama de Snake">
 
 # HOMEOSTASIS
-**Driven Biological Coherence**  
--A Pilot Protocol-  
+**Coherencia Biológica Dirigida**  
+-Un Protocolo Piloto-  
   
 Álvaro Quiceno
 
 </div>
 
-**Background.** Classical homeostasis describes how living systems stabilize internal variables, yet it rarely explains how coherence across vastly different scales, ion channels, organs, behavior, emerges or collapses. Relativistic Temporal Multiscale (RTM) theory postulates a scale-free power law τ ∝ L^α linking characteristic time and spatial scale through a dimensionless exponent that operationalizes multiscale organization. Here we extend this lens to biology by defining a dimensionless biological coherence index C_bio: the ratio of oscillatory power contained in phase-locked ("coherent") frequency bands to that in phase-random ("incoherent") bands across heart-rate variability (HRV), electroencephalography (EEG) and molecular rhythms.
+**Antecedentes.** La homeostasis clásica describe cómo los sistemas vivos estabilizan las variables internas; sin embargo, rara vez explica cómo la coherencia entre escalas muy diferentes —canales iónicos, órganos, comportamiento— emerge o colapsa. La teoría Multiescala Temporal Relativista (RTM, por sus siglas en inglés) postula una ley de potencias libre de escala τ ∝ L^α que vincula el tiempo característico y la escala espacial mediante un exponente adimensional que operacionaliza la organización multiescala. Aquí extendemos esta perspectiva a la biología definiendo un índice de coherencia biológica adimensional C_bio: la proporción de potencia oscilatoria contenida en bandas de frecuencia con acoplamiento de fase ("coherentes") respecto a aquellas con fase aleatoria ("incoherentes"), a través de la variabilidad de la frecuencia cardíaca (VFC), la electroencefalografía (EEG) y los ritmos moleculares.
 
-**Objective.** To test whether targeted multiscale stimuli can increase C_bio and produce measurable shifts in physiological and inflammatory markers.
+**Objetivo.** Evaluar si estímulos multiescala dirigidos pueden aumentar C_bio y producir cambios medibles en marcadores fisiológicos e inflamatorios.
 
-**Computational validation.** We implement and test the C_bio framework through three simulation suites. S1 demonstrates C_bio computation from HRV spectra, showing clear stratification by health status: Healthy (C_bio^log ≈ 0.22) \> Pre-clinical (0.14) \> Clinical (0.08), with age-related decline of approximately 0.002/year. S2 models physiological response to multimodal stimulation (acoustic + PEMF + light + biofeedback), predicting acute C_bio increases of 15-47% depending on protocol, with multimodal stimulation showing synergistic effects beyond single modalities. S3 validates the C_bio-inflammation relationship, demonstrating strong inverse correlations between C_bio and inflammatory markers (C_bio vs CRP: r = -0.85; C_bio vs IL-6: r = -0.74), and predicting 43-50% reductions in inflammatory markers following stimulation-induced C_bio increases.
+**Validación computacional.** Implementamos y probamos el marco C_bio mediante tres suites de simulación. S1 demuestra el cálculo de C_bio a partir de espectros de VFC, mostrando una estratificación clara por estado de salud: Saludable (C_bio^log ≈ 0,22) \> Preclínico (0,14) \> Clínico (0,08), con un declive asociado a la edad de aproximadamente 0,002/año. S2 modela la respuesta fisiológica a la estimulación multimodal (acústica + CEMP + luz + biorretroalimentación), prediciendo aumentos agudos de C_bio del 15-47 % según el protocolo, con efectos sinérgicos de la estimulación multimodal superiores a los de modalidades individuales. S3 valida la relación C_bio-inflamación, demostrando fuertes correlaciones inversas entre C_bio y marcadores inflamatorios (C_bio vs PCR: r = -0,85; C_bio vs IL-6: r = -0,74), y prediciendo reducciones del 43-50 % en marcadores inflamatorios tras aumentos de C_bio inducidos por estimulación.
 
-**Methods.** Ten healthy adults (25–40 y) will undergo a single 60-min session combining coherent acoustic tones (174–432 Hz), low-intensity pulsed electromagnetic fields (7.83 Hz, 10 µT), red-light photobiomodulation (635 nm, 50 mW/cm²), and real-time biofeedback. HRV spectra, EEG phase-locking values, CRP and IL-6 will be recorded pre- and 30 min post-intervention.
+**Métodos.** Diez adultos sanos (25–40 años) se someterán a una única sesión de 60 min que combina tonos acústicos coherentes (174–432 Hz), campos electromagnéticos pulsados de baja intensidad (7,83 Hz, 10 µT), fotobiomodulación con luz roja (635 nm, 50 mW/cm²) y biorretroalimentación en tiempo real. Los espectros de VFC, los valores de acoplamiento de fase del EEG, la PCR y la IL-6 se registrarán antes y 30 min después de la intervención.
 
-**Conclusions.** Computational validation supports C_bio as a unifying biomarker of multiscale physiological coherence, with strong theoretical links to inflammatory status. Synchronized acoustic, electromagnetic and photonic stimuli may acutely shift biological systems toward higher-coherence states with anti-inflammatory effects.
+**Conclusiones.** La validación computacional respalda C_bio como un biomarcador unificador de coherencia fisiológica multiescala, con fuertes vínculos teóricos con el estado inflamatorio. Los estímulos acústicos, electromagnéticos y fotónicos sincronizados pueden desplazar agudamente los sistemas biológicos hacia estados de mayor coherencia con efectos antiinflamatorios.
 
-**Preliminary empirical validation**$`\mathbf{\rightarrow}`$**(APPENDIX C)**. Beyond simulation, we validate the framework using heart rate variability (HRV) data from the PhysioNet Fantasia and Congestive Heart Failure databases. Initial heuristic analysis revealed a monotonic degradation of temporal coherence from young healthy adults ($`\alpha \approx 1.05`$) to heart failure patients ($`\alpha \approx 0.55`$). To rigorously decouple natural chronological aging from pathological network collapse, we deployed a multivariable regression model. The robust analysis confirms that while healthy aging slowly leaks structural coherence at a constant rate ($`- 0.0048`$/year), Congestive Heart Failure (CHF) induces an independent, catastrophic topological phase transition ($`\Delta\alpha = \  - 0.322`$), plummeting the rhythm to near-white noise.
+**Validación empírica preliminar** $`\mathbf{\rightarrow}`$ **(APÉNDICE C)**. Más allá de la simulación, validamos el marco utilizando datos de variabilidad de la frecuencia cardíaca (VFC) de las bases de datos Fantasia y de Insuficiencia Cardíaca Congestiva de PhysioNet. El análisis heurístico inicial reveló una degradación monotónica de la coherencia temporal desde adultos jóvenes sanos ($`\alpha \approx 1.05`$) hasta pacientes con insuficiencia cardíaca ($`\alpha \approx 0.55`$). Para desacoplar el envejecimiento cronológico del colapso patológico, desplegamos un modelo de regresión multivariable. El análisis robusto confirma que el envejecimiento saludable degrada la coherencia estructural a una tasa constante ($`-0.0048`$ /año, $`R^2 = 0.97`$), mientras que la ICC impone una penalización topológica independiente de $`\Delta\alpha = -0.322`$ ($`p < 10^{-10}`$), equivalente a aproximadamente **68 años de envejecimiento saludable** comprimidos en el estado patológico. Este resultado fue replicado de forma independiente por la campaña de flanqueo (abril de 2026) utilizando una regresión solo con sujetos sanos extrapolada a las edades de ICC, obteniendo $`\Delta\alpha = -0.323`$, una réplica casi exacta.
 
-We also validate the RTM homeostasis framework in cardiovascular dynamics through an integrated 5-domain analysis of ~3,900 subjects$`\rightarrow`$**(APPENDIX D)**. To prevent ecological fallacies caused by point-estimate aggregations, we conducted a rigorous subject-level variance simulation. The robust analysis ($`p < 10^{- 10}`$) conclusively demonstrates that the healthy human heart operates strictly at the Critical Transport Class ($`\alpha_{1} = 1.03 \pm 0.16`$), balancing order and randomness. Pathological states force a progressive multiscale collapse: CHF severity correlates significantly with structural decline ($`r\  = \  - 0.43`$), eventually reaching white noise regimes ($`\alpha_{1} = 0.53 \pm 0.31`$ for NYHA IV). Crucially, this topological decay acts as a powerful clinical predictor: dropping into the lowest $`\alpha_{1}`$ quartile (\< 0.75) yields a 2.4-fold increased hazard ratio for sudden cardiac death.
+También validamos el marco de homeostasis RTM en la dinámica cardiovascular a través de un análisis integrado de 5 dominios con ~3.900 sujetos $`\rightarrow`$ **(APÉNDICE D)**. La simulación de varianza a nivel de sujeto confirma que la dinámica cardíaca saludable exhibe escalamiento fractal ($`\alpha_{1} = 1.03 \pm 0.16`$, Clase de Transporte Crítico). La gravedad de la ICC se correlaciona con el declive estructural ($`r = -0.43`$, $`p < 10^{-10}`$), alcanzando casi ruido blanco en NYHA IV ($`\alpha_{1} = 0.53 \pm 0.31`$). Los pacientes en el cuartil más bajo de $`\alpha_{1}`$ (< 0,75) muestran una razón de riesgo 2,4 veces mayor para muerte súbita cardíaca (FINCAVAS, $`n = 3{,}900`$).
 
-**1 Introduction**
+**Hallazgos de la campaña de flanqueo (abril de 2026)** $`\mathbf{\rightarrow}`$ **(APÉNDICE E)**. Las pruebas adversariales independientes (8 flanqueos, 5 positivos) ampliaron la base empírica cardíaca de RTM con cuatro hallazgos novedosos: (1) **Amplificador α × IC:** combinar el DFA $`\alpha`$ con el Índice de Complejidad MSE más que duplica el tamaño del efecto de discriminación, d: 1,25 $`\rightarrow`$ 3,28 (Sanos vs. ICC), AUC: 0,813 $`\rightarrow`$ 0,994, el análogo cardíaco del hallazgo de consciencia $`\alpha \times R^2`$. (2) **Dosis-respuesta al ejercicio:** $`\alpha`$ disminuye monotónicamente con la intensidad del ejercicio ($`\rho = -0.971`$) con un patrón **acelerado** ($`\Delta\alpha`$: 0,10 $`\rightarrow`$ 0,20 $`\rightarrow`$ 0,25), consistente con la predicción de RTM de transiciones más abruptas en los límites de fase topológicos. (3) **Escalera de gravedad arrítmica:** Spearman $`\rho = -0.957`$ a través de 10 tipos de arritmia, desde el Ritmo Sinusal Normal ($`\alpha = 1.05`$) hasta la Fibrilación Ventricular ($`\alpha = 0.35`$); solo 1 de 9 transiciones es no monotónica. La gravedad clínica se mapea casi perfectamente a la clase de transporte RTM. (4) **Escalera NYHA:** ajuste lineal $`R^2 = 0.989`$, con la transición III → IV como el escalón más pronunciado (0,15 vs. 0,10 para clases anteriores). Resultados completos: Apéndice E.
 
-**1.1 Concept:** Living organisms survive by preserving a narrow range of internal states, pH, temperature, ionic balance, redox potential, despite external fluctuations. Canonical physiology calls this *homeostasis* and typically models it as a set of negative-feedback loops that restore specific set points \[1\]. Yet empirical work over the past two decades shows that health is not merely the absence of drift from set points; it is characterised by structured variability that spans time-scales from milliseconds (ion-channel flicker) to years (endocrine seasonality) \[2, 3\]. Loss of this multiscale structure, manifest as heart-rate-variability compression, EEG desynchronisation, or disrupted circadian cycling, is a robust marker of ageing and chronic disease \[4\].
+**1 Introducción**
 
-Relativistic Temporal Multiscale (RTM) theory offers a natural lens for this phenomenon. RTM postulates a power-law relation
+**1.1 Concepto:** Los organismos vivos sobreviven preservando un rango estrecho de estados internos —pH, temperatura, equilibrio iónico, potencial redox— pese a las fluctuaciones externas. La fisiología canónica denomina esto *homeostasis* y típicamente lo modela como un conjunto de circuitos de retroalimentación negativa que restauran puntos de ajuste específicos \[1\]. Sin embargo, el trabajo empírico de las últimas dos décadas muestra que la salud no es meramente la ausencia de desviación de los puntos de ajuste; se caracteriza por una variabilidad estructurada que abarca escalas temporales desde milisegundos (parpadeo de canales iónicos) hasta años (estacionalidad endocrina) \[2, 3\]. La pérdida de esta estructura multiescala, manifestada como compresión de la variabilidad de la frecuencia cardíaca, desincronización del EEG o alteración del ciclado circadiano, es un marcador robusto de envejecimiento y enfermedad crónica \[4\].
+
+La teoría Multiescala Temporal Relativista (RTM) ofrece una perspectiva natural para este fenómeno. RTM postula una relación de ley de potencias
 
 ``` math
 T \propto L^{\alpha_{RT}},
 ```
 
-which links characteristic time $`T`$ and spatial scale $`L`$ through a dimensionless exponent $`\alpha_{RT}`$ \[5\]. Previous RTM work identified distinct regimes, ballistic ($`\alpha_{RT} \approx 1`$), diffusive ($`\alpha_{RT} \approx 2`$), biological–fractal ($`\alpha_{RT} \approx 2.5`$) and quantum-confinement ($`\alpha_{RT} \approx 3.5`$), and showed how transitions between them can underlie phenomena as diverse as ion transport and black-hole information paradoxes \[6–8\].
+que vincula el tiempo característico $`T`$ y la escala espacial $`L`$ a través de un exponente adimensional $`\alpha_{RT}`$ \[5\]. Trabajos previos de RTM identificaron regímenes distintos: balístico ($`\alpha_{RT} \approx 1`$), difusivo ($`\alpha_{RT} \approx 2`$), biológico-fractal ($`\alpha_{RT} \approx 2.5`$) y confinamiento cuántico ($`\alpha_{RT} \approx 3.5`$), y mostraron cómo las transiciones entre ellos pueden subyacer a fenómenos tan diversos como el transporte iónico y las paradojas de información de agujeros negros \[6–8\].
 
-In this paper we extend the RTM framework to physiology by introducing a **biological coherence index** $`C_{bio}`$. Operationally, $`C_{bio}`$ measures the ratio of oscillatory power contained in phase-locked (“coherent”) frequency bands to that in phase-random (“incoherent”) bands across multiple biosignals, heart-rate variability (HRV), electroencephalography (EEG), and molecular transcription rhythms. Although inspired by RTM’s scaling exponent, $`C_{bio}`$ is not itself a log–log slope; it is an observable, dimension-less index of multiscale spectral coherence that we *hypothesise* to track the underlying $`\alpha_{RT}`$ in living networks.
+En este artículo extendemos el marco RTM a la fisiología introduciendo un **índice de coherencia biológica** $`C_{bio}`$. Operacionalmente, $`C_{bio}`$ mide la proporción de potencia oscilatoria contenida en bandas de frecuencia con acoplamiento de fase ("coherentes") respecto a aquellas con fase aleatoria ("incoherentes") a través de múltiples bioseñales: variabilidad de la frecuencia cardíaca (VFC), electroencefalografía (EEG) y ritmos de transcripción molecular. Aunque inspirado en el exponente de escalamiento de RTM, $`C_{bio}`$ no es en sí mismo una pendiente log–log; es un índice observable y adimensional de coherencia espectral multiescala que *hipotetizamos* rastrea el $`\alpha_{RT}`$ subyacente en redes vivas.
 
-Our central homeo-resonance hypothesis states:
+Nuestra hipótesis central de homeo-resonancia establece:
 
-**Hypothesis 1.** Healthy biological systems occupy an attractor at which $`C_{bio}`$ is maximised given energetic constraints; major pathologies are downward departures from this attractor caused by loss of multiscale phase-locking.
+**Hipótesis 1.** Los sistemas biológicos sanos ocupan un atractor en el cual $`C_{bio}`$ se maximiza dadas las restricciones energéticas; las patologías mayores son desviaciones descendentes de este atractor causadas por la pérdida de acoplamiento de fase multiescala.
 
-This hypothesis yields three immediate predictions:
+Esta hipótesis genera tres predicciones inmediatas:
 
-1.  $`C_{bio}`$ should decline with age and chronic inflammatory burden.
+1.  $`C_{bio}`$ debería declinar con la edad y la carga inflamatoria crónica.
 
-2.  Multimodal interventions that simultaneously stimulate coherent acoustic, electromagnetic, photonic and neuro-feedback channels can acutely raise $`C_{bio}`$.
+2.  Intervenciones multimodales que estimulen simultáneamente canales coherentes acústicos, electromagnéticos, fotónicos y de neurorretroalimentación pueden elevar agudamente $`C_{bio}`$.
 
-3.  Acute increases in $`C_{bio}`$ should correlate with improvements in standard clinical markers (e.g., lower C-reactive protein) and subjective wellbeing.
+3.  Los aumentos agudos de $`C_{bio}`$ deberían correlacionarse con mejoras en marcadores clínicos estándar (p. ej., menor proteína C reactiva) y bienestar subjetivo.
 
-To test these predictions we designed a pilot protocol that combines coherent sound (174–432 Hz), low-intensity pulsed electromagnetic fields (7.83 Hz), red-light photobiomodulation (635 nm) and real-time biofeedback, delivered inside an architectural environment engineered for high $`\alpha_{place}`$ (circadian lighting, golden-ratio geometry, reverberation $`T_{60} \leq 0.6`$s). Ten healthy adults will undergo a single 60-minute session; biosignals and inflammatory markers will be recorded pre- and post-intervention.
+Para evaluar estas predicciones diseñamos un protocolo piloto que combina sonido coherente (174–432 Hz), campos electromagnéticos pulsados de baja intensidad (7,83 Hz), fotobiomodulación con luz roja (635 nm) y biorretroalimentación en tiempo real, administrados dentro de un entorno arquitectónico diseñado para un alto $`\alpha_{place}`$ (iluminación circadiana, geometría de proporción áurea, reverberación $`T_{60} \leq 0.6`$ s). Diez adultos sanos se someterán a una única sesión de 60 minutos; las bioseñales y los marcadores inflamatorios se registrarán antes y después de la intervención.
 
-The remainder of the paper is organised as follows. Section 2 formalises $`C_{bio}`$ and relates deviations from its optimum to specific disease mechanisms. Section 3 details materials, sensors and analytical pipelines. Section 4 presents preliminary results. Section 5 discusses implications, limitations and future research, including a planned Phase II randomised controlled trial and the development of a portable coherence scanner. Section 6 concludes. A master table of symbols and methodological appendices are provided for clarity and replication.
+El resto del artículo se organiza como sigue. La Sección 2 formaliza $`C_{bio}`$ y relaciona las desviaciones de su óptimo con mecanismos patológicos específicos. La Sección 3 detalla los materiales, sensores y líneas de procesamiento analítico. La Sección 4 presenta resultados preliminares. La Sección 5 discute implicaciones, limitaciones y futuras investigaciones, incluyendo un ensayo controlado aleatorizado de Fase II planeado y el desarrollo de un escáner de coherencia portátil. La Sección 6 concluye. Se proporcionan una tabla maestra de símbolos y apéndices metodológicos para mayor claridad y replicabilidad.
 
-**1.2 External Empirical Validation: The Fractal Pulse (APPENDIX C) (APPENDIX D)**
+**1.2 Validación empírica externa: El pulso fractal (APÉNDICE C) (APÉNDICE D)**
 
-To test the hypothesis that health is synonymous with multiscale coherence, we applied Detrended Fluctuation Analysis (DFA) to inter-beat interval time series leveraging a massive 5-domain dataset of ~3,900 subjects from PhysioNet. RTM predicts that a robust homeostatic system operates strictly at the "Edge of Chaos" (Critical Transport Class, $`\alpha \approx 1.0`$), maximizing adaptability and information processing, while frailty and disease represent a drift towards uncorrelated randomness ($`\alpha \rightarrow 0.5`$).
+Para probar la hipótesis de que la salud es sinónimo de coherencia multiescala, aplicamos Análisis de Fluctuación sin Tendencia (DFA, por sus siglas en inglés) a series temporales de intervalos entre latidos, aprovechando un extenso conjunto de datos de 5 dominios con ~3.900 sujetos de PhysioNet. RTM predice que un sistema homeostático robusto opera estrictamente en el "Borde del Caos" (Clase de Transporte Crítico, $`\alpha \approx 1.0`$), maximizando la adaptabilidad y el procesamiento de información, mientras que la fragilidad y la enfermedad representan una deriva hacia la aleatoriedad no correlacionada ($`\alpha \rightarrow 0.5`$).
 
-Initial heuristic observations supported this trajectory, but to definitively rule out confounding variables (such as chronological aging) and ecological fallacies, we subjected the dataset to multivariable regression and subject-level variance simulations. The robust analysis confirms a stark physical separation: healthy chronological aging causes a slow, linear topological decay, but acute pathology (CHF) triggers a sudden, independent multiscale collapse ($`\Delta\alpha = \  - 0.322`$).
+Las observaciones heurísticas iniciales apoyaron esta trayectoria, pero para descartar definitivamente las variables confusoras (como el envejecimiento cronológico) y las falacias ecológicas, sometimos el conjunto de datos a regresión multivariable y simulaciones de varianza a nivel de sujeto. El análisis robusto confirma una separación física nítida: el envejecimiento cronológico saludable causa un decaimiento topológico lento y lineal, pero la patología aguda (ICC) desencadena un colapso multiescala repentino e independiente ($`\Delta\alpha = \  - 0.322`$).
 
-Across the broader population, CHF severity correlates strongly with this multiscale topological decay ($`r = - 0.43,p < 10^{- 10}`$), shifting dynamics from near-critical to sub-diffusive, and ultimately collapsing into white noise ($`\alpha_{1} \approx 0.53`$ for NYHA IV). Furthermore, lethal arrhythmias such as ventricular fibrillation represent a complete topological fracture, plunging the heart into an anti-correlated chaotic state ($`\alpha_{1} < 0.5`$).
+En la población más amplia, la gravedad de la ICC se correlaciona fuertemente con este decaimiento topológico multiescala ($`r = - 0.43,p < 10^{- 10}`$), desplazando la dinámica de casi-crítica a sub-difusiva y, en última instancia, colapsando en ruido blanco ($`\alpha_{1} \approx 0.53`$ para NYHA IV). Además, las arritmias letales como la fibrilación ventricular representan una fractura topológica completa, precipitando al corazón a un estado caótico anti-correlacionado ($`\alpha_{1} < 0.5`$).
 
-This validates the use of $`\alpha_{1}`$ (and by extension the global topological exponent $`\alpha`$) as a non-invasive "thermodynamic thermometer" for biological age and systemic physiological collapse. Crucially, this metric provides powerful predictive diagnostic value: patients whose multiscale complexity drops into the lowest $`\alpha_{1}`$ quartile (\< 0.75) experience a 2.4-fold increased hazard ratio for Sudden Cardiac Death (SCD).
+Esto respalda el uso de $`\alpha_{1}`$ como marcador no invasivo de organización cardíaca multiescala. Los pacientes en el cuartil más bajo de $`\alpha_{1}`$ (< 0,75) experimentan una razón de riesgo 2,4 veces mayor para muerte súbita cardíaca (FINCAVAS, $`n = 3{,}900`$). La campaña de flanqueo (Apéndice E) muestra adicionalmente que la escalera de gravedad arrítmica ($`\rho = -0.957`$ a través de 10 tipos) y la métrica bidimensional $`\alpha \times`$ IC extienden la utilidad clínica del marco más allá del simple monitoreo de DFA.
 
-**2 Theoretical Framework**
+**2 Marco teórico**
 
-**2.1 Formal definition of the biological coherence index** $`\mathbf{C}_{\mathbf{bio}}`$
+**2.1 Definición formal del índice de coherencia biológica** $`\mathbf{C}_{\mathbf{bio}}`$
 
-**2.1.1 Conceptual aim**
+**2.1.1 Objetivo conceptual**
 
-$`C_{bio}`$ is intended as a single, dimension-less index that quantifies how tightly biological rhythms at different spatial scales phase-lock with one another at any given moment. High values indicate a dominantly coherent multiscale regime (efficient information and energy flow); low values indicate fragmentation and pathological drift.
+$`C_{bio}`$ está concebido como un índice único y adimensional que cuantifica cuán estrechamente los ritmos biológicos en diferentes escalas espaciales se acoplan en fase entre sí en cualquier momento dado. Valores altos indican un régimen multiescala dominantemente coherente (flujo eficiente de información y energía); valores bajos indican fragmentación y deriva patológica.
 
-**2.1.2 Signals and notation**
+**2.1.2 Señales y notación**
 
-| **Symbol** | **Definition** | **Typical sensor / band** |
+| **Símbolo** | **Definición** | **Sensor / banda típica** |
 |----|----|----|
-| $`x_{h}(t)`$ | Instantaneous RR-interval (HRV) | ECG, 0.04–0.4 Hz |
-| $`x_{e,k}(t)`$ | EEG channel $`k\ (k\  = \ 1\ldots 14)`$ | 1–50 Hz |
-| $`x_{m}(t)`$ | Slow molecular rhythm (e.g. PER/CRY mRNA) | circadian |
-| $`S_{i}(f)`$ | Power spectral density of signal$`\ i`$ | Welch / wavelet |
-| $`PLV_{i,j}(f)`$ | Phase-locking value between signals $`i`$ and$`\ j`$ at frequency $`f`$ | — |
+| $`x_{h}(t)`$ | Intervalo RR instantáneo (VFC) | ECG, 0,04–0,4 Hz |
+| $`x_{e,k}(t)`$ | Canal EEG $`k\ (k\  = \ 1\ldots 14)`$ | 1–50 Hz |
+| $`x_{m}(t)`$ | Ritmo molecular lento (p. ej., ARNm PER/CRY) | circadiano |
+| $`S_{i}(f)`$ | Densidad espectral de potencia de la señal $`\ i`$ | Welch / wavelet |
+| $`PLV_{i,j}(f)`$ | Valor de acoplamiento de fase entre señales $`i`$ y $`\ j`$ a la frecuencia $`f`$ | — |
 
-The set of signals is $`\mathbb{S} = \{\text{HRV},\text{EEG channels},\text{molecular rhythms}\}`$.
+El conjunto de señales es $`\mathbb{S} = \{\text{VFC},\text{canales EEG},\text{ritmos moleculares}\}`$.
 
-**2.1.3 Mathematical definition**
+**2.1.3 Definición matemática**
 
-**(i) Identify coherent frequency windows.**\
-For each signal $`i`$, compute the phase-locking value
+**(i) Identificar ventanas de frecuencia coherentes.**\
+Para cada señal $`i`$, calcular el valor de acoplamiento de fase
 
 ``` math
 {PLV}_{i,j}(f)
 ```
 
-across all pairs $`(i,j)`$in $`\mathbb{S}`$. A frequency bin $`f`$ is classified as *coherent* for signal $`i`$ if
+a través de todos los pares $`(i,j)`$ en $`\mathbb{S}`$. Un compartimento de frecuencia $`f`$ se clasifica como *coherente* para la señal $`i`$ si
 
 ``` math
 {PLV}_{i,j}(f) \geq \theta_{PLV}
 ```
 
-for at least one partner $`j`$ in the set (default $`\theta_{PLV} = 0.70`$).
+para al menos un par $`j`$ en el conjunto (por defecto $`\theta_{PLV} = 0.70`$).
 
-**(ii) Partition the spectrum.**\
-For each signal $`i`$, let $`C_{i}`$ be the set of coherent bins and $`{\overset{ˉ}{C}}_{i}`$ its complement (incoherent).
+**(ii) Particionar el espectro.**\
+Para cada señal $`i`$, sea $`C_{i}`$ el conjunto de compartimentos coherentes y $`{\overset{ˉ}{C}}_{i}`$ su complemento (incoherente).
 
-**(iii) Compute power in each partition.**
+**(iii) Calcular la potencia en cada partición.**
 
 ``` math
 P_{i}^{coh} = \sum_{f \in C_{i}}^{}{S_{i}(f),P_{i}^{inc} =}\sum_{f \in {\overset{ˉ}{C}}_{i}}^{}{S_{i}(f).}
 ```
 
-**(iv) Weight across modalities.**\
-Assign modality weights $`w_{i}`$ ($`\sum_{i}^{}{w_{i} = 1}`$) reflecting sensor reliability and clinical relevance (default: HRV = 0.4, EEG = 0.4, molecular = 0.2).
+**(iv) Ponderar entre modalidades.**\
+Asignar pesos de modalidad $`w_{i}`$ ($`\sum_{i}^{}{w_{i} = 1}`$) que reflejen la fiabilidad del sensor y la relevancia clínica (por defecto: VFC = 0,4, EEG = 0,4, molecular = 0,2).
 
-**(v) Define** $`C_{bio}`$**.**
+**(v) Definir** $`C_{bio}`$ **.**
 
 ``` math
-C_{bio} = \frac{\sum_{i}^{}{w_{i}\text{ }P_{i}^{coh}}}{\sum_{i}^{}{w_{i}\text{ }P_{i}^{inc}}}.
+C_{bio} = \frac{\sum_{i}^{}{w_{i}\text{ }P_{i}^{coh}}}{\sum_{i}^{}{w_{i}\text{ }P_{i}^{inc}}}.
 ```
 
-For interpretability we report log-scaled units
+Para facilitar la interpretación, reportamos unidades en escala logarítmica
 
 ``` math
 C_{bio}^{\log} = {\log}_{10}C_{bio},
 ```
 
-such that 0.30, 0.10 and 0.01 roughly correspond to strong, moderate and minimal coherence, respectively, as detailed in §2.1.6.
+de modo que 0,30, 0,10 y 0,01 corresponden aproximadamente a coherencia fuerte, moderada y mínima, respectivamente, como se detalla en §2.1.6.
 
-**2.1.4 Relation to the canonical RTM exponent**
+**2.1.4 Relación con el exponente canónico de RTM**
 
-In the RTM framework, the temporal–spatial scaling exponent $`\alpha_{RT}`$ is defined strictly as the slope of the log–log relation between characteristic time and length scale:
+En el marco RTM, el exponente de escalamiento temporal-espacial $`\alpha_{RT}`$ se define estrictamente como la pendiente de la relación log–log entre el tiempo característico y la escala de longitud:
 
 ``` math
 \log T = \alpha_{RT}\log L + const.
 ```
 
-All RTM “exponents” in other biological papers (e.g., enzymatic $`\alpha_{bio,enz}`$) follow this slope-based definition.
+Todos los "exponentes" RTM en otros artículos biológicos (p. ej., el enzimático $`\alpha_{bio,enz}`$) siguen esta definición basada en pendientes.
 
-Directly estimating $`\alpha_{RT}`$ from human physiology would require well-defined pairs $`(T,L)`$ across multiple spatial scales, which is impractical in vivo. In this pilot we therefore introduce a surrogate index, $`C_{bio}`$, defined from spectral coherence of observable biosignals. $`C_{bio}`$ is **not** itself an exponent in the strict RTM sense; it is a dimension-less ratio of coherent to incoherent power.
+Estimar directamente $`\alpha_{RT}`$ a partir de la fisiología humana requeriría pares bien definidos $`(T,L)`$ a través de múltiples escalas espaciales, lo cual es impráctico in vivo. En este piloto introducimos por tanto un índice sustituto, $`C_{bio}`$, definido a partir de la coherencia espectral de bioseñales observables. $`C_{bio}`$ **no** es en sí mismo un exponente en el sentido estricto de RTM; es una razón adimensional de potencia coherente a incoherente.
 
-**Working hypothesis (Conjecture B1).**\
-In multiscale biological networks where larger phase-locked ensembles correspond to effectively larger $`L`$, increases in $`C_{bio}`$ are monotonically associated with increases in the underlying RTM exponent $`\alpha_{RT}`$. In other words, $`C_{bio}`$ is assumed to be an empirical *proxy* for $`\alpha_{RT}`$, not an exact re-parameterisation.
+**Hipótesis de trabajo (Conjetura B1).**\
+En redes biológicas multiescala donde los ensambles con acoplamiento de fase más grandes corresponden a $`L`$ efectivamente mayores, los aumentos en $`C_{bio}`$ están monotónicamente asociados con aumentos en el exponente RTM subyacente $`\alpha_{RT}`$. En otras palabras, se supone que $`C_{bio}`$ es un *proxy* empírico de $`\alpha_{RT}`$, no una re-parametrización exacta.
 
-This conjecture is not proved in the present work; it will require future datasets where both $`T`$–$`L`$ scaling and spectral coherence can be measured simultaneously. The current protocol therefore tests whether $`C_{bio}`$ behaves in a way that would be consistent with an RTM-style increase in multiscale coherence.
+Esta conjetura no se demuestra en el presente trabajo; requerirá conjuntos de datos futuros donde tanto el escalamiento $`T`$ – $`L`$ como la coherencia espectral puedan medirse simultáneamente. El protocolo actual evalúa por tanto si $`C_{bio}`$ se comporta de manera consistente con un aumento tipo RTM en la coherencia multiescala.
 
-**2.1.5 Implementation summary**
+**2.1.5 Resumen de implementación**
 
-For clarity, we summarise the computation of $`C_{bio}`$ as an end-to-end pipeline:
+Para mayor claridad, resumimos el cálculo de $`C_{bio}`$ como una línea de procesamiento de principio a fin:
 
-1.  **Acquire biosignals**
+1.  **Adquirir bioseñales**
 
-    - ECG (RR intervals, HRV), multi-channel EEG, and optionally slow molecular rhythms (if available).
+    - ECG (intervalos RR, VFC), EEG multicanal y, opcionalmente, ritmos moleculares lentos (si están disponibles).
 
-2.  **Pre-process**
+2.  **Preprocesar**
 
-    - Band-pass filter ECG and EEG, remove artefacts (eye blinks, muscle), and ensure stable baselines (Section 3.3.1).
+    - Filtrar pasa-banda el ECG y el EEG, eliminar artefactos (parpadeos, movimiento muscular) y asegurar líneas base estables (Sección 3.3.1).
 
-3.  **Compute spectra and phases**
+3.  **Calcular espectros y fases**
 
-    - Estimate power spectral density $`S_{i}(f)`$ and phase $`\phi_{i}(f)`$ for each signal $`i`$using Welch’s method or wavelets.
+    - Estimar la densidad espectral de potencia $`S_{i}(f)`$ y la fase $`\phi_{i}(f)`$ para cada señal $`i`$ utilizando el método de Welch o wavelets.
 
-4.  **Estimate phase-locking values**
+4.  **Estimar valores de acoplamiento de fase**
 
-    - For all pairs $`(i,j)`$ in $`\mathbb{S}`$, compute $`{PLV}_{i,j}(f)`$.
+    - Para todos los pares $`(i,j)`$ en $`\mathbb{S}`$, calcular $`{PLV}_{i,j}(f)`$.
 
-5.  **Define coherent and incoherent bins**
+5.  **Definir compartimentos coherentes e incoherentes**
 
-    - For each signal $`i`$, classify frequency bins as coherent or incoherent using the PLV threshold $`\theta_{PLV}`$.
+    - Para cada señal $`i`$, clasificar los compartimentos de frecuencia como coherentes o incoherentes usando el umbral PLV $`\theta_{PLV}`$.
 
-6.  **Aggregate power and apply weights**
+6.  **Agregar potencia y aplicar pesos**
 
-    - Compute $`P_{i}^{coh}`$ and $`P_{i}^{inc}`$, then apply modality weights $`w_{i}`$ to obtain $`C_{bio}`$ and $`C_{bio}^{\log}`$.
+    - Calcular $`P_{i}^{coh}`$ y $`P_{i}^{inc}`$, luego aplicar los pesos de modalidad $`w_{i}`$ para obtener $`C_{bio}`$ y $`C_{bio}^{\log}`$.
 
-Conceptually:
+Conceptualmente:
 
-Raw ECG/EEG → Clean signals → Spectra + PLV → C_i / C̄\_i bins
+ECG/EEG crudos → Señales limpias → Espectros + PLV → Compartimentos C_i / C̄\_i
 
 ↓ ↓
 
-Integrate power Weighted ratio
+Integrar potencia Razón ponderada
 
 ↓ ↓
 
 C_bio → C_bio^log
 
-A reference Python / MATLAB package implementing these steps (FFT/wavelets, PLV, adaptive $`\theta_{PLV}`$) is provided in Appendix A.
+Un paquete de referencia en Python / MATLAB que implementa estos pasos (FFT/wavelets, PLV, $`\theta_{PLV}`$ adaptativo) se proporciona en el Apéndice A.
 
-**2.1.6 Interpretation guidelines**
+**2.1.6 Guías de interpretación**
 
-In this pilot, we use the following **heuristic interpretation** for the log-scaled coherence index $`C_{bio}^{\log}`$:
+En este piloto, utilizamos la siguiente **interpretación heurística** para el índice de coherencia en escala logarítmica $`C_{bio}^{\log}`$:
 
-- **High coherence:** $`C_{bio}^{\log} \gtrsim 0.20`$\
-  → coherent power dominates; strong phase-locking across HRV and EEG; physiology is globally well-organised.
+- **Coherencia alta:** $`C_{bio}^{\log} \gtrsim 0.20`$ \
+  → la potencia coherente domina; fuerte acoplamiento de fase entre VFC y EEG; la fisiología está globalmente bien organizada.
 
-- **Intermediate coherence:** $`0.05 \lesssim C_{bio}^{\log} < 0.20`$\
-  → partial coupling; subsystems communicate but with frequent desynchronisations.
+- **Coherencia intermedia:** $`0.05 \lesssim C_{bio}^{\log} < 0.20`$ \
+  → acoplamiento parcial; los subsistemas se comunican pero con desincronizaciones frecuentes.
 
-- **Low coherence:** $`C_{bio}^{\log} \lesssim 0.05`$\
-  → incoherent power dominates; global organisation is weak; system may be vulnerable to cascade failure.
+- **Coherencia baja:** $`C_{bio}^{\log} \lesssim 0.05`$ \
+  → la potencia incoherente domina; la organización global es débil; el sistema puede ser vulnerable a un fallo en cascada.
 
-These thresholds are **provisional** and will be refined as more datasets accumulate. They should not be treated as diagnostic cut-offs but as a starting point for comparing individuals, interventions and populations.
+Estos umbrales son **provisionales** y se refinarán a medida que se acumulen más conjuntos de datos. No deben tratarse como puntos de corte diagnósticos, sino como un punto de partida para comparar individuos, intervenciones y poblaciones.
 
-**2.1.7 Why a ratio (not a difference)?**
+**2.1.7 ¿Por qué una razón (y no una diferencia)?**
 
-A ratio was chosen for three reasons:
+Se eligió una razón por tres motivos:
 
-1.  **Scale invariance.**\
-    If all signals are multiplied by the same constant (e.g., sensor gain, amplifier setting), both numerator and denominator in $`C_{bio}`$ scale equally, leaving the ratio unchanged. A simple difference of powers would not share this property.
+1.  **Invarianza de escala.**\
+    Si todas las señales se multiplican por la misma constante (p. ej., ganancia del sensor, configuración del amplificador), tanto el numerador como el denominador en $`C_{bio}`$ se escalan por igual, dejando la razón inalterada. Una simple diferencia de potencias no compartiría esta propiedad.
 
-2.  **Direct interpretability.**\
-    The numerator collects power that contributes to *useful* (phase-aligned) work; the denominator collects power that appears as *dissipative noise*. The ratio $`C_{bio}`$ expresses their balance in a single number.
+2.  **Interpretabilidad directa.**\
+    El numerador reúne la potencia que contribuye a trabajo *útil* (alineado en fase); el denominador reúne la potencia que aparece como *ruido disipativo*. La razón $`C_{bio}`$ expresa su balance en un solo número.
 
-3.  **Comparability across modalities.**\
-    HRV and EEG differ in absolute power by orders of magnitude. Working with ratios normalised per modality and then aggregated via weights $`w_{i}`$ allows us to combine them without arbitrary rescaling.
+3.  **Comparabilidad entre modalidades.**\
+    La VFC y el EEG difieren en potencia absoluta por órdenes de magnitud. Trabajar con razones normalizadas por modalidad y luego agregadas mediante pesos $`w_{i}`$ permite combinarlas sin reescalamiento arbitrario.
 
-In short, $`C_{bio}`$ is designed to be robust to arbitrary unit changes and to focus on **structure**, not raw signal amplitude.
+En resumen, $`C_{bio}`$ está diseñado para ser robusto ante cambios arbitrarios de unidades y para enfocarse en la **estructura**, no en la amplitud bruta de la señal.
 
-**2.1.8 Limitations and extensions**
+**2.1.8 Limitaciones y extensiones**
 
-Several limitations of $`C_{bio}`$ as currently defined deserve emphasis:
+Varias limitaciones de $`C_{bio}`$ en su definición actual merecen énfasis:
 
-- **Threshold sensitivity.**\
-  The choice of $`\theta_{PLV}`$ influences which bins are labelled coherent. Sensitivity analyses (varying $`\theta_{PLV}`$, bootstrapping) and ROC analyses are recommended in future work to calibrate this parameter.
+- **Sensibilidad al umbral.**\
+  La elección de $`\theta_{PLV}`$ influye en qué compartimentos se etiquetan como coherentes. Se recomiendan análisis de sensibilidad (variando $`\theta_{PLV}`$, bootstrapping) y análisis ROC en trabajos futuros para calibrar este parámetro.
 
-- **Sparse molecular data.**\
-  When molecular rhythms are unavailable, their weight is set to zero and the remaining $`w_{i}`$are renormalised to $`\sum_{i}^{}{w_{i} = 1}`$. This means early implementations of $`C_{bio}`$ largely reflect neural–autonomic coherence.
+- **Datos moleculares escasos.**\
+  Cuando los ritmos moleculares no están disponibles, su peso se fija en cero y los $`w_{i}`$ restantes se renormalizan a $`\sum_{i}^{}{w_{i} = 1}`$. Esto significa que las implementaciones tempranas de $`C_{bio}`$ reflejan en gran medida la coherencia neural-autonómica.
 
-- **Dynamic** $`C_{bio}(t)`$**.**\
-  Sliding-window estimates reveal temporal trajectories, rises during rest, drops under stress, that may better predict acute events (arrhythmia, migraine) than a single static value.
+- **$`C_{bio}(t)`$ dinámico.**\
+  Estimaciones con ventana deslizante revelan trayectorias temporales —ascensos durante el reposo, caídas bajo estrés— que pueden predecir mejor los eventos agudos (arritmia, migraña) que un único valor estático.
 
-- **Environmental coupling (**$`\alpha_{place}`$**).**\
-  As explored in Section 3.2, architectural and environmental features may modulate PLV and, indirectly, $`C_{bio}`$ via sensory entrainment. Future protocols should formally model this coupling instead of treating the environment as neutral.
+- **Acoplamiento ambiental ($`\alpha_{place}`$).**\
+  Como se explora en la Sección 3.2, las características arquitectónicas y ambientales pueden modular el PLV y, de manera indirecta, $`C_{bio}`$ a través del arrastre sensorial. Los protocolos futuros deberían modelar formalmente este acoplamiento en lugar de tratar el ambiente como neutro.
 
-These limitations suggest that $`C_{bio}`$ should be treated as a **first-generation coherence index**, not as a final or exhaustive measure of multiscale organisation.
+Estas limitaciones sugieren que $`C_{bio}`$ debería tratarse como un **índice de coherencia de primera generación**, no como una medida final o exhaustiva de la organización multiescala.
 
-**2.2 Pathology as Collapse of Multiscale Coherence**
+**2.2 Patología como colapso de la coherencia multiescala**
 
-**2.2.1 From healthy resonance to cascade failure**
+**2.2.1 De la resonancia saludable al fallo en cascada**
 
-When $`C_{bio}^{\log}`$ resides near its putative attractor (≈ 0.25 in healthy adults), subsystems share load efficiently: stress in one domain (e.g., transient inflammation) is buffered and redistributed across others (autonomic, neural, endocrine), preventing runaway strain on any single organ system.
+Cuando $`C_{bio}^{\log}`$ reside cerca de su atractor putativo (≈ 0,25 en adultos sanos), los subsistemas comparten carga eficientemente: el estrés en un dominio (p. ej., inflamación transitoria) se amortigua y redistribuye entre otros (autonómico, neural, endocrino), previniendo una tensión desbocada sobre cualquier sistema orgánico individual.
 
-Pathology is hypothesised to emerge when this coherence web **thins below a percolation threshold**. Conceptually:
+Se hipotetiza que la patología emerge cuando esta red de coherencia **se adelgaza por debajo de un umbral de percolación**. Conceptualmente:
 
-High coherence ──► Edge thinning ──► Modular isolation ──► Sporadic collapse
+Coherencia alta ──► Adelgazamiento de conexiones ──► Aislamiento modular ──► Colapso esporádico
 
-(C_bio^log \> 0.20) (0.10–0.20) (0.03–0.10) (≤ 0.02)
+(C_bio^log \> 0,20) (0,10–0,20) (0,03–0,10) (≤ 0,02)
 
-Loss of phase-locking first appears in **fast sensors** (EEG β–γ, HRV high-frequency bands) and then propagates toward slower domains (sleep architecture, endocrine cycling, immune timing), culminating in chronic inflammation and organ-level dysfunction.
+La pérdida de acoplamiento de fase aparece primero en **sensores rápidos** (EEG β–γ, bandas de alta frecuencia de VFC) y luego se propaga hacia dominios más lentos (arquitectura del sueño, ciclado endocrino, temporización inmune), culminando en inflamación crónica y disfunción a nivel de órgano.
 
-**2.2.2 Empirical correlates of declining coherence**
+**2.2.2 Correlatos empíricos del declive de coherencia**
 
-Although $`C_{bio}`$ itself is new, many of its projected correlates have been documented separately:
+Aunque $`C_{bio}`$ en sí es nuevo, muchos de sus correlatos proyectados se han documentado por separado:
 
-- **HRV compression** in ageing, cardiovascular disease and major depression: reduced complexity and loss of long-range correlations.
+- **Compresión de la VFC** en envejecimiento, enfermedad cardiovascular y depresión mayor: complejidad reducida y pérdida de correlaciones de largo alcance.
 
-- **EEG desynchronisation** in neurodegenerative disorders and schizophrenia: weaker phase-locking and fragmentation of α and β rhythms.
+- **Desincronización del EEG** en trastornos neurodegenerativos y esquizofrenia: acoplamiento de fase más débil y fragmentación de los ritmos α y β.
 
-- **Circadian blunting** in metabolic syndrome, shift work and chronic inflammation: reduced amplitude of core clock-gene expression and hormonal rhythms.
+- **Atenuación circadiana** en síndrome metabólico, trabajo por turnos e inflamación crónica: amplitud reducida de la expresión de genes reloj centrales y ritmos hormonales.
 
-RTM’s contribution is to interpret these diverse findings as **different facets of a single process**: the gradual collapse of multiscale coherence, which a unified index like $`C_{bio}`$ aims to capture.
+La contribución de RTM es interpretar estos hallazgos diversos como **diferentes facetas de un único proceso**: el colapso gradual de la coherencia multiescala, que un índice unificado como $`C_{bio}`$ busca capturar.
 
-**2.2.3 Mechanistic pathways linking coherence loss to disease**
+**2.2.3 Vías mecanísticas que vinculan la pérdida de coherencia con la enfermedad**
 
-Several mechanistic pathways could mediate the link between falling $`C_{bio}`$ and clinical pathology:
+Varias vías mecanísticas podrían mediar el vínculo entre la caída de $`C_{bio}`$ y la patología clínica:
 
-1.  **Energetic inefficiency.**\
-    Fragmented oscillations force cellular and network-level processes to oversample conditions, burning ATP and NADH without achieving coordinated work. Mitochondrial reserve capacity drops, increasing reactive oxygen species (ROS) and oxidative stress.
+1.  **Ineficiencia energética.**\
+    Las oscilaciones fragmentadas obligan a los procesos celulares y de nivel de red a sobremuestrear las condiciones, consumiendo ATP y NADH sin lograr trabajo coordinado. La capacidad de reserva mitocondrial disminuye, aumentando las especies reactivas de oxígeno (ERO) y el estrés oxidativo.
 
-2.  **Inflammatory priming.**\
-    Low coherence correlates with chronic NF-κB activation, senescent-cell secretomes and elevated pro-inflammatory cytokines. This sustained inflammatory “background noise” further disrupts neural and endocrine rhythms, creating a vicious feedback loop.
+2.  **Cebado inflamatorio.**\
+    La baja coherencia se correlaciona con activación crónica de NF-κB, secretomas de células senescentes y citocinas proinflamatorias elevadas. Este "ruido de fondo" inflamatorio sostenido altera aún más los ritmos neurales y endocrinos, creando un ciclo de retroalimentación vicioso.
 
-3.  **Autonomic imbalance.**\
-    Reduced HRV coherence shifts sympatho-vagal balance toward sympathetic dominance, impairing glymphatic clearance, altering microvascular tone and degrading sleep architecture.
+3.  **Desequilibrio autonómico.**\
+    La coherencia reducida de la VFC desplaza el equilibrio simpato-vagal hacia la dominancia simpática, deteriorando el aclaramiento glinfático, alterando el tono microvascular y degradando la arquitectura del sueño.
 
-4.  **Neuro-endocrine desynchrony.**\
-    Circadian clock genes (e.g., PER, CRY) lose amplitude; cortisol and melatonin rhythms flatten and drift. Time windows for tissue repair narrow and misalign with behaviour, amplifying metabolic noise and vulnerability.
+4.  **Desincronía neuroendocrina.**\
+    Los genes del reloj circadiano (p. ej., PER, CRY) pierden amplitud; los ritmos de cortisol y melatonina se aplanan y derivan. Las ventanas temporales para la reparación tisular se estrechan y desalinean con el comportamiento, amplificando el ruido metabólico y la vulnerabilidad.
 
-Together, these pathways form a **cascade failure**: energetic waste → inflammatory priming → autonomic rigidity → endocrine drift → further coherence loss.
+En conjunto, estas vías forman un **fallo en cascada**: desperdicio energético → cebado inflamatorio → rigidez autonómica → deriva endocrina → mayor pérdida de coherencia.
 
-**2.2.4 Therapeutic leverage points**
+**2.2.4 Puntos de apalancamiento terapéutico**
 
-Each modality in the proposed intervention is selected to act on a **specific node** in this cascade:
+Cada modalidad en la intervención propuesta se selecciona para actuar sobre un **nodo específico** de esta cascada:
 
-- **Coherent sound (174–432 Hz)**\
-  targets neural–autonomic synchronisation via brainstem and limbic circuits, promoting slow, regular breathing and α-band entrainment.
+- **Sonido coherente (174–432 Hz)**\
+  apunta a la sincronización neural-autonómica a través de circuitos del tronco encefálico y límbicos, promoviendo una respiración lenta y regular y el arrastre de la banda α.
 
-- **Pulsed electromagnetic fields (7.83 Hz)**\
-  modulate ionic channel gating and vascular tone at extremely low intensities, potentially supporting endothelial function and microcirculation.
+- **Campos electromagnéticos pulsados (7,83 Hz)**\
+  modulan la apertura de canales iónicos y el tono vascular a intensidades extremadamente bajas, apoyando potencialmente la función endotelial y la microcirculación.
 
-- **Red-light photobiomodulation (635 nm)**\
-  acts on mitochondrial cytochrome-c oxidase and local redox state, supporting ATP production and reducing oxidative and inflammatory burden.
+- **Fotobiomodulación con luz roja (635 nm)**\
+  actúa sobre la citocromo c oxidasa mitocondrial y el estado redox local, apoyando la producción de ATP y reduciendo la carga oxidativa e inflamatoria.
 
-- **Breathing-guided biofeedback**\
-  tilts autonomic balance toward parasympathetic dominance, stabilising HRV coherence and facilitating glymphatic and sleep-related processes.
+- **Biorretroalimentación guiada por respiración**\
+  inclina el equilibrio autonómico hacia la dominancia parasimpática, estabilizando la coherencia de la VFC y facilitando los procesos glinfáticos y relacionados con el sueño.
 
-- **High-**$`\alpha_{place}`$ **architecture**\
-  minimises environmental noise and overload, allowing endogenous coherence to re-emerge instead of being constantly disrupted.
+- **Arquitectura de alto** $`\alpha_{place}`$\
+  minimiza el ruido ambiental y la sobrecarga, permitiendo que la coherencia endógena reemerja en lugar de ser constantemente perturbada.
 
-The combined intent is to **lift** $`C_{bio}`$ **above the percolation threshold**, restoring enough multiscale connectivity to halt or reverse cascade failure.
+La intención combinada es **elevar** $`C_{bio}`$ **por encima del umbral de percolación**, restaurando suficiente conectividad multiescala para detener o revertir el fallo en cascada.
 
-**2.2.5 Testable predictions**
+**2.2.5 Predicciones comprobables**
 
-The coherence-centred view makes several concrete, falsifiable predictions:
+La visión centrada en la coherencia genera varias predicciones concretas y falsificables:
 
-1.  **Dose–response**\
-    The magnitude of $`\Delta C_{bio}^{\log}`$ should scale with the *coincidence* and *coherence* of modalities (truly synchronous multi-channel stimulation should outperform any single modality or asynchronous combination).
+1.  **Dosis-respuesta**\
+    La magnitud de $`\Delta C_{bio}^{\log}`$ debería escalar con la *coincidencia* y *coherencia* de las modalidades (la estimulación multicanal verdaderamente sincrónica debería superar cualquier modalidad individual o combinación asincrónica).
 
-2.  **Temporal hierarchy**\
-    Restoration should appear first in high-frequency domains (EEG β–γ, HRV HF), then propagate to slower endocrine and immune rhythms over hours to days.
+2.  **Jerarquía temporal**\
+    La restauración debería aparecer primero en dominios de alta frecuencia (EEG β–γ, VFC HF), y luego propagarse a ritmos endocrinos e inmunes más lentos durante horas a días.
 
-3.  **Clinical linkage**\
-    Short-term gains in $`C_{bio}^{\log}`$ should correlate with downstream reductions in CRP and IL-6 within 24 h and, over longer horizons, with improvements in sleep quality, fatigue and stress resilience.
+3.  **Vinculación clínica**\
+    Las ganancias a corto plazo en $`C_{bio}^{\log}`$ deberían correlacionarse con reducciones subsecuentes en PCR e IL-6 dentro de las 24 h y, en horizontes más largos, con mejoras en calidad del sueño, fatiga y resiliencia al estrés.
 
-These predictions can be directly tested in the Phase-I/II protocols outlined in Sections 3 and 4. A consistent failure to observe them, despite robust measurement, would argue against the proposed homeo-resonance mechanism and would motivate revising or abandoning the RTM-based framing for homeostasis.
+Estas predicciones pueden probarse directamente en los protocolos de Fase I/II descritos en las Secciones 3 y 4. Un fracaso consistente en observarlas, a pesar de una medición robusta, argumentaría en contra del mecanismo propuesto de homeo-resonancia y motivaría revisar o abandonar el marco basado en RTM para la homeostasis.
 
-**3 Materials and Methods**
+**3 Materiales y métodos**
 
-This section outlines a Phase-I pilot study that has not yet been carried out.\
-The aim is to provide other investigators with a turnkey blueprint for testing the RTM-based homeo-resonance hypothesis using the coherence index $`C_{bio}`$.
+Esta sección describe un estudio piloto de Fase I que aún no se ha llevado a cabo.\
+El objetivo es proporcionar a otros investigadores un modelo listo para usar para probar la hipótesis de homeo-resonancia basada en RTM utilizando el índice de coherencia $`C_{bio}`$.
 
-**3.1 Participants**
+**3.1 Participantes**
 
-**Target sample.** Ten healthy adults (age 25–40 yr, balanced by sex) will undergo through campus posters and online bulletins.
+**Muestra objetivo.** Diez adultos sanos (edad 25–40 años, equilibrados por sexo) serán reclutados mediante carteles en el campus y boletines en línea.
 
-**Inclusion criteria.** Body mass index 18–28 kg m⁻²; non-smoker; resting ECG within normal limits; no self-reported history of cardiovascular, neurological or major psychiatric illness.
+**Criterios de inclusión.** Índice de masa corporal 18–28 kg m⁻²; no fumador; ECG en reposo dentro de límites normales; sin antecedentes autorreportados de enfermedad cardiovascular, neurológica o psiquiátrica mayor.
 
-**Exclusion criteria.** Diagnosed cardiovascular, neurological or major psychiatric disorder; diabetes; current use of psychoactive medication; pregnancy or breast-feeding; implanted cardiac devices or ferromagnetic implants; known photosensitivity or history of seizures.
+**Criterios de exclusión.** Trastorno cardiovascular, neurológico o psiquiátrico mayor diagnosticado; diabetes; uso actual de medicación psicoactiva; embarazo o lactancia; dispositivos cardíacos implantados o implantes ferromagnéticos; fotosensibilidad conocida o antecedentes de convulsiones.
 
-**Pre-visit controls.** Participants will abstain from caffeine, alcohol and vigorous exercise for 24 h before the visit, will avoid large meals in the 3 h prior to testing, and will document ≥ 7 h of sleep the night before each session.
+**Controles previos a la visita.** Los participantes se abstendrán de cafeína, alcohol y ejercicio vigoroso durante 24 h antes de la visita, evitarán comidas abundantes en las 3 h previas a la prueba y documentarán ≥ 7 h de sueño la noche anterior a cada sesión.
 
-**3.2 Experimental setting (high-α_place room)**
+**3.2 Entorno experimental (sala de alto α_place)**
 
-A 4 m × 5 m shielded chamber will be constructed with:
+Se construirá una cámara blindada de 4 m × 5 m con:
 
-- Circadian LED lighting (2 000 K dawn ramp → 5 500 K noon peak, 650 lx at eye level).
+- Iluminación LED circadiana (rampa de 2.000 K al amanecer → pico de 5.500 K al mediodía, 650 lx a nivel de los ojos).
 
-- Golden-ratio geometry ($`\varphi \approx 1.618`$ wall proportions).
+- Geometría de proporción áurea ($`\varphi \approx 1.618`$ en las proporciones de las paredes).
 
-- Acoustic treatment achieving $`T_{60} = 0.55`$s (125 Hz–8 kHz).
+- Tratamiento acústico logrando $`T_{60} = 0.55`$ s (125 Hz–8 kHz).
 
-- Faraday mesh reducing ambient extremely low-frequency (ELF) noise below 20 nT (\< 10 Hz).
+- Malla de Faraday reduciendo el ruido ambiental de frecuencia extremadamente baja (ELF) por debajo de 20 nT (\< 10 Hz).
 
-Room temperature will be maintained at **23 ± 0.5 °C** and relative humidity at **45 ± 3 %**. This environment is designed to act as a $`high - \alpha_{place}`$ container, minimising external perturbations and supporting the expression of multiscale coherence.
+La temperatura de la sala se mantendrá a **23 ± 0,5 °C** y la humedad relativa a **45 ± 3 %**. Este entorno está diseñado para actuar como un contenedor de $`alto - \alpha_{place}`$, minimizando las perturbaciones externas y apoyando la expresión de la coherencia multiescala.
 
-**3.3 Instrumentation and data capture**
+**3.3 Instrumentación y captura de datos**
 
-All data streams will be synchronised via LabStreamingLayer and stored as EDF plus JSON metadata.
+Todos los flujos de datos se sincronizarán vía LabStreamingLayer y se almacenarán como EDF más metadatos JSON.
 
-- **ECG / HRV.** 3-lead ECG at ≥ 500 Hz for RR-interval extraction.
+- **ECG / VFC.** ECG de 3 derivaciones a ≥ 500 Hz para la extracción de intervalos RR.
 
-- **EEG.** 14-channel dry- or gel-based EEG cap (10–20 layout) at ≥ 250 Hz.
+- **EEG.** Gorro EEG de 14 canales (seco o con gel, disposición 10–20) a ≥ 250 Hz.
 
-- **Respiration.** Respiratory belt for pacing adherence and artefact identification.
+- **Respiración.** Cinturón respiratorio para adherencia a la pauta y detección de artefactos.
 
-- **Blood samples.** Venous blood draws (pre and 30 min post) for CRP and IL-6.
+- **Muestras sanguíneas.** Extracciones de sangre venosa (pre y 30 min post) para PCR e IL-6.
 
-**3.3.1 Pre-processing plan**
+**3.3.1 Plan de preprocesamiento**
 
-- ECG → 0.5–45 Hz FIR filter; Pan–Tompkins R-peak detection; artefact interpolation for ectopic beats.
+- ECG → Filtro FIR 0,5–45 Hz; detección de picos R de Pan–Tompkins; interpolación de artefactos para latidos ectópicos.
 
-- EEG → 1–50 Hz FIR filter; common-average reference; ICA-based artefact rejection (eye blinks, muscle).
+- EEG → Filtro FIR 1–50 Hz; referencia promedio común; rechazo de artefactos basado en ICA (parpadeos, músculo).
 
-- Spectra → Welch method, 4 s Hamming windows with 50 % overlap for power spectral densities and phase estimates.
+- Espectros → Método de Welch, ventanas Hamming de 4 s con 50 % de solapamiento para densidades espectrales de potencia y estimaciones de fase.
 
-Analysis scripts will be released in a public GitHub repository upon study completion.
+Los scripts de análisis se publicarán en un repositorio público de GitHub al finalizar el estudio.
 
-**3.4 Computation of** $`\mathbf{C}_{\mathbf{bio}}`$ **(planned)**
+**3.4 Cálculo de** $`\mathbf{C}_{\mathbf{bio}}`$ **(planificado)**
 
-The algorithm defined in Section 2.1 will be implemented with the following parameter choices:
+El algoritmo definido en la Sección 2.1 se implementará con las siguientes opciones de parámetros:
 
-- Phase-locking threshold $`\theta_{PLV} = 0.70`$.
+- Umbral de acoplamiento de fase $`\theta_{PLV} = 0.70`$.
 
-- Modality weights $`w = \{\text{HRV} = 0.40,\text{\:\,EEG} = 0.60\}`$; molecular rhythms are omitted in this Phase-I protocol.
+- Pesos de modalidad $`w = \{\text{VFC} = 0.40,\text{\:\,EEG} = 0.60\}`$; los ritmos moleculares se omiten en este protocolo de Fase I.
 
-- Sliding window length 120 s, step 10 s, applied to the continuous recordings.
+- Longitud de ventana deslizante 120 s, paso de 10 s, aplicada a los registros continuos.
 
-For each window, coherent and incoherent frequency bins will be identified, power will be aggregated per modality, and the weighted ratio will yield $`C_{bio}`$ and its log-scaled version $`C_{bio}^{\log}`$ as defined in §2.1.3.
+Para cada ventana, se identificarán los compartimentos de frecuencia coherentes e incoherentes, se agregará la potencia por modalidad y la razón ponderada arrojará $`C_{bio}`$ y su versión en escala logarítmica $`C_{bio}^{\log}`$ según se define en §2.1.3.
 
-**Baseline estimation.** Baseline $`C_{bio}`$ will be obtained by averaging $`C_{bio}^{\log}`$ over the final 20 min of the pre-intervention period, once the participant has acclimatised to the environment.
+**Estimación de línea base.** La línea base de $`C_{bio}`$ se obtendrá promediando $`C_{bio}^{\log}`$ durante los últimos 20 min del período previo a la intervención, una vez que el participante se haya aclimatado al entorno.
 
-**Post-intervention estimation.** Post-intervention $`C_{bio}`$ will be averaged over windows beginning 10 min after the end of the multimodal session, to exclude transient settling effects.
+**Estimación postintervención.** El $`C_{bio}`$ postintervención se promediará sobre ventanas que comiencen 10 min después del final de la sesión multimodal, para excluir efectos transitorios de estabilización.
 
-**3.5 Multimodal intervention (to be delivered concurrently)**
+**3.5 Intervención multimodal (a administrar simultáneamente)**
 
-Session length will be fixed at 60 min. Participants will breathe with a visual pacer (≈ 6 breaths per minute), remain seated and still, and refrain from talking.
+La duración de la sesión se fijará en 60 min. Los participantes respirarán con un marcapasos visual (≈ 6 respiraciones por minuto), permanecerán sentados e inmóviles y se abstendrán de hablar.
 
-During the session they will receive, concurrently:
+Durante la sesión recibirán, de forma concurrente:
 
-- **Coherent acoustic stimulation:** narrow-band tones between 174–432 Hz delivered via speakers at comfortable listening levels.
+- **Estimulación acústica coherente:** tonos de banda estrecha entre 174–432 Hz emitidos por altavoces a niveles de escucha confortables.
 
-- **Low-intensity pulsed electromagnetic fields (PEMF):** 7.83 Hz (Schumann-like) waveform at 10 µT using a whole-body applicator.
+- **Campos electromagnéticos pulsados de baja intensidad (CEMP):** forma de onda de 7,83 Hz (tipo Schumann) a 10 µT mediante un aplicador de cuerpo completo.
 
-- **Red-light photobiomodulation:** 635 nm LEDs at 50 mW cm⁻² directed to the forehead and upper chest.
+- **Fotobiomodulación con luz roja:** LEDs de 635 nm a 50 mW cm⁻² dirigidos a la frente y la parte superior del pecho.
 
-- **Real-time biofeedback:** simple visual indicators of HRV and breathing regularity, reinforcing slow, coherent respiration.
+- **Biorretroalimentación en tiempo real:** indicadores visuales simples de la VFC y la regularidad respiratoria, reforzando una respiración lenta y coherente.
 
-All parameters are within established safety limits (see §3.8).
+Todos los parámetros están dentro de los límites de seguridad establecidos (ver §3.8).
 
-**3.6 Study design and statistical plan**
+**3.6 Diseño del estudio y plan estadístico**
 
-**Design.** Single-arm, within-subject pre/post feasibility trial.
+**Diseño.** Ensayo de factibilidad de un solo brazo, intrasujeto, pre/post.
 
-**Primary endpoint.**
+**Criterio de valoración primario.**
 
 ``` math
 \Delta C_{bio}^{\log} = C_{bio,post}^{\log} - C_{bio,pre}^{\log}.
 ```
 
-**Secondary endpoints.** HRV LF/HF ratio; EEG β–γ band PLV; serum CRP; serum IL-6; subjective relaxation (visual analogue scale, 0–100).
+**Criterios de valoración secundarios.** Razón LF/HF de la VFC; PLV de bandas β–γ del EEG; PCR sérica; IL-6 sérica; relajación subjetiva (escala analógica visual, 0–100).
 
-**Analysis workflow (planned).**
+**Flujo de análisis (planificado).**
 
-1.  Shapiro–Wilk normality test for each endpoint.
+1.  Prueba de normalidad de Shapiro–Wilk para cada criterio de valoración.
 
-2.  Paired t-test (or Wilcoxon signed-rank test if non-normal) for pre vs post comparisons.
+2.  Prueba t pareada (o prueba de rangos con signo de Wilcoxon si no es normal) para comparaciones pre vs post.
 
-3.  Effect size: Cohen’s $`d`$ (or Cliff’s Δ for non-parametric tests).
+3.  Tamaño del efecto: d de Cohen (o Δ de Cliff para pruebas no paramétricas).
 
-4.  False-discovery-rate adjustment using Benjamini–Hochberg (q = 0.10) across endpoints.
+4.  Ajuste por tasa de descubrimientos falsos mediante Benjamini–Hochberg (q = 0,10) a través de los criterios de valoración.
 
-5.  Exploratory Spearman correlations between $`\Delta C_{bio}^{\log}`$ and changes in secondary measures.
+5.  Correlaciones exploratorias de Spearman entre $`\Delta C_{bio}^{\log}`$ y cambios en medidas secundarias.
 
-**A-priori power estimate.**\
-Assuming a standard deviation of ≈ 0.10 in $`C_{bio}^{\log}`$ (≈ 10 % variation) and a one-tailed α = 0.05, a sample of n = 10 provides ≈ 80 % power to detect a mean increase of ≥ 0.03 (≈ 15 % relative gain) in $`C_{bio}^{\log}`$. The pilot is therefore tuned to detect only large, clinically meaningful shifts in coherence.
+**Estimación de potencia a priori.**\
+Asumiendo una desviación estándar de ≈ 0,10 en $`C_{bio}^{\log}`$ (≈ 10 % de variación) y un α unilateral de 0,05, una muestra de n = 10 proporciona ≈ 80 % de potencia para detectar un aumento medio de ≥ 0,03 (≈ 15 % de ganancia relativa) en $`C_{bio}^{\log}`$. El piloto está por tanto calibrado para detectar solo cambios grandes y clínicamente significativos en la coherencia.
 
-**3.7 Data-sharing commitment**
+**3.7 Compromiso de intercambio de datos**
 
-Raw biosignals, blood-assay CSVs and analysis scripts will be made publicly available in an open repository (GitHub + OSF) under a CC BY 4.0 license within 30 days of completing data collection, after appropriate anonymisation.
+Las bioseñales crudas, los CSVs de ensayos sanguíneos y los scripts de análisis se pondrán a disposición pública en un repositorio abierto (GitHub + OSF) bajo una licencia CC BY 4.0 dentro de los 30 días posteriores a la finalización de la recolección de datos, tras la anonimización correspondiente.
 
-**3.8 Safety and Ethics**
+**3.8 Seguridad y ética**
 
-All stimulus parameters are set well below established exposure limits for sound, electromagnetic fields and photobiomodulation. The study protocol will be reviewed and approved by the local ethics committee / institutional review board. Written informed consent will be obtained from all participants prior to any study procedures.
+Todos los parámetros de estímulo están fijados muy por debajo de los límites de exposición establecidos para sonido, campos electromagnéticos y fotobiomodulación. El protocolo del estudio será revisado y aprobado por el comité de ética local / junta de revisión institucional. Se obtendrá consentimiento informado por escrito de todos los participantes antes de cualquier procedimiento del estudio.
 
-**4 Expected Outcomes & Project Milestones**
+**4 Resultados esperados y cronograma del proyecto**
 
-This section is prospective; all numbers below are projections based on prior literature and back-of-the-envelope calculations. They are intended as placeholders and **must be replaced with real values once data are collected and analysed**.
+Esta sección es prospectiva; todos los números a continuación son proyecciones basadas en la literatura previa y cálculos aproximados. Están concebidos como marcadores de posición y **deben reemplazarse con valores reales una vez que los datos sean recolectados y analizados**.
 
-**4.1 Primary hypothesis**
+**4.1 Hipótesis primaria**
 
-A single 60-minute, multimodal “homeo-resonance” session is expected to produce a **mean increase in the log-scaled coherence index**
+Se espera que una única sesión de "homeo-resonancia" multimodal de 60 minutos produzca un **aumento medio en el índice de coherencia en escala logarítmica**
 
 ``` math
 \Delta C_{bio}^{\log} = C_{bio,post}^{\log} - C_{bio,pre}^{\log}
 ```
 
-of at least **0.03** (≈ 15 % relative gain) in **at least 70 % of participants** (pre-defined effect-size target).
+de al menos **0,03** (≈ 15 % de ganancia relativa) en **al menos el 70 % de los participantes** (meta predefinida de tamaño del efecto).
 
-This threshold was chosen because retrospective analyses (Section S3, supplementary simulations) suggest that a shift of ≈ 0.03 in $`C_{bio}^{\log}`$ is roughly the amount that separates healthy individuals from early-metabolic-syndrome cohorts.
+Este umbral se eligió porque los análisis retrospectivos (Sección S3, simulaciones complementarias) sugieren que un cambio de ≈ 0,03 en $`C_{bio}^{\log}`$ es aproximadamente la cantidad que separa a los individuos sanos de las cohortes con síndrome metabólico temprano.
 
-**4.2 Secondary hypotheses**
+**4.2 Hipótesis secundarias**
 
-The (to-be-implemented) results table lists each secondary endpoint, the expected direction of change, and approximate effect sizes. For each entry, a “REPLACE AFTER DATA” flag will remind the reader that projected numbers must be overwritten with empirical estimates once the trial is complete. In summary, we expect:
+La tabla de resultados (a implementar) lista cada criterio de valoración secundario, la dirección esperada del cambio y los tamaños del efecto aproximados. Para cada entrada, una bandera "REEMPLAZAR DESPUÉS DE LOS DATOS" recordará al lector que los números proyectados deben sobrescribirse con estimaciones empíricas una vez completado el ensayo. En resumen, esperamos:
 
-- **HRV:** increase in time-domain variability and frequency-domain measures consistent with higher parasympathetic tone (e.g., ↑ RMSSD, ↑ HF power).
+- **VFC:** aumento en la variabilidad de dominio temporal y medidas de dominio frecuencial consistentes con mayor tono parasimpático (p. ej., ↑ RMSSD, ↑ potencia HF).
 
-- **EEG:** increase in phase-locking value (PLV) in α and low-β bands during quiet rest.
+- **EEG:** aumento en el valor de acoplamiento de fase (PLV) en bandas α y β baja durante reposo tranquilo.
 
-- **Inflammation:** small but detectable reductions in serum CRP and IL-6 within 30 minutes post-session.
+- **Inflamación:** reducciones pequeñas pero detectables en PCR sérica e IL-6 dentro de los 30 minutos posteriores a la sesión.
 
-- **Subjective state:** moderate increases in self-reported calmness/relaxation (visual-analogue scales).
+- **Estado subjetivo:** aumentos moderados en calma/relajación autorreportada (escalas analógicas visuales).
 
-All secondary hypotheses are directional (one-tailed) and exploratory; they mainly serve to characterise the physiological signature that accompanies changes in $`C_{bio}^{\log}`$.
+Todas las hipótesis secundarias son direccionales (unilaterales) y exploratorias; sirven principalmente para caracterizar la firma fisiológica que acompaña los cambios en $`C_{bio}^{\log}`$.
 
-*Note.* Once data are collected, each placeholder in the table must be replaced with the observed mean change, standard deviation, confidence interval, effect size and p-value from the corresponding statistical test.
+*Nota.* Una vez recolectados los datos, cada marcador de posición en la tabla debe reemplazarse con el cambio medio observado, la desviación estándar, el intervalo de confianza, el tamaño del efecto y el valor p de la prueba estadística correspondiente.
 
-**4.3 Effect-size benchmarks**
+**4.3 Referentes de tamaño del efecto**
 
-Pre-defined decision rule for effect size:
+Regla de decisión predefinida para el tamaño del efecto:
 
-- **Primary endpoint.** The pilot will be considered **mechanistically promising** if\
-  $`\Delta C_{bio}^{\log} \geq 0.03`$ with $`p < 0.05`$ (one-tailed) in the group-level comparison.
+- **Criterio de valoración primario.** El piloto se considerará **mecanísticamente prometedor** si\
+  $`\Delta C_{bio}^{\log} \geq 0.03`$ con $`p < 0.05`$ (unilateral) en la comparación a nivel de grupo.
 
-- **Secondary endpoints.** Individual secondary outcomes are considered supportive if they show changes consistent in sign with the primary endpoint and at least small-to-medium effect sizes (Cohen’s $`d \gtrsim 0.4`$), after false-discovery-rate correction.
+- **Criterios de valoración secundarios.** Los resultados secundarios individuales se consideran de apoyo si muestran cambios consistentes en signo con el criterio de valoración primario y tamaños del efecto al menos pequeños a medianos (d de Cohen $`\gtrsim 0.4`$), tras la corrección por tasa de descubrimientos falsos.
 
-A simple power analysis (one-tailed, α = 0.05) indicates that **n = 10** provides ≈ 80 % power to detect a mean increase of 0.03 in $`C_{bio}^{\log}`$, assuming a standard deviation of ≈ 0.10. The pilot is therefore tuned to pick up only **large, clinically meaningful shifts** in coherence.
+Un análisis de potencia simple (unilateral, α = 0,05) indica que **n = 10** proporciona ≈ 80 % de potencia para detectar un aumento medio de 0,03 en $`C_{bio}^{\log}`$, asumiendo una desviación estándar de ≈ 0,10. El piloto está por tanto calibrado para captar solo **cambios grandes y clínicamente significativos** en la coherencia.
 
-**4.4 Planned data visualisations**
+**4.4 Visualizaciones de datos planificadas**
 
-To ensure transparency and comparability across laboratories, the following figures will be generated automatically from the final CSV files:
+Para asegurar la transparencia y la comparabilidad entre laboratorios, las siguientes figuras se generarán automáticamente a partir de los archivos CSV finales:
 
-1.  **Forest plot** of individual $`\Delta C_{bio}^{\log}`$ values with 95 % confidence intervals.
+1.  **Gráfico de bosque** de los valores individuales de $`\Delta C_{bio}^{\log}`$ con intervalos de confianza del 95 %.
 
-2.  **Paired spectra:** HRV power spectral density and EEG PLV heat-maps (Pre vs Post).
+2.  **Espectros pareados:** densidad espectral de potencia de la VFC y mapas de calor de PLV del EEG (Pre vs Post).
 
-3.  **Correlation matrix (Spearman)** linking $`\Delta C_{bio}^{\log}`$ to changes in HRV indices, EEG coherence, CRP, IL-6 and subjective ratings.
+3.  **Matriz de correlación (Spearman)** vinculando $`\Delta C_{bio}^{\log}`$ con los cambios en índices de VFC, coherencia del EEG, PCR, IL-6 y valoraciones subjetivas.
 
-4.  **Waterfall chart** of CRP and IL-6 percent changes per subject.
+4.  **Gráfico de cascada** de los cambios porcentuales de PCR e IL-6 por sujeto.
 
-Templates (Matplotlib) are pre-coded; figures will compile automatically once the CSVs are added to the repository.
+Las plantillas (Matplotlib) están precodificadas; las figuras se compilarán automáticamente una vez que se agreguen los CSVs al repositorio.
 
-**4.5 Risk-of-bias mitigation**
+**4.5 Mitigación de riesgo de sesgo**
 
-This pilot incorporates basic safeguards against common sources of bias, including:
+Este piloto incorpora salvaguardas básicas contra fuentes comunes de sesgo, incluyendo:
 
-- Standardised pre-session instructions (sleep, caffeine, exercise).
+- Instrucciones previa a la sesión estandarizadas (sueño, cafeína, ejercicio).
 
-- Fixed session duration and identical stimulation parameters across participants.
+- Duración de sesión fija y parámetros de estimulación idénticos entre participantes.
 
-- Pre-registered primary and secondary endpoints.
+- Criterios de valoración primarios y secundarios prerregistrados.
 
-- Blinded laboratory assays for CRP and IL-6 (technicians unaware of pre/post labels).
+- Ensayos de laboratorio ciegos para PCR e IL-6 (técnicos sin conocimiento de las etiquetas pre/post).
 
-Further refinements (e.g., sham stimulation, assessor blinding) are planned for the Phase II RCT.
+Se planean refinamientos adicionales (p. ej., estimulación simulada, cegamiento del evaluador) para el ECA de Fase II.
 
-**4.6 Timeline & milestones**
+**4.6 Cronograma e hitos**
 
-Planned milestones:
+Hitos planificados:
 
-- **Month 0–1:** Finalise ethics approval and preregistration.
+- **Mes 0–1:** Finalizar la aprobación ética y el prerregistro.
 
-- **Month 2–4:** Recruit and run 10 participants; perform basic QC on biosignals.
+- **Mes 2–4:** Reclutar y evaluar a 10 participantes; realizar control de calidad básico de las bioseñales.
 
-- **Month 5:** Complete pre-registered analyses of $`C_{bio}^{\log}`$ and secondary endpoints.
+- **Mes 5:** Completar los análisis prerregistrados de $`C_{bio}^{\log}`$ y criterios de valoración secundarios.
 
-- **Month 6:** Public release of anonymised data and scripts; go/no-go decision for Phase II.
+- **Mes 6:** Publicación abierta de datos anonimizados y scripts; decisión de avance o no a Fase II.
 
-**4.7 Exit criteria for advancing to Phase II RCT**
+**4.7 Criterios de salida para avanzar al ECA de Fase II**
 
-Advancement to a randomised, sham-controlled Phase II trial (n ≈ 30–40) will be triggered if all of the following are met:
+El avance a un ensayo de Fase II aleatorizado y con control simulado (n ≈ 30–40) se activará si se cumplen todos los siguientes:
 
-1.  **Primary endpoint:** mean $`\Delta C_{bio}^{\log} \geq 0.03`$, $`p < 0.05`$ (one-tailed).
+1.  **Criterio de valoración primario:** $`\Delta C_{bio}^{\log} \geq 0.03`$ media, $`p < 0.05`$ (unilateral).
 
-2.  **Safety:** no serious adverse events (SAEs) related to PEMF, PBM or acoustic stimulation.
+2.  **Seguridad:** sin eventos adversos graves (EAG) relacionados con CEMP, FBM o estimulación acústica.
 
-3.  **Data quality:** ≥ 90 % data completeness across all modalities (ECG, EEG, questionnaires, blood assays).
+3.  **Calidad de los datos:** ≥ 90 % de completitud de datos en todas las modalidades (ECG, EEG, cuestionarios, ensayos sanguíneos).
 
-If two or more of these criteria fail, the protocol will be revised and re-piloted before any larger trial is launched.
+Si dos o más de estos criterios fallan, el protocolo se revisará y se repilotará antes de lanzar cualquier ensayo más grande.
 
-**5 Discussion**
+**5 Discusión**
 
-**5.1 Interpreting a projected rise in** $`\mathbf{C}_{\mathbf{bio}}`$
+**5.1 Interpretación de un aumento proyectado en** $`\mathbf{C}_{\mathbf{bio}}`$
 
-If the pilot confirms a statistically significant upward shift in the log-scaled biological coherence index $`(\Delta C_{bio}^{\log} \geq 0.03,`$expected threshold$`)`$, the finding would support the central homeo-resonance hypothesis: acute, phase-aligned stimulation across acoustic, electromagnetic, photonic and respiratory channels can re-tighten multiscale phase-locking in otherwise healthy adults. Because $`C_{bio}`$ is a dimension-less ratio, even a modest numerical increase represents a non-linear gain in coherent power relative to incoherent noise, implying more efficient information and energy flow throughout neural, autonomic and metabolic networks.
+Si el piloto confirma un cambio ascendente estadísticamente significativo en el índice de coherencia biológica en escala logarítmica $`(\Delta C_{bio}^{\log}`$ \geq 0,03, umbral esperado), el hallazgo apoyaría la hipótesis central de homeo-resonancia: la estimulación aguda alineada en fase a través de canales acústicos, electromagnéticos, fotónicos y respiratorios puede reajustar el acoplamiento de fase multiescala en adultos por lo demás sanos. Dado que $`C_{bio}`$ es una razón adimensional, incluso un aumento numérico modesto representa una ganancia no lineal en potencia coherente relativa al ruido incoherente, implicando un flujo más eficiente de información y energía a través de las redes neurales, autonómicas y metabólicas.
 
-From the RTM perspective, such a shift would be interpreted as an empirical indication that the underlying temporal–spatial organisation is moving toward a higher-coherence regime, in line with an increase in the underlying RTM exponent $`\alpha_{RT}`$. However, as emphasised in Section 2.1.4, $`C_{bio}`$ is an *operational proxy* rather than a direct estimate of $`\alpha_{RT}`$. The pilot therefore tests whether an interpretable, multiscale coherence index can be shifted acutely in humans and whether that shift co-varies with standard physiological and inflammatory markers.
+Desde la perspectiva RTM, tal cambio se interpretaría como una indicación empírica de que la organización temporal-espacial subyacente se mueve hacia un régimen de mayor coherencia, en línea con un aumento en el exponente RTM subyacente $`\alpha_{RT}`$. Sin embargo, como se enfatizó en la Sección 2.1.4, $`C_{bio}`$ es un *proxy operacional* más que una estimación directa de $`\alpha_{RT}`$. El piloto evalúa por tanto si un índice de coherencia multiescala interpretable puede ser desplazado agudamente en humanos y si ese desplazamiento covaría con marcadores fisiológicos e inflamatorios estándar.
 
-**5.2 Position within the existing literature**
+**5.2 Posición dentro de la literatura existente**
 
-Single-modality studies have individually shown:
+Estudios de modalidad única han demostrado individualmente:
 
-- HRV-biofeedback raises vagal tone and reduces anxiety;
+- La biorretroalimentación de VFC eleva el tono vagal y reduce la ansiedad;
 
-- ELF-PEMF improves endothelial function and wound healing;
+- El CEMP-ELF mejora la función endotelial y la cicatrización de heridas;
 
-- 630–660 nm photobiomodulation down-regulates IL-6 and accelerates tissue repair;
+- La fotobiomodulación de 630–660 nm regula a la baja la IL-6 y acelera la reparación tisular;
 
-- 432 Hz music enhances cortico-cardiac synchrony.
+- La música a 432 Hz mejora la sincronía cortico-cardíaca.
 
-Our protocol is the first to synchronise all four modalities and to quantify the integrated outcome with $`C_{bio}`$. Should the anticipated effect materialise, it would argue that **synergy, not dose escalation, is the key to unlocking larger physiological shifts**, a conclusion in line with network-control models that predict supra-additive gains when multiple hubs are perturbed coherently.
+Nuestro protocolo es el primero en sincronizar las cuatro modalidades y cuantificar el resultado integrado con $`C_{bio}`$. Si el efecto anticipado se materializa, argumentaría que la **sinergia —no la escalación de dosis— es la clave para desbloquear cambios fisiológicos mayores**, una conclusión en línea con modelos de control de redes que predicen ganancias supra-aditivas cuando múltiples nodos centrales se perturban coherentemente.
 
-By providing a single, cross-modal index that integrates HRV, EEG and (in future phases) molecular rhythms, $`C_{bio}`$ also offers a way to compare and aggregate disparate interventions, respiratory training, neuromodulation, light therapy, architectural design, within one quantitative framework. This could help rationalise a currently fragmented literature in which “coherence” is often invoked qualitatively but rarely measured in a standardised way.
+Al proporcionar un índice único y transmodal que integra VFC, EEG y (en fases futuras) ritmos moleculares, $`C_{bio}`$ también ofrece una manera de comparar y agregar intervenciones dispares —entrenamiento respiratorio, neuromodulación, terapia de luz, diseño arquitectónico— dentro de un solo marco cuantitativo. Esto podría ayudar a racionalizar una literatura actualmente fragmentada en la que la "coherencia" se invoca frecuentemente de manera cualitativa pero rara vez se mide de forma estandarizada.
 
-**5.3 Limitations of the pilot design**
+**5.3 Limitaciones del diseño piloto**
 
-**Sample size & demographics.** Ten healthy adults offer feasibility data only; results cannot be generalised to clinical populations or to long-term effects.
+**Tamaño muestral y demografía.** Diez adultos sanos ofrecen solo datos de factibilidad; los resultados no pueden generalizarse a poblaciones clínicas ni a efectos a largo plazo.
 
-**Single exposure.** An acute boost in $`C_{bio}`$ may fade within hours; durability must be tested with repeated dosing and longitudinal follow-up.
+**Exposición única.** Un aumento agudo en $`C_{bio}`$ puede desvanecerse en horas; la durabilidad debe probarse con dosis repetidas y seguimiento longitudinal.
 
-**No sham arm.** Although sensory blinding is difficult with multimodal stimuli, a sham-controlled Phase II trial is essential to rule out expectancy and placebo contributions.
+**Sin brazo simulado.** Aunque el cegamiento sensorial es difícil con estímulos multimodales, un ensayo de Fase II con control simulado es esencial para descartar contribuciones de expectativa y placebo.
 
-**Sensor coverage.** Molecular rhythms were omitted in Phase I; without them $`C_{bio}`$ captures neural–autonomic coherence but not transcriptional synchrony.
+**Cobertura de sensores.** Los ritmos moleculares se omitieron en la Fase I; sin ellos, $`C_{bio}`$ captura la coherencia neural-autonómica pero no la sincronía transcripcional.
 
-**Safety margin.** The combined energy dose is below established safety limits, yet cumulative effects of daily sessions remain unknown. Even if acute changes in $`C_{bio}`$ are favourable, conservative, stepwise escalation and careful adverse-event monitoring will be required before moving into more vulnerable patient groups.
+**Margen de seguridad.** La dosis energética combinada está por debajo de los límites de seguridad establecidos; sin embargo, los efectos acumulativos de sesiones diarias permanecen desconocidos. Incluso si los cambios agudos en $`C_{bio}`$ son favorables, se requerirá una escalación conservadora y escalonada y un monitoreo cuidadoso de eventos adversos antes de pasar a grupos de pacientes más vulnerables.
 
-**5.4 Implications and next research steps**
+**5.4 Implicaciones y próximos pasos de investigación**
 
-**Phase II RCT.** A 30–40-participant, sham-controlled study will test durability over eight weeks and include at least one clinical endpoint (e.g., chronic-fatigue severity, pain scores, or autonomic-dysfunction indices).
+**ECA de Fase II.** Un estudio de 30–40 participantes con control simulado evaluará la durabilidad durante ocho semanas e incluirá al menos un criterio de valoración clínico (p. ej., gravedad de fatiga crónica, puntuaciones de dolor o índices de disfunción autonómica).
 
-**Coherence-scanner development.** Real-time coherence feedback could enable adaptive dosing, personalised to each individual’s dynamic $`C_{bio}(t)`$ trajectory. A portable “coherence scanner” would allow at-home monitoring, closed-loop adjustment of breathing/stimulation protocols, and large-scale data collection to refine normative ranges.
+**Desarrollo del escáner de coherencia.** La retroalimentación de coherencia en tiempo real podría permitir una dosificación adaptativa, personalizada según la trayectoria dinámica $`C_{bio}(t)`$ de cada individuo. Un "escáner de coherencia" portátil permitiría el monitoreo domiciliario, el ajuste en bucle cerrado de los protocolos de respiración/estimulación y la recolección de datos a gran escala para refinar los rangos normativos.
 
-**Clinical translation.** Populations with documented coherence loss, chronic pain, dysautonomia, metabolic syndrome, major depression, will be prioritised once safety and durability are proven in healthy volunteers. In such cohorts, even modest increases in $`C_{bio}`$ might translate into meaningful improvements in fatigue, sleep and autonomic stability.
+**Traducción clínica.** Las poblaciones con pérdida documentada de coherencia —dolor crónico, disautonomía, síndrome metabólico, depresión mayor— serán priorizadas una vez que se demuestren la seguridad y la durabilidad en voluntarios sanos. En tales cohortes, incluso aumentos modestos en $`C_{bio}`$ podrían traducirse en mejoras significativas en fatiga, sueño y estabilidad autonómica.
 
-**Mechanistic probes.** Parallel OMICs and functional-MRI sub-studies should map how changes in $`C_{bio}`$ correlate with immune timing, redox state and large-scale brain networks. This would help disentangle whether $`C_{bio}`$ primarily tracks autonomic tone, cortical network organisation, inflammatory status, or a composite of all three.
+**Sondas mecanísticas.** Subestudios paralelos de OMICs y RMf funcional deberían mapear cómo los cambios en $`C_{bio}`$ se correlacionan con la temporización inmune, el estado redox y las redes cerebrales a gran escala. Esto ayudaría a dilucidar si $`C_{bio}`$ rastrea principalmente el tono autonómico, la organización de redes corticales, el estado inflamatorio o un compuesto de los tres.
 
-**Protocol optimisation.** Future work will explore alternative frequency pairings, dose schedules and environmental parameters ($`\alpha_{\text{place}}`$) to identify minimal yet sufficient stimulus sets. Factorial designs could separate the individual and combined contributions of sound, PEMF, photobiomodulation and biofeedback to the overall change in $`C_{bio}`$.
+**Optimización del protocolo.** Trabajos futuros explorarán combinaciones alternativas de frecuencias, esquemas de dosificación y parámetros ambientales ($`\alpha_{\text{place}}`$) para identificar conjuntos de estímulos mínimos pero suficientes. Diseños factoriales podrían separar las contribuciones individuales y combinadas del sonido, CEMP, fotobiomodulación y biorretroalimentación al cambio global en $`C_{bio}`$.
 
-**5.5 Concluding perspective**
+**5.5 Perspectiva final**
 
-This study is intentionally scoped as a proof-of-mechanism. Demonstrating that $`C_{bio}`$ can be acutely elevated in humans, with safety, quantifiable effect size and a clear analytical pipeline, would mark a pivotal step toward an evidence-based **“coherence medicine.”** Whether sustained elevation of $`C_{bio}`$ (and the underlying $`\alpha_{RT}`$it is hypothesised to track) translates into clinically meaningful outcomes will now hinge on rigorous, longer-term trials and on the field’s ability to standardise both measurement and intervention across laboratories.
+Este estudio está intencionalmente delimitado como una prueba de mecanismo. Demostrar que $`C_{bio}`$ puede ser agudamente elevado en humanos, con seguridad, tamaño del efecto cuantificable y un flujo de análisis claro, marcaría un paso fundamental hacia una **"medicina de la coherencia"** basada en evidencia. Si la elevación sostenida de $`C_{bio}`$ (y del $`\alpha_{RT}`$ subyacente que hipotéticamente rastrea) se traduce en resultados clínicamente significativos dependerá ahora de ensayos rigurosos a más largo plazo y de la capacidad del campo para estandarizar tanto la medición como la intervención entre laboratorios.
 
-**6 Conclusions**
+**6 Conclusiones**
 
-This paper proposes and operationalises a **biological coherence index**, $`C_{bio}`$, as a practical way to bring the abstract machinery of Relativistic Temporal Multiscale (RTM) theory into contact with real, messy human physiology. Instead of attempting the impossible task of directly estimating the RTM scaling exponent $`\alpha_{RT}`$ from in vivo time–length pairs, we define a dimension-less ratio of coherent to incoherent spectral power across HRV and EEG and treat it as an empirical proxy for multiscale phase-locking.
+Este artículo propone y operacionaliza un **índice de coherencia biológica**, $`C_{bio}`$, como una forma práctica de poner en contacto la maquinaria abstracta de la teoría Multiescala Temporal Relativista (RTM) con la fisiología humana real y compleja. En lugar de intentar la tarea imposible de estimar directamente el exponente de escalamiento RTM $`\alpha_{RT}`$ a partir de pares tiempo–longitud in vivo, definimos una razón adimensional de potencia espectral coherente a incoherente a través de VFC y EEG y la tratamos como un proxy empírico del acoplamiento de fase multiescala.
 
-The Phase-I pilot protocol described here is deliberately modest. It is not intended to prove RTM, nor to claim therapeutic efficacy. Its goal is narrower and more basic:
+El protocolo piloto de Fase I descrito aquí es deliberadamente modesto. No pretende demostrar la RTM ni afirmar eficacia terapéutica. Su objetivo es más estrecho y básico:
 
-1.  **To test whether** $`C_{bio}`$ **can be shifted acutely** in a consistent direction by a single, 60-minute multimodal intervention.
+1.  **Evaluar si** $`C_{bio}`$ **puede ser desplazado agudamente** en una dirección consistente mediante una intervención multimodal única de 60 minutos.
 
-2.  **To evaluate safety, feasibility and data quality** when combining coherent sound, low-intensity PEMF, red-light photobiomodulation and real-time biofeedback in a carefully engineered high-$`\alpha_{\text{place}}`$ environment.
+2.  **Evaluar la seguridad, factibilidad y calidad de los datos** al combinar sonido coherente, CEMP de baja intensidad, fotobiomodulación con luz roja y biorretroalimentación en tiempo real en un entorno de alto $`\alpha_{\text{place}}`$ cuidadosamente diseñado.
 
-3.  **To generate concrete effect-size estimates and variance measures** that can inform the design of a properly powered, sham-controlled Phase II trial.
+3.  **Generar estimaciones concretas de tamaño del efecto y medidas de varianza** que puedan informar el diseño de un ensayo de Fase II con control simulado y potencia adecuada.
 
-If the anticipated increase in $`C_{bio}^{\log}`$ is observed, along with parallel shifts in HRV, EEG coherence and inflammatory markers, the study will provide initial support for the homeo-resonance hypothesis: that living systems can be nudged toward higher multiscale coherence by targeted, phase-aligned stimuli, without resorting to invasive procedures or pharmacological agents. If no such changes are found, the negative result will be equally informative, placing empirical constraints on how much “room” there is for acute coherence modulation under the chosen parameters.
+Si se observa el aumento anticipado en $`C_{bio}^{\log}`$, junto con cambios paralelos en VFC, coherencia del EEG y marcadores inflamatorios, el estudio proporcionará apoyo inicial a la hipótesis de homeo-resonancia: que los sistemas vivos pueden ser empujados hacia una mayor coherencia multiescala mediante estímulos dirigidos y alineados en fase, sin recurrir a procedimientos invasivos ni agentes farmacológicos. Si no se encuentran tales cambios, el resultado negativo será igualmente informativo, colocando restricciones empíricas sobre cuánto "margen" hay para la modulación aguda de coherencia bajo los parámetros elegidos.
 
-In either case, the protocol and analytical pipeline are meant to be **portable**. All hardware components are commercially obtainable; all analysis steps for $`C_{bio}`$ are specified in sufficient detail to be reproduced or critiqued in other laboratories. Data and code will be released under a permissive open license to encourage independent replication, refinement and refutation.
+En cualquier caso, el protocolo y el flujo de análisis están diseñados para ser **portátiles**. Todos los componentes de hardware son comercialmente obtenibles; todos los pasos de análisis para $`C_{bio}`$ están especificados con suficiente detalle para ser reproducidos o criticados en otros laboratorios. Los datos y el código se publicarán bajo una licencia abierta permisiva para fomentar la replicación, el refinamiento y la refutación independientes.
 
-Looking forward, the long-term vision is a progressive shift from isolated, modality-specific interventions to a more integrated **coherence medicine**, in which:
+De cara al futuro, la visión a largo plazo es un cambio progresivo de intervenciones aisladas y específicas por modalidad hacia una **medicina de la coherencia** más integrada, en la cual:
 
-- Multiscale biomarkers such as $`C_{bio}`$ provide continuous, quantitative feedback on systemic organisation.
+- Biomarcadores multiescala como $`C_{bio}`$ proporcionen retroalimentación continua y cuantitativa sobre la organización sistémica.
 
-- Architectural, acoustic, electromagnetic and behavioural interventions are tuned not only for comfort or symptom relief, but for their impact on whole-system coherence.
+- Las intervenciones arquitectónicas, acústicas, electromagnéticas y conductuales se calibren no solo para el confort o el alivio de síntomas, sino para su impacto en la coherencia del sistema completo.
 
-- The RTM framework offers a common language for comparing coherence across domains: from molecular clocks to neural networks, from individual physiology to group-level synchrony.
+- El marco RTM ofrezca un lenguaje común para comparar la coherencia entre dominios: desde relojes moleculares hasta redes neurales, desde la fisiología individual hasta la sincronía a nivel grupal.
 
-For now, these ambitions remain hypothetical. What is concrete is the invitation: to treat coherence not as a vague metaphor, but as a measurable, manipulable property of living systems, and to let $`C_{bio}`$, however provisional, serve as one of the first rulers with which we learn to measure it.
+Por ahora, estas ambiciones siguen siendo hipotéticas. Lo concreto es la invitación: tratar la coherencia no como una metáfora vaga, sino como una propiedad medible y manipulable de los sistemas vivos, y dejar que $`C_{bio}`$, por provisional que sea, sirva como una de las primeras reglas con las que aprendamos a medirla.
 
-**Appendix A**
+**Apéndice A**
 
-**Glossary of Symbols**
+**Glosario de símbolos**
 
-| **Symbol** | **Meaning** | **Typical units / notes** |
+| **Símbolo** | **Significado** | **Unidades típicas / notas** |
 |----|----|----|
-| **T** | Characteristic time scale | Seconds (s), minutes, hours |
-| **L** | Characteristic spatial scale | Metres (m), millimetres (mm), anatomical scale |
-| **α_RT** | RTM temporal–spatial scaling exponent (slope of log T vs log L) | Dimensionless |
-| **C_bio** | Biological coherence index (ratio of coherent to incoherent spectral power) | Dimensionless |
-| **C_bio^log** | Log-scaled biological coherence index, log₁₀(C_bio) | Dimensionless |
-| **ΔC_bio^log** | Change in log-scaled coherence index (post − pre) | Dimensionless |
-| **α_place** | Effective coherence parameter of the physical environment (“place coherence”) | Dimensionless |
-| **x_h(t)** | Instantaneous RR-interval time series (heart-rate variability signal) | Milliseconds (ms) or seconds (s) |
-| **x_e,k(t)** | EEG signal at channel k | Microvolts (µV) |
-| **x_m(t)** | Slow molecular or circadian rhythm (e.g., PER/CRY gene expression) | Arbitrary units (normalised expression) |
-| **S_i(f)** | Power spectral density of signal i at frequency f | Power / Hz (e.g., (µV²)/Hz) |
-| **PLV_i,j(f)** | Phase-locking value between signals i and j at frequency f | Dimensionless, 0–1 |
-| **C_i** | Set of coherent frequency bins for signal i (PLV above threshold) | Set of frequency indices |
-| **C̄\_i** | Set of incoherent frequency bins for signal i (complement of C_i) | Set of frequency indices |
-| **P_i^coh** | Total coherent power of signal i over C_i | Same units as S_i(f) integrated over frequency |
-| **P_i^inc** | Total incoherent power of signal i over C̄\_i | Same units as S_i(f) integrated over frequency |
-| **w_i** | Modality weight for signal i in the C_bio aggregation | Dimensionless, Σ_i w_i = 1 |
-| **θ_PLV** | PLV threshold used to classify frequency bins as coherent vs incoherent | Dimensionless (typically ≈ 0.70) |
-| **T₆₀** | Reverberation time of the room (time for acoustic energy to decay by 60 dB) | Seconds (s) |
-| **HRV** | Heart-rate variability | Not a symbol, shorthand for RR-interval variability |
-| **LF/HF** | Ratio of low- to high-frequency HRV power | Dimensionless |
-| **CRP** | C-reactive protein (systemic inflammatory marker) | mg/L |
-| **IL-6** | Interleukin-6 (pro-inflammatory cytokine) | pg/mL or ng/L |
-| **SAE** | Serious adverse event | Clinical safety term (no units) |
+| **T** | Escala de tiempo característico | Segundos (s), minutos, horas |
+| **L** | Escala espacial característica | Metros (m), milímetros (mm), escala anatómica |
+| **α_RT** | Exponente de escalamiento temporal-espacial de RTM (pendiente de log T vs log L) | Adimensional |
+| **C_bio** | Índice de coherencia biológica (razón de potencia espectral coherente a incoherente) | Adimensional |
+| **C_bio^log** | Índice de coherencia biológica en escala logarítmica, log₁₀(C_bio) | Adimensional |
+| **ΔC_bio^log** | Cambio en el índice de coherencia en escala logarítmica (post − pre) | Adimensional |
+| **α_place** | Parámetro de coherencia efectiva del entorno físico ("coherencia del lugar") | Adimensional |
+| **x_h(t)** | Serie temporal de intervalos RR instantáneos (señal de variabilidad de frecuencia cardíaca) | Milisegundos (ms) o segundos (s) |
+| **x_e,k(t)** | Señal EEG en el canal k | Microvoltios (µV) |
+| **x_m(t)** | Ritmo molecular o circadiano lento (p. ej., expresión génica PER/CRY) | Unidades arbitrarias (expresión normalizada) |
+| **S_i(f)** | Densidad espectral de potencia de la señal i a la frecuencia f | Potencia / Hz (p. ej., (µV²)/Hz) |
+| **PLV_i,j(f)** | Valor de acoplamiento de fase entre las señales i y j a la frecuencia f | Adimensional, 0–1 |
+| **C_i** | Conjunto de compartimentos de frecuencia coherentes para la señal i (PLV por encima del umbral) | Conjunto de índices de frecuencia |
+| **C̄\_i** | Conjunto de compartimentos de frecuencia incoherentes para la señal i (complemento de C_i) | Conjunto de índices de frecuencia |
+| **P_i^coh** | Potencia coherente total de la señal i sobre C_i | Mismas unidades que S_i(f) integrada sobre la frecuencia |
+| **P_i^inc** | Potencia incoherente total de la señal i sobre C̄\_i | Mismas unidades que S_i(f) integrada sobre la frecuencia |
+| **w_i** | Peso de modalidad para la señal i en la agregación de C_bio | Adimensional, Σ_i w_i = 1 |
+| **θ_PLV** | Umbral de PLV utilizado para clasificar compartimentos de frecuencia como coherentes vs incoherentes | Adimensional (típicamente ≈ 0,70) |
+| **T₆₀** | Tiempo de reverberación de la sala (tiempo para que la energía acústica decaiga 60 dB) | Segundos (s) |
+| **VFC** | Variabilidad de la frecuencia cardíaca | No es un símbolo, abreviatura de variabilidad del intervalo RR |
+| **LF/HF** | Razón de potencia VFC de baja a alta frecuencia | Adimensional |
+| **PCR** | Proteína C reactiva (marcador inflamatorio sistémico) | mg/L |
+| **IL-6** | Interleucina-6 (citocina proinflamatoria) | pg/mL o ng/L |
+| **EAG** | Evento adverso grave | Término de seguridad clínica (sin unidades) |
 
-**APPENDIX B — Computational Validation of RTM-Homeostasis Framework**
+**APÉNDICE B — Validación computacional del marco RTM-Homeostasis**
 
-**B.1 Overview**
+**B.1 Descripción general**
 
-This appendix presents computational validation of the biological coherence framework. Three simulation suites demonstrate:
+Este apéndice presenta la validación computacional del marco de coherencia biológica. Tres suites de simulación demuestran:
 
-1\. C_bio can be computed from HRV and stratifies health status (S1)
+1\. C_bio puede calcularse a partir de la VFC y estratifica el estado de salud (S1)
 
-2\. Multimodal stimulation acutely increases C_bio (S2)
+2\. La estimulación multimodal aumenta agudamente C_bio (S2)
 
-3\. C_bio predicts inflammatory marker levels (S3)
+3\. C_bio predice los niveles de marcadores inflamatorios (S3)
 
-**B.2 S1: C_bio Calculation from HRV**
+**B.2 S1: Cálculo de C_bio a partir de VFC**
 
-**B.2.1 Definition**
+**B.2.1 Definición**
 
-**C_bio = Σ(Coherent Power) / Σ(Incoherent Power)**
+**C_bio = Σ(Potencia coherente) / Σ(Potencia incoherente)**
 
-where coherent bins show phase-locking value \> 0.7 between oscillatory components.
+donde los compartimentos coherentes muestran un valor de acoplamiento de fase \> 0,7 entre componentes oscilatorios.
 
-**C_bio^log = log10(C_bio)** for interpretability.
+**C_bio^log = log10(C_bio)** para facilitar la interpretación.
 
-**B.2.2 Interpretation Guidelines**
+**B.2.2 Guías de interpretación**
 
-\| C_bio^log \| Interpretation \|
+\| C_bio^log \| Interpretación \|
 
 \|-----------\|----------------\|
 
-\| \> 0.20 \| High coherence (healthy) \|
+\| \> 0,20 \| Coherencia alta (saludable) \|
 
-\| 0.10-0.20 \| Intermediate \|
+\| 0,10-0,20 \| Intermedia \|
 
-\| \< 0.10 \| Low coherence (pathological) \|
+\| \< 0,10 \| Coherencia baja (patológica) \|
 
-**B.2.3 Population Results (n=200)**
+**B.2.3 Resultados poblacionales (n=200)**
 
-\| Health Status \| Mean C_bio^log \| SD \|
+\| Estado de salud \| Media C_bio^log \| DE \|
 
 \|---------------\|----------------\|-----\|
 
-\| Healthy \| 0.22 \| 0.04 \|
+\| Saludable \| 0,22 \| 0,04 \|
 
-\| Pre-clinical \| 0.14 \| 0.03 \|
+\| Preclínico \| 0,14 \| 0,03 \|
 
-\| Clinical \| 0.08 \| 0.03 \|
+\| Clínico \| 0,08 \| 0,03 \|
 
-**B.2.4 Age Effect**
+**B.2.4 Efecto de la edad**
 
-\- Slope: -0.002 per year (after age 30)
+\- Pendiente: -0,002 por año (después de los 30 años)
 
-\- Interpretation: ~10% decline per decade
+\- Interpretación: ~10 % de declive por década
 
-**B.3 S2: Stimulation Response Model**
+**B.3 S2: Modelo de respuesta a la estimulación**
 
-**B.3.1 Protocol**
+**B.3.1 Protocolo**
 
-\| Modality \| Parameters \| Weight \|
+\| Modalidad \| Parámetros \| Peso \|
 
 \|----------\|------------\|--------\|
 
-\| Acoustic \| 174-432 Hz coherent tones \| 0.30 \|
+\| Acústica \| Tonos coherentes 174-432 Hz \| 0,30 \|
 
-\| PEMF \| 7.83 Hz, 10 µT \| 0.25 \|
+\| CEMP \| 7,83 Hz, 10 µT \| 0,25 \|
 
-\| Light \| 635 nm, 50 mW/cm² \| 0.25 \|
+\| Luz \| 635 nm, 50 mW/cm² \| 0,25 \|
 
-\| Biofeedback \| Real-time HRV coherence \| 0.35 \|
+\| Biorretroalimentación \| Coherencia VFC en tiempo real \| 0,35 \|
 
-Duration: 60 minutes
+Duración: 60 minutos
 
-**B.3.2 Response Dynamics**
+**B.3.2 Dinámica de respuesta**
 
-C_bio(t) follows exponential approach during stimulation (τ_rise ≈ 10 min), exponential decay afterward (τ_decay ≈ 30 min).
+C_bio(t) sigue una aproximación exponencial durante la estimulación (τ_ascenso ≈ 10 min), decaimiento exponencial posterior (τ_decaimiento ≈ 30 min).
 
-**B.3.3 Protocol Comparison**
+**B.3.3 Comparación de protocolos**
 
-\| Protocol \| ΔC_bio^log \| % Change \|
+\| Protocolo \| ΔC_bio^log \| % Cambio \|
 
 \|----------\|------------\|----------\|
 
-\| Full Multimodal \| +0.085 \| +47% \|
+\| Multimodal completo \| +0,085 \| +47 % \|
 
-\| Acoustic + Biofeedback \| +0.044 \| +24% \|
+\| Acústica + Biorretroalimentación \| +0,044 \| +24 % \|
 
-\| Low Intensity Full \| +0.043 \| +24% \|
+\| Multimodal completo baja intensidad \| +0,043 \| +24 % \|
 
-\| Light Only (High) \| +0.020 \| +11% \|
+\| Solo luz (alta) \| +0,020 \| +11 % \|
 
-**Key finding:** Multimodal \> sum of single modalities (synergy factor ~1.2)
+**Hallazgo clave:** Multimodal \> suma de modalidades individuales (factor de sinergia ~1,2)
 
-**B.4 S3: Inflammatory Marker Prediction**
+**B.4 S3: Predicción de marcadores inflamatorios**
 
-**B.4.1 Model**
+**B.4.1 Modelo**
 
-Markers scale inversely with C_bio:
+Los marcadores escalan inversamente con C_bio:
 
-**Marker = Baseline × Age_factor × exp(-k × (C_bio - threshold))**
+**Marcador = Línea_base × Factor_edad × exp(-k × (C_bio - umbral))**
 
-\| Marker \| k \| Threshold \| Normal Range \|
+\| Marcador \| k \| Umbral \| Rango normal \|
 
 \|--------\|---\|-----------\|--------------\|
 
-\| CRP \| 8 \| 0.15 \| \< 3 mg/L \|
+\| PCR \| 8 \| 0,15 \| \< 3 mg/L \|
 
-\| IL-6 \| 10 \| 0.12 \| \< 7 pg/mL \|
+\| IL-6 \| 10 \| 0,12 \| \< 7 pg/mL \|
 
-\| TNF-α \| 6 \| 0.10 \| \< 8 pg/mL \|
+\| TNF-α \| 6 \| 0,10 \| \< 8 pg/mL \|
 
-**B.4.2 Population Correlations (n=150)**
+**B.4.2 Correlaciones poblacionales (n=150)**
 
-\| Relationship \| Correlation \| p-value \|
+\| Relación \| Correlación \| Valor p \|
 
 \|--------------\|-------------\|---------\|
 
-\| C_bio vs CRP \| r = -0.85 \| \< 0.001 \|
+\| C_bio vs PCR \| r = -0,85 \| \< 0,001 \|
 
-\| C_bio vs IL-6 \| r = -0.74 \| \< 0.001 \|
+\| C_bio vs IL-6 \| r = -0,74 \| \< 0,001 \|
 
-**B.4.3 Stimulation Effects on Markers**
+**B.4.3 Efectos de la estimulación sobre los marcadores**
 
-For ΔC_bio^log = +0.07 (typical stimulation):
+Para ΔC_bio^log = +0,07 (estimulación típica):
 
-\| Marker \| Reduction \|
+\| Marcador \| Reducción \|
 
 \|--------\|-----------\|
 
-\| CRP \| -43% \|
+\| PCR \| -43 % \|
 
-\| IL-6 \| -50% \|
+\| IL-6 \| -50 % \|
 
-**B.5 Summary of Computational Validation**
+**B.5 Resumen de la validación computacional**
 
-\| Test \| Metric \| Result \|
+\| Prueba \| Métrica \| Resultado \|
 
 \|------\|--------\|--------\|
 
-\| Health stratification \| Effect size (Healthy vs Clinical) \| 0.14 \|
+\| Estratificación por salud \| Tamaño del efecto (Saludable vs Clínico) \| 0,14 \|
 
-\| Stimulation response \| Max ΔC_bio \| +47% \|
+\| Respuesta a la estimulación \| Máx. ΔC_bio \| +47 % \|
 
-\| CRP correlation \| r \| -0.85 \|
+\| Correlación con PCR \| r \| -0,85 \|
 
-\| IL-6 correlation \| r \| -0.74 \|
+\| Correlación con IL-6 \| r \| -0,74 \|
 
-\| Anti-inflammatory effect \| CRP reduction \| 43% \|
+\| Efecto antiinflamatorio \| Reducción de PCR \| 43 % \|
 
-**B.6 Falsifiable Predictions**
+**B.6 Predicciones falsificables**
 
-The framework fails if:
+El marco falla si:
 
-1\. **No stratification:** C_bio does not differ by health status
+1\. **Sin estratificación:** C_bio no difiere según el estado de salud
 
-2\. **No response:** Stimulation does not increase C_bio
+2\. **Sin respuesta:** La estimulación no aumenta C_bio
 
-3\. **No inflammation link:** C_bio uncorrelated with CRP/IL-6
+3\. **Sin vínculo inflamatorio:** C_bio no correlacionado con PCR/IL-6
 
-4\. **No synergy:** Multimodal not better than single modality
+4\. **Sin sinergia:** Multimodal no es mejor que modalidad única
 
-**B.7 Clinical Protocol**
+**B.7 Protocolo clínico**
 
-**Pre-assessment:**
+**Evaluación previa:**
 
-1\. 5-min resting ECG
+1\. ECG en reposo de 5 min
 
-2\. Blood draw for CRP, IL-6
+2\. Extracción sanguínea para PCR, IL-6
 
-3\. Compute baseline C_bio^log
+3\. Calcular C_bio^log de línea base
 
-**Intervention:**
+**Intervención:**
 
-1\. 60-min multimodal stimulation
+1\. Estimulación multimodal de 60 min
 
-2\. Real-time C_bio biofeedback
+2\. Biorretroalimentación de C_bio en tiempo real
 
-**Post-assessment (30 min after):**
+**Evaluación posterior (30 min después):**
 
-1\. Repeat 5-min ECG
+1\. Repetir ECG de 5 min
 
-2\. Blood draw
+2\. Extracción sanguínea
 
-3\. Compute post C_bio^log
+3\. Calcular C_bio^log post
 
-**Expected outcomes:**
+**Resultados esperados:**
 
-\- C_bio^log: +15-20%
+\- C_bio^log: +15-20 %
 
-\- CRP: -20-40%
+\- PCR: -20-40 %
 
-\- IL-6: -25-50%
+\- IL-6: -25-50 %
 
-**APPENDIX C — Empirical Analysis: HRV, Aging, and Pathological Collapse**
+**APÉNDICE C — Análisis empírico: VFC, envejecimiento y colapso patológico**
 
-**C.1. Motivation**
+**C.1. Motivación**
 
-Rhythmic Homeostasis proposes that the body's control systems are not merely "reactive" but "predictive," maintaining a specific multiscale temporal structure ($`\alpha \approx 1.0`$). We tested whether this structure degrades predictably with age and chronic disease.
+La homeostasis rítmica propone que los sistemas de control del cuerpo no son meramente "reactivos" sino "predictivos", manteniendo una estructura temporal multiescala específica ($`\alpha \approx 1.0`$). Evaluamos si esta estructura se degrada de manera predecible con la edad y la enfermedad crónica.
 
-**C.2. Heuristic Observation vs. Confounding Variables**
+**C.2. Observación heurística vs. variables confusoras**
 
-Initial categorical boxplot analysis of subjects (Young, Elderly, Heart Failure) suggested distinct regimes of coherence: Young Healthy ($`\alpha \approx 1.05`$), Elderly Healthy ($`\alpha \approx 0.81`$), and Heart Failure ($`\alpha \approx 0.55`$). However, this heuristic approach suffered from a critical confounding variable: the CHF cohort averaged 60 years of age, making it impossible to mathematically distinguish the natural decay of aging from the specific topological penalty of the disease.
+El análisis categórico inicial por diagramas de caja de los sujetos (Jóvenes, Ancianos, Insuficiencia Cardíaca) sugirió regímenes distintos de coherencia: Jóvenes Sanos ($`\alpha \approx 1.05`$), Ancianos Sanos ($`\alpha \approx 0.81`$) e Insuficiencia Cardíaca ($`\alpha \approx 0.55`$). Sin embargo, este enfoque heurístico adolecía de una variable confusora crítica: la cohorte de ICC promediaba 60 años de edad, haciendo imposible distinguir matemáticamente el decaimiento natural del envejecimiento de la penalización topológica específica de la enfermedad.
 
-**C.3. Robust Multivariable Isolation**
+**C.3. Aislamiento multivariable robusto**
 
-To rigorously isolate pathology from chronological age, we deployed a Multivariable Linear Regression model, treating age as a continuous physical decay variable. This allowed the model to calculate the exact independent topological penalty imposed by Heart Failure.
+Para aislar rigurosamente la patología de la edad cronológica, desplegamos un modelo de Regresión Lineal Multivariable, tratando la edad como una variable continua de decaimiento físico. Esto permitió al modelo calcular la penalización topológica independiente exacta impuesta por la Insuficiencia Cardíaca.
 
-**C.4. The Pathological Phase Transition**
+**C.4. La transición de fase patológica**
 
-The multivariable model ($`R^{2} = 0.97,p < 10^{- 11}`$) revealed two distinct physical realities:
+El modelo multivariable ($`R^{2} = 0.97,p < 10^{- 11}`$) reveló dos realidades físicas distintas:
 
-- **Healthy Aging:** Slowly bleeds structural coherence at a constant, highly predictable rate of $`\mathbf{- 0.0048}`$ $`\mathbf{\alpha}`$ **per year**.
+- **Envejecimiento saludable:** Pierde coherencia estructural lentamente a una tasa constante y altamente predecible de $`\mathbf{- 0.0048}`$ $`\mathbf{\alpha}`$ **por año**.
 
-- **Pathological Collapse:** Once age is mathematically controlled for, the presence of Heart Failure imposes a catastrophic, independent topological penalty of $`\mathbf{\Delta\alpha}\mathbf{= \  - 0.322}`$ ($`p < 10^{- 10}`$).
+- **Colapso patológico:** Una vez que se controla matemáticamente la edad, la presencia de Insuficiencia Cardíaca impone una penalización topológica catastrófica e independiente de $`\mathbf{\Delta\alpha}\mathbf{= \  - 0.322}`$ ($`p < 10^{- 10}`$).
 
-**Conclusion:** The RTM framework mathematically proves that pathology is not merely "accelerated aging." While healthy aging is a linear thermodynamic leak, disease represents an abrupt, non-linear multiscale phase transition where the cardiac network's memory is fundamentally shattered.
+**Conclusión:** El marco RTM demuestra que la patología no es simplemente envejecimiento acelerado. El envejecimiento saludable es un decaimiento lineal y predecible ($`-0.0048`$ /año); la ICC impone una penalización independiente y catastrófica ($`\Delta\alpha = -0.322`$, equivalente a ~68 años de envejecimiento). Esto es consistente con que la ICC represente una transición de fase topológica abrupta en lugar de un declive continuo. El resultado fue replicado de forma independiente en la campaña de flanqueo de abril de 2026 ($`\Delta\alpha = -0.323`$) utilizando un enfoque metodológico diferente. **Métrica clínica recomendada:** $`\alpha \times`$ IC (Apéndice E) supera a $`\alpha`$ solo (d: 1,25 $`\rightarrow`$ 3,28) y es la herramienta de diagnóstico bidimensional recomendada.
 
-**APPENDIX D — Empirical Validation: Cardiac Arrhythmias as Topological Decay**
+**APÉNDICE D — Validación empírica: Arritmias cardíacas como decaimiento topológico**
 
-**D.1. The Healthy Heart at the Edge of Chaos**
+**D.1. El corazón sano al borde del caos**
 
-Under the RTM framework, biological homeostasis is a dynamic, multiscale critical state. Detrended Fluctuation Analysis (DFA) of normal sinus rhythm confirms this prediction: healthy cardiac dynamics exhibit fractal scaling with a robust exponent of $`\mathbf{\alpha}_{\mathbf{1}}\mathbf{= 1.03}\mathbf{\pm}\mathbf{0.16}`$. This Critical Transport Class allows the network to maintain long-range correlations where past beats influence future beats, providing optimal adaptability.
+Bajo el marco RTM, la homeostasis biológica es un estado crítico dinámico y multiescala. El Análisis de Fluctuación sin Tendencia (DFA) del ritmo sinusal normal confirma esta predicción: la dinámica cardíaca saludable exhibe escalamiento fractal con un exponente robusto de $`\mathbf{\alpha}_{\mathbf{1}}\mathbf{= 1.03}\mathbf{\pm}\mathbf{0.16}`$. Esta Clase de Transporte Crítico permite a la red mantener correlaciones de largo alcance donde los latidos pasados influyen en los futuros, proporcionando una adaptabilidad óptima.
 
-**D.2. Correcting the Ecological Fallacy**
+**D.2. Corrección de la falacia ecológica**
 
-Initial aggregated analysis of CHF progression (NYHA Class I to IV) yielded a suspiciously perfect linear correlation ($`r\  = \  - 0.99`$). However, this constituted an "ecological fallacy" by averaging away the massive natural variance inherent to human clinical populations. To rigorously test the RTM prediction, we reconstructed the full individual patient variance using Monte Carlo subject-level simulations based on reported clinical standard deviations.
+El análisis agregado inicial de la progresión de la ICC (Clase NYHA I a IV) arrojó una correlación lineal sospechosamente perfecta ($`r\  = \  - 0.99`$). Sin embargo, esto constituyó una "falacia ecológica" al promediar la enorme varianza natural inherente a las poblaciones clínicas humanas. Para probar rigurosamente la predicción de RTM, reconstruimos la varianza completa a nivel de paciente individual usando simulaciones de Monte Carlo basadas en las desviaciones estándar clínicas reportadas.
 
-**D.3. Pathological Loss of Multiscale Complexity**
+**D.3. Pérdida patológica de la complejidad multiescala**
 
-Even when absorbing extreme human variance, cardiac pathologies force a mathematically predictable deviation from criticality:
+Incluso al absorber la varianza humana extrema, las patologías cardíacas fuerzan una desviación matemáticamente predecible de la criticalidad:
 
-- **Congestive Heart Failure (CHF):** The robust subject-level correlation remains highly significant ($`\mathbf{r = - 0.43,p < 1}\mathbf{0}^{\mathbf{- 10}}`$). As severity progresses to NYHA Class IV, the system collapses from criticality to uncorrelated white noise ($`\mathbf{\alpha}_{\mathbf{1}}\mathbf{= 0.53}\mathbf{\pm}\mathbf{0.31}`$). Multiscale Entropy (MSE) analysis supports this, showing healthy systems maintain high entropy across all scales (CI = 8.7), whereas pathological states like Atrial Fibrillation drop drastically (CI = 4.2).
+- **Insuficiencia cardíaca congestiva (ICC):** La correlación robusta a nivel de sujeto permanece altamente significativa ($`\mathbf{r = - 0.43,p < 1}\mathbf{0}^{\mathbf{- 10}}`$). A medida que la gravedad progresa a Clase NYHA IV, el sistema colapsa de la criticalidad al ruido blanco no correlacionado ($`\mathbf{\alpha}_{\mathbf{1}}\mathbf{= 0.53}\mathbf{\pm}\mathbf{0.31}`$). El análisis de Entropía Multiescala (MSE) respalda esto, mostrando que los sistemas sanos mantienen alta entropía en todas las escalas (IC = 8,7), mientras que los estados patológicos como la Fibrilación Auricular caen drásticamente (IC = 4,2).
 
-- **Lethal Arrhythmias:** The MIT-BIH Arrhythmia analysis demonstrates that fast arrhythmias act as topological fractures. Ventricular tachycardia and ventricular fibrillation push the cardiac network into extreme chaotic, anti-correlated transport classes ($`\alpha \approx 0.4`$ and $`\alpha \approx 0.35`$, respectively).
+- **Arritmias letales:** El análisis del MIT-BIH Arrhythmia demuestra que las arritmias rápidas actúan como fracturas topológicas. La taquicardia ventricular y la fibrilación ventricular empujan a la red cardíaca hacia clases de transporte caóticas extremas y anti-correlacionadas ($`\alpha \approx 0.4`$ y $`\alpha \approx 0.35`$, respectivamente).
 
-**D.4. Predictive Diagnostic Power**
+**D.4. Poder diagnóstico predictivo**
 
-Because RTM geometrically categorizes the heart's multiscale topology, the $`\alpha_{1}`$ exponent serves as a direct biomarker for mortality. Data from the FINCAVAS study (n=3,900) demonstrates that patients falling into the lowest $`\alpha_{1}`$ quartile (\< 0.75) experience a 2.4-fold increase in the hazard ratio for Sudden Cardiac Death (SCD) compared to those maintaining optimal critical scaling. This strictly validates $`\alpha_{1}`$ as a non-invasive, predictive metric of systemic physiological collapse.
+Dado que RTM categoriza geométricamente la topología multiescala del corazón, el exponente $`\alpha_{1}`$ sirve como biomarcador directo de mortalidad. Los datos del estudio FINCAVAS (n=3.900) demuestran que los pacientes que caen en el cuartil más bajo de $`\alpha_{1}`$ (\< 0,75) experimentan un aumento de 2,4 veces en la razón de riesgo para Muerte Súbita Cardíaca (MSC) en comparación con aquellos que mantienen un escalamiento crítico óptimo. Esto respalda $`\alpha_{1}`$ como un marcador no invasivo de organización cardíaca sistémica con valor significativo de predicción de mortalidad. La campaña de flanqueo (Apéndice E.3) extendió este hallazgo: la escalera de gravedad arrítmica ($`\rho = -0.957`$, 10 tipos, 1/9 violaciones) demuestra que el espectro clínico completo desde la ectopia benigna hasta la fibrilación letal se mapea monotónicamente a la clasificación topológica RTM. Ritmo Sinusal Normal (Balístico, $`\alpha = 1.05`$) hasta Fibrilación Ventricular (Anti-correlacionado, $`\alpha = 0.35`$).
 
-*© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
+### APÉNDICE E — Campaña de flanqueo: Hallazgos cardíacos novedosos de RTM (abril de 2026)
 
+Este apéndice presenta los hallazgos de ocho flanqueos analíticos independientes aplicados a los conjuntos de datos cardíacos de PhysioNet (escalamiento DFA, arritmias MIT-BIH, MSE, Poincaré, análisis espectral) y datos de envejecimiento de VFC ($`n = 18`$ sujetos). Cinco de ocho flanqueos produjeron resultados positivos. Todos los cálculos son reproducibles mediante rtm_cardiac_flanks.py.
+
+**E.1 El amplificador $`\alpha \times`$ IC**
+
+RTM predice que la salud cardíaca requiere TANTO el exponente temporal correcto ($`\alpha`$) COMO la complejidad multiescala intacta (IC = Índice de Complejidad MSE). Probando el producto $`\alpha \times`$ IC vs. cada dimensión por separado:
+
+**Sanos vs. ICC (nivel de sujeto simulado, $`n = 129`$):**
+
+| Métrica | d de Cohen | AUC |
+|--------|------------|-----|
+| $`\alpha`$ solo | +1,25 | 0,813 |
+| IC solo | +4,54 | 1,000 |
+| **$`\alpha \times`$ IC** | **+3,28** | **0,994** |
+
+El producto más que duplica el tamaño del efecto de $`\alpha`$ solo. Este es el análogo cardíaco del hallazgo de consciencia $`\alpha \times R^2`$ (Doc 011): combinar el exponente con una métrica de calidad amplifica consistentemente la discriminación.
+
+**Sanos vs. Sobrevivientes post-IM:**
+
+| Métrica | d de Cohen |
+|--------|------------|
+| $`\alpha`$ solo | +1,92 |
+| **$`\alpha \times`$ IC** | **+3,07** |
+
+**Recomendación clínica:** $`\alpha \times`$ IC es la métrica de diagnóstico cardíaco RTM bidimensional preferida. Ninguna dimensión por separado captura lo que ambas juntas revelan.
+
+**E.2 El ejercicio como dosis-respuesta topológica**
+
+RTM predice que $`\alpha`$ debería declinar monotónicamente con la intensidad del ejercicio (transición topológica de la Clase Crítica a la de Ruido Blanco):
+
+| Intensidad | $`\alpha`$ |
+|-----------|----------|
+| Reposo | 1,05 |
+| Ligera | 0,95 |
+| Moderada | 0,75 |
+| Alta | 0,50 |
+
+Spearman $`\rho = -0.971`$, $`p = 0.001`$. **Hallazgo crítico:** el declive se acelera:
+
+| Transición | $`\Delta\alpha`$ |
+|-----------|-------------|
+| Reposo → Ligera | 0,100 |
+| Ligera → Moderada | 0,200 |
+| **Moderada → Alta** | **0,250** |
+
+El último paso (cruzar a la clase de Ruido Blanco) es el más pronunciado, consistente con la predicción de RTM de que los límites de fase involucran transiciones más abruptas que el movimiento dentro de la fase. Este patrón refleja el hallazgo de la escalera NYHA (E.3).
+
+**E.3 Escalera de gravedad arrítmica**
+
+La gravedad cardíaca clínica se mapea casi perfectamente a la clase de transporte RTM:
+
+| Clase RTM | $`\alpha`$ | Tipo de arritmia |
+|-----------|---------|----------------|
+| Crítica ($`\alpha \approx 1`$) | 1,05 | Ritmo Sinusal Normal |
+| Sub-crítica | 0,85 | Latido Auricular Prematuro |
+| Sub-crítica | 0,82 | Ectopia Supraventricular |
+| Sub-crítica | 0,80-0,75 | Ventricular Prematuro / Fusión |
+| Ruido Blanco | 0,55 | Fibrilación Auricular |
+| Ruido Blanco | 0,45 | Aleteo Auricular |
+| Anti-correlacionada | 0,40 | Taquicardia Ventricular |
+| Anti-correlacionada | 0,35 | **Fibrilación Ventricular (letal)** |
+
+Spearman $`\rho = -0.957`$, $`p < 10^{-4}`$. Solo 1 de 9 transiciones es no monotónica (Escape Ventricular en gravedad 2 tiene $`\alpha = 0.90`$, ligeramente por encima de Auricular Prematuro en gravedad 1). La escalera de gravedad clínica ES la escalera topológica.
+
+**E.4 Escalera NYHA**
+
+| Clase NYHA | $`\alpha`$ | $`\sigma`$ | $d$ vs. siguiente clase |
+|------------|---------|---------|------------------|
+| I | 0,90 | 0,20 | +0,48 |
+| II | 0,80 | 0,22 | +0,43 |
+| III | 0,70 | 0,25 | +0,57 |
+| IV | 0,55 | 0,28 | — |
+
+Ajuste lineal: $`\alpha = -0.115 \times`$ NYHA $`+ 1.01`$, $`R^2 = 0.989`$. El paso III → IV ($`\Delta\alpha = 0.15`$) es 50 % más pronunciado que I → II ($`\Delta\alpha = 0.10`$), consistente con el hallazgo del ejercicio: el último paso hacia el Ruido Blanco es el más abrupto.
+
+**E.5 Replicación de la penalización por ICC**
+
+La penalización por ICC de $`\Delta\alpha = -0.322`$ del Apéndice C fue replicada de forma independiente en la campaña de flanqueo utilizando una metodología diferente (regresión solo con sujetos sanos extrapolada a edades de ICC):
+
+- Resultado ROBUSTO (Apéndice C): $`\Delta\alpha = -0.322`$ (equivalente a ~67 años)
+- Replicación de flanqueo: $`\Delta\alpha = -0.323`$ (equivalente a ~68 años)
+
+La concordancia casi exacta ($`< 0.3\%`$ de diferencia) entre métodos independientes confirma la robustez del hallazgo.
+
+**E.6 Resumen**
+
+| Flanqueo | Resultado | Métrica clave | Para RTM |
+|-------|--------|-----------|---------|
+| Amplificador $`\alpha \times`$ IC | **FUERTE** | d: 1,25 → 3,28 | La métrica 2D es la herramienta correcta |
+| Dosis-respuesta al ejercicio | **GENUINO** | $`\rho = -0.971`$, acelerado | Predicción específica de RTM confirmada |
+| Escalera de gravedad arrítmica | **MAYOR** | $`\rho = -0.957`$, 1/9 violaciones | Gravedad clínica = clase topológica |
+| Escalera NYHA | CONFIRMATORIO | $`R^2 = 0.989`$, III→IV más pronunciado | Coincide con el patrón de ejercicio |
+| Replicación de penalización ICC | **EXACTO** | $`\Delta\alpha`$: −0,322 vs −0,323 | Robustez cruzada entre métodos confirmada |
+| Conspiración de Poincaré | LIMITADO | Solo 5 pares emparejados | No concluyente — necesita n > 20 |
+| Potencia espectral vs. $`\alpha`$ | LIMITADO | Solo 7 puntos emparejados | No concluyente — necesita más datos |
+| Límite de trasplante | CONFIRMATORIO | SD1 = 8ms (variabilidad cero) | Consistente, anecdótico |
+
+*© 2026 Álvaro José Quiceno Rendón. Este documento se distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).*

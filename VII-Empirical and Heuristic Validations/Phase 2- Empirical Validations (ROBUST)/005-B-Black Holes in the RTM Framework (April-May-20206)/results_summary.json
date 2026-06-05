@@ -1,0 +1,46 @@
+{
+  "test1": {
+    "status": "VERIFIED",
+    "n_events": 55
+  },
+  "test2": {
+    "ols_alpha": 1.032,
+    "ols_se": 0.018,
+    "ols_r2": 0.9841,
+    "odr_alpha": 1.0374,
+    "odr_se": 0.0181,
+    "theilsen_alpha": 1.0426,
+    "theilsen_ci": [
+      1.0103,
+      1.0742
+    ],
+    "odr_spin_alpha": 1.0238,
+    "odr_spin_se": 0.0179
+  },
+  "test3": {
+    "alpha_1_expected_from_GR": true,
+    "eta_Mtotal_rho": 0.389,
+    "eta_Mtotal_p": 0.0034
+  },
+  "test4": {
+    "loo_min": 1.0175,
+    "loo_max": 1.0589
+  },
+  "test5": {
+    "boot_mean": 1.0098,
+    "boot_std": 0.0469,
+    "ci": [
+      0.9224,
+      1.1067
+    ],
+    "alpha_1_in_ci": true
+  },
+  "test6": {
+    "perm_p": 0.0,
+    "signal_real": true
+  },
+  "test7": {
+    "confirms_GR": true,
+    "confirms_RTM_classification": true
+  }
+}

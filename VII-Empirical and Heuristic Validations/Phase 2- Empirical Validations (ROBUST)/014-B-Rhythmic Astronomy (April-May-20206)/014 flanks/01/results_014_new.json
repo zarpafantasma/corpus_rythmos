@@ -1,0 +1,32 @@
+{
+  "test_A_partial_correlation": {
+    "r_partial": -0.5048,
+    "p_partial": "1.91e-12",
+    "rho_partial": -0.5579,
+    "p_partial_s": "2.24e-15",
+    "significant": "YES",
+    "verdict": "Structure predicts slope BEYOND mass. Genuine RTM evidence."
+  },
+  "test_B_baryonic_fraction": {
+    "rho": -0.3314,
+    "p": "9.51e-06",
+    "significant": "YES",
+    "verdict": "Higher baryonic fraction \u2192 more Keplerian. Expected physics."
+  },
+  "test_C_multivariate": {
+    "r2_mass_only": 0.4399,
+    "r2_struct_only": 0.2987,
+    "r2_full": 0.5853,
+    "delta_r2": 0.1454,
+    "f_test_p": "1.26e-11",
+    "struct_adds_value": "YES",
+    "verdict": "Structure+baryon add 14.5% explained variance beyond mass. STRONG."
+  },
+  "test_D_transition": {
+    "rho": -0.2541,
+    "p": "7.99e-04",
+    "significant": "YES",
+    "verdict": "More structured galaxies \u2192 larger inner-outer transition."
+  },
+  "overall": "Four independent tests all show structure matters beyond mass. Revises score upward."
+}

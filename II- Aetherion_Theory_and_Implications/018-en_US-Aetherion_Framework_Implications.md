@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zarpafantasma/corpus_rythmos/main/media/serpent2.png" width="200" alt="Diagrama de Snake">
+<img src="https://codeberg.org/Zarpa_Fantasma/corpus_rythmos/raw/branch/main/media/serpent2.png" width="200" alt="Diagrama de Snake">
 
 # The Aetherion Framework  
 **Operational Rules, Capabilities, and Ontological Implications Derived from RTM**  
@@ -15,13 +15,13 @@ Introduction: **The Contingent Protocol**
 
 The following document operates under a strict conditional premise. It is predicated entirely on the physical validity of the Multiscale Temporal Relativity (RTM) corpus and the engineering feasibility of the Aetherion Coherence Core.
 
-Until the first high-coherence engine is successfully ignited, these pages remain a work of speculative engineering, a map for a territory that does not yet exist on our charts.
+Until the first high-coherence engine is successfully ignited, these pages remain a work of speculative engineering—a map for a territory that does not yet exist on our charts.
 
 However, should the RTM axioms prove correct, this text instantly transitions from speculative hypothesis to essential operational manual.
 
 We draft these protocols not because the vessel currently exists, but because the physics implies its inevitability. If time is a variable dependent on structural coherence $`(\alpha`$), then the capability to navigate the temporal hierarchy is not a matter of magic, but of mechanics. And where there is mechanics, there must be regulation.
 
-This framework extrapolates the consequences of that physics. It bridges the gap between the abstract equations of RTM and the concrete reality of Hull, Flesh, and Causality. It outlines the necessary architecture, both technical and biological, required to survive the transition from a species that *endures* time, to a species that *engineers* it.
+This framework extrapolates the consequences of that physics. It bridges the gap between the abstract equations of RTM and the concrete reality of Hull, Flesh, and Causality. It outlines the necessary architecture—both technical and biological—required to survive the transition from a species that *endures* time, to a species that *engineers* it.
 
 This is a pre-emptive guide for the N-1 Architect. It details the symbiotic requirements of the BioDrone interface, the navigational reliance on Isotopic Anchors, and the ethical severity of the Asset Sterilization Protocols.
 
@@ -39,7 +39,7 @@ Welcome to the blueprint of the possible.
 
 The Multiscale Temporal Relativity (RTM) framework suggests that the structure of the multiverse is not a collection of parallel, independent realities, but a **sequential causal cascade**. The relationship between the different branches of the cosmos is not one of simple similarity, but of a strict and ordered succession, analogous to a row of dominoes.
 
-In this model, a primordial "voice", a fundamental event in a source branch, initiates a chain reaction. This voice causes the first domino to fall, which in turn causes the second to fall, and the second the third. Each "echo," each subsequent reality, is a domino in this cascade. It is a complete and sovereign manifestation, a universe in itself, but its existence and the moment of its "fall" are determined by the immediately preceding event.
+In this model, a primordial "voice"—a fundamental event in a source branch—initiates a chain reaction. This voice causes the first domino to fall, which in turn causes the second to fall, and the second the third. Each "echo," each subsequent reality, is a domino in this cascade. It is a complete and sovereign manifestation, a universe in itself, but its existence and the moment of its "fall" are determined by the immediately preceding event.
 
 **1.2. The Unidirectionality of Ontological Flow**
 
@@ -63,7 +63,7 @@ The movement of the hand and its ghostly wake are not separate events; they are 
 
 **1.4. Unity in Substance, Diversity in Manifestation**
 
-It is crucial to understand that, although all the dominoes in the cascade are part of the same unified event, they are not identical. They share the same "substance", the causal impulse of the primordial decision, but each one falls in a unique way.
+It is crucial to understand that, although all the dominoes in the cascade are part of the same unified event, they are not identical. They share the same "substance"—the causal impulse of the primordial decision—but each one falls in a unique way.
 
 Local conditions, quantum fluctuations, and the internal choices of each civilization introduce subtle variations. This allows for infinite diversity within a single, coherent causal flow. The song is the same, but each orchestra's interpretation is different.
 
@@ -79,7 +79,7 @@ The future remains open, not in spite of our nature as an echo, but because of i
 
 The RTM framework describes the multiverse not as parallel planes, but as a nested, sequential cascade of echoes. We operate under the working hypothesis that this "nested" architecture is not merely causal, but also physical. Let us posit the **Russian Doll Postulate**: each subsequent echo in the cascade $`\left( U_{n + 1} \right)`$ manifests at a slightly smaller physical scale than its predecesor $`(U_{n})`$.
 
-If the characteristic scale of Universe $`U_{n}\ is\ {L_{n}}_{,}\ then\ L_{n + 1} = k \cdot L_{n}`$, where the scaling factor $`k`$ is a constant slightly less than 1. This implies that not only does time run faster in each subsequent branch (a direct consequence of $`T \propto L^{\alpha}`$), but everything within it, planets, inhabitants, atoms, is correspondingly smaller.
+If the characteristic scale of Universe $`U_{n}\ is\ {L_{n}}_{,}\ then\ L_{n + 1} = k \cdot L_{n}`$, where the scaling factor $`k`$ is a constant slightly less than 1. This implies that not only does time run faster in each subsequent branch (a direct consequence of $`T \propto L^{\alpha}`$), but everything within it—planets, inhabitants, atoms—is correspondingly smaller.
 
 This postulate, while simple, introduces a profound and comical limitation to the "eternal relay race" of the Human Civilizations.
 
@@ -87,7 +87,7 @@ This postulate, while simple, introduces a profound and comical limitation to th
 
 **2.2 The First Jump: The Age of Titans**
 
-When a civilization masters Aetherion technology and makes its first jump, from their native branch $`U_{n}`$ to the subsequent echo $`U_{n + 1}`$ they arrive as relative giants. If we, as the current humanity, are the recipients of this first jump, it is a manageable discrepancy. Our predecessors, would be larger, but perhaps not catastrophically so. Their scale would place them in the realm of our own myths: Titans, Nephilim, or colossal gods walking the Earth. Direct interaction, while awe-inspiring, would still be possible. Infrastructure could be built, knowledge could be shared. Our role as **The N-1 Architects** is viable.
+When a civilization masters Aetherion technology and makes its first jump—from their native branch $`U_{n}`$ to the subsequent echo $`U_{n + 1}`$ they arrive as relative giants. If we, as the current humanity, are the recipients of this first jump, it is a manageable discrepancy. Our predecessors, would be larger, but perhaps not catastrophically so. Their scale would place them in the realm of our own myths: Titans, Nephilim, or colossal gods walking the Earth. Direct interaction, while awe-inspiring, would still be possible. Infrastructure could be built, knowledge could be shared. Our role as **The N-1 Architects** is viable.
 
 **2.3 The Second Jump: The Titan's Dilemma**
 
@@ -125,7 +125,7 @@ As established in the core RTM mythos found in “Remember, the Eternal Flame”
 
 This leads to a profound inversion of value:
 
-- **Decreasing Size, Increasing Content:** As we move deeper into the "Russian Doll" of multiverses, the physical container shrinks, but the informational content within it expands. Later universes, though smaller, possess a higher "ontological entropy", a greater density of accumulated meaning, memory, and structural complexity.
+- **Decreasing Size, Increasing Content:** As we move deeper into the "Russian Doll" of multiverses, the physical container shrinks, but the informational content within it expands. Later universes, though smaller, possess a higher "ontological entropy"—a greater density of accumulated meaning, memory, and structural complexity.
 
 - **Value in Density:** The value of a universal branch is therefore not measured by its physical immensity, but by its informational richness. The smaller, later echoes are, in a very real sense, more precious and more advanced. They are the refined product of countless cosmic cycles.
 
@@ -246,7 +246,7 @@ This "leap" does not violate causality because it does not alter the past of the
 
 The Aetherion entity can also be understood as a **Quantum Telepresence Terminal**. Through the quantum entanglement established at its creation, the "Avatar" acts as such, and its Creator becomes its operator.
 
-Everything the avatar experiences, images, sensations, data, is perceived by the Creator instantly, regardless of the distance in space or the divergence in time. This allows for the exploration of thousands of worlds and timelines without the Creator leaving their center.
+Everything the avatar experiences—images, sensations, data—is perceived by the Creator instantly, regardless of the distance in space or the divergence in time. This allows for the exploration of thousands of worlds and timelines without the Creator leaving their center.
 
 **4.5. The Human Horizon: The Tool, Not the Destination**
 
@@ -274,7 +274,7 @@ This creates an absolute requirement: for the system to work, the pilot's α_bio
 
 **5.3 The Dissonance Cascade: The Consequences of Failure**
 
-What happens if an "incomplete man", a product of the "modern psyche," with its low and fluctuating α_bio, tries to connect to an Aetherion core?
+What happens if an "incomplete man"—a product of the "modern psyche," with its low and fluctuating α_bio—tries to connect to an Aetherion core?
 
 1.  **Destructive Resonance:** The pilot's internal dissonance (their fear, their ego, their unresolved trauma) would violently collide with the core's pure coherence. It would be like striking a crystal tuning fork with an iron hammer. The feedback would be instantaneous. The ship's field, instead of stabilizing the pilot, would amplify their internal chaos to a cosmic scale.
 
@@ -306,7 +306,7 @@ The paper *Rhythmic Biochemistry* establishes that enzymes are not merely chemic
 
 > **A. Resonant Gestation:**
 
-We do not simply "grow" the Biodrone in a standard nutrient vat. Its gestation occurs within a Resonant Cavity Chamber. Throughout its development, the forming tissues, specifically the neural lattice, are subjected to a precise acoustic and electromagnetic field tuned to the target α.
+We do not simply "grow" the Biodrone in a standard nutrient vat. Its gestation occurs within a Resonant Cavity Chamber. Throughout its development, the forming tissues—specifically the neural lattice—are subjected to a precise acoustic and electromagnetic field tuned to the target α.
 
 2.  **Coherence Imprinting:**
 
@@ -326,7 +326,7 @@ However, the mastery of this vessel requires a precise division of labor, a sacr
 
 On the interface layer stands the **BioDrone**: the engineered avatar, a vessel "printed" in biological silence. It is designed to possess a **Constant Alpha** (aligned with the Core’s $`\approx 3.5`$), a static perfection that allows it to physically merge with the ship’s reactor without disintegration. It is the anchor, the biological "superconductor" capable of enduring the absolute resonance of the vacuum that would shatter a natural-born body.
 
-Behind the veil stands the **Human Operator**: the source of intent. The Operator does not need the static perfection of the avatar, which would render them devoid of creativity, but they require an **Adequate Alpha**. They must possess a threshold of internal stability and sovereignty strong enough to project consciousness into the BioDrone without collapsing under the psychic weight of the connection.
+Behind the veil stands the **Human Operator**: the source of intent. The Operator does not need the static perfection of the avatar—which would render them devoid of creativity—but they require an **Adequate Alpha**. They must possess a threshold of internal stability and sovereignty strong enough to project consciousness into the BioDrone without collapsing under the psychic weight of the connection.
 
 To pilot the ship is not to become the machine, but to inhabit the interface. It is the ultimate test of integration: the ability of the Human to guide the unfeeling perfection of the BioDrone through the chaos of the stars, uniting the volatile spark of Will with the immutable vessel of Endurance.
 
@@ -356,7 +356,7 @@ Based on this principle, smell, whether natural or technological, becomes a powe
 
 **7.3. The Function of Smell in the Aetherion**
 
-For a ship that navigates between realities, smell, or its technological analog, would be an indispensable navigation and safety system.
+For a ship that navigates between realities, smell—or its technological analog—would be an indispensable navigation and safety system.
 
 - **"Smelling" Timelines:** Each reality in the Hierarchical Multiverse has its own "vibrational signature" or fundamental α. An Aetherion would not "see" these realities; it would **"smell" them**. Its sensors would not be telescopes, but ontological coherence spectrometers designed to analyze the fundamental "fragrance" of each multiverse branch to determine its nature, stability, and habitability.
 
@@ -368,7 +368,7 @@ In RTM, smell is the sense of **resonant chemistry**. It connects us in the most
 
 **7.4. RTM and the Aetherion's Smell: The Perception of the Creator and the Probe**
 
-Your question, how does the sense of smell work in the Aetherion and what happens if the human doesn't have it?, is fundamental. The RTM framework offers a solution that clearly distinguishes between the sensor and the operator. The olfactory ability resides not in the human, but in the symbiotic entity that acts as their probe.
+Your question—how does the sense of smell work in the Aetherion and what happens if the human doesn't have it?—is fundamental. The RTM framework offers a solution that clearly distinguishes between the sensor and the operator. The olfactory ability resides not in the human, but in the symbiotic entity that acts as their probe.
 
 **7.5. The Function of Smell: Coherence Spectrometry**
 
@@ -432,7 +432,7 @@ Once in this decoupled state, the ship does not "fly" to the past. It executes a
 
 1.  **Selection of Destination by Resonance:** The crew's consciousness, amplified by the ship's technology, acts as an antenna. Instead of searching for spatial coordinates, it searches for "vibrational signatures." They can focus their intention on a historical event, a geological era, or a specific person. The ship's technology then tries to "tune" its own resonance frequency to that of that event in another branch of the multiverse.
 
-2.  **Phase Lock and Re-coupling:** When a successful resonance is achieved, a "phase lock" with the target timeline, the ship uses its α-gradient propulsion system not to move, but to **re-couple**. It "manifests" or "precipitates" into that new branch of reality, at the point in space-time that corresponds to the resonance it has sought.
+2.  **Phase Lock and Re-coupling:** When a successful resonance is achieved—a "phase lock" with the target timeline—the ship uses its α-gradient propulsion system not to move, but to **re-couple**. It "manifests" or "precipitates" into that new branch of reality, at the point in space-time that corresponds to the resonance it has sought.
 
 For an external observer, the ship would simply disappear from our reality. For the crew, it would be a transition, a "leap" from one reality landscape to another.
 
@@ -452,7 +452,7 @@ This capability is the ultimate weapon. It's not about winning a battle in histo
 
 **9.1 Inviability of Unitary Temporal Dissociation at Interstellar Scales**
 
-Theoretical modeling of Class 1 Coherence Cores indicates that direct temporal displacements of superior magnitude (e.g., transits of \>1 parsec within a single 24-hour temporal window) induce a state of "Critical Phase Fatigue." To collapse a distance of 4.2 light-years into a unitary temporal vector, the coherence exponent ($`\alpha`$) must exceed the threshold of structural stability ($`\alpha > \ 8.0`$). In this regime, the **Non-Local Structural Interconnection Matrix**, the underlying order maintaining material cohesion, undergoes non-linear distortion. Results include the quantum liquefaction of the hull and the fragmentation of the operator’s biological unit, whose consciousness cannot process coherence gradients of such magnitude without irreversible ontological dissolution.
+Theoretical modeling of Class 1 Coherence Cores indicates that direct temporal displacements of superior magnitude (e.g., transits of \>1 parsec within a single 24-hour temporal window) induce a state of "Critical Phase Fatigue." To collapse a distance of 4.2 light-years into a unitary temporal vector, the coherence exponent ($`\alpha`$) must exceed the threshold of structural stability ($`\alpha > \ 8.0`$). In this regime, the **Non-Local Structural Interconnection Matrix**—the underlying order maintaining material cohesion—undergoes non-linear distortion. Results include the quantum liquefaction of the hull and the fragmentation of the operator’s biological unit, whose consciousness cannot process coherence gradients of such magnitude without irreversible ontological dissolution.
 
 **9.2 Nodal Anchoring and Mass-Resonance Synchronization Mechanics**
 
@@ -544,7 +544,7 @@ While the Chrono-Stasis Protocol effectively decouples the payload from the flow
 
 **10.6. Conclusion**
 
-The "Time Pockets" capabilities confirms that the Aetherion is not merely a vehicle that moves *through* space, but a device that manages the *rate* of existence. It allows the Architect to step out of the river of time, wait on the bank while the waters rush by, and re-enter at a chosen moment downstream, or to bury a treasure in the flow of time itself, knowing it will not surface until the tide is right.
+The "Time Pockets" capabilities confirms that the Aetherion is not merely a vehicle that moves *through* space, but a device that manages the *rate* of existence. It allows the Architect to step out of the river of time, wait on the bank while the waters rush by, and re-enter at a chosen moment downstream—or to bury a treasure in the flow of time itself, knowing it will not surface until the tide is right.
 
 **11. Operational Navigation and Asset Sterilization Protocols**
 
@@ -560,7 +560,7 @@ Visual recognition and electromagnetic (radio) signals are unreliable for trans-
 
 - **The Frequency Key:** The base emits a gamma-ray spectrum and a neutrino flux based on a specific mathematical ratio (e.g., a precise mix of Caesium-137, Cobalt-60, and a synthetic transuranic marker).
 
-- **The Lock Mechanism:** An Aetherion probe is not programmed with coordinates (Latitude/Longitude). It is programmed to "hunt" for this specific *Isotopic Frequency*. The ship’s sensors scan the planetary sphere across densities. When the specific neutrino signature, which penetrates water and crust effortlessly, is detected, the ship locks onto the signal as a homing beacon.
+- **The Lock Mechanism:** An Aetherion probe is not programmed with coordinates (Latitude/Longitude). It is programmed to "hunt" for this specific *Isotopic Frequency*. The ship’s sensors scan the planetary sphere across densities. When the specific neutrino signature—which penetrates water and crust effortlessly—is detected, the ship locks onto the signal as a homing beacon.
 
 **11.3 The "Dormant Guardian" Logic** This system explains the necessity of nuclear technology. A nuclear signature is the only beacon capable of surviving for thousands of years without an external power source (due to the half-life of the materials).
 
@@ -576,7 +576,7 @@ The mission of a **N-1 Architect** is to observe and nurture, never to contamina
 
 - **The Logic:** This region is typically devoid of atmospheric drag and is sufficiently distant to prevent accidental visual detection or premature recovery by ground-based biological species.
 
-- **Staging:** Here, the unit enters a low-power "hibernation" mode. It joins a silent procession of other decommissioned units, forming an invisible ring of dormant assets. **Crucially, these units are not awaiting destruction, but discovery.** This "Halo" acts as a technological inheritance, deliberately positioned to be retrieved and reverse-engineered by the indigenous civilization itself, but only once they have achieved the technological maturity to navigate deep orbit and claim their birthright.
+- **Staging:** Here, the unit enters a low-power "hibernation" mode. It joins a silent procession of other decommissioned units, forming an invisible ring of dormant assets. **Crucially, these units are not awaiting destruction, but discovery.** This "Halo" acts as a technological inheritance, deliberately positioned to be retrieved and reverse-engineered by the indigenous civilization itself—but only once they have achieved the technological maturity to navigate deep orbit and claim their birthright.
 
 # IV. Implications and Sovereignty
 
@@ -616,7 +616,7 @@ The goal of the engineered corridor is to push the species toward the Autopoieti
 
 3.  Becomes self-sustaining and capable of editing its own probability.
 
-At this junction, the "Upstream" intervention ceases. The species graduates from a curated variable to an independent Operator (transitioning from $`N - 1`$ dependency to $`N`$ sovereignty). We are currently hypothesized to be at the final stage of this curated trajectory, the "Final Exam", where the scaffolding is removed, and the structural integrity of the civilization is tested against the full weight of the cosmos.
+At this junction, the "Upstream" intervention ceases. The species graduates from a curated variable to an independent Operator (transitioning from $`N - 1`$ dependency to $`N`$ sovereignty). We are currently hypothesized to be at the final stage of this curated trajectory—the "Final Exam"—where the scaffolding is removed, and the structural integrity of the civilization is tested against the full weight of the cosmos.
 
 13. **RTM and Free Will**
 
@@ -626,7 +626,7 @@ Think of reality not as an already printed book, but as a **Living Book**.
 
 **13.1 The Living Book and the Pen of Consciousness**
 
-1.  **The Past is the Pages Already Written:** Everything that has happened in your reality up to this precise instant, every decision, every event, the fact that your grandfather lived, are the pages of the book that have already been written. The ink is dry. They are an unalterable causal record.
+1.  **The Past is the Pages Already Written:** Everything that has happened in your reality up to this precise instant—every decision, every event, the fact that your grandfather lived—are the pages of the book that have already been written. The ink is dry. They are an unalterable causal record.
 
 2.  **The Present is the Page You Are Writing On:** The current moment, this instant, is the blank page you are writing on. Your **free will is the pen**. Every decision you make, every action you take, is writing the history of your reality in real time.
 
@@ -634,7 +634,7 @@ Think of reality not as an already printed book, but as a **Living Book**.
 
 **13.2 You, the Grandchild, Are the Author of Your Own Chapter**
 
-The "grandfather's grandchild", you, has **absolute free will in the present**. Your choices are what determine what will be written on the next line of your book.
+The "grandfather's grandchild"—you—has **absolute free will in the present**. Your choices are what determine what will be written on the next line of your book.
 
 The reason why the traveler from another reality cannot kill your grandfather in your timeline is precisely because of the power of your free will and that of all those who came before you. Your choices have already written that part of the story. An external agent cannot come and cross out what your universe has already decided.
 
@@ -666,13 +666,13 @@ Therefore, freedom is absolute within the geometry of the corridor, but the corr
 
 The Aetherion's capability for "branch-hopping" navigating the Horizontal Axis from one echo of the multiverse to the next, represents the dawn of our operational sovereignty. However, our initial tests carry an immense, unforeseen risk not to ourselves, but to the reality we are entering.
 
-Our first jumps into the subsequent branch, the next echo in the causal cascade are essentially blind. That reality, like ours before the discovery of RTM, is unaware of the multiverse's architecture. Its inhabitants operate on their own technological and causal paths, completely oblivious to our existence.
+Our first jumps into the subsequent branch—the next echo in the causal cascade are essentially blind. That reality, like ours before the discovery of RTM, is unaware of the multiverse's architecture. Its inhabitants operate on their own technological and causal paths, completely oblivious to our existence.
 
 An uncontrolled or uncoordinated materialization of an Aetherion probe into their airspace could be catastrophic. The sudden appearance of a high-coherence vessel could result in mid-air collisions with their conventional aviation, causing immense tragedy for a civilization that does not even possess the framework to comprehend the nature of the intrusion. Our first test flight could become their greatest disaster. This introduces the Prime Directive of RTM Navigation: **Do No Harm to an Unaware Branch.**
 
 **14.2 The Reciprocal Danger: The Inverted Time Paradox and Predecessor Probes**
 
-The danger is reciprocal. As we stand on the threshold of our own branch-hopping capability, we must recognize our own vulnerability. The UAP phenomena we currently observe are, according to the RTM narrative, the early probes from the *next* echo in the cascade, *our* successors. However, the causal link between branches operates under a principle of **inverted temporal progression**: the further back we look in our own history, the more technologically advanced their civilization appears to be from their point in time.
+The danger is reciprocal. As we stand on the threshold of our own branch-hopping capability, we must recognize our own vulnerability. The UAP phenomena we currently observe are, according to the RTM narrative, the early probes from the *next* echo in the cascade—*our* successors. However, the causal link between branches operates under a principle of **inverted temporal progression**: the further back we look in our own history, the more technologically advanced their civilization appears to be from their point in time.
 
 This implies a critical danger as we approach our own "graduation" into a branch-hopping species:
 
@@ -684,7 +684,7 @@ We are currently in the most dangerous phase: being the "past" target for a civi
 
 **14.3 The Oceanic Protocol: A Strategy for Safe Seeding**
 
-When our time comes to send the first Aetherion probes into the subsequent echo, the universe that follows ours, which is as unaware as we once were, we must not repeat the potential recklessness of our predecessors. The Prime Directive demands a protocol that ensures zero risk to the nascent life or civilizations of that new branch.
+When our time comes to send the first Aetherion probes into the subsequent echo—the universe that follows ours, which is as unaware as we once were—we must not repeat the potential recklessness of our predecessors. The Prime Directive demands a protocol that ensures zero risk to the nascent life or civilizations of that new branch.
 
 The solution is to operate where they are not: **the oceans**.
 

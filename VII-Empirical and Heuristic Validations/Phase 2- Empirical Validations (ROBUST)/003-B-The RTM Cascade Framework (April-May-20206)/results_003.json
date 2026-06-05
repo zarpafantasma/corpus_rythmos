@@ -1,0 +1,52 @@
+{
+  "test_1": {
+    "ols_alpha": 0.3034,
+    "odr_alpha": 0.3113,
+    "odr_err": 0.0206,
+    "pop_alpha": 0.281,
+    "pop_r2": 0.6772,
+    "all_reproduced": "YES"
+  },
+  "test_4_sensitivity": {
+    "alpha_invariant_to_errors": "YES",
+    "always_below_0.5": "YES"
+  },
+  "test_5_bootstrap": {
+    "mean": 0.3087,
+    "std": 0.0355,
+    "ci": [
+      0.249,
+      0.3761
+    ],
+    "pct_below_0.5": 100.0
+  },
+  "test_6_loo": {
+    "range": [
+      0.2784,
+      0.3476
+    ]
+  },
+  "test_7_theil_sen": {
+    "alpha": 0.347,
+    "ci": [
+      -0.6107,
+      0.8912
+    ],
+    "includes_0.5": "YES"
+  },
+  "test_8_streams": {
+    "ventral": 0.2747,
+    "dorsal": 0.3278,
+    "p_diff": 0.1007
+  },
+  "new_residuals": {
+    "level_rho": 0.4577,
+    "level_p": 0.037,
+    "quadratic_p": 0.0549
+  },
+  "new_reciprocal": {
+    "alpha_t": 0.311,
+    "one_over_alpha_s": 0.3125,
+    "match": "Suspiciously close"
+  }
+}

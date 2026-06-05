@@ -9,17 +9,17 @@
 ---
 
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ⚠️  DOCUMENTO DE SEGURIDAD CRÍTICO — LEA COMPLETAMENTE ANTES DE OPERAR ⚠️ ║
-║                                                                              ║
-║     Este protocolo incorpora las restricciones del Equipo Rojo Asesor.       ║
-║     El incumplimiento puede resultar en:                                     ║
-║       • Daño permanente al equipo (despolarización térmica)                  ║
-║       • Lesiones al personal (trauma acústico)                               ║
-║       • Daño a las instalaciones de prueba (falla por resonancia)            ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                ║
+║   ⚠️  DOCUMENTO DE SEGURIDAD CRÍTICO — LEA COMPLETAMENTE ANTES DE OPERAR ⚠️   ║
+║                                                                                ║
+║     Este protocolo incorpora las restricciones del Equipo Rojo Asesor.         ║
+║     El incumplimiento puede resultar en:                                       ║
+║       • Daño permanente al equipo (despolarización térmica)                    ║
+║       • Lesiones al personal (trauma acústico)                                 ║
+║       • Daño a las instalaciones de prueba (falla por resonancia)              ║
+║                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -142,19 +142,19 @@ FASE 4: Barrido Paramétrico — Caracterización completa (Día 6-10)
 **Límites Obligatorios de Ciclo de Trabajo:**
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  PROTOCOLO TÉRMICO MARK 1 (Hasta enfriamiento líquido en Mark 2) │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  DISPARO:      5-10 segundos MÁXIMO                         │
-│  ENFRIAMIENTO: 60 segundos MÍNIMO                           │
-│                                                             │
-│  Ciclo de Trabajo = 10s / 70s = 14.3% MÁXIMO                │
-│                                                             │
-│  El MCU debe aplicar esto automáticamente.                  │
-│  La anulación manual está PROHIBIDA.                        │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────┐
+│  PROTOCOLO TÉRMICO MARK 1 (Hasta enfriamiento líquido en Mark 2)  │
+├───────────────────────────────────────────────────────────────────┤
+│                                                                   │
+│  DISPARO:      5-10 segundos MÁXIMO                               │
+│  ENFRIAMIENTO: 60 segundos MÍNIMO                                 │
+│                                                                   │
+│  Ciclo de Trabajo = 10s / 70s = 14.3% MÁXIMO                      │
+│                                                                   │
+│  El MCU debe aplicar esto automáticamente.                        │
+│  La anulación manual está PROHIBIDA.                              │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
 ```
 
 ### 3.3 Protocolo de Seguridad Acústica
@@ -189,24 +189,24 @@ Umbrales de Acción por Nivel Sonoro:
 ### 3.5 Lista de Verificación de Seguridad Pre-Prueba
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│           VERIFICACIÓN DE SEGURIDAD PRE-PRUEBA              │
-│                                                             │
-│  □ 1. Todo el personal informado del plan de prueba de hoy  │
-│  □ 2. Director de Prueba ha confirmado estado CONTINUAR     │
-│  □ 3. Salidas de emergencia despejadas y señalizadas        │
-│  □ 4. Botones E-Stop probados (ambas ubicaciones)           │
-│  □ 5. Extintor inspeccionado y accesible                    │
-│  □ 6. Protección auditiva distribuida                       │
-│  □ 7. Sonda de descarga AV lista                            │
-│  □ 8. Cámara térmica encendida y apuntando                  │
-│  □ 9. Cabina de control aislada (puerta cerrada)            │
+┌─────────────────────────────────────────────────────────────────┐
+│           VERIFICACIÓN DE SEGURIDAD PRE-PRUEBA                  │
+│                                                                 │
+│  □ 1. Todo el personal informado del plan de prueba de hoy      │
+│  □ 2. Director de Prueba ha confirmado estado CONTINUAR         │
+│  □ 3. Salidas de emergencia despejadas y señalizadas            │
+│  □ 4. Botones E-Stop probados (ambas ubicaciones)               │
+│  □ 5. Extintor inspeccionado y accesible                        │
+│  □ 6. Protección auditiva distribuida                           │
+│  □ 7. Sonda de descarga AV lista                                │
+│  □ 8. Cámara térmica encendida y apuntando                      │
+│  □ 9. Cabina de control aislada (puerta cerrada)                │
 │  □ 10. Sistema de comunicación probado (intercomunicador/radio) │
-│                                                             │
-│  Firma Director de Prueba: ___________________ Fecha: ______ │
-│  Firma Oficial de Seguridad: _________________ Fecha: ______ │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+│                                                                 │
+│  Firma Director de Prueba: ___________________ Fecha: ______    │
+│  Firma Oficial de Seguridad: _________________ Fecha: ______    │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -343,18 +343,18 @@ Para cada canal P1 a P8:
 6. Registrar aumento de temperatura piezo: ΔT = _______ °C
 
 Resultados de Prueba de Canales:
-┌────────┬───────────┬───────────┬────────┬────────┐
-│ Canal  │ Forma Onda│ Amplitud  │ Frec   │ ΔT(°C) │
-├────────┼───────────┼───────────┼────────┼────────┤
-│ P1     │ □OK □FALLA│           │        │        │
-│ P2     │ □OK □FALLA│           │        │        │
-│ P3     │ □OK □FALLA│           │        │        │
-│ P4     │ □OK □FALLA│           │        │        │
-│ P5     │ □OK □FALLA│           │        │        │
-│ P6     │ □OK □FALLA│           │        │        │
-│ P7     │ □OK □FALLA│           │        │        │
-│ P8     │ □OK □FALLA│           │        │        │
-└────────┴───────────┴───────────┴────────┴────────┘
+┌────────┬─────────────┬───────────┬────────┬────────┐
+│ Canal  │ Forma Onda  │ Amplitud  │ Frec   │ ΔT(°C) │
+├────────┼─────────────┼───────────┼────────┼────────┤
+│ P1     │ □OK □FALLA  │           │        │        │
+│ P2     │ □OK □FALLA  │           │        │        │
+│ P3     │ □OK □FALLA  │           │        │        │
+│ P4     │ □OK □FALLA  │           │        │        │
+│ P5     │ □OK □FALLA  │           │        │        │
+│ P6     │ □OK □FALLA  │           │        │        │
+│ P7     │ □OK □FALLA  │           │        │        │
+│ P8     │ □OK □FALLA  │           │        │        │
+└────────┴─────────────┴───────────┴────────┴────────┘
 
 Todos los canales deben pasar. Cualquier falla = NO CONTINUAR con las pruebas.
 ```
@@ -614,7 +614,7 @@ Cada prueba DEBE registrar:
 │ Anomalías: _____________________________________________    │
 │ __________________________________________________________  │
 │                                                             │
-│ Archivo de Datos: ________________________________________ │
+│ Archivo de Datos: ________________________________________  │
 │                                                             │
 │ Firmas:                                                     │
 │   Director de Prueba: _________________ Fecha: __________   │
@@ -895,15 +895,15 @@ LISTA DE VERIFICACIÓN DE DISPARO ESTÁNDAR:
 ### A.3 Contactos de Emergencia
 
 ```
-┌─────────────────────────────────────┐
-│       CONTACTOS DE EMERGENCIA       │
-├─────────────────────────────────────┤
-│ Emergencia Bomberos/Médica: 911     │
-│ Seguridad de Instalaciones: [INSERTAR] │
-│ Gerente de Laboratorio: [INSERTAR]  │
-│ Líder de Proyecto: [INSERTAR]       │
-│ Control de Intoxicaciones: [INSERTAR] │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│       CONTACTOS DE EMERGENCIA           │
+├─────────────────────────────────────────┤
+│ Emergencia Bomberos/Médica: 911         │
+│ Seguridad de Instalaciones: [INSERTAR]  │
+│ Gerente de Laboratorio: [INSERTAR]      │
+│ Líder de Proyecto: [INSERTAR]           │
+│ Control de Intoxicaciones: [INSERTAR]   │
+└─────────────────────────────────────────┘
 ```
 
 ---
@@ -923,7 +923,7 @@ LISTA DE VERIFICACIÓN DE DISPARO ESTÁNDAR:
 
      +-----------------------------------------------------------------------+
      | PROPIETARIO Y CONFIDENCIAL | ZARPAFANTASMA SYSTEMS CORP.              |
-     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5         |
+     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5          |
      |-----------------------------------------------------------------------|
      | ADVERTENCIA: El acceso, distribución o reproducción no autorizada de  |
      | este documento está estrictamente prohibida según el Protocolo Legal  |

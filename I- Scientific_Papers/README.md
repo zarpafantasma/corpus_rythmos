@@ -1,6 +1,6 @@
 # I - Scientific Papers
 
-This folder contains the complete theoretical corpus of **Relatividad Temporal Multiescala (RTM)**, a unified framework proposing that the scaling exponent α in power-law relationships is a structural invariant determined by network topology.
+This folder contains the complete theoretical corpus of **Relatividad Temporal Multiescala (RTM)** — a unified framework proposing that the scaling exponent α in power-law relationships is a structural invariant determined by network topology.
 
 ---
 

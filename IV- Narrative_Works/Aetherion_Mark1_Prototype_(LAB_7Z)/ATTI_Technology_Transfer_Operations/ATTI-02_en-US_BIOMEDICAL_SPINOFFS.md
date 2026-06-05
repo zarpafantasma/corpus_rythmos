@@ -27,7 +27,7 @@ The applications described here represent theoretical extrapolations of RTM prin
    Experimental Basis: NONE
    Regulatory Status: NOT APPLICABLE (theoretical)
    
-This document explores what MIGHT be possible if RTM physics extends to biological systems. It should be read as speculative science grounded in the RTM theoretical framework.
+This document explores what MIGHT be possible if RTM physics extends to biological systems. It should be read as speculative science fiction grounded in the RTM theoretical framework.
 
 ---                                                                             
 

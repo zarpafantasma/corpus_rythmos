@@ -7,15 +7,15 @@
 
 ---
 
-    ╔══════════════════════════════════════════════════════════════════╗
-    ║                                                                  ║
-    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)  ║
-    ║                                                                  ║
-    ║   "El gradiente no crea energía, crea preferencia.               ║
-    ║    Y la preferencia, sostenida en el tiempo, se convierte        ║
-    ║    en acumulación."                                              ║
-    ║                                                                  ║
-    ╚══════════════════════════════════════════════════════════════════╝
+    ╔════════════════════════════════════════════════════════════════════╗
+    ║                                                                    ║
+    ║        INICIATIVA DE TRANSFERENCIA TECNOLÓGICA AETHERION (ATTI)    ║
+    ║                                                                    ║
+    ║   "El gradiente no crea energía, crea preferencia.                 ║
+    ║    Y la preferencia, sostenida en el tiempo, se convierte          ║
+    ║    en acumulación."                                                ║
+    ║                                                                    ║
+    ╚════════════════════════════════════════════════════════════════════╝
 
 ---
 
@@ -86,8 +86,8 @@ COSECHADOR PIEZOELÉCTRICO CONVENCIONAL
 ════════════════════════════════════════════════════════════════════
 
     Vibración ambiental (banda ancha)
-           │
-           ▼
+             │
+             ▼
     ┌──────────────────┐
     │   VOLADIZO       │ ← Sintonizado a frecuencia específica f₀
     │   con PIEZO      │
@@ -223,7 +223,7 @@ EFECTO DEL GRADIENTE ∇α EN VIBRACIONES
     │   SE ACUMULAN   │  ═══════════════════►   │   SE DISPERSAN  │
     │   aquí          │    La energía fluye     │                 │
     │                 │    hacia α alto         │                 │
-    │   ◉◉◉◉◉      │                          │       ·         │
+    │   ◉◉◉◉◉      │                         │       ·         │
     │                 │                         │                 │
     └─────────────────┴─────────────────────────┴─────────────────┘
                               │
@@ -393,20 +393,20 @@ SECCIÓN TRANSVERSAL DEL CEVT
     │░░░░░░░░░░░ CAPA DE ACOPLAMIENTO ░░░░░░░░░░│   │ 2mm
     │░░░░░░░░░░░ (α alto = 2.0)       ░░░░░░░░░░│   │
     ├───────────────────────────────────────────┤  ─┼─
-    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│    │
-    │▒▒▒▒▒▒▒▒▒▒▒ ZONA DE GRADIENTE ▒▒▒▒▒▒▒▒▒▒▒▒│    │
-    │▒▒▒▒▒▒▒▒▒▒▒ (α: 2.0 → 0.5)   ▒▒▒▒▒▒▒▒▒▒▒▒▒│    │ 15mm
-    │▒▒▒▒▒▒▒▒▒▒▒    ∇α ≈ 100/m    ▒▒▒▒▒▒▒▒▒▒▒▒▒│    │
-    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│    │
+    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│   │
+    │▒▒▒▒▒▒▒▒▒▒▒ ZONA DE GRADIENTE ▒▒▒▒▒▒▒▒▒▒▒▒▒│   │
+    │▒▒▒▒▒▒▒▒▒▒▒ (α: 2.0 → 0.5)   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒│   │ 15mm
+    │▒▒▒▒▒▒▒▒▒▒▒    ∇α ≈ 100/m    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒│   │
+    │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│   │
     ├───────────────────────────────────────────┤  ─┼─
-    │▓▓▓▓▓▓▓▓ ZONA DE ACUMULACIÓN ▓▓▓▓▓▓▓▓▓▓▓▓▓│    │ 3mm
-    │▓▓▓▓▓▓▓▓ (α bajo = 0.5)      ▓▓▓▓▓▓▓▓▓▓▓▓▓│    │
+    │▓▓▓▓▓▓▓▓ ZONA DE ACUMULACIÓN ▓▓▓▓▓▓▓▓▓▓▓▓▓▓│   │ 3mm
+    │▓▓▓▓▓▓▓▓ (α bajo = 0.5)      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓│   │
     ├───────────────────────────────────────────┤  ─┼─
-    │████████████ MATRIZ PIEZO ████████████████│    │ 2mm
-    │████████████ (PZT-5H)     ████████████████│    │
+    │████████████ MATRIZ PIEZO █████████████████│   │ 2mm
+    │████████████ (PZT-5H)     █████████████████│   │
     ├───────────────────────────────────────────┤  ─┼─
-    │▓▓▓▓▓▓▓▓ PLACA DE RESPALDO ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│    │ 3mm
-    │▓▓▓▓▓▓▓▓ (montaje rígido)  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│    │
+    │▓▓▓▓▓▓▓▓ PLACA DE RESPALDO ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│   │ 3mm
+    │▓▓▓▓▓▓▓▓ (montaje rígido)  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│   │
     └───────────────────────────────────────────┘  ─┴─
                                                    25mm total
 ```
@@ -1398,7 +1398,7 @@ Si las predicciones de RTM sobre gradientes topológicos son correctas, CEVT pod
 
 ## Apéndice B: Referencias
 
-1. RTM Corpus — Fundamentos Teóricos
+1. RTM Corpus v2.0 — Fundamentos Teóricos
 2. RTM-PAPER-001 — Relatividad Temporal Multiescala: Marco Matemático
 3. Roundy, S. et al. (2003) — A study of low level vibrations as a power source for wireless sensor nodes
 4. Beeby, S.P. et al. (2006) — Energy harvesting vibration sources for microsystems applications

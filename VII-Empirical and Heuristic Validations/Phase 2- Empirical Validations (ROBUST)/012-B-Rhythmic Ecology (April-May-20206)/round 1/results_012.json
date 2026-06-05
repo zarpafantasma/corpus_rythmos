@@ -1,0 +1,42 @@
+{
+  "document": "012-Rhythmic_Ecology",
+  "test_1_allometry": {
+    "mammalia_odr_alpha": 0.1901,
+    "aves_odr_alpha": 0.2131,
+    "reptilia_odr_alpha": 0.2413,
+    "target": 0.25,
+    "reproduced": true,
+    "verdict": "Numbers correct. Finding is Kleiber's law, not new."
+  },
+  "test_2_extinction": {
+    "odr_slope": 0.9244,
+    "odr_error": 0.018,
+    "reproduced": true,
+    "verdict": "Reproduced. Only 5 points; possible circularity."
+  },
+  "test_3_taylor": {
+    "mean_b": 1.6793,
+    "pct_aggregated": 99.71,
+    "reproduced": true,
+    "verdict": "Reproduced. Known result since 1961."
+  },
+  "test_4_gpdd": {
+    "weighted_beta": 0.8326,
+    "reproduced": true,
+    "verdict": "Reproduced. Known result (Halley 1996)."
+  },
+  "test_5_covid_zipf": {
+    "odr_alpha": 1.0466,
+    "odr_error": 0.0485,
+    "zipf_test_p": 0.3367,
+    "reproduced": true,
+    "verdict": "Reproduced. Known result."
+  },
+  "test_6_superspreader": {
+    "mean_k": 0.2259,
+    "std_k": 0.1306,
+    "reproduced": true,
+    "verdict": "Reproduced. Known result (Lloyd-Smith 2005)."
+  },
+  "overall": "All numbers correct. Positive for RTM consistency, but these are reinterpretations of established results, not novel predictions."
+}

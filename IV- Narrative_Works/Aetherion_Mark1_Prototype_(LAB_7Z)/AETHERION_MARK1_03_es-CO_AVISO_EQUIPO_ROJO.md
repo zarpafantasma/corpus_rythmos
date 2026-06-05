@@ -1,9 +1,9 @@
 ---
 
-╔══════════════════════════════════════════════════════════════════╗
+╔════════════════════════════════════════════════════════════════════════╗
     
   ##  PRECAUCIÓN: NO INICIAR PROTOCOLO TPH SIN SISTEMAS DE AMORTIGUACIÓN   
-╚══════════════════════════════════════════════════════════════════╝
+╚════════════════════════════════════════════════════════════════════════╝
 
 
 # AETHERION MARK 1
@@ -62,7 +62,7 @@ Durante la Verificación de Empuje (Apéndice B.1), el Mark 1 está programado p
 
      +-----------------------------------------------------------------------+
      | PROPIETARIO Y CONFIDENCIAL | ZARPAFANTASMA SYSTEMS CORP.              |
-     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5         |
+     | ID DE PROYECTO: [AETHERION] | NIVEL DE AUTORIZACIÓN: NIVEL 5          |
      |-----------------------------------------------------------------------|
      | ADVERTENCIA: El acceso, distribución o reproducción no autorizada de  |
      | este documento está estrictamente prohibida según el Protocolo Legal  |
