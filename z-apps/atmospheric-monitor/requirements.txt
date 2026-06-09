@@ -1,8 +1,7 @@
 streamlit
-numpy
 pandas
+numpy
 plotly
+requests
 folium
 streamlit-folium
-requests
-urllib3
