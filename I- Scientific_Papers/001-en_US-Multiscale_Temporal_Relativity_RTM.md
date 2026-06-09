@@ -18,7 +18,7 @@ This reframing transforms scattered scaling observations into a unified classifi
 
 We present comprehensive numerical validation across **seven distinct network topologies.** Six regimes are independently confirmed with $R^{2} > 0.98$, including the holographic regime ($\alpha = \ 2.9499\  \pm 0.0683$, $ R^{2} = 0.997$, 95% CI $\lbrack 2.82,3.08\rbrack$ tightly bracketing the theoretical $\alpha = \ 3.0$). For the quantum-confined regime, we construct a lattice model with boundary confinement that produces $\alpha = \ 3.4907\  \pm 0.0677$ $(R^{2} = 0.997$), with a 95% confidence interval $\lbrack 3.42,3.56\rbrack$ that includes the theoretical target $\alpha = \ 3.5$. This constitutes a **proof-of-concept consistency check** -demonstrating that a simple confinement mechanism generates the predicted exponent- rather than an independent validation, as the model parameters are calibrated to the target. Definitive validation of the quantum-confined regime requires quantum simulation or experimental measurement as outlined in Section 5.4.
 
-Beyond computational validation, the RTM framework has been empirically tested against real-world data across **13 independent scientific domains** (Docs 003-015), including gravitational wave mergers ($\alpha = 1.024$, ballistic), quantum processor decoherence ($\alpha = -0.259$, inverse — a Simpson's Paradox revealed by confounder removal), visual cortex hierarchy ($\alpha = 0.311$, super-diffusive), cardiac arrhythmia severity ($\rho = -0.957$ across 10 types), tornado vortex discrimination ($d = 0.96$, $\alpha$ completely subsumes raw velocity), and 21 significant findings in SPARC galaxy kinematics using physically independent measurement channels. A three-phase adversarial audit (Red Team, April 2026) produced a corpus average score of **73%** across all domains. **Section 11** addresses the three open theoretical challenges identified by this audit: (i) a **closure equation** $\alpha = f(\mathcal{G})$ that predicts $\alpha$ from topological descriptors without empirical calibration, with a pre-registered leave-one-out cross-validation test; (ii) a **circularity break** demonstrating that structural measurements predict dynamic outcomes through physically independent channels (confirmed in astronomy and tornado detection); and (iii) a **fixed-point structure** showing that the discrete $\alpha$-bands ($0$, $0.5$, $1$, $2$) correspond to stable fixed points of known mathematical operators (wave equation, Laplacian, CLT, entropy maximization) under renormalization group flow. Of 10 validated systems with $|\alpha| < 3$, nine cluster within $0.2$ of a fixed point.
+Beyond computational validation, the RTM framework has been empirically tested against real-world data across **13 independent scientific domains** (Docs 003-015), including gravitational wave mergers ($\alpha = 1.024$, ballistic), quantum processor decoherence ($\alpha = -0.259$, inverse — a Simpson's Paradox revealed by confounder removal), visual cortex hierarchy ($\alpha = 0.311$, super-diffusive), cardiac arrhythmia severity ($\rho = -0.957$ across 10 types), tornado vortex discrimination ($d = 0.96$, $\alpha$ completely subsumes raw velocity), and 21 significant findings in SPARC galaxy kinematics using physically independent measurement channels. A three-phase adversarial audit (Red Team, April 2026) produced a corpus average score of **73%** across all domains. **Section 11** addresses the three open theoretical challenges identified by this audit: (i) a **closure equation** $\alpha = f(\mathcal{G})$ that predicts $\alpha$ from topological descriptors without empirical calibration, with a pre-registered leave-one-out cross-validation test; (ii) a **circularity break** demonstrating that structural measurements predict dynamic outcomes through physically independent channels (confirmed in astronomy and tornado detection); and (iii) a **fixed-point structure** showing that the discrete $\alpha$ -bands ($0$, $0.5$, $1$, $2$) correspond to stable fixed points of known mathematical operators (wave equation, Laplacian, CLT, entropy maximization) under renormalization group flow. Of 10 validated systems with $|\alpha| < 3$, nine cluster within $0.2$ of a fixed point.
 
 ***All simulations are fully reproducible with accompanying code, Docker containers, and datasets.***
 
@@ -1966,7 +1966,7 @@ If solved, this transforms RTM from a classification framework into a predictive
 
 Three independent theoretical results constrain the form of $\alpha = f(\mathcal{G})$. Each comes from a different branch of physics and applies in a different regime.
 
-**11.2.1 From random walks on fractals: $\alpha = d_w$**
+**11.2.1 From random walks on fractals:** $\alpha = d_w$
 
 For diffusive transport on a medium with fractal dimension $d_f$ and spectral dimension $d_s$, the walk dimension $d_w$ governs the mean first-passage time:
 
@@ -1976,7 +1976,7 @@ This result (Alexander & Orbach 1982, Havlin & Ben-Avraham 1987) directly identi
 
 **Applicability:** Systems where transport is diffusion-limited on a static geometric substrate.
 
-**11.2.2 From dynamical critical phenomena: $\alpha = z$**
+**11.2.2 From dynamical critical phenomena:** $\alpha = z$
 
 For systems near a critical point (phase transitions, renormalization group fixed points), the dynamic exponent $z$ governs the relaxation time:
 
@@ -1986,7 +1986,7 @@ where $\xi$ is the correlation length. This directly gives $\alpha = z$. The val
 
 **Applicability:** Systems at or near phase transitions, including cardiac dynamics near the critical transport class ($\alpha \approx 1.0$), market crashes (topological phase transitions), and seizure onset.
 
-**11.2.3 From quantum field theory: $\alpha = d + \gamma_\phi - \eta$**
+**11.2.3 From quantum field theory:** $\alpha = d + \gamma_\phi - \eta$
 
 As derived in Section 10.5, the anomalous dimension of fields provides:
 
@@ -2082,7 +2082,7 @@ This motivates:
 
 $$\Sigma(\mathcal{M}, \mathcal{H}) = \mathcal{M}^{\delta} \cdot \mathcal{H}^{\epsilon}$$
 
-where $\delta$ and $\epsilon$ are small exponents that modulate $\alpha$ within a transport class without changing the class itself. From the corpus data, $\delta$ and $\epsilon$ are both small ($\sim 0.1$-$0.3$), consistent with medium and hierarchy being modulators rather than determinants.
+where $\delta$ and $\epsilon$ are small exponents that modulate $\alpha$ within a transport class without changing the class itself. From the corpus data, $\delta$ and $\epsilon$ are both small ($\sim 0.1$ - $0.3$), consistent with medium and hierarchy being modulators rather than determinants.
 
 ---
 
@@ -2142,9 +2142,9 @@ Three elements are required to complete the closure program:
 
 **3. A prospective prediction.** The ultimate test is to predict $\alpha$ for a system that has not been measured, using only its topological descriptors, and then verify the prediction empirically. Candidate systems for this test include:
 
-- **Pulmonary gas exchange** ($d_f \approx 2.5$, $\mathcal{H} = 6$, $\mathcal{M} = 1.0$, $\mathcal{C} = 0.5$): predicted $\alpha \approx 2.5$-$3.5$ based on bronchial tree fractal dimension. Measurable from ventilation-perfusion time series.
+- **Pulmonary gas exchange** ($d_f \approx 2.5$, $\mathcal{H} = 6$, $\mathcal{M} = 1.0$, $\mathcal{C} = 0.5$): predicted $\alpha \approx 2.5$ - $3.5$ based on bronchial tree fractal dimension. Measurable from ventilation-perfusion time series.
 - **Internet packet routing** ($d_f \approx 2.1$, $\mathcal{H} = 4$, $\langle k \rangle \approx 3.5$, $\mathcal{M} = 0$, $\mathcal{C} = 0$): predicted $\alpha \approx 2.1$ (diffusive on a fractal graph). Measurable from traceroute latency scaling.
-- **Ant colony foraging** ($d_f \approx 2.0$, $\mathcal{H} = 3$, $\langle k \rangle \approx 4$, $\mathcal{M} = 0.5$, $\mathcal{C} = 0$): predicted $\alpha \approx 1.5$-$2.0$ (super-diffusive to diffusive). Measurable from foraging trajectory scaling.
+- **Ant colony foraging** ($d_f \approx 2.0$, $\mathcal{H} = 3$, $\langle k \rangle \approx 4$, $\mathcal{M} = 0.5$, $\mathcal{C} = 0$): predicted $\alpha \approx 1.5$ - $2.0$ (super-diffusive to diffusive). Measurable from foraging trajectory scaling.
 
 If the closure equation correctly predicts $\alpha$ in even one of these untested systems to within $\pm 0.3$, it constitutes the strongest possible evidence for RTM as a predictive theory.
 
@@ -2168,7 +2168,7 @@ The transition from descriptive classification to predictive theory is the centr
 
 A framework that derives $\alpha$ from the same measurements it uses as predictive output is circular — it provides a mathematical transformation, not a prediction. The Red Team (April 2026) confirmed this circularity in two domains: hurricane $\alpha$ correlates with wind speed at $\rho = 0.957$ (13 tests, all non-significant after wind control), and DFA $\alpha$ in financial markets is a known technique with 25% out-of-sample accuracy. In both cases, $\alpha$ is computed from the same physical channel (wind/pressure, or price returns) that constitutes the outcome variable.
 
-The question is whether this circularity is **universal** to RTM or **domain-specific**. If RTM can demonstrate at least one domain where $\alpha$ (or an $\alpha$-proxy) is measured from a physically independent data source and still predicts the dynamic outcome, the circularity is broken and the framework has genuine predictive content.
+The question is whether this circularity is **universal** to RTM or **domain-specific**. If RTM can demonstrate at least one domain where $\alpha$ (or an $\alpha$ -proxy) is measured from a physically independent data source and still predicts the dynamic outcome, the circularity is broken and the framework has genuine predictive content.
 
 We identify two domains where the circularity is broken.
 
@@ -2176,9 +2176,9 @@ We identify two domains where the circularity is broken.
 
 The SPARC flanking campaign (Doc 014, April 2026) produced 21 significant findings using two physically independent measurement channels:
 
-- **Input:** Photometric structure from Spitzer 3.6 $\mu$m imaging — baryonic concentration, central surface brightness ($\mu_0$), surface brightness slope, surface brightness roughness. These are measured from **starlight** (near-infrared photons from old stellar populations).
+- **Input:** Photometric structure from Spitzer 3.6 $\mu$ m imaging — baryonic concentration, central surface brightness ($\mu_0$), surface brightness slope, surface brightness roughness. These are measured from **starlight** (near-infrared photons from old stellar populations).
 
-- **Output:** Kinematic properties from 21 cm HI emission and H$\alpha$ spectroscopy — observed rotation velocity ($V_{obs}$), inferred dark matter velocity ($V_{DM}$), mass discrepancy ($D$), DM transition acceleration ($g_{cross}$). These are measured from **radio emission** (neutral hydrogen) and **optical spectroscopy** (ionized gas).
+- **Output:** Kinematic properties from 21 cm HI emission and H $\alpha$ spectroscopy — observed rotation velocity ($V_{obs}$), inferred dark matter velocity ($V_{DM}$), mass discrepancy ($D$), DM transition acceleration ($g_{cross}$). These are measured from **radio emission** (neutral hydrogen) and **optical spectroscopy** (ionized gas).
 
 These are physically independent measurement channels. The Spitzer telescope and the radio telescope measure different physical processes (stellar thermal emission vs. hyperfine transition of neutral hydrogen) at different wavelengths separated by a factor of $\sim 5{,}000$. There is no mathematical pathway by which a systematic error in the photometric measurement could produce a spurious correlation with the kinematic measurement.
 
@@ -2196,7 +2196,7 @@ The partial correlations — all controlling for total baryonic mass — demonst
 
 **What this does NOT achieve:** Direct $v(r)$ prediction. An RTM model with one free parameter loses 133/135 galaxies against NFW with two parameters. The structural information predicts the **pattern** (which galaxies have higher mass discrepancy, where the DM transition occurs, how sharp the baryon-halo boundary is) but does not predict the **absolute velocity** at each radius.
 
-**Interpretation:** RTM's claim that "baryonic geometry modulates dynamics" is confirmed with independent channels. The claim that "RTM replaces NFW" is not. The structural signal is real ($\Delta R^2 = 4$-$22\%$ depending on the quantity) but secondary.
+**Interpretation:** RTM's claim that "baryonic geometry modulates dynamics" is confirmed with independent channels. The claim that "RTM replaces NFW" is not. The structural signal is real ($\Delta R^2 = 4$ - $22\%$ depending on the quantity) but secondary.
 
 **11.9.2 Tornado: Velocity-Free Structural Radar (91% of Signal)**
 
@@ -2320,7 +2320,7 @@ These are **not universal** fixed points — they depend on the specific fractal
 
 **11.10.3 The RG Flow Structure**
 
-The renormalization group provides the framework for understanding how $\alpha$ evolves under coarse-graining (changing the observation scale $L$). Define the **$\beta$-function** for $\alpha$:
+The renormalization group provides the framework for understanding how $\alpha$ evolves under coarse-graining (changing the observation scale $L$). Define the $\beta$ **-function** for $\alpha$:
 
 $$\beta(\alpha) = \frac{d\alpha}{d \ln \lambda}$$
 
@@ -2328,7 +2328,7 @@ where $\lambda$ is the coarse-graining factor. The fixed points are the zeros of
 
 $$\beta(\alpha^*) = 0$$
 
-For the four universal fixed points, the $\beta$-function has the schematic structure:
+For the four universal fixed points, the $\beta$ -function has the schematic structure:
 
 $$\beta(\alpha) \propto (\alpha - 0)(\alpha - 0.5)(\alpha - 1)(\alpha - 2) \cdot g(\alpha)$$
 
@@ -2370,7 +2370,7 @@ Of the 10 systems with $|\alpha| < 3$, **9 fall within 0.2 of a fixed point** an
 
 The fixed-point structure provides the **theoretical grounding** for RTM's discrete band claim:
 
-1. The bands are not arbitrary — they correspond to zeros of the RG $\beta$-function, each associated with a known mathematical operator (wave equation, Laplacian, CLT, entropy maximization).
+1. The bands are not arbitrary — they correspond to zeros of the RG $\beta$ -function, each associated with a known mathematical operator (wave equation, Laplacian, CLT, entropy maximization).
 
 2. The clustering of empirical $\alpha$ values near fixed points is **predicted** by RG theory — systems under coarse-graining flow toward the nearest fixed point. Finding systems at $\alpha = 1.5$ would be as surprising as finding a ferromagnet at a temperature between $T_c$ and $0$ that is neither ordered nor disordered.
 
@@ -2382,9 +2382,9 @@ The fixed-point structure provides the **theoretical grounding** for RTM's discr
 
 Two theoretical developments are needed to complete this program:
 
-**First:** A rigorous derivation of the $\beta$-function $\beta(\alpha)$ for a general transport network. The schematic form (product of linear factors at the four fixed points) is motivated by analogy with known RG flows, but has not been derived from first principles for arbitrary network topologies. This requires extending the spectral analysis of network Laplacians (Burioni & Cassi 2005) to include wave, critical, and confined operators.
+**First:** A rigorous derivation of the $\beta$ -function $\beta(\alpha)$ for a general transport network. The schematic form (product of linear factors at the four fixed points) is motivated by analogy with known RG flows, but has not been derived from first principles for arbitrary network topologies. This requires extending the spectral analysis of network Laplacians (Burioni & Cassi 2005) to include wave, critical, and confined operators.
 
-**Second:** A prediction of which systems should sit at basin boundaries — and therefore show "critical" behavior with $\alpha$ fluctuating between adjacent fixed points. RTM predicts that systems undergoing phase transitions (cardiac arrest, seizure onset, market crash) should show $\alpha$ flowing between fixed points in real time. The cardiac severity ladder ($\rho = -0.957$ from NSR at $\alpha = 1.05$ to VFib at $\alpha = 0.35$) is consistent with this: the disease process is an $\alpha$-flow from the ballistic fixed point ($\alpha = 1$) through white noise ($\alpha = 0.5$) toward anti-correlation ($\alpha < 0.5$).
+**Second:** A prediction of which systems should sit at basin boundaries — and therefore show "critical" behavior with $\alpha$ fluctuating between adjacent fixed points. RTM predicts that systems undergoing phase transitions (cardiac arrest, seizure onset, market crash) should show $\alpha$ flowing between fixed points in real time. The cardiac severity ladder ($\rho = -0.957$ from NSR at $\alpha = 1.05$ to VFib at $\alpha = 0.35$) is consistent with this: the disease process is an $\alpha$ -flow from the ballistic fixed point ($\alpha = 1$) through white noise ($\alpha = 0.5$) toward anti-correlation ($\alpha < 0.5$).
 
 This dynamic flow picture — $\alpha$ as a time-dependent variable that evolves under coarse-graining and flows toward fixed points determined by the dominant operator — is the ultimate theoretical target of the RTM program.
 
