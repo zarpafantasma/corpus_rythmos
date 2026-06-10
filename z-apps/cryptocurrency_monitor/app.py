@@ -91,6 +91,17 @@ def fetch_live(symbol='BTC/USD'):
         return df
     except: return None
 
+@st.cache_data(ttl=300)
+def fetch_live_hourly(symbol='BTC/USD'):
+    """Fetch hourly candles (14 days) for multi-scale coherence."""
+    try:
+        ex = ccxt.kraken({'enableRateLimit':True})
+        ohlcv = ex.fetch_ohlcv(symbol, '1h', limit=336)
+        df = pd.DataFrame(ohlcv, columns=['ts','Open','High','Low','Close','Volume'])
+        df['Date'] = pd.to_datetime(df['ts'], unit='ms')
+        return df
+    except: return None
+
 @st.cache_data(ttl=120)
 def fetch_health():
     assets = ['BTC/USD','ETH/USD','SOL/USD','XRP/USD']
@@ -121,11 +132,10 @@ def compute_alpha_series(df, nf=5.0):
     var = pd.Series(lv).rolling(60).var()
     return pd.Series(cov/var).replace([np.inf,-np.inf],np.nan).rolling(3,min_periods=1).mean()
 
-def compute_multiscale(df):
+def compute_multiscale(df, scales=[1,5,15,60]):
     vol = df['Volume'].values
     vola = (df['High'] - df['Low']).values
     vola = np.where(vola<0.01, 0.01, vola)
-    scales = [1,5,15,60]
     scale_a = {}
     for s in scales:
         bins = len(df)//s
@@ -236,13 +246,13 @@ if module == "MULTI-SCALE COHERENCE":
             if st.button("COMPUTE LIVE σ",use_container_width=True):
                 st.cache_data.clear(); st.rerun()
 
-        with st.spinner("Fetching live data from Kraken..."):
-            df_live = fetch_live(sym)
+        with st.spinner("Fetching 14 days of hourly data from Kraken..."):
+            df_live = fetch_live_hourly(sym)
 
         if df_live is not None and len(df_live)>60:
-            sigma, sa = compute_multiscale(df_live)
+            sigma, sa = compute_multiscale(df_live, scales=[1,3,6,12])
             if sigma is not None and len(sigma)>5:
-                curr = np.nanmedian(sigma[-20:])
+                curr = np.nanmedian(sigma[-24:])
                 gc, tc = st.columns([1,1.8])
                 with gc:
                     st.plotly_chart(sigma_gauge(curr),use_container_width=True)
@@ -258,7 +268,7 @@ if module == "MULTI-SCALE COHERENCE":
                     fig.add_hline(y=0.05,line_dash="dash",line_color="#f85149",annotation_text="CRISIS",annotation_font=dict(color="#f85149",size=10))
                     fig.add_hline(y=0.15,line_dash="dash",line_color="#d29922",annotation_text="WATCH",annotation_font=dict(color="#d29922",size=10))
                     fig = dark_layout(fig,300)
-                    fig.update_layout(title=f"LIVE σ — {sym} (Kraken 1-min)")
+                    fig.update_layout(title=f"LIVE σ — {sym} (Kraken hourly, 14 days)")
                     st.plotly_chart(fig,use_container_width=True)
             else:
                 st.info("Insufficient data for multi-scale computation (need >60 candles per scale)")
