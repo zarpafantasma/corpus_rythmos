@@ -222,8 +222,6 @@ The first operational implementation of RTM Theory applied to atmospheric dynami
 
 **(d) Red Team Findings.** Full transparency: 8 findings that work, 4 that failed. Hurricane α circularity (ρ = 0.957, 13 tests) documented explicitly.
 
-**Red Team audit score: 68%** — Percentage of empirical claims in Doc 013 that survived independent adversarial audit (Red Team, April 2026). Tornado: intact. Hurricane α: circular.
-
 > **NOTICE:** Strictly academic proof of concept. Not an official meteorological alert system. Does not abuse, spam, or mass-scrape commercial data APIs.
 
 - **Status:** Operational / Proof of Concept (v3 — Post-Red Team Rebuild)
@@ -247,8 +245,6 @@ The second operational implementation of RTM Theory, applying topological princi
 **(d) Market Physics.** Convergent results: inverse cubic law (α = 2.966 ± 0.236, consistent with Gabaix et al. 2003), recovery time scaling (τ ∝ D^3.59), probability calculator (Gaussian vs power law).
 
 **(e) Red Team Findings.** Full transparency: 6 findings that work, 5 that failed. Out-of-sample crash prediction (25%) documented explicitly.
-
-**Red Team audit score: 68%** — Percentage of empirical claims in Doc 015 that survived independent adversarial audit (Red Team, April 2026). 32% invalidated or degraded.
 
 > **DISCLAIMER:** Academic, read-only topological analysis tool. Does NOT execute trades, does NOT mine cryptocurrency, and is NOT financial advice. Out-of-sample crash prediction accuracy is 25%. This is not an operational trading signal.
 
