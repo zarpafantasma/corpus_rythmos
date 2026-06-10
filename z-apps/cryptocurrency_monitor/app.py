@@ -219,7 +219,10 @@ Events: crash_alpha_analysis.csv<br><br>
 Red Team: Claude Opus 4.6<br>
 Out-of-sample: 25% accuracy<br>
 Novel metric: Multi-Scale σ<br>
-Score: 68%</div>""",unsafe_allow_html=True)
+Score: 68% — Percentage of empirical claims
+in Doc 015 that survived independent
+adversarial audit (Red Team, April 2026).
+32% invalidated or degraded.</div>""",unsafe_allow_html=True)
 
 # ══════════════════════════════════════
 # MODULE 1: MULTI-SCALE COHERENCE (headline)
