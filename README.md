@@ -198,64 +198,64 @@ The following analyses provided initial directional evidence but suffer from met
 
 ## RTM Predictive Applications & Tools (z.apps)
 
-This section hosts operational tools developed under the RTM framework. These applications translate the scaling mathematics into predictive interfaces.
+This section hosts operational tools developed under the RTM framework. These applications translate the scaling mathematics into structural monitoring interfaces.
 
 ### Core Objectives
-- **Early Detection:** Identifying the transition from laminar to turbulent states.
-- **Structural Integrity:** Monitoring the $\alpha$ coefficient to assess system stability.
-- **Lead Time:** Providing a predictive window before traditional kinetic metrics react.
+
+- **Structural Monitoring:** Tracking the α coefficient and cross-scale coherence (σ) as descriptors of system state.
+- **Forensic Analysis:** Post-hoc reconstruction of structural patterns during known crisis events.
+- **Transparency:** Every module discloses Red Team audit results, including what failed.
 
 ---
 
-### 1. RTM CLIMATE (Atmospheric Monitor)
+### 1. RTM CLIMATE (Atmospheric Structural Radar)
 
-The first operational implementation of RTM Theory applied to Rhythmic Meteorology and extreme climate physics. This dual-module system processes real-time atmospheric data to detect structural patterns in atmospheric dynamics.
+The first operational implementation of RTM Theory applied to atmospheric dynamics. Rebuilt from scratch (v3, May 2026) to show only findings that survived independent adversarial audit.
 
-**What it measures:**
+**Modules:**
 
-**(a) Live Cyclogenesis Radar.** Tracks the volume-pressure coupling exponent (α) as a timing indicator. Adversarial testing (Red Team, April 2026) confirmed that α correlates with wind speed at ρ = 0.957 after 13 independent tests across 3 rounds; the operational value is in the **timing** of α-drops (6-18h before kinetic wind explosion), not in magnitude prediction. α magnitude is redundant with wind speed (ΔR² < 0.015, all partial correlations non-significant after wind control).
+**(a) Tornado Vortex Radar (headline).** Fetches active Tornado Warnings from the NWS API (api.weather.gov) in real-time. Extracts estimated rotation speed from alert text, estimates cell size from warning polygon, and computes an RTM α proxy = log₁₀(VEL) / log₁₀(L). Classifies events using the TorNet-calibrated threshold (α > 0.74 → confirmed tornado class). This is the strongest empirical finding in the entire RTM corpus: d = 0.96, CV AUC = 0.751, α completely subsumes raw velocity (ΔAUC = 0.000), and 91% of the discriminative signal is achievable without velocity input (circularity partially broken). **Data note:** The α proxy here is approximated from NWS alert text, not from direct dual-pol radar — treat as indicative.
 
-**(b) Multi-Scale Coherence Monitor (novel).** Computes α simultaneously at 1h, 3h, 6h, and 12h windows. The cross-scale standard deviation (σ) is the surviving RTM-native metric: during structural crises, σ → 0.03 (all scales couple simultaneously); during normal conditions, σ → 0.31 (scales operate independently). No standard meteorological tool measures this quantity. Reference: BTC crash months (financial analog) showed σ = 0.031-0.034 vs control σ = 0.310.
+**(b) Multi-Scale Coherence Monitor (novel).** Computes α simultaneously at 1h, 3h, 6h, and 12h windows using Open-Meteo atmospheric data. The cross-scale standard deviation (σ) is the surviving RTM-native metric: during structural crises, σ → 0.03 (all scales couple simultaneously); during normal conditions, σ → 0.31 (scales operate independently). No standard meteorological tool measures this. This is a cross-domain finding — the same 10x separation appears in financial crashes (BTC).
 
-**Red Team findings (April 2026):**
+**(c) Seismology Reference.** Static reference module showing the RTM calibration anchor: seismic rupture α = 1.007 ± 0.016 (ballistic, R² = 0.987, 51 earthquakes). Includes the novel finding of normal (extensional) fault sub-ballistic propagation (α = 0.865, 95% CI excludes 1.0). Displays the RG fixed-point structure (α = 0, 0.5, 1.0, 2.0).
 
-- Hurricane α magnitude is redundant with wind speed — confirmed across 13 independent tests in 3 rounds. This module now focuses on timing and cross-scale coherence, not absolute α levels.
-- Tornado discrimination remains the strongest empirical result in the RTM meteorological corpus: d = 0.96, CV AUC = 0.751, α completely subsumes raw velocity (ΔAUC = 0.000 when VEL is added to α) on 1,105 TorNet events from MIT.
-- Normal (extensional) fault α = 0.865, 95% CI excludes 1.0 — genuinely novel seismological finding.
+**(d) Red Team Findings.** Full transparency: 8 findings that work, 4 that failed. Hurricane α circularity (ρ = 0.957, 13 tests) documented explicitly.
 
-> **NOTICE:** Strictly academic proof of concept. Not an official meteorological alert system and should not be used as one. Does not abuse, spam, or mass-scrape commercial data APIs.
+**Red Team audit score: 68%** — Percentage of empirical claims in Doc 013 that survived independent adversarial audit (Red Team, April 2026). Tornado: intact. Hurricane α: circular.
 
-- **Status:** Operational / Proof of Concept (v2 — Post-Red Team Audit)
+> **NOTICE:** Strictly academic proof of concept. Not an official meteorological alert system. Does not abuse, spam, or mass-scrape commercial data APIs.
+
+- **Status:** Operational / Proof of Concept (v3 — Post-Red Team Rebuild)
 - **Domain:** Atmospheric Thermodynamics & Multiscale Climate Physics
-* **Launch App:** [RTM CLIMATE MONITOR Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
+- **Launch App:** [RTM CLIMATE MONITOR Console](https://corpusrythmos-atmospheric-monitor.streamlit.app/)
 
 ---
-### 2. RTM ECONOMIC MONITOR (Crypto Engine)
 
-The second operational implementation of RTM Theory, applying topological principles to financial market microstructure. Monitors real-time market data (BTC/USDT via Kraken) to track the volume-volatility coupling coefficient (α) and cross-scale structural coherence.
+### 2. RTM ECONOMIC MONITOR (Crypto Structural Radar)
 
-**What it measures:**
+The second operational implementation of RTM Theory, applying topological principles to financial market microstructure. Rebuilt from scratch (v3, May 2026) to lead with the only metric that survived adversarial testing as genuinely novel.
 
-**(a) Microstructure Radar.** Tracks α as a structural descriptor of market coupling. When α rises, volume moves price less efficiently — a sign of increasing internal friction. This is a structural descriptor, not a crash prediction system.
+**Modules:**
 
-**(b) Multi-Scale Coherence Monitor (novel — Red Team survivor).** The only RTM economic metric that passed adversarial testing as genuinely novel. Computes α at 1-min, 5-min, 15-min, and 60-min aggregations simultaneously; tracks the cross-scale standard deviation (σ). During BTC crash months (COVID March 2020, FTX November 2022), σ = 0.031-0.034; during the control month (September 2023), σ = 0.310 — 10x less coherent. The market does not lose coherence during crashes: it gains it. All scales lock simultaneously. No standard financial indicator measures cross-scale α coherence.
+**(a) Multi-Scale Coherence Monitor (headline — Red Team survivor).** The only RTM economic metric that passed adversarial testing as genuinely novel. Computes α at 1h, 3h, 6h, and 12h aggregations (live from Kraken hourly data) or at 1-min, 5-min, 15-min, and 60-min aggregations (historical from Binance CSVs). Tracks the cross-scale standard deviation (σ). During BTC crash months (COVID March 2020, FTX November 2022), σ = 0.031-0.034; during the control month (September 2023), σ = 0.310 — 10x more coherent during crashes. All scales lock simultaneously during phase transitions. No standard financial indicator measures this.
 
-**(c) Macro DFA Radar.** Tracks long-range memory (DFA α) on a 7-day rolling window. Measures persistence of return autocorrelation. Structural context only.
+**(b) Live Microstructure Monitor.** Tracks the volume-volatility coupling coefficient (α) in real-time from Kraken for BTC, ETH, SOL, XRP. Includes systemic health dashboard (4-asset α comparison). Framed as a **structural descriptor, not a crash prediction signal.** Out-of-sample accuracy (25%) disclosed in all relevant UI elements.
 
-**(d) Forensic Laboratory.** Post-hoc reconstruction of structural patterns during known crash events (COVID, FTX, China Ban, Control). Forensic analysis — not prospective prediction.
+**(c) Forensic Laboratory.** Post-hoc reconstruction of 5 historical events: FTX (chronic viscosity), COVID (sudden bifurcation), China Ban (turbulence, no fracture), Control Group (zero false alarms), October 2025 (Binance technical glitch, not fundamental crash). Every event labeled as **forensic (post-hoc)**, not prospective prediction.
 
-**Red Team findings (April 2026):**
+**(d) Market Physics.** Convergent results: inverse cubic law (α = 2.966 ± 0.236, consistent with Gabaix et al. 2003), recovery time scaling (τ ∝ D^3.59), probability calculator (Gaussian vs power law).
 
-- Out-of-sample crash prediction accuracy: **25%** (1 of 4 post-2022 events correctly classified). The α-drop threshold trained on pre-2022 crashes does not generalize across market regimes.
-- The forensic patterns (COVID 60-min lead, FTX 96-hour lead) are in-sample observations identified after the fact, not validated prospective predictions.
-- "EXIT MARKETS" language removed in v2. All BIFURCATION alerts now include explicit out-of-sample accuracy notice.
-- Volume-volatility coupling is real and non-random (global r > 0.88 across all months). The structural descriptor is valid; the predictive application is not yet validated.
+**(e) Red Team Findings.** Full transparency: 6 findings that work, 5 that failed. Out-of-sample crash prediction (25%) documented explicitly.
+
+**Red Team audit score: 68%** — Percentage of empirical claims in Doc 015 that survived independent adversarial audit (Red Team, April 2026). 32% invalidated or degraded.
 
 > **DISCLAIMER:** Academic, read-only topological analysis tool. Does NOT execute trades, does NOT mine cryptocurrency, and is NOT financial advice. Out-of-sample crash prediction accuracy is 25%. This is not an operational trading signal.
 
-- **Status:** Operational / Proof of Concept (v2 — Post-Red Team Audit)
+- **Status:** Operational / Proof of Concept (v3 — Post-Red Team Rebuild)
 - **Domain:** Quantitative Finance & Market Topology
-* **Launch App:** [RTM ECONOMIC MONITOR Console](https://corpusrythmos-cryptomonitor.streamlit.app/)
+- **Launch App:** [RTM ECONOMIC MONITOR Console](https://corpusrythmos-cryptomonitor.streamlit.app/)
+
 ---
 
 ## Corpus Structure
