@@ -220,7 +220,10 @@ Seismology: Published catalogs<br><br>
 <b>AUDIT</b><br>
 Red Team: Claude Opus 4.6<br>
 Date: April-May 2026<br>
-Corpus score: 68%</div>""",unsafe_allow_html=True)
+Corpus score: 68% 68% — Percentage of empirical claims
+in Doc 013 that survived independent
+adversarial audit (Red Team, April 2026).
+Tornado: intact. Hurricane α: circular.</div>""",unsafe_allow_html=True)
 
 # ══════════════════════════════════════
 # MODULE 1: TORNADO
