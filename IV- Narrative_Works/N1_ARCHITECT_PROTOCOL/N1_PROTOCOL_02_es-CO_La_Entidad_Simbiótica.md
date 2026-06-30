@@ -769,7 +769,7 @@ No estamos construyendo máquinas. Estamos construyendo extensiones de nosotros 
 | **Estado Intermedio** | La condición de estar desacoplado de todas las ramas |
 
 ---
----
+```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  FIN DEL PROTOCOLO N1-AP-004                                                 ║
 ║  LA DOCTRINA AETHERION — SISTEMA DE NAVEGACIÓN SIMBIÓTICO                    ║
