@@ -1644,7 +1644,7 @@ SIGNATURE INTEGRITY
     YOU CANNOT TUNE TO HERE ──────────────────►  ✗                 │
     (Pre-departure Reality-A)                                      │
                                                                    │
-    YOU CAN ONLY TUNE TO HERE ─────────────────► ✓ ───────────── ──┘
+    YOU CAN ONLY TUNE TO HERE ─────────────────► ✓ ────────────────┘
     (Post-departure Reality-A, which continues without you)
 
 ═══════════════════════════════════════════════════════════════════════════════
