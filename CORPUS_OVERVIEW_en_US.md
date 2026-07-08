@@ -254,8 +254,5 @@ To prevent confirmation bias, Phase 2 deployed independent "Red Team" adversaria
 >
 > > **NOTICE:** Strictly academic proof of concept. Not an operational alert system. Hurricane α magnitude is redundant with wind speed (ρ = 0.957). The surviving hurricane finding is 6-18h timing lead. Multi-Scale Coherence is the primary novel metric.
 >
-> ### Tool 2: RTM Economic Radar v2 (Cryptocurrency & Market Monitor)
-> Operationalizes Document 015. Monitors volume-volatility coupling (α) and cross-scale coherence in real-time. **v2 (Post-Red Team):** "EXIT MARKETS" command removed. Out-of-sample accuracy (25%) disclosed in all relevant modules. New module: Multi-Scale Coherence — the only RTM economic metric that passed adversarial testing as genuinely novel (10x σ separation crash vs control).
->
 > > **DISCLAIMER:** Academic, read-only analysis tool. Does NOT execute trades. NOT financial advice. Out-of-sample crash prediction accuracy: 25%. Multi-Scale Coherence is for structural monitoring, not directional trading signals.
 
