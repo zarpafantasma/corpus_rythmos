@@ -230,30 +230,6 @@ The first operational implementation of RTM Theory applied to atmospheric dynami
 
 ---
 
-### 2. RTM ECONOMIC MONITOR (Crypto Structural Radar)
-
-The second operational implementation of RTM Theory, applying topological principles to financial market microstructure. Rebuilt from scratch (v3, May 2026) to lead with the only metric that survived adversarial testing as genuinely novel.
-
-**Modules:**
-
-**(a) Multi-Scale Coherence Monitor (headline — Red Team survivor).** The only RTM economic metric that passed adversarial testing as genuinely novel. Computes α at 1h, 3h, 6h, and 12h aggregations (live from Kraken hourly data) or at 1-min, 5-min, 15-min, and 60-min aggregations (historical from Binance CSVs). Tracks the cross-scale standard deviation (σ). During BTC crash months (COVID March 2020, FTX November 2022), σ = 0.031-0.034; during the control month (September 2023), σ = 0.310 — 10x more coherent during crashes. All scales lock simultaneously during phase transitions. No standard financial indicator measures this.
-
-**(b) Live Microstructure Monitor.** Tracks the volume-volatility coupling coefficient (α) in real-time from Kraken for BTC, ETH, SOL, XRP. Includes systemic health dashboard (4-asset α comparison). Framed as a **structural descriptor, not a crash prediction signal.** Out-of-sample accuracy (25%) disclosed in all relevant UI elements.
-
-**(c) Forensic Laboratory.** Post-hoc reconstruction of 5 historical events: FTX (chronic viscosity), COVID (sudden bifurcation), China Ban (turbulence, no fracture), Control Group (zero false alarms), October 2025 (Binance technical glitch, not fundamental crash). Every event labeled as **forensic (post-hoc)**, not prospective prediction.
-
-**(d) Market Physics.** Convergent results: inverse cubic law (α = 2.966 ± 0.236, consistent with Gabaix et al. 2003), recovery time scaling (τ ∝ D^3.59), probability calculator (Gaussian vs power law).
-
-**(e) Red Team Findings.** Full transparency: 6 findings that work, 5 that failed. Out-of-sample crash prediction (25%) documented explicitly.
-
-> **DISCLAIMER:** Academic, read-only topological analysis tool. Does NOT execute trades, does NOT mine cryptocurrency, and is NOT financial advice. Out-of-sample crash prediction accuracy is 25%. This is not an operational trading signal.
-
-- **Status:** Operational / Proof of Concept (v3 — Post-Red Team Rebuild)
-- **Domain:** Quantitative Finance & Market Topology
-- **Launch App:** [RTM ECONOMIC MONITOR Console](https://corpusrythmos-cryptomonitor.streamlit.app/)
-
----
-
 ## Corpus Structure
 
 The corpus comprises **24 documents** across five categories:
