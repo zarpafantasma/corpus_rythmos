@@ -42,68 +42,6 @@ streamlit run app_rtm.py
 
 ---
 
-### 2. Economic Structural Radar (`cryptocurrency_monitor/`)
-
-> **DISCLAIMER:** Academic, read-only topological analysis tool. Does NOT execute trades, does NOT mine cryptocurrency, and is NOT financial advice. Out-of-sample crash prediction accuracy: 25%.
-
-**Modules:**
-
-| Module | Function | Data Source |
-|--------|----------|-------------|
-| **MULTI-SCALE COHERENCE** | Cross-scale σ (live + historical) | Kraken API (hourly) + Binance CSVs |
-| **LIVE MICROSTRUCTURE** | Real-time α monitoring (4 assets) | Kraken API (1-min) |
-| **FORENSIC LABORATORY** | Historical crash anatomy (post-hoc) | Binance 1-min CSVs |
-| **MARKET PHYSICS** | Fat tails + recovery scaling | Convergent results |
-| **RED TEAM FINDINGS** | Full audit transparency | Red Team April 2026 |
-
-**Multi-Scale Coherence (headline — the only genuinely novel RTM economic metric):**
-- Live: fetches 14 days of hourly data from Kraken, computes α at 1h/3h/6h/12h scales
-- Historical: loads Binance 1-min CSVs, computes α at 1/5/15/60 min scales
-- Tracks cross-scale σ with gauge, time series, and reference values
-- Crash months σ = 0.031-0.034 vs control σ = 0.310 (10x separation)
-
-**Forensic Events (labeled as post-hoc, not prospective prediction):**
-
-| Event | Date | Finding | Status |
-|-------|------|---------|--------|
-| **FTX Collapse** | Nov 2022 | Chronic Viscosity (α ≈ 1.2, 4 days) | Forensic |
-| **Black Thursday** | Mar 2020 | Sudden Bifurcation (α = 1.76) | Forensic |
-| **China Ban** | May 2021 | Turbulence, no fracture (α = 1.33) | Forensic |
-| **Control Group** | Sep 2023 | Laminar (α ≈ 0.45, zero false alarms) | Confirmed |
-| **Binance Glitch** | Oct 2025 | Technical anomaly, not fundamental crash | Not validated |
-
-**What was removed from previous versions:** "EXIT MARKETS" command, "crash early warning system" framing, "96-hour FTX warning" claim, "15-hour October prediction" claim, all language implying operational trading signals.
-
-**Run:**
-```bash
-cd cryptocurrency_monitor
-pip install -r requirements.txt
-streamlit run app_crypto.py
-```
-
----
-
-## The Multi-Scale Coherence Metric (σ) — Shared Across Both Applications
-
-Both applications share the same novel finding as their headline module: **Multi-Scale Coherence**.
-
-The concept: compute α at multiple time scales simultaneously. If all scales show the same α (low σ), the system is in a coherent, coupled state — a phase transition is underway. If each scale shows a different α (high σ), the system is operating normally — no phase transition.
-
-| σ Range | State | Atmospheric Meaning | Financial Meaning |
-|---------|-------|---------------------|-------------------|
-| σ < 0.05 | **HYPER-COHERENT** | All scales locked — structural crisis | All scales locked — crash signature |
-| 0.05 < σ < 0.15 | **ELEVATED** | Scales coupling — monitor | Scales coupling — watch |
-| σ > 0.15 | **NORMAL** | Scales independent | Scales independent |
-
-**Reference values (from Red Team BTC analysis):**
-- Crisis (COVID March 2020): σ = 0.031
-- Crisis (FTX November 2022): σ = 0.034
-- Control (September 2023): σ = 0.310
-
-This metric is RTM-native: it is not measured by any standard meteorological or financial indicator. The cross-domain consistency (atmosphere + markets) is the central empirical contribution of the RTM monitoring framework.
-
----
-
 ## Technical Stack
 
 | Component | Library |
@@ -111,7 +49,6 @@ This metric is RTM-native: it is not measured by any standard meteorological or 
 | UI Framework | Streamlit |
 | Visualization | Plotly, Folium (maps) |
 | Data Processing | Pandas, NumPy |
-| Financial Data | ccxt (Kraken API) |
 | Weather Data | Open-Meteo API |
 | Tornado Alerts | NWS API (api.weather.gov) |
 | Typography | JetBrains Mono, Inter |
@@ -126,12 +63,7 @@ This metric is RTM-native: it is not measured by any standard meteorological or 
 
 ## Relationship to RTM Corpus
 
-| Application | Source Paper | Score | Key Surviving Finding |
-|-------------|-------------|-------|-----------------------|
-| Atmospheric Radar | Doc 013 (Rhythmic Meteorology) | 68% | Tornado d = 0.96, α subsumes VEL |
-| Economic Radar | Doc 015 (Rhythmic Economics) | 68% | Multi-Scale σ: 10x crash vs control |
-
-These applications do not introduce new theory — they package validated RTM metrics into real-time monitoring interfaces. Previous versions contained claims that were invalidated by the Red Team audit. v3 apps contain only what survived.
+This application do not introduce new theory — they package validated RTM metrics into real-time monitoring interfaces. Previous versions contained claims that were invalidated by the Red Team audit. v3 apps contain only what survived.
 
 ---
 
