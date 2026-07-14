@@ -456,7 +456,7 @@ History is full of usurpers of ideas. We saw how the vision of the desert became
 
 **RTM** is a treatise on Ontological Freedom. Ontological freedom is not \"doing whatever you want.\" It is the capacity of a system (you) to sustain its own structural coherence without collapsing under external pressure. It is the right to maintain your own rhythm.
 
-If you accept a \"Prophet\" or a \"Leader\" of **RTM**, you are making a physical error: you are externalizing your **Vertical Axis**. You are allowing another to dictate the phase of your oscillation. At that moment, you cease to be a Composer and become a repeater---a monophony.
+If you accept a \"Prophet\" or a \"Leader\" of **RTM**, you are making a physical error: you are externalizing your **Vertical Axis**. You are allowing another to dictate the phase of your oscillation. At that moment, you cease to be a Composer and become a repeater, a monophony.
 
 The author of this corpus is not a master; he is a cartographer. A cartographer can point out where the abyss is and where the bridge is, but he cannot walk for you. If the cartographer demands that you kiss his feet before using the map, burn the map and the cartographer.
 
