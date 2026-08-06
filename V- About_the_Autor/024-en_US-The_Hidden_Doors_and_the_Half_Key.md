@@ -144,8 +144,6 @@ From that night I brought back not only fear. I brought a certainty. First, I un
 
 A long time would pass before I overcame the idea that the layers separating the universes would start their movement again at any moment to transport me into the unknown.
 
-Aquí tienes la traducción completa del capítulo 1.5, manteniendo la extensión y el tono narrativo del original:
-
 **1.5 The Door of the Garden (Ayahuasca)**
 
 Twelve days after the encounter with Salvia, the echo of terror still vibrated within me. I felt that time could break. But instead of closing the path, I felt that something was missing. A piece. A root. The final door—the one that is not opened out of curiosity, but by destiny.
