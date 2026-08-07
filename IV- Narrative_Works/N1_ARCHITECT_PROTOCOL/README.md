@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="remember_your_duty.jpg" width="520" alt="Remember Your Duty">
-
 # N-1 ARCHITECT PROTOCOLS
 
 ### A reader’s guide to the civilization that leaves its universe forever to carry the Eternal Flame
