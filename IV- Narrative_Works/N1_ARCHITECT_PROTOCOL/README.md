@@ -552,49 +552,6 @@ The N-1 Protocols explain the discipline required to live inside those implicati
 
 ---
 
-## Folder Guide
-
-Each protocol volume is available in English and Spanish.
-
-| File | What it contains in plain language |
-|---|---|
-| [`N1_PROTOCOL_01_en-US_Fundamentals_of_the_Multiverse.md`](N1_PROTOCOL_01_en-US_Fundamentals_of_the_Multiverse.md) | The Spiral, the successor world, scale differences, and why the grandfather paradox does not occur |
-| [`N1_PROTOCOL_01_es-CO_Fundamentos_del_Multiverso.md`](N1_PROTOCOL_01_es-CO_Fundamentos_del_Multiverso.md) | Spanish edition of Protocols 01–03 |
-| [`N1_PROTOCOL_02_en-US_The_Symbiotic_Entity.md`](N1_PROTOCOL_02_en-US_The_Symbiotic_Entity.md) | The Aetherion as a living vessel, the pilot, the BioDrone, and sensory navigation |
-| [`N1_PROTOCOL_02_es-CO_La_Entidad_Simbiótica.md`](N1_PROTOCOL_02_es-CO_La_Entidad_Simbiótica.md) | Spanish edition of Protocols 04–07 |
-| [`N1_PROTOCOL_03_en-US_Mechanics_and_Operations.md`](N1_PROTOCOL_03_en-US_Mechanics_and_Operations.md) | The jump, Anchors, Chrono-Stasis, hidden bases, and withdrawal between historical waves |
-| [`N1_PROTOCOL_03_es-CO_Mecanica_y_Operaciones.md`](N1_PROTOCOL_03_es-CO_Mecanica_y_Operaciones.md) | Spanish edition of Protocols 08–11 |
-| [`N1_PROTOCOL_04_en-US_Implications_and_Sovereignty.md`](N1_PROTOCOL_04_en-US_Implications_and_Sovereignty.md) | Probability, freedom, the Three Waves, Relay Failure, and the Fermi question |
-| [`N1_PROTOCOL_04_es-CO_Implicaciones_y_Soberania.md`](N1_PROTOCOL_04_es-CO_Implicaciones_y_Soberania.md) | Spanish edition of Protocols 12–15 |
-| [`SPECIAL_PROTOCOL_16_en-US_ABSOLUTE_PROHIBITIONS_AND_AWARENESS.md`](SPECIAL_PROTOCOL_16_en-US_ABSOLUTE_PROHIBITIONS_AND_AWARENESS.md) | The moral constitution of the Architects and the greatest threats to the relay |
-| [`SPECIAL_PROTOCOL_16_es-CO_PROHIBICIONES_ABSOLUTAS_Y_CUIDADOS.md`](SPECIAL_PROTOCOL_16_es-CO_PROHIBICIONES_ABSOLUTAS_Y_CUIDADOS.md) | Spanish edition of Special Protocol 16 |
-| [`SPECIAL_PROTOCOL_16_PROHIBITIONS_PRESENTATION.pdf`](SPECIAL_PROTOCOL_16_PROHIBITIONS_PRESENTATION.pdf) | Visual presentation of the absolute prohibitions |
-| [`THE_COVENANT_OF_THE_FLAME-EN_ES.md`](THE_COVENANT_OF_THE_FLAME-EN_ES.md) | Bilingual oath of duty, restraint, memory, and release |
-| [`N1-ARCHITECT_GRADUATION.pdf`](N1-ARCHITECT_GRADUATION.pdf) | Final ceremonial and operational qualification |
-| [`URGENT_MESSAGE_-_OPEN_ONLY_AFTER_JUMP.html`](URGENT_MESSAGE_-_OPEN_ONLY_AFTER_JUMP.html) | A sealed in-universe document. Read only after completing the main narrative and protocols |
-| [`remember_your_duty.jpg`](remember_your_duty.jpg) | Visual emblem of the Architect’s obligation |
-
----
-
-## A Short Glossary
-
-| Term | Simple meaning |
-|---|---|
-| **Universe N** | The current successor world |
-| **Universe N-1** | The immediately previous universe from which the Architects came |
-| **Spiral Current** | The one-way succession through which universes become active |
-| **Relay Window** | The limited period when travel from one universe to the next is possible |
-| **Homologous Past** | A stage of the successor world that resembles the travelers’ past but is not the same past |
-| **Architect** | A traveler responsible for protecting the successor’s ability to develop freely |
-| **Gnosis** | Understanding earned through lived experience |
-| **Eternal Flame** | The memory, wisdom, methods, and responsibility consciously passed onward |
-| **Great Filter** | A threshold at which a civilization may destroy itself or become capable of continuing the relay |
-| **Causal Wake** | Everything the completed past leaves behind as consequence |
-| **Cascade Continuant** | A being or institution that survives several consecutive universes |
-| **Rider of the Serpent** | Mythic name for a Cascade Continuant |
-
----
-
 ## The Question at the Heart of the Protocols
 
 The most important question in this folder is not:
