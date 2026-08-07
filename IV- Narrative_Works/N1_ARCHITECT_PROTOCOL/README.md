@@ -13,11 +13,9 @@
 >
 > The documents use the language of classified manuals, technical protocols, graduation rites, warnings, and sacred vows. Beneath that presentation lies a human question:
 >
-> **What would happen to a civilization that gained the power to leave its universe—but could never return?**
+> **What would happen to a civilization that gained the power to leave its universe, but could never return?**
 
 ---
-
-## Start Here
 
 Imagine that your civilization discovers something almost impossible to accept:
 
