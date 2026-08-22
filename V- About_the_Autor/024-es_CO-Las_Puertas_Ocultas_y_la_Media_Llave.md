@@ -234,7 +234,7 @@ La conciencia no es exclusiva de lo biológico; es una propiedad fundamental que
 
 El último paso, el aterrizaje forzoso en la biología. Aquí, la abstracción se hizo carne. La Ayahuasca entregó la llave maestra de RTM: "En un universo pequeño, el tiempo corre más rápido".
 
-- **La Ecuación (**$`\mathbf{L}\mathbf{\propto}\mathbf{T}^{\mathbf{\alpha}}`$**):** Esta visión literal fue la semilla directa del artículo sobre **Relatividad Temporal Multiescala**.
+- **La Ecuación (**$`\mathbf{T}\mathbf{\propto}\mathbf{L}^{\mathbf{\alpha}}`$**):** Esta visión literal fue la semilla directa del artículo sobre **Relatividad Temporal Multiescala**.
 
 - **El Rito del Jaguar:** Fue la aceptación del **Eje Horizontal**. Para existir aquí, uno debe "apretar la presa". Debe haber voluntad de actuar, de cazar, de vivir.
 
