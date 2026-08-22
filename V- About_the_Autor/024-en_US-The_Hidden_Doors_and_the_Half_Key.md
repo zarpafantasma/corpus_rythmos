@@ -234,7 +234,7 @@ Consciousness is not exclusive to the biological; it is a fundamental property t
 
 The last step, the crash landing into biology. Here, abstraction became flesh. Ayahuasca delivered the master key of RTM: "In a small universe, time runs faster."
 
-- **The Equation (**$`\mathbf{L}\mathbf{\propto}\mathbf{T}^{\mathbf{\alpha}}`$**):** This literal vision was the direct seed of the **Relatividad Temporal Multiescala** paper.
+- **The Equation (**$`\mathbf{T}\mathbf{\propto}\mathbf{L}^{\mathbf{\alpha}}`$**):** This literal vision was the direct seed of the **Relatividad Temporal Multiescala** paper.
 
 - **The Jaguar Rite:** It was the acceptance of the **Horizontal Axis**. To exist here, one must "squeeze the prey." There must be the will to act, to hunt, to live.
 
