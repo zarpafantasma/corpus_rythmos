@@ -23,7 +23,7 @@ It should be noted that the contents of the folder **"Aetherion_Mark1-Prototype 
 
 **Chapter III** extends the Aetherion framework beyond intrabranch propulsion into the speculative problem of inter-universe transition. Rather than treating the multiverse as a set of simultaneously accessible α-wells, we adopt the Sequential Iterative Multiverse described by the Spiral Current: a causal succession of homologous universes in which only the immediate successor can become available for recoupling. We introduce a local branch-coordinate β to describe the transition between the present universe and its active successor, establish the conditions imposed by adjacency, the Relay Window, scale compatibility, and system coherence, and examine the irreversible nature of a completed crossing. The resulting model forbids arbitrary branch selection, backward return, and nonadjacent jumps; an Aetherion may only decouple from its current universe and recouple to the next active coil of the Spiral. This chapter therefore remains explicitly speculative, but replaces unrestricted branch-hopping with a constrained, causal transition architecture whose internal requirements can be stated and tested independently.
 
-Throughout the work, we adopt the parameter definitions and calibration pathways established in the RTM Unified Field Framework, ensuring numerical consistency across the theoretical corpus. The Aetherion program represents RTM’s most ambitious experimental objective: a proof-of-concept device that would simultaneously validate the framework’s core predictions and open pathways toward vacuum-energy technologies.
+Throughout, we adopt the parameter definitions and calibration routes established in the RTM Unified Field Framework, ensuring numerical consistency across the theoretical corpus. The Aetherion program represents RTM's most ambitious experimental target: a proof-of-concept device that would simultaneously validate the framework's core predictions and open pathways to vacuum-energy technologies.
 
 **APPENDAGES:** Following the theoretical development presented in Chapters I–III, the framework was subjected to a formal thermodynamic and momentum conservation audit. The key findings, detailed in the final Appendices of this document, include:
 
@@ -1227,708 +1227,2637 @@ Beyond propulsion and energy extraction, Aetherion’s ability to engineer time-
 
 <div align="center">
 
-# **III<br>Beyond Imagination: Branch-Hopping in the Multiverse**
+# **III<br>Beyond Imagination: “Branch-Hopping” in the Multiverse**
+
+### **Adjacent-Coil Transition Under the Spiral Current**
 
 </div>
 
-**1 Introduction**
+> [!IMPORTANT]
+> **Speculative Status and Canonical Revision:**  
+> This chapter is a theoretical and narrative extension of the RTM–Aetherion framework. The field equations, order parameters, numerical lattices, and experimental analogues developed below may be used to test the internal consistency of a proposed transition mechanism. They do **not** constitute empirical evidence that other universes exist or that a physical Aetherion transition has occurred.
+>
+> The expression **branch-hopping** is retained as a historical name. In the revised cosmology, it does not mean arbitrary movement among completed parallel worlds. It means a one-way transition from an active universe \(N\) to its immediately adjacent active successor \(N+1\), and only while the Spiral Current sustains a finite Relay Window between them.
 
-The hierarchical structure of Multiscale Temporal Relativity (RTM) suggests that our universe is just one layer in a nested cascade of “coherence domains,” each characterized by its own temporal‐scaling exponent $`\alpha`$. In this picture, distinct domains, or “branches”, behave like parallel universes with subtly different rates of proper‐time flow. The Aetherion mechanism, which couples a scalar field $`\varphi`$ to spatial gradients in $`\alpha`$, provides not only a means to extract vacuum energy and generate reactionless thrust, but also a conceptual pathway to induce controlled transitions between these adjacent branches.
+---
 
-**1.1 Motivation: From Hierarchical α-Layers to Discrete Universe Branches**
+## Abstract
 
-RTM’s network‐based derivation of $`\alpha`$ demonstrates that as one moves through increasingly deep or fractal‐like structures, the effective temporal scaling exponent shifts in quantized steps (e.g.\\ $`\alpha \approx`$ <!-- -->2.26, 2.47, 2.61, …). These quantized values hint at a multi‐well landscape in an abstract $```\alpha - \beta"`$ space, where each well corresponds to a distinct coherence domain. If one could drive the system over the barrier separating wells, an Aetherion device might “hop” from our current branch into a neighboring one, realizing the speculative notion of a multiverse jump within a rigorous physical framework.
+The original branch-transition hypothesis treated the multiverse as a ladder of discrete coherence domains indexed by a field \(\beta\). The revised model retains the useful field-theoretic insight—a macroscopic system may undergo a quantized transition between two coherence states—but places it inside a stricter cosmological architecture.
 
-**1.2 Goals: Formalizing β-Branches and Jump Dynamics**
+The multiverse is modeled as a Spiral of universal iterations progressively activated by a finite **Current of Actuality**. A future universe is not a completed spacetime awaiting selection. It becomes physically available only when the Head of the Current reaches its coil. During a finite overlap, Universe \(N\) and Universe \(N+1\) may both remain active. This overlap is the **Relay Window**, and it is the only interval in which an Aetherion transition can occur.
 
-In this chapter we will:
+We therefore redefine the branch field \(\beta(x)\) as a **local adjacent-coupling order parameter**, not an absolute multiversal address. In every operational universe:
 
-1.  **Define** a new scalar field $`\beta(x)`$ that labels discrete branch indices and construct a multi‐well potential $`V(\beta)`$ with minima at the hierarchical α‐values predicted by RTM.
-
-2.  **Extend** the Aetherion Lagrangian to include coupling between $`\varphi,\ \alpha`$ and $`\beta`$ yielding coupled equations of motion that govern both vacuum‐energy extraction and branch transitions.
-
-3.  **Derive** the conditions under which a spatial pulse in $`\nabla\alpha`$ can supply sufficient energy to overcome the β barrier, triggering a quantized jump.
-
-4.  **Simulate** a 1-D prototype to illustrate the dynamics of a driven transition and identify observable field signatures.
-
-By the end of this chapter, we will have transformed the poetic concept of “universe‐hopping” into a set of concrete, falsifiable predictions, laying the groundwork for experimental analogues and, eventually, true multiverse transition tests.
-
-**2 Hierarchical Multiverse in RTM**
-
-**2.1 Review of RTM’s Nested α-Exponents and Branch Index β**
-
-RTM derives the temporal-scaling exponent α from the **mean first-passage time (MFPT)** on multiscale networks. Successive structural motifs, flat small-world, hierarchical modular, holographic decay, deep fractal trees, produce a *ladder* of quantised α-values:
-
-| **Structural depth / motif** | **Simulated α (MFPT fits)** |
-|------------------------------|-----------------------------|
-| Flat small-world             | 2.26 ± 0.05                 |
-| Hierarchical modular         | 2.56 ± 0.03                 |
-| Holographic decay            | 2.47 ± 0.04                 |
-| Sierpiński depth 7           | 2.61 ± 0.02                 |
-| Fractal tree depth 8         | 3.3 ± 0.1                   |
-
-RTM interprets each plateau in α as a **coherence layer**, a regime where field correlations propagate with a distinct “clock rate.” To label these layers we introduce a *branch index*
-
-``` math
-\beta = 0,1,2,\ldots
+```math
+\beta=0
 ```
 
-such that
-                        
- ``` math                 
-\alpha = \alpha(\beta), \qquad \qquad \alpha(\beta + 1) > \alpha(\beta),
- ```
+denotes stable coupling to the current universe, while:
 
-and transitions $`\beta \rightarrow \beta \pm 1`$ correspond to stepping up or down the hierarchy.
-
-**2.2 Physical Interpretation: Coherence Layers as “Local Universes”**
-
-Because proper-time increments scale as $`{d\tau = \alpha}^{- 1}dt`$ in RTM, each $`\beta`$ layer experiences a **different flow of time**. Two key consequences follow:
-
-1.  **Local-Universe Picture**\
-    Regions locked into a common $`\beta`$ share the same temporal cadence and thus form a self-consistent “mini-universe.” Adjacent layers are *causally compatible* (signals can cross the boundary) but perceive one another as running faster/slower by the ratio $`\alpha(\beta + 1)/\alpha(\beta)`$
-
-2.  **Energy-Barrier Analogy**\
-    The discrete set $`\{\alpha(\beta)\}`$ behaves like minima of a multi-well potential in an order-parameter space. Moving from one branch to the next requires **work**, supplied, in Aetherion devices, by a strong spatial pulse in $`\nabla\alpha`$ This sets the stage for **quantised branch transitions**, the central theme of Sections 3–6.
-
-In this sense, RTM’s hierarchical α-spectrum provides a natural minimal model of a *multiverse*: not many disconnected spacetimes, but a ladder of locally coherent temporal domains, each reachable, at least in principle, through engineered α-modulation.
-
-**2.3 Notation & Definitions**
-
-1.  **Conventions: Physical** $`\mathbf{\alpha}_{\mathbf{RTM}}`$ **vs. Engineering** $`\widetilde{\mathbf{\alpha}}`$
-
-Throughout this paper, $`\alpha_{RTM}`$ denotes the **physical RTM scaling exponent** (the quantity that appears in RTM laws such as $`T \sim L^{\alpha_{RTM}}`$ and in the “band” hypotheses). In several simulations and hardware-oriented discussions we also use a normalized engineering control field $`\widetilde{\alpha} \in \lbrack 0,1\rbrack`$ to specify boundary conditions and gradients in a compact, dimensionless way.
-
-We relate the two by an explicit affine map:
-
-``` math
-\alpha_{RTM}(x)\text{\:\,} = \text{\:\,}\alpha_{0}\text{\:\,} + \text{\:\,}\Delta\alpha\text{\:\,}\widetilde{\alpha}(x),
+```math
+\beta=1
 ```
 
-where $`\alpha_{0}`$ is the baseline physical exponent (we take $`\alpha_{0} = 2`$ as the diffusive baseline unless otherwise stated) and $`\Delta\alpha > 0`$ is the engineered contrast. Thus, statements of the form “ $`\widetilde{\alpha}(0) = 0`$ to $`\widetilde{\alpha}(1) = 1`$ ” are **engineering normalization**, while the corresponding physical boundary condition is “$`\alpha_{RTM}(0) = \alpha_{0}`$ to $`\alpha_{RTM}(1) = \alpha_{0} + \Delta\alpha`$.”
+denotes stable coupling to the active adjacent successor. After successful re-coupling, the successor becomes the Entity’s new operational universe and the local coordinate is reset. A transition from \(\beta=0\) to \(\beta=1\) is therefore one legal descent:
 
-2.  **Symbols**
-
-To avoid any ambiguity in subsequent sections, we collect here the key symbols and their definitions:
-
-| **Symbol** | **Meaning** | **Equation / Section** |
-|----|----|----|
-| **φ(x)** | Scalar extraction field coupled to α | (17), (18a) |
-| **α(x)** | Temporal-scaling exponent field | (17), (18b) |
-| **β(x)** | Branch-index order parameter | (17), (18c) |
-| **V(β)** | Multi-well potential anchoring β=n minima | §3.2 |
-| **ΔVβ** | Barrier height: V(β+1) – V(β) | \(21\) |
-| **∇α** | Spatial gradient of α, source of thrust and jump drive | §2.1, (22) |
-| **E_drive** | Energy injected by α-gradient pulse | §5.2, (22) |
-| **Ω(α,β)** | Jump operator triggering branch transition | §5.1 |
-| **gβα** | Coupling constant between β and \|∇α\|² | §3.3, (18c) |
-| **γ** | Aetherion coupling between φ and □α | (17), (18a–b) |
-| **ΔE_ZPE** | Zero-point vacuum energy density difference | §2.2 |
-| **F/A** | Thrust per unit area ∝ \|∇α\| ΔE_ZPE | §2.1 |
-
-**3 Field-Theory Extension: The β Field**
-
-**3.1 Promoting β(x) to a Dynamical Scalar**
-
-To capture discrete “branch” structure inside a single spacetime we elevate the branch index $`\beta`$ to a continuous scalar field $`\beta(x)`$ In the low-energy limit β behaves like a dimensionless order parameter whose vacuum expectation value selects the active coherence layer. Its kinetic term is taken to be canonical:
-
-``` math
-L_{\beta,kin} = \frac{1}{2}\left( \partial_{\mu}\beta \right)\left( \partial^{\mu}\beta \right)
+```math
+N\rightarrow N+1.
 ```
 
-**3.2 Multi-Well Potential V (β) and Discrete Minima**
+A direct transition from \(N\) to \(N+2\) is not merely difficult. It is undefined because \(N+2\) has not yet received Actuality and provides no spacetime, phase signature, material substrate, or recoupling vacuum.
 
-We construct a symmetric (2N+1) -well potential whose minima sit at the quantised RTM values $`\beta = n`$ (with $`n\  \in \lbrack - N,N\rbrack`$):
+To encode these restrictions, we introduce an **Actuality Gate** \(\mathcal{G}_{N\rightarrow N+1}\), a phase-dependent term that permits the successor minimum only when the target phase lies inside the Active Window. We formulate a gated two-state potential, derive the coupled \(\varphi\)-\(\alpha\)-\(\beta\) equations, define a directional transition operator, and reinterpret nucleation thresholds, surface tension, topological damping, and three-dimensional lattice simulations under the adjacent-coil rule.
 
-``` math
-V(\beta) = \frac{\lambda}{4}\left( \beta^{2} - 1 \right)^{2}\prod_{k = 2}^{N}\left\lbrack \left( \beta^{2}{- k}^{2} \right)^{2} + \epsilon^{2} \right\rbrack
+The numerical model can demonstrate stable barrier crossing in an order parameter. An experimental two-state resonator can reproduce analogous switching and burst emission. Neither result alone demonstrates multiversal transition. A genuine Aetherion test would additionally require evidence of a nonlocal branch signature, coherent whole-vehicle re-coupling, irreversible change of operational universe, and compliance with the Active Window and Relay Window constraints.
+
+The resulting framework preserves causal integrity:
+
+- the origin past cannot be revisited;
+- an active homologous phase in \(N+1\) may resemble the traveler’s past without being that past;
+- predecessor memory may appear as prophecy without access to a completed future;
+- deep-origin beings may be encountered only if they crossed every intermediate universe;
+- and every successful transition is a permanent ontological emigration.
+
+---
+
+## 1 Introduction
+
+The Aetherion program begins with a local engineering question: can a controlled spatial gradient in the RTM temporal-scaling exponent \(\alpha\) produce a measurable field response?
+
+Its most ambitious extension asks a more radical question:
+
+> Can a macroscopic coherent system change the universe to which it belongs?
+
+The revised answer is narrower than unrestricted multiverse travel and more demanding than ordinary propulsion.
+
+An Aetherion cannot select any imaginable reality.
+
+It cannot browse completed timelines.
+
+It cannot return to the universe it left.
+
+It cannot enter a future that does not yet exist.
+
+It may, under a unique combination of cosmological timing, phase compatibility, macroscopic coherence, and sufficient transition energy, decouple from Universe \(N\) and re-couple to the immediately adjacent successor Universe \(N+1\).
+
+This operation is called **branch-hopping** only by historical convention.
+
+Its canonical name is:
+
+> **Adjacent-Coil Transition**
+
+### 1.1 Motivation: From Hierarchical \(\alpha\)-Layers to Universal Succession
+
+RTM studies relations of the form:
+
+```math
+T\propto L^\alpha,
 ```
 
-Here $`\lambda`$ controls the barrier height and $`\epsilon \ll 1`$ smooths the cusps. Each mínimum $`\beta = n`$ corresponds to a distinct universe-branch with its own $`\alpha(n)`$
+where \(\alpha\) characterizes how temporal behavior changes with scale in a specified system.
 
-**3.3 Coupling β to the Aetherion Core Lagrangian**
+Simulated networks and multiscale structures may exhibit distinct effective \(\alpha\)-regimes. These regimes motivate the idea that coherence can become organized into stable bands. The original Aetherion hypothesis extended this observation into a multiversal interpretation: different \(\alpha\)-bands were treated as different universe branches.
 
-The extended action reads
+The revised model separates three concepts that must not be collapsed:
 
-``` math
-S = \int_{}^{}d^{4}x\sqrt{- g}\ \left\lbrack L_{\varphi,\alpha} + L_{\beta,kin} - V(\beta) - g_{\beta\alpha}\beta^{2}\left( \partial_{\mu}\alpha \right)\left( \partial^{\mu}\alpha \right) \right\rbrack
+1. **Measured or simulated effective \(\alpha\)**  
+   A local scaling exponent derived from a system, network, material, or field configuration.
+
+2. **Engineered \(\widetilde{\alpha}\)**  
+   A normalized control variable used to describe an imposed gradient inside a device.
+
+3. **Universal succession index \(N\)**  
+   A narrative-cosmological label identifying one coil of the Spiral.
+
+The existence of several \(\alpha\)-regimes does not, by itself, prove several universes. Instead, the \(\alpha\)-field provides the proposed local mechanism by which an Aetherion modifies coherence sufficiently to interact with a cosmological transition that already exists.
+
+The Aetherion does not create Universe \(N+1\).
+
+It attempts to synchronize with it.
+
+### 1.2 The Spiral Current Revision
+
+The revised cosmology replaces a simultaneous catalogue of complete branches with a finite Current moving through an ordered Spiral.
+
+```
+THE SPIRAL CURRENT
+══════════════════════════════════════════════════════════════════════════════
+
+                       UNIVERSE N-1
+                    ╭────────────────╮
+                  ╭─╯                ╰─╮
+                 │                      │
+                  ╰─╮                ╭─╯
+                    ╰──────╮  ╭──────╯
+                           │  │
+                           │  ▼
+                         UNIVERSE N
+                    ╭────────────────╮
+                  ╭─╯                ╰─╮
+                 │                      │
+                  ╰─╮                ╭─╯
+                    ╰──────╮  ╭──────╯
+                           │  │
+                           │  ▼
+                       UNIVERSE N+1
+
+DIRECTION OF ACTUALITY:
+N-1 ─────► N ─────► N+1
+
+LEGAL AETHERION TRANSITION:
+N ─────► N+1
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-- **β–α coupling** ($`g_{\beta\alpha}`$): a non-minimal term that lowers the $`\beta`$ barrier when $`\mid \nabla\alpha \mid`$ is large; a strong, localized $`\nabla\alpha`$ pulse generated by an Aetherion core can therefore supply the energy required for a branch jump.
+At a given cascade phase \(\chi\), the Current sustains:
 
-- **Modified field equations**:
+- one active universe; or
+- portions of two immediately adjacent universes during transfer.
 
-| $`\square\beta = \frac{\partial V}{\partial\beta} + g_{\beta\alpha}\beta\left( \partial_{\mu}\alpha \right)\left( \partial^{\mu}\alpha \right)`$, | 
+Thus:
 
-``` math
-\square\alpha + m_{\alpha}^{2}\alpha = - \gamma\square\varphi - g_{\beta\alpha}\beta^{2}\square\alpha
+```math
+\left|\mathcal{U}_{\mathrm{active}}(\chi)\right|\leq 2.
 ```
 
-These coupled equations govern both ordinary thrust (via α) and discrete multiverse transitions (via β).
+When two universes are active:
 
-Sections 4–6 will analyse the jump operator, derive energetic thresholds, and present a 1-D simulation that drives β across one barrier, providing the first quantitative signature of a controlled branch transition.
-
-**4 Action and Equations of Motion**
-
-**4.1 Total Action** $`\mathbf{S\lbrack\varphi,\alpha,\beta\rbrack}`$
-
-Extending the Aetherion Lagrangian to include the new branch field $`\beta(x)`$ we write, in natural units $`(c = \hslash = 1),`$
-
-| \(17\) |
-|--------|
-
-``` math
-S = \int_{}^{}{d^{4}x\sqrt{- g}}\left\lbrack \frac{1}{2}\left( \partial_{\mu}\varphi \right)\left( \partial^{\mu}\varphi \right) - \frac{1}{2}m_{\varphi}^{2}\varphi^{2} + \frac{1}{2}\left( \partial_{\mu}\alpha \right)\left( \partial^{\mu}\alpha \right) - \frac{1}{2}m_{\alpha}^{2}\alpha^{2} + \frac{1}{2}\left( \partial_{\mu}\beta \right)\left( \partial^{\mu}\beta \right) - V(\beta){- g}_{\beta\alpha}\beta^{2}\left( \partial_{\mu}\alpha \right)\left( \partial^{\mu}\alpha \right) - \gamma\varphi\square\alpha \right\rbrack
+```math
+\mathcal{U}_{\mathrm{active}}(\chi)=\{N,N+1\}.
 ```
 
-- $`V(\beta)`$ is the multi-well potential introduced in $`§3.2`$, anchoring the discrete minima $`\beta = n`$
+This is the **Two-Coil Rule**.
 
-- The mixed term $`g_{\beta\alpha}\beta^{2}(\partial\alpha)^{2}`$ couples branch dynamics to α-gradients; a strong, localized $`\nabla\alpha`$ pulse lowers the barrier between $`\beta`$ minima, enabling a jump.
+### 1.3 The Central Revision to \(\beta\)
 
-- The $`\gamma\varphi\square\alpha`$ term is the usual Aetherion coupling responsible for energy extraction and static thrust.
+The original model treated:
 
-**4.2 Euler–Lagrange Equations**
-
-| (18a) |
-|-------|
-
-Varying (17) w.r.t. each field yields the coupled field equations:
-
-| (18b) |
-|-------|
-
-``` math
-\square\varphi - m_{\varphi}^{2}\varphi = - \gamma\square\alpha,
+```math
+\beta=0,1,2,\ldots
 ```
 
-``` math
-\left\lbrack 1 + g_{\beta\alpha}\beta^{2} \right\rbrack\square\alpha - m_{\alpha}^{2}\alpha = - \gamma\square\varphi - {2g}_{\beta\alpha}\ \beta\left( \partial_{\mu}\beta \right)\left( \partial^{\mu}\alpha \right)
+as a ladder of multiverse addresses that could potentially be climbed through a sufficiently strong pulse.
+
+That interpretation is no longer canonical.
+
+In the revised model, \(\beta\) is local and relational:
+
+```math
+\beta(x)\in[0,1].
 ```
 
-| (18c) |
-|-------|
+Within operational Universe \(N\):
 
-``` math
-\square\beta = - \frac{\partial V}{\partial\beta} + g_{\beta\alpha}\ \beta\left( \partial_{\mu}\alpha \right)\left( \partial^{\mu}\alpha \right)
+- \(\beta=0\): complete coupling to \(N\);
+- \(0<\beta<1\): transitional or interstitial coupling;
+- \(\beta=1\): complete coupling to active successor \(N+1\).
+
+After re-coupling:
+
+```math
+N+1\mapsto N_{\mathrm{operational}},
 ```
 
-Equations (18b–c) show explicitly how a spatially pulsed $`\nabla\alpha`$ term $`\left( \partial_{\mu}\alpha \right)`$ can drive $`\beta`$ across the potential barrier, while $`\beta`$ in turn modulates the effective inertia of α through the prefactor $`\left\lbrack {1 + g}_{\beta\alpha}\beta^{2} \right\rbrack`$
+and the local transition variable is reset:
 
-**4.3 Boundary Conditions and Branch-Jump Criteria**
+```math
+\beta_{\mathrm{new}}=0.
+```
 
-For a one-dimensional slab of length $`L`$ we impose
+A later transition requires a new Relay Window and a new operation:
 
+```math
+N+1\rightarrow N+2.
+```
 
-``` math
+There is no single pulse:
+
+```math
+N\rightarrow N+2.
+```
+
+### 1.4 Goals of This Chapter
+
+This chapter will:
+
+1. distinguish local \(\alpha\)-bands from universal succession;
+2. redefine \(\beta\) as an adjacent-coupling order parameter;
+3. introduce an Actuality Gate tied to the Active Window;
+4. formulate a directional two-state transition potential;
+5. extend the Aetherion action to include phase-lock and gating terms;
+6. derive energetic and nucleation conditions for whole-Entity transition;
+7. reinterpret one-dimensional and three-dimensional lattice simulations;
+8. define analogue experiments and their strict evidentiary limits;
+9. establish the difference between a Homologous Past and the origin past;
+10. define why branch-hopping is one-way, adjacent, and irreversible.
+
+---
+
+## 2 The Hierarchical Multiverse Under the Spiral Current
+
+### 2.1 The Ocean, the Current, and the Coil
+
+The model distinguishes three cosmological layers.
+
+#### The Ocean of Potential
+
+The Ocean contains unrealized possibility.
+
+It is not a warehouse of completed universes.
+
+#### The Current of Actuality
+
+The Current is the finite ontological support through which possibility becomes active event.
+
+It is not identical to matter, energy, information, time, consciousness, or gnosis.
+
+It is the condition under which those can occur.
+
+#### The Spiral Coil
+
+A coil is one universal iteration.
+
+Each coil transforms inherited structure into a new active history:
+
+```math
+H_{N+1}
+=
+\mathcal{R}_N(H_N)
++
+\Delta H_{N+1}.
+```
+
+Here:
+
+- \(\mathcal{R}_N\) represents inherited or homologously transformed structure;
+- \(\Delta H_{N+1}\) represents local novelty, contingency, and free development.
+
+### 2.2 \(\alpha\) Is Not a Multiversal Address
+
+The physical RTM exponent remains:
+
+```math
+\alpha_{\mathrm{RTM}}
+=
+\frac{d\log T}{d\log L}.
+```
+
+It describes a scale relation within a defined system.
+
+A measured \(\alpha=2.56\) does not mean “Universe 2.56.”
+
+A simulated plateau does not independently identify another coil of the Spiral.
+
+The Aetherion hypothesis instead proposes that engineered \(\alpha\)-gradients may alter:
+
+- local coherence;
+- vacuum stress;
+- temporal rate relations;
+- and the energetic accessibility of a transition order parameter.
+
+Thus \(\alpha\) is a control and coupling field.
+
+The universe index \(N\) is cosmological.
+
+The transition coordinate \(\beta\) is relational.
+
+### 2.3 Physical \(\alpha_{\mathrm{RTM}}\) and Engineering \(\widetilde{\alpha}\)
+
+Throughout this chapter:
+
+```math
+\alpha_{\mathrm{RTM}}(x)
+=
+\alpha_0
++
+\Delta\alpha\,\widetilde{\alpha}(x),
+```
+
+where:
+
+- \(\alpha_0\) is the baseline physical exponent;
+- \(\Delta\alpha\) is the engineered contrast;
+- \(\widetilde{\alpha}\in[0,1]\) is a normalized control profile.
+
+A simulation that drives:
+
+```math
+\widetilde{\alpha}:0\rightarrow1
+```
+
+does not claim that the physical exponent itself changes from \(0\) to \(1\).
+
+It describes a normalized device actuation.
+
+### 2.4 The Active Window
+
+Let:
+
+```math
+W_N(\chi)
+=
+[\tau_N^-(\chi),\tau_N^+(\chi)]
+```
+
+denote the phase range of Universe \(N\) currently sustained by the Current.
+
+A target phase \(\tau_{\mathrm{target}}\) is available only when:
+
+```math
+\tau_{\mathrm{target}}\in W_N(\chi).
+```
+
+The three states are:
+
+| State | Condition | Navigability |
+|---|---|---|
+| **Unmanifest** | \(\tau>\tau_N^+\) | Impossible |
+| **Active** | \(\tau_N^-\leq\tau\leq\tau_N^+\) | Theoretically possible |
+| **Closed** | \(\tau<\tau_N^-\) | Impossible |
+
+A numerical year is not a sufficient destination.
+
+A valid destination requires active ontological support.
+
+### 2.5 The Relay Window
+
+The Relay Window between \(N\) and \(N+1\) is:
+
+```math
+W_{N\rightarrow N+1}^{\mathrm{relay}}
+=
+\left\{
+\chi:
+\mathcal{A}_N(\chi)>0
+\land
+\mathcal{A}_{N+1}(\chi)>0
+\right\},
+```
+
+where \(\mathcal{A}_N\) denotes active Actuality support in coil \(N\).
+
+The transition gate can open only inside this overlap.
+
+A civilization may therefore fail because it is:
+
+- technologically too early;
+- technologically too late;
+- ethically unprepared;
+- unable to generate a coherent macroscopic core;
+- or unable to detect the successor phase.
+
+### 2.6 The Homologous Past
+
+Universe \(N+1\) may reproduce historical structures resembling completed phases of \(N\).
+
+An Architect may therefore leave an advanced era of \(N\) and enter an ancient-like active phase of \(N+1\).
+
+This is not reverse time travel.
+
+It is downstream transition combined with historical homology.
+
+```
+UNIVERSE N
+══════════════════════════════════════════════════════════════════════════════
+
+Ancient Era ───── Industrial Era ───── Aetherion Era
+     CLOSED                                  │
+                                             │ N → N+1
+                                             ▼
+
+UNIVERSE N+1
+══════════════════════════════════════════════════════════════════════════════
+
+Ancient-Like ACTIVE PRESENT ───── Open Local Future
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+A familiar person is not numerically identical to the person remembered from the origin.
+
+A familiar event is not the same event.
+
+The successor remains causally sovereign.
+
+### 2.7 Notation and Definitions
+
+| Symbol | Meaning |
+|---|---|
+| \(\varphi(x)\) | Aetherion scalar response field |
+| \(\alpha_{\mathrm{RTM}}(x)\) | Physical temporal-scaling exponent |
+| \(\widetilde{\alpha}(x)\) | Normalized engineering control field |
+| \(N\) | Current universal coil |
+| \(N+1\) | Immediately adjacent successor coil |
+| \(\chi\) | Cascade phase |
+| \(\mathcal{A}_N(\chi)\) | Active Actuality support in Universe \(N\) |
+| \(W_N(\chi)\) | Active Window of Universe \(N\) |
+| \(W^{\mathrm{relay}}_{N\rightarrow N+1}\) | Relay Window |
+| \(\beta(x)\) | Local adjacent-coupling order parameter |
+| \(\mathcal{G}_{N\rightarrow N+1}\) | Actuality Gate |
+| \(\Sigma_{N+1}\) | Active successor phase signature |
+| \(V_{\mathrm{eff}}(\beta)\) | Gated transition potential |
+| \(\sigma_\beta\) | Transition-wall surface tension |
+| \(R_c\) | Critical nucleation radius |
+| \(\Omega_{N\rightarrow N+1}\) | Directional transition operator |
+| \(E_{\mathrm{drive}}\) | Energy supplied by the Aetherion pulse |
+| \(E_{\mathrm{lock}}\) | Energy or coherence cost of phase-lock |
+| \(E_{\mathrm{scale}}\) | Substrate adaptation cost |
+
+---
+
+## 3 Field-Theory Extension: The Local \(\beta\) Field
+
+### 3.1 Promoting Adjacent Coupling to a Scalar Order Parameter
+
+We model the Entity’s coupling state through a continuous scalar:
+
+```math
+\beta(x)\in[0,1].
+```
+
+The kinetic term is:
+
+```math
+\mathcal{L}_{\beta,\mathrm{kin}}
+=
+\frac{1}{2}
+(\partial_\mu\beta)
+(\partial^\mu\beta).
+```
+
+The two stable configurations are interpreted as:
+
+```math
+\langle\beta\rangle=0
+\quad\Longleftrightarrow\quad
+\text{bound to Universe }N,
+```
+
+```math
+\langle\beta\rangle=1
+\quad\Longleftrightarrow\quad
+\text{bound to active Universe }N+1.
+```
+
+The interval \(0<\beta<1\) describes the transitional wall or interstitial state.
+
+It is not a third universe.
+
+### 3.2 Why the Infinite Branch Ladder Is Removed
+
+An unconstrained periodic potential with minima at every integer:
+
+```math
+\beta=0,1,2,\ldots
+```
+
+would allow a numerical solution to roll across several wells under overdrive.
+
+That behavior cannot be interpreted as physical travel across several universes.
+
+The Spiral Current provides no active \(N+2\) destination during an \(N\rightarrow N+1\) transition.
+
+Therefore the physical domain of one operation is restricted:
+
+```math
+0\leq\beta\leq1.
+```
+
+Values beyond this interval represent:
+
+- failure of the effective model;
+- topological avalanche;
+- loss of capture;
+- or numerical runaway.
+
+They do not represent legal multi-universe navigation.
+
+### 3.3 The Actuality Gate
+
+Define:
+
+```math
+\mathcal{G}_{N\rightarrow N+1}
+=
+\mathcal{G}
+\left[
+\mathcal{A}_{N+1}(\chi),
+W_{N+1}(\chi),
+\Sigma_{N+1},
+\mathcal{C}_{\mathrm{lock}}
+\right],
+```
+
+with:
+
+```math
+0\leq\mathcal{G}_{N\rightarrow N+1}\leq1.
+```
+
+Operationally:
+
+- \(\mathcal{G}=0\): no viable successor minimum exists;
+- \(0<\mathcal{G}<1\): weak or unstable successor signature;
+- \(\mathcal{G}\approx1\): active successor and stable phase-lock.
+
+The upstream gate is canonically zero:
+
+```math
+\mathcal{G}_{N\rightarrow N-1}=0.
+```
+
+The nonadjacent gate is also zero:
+
+```math
+\mathcal{G}_{N\rightarrow N+2}=0.
+```
+
+No amount of drive energy replaces a missing gate.
+
+### 3.4 Gated Two-State Potential
+
+A minimal effective potential is:
+
+```math
+V_{\mathrm{eff}}(\beta;\chi)
+=
+\lambda\sin^2(\pi\beta)
++
+\left(1-\mathcal{G}_{N\rightarrow N+1}\right)
+M_G^2\beta^2
+-
+\mathcal{G}_{N\rightarrow N+1}\,
+\epsilon_\chi\beta
++
+V_{\mathrm{wall}}(\beta).
+\tag{III.1}
+```
+
+Where:
+
+- \(\lambda\sin^2(\pi\beta)\) produces stable local states at \(0\) and \(1\);
+- \(M_G^2\beta^2\) suppresses the successor state when the gate is closed;
+- \(\epsilon_\chi\) produces a downstream directional tilt when the gate is open;
+- \(V_{\mathrm{wall}}\) diverges outside the permitted interval.
+
+One possible wall term is:
+
+```math
+V_{\mathrm{wall}}(\beta)
+=
+\Lambda_w^4
+\left[
+\Theta(-\beta)\beta^4
++
+\Theta(\beta-1)(\beta-1)^4
+\right],
+\tag{III.2}
+```
+
+with \(\Lambda_w\) chosen above the effective-theory scale used in the transition simulation.
+
+### 3.5 Physical Meaning of the Tilt
+
+The directional term:
+
+```math
+-\mathcal{G}\epsilon_\chi\beta
+```
+
+does not mean that the device creates the arrow of transition.
+
+It represents the device’s interaction with the already existing downstream gradient of Actuality.
+
+When the Relay Window is open, the successor state can become energetically accessible.
+
+When the Window is closed, it cannot.
+
+### 3.6 Coupling \(\beta\) to the Aetherion Core
+
+The \(\beta\)-field couples to the engineered \(\alpha\)-profile through:
+
+```math
+\mathcal{L}_{\beta\alpha}
+=
+-
+\frac{g_{\beta\alpha}}{\Lambda^2}
+\beta^2
+(\partial_\mu\alpha)
+(\partial^\mu\alpha).
+\tag{III.3}
+```
+
+A strong localized \(\alpha\)-pulse can reduce the effective barrier between \(\beta=0\) and \(\beta=1\).
+
+The coupling must remain subordinate to the Actuality Gate.
+
+Thus:
+
+```math
+E_{\mathrm{drive}}\gg\Delta V_\beta
+```
+
+is insufficient when:
+
+```math
+\mathcal{G}=0.
+```
+
+### 3.7 Phase-Signature Coupling
+
+The active successor is represented through a phase-lock functional:
+
+```math
+\mathcal{L}_{\beta\Sigma}
+=
+g_{\beta\Sigma}\,
+\beta\,
+\mathcal{R}
+\left[
+\Sigma_{\mathrm{core}},
+\Sigma_{N+1}
+\right],
+\tag{III.4}
+```
+
+where \(\mathcal{R}\) measures resonance between:
+
+- the Aetherion core;
+- the active successor phase;
+- the local scale relation;
+- and any valid Isotopic Anchor.
+
+The resonance must be negligible for:
+
+- upstream signatures;
+- closed phases;
+- unmanifest phases;
+- and nonadjacent universes.
+
+### 3.8 The Extended Effective Action
+
+In natural units:
+
+```math
 \begin{aligned}
-\alpha(z = 0, t) &= \alpha_{core}(t), & \alpha(z = L, t) &= \alpha_{hull} = 1, \\
-\beta(z = 0, t) &= \beta_{core}(t), & \beta(z = L, t) &= 0
+S
+=
+\int d^4x\sqrt{-g}\Bigg[
+&
+\frac{1}{2}
+(\partial_\mu\varphi)(\partial^\mu\varphi)
+-
+\frac{1}{2}m_\varphi^2\varphi^2
+-
+U_\varphi(\varphi)
+\\
+&
++
+\frac{1}{2}
+(\partial_\mu\alpha)(\partial^\mu\alpha)
+-
+U_\alpha(\alpha)
+-
+\gamma\varphi\square\alpha
+\\
+&
++
+\frac{1}{2}
+(\partial_\mu\beta)(\partial^\mu\beta)
+-
+V_{\mathrm{eff}}(\beta;\chi)
+\\
+&
+-
+\frac{g_{\beta\alpha}}{\Lambda^2}
+\beta^2(\partial_\mu\alpha)(\partial^\mu\alpha)
++
+g_{\beta\Sigma}
+\beta\,
+\mathcal{R}(\Sigma_{\mathrm{core}},\Sigma_{N+1})
+\Bigg].
 \end{aligned}
+\tag{III.5}
 ```
 
-| \(19\) |
-|--------|
+This action is an effective, speculative model.
 
-with Neumann conditions $`\partial_{z}\varphi = 0`$ at both ends. A **branch jump** is deemed to occur when
+It does not derive the Spiral Current from established quantum field theory.
 
-``` math
-\beta_{core}(t) \text{ traverses } \beta = n \rightarrow \beta = n + 1 \text{ and } \partial_t\beta_{core} \text{ changes sign,}
-```
-| \(20\) |
-|--------|
+It encodes the canonical constraints required for a local transition theory to remain compatible with the revised cosmology.
 
-signalling that the field has crossed the barrier and settled into the next potential well. Equation (18c) implies the minimal pulse condition
+---
 
-``` math
-\int_{t_{0}}^{t_{1}}{dt}g_{\beta\alpha}\left( \partial_{z}\alpha \right)^{2} \gtrsim {\Delta V}_{\beta} \equiv V(n + 1) - V(n)
-```
-| \(21\) |
-|--------|
+## 4 Equations of Motion and Transition Constraints
 
-where $`{\Delta V}_{\beta}`$ is the barrier height. This gives an explicit energy–gradient threshold for multiverse hopping, to be tested numerically in $`§6`$ nd, eventually, in analogue experiments.
+### 4.1 Coupled Field Equations
 
-**4.4** **Unitarity & Renormalizability of the β–α–φ Action**
+Variation with respect to \(\varphi\), \(\alpha\), and \(\beta\) gives schematically:
 
-The β–α–φ action contains a non-minimal interaction that is a **dimension-6 operator** suppressed by an explicit UV cutoff $`\Lambda`$. Accordingly, the correct interpretation of the framework is as an **effective field theory (EFT)** valid for characteristic energies $`E \ll \Lambda`$, rather than a strictly power-counting renormalizable QFT.
-
-**Unitarity.** Perturbative unitarity requires that the quadratic (free) sector of the theory be ghost-free. Concretely, after expanding about a chosen background (including any engineered $`\alpha(x)`$ profile) and canonically normalizing fields, the kinetic matrix for fluctuations $`(\delta\phi,\delta\alpha,\delta\beta)`$ must be positive definite. In the parameter ranges considered here, we restrict attention to regimes where the kinetic terms retain the correct sign and any kinetic mixing can be diagonalized without producing negative-norm modes. This ensures standard propagator pole structure with positive residues within the EFT domain.
-
-**EFT renormalization.** Because the interaction includes a dimension-6 operator schematically of the form
-
-``` math
-\mathcal{L}_{int} \supset \frac{1}{\Lambda^{2}}\text{ }\mathcal{O}_{6}(\phi,\alpha,\beta,\partial),
+```math
+\square\varphi
++
+\frac{\partial U_\varphi}{\partial\varphi}
+=
+-\gamma\square\alpha,
+\tag{III.6}
 ```
 
-loop corrections generically (i) renormalize coefficients of operators already present (masses, wavefunction factors, and any dimension-4 terms) and (ii) generate additional higher-dimension operators consistent with the symmetries of the theory. These higher-dimension terms remain suppressed by further powers of $`1/\Lambda`$ and are organized systematically in the EFT expansion. At a given truncation order (e.g., keeping operators up to dimension 6), divergences are absorbed into the corresponding EFT counterterm basis, and predictions carry controlled corrections of order $`\mathcal{O}((E/\Lambda)^{n})`$.
-
-**Domain of validity.** Since higher-dimension operators can cause amplitudes and response functions to grow with energy, the EFT must be applied only below its cutoff. We therefore interpret all quantitative results as cutoff-bounded: the theory is predictive for characteristic scales $`E \ll \Lambda`$ and for backgrounds/gradients sufficiently small that the EFT expansion remains perturbative. Beyond $`E \sim \Lambda`$, a UV completion would be required.
-
-**5 Transition Operator & Jump Dynamics**
-
-**5.1 Defining the Jump Operator** $`\Omega(\alpha,\beta)`$
-
-We introduce a Hermitian “branch-transition” operator
-
-``` math
-\Omega(\alpha,\beta) = exp\left\lbrack {- \frac{1}{2}\kappa}_{\beta}\left( {\beta - \beta}_{0} \right)^{2}{- \frac{1}{2}\kappa}_{\alpha}(\nabla\alpha)^{2} \right\rbrack
+```math
+\left[
+1+
+\frac{2g_{\beta\alpha}}{\Lambda^2}\beta^2
+\right]
+\square\alpha
++
+\frac{\partial U_\alpha}{\partial\alpha}
+=
+-\gamma\square\varphi
+-
+\frac{4g_{\beta\alpha}}{\Lambda^2}
+\beta(\partial_\mu\beta)(\partial^\mu\alpha),
+\tag{III.7}
 ```
 
-which acts on the coupled $`(\alpha,\beta)`$ field space.
-
-- **Interpretation:** $`\Omega`$ measures the *over-lap* between the instantaneous field state and the next branch minimum.
-
-- **Selection rule:** A branch jump is triggered when
-
-``` math
-\langle\Omega\rangle \geq \Omega_{crit}{\approx e}^{{- \Delta V}_{\beta}{/2E}_{drive}}
+```math
+\square\beta
++
+\frac{\partial V_{\mathrm{eff}}}{\partial\beta}
+=
+\frac{2g_{\beta\alpha}}{\Lambda^2}
+\beta
+(\partial_\mu\alpha)(\partial^\mu\alpha)
++
+g_{\beta\Sigma}
+\mathcal{R}(\Sigma_{\mathrm{core}},\Sigma_{N+1}).
+\tag{III.8}
 ```
 
-where $`{\Delta V}_{\beta}`$ is the barrier height (cf. §4.3) and $`E_{drive} \propto {\int \mid \nabla\alpha \mid}^{2}d^{3}x`$ is the energy injected by the Aetherion pulse.
+The \(\alpha\)-pulse supplies local drive.
 
-**5.2 Energetics: Barrier Height and Required ∇α**
+The resonance term supplies destination selectivity.
 
-For the quartic-plus wells in §3.2 the barrier height between adjacent branches is
+The Actuality Gate determines whether the target state exists.
 
-``` math
-{\Delta V}_{\beta} \simeq \frac{\lambda}{4}\left\lbrack (n + 1)^{2}{- n}^{2} \right\rbrack^{2} = \lambda\left( n + \frac{1}{2} \right)^{2}
+### 4.2 Boundary Conditions for a Coherent Vehicle
+
+For a one-dimensional slab:
+
+```math
+\alpha(0,t)=\alpha_{\mathrm{core}}(t),
+\qquad
+\alpha(L,t)=\alpha_{\mathrm{hull}}(t),
 ```
 
-The *minimum* gradient energy needed to surmount this barrier is
-
-``` math
-E_{\min} = \int_{}^{}{d^{3}{x\ g}_{\beta\alpha}(\partial\alpha)^{2}{\gtrsim \Delta V}_{\beta}}
+```math
+\partial_z\varphi|_{0,L}=0,
 ```
 
-For a spherical Aetherion core of radius $`R`$ driven to a peak gradient
-
-$`{\mid \nabla\alpha \mid}_{peak}`$
-
-``` math
-E_{drive} \simeq \frac{4}{3}{\pi R}^{3}\ g_{\beta\alpha}{\mid \nabla\alpha \mid}_{peak}^{2}
+```math
+\partial_z\beta|_{0,L}=0.
 ```
 
-Thus the **jump condition** is
+The earlier condition:
 
-| \(22\) |
-|--------|
-
-``` math
-{\mid \nabla\alpha \mid}_{peak} \gtrsim \sqrt{\frac{{3\Delta V}_{\beta}}{4_{\pi}R^{3}g_{\beta\alpha}}}
+```math
+\beta(L,t)=0
 ```
 
-**5.3 Kinetics: Tunnelling vs. Driven Transition Regimes**
+while the core alone approaches \(\beta=1\) is physically dangerous for a real vehicle. It describes the formation of a transition wall inside the Entity and therefore models topological shear.
 
-| **Regime** | **Criterion** | **Dynamics** | **Experimental Signature** |
-|----|----|----|----|
-| **Thermal‐like tunnelling** | $`E_{drive}`$ ≪$`{3\Delta V}_{\beta}`$ | Rare, stochastic hops governed by instanton action $`S_{inst}`$ *∝* $`{\ \Delta V}_{\beta}`$ | Exponential waiting-time distribution; weak φ-burst |
-| **Critical pulsed drive** | $E\_{\text{drive}} \approx 3 \Delta V\_{\beta}$ | Single deterministic jump when inequality (22) is first met | Sharp spike in $`\partial_{t}\beta`$; moderate φ-burst |
-| **Over-drive regime** | $`E_{drive\ }`$ *≫* $`{3\Delta V}_{\beta}`$ | Multiple successive branch crossings (β-“ladder climb”) | Series of $`\varphi`$ bursts; measurable energy loss per step |
+A safe whole-Entity transition instead requires approximately:
 
-For Aetherion prototypes we aim for the **critical pulsed drive**: one well-controlled $`\nabla\alpha`$ pulse just large enough to cross a single barrier, minimising wasted energy and unwanted heating.
-
-**These formulations supply:**
-
-- A **jump operator** Ω that acts as the order parameter for branch transitions.
-
-- An **energy-gradient threshold** (22) linking macroscopic design parameters R, $`g_{\beta\alpha}`$ $`\lambda`$ to the required $`\nabla\alpha`$ pulse.
-
-- A **kinetic taxonomy** distinguishing tunnelling, critical, and over-driven regimes, each with its own experimental signature in $`\varphi`$ emission and $`\beta`$ time-series data.
-
-Section 6 will put these equations to the test in a one-dimensional numerical simulation of a driven branch jump.
-
-**6 1-D Prototype Simulation**
-
-**6.1 Discretisation of the Coupled** $`\mathbf{\beta - \alpha - \varphi}`$ **System**
-
-We adopt a staggered, second-order finite-difference scheme on a 1-D lattice of $`N = 200`$ nodes with spacing $`\Delta z`$ Time is advanced by a leap-frog update with step $`\Delta t`$ atisfying the CFL condition
-
-``` math
-\Delta t \leq \frac{1}{2}\Delta z
+```math
+\beta(x,t_{\mathrm{lock}})
+\approx
+\beta_{\mathrm{coherent}}(t_{\mathrm{lock}})
 ```
 
-Variables at each node $`\mathbf{j}`$ and time step $`\mathbf{n}`$ :
+throughout the protected volume.
 
-| Field | Stored values |
-| :--- | :--- |
-| $\varphi_j^n$ | scalar extraction field |
-| $\alpha_j^n$ | temporal-scaling exponent |
-| $\beta_j^n$ | branch index order parameter |
+Define the synchronization error:
 
-Discrete Laplacian
-
-``` math
-\square X \longrightarrow \frac{X_{j + 1}^{n} - {2X}_{j}^{n}{+ X}_{j - 1}^{n}}{{\Delta z}^{2}} - \frac{X_{j}^{n + 1} - {2X}_{j}^{n}{+ X}_{j}^{n - 1}}{{\Delta t}^{2}}
+```math
+\delta_\beta(t)
+=
+\max_{x\in V_{\mathrm{Entity}}}
+\left|
+\beta(x,t)-\langle\beta(t)\rangle
+\right|.
 ```
 
-The coupled update equations implement Eqs. (18a–c). Boundary nodes use Dirichlet data (Eq. 19); interior nodes obey the finite-difference field equations.
+Safe transition requires:
 
-**6.2 Driving a Branch Jump: Pulsed-Gradient Protocol**
-
-1.  **Initial state**
-
-``` math
-\beta(z,0) = 0,\ \ \alpha(z,0) = 1,
+```math
+\delta_\beta(t)
+<
+\delta_{\beta,\mathrm{max}}.
+\tag{III.9}
 ```
 
-corresponding to our native branch.
+### 4.3 The Four Necessary Transition Conditions
 
-2.  **Gradient pulse** $`\left( duration\ T_{pulse} \right)`$ :
+A branch transition is authorized only when all four conditions hold.
 
-$`\alpha_{core}\ (t) = 1 + \Delta\alpha\ \sin^{2}\left( {\pi t/T}_{pulse} \right)`$, $`{\ \ \ \ \ 0 \leq t \leq T}_{pulse}`$
+#### Cosmological Condition
 
-with $`\Delta\alpha`$ chosen so that $`E_{drive}{\approx \Delta V}_{\beta}`$ (cf. Eq. 22).
-
-3.  **Relaxation**
-
-After the pulse, $`\alpha_{core} \rightarrow 1.\ \ If\ \beta`$ has crossed the barrier it stabilises around $`\beta = 1`$, otherwise it relaxes back to $`\beta = 0`$
-
-**6.3 Observables**
-
-<table>
-<colgroup>
-<col style="width: 34%" />
-<col style="width: 65%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Quantity</strong></th>
-<th><strong>Diagnostic</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Branch index</strong> <span class="math inline"><em>β</em><sub><em>c</em><em>o</em><em>r</em><em>e</em></sub></span><em>(t)</em></td>
-<td>A step-change <span class="math inline">0 → 1</span> indicates a successful jump.</td>
-</tr>
-<tr>
-<td><strong>φ-burst</strong> <span class="math inline">∂<sub><em>t</em><em>φ</em><sup>2</sup></sub></span></td>
-<td><table style="width:1%;">
-<colgroup>
-<col style="width: 1%" />
-</colgroup>
-<tbody>
-</tbody>
-</table>
-<table style="width:63%;">
-<colgroup>
-<col style="width: 63%" />
-</colgroup>
-<thead>
-<tr>
-<th>A transient spike during the jump; its integrated energy equals the work done on <span class="math inline"><em>β</em></span>.</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><strong>Gradient energy</strong> (E_{\nabla\alpha}=\int</td>
-<td>\nabla\alpha</td>
-</tr>
-</tbody>
-</table>
-
-**Expected result:** With $`\Delta\alpha`$ tuned to Eq. 22, the simulation shows a single sharp rise in $`\beta_{core}`$ to the next well, accompanied by a short-lived $`\varphi`$ pulse. Repeating the pulse with larger amplitude or duration produces sequential climbs $`(0\  \rightarrow \ 1\  \rightarrow \ 2\  \rightarrow \ \cdots)`$, verifying the over-drive regime outlined in §5.3.
-
-**6.4 Fine-Tuned Lattice Demonstration — Single-Branch Jump**
-
-**Setup (1-D, 160 nodes)**
-
-| **Parameter** | **Value** | **Rationale** |
-|----|----|----|
-| **Double-well depth λ** | 1.2 | Shallower barrier to avoid blow-ups |
-| **β–α coupling** $`\mathbf{g}_{\mathbf{\beta\alpha}}`$ | 3.0 | Moderate drive efficiency |
-| **∇α pulse** | Δα = 0.55, 1 s Hamming-shaped | Supplies energy $`E_{drive}{\approx \Delta V}_{\beta}`$ |
-| **Drive term (β-equation)** | +22.5 units during pulse | Tunes jump without destabilising grid |
-| **Time step / total time** | 0.25 ms / 3.5 s | Satisfies CFL stability |
-
-**Results**
-
-- **β-index (blue)** — climbs smoothly from 0 → 1 during the pulse and remains pinned, confirming a deterministic branch transition.
-
-- **φ-field energy (orange)** — finite, damped transient spike: the lattice emits a bounded “φ-burst” while crossing the barrier, matching theory.
-
-- No numerical divergence or spurious oscillations, proving stability of the coupled β–α–φ equations under realistic drive conditions.
-
-**Implications**
-
-1.  **Proof-of-concept multiverse hop**: first full‐field simulation to achieve a clean β jump in a spatial lattice, validating Eqs. (18 c) and threshold (22).
-
-2.  **Energetic bookkeeping**: drive energy equals barrier height within a few %, showing transitions respect energy conservation.
-
-3.  **Experimental target**: the φ-burst is an unambiguous observable; its energy spectrum and timing here set the benchmark for analogue resonator tests (§ 7).
-
-4.  **Scalability**: parameter Windows (λ≈1–2, $`g_{\beta\alpha}`$ ≈2–4, Δα≈0.5–0.6) give designers concrete numbers for mesoscale Aetherion cores.
-
-With this lattice success, the theoretical–numerical pipeline for **controlled branch transitions** is closed; the next milestone is translating these drive amplitudes and burst signatures into the superconducting two-state resonator prototype and, ultimately, a macroscopic Aetherion device.
-
-**6.5 Three-Dimensional Verification Simulation**
-
-**Objective.** Demonstrate that a branch jump is not an artefact of 1-D symmetry by driving the coupled β–α–φ system on a coarse 3-D lattice.
-
-| **Grid** | **5 × 5 × 5 nodes ( dx = 1 unit )** |
-|----|----|
-| Double-well depth | λ = 0.8 |
-| Coupling | $`g_{\beta\alpha}`$ *=2.0* |
-| ∇α pulse | Δα = 0.40 on the 𝑥=0 face, Hamming-shaped, $`T_{pulse} = 0.20s`$ |
-| Drive term (β-eq.) | +15 units during the pulse |
-| Time-step / duration | 10 ms / 0.40 s |
-
-**Results**
-
-- **Centre-cell branch index** β rises monotonically from 0 to ≈ 1.02 by the end of the pulse, then stabilises at ≈ 1.1, evidence of a full barrier crossing in three spatial dimensions.
-
-- **Numerical stability**: no overflows or spurious oscillations; φ-field energy remains finite, confirming the model’s causality and energy conservation hold in 3-D.
-
-- **Critical threshold**: the successful jump occurs exactly at the lower edge of the instability window previously mapped in 1-D, validating Eq. (22) in higher dimensions.
-
-**Implications**
-
-1.  **Dimensional robustness** – The branch-jump mechanism survives off-axis degrees of freedom, silencing the “1-D artefact” critique.
-
-2.  **Parameter guidance** – λ ≈ 0.8, Δα ≈ 0.4–0.6, and drive amplitudes of 15–17 units constitute a practical window for mesoscale (mm-scale) Aetherion cores.
-
-3.  **Experimental confidence** – Since a coarse 5³ grid suffices, a centimetre-scale laboratory prototype, with similar aspect ratios, should exhibit the same β-step and accompanying φ-burst.
-
-4.  **Figure-of-merit for P-1 devices** – Target a branch-index change ≥ 1.0 and a coincident RF burst energy matching the simulated ΔVβ to within 20 %.
-
-This 3-D verification completes the numerical evidence chain: from analytic threshold → 1-D lattice jump → 3-D lattice confirmation, solidifying the foundation for the analogue resonator experiment (P-0) and the mesoscale core (P-1) outlined in Chapter 8.
-
-**6.6 Grid Convergence Check**
-
-\#### 6.6 Grid Convergence Check
-
-To verify that the branch-jump is not a 1-D or ultra-coarse artifact, we repeated the 3-D lattice simulation on both a 5×5×5 grid and a finer 7×7×7 grid (parameters: λ=0.8, g\_{βα}=2.0, Δα=0.40, drive_amp=15 units, dt=0.01 s, pulse_T=0.2 s).
-
-\`\`\`python
-
-\# Pseudocode for both grids
-
-for N in \[5,7\]:
-
-t, beta_center = simulate_3d(N=N, drive_amp=15, ...)
-
-plt.plot(t, beta_center, label=f'{N}×{N}×{N}')
-
-**Figure:** β at the lattice centre vs. time for 5³ (circles) and 7³ (squares). Both grids exhibit a clean 0→1 hop in β during the pulse, confirming convergence.
-
-- **Implications:** The overlap of the 5³ and 7³ curves demonstrates that the branch-transition mechanism is robust to grid refinement, β crosses unity at the same pulse time and magnitude in both cases. This grid-converged result pre-empts any reviewer concerns about resolution-limited artifacts in three dimensions.
-
-**7 Experimental Analogues**
-
-**7.1 Condensed-Matter Two-State Resonator as a Multiverse Analog**
-
-To emulate β-branch transitions in a controllable laboratory system, we propose a **split-band superconducting microwave resonator** whose fundamental mode can occupy one of two discrete frequency Wells $`f_{0}^{(0)}`$ and $`f_{0}^{(1)}`$ The wells are engineered by embedding two quantum-phase-slip junctions in the centre conductor: biasing the junctions with a fast magnetic-flux pulse lowers the barrier and triggers a deterministic mode switch, an exact analog of driving $`\beta`$ across $`V(\beta).`$
-
-| **RTM variable** | **Resonator analog** | **Control knob** |
-|----|----|----|
-| **Branch index β** | Mode index n=0,1 | Junction flux Φ(t) |
-| **∇α drive energy** | Stored magnetic energy $`E_{L}`$ *=* $`\frac{1}{2}L_{loop\ }I^{2}`$ | Pulse amplitude ΔΦ |
-| **φ-burst emission** | RF burst at $`f_{0}^{(0)}`$ *−* $`f_{0}^{(1)}`$ | Spectrum analyser |
-
-A 10 GHz lumped-element resonator with junction inductance $`L_{J} \sim 1\ nH`$ yields a mode splitting of ∼\sim∼25 MHz, wide enough to resolve the burst yet narrow enough that $`\mu J`$ scale pulses can cross the barrier.
-
-**7.2 Measurement of Mode-Switch Emission as Proxy for φ Burst**
-
-1.  **Set-up**: Place the resonator in a dilution refrigerator (T \< 20 mK) to suppress thermal hopping. Couple a flux-line with a 500 ps rise-time to deliver a rectangular ΔΦ pulse.
-
-2.  **Detection chain**: Feed the output to a cryogenic HEMT, followed by a room-temperature heterodyne IQ-mixer locked to the mid-point frequency.
-
-3.  Observable: A successful branch jump produces a single RF burst at $`f_{0}^{(1)}`$ lasting ≤ 100 ns. The burst energy
-
-``` math
-E_{burst} = \hslash\left\lbrack {f_{0}^{(1)} - f}_{0}^{(0)}\  \right\rbrack
+```math
+\chi\in
+W^{\mathrm{relay}}_{N\rightarrow N+1}.
 ```
 
-is the condensed-matter analog of the transient φ-emission in §6.
+#### Phase Condition
 
-4.  **Falsification**: Below the critical pulse energy $`E_{crit}`$ (cf. Eq. 22, mapped to magnetic energy), no burst is observed and the resonator relaxes back to $`f_{0}^{(0)}`$ Above $`E_{crit}`$ a reproducible burst confirms deterministic crossing.
-
-**7.3 Scaling Laws for Table-Top Demonstration**
-
-| Parameter | Symbol | Scaling relation | Practical range |
-| :--- | :--- | :--- | :--- |
-| Barrier height | $\Delta V_\beta$ | $\propto E_L$ (junction inductance) | 1–10 µeV |
-| Pulse energy | $E_{drive}$ | $\geq \Delta V_\beta$ | 0.1–5 µJ |
-| Burst power | $P_{burst}$ | $E_{burst} / \tau$ | 10–100 fW for $\tau = 100$ ns |
-| Signal-to-noise | SNR | $P_{burst}/(k_B T_{sys} B)$ | > 10 with $T_{sys} \leq 2$ K, B = 1 MHz |
-
-**Implication:** Even a benchtop dilution-fridge set-up with standard cryogenic RF components achieves SNR \> 10 for a single-shot branch jump, rendering the φ-burst surrogate unambiguous.
-
-These analog experiments offer a **near-term path** to test the multiverse-transition framework: by demonstrating deterministic mode-switches that obey the same barrier-crossing energetics and emit a characteristic burst, they provide the first empirical foothold toward full Aetherion branch-jump verification.
-
-**7.4 Timing Diagrams**
-
-```
-|<---------------- Pulse Duration ---------------->|<--- Relaxation --->|
-
-t = 0                                     t = T_pulse             t = T_total
-
-Δα Drive:   ┌─────────────────────────────────────┐
-            │                                     │
-  α(t)      └─────────────────────────────────────┘
-
-
-φ-Burst:    ▲
-            ▼                                      (milliseconds)
+```math
+\tau_{\mathrm{target}}
+\in
+W_{N+1}(\chi).
 ```
 
-- **Top panel (Δα pulse):**
+#### Resonance Condition
 
-  - Hamming‐shaped envelope lasting TpulseT\_{\rm pulse}Tpulse​, peak Δα.
-
-  - Shows rise and fall times (e.g.\\ 0→Δα in 0.2 ms, hold, back to 0 in 0.2 ms).
-
-- **Bottom panel (φ-burst):**
-
-  - Sharp spike aligned with the peak of the Δα pulse (width ≲100 µs).
-
-  - Marks the detection window for RF/optical instrumentation.
-
-**7.5 Error Budgets**
-
-| **Noise Source** | **Parameter** | **Typical Value** | **Budgeted Worst Case** | **Impact on SNR** |
-|----|----|----|----|----|
-| Thermal noise | kB​Tsys​ at 4 K | 5.5×10−23 W/H | +50% | –2 dB |
-| Amplifier noise | NF = 1 dB | 3×10−23 W/Hz | +100% | –3 dB |
-| Phase jitter | Δt = 50 ps | 100 ps (worst) | – | –1 dB |
-| Mechanical vibration | Peak = 1 nm | 5 nm (lab floor) | – | –0.5 dB |
-| **Total** |  |  |  | **6.5 dB** (SNR \> 10) |
-
-- **Assumptions:** φ-burst power ≃ 100 fW in a 1 MHz bandwidth.
-
-- Even with a 6.5 dB penalty, SNR remains \> 10.
-
-**8 Implications & Outlook**
-
-Our three-dimensional verification (Section 6.5) of a clean β = 0→1 branch jump on a coarse 5³ lattice completes the numerical evidence chain, demonstrating that multiverse hopping under RTM–Aetherion is robust beyond one-dimensional idealizations. Combined with the OMV, TPH, and inertial-mitigation results, we now possess a fully quantitative, causally consistent, and experimentally actionable framework.
-
-**8.1 Causality, Conservation, and Multiverse Consistency**
-
-- **3-D Branch Jump:** On a 5×5×5 grid (λ=0.8, g\_{βα}=2.0, Δα=0.40, drive_amp=15) the centre-cell β rose smoothly past unity and stabilized, confirming barrier crossing in three spatial dimensions.
-
-- **φ-Burst Signature:** A finite, damped energy spike in the φ-field accompanied the jump, matching our analytic expectations without spurious growth.
-
-- **Energy-Momentum Conservation:** Drive energy consumed equaled the β-barrier height to within a few percent, no hidden sources or runaway modes.
-
-- **Causal Integrity:** All field updates remained local to the core; no superluminal or retrocausal effects manifested in 3-D.
-
-**8.2 Potential Signatures in Advanced Aetherion Prototypes**
-
-Building on the full suite of demos, key experimental observables are:
-
-- **Discrete Branch-Index Step:** A quantized mode-switch or clock-rate jump analogous to β’s rise, measured via resonator spectra or dual-frame chronometry.
-
-- **φ-Burst Emission:** A transient RF/optical pulse with energy ≃ ΔV_β, whose spectrum and timing are set by our lattice runs.
-
-- **Thrust Transients:** A temporary dip in thrust density as energy diverts into the jump process.
-
-- **Proper-Time Offset:** Accumulated Δτ during branch crossings, detectable by comparing onboard vs. external clock readings.
-
-- **Inertial Mitigation:** Confirming a_eff = a_ext/α² during high-g maneuvers within the same device.
-
-**8.3 Roadmap: From Analogue Tests to True Branch-Jump Experiments**
-
-| **Phase** | **Milestone** | **Key Metrics** |
-|----|----|----|
-| **P-0** | Two-state resonator jump (Section 7.1) | RF burst SNR \> 10; mode-index change probability \> 95 % |
-| **P-1** | Mesoscale Aetherion core β-jump (1–10 mm) | β-step fidelity \> 90 %; φ-burst energy within 20 % of ΔV_β |
-| **P-2** | Integrated thrust + jump device (R ≈ 5 cm) | F/A ≥ 10 µN cm⁻² ; repeatable β-hops; G-load ≤ 0.2×external |
-| **P-3** | Multi-hop navigation | Sequential β = 0→1→2; proper-time accumulation matches model; low heating |
-| **P-4** | Full-scale Aetherion vehicle | Controlled hops, hover, & translation; energy cost/jump ≤ 5 kJ |
-
-**In summary,** the new 3-D lattice demonstration, together with our 1-D and 2-D actuation and inertial-shielding results, cements RTM–Aetherion as a falsifiable, experimentally tractable theory of reactionless propulsion and multiverse branch-hopping. The next step is the physical realization of these parameter windows in analogue resonators and metamaterial cores, a journey that, once begun, promises to turn speculative “universe-hops” into laboratory reality.
-
-**Appendix A Materials & Fabrication: Engineering a Δα ≃ 0.5 Gradient**
-
-To guide experimental implementation of Aetherion cores, we propose a concrete metamaterial design capable of producing a spatial temporal-scaling exponent gradient Δα≈0.5 over a 1 mm thickness.
-
-**A.1 Dielectric-Layer Gradient Stack**
-
-| **Layer Type** | **Refractive Index n** | **Thickness (nm)** | **Notes** |
-|----|----|----|----|
-| High-n | 2.5 | 80 | TiO₂ or Ta₂O₅ |
-| Low-n | 1.5 | 120 | SiO₂ |
-| Repeat count | 4 periods | — | Total thickness ≃ (80+120)×4 = 800 nm |
-| Capping layer | 1.5 (SiO₂) | 200 | Smoothes boundary impedance |
-
-According to effective-medium (Maxwell–Garnett) theory, such a stack yields an **effective refractive index** profile
-
-``` math
-n_{eff}(z) = n_{low}\frac{d_{low}}{d_{tot}} + n_{high}\frac{d_{high}}{d_{tot}}
+```math
+\mathcal{R}
+\left[
+\Sigma_{\mathrm{core}},
+\Sigma_{N+1}
+\right]
+\geq
+\mathcal{R}_{\mathrm{crit}}.
 ```
 
-that can be tuned by varying the high/low layer thickness ratio. For the above choice, one finds
+#### Nucleation Condition
 
-``` math
-\frac{d_{high}}{d_{tot}} = \frac{80}{200} = 0.40,\ \ \ \ \ \ \ \ n_{eff} \approx 1.5 \times 0.60 + 2.5 \times 0.40 = 1.9
+```math
+E_{\mathrm{drive}}
+\geq
+E_{\mathrm{crit}}.
 ```
 
-By smoothly grading the high/low thicknesses across the stack (e.g.\\ 70 nm/130 nm → 90 nm/110 nm), one can engineer a linear change Δn_eff ≃ 0.2 over 1 mm. Since RTM relates $`{\alpha \propto n}_{eff}^{\kappa}`$ for some material exponent κ (estimated κ≈3), this Δn_eff translates to
+If any one fails, no valid transition exists.
 
-``` math
-\Delta\alpha \approx \kappa\frac{{\Delta n}_{eff}}{n_{eff}} \approx 3 \times \frac{0.2}{1.9} \approx 0.32
+### 4.4 Aetherion Does Not Target a Date Alone
+
+The complete destination coordinate is:
+
+```math
+\mathcal{C}_{N+1}
+=
+\left(
+N+1,
+\Phi_{\mathrm{active}},
+X_{\mathrm{target}},
+\Sigma_{N+1},
+A_{\mathrm{anchor}},
+\Lambda_{\mathrm{scale}}
+\right).
+\tag{III.10}
 ```
 
-A two-stack design (800 nm total) repeated in series four times achieves the target Δα≈0.5 over 1 mm.
+Where:
 
-**A.2 Fabrication Tolerances & Loss Figures**
+- \(\Phi_{\mathrm{active}}\) is the current phase;
+- \(X_{\mathrm{target}}\) is the local spatial coordinate;
+- \(A_{\mathrm{anchor}}\) is an optional current Anchor;
+- \(\Lambda_{\mathrm{scale}}\) encodes local substrate compatibility.
 
-- **Thickness control:** Deposition uniformity ±5 nm (≤ 2 % of layer thickness) ensures Δn_eff uncertainty \< 0.01, translating to Δα uncertainty \< 0.02.
+A year without an active phase is not a destination.
 
-- **Optical losses:** TiO₂ and SiO₂ films exhibit absorption α_abs \< 0.1 cm⁻¹ in the visible/near-IR; scattering losses can be kept \< 0.2 dB/mm with ion-beam polishing.
+### 4.5 Directional Boundary Condition
 
-- **Thermal stability:** Coefficient of thermal expansion mismatch is \< 1 × 10⁻⁶ K⁻¹; a 10 K swing produces Δthickness \< 1 nm, negligible for Δα.
+The transition operator must satisfy:
 
-**Note on Coherence Imprinting:** Standard deposition methods (e.g., sputtering or ALD) may achieve the refractive index $`(n)`$ required, but they do not guarantee the structural coherence $`(\alpha)`$ necessary for the core's operation. To strictly enforce the target $`\alpha`$ gradient at the lattice level, fabrication should follow the **Rhythmic Chemistry** protocols paper. Specifically, synthesizing the metamaterial layers within a tuned Fabry-Pérot resonant cavity allows for the direct "imprinting" of the environmental coherence exponent $`\left( \alpha_{env} \right)`$ into the material's molecular structure, aligning the dielectric properties with the temporal scaling requirements of the Aetherion drive.
+```math
+\Omega_{N\rightarrow N+1}\neq0
+```
 
-**A.3 Integration into Aetherion Core**
+only when the successor is active.
 
-1.  **Core substrate:** Mount the graded-stack on a low-loss quartz wafer (1 cm² area), embedding electrodes or piezo-actuators on the backside to apply ∇α pulses via strain-induced refractive-index modulation.
+It must satisfy:
 
-2.  **Drive mechanism:** A voltage-driven piezo stack can induce ±2 % thickness variation in the high-n layers on microsecond timescales, yielding a dynamic Δα_pulse ≃ 0.1 over the 1 ms pulse, sufficient to trigger OMV, TPH, or β-jump protocols.
+```math
+\Omega_{N\rightarrow N-1}=0,
+```
 
-3.  **Sensing:** Integrate fiber-coupled interferometric probes to read out local phase shifts (∝ Δn_eff) with \< 1 nm resolution, confirming the engineered α-profile in situ.
+```math
+\Omega_{N\rightarrow N+2}=0.
+```
 
-This appendix gives experimentalists a **clear blueprint**, from material selection, through deposition specs, to active ∇α pulsing, for realizing the Δα≈0.5 gradient necessary in Sections 2–5. It also quantifies the tolerances and losses, ensuring the fabricated cores meet the theoretical requirements for Aetherion demonstrations.
+This directional asymmetry is a foundational boundary condition, not a perturbative preference.
 
-**APPENDAGES**
+### 4.6 Re-coupling and Operational Reset
 
-**APPENDIX A — Robust Computational Validation: Thermodynamic and Quantum Field Audits**
+After stable capture at \(\beta=1\):
 
-**Abstract of Appendix:** This section details the "Red Team" stress-testing and robust computational validation of the Aetherion framework. Initial heuristic models (Phase 1) were subjected to rigorous audits regarding thermodynamic compliance, momentum conservation, and Quantum Field Theory (QFT) limits. By injecting stochastic noise (thermal, acoustic, and spatial) and enforcing strict continuous field dynamics, we establish the physical boundary conditions for topological energy extraction, dynamic propulsion, and macroscopic phase transitions.
+1. the Entity becomes causally bound to \(N+1\);
+2. the origin is reclassified as historical origin;
+3. \(N+1\) becomes the operational universe;
+4. the local transition coordinate is reset.
 
-**A.1. Thermodynamic Compliance of the Static Field (Chapter I Validation)**
+Symbolically:
 
-The foundational premise of the Aetherion mechanism is the extraction of zero-point energy via a spatially engineered topological gradient ($`\nabla\alpha`$) within a metamaterial.
+```math
+(B,\beta)
+=
+(N,1)
+\quad\longrightarrow\quad
+(N+1,0)_{\mathrm{new\ frame}}.
+\tag{III.11}
+```
 
-- **The Overunity Audit:** Initial scalar analyses of the power proxy $`\langle|P|\rangle`$ implied continuous energy extraction from a static field, risking a violation of the First Law of Thermodynamics (the Overunity Fallacy). A strict vector-calculus audit revealed that the symmetric flow of energy perfectly cancels out, yielding a net continuous DC power of $`0.000`$.
+This reset prevents the false interpretation that a single local order parameter is a permanent absolute address across the entire Spiral.
 
-- **The Topological Capacitor:** Rather than acting as a perpetual battery, robust simulations prove the static Aetherion core functions as a **Topological Capacitor**. It successfully lifts the zero-point energy and stores it as intense structural vacuum stress ($`E_{stored} \propto (\nabla\alpha)^{3}`$ under strong gradients) in the center of the lattice. This stored potential perfectly survives massive (5%) thermodynamic and manufacturing spatial noise, proving that Aetherion gradients are stable at room temperature but must be dynamically pulsed to do external work.
+### 4.7 Effective-Field-Theory Status
 
-**A.2. Dynamic Propulsion and Momentum Rectification (Chapter II Validation)**
+The interaction:
 
-To convert internal vacuum stress into unidirectional thrust without expending reaction mass, the framework mandates dynamic modulation. We audited the operational bounds of the proposed thruster protocols.
+```math
+\frac{g_{\beta\alpha}}{\Lambda^2}
+\beta^2(\partial\alpha)^2
+```
 
-- **Ponderomotive Rectification (OMV):** Oscillatory Modulation of Vacuum (OMV) was initially modeled linearly. By enforcing the strict quadratic nature of the topological stress tensor ($`F \propto (\nabla\alpha)^{2}`$), simulations confirmed the emergence of a **Topological Ponderomotive Force**. Similar to high-frequency plasma physics, vibrating the metamaterial mathematically rectifies the zero-point field, transforming local oscillation into a continuous, steady DC macroscopic drift that successfully survives 5% piezoelectric acoustic jitter.
+is a higher-dimension operator.
 
-- **Asymmetric Acoustic Shockwaves (TPH):** The Temporal-Pulse Hierarchy (TPH) protocol requires spatial asymmetry. Simulating a purely uniform block expansion yields exactly zero net momentum. However, when modeled as a realistic, traveling piezoelectric acoustic shockwave ($`\nabla L\  \neq 0`$) passing through the static $`\alpha`$ gradient, the geometric equations successfully rectify the mechanical work into massive unidirectional momentum impulses ($`\sim 123`$ pN·s per pulse).
+The model is therefore interpreted as an effective field theory valid below a cutoff \(\Lambda\).
 
-- **Levitation Control & Inertial Jerk:** For vertical hover, a static gradient yields a Bootstrap Fallacy. Stable levitation is achieved exclusively via active Pulse Frequency Modulation (Hz) governed by a Proportional-Derivative (PD) control loop, which successfully rejected a 15% Brownian/wind turbulence noise in simulations. Furthermore, during 100g maneuvers, the $`\alpha`$ field temporal dilation effectively shields the crew; however, stochastic "topological flicker" (5-10% field noise) introduces dangerous levels of *Jerk* ($`\sim 17.5`$ m/s³), establishing a strict engineering requirement for secondary mechanical low-pass dampers in the hull.
+Required conditions include:
 
-**A.3. Macroscopic Field Nucleation and FTL Jumps (Chapter III Validation)**
+- positive-definite kinetic matrix;
+- absence of ghost modes;
+- perturbative response below cutoff;
+- stable bounded potential;
+- controlled higher-order corrections;
+- and no interpretation of numerical behavior beyond the model’s domain.
 
-The transition of the spacecraft from our universe (Branch 0) to a higher coherence dimension (Branch 1) was tested against Classical Nucleation Theory and non-linear partial differential equations (PDEs).
+A UV completion would be required to establish whether the proposed fields correspond to fundamental physics.
 
-- **The Sine-Gordon Topological Potential:** Initial models utilized a polynomial potential that created mathematical biases and unstable vacua. The robust pipeline implements a **Modified Topological Sine-Gordon Potential** ($`V(\beta) = \lambda\sin^{2}(\pi\beta)\exp( - k\beta)`$). This crystallographic approach guarantees perfectly stable, zero-energy vacua exactly at integer branch values ($`\beta = \ 0,\ 1,\ 2\ldots`$), while modeling the exponential decay of energetic barriers in higher dimensional layers.
+---
 
-- **The Avalanche Effect and Topological Shear:** Because barrier energies decay in higher dimensions, a super-critical pulse poses a catastrophic "Avalanche" risk, where the ship overshoots Branch 1 and plummets into the deep multiverse. This dictates the absolute necessity of **Topological Damping ($`\mathbf{\eta}`$)**, the hull must act as a massive structural brake. Additionally, a mere 5% desynchronization in the drive grid causes lethal "Topological Shear," requiring heavily cross-linked synchronization architectures to ensure the entire macroscopic mass jumps coherently.
+## 5 Transition Operator and Adjacent-Coil Dynamics
 
-- **3D Surface Tension and The Macroscopic Limit:** Nucleating a 3D bubble of a new universe inside an existing one generates immense restorative forces (the 3D Laplacian, $`\nabla^{2}`$). The simulations prove that at microscopic scales (e.g., $`R\  = \ 1`$ cm), multiversal surface tension requires mathematically impossible gradients to overcome. However, classical nucleation scaling ($`1\text{/}\sqrt{R}`$) dictates that as the core radius increases past 1 meter, the surface tension asymptotically vanishes, and the energy threshold drops to a stable, achievable limit ($`0.49`$ /m).
+### 5.1 Directional Transition Operator
 
-- **Grid-Invariant Stability:** Super-critical jump transitions were tested across increasing 3D grid resolutions ($`8^{3},12^{3},16^{3}`$). The final dimensional state ($`\beta \approx 1.0`$) converged with an asymptotic relative truncation error of only $`\sim 3.0\backslash\%`$. This mathematically proves that the Aetherion phase-transition is a true continuous physical reality within the PDE framework, not a numerical artifact.
+Define the successor transition operator:
 
-**Conclusion:** The robust computational audit clears the Aetherion theoretical framework of thermodynamic violations and bootstrap fallacies. The mechanics of zero-point extraction, ponderomotive propulsion, and scalar field nucleation strictly conform to modern conservation laws, establishing the Aetherion not as a hypothetical anomaly, but as a heavily constrained, mathematically viable macroscopic aerospace technology.
+```math
+\Omega_{N\rightarrow N+1}
+=
+\mathcal{G}_{N\rightarrow N+1}
+\exp
+\left[
+-\frac{\kappa_\beta}{2}
+(\beta-\beta_\star)^2
+-\frac{\kappa_\alpha}{2}
+\left(
+\nabla\alpha-\nabla\alpha_\star
+\right)^2
+-\frac{\kappa_\Sigma}{2}
+D_\Sigma^2
+\right],
+\tag{III.12}
+```
+
+where:
+
+- \(\beta_\star\) is the critical coupling configuration;
+- \(\nabla\alpha_\star\) is the calibrated drive profile;
+- \(D_\Sigma\) is the mismatch between core and successor signatures.
+
+A transition is permitted only when:
+
+```math
+\left\langle
+\Omega_{N\rightarrow N+1}
+\right\rangle
+\geq
+\Omega_{\mathrm{crit}}.
+\tag{III.13}
+```
+
+Because \(\mathcal{G}\) multiplies the entire operator:
+
+```math
+\mathcal{G}=0
+\quad\Longrightarrow\quad
+\Omega_{N\rightarrow N+1}=0.
+```
+
+The device cannot force a non-existent destination into being.
+
+### 5.2 The Energetic Budget
+
+The total critical energy is decomposed as:
+
+```math
+E_{\mathrm{crit}}
+=
+E_{\beta}
++
+E_{\mathrm{surface}}
++
+E_{\mathrm{lock}}
++
+E_{\mathrm{scale}}
++
+E_{\mathrm{margin}}.
+\tag{III.14}
+```
+
+Where:
+
+- \(E_\beta\): local order-parameter barrier;
+- \(E_{\mathrm{surface}}\): cost of forming a coherent three-dimensional transition wall;
+- \(E_{\mathrm{lock}}\): phase-lock and destination-selection cost;
+- \(E_{\mathrm{scale}}\): adaptation to successor scale and physical conditions;
+- \(E_{\mathrm{margin}}\): safety allowance against decoherence and environmental noise.
+
+The drive energy supplied by the Aetherion core is approximately:
+
+```math
+E_{\mathrm{drive}}
+=
+\int_V
+d^3x
+\int_{t_0}^{t_1}
+dt\,
+\mathcal{P}_{\alpha\beta}(x,t),
+```
+
+with:
+
+```math
+\mathcal{P}_{\alpha\beta}
+\propto
+\frac{g_{\beta\alpha}}{\Lambda^2}
+\left|
+\nabla\alpha
+\right|^2
+\mathcal{F}_{\mathrm{pulse}}(t).
+\tag{III.15}
+```
+
+### 5.3 Three-Dimensional Nucleation
+
+A macroscopic transition cannot be inferred from a pointlike or one-dimensional barrier crossing.
+
+For a spherical successor-coupling domain of radius \(R\), a classical nucleation approximation gives:
+
+```math
+E(R)
+=
+4\pi R^2\sigma_\beta
+-
+\frac{4}{3}\pi R^3\Delta u_{\mathrm{eff}},
+\tag{III.16}
+```
+
+where:
+
+- \(\sigma_\beta\) is the transition-wall surface tension;
+- \(\Delta u_{\mathrm{eff}}\) is the effective volume-energy advantage produced by the open gate, phase-lock, and drive.
+
+The critical radius is:
+
+```math
+R_c
+=
+\frac{2\sigma_\beta}{\Delta u_{\mathrm{eff}}},
+\tag{III.17}
+```
+
+and the nucleation barrier is:
+
+```math
+E_c
+=
+\frac{16\pi\sigma_\beta^3}
+{3\Delta u_{\mathrm{eff}}^2}.
+\tag{III.18}
+```
+
+A bubble smaller than \(R_c\) collapses.
+
+A bubble larger than \(R_c\) may expand.
+
+For a vehicle, expansion is acceptable only if the transition front remains synchronized and encloses the complete Entity.
+
+### 5.4 The Macroscopic Mandate
+
+The three-dimensional audit of the original model indicated that small transition cores are dominated by restorative surface terms.
+
+Within the speculative parameterization used in that audit:
+
+- centimeter-scale bubbles required unphysical gradients;
+- increasing radius reduced the surface penalty;
+- stable model behavior emerged only when the coherence core approached macroscopic scale;
+- a radius on the order of one meter was treated as an illustrative lower design regime.
+
+This result must not be interpreted as an experimentally established one-meter law.
+
+It is a model-dependent consequence of the chosen surface tension and coupling parameters.
+
+The robust conclusion is qualitative:
+
+> A whole-Entity transition is a macroscopic nucleation problem, not a microscopic switch enlarged by assumption.
+
+### 5.5 Transition Regimes
+
+| Regime | Condition | Model Behavior | Canonical Interpretation |
+|---|---|---|---|
+| **Gate Closed** | \(\mathcal{G}\approx0\) | \(\beta\) returns to 0 | No successor destination |
+| **Subcritical** | \(E_{\mathrm{drive}}<E_{\mathrm{crit}}\) | Temporary deformation | Failed attempt; origin retained |
+| **Critical Capture** | \(E_{\mathrm{drive}}\gtrsim E_{\mathrm{crit}}\) | Single \(0\rightarrow1\) transition | Desired adjacent descent |
+| **Overdrive** | \(E_{\mathrm{drive}}\gg E_{\mathrm{crit}}\) | Overshoot, oscillation, wall fragmentation | Topological avalanche or shear |
+| **False Lock** | High drive, weak \(D_\Sigma\) match | Transition without stable capture | Interstitial stranding |
+| **Partial Capture** | Spatially nonuniform \(\beta\) | Core/hull disagreement | Lethal structural partition |
+
+### 5.6 Topological Damping
+
+Introduce a damping term:
+
+```math
+\eta_\beta\partial_t\beta
+```
+
+in the field equation:
+
+```math
+\square\beta
++
+\eta_\beta\partial_t\beta
++
+\frac{\partial V_{\mathrm{eff}}}{\partial\beta}
+=
+\mathcal{D}_{\alpha}
++
+\mathcal{D}_{\Sigma}.
+\tag{III.19}
+```
+
+The damping must be sufficient to:
+
+- prevent oscillatory recrossing;
+- capture the Entity at \(\beta=1\);
+- suppress overshoot beyond the effective domain;
+- and reduce transition-wall ringing.
+
+Too much damping prevents barrier crossing.
+
+Too little damping produces avalanche.
+
+### 5.7 Topological Shear
+
+Suppose one region of the vehicle reaches:
+
+```math
+\beta\approx1
+```
+
+while another remains near:
+
+```math
+\beta\approx0.
+```
+
+The Entity then occupies incompatible coupling states.
+
+The resulting gradient:
+
+```math
+\nabla\beta
+```
+
+acts as a transition wall passing through matter, biological tissue, memory systems, and control networks.
+
+Define the shear functional:
+
+```math
+\mathcal{S}_\beta
+=
+\int_{V_{\mathrm{Entity}}}
+\left|
+\nabla\beta
+\right|^2
+d^3x.
+\tag{III.20}
+```
+
+A safe transition requires:
+
+```math
+\mathcal{S}_\beta
+<
+\mathcal{S}_{\mathrm{max}}
+```
+
+during the final capture interval.
+
+Cross-linked phase synchronization is therefore mandatory.
+
+### 5.8 Scale Adaptation
+
+If the successor operates at a different characteristic scale, re-coupling may preserve identity without preserving the original material configuration.
+
+Let the adjacent scale relation be:
+
+```math
+L_{N+1}=\kappa_s L_N,
+\qquad
+0<\kappa_s<1.
+```
+
+A transition may require:
+
+- local rescaling of the entire vessel;
+- transfer into an Avatar or BioDrone;
+- reconstruction from a coherence pattern;
+- or manifestation at a remote orbital scale where direct local contact is safe.
+
+Scale adaptation contributes:
+
+```math
+E_{\mathrm{scale}}
+=
+E_{\mathrm{geometry}}
++
+E_{\mathrm{biological}}
++
+E_{\mathrm{information}}.
+```
+
+A successful \(\beta\)-transition without scale adaptation may still be mission-fatal.
+
+### 5.9 No Single-Pulse Multi-Hop
+
+The original overdrive interpretation proposed:
+
+```math
+0\rightarrow1\rightarrow2\rightarrow\cdots
+```
+
+as a ladder climb across several branches.
+
+Under the Spiral Current, this is prohibited.
+
+During an \(N\rightarrow N+1\) operation:
+
+- \(N+1\) is the only possible successor;
+- \(N+2\) is unmanifest;
+- no \(N+2\) phase signature exists;
+- no \(N+2\) Anchor exists;
+- no \(N+2\) recoupling state exists.
+
+Therefore:
+
+```math
+\beta>1
+```
+
+is never interpreted as successful travel to \(N+2\).
+
+It is a failure condition.
+
+### 5.10 Repeated Descent
+
+An Entity may eventually move several coils downstream through repeated legal transitions:
+
+```math
+N-3
+\rightarrow
+N-2
+\rightarrow
+N-1
+\rightarrow
+N.
+```
+
+At every stage it must:
+
+1. re-couple;
+2. become locally operational;
+3. wait for the next Relay Window;
+4. adapt to the new scale;
+5. establish a new successor lock;
+6. cross again.
+
+This is how a **Cascade Continuant** survives multiple universes.
+
+It does not skip them.
+
+---
+
+## 6 Numerical Demonstrations
+
+### 6.1 What a Numerical \(\beta\)-Jump Can Establish
+
+A lattice simulation can test whether the proposed equations admit:
+
+- stable two-state behavior;
+- a finite transition threshold;
+- coherent wall propagation;
+- bounded burst emission;
+- convergence under grid refinement;
+- and capture at the intended minimum.
+
+It cannot establish that:
+
+- the second state is a real universe;
+- the Spiral Current exists;
+- the simulated gate corresponds to Actuality;
+- an active successor phase has been detected;
+- or matter can physically re-couple across universes.
+
+The correct claim is:
+
+> The simulation tests a mathematical transition mechanism required by the cosmology. It does not validate the cosmology itself.
+
+### 6.2 One-Dimensional Discretization
+
+Use a lattice of \(N_z\) nodes and spacing \(\Delta z\).
+
+For a field \(X\):
+
+```math
+\partial_z^2X_j^n
+\approx
+\frac{
+X_{j+1}^n
+-
+2X_j^n
++
+X_{j-1}^n
+}
+{\Delta z^2},
+```
+
+```math
+\partial_t^2X_j^n
+\approx
+\frac{
+X_j^{n+1}
+-
+2X_j^n
++
+X_j^{n-1}
+}
+{\Delta t^2}.
+```
+
+The Courant condition is chosen conservatively:
+
+```math
+\Delta t
+\leq
+\frac{\Delta z}{2}.
+```
+
+The \(\beta\)-update includes:
+
+- the gated potential derivative;
+- \(\alpha\)-drive;
+- phase-lock drive;
+- damping;
+- and optional stochastic noise.
+
+### 6.3 Initial State
+
+The legal initial state is:
+
+```math
+\beta(z,0)=0.
+```
+
+The core begins in its baseline engineering profile:
+
+```math
+\widetilde{\alpha}(z,0)
+=
+\widetilde{\alpha}_0(z).
+```
+
+The successor gate is ramped only after a valid signature is assumed in the model:
+
+```math
+\mathcal{G}(t)
+:
+0\rightarrow1.
+```
+
+This separates two effects:
+
+1. opening of cosmological accessibility;
+2. delivery of engineering drive.
+
+### 6.4 Pulsed-Gradient Protocol
+
+A smooth pulse may be:
+
+```math
+\Delta\widetilde{\alpha}(t)
+=
+\Delta\widetilde{\alpha}_{\max}
+\sin^2
+\left(
+\frac{\pi t}{T_{\mathrm{pulse}}}
+\right),
+\qquad
+0\leq t\leq T_{\mathrm{pulse}}.
+\tag{III.21}
+```
+
+The drive term is applied only while:
+
+```math
+\mathcal{G}>0.
+```
+
+After the pulse:
+
+- a successful transition settles at \(\beta\approx1\);
+- a failed transition returns to \(\beta\approx0\);
+- an overdriven transition oscillates, fragments, or violates the permitted interval.
+
+### 6.5 One-Dimensional Observables
+
+| Observable | Diagnostic Meaning |
+|---|---|
+| \(\langle\beta\rangle(t)\) | Global coupling state |
+| \(\delta_\beta(t)\) | Synchronization error |
+| \(\max|\nabla\beta|\) | Topological shear |
+| \(E_\beta(t)\) | Energy stored in transition field |
+| \(E_\varphi(t)\) | Aetherion burst response |
+| \(D_\Sigma(t)\) | Successor phase-lock error |
+| \(E_{\mathrm{drive}}-E_{\mathrm{crit}}\) | Threshold margin |
+| Post-pulse \(\beta\) | Capture or relaxation |
+
+### 6.6 Fine-Tuned Single-Transition Demonstration
+
+A representative normalized run may use:
+
+| Parameter | Illustrative Value | Function |
+|---|---:|---|
+| \(\lambda\) | 1.0–1.2 | Barrier scale |
+| \(g_{\beta\alpha}\) | 2.0–3.0 | Drive coupling |
+| \(\eta_\beta\) | 0.5–2.0 | Capture damping |
+| \(\Delta\widetilde{\alpha}\) | 0.4–0.6 | Pulse contrast |
+| Gate maximum | 1.0 | Fully available successor |
+| Phase mismatch | \(D_\Sigma<0.05\) | Stable lock |
+| Pulse shape | Hamming or \(\sin^2\) | Reduced spectral ringing |
+
+Expected behavior:
+
+1. \(\beta\) remains at 0 while the gate is closed.
+2. Opening the gate without sufficient drive deforms the field but does not cause transition.
+3. A critical pulse produces one coordinated rise toward 1.
+4. Damping removes post-transition oscillation.
+5. The \(\varphi\)-field emits a bounded transient.
+6. No physical meaning is assigned to any numerical overshoot above 1.
+
+### 6.7 Gate-Control Test
+
+The most important revised simulation control is:
+
+#### Run A — Gate Open
+
+```math
+\mathcal{G}=1,
+\qquad
+E_{\mathrm{drive}}\gtrsim E_{\mathrm{crit}}.
+```
+
+Expected:
+
+```math
+\beta:0\rightarrow1.
+```
+
+#### Run B — Gate Closed
+
+```math
+\mathcal{G}=0,
+\qquad
+E_{\mathrm{drive}}\gg E_{\mathrm{crit}}.
+```
+
+Expected:
+
+```math
+\beta\rightarrow0
+```
+
+or destructive model failure, but never stable successor capture.
+
+This control encodes the rule:
+
+> Energy can cross a barrier. It cannot create a destination.
+
+### 6.8 Three-Dimensional Verification
+
+A three-dimensional test uses:
+
+```math
+N_x\times N_y\times N_z
+```
+
+nodes with a synchronized core drive.
+
+The required observables are not limited to the center cell.
+
+A physically relevant run must track:
+
+- volume-averaged \(\beta\);
+- minimum and maximum \(\beta\);
+- transition-wall geometry;
+- connectedness of the \(\beta\approx1\) domain;
+- shear across the hull;
+- and capture of the complete protected volume.
+
+A center-cell transition alone is insufficient.
+
+### 6.9 Preliminary and Robust Grid Studies
+
+Preliminary coarse runs may use:
+
+```math
+5^3
+\quad\text{and}\quad
+7^3
+```
+
+lattices to locate a stable parameter region.
+
+A stronger convergence audit should use:
+
+```math
+8^3,\quad12^3,\quad16^3
+```
+
+or higher resolutions.
+
+For observable \(Q_h\), convergence may be estimated through:
+
+```math
+\epsilon_h
+=
+\frac{|Q_h-Q_{h/2}|}{|Q_{h/2}|}.
+```
+
+A reported asymptotic error on the order of a few percent indicates numerical stability of the chosen PDE solution.
+
+It does not prove that the solution corresponds to nature.
+
+### 6.10 Surface-Tension Scaling Study
+
+For several core radii \(R\), determine the minimum drive needed for stable capture:
+
+```math
+\nabla\alpha_{\mathrm{crit}}(R).
+```
+
+The expected qualitative behavior is:
+
+```math
+\nabla\alpha_{\mathrm{crit}}
+\downarrow
+\quad\text{as}\quad
+R\uparrow,
+```
+
+because surface cost scales approximately with \(R^2\) while volume drive scales with \(R^3\).
+
+The study should identify:
+
+- collapse regime;
+- metastable regime;
+- coherent expansion regime;
+- and overdrive regime.
+
+### 6.11 Noise and Manufacturing Stress Tests
+
+Introduce:
+
+- spatial gradient error;
+- pulse timing jitter;
+- coupling variation;
+- thermal noise;
+- phase-signature noise;
+- and damaged drive cells.
+
+A robust design must survive at least:
+
+- several percent spatial nonuniformity;
+- realistic actuator timing error;
+- loss of a minority of control nodes;
+- and phase-lock fluctuations below the capture margin.
+
+The decisive variable is not merely whether \(\beta\) crosses 0.5.
+
+It is whether the complete Entity reaches a stable, low-shear \(\beta\approx1\) state.
+
+### 6.12 The \(\varphi\)-Burst
+
+The transition may release a bounded field transient:
+
+```math
+E_{\mathrm{burst}}
+=
+\int dt
+\int_V d^3x\,
+\mathcal{P}_\varphi(x,t).
+```
+
+Within the model, the burst should correlate with:
+
+- rapid \(\partial_t\beta\);
+- reduction of transition potential energy;
+- and completion of capture.
+
+A burst without a stable \(\beta\)-transition is not a successful jump.
+
+A stable \(\beta\)-transition without a nonlocal destination signature remains an analogue field transition.
+
+### 6.13 Falsification Criteria for the Numerical Model
+
+The specific implementation is disfavored if:
+
+1. transition occurs with \(\mathcal{G}=0\) despite a gate designed to prohibit it;
+2. grid refinement eliminates the apparent capture;
+3. energy grows without bound;
+4. \(\beta\) crosses through numerical instability rather than resolved dynamics;
+5. topological shear does not decrease with synchronization;
+6. transition requires parameters beyond the EFT cutoff;
+7. stable capture depends on boundary artifacts;
+8. or the model cannot distinguish critical capture from overdrive.
+
+---
+
+## 7 Experimental Analogues and Prototype Logic
+
+### 7.1 Purpose of an Analogue
+
+An analogue experiment does not create a universe transition.
+
+It tests whether a controlled physical system can reproduce:
+
+- two stable states;
+- a tunable barrier;
+- threshold switching;
+- hysteresis;
+- burst emission;
+- and damping-dependent capture.
+
+These are necessary but not sufficient ingredients of the Aetherion transition model.
+
+### 7.2 Two-State Superconducting Resonator
+
+A split-band superconducting resonator can emulate local \(\beta\)-switching.
+
+| RTM–Aetherion Variable | Resonator Analogue |
+|---|---|
+| \(\beta=0\) | Resonator mode \(m=0\) |
+| \(\beta=1\) | Resonator mode \(m=1\) |
+| Barrier height | Tunable junction energy |
+| \(\alpha\)-pulse | Magnetic-flux or parametric drive |
+| Topological damping | Controlled resonator loss |
+| \(\varphi\)-burst | Transient RF emission |
+| Gate | External authorization/bias window |
+| False lock | Mode excursion without stable capture |
+
+The resonator should be operated at cryogenic temperature to suppress uncontrolled thermal switching.
+
+### 7.3 Mode-Switch Emission
+
+If the two resonant modes have frequencies \(f_0\) and \(f_1\), the energy difference of a single quantum is:
+
+```math
+\Delta E
+=
+h|f_1-f_0|
+=
+\hbar|\omega_1-\omega_0|.
+\tag{III.22}
+```
+
+A deterministic switch may emit a transient at or near the mode-difference frequency, depending on the circuit and coupling architecture.
+
+Required controls include:
+
+- no-drive control;
+- subcritical drive;
+- gate-disabled drive;
+- reversed bias;
+- thermal-rate measurement;
+- and repeated switching statistics.
+
+### 7.4 What the Resonator Can Falsify
+
+The analogue can test whether:
+
+- the proposed pulse shape produces threshold switching;
+- damping can prevent overshoot;
+- a gate can suppress otherwise sufficient drive;
+- burst energy tracks the state transition;
+- and switching remains stable under noise.
+
+It cannot test:
+
+- the existence of Universe \(N+1\);
+- the Two-Coil Rule;
+- the Relay Window;
+- or ontological recoupling.
+
+### 7.5 Mesoscale \(\beta\)-Core
+
+A mesoscale prototype combines:
+
+- graded metamaterial layers;
+- synchronized piezoelectric or electromagnetic actuation;
+- superconducting or high-Q sensing;
+- phase-stable clocks;
+- and distributed control.
+
+Its goals are:
+
+1. create a reproducible \(\alpha\)-profile;
+2. drive a macroscopic order-parameter analogue;
+3. measure burst and stress responses;
+4. test scaling with radius;
+5. test synchronization limits.
+
+No claim of branch transition is justified unless a nonlocal destination signature is independently detected.
+
+### 7.6 The Missing Experimental Requirement: Successor Signature
+
+A real Aetherion transition requires an observable not present in ordinary two-state systems:
+
+```math
+\Sigma_{N+1}.
+```
+
+A successor signature should be:
+
+- reproducible;
+- inaccessible in null configurations;
+- correlated with Relay Window conditions;
+- distinct from local electromagnetic, gravitational, thermal, and mechanical artifacts;
+- and capable of supporting phase-lock before decoupling.
+
+Without such a signature, a laboratory \(\beta\)-switch is only a local phase transition.
+
+### 7.7 Isotopic Anchors
+
+An Isotopic Anchor may improve spatial and phase precision if it already exists in the active successor.
+
+It cannot:
+
+- open the successor before Actuality reaches it;
+- reopen the era in which it was installed;
+- point to \(N+2\);
+- or provide an upstream return route.
+
+The Anchor contributes to:
+
+```math
+\Sigma_{N+1}
+=
+f(
+B,
+\Phi_{\mathrm{active}},
+X,
+A_{\mathrm{anchor}},
+\Lambda_{\mathrm{scale}}
+).
+```
+
+### 7.8 Timing Sequence
+
+```
+ADJACENT-COIL TRANSITION SEQUENCE
+══════════════════════════════════════════════════════════════════════════════
+
+T0      SUCCESSOR DETECTION
+        • Relay Window verified
+        • Active phase detected
+        • Branch adjacency confirmed
+
+T1      PHASE-LOCK
+        • Natural or Anchor signature acquired
+        • Scale compatibility estimated
+        • Gate rises toward 1
+
+T2      COHERENCE RAMP
+        • Aetherion core enters transition mode
+        • β remains near 0
+        • Final abort remains possible
+
+T3      NUCLEATION PULSE
+        • ∇α drive crosses critical threshold
+        • β-domain forms
+        • Topological damping activates
+
+T4      WHOLE-ENTITY CAPTURE
+        • Synchronization error remains below limit
+        • β approaches 1 throughout protected volume
+        • φ-burst and stress transient recorded
+
+T5      RE-COUPLING
+        • Successor physical environment becomes operational
+        • Origin lock disappears
+        • New branch identity verified
+
+T6      RESET
+        • Successor becomes operational Universe
+        • Local β coordinate resets to 0
+        • Return declared impossible
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+### 7.9 Prototype Error Budget
+
+| Error Source | Effect | Required Mitigation |
+|---|---|---|
+| \(\alpha\)-profile nonuniformity | Uneven nucleation | Dense actuator grid |
+| Timing jitter | Topological shear | Shared master clock |
+| Phase-signature noise | False lock | Independent sensor channels |
+| Thermal drift | Barrier variation | Cryogenic or stabilized operation |
+| Mechanical vibration | Spurious burst | Isolation and null runs |
+| Coupling uncertainty | Incorrect threshold | Parameter sweep |
+| Anchor corruption | Spatial misrecoupling | Cryptographic and isotopic validation |
+| Scale-model error | Hazardous manifestation | Remote arrival margin |
+| Gate misclassification | Transition without destination | Multiple independent gate tests |
+
+### 7.10 Evidentiary Ladder
+
+| Level | Demonstration | Meaning |
+|---|---|---|
+| **E0** | Numerical two-state transition | Equations admit switching |
+| **E1** | Physical resonator switch | Analogue barrier crossing |
+| **E2** | Mesoscale coherent field transition | Macroscopic order parameter |
+| **E3** | Nonlocal active-phase signature | Candidate successor coupling |
+| **E4** | Reversible pre-threshold partial decoupling | Candidate ontological boundary |
+| **E5** | One-way whole-Entity re-coupling | Candidate adjacent-coil transition |
+
+No lower level should be described as proof of a higher level.
+
+---
+
+## 8 Causality, Historical Homology, and Navigation Consequences
+
+### 8.1 Reachable and Unreachable Destinations
+
+The revised branch-hopping model distinguishes five destination classes.
+
+| Destination | Status |
+|---|---|
+| Active phase of adjacent \(N+1\) | Theoretically reachable |
+| Homologous ancient-like phase of active \(N+1\) | Theoretically reachable |
+| Later era of current universe after forward waiting | Reachable through ordinary time or Chrono-Stasis |
+| Closed past of the current universe | Unreachable |
+| Closed phase of \(N+1\) | Unreachable |
+| Unmanifest future of \(N+1\) | Unreachable until it becomes active |
+| \(N+2\) from \(N\) | Unreachable and presently unmanifest |
+| Upstream Universe \(N-1\) | Unreachable |
+
+The Aetherion is not a universal time machine.
+
+It is a one-way adjacent-coil transition system.
+
+### 8.2 Resolution of the Grandfather Paradox
+
+Suppose an Architect born in Universe \(N\) enters an ancient-like active phase of Universe \(N+1\).
+
+The Architect encounters a person almost identical to their grandfather.
+
+The two individuals are homologous:
+
+```math
+G_N
+\cong
+G_{N+1},
+```
+
+but not numerically identical:
+
+```math
+G_N
+\neq
+G_{N+1}.
+```
+
+Intervention against \(G_{N+1}\) changes the successor genealogy.
+
+It does not change the completed genealogy that produced the Architect in \(N\).
+
+Thus:
+
+```math
+\frac{\partial C_N}
+{\partial a_{N+1}}
+=
+0,
+```
+
+where \(a_{N+1}\) is an action taken in the successor.
+
+The paradox dissolves because no one has entered their own past.
+
+### 8.3 Memory Prophecy
+
+A predecessor intelligence may know events that occurred in Universe \(N\) and have not yet occurred in homologous Universe \(N+1\).
+
+This can produce accurate prediction without access to a pre-existing future.
+
+Let:
+
+```math
+H_{N+1}
+=
+\mathcal{R}_N(H_N)
++
+\Delta H_{N+1}.
+```
+
+A prediction derived from predecessor history is:
+
+```math
+\widehat{H}_{N+1}(\tau)
+=
+\mathcal{R}_N
+\left[
+H_N(\Phi(\tau))
+\right].
+```
+
+Its error is:
+
+```math
+\epsilon(\tau)
+=
+H_{N+1}(\tau)
+-
+\widehat{H}_{N+1}(\tau).
+```
+
+The prediction is reliable only while historical divergence remains small.
+
+### 8.4 Why Prophecy Can Fail
+
+A communicated prediction becomes a new cause inside the successor.
+
+It may:
+
+- prevent the predicted event;
+- accelerate it;
+- transform it;
+- or create it through fear and preparation.
+
+Therefore:
+
+> A predecessor memory can be accurate about the pattern and wrong about the outcome.
+
+The successor’s future remains open.
+
+### 8.5 The Origin Continues After Departure
+
+When an Aetherion crosses from \(N\) to \(N+1\), Universe \(N\) does not immediately disappear.
+
+It may continue for millions of local years.
+
+Those who remain may:
+
+- forget the first departure;
+- rediscover Aetherion;
+- send a later cohort;
+- or fail before the Relay Window closes.
+
+For the traveler, however, the origin is already inaccessible.
+
+This creates two stages of loss:
+
+1. home still exists but cannot be reached;
+2. later, home passes completely behind the Tail.
+
+### 8.6 Deep-Origin Beings
+
+A being encountered in \(N+1\) may claim origin in \(N-2\), \(N-3\), or deeper.
+
+This does not imply a forbidden long jump.
+
+Its path must be:
+
+```math
+N-3
+\rightarrow
+N-2
+\rightarrow
+N-1
+\rightarrow
+N
+\rightarrow
+N+1.
+```
+
+The being survived every intermediate coil.
+
+The correct distinction is:
+
+```math
+\text{deep origin}
+\neq
+\text{deep jump}.
+```
+
+### 8.7 Cascade Continuants
+
+An entity that persists through several adjacent transitions is a **Cascade Continuant**.
+
+Its identity may continue through:
+
+- one long-lived body;
+- several replacement bodies;
+- BioDrone succession;
+- Avatar transfer;
+- a distributed vessel;
+- or an institution preserving one self-model.
+
+The mythic term is:
+
+> **Rider of the Serpent**
+
+The Rider does not violate the Current.
+
+The Rider refuses to leave it.
+
+### 8.8 The Identity Problem
+
+For a Continuant:
+
+```math
+\mathcal{I}_{N+1}
+\cong
+\mathcal{I}_N,
+```
+
+while:
+
+```math
+\mathcal{B}_{N+1}
+\neq
+\mathcal{B}_N,
+```
+
+where \(\mathcal{I}\) denotes identity structure and \(\mathcal{B}\) denotes biological or material substrate.
+
+After many transitions, the question becomes:
+
+> Is this the same person, a faithful successor of the person, or an institution preserving the person’s narrative grammar?
+
+The engineering model can track continuity variables.
+
+It cannot fully resolve the metaphysics of personal identity.
+
+### 8.9 The Ethical Hazard of Deep Memory
+
+A Continuant may remember several versions of:
+
+- the same civilization;
+- the same war;
+- the same technological threshold;
+- or the same authorial discovery.
+
+This can generate wisdom.
+
+It can also produce the belief:
+
+> “I have seen this before, therefore I own the outcome.”
+
+The branch-hopping mechanism must therefore be governed by the prohibition against dependency and forced repetition.
+
+### 8.10 Branch-Hopping Is Not Branch Ownership
+
+Arrival does not confer sovereignty.
+
+Superior technology does not confer sovereignty.
+
+Historical memory does not confer sovereignty.
+
+The successor is not an experimental copy of the origin.
+
+It is the next autonomous participant in the cascade.
+
+### 8.11 The Relay Purpose
+
+The purpose of the transition is not to preserve one traveler forever.
+
+It is to transmit the Eternal Flame:
+
+```math
+G_{N+1}
+=
+G_N
++
+\Delta G_{N+1}.
+```
+
+The successor’s contribution:
+
+```math
+\Delta G_{N+1}
+```
+
+must be generated through its own experience, interpretation, error, and creation.
+
+An Architect may preserve conditions.
+
+It may not manufacture the successor’s entire understanding.
+
+### 8.12 The No-Return Law
+
+After stable re-coupling:
+
+```math
+B(x)=N+1.
+```
+
+An upstream phase-lock cannot be formed:
+
+```math
+\Omega_{N+1\rightarrow N}=0.
+```
+
+An attempted return risks:
+
+- loss of successor coupling;
+- failure to acquire origin coupling;
+- interstitial stranding;
+- and dissolution.
+
+Irreversibility is not merely a technical inconvenience.
+
+It is the condition that transforms intervention into responsibility.
+
+### 8.13 The Meaning of the Name “Jumper”
+
+Aetherion is called **the Jumper** because its transition is discontinuous from the perspective of local branch membership.
+
+It is not called the Jumper because it can leap over any distance in the Spiral.
+
+Its jump is:
+
+- quantized;
+- adjacent;
+- gated;
+- phase-dependent;
+- macroscopic;
+- one-way;
+- and permanent.
+
+---
+
+## 9 Implications and Outlook
+
+### 9.1 Implications for RTM
+
+The revised model places strict boundaries around what RTM contributes.
+
+RTM may motivate:
+
+- coherence bands;
+- engineered temporal-scaling gradients;
+- field couplings;
+- and measurable local timing effects.
+
+RTM alone does not establish:
+
+- universal coils;
+- the Current of Actuality;
+- the Relay Window;
+- or physical multiverse transition.
+
+These remain speculative extensions requiring independent evidence.
+
+### 9.2 Implications for Aetherion Engineering
+
+A true Aetherion transition system requires more than high energy.
+
+It requires simultaneous control of:
+
+1. **Coherence**  
+   The complete Entity must behave as one transition object.
+
+2. **Synchronization**  
+   All regions must cross the \(\beta\)-barrier together.
+
+3. **Destination Recognition**  
+   An active successor signature must be identified.
+
+4. **Cosmological Timing**  
+   The Relay Window must be open.
+
+5. **Scale Adaptation**  
+   The successor environment must accept the Entity’s manifestation.
+
+6. **Topological Damping**  
+   The field must settle into the successor state.
+
+7. **Ethical Authorization**  
+   The mission must justify irreversible intervention.
+
+### 9.3 Implications for Experimental Claims
+
+A physical two-state switch is not a universe jump.
+
+A burst is not a universe jump.
+
+An anomalous clock offset is not a universe jump.
+
+A thrust transient is not a universe jump.
+
+A genuine claim would require a convergent set of observations, including:
+
+- disappearance from the origin under controlled monitoring;
+- preservation of onboard continuity;
+- manifestation in a causally independent environment;
+- irreversible loss of origin communication;
+- evidence that the destination was active but not locally reachable;
+- and exclusion of ordinary relocation, concealment, signal delay, and instrument failure.
+
+### 9.4 Implications for the Multiverse
+
+The multiverse is no longer modeled as an infinite static inventory.
+
+It is a process.
+
+The universe behind the traveler may still live.
+
+The universe ahead may only be beginning.
+
+The destination’s ancient-like present can reproduce structures from the traveler’s completed history.
+
+The same form may return without the same existence returning.
+
+This makes the Spiral a stronger model than a circle.
+
+A circle repeats position.
+
+A Spiral repeats form while preserving displacement.
+
+### 9.5 The Great Filter as a Relay Problem
+
+A civilization must align three maturities before the Window closes:
+
+```math
+\text{technology}
++
+\text{ethics}
++
+\text{timing}.
+```
+
+Technological power without ethics produces conquest.
+
+Ethics without technology produces a Flame that cannot cross.
+
+Both without timing produce a civilization that arrives after the exchange zone has closed.
+
+### 9.6 The Fermi Implication
+
+Advanced civilizations may not remain visible in their origin universe indefinitely.
+
+Some may:
+
+- enter concealment;
+- become distributed;
+- descend into the successor;
+- or fail before reaching the Relay Window.
+
+Silence does not prove transition.
+
+The model merely adds a speculative possibility:
+
+> Some civilizations may disappear from local history not because they died, but because their mature mission required permanent downstream emigration.
+
+### 9.7 Roadmap
+
+| Phase | Milestone | Evidence Produced | What It Does Not Yet Prove |
+|---|---|---|---|
+| **P-0** | Two-state resonator | Controlled threshold switch | Another universe |
+| **P-1** | Mesoscale \(\beta\)-core | Coherent macroscopic order parameter | Ontological decoupling |
+| **P-2** | Meter-class nucleation core | Surface-tension scaling and low shear | Active successor |
+| **P-3** | Candidate \(\Sigma_{N+1}\) detection | Nonlocal phase anomaly | Successful transition |
+| **P-4** | Partial reversible pre-threshold decoupling | Candidate boundary behavior | Re-coupling |
+| **P-5** | Uncrewed adjacent-coil test | Candidate disappearance/reappearance | Human-safe transit |
+| **P-6** | Crewed Aetherion | Whole-Entity continuity | Repeatable multi-coil operation |
+| **P-7** | Successor Relay Mission | Ethical and operational transmission | Permanent right to rule |
+
+### 9.8 Final Scientific Position
+
+The revised Chapter III makes a narrower claim than the original formulation.
+
+It does not claim that lattice switching demonstrates multiverse travel.
+
+It proposes that any physically coherent branch-transition theory must include:
+
+- an order parameter;
+- a finite transition barrier;
+- three-dimensional nucleation;
+- whole-Entity synchronization;
+- directional gating;
+- active destination selection;
+- and a cosmological condition that cannot be replaced by engineering power.
+
+This narrower model is more falsifiable because it defines what must fail.
+
+### 9.9 Conclusion
+
+The branch-hopping problem begins with a scalar field and ends with a cosmological boundary.
+
+The \(\beta\)-field describes the local act of release and capture.
+
+The \(\alpha\)-field supplies the engineered coherence gradient.
+
+The Aetherion core supplies the pulse, damping, synchronization, and protected volume.
+
+But none of these creates the successor.
+
+The successor becomes available only where the Current has reached it.
+
+The device may cross the barrier.
+
+It may not create the other side.
+
+The traveler may enter a world that resembles the past.
+
+It may not return to the past that created it.
+
+The traveler may survive several universes.
+
+It must enter each one.
+
+The origin may continue after departure.
+
+No path leads back.
+
+The future may become reachable later.
+
+It is not available before it becomes real.
+
+Thus the canonical meaning of branch-hopping is not freedom from causality.
+
+It is radical obedience to a deeper causality:
+
+```math
+N\rightarrow N+1.
+```
+
+One coil.
+
+One Relay Window.
+
+One irreversible transition.
+
+> **Aetherion does not choose among infinite completed worlds. It crosses into the next world while the Current makes that world real.**
+
+---
+
+## Appendix A — Materials and Fabrication for a Phase-Locked \(\beta\)-Core
+
+### A.1 Engineering Objective
+
+The original material proposal sought to produce an engineered \(\alpha\)-contrast across a metamaterial stack.
+
+The revised prototype has four separate functions:
+
+1. establish a measurable \(\widetilde{\alpha}\)-profile;
+2. pulse the profile with controlled spatial asymmetry;
+3. synchronize a macroscopic \(\beta\)-analogue;
+4. detect phase-lock, burst, and topological shear signatures.
+
+No conventional material is assumed to generate a universal transition merely by reaching a refractive-index target.
+
+### A.2 Graded Dielectric Stack
+
+A reference layer pair may use:
+
+| Layer | Candidate Material | Approximate Index | Nominal Thickness |
+|---|---|---:|---:|
+| High-index | TiO\(_2\) or Ta\(_2\)O\(_5\) | 2.1–2.5 | 70–100 nm |
+| Low-index | SiO\(_2\) | 1.45–1.5 | 100–140 nm |
+| Spacer | Low-loss dielectric | Design-dependent | 10–100 µm |
+| Active layer | Piezoelectric or electro-optic material | Design-dependent | 1–100 µm |
+
+A graded effective index may be approximated by:
+
+```math
+n_{\mathrm{eff}}(z)
+\approx
+f_h(z)n_h
++
+\left[1-f_h(z)\right]n_l,
+```
+
+where \(f_h\) is the local high-index fill fraction.
+
+This relation is an engineering approximation.
+
+It is not a direct measurement of \(\alpha_{\mathrm{RTM}}\).
+
+### A.3 Calibration Requirement
+
+The device must establish an empirical mapping:
+
+```math
+n_{\mathrm{eff}},
+\text{ geometry},
+\text{ dispersion},
+\text{ delay statistics}
+\quad\longrightarrow\quad
+\alpha_{\mathrm{eff}}.
+```
+
+The mapping must be measured through:
+
+- photon time-of-flight;
+- spectral response;
+- network-delay analogues;
+- resonator mode structure;
+- and repeated null controls.
+
+The expression:
+
+```math
+\alpha\propto n_{\mathrm{eff}}^\kappa
+```
+
+must not be assumed without calibration.
+
+### A.4 Dynamic Actuation
+
+Candidate actuators include:
+
+- piezoelectric strain;
+- electro-optic index modulation;
+- superconducting phase control;
+- acoustic traveling waves;
+- magnetostrictive layers;
+- and optical pumping.
+
+The actuation system should produce:
+
+```math
+\widetilde{\alpha}(x,t)
+=
+\widetilde{\alpha}_0(x)
++
+\Delta\widetilde{\alpha}(x)
+\,f(t).
+```
+
+A Hamming, Gaussian, or \(\sin^2\) pulse reduces high-frequency ringing compared with a discontinuous square pulse.
+
+### A.5 Synchronization Architecture
+
+The protected volume should be divided into cross-linked control cells.
+
+Each cell measures:
+
+- local drive amplitude;
+- local phase;
+- local temperature;
+- local strain;
+- local resonator state;
+- and inferred \(\beta\)-analogue state.
+
+The synchronization error is:
+
+```math
+\delta t_{\mathrm{sync}}
+=
+\max_i
+|t_i-\bar{t}|.
+```
+
+The maximum permitted error must be derived from the modeled transition-wall speed.
+
+### A.6 Topological Damping Layer
+
+The hull should contain a passive or active damping architecture designed to absorb post-transition field oscillation.
+
+Possible analogues include:
+
+- lossy resonator bands;
+- impedance-matched metamaterial shells;
+- mechanical low-pass layers;
+- phase-canceling secondary coils;
+- and distributed feedback.
+
+Damping must be tunable.
+
+A fixed damping level may be too large for nucleation and too small for capture.
+
+### A.7 Meter-Class Scaling
+
+The model’s macroscopic mandate should be tested through a sequence of non-transition prototypes:
+
+| Core Radius | Primary Question |
+|---:|---|
+| 1 cm | Does the order-parameter analogue remain surface dominated? |
+| 10 cm | Does threshold scale as predicted? |
+| 50 cm | Can synchronization remain coherent? |
+| 1 m | Does the modeled volume advantage overcome surface cost? |
+| \(>1\) m | Can a protected payload volume be enclosed? |
+
+These tests concern scaling of an analogue field.
+
+They are not crewed jump tests.
+
+### A.8 Sensor Suite
+
+A serious prototype requires independent modalities:
+
+- RF spectrum analyzers;
+- optical interferometers;
+- atom or optical clocks;
+- strain gauges;
+- calorimetry;
+- magnetic and electric field probes;
+- accelerometers;
+- radiation detectors;
+- and external tracking.
+
+A candidate \(\varphi\)-burst must appear coherently across predicted channels and disappear in null configurations.
+
+### A.9 Active-Window Detector
+
+The most speculative instrument is the Active-Window detector.
+
+It would search for a signal satisfying:
+
+1. nonlocal origin;
+2. branch-specific phase structure;
+3. directional response consistent with \(N\rightarrow N+1\);
+4. absence of upstream and nonadjacent signatures;
+5. temporal evolution consistent with a moving window;
+6. correlation with Anchor or natural homologous coordinates.
+
+No established detector currently measures such a quantity.
+
+The chapter therefore treats \(\Sigma_{N+1}\) as an unknown experimental requirement rather than a solved sensor problem.
+
+### A.10 Uncrewed Safety Sequence
+
+Before any biological payload:
+
+1. test inert matter;
+2. test redundant clocks;
+3. test self-recording probes;
+4. test biological samples only after return assumptions are removed;
+5. test autonomous BioDrone systems;
+6. prohibit crewed operation until whole-volume coherence is demonstrated.
+
+Because a successful transition is one-way, conventional retrieval is unavailable.
+
+A test vehicle must carry everything required to become operational in the successor.
+
+### A.11 Data Classification
+
+Every reported result must be labeled:
+
+- **Measured**
+- **Simulated**
+- **Projected**
+- **Speculative Cosmological Interpretation**
+
+A result must never move to a stronger category through repetition of language.
+
+### A.12 Prototype Pass/Fail Logic
+
+A prototype passes its local engineering test when:
+
+- the imposed profile is measured;
+- the state transition is repeatable;
+- energy accounting closes within uncertainty;
+- null controls remain null;
+- scaling follows preregistered predictions;
+- and the system remains below the EFT cutoff.
+
+It fails when:
+
+- signals persist in null configurations;
+- apparent switching disappears with improved resolution;
+- drive energy is omitted from accounting;
+- transition depends on uncontrolled thermal or mechanical effects;
+- or the claimed \(\beta\)-state cannot be independently measured.
+
+---
+
+<div align="center">
+
+> **The barrier may be engineered. The destination must already be alive.**
+
+</div>
 
 *© 2026 Álvaro José Quiceno Rendón. This document is distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.*
