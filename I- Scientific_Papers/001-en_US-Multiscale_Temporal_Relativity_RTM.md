@@ -16,7 +16,7 @@ Power-law relationships between time and length scales $T \propto L^{\alpha}$ ap
 
 This reframing transforms scattered scaling observations into a unified classification scheme. We identify and validate distinct scaling bands: **ballistic** ($\alpha \approx 1$), **diffusive** $(\alpha \approx 2)$, **fractal/biological** ($\alpha \approx 2.3$ -2.5), **hierarchical/cortical** ($\alpha \approx 2.5 - 2.7$), **holographic** $(\alpha \rightarrow 3)$, and **quantum-confined** $(\alpha \approx 3.5)$. The discreteness of these bands -rather than a continuum of possible exponents- constitutes a central falsifiable prediction distinguishing RTM from generic scaling phenomenology.
 
-We present comprehensive numerical validation across **seven distinct network topologies.** Six regimes are independently confirmed with $R^{2} > 0.98$, including the holographic regime ($\alpha = \ 2.9499\  \pm 0.0683$, $ R^{2} = 0.997$, 95% CI $\lbrack 2.82,3.08\rbrack$ tightly bracketing the theoretical $\alpha = \ 3.0$). For the quantum-confined regime, we construct a lattice model with boundary confinement that produces $\alpha = \ 3.4907\  \pm 0.0677$ $(R^{2} = 0.997$), with a 95% confidence interval $\lbrack 3.42,3.56\rbrack$ that includes the theoretical target $\alpha = \ 3.5$. This constitutes a **proof-of-concept consistency check** -demonstrating that a simple confinement mechanism generates the predicted exponent- rather than an independent validation, as the model parameters are calibrated to the target. Definitive validation of the quantum-confined regime requires quantum simulation or experimental measurement as outlined in Section 5.4.
+We present **eight numerical simulation cases (A-H)** spanning the RTM transport classes. Seven pre-specified cases (A-G) are independently confirmed with $R^{2} > 0.98$, including the holographic regime ($\alpha = \ 2.9499\  \pm 0.0683$, $ R^{2} = 0.997$, 95% CI $\lbrack 2.82,3.08\rbrack$ tightly bracketing the theoretical $\alpha = \ 3.0$). The Flat Small-World case is a **diffusive-class baseline rather than an additional $\alpha$-band**: its random-walk MFPT scales as $\alpha = 2.0428 \pm 0.0146$ when the characteristic scale is the intrinsic graph-geodesic length, while the graph-geodesic length itself grows logarithmically with node count. For the quantum-confined regime, we construct a lattice model with boundary confinement that produces $\alpha = \ 3.4907\  \pm 0.0677$ $(R^{2} = 0.997$), with a 95% confidence interval $\lbrack 3.42,3.56\rbrack$ that includes the theoretical target $\alpha = \ 3.5$. This constitutes a **proof-of-concept consistency check** -demonstrating that a simple confinement mechanism generates the predicted exponent- rather than an independent validation, as the model parameters are calibrated to the target. Definitive validation of the quantum-confined regime requires quantum simulation or experimental measurement as outlined in Section 5.4.
 
 Beyond computational validation, the RTM framework has been empirically tested against real-world data across **13 independent scientific domains** (Docs 003-015), including gravitational wave mergers ($\alpha = 1.024$, ballistic), quantum processor decoherence ($\alpha = -0.259$, inverse — a Simpson's Paradox revealed by confounder removal), visual cortex hierarchy ($\alpha = 0.311$, super-diffusive), cardiac arrhythmia severity ($\rho = -0.957$ across 10 types), tornado vortex discrimination ($d = 0.96$, $\alpha$ completely subsumes raw velocity), and 21 significant findings in SPARC galaxy kinematics using physically independent measurement channels. A three-phase adversarial audit (Red Team, April 2026) produced a corpus average score of **73%** across all domains. **Section 11** addresses the three open theoretical challenges identified by this audit: (i) a **closure equation** $\alpha = f(\mathcal{G})$ that predicts $\alpha$ from topological descriptors without empirical calibration, with a pre-registered leave-one-out cross-validation test; (ii) a **circularity break** demonstrating that structural measurements predict dynamic outcomes through physically independent channels (confirmed in astronomy and tornado detection); and (iii) a **fixed-point structure** showing that the discrete $\alpha$ -bands ($0$, $0.5$, $1$, $2$) correspond to stable fixed points of known mathematical operators (wave equation, Laplacian, CLT, entropy maximization) under renormalization group flow. Of 10 validated systems with $|\alpha| < 3$, nine cluster within $0.2$ of a fixed point.
 
@@ -659,11 +659,11 @@ With $L_{i}$ acting only within local correlation volumes defined by $\xi_{i}$
 >
 > with small residuals under the log model and clear misfit under any single power law over this range. If one **forces** a power-law fit on log-log axes, the finite window returns an apparent slope $\alpha_{\text{eff}} \ll 1$; we interpret this as a **model-specification artifact**, not evidence of a genuinely sub-linear temporal band.
 >
-> **RTM interpretation.** Small-world shortcuts change the **effective metric**: when the "clock" counts hops, $\mathcal{l} \sim \log N$. Relative to Euclidean system size $L \propto N$, a physical traversal time with per-hop latency $\tau$ is $T_{\text{phys}} \approx \tau l(N) \propto \log L$. Hence the small-world case lies **outside** the standard RTM template $T \propto L^{\alpha}$ for Euclidean traversal. If one adopts the **graph-geodesic length** $L^{'}: = \mathcal{l}(N)$ (or $L^{'}: = \log N$) as the scale, then $T \propto L^{'}$ with $\alpha = 1$ in that metric.
+> **RTM interpretation.** Small-world shortcuts change the **effective metric**: $\mathcal{l} \sim \log N$. For a **shortest-path traversal clock** with fixed per-hop latency $\tau$, one has $T_{\text{path}} \approx \tau\mathcal{l}(N) \propto \log N$ relative to node count (or a Euclidean-size proxy). This lies outside the standard RTM power-law template when $N$ is used as the scale. Simulation C below uses a different observable — **random-walk MFPT** — and fits that clock against the intrinsic graph-geodesic length itself.
 >
-> We exclude the small-world case from the results table because its scaling is **logarithmic** ($\mathcal{l} \sim \log N$), not a power law. The table summarizes **power-law** regimes via $\alpha$; forcing a power fit here would yield a misleading $\alpha_{\text{eff}} \ll 1$ that reflects model misspecification rather than a genuine RTM band.
+> This logarithmic statement concerns **graph-geodesic length versus node count (or Euclidean-size proxy)** and should not be conflated with Simulation C below, which asks a different question: how the random-walk MFPT $T$ scales with the **intrinsic graph-geodesic length** $L=\mathcal{l}(N)$. In that intrinsic metric, Simulation C gives $T \propto L^{2.0428}$, i.e. a diffusive-class power law. Thus the same Watts-Strogatz construction can display $\mathcal{l}(N)\sim\log N$ as a metric property while its random-walk clock scales approximately quadratically with $\mathcal{l}$.
 >
-> **Conclusion.** We therefore report the small-world case as a **topological subdomain with logarithmic scaling**, not as a new RTM power-law band with $\alpha < 1$. Future work will map the boundary between this topological regime and classical diffusive/ballistic behavior as a function of rewiring probability $p$, degree $k$, dimension, and finite-size effects.
+> **Conclusion.** Flat Small-World topology is therefore retained in the numerical results as a **diffusive-class baseline**, not as an additional RTM $\alpha$-band. The logarithmic $\mathcal{l}(N)$ relation is reported as a complementary metric diagnostic. Future work will map the crossover between Euclidean-size, graph-geodesic, ballistic, and diffusive descriptions as a function of rewiring probability $p$, degree $k$, dimension, and finite-size effects.
 
 6.  **Experimental Validation:**
 
@@ -1013,7 +1013,7 @@ $$
 
 To verify the RTM prediction that characteristic times scale as T ∝ L\^α across distinct physical regimes, we conducted a comprehensive suite of numerical simulations spanning the full range of theoretical exponents. All simulations were implemented in Python with full reproducibility: each includes source code, Jupyter notebooks, Docker containers, and output data files available as supplementary material.
 
-The simulations validate RTM predictions across seven distinct network topologies and transport mechanisms, ranging from ballistic propagation (α ≈ 1) to holographic-decay networks trending toward α ≈ 3. Each simulation measures the Mean First-Passage Time (MFPT) or equivalent temporal observable as a function of system size L, then extracts the scaling exponent α via log-log regression.
+The suite contains eight numerical cases (A-H), ranging from ballistic propagation (α ≈ 1) to holographic-decay networks trending toward α ≈ 3 and a model-dependent quantum-confined consistency case near α ≈ 3.5. Seven cases (A-G) are pre-specified independent tests. Flat Small-World (C) is included as a diffusive-class control in the intrinsic graph-geodesic metric, not as a separate RTM band. Each simulation measures the Mean First-Passage Time (MFPT) or equivalent temporal observable as a function of its explicitly defined characteristic scale L, then extracts the scaling exponent α via log-log regression.
 
 -   **Simulation A: Ballistic Propagation in 1-D Lattice**
 
@@ -1115,9 +1115,9 @@ The model consists of: - Watts-Strogatz small-world graphs - Ring lattice base w
 
 **Interpretation**
 
-The flat small-world network yields α ≈ 2.04, only marginally above the diffusive baseline. This indicates that while small-world shortcuts reduce absolute path lengths, they do not fundamentally alter the scaling regime. The network remains effectively diffusive when measured against its intrinsic graph-geodesic length scale.
+The flat small-world network yields α ≈ 2.04 when MFPT is fitted against the **intrinsic graph-geodesic length** $L$. This places it in the same diffusive scaling class as the α ≈ 2 benchmark rather than defining a new RTM band. Small-world shortcuts strongly reduce the relation between node count and graph distance ($\mathcal{l}(N)\sim\log N$), but once graph distance itself is used as the characteristic length, the random-walk clock remains approximately quadratic.
 
-This result establishes an important baseline: small-world topology alone does not produce the elevated α values (2.3-2.7) observed in biological neural networks. Additional hierarchical or modular structure is required to reach the cortical-type scaling regime.
+This result establishes an important control: small-world topology alone does not produce the elevated α values (2.3-2.7) observed in biological neural networks. Additional hierarchical or modular structure is required to reach the cortical-type scaling regime. The value 2.0428 is therefore reported as a **measured small-world baseline within the diffusive class**, not as an eighth or separate temporal band.
 
 -   **Simulation D: Sierpiński Fractal Network**
 
@@ -1379,7 +1379,7 @@ All code released under CC BY 4.0 license.
 
 \| B. **Diffusive 1-D** \| Linear + RW \| 2.00 \| $1.9698\  \pm 0.0089$ \| $\lbrack 1.9448,\, 1.9878\rbrack$ \| 0.9999 \| ✅ Confirmed \|
 
-\| C. **Flat Small-World** \| Watts-Strogatz \| $\sim$ <!-- -->`{=html}2.0 \| $2.0428\  \pm 0.0146$ \| $\lbrack 2.0109,\, 2.0749\rbrack$ \| 0.9998 \| ✅ Confirmed \|
+\| C. **Flat Small-World** \| Watts-Strogatz (intrinsic graph metric) \| $\sim$ <!-- -->`{=html}2.0 \| $2.0428\  \pm 0.0146$ \| $\lbrack 2.0109,\, 2.0749\rbrack$ \| 0.9998 \| ✅ Confirmed — diffusive class \|
 
 \| D. **Sierpiński Fractal** \| Deterministic fractal \| $d_{w} \approx 2.32$ \| $2.3245\  \pm 0.0157$ \| $\lbrack 2.2832,\, 2.3558\rbrack$ \| 0.9999 \| ✅ Confirmed \|
 
@@ -1411,11 +1411,13 @@ All code released under CC BY 4.0 license.
 
 **Summary Statistics**
 
-\- **Regimes tested:** 8 (7 power-law + 1 logarithmic small-world, excluded from table)
+\- **Numerical simulation cases:** 8 (A-H)
 
-\- **Independently confirmed:** 7 of 7 power-law regimes
+\- **Independently confirmed cases:** 7 (A-G); Flat Small-World is a diffusive-class baseline, not an additional $\alpha$-band
 
-\- **Consistent (model-dependent):** 1 (quantum-confined)
+\- **Consistent (model-dependent):** 1 (quantum-confined, H)
+
+\- **Complementary Small-World metric diagnostic:** $\mathcal{l}(N) \sim \log N$ with node count, while random-walk MFPT obeys $T \propto \mathcal{l}^{2.0428}$ in the intrinsic graph metric
 
 \- **Average** $\mathbf{R}^{\mathbf{2}}$ **:** 0.9972
 
@@ -1555,9 +1557,9 @@ This experiment, feasible with current technology in advanced atomic physics lab
 
 **6.1 Overview**
 
-To validate the Multiscale Temporal Relativity (RTM) framework, we conducted a comprehensive suite of numerical simulations across seven distinct network topologies, designed to span the theoretical spectrum of scaling exponents. Each simulation measured the Mean First-Passage Time (MFPT) or equivalent temporal observable as a function of system size $L$, extracting the scaling exponent $\backslash alpha$ via log-log regression analysis.
+To validate the Multiscale Temporal Relativity (RTM) framework, we conducted eight numerical simulation cases (A-H) spanning the theoretical spectrum of scaling exponents. Seven cases (A-G) are pre-specified independent tests, while H is a model-dependent confinement consistency check. Each simulation measured the Mean First-Passage Time (MFPT) or equivalent temporal observable as a function of an explicitly defined characteristic scale $L$, extracting the scaling exponent $\backslash alpha$ via log-log regression analysis.
 
-Table 1 summarizes the results obtained from high-resolution simulations across all predicted regimes. These results demonstrate a direct correspondence between network topology and the temporal scaling exponent $\backslash alpha$.
+Table 1 summarizes the high-resolution simulation results. Flat Small-World (C) is retained because its MFPT follows a power law when expressed against intrinsic graph-geodesic length; it belongs to the diffusive class and does not define an additional $\alpha$-band. The separate relation $\mathcal{l}(N)\sim\log N$ describes how that intrinsic metric grows with node count.
 
 **Table 1: RTM Numerical Validation Results**
 
@@ -1565,7 +1567,7 @@ Table 1 summarizes the results obtained from high-resolution simulations across 
 | :--- | :--- | :--- | :--- | :--- | :---: |
 | **A. Ballistic 1-D** | Linear chain | $1.00$ | $1.0000 \pm 0.0001$ | $1.000$ | ✓ |
 | **B. Diffusive 1-D** | Linear + RW | $2.00$ | $1.9698 \pm 0.0089$ | $0.9999$ | ✓ |
-| **C. Flat Small-W.** | Watts-Strogatz | $\approx 2.0$ | $2.0428 \pm 0.0146$ | $0.9998$ | ✓ |
+| **C. Flat Small-W.** | Watts-Strogatz (intrinsic graph metric) | $\approx 2.0$ | $2.0428 \pm 0.0146$ | $0.9998$ | ✓ Diffusive class |
 | **D. Sierpiński** | Fractal gasket | $d_w \approx 2.32$ | $2.3245 \pm 0.0157$ | $0.9999$ | ✓ |
 | **E. Vascular Tree** | 3D fractal tree | $2.4$ – $2.6$ | $2.3875 \pm 0.1595$ | $0.9868$ | ✓ |
 | **F. Hierarchical** | Modular SW | $2.5$ – $2.7$ | $2.6684 \pm 0.0806$ | $0.9973$ | ✓ |
@@ -1580,9 +1582,9 @@ $◐$ = Consistent/Model-dependent= Exponent reproduced via physically motivated
 
 **6.2 Results by Regime**
 
-**Ballistic ($\mathbf{\alpha}$ =1) and Diffusive ($\mathbf{\alpha}$ =2) Regimes**
+**Ballistic ($\mathbf{\alpha}$ =1) and Diffusive-Class ($\mathbf{\alpha}$ ≈2) Regimes**
 
-The fundamental baselines of the theory were reproduced with exact precision. The ballistic simulation yielded $\alpha\  = \ 1.0000$, and the diffusive simulation yielded $\alpha\  \approx \ 1.97$, confirming that RTM correctly encapsulates standard classical transport mechanics as limit cases.
+The fundamental baselines of the theory were reproduced with high precision. The ballistic simulation yielded $\alpha\  = \ 1.0000$, and the 1-D diffusive simulation yielded $\alpha\  \approx \ 1.97$. Flat Small-World produced $\alpha\  = \ 2.0428\  \pm \ 0.0146$ when MFPT was fitted against intrinsic graph-geodesic length, placing it in the same diffusive class rather than creating a separate band. Its graph-geodesic length nevertheless scales logarithmically with node count, $\mathcal{l}(N)\sim\log N$; these are compatible statements because they use different independent variables.
 
 **Fractal and Biological Regimes (**$\mathbf{\alpha \approx}$ **2.3 - 2.5)**
 
@@ -1590,7 +1592,7 @@ Simulations on fractal structures (Sierpiński gasket) matched the theoretical w
 
 **Hierarchical/Cortical Regime (**$\mathbf{\alpha \approx}$ **2.5 - 2.7)**
 
-The hierarchical modular network produced $\mathbf{\alpha}\  = \ 2.6684\  \pm \ 0.0806$. This result, distinct from the flat small-world baseline ($\mathbf{\alpha}\ \mathbf{=}\ 2.04$), quantifies the temporal cost of hierarchical organization inherent in complex modular architectures.
+The hierarchical modular network produced $\mathbf{\alpha}\  = \ 2.6684\  \pm \ 0.0806$. This result is clearly elevated above the flat small-world **diffusive-class control** ($\mathbf{\alpha}\ \mathbf{=}\ 2.04$ in the intrinsic graph metric), quantifying the temporal cost of hierarchical organization inherent in complex modular architectures.
 
 **Holographic Regime (**$\mathbf{\alpha \rightarrow}$ **3)**
 
@@ -1602,17 +1604,19 @@ The proof-of-concept simulation (H) using a 3D lattice with boundary confinement
 
 **6.3 Summary**
 
--   **Regimes tested:** 8 (7 power-law + 1 logarithmic small-world).
+-   **Numerical simulation cases:** 8 (A-H).
 
--   **Independently Confirmed:** 7 of 7 power-law regimes (including Holographic).
+-   **Independently Confirmed:** 7 cases (A-G), with Flat Small-World classified inside the diffusive band rather than as a separate temporal band.
 
--   **Consistent (Model-dependent):** 1 (Quantum-Confined).
+-   **Consistent (Model-dependent):** 1 (Quantum-Confined, H).
 
--   **Average** $\mathbf{R}^{\mathbf{2}}$ **:** **0.9969** (Improved from previous versions).
+-   **Complementary Small-World metric diagnostic:** $\mathcal{l}(N)\sim\log N$ versus node count; $T\propto\mathcal{l}^{2.0428}$ for random-walk MFPT in the intrinsic graph metric.
 
--   **Validated exponent range:** $\alpha\  = \ 1.00$ to $\mathbf{\alpha\  \approx \ 3.50}$.
+-   **Average** $\mathbf{R}^{\mathbf{2}}$ **:** **0.9972**.
 
-The systematic progression from ballistic ($\alpha = 1$) through diffusive ($\alpha = 2$), fractal ($\alpha\  \approx \ 2.3$), hierarchical ($\alpha\ \  \approx \ 2.7$), holographic ($\alpha\ \  \approx \ 3.0$), to quantum-confined ($\alpha\ \  \approx \ 3.5$) confirms the RTM prediction that temporal scaling exponents form distinct bands determined by network topology and transport mechanism.
+-   **Independently validated exponent range:** $\alpha\  = \ 1.00$ to $\alpha\  \approx \ 2.95$; **model-dependent extension:** $\alpha\  \approx \ 3.49$.
+
+The systematic progression from ballistic ($\alpha = 1$) through the diffusive class ($\alpha \approx 2$, including the flat small-world intrinsic-metric baseline), fractal/biological ($\alpha\  \approx \ 2.3$-2.5), hierarchical ($\alpha\ \  \approx \ 2.7$), holographic ($\alpha\ \  \approx \ 3.0$), to quantum-confined ($\alpha\ \  \approx \ 3.5$) supports the RTM prediction that temporal scaling exponents cluster into structural bands determined by topology and transport mechanism.
 
 **6.4 Reproducibility**
 
