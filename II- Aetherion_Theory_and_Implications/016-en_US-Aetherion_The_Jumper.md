@@ -1227,124 +1227,124 @@ Beyond propulsion and energy extraction, Aetherion’s ability to engineer time-
 
 <div align="center">
 
-# **III<br>Beyond Imagination: “Branch-Hopping” in the Multiverse**
+# **III<br>Más Allá de la Imaginación: “Salto entre Ramas” en el Multiverso**
 
-### **Adjacent-Coil Transition Under the Spiral Current**
+### **Transición de Espira Adyacente Bajo la Corriente Espiral**
 
 </div>
 
 > [!IMPORTANT]
-> **Speculative Status and Canonical Revision:**  
-> This chapter is a theoretical and narrative extension of the RTM–Aetherion framework. The field equations, order parameters, numerical lattices, and experimental analogues developed below may be used to test the internal consistency of a proposed transition mechanism. They do **not** constitute empirical evidence that other universes exist or that a physical Aetherion transition has occurred.
+> **Estado Especulativo y Revisión Canónica:**  
+> Este capítulo es una extensión teórica y narrativa del marco RTM–Aetherion. Las ecuaciones de campo, los parámetros de orden, las retículas numéricas y los análogos experimentales desarrollados a continuación pueden utilizarse para poner a prueba la consistencia interna de un mecanismo de transición propuesto. **No** constituyen evidencia empírica de que existan otros universos ni de que haya ocurrido una transición física de Aetherion.
 >
-> The expression **branch-hopping** is retained as a historical name. In the revised cosmology, it does not mean arbitrary movement among completed parallel worlds. It means a one-way transition from an active universe \(N\) to its immediately adjacent active successor \(N+1\), and only while the Spiral Current sustains a finite Relay Window between them.
+> La expresión **salto entre ramas** se conserva como nombre histórico. En la cosmología revisada, no significa un movimiento arbitrario entre mundos paralelos completados. Significa una transición unidireccional desde un universo activo \(N\) hacia su sucesor activo inmediatamente adyacente \(N+1\), y únicamente mientras la Corriente Espiral mantiene entre ambos una Ventana de Relevo finita.
 
 ---
 
-## Abstract
+## Resumen
 
-The original branch-transition hypothesis treated the multiverse as a ladder of discrete coherence domains indexed by a field \(\beta\). The revised model retains the useful field-theoretic insight—a macroscopic system may undergo a quantized transition between two coherence states—but places it inside a stricter cosmological architecture.
+La hipótesis original de transición entre ramas trataba el multiverso como una escalera de dominios discretos de coherencia indexados por un campo \(\beta\). El modelo revisado conserva la idea útil de teoría de campos —un sistema macroscópico puede experimentar una transición cuantizada entre dos estados de coherencia—, pero la sitúa dentro de una arquitectura cosmológica más estricta.
 
-The multiverse is modeled as a Spiral of universal iterations progressively activated by a finite **Current of Actuality**. A future universe is not a completed spacetime awaiting selection. It becomes physically available only when the Head of the Current reaches its coil. During a finite overlap, Universe \(N\) and Universe \(N+1\) may both remain active. This overlap is the **Relay Window**, and it is the only interval in which an Aetherion transition can occur.
+El multiverso se modela como una Espiral de iteraciones universales activadas progresivamente por una **Corriente de Actualidad** finita. Un universo futuro no es un espacio-tiempo completado que espera ser seleccionado. Solo se vuelve físicamente disponible cuando la Cabeza de la Corriente alcanza su espira. Durante una superposición finita, tanto el Universo \(N\) como el Universo \(N+1\) pueden permanecer activos. Esta superposición es la **Ventana de Relevo**, y es el único intervalo en el que puede ocurrir una transición de Aetherion.
 
-We therefore redefine the branch field \(\beta(x)\) as a **local adjacent-coupling order parameter**, not an absolute multiversal address. In every operational universe:
+Por lo tanto, redefinimos el campo de rama \(\beta(x)\) como un **parámetro de orden local de acoplamiento adyacente**, no como una dirección multiversal absoluta. En cada universo operativo:
 
 ```math
 \beta=0
 ```
 
-denotes stable coupling to the current universe, while:
+indica un acoplamiento estable al universo actual, mientras que:
 
 ```math
 \beta=1
 ```
 
-denotes stable coupling to the active adjacent successor. After successful re-coupling, the successor becomes the Entity’s new operational universe and the local coordinate is reset. A transition from \(\beta=0\) to \(\beta=1\) is therefore one legal descent:
+indica un acoplamiento estable al sucesor activo adyacente. Después de un reacoplamiento exitoso, el sucesor se convierte en el nuevo universo operativo de la Entidad y la coordenada local se reinicia. Una transición de \(\beta=0\) a \(\beta=1\) es, por lo tanto, un descenso legal:
 
 ```math
 N\rightarrow N+1.
 ```
 
-A direct transition from \(N\) to \(N+2\) is not merely difficult. It is undefined because \(N+2\) has not yet received Actuality and provides no spacetime, phase signature, material substrate, or recoupling vacuum.
+Una transición directa de \(N\) a \(N+2\) no es simplemente difícil. Está indefinida porque \(N+2\) todavía no ha recibido Actualidad y no proporciona espacio-tiempo, firma de fase, sustrato material ni vacío de reacoplamiento.
 
-To encode these restrictions, we introduce an **Actuality Gate** \(\mathcal{G}_{N\rightarrow N+1}\), a phase-dependent term that permits the successor minimum only when the target phase lies inside the Active Window. We formulate a gated two-state potential, derive the coupled \(\varphi\)-\(\alpha\)-\(\beta\) equations, define a directional transition operator, and reinterpret nucleation thresholds, surface tension, topological damping, and three-dimensional lattice simulations under the adjacent-coil rule.
+Para codificar estas restricciones, introducimos una **Compuerta de Actualidad** \(\mathcal{G}_{N\rightarrow N+1}\), un término dependiente de la fase que permite el mínimo del sucesor únicamente cuando la fase objetivo se encuentra dentro de la Ventana Activa. Formulamos un potencial de dos estados con compuerta, derivamos las ecuaciones acopladas \(\varphi\)-\(\alpha\)-\(\beta\), definimos un operador de transición direccional y reinterpretamos los umbrales de nucleación, la tensión superficial, el amortiguamiento topológico y las simulaciones de retícula tridimensional bajo la regla de la espira adyacente.
 
-The numerical model can demonstrate stable barrier crossing in an order parameter. An experimental two-state resonator can reproduce analogous switching and burst emission. Neither result alone demonstrates multiversal transition. A genuine Aetherion test would additionally require evidence of a nonlocal branch signature, coherent whole-vehicle re-coupling, irreversible change of operational universe, and compliance with the Active Window and Relay Window constraints.
+El modelo numérico puede demostrar un cruce estable de barrera en un parámetro de orden. Un resonador experimental de dos estados puede reproducir conmutaciones análogas y emisión de ráfagas. Ninguno de estos resultados, por sí solo, demuestra una transición multiversal. Una prueba genuina de Aetherion requeriría además evidencia de una firma de rama no local, reacoplamiento coherente de todo el vehículo, cambio irreversible de universo operativo y cumplimiento de las restricciones de la Ventana Activa y la Ventana de Relevo.
 
-The resulting framework preserves causal integrity:
+El marco resultante preserva la integridad causal:
 
-- the origin past cannot be revisited;
-- an active homologous phase in \(N+1\) may resemble the traveler’s past without being that past;
-- predecessor memory may appear as prophecy without access to a completed future;
-- deep-origin beings may be encountered only if they crossed every intermediate universe;
-- and every successful transition is a permanent ontological emigration.
+- el pasado de origen no puede revisitarse;
+- una fase homóloga activa en \(N+1\) puede parecerse al pasado del viajero sin ser ese pasado;
+- la memoria del predecesor puede aparecer como profecía sin acceso a un futuro completado;
+- los seres de origen profundo solo pueden encontrarse si atravesaron cada universo intermedio;
+- y cada transición exitosa es una emigración ontológica permanente.
 
 ---
 
-## 1 Introduction
+## 1 Introducción
 
-The Aetherion program begins with a local engineering question: can a controlled spatial gradient in the RTM temporal-scaling exponent \(\alpha\) produce a measurable field response?
+El programa Aetherion comienza con una pregunta local de ingeniería: ¿puede un gradiente espacial controlado en el exponente de escalamiento temporal \(\alpha\) de RTM producir una respuesta de campo medible?
 
-Its most ambitious extension asks a more radical question:
+Su extensión más ambiciosa plantea una pregunta más radical:
 
-> Can a macroscopic coherent system change the universe to which it belongs?
+> ¿Puede un sistema coherente macroscópico cambiar el universo al que pertenece?
 
-The revised answer is narrower than unrestricted multiverse travel and more demanding than ordinary propulsion.
+La respuesta revisada es más limitada que un viaje irrestricto por el multiverso y más exigente que la propulsión ordinaria.
 
-An Aetherion cannot select any imaginable reality.
+Un Aetherion no puede seleccionar cualquier realidad imaginable.
 
-It cannot browse completed timelines.
+No puede recorrer líneas temporales completadas.
 
-It cannot return to the universe it left.
+No puede regresar al universo que dejó.
 
-It cannot enter a future that does not yet exist.
+No puede entrar en un futuro que todavía no existe.
 
-It may, under a unique combination of cosmological timing, phase compatibility, macroscopic coherence, and sufficient transition energy, decouple from Universe \(N\) and re-couple to the immediately adjacent successor Universe \(N+1\).
+Puede, bajo una combinación única de sincronización cosmológica, compatibilidad de fase, coherencia macroscópica y energía de transición suficiente, desacoplarse del Universo \(N\) y reacoplarse al Universo sucesor inmediatamente adyacente \(N+1\).
 
-This operation is called **branch-hopping** only by historical convention.
+Esta operación se denomina **salto entre ramas** únicamente por convención histórica.
 
-Its canonical name is:
+Su nombre canónico es:
 
-> **Adjacent-Coil Transition**
+> **Transición de Espira Adyacente**
 
-### 1.1 Motivation: From Hierarchical \(\alpha\)-Layers to Universal Succession
+### 1.1 Motivación: De Capas Jerárquicas de \(\alpha\) a la Sucesión Universal
 
-RTM studies relations of the form:
+RTM estudia relaciones de la forma:
 
 ```math
 T\propto L^\alpha,
 ```
 
-where \(\alpha\) characterizes how temporal behavior changes with scale in a specified system.
+donde \(\alpha\) caracteriza cómo cambia el comportamiento temporal con la escala en un sistema especificado.
 
-Simulated networks and multiscale structures may exhibit distinct effective \(\alpha\)-regimes. These regimes motivate the idea that coherence can become organized into stable bands. The original Aetherion hypothesis extended this observation into a multiversal interpretation: different \(\alpha\)-bands were treated as different universe branches.
+Las redes simuladas y las estructuras multiescala pueden exhibir distintos regímenes efectivos de \(\alpha\). Estos regímenes motivan la idea de que la coherencia puede organizarse en bandas estables. La hipótesis original de Aetherion extendía esta observación a una interpretación multiversal: las diferentes bandas de \(\alpha\) eran tratadas como distintas ramas de universo.
 
-The revised model separates three concepts that must not be collapsed:
+El modelo revisado separa tres conceptos que no deben confundirse:
 
-1. **Measured or simulated effective \(\alpha\)**  
-   A local scaling exponent derived from a system, network, material, or field configuration.
+1. **\(\alpha\) efectivo medido o simulado**  
+   Un exponente de escalamiento local derivado de un sistema, red, material o configuración de campo.
 
-2. **Engineered \(\widetilde{\alpha}\)**  
-   A normalized control variable used to describe an imposed gradient inside a device.
+2. **\(\widetilde{\alpha}\) diseñado**  
+   Una variable de control normalizada utilizada para describir un gradiente impuesto dentro de un dispositivo.
 
-3. **Universal succession index \(N\)**  
-   A narrative-cosmological label identifying one coil of the Spiral.
+3. **Índice de sucesión universal \(N\)**  
+   Una etiqueta narrativo-cosmológica que identifica una espira de la Espiral.
 
-The existence of several \(\alpha\)-regimes does not, by itself, prove several universes. Instead, the \(\alpha\)-field provides the proposed local mechanism by which an Aetherion modifies coherence sufficiently to interact with a cosmological transition that already exists.
+La existencia de varios regímenes de \(\alpha\) no demuestra, por sí sola, la existencia de varios universos. En cambio, el campo \(\alpha\) proporciona el mecanismo local propuesto mediante el cual un Aetherion modifica la coherencia lo suficiente como para interactuar con una transición cosmológica que ya existe.
 
-The Aetherion does not create Universe \(N+1\).
+El Aetherion no crea el Universo \(N+1\).
 
-It attempts to synchronize with it.
+Intenta sincronizarse con él.
 
-### 1.2 The Spiral Current Revision
+### 1.2 La Revisión de la Corriente Espiral
 
-The revised cosmology replaces a simultaneous catalogue of complete branches with a finite Current moving through an ordered Spiral.
+La cosmología revisada sustituye un catálogo simultáneo de ramas completas por una Corriente finita que se desplaza a través de una Espiral ordenada.
 
 ```
-THE SPIRAL CURRENT
+LA CORRIENTE ESPIRAL
 ══════════════════════════════════════════════════════════════════════════════
 
-                       UNIVERSE N-1
+                       UNIVERSO N-1
                     ╭────────────────╮
                   ╭─╯                ╰─╮
                  │                      │
@@ -1352,7 +1352,7 @@ THE SPIRAL CURRENT
                     ╰──────╮  ╭──────╯
                            │  │
                            │  ▼
-                         UNIVERSE N
+                         UNIVERSO N
                     ╭────────────────╮
                   ╭─╯                ╰─╮
                  │                      │
@@ -1360,126 +1360,126 @@ THE SPIRAL CURRENT
                     ╰──────╮  ╭──────╯
                            │  │
                            │  ▼
-                       UNIVERSE N+1
+                       UNIVERSO N+1
 
-DIRECTION OF ACTUALITY:
+DIRECCIÓN DE LA ACTUALIDAD:
 N-1 ─────► N ─────► N+1
 
-LEGAL AETHERION TRANSITION:
+TRANSICIÓN LEGAL DE AETHERION:
 N ─────► N+1
 
 ══════════════════════════════════════════════════════════════════════════════
 ```
 
-At a given cascade phase \(\chi\), the Current sustains:
+En una fase de cascada determinada \(\chi\), la Corriente sostiene:
 
-- one active universe; or
-- portions of two immediately adjacent universes during transfer.
+- un universo activo; o
+- porciones de dos universos inmediatamente adyacentes durante la transferencia.
 
-Thus:
+Por lo tanto:
 
 ```math
 \left|\mathcal{U}_{\mathrm{active}}(\chi)\right|\leq 2.
 ```
 
-When two universes are active:
+Cuando dos universos están activos:
 
 ```math
 \mathcal{U}_{\mathrm{active}}(\chi)=\{N,N+1\}.
 ```
 
-This is the **Two-Coil Rule**.
+Esta es la **Regla de las Dos Espiras**.
 
-### 1.3 The Central Revision to \(\beta\)
+### 1.3 La Revisión Central de \(\beta\)
 
-The original model treated:
+El modelo original trataba:
 
 ```math
 \beta=0,1,2,\ldots
 ```
 
-as a ladder of multiverse addresses that could potentially be climbed through a sufficiently strong pulse.
+como una escalera de direcciones multiversales que potencialmente podía ascenderse mediante un pulso suficientemente fuerte.
 
-That interpretation is no longer canonical.
+Esa interpretación ya no es canónica.
 
-In the revised model, \(\beta\) is local and relational:
+En el modelo revisado, \(\beta\) es local y relacional:
 
 ```math
 \beta(x)\in[0,1].
 ```
 
-Within operational Universe \(N\):
+Dentro del Universo operativo \(N\):
 
-- \(\beta=0\): complete coupling to \(N\);
-- \(0<\beta<1\): transitional or interstitial coupling;
-- \(\beta=1\): complete coupling to active successor \(N+1\).
+- \(\beta=0\): acoplamiento completo a \(N\);
+- \(0<\beta<1\): acoplamiento transicional o intersticial;
+- \(\beta=1\): acoplamiento completo al sucesor activo \(N+1\).
 
-After re-coupling:
+Después del reacoplamiento:
 
 ```math
 N+1\mapsto N_{\mathrm{operational}},
 ```
 
-and the local transition variable is reset:
+y la variable local de transición se reinicia:
 
 ```math
 \beta_{\mathrm{new}}=0.
 ```
 
-A later transition requires a new Relay Window and a new operation:
+Una transición posterior requiere una nueva Ventana de Relevo y una nueva operación:
 
 ```math
 N+1\rightarrow N+2.
 ```
 
-There is no single pulse:
+No existe un único pulso:
 
 ```math
 N\rightarrow N+2.
 ```
 
-### 1.4 Goals of This Chapter
+### 1.4 Objetivos de Este Capítulo
 
-This chapter will:
+Este capítulo:
 
-1. distinguish local \(\alpha\)-bands from universal succession;
-2. redefine \(\beta\) as an adjacent-coupling order parameter;
-3. introduce an Actuality Gate tied to the Active Window;
-4. formulate a directional two-state transition potential;
-5. extend the Aetherion action to include phase-lock and gating terms;
-6. derive energetic and nucleation conditions for whole-Entity transition;
-7. reinterpret one-dimensional and three-dimensional lattice simulations;
-8. define analogue experiments and their strict evidentiary limits;
-9. establish the difference between a Homologous Past and the origin past;
-10. define why branch-hopping is one-way, adjacent, and irreversible.
+1. distinguirá las bandas locales de \(\alpha\) de la sucesión universal;
+2. redefinirá \(\beta\) como un parámetro de orden de acoplamiento adyacente;
+3. introducirá una Compuerta de Actualidad vinculada a la Ventana Activa;
+4. formulará un potencial de transición direccional de dos estados;
+5. ampliará la acción de Aetherion para incluir términos de bloqueo de fase y compuerta;
+6. derivará condiciones energéticas y de nucleación para la transición de toda la Entidad;
+7. reinterpretará simulaciones de retícula unidimensionales y tridimensionales;
+8. definirá experimentos análogos y sus estrictos límites probatorios;
+9. establecerá la diferencia entre un Pasado Homólogo y el pasado de origen;
+10. definirá por qué el salto entre ramas es unidireccional, adyacente e irreversible.
 
 ---
 
-## 2 The Hierarchical Multiverse Under the Spiral Current
+## 2 El Multiverso Jerárquico Bajo la Corriente Espiral
 
-### 2.1 The Ocean, the Current, and the Coil
+### 2.1 El Océano, la Corriente y la Espira
 
-The model distinguishes three cosmological layers.
+El modelo distingue tres capas cosmológicas.
 
-#### The Ocean of Potential
+#### El Océano de Potencial
 
-The Ocean contains unrealized possibility.
+El Océano contiene posibilidad no realizada.
 
-It is not a warehouse of completed universes.
+No es un almacén de universos completados.
 
-#### The Current of Actuality
+#### La Corriente de Actualidad
 
-The Current is the finite ontological support through which possibility becomes active event.
+La Corriente es el soporte ontológico finito mediante el cual la posibilidad se convierte en evento activo.
 
-It is not identical to matter, energy, information, time, consciousness, or gnosis.
+No es idéntica a la materia, la energía, la información, el tiempo, la conciencia ni la gnosis.
 
-It is the condition under which those can occur.
+Es la condición bajo la cual estos pueden ocurrir.
 
-#### The Spiral Coil
+#### La Espira de la Espiral
 
-A coil is one universal iteration.
+Una espira es una iteración universal.
 
-Each coil transforms inherited structure into a new active history:
+Cada espira transforma la estructura heredada en una nueva historia activa:
 
 ```math
 H_{N+1}
@@ -1489,14 +1489,14 @@ H_{N+1}
 \Delta H_{N+1}.
 ```
 
-Here:
+Aquí:
 
-- \(\mathcal{R}_N\) represents inherited or homologously transformed structure;
-- \(\Delta H_{N+1}\) represents local novelty, contingency, and free development.
+- \(\mathcal{R}_N\) representa estructura heredada o transformada de manera homóloga;
+- \(\Delta H_{N+1}\) representa novedad local, contingencia y desarrollo libre.
 
-### 2.2 \(\alpha\) Is Not a Multiversal Address
+### 2.2 \(\alpha\) No Es una Dirección Multiversal
 
-The physical RTM exponent remains:
+El exponente físico de RTM sigue siendo:
 
 ```math
 \alpha_{\mathrm{RTM}}
@@ -1504,28 +1504,28 @@ The physical RTM exponent remains:
 \frac{d\log T}{d\log L}.
 ```
 
-It describes a scale relation within a defined system.
+Describe una relación de escala dentro de un sistema definido.
 
-A measured \(\alpha=2.56\) does not mean “Universe 2.56.”
+Un \(\alpha=2.56\) medido no significa «Universo 2.56».
 
-A simulated plateau does not independently identify another coil of the Spiral.
+Una meseta simulada no identifica de forma independiente otra espira de la Espiral.
 
-The Aetherion hypothesis instead proposes that engineered \(\alpha\)-gradients may alter:
+La hipótesis de Aetherion propone, en cambio, que los gradientes de \(\alpha\) diseñados pueden alterar:
 
-- local coherence;
-- vacuum stress;
-- temporal rate relations;
-- and the energetic accessibility of a transition order parameter.
+- la coherencia local;
+- la tensión del vacío;
+- las relaciones de tasas temporales;
+- y la accesibilidad energética de un parámetro de orden de transición.
 
-Thus \(\alpha\) is a control and coupling field.
+Así, \(\alpha\) es un campo de control y acoplamiento.
 
-The universe index \(N\) is cosmological.
+El índice de universo \(N\) es cosmológico.
 
-The transition coordinate \(\beta\) is relational.
+La coordenada de transición \(\beta\) es relacional.
 
-### 2.3 Physical \(\alpha_{\mathrm{RTM}}\) and Engineering \(\widetilde{\alpha}\)
+### 2.3 \(\alpha_{\mathrm{RTM}}\) Físico y \(\widetilde{\alpha}\) de Ingeniería
 
-Throughout this chapter:
+A lo largo de este capítulo:
 
 ```math
 \alpha_{\mathrm{RTM}}(x)
@@ -1535,25 +1535,25 @@ Throughout this chapter:
 \Delta\alpha\,\widetilde{\alpha}(x),
 ```
 
-where:
+donde:
 
-- \(\alpha_0\) is the baseline physical exponent;
-- \(\Delta\alpha\) is the engineered contrast;
-- \(\widetilde{\alpha}\in[0,1]\) is a normalized control profile.
+- \(\alpha_0\) es el exponente físico de referencia;
+- \(\Delta\alpha\) es el contraste diseñado;
+- \(\widetilde{\alpha}\in[0,1]\) es un perfil de control normalizado.
 
-A simulation that drives:
+Una simulación que impulsa:
 
 ```math
 \widetilde{\alpha}:0\rightarrow1
 ```
 
-does not claim that the physical exponent itself changes from \(0\) to \(1\).
+no afirma que el propio exponente físico cambie de \(0\) a \(1\).
 
-It describes a normalized device actuation.
+Describe una actuación normalizada del dispositivo.
 
-### 2.4 The Active Window
+### 2.4 La Ventana Activa
 
-Let:
+Sea:
 
 ```math
 W_N(\chi)
@@ -1561,29 +1561,29 @@ W_N(\chi)
 [\tau_N^-(\chi),\tau_N^+(\chi)]
 ```
 
-denote the phase range of Universe \(N\) currently sustained by the Current.
+el rango de fase del Universo \(N\) sostenido actualmente por la Corriente.
 
-A target phase \(\tau_{\mathrm{target}}\) is available only when:
+Una fase objetivo \(\tau_{\mathrm{target}}\) está disponible únicamente cuando:
 
 ```math
 \tau_{\mathrm{target}}\in W_N(\chi).
 ```
 
-The three states are:
+Los tres estados son:
 
-| State | Condition | Navigability |
+| Estado | Condición | Navegabilidad |
 |---|---|---|
-| **Unmanifest** | \(\tau>\tau_N^+\) | Impossible |
-| **Active** | \(\tau_N^-\leq\tau\leq\tau_N^+\) | Theoretically possible |
-| **Closed** | \(\tau<\tau_N^-\) | Impossible |
+| **No manifestado** | \(\tau>\tau_N^+\) | Imposible |
+| **Activo** | \(\tau_N^-\leq\tau\leq\tau_N^+\) | Teóricamente posible |
+| **Cerrado** | \(\tau<\tau_N^-\) | Imposible |
 
-A numerical year is not a sufficient destination.
+Un año numérico no es un destino suficiente.
 
-A valid destination requires active ontological support.
+Un destino válido requiere soporte ontológico activo.
 
-### 2.5 The Relay Window
+### 2.5 La Ventana de Relevo
 
-The Relay Window between \(N\) and \(N+1\) is:
+La Ventana de Relevo entre \(N\) y \(N+1\) es:
 
 ```math
 W_{N\rightarrow N+1}^{\mathrm{relay}}
@@ -1596,88 +1596,88 @@ W_{N\rightarrow N+1}^{\mathrm{relay}}
 \right\},
 ```
 
-where \(\mathcal{A}_N\) denotes active Actuality support in coil \(N\).
+donde \(\mathcal{A}_N\) representa el soporte activo de Actualidad en la espira \(N\).
 
-The transition gate can open only inside this overlap.
+La compuerta de transición solo puede abrirse dentro de esta superposición.
 
-A civilization may therefore fail because it is:
+Por lo tanto, una civilización puede fracasar porque está:
 
-- technologically too early;
-- technologically too late;
-- ethically unprepared;
-- unable to generate a coherent macroscopic core;
-- or unable to detect the successor phase.
+- en una etapa tecnológica demasiado temprana;
+- en una etapa tecnológica demasiado tardía;
+- éticamente no preparada;
+- incapacitada para generar un núcleo macroscópico coherente;
+- o incapacitada para detectar la fase sucesora.
 
-### 2.6 The Homologous Past
+### 2.6 El Pasado Homólogo
 
-Universe \(N+1\) may reproduce historical structures resembling completed phases of \(N\).
+El Universo \(N+1\) puede reproducir estructuras históricas semejantes a fases completadas de \(N\).
 
-An Architect may therefore leave an advanced era of \(N\) and enter an ancient-like active phase of \(N+1\).
+Por lo tanto, un Arquitecto puede abandonar una era avanzada de \(N\) y entrar en una fase activa de apariencia antigua en \(N+1\).
 
-This is not reverse time travel.
+Esto no es viaje temporal hacia atrás.
 
-It is downstream transition combined with historical homology.
+Es una transición corriente abajo combinada con homología histórica.
 
 ```
-UNIVERSE N
+UNIVERSO N
 ══════════════════════════════════════════════════════════════════════════════
 
-Ancient Era ───── Industrial Era ───── Aetherion Era
-     CLOSED                                  │
-                                             │ N → N+1
-                                             ▼
+Era Antigua ───── Era Industrial ───── Era Aetherion
+   CERRADA                                  │
+                                            │ N → N+1
+                                            ▼
 
-UNIVERSE N+1
+UNIVERSO N+1
 ══════════════════════════════════════════════════════════════════════════════
 
-Ancient-Like ACTIVE PRESENT ───── Open Local Future
+PRESENTE ACTIVO de Apariencia Antigua ───── Futuro Local Abierto
 
 ══════════════════════════════════════════════════════════════════════════════
 ```
 
-A familiar person is not numerically identical to the person remembered from the origin.
+Una persona familiar no es numéricamente idéntica a la persona recordada del origen.
 
-A familiar event is not the same event.
+Un evento familiar no es el mismo evento.
 
-The successor remains causally sovereign.
+El sucesor sigue siendo causalmente soberano.
 
-### 2.7 Notation and Definitions
+### 2.7 Notación y Definiciones
 
-| Symbol | Meaning |
+| Símbolo | Significado |
 |---|---|
-| \(\varphi(x)\) | Aetherion scalar response field |
-| \(\alpha_{\mathrm{RTM}}(x)\) | Physical temporal-scaling exponent |
-| \(\widetilde{\alpha}(x)\) | Normalized engineering control field |
-| \(N\) | Current universal coil |
-| \(N+1\) | Immediately adjacent successor coil |
-| \(\chi\) | Cascade phase |
-| \(\mathcal{A}_N(\chi)\) | Active Actuality support in Universe \(N\) |
-| \(W_N(\chi)\) | Active Window of Universe \(N\) |
-| \(W^{\mathrm{relay}}_{N\rightarrow N+1}\) | Relay Window |
-| \(\beta(x)\) | Local adjacent-coupling order parameter |
-| \(\mathcal{G}_{N\rightarrow N+1}\) | Actuality Gate |
-| \(\Sigma_{N+1}\) | Active successor phase signature |
-| \(V_{\mathrm{eff}}(\beta)\) | Gated transition potential |
-| \(\sigma_\beta\) | Transition-wall surface tension |
-| \(R_c\) | Critical nucleation radius |
-| \(\Omega_{N\rightarrow N+1}\) | Directional transition operator |
-| \(E_{\mathrm{drive}}\) | Energy supplied by the Aetherion pulse |
-| \(E_{\mathrm{lock}}\) | Energy or coherence cost of phase-lock |
-| \(E_{\mathrm{scale}}\) | Substrate adaptation cost |
+| \(\varphi(x)\) | Campo escalar de respuesta de Aetherion |
+| \(\alpha_{\mathrm{RTM}}(x)\) | Exponente físico de escalamiento temporal |
+| \(\widetilde{\alpha}(x)\) | Campo de control normalizado de ingeniería |
+| \(N\) | Espira universal actual |
+| \(N+1\) | Espira sucesora inmediatamente adyacente |
+| \(\chi\) | Fase de cascada |
+| \(\mathcal{A}_N(\chi)\) | Soporte activo de Actualidad en el Universo \(N\) |
+| \(W_N(\chi)\) | Ventana Activa del Universo \(N\) |
+| \(W^{\mathrm{relay}}_{N\rightarrow N+1}\) | Ventana de Relevo |
+| \(\beta(x)\) | Parámetro de orden local de acoplamiento adyacente |
+| \(\mathcal{G}_{N\rightarrow N+1}\) | Compuerta de Actualidad |
+| \(\Sigma_{N+1}\) | Firma de fase activa del sucesor |
+| \(V_{\mathrm{eff}}(\beta)\) | Potencial de transición con compuerta |
+| \(\sigma_\beta\) | Tensión superficial de la pared de transición |
+| \(R_c\) | Radio crítico de nucleación |
+| \(\Omega_{N\rightarrow N+1}\) | Operador de transición direccional |
+| \(E_{\mathrm{drive}}\) | Energía suministrada por el pulso de Aetherion |
+| \(E_{\mathrm{lock}}\) | Costo energético o de coherencia del bloqueo de fase |
+| \(E_{\mathrm{scale}}\) | Costo de adaptación del sustrato |
 
 ---
 
-## 3 Field-Theory Extension: The Local \(\beta\) Field
+## 3 Extensión de Teoría de Campos: El Campo Local \(\beta\)
 
-### 3.1 Promoting Adjacent Coupling to a Scalar Order Parameter
+### 3.1 Promoción del Acoplamiento Adyacente a un Parámetro de Orden Escalar
 
-We model the Entity’s coupling state through a continuous scalar:
+Modelamos el estado de acoplamiento de la Entidad mediante un escalar continuo:
 
 ```math
 \beta(x)\in[0,1].
 ```
 
-The kinetic term is:
+El término cinético es:
 
 ```math
 \mathcal{L}_{\beta,\mathrm{kin}}
@@ -1687,7 +1687,7 @@ The kinetic term is:
 (\partial^\mu\beta).
 ```
 
-The two stable configurations are interpreted as:
+Las dos configuraciones estables se interpretan como:
 
 ```math
 \langle\beta\rangle=0
@@ -1701,42 +1701,42 @@ The two stable configurations are interpreted as:
 \text{bound to active Universe }N+1.
 ```
 
-The interval \(0<\beta<1\) describes the transitional wall or interstitial state.
+El intervalo \(0<\beta<1\) describe la pared transicional o el estado intersticial.
 
-It is not a third universe.
+No es un tercer universo.
 
-### 3.2 Why the Infinite Branch Ladder Is Removed
+### 3.2 Por Qué se Elimina la Escalera Infinita de Ramas
 
-An unconstrained periodic potential with minima at every integer:
+Un potencial periódico sin restricciones, con mínimos en cada entero:
 
 ```math
 \beta=0,1,2,\ldots
 ```
 
-would allow a numerical solution to roll across several wells under overdrive.
+permitiría que una solución numérica se desplazara a través de varios pozos bajo sobreimpulso.
 
-That behavior cannot be interpreted as physical travel across several universes.
+Ese comportamiento no puede interpretarse como viaje físico a través de varios universos.
 
-The Spiral Current provides no active \(N+2\) destination during an \(N\rightarrow N+1\) transition.
+La Corriente Espiral no proporciona un destino activo \(N+2\) durante una transición \(N\rightarrow N+1\).
 
-Therefore the physical domain of one operation is restricted:
+Por lo tanto, el dominio físico de una operación queda restringido:
 
 ```math
 0\leq\beta\leq1.
 ```
 
-Values beyond this interval represent:
+Los valores fuera de este intervalo representan:
 
-- failure of the effective model;
-- topological avalanche;
-- loss of capture;
-- or numerical runaway.
+- fallo del modelo efectivo;
+- avalancha topológica;
+- pérdida de captura;
+- o divergencia numérica.
 
-They do not represent legal multi-universe navigation.
+No representan navegación legal entre múltiples universos.
 
-### 3.3 The Actuality Gate
+### 3.3 La Compuerta de Actualidad
 
-Define:
+Definimos:
 
 ```math
 \mathcal{G}_{N\rightarrow N+1}
@@ -1750,35 +1750,35 @@ W_{N+1}(\chi),
 \right],
 ```
 
-with:
+con:
 
 ```math
 0\leq\mathcal{G}_{N\rightarrow N+1}\leq1.
 ```
 
-Operationally:
+Operativamente:
 
-- \(\mathcal{G}=0\): no viable successor minimum exists;
-- \(0<\mathcal{G}<1\): weak or unstable successor signature;
-- \(\mathcal{G}\approx1\): active successor and stable phase-lock.
+- \(\mathcal{G}=0\): no existe un mínimo sucesor viable;
+- \(0<\mathcal{G}<1\): firma sucesora débil o inestable;
+- \(\mathcal{G}\approx1\): sucesor activo y bloqueo de fase estable.
 
-The upstream gate is canonically zero:
+La compuerta corriente arriba es canónicamente cero:
 
 ```math
 \mathcal{G}_{N\rightarrow N-1}=0.
 ```
 
-The nonadjacent gate is also zero:
+La compuerta no adyacente también es cero:
 
 ```math
 \mathcal{G}_{N\rightarrow N+2}=0.
 ```
 
-No amount of drive energy replaces a missing gate.
+Ninguna cantidad de energía de impulso sustituye una compuerta ausente.
 
-### 3.4 Gated Two-State Potential
+### 3.4 Potencial de Dos Estados con Compuerta
 
-A minimal effective potential is:
+Un potencial efectivo mínimo es:
 
 ```math
 V_{\mathrm{eff}}(\beta;\chi)
@@ -1795,14 +1795,14 @@ V_{\mathrm{wall}}(\beta).
 \tag{III.1}
 ```
 
-Where:
+Donde:
 
-- \(\lambda\sin^2(\pi\beta)\) produces stable local states at \(0\) and \(1\);
-- \(M_G^2\beta^2\) suppresses the successor state when the gate is closed;
-- \(\epsilon_\chi\) produces a downstream directional tilt when the gate is open;
-- \(V_{\mathrm{wall}}\) diverges outside the permitted interval.
+- \(\lambda\sin^2(\pi\beta)\) produce estados locales estables en \(0\) y \(1\);
+- \(M_G^2\beta^2\) suprime el estado sucesor cuando la compuerta está cerrada;
+- \(\epsilon_\chi\) produce una inclinación direccional corriente abajo cuando la compuerta está abierta;
+- \(V_{\mathrm{wall}}\) diverge fuera del intervalo permitido.
 
-One possible wall term is:
+Un posible término de pared es:
 
 ```math
 V_{\mathrm{wall}}(\beta)
@@ -1816,27 +1816,27 @@ V_{\mathrm{wall}}(\beta)
 \tag{III.2}
 ```
 
-with \(\Lambda_w\) chosen above the effective-theory scale used in the transition simulation.
+con \(\Lambda_w\) elegido por encima de la escala de teoría efectiva utilizada en la simulación de transición.
 
-### 3.5 Physical Meaning of the Tilt
+### 3.5 Significado Físico de la Inclinación
 
-The directional term:
+El término direccional:
 
 ```math
 -\mathcal{G}\epsilon_\chi\beta
 ```
 
-does not mean that the device creates the arrow of transition.
+no significa que el dispositivo cree la flecha de transición.
 
-It represents the device’s interaction with the already existing downstream gradient of Actuality.
+Representa la interacción del dispositivo con el gradiente corriente abajo de Actualidad que ya existe.
 
-When the Relay Window is open, the successor state can become energetically accessible.
+Cuando la Ventana de Relevo está abierta, el estado sucesor puede volverse energéticamente accesible.
 
-When the Window is closed, it cannot.
+Cuando la Ventana está cerrada, no puede hacerlo.
 
-### 3.6 Coupling \(\beta\) to the Aetherion Core
+### 3.6 Acoplamiento de \(\beta\) al Núcleo de Aetherion
 
-The \(\beta\)-field couples to the engineered \(\alpha\)-profile through:
+El campo \(\beta\) se acopla al perfil diseñado de \(\alpha\) mediante:
 
 ```math
 \mathcal{L}_{\beta\alpha}
@@ -1849,25 +1849,25 @@ The \(\beta\)-field couples to the engineered \(\alpha\)-profile through:
 \tag{III.3}
 ```
 
-A strong localized \(\alpha\)-pulse can reduce the effective barrier between \(\beta=0\) and \(\beta=1\).
+Un pulso localizado intenso de \(\alpha\) puede reducir la barrera efectiva entre \(\beta=0\) y \(\beta=1\).
 
-The coupling must remain subordinate to the Actuality Gate.
+El acoplamiento debe permanecer subordinado a la Compuerta de Actualidad.
 
-Thus:
+Por lo tanto:
 
 ```math
 E_{\mathrm{drive}}\gg\Delta V_\beta
 ```
 
-is insufficient when:
+es insuficiente cuando:
 
 ```math
 \mathcal{G}=0.
 ```
 
-### 3.7 Phase-Signature Coupling
+### 3.7 Acoplamiento de Firma de Fase
 
-The active successor is represented through a phase-lock functional:
+El sucesor activo se representa mediante un funcional de bloqueo de fase:
 
 ```math
 \mathcal{L}_{\beta\Sigma}
@@ -1882,23 +1882,23 @@ g_{\beta\Sigma}\,
 \tag{III.4}
 ```
 
-where \(\mathcal{R}\) measures resonance between:
+donde \(\mathcal{R}\) mide la resonancia entre:
 
-- the Aetherion core;
-- the active successor phase;
-- the local scale relation;
-- and any valid Isotopic Anchor.
+- el núcleo de Aetherion;
+- la fase sucesora activa;
+- la relación de escala local;
+- y cualquier Ancla Isotópica válida.
 
-The resonance must be negligible for:
+La resonancia debe ser despreciable para:
 
-- upstream signatures;
-- closed phases;
-- unmanifest phases;
-- and nonadjacent universes.
+- firmas corriente arriba;
+- fases cerradas;
+- fases no manifestadas;
+- y universos no adyacentes.
 
-### 3.8 The Extended Effective Action
+### 3.8 La Acción Efectiva Extendida
 
-In natural units:
+En unidades naturales:
 
 ```math
 \begin{aligned}
@@ -1942,19 +1942,19 @@ g_{\beta\Sigma}
 \tag{III.5}
 ```
 
-This action is an effective, speculative model.
+Esta acción es un modelo efectivo y especulativo.
 
-It does not derive the Spiral Current from established quantum field theory.
+No deriva la Corriente Espiral de una teoría cuántica de campos establecida.
 
-It encodes the canonical constraints required for a local transition theory to remain compatible with the revised cosmology.
+Codifica las restricciones canónicas necesarias para que una teoría local de transición siga siendo compatible con la cosmología revisada.
 
 ---
 
-## 4 Equations of Motion and Transition Constraints
+## 4 Ecuaciones de Movimiento y Restricciones de Transición
 
-### 4.1 Coupled Field Equations
+### 4.1 Ecuaciones de Campo Acopladas
 
-Variation with respect to \(\varphi\), \(\alpha\), and \(\beta\) gives schematically:
+La variación con respecto a \(\varphi\), \(\alpha\) y \(\beta\) da, de forma esquemática:
 
 ```math
 \square\varphi
@@ -1995,15 +1995,15 @@ g_{\beta\Sigma}
 \tag{III.8}
 ```
 
-The \(\alpha\)-pulse supplies local drive.
+El pulso de \(\alpha\) suministra el impulso local.
 
-The resonance term supplies destination selectivity.
+El término de resonancia proporciona selectividad de destino.
 
-The Actuality Gate determines whether the target state exists.
+La Compuerta de Actualidad determina si existe el estado objetivo.
 
-### 4.2 Boundary Conditions for a Coherent Vehicle
+### 4.2 Condiciones de Frontera para un Vehículo Coherente
 
-For a one-dimensional slab:
+Para una placa unidimensional:
 
 ```math
 \alpha(0,t)=\alpha_{\mathrm{core}}(t),
@@ -2019,15 +2019,15 @@ For a one-dimensional slab:
 \partial_z\beta|_{0,L}=0.
 ```
 
-The earlier condition:
+La condición anterior:
 
 ```math
 \beta(L,t)=0
 ```
 
-while the core alone approaches \(\beta=1\) is physically dangerous for a real vehicle. It describes the formation of a transition wall inside the Entity and therefore models topological shear.
+mientras solo el núcleo se aproxima a \(\beta=1\) es físicamente peligrosa para un vehículo real. Describe la formación de una pared de transición dentro de la Entidad y, por lo tanto, modela cizallamiento topológico.
 
-A safe whole-Entity transition instead requires approximately:
+Una transición segura de toda la Entidad requiere, en cambio, aproximadamente:
 
 ```math
 \beta(x,t_{\mathrm{lock}})
@@ -2035,9 +2035,9 @@ A safe whole-Entity transition instead requires approximately:
 \beta_{\mathrm{coherent}}(t_{\mathrm{lock}})
 ```
 
-throughout the protected volume.
+en todo el volumen protegido.
 
-Define the synchronization error:
+Definimos el error de sincronización:
 
 ```math
 \delta_\beta(t)
@@ -2048,7 +2048,7 @@ Define the synchronization error:
 \right|.
 ```
 
-Safe transition requires:
+Una transición segura requiere:
 
 ```math
 \delta_\beta(t)
@@ -2057,18 +2057,18 @@ Safe transition requires:
 \tag{III.9}
 ```
 
-### 4.3 The Four Necessary Transition Conditions
+### 4.3 Las Cuatro Condiciones Necesarias de Transición
 
-A branch transition is authorized only when all four conditions hold.
+Una transición entre ramas se autoriza únicamente cuando se cumplen las cuatro condiciones.
 
-#### Cosmological Condition
+#### Condición Cosmológica
 
 ```math
 \chi\in
 W^{\mathrm{relay}}_{N\rightarrow N+1}.
 ```
 
-#### Phase Condition
+#### Condición de Fase
 
 ```math
 \tau_{\mathrm{target}}
@@ -2076,7 +2076,7 @@ W^{\mathrm{relay}}_{N\rightarrow N+1}.
 W_{N+1}(\chi).
 ```
 
-#### Resonance Condition
+#### Condición de Resonancia
 
 ```math
 \mathcal{R}
@@ -2088,7 +2088,7 @@ W_{N+1}(\chi).
 \mathcal{R}_{\mathrm{crit}}.
 ```
 
-#### Nucleation Condition
+#### Condición de Nucleación
 
 ```math
 E_{\mathrm{drive}}
@@ -2096,11 +2096,11 @@ E_{\mathrm{drive}}
 E_{\mathrm{crit}}.
 ```
 
-If any one fails, no valid transition exists.
+Si cualquiera de ellas falla, no existe una transición válida.
 
-### 4.4 Aetherion Does Not Target a Date Alone
+### 4.4 Aetherion No Apunta Solo a una Fecha
 
-The complete destination coordinate is:
+La coordenada completa de destino es:
 
 ```math
 \mathcal{C}_{N+1}
@@ -2116,26 +2116,26 @@ A_{\mathrm{anchor}},
 \tag{III.10}
 ```
 
-Where:
+Donde:
 
-- \(\Phi_{\mathrm{active}}\) is the current phase;
-- \(X_{\mathrm{target}}\) is the local spatial coordinate;
-- \(A_{\mathrm{anchor}}\) is an optional current Anchor;
-- \(\Lambda_{\mathrm{scale}}\) encodes local substrate compatibility.
+- \(\Phi_{\mathrm{active}}\) es la fase actual;
+- \(X_{\mathrm{target}}\) es la coordenada espacial local;
+- \(A_{\mathrm{anchor}}\) es un Ancla actual opcional;
+- \(\Lambda_{\mathrm{scale}}\) codifica la compatibilidad local del sustrato.
 
-A year without an active phase is not a destination.
+Un año sin una fase activa no es un destino.
 
-### 4.5 Directional Boundary Condition
+### 4.5 Condición de Frontera Direccional
 
-The transition operator must satisfy:
+El operador de transición debe satisfacer:
 
 ```math
 \Omega_{N\rightarrow N+1}\neq0
 ```
 
-only when the successor is active.
+únicamente cuando el sucesor está activo.
 
-It must satisfy:
+Debe satisfacer:
 
 ```math
 \Omega_{N\rightarrow N-1}=0,
@@ -2145,18 +2145,18 @@ It must satisfy:
 \Omega_{N\rightarrow N+2}=0.
 ```
 
-This directional asymmetry is a foundational boundary condition, not a perturbative preference.
+Esta asimetría direccional es una condición de frontera fundamental, no una preferencia perturbativa.
 
-### 4.6 Re-coupling and Operational Reset
+### 4.6 Reacoplamiento y Reinicio Operativo
 
-After stable capture at \(\beta=1\):
+Después de una captura estable en \(\beta=1\):
 
-1. the Entity becomes causally bound to \(N+1\);
-2. the origin is reclassified as historical origin;
-3. \(N+1\) becomes the operational universe;
-4. the local transition coordinate is reset.
+1. la Entidad queda causalmente ligada a \(N+1\);
+2. el origen se reclasifica como origen histórico;
+3. \(N+1\) se convierte en el universo operativo;
+4. la coordenada local de transición se reinicia.
 
-Symbolically:
+Simbólicamente:
 
 ```math
 (B,\beta)
@@ -2167,39 +2167,39 @@ Symbolically:
 \tag{III.11}
 ```
 
-This reset prevents the false interpretation that a single local order parameter is a permanent absolute address across the entire Spiral.
+Este reinicio evita la interpretación errónea de que un único parámetro de orden local sea una dirección absoluta permanente a través de toda la Espiral.
 
-### 4.7 Effective-Field-Theory Status
+### 4.7 Estado como Teoría Efectiva de Campos
 
-The interaction:
+La interacción:
 
 ```math
 \frac{g_{\beta\alpha}}{\Lambda^2}
 \beta^2(\partial\alpha)^2
 ```
 
-is a higher-dimension operator.
+es un operador de dimensión superior.
 
-The model is therefore interpreted as an effective field theory valid below a cutoff \(\Lambda\).
+Por lo tanto, el modelo se interpreta como una teoría efectiva de campos válida por debajo de un corte \(\Lambda\).
 
-Required conditions include:
+Las condiciones requeridas incluyen:
 
-- positive-definite kinetic matrix;
-- absence of ghost modes;
-- perturbative response below cutoff;
-- stable bounded potential;
-- controlled higher-order corrections;
-- and no interpretation of numerical behavior beyond the model’s domain.
+- matriz cinética definida positiva;
+- ausencia de modos fantasma;
+- respuesta perturbativa por debajo del corte;
+- potencial estable y acotado;
+- correcciones controladas de orden superior;
+- y ninguna interpretación del comportamiento numérico más allá del dominio del modelo.
 
-A UV completion would be required to establish whether the proposed fields correspond to fundamental physics.
+Se requeriría una completitud UV para establecer si los campos propuestos corresponden a física fundamental.
 
 ---
 
-## 5 Transition Operator and Adjacent-Coil Dynamics
+## 5 Operador de Transición y Dinámica de Espiras Adyacentes
 
-### 5.1 Directional Transition Operator
+### 5.1 Operador de Transición Direccional
 
-Define the successor transition operator:
+Definimos el operador de transición al sucesor:
 
 ```math
 \Omega_{N\rightarrow N+1}
@@ -2219,13 +2219,13 @@ D_\Sigma^2
 \tag{III.12}
 ```
 
-where:
+donde:
 
-- \(\beta_\star\) is the critical coupling configuration;
-- \(\nabla\alpha_\star\) is the calibrated drive profile;
-- \(D_\Sigma\) is the mismatch between core and successor signatures.
+- \(\beta_\star\) es la configuración crítica de acoplamiento;
+- \(\nabla\alpha_\star\) es el perfil calibrado de impulso;
+- \(D_\Sigma\) es la discrepancia entre las firmas del núcleo y del sucesor.
 
-A transition is permitted only when:
+Una transición solo se permite cuando:
 
 ```math
 \left\langle
@@ -2236,7 +2236,7 @@ A transition is permitted only when:
 \tag{III.13}
 ```
 
-Because \(\mathcal{G}\) multiplies the entire operator:
+Debido a que \(\mathcal{G}\) multiplica todo el operador:
 
 ```math
 \mathcal{G}=0
@@ -2244,11 +2244,11 @@ Because \(\mathcal{G}\) multiplies the entire operator:
 \Omega_{N\rightarrow N+1}=0.
 ```
 
-The device cannot force a non-existent destination into being.
+El dispositivo no puede forzar la existencia de un destino inexistente.
 
-### 5.2 The Energetic Budget
+### 5.2 El Presupuesto Energético
 
-The total critical energy is decomposed as:
+La energía crítica total se descompone como:
 
 ```math
 E_{\mathrm{crit}}
@@ -2265,15 +2265,15 @@ E_{\mathrm{margin}}.
 \tag{III.14}
 ```
 
-Where:
+Donde:
 
-- \(E_\beta\): local order-parameter barrier;
-- \(E_{\mathrm{surface}}\): cost of forming a coherent three-dimensional transition wall;
-- \(E_{\mathrm{lock}}\): phase-lock and destination-selection cost;
-- \(E_{\mathrm{scale}}\): adaptation to successor scale and physical conditions;
-- \(E_{\mathrm{margin}}\): safety allowance against decoherence and environmental noise.
+- \(E_\beta\): barrera local del parámetro de orden;
+- \(E_{\mathrm{surface}}\): costo de formar una pared de transición tridimensional coherente;
+- \(E_{\mathrm{lock}}\): costo del bloqueo de fase y de la selección de destino;
+- \(E_{\mathrm{scale}}\): adaptación a la escala y a las condiciones físicas del sucesor;
+- \(E_{\mathrm{margin}}\): margen de seguridad frente a decoherencia y ruido ambiental.
 
-The drive energy supplied by the Aetherion core is approximately:
+La energía de impulso suministrada por el núcleo de Aetherion es aproximadamente:
 
 ```math
 E_{\mathrm{drive}}
@@ -2285,7 +2285,7 @@ dt\,
 \mathcal{P}_{\alpha\beta}(x,t),
 ```
 
-with:
+con:
 
 ```math
 \mathcal{P}_{\alpha\beta}
@@ -2298,11 +2298,11 @@ with:
 \tag{III.15}
 ```
 
-### 5.3 Three-Dimensional Nucleation
+### 5.3 Nucleación Tridimensional
 
-A macroscopic transition cannot be inferred from a pointlike or one-dimensional barrier crossing.
+No puede inferirse una transición macroscópica a partir del cruce de una barrera puntual o unidimensional.
 
-For a spherical successor-coupling domain of radius \(R\), a classical nucleation approximation gives:
+Para un dominio esférico de acoplamiento al sucesor de radio \(R\), una aproximación clásica de nucleación da:
 
 ```math
 E(R)
@@ -2313,12 +2313,12 @@ E(R)
 \tag{III.16}
 ```
 
-where:
+donde:
 
-- \(\sigma_\beta\) is the transition-wall surface tension;
-- \(\Delta u_{\mathrm{eff}}\) is the effective volume-energy advantage produced by the open gate, phase-lock, and drive.
+- \(\sigma_\beta\) es la tensión superficial de la pared de transición;
+- \(\Delta u_{\mathrm{eff}}\) es la ventaja efectiva de energía volumétrica producida por la compuerta abierta, el bloqueo de fase y el impulso.
 
-The critical radius is:
+El radio crítico es:
 
 ```math
 R_c
@@ -2327,7 +2327,7 @@ R_c
 \tag{III.17}
 ```
 
-and the nucleation barrier is:
+y la barrera de nucleación es:
 
 ```math
 E_c
@@ -2337,51 +2337,51 @@ E_c
 \tag{III.18}
 ```
 
-A bubble smaller than \(R_c\) collapses.
+Una burbuja menor que \(R_c\) colapsa.
 
-A bubble larger than \(R_c\) may expand.
+Una burbuja mayor que \(R_c\) puede expandirse.
 
-For a vehicle, expansion is acceptable only if the transition front remains synchronized and encloses the complete Entity.
+Para un vehículo, la expansión solo es aceptable si el frente de transición permanece sincronizado y encierra a la Entidad completa.
 
-### 5.4 The Macroscopic Mandate
+### 5.4 El Mandato Macroscópico
 
-The three-dimensional audit of the original model indicated that small transition cores are dominated by restorative surface terms.
+La auditoría tridimensional del modelo original indicó que los núcleos de transición pequeños están dominados por términos superficiales restauradores.
 
-Within the speculative parameterization used in that audit:
+Dentro de la parametrización especulativa utilizada en esa auditoría:
 
-- centimeter-scale bubbles required unphysical gradients;
-- increasing radius reduced the surface penalty;
-- stable model behavior emerged only when the coherence core approached macroscopic scale;
-- a radius on the order of one meter was treated as an illustrative lower design regime.
+- las burbujas a escala centimétrica requerían gradientes no físicos;
+- aumentar el radio reducía la penalización superficial;
+- el comportamiento estable del modelo surgía únicamente cuando el núcleo de coherencia se aproximaba a escala macroscópica;
+- un radio del orden de un metro se trató como un régimen inferior ilustrativo de diseño.
 
-This result must not be interpreted as an experimentally established one-meter law.
+Este resultado no debe interpretarse como una ley de un metro establecida experimentalmente.
 
-It is a model-dependent consequence of the chosen surface tension and coupling parameters.
+Es una consecuencia dependiente del modelo de la tensión superficial y los parámetros de acoplamiento elegidos.
 
-The robust conclusion is qualitative:
+La conclusión robusta es cualitativa:
 
-> A whole-Entity transition is a macroscopic nucleation problem, not a microscopic switch enlarged by assumption.
+> Una transición de toda la Entidad es un problema de nucleación macroscópica, no un interruptor microscópico ampliado por suposición.
 
-### 5.5 Transition Regimes
+### 5.5 Regímenes de Transición
 
-| Regime | Condition | Model Behavior | Canonical Interpretation |
+| Régimen | Condición | Comportamiento del Modelo | Interpretación Canónica |
 |---|---|---|---|
-| **Gate Closed** | \(\mathcal{G}\approx0\) | \(\beta\) returns to 0 | No successor destination |
-| **Subcritical** | \(E_{\mathrm{drive}}<E_{\mathrm{crit}}\) | Temporary deformation | Failed attempt; origin retained |
-| **Critical Capture** | \(E_{\mathrm{drive}}\gtrsim E_{\mathrm{crit}}\) | Single \(0\rightarrow1\) transition | Desired adjacent descent |
-| **Overdrive** | \(E_{\mathrm{drive}}\gg E_{\mathrm{crit}}\) | Overshoot, oscillation, wall fragmentation | Topological avalanche or shear |
-| **False Lock** | High drive, weak \(D_\Sigma\) match | Transition without stable capture | Interstitial stranding |
-| **Partial Capture** | Spatially nonuniform \(\beta\) | Core/hull disagreement | Lethal structural partition |
+| **Compuerta Cerrada** | \(\mathcal{G}\approx0\) | \(\beta\) regresa a 0 | No hay destino sucesor |
+| **Subcrítico** | \(E_{\mathrm{drive}}<E_{\mathrm{crit}}\) | Deformación temporal | Intento fallido; se conserva el origen |
+| **Captura Crítica** | \(E_{\mathrm{drive}}\gtrsim E_{\mathrm{crit}}\) | Transición única \(0\rightarrow1\) | Descenso adyacente deseado |
+| **Sobreimpulso** | \(E_{\mathrm{drive}}\gg E_{\mathrm{crit}}\) | Sobrepaso, oscilación, fragmentación de la pared | Avalancha o cizallamiento topológico |
+| **Bloqueo Falso** | Impulso alto, coincidencia débil de \(D_\Sigma\) | Transición sin captura estable | Varamiento intersticial |
+| **Captura Parcial** | \(\beta\) espacialmente no uniforme | Desacuerdo núcleo/casco | Partición estructural letal |
 
-### 5.6 Topological Damping
+### 5.6 Amortiguamiento Topológico
 
-Introduce a damping term:
+Introducimos un término de amortiguamiento:
 
 ```math
 \eta_\beta\partial_t\beta
 ```
 
-in the field equation:
+en la ecuación de campo:
 
 ```math
 \square\beta
@@ -2396,42 +2396,42 @@ in the field equation:
 \tag{III.19}
 ```
 
-The damping must be sufficient to:
+El amortiguamiento debe ser suficiente para:
 
-- prevent oscillatory recrossing;
-- capture the Entity at \(\beta=1\);
-- suppress overshoot beyond the effective domain;
-- and reduce transition-wall ringing.
+- impedir el recruce oscilatorio;
+- capturar la Entidad en \(\beta=1\);
+- suprimir el sobrepaso más allá del dominio efectivo;
+- y reducir la oscilación residual de la pared de transición.
 
-Too much damping prevents barrier crossing.
+Demasiado amortiguamiento impide el cruce de la barrera.
 
-Too little damping produces avalanche.
+Muy poco amortiguamiento produce una avalancha.
 
-### 5.7 Topological Shear
+### 5.7 Cizallamiento Topológico
 
-Suppose one region of the vehicle reaches:
+Supongamos que una región del vehículo alcanza:
 
 ```math
 \beta\approx1
 ```
 
-while another remains near:
+mientras otra permanece cerca de:
 
 ```math
 \beta\approx0.
 ```
 
-The Entity then occupies incompatible coupling states.
+La Entidad ocupa entonces estados de acoplamiento incompatibles.
 
-The resulting gradient:
+El gradiente resultante:
 
 ```math
 \nabla\beta
 ```
 
-acts as a transition wall passing through matter, biological tissue, memory systems, and control networks.
+actúa como una pared de transición que atraviesa materia, tejido biológico, sistemas de memoria y redes de control.
 
-Define the shear functional:
+Definimos el funcional de cizallamiento:
 
 ```math
 \mathcal{S}_\beta
@@ -2444,7 +2444,7 @@ d^3x.
 \tag{III.20}
 ```
 
-A safe transition requires:
+Una transición segura requiere:
 
 ```math
 \mathcal{S}_\beta
@@ -2452,15 +2452,15 @@ A safe transition requires:
 \mathcal{S}_{\mathrm{max}}
 ```
 
-during the final capture interval.
+durante el intervalo final de captura.
 
-Cross-linked phase synchronization is therefore mandatory.
+Por lo tanto, la sincronización de fase con enlaces cruzados es obligatoria.
 
-### 5.8 Scale Adaptation
+### 5.8 Adaptación de Escala
 
-If the successor operates at a different characteristic scale, re-coupling may preserve identity without preserving the original material configuration.
+Si el sucesor opera a una escala característica diferente, el reacoplamiento puede preservar la identidad sin preservar la configuración material original.
 
-Let the adjacent scale relation be:
+Sea la relación de escala adyacente:
 
 ```math
 L_{N+1}=\kappa_s L_N,
@@ -2468,14 +2468,14 @@ L_{N+1}=\kappa_s L_N,
 0<\kappa_s<1.
 ```
 
-A transition may require:
+Una transición puede requerir:
 
-- local rescaling of the entire vessel;
-- transfer into an Avatar or BioDrone;
-- reconstruction from a coherence pattern;
-- or manifestation at a remote orbital scale where direct local contact is safe.
+- reescalamiento local de toda la nave;
+- transferencia a un Avatar o BioDrone;
+- reconstrucción a partir de un patrón de coherencia;
+- o manifestación a una escala orbital remota donde el contacto local directo sea seguro.
 
-Scale adaptation contributes:
+La adaptación de escala contribuye:
 
 ```math
 E_{\mathrm{scale}}
@@ -2487,41 +2487,41 @@ E_{\mathrm{biological}}
 E_{\mathrm{information}}.
 ```
 
-A successful \(\beta\)-transition without scale adaptation may still be mission-fatal.
+Una transición de \(\beta\) exitosa sin adaptación de escala aún puede ser fatal para la misión.
 
-### 5.9 No Single-Pulse Multi-Hop
+### 5.9 Sin Salto Múltiple de un Solo Pulso
 
-The original overdrive interpretation proposed:
+La interpretación original del sobreimpulso proponía:
 
 ```math
 0\rightarrow1\rightarrow2\rightarrow\cdots
 ```
 
-as a ladder climb across several branches.
+como un ascenso por una escalera a través de varias ramas.
 
-Under the Spiral Current, this is prohibited.
+Bajo la Corriente Espiral, esto está prohibido.
 
-During an \(N\rightarrow N+1\) operation:
+Durante una operación \(N\rightarrow N+1\):
 
-- \(N+1\) is the only possible successor;
-- \(N+2\) is unmanifest;
-- no \(N+2\) phase signature exists;
-- no \(N+2\) Anchor exists;
-- no \(N+2\) recoupling state exists.
+- \(N+1\) es el único sucesor posible;
+- \(N+2\) no está manifestado;
+- no existe una firma de fase de \(N+2\);
+- no existe un Ancla de \(N+2\);
+- no existe un estado de reacoplamiento de \(N+2\).
 
-Therefore:
+Por lo tanto:
 
 ```math
 \beta>1
 ```
 
-is never interpreted as successful travel to \(N+2\).
+nunca se interpreta como un viaje exitoso a \(N+2\).
 
-It is a failure condition.
+Es una condición de fallo.
 
-### 5.10 Repeated Descent
+### 5.10 Descenso Repetido
 
-An Entity may eventually move several coils downstream through repeated legal transitions:
+Una Entidad puede, con el tiempo, desplazarse varias espiras corriente abajo mediante transiciones legales repetidas:
 
 ```math
 N-3
@@ -2533,51 +2533,51 @@ N-1
 N.
 ```
 
-At every stage it must:
+En cada etapa debe:
 
-1. re-couple;
-2. become locally operational;
-3. wait for the next Relay Window;
-4. adapt to the new scale;
-5. establish a new successor lock;
-6. cross again.
+1. reacoplarse;
+2. volverse operativa localmente;
+3. esperar la siguiente Ventana de Relevo;
+4. adaptarse a la nueva escala;
+5. establecer un nuevo bloqueo con el sucesor;
+6. cruzar de nuevo.
 
-This is how a **Cascade Continuant** survives multiple universes.
+Así es como un **Continuante de Cascada** sobrevive a múltiples universos.
 
-It does not skip them.
+No se los salta.
 
 ---
 
-## 6 Numerical Demonstrations
+## 6 Demostraciones Numéricas
 
-### 6.1 What a Numerical \(\beta\)-Jump Can Establish
+### 6.1 Qué Puede Establecer un Salto Numérico de \(\beta\)
 
-A lattice simulation can test whether the proposed equations admit:
+Una simulación de retícula puede comprobar si las ecuaciones propuestas admiten:
 
-- stable two-state behavior;
-- a finite transition threshold;
-- coherent wall propagation;
-- bounded burst emission;
-- convergence under grid refinement;
-- and capture at the intended minimum.
+- comportamiento estable de dos estados;
+- un umbral finito de transición;
+- propagación coherente de la pared;
+- emisión acotada de ráfagas;
+- convergencia bajo refinamiento de la malla;
+- y captura en el mínimo previsto.
 
-It cannot establish that:
+No puede establecer que:
 
-- the second state is a real universe;
-- the Spiral Current exists;
-- the simulated gate corresponds to Actuality;
-- an active successor phase has been detected;
-- or matter can physically re-couple across universes.
+- el segundo estado sea un universo real;
+- exista la Corriente Espiral;
+- la compuerta simulada corresponda a la Actualidad;
+- se haya detectado una fase sucesora activa;
+- o la materia pueda reacoplarse físicamente entre universos.
 
-The correct claim is:
+La afirmación correcta es:
 
-> The simulation tests a mathematical transition mechanism required by the cosmology. It does not validate the cosmology itself.
+> La simulación prueba un mecanismo matemático de transición requerido por la cosmología. No valida la cosmología en sí misma.
 
-### 6.2 One-Dimensional Discretization
+### 6.2 Discretización Unidimensional
 
-Use a lattice of \(N_z\) nodes and spacing \(\Delta z\).
+Se utiliza una retícula de \(N_z\) nodos y espaciado \(\Delta z\).
 
-For a field \(X\):
+Para un campo \(X\):
 
 ```math
 \partial_z^2X_j^n
@@ -2605,7 +2605,7 @@ X_j^{n-1}
 {\Delta t^2}.
 ```
 
-The Courant condition is chosen conservatively:
+La condición de Courant se elige de forma conservadora:
 
 ```math
 \Delta t
@@ -2613,23 +2613,23 @@ The Courant condition is chosen conservatively:
 \frac{\Delta z}{2}.
 ```
 
-The \(\beta\)-update includes:
+La actualización de \(\beta\) incluye:
 
-- the gated potential derivative;
-- \(\alpha\)-drive;
-- phase-lock drive;
-- damping;
-- and optional stochastic noise.
+- la derivada del potencial con compuerta;
+- el impulso de \(\alpha\);
+- el impulso de bloqueo de fase;
+- amortiguamiento;
+- y ruido estocástico opcional.
 
-### 6.3 Initial State
+### 6.3 Estado Inicial
 
-The legal initial state is:
+El estado inicial legal es:
 
 ```math
 \beta(z,0)=0.
 ```
 
-The core begins in its baseline engineering profile:
+El núcleo comienza en su perfil de ingeniería de referencia:
 
 ```math
 \widetilde{\alpha}(z,0)
@@ -2637,7 +2637,7 @@ The core begins in its baseline engineering profile:
 \widetilde{\alpha}_0(z).
 ```
 
-The successor gate is ramped only after a valid signature is assumed in the model:
+La compuerta del sucesor se incrementa gradualmente únicamente después de que el modelo supone una firma válida:
 
 ```math
 \mathcal{G}(t)
@@ -2645,14 +2645,14 @@ The successor gate is ramped only after a valid signature is assumed in the mode
 0\rightarrow1.
 ```
 
-This separates two effects:
+Esto separa dos efectos:
 
-1. opening of cosmological accessibility;
-2. delivery of engineering drive.
+1. apertura de la accesibilidad cosmológica;
+2. entrega del impulso de ingeniería.
 
-### 6.4 Pulsed-Gradient Protocol
+### 6.4 Protocolo de Gradiente Pulsado
 
-A smooth pulse may be:
+Un pulso suave puede ser:
 
 ```math
 \Delta\widetilde{\alpha}(t)
@@ -2667,59 +2667,59 @@ A smooth pulse may be:
 \tag{III.21}
 ```
 
-The drive term is applied only while:
+El término de impulso se aplica únicamente mientras:
 
 ```math
 \mathcal{G}>0.
 ```
 
-After the pulse:
+Después del pulso:
 
-- a successful transition settles at \(\beta\approx1\);
-- a failed transition returns to \(\beta\approx0\);
-- an overdriven transition oscillates, fragments, or violates the permitted interval.
+- una transición exitosa se estabiliza en \(\beta\approx1\);
+- una transición fallida regresa a \(\beta\approx0\);
+- una transición sobreimpulsada oscila, se fragmenta o viola el intervalo permitido.
 
-### 6.5 One-Dimensional Observables
+### 6.5 Observables Unidimensionales
 
-| Observable | Diagnostic Meaning |
+| Observable | Significado Diagnóstico |
 |---|---|
-| \(\langle\beta\rangle(t)\) | Global coupling state |
-| \(\delta_\beta(t)\) | Synchronization error |
-| \(\max|\nabla\beta|\) | Topological shear |
-| \(E_\beta(t)\) | Energy stored in transition field |
-| \(E_\varphi(t)\) | Aetherion burst response |
-| \(D_\Sigma(t)\) | Successor phase-lock error |
-| \(E_{\mathrm{drive}}-E_{\mathrm{crit}}\) | Threshold margin |
-| Post-pulse \(\beta\) | Capture or relaxation |
+| \(\langle\beta\rangle(t)\) | Estado global de acoplamiento |
+| \(\delta_\beta(t)\) | Error de sincronización |
+| \(\max|\nabla\beta|\) | Cizallamiento topológico |
+| \(E_\beta(t)\) | Energía almacenada en el campo de transición |
+| \(E_\varphi(t)\) | Respuesta de ráfaga de Aetherion |
+| \(D_\Sigma(t)\) | Error de bloqueo de fase con el sucesor |
+| \(E_{\mathrm{drive}}-E_{\mathrm{crit}}\) | Margen de umbral |
+| \(\beta\) posterior al pulso | Captura o relajación |
 
-### 6.6 Fine-Tuned Single-Transition Demonstration
+### 6.6 Demostración Afinada de una Transición Única
 
-A representative normalized run may use:
+Una ejecución normalizada representativa puede utilizar:
 
-| Parameter | Illustrative Value | Function |
+| Parámetro | Valor Ilustrativo | Función |
 |---|---:|---|
-| \(\lambda\) | 1.0–1.2 | Barrier scale |
-| \(g_{\beta\alpha}\) | 2.0–3.0 | Drive coupling |
-| \(\eta_\beta\) | 0.5–2.0 | Capture damping |
-| \(\Delta\widetilde{\alpha}\) | 0.4–0.6 | Pulse contrast |
-| Gate maximum | 1.0 | Fully available successor |
-| Phase mismatch | \(D_\Sigma<0.05\) | Stable lock |
-| Pulse shape | Hamming or \(\sin^2\) | Reduced spectral ringing |
+| \(\lambda\) | 1.0–1.2 | Escala de la barrera |
+| \(g_{\beta\alpha}\) | 2.0–3.0 | Acoplamiento de impulso |
+| \(\eta_\beta\) | 0.5–2.0 | Amortiguamiento de captura |
+| \(\Delta\widetilde{\alpha}\) | 0.4–0.6 | Contraste del pulso |
+| Máximo de la compuerta | 1.0 | Sucesor plenamente disponible |
+| Discrepancia de fase | \(D_\Sigma<0.05\) | Bloqueo estable |
+| Forma del pulso | Hamming o \(\sin^2\) | Menor oscilación espectral |
 
-Expected behavior:
+Comportamiento esperado:
 
-1. \(\beta\) remains at 0 while the gate is closed.
-2. Opening the gate without sufficient drive deforms the field but does not cause transition.
-3. A critical pulse produces one coordinated rise toward 1.
-4. Damping removes post-transition oscillation.
-5. The \(\varphi\)-field emits a bounded transient.
-6. No physical meaning is assigned to any numerical overshoot above 1.
+1. \(\beta\) permanece en 0 mientras la compuerta está cerrada.
+2. Abrir la compuerta sin impulso suficiente deforma el campo, pero no provoca una transición.
+3. Un pulso crítico produce una elevación coordinada hacia 1.
+4. El amortiguamiento elimina la oscilación posterior a la transición.
+5. El campo \(\varphi\) emite un transitorio acotado.
+6. No se asigna significado físico a ningún sobrepaso numérico por encima de 1.
 
-### 6.7 Gate-Control Test
+### 6.7 Prueba de Control de la Compuerta
 
-The most important revised simulation control is:
+El control más importante de la simulación revisada es:
 
-#### Run A — Gate Open
+#### Ejecución A — Compuerta Abierta
 
 ```math
 \mathcal{G}=1,
@@ -2727,13 +2727,13 @@ The most important revised simulation control is:
 E_{\mathrm{drive}}\gtrsim E_{\mathrm{crit}}.
 ```
 
-Expected:
+Esperado:
 
 ```math
 \beta:0\rightarrow1.
 ```
 
-#### Run B — Gate Closed
+#### Ejecución B — Compuerta Cerrada
 
 ```math
 \mathcal{G}=0,
@@ -2741,44 +2741,44 @@ Expected:
 E_{\mathrm{drive}}\gg E_{\mathrm{crit}}.
 ```
 
-Expected:
+Esperado:
 
 ```math
 \beta\rightarrow0
 ```
 
-or destructive model failure, but never stable successor capture.
+o un fallo destructivo del modelo, pero nunca una captura estable del sucesor.
 
-This control encodes the rule:
+Este control codifica la regla:
 
-> Energy can cross a barrier. It cannot create a destination.
+> La energía puede cruzar una barrera. No puede crear un destino.
 
-### 6.8 Three-Dimensional Verification
+### 6.8 Verificación Tridimensional
 
-A three-dimensional test uses:
+Una prueba tridimensional utiliza:
 
 ```math
 N_x\times N_y\times N_z
 ```
 
-nodes with a synchronized core drive.
+nodos con un impulso sincronizado del núcleo.
 
-The required observables are not limited to the center cell.
+Los observables requeridos no se limitan a la celda central.
 
-A physically relevant run must track:
+Una ejecución físicamente relevante debe rastrear:
 
-- volume-averaged \(\beta\);
-- minimum and maximum \(\beta\);
-- transition-wall geometry;
-- connectedness of the \(\beta\approx1\) domain;
-- shear across the hull;
-- and capture of the complete protected volume.
+- \(\beta\) promediado por volumen;
+- \(\beta\) mínimo y máximo;
+- geometría de la pared de transición;
+- conectividad del dominio \(\beta\approx1\);
+- cizallamiento a través del casco;
+- y captura de todo el volumen protegido.
 
-A center-cell transition alone is insufficient.
+Una transición únicamente en la celda central es insuficiente.
 
-### 6.9 Preliminary and Robust Grid Studies
+### 6.9 Estudios de Malla Preliminares y Robustos
 
-Preliminary coarse runs may use:
+Las ejecuciones preliminares gruesas pueden utilizar:
 
 ```math
 5^3
@@ -2786,17 +2786,17 @@ Preliminary coarse runs may use:
 7^3
 ```
 
-lattices to locate a stable parameter region.
+retículas para localizar una región estable de parámetros.
 
-A stronger convergence audit should use:
+Una auditoría de convergencia más sólida debería utilizar:
 
 ```math
 8^3,\quad12^3,\quad16^3
 ```
 
-or higher resolutions.
+o resoluciones superiores.
 
-For observable \(Q_h\), convergence may be estimated through:
+Para el observable \(Q_h\), la convergencia puede estimarse mediante:
 
 ```math
 \epsilon_h
@@ -2804,19 +2804,19 @@ For observable \(Q_h\), convergence may be estimated through:
 \frac{|Q_h-Q_{h/2}|}{|Q_{h/2}|}.
 ```
 
-A reported asymptotic error on the order of a few percent indicates numerical stability of the chosen PDE solution.
+Un error asintótico reportado del orden de unos pocos porcentajes indica estabilidad numérica de la solución de EDP elegida.
 
-It does not prove that the solution corresponds to nature.
+No demuestra que la solución corresponda a la naturaleza.
 
-### 6.10 Surface-Tension Scaling Study
+### 6.10 Estudio de Escalamiento de la Tensión Superficial
 
-For several core radii \(R\), determine the minimum drive needed for stable capture:
+Para varios radios de núcleo \(R\), se determina el impulso mínimo necesario para una captura estable:
 
 ```math
 \nabla\alpha_{\mathrm{crit}}(R).
 ```
 
-The expected qualitative behavior is:
+El comportamiento cualitativo esperado es:
 
 ```math
 \nabla\alpha_{\mathrm{crit}}
@@ -2825,40 +2825,40 @@ The expected qualitative behavior is:
 R\uparrow,
 ```
 
-because surface cost scales approximately with \(R^2\) while volume drive scales with \(R^3\).
+porque el costo superficial escala aproximadamente con \(R^2\), mientras que el impulso volumétrico escala con \(R^3\).
 
-The study should identify:
+El estudio debería identificar:
 
-- collapse regime;
-- metastable regime;
-- coherent expansion regime;
-- and overdrive regime.
+- régimen de colapso;
+- régimen metaestable;
+- régimen de expansión coherente;
+- y régimen de sobreimpulso.
 
-### 6.11 Noise and Manufacturing Stress Tests
+### 6.11 Pruebas de Estrés por Ruido y Fabricación
 
-Introduce:
+Se introducen:
 
-- spatial gradient error;
-- pulse timing jitter;
-- coupling variation;
-- thermal noise;
-- phase-signature noise;
-- and damaged drive cells.
+- error de gradiente espacial;
+- fluctuación temporal del pulso;
+- variación del acoplamiento;
+- ruido térmico;
+- ruido de la firma de fase;
+- y celdas de impulso dañadas.
 
-A robust design must survive at least:
+Un diseño robusto debe soportar al menos:
 
-- several percent spatial nonuniformity;
-- realistic actuator timing error;
-- loss of a minority of control nodes;
-- and phase-lock fluctuations below the capture margin.
+- varios puntos porcentuales de no uniformidad espacial;
+- error realista de temporización de los actuadores;
+- pérdida de una minoría de nodos de control;
+- y fluctuaciones del bloqueo de fase por debajo del margen de captura.
 
-The decisive variable is not merely whether \(\beta\) crosses 0.5.
+La variable decisiva no es simplemente si \(\beta\) cruza 0.5.
 
-It is whether the complete Entity reaches a stable, low-shear \(\beta\approx1\) state.
+Es si la Entidad completa alcanza un estado estable de \(\beta\approx1\) con bajo cizallamiento.
 
-### 6.12 The \(\varphi\)-Burst
+### 6.12 La Ráfaga de \(\varphi\)
 
-The transition may release a bounded field transient:
+La transición puede liberar un transitorio de campo acotado:
 
 ```math
 E_{\mathrm{burst}}
@@ -2868,68 +2868,68 @@ E_{\mathrm{burst}}
 \mathcal{P}_\varphi(x,t).
 ```
 
-Within the model, the burst should correlate with:
+Dentro del modelo, la ráfaga debería correlacionarse con:
 
-- rapid \(\partial_t\beta\);
-- reduction of transition potential energy;
-- and completion of capture.
+- \(\partial_t\beta\) rápido;
+- reducción de la energía potencial de transición;
+- y finalización de la captura.
 
-A burst without a stable \(\beta\)-transition is not a successful jump.
+Una ráfaga sin una transición estable de \(\beta\) no es un salto exitoso.
 
-A stable \(\beta\)-transition without a nonlocal destination signature remains an analogue field transition.
+Una transición estable de \(\beta\) sin una firma de destino no local sigue siendo una transición de campo análoga.
 
-### 6.13 Falsification Criteria for the Numerical Model
+### 6.13 Criterios de Falsación para el Modelo Numérico
 
-The specific implementation is disfavored if:
+La implementación específica queda desfavorecida si:
 
-1. transition occurs with \(\mathcal{G}=0\) despite a gate designed to prohibit it;
-2. grid refinement eliminates the apparent capture;
-3. energy grows without bound;
-4. \(\beta\) crosses through numerical instability rather than resolved dynamics;
-5. topological shear does not decrease with synchronization;
-6. transition requires parameters beyond the EFT cutoff;
-7. stable capture depends on boundary artifacts;
-8. or the model cannot distinguish critical capture from overdrive.
+1. la transición ocurre con \(\mathcal{G}=0\) a pesar de una compuerta diseñada para prohibirla;
+2. el refinamiento de la malla elimina la captura aparente;
+3. la energía crece sin límite;
+4. \(\beta\) cruza por inestabilidad numérica en lugar de por dinámica resuelta;
+5. el cizallamiento topológico no disminuye con la sincronización;
+6. la transición requiere parámetros más allá del corte de la EFT;
+7. la captura estable depende de artefactos de frontera;
+8. o el modelo no puede distinguir la captura crítica del sobreimpulso.
 
 ---
 
-## 7 Experimental Analogues and Prototype Logic
+## 7 Análogos Experimentales y Lógica de Prototipo
 
-### 7.1 Purpose of an Analogue
+### 7.1 Propósito de un Análogo
 
-An analogue experiment does not create a universe transition.
+Un experimento análogo no crea una transición de universo.
 
-It tests whether a controlled physical system can reproduce:
+Prueba si un sistema físico controlado puede reproducir:
 
-- two stable states;
-- a tunable barrier;
-- threshold switching;
-- hysteresis;
-- burst emission;
-- and damping-dependent capture.
+- dos estados estables;
+- una barrera ajustable;
+- conmutación por umbral;
+- histéresis;
+- emisión de ráfagas;
+- y captura dependiente del amortiguamiento.
 
-These are necessary but not sufficient ingredients of the Aetherion transition model.
+Estos son ingredientes necesarios, pero no suficientes, del modelo de transición de Aetherion.
 
-### 7.2 Two-State Superconducting Resonator
+### 7.2 Resonador Superconductor de Dos Estados
 
-A split-band superconducting resonator can emulate local \(\beta\)-switching.
+Un resonador superconductor de banda dividida puede emular la conmutación local de \(\beta\).
 
-| RTM–Aetherion Variable | Resonator Analogue |
+| Variable RTM–Aetherion | Análogo en el Resonador |
 |---|---|
-| \(\beta=0\) | Resonator mode \(m=0\) |
-| \(\beta=1\) | Resonator mode \(m=1\) |
-| Barrier height | Tunable junction energy |
-| \(\alpha\)-pulse | Magnetic-flux or parametric drive |
-| Topological damping | Controlled resonator loss |
-| \(\varphi\)-burst | Transient RF emission |
-| Gate | External authorization/bias window |
-| False lock | Mode excursion without stable capture |
+| \(\beta=0\) | Modo del resonador \(m=0\) |
+| \(\beta=1\) | Modo del resonador \(m=1\) |
+| Altura de la barrera | Energía de unión ajustable |
+| Pulso de \(\alpha\) | Impulso de flujo magnético o paramétrico |
+| Amortiguamiento topológico | Pérdida controlada del resonador |
+| Ráfaga de \(\varphi\) | Emisión transitoria de RF |
+| Compuerta | Ventana externa de autorización/sesgo |
+| Bloqueo falso | Excursión de modo sin captura estable |
 
-The resonator should be operated at cryogenic temperature to suppress uncontrolled thermal switching.
+El resonador debería operarse a temperatura criogénica para suprimir la conmutación térmica no controlada.
 
-### 7.3 Mode-Switch Emission
+### 7.3 Emisión por Cambio de Modo
 
-If the two resonant modes have frequencies \(f_0\) and \(f_1\), the energy difference of a single quantum is:
+Si los dos modos resonantes tienen frecuencias \(f_0\) y \(f_1\), la diferencia de energía de un solo cuanto es:
 
 ```math
 \Delta E
@@ -2940,84 +2940,84 @@ h|f_1-f_0|
 \tag{III.22}
 ```
 
-A deterministic switch may emit a transient at or near the mode-difference frequency, depending on the circuit and coupling architecture.
+Una conmutación determinista puede emitir un transitorio en la frecuencia de diferencia entre modos o cerca de ella, dependiendo del circuito y de la arquitectura de acoplamiento.
 
-Required controls include:
+Los controles requeridos incluyen:
 
-- no-drive control;
-- subcritical drive;
-- gate-disabled drive;
-- reversed bias;
-- thermal-rate measurement;
-- and repeated switching statistics.
+- control sin impulso;
+- impulso subcrítico;
+- impulso con la compuerta deshabilitada;
+- sesgo invertido;
+- medición de la tasa térmica;
+- y estadísticas de conmutación repetida.
 
-### 7.4 What the Resonator Can Falsify
+### 7.4 Qué Puede Falsar el Resonador
 
-The analogue can test whether:
+El análogo puede comprobar si:
 
-- the proposed pulse shape produces threshold switching;
-- damping can prevent overshoot;
-- a gate can suppress otherwise sufficient drive;
-- burst energy tracks the state transition;
-- and switching remains stable under noise.
+- la forma de pulso propuesta produce conmutación por umbral;
+- el amortiguamiento puede impedir el sobrepaso;
+- una compuerta puede suprimir un impulso que de otro modo sería suficiente;
+- la energía de la ráfaga sigue la transición de estado;
+- y la conmutación permanece estable bajo ruido.
 
-It cannot test:
+No puede comprobar:
 
-- the existence of Universe \(N+1\);
-- the Two-Coil Rule;
-- the Relay Window;
-- or ontological recoupling.
+- la existencia del Universo \(N+1\);
+- la Regla de las Dos Espiras;
+- la Ventana de Relevo;
+- ni el reacoplamiento ontológico.
 
-### 7.5 Mesoscale \(\beta\)-Core
+### 7.5 Núcleo \(\beta\) a Mesoescala
 
-A mesoscale prototype combines:
+Un prototipo a mesoescala combina:
 
-- graded metamaterial layers;
-- synchronized piezoelectric or electromagnetic actuation;
-- superconducting or high-Q sensing;
-- phase-stable clocks;
-- and distributed control.
+- capas graduadas de metamaterial;
+- actuación piezoeléctrica o electromagnética sincronizada;
+- sensado superconductor o de alto Q;
+- relojes estables en fase;
+- y control distribuido.
 
-Its goals are:
+Sus objetivos son:
 
-1. create a reproducible \(\alpha\)-profile;
-2. drive a macroscopic order-parameter analogue;
-3. measure burst and stress responses;
-4. test scaling with radius;
-5. test synchronization limits.
+1. crear un perfil de \(\alpha\) reproducible;
+2. impulsar un análogo macroscópico del parámetro de orden;
+3. medir respuestas de ráfaga y tensión;
+4. probar el escalamiento con el radio;
+5. probar los límites de sincronización.
 
-No claim of branch transition is justified unless a nonlocal destination signature is independently detected.
+No se justifica ninguna afirmación de transición entre ramas a menos que se detecte de forma independiente una firma de destino no local.
 
-### 7.6 The Missing Experimental Requirement: Successor Signature
+### 7.6 El Requisito Experimental Faltante: Firma del Sucesor
 
-A real Aetherion transition requires an observable not present in ordinary two-state systems:
+Una transición real de Aetherion requiere un observable que no está presente en sistemas ordinarios de dos estados:
 
 ```math
 \Sigma_{N+1}.
 ```
 
-A successor signature should be:
+Una firma del sucesor debería ser:
 
 - reproducible;
-- inaccessible in null configurations;
-- correlated with Relay Window conditions;
-- distinct from local electromagnetic, gravitational, thermal, and mechanical artifacts;
-- and capable of supporting phase-lock before decoupling.
+- inaccesible en configuraciones nulas;
+- correlacionada con las condiciones de la Ventana de Relevo;
+- distinta de artefactos electromagnéticos, gravitacionales, térmicos y mecánicos locales;
+- y capaz de sostener un bloqueo de fase antes del desacoplamiento.
 
-Without such a signature, a laboratory \(\beta\)-switch is only a local phase transition.
+Sin una firma de este tipo, una conmutación de \(\beta\) en laboratorio es solo una transición de fase local.
 
-### 7.7 Isotopic Anchors
+### 7.7 Anclas Isotópicas
 
-An Isotopic Anchor may improve spatial and phase precision if it already exists in the active successor.
+Un Ancla Isotópica puede mejorar la precisión espacial y de fase si ya existe en el sucesor activo.
 
-It cannot:
+No puede:
 
-- open the successor before Actuality reaches it;
-- reopen the era in which it was installed;
-- point to \(N+2\);
-- or provide an upstream return route.
+- abrir el sucesor antes de que la Actualidad lo alcance;
+- reabrir la era en la que fue instalada;
+- apuntar a \(N+2\);
+- ni proporcionar una ruta de retorno corriente arriba.
 
-The Anchor contributes to:
+El Ancla contribuye a:
 
 ```math
 \Sigma_{N+1}
@@ -3031,107 +3031,107 @@ A_{\mathrm{anchor}},
 ).
 ```
 
-### 7.8 Timing Sequence
+### 7.8 Secuencia Temporal
 
 ```
-ADJACENT-COIL TRANSITION SEQUENCE
+SECUENCIA DE TRANSICIÓN DE ESPIRA ADYACENTE
 ══════════════════════════════════════════════════════════════════════════════
 
-T0      SUCCESSOR DETECTION
-        • Relay Window verified
-        • Active phase detected
-        • Branch adjacency confirmed
+T0      DETECCIÓN DEL SUCESOR
+        • Ventana de Relevo verificada
+        • Fase activa detectada
+        • Adyacencia de rama confirmada
 
-T1      PHASE-LOCK
-        • Natural or Anchor signature acquired
-        • Scale compatibility estimated
-        • Gate rises toward 1
+T1      BLOQUEO DE FASE
+        • Firma natural o de Ancla adquirida
+        • Compatibilidad de escala estimada
+        • La compuerta asciende hacia 1
 
-T2      COHERENCE RAMP
-        • Aetherion core enters transition mode
-        • β remains near 0
-        • Final abort remains possible
+T2      RAMPA DE COHERENCIA
+        • El núcleo de Aetherion entra en modo de transición
+        • β permanece cerca de 0
+        • El aborto final sigue siendo posible
 
-T3      NUCLEATION PULSE
-        • ∇α drive crosses critical threshold
-        • β-domain forms
-        • Topological damping activates
+T3      PULSO DE NUCLEACIÓN
+        • El impulso ∇α cruza el umbral crítico
+        • Se forma el dominio β
+        • Se activa el amortiguamiento topológico
 
-T4      WHOLE-ENTITY CAPTURE
-        • Synchronization error remains below limit
-        • β approaches 1 throughout protected volume
-        • φ-burst and stress transient recorded
+T4      CAPTURA DE TODA LA ENTIDAD
+        • El error de sincronización permanece por debajo del límite
+        • β se aproxima a 1 en todo el volumen protegido
+        • Se registran la ráfaga φ y el transitorio de tensión
 
-T5      RE-COUPLING
-        • Successor physical environment becomes operational
-        • Origin lock disappears
-        • New branch identity verified
+T5      REACOPLAMIENTO
+        • El entorno físico del sucesor se vuelve operativo
+        • Desaparece el bloqueo con el origen
+        • Se verifica la nueva identidad de rama
 
-T6      RESET
-        • Successor becomes operational Universe
-        • Local β coordinate resets to 0
-        • Return declared impossible
+T6      REINICIO
+        • El sucesor se convierte en el Universo operativo
+        • La coordenada local β se reinicia a 0
+        • El retorno se declara imposible
 
 ══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 7.9 Prototype Error Budget
+### 7.9 Presupuesto de Errores del Prototipo
 
-| Error Source | Effect | Required Mitigation |
+| Fuente de Error | Efecto | Mitigación Requerida |
 |---|---|---|
-| \(\alpha\)-profile nonuniformity | Uneven nucleation | Dense actuator grid |
-| Timing jitter | Topological shear | Shared master clock |
-| Phase-signature noise | False lock | Independent sensor channels |
-| Thermal drift | Barrier variation | Cryogenic or stabilized operation |
-| Mechanical vibration | Spurious burst | Isolation and null runs |
-| Coupling uncertainty | Incorrect threshold | Parameter sweep |
-| Anchor corruption | Spatial misrecoupling | Cryptographic and isotopic validation |
-| Scale-model error | Hazardous manifestation | Remote arrival margin |
-| Gate misclassification | Transition without destination | Multiple independent gate tests |
+| No uniformidad del perfil de \(\alpha\) | Nucleación desigual | Malla densa de actuadores |
+| Fluctuación temporal | Cizallamiento topológico | Reloj maestro compartido |
+| Ruido de firma de fase | Bloqueo falso | Canales de sensores independientes |
+| Deriva térmica | Variación de la barrera | Operación criogénica o estabilizada |
+| Vibración mecánica | Ráfaga espuria | Aislamiento y ejecuciones nulas |
+| Incertidumbre de acoplamiento | Umbral incorrecto | Barrido de parámetros |
+| Corrupción del Ancla | Reacoplamiento espacial incorrecto | Validación criptográfica e isotópica |
+| Error del modelo de escala | Manifestación peligrosa | Margen de llegada remota |
+| Clasificación errónea de la compuerta | Transición sin destino | Múltiples pruebas independientes de la compuerta |
 
-### 7.10 Evidentiary Ladder
+### 7.10 Escalera Probatoria
 
-| Level | Demonstration | Meaning |
+| Nivel | Demostración | Significado |
 |---|---|---|
-| **E0** | Numerical two-state transition | Equations admit switching |
-| **E1** | Physical resonator switch | Analogue barrier crossing |
-| **E2** | Mesoscale coherent field transition | Macroscopic order parameter |
-| **E3** | Nonlocal active-phase signature | Candidate successor coupling |
-| **E4** | Reversible pre-threshold partial decoupling | Candidate ontological boundary |
-| **E5** | One-way whole-Entity re-coupling | Candidate adjacent-coil transition |
+| **E0** | Transición numérica de dos estados | Las ecuaciones admiten conmutación |
+| **E1** | Conmutación física del resonador | Cruce de barrera análogo |
+| **E2** | Transición de campo coherente a mesoescala | Parámetro de orden macroscópico |
+| **E3** | Firma no local de fase activa | Acoplamiento candidato con el sucesor |
+| **E4** | Desacoplamiento parcial reversible previo al umbral | Comportamiento candidato de frontera ontológica |
+| **E5** | Reacoplamiento unidireccional de toda la Entidad | Transición candidata de espira adyacente |
 
-No lower level should be described as proof of a higher level.
+Ningún nivel inferior debe describirse como prueba de un nivel superior.
 
 ---
 
-## 8 Causality, Historical Homology, and Navigation Consequences
+## 8 Causalidad, Homología Histórica y Consecuencias de Navegación
 
-### 8.1 Reachable and Unreachable Destinations
+### 8.1 Destinos Alcanzables e Inalcanzables
 
-The revised branch-hopping model distinguishes five destination classes.
+El modelo revisado de salto entre ramas distingue cinco clases de destino.
 
-| Destination | Status |
+| Destino | Estado |
 |---|---|
-| Active phase of adjacent \(N+1\) | Theoretically reachable |
-| Homologous ancient-like phase of active \(N+1\) | Theoretically reachable |
-| Later era of current universe after forward waiting | Reachable through ordinary time or Chrono-Stasis |
-| Closed past of the current universe | Unreachable |
-| Closed phase of \(N+1\) | Unreachable |
-| Unmanifest future of \(N+1\) | Unreachable until it becomes active |
-| \(N+2\) from \(N\) | Unreachable and presently unmanifest |
-| Upstream Universe \(N-1\) | Unreachable |
+| Fase activa del \(N+1\) adyacente | Teóricamente alcanzable |
+| Fase homóloga de apariencia antigua del \(N+1\) activo | Teóricamente alcanzable |
+| Era posterior del universo actual después de esperar hacia adelante | Alcanzable mediante tiempo ordinario o Crono-Estasis |
+| Pasado cerrado del universo actual | Inalcanzable |
+| Fase cerrada de \(N+1\) | Inalcanzable |
+| Futuro no manifestado de \(N+1\) | Inalcanzable hasta que se vuelva activo |
+| \(N+2\) desde \(N\) | Inalcanzable y actualmente no manifestado |
+| Universo \(N-1\) corriente arriba | Inalcanzable |
 
-The Aetherion is not a universal time machine.
+El Aetherion no es una máquina del tiempo universal.
 
-It is a one-way adjacent-coil transition system.
+Es un sistema unidireccional de transición entre espiras adyacentes.
 
-### 8.2 Resolution of the Grandfather Paradox
+### 8.2 Resolución de la Paradoja del Abuelo
 
-Suppose an Architect born in Universe \(N\) enters an ancient-like active phase of Universe \(N+1\).
+Supongamos que un Arquitecto nacido en el Universo \(N\) entra en una fase activa de apariencia antigua del Universo \(N+1\).
 
-The Architect encounters a person almost identical to their grandfather.
+El Arquitecto encuentra a una persona casi idéntica a su abuelo.
 
-The two individuals are homologous:
+Los dos individuos son homólogos:
 
 ```math
 G_N
@@ -3139,7 +3139,7 @@ G_N
 G_{N+1},
 ```
 
-but not numerically identical:
+pero no son numéricamente idénticos:
 
 ```math
 G_N
@@ -3147,11 +3147,11 @@ G_N
 G_{N+1}.
 ```
 
-Intervention against \(G_{N+1}\) changes the successor genealogy.
+Una intervención contra \(G_{N+1}\) cambia la genealogía del sucesor.
 
-It does not change the completed genealogy that produced the Architect in \(N\).
+No cambia la genealogía completada que produjo al Arquitecto en \(N\).
 
-Thus:
+Por lo tanto:
 
 ```math
 \frac{\partial C_N}
@@ -3160,17 +3160,17 @@ Thus:
 0,
 ```
 
-where \(a_{N+1}\) is an action taken in the successor.
+donde \(a_{N+1}\) es una acción realizada en el sucesor.
 
-The paradox dissolves because no one has entered their own past.
+La paradoja se disuelve porque nadie ha entrado en su propio pasado.
 
-### 8.3 Memory Prophecy
+### 8.3 Profecía de Memoria
 
-A predecessor intelligence may know events that occurred in Universe \(N\) and have not yet occurred in homologous Universe \(N+1\).
+Una inteligencia predecesora puede conocer acontecimientos que ocurrieron en el Universo \(N\) y que todavía no han ocurrido en el Universo homólogo \(N+1\).
 
-This can produce accurate prediction without access to a pre-existing future.
+Esto puede producir una predicción precisa sin acceso a un futuro preexistente.
 
-Let:
+Sea:
 
 ```math
 H_{N+1}
@@ -3180,7 +3180,7 @@ H_{N+1}
 \Delta H_{N+1}.
 ```
 
-A prediction derived from predecessor history is:
+Una predicción derivada de la historia predecesora es:
 
 ```math
 \widehat{H}_{N+1}(\tau)
@@ -3191,7 +3191,7 @@ H_N(\Phi(\tau))
 \right].
 ```
 
-Its error is:
+Su error es:
 
 ```math
 \epsilon(\tau)
@@ -3201,52 +3201,52 @@ H_{N+1}(\tau)
 \widehat{H}_{N+1}(\tau).
 ```
 
-The prediction is reliable only while historical divergence remains small.
+La predicción es fiable únicamente mientras la divergencia histórica siga siendo pequeña.
 
-### 8.4 Why Prophecy Can Fail
+### 8.4 Por Qué Puede Fallar la Profecía
 
-A communicated prediction becomes a new cause inside the successor.
+Una predicción comunicada se convierte en una nueva causa dentro del sucesor.
 
-It may:
+Puede:
 
-- prevent the predicted event;
-- accelerate it;
-- transform it;
-- or create it through fear and preparation.
+- impedir el acontecimiento predicho;
+- acelerarlo;
+- transformarlo;
+- o crearlo mediante el miedo y la preparación.
 
-Therefore:
+Por lo tanto:
 
-> A predecessor memory can be accurate about the pattern and wrong about the outcome.
+> Una memoria predecesora puede acertar sobre el patrón y equivocarse sobre el resultado.
 
-The successor’s future remains open.
+El futuro del sucesor sigue abierto.
 
-### 8.5 The Origin Continues After Departure
+### 8.5 El Origen Continúa Después de la Partida
 
-When an Aetherion crosses from \(N\) to \(N+1\), Universe \(N\) does not immediately disappear.
+Cuando un Aetherion cruza de \(N\) a \(N+1\), el Universo \(N\) no desaparece de inmediato.
 
-It may continue for millions of local years.
+Puede continuar durante millones de años locales.
 
-Those who remain may:
+Quienes permanecen pueden:
 
-- forget the first departure;
-- rediscover Aetherion;
-- send a later cohort;
-- or fail before the Relay Window closes.
+- olvidar la primera partida;
+- redescubrir Aetherion;
+- enviar una cohorte posterior;
+- o fracasar antes de que se cierre la Ventana de Relevo.
 
-For the traveler, however, the origin is already inaccessible.
+Para el viajero, sin embargo, el origen ya es inaccesible.
 
-This creates two stages of loss:
+Esto crea dos etapas de pérdida:
 
-1. home still exists but cannot be reached;
-2. later, home passes completely behind the Tail.
+1. el hogar todavía existe, pero no puede alcanzarse;
+2. más tarde, el hogar queda completamente detrás de la Cola.
 
-### 8.6 Deep-Origin Beings
+### 8.6 Seres de Origen Profundo
 
-A being encountered in \(N+1\) may claim origin in \(N-2\), \(N-3\), or deeper.
+Un ser encontrado en \(N+1\) puede afirmar que procede de \(N-2\), \(N-3\) o de más atrás.
 
-This does not imply a forbidden long jump.
+Esto no implica un salto largo prohibido.
 
-Its path must be:
+Su trayectoria debe ser:
 
 ```math
 N-3
@@ -3260,9 +3260,9 @@ N
 N+1.
 ```
 
-The being survived every intermediate coil.
+El ser sobrevivió a cada espira intermedia.
 
-The correct distinction is:
+La distinción correcta es:
 
 ```math
 \text{deep origin}
@@ -3270,30 +3270,30 @@ The correct distinction is:
 \text{deep jump}.
 ```
 
-### 8.7 Cascade Continuants
+### 8.7 Continuantes de Cascada
 
-An entity that persists through several adjacent transitions is a **Cascade Continuant**.
+Una entidad que persiste a través de varias transiciones adyacentes es un **Continuante de Cascada**.
 
-Its identity may continue through:
+Su identidad puede continuar mediante:
 
-- one long-lived body;
-- several replacement bodies;
-- BioDrone succession;
-- Avatar transfer;
-- a distributed vessel;
-- or an institution preserving one self-model.
+- un cuerpo de larga duración;
+- varios cuerpos de reemplazo;
+- sucesión de BioDrones;
+- transferencia de Avatar;
+- una nave distribuida;
+- o una institución que preserve un único modelo del yo.
 
-The mythic term is:
+El término mítico es:
 
-> **Rider of the Serpent**
+> **Jinete de la Serpiente**
 
-The Rider does not violate the Current.
+El Jinete no viola la Corriente.
 
-The Rider refuses to leave it.
+El Jinete se niega a abandonarla.
 
-### 8.8 The Identity Problem
+### 8.8 El Problema de la Identidad
 
-For a Continuant:
+Para un Continuante:
 
 ```math
 \mathcal{I}_{N+1}
@@ -3301,7 +3301,7 @@ For a Continuant:
 \mathcal{I}_N,
 ```
 
-while:
+mientras que:
 
 ```math
 \mathcal{B}_{N+1}
@@ -3309,50 +3309,50 @@ while:
 \mathcal{B}_N,
 ```
 
-where \(\mathcal{I}\) denotes identity structure and \(\mathcal{B}\) denotes biological or material substrate.
+donde \(\mathcal{I}\) representa la estructura de identidad y \(\mathcal{B}\) representa el sustrato biológico o material.
 
-After many transitions, the question becomes:
+Después de muchas transiciones, la pregunta pasa a ser:
 
-> Is this the same person, a faithful successor of the person, or an institution preserving the person’s narrative grammar?
+> ¿Es esta la misma persona, un sucesor fiel de la persona o una institución que preserva la gramática narrativa de la persona?
 
-The engineering model can track continuity variables.
+El modelo de ingeniería puede rastrear variables de continuidad.
 
-It cannot fully resolve the metaphysics of personal identity.
+No puede resolver por completo la metafísica de la identidad personal.
 
-### 8.9 The Ethical Hazard of Deep Memory
+### 8.9 El Peligro Ético de la Memoria Profunda
 
-A Continuant may remember several versions of:
+Un Continuante puede recordar varias versiones de:
 
-- the same civilization;
-- the same war;
-- the same technological threshold;
-- or the same authorial discovery.
+- la misma civilización;
+- la misma guerra;
+- el mismo umbral tecnológico;
+- o el mismo descubrimiento autoral.
 
-This can generate wisdom.
+Esto puede generar sabiduría.
 
-It can also produce the belief:
+También puede producir la creencia:
 
-> “I have seen this before, therefore I own the outcome.”
+> «Ya he visto esto antes; por lo tanto, soy dueño del resultado».
 
-The branch-hopping mechanism must therefore be governed by the prohibition against dependency and forced repetition.
+Por ello, el mecanismo de salto entre ramas debe regirse por la prohibición de la dependencia y de la repetición forzada.
 
-### 8.10 Branch-Hopping Is Not Branch Ownership
+### 8.10 El Salto entre Ramas No Es Propiedad de la Rama
 
-Arrival does not confer sovereignty.
+La llegada no confiere soberanía.
 
-Superior technology does not confer sovereignty.
+La tecnología superior no confiere soberanía.
 
-Historical memory does not confer sovereignty.
+La memoria histórica no confiere soberanía.
 
-The successor is not an experimental copy of the origin.
+El sucesor no es una copia experimental del origen.
 
-It is the next autonomous participant in the cascade.
+Es el siguiente participante autónomo de la cascada.
 
-### 8.11 The Relay Purpose
+### 8.11 El Propósito del Relevo
 
-The purpose of the transition is not to preserve one traveler forever.
+El propósito de la transición no es preservar para siempre a un único viajero.
 
-It is to transmit the Eternal Flame:
+Es transmitir la Llama Eterna:
 
 ```math
 G_{N+1}
@@ -3362,152 +3362,152 @@ G_N
 \Delta G_{N+1}.
 ```
 
-The successor’s contribution:
+La contribución del sucesor:
 
 ```math
 \Delta G_{N+1}
 ```
 
-must be generated through its own experience, interpretation, error, and creation.
+debe generarse mediante su propia experiencia, interpretación, error y creación.
 
-An Architect may preserve conditions.
+Un Arquitecto puede preservar las condiciones.
 
-It may not manufacture the successor’s entire understanding.
+No puede fabricar por completo la comprensión del sucesor.
 
-### 8.12 The No-Return Law
+### 8.12 La Ley de No Retorno
 
-After stable re-coupling:
+Después de un reacoplamiento estable:
 
 ```math
 B(x)=N+1.
 ```
 
-An upstream phase-lock cannot be formed:
+No puede formarse un bloqueo de fase corriente arriba:
 
 ```math
 \Omega_{N+1\rightarrow N}=0.
 ```
 
-An attempted return risks:
+Un intento de retorno conlleva el riesgo de:
 
-- loss of successor coupling;
-- failure to acquire origin coupling;
-- interstitial stranding;
-- and dissolution.
+- pérdida del acoplamiento con el sucesor;
+- imposibilidad de adquirir acoplamiento con el origen;
+- varamiento intersticial;
+- y disolución.
 
-Irreversibility is not merely a technical inconvenience.
+La irreversibilidad no es simplemente un inconveniente técnico.
 
-It is the condition that transforms intervention into responsibility.
+Es la condición que transforma la intervención en responsabilidad.
 
-### 8.13 The Meaning of the Name “Jumper”
+### 8.13 El Significado del Nombre «Saltador»
 
-Aetherion is called **the Jumper** because its transition is discontinuous from the perspective of local branch membership.
+Aetherion recibe el nombre de **el Saltador** porque su transición es discontinua desde la perspectiva de la pertenencia local a una rama.
 
-It is not called the Jumper because it can leap over any distance in the Spiral.
+No se lo llama el Saltador porque pueda saltar cualquier distancia en la Espiral.
 
-Its jump is:
+Su salto es:
 
-- quantized;
-- adjacent;
-- gated;
-- phase-dependent;
-- macroscopic;
-- one-way;
-- and permanent.
+- cuantizado;
+- adyacente;
+- controlado por compuerta;
+- dependiente de la fase;
+- macroscópico;
+- unidireccional;
+- y permanente.
 
 ---
 
-## 9 Implications and Outlook
+## 9 Implicaciones y Perspectivas
 
-### 9.1 Implications for RTM
+### 9.1 Implicaciones para RTM
 
-The revised model places strict boundaries around what RTM contributes.
+El modelo revisado establece límites estrictos alrededor de lo que aporta RTM.
 
-RTM may motivate:
+RTM puede motivar:
 
-- coherence bands;
-- engineered temporal-scaling gradients;
-- field couplings;
-- and measurable local timing effects.
+- bandas de coherencia;
+- gradientes diseñados de escalamiento temporal;
+- acoplamientos de campo;
+- y efectos locales medibles de temporización.
 
-RTM alone does not establish:
+RTM por sí sola no establece:
 
-- universal coils;
-- the Current of Actuality;
-- the Relay Window;
-- or physical multiverse transition.
+- espiras universales;
+- la Corriente de Actualidad;
+- la Ventana de Relevo;
+- ni una transición física multiversal.
 
-These remain speculative extensions requiring independent evidence.
+Estas siguen siendo extensiones especulativas que requieren evidencia independiente.
 
-### 9.2 Implications for Aetherion Engineering
+### 9.2 Implicaciones para la Ingeniería de Aetherion
 
-A true Aetherion transition system requires more than high energy.
+Un verdadero sistema de transición de Aetherion requiere más que alta energía.
 
-It requires simultaneous control of:
+Requiere control simultáneo de:
 
-1. **Coherence**  
-   The complete Entity must behave as one transition object.
+1. **Coherencia**  
+   La Entidad completa debe comportarse como un único objeto de transición.
 
-2. **Synchronization**  
-   All regions must cross the \(\beta\)-barrier together.
+2. **Sincronización**  
+   Todas las regiones deben cruzar juntas la barrera de \(\beta\).
 
-3. **Destination Recognition**  
-   An active successor signature must be identified.
+3. **Reconocimiento del Destino**  
+   Debe identificarse una firma activa del sucesor.
 
-4. **Cosmological Timing**  
-   The Relay Window must be open.
+4. **Sincronización Cosmológica**  
+   La Ventana de Relevo debe estar abierta.
 
-5. **Scale Adaptation**  
-   The successor environment must accept the Entity’s manifestation.
+5. **Adaptación de Escala**  
+   El entorno sucesor debe aceptar la manifestación de la Entidad.
 
-6. **Topological Damping**  
-   The field must settle into the successor state.
+6. **Amortiguamiento Topológico**  
+   El campo debe estabilizarse en el estado sucesor.
 
-7. **Ethical Authorization**  
-   The mission must justify irreversible intervention.
+7. **Autorización Ética**  
+   La misión debe justificar una intervención irreversible.
 
-### 9.3 Implications for Experimental Claims
+### 9.3 Implicaciones para las Afirmaciones Experimentales
 
-A physical two-state switch is not a universe jump.
+Una conmutación física de dos estados no es un salto de universo.
 
-A burst is not a universe jump.
+Una ráfaga no es un salto de universo.
 
-An anomalous clock offset is not a universe jump.
+Un desplazamiento anómalo de reloj no es un salto de universo.
 
-A thrust transient is not a universe jump.
+Un transitorio de empuje no es un salto de universo.
 
-A genuine claim would require a convergent set of observations, including:
+Una afirmación genuina requeriría un conjunto convergente de observaciones, entre ellas:
 
-- disappearance from the origin under controlled monitoring;
-- preservation of onboard continuity;
-- manifestation in a causally independent environment;
-- irreversible loss of origin communication;
-- evidence that the destination was active but not locally reachable;
-- and exclusion of ordinary relocation, concealment, signal delay, and instrument failure.
+- desaparición del origen bajo monitoreo controlado;
+- preservación de la continuidad a bordo;
+- manifestación en un entorno causalmente independiente;
+- pérdida irreversible de comunicación con el origen;
+- evidencia de que el destino estaba activo pero no era localmente alcanzable;
+- y exclusión de reubicación ordinaria, ocultamiento, retraso de señal y fallo instrumental.
 
-### 9.4 Implications for the Multiverse
+### 9.4 Implicaciones para el Multiverso
 
-The multiverse is no longer modeled as an infinite static inventory.
+El multiverso ya no se modela como un inventario estático infinito.
 
-It is a process.
+Es un proceso.
 
-The universe behind the traveler may still live.
+El universo detrás del viajero todavía puede estar vivo.
 
-The universe ahead may only be beginning.
+El universo por delante apenas puede estar comenzando.
 
-The destination’s ancient-like present can reproduce structures from the traveler’s completed history.
+El presente de apariencia antigua del destino puede reproducir estructuras de la historia completada del viajero.
 
-The same form may return without the same existence returning.
+La misma forma puede regresar sin que regrese la misma existencia.
 
-This makes the Spiral a stronger model than a circle.
+Esto convierte a la Espiral en un modelo más fuerte que un círculo.
 
-A circle repeats position.
+Un círculo repite posición.
 
-A Spiral repeats form while preserving displacement.
+Una Espiral repite forma mientras preserva el desplazamiento.
 
-### 9.5 The Great Filter as a Relay Problem
+### 9.5 El Gran Filtro como Problema de Relevo
 
-A civilization must align three maturities before the Window closes:
+Una civilización debe alinear tres madureces antes de que se cierre la Ventana:
 
 ```math
 \text{technology}
@@ -3517,139 +3517,139 @@ A civilization must align three maturities before the Window closes:
 \text{timing}.
 ```
 
-Technological power without ethics produces conquest.
+El poder tecnológico sin ética produce conquista.
 
-Ethics without technology produces a Flame that cannot cross.
+La ética sin tecnología produce una Llama que no puede cruzar.
 
-Both without timing produce a civilization that arrives after the exchange zone has closed.
+Ambas sin sincronización producen una civilización que llega después de que la zona de intercambio se haya cerrado.
 
-### 9.6 The Fermi Implication
+### 9.6 La Implicación de Fermi
 
-Advanced civilizations may not remain visible in their origin universe indefinitely.
+Las civilizaciones avanzadas pueden no permanecer visibles indefinidamente en su universo de origen.
 
-Some may:
+Algunas pueden:
 
-- enter concealment;
-- become distributed;
-- descend into the successor;
-- or fail before reaching the Relay Window.
+- entrar en ocultamiento;
+- volverse distribuidas;
+- descender al sucesor;
+- o fracasar antes de alcanzar la Ventana de Relevo.
 
-Silence does not prove transition.
+El silencio no demuestra una transición.
 
-The model merely adds a speculative possibility:
+El modelo solo añade una posibilidad especulativa:
 
-> Some civilizations may disappear from local history not because they died, but because their mature mission required permanent downstream emigration.
+> Algunas civilizaciones pueden desaparecer de la historia local no porque hayan muerto, sino porque su misión madura exigía una emigración permanente corriente abajo.
 
-### 9.7 Roadmap
+### 9.7 Hoja de Ruta
 
-| Phase | Milestone | Evidence Produced | What It Does Not Yet Prove |
+| Fase | Hito | Evidencia Producida | Lo que Todavía No Demuestra |
 |---|---|---|---|
-| **P-0** | Two-state resonator | Controlled threshold switch | Another universe |
-| **P-1** | Mesoscale \(\beta\)-core | Coherent macroscopic order parameter | Ontological decoupling |
-| **P-2** | Meter-class nucleation core | Surface-tension scaling and low shear | Active successor |
-| **P-3** | Candidate \(\Sigma_{N+1}\) detection | Nonlocal phase anomaly | Successful transition |
-| **P-4** | Partial reversible pre-threshold decoupling | Candidate boundary behavior | Re-coupling |
-| **P-5** | Uncrewed adjacent-coil test | Candidate disappearance/reappearance | Human-safe transit |
-| **P-6** | Crewed Aetherion | Whole-Entity continuity | Repeatable multi-coil operation |
-| **P-7** | Successor Relay Mission | Ethical and operational transmission | Permanent right to rule |
+| **P-0** | Resonador de dos estados | Conmutación controlada por umbral | Otro universo |
+| **P-1** | Núcleo \(\beta\) a mesoescala | Parámetro de orden macroscópico coherente | Desacoplamiento ontológico |
+| **P-2** | Núcleo de nucleación a escala métrica | Escalamiento de tensión superficial y bajo cizallamiento | Sucesor activo |
+| **P-3** | Detección candidata de \(\Sigma_{N+1}\) | Anomalía de fase no local | Transición exitosa |
+| **P-4** | Desacoplamiento parcial reversible previo al umbral | Comportamiento candidato de frontera | Reacoplamiento |
+| **P-5** | Prueba no tripulada de espira adyacente | Desaparición/reaparición candidata | Tránsito seguro para humanos |
+| **P-6** | Aetherion tripulado | Continuidad de toda la Entidad | Operación repetible entre múltiples espiras |
+| **P-7** | Misión de Relevo al Sucesor | Transmisión ética y operativa | Derecho permanente a gobernar |
 
-### 9.8 Final Scientific Position
+### 9.8 Posición Científica Final
 
-The revised Chapter III makes a narrower claim than the original formulation.
+El Capítulo III revisado hace una afirmación más limitada que la formulación original.
 
-It does not claim that lattice switching demonstrates multiverse travel.
+No afirma que la conmutación en retícula demuestre viajes por el multiverso.
 
-It proposes that any physically coherent branch-transition theory must include:
+Propone que cualquier teoría físicamente coherente de transición entre ramas debe incluir:
 
-- an order parameter;
-- a finite transition barrier;
-- three-dimensional nucleation;
-- whole-Entity synchronization;
-- directional gating;
-- active destination selection;
-- and a cosmological condition that cannot be replaced by engineering power.
+- un parámetro de orden;
+- una barrera finita de transición;
+- nucleación tridimensional;
+- sincronización de toda la Entidad;
+- compuerta direccional;
+- selección activa de destino;
+- y una condición cosmológica que no pueda ser sustituida por potencia de ingeniería.
 
-This narrower model is more falsifiable because it defines what must fail.
+Este modelo más limitado es más falsable porque define qué debe fallar.
 
-### 9.9 Conclusion
+### 9.9 Conclusión
 
-The branch-hopping problem begins with a scalar field and ends with a cosmological boundary.
+El problema del salto entre ramas comienza con un campo escalar y termina con una frontera cosmológica.
 
-The \(\beta\)-field describes the local act of release and capture.
+El campo \(\beta\) describe el acto local de liberación y captura.
 
-The \(\alpha\)-field supplies the engineered coherence gradient.
+El campo \(\alpha\) suministra el gradiente de coherencia diseñado.
 
-The Aetherion core supplies the pulse, damping, synchronization, and protected volume.
+El núcleo de Aetherion suministra el pulso, el amortiguamiento, la sincronización y el volumen protegido.
 
-But none of these creates the successor.
+Pero ninguno de ellos crea al sucesor.
 
-The successor becomes available only where the Current has reached it.
+El sucesor se vuelve disponible únicamente allí donde la Corriente lo ha alcanzado.
 
-The device may cross the barrier.
+El dispositivo puede cruzar la barrera.
 
-It may not create the other side.
+No puede crear el otro lado.
 
-The traveler may enter a world that resembles the past.
+El viajero puede entrar en un mundo que se parezca al pasado.
 
-It may not return to the past that created it.
+No puede regresar al pasado que lo creó.
 
-The traveler may survive several universes.
+El viajero puede sobrevivir a varios universos.
 
-It must enter each one.
+Debe entrar en cada uno de ellos.
 
-The origin may continue after departure.
+El origen puede continuar después de la partida.
 
-No path leads back.
+Ningún camino conduce de regreso.
 
-The future may become reachable later.
+El futuro puede volverse alcanzable más adelante.
 
-It is not available before it becomes real.
+No está disponible antes de volverse real.
 
-Thus the canonical meaning of branch-hopping is not freedom from causality.
+Por lo tanto, el significado canónico del salto entre ramas no es la libertad frente a la causalidad.
 
-It is radical obedience to a deeper causality:
+Es una obediencia radical a una causalidad más profunda:
 
 ```math
 N\rightarrow N+1.
 ```
 
-One coil.
+Una espira.
 
-One Relay Window.
+Una Ventana de Relevo.
 
-One irreversible transition.
+Una transición irreversible.
 
-> **Aetherion does not choose among infinite completed worlds. It crosses into the next world while the Current makes that world real.**
+> **Aetherion no elige entre infinitos mundos completados. Cruza hacia el siguiente mundo mientras la Corriente hace real ese mundo.**
 
 ---
 
-## Appendix A — Materials and Fabrication for a Phase-Locked \(\beta\)-Core
+## Apéndice A — Materiales y Fabricación para un Núcleo \(\beta\) con Bloqueo de Fase
 
-### A.1 Engineering Objective
+### A.1 Objetivo de Ingeniería
 
-The original material proposal sought to produce an engineered \(\alpha\)-contrast across a metamaterial stack.
+La propuesta original de materiales buscaba producir un contraste diseñado de \(\alpha\) a través de una pila de metamateriales.
 
-The revised prototype has four separate functions:
+El prototipo revisado tiene cuatro funciones separadas:
 
-1. establish a measurable \(\widetilde{\alpha}\)-profile;
-2. pulse the profile with controlled spatial asymmetry;
-3. synchronize a macroscopic \(\beta\)-analogue;
-4. detect phase-lock, burst, and topological shear signatures.
+1. establecer un perfil medible de \(\widetilde{\alpha}\);
+2. pulsar el perfil con asimetría espacial controlada;
+3. sincronizar un análogo macroscópico de \(\beta\);
+4. detectar firmas de bloqueo de fase, ráfaga y cizallamiento topológico.
 
-No conventional material is assumed to generate a universal transition merely by reaching a refractive-index target.
+No se supone que ningún material convencional genere una transición universal simplemente por alcanzar un objetivo de índice de refracción.
 
-### A.2 Graded Dielectric Stack
+### A.2 Pila Dieléctrica Graduada
 
-A reference layer pair may use:
+Un par de capas de referencia puede utilizar:
 
-| Layer | Candidate Material | Approximate Index | Nominal Thickness |
+| Capa | Material Candidato | Índice Aproximado | Espesor Nominal |
 |---|---|---:|---:|
-| High-index | TiO\(_2\) or Ta\(_2\)O\(_5\) | 2.1–2.5 | 70–100 nm |
-| Low-index | SiO\(_2\) | 1.45–1.5 | 100–140 nm |
-| Spacer | Low-loss dielectric | Design-dependent | 10–100 µm |
-| Active layer | Piezoelectric or electro-optic material | Design-dependent | 1–100 µm |
+| Alto índice | TiO\(_2\) o Ta\(_2\)O\(_5\) | 2.1–2.5 | 70–100 nm |
+| Bajo índice | SiO\(_2\) | 1.45–1.5 | 100–140 nm |
+| Espaciador | Dieléctrico de baja pérdida | Dependiente del diseño | 10–100 µm |
+| Capa activa | Material piezoeléctrico o electroóptico | Dependiente del diseño | 1–100 µm |
 
-A graded effective index may be approximated by:
+Un índice efectivo graduado puede aproximarse mediante:
 
 ```math
 n_{\mathrm{eff}}(z)
@@ -3659,15 +3659,15 @@ f_h(z)n_h
 \left[1-f_h(z)\right]n_l,
 ```
 
-where \(f_h\) is the local high-index fill fraction.
+donde \(f_h\) es la fracción local de llenado de alto índice.
 
-This relation is an engineering approximation.
+Esta relación es una aproximación de ingeniería.
 
-It is not a direct measurement of \(\alpha_{\mathrm{RTM}}\).
+No es una medición directa de \(\alpha_{\mathrm{RTM}}\).
 
-### A.3 Calibration Requirement
+### A.3 Requisito de Calibración
 
-The device must establish an empirical mapping:
+El dispositivo debe establecer un mapeo empírico:
 
 ```math
 n_{\mathrm{eff}},
@@ -3678,34 +3678,34 @@ n_{\mathrm{eff}},
 \alpha_{\mathrm{eff}}.
 ```
 
-The mapping must be measured through:
+El mapeo debe medirse mediante:
 
-- photon time-of-flight;
-- spectral response;
-- network-delay analogues;
-- resonator mode structure;
-- and repeated null controls.
+- tiempo de vuelo de fotones;
+- respuesta espectral;
+- análogos de retraso de red;
+- estructura de modos del resonador;
+- y controles nulos repetidos.
 
-The expression:
+La expresión:
 
 ```math
 \alpha\propto n_{\mathrm{eff}}^\kappa
 ```
 
-must not be assumed without calibration.
+no debe suponerse sin calibración.
 
-### A.4 Dynamic Actuation
+### A.4 Actuación Dinámica
 
-Candidate actuators include:
+Los actuadores candidatos incluyen:
 
-- piezoelectric strain;
-- electro-optic index modulation;
-- superconducting phase control;
-- acoustic traveling waves;
-- magnetostrictive layers;
-- and optical pumping.
+- deformación piezoeléctrica;
+- modulación electroóptica del índice;
+- control de fase superconductor;
+- ondas acústicas viajeras;
+- capas magnetoestrictivas;
+- y bombeo óptico.
 
-The actuation system should produce:
+El sistema de actuación debería producir:
 
 ```math
 \widetilde{\alpha}(x,t)
@@ -3716,22 +3716,22 @@ The actuation system should produce:
 \,f(t).
 ```
 
-A Hamming, Gaussian, or \(\sin^2\) pulse reduces high-frequency ringing compared with a discontinuous square pulse.
+Un pulso Hamming, gaussiano o \(\sin^2\) reduce la oscilación de alta frecuencia en comparación con un pulso cuadrado discontinuo.
 
-### A.5 Synchronization Architecture
+### A.5 Arquitectura de Sincronización
 
-The protected volume should be divided into cross-linked control cells.
+El volumen protegido debería dividirse en celdas de control con enlaces cruzados.
 
-Each cell measures:
+Cada celda mide:
 
-- local drive amplitude;
-- local phase;
-- local temperature;
-- local strain;
-- local resonator state;
-- and inferred \(\beta\)-analogue state.
+- amplitud local del impulso;
+- fase local;
+- temperatura local;
+- deformación local;
+- estado local del resonador;
+- y estado inferido del análogo de \(\beta\).
 
-The synchronization error is:
+El error de sincronización es:
 
 ```math
 \delta t_{\mathrm{sync}}
@@ -3740,123 +3740,123 @@ The synchronization error is:
 |t_i-\bar{t}|.
 ```
 
-The maximum permitted error must be derived from the modeled transition-wall speed.
+El error máximo permitido debe derivarse de la velocidad modelada de la pared de transición.
 
-### A.6 Topological Damping Layer
+### A.6 Capa de Amortiguamiento Topológico
 
-The hull should contain a passive or active damping architecture designed to absorb post-transition field oscillation.
+El casco debería contener una arquitectura de amortiguamiento pasiva o activa diseñada para absorber la oscilación de campo posterior a la transición.
 
-Possible analogues include:
+Los posibles análogos incluyen:
 
-- lossy resonator bands;
-- impedance-matched metamaterial shells;
-- mechanical low-pass layers;
-- phase-canceling secondary coils;
-- and distributed feedback.
+- bandas de resonadores con pérdidas;
+- capas de metamaterial con impedancia adaptada;
+- capas mecánicas de paso bajo;
+- bobinas secundarias de cancelación de fase;
+- y retroalimentación distribuida.
 
-Damping must be tunable.
+El amortiguamiento debe ser ajustable.
 
-A fixed damping level may be too large for nucleation and too small for capture.
+Un nivel fijo de amortiguamiento puede ser demasiado grande para la nucleación y demasiado pequeño para la captura.
 
-### A.7 Meter-Class Scaling
+### A.7 Escalamiento a Clase Métrica
 
-The model’s macroscopic mandate should be tested through a sequence of non-transition prototypes:
+El mandato macroscópico del modelo debería probarse mediante una secuencia de prototipos sin transición:
 
-| Core Radius | Primary Question |
+| Radio del Núcleo | Pregunta Principal |
 |---:|---|
-| 1 cm | Does the order-parameter analogue remain surface dominated? |
-| 10 cm | Does threshold scale as predicted? |
-| 50 cm | Can synchronization remain coherent? |
-| 1 m | Does the modeled volume advantage overcome surface cost? |
-| \(>1\) m | Can a protected payload volume be enclosed? |
+| 1 cm | ¿El análogo del parámetro de orden sigue dominado por la superficie? |
+| 10 cm | ¿El umbral escala como se predijo? |
+| 50 cm | ¿Puede la sincronización mantenerse coherente? |
+| 1 m | ¿La ventaja volumétrica modelada supera el costo superficial? |
+| \(>1\) m | ¿Puede encerrarse un volumen de carga útil protegido? |
 
-These tests concern scaling of an analogue field.
+Estas pruebas se refieren al escalamiento de un campo análogo.
 
-They are not crewed jump tests.
+No son pruebas de salto tripuladas.
 
-### A.8 Sensor Suite
+### A.8 Conjunto de Sensores
 
-A serious prototype requires independent modalities:
+Un prototipo serio requiere modalidades independientes:
 
-- RF spectrum analyzers;
-- optical interferometers;
-- atom or optical clocks;
-- strain gauges;
-- calorimetry;
-- magnetic and electric field probes;
-- accelerometers;
-- radiation detectors;
-- and external tracking.
+- analizadores de espectro de RF;
+- interferómetros ópticos;
+- relojes atómicos u ópticos;
+- medidores de deformación;
+- calorimetría;
+- sondas de campo magnético y eléctrico;
+- acelerómetros;
+- detectores de radiación;
+- y seguimiento externo.
 
-A candidate \(\varphi\)-burst must appear coherently across predicted channels and disappear in null configurations.
+Una ráfaga candidata de \(\varphi\) debe aparecer de forma coherente a través de los canales predichos y desaparecer en configuraciones nulas.
 
-### A.9 Active-Window Detector
+### A.9 Detector de Ventana Activa
 
-The most speculative instrument is the Active-Window detector.
+El instrumento más especulativo es el detector de Ventana Activa.
 
-It would search for a signal satisfying:
+Buscaría una señal que cumpla:
 
-1. nonlocal origin;
-2. branch-specific phase structure;
-3. directional response consistent with \(N\rightarrow N+1\);
-4. absence of upstream and nonadjacent signatures;
-5. temporal evolution consistent with a moving window;
-6. correlation with Anchor or natural homologous coordinates.
+1. origen no local;
+2. estructura de fase específica de rama;
+3. respuesta direccional consistente con \(N\rightarrow N+1\);
+4. ausencia de firmas corriente arriba y no adyacentes;
+5. evolución temporal consistente con una ventana en movimiento;
+6. correlación con el Ancla o con coordenadas homólogas naturales.
 
-No established detector currently measures such a quantity.
+Ningún detector establecido mide actualmente una cantidad de este tipo.
 
-The chapter therefore treats \(\Sigma_{N+1}\) as an unknown experimental requirement rather than a solved sensor problem.
+Por lo tanto, el capítulo trata \(\Sigma_{N+1}\) como un requisito experimental desconocido y no como un problema de sensado ya resuelto.
 
-### A.10 Uncrewed Safety Sequence
+### A.10 Secuencia de Seguridad No Tripulada
 
-Before any biological payload:
+Antes de cualquier carga biológica:
 
-1. test inert matter;
-2. test redundant clocks;
-3. test self-recording probes;
-4. test biological samples only after return assumptions are removed;
-5. test autonomous BioDrone systems;
-6. prohibit crewed operation until whole-volume coherence is demonstrated.
+1. probar materia inerte;
+2. probar relojes redundantes;
+3. probar sondas con autorregistro;
+4. probar muestras biológicas únicamente después de eliminar las suposiciones de retorno;
+5. probar sistemas BioDrone autónomos;
+6. prohibir la operación tripulada hasta demostrar coherencia en todo el volumen.
 
-Because a successful transition is one-way, conventional retrieval is unavailable.
+Debido a que una transición exitosa es unidireccional, la recuperación convencional no está disponible.
 
-A test vehicle must carry everything required to become operational in the successor.
+Un vehículo de prueba debe transportar todo lo necesario para volverse operativo en el sucesor.
 
-### A.11 Data Classification
+### A.11 Clasificación de Datos
 
-Every reported result must be labeled:
+Todo resultado reportado debe etiquetarse como:
 
-- **Measured**
-- **Simulated**
-- **Projected**
-- **Speculative Cosmological Interpretation**
+- **Medido**
+- **Simulado**
+- **Proyectado**
+- **Interpretación Cosmológica Especulativa**
 
-A result must never move to a stronger category through repetition of language.
+Un resultado nunca debe pasar a una categoría más fuerte por repetición del lenguaje.
 
-### A.12 Prototype Pass/Fail Logic
+### A.12 Lógica de Aprobación/Fallo del Prototipo
 
-A prototype passes its local engineering test when:
+Un prototipo aprueba su prueba local de ingeniería cuando:
 
-- the imposed profile is measured;
-- the state transition is repeatable;
-- energy accounting closes within uncertainty;
-- null controls remain null;
-- scaling follows preregistered predictions;
-- and the system remains below the EFT cutoff.
+- se mide el perfil impuesto;
+- la transición de estado es repetible;
+- el balance energético cierra dentro de la incertidumbre;
+- los controles nulos permanecen nulos;
+- el escalamiento sigue las predicciones prerregistradas;
+- y el sistema permanece por debajo del corte de la EFT.
 
-It fails when:
+Falla cuando:
 
-- signals persist in null configurations;
-- apparent switching disappears with improved resolution;
-- drive energy is omitted from accounting;
-- transition depends on uncontrolled thermal or mechanical effects;
-- or the claimed \(\beta\)-state cannot be independently measured.
+- las señales persisten en configuraciones nulas;
+- la conmutación aparente desaparece al mejorar la resolución;
+- la energía de impulso se omite del balance;
+- la transición depende de efectos térmicos o mecánicos no controlados;
+- o el estado de \(\beta\) declarado no puede medirse de forma independiente.
 
 ---
 
 <div align="center">
 
-> **The barrier may be engineered. The destination must already be alive.**
+> **La barrera puede diseñarse. El destino ya debe estar vivo.**
 
 </div>
 
