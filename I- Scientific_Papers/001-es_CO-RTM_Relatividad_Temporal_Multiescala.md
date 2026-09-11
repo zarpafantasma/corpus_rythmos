@@ -16,7 +16,7 @@ Las relaciones de ley de potencia entre escalas de tiempo y longitud $T \propto 
 
 Este replanteamiento transforma observaciones de escalamiento dispersas en un esquema de clasificación unificado. Identificamos y validamos bandas de escalamiento distintas: **balística** ($\alpha \approx 1$), **difusiva** ($\alpha \approx 2$), **fractal/biológica** ($\alpha \approx 2.3$–2.5), **jerárquica/cortical** ($\alpha \approx 2.5 - 2.7$), **holográfica** ($\alpha \rightarrow 3$), y **cuántica confinada** ($\alpha \approx 3.5$). La discretización de estas bandas—en lugar de un continuo de exponentes posibles—constituye una predicción central falsificable que distingue a RTM de la fenomenología de escalamiento genérica.
 
-Presentamos una validación numérica exhaustiva a través de **siete topologías de red distintas.** Seis regímenes son confirmados independientemente con $R^{2} > 0.98$, incluyendo el régimen holográfico ($\alpha = 2.9499 \pm 0.0683$, $R^{2} = 0.997$, IC 95% $[2.82, 3.08]$ que enmarca estrechamente el teórico $\alpha = 3.0$). Para el régimen cuántico confinado, construimos un modelo de red con confinamiento de frontera que produce $\alpha = 3.4907 \pm 0.0677$ ($R^{2} = 0.997$), con un intervalo de confianza del 95% $[3.42, 3.56]$ que incluye el objetivo teórico $\alpha = 3.5$. Esto constituye una **verificación de consistencia como prueba de concepto**—demostrando que un mecanismo de confinamiento simple genera el exponente predicho—en lugar de una validación independiente, ya que los parámetros del modelo están calibrados al objetivo. La validación definitiva del régimen cuántico confinado requiere simulación cuántica o medición experimental como se describe en la Sección 5.4.
+Presentamos **ocho casos de simulación numérica (A-H)** que abarcan las clases de transporte de RTM. Siete casos pre-especificados (A-G) son confirmados independientemente con $R^{2} > 0.98$, incluyendo el régimen holográfico ($\alpha = 2.9499 \pm 0.0683$, $R^{2} = 0.997$, IC 95% $[2.82, 3.08]$ que enmarca estrechamente el teórico $\alpha = 3.0$). El caso de Mundo Pequeño Plano es una **línea base de clase difusiva y no una banda-$\alpha$ adicional**: su MFPT de caminata aleatoria escala como $\alpha = 2.0428 \pm 0.0146$ cuando la escala característica es la longitud geodésica intrínseca del grafo, mientras que la propia longitud geodésica del grafo crece logarítmicamente con el número de nodos. Para el régimen cuántico confinado, construimos un modelo de red con confinamiento de frontera que produce $\alpha = 3.4907 \pm 0.0677$ ($R^{2} = 0.997$), con un intervalo de confianza del 95% $[3.42, 3.56]$ que incluye el objetivo teórico $\alpha = 3.5$. Esto constituye una **verificación de consistencia como prueba de concepto**—demostrando que un mecanismo de confinamiento simple genera el exponente predicho—en lugar de una validación independiente, ya que los parámetros del modelo están calibrados al objetivo. La validación definitiva del régimen cuántico confinado requiere simulación cuántica o medición experimental como se describe en la Sección 5.4.
 
 Más allá de la validación computacional, el marco RTM ha sido sometido a pruebas empíricas contra datos del mundo real en **13 dominios científicos independientes** (Docs 003-015), incluyendo fusiones de ondas gravitacionales ($\alpha = 1.024$, balístico), decoherencia en procesadores cuánticos ($\alpha = -0.259$, inverso — una Paradoja de Simpson revelada al eliminar variables confusoras), jerarquía de la corteza visual ($\alpha = 0.311$, superdifusivo), severidad de arritmias cardíacas ($\rho = -0.957$ en 10 tipos), discriminación de vórtices de tornados ($d = 0.96$, $\alpha$ subsume completamente la velocidad bruta), y 21 hallazgos significativos en cinemática galáctica SPARC utilizando canales de medición físicamente independientes. Una auditoría adversarial de tres fases (Red Team, abril 2026) produjo una puntuación promedio del corpus de **73%** en todos los dominios. La **Sección 11** aborda los tres desafíos teóricos abiertos identificados por esta auditoría: (i) una **ecuación de cierre** $\alpha = f(\mathcal{G})$ que predice $\alpha$ a partir de descriptores topológicos sin calibración empírica, con una prueba de validación cruzada dejando uno fuera prerregistrada; (ii) una **ruptura de circularidad** que demuestra que las mediciones estructurales predicen resultados dinámicos a través de canales físicamente independientes (confirmado en astronomía y detección de tornados); y (iii) una **estructura de puntos fijos** que muestra que las bandas discretas de $\alpha$ ($0$, $0.5$, $1$, $2$) corresponden a puntos fijos estables de operadores matemáticos conocidos (ecuación de onda, laplaciano, TLC, maximización de entropía) bajo flujo del grupo de renormalización. De 10 sistemas validados con $|\alpha| < 3$, nueve se agrupan dentro de $0.2$ de un punto fijo.
 
@@ -660,11 +660,11 @@ Con $L_{i}$ actuando solo dentro de volúmenes de correlación locales definidos
 >
 > con residuos pequeños bajo el modelo logarítmico y claro desajuste bajo cualquier ley de potencia simple sobre este rango. Si uno **fuerza** un ajuste de ley de potencia en ejes log-log, la ventana finita retorna una pendiente aparente $\alpha_{\text{eff}} \ll 1$; interpretamos esto como un **artefacto de especificación del modelo**, no como evidencia de una banda temporal genuinamente sublineal.
 >
-> **Interpretación RTM.** Los atajos de mundo pequeño cambian la **métrica efectiva**: cuando el "reloj" cuenta saltos, $\mathcal{l} \sim \log N$. Relativo al tamaño del sistema euclidiano $L \propto N$, un tiempo de recorrido físico con latencia por salto $\tau$ es $T_{\text{phys}} \approx \tau l(N) \propto \log L$. Por lo tanto el caso de mundo pequeño queda **fuera** de la plantilla RTM estándar $T \propto L^{\alpha}$ para recorrido euclidiano. Si uno adopta la **longitud geodésica del grafo** $L^{'}:= \mathcal{l}(N)$(o $L^{'}:= \log N$) como la escala, entonces $T \propto L^{'}$ con $\alpha = 1$ en esa métrica.
+> **Interpretación RTM.** Los atajos de mundo pequeño cambian la **métrica efectiva**: $\mathcal{l} \sim \log N$. Para un **reloj de recorrido por camino mínimo** con latencia fija por salto $\tau$, se tiene $T_{\text{path}} \approx \tau\mathcal{l}(N) \propto \log N$ respecto al número de nodos (o a un proxy de tamaño euclidiano). Esto queda fuera de la plantilla estándar de ley de potencia de RTM cuando se usa $N$ como escala. La Simulación C posterior utiliza un observable diferente—el **MFPT de caminata aleatoria**—y ajusta ese reloj contra la propia longitud geodésica intrínseca del grafo.
 >
-> Excluimos el caso de mundo pequeño de la tabla de resultados porque su escalamiento es **logarítmico** ($\mathcal{l} \sim \log N$), no una ley de potencia. La tabla resume regímenes de **ley de potencia** vía $\alpha$; forzar un ajuste de potencia aquí produciría un $\alpha_{\text{eff}} \ll 1$ engañoso que refleja mala especificación del modelo en lugar de una banda RTM genuina.
+> Esta afirmación logarítmica se refiere a la **longitud geodésica del grafo frente al número de nodos (o un proxy de tamaño euclidiano)** y no debe confundirse con la Simulación C posterior, que plantea una pregunta diferente: cómo escala el MFPT de caminata aleatoria $T$ con la **longitud geodésica intrínseca del grafo** $L=\mathcal{l}(N)$. En esa métrica intrínseca, la Simulación C da $T \propto L^{2.0428}$, es decir, una ley de potencia de clase difusiva. Por lo tanto, la misma construcción de Watts-Strogatz puede exhibir $\mathcal{l}(N)\sim\log N$ como propiedad métrica mientras su reloj de caminata aleatoria escala aproximadamente de forma cuadrática con $\mathcal{l}$.
 >
-> **Conclusión.** Por lo tanto reportamos el caso de mundo pequeño como un **subdominio topológico con escalamiento logarítmico**, no como una nueva banda de ley de potencia RTM con $\alpha < 1$. El trabajo futuro mapeará la frontera entre este régimen topológico y el comportamiento difusivo/balístico clásico como función de probabilidad de recableado $p$, grado $k$, dimensión y efectos de tamaño finito.
+> **Conclusión.** La topología de Mundo Pequeño Plano se conserva por tanto en los resultados numéricos como una **línea base de clase difusiva**, no como una banda-$\alpha$ adicional de RTM. La relación logarítmica $\mathcal{l}(N)$ se reporta como diagnóstico métrico complementario. El trabajo futuro mapeará la transición entre descripciones de tamaño euclidiano, geodésica de grafo, balística y difusiva como función de la probabilidad de recableado $p$, grado $k$, dimensión y efectos de tamaño finito.
 
 6.  **Validación Experimental:**
 
@@ -1010,7 +1010,7 @@ $$
 
 Para verificar la predicción RTM de que los tiempos característicos escalan como T ∝ L^α a través de regímenes físicos distintos, condujimos una suite exhaustiva de simulaciones numéricas abarcando el rango completo de exponentes teóricos. Todas las simulaciones fueron implementadas en Python con reproducibilidad completa: cada una incluye código fuente, notebooks Jupyter, contenedores Docker y archivos de datos de salida disponibles como material suplementario.
 
-Las simulaciones validan predicciones RTM a través de siete topologías de red y mecanismos de transporte distintos, desde propagación balística (α ≈ 1) hasta redes de decaimiento holográfico tendiendo hacia α ≈ 3. Cada simulación mide el Tiempo Medio de Primer Paso (MFPT) u observable temporal equivalente como función del tamaño del sistema L, luego extrae el exponente de escalamiento α vía regresión log-log.
+La suite contiene ocho casos numéricos (A-H), desde propagación balística (α ≈ 1) hasta redes de decaimiento holográfico tendiendo hacia α ≈ 3 y un caso de consistencia cuántico confinado dependiente del modelo cerca de α ≈ 3.5. Siete casos (A-G) son pruebas independientes pre-especificadas. Mundo Pequeño Plano (C) se incluye como control de clase difusiva en la métrica geodésica intrínseca del grafo, no como una banda RTM separada. Cada simulación mide el Tiempo Medio de Primer Paso (MFPT) u observable temporal equivalente como función de su escala característica L definida explícitamente, luego extrae el exponente de escalamiento α vía regresión log-log.
 
 -   **Simulación A: Propagación Balística en Red 1-D**
 
@@ -1080,9 +1080,9 @@ El α ajustado = 1.97 está dentro de 1.5% del valor teórico α = 2, confirmand
 
 **Interpretación**
 
-La red de mundo pequeño plana produce α ≈ 2.04, solo marginalmente por encima de la línea base difusiva. Esto indica que mientras los atajos de mundo pequeño reducen las longitudes de camino absolutas, no alteran fundamentalmente el régimen de escalamiento. La red permanece efectivamente difusiva cuando se mide contra su escala de longitud geodésica de grafo intrínseca.
+La red de mundo pequeño plana produce α ≈ 2.04 cuando el MFPT se ajusta contra la **longitud geodésica intrínseca del grafo** $L$. Esto la sitúa en la misma clase de escalamiento difusivo que la referencia α ≈ 2, en lugar de definir una nueva banda RTM. Los atajos de mundo pequeño reducen fuertemente la relación entre el número de nodos y la distancia del grafo ($\mathcal{l}(N)\sim\log N$), pero una vez que la propia distancia del grafo se usa como longitud característica, el reloj de caminata aleatoria permanece aproximadamente cuadrático.
 
-Este resultado establece una línea base importante: la topología de mundo pequeño sola no produce los valores elevados de α (2.3–2.7) observados en redes neuronales biológicas. Se requiere estructura jerárquica o modular adicional para alcanzar el régimen de escalamiento tipo cortical.
+Este resultado establece un control importante: la topología de mundo pequeño por sí sola no produce los valores elevados de α (2.3–2.7) observados en redes neuronales biológicas. Se requiere estructura jerárquica o modular adicional para alcanzar el régimen de escalamiento tipo cortical. Por lo tanto, el valor 2.0428 se reporta como una **línea base de mundo pequeño medida dentro de la clase difusiva**, no como una octava banda temporal ni como una banda separada.
 
 -   **Simulación D: Red Fractal de Sierpiński**
 
@@ -1322,7 +1322,7 @@ Todo el código liberado bajo licencia CC BY 4.0.
 |:---|:---|:---:|:---|:---|:---:|:---:|
 | A. **Balístico 1-D** | Cadena lineal | 1.00 | $1.0000 \pm 0.0001$ | $[1.0000, 1.0000]$ | 1.0000 | ✅ Confirmado |
 | B. **Difusivo 1-D** | Lineal + RW | 2.00 | $1.9698 \pm 0.0089$ | $[1.9448, 1.9878]$ | 0.9999 | ✅ Confirmado |
-| C. **Mundo Pequeño Plano** | Watts-Strogatz | $\sim$2.0 | $2.0428 \pm 0.0146$ | $[2.0109, 2.0749]$ | 0.9998 | ✅ Confirmado |
+| C. **Mundo Pequeño Plano** | Watts-Strogatz (métrica intrínseca del grafo) | $\sim$2.0 | $2.0428 \pm 0.0146$ | $[2.0109, 2.0749]$ | 0.9998 | ✅ Confirmado — clase difusiva |
 | D. **Fractal Sierpiński** | Fractal determinista | $d_{w} \approx 2.32$ | $2.3245 \pm 0.0157$ | $[2.2832, 2.3558]$ | 0.9999 | ✅ Confirmado |
 | E. **Árbol Vascular** | Árbol fractal 3D | 2.4–2.6 | $2.3875 \pm 0.1595$ | $[2.0599, 3.4305]$ | 0.9868 | ✅ Confirmado |
 | F. **SW Jerárquico** | Jerarquía modular | 2.5–2.7 | $2.6684 \pm 0.0806$ | $[2.4845, 2.9035]$ | 0.9973 | ✅ Confirmado |
@@ -1348,11 +1348,13 @@ Todo el código liberado bajo licencia CC BY 4.0.
 
 **Estadísticas Resumidas**
 
-- **Regímenes probados:** 8 (7 ley de potencia + 1 mundo pequeño logarítmico, excluido de la tabla)
+- **Casos de simulación numérica:** 8 (A-H)
 
-- **Confirmados independientemente:** 7 de 7 regímenes de ley de potencia
+- **Casos confirmados independientemente:** 7 (A-G); Mundo Pequeño Plano es una línea base de clase difusiva, no una banda-$\alpha$ adicional
 
-- **Consistente (dependiente del modelo):** 1 (cuántico confinado)
+- **Consistente (dependiente del modelo):** 1 (cuántico confinado, H)
+
+- **Diagnóstico métrico complementario de Mundo Pequeño:** $\mathcal{l}(N) \sim \log N$ con el número de nodos, mientras que el MFPT de caminata aleatoria obedece $T \propto \mathcal{l}^{2.0428}$ en la métrica intrínseca del grafo
 
 - **$\mathbf{R}^{\mathbf{2}}$ promedio:** 0.9972
 
@@ -1490,9 +1492,9 @@ Este experimento, factible con tecnología actual en laboratorios avanzados de f
 
 **6.1 Visión General**
 
-Para validar el marco de Relatividad Temporal Multiescala (RTM), realizamos un conjunto exhaustivo de simulaciones numéricas a través de siete topologías de red distintas, diseñadas para abarcar el espectro teórico de exponentes de escalamiento. Cada simulación midió el Tiempo Medio de Primer Paso (MFPT) u observable temporal equivalente en función del tamaño del sistema $L$, extrayendo el exponente de escalamiento $\alpha$ mediante análisis de regresión log-log.
+Para validar el marco de Relatividad Temporal Multiescala (RTM), realizamos ocho casos de simulación numérica (A-H) que abarcan el espectro teórico de exponentes de escalamiento. Siete casos (A-G) son pruebas independientes pre-especificadas, mientras que H es una verificación de consistencia de confinamiento dependiente del modelo. Cada simulación midió el Tiempo Medio de Primer Paso (MFPT) u observable temporal equivalente en función de una escala característica $L$ definida explícitamente, extrayendo el exponente de escalamiento $\alpha$ mediante análisis de regresión log-log.
 
-La Tabla 1 resume los resultados obtenidos de simulaciones de alta resolución a través de todos los regímenes predichos. Estos resultados demuestran una correspondencia directa entre la topología de red y el exponente de escalamiento temporal $\alpha$.
+La Tabla 1 resume los resultados de simulación de alta resolución. Mundo Pequeño Plano (C) se conserva porque su MFPT sigue una ley de potencia cuando se expresa contra la longitud geodésica intrínseca del grafo; pertenece a la clase difusiva y no define una banda-$\alpha$ adicional. La relación separada $\mathcal{l}(N)\sim\log N$ describe cómo crece esa métrica intrínseca con el número de nodos.
 
 **Tabla 1: Resultados de Validación Numérica de RTM**
 
@@ -1500,7 +1502,7 @@ La Tabla 1 resume los resultados obtenidos de simulaciones de alta resolución a
 | :--- | :--- | :--- | :--- | :--- | :---: |
 | **A. Balístico 1-D** | Cadena lineal | $1.00$ | $1.0000 \pm 0.0001$ | $1.000$ | ✓ |
 | **B. Difusivo 1-D** | Lineal + RW | $2.00$ | $1.9698 \pm 0.0089$ | $0.9999$ | ✓ |
-| **C. Mundo Peq. Plano** | Watts-Strogatz | $\approx 2.0$ | $2.0428 \pm 0.0146$ | $0.9998$ | ✓ |
+| **C. Mundo Peq. Plano** | Watts-Strogatz (métrica intrínseca del grafo) | $\approx 2.0$ | $2.0428 \pm 0.0146$ | $0.9998$ | ✓ Clase difusiva |
 | **D. Sierpiński** | Gasket fractal | $d_w \approx 2.32$ | $2.3245 \pm 0.0157$ | $0.9999$ | ✓ |
 | **E. Árbol Vascular** | Árbol fractal 3D | $2.4$–$2.6$ | $2.3875 \pm 0.1595$ | $0.9868$ | ✓ |
 | **F. Jerárquico** | SW modular | $2.5$–$2.7$ | $2.6684 \pm 0.0806$ | $0.9973$ | ✓ |
@@ -1515,9 +1517,9 @@ $◐$ = Consistente/Dependiente del modelo = Exponente reproducido vía parámet
 
 **6.2 Resultados por Régimen**
 
-**Regímenes Balístico ($\mathbf{\alpha}$=1) y Difusivo ($\mathbf{\alpha}$=2)**
+**Regímenes Balístico ($\mathbf{\alpha}$=1) y de Clase Difusiva ($\mathbf{\alpha}$≈2)**
 
-Las líneas base fundamentales de la teoría se reprodujeron con precisión exacta. La simulación balística produjo $\alpha = 1.0000$, y la simulación difusiva produjo $\alpha \approx 1.97$, confirmando que RTM encapsula correctamente la mecánica de transporte clásico estándar como casos límite.
+Las líneas base fundamentales de la teoría se reprodujeron con alta precisión. La simulación balística produjo $\alpha = 1.0000$, y la simulación difusiva 1-D produjo $\alpha \approx 1.97$. Mundo Pequeño Plano produjo $\alpha = 2.0428 \pm 0.0146$ cuando el MFPT se ajustó contra la longitud geodésica intrínseca del grafo, situándolo en la misma clase difusiva en lugar de crear una banda separada. Sin embargo, su longitud geodésica del grafo escala logarítmicamente con el número de nodos, $\mathcal{l}(N)\sim\log N$; estas afirmaciones son compatibles porque utilizan variables independientes diferentes.
 
 **Regímenes Fractal y Biológico ($\mathbf{\alpha \approx}$ 2.3 - 2.5)**
 
@@ -1525,7 +1527,7 @@ Las simulaciones en estructuras fractales (gasket de Sierpiński) coincidieron c
 
 **Régimen Jerárquico/Cortical ($\mathbf{\alpha \approx}$ 2.5 - 2.7)**
 
-La red modular jerárquica produjo $\alpha = 2.6684 \pm 0.0806$. Este resultado, distinto de la línea base de mundo pequeño plano ($\alpha = 2.04$), cuantifica el costo temporal de la organización jerárquica inherente en arquitecturas modulares complejas.
+La red modular jerárquica produjo $\alpha = 2.6684 \pm 0.0806$. Este resultado está claramente elevado por encima del **control de clase difusiva** de mundo pequeño plano ($\alpha = 2.04$ en la métrica intrínseca del grafo), cuantificando el costo temporal de la organización jerárquica inherente en arquitecturas modulares complejas.
 
 **Régimen Holográfico ($\mathbf{\alpha \rightarrow}$ 3)**
 
@@ -1537,17 +1539,19 @@ La simulación de prueba de concepto (H) usando una red 3D con potenciales de co
 
 **6.3 Resumen**
 
--   **Regímenes probados:** 8 (7 ley de potencia + 1 mundo pequeño logarítmico).
+-   **Casos de simulación numérica:** 8 (A-H).
 
--   **Confirmados independientemente:** 7 de 7 regímenes de ley de potencia (incluyendo Holográfico).
+-   **Confirmados independientemente:** 7 casos (A-G), con Mundo Pequeño Plano clasificado dentro de la banda difusiva en lugar de como una banda temporal separada.
 
--   **Consistente (dependiente del modelo):** 1 (Cuántico Confinado).
+-   **Consistente (dependiente del modelo):** 1 (Cuántico Confinado, H).
 
--   **$\mathbf{R}^{\mathbf{2}}$ promedio:** **0.9969** (Mejorado de versiones anteriores).
+-   **Diagnóstico métrico complementario de Mundo Pequeño:** $\mathcal{l}(N)\sim\log N$ frente al número de nodos; $T\propto\mathcal{l}^{2.0428}$ para MFPT de caminata aleatoria en la métrica intrínseca del grafo.
 
--   **Rango de exponentes validados:** $\alpha = 1.00$ a $\alpha \approx 3.50$.
+-   **$\mathbf{R}^{\mathbf{2}}$ promedio:** **0.9972**.
 
-La progresión sistemática desde balístico ($\alpha = 1$) pasando por difusivo ($\alpha = 2$), fractal ($\alpha \approx 2.3$), jerárquico ($\alpha \approx 2.7$), holográfico ($\alpha \approx 3.0$), hasta cuántico confinado ($\alpha \approx 3.5$) confirma la predicción de RTM de que los exponentes de escalamiento temporal forman bandas discretas determinadas por la topología de red y el mecanismo de transporte.
+-   **Rango de exponentes validado independientemente:** $\alpha = 1.00$ a $\alpha \approx 2.95$; **extensión dependiente del modelo:** $\alpha \approx 3.49$.
+
+La progresión sistemática desde balístico ($\alpha = 1$) pasando por la clase difusiva ($\alpha \approx 2$, incluyendo la línea base de mundo pequeño en métrica intrínseca), fractal/biológica ($\alpha \approx 2.3$-2.5), jerárquica ($\alpha \approx 2.7$), holográfica ($\alpha \approx 3.0$), hasta cuántica confinada ($\alpha \approx 3.5$) respalda la predicción de RTM de que los exponentes de escalamiento temporal se agrupan en bandas estructurales determinadas por la topología y el mecanismo de transporte.
 
 **6.4 Reproducibilidad**
 
