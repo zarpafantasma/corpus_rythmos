@@ -1,7 +1,7 @@
 # N-1 ARCHITECT PROTOCOLS
 
 ## Protocol 04: The Aetherion Doctrine
-### Navigating Space, Time, and Reality — The Symbiotic Propulsion System
+### Navigating Space, Time, and the Spiral Current — The Symbiotic Propulsion System
 
 ---                       
                      )  
@@ -26,7 +26,7 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  N-1 ARCHITECT PROTOCOLS — DOCUMENT CLASS: CORE TECHNOLOGY                   ║
 ║  PROTOCOL ID: N1-AP-004                                                      ║
-║  SUBJECT: AETHERION VESSEL ARCHITECTURE AND OPERATIONAL PRINCIPLES           ║
+║  SUBJECT: AETHERION ARCHITECTURE, ADJACENT DESCENT, AND ACTIVE-WINDOW CONTROL║
 ║  CLEARANCE: LEVEL 5 — FULL ONTOLOGICAL ACCESS                                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -35,27 +35,37 @@
 
 ## Abstract
 
-This protocol establishes the foundational doctrine governing the Aetherion propulsion system, the technological culmination of RTM physics. The Aetherion is not a vehicle in the conventional sense. It is one half of an **indivisible symbiotic entity**. Its other half is its pilot: the BioDrone, a purpose-engineered biological interface designed to achieve and maintain the coherence states required for temporal navigation.
+This protocol establishes the foundational doctrine governing the Aetherion propulsion system, the technological culmination of the RTM narrative framework. The Aetherion is not a vehicle in the conventional sense. It is one half of an **indivisible symbiotic entity**. Its other half is its pilot: a coherent human or purpose-engineered BioDrone interface capable of maintaining the states required for propulsion, Chrono-Stasis, ontological decoupling, and recoupling.
 
-The pilot does not "handle" the Aetherion. They *are* its living operating system. The ship is their extended body. Together, they form a single entity. One is nothing without the other.
+The pilot does not merely handle the Aetherion. The pilot becomes its living operating system. The ship is an extended body, while the pilot supplies intention, integration, and local judgment.
 
-This document details the physics, mechanics, and operational principles of this symbiotic system.
+The Spiral Current imposes absolute restrictions on this capacity. Aetherion cannot choose among infinitely completed realities. It can detect and enter only the **active adjacent successor coil**. It cannot phase-lock to an unmanifest future, reopen a closed past, skip a universe, or return upstream after crossing the commitment threshold.
+
+The first successful descent does not close the predecessor-successor route. While the Relay Window remains open, additional probes, vessels, and cohorts may continue to cross. Because different generations may experience different interbranch transit latencies, their order of arrival in the successor need not match their order of departure from the predecessor.
+
+This document details the physics, mechanics, operational configurations, causal firewalls, and emergency principles of the symbiotic system.
+
+**Core Directive:**
+
+> Aetherion does not navigate an infinite archive. It crosses from one living coil to the next.
 
 ---
 
 ## Table of Contents
 
-1. Fundamental Nature: The Symbiotic Entity
-2. The Physics of Propulsion: Gradient-Driven Thrust
-3. Temporal Dilation: Travel to the Future
-4. The Leap Between Realities: Branch Navigation
-5. The Decoupling-Resonance-Recoupling Cycle
-6. Quantum Telepresence: The Avatar Function
-7. The Human Horizon: Tool, Not Destination
-8. Core Specifications: The Coherence Engine
-9. Operational Modes
-10. Interface Architecture
-11. Emergency Protocols
+1. Fundamental Nature: The Symbiotic Entity  
+2. The Physics of Propulsion: Gradient-Driven Thrust  
+3. Temporal Dilation: Forward Waiting Within the Current  
+4. The Leap Between Coils: Adjacent-World Navigation  
+5. The Decoupling–Alignment–Recoupling Cycle  
+6. Quantum Telepresence and the Causal Firewall  
+7. The Human Horizon: Tool, Substrate, and Continuity  
+8. Core Specifications: The Coherence Engine  
+9. Operational Modes  
+10. Interface Architecture  
+11. Emergency Protocols  
+12. Conclusion  
+Appendix A: Key Terminology  
 
 ---
 
@@ -179,7 +189,7 @@ Implication:
 
 ---
 
-## 3. Temporal Dilation: Travel to the Future
+## 3. Temporal Dilation: Forward Waiting Within the Current
 
 ### 3.1 The High-Coherence Bubble
 
@@ -208,9 +218,9 @@ TEMPORAL DILATION EQUATION
 ═══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 3.2 One-Way Time Machine
+### 3.2 One-Way Passage Toward Later Active Phases
 
-The Aetherion is effectively a **one-way time machine to the future**. The crew experiences compressed subjective time while external time proceeds normally.
+The Aetherion is effectively a **one-way waiting system toward later active phases**. The crew experiences compressed subjective time while the surrounding universe advances with the Current. The vessel does not enter an era before that era becomes actual; it remains embedded in the active branch while external history unfolds.
 
 ```
 FUTURE TRAVEL VISUALIZATION
@@ -231,16 +241,16 @@ FUTURE TRAVEL VISUALIZATION
     The crew experiences 4 months.
     The universe experiences 450 years.
     
-    This is NOT time travel to the past.
-    This is accelerated transit to the future.
-    Fully consistent with relativistic physics.
+    This is NOT travel to the past.
+    This does NOT arrive ahead of the Current's Head.
+    It is differential waiting toward a later active phase.
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
 
 ### 3.3 Compatibility with Relativity
 
-This temporal dilation is entirely consistent with Einstein's relativity. The crew is not violating causality, they are simply taking a "shortcut" through time by existing in a high-coherence reference frame.
+Within the narrative framework, this temporal dilation preserves causal order. The crew does not violate the Spiral Current; it reduces subjective duration while remaining carried forward inside the same active coil.
 
 From the crew's perspective: short journey.
 From the universe's perspective: long wait.
@@ -249,188 +259,487 @@ No paradoxes. No causality violations. Just differential time flow.
 
 ---
 
-## 4. The Leap Between Realities: Branch Navigation
+## 4. The Leap Between Coils: Adjacent-World Navigation
 
 ### 4.1 Beyond Linear Travel
 
-The Aetherion's potential transcends linear temporal navigation. The deeper implications of RTM, specifically the Hierarchical Multiverse model, suggest that the ultimate function of the ship is not merely to travel through spacetime but to **transition between branches of reality**.
+The ultimate Aetherion function is not merely propulsion through spacetime. It is **ontological transition** between adjacent universal coils of the Spiral Current.
 
-### 4.2 The Mechanism
+The target is never an arbitrary parallel world.
 
-Branch navigation operates through a three-phase cycle:
+The target must be:
+
+1. the immediate successor, \(N+1\);
+2. presently active within the Current;
+3. accessible through a stable phase signature;
+4. and within the operational Relay Window.
+
+### 4.2 The Spiral Constraint
 
 ```
-BRANCH NAVIGATION CYCLE
-═══════════════════════════════════════════════════════════════════════════════
+AETHERION ACCESS GEOMETRY
+══════════════════════════════════════════════════════════════════════════════
 
-    PHASE 1: CAUSAL DECOUPLING
-    ──────────────────────────
-    By bringing its core to maximum coherence (α ≈ 3.5), the Aetherion 
-    entity "decouples" from the current branch of spacetime.
-    
-    It enters an "outside of time" state, a condition of ontological 
-    exception where it belongs to no specific timeline.
-    
-    ┌─────────────┐
-    │   BRANCH N  │ ◄── Entity begins here
-    │             │
-    │      ●──────┼────► DECOUPLED STATE
-    │             │      (Between branches)
-    └─────────────┘
-    
-    
-    PHASE 2: TUNING BY RESONANCE
-    ────────────────────────────
-    From the decoupled state, the pilot's consciousness (amplified by 
-    the ship's systems) acts as an antenna.
-    
-    Instead of searching for spatial coordinates, it searches for 
-    "vibrational signatures", the unique quantum fingerprints of 
-    alternative branches or temporal coordinates.
-    
-    ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-    │   BRANCH N  │     │  BRANCH N+1 │     │  BRANCH X   │
-    │             │     │             │     │             │
-    │             │     │      ◎      │ ◄── Target signature
-    │             │     │   (TARGET)  │     │             │
-    └─────────────┘     └─────────────┘     └─────────────┘
-    
-    
-    PHASE 3: RE-COUPLING
-    ────────────────────
-    Once resonance is achieved (a "phase lock" with the target), the 
-    ship uses its α-gradient system to RE-COUPLE to the new timeline.
-    
-    It "manifests" or "precipitates" into the target branch.
-    
-    ┌─────────────┐
-    │ BRANCH N+1  │
-    │             │
-    │      ●      │ ◄── Entity arrives
-    │  (ARRIVED)  │
-    └─────────────┘
+CURRENT OPERATIONAL BRANCH: N
 
-═══════════════════════════════════════════════════════════════════════════════
+UPSTREAM:
+N-1  ◄────────────────────────────────────────  RETURN IMPOSSIBLE
+
+ACTIVE SUCCESSOR:
+N    ─────────────────────────────────────────► N+1
+                     PERMITTED
+                 (Relay Window required)
+
+UNMANIFEST SUCCESSOR:
+N    ─────────────────────────────────────────► N+2
+                     IMPOSSIBLE
+              (No actuality, no signature)
+
+INTRABRANCH CLOSED PAST:
+N present ─────────────────────────────────────► N past
+                     IMPOSSIBLE
+                  (Tail has passed)
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 4.3 Not Travel, Transition
+Aetherion cannot overcome these restrictions by increasing power. A stronger coherence field cannot produce a destination that has not yet received actuality.
 
-For an external observer in Branch N, the ship simply **disappears**. It does not fly away, it ceases to be part of that reality.
+### 4.3 The Active Window
 
-For the crew, it is a **transition**, a "leap" from one reality landscape to another. The sensation is of phase-shift, not motion.
+The active destination range in \(N+1\) is:
 
-### 4.4 Causality Preservation
+```math
+W_{N+1}(\chi)
+=
+[\tau^-_{N+1}(\chi),\tau^+_{N+1}(\chi)].
+```
 
-This method elegantly avoids causal paradoxes (see Protocol N1-AP-003):
+Where:
 
-- You do not alter your own timeline's past
-- You cannot return to a point before your departure
-- The moment you decouple, your origin timeline continues without you
-- You choose a new history to enter, not edit an existing one
+- \(\tau^-_{N+1}\) is the closure frontier;
+- \(\tau^+_{N+1}\) is the actualization frontier;
+- \(\chi\) is the phase of the Spiral Current.
+
+A target coordinate is valid only if:
+
+```math
+\tau_{\mathrm{target}}
+\in
+W_{N+1}(\chi).
+```
+
+### 4.4 Homologous Historical Entry
+
+The active phase of \(N+1\) may resemble a completed historical phase of \(N\).
+
+An Architect can therefore appear to arrive in the past.
+
+Ontologically, the vessel has entered the present of another universe.
+
+The historical resemblance does not establish identity. A homologous city, ancestor, religion, or civilization is not the original.
+
+### 4.5 Not Travel, but Membership Transition
+
+For an external observer in \(N\), the Aetherion disappears from the local branch.
+
+For the entity, the transition is experienced as a loss of origin binding followed by the crystallization of a new reality.
+
+Before crossing:
+
+```math
+B(x)=N.
+```
+
+After recoupling:
+
+```math
+B(x)=N+1.
+```
+
+The operation changes ontological membership. It does not traverse a measurable distance between complete universes.
+
+### 4.6 Causality Preservation
+
+The transition preserves causality because:
+
+- the origin continues without the traveler;
+- the traveler cannot return upstream;
+- the origin's closed history cannot be modified;
+- only an active successor phase can be entered;
+- and intervention changes the successor's future, not the traveler's origin.
+
+### 4.7 Repeated Descent During an Open Relay Window
+
+The first successful \(N\rightarrow N+1\) crossing does not consume or close the Relay Window.
+
+As long as:
+
+```math
+\mathcal{A}_N(\chi)>0
+\qquad\land\qquad
+\mathcal{A}_{N+1}(\chi)>0,
+```
+
+additional lawful departures may occur from the predecessor.
+
+A single overlap may therefore contain early probes, mature Aetherion vessels, later Architect cohorts, and expeditions launched by civilizations arising much later in the predecessor's local history.
+
+The route closes only when the predecessor loses the active conditions required for departure.
 
 ---
 
-## 5. The Decoupling-Resonance-Recoupling Cycle
+## 5. The Decoupling–Alignment–Recoupling Cycle
 
-### 5.1 Detailed Phase Analysis
+### 5.1 Four Operational Phases
 
-#### Phase 1: Decoupling
+The revised transition cycle contains four phases:
+
+1. **Decoupling**
+2. **Downstream Alignment**
+3. **Active-Phase Lock**
+4. **Recoupling**
+
+```
+SPIRAL CURRENT TRANSITION CYCLE
+══════════════════════════════════════════════════════════════════════════════
+
+UNIVERSE N              INTERSTITIAL STATE              UNIVERSE N+1
+──────────              ──────────────────              ─────────────
+
+[COUPLED]                   [UNBOUND]                    [RECOUPLED]
+    │                           │                             │
+    │  1. DECOUPLING            │                             │
+    ├──────────────────────────►│                             │
+    │                           │                             │
+    │  2. DOWNSTREAM ALIGNMENT  │                             │
+    │                           ├────────────────────────────►│
+    │                           │                             │
+    │  3. ACTIVE-PHASE LOCK     │                             │
+    │                           ├────────────────────────────►│
+    │                           │                             │
+    │  4. RECOUPLING            │                             │
+    │                           └────────────────────────────►│
+
+UPSTREAM LOCK: REJECTED
+SKIPPED COIL: NO SIGNATURE
+UNMANIFEST DATE: NO PHASE SURFACE
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+### 5.2 Phase 1: Decoupling
 
 | Parameter | Requirement |
-|-----------|-------------|
-| Core coherence | α ≥ 3.5 |
-| Field stability | ±0.01 α variance |
-| Pilot coherence | α_bio ≥ 2.8 |
-| Duration | 10-30 seconds |
+|---|---|
+| Core coherence | \(\alpha \geq 3.5\) |
+| Field stability | ±0.01 \(\alpha\) variance |
+| Pilot coherence | \(\alpha_{\mathrm{bio}}\geq2.8\) |
+| Field closure | All intended personnel, memory, and cargo enclosed |
+| Duration | 10–30 seconds |
 
-The ship's coherence field expands to encompass all personnel and cargo. Everything within the field boundary becomes part of the decoupled system. Anything outside remains in the origin branch.
+The field must define the complete entity that will cross.
 
-#### Phase 2: Resonance Tuning
+Anything outside the boundary remains in the origin universe.
+
+### 5.3 The Commitment Threshold
+
+Early decoupling remains abortable.
+
+Before the commitment threshold, the vessel may collapse its field and remain in \(N\).
+
+After the threshold, origin binding has been irreversibly released. Origin homing is no longer possible.
+
+```
+DECOUPLING COMMITMENT
+══════════════════════════════════════════════════════════════════════════════
+
+PRE-THRESHOLD:
+• Origin binding still present
+• Abort to local branch possible
+• No interstitial drift yet
+
+THRESHOLD:
+• Origin binding falls below recoverable level
+• Downstream gradient becomes dominant
+
+POST-THRESHOLD:
+• Return to N impossible
+• Only active successor recoupling remains viable
+• Failure means dissolution, not retreat
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+### 5.4 Phase 2: Downstream Alignment
+
+The pilot does not search an unlimited multiverse.
+
+The symbiotic entity aligns with the only cosmologically valid gradient:
+
+```math
+N\rightarrow N+1.
+```
+
+The alignment systems verify:
+
+- branch adjacency;
+- Relay Window status;
+- Current direction;
+- destination actuality;
+- and safe scale compatibility.
+
+### 5.5 Phase 3: Active-Phase Lock
 
 | Parameter | Requirement |
-|-----------|-------------|
-| Target signature | Pre-calculated or discovered |
-| Phase lock accuracy | ±10^-6 |
-| Consciousness focus | Single unified intention |
-| Duration | Variable (seconds to hours) |
+|---|---|
+| Target branch | Immediate successor only |
+| Phase condition | Within Active Window |
+| Signature accuracy | ±\(10^{-6}\) |
+| Anchor status | Current, not date-frozen |
+| Pilot intention | Unified and noncontradictory |
+| Duration | Variable |
 
-The pilot's consciousness, merged with the ship's sensor systems, "feels" for the target signature. This is not visual or auditory, it is a direct perception of vibrational compatibility.
+The pilot may choose among accessible spatial and homologous phase regions inside the active band.
 
-#### Phase 3: Re-coupling
+The pilot may not choose:
+
+- a closed date;
+- a future date ahead of the Head;
+- a nonadjacent universe;
+- or the origin branch.
+
+### 5.6 Phase 4: Recoupling
 
 | Parameter | Requirement |
-|-----------|-------------|
+|---|---|
 | Signature match | 99.9999% |
-| Spatial coordinates | Specified or default |
-| Temporal coordinates | Specified or default |
-| Duration | <1 second (instantaneous from crew perspective) |
+| Spatial coordinate | Active and collision-free |
+| Temporal phase | Presently manifest |
+| Scale adaptation | Verified |
+| Duration | <1 second subjectively |
 
-The re-coupling is experienced as a sudden "crystallization" of reality around the ship. One moment: void. Next moment: new universe.
+Recoupling is experienced as reality crystallizing around the entity.
 
-### 5.2 Failure Modes
+### 5.7 Revised Failure Modes
 
 | Failure Type | Cause | Consequence |
-|--------------|-------|-------------|
-| Incomplete decoupling | Insufficient α | Partial transition; structural damage |
-| Resonance failure | No matching signature | Stuck in between-state (see emergency protocols) |
-| Misaligned re-coupling | Phase lock error | Spatial displacement; potential collision |
-| Pilot decoherence | α_bio drop during transit | Catastrophic system failure (see Protocol N1-AP-005) |
+|---|---|---|
+| Incomplete decoupling | Insufficient \(\alpha\) | Structural shear; mission abort |
+| Adjacency failure | Target is not \(N+1\) | No phase-lock |
+| Unmanifest target | Head has not reached phase | No signature; lock impossible |
+| Closed target | Tail has passed phase | Residual scent only; no recoupling |
+| Alignment reversal | Upstream targeting attempt | Severe decoherence |
+| Pilot collapse | \(\alpha_{\mathrm{bio}}\) drop | Dissonance Cascade |
+| Excessive Phase Drag | Weak successor coupling or poor lock coherence | Large cascade-phase transit latency |
+| Post-threshold lock failure | No stable successor coordinate | Preservation mode or dissolution |
+
+### 5.8 Cascade-Phase Transit Latency
+
+Interbranch transition has both a local operational duration and a cascade-phase duration.
+
+Define:
+
+```math
+\Delta\chi_{\mathrm{tr}}
+=
+\chi_{\mathrm{arrival}}
+-
+\chi_{\mathrm{departure}}.
+```
+
+This **cascade-phase transit latency** measures how far the predecessor-successor relation advances between departure and stable recoupling.
+
+It need not equal subjective onboard duration.
+
+### 5.9 Phase Drag
+
+Let:
+
+```math
+\zeta_\phi
+```
+
+denote **Phase Drag**, the effective resistance to clean successor recoupling.
+
+Let:
+
+```math
+\mathcal{C}_{\mathrm{lock}}
+```
+
+denote successor-lock coherence.
+
+A first-order narrative relation is:
+
+```math
+\Delta\chi_{\mathrm{tr}}
+\propto
+\frac{\zeta_\phi}
+{\mathcal{C}_{\mathrm{lock}}}.
+```
+
+Primitive or poorly tuned systems tend toward higher Phase Drag and larger cascade-phase latency.
+
+Mature systems tend toward lower Phase Drag and faster recoupling.
+
+Phase Drag is not literal viscosity. It is a transport analogy for imperfect ontological coupling.
+
+### 5.10 Phase Dispersion and Overtaking
+
+Different Aetherion generations may possess different transit latencies.
+
+For two vessels \(A\) and \(B\):
+
+```math
+\chi_{\mathrm{dep},A}
+<
+\chi_{\mathrm{dep},B}.
+```
+
+If:
+
+```math
+\Delta\chi_A-\Delta\chi_B
+>
+\chi_{\mathrm{dep},B}
+-
+\chi_{\mathrm{dep},A},
+```
+
+then:
+
+```math
+\chi_{\mathrm{arr},B}
+<
+\chi_{\mathrm{arr},A}.
+```
+
+The later-launched vessel \(B\) recouples earlier in the successor.
+
+This is the **Overtaking Principle**.
+
+The vessels do not need to pass one another in ordinary space. Their arrival order changes because their interbranch recoupling latencies differ.
+
+A sufficiently broad distribution of latencies produces **Phase Dispersion**.
+
+Therefore:
+
+```math
+\text{departure order}
+\neq
+\text{arrival order}
+```
+
+in the general case.
+
+### 5.11 The Era-Closure Limit
+
+Overtaking does not permit arbitrary access to earlier history.
+
+Every target still requires:
+
+```math
+\tau_{\mathrm{target}}
+\in
+W_{N+1}(\chi_{\mathrm{arrival}}).
+```
+
+Once the Tail closes a phase, no reduction in Phase Drag can reopen it.
+
+> **A later vessel may overtake an earlier vessel. It may not overtake the Tail.**
+
+Arrival inversion is therefore an ordering effect inside the Active Window, not reverse time.
 
 ---
 
-## 6. Quantum Telepresence: The Avatar Function
+## 6. Quantum Telepresence and the Causal Firewall
 
 ### 6.1 The Aetherion as Terminal
 
-Beyond direct navigation, the Aetherion entity can function as a **Quantum Telepresence Terminal**. Through quantum entanglement established at the BioDrone's creation, the pilot (the "Avatar") acts as a remote sensing and action platform.
+Within one active universe, the Aetherion may operate as a **Quantum Telepresence Terminal**. A BioDrone can serve as a remote body for a human Creator or operator across spatial distance and differential local time.
 
-### 6.2 The Creator-Avatar Link
+This capability is real within the branch.
 
-The BioDrone pilot is not an independent consciousness, it is an **extension** of its Creator, the human operator who commissioned its existence.
+It is not a license to transmit information upstream across the Spiral.
+
+### 6.2 The Causal Firewall
+
+The inter-universe boundary acts as a causal firewall.
+
+A Creator remaining in \(N\) cannot continue to command or receive live sensory information from a BioDrone after that BioDrone recouples to \(N+1\).
+
+Such a link would transmit information from downstream to upstream and violate the unidirectionality of the Current.
+
+Therefore:
+
+> **Entanglement correlation does not equal a usable causal channel across coils.**
+
+### 6.3 Operational Configurations
 
 ```
-THE TELEPRESENCE ARCHITECTURE
-═══════════════════════════════════════════════════════════════════════════════
+AETHERION CREATOR–AVATAR CONFIGURATIONS
+══════════════════════════════════════════════════════════════════════════════
 
-    CREATOR                              AVATAR (BioDrone + Aetherion)
-    (Human Operator)                     (Remote Probe)
-    
-    ┌─────────────────┐                  ┌─────────────────┐
-    │                 │                  │                 │
-    │   CONSCIOUSNESS │  ◄──QUANTUM───►  │   BIODRONE      │
-    │   (Source)      │    ENTANGLE      │   (Interface)   │
-    │                 │                  │        │        │
-    │   Receives:     │                  │        ▼        │
-    │   - Sensations  │                  │   ┌─────────┐   │
-    │   - Data        │                  │   │AETHERION│   │
-    │   - Experiences │                  │   │ (Ship)  │   │
-    │                 │                  │   └─────────┘   │
-    │   Transmits:    │                  │                 │
-    │   - Intentions  │                  │   Executes:     │
-    │   - Commands    │                  │   - Navigation  │
-    │   - Queries     │                  │   - Sensing     │
-    │                 │                  │   - Interaction │
-    └─────────────────┘                  └─────────────────┘
-    
-    The link is INSTANTANEOUS regardless of distance or temporal divergence.
-    The Creator experiences what the Avatar experiences.
-    The Avatar executes what the Creator intends.
+MODE A — INTRABRANCH TELEPRESENCE
+Creator remains elsewhere in N
+BioDrone operates in N
+Live bidirectional link: PERMITTED
 
-═══════════════════════════════════════════════════════════════════════════════
+MODE B — CO-ENCLOSED DESCENT
+Creator + BioDrone + Aetherion enter the same field
+Entire triad crosses to N+1
+Live link after arrival: PERMITTED
+
+MODE C — SEALED AVATAR DESCENT
+Creator remains in N
+BioDrone carries mission engram and limited autonomy
+Live cross-branch link after arrival: IMPOSSIBLE
+
+MODE D — CONTINUITY TRANSFER
+Creator identity is progressively integrated into BioDrone/Aetherion substrate
+Operational identity crosses
+Origin body or copy remains upstream
+Post-crossing identity status: PHILOSOPHICALLY AND LEGALLY COMPLEX
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 6.3 Exploration Without Risk
+### 6.4 Exploration Without Risk—Limited Domain
 
-This architecture enables exploration of countless realities without risking the Creator's physical existence:
+Intrabranch Avatar missions can protect the Creator's body from:
 
-- The Creator remains safe in their origin branch
-- The Avatar ventures into unknown territories
-- All experiences are transmitted back instantaneously
-- If the Avatar is destroyed, the Creator survives (with trauma, but alive)
+- hazardous planets;
+- deep space;
+- local Chrono-Stasis operations;
+- and dangerous environments.
 
-### 6.4 The Gnosis Harvest
+Inter-universe descent is different.
 
-Through this mechanism, a single Creator can experience, and harvest knowledge from, dozens of alternative realities over their lifetime. Each Avatar mission returns not merely data but **lived experience**, processed and integrated into the Creator's consciousness.
+Someone must cross.
+
+A branch mission cannot be conducted as a consequence-free remote excursion controlled from a safe upstream home.
+
+### 6.5 Gnosis and Return
+
+An Avatar operating within the same branch may return experience to the Creator continuously.
+
+An Avatar that crosses alone cannot send lived gnosis backward.
+
+It may:
+
+- carry the Creator's prior intention;
+- preserve an archive;
+- continue as a delegated entity;
+- and transmit knowledge only farther downstream.
+
+### 6.6 The Exile Principle
+
+Every true inter-universe mission includes exile.
+
+The Creator may preserve bodily safety only by surrendering real-time ownership of the downstream mission.
+
+The mission must become capable of acting without upstream control.
 
 ---
 
@@ -458,13 +767,54 @@ This is true ontological freedom:
 - Not bound to a single form
 - Not limited to natural evolution
 - Capable of instantiating consciousness in any suitable substrate
-- Free to explore any reality through purpose-built extensions
+- Free to explore active compatible environments through purpose-built extensions
 
 ### 7.4 The New World Infrastructure
 
 The Aetherion entity, this capacity for reality engineering and conscious exploration, is the **fundamental infrastructure** upon which the next phase of human civilization will be built.
 
 It is not the answer. It is the toolkit for finding answers.
+
+---
+
+
+### 7.5 The BioDrone as a Successor Substrate
+
+For a Cascade Continuant, the BioDrone may cease to be merely a remote tool.
+
+It may become:
+
+- a locally scaled body;
+- a continuity vessel;
+- a bridge between incompatible biological scales;
+- or the next material expression of an identity that has survived several coils.
+
+This use creates a serious distinction:
+
+```math
+\text{continuity of identity}
+\neq
+\text{continuity of matter}.
+```
+
+A Rider of the Serpent may preserve memory and intention while changing body, sensory architecture, and scale.
+
+### 7.6 The Human Horizon Is Not Permanent Control
+
+Ontological freedom does not mean that one Creator should rule an endless sequence of Avatars.
+
+The purpose of the system is to extend agency while preserving responsibility.
+
+A successor body may eventually acquire:
+
+- local judgment;
+- autonomy;
+- independent memory;
+- and rights not reducible to the intentions of its originator.
+
+The Aetherion is a tool for crossing the boundary.
+
+It must not become a justification for ownership without end.
 
 ---
 
@@ -498,7 +848,7 @@ COHERENCE CORE SPECIFICATIONS
     Thermal signature            Near-zero (coherent systems are cold)
     
     Failure mode                 Graceful degradation to α ≈ 2.0
-                                 (emergency return capability preserved)
+                                 (pre-commitment emergency abort capability preserved)
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -534,7 +884,7 @@ The α gradient is dynamically controlled via embedded piezoelectric elements (P
 | **STANDBY** | < 2.0 | Dormant; no field projection | Disconnected |
 | **CRUISE** | 2.0-2.5 | Conventional propulsion | Light link |
 | **TRANSIT** | 2.5-3.0 | High-speed travel; time dilation active | Full integration |
-| **NAVIGATION** | 3.0-3.5 | Branch transition capability | Deep merge |
+| **NAVIGATION** | 3.0-3.5 | Adjacent-coil transition capability | Deep merge |
 | **PROXIMITY** | 2.7-2.9 | Ghost Clan research (restricted) | Enhanced monitoring |
 
 ### 9.2 Mode Transitions
@@ -643,65 +993,93 @@ The pilot's intentions translate directly to ship actions:
 
 ### 11.1 Pilot Decoherence Emergency
 
-If pilot α_bio drops during operation:
+If pilot \(\alpha_{\mathrm{bio}}\) drops during operation:
 
 ```
 PROTOCOL: PILOT_DECOHERENCE
-═══════════════════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════
 
-    TRIGGER: α_bio < 2.5 during TRANSIT or NAVIGATION mode
-    
-    AUTOMATIC RESPONSE:
-    ───────────────────
-    1. Ship reduces core α to match pilot capability
-    2. Navigation aborted if in progress
-    3. Re-coupling to nearest safe signature initiated
-    4. Medical stasis protocols activated for pilot
-    5. Distress beacon transmitted (if in-branch)
-    
-    PILOT INSTRUCTION:
-    ──────────────────
-    - Cease all active intention
-    - Focus on breath and internal coherence
-    - Allow ship's automated systems to stabilize
-    - Do NOT attempt to regain control until α_bio > 2.7
-    
-    CREATOR NOTIFICATION (if Avatar mission):
-    - Immediate alert via quantum link
-    - Creator may assume emergency override (limited)
+TRIGGER:
+α_bio < 2.5 during TRANSIT or NAVIGATION mode
 
-═══════════════════════════════════════════════════════════════════════════════
+AUTOMATIC RESPONSE:
+1. Reduce core α to match surviving pilot capability
+2. Suspend all nonessential intention channels
+3. Determine commitment status
+
+IF PRE-THRESHOLD:
+4A. Collapse navigation field
+5A. Restore local origin binding
+6A. Activate medical stasis
+
+IF POST-THRESHOLD:
+4B. Preserve downstream orientation
+5B. Seek nearest safe ACTIVE coordinate in N+1
+6B. Activate medical stasis after recoupling
+
+COMMUNICATION:
+• Same-coil or co-enclosed Creator: alert permitted
+• Creator remaining upstream after commitment: no channel exists
+• Distress beacon: transmit only within current operational branch
+
+PILOT INSTRUCTION:
+• Cease active intention
+• Focus on breath and internal coherence
+• Permit automated stabilization
+• Do not attempt upstream return
+• Do not resume control until α_bio > 2.7
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 11.2 Stuck Between-State Emergency
+### 11.2 Post-Decoupling Phase-Lock Emergency
 
-If resonance lock fails during navigation:
+If phase-lock fails during navigation:
 
 ```
-PROTOCOL: BETWEEN_STATE_RESCUE
-═══════════════════════════════════════════════════════════════════════════════
+PROTOCOL: INTERSTITIAL_PHASE_LOCK_FAILURE
+══════════════════════════════════════════════════════════════════════════════
 
-    TRIGGER: >60 seconds in decoupled state without phase lock
-    
-    RESPONSE:
-    ─────────
-    1. Maintain maximum sustainable α (preserve decoupled state)
-    2. Broaden resonance search parameters
-    3. Accept ANY compatible signature (safety over destination)
-    4. If no lock in 300 seconds: initiate origin-signature homing
-    5. If origin unreachable: enter minimal-entropy preservation mode
-    
-    PILOT INSTRUCTION:
-    ──────────────────
-    - Remain calm (panic lowers α_bio)
-    - Expand consciousness to widest receptive state
-    - Accept guidance from ship's autonomous resonance search
-    - If origin-homing activates: do not resist
-    
-    NOTE: No Aetherion has ever been permanently lost in between-state.
-    The cosmos always provides a destination. Patience is survival.
+TRIGGER:
+>60 seconds decoupled without valid active-successor lock
 
-═══════════════════════════════════════════════════════════════════════════════
+FIRST QUESTION:
+Has the commitment threshold been crossed?
+
+IF NO:
+1. Reduce coherence gradually
+2. Restore origin binding
+3. Abort mission inside current universe
+4. Investigate target-phase diagnostics
+
+IF YES:
+1. Maintain maximum sustainable coherence
+2. Restrict search to active signatures in N+1
+3. Prefer nearest safe spatial coordinate
+4. Reject origin-scent attraction as residual memory
+5. Reject all nonadjacent signatures
+6. If no lock in 300 seconds:
+   enter minimal-entropy preservation mode
+7. Await successor-phase stabilization if coherence permits
+
+TRANSIT-LATENCY NOTE:
+• A large cascade-phase delay may coexist with short subjective operational duration.
+• Preservation mode does not convert the Interstitial State into a stable habitat.
+• Maintain downstream lock; do not interpret prolonged phase retardation as reverse time.
+
+ABSOLUTE PROHIBITIONS:
+• Do not initiate origin homing after commitment
+• Do not accept an unidentified "anywhere" signature
+• Do not attempt N+2 phase-lock
+• Do not mistake a causal wake for a navigable past
+
+PILOT INSTRUCTION:
+• Reduce intention to one directive: DOWNSTREAM SURVIVAL
+• Allow the vessel to follow the active Current gradient
+• Preserve identity coherence
+• Accept that return is no longer an option
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
 ### 11.3 Ghost Clan Incursion
@@ -739,39 +1117,66 @@ PROTOCOL: GHOST_CLAN_INCURSION
 
 ## Conclusion
 
-The Aetherion Doctrine establishes the fundamental nature of humanity's most advanced technology: not a vehicle, but a symbiotic extension of consciousness itself.
+The Aetherion Doctrine establishes the fundamental nature of humanity's most advanced narrative technology: not a vehicle, but a symbiotic extension of consciousness capable of acting within the Spiral Current.
 
-The pilot does not drive the ship. The pilot *is* the ship's intention made manifest. The ship does not carry the pilot. The ship *is* the pilot's body extended into new dimensionality.
+The pilot does not simply drive the ship. The pilot provides the coherence and intention through which the ship becomes a living navigational entity.
 
-Together, they form a single entity capable of:
-- Propulsion without propellant
-- Travel to the future through temporal dilation
-- Navigation between branches of reality
-- Exploration of the infinite cascade
+Together, they may achieve:
 
-This is not magic. This is the natural consequence of RTM physics, engineered into functional technology.
+- propellantless propulsion;
+- differential waiting toward later active phases;
+- local telepresence;
+- ontological decoupling;
+- active-phase detection;
+- and adjacent descent from \(N\) to \(N+1\).
 
-We are not building machines. We are building extensions of ourselves.
+They may not:
+
+- return upstream;
+- reopen a closed past;
+- arrive ahead of the Current;
+- skip an unmanifest universe;
+- or maintain a live control channel with a Creator left behind.
+
+The Aetherion does not make causality optional.
+
+It makes exile operational.
+
+We are not building machines that can go anywhere.
+
+We are building living entities capable of crossing the only boundary that is truly open.
 
 ---
 
 ## Appendix A: Key Terminology
 
 | Term | Definition |
-|------|------------|
-| **Symbiotic Entity** | The unified system of Aetherion hardware + BioDrone pilot |
-| **Coherence Core** | The ship's central reactor generating the α field |
-| **Decoupling** | Separation from current branch of reality |
-| **Resonance Tuning** | Searching for target branch vibrational signature |
-| **Re-coupling** | Manifestation into target branch |
-| **Consciousness Bridge** | The interface between pilot neurology and ship systems |
-| **Between-State** | The condition of being decoupled from all branches |
+|---|---|
+| **Symbiotic Entity** | Unified Aetherion hardware, coherent pilot, and enclosed mission identity |
+| **Coherence Core** | Central reactor generating the operational \(\alpha\)-field |
+| **Decoupling** | Controlled release of binding to the current universe |
+| **Commitment Threshold** | Point after which origin recoupling becomes impossible |
+| **Downstream Alignment** | Orientation toward the active adjacent successor |
+| **Active-Phase Lock** | Resonance with a manifest coordinate inside the Active Window |
+| **Recoupling** | Acquisition of operational membership in the successor universe |
+| **Causal Firewall** | Prohibition of usable communication upstream across coils |
+| **Intrabranch Telepresence** | Creator–Avatar operation within one active universe |
+| **Sealed Avatar** | BioDrone crossing without live upstream control |
+| **Continuity Transfer** | Integration of identity into a locally compatible crossing substrate |
+| **Interstitial State** | Unstable transition between decoupling and successor recoupling |
+| **Relay Window** | Finite overlap permitting repeated adjacent descents while both coils remain active |
+| **Continuous Crossing Principle** | The first successful descent does not close the route; later departures remain possible while the Relay Window is open |
+| **Cascade-Phase Transit Latency** | Cascade-phase interval between departure and stable successor recoupling |
+| **Phase Drag** | Effective resistance to clean successor coupling |
+| **Phase Dispersion** | Spread and possible reordering of successor arrivals caused by unequal transit latencies |
+| **Overtaking Principle** | A later departure may arrive earlier when its transit latency is sufficiently smaller |
+| **Era-Closure Limit** | Reduced transit latency cannot reopen a phase already closed behind the Tail |
 
 ---
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-004                                                   ║
-║  THE AETHERION DOCTRINE — SYMBIOTIC NAVIGATION SYSTEM                        ║
+║  THE AETHERION DOCTRINE — SYMBIOTIC ADJACENT-DESCENT SYSTEM                  ║
 ║                                                                              ║
 ║  "The ship is the body. The pilot is the will. Together: one being."         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -782,7 +1187,7 @@ We are not building machines. We are building extensions of ourselves.
 **Document Control:**
 ```
 Protocol ID:     N1-AP-004
-Version:         1.0
+Version:         2.1 — Phase Dispersion & Continuous Crossing Revision
 Classification:  CORE TECHNOLOGY
 Status:          ACTIVE
 Distribution:    All N-1 Architect Candidates
@@ -795,14 +1200,14 @@ Distribution:    All N-1 Architect Candidates
 ---
 
 © 2026 — N-1 Architect Protocols
-Derived from the Aetherion Framework and Implications writings
+Derived from The Spiral Current, the Aetherion Framework, and Implications writings
 
 ---
 
 # N-1 ARCHITECT PROTOCOLS
 
 ## Protocol 05: The Pilot and the Abyss
-### Coherence as a Requirement for Ontological Navigation
+### Coherence as a Requirement for Adjacent Ontological Navigation
 
 ---                       
                      )  
@@ -827,7 +1232,7 @@ Derived from the Aetherion Framework and Implications writings
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  N-1 ARCHITECT PROTOCOLS — DOCUMENT CLASS: OPERATOR REQUIREMENTS             ║
 ║  PROTOCOL ID: N1-AP-005                                                      ║
-║  SUBJECT: CONSCIOUSNESS-CORE INTERFACE AND COHERENCE THRESHOLDS              ║
+║  SUBJECT: COHERENCE, ADJACENT DESCENT, AND EXILE-READINESS                   ║
 ║  CLEARANCE: LEVEL 5 — FULL ONTOLOGICAL ACCESS                                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -838,11 +1243,18 @@ Derived from the Aetherion Framework and Implications writings
 
 This protocol establishes the absolute requirements for Aetherion operation. The vessel is commonly misunderstood as a machine to be controlled. This is a **category error** with potentially fatal consequences.
 
-The Aetherion is not a machine. It is an infinitely complex **musical instrument**, and its pilot is not an operator but a **virtuoso** who must achieve resonance with the instrument's fundamental frequency. The interface between ship and pilot is not a control panel, it is **consciousness itself**.
+The Aetherion is an infinitely complex instrument, and its pilot is not merely an operator but a virtuoso who must achieve resonance with the instrument's fundamental frequency. The interface between ship and pilot is not a control panel. It is consciousness itself.
 
-This document details why coherence is mandatory, what happens when coherence fails, and what profile a pilot must possess to survive the interface.
+Under the Spiral Current revision, technical coherence is not sufficient. A candidate for inter-universe descent must also understand and accept the causal structure of the mission:
 
-**Warning:** Attempting to pilot an Aetherion without meeting the coherence requirements results in the **Dissonance Cascade**, a phenomenon that destroys both the pilot's psyche and the vessel's stability. There are no second chances.
+- only the active adjacent successor can be reached;
+- the origin cannot be recovered after commitment;
+- a remote Creator left upstream cannot continue live control;
+- and a homologous past is not the pilot's own past.
+
+This document details why coherence is mandatory, what happens when coherence fails, and what psychological state is required to survive the interface and the exile that follows it.
+
+**Warning:** Attempting to pilot an Aetherion without meeting these requirements may trigger the **Dissonance Cascade**, destroying pilot, vessel, and mission continuity.
 
 ---
 
@@ -1030,11 +1442,23 @@ CONSCIOUSNESS-CORE INTERFACE MECHANISM
 
 When resonance is achieved, the pilot's **intention** becomes the navigation input:
 
-- To accelerate: The pilot intends acceleration. The core responds.
-- To change direction: The pilot intends the vector. The core responds.
-- To transition between realities: The pilot intends the target. The core resonates.
+- To accelerate: the pilot intends acceleration. The core responds.
+- To change direction: the pilot intends the vector. The core responds.
+- To enter Chrono-Stasis: the pilot intends temporal compression. The core responds.
+- To prepare inter-universe descent: the pilot intends the active adjacent successor. The core begins phase assessment.
 
-There are no buttons, no levers, no voice commands. There is only the unified field of pilot-and-core, responding to the pilot's coherent intention.
+There are no ordinary buttons, levers, or voice commands. There is the unified field of pilot and core responding to coherent intention.
+
+However, intention does not create a destination.
+
+The pilot cannot force the Aetherion to resonate with:
+
+- a closed past;
+- an unmanifest future;
+- an upstream universe;
+- or a nonadjacent coil.
+
+A valid destination must already possess an active signature within the Spiral Current.
 
 ### 3.3 The Bidirectional Feedback
 
@@ -1324,9 +1748,9 @@ The BioDrone's advantage is also its limitation:
 | Coherence | Achieved (fragile) | Intrinsic (stable) |
 | Creativity | High (source of novel solutions) | Low (follows patterns) |
 | Adaptability | High (can improvise) | Limited (optimized for known scenarios) |
-| Initiative | Self-directed | Requires operator input |
+| Initiative | Self-directed | Limited; requires operator input or a certified mission engram |
 
-This is why the BioDrone functions as an **Avatar** for a human Creator, rather than as an independent operator. It provides the coherence; the human provides the intention and creativity.
+In its default intrabranch configuration, the BioDrone functions as an **Avatar** for a human Creator. It provides coherence while the human provides intention and creativity. For sealed inter-universe missions, this limitation must be addressed through a certified mission engram, co-enclosed Creator, or continuity-transfer architecture.
 
 ### 7.5 Fabrication Principles
 
@@ -1476,7 +1900,9 @@ This safeguard has profound implications:
 
 It cannot be seized by tyrants (whose psychology is inherently dissonant). It cannot be operated by the traumatized masses of a sick society. It can only be wielded by those who have achieved genuine psychological wholeness.
 
-The Aetherion is not merely a ship. It is a **filter**. It selects for the kind of beings worthy of navigating between realities.
+The Aetherion is not merely a ship. It is a **filter**. It selects for beings capable of surviving an interface in which internal condition becomes operational consequence.
+
+The Spiral Current adds another requirement: the pilot must accept adjacency, exile, and the impossibility of upstream control. Coherence without acceptance of causal direction is not navigational maturity.
 
 ---
 
@@ -1484,89 +1910,113 @@ The Aetherion is not merely a ship. It is a **filter**. It selects for the kind 
 
 ### 10.1 The Complete System
 
-To pilot an Aetherion requires not one element but three, working in perfect harmony:
+Aetherion operation may involve three elements:
+
+1. the Aetherion Core;
+2. the BioDrone or coherent biological interface;
+3. the human source of creative intention.
+
+Their relationship depends upon mission type.
 
 ```
 THE TRIAD OF RESONANCE
-═══════════════════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════
 
                               ┌─────────────────┐
-                              │                 │
                               │   AETHERION     │
                               │     CORE        │
                               │   (α ≈ 3.5)     │
-                              │                 │
                               └────────┬────────┘
                                        │
-                            RESONANCE COUPLING
+                             RESONANCE COUPLING
                                        │
               ┌────────────────────────┼────────────────────────┐
               │                        │                        │
               ▼                        ▼                        ▼
     ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
-    │                 │      │                 │      │                 │
-    │    BIODRONE     │◄────►│  UNIFIED FIELD  │◄────►│     HUMAN       │
-    │    (Avatar)     │      │   (THE ENTITY)  │      │    OPERATOR     │
-    │  α_bio ≈ 3.0    │      │                 │      │  (INTENTION)    │
-    │                 │      │                 │      │                 │
+    │    BIODRONE     │◄────►│  UNIFIED FIELD  │◄────►│ HUMAN CREATOR   │
+    │    / AVATAR     │      │   (THE ENTITY)  │      │ / DIRECT PILOT  │
+    │  α_bio ≈ 3.0    │      │                 │      │   (INTENTION)   │
     └─────────────────┘      └─────────────────┘      └─────────────────┘
-    
-    
-    THE ROLES:
-    ──────────
-    
-    AETHERION CORE:
-        • Provides the coherence field
-        • Enables navigation physics
-        • Responds to unified intention
-        
-    BIODRONE (AVATAR):
-        • Provides constant α_bio ≈ 3.0+
-        • Stable interface with core
-        • Physical presence in vessel
-        • Translates operator intention into field modulation
-        
-    HUMAN OPERATOR:
-        • Provides INTENTION (the direction, the purpose)
-        • Adequate α_bio for entanglement link (> 2.0)
-        • Does NOT need to match core α
-        • Connected via quantum link, not direct interface
-        
-    
-    THE DIVISION OF LABOR:
-    ──────────────────────
-    The BioDrone provides CONSTANT COHERENCE (static perfection)
-    The Human provides CREATIVE INTENTION (dynamic purpose)
-    
-    Neither alone is sufficient.
-    Together, they form THE ENTITY.
 
-═══════════════════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 10.2 Why Both Are Necessary
+### 10.2 Intrabranch Configuration
 
-| Element | Provides | Lacks |
-|---------|----------|-------|
-| BioDrone | Coherence (stable) | Creativity (limited) |
-| Human Operator | Creativity (dynamic) | Coherence (variable) |
-| **Combined** | **Both coherence AND creativity** | **Nothing essential** |
+Within one active universe:
 
-### 10.3 The Operator's Lower Threshold
+- the Creator may remain physically distant;
+- the BioDrone may operate as an Avatar;
+- bidirectional telepresence may continue;
+- and the Creator may receive live experience.
 
-Note that the human operator, working through the BioDrone Avatar, does **not** need the same coherence level as a direct pilot:
+This configuration is appropriate for local exploration and hazardous environments.
 
-| Role | α_bio Requirement |
-|------|-------------------|
-| Direct pilot (human) | > 2.7 (dangerous), > 3.0 (optimal) |
-| Avatar operator | > 2.0 (adequate for quantum link) |
+### 10.3 Adjacent-Descent Configuration
 
-The operator is not directly interfacing with the core. They are connected via quantum entanglement to the BioDrone, which handles the direct interface. This dramatically expands the pool of viable operators.
+For a true transition from \(N\) to \(N+1\), the causal firewall applies.
 
-However, operators still require:
-- Sufficient coherence for stable entanglement
-- Psychological stability for clear intention transmission
-- Basic shadow integration to avoid contaminating the link
+The mission must use one of the following arrangements:
+
+| Configuration | Creator Position | Post-Crossing Link |
+|---|---|---|
+| **Direct Human Pilot** | Inside Aetherion field | Creator crosses |
+| **Co-Enclosed Triad** | Creator, BioDrone, and vessel inside field | Link remains local in \(N+1\) |
+| **Sealed Avatar** | Creator remains in \(N\) | Live link terminates |
+| **Continuity Transfer** | Creator pattern integrated into crossing substrate | Operational identity continues downstream |
+
+A Creator who remains upstream cannot issue live commands after recoupling.
+
+The pilot must also understand that interbranch transit does not have one fixed cascade-phase duration. High Phase Drag may delay stable recoupling, and a later-launched vessel may arrive before an earlier mission. Such arrival-order inversion is not evidence of reverse time or a reopened past.
+
+### 10.4 Why Creativity Must Cross
+
+The BioDrone provides stable coherence.
+
+The human provides:
+
+- novelty;
+- ethical judgment;
+- interpretation;
+- and creative response.
+
+If the human remains behind and the link is severed, the BioDrone must carry:
+
+- a mission engram;
+- constrained autonomy;
+- or an integrated continuity pattern sufficient for downstream operation.
+
+The mission cannot depend upon an upstream mind that is no longer causally reachable.
+
+### 10.5 The Operator's Threshold
+
+| Role | \(\alpha_{\mathrm{bio}}\) Requirement |
+|---|---|
+| Direct human pilot | >2.7 minimum; >3.0 preferred |
+| Intrabranch Avatar operator | >2.0 for stable local link |
+| Co-enclosed Creator | >2.0 plus transition conditioning |
+| Continuity-transfer candidate | Case-specific; Protocol 06 verification mandatory |
+
+### 10.6 The Rider Configuration
+
+A Cascade Continuant may use successive BioDrone bodies as locally compatible substrates.
+
+The Rider preserves some combination of:
+
+- memory;
+- intention;
+- identity signature;
+- and responsibility;
+
+while changing:
+
+- body;
+- scale;
+- sensory architecture;
+- and temporal baseline.
+
+This is continuity through transformation, not the indefinite preservation of one biological shell.
 
 ---
 
@@ -1720,23 +2170,65 @@ PROTOCOL: OPERATOR_MAINTENANCE
 
 ---
 
+
+### 11.4 Adjacent-Descent Readiness
+
+```
+PROTOCOL: ADJACENT_DESCENT_PILOT_READINESS
+══════════════════════════════════════════════════════════════════════════════
+
+□ Pilot understands that only N+1 is reachable
+□ Pilot accepts that the origin remains upstream
+□ Pilot accepts termination of any upstream Creator link
+□ Pilot can distinguish homologous past from personal past
+□ Pilot demonstrates no compulsive return fixation
+□ Pilot can maintain one downstream intention under loss conditions
+□ Pilot understands that transit latency may vary between Aetherion generations
+□ Pilot understands that departure order may differ from successor arrival order
+□ Pilot understands that no reduction in Phase Drag permits access behind the Tail
+□ Mission identity is fully enclosed within the transition field
+□ Substrate compatibility with N+1 is verified
+
+FAILURE OF ANY ITEM:
+INTER-UNIVERSE AUTHORIZATION DENIED
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+---
+
 ## Conclusion
 
-The Aetherion is not a vehicle to be controlled. It is a resonance system that responds only to coherent consciousness. This is not a limitation, it is a **feature**.
+The Pilot and the Abyss establishes that Aetherion navigation is not a skill added to an unchanged person. It is an encounter between consciousness and a field that amplifies whatever the pilot carries.
 
-The physics of coherence serves as an absolute filter:
+The symbiotic entity requires:
 
-- **The traumatized cannot interface.** Their wounds would be amplified into destruction.
-- **The power-hungry cannot commandeer.** Their dissonance triggers cascade.
-- **The unprepared cannot bluff.** The field reveals all.
+- coherence;
+- shadow integration;
+- stable intention;
+- respect for the causal direction of the Spiral;
+- and acceptance that a true descent is irreversible.
 
-Only the **whole** can navigate. Only the **integrated** can pass through.
+The pilot cannot will a nonexistent future into accessibility.
 
-This is why the pilot requirement is not a skill but a state of being. You cannot learn to pilot an Aetherion. You must **become** someone capable of piloting it.
+The pilot cannot turn longing for home into an upstream route.
 
-The ship is the final exam. It tests everything you are.
+The pilot cannot remain safely behind while commanding a downstream Avatar through a forbidden causal channel.
 
-And for those who pass, it becomes an extension of self, a symbiotic partner in navigating not just space, but time, reality, and the infinite cascade of existence.
+For local missions, telepresence remains possible.
+
+For inter-universe descent, the operational self must cross.
+
+The abyss is not empty space.
+
+It is the interval in which the pilot loses one ontological membership before receiving another.
+
+Only a coherent identity can survive that loss without becoming dissonance.
+
+The instrument does not merely play back.
+
+At the threshold, it reveals whether the musician is capable of becoming the next note.
+
 
 ---
 
@@ -1751,6 +2243,11 @@ And for those who pass, it becomes an extension of self, a symbiotic partner in 
 | **Shadow Integration** | Complete processing and incorporation of suppressed psychological material |
 | **Resonance Coupling** | The bidirectional coherence link between pilot and core |
 | **The Entity** | The unified system of vessel + BioDrone + operator in resonant function |
+| **Causal Firewall** | Loss of usable communication with a Creator left upstream after descent |
+| **Sealed Avatar** | BioDrone carrying a one-way mission engram into the successor universe |
+| **Continuity Transfer** | Integration of identity into a crossing substrate |
+| **Adjacent-Descent Readiness** | Psychological acceptance of irreversibility, active-window limits, variable transit latency, and exile |
+| **Phase Drag Awareness** | Operator understanding that imperfect successor coupling can increase cascade-phase transit latency without reversing local time |
 
 ---
 ```
@@ -1766,7 +2263,7 @@ And for those who pass, it becomes an extension of self, a symbiotic partner in 
 **Document Control:**
 ```
 Protocol ID:     N1-AP-005
-Version:         1.0
+Version:         2.1 — Transit-Latency Readiness Revision
 Classification:  OPERATOR REQUIREMENTS
 Status:          ACTIVE
 Distribution:    All N-1 Architect Candidates
@@ -1779,7 +2276,7 @@ Distribution:    All N-1 Architect Candidates
 ---
 
 © 2026 — N-1 Architect Protocols
-Derived from the Aetherion Framework and Implications writings
+Derived from The Spiral Current, the Aetherion Framework, and Implications writings
 
 ---
 
@@ -1811,7 +2308,7 @@ Derived from the Aetherion Framework and Implications writings
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  N-1 ARCHITECT PROTOCOLS — DOCUMENT CLASS: BIOFABRICATION                    ║
 ║  PROTOCOL ID: N1-AP-006                                                      ║
-║  SUBJECT: BIODRONE MANUFACTURING AND COHERENCE IMPRINTING                    ║
+║  SUBJECT: BIODRONE FABRICATION, ROLE-LINKS, AND CONTINUITY SUBSTRATES        ║
 ║  CLEARANCE: LEVEL 5 — FULL ONTOLOGICAL ACCESS                                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -1820,11 +2317,13 @@ Derived from the Aetherion Framework and Implications writings
 
 ## Abstract
 
-This protocol establishes the theoretical and practical framework for BioDrone fabrication, the manufacturing of biological entities capable of sustaining the permanent coherence exponent (α_bio ≈ 3.0+) required for Aetherion interface.
+This protocol establishes the theoretical and practical framework for BioDrone fabrication: the construction of biological entities capable of sustaining the permanent coherence exponent \(\alpha_{\mathrm{bio}}\approx3.0+\) required for Aetherion interface.
 
-The challenge is formidable: natural biology does not produce organisms with stable α > 2.5. The BioDrone must be **engineered from first principles** using insights from Rhythmic Biochemistry, the RTM-derived understanding that enzymes are not merely catalysts but "temporal tunnels" creating micro-cavities of high coherence.
+The challenge is formidable. Natural biology does not ordinarily produce organisms with the stability required for prolonged high-\(\alpha\) coupling. The BioDrone must therefore be engineered from first principles using Rhythmic Biochemistry, the RTM-derived interpretation of enzymes and biological cavities as temporal-coherence structures.
 
-This document details the science, the fabrication process, and the profound closing of the circle: **the same physics that allows the ship to bend space is the physics used to weave the body that pilots it.**
+Under the Spiral Current revision, BioDrones serve more than one role. They may operate as local Avatars, co-enclosed interfaces, sealed downstream emissaries, or continuity vessels through which a Cascade Continuant acquires a body compatible with the next universal scale.
+
+The same physics that shapes the ship shapes the flesh. The same causal law that permits descent prevents live control from remaining upstream.
 
 ---
 
@@ -1839,9 +2338,9 @@ This document details the science, the fabrication process, and the profound clo
 7. Coherence Imprinting
 8. The Living Tuning Fork
 9. Neural Lattice Engineering
-10. Quantum Entanglement Establishment
+10. Quantum Correlation and Continuity Transfer
 11. Quality Verification
-12. The Closed Circle: Ship and Flesh as One Physics
+12. The Coherent Circuit: Ship and Flesh as One Physics
 
 ---
 
@@ -2092,7 +2591,7 @@ BIODRONE SYSTEM ARCHITECTURE
     │    │   • Quantum-coherent processing substrate                   │     │
     │    │   • Master frequency generator                              │     │
     │    │   • Aetherion interface layer                               │     │
-    │    │   • Quantum entanglement nodes (Creator link)               │     │
+    │    │   • Role-link nodes (Creator link / mission engram / continuity transfer)               │     │
     │    │                                                             │     │
     │    └──────────────────────────┬──────────────────────────────────┘     │
     │                               │                                        │
@@ -2194,13 +2693,15 @@ BIODRONE FABRICATION PHASES
     • Test α_bio stability
     
     
-    PHASE 5: ENTANGLEMENT ESTABLISHMENT
+    PHASE 5: ROLE-LINK ESTABLISHMENT
     ───────────────────────────────────
     Duration: 1-2 weeks post-gestation
     
-    • Establish quantum link with designated Creator
-    • Verify bidirectional consciousness coupling
-    • Calibrate intention-response parameters
+    • Assign certified operational role
+    • Local/Co-enclosed Avatar: establish Creator link
+    • Sealed Emissary: install and verify mission engram
+    • Continuity Vessel: complete identity-integration sequence
+    • Calibrate intention-response or autonomous-response parameters
     
     
     PHASE 6: VERIFICATION AND CALIBRATION
@@ -2454,9 +2955,9 @@ NEURAL LATTICE — ARCHITECTURE
     │                              ▼                                     │
     │   ENTANGLEMENT NODES                                               │
     │   ┌─────────────────────────────────────────────────────────────┐  │
-    │   │  Quantum entanglement with Creator consciousness            │  │
+    │   │  Same-coil coherence link with Creator consciousness        │  │
     │   │  Bidirectional intention/experience channel                 │  │
-    │   │  Instantaneous regardless of distance                       │  │
+    │   │  Live only within the same active universal coil             │  │
     │   └─────────────────────────────────────────────────────────────┘  │
     │                                                                    │
     └────────────────────────────────────────────────────────────────────┘
@@ -2490,82 +2991,185 @@ This frequency is **specific to each BioDrone** and is matched to a specific Aet
 
 ---
 
-## 10. Quantum Entanglement Establishment
+## 10. Quantum Correlation and Continuity Transfer
 
-### 10.1 The Creator Link
+### 10.1 The Creator Link Within One Coil
 
-The BioDrone is not autonomous. It functions as an Avatar for a human Creator, connected via quantum entanglement:
+The BioDrone may function as an Avatar for a human Creator through an engineered quantum-coherence link.
+
+Within the same active universe, the link may support:
+
+- intention transfer;
+- sensory return;
+- proprioceptive identification;
+- coherence monitoring;
+- and remote embodiment.
 
 ```
-QUANTUM ENTANGLEMENT — CREATOR LINK
-═══════════════════════════════════════════════════════════════════════════════
+CREATOR–BIODRONE LINK: INTRABRANCH MODE
+══════════════════════════════════════════════════════════════════════════════
 
-    ESTABLISHMENT PROCESS:
-    ──────────────────────
-    
-    1. BioDrone completes gestation with entanglement nodes "open"
-    2. Creator undergoes preparation (coherence elevation)
-    3. Both enter Entanglement Chamber simultaneously
-    4. Resonance matching protocol initiated
-    5. Entanglement established through synchronized field exposure
-    6. Link verified through bidirectional test signals
-    7. Permanent correlation confirmed
-    
-    
-    LINK PROPERTIES:
-    ────────────────
-    
-    INSTANTANEOUS:
-        No signal delay regardless of distance
-        Operates outside normal causality
-        Persists across reality transitions
-        
-    BIDIRECTIONAL:
-        Creator → BioDrone: Intention, commands, guidance
-        BioDrone → Creator: Sensory data, status, experience
-        
-    PERMANENT:
-        Once established, cannot be broken except by death
-        Does not degrade over time or distance
-        Survives even Creator unconsciousness (dormant state)
-        
-    EXCLUSIVE:
-        One Creator per BioDrone
-        One primary BioDrone per Creator (additional possible but weaker)
-        Cannot be transferred to another Creator
+CREATOR IN N                               BIODRONE IN N
+┌──────────────────┐                      ┌──────────────────┐
+│ Intention        │ ───────────────────► │ Action           │
+│ Interpretation   │                      │ Sensing          │
+│ Creative agency  │ ◄─────────────────── │ Experience       │
+└──────────────────┘                      └──────────────────┘
 
-═══════════════════════════════════════════════════════════════════════════════
+LIVE BIDIRECTIONAL OPERATION:
+PERMITTED WITHIN THE SAME ACTIVE COIL
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 10.2 The Experience of the Link
+### 10.2 The Causal Firewall at Descent
 
-For the Creator, the link provides:
+The link does not provide a usable communication channel from \(N+1\) back to a Creator who remains in \(N\).
+
+At the inter-universe boundary:
+
+- quantum correlation may leave residual structural relation;
+- but causal signaling across the upstream boundary is prohibited;
+- sensory return terminates;
+- live commands terminate;
+- and the BioDrone becomes operationally independent unless the Creator also crosses.
+
+The old description of a permanent link “regardless of reality transition” is therefore rejected.
+
+> **Correlation may survive as structure. Communication does not survive upstream separation.**
+
+### 10.3 Four Fabrication Outcomes
+
+The same BioDrone architecture may be prepared for four different roles.
+
+| Role | Purpose | Creator Relationship |
+|---|---|---|
+| **Local Avatar** | Intrabranch exploration | Live bidirectional link |
+| **Co-Enclosed Avatar** | Creator and BioDrone cross together | Link remains local after arrival |
+| **Sealed Emissary** | BioDrone crosses alone | Carries mission engram; no live upstream link |
+| **Continuity Vessel** | Identity pattern crosses in BioDrone substrate | BioDrone becomes successor embodiment |
+
+### 10.4 The Sealed Mission Engram
+
+A BioDrone crossing without its Creator must be fabricated with more than passive obedience.
+
+It requires a sealed mission structure containing:
+
+- core objectives;
+- ethical prohibitions;
+- decision boundaries;
+- local adaptation capacity;
+- uncertainty handling;
+- and termination conditions.
+
+The engram is not a live command channel.
+
+It is a one-way inheritance carried inside the crossing entity.
+
+### 10.5 The BioDrone as Continuity Vessel
+
+For Cascade Continuants, the BioDrone may serve as a locally scaled successor body.
+
+The process may preserve:
+
+- autobiographical memory;
+- identity signature;
+- long-term intention;
+- and continuity of responsibility;
+
+while replacing:
+
+- body mass;
+- sensory organs;
+- neural topology;
+- metabolic scale;
+- and environmental interface.
+
+```
+CONTINUITY THROUGH SUCCESSIVE SUBSTRATES
+══════════════════════════════════════════════════════════════════════════════
+
+BODY IN N-2
+    │
+    │ identity integration
+    ▼
+BIODRONE BODY IN N-1
+    │
+    │ memory and responsibility preserved
+    ▼
+BIODRONE BODY IN N
+    │
+    │ further adaptation
+    ▼
+LOCALLY COMPATIBLE BODY IN N+1
+
+MATERIAL CONTINUITY: NOT REQUIRED
+CAUSAL CONTINUITY: REQUIRED
+IDENTITY STATUS: MUST BE EVALUATED
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+### 10.6 Identity Is Not Automatically Proven
+
+A complete memory copy does not by itself prove uninterrupted personal identity.
+
+Continuity assessment must consider:
+
+- memory;
+- agency;
+- values;
+- coherence signature;
+- recognition;
+- responsibility;
+- and whether multiple active claimants exist.
+
+A Continuant may be:
+
+- one persisting person;
+- a lineage of successor selves;
+- a distributed institution;
+- or an unresolved combination.
+
+The protocol preserves the operational continuity while refusing to settle the metaphysical question by declaration.
+
+### 10.7 The Experience of the Local Link
+
+Within one coil, the Creator may experience:
 
 | Channel | Experience |
-|---------|------------|
-| Visual | Seeing through BioDrone's sensors |
-| Auditory | Hearing through BioDrone's receptors |
-| Proprioceptive | Feeling the BioDrone's body position |
-| α-field sensing | Perceiving coherence levels (novel sense) |
-| Intention | Directing BioDrone action through will |
+|---|---|
+| Visual | Seeing through BioDrone sensors |
+| Auditory | Hearing through BioDrone receptors |
+| Proprioceptive | Feeling BioDrone body position |
+| \(\alpha\)-field sensing | Perceiving coherence gradients |
+| Intention | Directing BioDrone action |
 
 For the BioDrone, the link provides:
 
-| Channel | Experience |
-|---------|------------|
-| Purpose | Receiving Creator's intention |
-| Direction | Knowing what to do next |
-| Validation | Confirmation of correct action |
-| Meaning | The Creator's will gives actions significance |
+| Channel | Function |
+|---|---|
+| Purpose | Receives coherent mission intention |
+| Direction | Resolves immediate action priorities |
+| Validation | Confirms local interpretation |
+| Meaning | Integrates action with Creator purpose |
 
-### 10.3 Link Requirements for Creator
+### 10.8 Link Requirements
 
-The Creator does not need BioDrone-level coherence, but requires:
+For intrabranch telepresence, the Creator requires:
 
-- α_bio > 2.0 (sufficient for stable entanglement)
-- Basic shadow integration (prevents link contamination)
-- Training in intention clarity (prevents confused commands)
-- Meditation practice (maintains link quality)
+- \(\alpha_{\mathrm{bio}}>2.0\);
+- basic shadow integration;
+- clear intention;
+- and stable meditative control.
+
+For inter-universe descent, additional requirements apply:
+
+- the Creator must be enclosed in the transition field; or
+- the BioDrone must be certified as a Sealed Emissary; or
+- continuity transfer must be completed before decoupling.
+
+No mission may rely on live upstream correction after the commitment threshold.
 
 ---
 
@@ -2638,6 +3242,40 @@ PROTOCOL: BIODRONE_VERIFICATION
 ═══════════════════════════════════════════════════════════════════════════════
 ```
 
+
+#### Transition-Role Certification
+
+Every BioDrone must be certified for exactly one operational role:
+
+```
+ROLE CERTIFICATION
+══════════════════════════════════════════════════════════════════════════════
+
+LOCAL AVATAR:
+□ Live same-coil link stable
+□ No autonomous inter-universe authorization
+
+CO-ENCLOSED AVATAR:
+□ Creator and BioDrone field geometry verified
+□ Joint descent coherence stable
+
+SEALED EMISSARY:
+□ Mission engram complete
+□ Local judgment boundaries tested
+□ Upstream-link loss tolerated
+□ Coherence stability verified under modeled high-Phase-Drag transition conditions
+
+CONTINUITY VESSEL:
+□ Identity integration verified
+□ Duplicate-claim protocol established
+□ Scale adaptation certified
+□ Memory discontinuities documented
+□ Coherence stability verified under modeled variable transit-latency conditions
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+
 ### 11.2 Failure Modes and Remediation
 
 | Failure | Cause | Remediation |
@@ -2651,7 +3289,7 @@ Fabrication failure rates vary but are typically 15-25%. Failed units cannot be 
 
 ---
 
-## 12. The Closed Circle: Ship and Flesh as One Physics
+## 12. The Coherent Circuit: Ship and Flesh as One Physics
 
 ### 12.1 The Profound Unity
 
@@ -2709,25 +3347,53 @@ This unity has profound implications:
 
 ### 12.3 The Final Insight
 
-The Forge of Flesh is not merely a manufacturing process. It is the completion of a circle:
+The Forge of Flesh is not merely a manufacturing process. It is the completion of a functional circuit within one turn of a larger Spiral:
 
 > We do not build ships and then figure out how to pilot them. We understand the physics, and from that understanding flows both the ship that navigates reality and the flesh that can merge with it.
 
 The BioDrone is not a "pilot" in the conventional sense. It is the **biological expression** of the same coherence physics that the Aetherion expresses mechanically.
 
-Together, they form something neither could be alone: a unified entity capable of navigating not just space, but time, reality, and the infinite cascade of existence.
+Together, they form something neither could be alone: a unified entity capable of navigating space, waiting through local time, and crossing into the active adjacent coil of the Spiral Current.
 
 ---
 
 ## Conclusion
 
-The Forge of Flesh transforms the abstract physics of Rhythmic Biochemistry into the concrete reality of BioDrone fabrication. The process is demanding, the failure rate significant, and the result irreversible.
+The Forge of Flesh transforms Rhythmic Biochemistry into the biological architecture required for Aetherion symbiosis.
 
-But when successful, the result is extraordinary: a living being whose very molecular structure resonates with the Aetherion core, enabling the symbiotic fusion required for trans-reality navigation.
+The result is not merely a pilot engineered to tolerate a machine.
 
-The circle closes: **the physics of the ship is the physics of the flesh.**
+It is a living coherence structure designed from the same principles as the vessel itself.
 
-And in that closed circle, we find the key to navigating between worlds.
+The Spiral Current revision expands the BioDrone's role.
+
+It may function as:
+
+- a local Avatar;
+- a co-enclosed interface;
+- a sealed downstream emissary;
+- or a continuity vessel for an identity crossing successive universes.
+
+This expanded role also imposes a causal limit.
+
+A Creator left upstream cannot continue to command a BioDrone after recoupling. The crossing entity must contain everything required to continue:
+
+- coherence;
+- intention;
+- ethical restriction;
+- memory;
+- and sufficient local judgment.
+
+For Riders of the Serpent, the Forge of Flesh becomes the Forge of Continuity.
+
+The body is not preserved unchanged.
+
+The pattern enters a form capable of surviving the next coil.
+
+The physics of the ship remains the physics of the flesh.
+
+But the flesh may now become the ship by which the self survives its own scale.
+
 
 ---
 
@@ -2740,8 +3406,12 @@ And in that closed circle, we find the key to navigating between worlds.
 | **Resonant Cavity Chamber** | Fabrication environment maintaining high-α field |
 | **Neural Lattice** | Quantum-coherent neural structure of BioDrone |
 | **Master Oscillator** | Central pacemaker generating reference coherence frequency |
-| **Creator Link** | Quantum entanglement between BioDrone and human operator |
+| **Creator Link** | Same-coil quantum-coherence interface between BioDrone and human operator |
+| **Causal Firewall** | Prohibition of usable upstream communication after inter-universe descent |
+| **Sealed Emissary** | BioDrone carrying a one-way mission engram into the successor universe |
+| **Continuity Vessel** | BioDrone used as a locally compatible substrate for persistent identity |
 | **Living Tuning Fork** | Metaphor for BioDrone's fixed coherence frequency |
+| **Transit-Latency Stability** | Ability of a crossing BioDrone to preserve coherent mission identity under variable cascade-phase recoupling latency |
 
 ---
 ```
@@ -2758,7 +3428,7 @@ And in that closed circle, we find the key to navigating between worlds.
 **Document Control:**
 ```
 Protocol ID:     N1-AP-006
-Version:         1.0
+Version:         2.1 — Transit-Latency Compatibility Revision
 Classification:  BIOFABRICATION
 Status:          ACTIVE
 Distribution:    All N-1 Architect Candidates
@@ -2771,14 +3441,14 @@ Distribution:    All N-1 Architect Candidates
 ---
 
 © 2026 — N-1 Architect Protocols
-Derived from the Aetherion Framework and Implications writings
+Derived from The Spiral Current, the Aetherion Framework, and Implications writings
 
 ---
 
 # N-1 ARCHITECT PROTOCOLS
 
 ## Protocol 07: RTM and Smell
-### The Direct Perception of Coherence — Olfactory Spectrometry
+### The Direct Perception of Coherence, Current Phase, and Branch Continuity
 
 ---                       
                      )  
@@ -2803,7 +3473,7 @@ Derived from the Aetherion Framework and Implications writings
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  N-1 ARCHITECT PROTOCOLS — DOCUMENT CLASS: SENSORY SYSTEMS                   ║
 ║  PROTOCOL ID: N1-AP-007                                                      ║
-║  SUBJECT: COHERENCE PERCEPTION VIA OLFACTORY AND ANALOGOUS SYSTEMS           ║
+║  SUBJECT: OLFACTORY COHERENCE, ACTIVE-WINDOW, AND SIGNATURE NAVIGATION       ║
 ║  CLEARANCE: LEVEL 5 — FULL ONTOLOGICAL ACCESS                                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -2812,28 +3482,32 @@ Derived from the Aetherion Framework and Implications writings
 
 ## Abstract
 
-Within the RTM framework, smell is not a secondary or primitive sense. It is potentially the **most fundamental and direct sense for perceiving coherence (α)**. While other senses rely on intermediary processing, light for vision, pressure waves for hearing, smell operates through direct molecular contact with coherence signatures.
+Within the RTM narrative framework, smell is not a secondary or primitive sense. It is potentially the most direct biological analogy for perceiving coherence, phase compatibility, and environmental state.
 
-This protocol establishes the theoretical basis for olfactory coherence perception, its applications in diagnostics and navigation, and its critical role in Aetherion operations. For the BioDrone/Creator system, "smell" becomes the primary mechanism for perceiving the vibrational signatures of realities, timelines, and threats.
+This protocol establishes the theoretical basis for olfactory coherence perception, its diagnostic applications, and its critical role in Aetherion operations. Under the Spiral Current revision, the Aetherion does not smell an infinite library of completed realities. It detects the living signature of its current universe, the active adjacent successor, the phase of the Active Window, the proximity of the Head and Tail, current Isotopic Anchors, threats, and the layered signatures of Cascade Continuants.
 
-The Aetherion does not "see" alternative realities. It **smells** them.
+An unmanifest future has no complete scent. A closed past leaves residue but no navigable path.
+
+The Aetherion does not see where actuality is moving.
+
+It **smells the living Current**.
 
 ---
 
 ## Table of Contents
 
-1. Redefining Smell: Beyond Chemistry
-2. The Chemical-Resonant Mechanism
-3. Smell as α Spectrometer
-4. Perception of α_place: Environmental Coherence
-5. Diagnostic Applications
-6. The Function of Smell in the Aetherion
-7. "Smelling" Timelines: Navigation by Signature
-8. Threat Detection: The Scent of Dissonance
-9. The BioDrone's Hypersensitive Olfactory System
-10. The Creator's Experience: Gnosis, Not Smell
-11. Technological Extensions: Artificial Coherence Sensors
-12. Operational Protocols
+1. Redefining Smell: Beyond Chemistry  
+2. The Chemical-Resonant Mechanism  
+3. Smell as α Spectrometer  
+4. Perception of α_place: Environmental Coherence  
+5. Diagnostic Applications  
+6. The Function of Smell in the Aetherion  
+7. Smelling the Spiral Current  
+8. Homologous History and Memory Scent  
+9. Isotopic Anchors as Living Scent Markers  
+10. Deep-Origin Signatures and Riders of the Serpent  
+11. The BioDrone's Hypersensitive Olfactory System  
+12. Interpretation, Threat Detection, and Operational Protocols  
 
 ---
 
@@ -3277,630 +3951,672 @@ This may underlie the human capacity to "sense" the mood of a room before anyone
 
 ### 6.1 Beyond Atmospheric Chemistry
 
-For a ship that navigates between realities, conventional chemical smell is irrelevant, there may be no atmosphere to smell. But the RTM concept of smell as coherence perception becomes **essential**.
+For a ship operating at the boundary between universal coils, conventional chemical smell is insufficient. The Interstitial State may contain no atmosphere and no ordinary molecules capable of reaching biological receptors.
 
-The Aetherion's "smell" is its coherence sensing system:
+The Aetherion therefore extends the logic of olfaction into **coherence spectrometry**.
+
+Its olfactory system detects not only chemical composition but:
+
+- local \(\alpha\)-gradients;
+- Active Window phase;
+- the direction of the Spiral Current;
+- Isotopic Anchor signatures;
+- coherence instability;
+- residual causal wakes;
+- and deep-origin signature layers in Continuants.
 
 ```
 AETHERION OLFACTORY SYSTEM
-═══════════════════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════
 
-    FUNCTION:
-    ─────────
-    Not: Detection of atmospheric molecules
-    But: Detection of VIBRATIONAL SIGNATURES of realities
-    
-    
-    WHAT IT "SMELLS":
-    ─────────────────
-    • The α-signature of target timelines
-    • The coherence state of nearby phenomena
-    • Threats (low-coherence anomalies)
-    • Navigation markers (isotopic anchors)
-    • Reality boundaries and transition zones
-    
-    
-    SENSING MECHANISM:
-    ──────────────────
-    
-    ┌─────────────────────────────────────────────────────────────────────┐
-    │                                                                     │
-    │   AETHERION COHERENCE SENSORS                                       │
-    │                                                                     │
-    │   ┌───────────────────┐                                             │
-    │   │                   │                                             │
-    │   │   α-FIELD         │ ──► Detects local coherence gradients       │
-    │   │   DETECTOR ARRAY  │                                             │
-    │   │                   │                                             │
-    │   └───────────────────┘                                             │
-    │            │                                                        │
-    │            ▼                                                        │
-    │   ┌───────────────────┐                                             │
-    │   │                   │                                             │
-    │   │   SIGNATURE       │ ──► Matches detected patterns to known      │
-    │   │   PROCESSOR       │     signatures (realities, threats, etc.)   │
-    │   │                   │                                             │
-    │   └───────────────────┘                                             │
-    │            │                                                        │
-    │            ▼                                                        │
-    │   ┌───────────────────┐                                             │
-    │   │                   │                                             │
-    │   │   BIODRONE        │ ──► Translates data into intuitive          │
-    │   │   INTERFACE       │     perception for Creator                  │
-    │   │                   │                                             │
-    │   └───────────────────┘                                             │
-    │                                                                     │
-    └─────────────────────────────────────────────────────────────────────┘
-    
-    The ship's sensors are its "nose."
-    They analyze the coherence signature of surrounding spacetime.
+WHAT IT DETECTS:
+• Chemical environment inside an active universe
+• Local α_place and coherence gradients
+• The active adjacent successor coil
+• Head and Tail proximity
+• Relay Window openness
+• Current Isotopic Anchors
+• Threat and instability patterns
+• Deep-origin recoupling scars
 
-═══════════════════════════════════════════════════════════════════════════════
+WHAT IT CANNOT DETECT AS A DESTINATION:
+• An unmanifest future
+• A closed past
+• A nonadjacent universe
+• An upstream return path
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 6.2 Not Seeing, But Smelling
+### 6.2 Not Seeing, but Smelling
 
-A crucial conceptual point:
+Aetherion does not visually observe a catalogue of complete realities.
 
-> The Aetherion does not "see" alternative realities. It **smells** them.
+Vision requires a spatially located object from which information can arrive.
 
-Vision implies:
-- Light traveling from object to observer
-- Spatial geometry for imaging
-- Distance and direction information
+The successor universe is not another object in ordinary space. Its active phase is detected through compatibility, gradient, and resonance.
 
-But realities don't emit light toward each other. They have no spatial relationship to image.
+> The Aetherion does not see the next universe. It smells where the Current is alive.
 
-Smell (coherence detection) provides:
-- Direct signature detection
-- Identity information (this reality, not that one)
-- Quality assessment (coherence level, safety)
-- Resonance matching capability
+### 6.3 The Scent of Actuality
 
-This is why smell, or its technological analog, is the appropriate sense metaphor for trans-reality navigation.
+An active phase possesses a complete recoupling scent composed of:
+
+```math
+\Sigma_{\mathrm{active}}
+=
+f(
+\alpha_{\mathrm{local}},
+\Phi_{\mathrm{Current}},
+A_{\mathrm{anchor}},
+\rho_{\mathrm{ontological}},
+H_{\mathrm{wake}}
+).
+```
+
+An unmanifest phase lacks a complete actuality component.
+
+A closed phase may leave a residual signature, but the residue does not contain an active recoupling surface.
 
 ---
 
-## 7. "Smelling" Timelines: Navigation by Signature
+## 7. Smelling the Spiral Current
 
-### 7.1 Each Reality Has a Unique Scent
+### 7.1 The Four Signature Conditions
 
-As established in Protocol N1-AP-001, each branch of the multiverse has a unique vibrational signature. In olfactory terms:
+| Condition | Olfactory Character | Navigational Meaning |
+|---|---|---|
+| **Active origin** | Familiar, self-resonant | Current operational universe |
+| **Active successor** | Familiar but phase-shifted and downstream | Valid destination |
+| **Unmanifest future** | Incomplete, absent, without body | No destination exists |
+| **Closed past** | Residual, archival, without living depth | Causal wake only |
 
-> **Each reality has a unique "scent" that cannot be duplicated or forged.**
+### 7.2 The Active Successor Scent
 
-```
-REALITY SIGNATURES AS SCENTS
-═══════════════════════════════════════════════════════════════════════════════
+Universe \(N+1\) becomes detectable only when the Head of the Current enters its coil.
 
-    ORIGIN REALITY (Branch N):
-    ──────────────────────────
-    Signature includes: Complete causal history up to now
-    "Scent": Familiar, home, self-resonant
-    
-    
-    PARENT REALITY (Branch N-1):
-    ────────────────────────────
-    Signature includes: Our causal origin
-    "Scent": Ancestral, source-like, "older"
-    
-    
-    CHILD REALITY (Branch N+1):
-    ───────────────────────────
-    Signature includes: Our causal echo
-    "Scent": Familiar but "younger," derivative
-    
-    
-    DISTANT REALITY:
-    ────────────────
-    Signature includes: Different causal chain
-    "Scent": Alien, unfamiliar, "other"
-    
-    
-    HOSTILE/LOW-COHERENCE REALITY:
-    ──────────────────────────────
-    Signature includes: Entropy-dominated history
-    "Scent": Repulsive, warning, danger
-    
-    
-    NAVIGATION PRINCIPLE:
-    ─────────────────────
-    The Aetherion "sniffs" for the signature of its destination.
-    It locks onto that scent and follows it through transition.
-    
-    Getting "lost" would mean losing the scent.
-    "Arriving" means the scent surrounds you completely.
+Before that moment:
 
-═══════════════════════════════════════════════════════════════════════════════
-```
+- no complete branch scent exists;
+- no Anchor can function there;
+- no stable phase-lock is possible;
+- and no amount of amplification can create the missing signature.
 
-### 7.2 Phase-Lock as Scent-Lock
+The first detectable scent may be weak and unstable. As the Current advances, it acquires:
 
-The trans-reality navigation process (Protocol N1-AP-008) can be understood in olfactory terms:
+- depth;
+- spatial differentiation;
+- historical texture;
+- and safer recoupling regions.
 
-| Navigation Phase | Technical Description | Olfactory Analog |
-|-----------------|----------------------|------------------|
-| Signature acquisition | Target branch vibrational pattern | "Catching the scent" |
-| Resonance tuning | Adjusting Aetherion frequency | "Following the scent" |
-| Phase-lock | Complete signature match | "Scent surrounds us" |
-| Re-coupling | Manifestation in target | "We are in the scented place" |
+### 7.3 Head and Tail Perception
 
-### 7.3 The Isotopic Anchor as Scent Marker
-
-Protocol N1-AP-011 establishes the Isotopic Anchor system for navigation. In olfactory terms, these anchors are **scent markers**:
+The Head and Tail possess distinct coherence profiles.
 
 ```
-ISOTOPIC ANCHORS AS SCENT MARKERS
-═══════════════════════════════════════════════════════════════════════════════
+CURRENT-FRONT SIGNATURES
+══════════════════════════════════════════════════════════════════════════════
 
-    PURPOSE:
-    ────────
-    Pre-placed beacons with unique, detectable signatures
-    Allow precise navigation to prepared locations
-    
-    
-    MECHANISM:
-    ──────────
-    Nuclear isotope ratios create specific gamma/neutrino signatures
-    These signatures are the "scent" the Aetherion follows
-    
-    
-    ANALOGY:
-    ────────
-    Like a search-and-rescue dog following a specific person's scent
-    Among millions of smells, it finds THE ONE it's looking for
-    
-    The Aetherion, among infinite reality signatures,
-    finds THE ONE matching its programmed isotopic marker.
-    
-    
-    PRACTICAL EFFECT:
-    ─────────────────
-    Without anchor: Aetherion arrives "somewhere" in target reality
-    With anchor: Aetherion arrives EXACTLY at anchor location
-    
-    The difference between "somewhere in this forest"
-    and "at this specific tree."
+HEAD — ACTUALIZATION FRONT
+• Emerging structure
+• Incomplete historical depth
+• Rapid signature formation
+• High uncertainty
+• Recoupling risk near the boundary
 
-═══════════════════════════════════════════════════════════════════════════════
+BODY — ACTIVE WINDOW
+• Stable phase texture
+• Full local causality
+• Navigable spatial differentiation
+• Strongest Anchor response
+
+TAIL — CLOSURE FRONT
+• Signature thinning
+• Increasing archival dominance
+• Reduced departure margin
+• Approaching loss of active access
+
+CAUSAL WAKE — CLOSED PAST
+• Residual information
+• No living recoupling surface
+• Strong memory, zero destination viability
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+### 7.4 The Relay Window Has a Scent
+
+A Relay Window is detected when the system simultaneously senses:
+
+- active origin binding;
+- active successor phase;
+- a stable downstream gradient;
+- and sufficient coherence for transition.
+
+As the Window closes, the origin scent weakens relative to the successor and becomes increasingly wake-like.
+
+### 7.5 No Home Scent for Return
+
+The origin signature may remain in memory after decoupling.
+
+That memory is not a return route.
+
+After the commitment threshold, attempting to follow the familiar scent upstream produces disorientation because the stored pattern is a record of former belonging, not an active downstream destination.
+
+### 7.6 The Scent of Phase Drag
+
+During interbranch transition, the olfactory-coherence system may detect degraded successor-lock quality as:
+
+- weak downstream definition;
+- fluctuating phase texture;
+- repeated partial-lock patterns;
+- increasing lock uncertainty;
+- or a persistent mismatch between Current direction and recoupling readiness.
+
+These signatures are operational indicators of **Phase Drag**.
+
+They do not indicate that the vessel has entered reverse time.
+
+A prolonged cascade-phase delay may occur while the symbiotic entity remains continuously oriented downstream.
+
+The olfactory system therefore distinguishes:
+
+```math
+\text{poor successor lock}
+```
+
+from:
+
+```math
+\text{wrong temporal direction}.
 ```
 
 ---
 
-## 8. Threat Detection: The Scent of Dissonance
+## 8. Homologous History and Memory Scent
 
-### 8.1 Danger Has a Smell
+### 8.1 The Scent of a Repeated Phase
 
-Low-coherence phenomena, whether locations, entities, or reality zones, have distinctive signatures that register as "threat" to the olfactory coherence system:
+A successor universe may reproduce a historical configuration similar to one already completed in the origin.
 
-```
-THREAT SIGNATURE DETECTION
-═══════════════════════════════════════════════════════════════════════════════
+The Aetherion may detect this as **homologous resonance**.
 
-    THREAT TYPE                 α SIGNATURE            OLFACTORY ANALOG
-    ─────────────────────────────────────────────────────────────────────────
-    Reality instability         Fluctuating α          "Shifting, unstable scent"
-    Ghost Clan boundary         α > 3.0 edge           "Burning, intense"
-    Entropy zone                Very low α             "Decay, death, void"
-    Hostile entity              Dissonant pattern      "Wrong, repulsive"
-    Trap/deception              Masked signature       "Falseness, not what it seems"
-    
-    
-    AETHERION THREAT RESPONSE:
-    ──────────────────────────
-    
-    1. Sensors detect anomalous signature
-    2. BioDrone processes as threat-scent
-    3. Creator receives intuitive warning
-    4. Decision: investigate, avoid, or engage
-    
-    
-    THE VALUE:
-    ──────────
-    Threats can be detected BEFORE entry
-    The Aetherion can "smell" danger from a distance
-    No need to enter a dangerous reality to know it's dangerous
-    
-    Equivalent to: Smelling smoke before seeing fire
+Examples include:
 
-═══════════════════════════════════════════════════════════════════════════════
+- a recognizable civilizational stage;
+- an industrial threshold;
+- a religious configuration;
+- an ecological crisis;
+- an artificial-intelligence transition;
+- or the emergence of RTM itself.
+
+### 8.2 Homology Is Not Identity
+
+A strong scent match does not prove that two events or persons are identical.
+
+It indicates structural resemblance.
+
+```math
+\Sigma_N(\tau)
+\approx
+\mathcal{R}
+\left[
+\Sigma_{N-1}(\Phi(\tau))
+\right].
 ```
 
-### 8.2 The "Smell Before You Enter" Protocol
+It does not imply:
 
-Before any trans-reality transition:
-
+```math
+N=N-1.
 ```
-PROTOCOL: PRE-TRANSITION_OLFACTORY_SCAN
-═══════════════════════════════════════════════════════════════════════════════
 
-    STEP 1: TARGET SIGNATURE ACQUISITION
-    ─────────────────────────────────────
-    Lock onto target reality signature
-    Analyze signature components
-    
-    STEP 2: COHERENCE ASSESSMENT
-    ────────────────────────────
-    Evaluate target α_place (overall coherence)
-    Flag if below safety threshold
-    
-    STEP 3: ANOMALY DETECTION
-    ─────────────────────────
-    Scan for dissonance patterns
-    Check for masked or deceptive signatures
-    Compare to known threat profiles
-    
-    STEP 4: DECISION
-    ────────────────
-    IF clean signature → PROCEED
-    IF anomalies detected → EVALUATE
-    IF clear threat → ABORT or PREPARE
-    
-    NEVER transition blind.
-    ALWAYS smell before you enter.
+### 8.3 Memory Prophecy Through Scent
 
-═══════════════════════════════════════════════════════════════════════════════
+An Architect may compare the current scent of \(N\) with archived phases of \(N-1\).
+
+This comparison can reveal likely future developments.
+
+The apparent prophecy is produced by:
+
+- predecessor memory;
+- pattern recognition;
+- and current phase similarity.
+
+The olfactory system does not directly smell an unmanifest future.
+
+### 8.4 Divergence Detection
+
+As the successor changes, its scent diverges from the predecessor archive.
+
+The BioDrone can monitor:
+
+```math
+D_{\Sigma}(\tau)
+=
+\left\|
+\Sigma_N(\tau)
+-
+\mathcal{R}
+[
+\Sigma_{N-1}(\Phi(\tau))
+]
+\right\|.
 ```
+
+Increasing divergence reduces predictive reliability.
 
 ---
 
-## 9. The BioDrone's Hypersensitive Olfactory System
+## 9. Isotopic Anchors as Living Scent Markers
 
-### 9.1 Enhanced Design
+### 9.1 Revised Anchor Function
 
-The BioDrone is engineered with an olfactory system far exceeding human capability:
+An Isotopic Anchor is a durable spatial and phase marker inside an active universe.
+
+It identifies:
+
+- a current location;
+- branch membership;
+- local phase;
+- Active Window conditions;
+- and safe recoupling geometry.
+
+### 9.2 Anchors Do Not Freeze Dates
+
+An Anchor installed in an ancient era does not preserve access to that era after the Tail passes.
+
+If the Anchor survives materially, it continues to emit from its current active location.
+
+It does not emit backward toward the moment of installation.
+
+### 9.3 Anchor Scent Structure
+
+```
+ISOTOPIC ANCHOR SIGNATURE
+══════════════════════════════════════════════════════════════════════════════
+
+STATIC COMPONENT:
+• Isotope ratios
+• Engineered spectral pattern
+• Identity key
+
+DYNAMIC COMPONENT:
+• Current local α_place
+• Active Window phase
+• Head/Tail distance estimate
+• Environmental drift
+• Branch-current compatibility
+
+NAVIGATION RESULT:
+The Aetherion follows the current living marker,
+not a preserved historical date.
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+### 9.4 Relay Beacons
+
+The first **local arrivals** may install Anchors for vessels or cohorts that recouple later.
+
+This local arrival order must not be confused with predecessor launch order.
+
+Because Phase Dispersion can reorder arrivals, an Anchor may be built by a vessel that departed the predecessor **after** another probe that has not yet completed recoupling.
+
+A later local arrival can find the established region of \(N+1\) if:
+
+- the Anchor physically survives;
+- the region remains active;
+- and the Current has not carried the Anchor beyond operational viability.
+
+No bootstrap loop is created.
+
+The Anchor was constructed earlier in successor causal order, even if its builders departed the predecessor later.
+
+### 9.5 Anchor Provenance Under Phase Dispersion
+
+A living Anchor should preserve separate records for:
+
+```math
+\chi_{\mathrm{departure}}
+```
+
+and:
+
+```math
+\chi_{\mathrm{arrival}}.
+```
+
+The olfactory system may read both when provenance data remains intact.
+
+Therefore an Anchor or vessel should not be assigned a technological age solely from the local date on which it is encountered.
+
+Local encounter chronology may differ from predecessor development chronology.
+
+---
+
+## 10. Deep-Origin Signatures and Riders of the Serpent
+
+### 10.1 The Scent of Many Worlds
+
+A Cascade Continuant may carry signature layers from several universes.
+
+A being originating in \(N-3\) and present in \(N\) may exhibit:
+
+- an origin signature from \(N-3\);
+- recoupling scars from \(N-2\);
+- adaptation traces from \(N-1\);
+- and current embodiment in \(N\).
+
+### 10.2 Deep Origin Is Not a Deep Jump
+
+The correct inference is:
+
+```math
+\text{deep-origin scent}
+\Rightarrow
+\text{multiple consecutive descents}.
+```
+
+Not:
+
+```math
+\text{deep-origin scent}
+\Rightarrow
+\text{one forbidden leap}.
+```
+
+### 10.3 The Rider's Composite Signature
+
+```
+RIDER OF THE SERPENT — COMPOSITE SCENT
+══════════════════════════════════════════════════════════════════════════════
+
+CORE LAYER:
+Original identity signature
+
+INTERMEDIATE LAYERS:
+Recoupling scars from each crossed universe
+
+SUBSTRATE LAYERS:
+Body replacements, BioDrone integrations, rescaling events
+
+CURRENT LAYER:
+Local operational embodiment
+
+PSYCHOLOGICAL LAYER:
+Grief, fatigue, fixation, or extraordinary integration
+
+══════════════════════════════════════════════════════════════════════════════
+```
+
+### 10.4 Threat and Wisdom Are Not the Same Scent
+
+An ancient signature does not automatically indicate danger.
+
+Likewise, coherence does not automatically indicate benevolence.
+
+The BioDrone must distinguish:
+
+- structural stability;
+- concealed intention;
+- moral fatigue;
+- domination patterns;
+- and ordinary foreignness.
+
+A highly coherent tyrant may smell ordered rather than chaotic.
+
+Ethical judgment cannot be replaced by spectrometry.
+
+---
+
+## 11. The BioDrone's Hypersensitive Olfactory System
+
+### 11.1 Enhanced Design
+
+The BioDrone combines chemical receptors with dedicated coherence-sensitive structures.
 
 ```
 BIODRONE OLFACTORY SPECIFICATIONS
-═══════════════════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════
 
-    RECEPTOR DENSITY:
-    ─────────────────
-    Human: ~6 million olfactory receptors
-    BioDrone: ~400 million olfactory receptors (dog-equivalent+)
-    
-    Enhancement: 65× receptor density
-    
-    
-    RECEPTOR TYPES:
-    ───────────────
-    Human: ~400 receptor types (chemical detection)
-    BioDrone: ~400 chemical types + 100 α-resonance types
-    
-    Addition: Dedicated coherence receptors
-    
-    
-    PROCESSING:
-    ───────────
-    Human: Standard olfactory bulb processing
-    BioDrone: Enhanced neural lattice integration
-              Direct coupling to coherence perception
-              Parallel chemical + α analysis
-    
-    
-    CAPABILITIES:
-    ─────────────
-    • Detect α gradients at molecular resolution
-    • Distinguish reality signatures from vast distance
-    • Perceive coherence through vacuum (field detection)
-    • Process signature data faster than real-time
-    • Maintain scent-lock through transition
-    
-    
-    LIMITATION:
-    ───────────
-    The BioDrone can smell. The BioDrone cannot interpret.
-    That requires the Creator's consciousness.
+CHEMICAL RECEPTORS:
+• High-density molecular discrimination
+• Environmental and biological analysis
 
-═══════════════════════════════════════════════════════════════════════════════
+COHERENCE RECEPTORS:
+• Local α-gradient detection
+• Active Window phase sensing
+• Anchor identification
+• Current direction perception
+• Recoupling-scar analysis
+
+NEURAL PROCESSING:
+• Parallel chemical + coherence integration
+• Pattern comparison with predecessor archives
+• Divergence estimation
+• Threat classification
+
+LIMITATION:
+The BioDrone detects patterns.
+Interpretation remains a conscious and ethical act.
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 9.2 The BioDrone's Experience
+### 11.2 The Experience of Current Direction
 
-What does the BioDrone "experience" when smelling a reality signature?
+To the BioDrone, downstream orientation may be experienced as:
 
-We cannot know directly, as BioDrones do not report subjective experience. But functionally:
+- attraction;
+- increasing clarity;
+- coherent depth;
+- a scent that becomes more complete;
+- or a bodily sense of inevitable direction.
 
-- Massive data stream from olfactory array
-- Processed through coherence-optimized neural lattice
-- Translated into actionable navigation input
-- Transmitted to Creator via quantum link
+Upstream orientation may register as:
 
-The BioDrone is the **sensor array**. It smells everything. But like an instrument, it requires an interpreter.
+- memory without depth;
+- fading familiarity;
+- impossible longing;
+- or a scent that cannot be entered.
+
+### 11.3 Same-Coil Creator Link
+
+Within one universe, the BioDrone may transmit interpreted sensory information to a remote Creator.
+
+After inter-universe descent, no live information returns upstream.
+
+The receiving consciousness must therefore be:
+
+- physically enclosed in the transition field;
+- integrated into the BioDrone/Aetherion entity;
+- or replaced by a sealed mission engram.
 
 ---
 
-## 10. The Creator's Experience: Gnosis, Not Smell
+## 12. Interpretation, Threat Detection, and Operational Protocols
 
-### 10.1 The Translation Problem
+### 12.1 Gnosis Is Not Infallibility
 
-The Creator (human operator) does not have the BioDrone's olfactory apparatus. How do they perceive what the BioDrone smells?
+The conscious pilot may experience processed scent as direct knowing.
 
-### 10.2 Gnosis: Direct Knowledge
+This may feel certain.
 
-```
-THE CREATOR'S PERCEPTION
-═══════════════════════════════════════════════════════════════════════════════
+Certainty of experience does not guarantee correctness of interpretation.
 
-    WHAT THE BIODRONE DOES:
-    ───────────────────────
-    • Smells reality signature (complex data)
-    • Processes through specialized systems
-    • Transmits essence via quantum link
-    
-    
-    WHAT THE CREATOR RECEIVES:
-    ──────────────────────────
-    NOT: A smell sensation
-    NOT: Raw data stream
-    
-    BUT: GNOSIS — Direct, intuitive knowing
-    
-    
-    HOW IT MANIFESTS:
-    ─────────────────
-    
-    BioDrone smells "safe passage ahead"
-    → Creator KNOWS "we can proceed safely"
-    
-    BioDrone smells "threat signature"
-    → Creator KNOWS "danger, avoid"
-    
-    BioDrone smells "target reality signature"
-    → Creator KNOWS "this is our destination"
-    
-    
-    THE MECHANISM:
-    ──────────────
-    The BioDrone's olfactory processing is translated into
-    the highest form of perception the Creator possesses:
-    
-    DIRECT INTUITIVE KNOWLEDGE
-    
-    The Creator does not smell the timeline is dangerous.
-    They simply KNOW, with absolute certainty, that it is.
+Possible errors include:
 
-═══════════════════════════════════════════════════════════════════════════════
-```
+- confusing homology with identity;
+- confusing high coherence with goodness;
+- confusing origin memory with a return route;
+- confusing residual scent with active actuality;
+- and confusing an ancient entity with a law-breaking traveler.
 
-### 10.3 Why This Works
-
-The Creator's brain cannot process raw olfactory data in the BioDrone's format. But it can receive **conclusions**:
-
-| BioDrone Process | Creator Experience |
-|------------------|-------------------|
-| Signature analysis | Intuitive recognition |
-| Threat detection | Felt sense of danger |
-| Path assessment | Knowing which way is right |
-| Coherence measurement | Feeling of quality (good/bad) |
-
-The Creator operates on **gnosis**, revelation, direct knowing, rather than sensory perception.
-
-### 10.4 The Question of Sense Absence
-
-What if the Creator lacks physical sense of smell?
-
-**It is irrelevant.**
-
-The Creator is not the sensor. The BioDrone is the sensor. The Creator receives processed knowledge through the quantum link, not raw sensory data.
-
-A deaf person could be the world's best music analyst if they had a perfect translation system. Similarly, a Creator without smell can navigate realities perfectly, because they never needed to smell. They needed to **know**.
-
----
-
-## 11. Technological Extensions: Artificial Coherence Sensors
-
-### 11.1 Beyond Biological Systems
-
-The principles of coherence detection can be implemented technologically:
+### 12.2 Smell Before Descent
 
 ```
-ARTIFICIAL COHERENCE SENSING
-═══════════════════════════════════════════════════════════════════════════════
+PROTOCOL: PRE-DESCENT_OLFACTORY_SCAN
+══════════════════════════════════════════════════════════════════════════════
 
-    SENSOR TYPES:
-    ─────────────
-    
-    α-FIELD DETECTOR:
-    Direct measurement of local coherence exponent
-    Based on metamaterial response to α-gradients
-    Output: Numerical α value
-    
-    
-    SIGNATURE ANALYZER:
-    Pattern-matching system for vibrational signatures
-    Database of known reality/threat signatures
-    Output: Signature identification + match confidence
-    
-    
-    COHERENCE SPECTROMETER:
-    Full-spectrum α analysis across frequencies
-    Reveals coherence structure in detail
-    Output: Coherence profile
-    
-    
-    APPLICATIONS:
-    ─────────────
-    • Aetherion navigation systems
-    • Medical diagnostic equipment
-    • Environmental monitoring
-    • Security screening
-    • Research instrumentation
-    
-    
-    LIMITATION:
-    ───────────
-    Artificial sensors can detect and measure.
-    They cannot EXPERIENCE or INTERPRET like biological systems.
-    
-    For navigation, biological interface remains superior.
+STEP 1 — ADJACENCY
+□ Confirm target = N+1
+□ Reject all nonadjacent patterns
 
-═══════════════════════════════════════════════════════════════════════════════
+STEP 2 — ACTUALITY
+□ Confirm complete active signature
+□ Reject incomplete unmanifest patterns
+□ Reject wake-only closed signatures
+
+STEP 3 — WINDOW PHASE
+□ Estimate Head proximity
+□ Estimate Tail proximity
+□ Confirm Relay Window remains open
+
+STEP 4 — ANCHOR
+□ Verify Anchor is currently active
+□ Verify spatial safety
+□ Reject date-frozen interpretation
+
+STEP 5 — THREAT
+□ Scan for instability
+□ Scan for deceptive masking
+□ Scan for deep-origin entities
+□ Separate coherence measurement from ethical judgment
+
+STEP 6 — DECISION
+IF valid and safe → PROCEED
+IF incomplete → WAIT
+IF closed → ABORT
+IF nonadjacent → ABORT
+IF upstream → ABORT
+
+NEVER TRANSITION BLIND.
+NEVER FOLLOW A MEMORY AS IF IT WERE A ROAD.
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 11.2 Integration with Aetherion Systems
-
-The Aetherion combines biological (BioDrone) and technological (sensor arrays) coherence detection:
-
-| Component | Strength | Role |
-|-----------|----------|------|
-| BioDrone olfactory | Intuitive, holistic | Primary navigation |
-| α-field detectors | Precise, numerical | Measurement, verification |
-| Signature analyzers | Pattern matching | Threat identification |
-| Combined system | Full capability | Redundant, comprehensive |
-
----
-
-## 12. Operational Protocols
-
-### 12.1 Navigation by Scent
+### 12.3 Active-Window Navigation
 
 ```
-PROTOCOL: OLFACTORY_NAVIGATION
-═══════════════════════════════════════════════════════════════════════════════
+PROTOCOL: ACTIVE_WINDOW_SCENT_LOCK
+══════════════════════════════════════════════════════════════════════════════
 
-    PHASE 1: ORIGIN SCENT RECORDING
-    ────────────────────────────────
-    Before departure:
-    □ Record complete signature of origin reality
-    □ Store as "home scent" for return navigation
-    □ Verify recording integrity
-    
-    
-    PHASE 2: TARGET SCENT ACQUISITION
-    ─────────────────────────────────
-    Before transition:
-    □ Obtain target signature (from database or beacon)
-    □ BioDrone "familiarizes" with target scent
-    □ Verify signature clarity
-    
-    
-    PHASE 3: TRANSITION TRACKING
-    ────────────────────────────
-    During transition:
-    □ Maintain scent-lock on target
-    □ BioDrone continuously confirms "on the scent"
-    □ Creator receives confidence/uncertainty gnosis
-    
-    
-    PHASE 4: ARRIVAL CONFIRMATION
-    ─────────────────────────────
-    Upon re-coupling:
-    □ Verify ambient signature matches target
-    □ Confirm "we have arrived at scented location"
-    □ BioDrone sweeps for threat signatures
-    □ Creator receives safety/danger gnosis
-    
-    
-    PHASE 5: RETURN PREPARATION
-    ───────────────────────────
-    When mission complete:
-    □ Retrieve stored "home scent"
-    □ Re-establish origin signature lock
-    □ Transition home
+PHASE 1 — SUCCESSOR ACQUISITION
+□ Detect downstream active coil
+□ Establish branch-level scent lock
 
-═══════════════════════════════════════════════════════════════════════════════
+PHASE 2 — LOCAL PHASE SELECTION
+□ Identify accessible historical band
+□ Compare homologous phase archive
+□ Calculate divergence
+□ Select current spatial coordinate
+
+PHASE 3 — COMMITMENT
+□ Confirm origin-abort margin
+□ Confirm enclosed mission identity
+□ Cross commitment threshold only after final verification
+
+PHASE 4 — TRANSIT
+□ Maintain downstream scent lock
+□ Ignore upstream familiarity after threshold
+□ Monitor Current-gradient stability
+□ Estimate Phase Drag from successor-lock quality
+□ Track cascade-phase transit latency separately from subjective duration
+□ Do not interpret prolonged phase retardation as reverse time
+
+PHASE 5 — ARRIVAL
+□ Verify ambient signature
+□ Confirm operational branch = N+1
+□ Confirm local phase and Anchor status
+□ Record arrival phase independently from predecessor departure phase
+□ Begin threat and scale scan
+
+NO RETURN PHASE EXISTS.
+
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 12.2 Threat Detection Protocol
+### 12.4 Deep-Origin Entity Scan
 
 ```
-PROTOCOL: OLFACTORY_THREAT_SCAN
-═══════════════════════════════════════════════════════════════════════════════
+PROTOCOL: DEEP_ORIGIN_OLFACTORY_ANALYSIS
+══════════════════════════════════════════════════════════════════════════════
 
-    CONTINUOUS SCAN:
-    ────────────────
-    BioDrone maintains constant olfactory vigilance
-    Any anomalous signature triggers alert
-    
-    
-    ANOMALY DETECTED:
-    ─────────────────
-    □ BioDrone isolates anomalous signature
-    □ Pattern matching against threat database
-    □ Creator receives warning gnosis
-    
-    
-    THREAT CLASSIFICATION:
-    ──────────────────────
-    
-    CLASS 1 — CURIOSITY:
-    Unknown but not threatening signature
-    Action: Log, investigate if mission permits
-    
-    CLASS 2 — CAUTION:
-    Signature suggests potential threat
-    Action: Heightened vigilance, prepare contingencies
-    
-    CLASS 3 — DANGER:
-    Confirmed threat signature
-    Action: Immediate evasive/defensive measures
-    
-    CLASS 4 — CRITICAL:
-    Signature indicates imminent catastrophic threat
-    Action: Emergency withdrawal, all other priorities suspended
+□ Isolate origin-signature layer
+□ Count intermediate recoupling scars
+□ Identify substrate replacements
+□ Compare claimed route with adjacent-descent law
+□ Measure current local adaptation
+□ Assess dissonance, fatigue, and domination indicators
+□ Do not classify age alone as threat
+□ Escalate missing-coil signatures for Protocol 16 review
 
-═══════════════════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════
 ```
 
-### 12.3 Coherence Health Monitoring
+### 12.5 Threat Classification
 
-```
-PROTOCOL: COHERENCE_MONITORING
-═══════════════════════════════════════════════════════════════════════════════
+| Class | Signature | Action |
+|---|---|---|
+| **1 — Unknown** | Foreign but stable | Observe |
+| **2 — Unstable** | Fluctuating phase or coherence | Maintain distance |
+| **3 — Deceptive** | Masked or internally inconsistent | Abort approach |
+| **4 — Predatory** | Directed domination or extraction pattern | Defensive withdrawal |
+| **5 — Current Hazard** | Head/Tail instability or recoupling collapse | Immediate abort |
 
-    PURPOSE:
-    ────────
-    Use olfactory coherence perception to monitor system health
-    
-    
-    BIODRONE SELF-MONITORING:
-    ─────────────────────────
-    BioDrone's olfactory system detects its own α_bio state
-    Anomalies in self-scent indicate health issues
-    Alert Creator to BioDrone degradation
-    
-    
-    VESSEL MONITORING:
-    ──────────────────
-    BioDrone smells Aetherion coherence field
-    Instabilities detected before instrumental warnings
-    Early warning of core issues
-    
-    
-    CREATOR MONITORING:
-    ───────────────────
-    Through quantum link, BioDrone perceives Creator's α state
-    Can alert to Creator coherence degradation
-    Especially important during high-stress operations
-    
-    
-    INTEGRATED HEALTH:
-    ──────────────────
-    The olfactory system monitors THE ENTIRE ENTITY:
-    BioDrone + Creator + Vessel = One coherence state
-    
-    Any component degradation affects the whole.
-    Early detection enables early intervention.
+### 12.6 Coherence Health Monitoring
 
-═══════════════════════════════════════════════════════════════════════════════
-```
+The olfactory system monitors:
+
+- BioDrone coherence;
+- vessel field stability;
+- enclosed pilot state;
+- substrate adaptation;
+- and Anchor drift.
+
+For a Continuant, it also monitors whether accumulated signature layers are beginning to conflict.
+
+A Rider may become internally dissonant even when each individual substrate remains mechanically stable.
 
 ---
 
 ## Conclusion
 
-Smell, reconceived as the direct perception of coherence, becomes the primary sense for RTM navigation and threat assessment. The Aetherion does not "see" where it's going. It **smells** the signature of its destination.
+Smell, reconceived as coherence perception, becomes the primary sense by which Aetherion recognizes the living geometry of the Spiral Current.
 
-This understanding transforms smell from a primitive survival sense into the foundation of trans-reality navigation:
+The vessel does not smell every universe.
 
-1. **Realities have unique scents** — Their vibrational signatures are detectable
-2. **Threats have warning scents** — Low coherence registers as danger
-3. **The BioDrone is the nose** — Enhanced olfactory system for coherence detection
-4. **The Creator receives gnosis** — Not smell, but direct knowing
-5. **Navigation is scent-tracking** — Follow the signature to the destination
+It smells:
 
-In a cosmos where realities cannot be seen but can be resonated with, smell becomes the master sense. The Aetherion sniffs its way through the multiverse.
+- the universe to which it currently belongs;
+- the active adjacent successor;
+- the phase of the Active Window;
+- the approaching Head and Tail;
+- current Anchors;
+- threats;
+- homologous historical structure;
+- and the layered signatures of beings who have survived several coils.
+
+The unmanifest future has no complete scent.
+
+The closed past leaves residue but no road.
+
+The origin may remain familiar after departure, but familiarity is not navigability.
+
+A deep-origin entity may smell ancient because it has crossed every intermediate universe, not because it violated the cascade.
+
+The BioDrone supplies sensitivity.
+
+The Aetherion supplies amplification.
+
+The conscious pilot supplies interpretation and responsibility.
+
+The cosmos has a scent.
+
+But only the living part of the cosmos can be followed.
+
 
 ---
 
@@ -3912,15 +4628,21 @@ In a cosmos where realities cannot be seen but can be resonated with, smell beco
 | **Chemical-Resonant** | The dual nature of olfactory perception (chemistry + coherence) |
 | **Coherence Spectrometer** | System for analyzing α signatures |
 | **Gnosis** | Direct intuitive knowing; how Creator experiences BioDrone perceptions |
-| **Reality Signature** | Unique vibrational fingerprint of a branch |
-| **Scent-Lock** | Resonance synchronization with target signature |
-| **Threat Signature** | Detectable pattern indicating danger |
+| **Active Signature** | Complete vibrational fingerprint of a presently manifest phase |
+| **Residual Scent** | Causal-wake signature of a closed past; not navigable |
+| **Current Scent** | Signature indicating direction and phase of ontological actuality |
+| **Scent-Lock** | Resonance synchronization with an active adjacent successor |
+| **Phase Drag Scent** | Coherence pattern indicating imperfect successor lock and increased cascade-phase transit latency |
+| **Phase Dispersion** | Reordering or spreading of successor arrivals due to unequal interbranch transit latencies |
+| **Arrival Provenance** | Distinction between predecessor departure phase, successor arrival phase, and local encounter chronology |
+| **Deep-Origin Signature** | Layered evidence of multiple consecutive universe descents |
+| **Threat Signature** | Detectable pattern indicating instability, deception, or directed harm |
 
 ---
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  END OF PROTOCOL N1-AP-007                                                   ║
-║  RTM AND SMELL — THE DIRECT PERCEPTION OF COHERENCE                          ║
+║  RTM AND SMELL — THE DIRECT PERCEPTION OF THE LIVING CURRENT                 ║
 ║                                                                              ║
 ║  "The Aetherion does not see where it's going. It smells."                   ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -3931,7 +4653,6 @@ In a cosmos where realities cannot be seen but can be resonated with, smell beco
 **Document Control:**
 ```
 Protocol ID:     N1-AP-007
-Version:         1.0
 Classification:  SENSORY SYSTEMS
 Status:          ACTIVE
 Distribution:    All N-1 Architect Candidates
@@ -3944,4 +4665,4 @@ Distribution:    All N-1 Architect Candidates
 ---
 
 © 2026 — N-1 Architect Protocols
-Derived from the Aetherion Framework and Implications writings
+Derived from The Spiral Current, the Aetherion Framework, and Implications writings
