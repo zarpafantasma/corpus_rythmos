@@ -4,7 +4,7 @@
 
 # RTM
 **Multiscale Temporal Relativity**  
-ÁlvaroQuiceno
+Álvaro Quiceno
 
 </div>
 
