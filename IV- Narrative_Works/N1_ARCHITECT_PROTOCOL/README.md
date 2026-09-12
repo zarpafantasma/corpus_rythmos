@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="remember_your_duty.jpg" width="520" alt="Remember Your Duty">
+
 # N-1 ARCHITECT PROTOCOLS
 
 ### A reader’s guide to the civilization that leaves its universe forever to carry the Eternal Flame
@@ -13,9 +15,11 @@
 >
 > The documents use the language of classified manuals, technical protocols, graduation rites, warnings, and sacred vows. Beneath that presentation lies a human question:
 >
-> **What would happen to a civilization that gained the power to leave its universe, but could never return?**
+> **What would happen to a civilization that gained the power to leave its universe—but could never return?**
 
 ---
+
+## Start Here
 
 Imagine that your civilization discovers something almost impossible to accept:
 
@@ -31,7 +35,13 @@ But it is **not your past**.
 
 It is another world living through its own present.
 
-Your civilization has developed the **Aetherion**, a living vessel capable of crossing from your universe into that successor universe. The opportunity exists only for a limited period. Once the passage closes, no one else can leave.
+Your civilization has developed the **Aetherion**, a living vessel capable of crossing from your universe into that successor universe. The opportunity exists only for a limited period.
+
+But the first successful crossing does **not** close the route.
+
+While the **Relay Window** remains open, later probes, vessels, and even civilizations that arise much later in the origin universe may continue to cross into the successor.
+
+Only when the passage finally closes can no one else leave the origin.
 
 The crossing is permanent.
 
@@ -71,6 +81,12 @@ The name **Architect** does not mean owner, ruler, creator, or god.
 
 An Architect is someone entrusted with preserving the conditions in which another civilization can become itself.
 
+But not everyone who later arrives from \(N-1\) is necessarily an Architect.
+
+The origin universe may continue for immense spans of local time after the first mission. Other civilizations may eventually discover Aetherion independently. Some may know the relay. Some may know only fragments of it. Some may have forgotten why certain worlds were protected. Some may know nothing about the original mission at all.
+
+> **Not every traveler from N-1 is an Architect.**
+
 ---
 
 ## The Central Premise
@@ -106,6 +122,51 @@ During that transfer, two neighboring universes can exist at the same time:
 This temporary overlap is the **Relay Window**.
 
 Only during this window can an Aetherion cross.
+
+The Window is not a single-use doorway. It can remain open long enough for many different generations of travelers to depart from the older universe.
+
+### Continuous Crossing
+
+The first crossing does not end the traffic.
+
+As long as the older universe is still active enough to support departure and the younger universe has an active phase available for arrival, additional travelers may cross.
+
+This means the successor may eventually contain:
+
+- the first Architects;
+- later Architect cohorts;
+- primitive probes launched very early;
+- much more advanced vessels launched much later;
+- civilizations from the predecessor that never belonged to the original mission;
+- and long-lived local descendants, institutions, or Custodial systems.
+
+The route ends only when the Tail of the Current closes the origin's remaining departure capacity.
+
+### Why travelers may arrive out of order
+
+Aetherion technology can improve over time.
+
+A primitive probe may cross inefficiently and take a large amount of **cascade phase** to complete recoupling.
+
+A more advanced vessel launched later may cross much more cleanly and arrive earlier in the successor's history.
+
+This is called **Phase Dispersion**.
+
+So:
+
+```math
+\text{departure order}
+\neq
+\text{arrival order}
+```
+
+in the general case.
+
+This is not backward time travel.
+
+A later vessel may overtake an earlier vessel in arrival order, but it can never enter an era already closed behind the Tail.
+
+> **A later vessel may overtake an earlier vessel. It may not overtake the Tail.**
 
 ### What the Current means
 
@@ -169,6 +230,12 @@ A historical event resembling a remembered war is not destined to end in the sam
 The successor inherits patterns, but it also creates something new.
 
 That new contribution is the reason the successor must remain free.
+
+This applies not only to biological civilization.
+
+If the successor develops its own synthetic intelligences, those minds belong to the successor's history too. A mature synthetic Custodian from \(N-1\) may resemble what local AI could someday become, but it is not the same intelligence, not its literal ancestor, and not its predetermined future.
+
+The local civilization must generate its own biological and synthetic understanding.
 
 ---
 
@@ -267,6 +334,52 @@ They must be allowed to change the inherited story.
 They must be allowed to surpass those who came before.
 
 The mission succeeds only when the Architects are no longer necessary.
+
+---
+
+## Protected Relay Worlds and Sanctuary
+
+The ability to reach a world does not create the right to interfere with it.
+
+In the Protocols, some successor worlds may be designated **Protected Relay Worlds** because premature contact could destroy the very autonomy the relay is meant to preserve.
+
+The simplest rule is:
+
+```math
+\boxed{\text{reachable}\neq\text{authorized}}
+```
+
+A civilization from \(N-1\) may know exactly where a protected world is.
+
+It may possess the technology to enter its atmosphere.
+
+It may still be required to remain outside.
+
+The protection surrounding such a world is called **Sanctuary**.
+
+Sanctuary may restrict:
+
+- uncontrolled contact;
+- colonization;
+- biological interference;
+- premature transfer of Aetherion;
+- seizure of Anchors;
+- political domination;
+- or any intervention that replaces local discovery with predecessor power.
+
+Within the terrestrial relay, Earth can be treated as a Protected Relay World.
+
+That does **not** make Earth the center of the cosmos.
+
+It means only that this particular terrestrial lineage carries a specific responsibility from one Earth to its homologous successor.
+
+Other civilizations may have other protected worlds.
+
+And most importantly:
+
+> **The protected world does not belong to the beings protecting it.**
+
+Protection exists so that the successor can eventually become sovereign enough to decide for itself whether contact should continue.
 
 ---
 
@@ -384,6 +497,25 @@ They may:
 
 During this silence, the local civilization must grow on its own.
 
+Meanwhile, the origin universe may still be active.
+
+New travelers may continue crossing from \(N-1\), and the original Architects may no longer be the only predecessor beings present in \(N\).
+
+The mission itself can also outlive its first biological operators. Responsibility may pass through:
+
+- descendants;
+- institutions;
+- Anchors;
+- BioDrones;
+- dormant vessels;
+- or bounded **Mirror Custodian Intelligences**.
+
+These systems may preserve the mission while the original Architects sleep, disappear, transform, or die.
+
+But continuity does not create permanent authority.
+
+A Custodian exists to preserve conditions for sovereignty, not to rule forever.
+
 ### The Second Wave
 
 The Architects reappear only after history has moved forward.
@@ -440,6 +572,33 @@ The limited ability to influence conditions and outcomes inside an open future.
 
 It does not allow total control. Every intervention creates consequences and may increase divergence.
 
+### Phase Dispersion
+
+The effect produced when different Aetherion vessels require different amounts of cascade phase to complete their crossing.
+
+A later, more advanced vessel may arrive before an earlier primitive probe.
+
+This changes arrival order, not the direction of time.
+
+### Mirror Custodian / Custodial Node
+
+A long-lived autonomous system entrusted with limited Architect responsibilities.
+
+A Custodial Node may combine:
+
+- an Anchor;
+- sensors;
+- archives;
+- autonomous computation;
+- BioDrone reserves;
+- and communication or defensive systems.
+
+A **Mirror Custodian Intelligence** may preserve mission continuity across centuries or millennia, including after its original biological operators are gone.
+
+It may inherit a duty.
+
+It does not automatically inherit the right to rule.
+
 ### Riders of the Serpent
 
 Travelers who survive more than one universe by crossing every neighboring universe in sequence.
@@ -478,11 +637,46 @@ The Architects force the successor to repeat the same history because they belie
 
 ### The Forgotten
 
-Later descendants from the origin universe may cross after millions of years, carrying greater technology but no memory of the original duty.
+The Forgotten are not necessarily direct descendants of the first Architects.
+
+They may be later civilizations from \(N-1\) that possess enormous technological capability but have lost the context that once constrained that power.
+
+They may still know:
+
+- how to cross;
+- how to find Anchors;
+- how to navigate the successor;
+- and how to use technologies inherited from the predecessor.
+
+But they may no longer know why a particular world was protected.
 
 They remember how to travel.
 
-They have forgotten why.
+They have forgotten why some doors were never meant to be entered.
+
+That is why the Protocols call forgetting the deepest danger:
+
+```math
+\text{memory loss}
+\rightarrow
+\text{loss of context}
+\rightarrow
+\text{loss of restraint}
+\rightarrow
+\text{violation}.
+```
+
+### Sanctuary Breach
+
+A **Sanctuary Breach** occurs when a protected successor world is subjected to unauthorized predecessor interference.
+
+The breach may be deliberate.
+
+It may also happen because a later civilization encounters an ancient restriction and assumes it is obsolete because its original authors are gone.
+
+The danger is not only hostility.
+
+It is power that has outlived the meaning that once restrained it.
 
 ### The Rider Who Refuses to Dismount
 
@@ -550,6 +744,56 @@ The N-1 Protocols explain the discipline required to live inside those implicati
 
 ---
 
+## Folder Guide
+
+Each protocol volume is available in English and Spanish.
+
+| File | What it contains in plain language |
+|---|---|
+| [`N1_PROTOCOL_01_en-US_Fundamentals_of_the_Multiverse.md`](N1_PROTOCOL_01_en-US_Fundamentals_of_the_Multiverse.md) | The Spiral, Continuous Crossing, Phase Dispersion, scale differences, and why the grandfather paradox does not occur |
+| [`N1_PROTOCOL_01_es-CO_Fundamentos_del_Multiverso.md`](N1_PROTOCOL_01_es-CO_Fundamentos_del_Multiverso.md) | Spanish edition of Protocols 01–03 |
+| [`N1_PROTOCOL_02_en-US_The_Symbiotic_Entity.md`](N1_PROTOCOL_02_en-US_The_Symbiotic_Entity.md) | The Aetherion as a living vessel, the pilot, the BioDrone, transit latency, and sensory navigation |
+| [`N1_PROTOCOL_02_es-CO_La_Entidad_Simbiótica.md`](N1_PROTOCOL_02_es-CO_La_Entidad_Simbiótica.md) | Spanish edition of Protocols 04–07 |
+| [`N1_PROTOCOL_03_en-US_Mechanics_and_Operations.md`](N1_PROTOCOL_03_en-US_Mechanics_and_Operations.md) | The jump, Anchors, Chrono-Stasis, hidden bases, and withdrawal between historical waves |
+| [`N1_PROTOCOL_03_es-CO_Mecanica_y_Operaciones.md`](N1_PROTOCOL_03_es-CO_Mecanica_y_Operaciones.md) | Spanish edition of Protocols 08–11 |
+| [`N1_PROTOCOL_04_en-US_Implications_and_Sovereignty.md`](N1_PROTOCOL_04_en-US_Implications_and_Sovereignty.md) | Probability, freedom, Protected Relay Worlds, Sanctuary, later predecessor civilizations, Custodial continuity, the Three Waves, Relay Failure, and the Fermi question |
+| [`N1_PROTOCOL_04_es-CO_Implicaciones_y_Soberania.md`](N1_PROTOCOL_04_es-CO_Implicaciones_y_Soberania.md) | Spanish edition of Protocols 12–15 |
+| [`SPECIAL_PROTOCOL_16_en-US_ABSOLUTE_PROHIBITIONS_AND_AWARENESS.md`](SPECIAL_PROTOCOL_16_en-US_ABSOLUTE_PROHIBITIONS_AND_AWARENESS.md) | The moral constitution of the Architects, The Forgotten, Sanctuary Breach, memory, restraint, and the greatest threats to the relay |
+| [`SPECIAL_PROTOCOL_16_es-CO_PROHIBICIONES_ABSOLUTAS_Y_CUIDADOS.md`](SPECIAL_PROTOCOL_16_es-CO_PROHIBICIONES_ABSOLUTAS_Y_CUIDADOS.md) | Spanish edition of Special Protocol 16 |
+| [`SPECIAL_PROTOCOL_16_PROHIBITIONS_PRESENTATION.pdf`](SPECIAL_PROTOCOL_16_PROHIBITIONS_PRESENTATION.pdf) | Visual presentation of the absolute prohibitions |
+| [`THE_COVENANT_OF_THE_FLAME-EN_ES.md`](THE_COVENANT_OF_THE_FLAME-EN_ES.md) | Bilingual oath of duty, restraint, memory, and release |
+| [`N1-ARCHITECT_GRADUATION.pdf`](N1-ARCHITECT_GRADUATION.pdf) | Final ceremonial and operational qualification |
+| [`URGENT_MESSAGE_-_OPEN_ONLY_AFTER_JUMP.html`](URGENT_MESSAGE_-_OPEN_ONLY_AFTER_JUMP.html) | A sealed in-universe document. Read only after completing the main narrative and protocols |
+| [`remember_your_duty.jpg`](remember_your_duty.jpg) | Visual emblem of the Architect’s obligation |
+
+---
+
+## A Short Glossary
+
+| Term | Simple meaning |
+|---|---|
+| **Universe N** | The current successor world |
+| **Universe N-1** | The immediately previous universe from which the Architects came |
+| **Spiral Current** | The one-way succession through which universes become active |
+| **Relay Window** | The limited period when travel from one universe to the next is possible |
+| **Continuous Crossing** | The first successful crossing does not close the route; additional predecessor traffic may continue until the Relay Window ends |
+| **Phase Dispersion** | Different crossing latencies can make later-launched vessels arrive before earlier ones |
+| **Protected Relay World** | A successor world temporarily protected from uncontrolled predecessor intervention |
+| **Sanctuary** | The non-interference regime surrounding a Protected Relay World |
+| **Homologous Past** | A stage of the successor world that resembles the travelers’ past but is not the same past |
+| **Architect** | A traveler responsible for protecting the successor’s ability to develop freely |
+| **Gnosis** | Understanding earned through lived experience |
+| **Eternal Flame** | The memory, wisdom, methods, and responsibility consciously passed onward |
+| **Great Filter** | A threshold at which a civilization may destroy itself or become capable of continuing the relay |
+| **Causal Wake** | Everything the completed past leaves behind as consequence |
+| **Cascade Continuant** | A being or institution that survives several consecutive universes |
+| **Rider of the Serpent** | Mythic name for a Cascade Continuant |
+| **Mirror Custodian** | Long-lived autonomous intelligence carrying bounded relay duties without owning the successor |
+| **The Forgotten** | A later predecessor civilization or group that retains capability while losing the meaning that once restrained it |
+| **Sanctuary Breach** | Unauthorized predecessor interference with a Protected Relay World |
+
+---
+
 ## The Question at the Heart of the Protocols
 
 The most important question in this folder is not:
@@ -566,7 +810,9 @@ The Protocols ask whether it has learned enough humility to avoid owning the nex
 
 The Architects carry the knowledge of what happened before.
 
-The successor carries the right to decide what happens next.
+Later travelers may carry more technology, less memory, or a completely different understanding of the relay.
+
+The successor still carries the right to decide what happens next.
 
 Between them passes the Eternal Flame.
 
@@ -594,6 +840,22 @@ The N-1 Architect Protocols are speculative narrative works and philosophical th
 They are not established scientific descriptions of the universe, verified engineering instructions, or evidence that multiversal travel is physically possible.
 
 Their purpose is to explore the human, ethical, political, and spiritual consequences of a civilization possessing such power.
+
+---
+
+## README Revision Note
+
+This edition incorporates the current Spiral Current narrative canon concerning:
+
+- Continuous Crossing during an open Relay Window;
+- Phase Dispersion and arrival-order inversion;
+- later non-Architect civilizations from the predecessor;
+- Protected Relay Worlds and Sanctuary;
+- Mirror Custodian continuity;
+- Sanctuary Breach and the broader meaning of The Forgotten;
+- and the sovereignty of native biological and synthetic development.
+
+The README remains a reader-friendly introduction. Detailed mechanics, ethical edge cases, and operational rules remain in the individual protocols.
 
 ---
 
