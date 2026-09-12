@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERMINAL RTM v3.5 // RELATIVIDAD TEMPORAL MULTIESCALA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap');
+
+        :root {
+            --green: #33ff33;
+            --green-dim: #22aa22;
+            --green-dark: #115511;
+            --green-glow: rgba(51, 255, 51, 0.4);
+            --bg: #0a0a0a;
+            --bg-light: #0f1a0f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--green);
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            line-height: 1.4;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* CRT Screen Effect */
+        .crt {
+            position: relative;
+        }
+
+        .crt::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.15) 0px,
+                rgba(0, 0, 0, 0.15) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            pointer-events: none;
+            z-index: 10000;
+        }
+
+        .crt::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(
+                ellipse at center,
+                transparent 0%,
+                rgba(0, 0, 0, 0.3) 90%,
+                rgba(0, 0, 0, 0.6) 100%
+            );
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* Flicker Animation */
+        @keyframes flicker {
+            0% { opacity: 0.97; }
+            5% { opacity: 1; }
+            10% { opacity: 0.98; }
+            15% { opacity: 1; }
+            20% { opacity: 0.96; }
+            25% { opacity: 1; }
+            30% { opacity: 0.98; }
+            100% { opacity: 1; }
+        }
+
+        .screen-content {
+            animation: flicker 0.15s infinite;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Text Glow */
+        .glow {
+            text-shadow: 0 0 5px var(--green-glow), 0 0 10px var(--green-glow);
+        }
+
+        /* Header Bar */
+        .header-bar {
+            background: var(--green);
+            color: var(--bg);
+            padding: 0.3rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1001;
+        }
+
+        .header-bar span {
+            font-weight: bold;
+        }
+
+        /* Menu Bar */
+        .menu-bar {
+            display: flex;
+            gap: 2rem;
+            padding: 0.5rem 1rem;
+            border-bottom: 2px solid var(--green);
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            position: fixed;
+            top: 28px;
+            left: 0;
+            right: 0;
+            background: var(--bg);
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+        }
+        
+        .menu-spacer {
+            height: 80px;
+        }
+
+        .menu-item {
+            color: var(--green);
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+
+        .menu-item:hover {
+            background: var(--green);
+            color: var(--bg);
+        }
+
+        .menu-key {
+            color: var(--green);
+        }
+
+        /* ASCII Art Title */
+        .ascii-title {
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            line-height: 1.1;
+            white-space: pre;
+            margin: 2rem 0 1rem;
+            color: var(--green);
+            text-align: center;
+            display: block;
+        }
+        
+        .title-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        /* Main Title Box */
+        .main-title-box {
+            display: inline-block;
+            border: 2px dashed var(--green);
+            padding: 1.5rem 3rem 1rem;
+            position: relative;
+            animation: boxGlitch 5s infinite;
+        }
+        
+        @keyframes boxGlitch {
+            0%, 92%, 100% { 
+                transform: translate(0, 0) skew(0deg);
+                filter: none;
+            }
+            93% { 
+                transform: translate(-3px, 0) skew(-0.5deg);
+                filter: blur(0.5px);
+            }
+            94% { 
+                transform: translate(3px, 1px) skew(0.5deg);
+                filter: none;
+            }
+            95% { 
+                transform: translate(-2px, -1px) skew(-0.3deg);
+                filter: blur(0.3px);
+            }
+            96% { 
+                transform: translate(2px, 0) skew(0.3deg);
+                filter: none;
+            }
+            97% { 
+                transform: translate(0, 0) skew(0deg);
+            }
+        }
+        
+        /* RTM Title - Blocky Pixel Style */
+        .rtm-title {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 4rem;
+            color: var(--green);
+            text-shadow: 
+                0 0 10px var(--green-glow),
+                0 0 20px var(--green-glow),
+                4px 4px 0 var(--green-dark),
+                -2px 0 0 var(--green),
+                2px 0 0 var(--green);
+            letter-spacing: 0.1em;
+            position: relative;
+            margin-bottom: 0.5rem;
+            animation: textGlitch 5s infinite;
+        }
+        
+        .rtm-title::before,
+        .rtm-title::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+        
+        .rtm-title::before {
+            color: var(--green);
+            animation: glitchClip1 5s infinite;
+            clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+        }
+        
+        .rtm-title::after {
+            color: var(--green);
+            animation: glitchClip2 5s infinite;
+            clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+        }
+        
+        @keyframes textGlitch {
+            0%, 92%, 100% { 
+                text-shadow: 
+                    0 0 10px var(--green-glow),
+                    0 0 20px var(--green-glow),
+                    4px 4px 0 var(--green-dark);
+            }
+            93%, 95% { 
+                text-shadow: 
+                    -3px 0 var(--green),
+                    3px 0 var(--green-dim),
+                    0 0 15px var(--green-glow);
+            }
+            94%, 96% { 
+                text-shadow: 
+                    3px 0 var(--green-dim),
+                    -3px 0 var(--green),
+                    0 0 15px var(--green-glow);
+            }
+        }
+        
+        @keyframes glitchClip1 {
+            0%, 92%, 100% { opacity: 0; transform: translate(0, 0); }
+            93% { opacity: 0.8; transform: translate(-5px, 0); }
+            94% { opacity: 0; transform: translate(5px, 0); }
+            95% { opacity: 0.8; transform: translate(-3px, 0); }
+            96% { opacity: 0; transform: translate(0, 0); }
+        }
+        
+        @keyframes glitchClip2 {
+            0%, 92%, 100% { opacity: 0; transform: translate(0, 0); }
+            93% { opacity: 0.8; transform: translate(5px, 0); }
+            94% { opacity: 0; transform: translate(-5px, 0); }
+            95% { opacity: 0.8; transform: translate(3px, 0); }
+            96% { opacity: 0; transform: translate(0, 0); }
+        }
+        
+        /* RTM Subtitle */
+        .rtm-subtitle {
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            color: var(--green);
+            letter-spacing: 0.25em;
+            margin-top: 0.5rem;
+        }
+
+        /* Sections */
+        .section {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid var(--green-dim);
+        }
+
+        .section-header {
+            background: var(--green);
+            color: var(--bg);
+            padding: 0.3rem 0.5rem;
+            margin: -1rem -1rem 1rem -1rem;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Box Drawing */
+        .box {
+            border: 1px solid var(--green);
+            padding: 1rem;
+            margin: 1rem 0;
+            position: relative;
+        }
+
+        .box-title {
+            position: absolute;
+            top: -0.7rem;
+            left: 1rem;
+            background: var(--bg);
+            padding: 0 0.5rem;
+            color: var(--green);
+            font-size: 0.9rem;
+        }
+
+        /* Command Line Style */
+        .cmd-line {
+            display: flex;
+            align-items: flex-start;
+            margin: 0.5rem 0;
+        }
+
+        .cmd-prompt {
+            color: var(--green);
+            margin-right: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .cmd-text {
+            color: var(--green-dim);
+        }
+
+        /* Data Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 1rem;
+        }
+
+        .data-table th {
+            background: var(--green-dark);
+            color: var(--green);
+            padding: 0.5rem;
+            text-align: left;
+            border: 1px solid var(--green-dim);
+        }
+
+        .data-table td {
+            padding: 0.4rem 0.5rem;
+            border: 1px solid var(--green-dark);
+            color: var(--green-dim);
+        }
+
+        .data-table tr:hover td {
+            background: var(--bg-light);
+            color: var(--green);
+        }
+
+        .data-table .highlight {
+            color: var(--green);
+        }
+
+        /* Status Indicators */
+        .status-ok {
+            color: var(--green);
+        }
+
+        .status-ok::before {
+            content: "[OK] ";
+        }
+
+        .status-warn {
+            color: #ffaa00;
+        }
+
+        .status-warn::before {
+            content: "[!!] ";
+        }
+
+        /* Equation Display */
+        .equation-box {
+            background: var(--bg-light);
+            border: 2px solid var(--green);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        .equation-box .label {
+            font-size: 0.9rem;
+            color: var(--green-dim);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .progress-label {
+            width: 120px;
+            flex-shrink: 0;
+        }
+
+        .progress-bar {
+            flex: 1;
+            height: 1rem;
+            background: var(--bg);
+            border: 1px solid var(--green-dim);
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--green);
+            transition: width 0.3s;
+        }
+
+        .progress-value {
+            width: 80px;
+            text-align: right;
+        }
+
+        /* Keyboard Shortcuts Display */
+        .shortcuts {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.3rem;
+            margin: 1rem 0;
+            font-size: 0.95rem;
+        }
+
+        .shortcut {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .key {
+            color: var(--green);
+            min-width: 50px;
+        }
+
+        .key-desc {
+            color: var(--green-dim);
+        }
+
+        /* Blinking Cursor */
+        .cursor {
+            display: inline-block;
+            width: 0.6rem;
+            height: 1.1rem;
+            background: var(--green);
+            animation: blink 1s step-end infinite;
+            vertical-align: middle;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        /* Custom cursor - blinking green bar */
+        body {
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='20'%3E%3Crect fill='%2333ff33' width='2' height='20'/%3E%3C/svg%3E") 1 10, auto;
+        }
+        
+        /* Glitch Box */
+        .glitch-box {
+            border: 1px dashed var(--green);
+            padding: 0.8rem 2rem;
+            margin: 0 auto 2rem;
+            display: inline-block;
+            position: relative;
+            animation: glitchBox 3s infinite;
+        }
+        
+        @keyframes glitchBox {
+            0%, 90%, 100% { 
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+            91% { 
+                transform: translate(-2px, 1px);
+                opacity: 0.8;
+            }
+            92% { 
+                transform: translate(2px, -1px);
+                opacity: 0.9;
+            }
+            93% { 
+                transform: translate(-1px, 2px);
+                opacity: 0.7;
+            }
+            94% { 
+                transform: translate(1px, -2px);
+                opacity: 1;
+            }
+            95% { 
+                transform: translate(-2px, 0);
+                opacity: 0.8;
+            }
+            96% { 
+                transform: translate(2px, 1px);
+                opacity: 0.9;
+            }
+        }
+        
+        .glitch-content {
+            position: relative;
+        }
+        
+        .glitch-text {
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            letter-spacing: 0.3em;
+            color: var(--green);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .glitch-text::before,
+        .glitch-text::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .glitch-text::before {
+            color: #ff0000;
+            animation: glitchText1 4s infinite;
+            clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+            transform: translate(-2px, 0);
+            opacity: 0.8;
+        }
+        
+        .glitch-text::after {
+            color: #00ffff;
+            animation: glitchText2 4s infinite;
+            clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+            transform: translate(2px, 0);
+            opacity: 0.8;
+        }
+        
+        @keyframes glitchText1 {
+            0%, 87%, 100% { transform: translate(0, 0); }
+            88% { transform: translate(-3px, 0); }
+            89% { transform: translate(3px, 0); }
+            90% { transform: translate(-2px, 0); }
+            91% { transform: translate(2px, 0); }
+            92% { transform: translate(0, 0); }
+        }
+        
+        @keyframes glitchText2 {
+            0%, 87%, 100% { transform: translate(0, 0); }
+            88% { transform: translate(3px, 0); }
+            89% { transform: translate(-3px, 0); }
+            90% { transform: translate(2px, 0); }
+            91% { transform: translate(-2px, 0); }
+            92% { transform: translate(0, 0); }
+        }
+
+        /* Dithered Separator */
+        .dither-line {
+            height: 8px;
+            background: repeating-linear-gradient(
+                90deg,
+                var(--green) 0px,
+                var(--green) 2px,
+                transparent 2px,
+                transparent 4px
+            );
+            margin: 2rem 0;
+            opacity: 0.5;
+        }
+
+        /* Quote Block */
+        .quote-block {
+            border-left: 4px solid var(--green);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            background: var(--bg-light);
+        }
+
+        .quote-text {
+            font-style: italic;
+            color: var(--green);
+            margin-bottom: 0.5rem;
+        }
+
+        .quote-source {
+            color: var(--green-dim);
+            font-size: 0.9rem;
+        }
+
+        /* Cascade Diagram - HTML/CSS Version */
+        .cascade-box {
+            border: 2px solid var(--green);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            background: var(--bg);
+        }
+        
+        .cascade-header {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--green);
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--green-dim);
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.1em;
+        }
+        
+        .cascade-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0;
+        }
+        
+        .cascade-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-width: 80px;
+        }
+        
+        .cascade-label {
+            font-size: 0.8rem;
+            color: var(--green);
+            line-height: 1.3;
+            height: 2.5rem;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        
+        .cascade-label-empty {
+            height: 2.5rem;
+        }
+        
+        /* Vertical arrow - CSS only */
+        .cascade-vert-arrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 25px;
+            margin: 5px 0;
+        }
+        
+        .cascade-vert-arrow-empty {
+            height: 25px;
+            margin: 5px 0;
+        }
+        
+        .v-line {
+            width: 2px;
+            height: 15px;
+            background: var(--green);
+        }
+        
+        .v-head {
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 8px solid var(--green);
+        }
+        
+        .cascade-node {
+            border: 2px solid var(--green);
+            padding: 0.6rem 0.8rem;
+            min-width: 50px;
+            text-align: center;
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            color: var(--green);
+            margin: 0.3rem 0;
+        }
+        
+        .cascade-node.active {
+            background: var(--green);
+            color: var(--bg);
+            box-shadow: 0 0 15px var(--green-glow);
+        }
+        
+        /* Horizontal arrow - CSS only */
+        .cascade-horiz-arrow {
+            display: flex;
+            align-items: center;
+            margin-top: 2.8rem;
+            padding: 0 3px;
+        }
+        
+        .h-line {
+            width: 15px;
+            height: 2px;
+            background: var(--green);
+        }
+        
+        .h-head {
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid var(--green);
+        }
+        
+        /* Annotations below nodes */
+        .cascade-annot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--green);
+            line-height: 1.3;
+            margin-top: 0.3rem;
+            height: 3.5rem;
+        }
+        
+        .cascade-annot.has-arrow {
+            padding-top: 0;
+        }
+        
+        .annot-line {
+            width: 2px;
+            height: 10px;
+            background: var(--green);
+            margin-bottom: 3px;
+        }
+        
+        .annot-text {
+            text-align: center;
+        }
+        
+        .cascade-annot-space {
+            height: 3.5rem;
+        }
+        
+        .cascade-footer {
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--green-dim);
+            text-align: center;
+        }
+        
+        .flow-label {
+            font-size: 0.9rem;
+            color: var(--green);
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        
+        .flow-line {
+            display: inline-block;
+            width: 150px;
+            height: 2px;
+            background: var(--green);
+        }
+        
+        .flow-note {
+            font-size: 0.85rem;
+            color: var(--green-dim);
+            margin-top: 0.3rem;
+        }
+
+        /* Footer */
+        .footer {
+            border-top: 2px solid var(--green);
+            padding: 1rem 0;
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.9rem;
+            color: var(--green-dim);
+        }
+
+        /* Two Column Layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        @media (max-width: 700px) {
+            .two-col {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Paragraph spacing */
+        p {
+            margin: 1rem 0;
+            text-align: justify;
+        }
+
+        /* List styling */
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        li {
+            margin: 0.3rem 0;
+            color: var(--green-dim);
+        }
+
+        li::marker {
+            color: var(--green);
+        }
+
+        /* Loading Screen */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 99999;
+            transition: opacity 0.5s;
+        }
+
+        .loader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loader-text {
+            color: var(--green);
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .loader-bar {
+            width: 300px;
+            height: 20px;
+            border: 1px solid var(--green);
+            position: relative;
+        }
+
+        .loader-fill {
+            height: 100%;
+            background: var(--green);
+            width: 0%;
+            animation: load 2s forwards;
+        }
+
+        @keyframes load {
+            0% { width: 0%; }
+            20% { width: 15%; }
+            40% { width: 45%; }
+            60% { width: 70%; }
+            80% { width: 85%; }
+            100% { width: 100%; }
+        }
+        
+        /* Password Screen */
+        .password-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 99998;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+        
+        .password-screen.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .password-screen.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .password-box {
+            border: 2px solid var(--green);
+            padding: 2rem 3rem;
+            background: var(--bg);
+            text-align: center;
+            max-width: 500px;
+            box-shadow: 0 0 30px rgba(51, 255, 51, 0.2);
+        }
+        
+        .password-header {
+            color: var(--green);
+            font-size: 1.4rem;
+            letter-spacing: 0.2em;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px var(--green-glow);
+        }
+        
+        .password-warning {
+            color: var(--green-dim);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--green-dim);
+            padding-bottom: 1rem;
+        }
+        
+        .password-company {
+            color: var(--green);
+            font-size: 1rem;
+            letter-spacing: 0.15em;
+            margin-bottom: 1.5rem;
+        }
+        
+        .password-prompt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .password-label {
+            color: var(--green);
+            font-size: 1rem;
+        }
+        
+        .password-input {
+            background: var(--bg-light);
+            border: 1px solid var(--green);
+            padding: 0.5rem 1rem;
+            color: var(--green);
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            letter-spacing: 0.3em;
+            min-width: 180px;
+            text-align: left;
+        }
+        
+        .password-cursor {
+            display: inline-block;
+            width: 10px;
+            height: 1.2rem;
+            background: var(--green);
+            animation: blink 0.7s step-end infinite;
+            vertical-align: middle;
+        }
+        
+        .password-status {
+            color: var(--green);
+            font-size: 1rem;
+            margin-top: 1rem;
+            min-height: 1.5rem;
+        }
+        
+        .password-status.verifying {
+            animation: pulse 0.5s infinite;
+        }
+        
+        .password-status.granted {
+            color: var(--green);
+            text-shadow: 0 0 15px var(--green-glow);
+            font-size: 1.2rem;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .security-level {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--green-dim);
+        }
+        
+        .security-badge {
+            color: var(--green-dim);
+            font-size: 0.8rem;
+        }
+
+        .nav-section {
+            color: var(--green);
+            cursor: pointer;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .nav-section:hover {
+            background: var(--green);
+            color: var(--bg);
+        }
+
+        h2 {
+            color: var(--green);
+            font-size: 1.3rem;
+            margin: 1.5rem 0 1rem 0;
+            border-bottom: 1px dashed var(--green-dim);
+            padding-bottom: 0.3rem;
+        }
+
+        h3 {
+            color: var(--green);
+            font-size: 1.1rem;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        strong {
+            color: var(--green);
+        }
+
+        code {
+            background: var(--bg-light);
+            padding: 0.1rem 0.3rem;
+            color: var(--green);
+        }
+
+        .highlight-box {
+            background: var(--green);
+            color: var(--bg);
+            padding: 0.2rem 0.5rem;
+            display: inline-block;
+        }
+
+        /* Eye ASCII Art */
+        .ascii-eye {
+            font-family: 'VT323', monospace;
+            font-size: 0.6rem;
+            line-height: 0.7;
+            white-space: pre;
+            color: var(--green);
+            margin: 1rem 0;
+        }
+
+        .band-visual {
+            margin: 0.3rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .band-name {
+            width: 100px;
+            flex-shrink: 0;
+        }
+
+        .band-bar {
+            display: flex;
+            gap: 0;
+        }
+
+        .band-block {
+            width: 8px;
+            height: 16px;
+            background: var(--green);
+        }
+
+        .band-value {
+            margin-left: 0.5rem;
+        }
+
+        /* Ghost Clan Serpent Animation */
+        @keyframes serpentWave {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+            25% {
+                transform: translateY(-3px) rotate(-2deg);
+            }
+            50% {
+                transform: translateY(2px) rotate(1deg);
+            }
+            75% {
+                transform: translateY(-2px) rotate(-1deg);
+            }
+        }
+
+        @keyframes ghostFade {
+            0%, 100% {
+                opacity: 0.6;
+                filter: drop-shadow(0 0 4px #00FFFF);
+            }
+            50% {
+                opacity: 0.9;
+                filter: drop-shadow(0 0 12px #00FFFF) drop-shadow(0 0 20px rgba(0, 255, 255, 0.4));
+            }
+        }
+
+        .ghost-band-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .ghost-band-bar {
+            display: flex;
+            gap: 0;
+            transform-origin: left center;
+            animation: ghostFade 3s ease-in-out infinite;
+        }
+
+        .ghost-band-bar .band-block {
+            background: linear-gradient(180deg, #00FFFF 0%, #008B8B 50%, #00FFFF 100%);
+            box-shadow: 0 0 4px #00FFFF;
+            animation: serpentWave 1.2s ease-in-out infinite;
+            transform-origin: left center;
+        }
+
+        /* Propagación de onda serpentina - cada bloque con delay */
+        .ghost-band-bar .band-block:nth-child(1) { animation-delay: 0s; }
+        .ghost-band-bar .band-block:nth-child(2) { animation-delay: 0.04s; }
+        .ghost-band-bar .band-block:nth-child(3) { animation-delay: 0.08s; }
+        .ghost-band-bar .band-block:nth-child(4) { animation-delay: 0.12s; }
+        .ghost-band-bar .band-block:nth-child(5) { animation-delay: 0.16s; }
+        .ghost-band-bar .band-block:nth-child(6) { animation-delay: 0.20s; }
+        .ghost-band-bar .band-block:nth-child(7) { animation-delay: 0.24s; }
+        .ghost-band-bar .band-block:nth-child(8) { animation-delay: 0.28s; }
+        .ghost-band-bar .band-block:nth-child(9) { animation-delay: 0.32s; }
+        .ghost-band-bar .band-block:nth-child(10) { animation-delay: 0.36s; }
+        .ghost-band-bar .band-block:nth-child(11) { animation-delay: 0.40s; }
+        .ghost-band-bar .band-block:nth-child(12) { animation-delay: 0.44s; }
+        .ghost-band-bar .band-block:nth-child(13) { animation-delay: 0.48s; }
+        .ghost-band-bar .band-block:nth-child(14) { animation-delay: 0.52s; }
+        .ghost-band-bar .band-block:nth-child(15) { animation-delay: 0.56s; }
+        .ghost-band-bar .band-block:nth-child(16) { animation-delay: 0.60s; }
+        .ghost-band-bar .band-block:nth-child(17) { animation-delay: 0.64s; }
+        .ghost-band-bar .band-block:nth-child(18) { animation-delay: 0.68s; }
+        .ghost-band-bar .band-block:nth-child(19) { animation-delay: 0.72s; }
+        .ghost-band-bar .band-block:nth-child(20) { animation-delay: 0.76s; }
+        .ghost-band-bar .band-block:nth-child(21) { animation-delay: 0.80s; }
+        .ghost-band-bar .band-block:nth-child(22) { animation-delay: 0.84s; }
+        .ghost-band-bar .band-block:nth-child(23) { animation-delay: 0.88s; }
+        .ghost-band-bar .band-block:nth-child(24) { animation-delay: 0.92s; }
+        .ghost-band-bar .band-block:nth-child(25) { animation-delay: 0.96s; }
+        .ghost-band-bar .band-block:nth-child(26) { animation-delay: 1.00s; }
+        .ghost-band-bar .band-block:nth-child(27) { animation-delay: 1.04s; }
+        .ghost-band-bar .band-block:nth-child(28) { animation-delay: 1.08s; }
+        .ghost-band-bar .band-block:nth-child(29) { animation-delay: 1.12s; }
+        .ghost-band-bar .band-block:nth-child(30) { animation-delay: 1.16s; }
+
+        /* System stats */
+        .sys-stat {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.2rem 0;
+            border-bottom: 1px dotted var(--green-dark);
+        }
+
+        .sys-stat:last-child {
+            border-bottom: none;
+        }
+
+        .stat-val {
+            color: var(--green);
+        }
+
+        /* === GLOBAL GLITCH EFFECT === */
+        @keyframes globalGlitch {
+            0% {
+                transform: translate(0) skew(0deg);
+                filter: none;
+            }
+            5% {
+                transform: translate(-3px, 2px) skew(-0.5deg);
+                filter: hue-rotate(90deg);
+            }
+            10% {
+                transform: translate(4px, -1px) skew(0.8deg);
+                filter: saturate(2) brightness(1.2);
+            }
+            15% {
+                transform: translate(-2px, -3px) skew(-0.3deg);
+                filter: hue-rotate(-60deg) contrast(1.3);
+            }
+            20% {
+                transform: translate(3px, 1px) skew(0.6deg);
+                clip-path: inset(20% 0 30% 0);
+            }
+            25% {
+                transform: translate(-4px, 2px) skew(-0.7deg);
+                clip-path: inset(50% 0 10% 0);
+            }
+            30% {
+                transform: translate(2px, -2px) skew(0.4deg);
+                clip-path: inset(10% 0 60% 0);
+            }
+            35% {
+                transform: translate(-1px, 3px) skew(-0.5deg);
+                filter: invert(0.1);
+            }
+            40% {
+                transform: translate(3px, -1px) skew(0.3deg);
+                clip-path: none;
+                filter: none;
+            }
+            50% {
+                transform: translate(-5px, 0) skew(-1deg);
+                filter: brightness(1.5) saturate(1.5);
+            }
+            60% {
+                transform: translate(4px, 2px) skew(0.9deg);
+                filter: hue-rotate(180deg);
+            }
+            70% {
+                transform: translate(-2px, -1px) skew(-0.4deg);
+                clip-path: inset(40% 0 20% 0);
+            }
+            80% {
+                transform: translate(1px, 3px) skew(0.2deg);
+                filter: brightness(0.8);
+            }
+            90% {
+                transform: translate(-3px, -2px) skew(-0.6deg);
+                filter: contrast(1.5);
+            }
+            100% {
+                transform: translate(0) skew(0deg);
+                filter: none;
+                clip-path: none;
+            }
+        }
+
+        @keyframes glitchOverlay {
+            0%, 100% { opacity: 0; }
+            10% { opacity: 0.8; background-position: 0 0; }
+            20% { opacity: 0.5; background-position: -5px 5px; }
+            30% { opacity: 0.9; background-position: 3px -3px; }
+            40% { opacity: 0.4; background-position: -2px 2px; }
+            50% { opacity: 0.7; background-position: 4px -4px; }
+            60% { opacity: 0.6; background-position: -3px 1px; }
+            70% { opacity: 0.8; background-position: 2px -2px; }
+            80% { opacity: 0.3; background-position: -1px 3px; }
+            90% { opacity: 0.5; background-position: 0 0; }
+        }
+
+        @keyframes rgbSplit {
+            0%, 100% {
+                text-shadow: none;
+            }
+            25% {
+                text-shadow: -3px 0 #ff0000, 3px 0 #00ffff;
+            }
+            50% {
+                text-shadow: 2px 0 #ff0000, -2px 0 #00ffff, 0 2px #ff00ff;
+            }
+            75% {
+                text-shadow: -2px 0 #00ffff, 2px 0 #ff0000;
+            }
+        }
+
+        body.glitch-active {
+            animation: globalGlitch 200ms steps(1) forwards;
+        }
+
+        body.glitch-active * {
+            animation: rgbSplit 200ms steps(2) forwards !important;
+        }
+
+        body.glitch-active::before {
+            animation: glitchOverlay 200ms steps(3) forwards !important;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent 0px,
+                transparent 2px,
+                rgba(0, 255, 0, 0.1) 2px,
+                rgba(0, 255, 0, 0.1) 4px
+            ) !important;
+        }
+
+        .glitch-flash {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 99999;
+            opacity: 0;
+            background: linear-gradient(
+                90deg,
+                transparent 0%,
+                rgba(255, 0, 0, 0.1) 25%,
+                transparent 50%,
+                rgba(0, 255, 255, 0.1) 75%,
+                transparent 100%
+            );
+            mix-blend-mode: screen;
+        }
+
+        .glitch-flash.active {
+            animation: flashGlitch 200ms steps(4) forwards;
+        }
+
+        @keyframes flashGlitch {
+            0% { opacity: 0; transform: translateX(0); }
+            20% { opacity: 0.8; transform: translateX(-10px); }
+            40% { opacity: 0.4; transform: translateX(15px); }
+            60% { opacity: 0.9; transform: translateX(-5px); }
+            80% { opacity: 0.3; transform: translateX(8px); }
+            100% { opacity: 0; transform: translateX(0); }
+        }
+    </style>
+</head>
+<body class="crt">
+    <!-- Glitch Flash Overlay -->
+    <div class="glitch-flash" id="glitchFlash"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-text">CARGANDO MARCO RTM v3.5...</div>
+        <div class="loader-bar">
+            <div class="loader-fill"></div>
+        </div>
+        <div class="loader-text" style="margin-top: 1rem; font-size: 0.9rem; color: var(--green-dim);">
+            INICIALIZANDO MATRICES TEMPORALES...
+        </div>
+    </div>
+
+    <!-- Password Screen -->
+    <div class="password-screen" id="passwordScreen">
+        <div class="password-box">
+            <div class="password-header">⚠ ACCESO RESTRINGIDO ⚠</div>
+            <div class="password-warning">SOLO PERSONAL AUTORIZADO</div>
+            <div class="password-company">ZARPAFANTASMA SYSTEMS CORP.</div>
+            <div class="password-prompt">
+                <span class="password-label">CONTRASEÑA:</span>
+                <div class="password-input">
+                    <span id="passwordChars"></span><span class="password-cursor" id="pwCursor"></span>
+                </div>
+            </div>
+            <div class="password-status" id="passwordStatus"></div>
+            <div class="security-level">
+                <span class="security-badge">[NIVEL DE SEGURIDAD: OMEGA]</span>
+                <span class="security-badge">[CIFRADO: RTM-4096]</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen-content">
+        <!-- Header Bar -->
+        <div class="header-bar">
+            <span>TERMINAL RTM v3.5</span>
+            <span>MARCO DE RELATIVIDAD TEMPORAL MULTIESCALA</span>
+            <span>2026.03.20</span>
+        </div>
+
+        <!-- Menu Bar -->
+        <div class="menu-bar">
+            <span class="menu-item" onclick="scrollToSection('overview')">[<span class="menu-key">R</span>]esumen</span>
+            <span class="menu-item" onclick="scrollToSection('theory')">[<span class="menu-key">T</span>]eoría</span>
+            <span class="menu-item" onclick="scrollToSection('domains')">[<span class="menu-key">D</span>]ominios</span>
+            <span class="menu-item" onclick="scrollToSection('cascade')">[<span class="menu-key">C</span>]ascada</span>
+            <span class="menu-item" onclick="scrollToSection('extensions')">[<span class="menu-key">E</span>]xtensiones</span>
+            <span class="menu-item" onclick="scrollToSection('philosophy')">[<span class="menu-key">F</span>]ilosofía</span>
+            <a href="https://github.com/zarpafantasma/corpus_rythmos/" target="_blank" class="menu-item" style="text-decoration: none;">[<span class="menu-key">A</span>]yuda</a>
+        </div>
+        
+        <!-- Menu Spacer -->
+        <div class="menu-spacer"></div>
+
+        <!-- ASCII Title -->
+        <div class="title-container">
+            <div class="main-title-box">
+                <div class="rtm-title" data-text="RTM">RTM</div>
+                <div class="rtm-subtitle">RELATIVIDAD TEMPORAL MULTIESCALA</div>
+            </div>
+        </div>
+
+        <!-- System Status -->
+        <div class="two-col">
+            <div class="box">
+                <span class="box-title">[ ESTADO DEL SISTEMA ]</span>
+                <div class="sys-stat">
+                    <span>Documentos cargados:</span>
+                    <span class="stat-val">24/24</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Tasa de validación:</span>
+                    <span class="stat-val">100%</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Dominios cubiertos:</span>
+                    <span class="stat-val">15+</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Puntos de datos:</span>
+                    <span class="stat-val">100,000+</span>
+                </div>
+                <div class="sys-stat">
+                    <span>Estado del marco:</span>
+                    <span class="stat-val status-ok">OPERATIVO</span>
+                </div>
+            </div>
+            <div class="box">
+                <span class="box-title">[ COMANDOS RÁPIDOS ]</span>
+                <div class="shortcuts">
+                    <div class="shortcut"><span class="key">[F1]</span><span class="key-desc">Ayuda</span></div>
+                    <div class="shortcut"><span class="key">[F2]</span><span class="key-desc">Ecuaciones</span></div>
+                    <div class="shortcut"><span class="key">[F3]</span><span class="key-desc">Buscar</span></div>
+                    <div class="shortcut"><span class="key">[F4]</span><span class="key-desc">Simular</span></div>
+                    <div class="shortcut"><span class="key">[F5]</span><span class="key-desc">Actualizar</span></div>
+                    <div class="shortcut"><span class="key">[ESC]</span><span class="key-desc">Salir</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dither-line"></div>
+
+        <!-- Overview Section -->
+        <section id="overview" class="section">
+<div class="section-header">
+                <span>SECCIÓN 01: VISIÓN GENERAL DEL MARCO</span>
+                <span>Doc.: 001-002</span>
+            </div>
+
+            <p>
+                El <strong>Relatividad Temporal Multiescala (RTM)</strong> describe cómo el tiempo característico, la escala física y la organización estructural están vinculados a través de sistemas complejos. Su afirmación central no es simplemente que existan leyes de potencia, sino que su pendiente contiene información estructural mientras que la convención del reloj queda absorbida en el gauge.
+            </p>
+
+            <div class="equation-box">
+                <div class="label">ECUACIÓN MAESTRA</div>
+                <span class="glow" style="font-size: 1.8rem;">T ∝ L<sup>α</sup></span>
+                <div style="margin-top: 1rem; font-size: 0.95rem; color: var(--green-dim); text-align: left; max-width: 460px; margin-left: auto; margin-right: auto;">
+                    <div><strong>T</strong> = Escala de tiempo característica</div>
+                    <div><strong>L</strong> = Escala de longitud característica</div>
+                    <div><strong>α</strong> = Exponente de escala (invariante topológico)</div>
+                    <div><strong>∝</strong> = Proporcional a</div>
+                </div>
+            </div>
+
+            <p>
+                En la formulación completa de RTM, la densidad y la temperatura pueden desplazar el reloj local mientras el exponente de escala sigue siendo el descriptor estructural central. El Documento 002 expresa explícitamente la proporcionalidad local como <code>T = κL<sup>α</sup></code>, donde κ contiene el gauge del reloj mientras que α contiene la estructura dependiente de la escala. Su <strong>Geometría Escala–Reloj</strong>
+                interpreta entonces el colapso como planitud geométrica, los cambios de régimen como curvatura u holonomía, y el error de medición mediante estimadores compatibles con EIV, como ODR/TLS y SIMEX.
+            </p>
+
+            <h3>> PRINCIPIOS FUNDAMENTALES</h3>
+            <ul>
+                <li><strong>Estructura Escala–Tiempo:</strong> T ∝ L<sup>α</sup> define la ley local de transporte</li>
+                <li><strong>Invariancia del reloj:</strong> α se conserva bajo un nuevo gauge del reloj; log κ contiene la elección del reloj</li>
+                <li><strong>Prueba de colapso:</strong> el escalamiento exacto corresponde a una conexión escala–reloj plana</li>
+                <li><strong>Sensibilidad al régimen:</strong> α puede derivar, invertirse o cruzar fronteras de fase a medida que cambia la topología</li>
+                <li><strong>Gramática entre dominios:</strong> el mismo lenguaje de medición se aplica desde sistemas cuánticos hasta sistemas cósmicos</li>
+            </ul>
+
+            <div class="quote-block">
+                <div class="quote-text">"La estructura vive en la pendiente; los relojes viven en el gauge."</div>
+                <div class="quote-source">— Documento 002: Geometría Escala–Reloj</div>
+            </div>
+
+            <p>
+                Por lo tanto, RTM trata α como un lenguaje diagnóstico común, en lugar de una única constante numérica universal. Los procesadores cuánticos, las jerarquías neuronales, la química confinada, la dinámica cardíaca, las tormentas, las galaxias y los mercados ocupan distintos regímenes de transporte, pero siguen siendo comparables dentro del mismo marco escala–reloj.
+            </p>
+        </section>
+
+        <!-- Theory Section -->
+        <section id="theory" class="section">
+<div class="section-header">
+                <span>SECCIÓN 02: FUNDAMENTO TEÓRICO</span>
+                <span>Física fundamental</span>
+            </div>
+
+            <h2>> BANDAS α TOPOLÓGICAS</h2>
+
+            <p>
+                RTM predice regímenes estructurales preferentes en los que el comportamiento escala–tiempo se vuelve dinámicamente estable. Estas <strong>bandas de coherencia</strong> son clases teóricas de organización, no un límite rígido para el α medido empíricamente. Resultados posteriores del corpus muestran que los sistemas fuertemente confinados o cooperativos pueden salir de la secuencia clásica de bandas y alcanzar exponentes mucho más pronunciados.
+            </p>
+
+            <div class="box">
+                <span class="box-title">[ ESPECTRO DE BANDAS α ]</span>
+
+                <div class="band-visual">
+                    <span class="band-name">BALÍSTICO</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 1.00</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">DIFUSIVO</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.00</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">MUNDO PEQUEÑO</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.26</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">JERÁRQUICO</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.47</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">HOLOGRÁFICO</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.61</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name">FRACTAL</span>
+                    <div class="band-bar">
+                        <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                    </div>
+                    <span class="band-value">α = 2.72</span>
+                </div>
+                <div class="band-visual">
+                    <span class="band-name" style="color: #00FFFF;">CLAN FANTASMA</span>
+                    <div class="ghost-band-container">
+                        <div class="ghost-band-bar">
+                            <span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span><span class="band-block"></span>
+                        </div>
+                    </div>
+                    <span class="band-value" style="color: #00FFFF;">α ≈ 3.0+</span>
+                </div>
+            </div>
+
+            <p>
+                La secuencia clásica se agrupa hacia <code>e ≈ 2.718</code>, mientras que el
+                <strong>Clan Fantasma</strong> marca un sector anómalo de alta coherencia que surgió en la auditoría del Campo Unificado. Las correcciones cuánticas desplazan en unos pocos puntos porcentuales las posiciones idealizadas de las bandas, convirtiendo el espectro en una escala experimentalmente comprobable en lugar de una escalera perfectamente rígida.
+            </p>
+
+            <h2>> UNIFICACIÓN DE GAUGE SIN SUPERSIMETRÍA</h2>
+
+            <p>
+                En el Marco de Campo Unificado de RTM, la densidad topológica modifica la evolución a altas energías. Las funciones beta corregidas producen una intersección estrecha de los tres acoplamientos de gauge del Modelo Estándar sin requerir compañeros supersimétricos.
+            </p>
+
+            <div class="equation-box">
+                <div class="label">CORRECCIÓN RTM DE LA FUNCIÓN BETA</div>
+                <span class="glow">b<sub>eff</sub><sup>i</sup> = b<sub>SM</sub><sup>i</sup> + c<sub>i</sub> · η · ln(μ/M<sub>RTM</sub>)</span>
+            </div>
+
+            <p>
+                La solución de referencia permanece centrada cerca de <code>η = 0.217</code> y
+                <strong>M_GUT ≈ 1.69 × 10<sup>15</sup> GeV</strong>, y la auditoría cuántica posterior predice desplazamientos porcentuales de las bandas en lugar de destruir la intersección.
+            </p>
+
+            <h2>> CORRESPONDENCIA HOLOGRÁFICA / ESPESOR TEMPORAL</h2>
+
+            <p>
+                RTM vincula la capacidad de información con el espesor temporal de la estructura. En la extensión de Campo Unificado, α se comporta como una coordenada organizativa que conecta la jerarquía de escalas, el flujo de renormalización y los límites holográficos de información. El Clan Fantasma ocupa el sector extremo de alta coherencia de este mapa y proporciona un objetivo para pruebas con agujeros negros, fusiones y el universo temprano.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Domain Validations -->
+        <section id="domains" class="section">
+<div class="section-header">
+                <span>SECCIÓN 03: VALIDACIONES EMPÍRICAS</span>
+                <span>Doc.: 003-015</span>
+            </div>
+
+            <p>
+                El programa maduro de validación de RTM combina inferencia ODR/EIV, remuestreo bootstrap, auditorías adversariales Red Team y campañas de flanqueo posteriores. El corpus final conserva resultados positivos, convergentes y corregidos, en lugar de tratar cada formulación temprana como igualmente informativa.
+            </p>
+
+            <table class="data-table">
+                <tr>
+                    <th>Doc.</th>
+                    <th>Dominio</th>
+                    <th>Hallazgo actual clave</th>
+                    <th>Estado</th>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Corteza visual</td>
+                    <td class="highlight">α = 0.311 ± 0.021; integración jerárquica superbalística</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Galaxias JWST</td>
+                    <td class="highlight">La tendencia de exceso de masa aumenta con el corrimiento al rojo; se conserva la dirección α &gt; 1</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>Fusiones BBH</td>
+                    <td class="highlight">α = 1.024 ± 0.018; clase balística, convergente con GR</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>IBM Quantum</td>
+                    <td class="highlight">α = −0.259 ± 0.049 tras controlar por año; inversión de Simpson confirmada</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>007</td>
+                    <td>Química / Urbano</td>
+                    <td class="highlight">α en volumen = −1.23 → α en zeolita confinada = +7.25; inversión de régimen</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>008</td>
+                    <td>Bioquímica</td>
+                    <td class="highlight">Plegamiento α = 7.22 frente a catálisis α ≈ 0; separación d = 6.98</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>009</td>
+                    <td>Dinámica cardíaca</td>
+                    <td class="highlight">Escala de gravedad de arritmia ρ = −0.957; amplificador α × CI</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>010</td>
+                    <td>Neurociencia</td>
+                    <td class="highlight">Epilepsia, sueño, meditación y psicodélicos comparten transiciones de estado α</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>011</td>
+                    <td>Acceso consciente</td>
+                    <td class="highlight">α × R² es la métrica 2D operativa; la estructura de las convulsiones colapsa</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>012</td>
+                    <td>Ecología</td>
+                    <td class="highlight">Longevidad residual de Kleiber + conspiración de forma depredador-presa</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>013</td>
+                    <td>Meteorología</td>
+                    <td class="highlight">AUC de CV de tornados 0.751; señal de huracanes retenida como adelanto temporal de 6–18 h</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>014</td>
+                    <td>Astronomía</td>
+                    <td class="highlight">21 hallazgos estructurales SPARC; la geometría bariónica mapea la fenomenología del halo</td>
+                    <td class="status-ok"></td>
+                </tr>
+                <tr>
+                    <td>015</td>
+                    <td>Economía</td>
+                    <td class="highlight">Coherencia multiescala: colapso σ ≈ 0.03 frente a control σ ≈ 0.31</td>
+                    <td class="status-ok"></td>
+                </tr>
+            </table>
+
+            <h3>> HALLAZGOS ENTRE DOMINIOS</h3>
+
+            <p>
+                El corpus posterior a la auditoría reveló tres patrones recurrentes: <strong>amplificación de la métrica 2D</strong>
+                (α se vuelve más discriminativo cuando se combina con una medida de calidad estructural),
+                <strong>acoplamiento previo a la crisis</strong> (los sistemas a menudo se acoplan con mayor fuerza antes de fallar, en lugar de simplemente volverse más ruidosos), y <strong>acoplamiento estructural dependiente del medio</strong>
+                a través de sistemas biológicos, ecológicos, atmosféricos y galácticos.
+            </p>
+
+            <h3>> DESTACADO: ESTRUCTURA GALÁCTICA SPARC</h3>
+
+            <p>
+                Se reconoció que el resultado original α ≈ 2 para curvas planas dependía algebraicamente de la pendiente de la curva de rotación y se eliminó como descubrimiento independiente. En su lugar, el programa maduro de astronomía produjo <strong>21 relaciones SPARC significativas</strong> que vinculan la concentración bariónica, la escala de aceleración, la diversidad, la fracción de gas y la estructura detallada normalmente atribuida a halos de materia oscura.
+            </p>
+
+            <h3>> DESTACADO: COHERENCIA DE CRISIS</h3>
+
+            <p>
+                La insuficiencia cardíaca, las convulsiones, el colapso depredador-presa, el clima severo y las caídas de mercado contribuyeron a una conclusión más sólida en todo RTM: las transiciones críticas suelen estar precedidas por
+                <strong>una mayor organización entre escalas</strong>. Por lo tanto, la Coherencia Multiescala y las métricas combinadas de calidad-α son más informativas que α por sí solo.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Cascade Section -->
+        <section id="cascade" class="section">
+<div class="section-header">
+                <span>SECCIÓN 04: LA CASCADA CAUSAL</span>
+                <span>Doc.: 016-018</span>
+            </div>
+
+            <p>
+                La cosmología madura de RTM sustituye una biblioteca estática de universos paralelos por una
+                <strong>Corriente Espiral de Actualidad unidireccional</strong>. Los universos son sucesores ordenados: el pasado se cierra, el futuro permanece no manifestado y solo la porción actualmente activa de la cascada puede ser habitada o tomada como destino.
+            </p>
+
+            <div class="cascade-box">
+                <div class="cascade-header">LA CORRIENTE ESPIRAL — ACTUALIZACIÓN SUCESIVA</div>
+
+                <div class="cascade-grid">
+                    <div class="cascade-col">
+                        <div class="cascade-label">CAUSAL<br>ESTELA</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node">N-2</div>
+                        <div class="cascade-annot-space"></div>
+                    </div>
+
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+
+                    <div class="cascade-col">
+                        <div class="cascade-label">PREDECESORA<br>ESPIRA</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node">N-1</div>
+                        <div class="cascade-annot has-arrow"><div class="annot-line"></div><div class="annot-text">COLA / CIERRE</div></div>
+                    </div>
+
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+
+                    <div class="cascade-col">
+                        <div class="cascade-label">ACTIVA<br>ESPIRA</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node active">N</div>
+                        <div class="cascade-annot has-arrow"><div class="annot-line"></div><div class="annot-text">CUERPO / ACTUALIDAD</div></div>
+                    </div>
+
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+
+                    <div class="cascade-col">
+                        <div class="cascade-label">SUCESORA<br>ESPIRA</div>
+                        <div class="cascade-vert-arrow"><div class="v-line"></div><div class="v-head"></div></div>
+                        <div class="cascade-node">N+1</div>
+                        <div class="cascade-annot has-arrow"><div class="annot-line"></div><div class="annot-text">CABEZA / EMERGENCIA</div></div>
+                    </div>
+
+                    <div class="cascade-horiz-arrow"><div class="h-line"></div><div class="h-head"></div></div>
+
+                    <div class="cascade-col">
+                        <div class="cascade-label">NO MANIFESTADO<br>POTENCIAL</div>
+                        <div class="cascade-vert-arrow-empty"></div>
+                        <div class="cascade-node">?</div>
+                        <div class="cascade-annot-space"></div>
+                    </div>
+                </div>
+
+                <div class="cascade-footer">
+                    <div class="flow-label">DIRECCIÓN DE LA ACTUALIDAD <span class="flow-line"></span> ▶</div>
+                    <div class="flow-note">(SOLO ADYACENTES — SIN RETORNO CONTRACORRIENTE — MÁX. DOS ESPIRAS ACTIVAS)</div>
+                </div>
+            </div>
+
+            <h3>> VENTANA ACTIVA / REGLA DE DOS ESPIRAS</h3>
+
+            <p>
+                Durante la transferencia, como máximo dos universos adyacentes pueden estar activos:
+                <code>|U_active(χ)| ≤ 2</code>. Un objetivo por delante de la Cabeza todavía no existe como destino activo; una fase detrás de la Cola sobrevive únicamente como consecuencia causal, memoria, registros y estructura heredada.
+            </p>
+
+            <h3>> ESCALAMIENTO DE MUÑECAS RUSAS</h3>
+
+            <p>
+                Las espiras sucesivas pueden operar a una escala característica reducida, produciendo un fuerte desajuste de tamaño y masa para los viajeros directos. El factor exacto κ depende del modelo; los ejemplos de formas gigantes son ilustrativos, no universales. La escala física nunca establece superioridad moral ni cognitiva. Cada sucesora debe generar su propia contribución diferencial a la historia y la gnosis.
+            </p>
+
+            <h3>> PARADOJA DEL ABUELO: PASADO HOMÓLOGO</h3>
+
+            <p>
+                RTM no reabre el propio pasado del viajero. Una predecesora puede entrar en una
+                <strong>fase homóloga activa</strong> de su sucesora: un presente que se asemeja a una etapa anterior de la predecesora sin ser causalmente idéntico a ella. Por lo tanto, un ancestro homólogo no es un ancestro causal, y cambiar la sucesora no reescribe la historia ya completada que produjo al viajero.
+            </p>
+
+            <div class="quote-block">
+                <div class="quote-text">"Una nave posterior puede adelantar a una nave anterior. No puede adelantar a la Cola."</div>
+                <div class="quote-source">— Ley de Transporte Interrama de RTM</div>
+            </div>
+
+            <p>
+                Diferentes generaciones de Aetherion también pueden llegar en un orden distinto al de salida porque sus latencias interrama difieren. Esta <strong>Dispersión de Fase</strong> explica una aparente inversión tecnológica sin tiempo inverso: no se garantiza que el orden de salida sea igual al orden de llegada, pero el Cierre de Era sigue siendo absoluto.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Extensions Section -->
+        <section id="extensions" class="section">
+<div class="section-header">
+                <span>SECCIÓN 05: EXTENSIONES TECNOLÓGICAS</span>
+                <span>Doc.: 016-017</span>
+            </div>
+
+            <h2>> AETHERION: PROPULSIÓN TOPOLÓGICA</h2>
+
+            <p>
+                El modelo maduro de Aetherion ya no trata un gradiente α estático como una simple fuente de energía libre. Las auditorías termodinámicas Red Team reclasificaron el dispositivo como un
+                <strong>Capacitor Topológico</strong>: los gradientes estáticos almacenan tensión estructurada del vacío, mientras que la extracción útil requiere modulación dinámica controlada —bombeo topológico— y transferencia asimétrica de momento.
+            </p>
+
+            <div class="equation-box">
+                <div class="label">ALMACENAMIENTO ESTÁTICO / EXTRACCIÓN DINÁMICA</div>
+                <span class="glow">E<sub>stored</sub> ∝ (Δα)<sup>3</sup> &nbsp; // &nbsp; P ∝ ∇α · ∇φ</span>
+            </div>
+
+            <p>
+                El programa de ingeniería conserva los objetivos centrales de empuje sin reacción, sustentación, mitigación inercial y transición de rama, pero añade restricciones prácticas descubiertas en simulación: los campos α de alta energía pueden fluctuar, los eventos de transición son cambios de fase violentos y los sistemas tripulados requieren amortiguación activa y estabilización de coherencia.
+            </p>
+
+            <div class="two-col">
+                <div class="box">
+                    <span class="box-title">[ MODO DE PROPULSIÓN ]</span>
+                    <div class="sys-stat"><span>Gradiente estático:</span><span class="stat-val">Almacenamiento de tensión</span></div>
+                    <div class="sys-stat"><span>Gradiente dinámico:</span><span class="stat-val">Bombeo topológico</span></div>
+                    <div class="sys-stat"><span>Fuente de momento:</span><span class="stat-val">Vacío estructurado</span></div>
+                    <div class="sys-stat"><span>Régimen térmico:</span><span class="stat-val">Ruido suprimido por gradiente</span></div>
+                </div>
+                <div class="box">
+                    <span class="box-title">[ MODO INTERRAMA ]</span>
+                    <div class="sys-stat"><span>Destino:</span><span class="stat-val">Sucesora activa adyacente</span></div>
+                    <div class="sys-stat"><span>Tránsito:</span><span class="stat-val">Desacoplar → bloquear fase → reacoplar</span></div>
+                    <div class="sys-stat"><span>Latencia:</span><span class="stat-val">Variable / Arrastre de Fase</span></div>
+                    <div class="sys-stat"><span>Retorno:</span><span class="stat-val">Contracorriente imposible</span></div>
+                </div>
+            </div>
+
+            <h3>> CAMPO UNIFICADO / FIRMAS DE LABORATORIO</h3>
+
+            <p>
+                El Documento 017 aporta la extensión de teoría de campos que conecta α, densidad topológica, acoplamiento del vacío, correcciones de evolución de gauge y capacidad holográfica de información. El programa experimental converge en firmas correlacionadas en lugar de una sola medición: exceso calorimétrico bajo bombeo dinámico, supresión de ruido de RF, retraso del tránsito de fotones y ráfagas controladas de cambio de modo asociadas con análogos de transición de rama.
+            </p>
+
+            <p>
+                En el modelo final, un salto verdadero no es un movimiento ordinario a través de un espacio oculto. La nave libera el vínculo con el origen, se alinea con el gradiente descendente, se bloquea únicamente con una sucesora activa adyacente y se reacopla allí. Los sistemas primitivos pueden presentar un alto
+                <strong>Arrastre de Fase</strong>; los sistemas maduros pueden cruzar con una latencia de fase de cascada mucho menor.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Philosophy Section -->
+        <section id="philosophy" class="section">
+<div class="section-header">
+                <span>SECCIÓN 06: EXTENSIONES FILOSÓFICAS</span>
+                <span>Doc.: 019-022</span>
+            </div>
+
+            <p>
+                Los documentos filosóficos utilizan RTM como una gramática para pensar sobre el significado, la encarnación, la libertad, la tradición y la transformación. Su movimiento central no consiste en convertir la física en religión, sino en preguntar qué implica para la vida consciente un universo sensible a la escala y orientado a procesos.
+            </p>
+
+            <h2>> EL EJE VERTICAL</h2>
+            <p>
+                La existencia se describe mediante dos orientaciones: el eje horizontal de la historia, la materia y el cambio medible, y el eje vertical del significado, el origen y la profundidad ontológica. El eje vertical no es un simple espectro de bien/mal; es la dimensión mediante la cual la existencia finita se enfrenta a aquello que excede la cronología ordinaria.
+            </p>
+
+            <h3>EL CUERPO ES EL ALMA EN ACTO</h3>
+            <p>
+                La antropología filosófica de RTM rechaza una división burda entre cuerpo y alma. El cuerpo no es una prisión que contiene al yo real; la encarnación es la expresión activa de la profundidad. El espíritu sin estructura es abstracción, mientras que la estructura sin profundidad vivida es forma inerte.
+            </p>
+
+            <h3>LA MEDIA LLAVE — ALINEACIÓN, NO FUSIÓN</h3>
+            <p>
+                La coherencia no requiere la disolución de la diferencia. Dos sistemas pueden entrar en resonancia preservando su identidad. Este principio se escala desde las relaciones hasta las culturas y la civilización:
+                <strong>la unidad se vuelve estéril cuando elimina la distinción.</strong>
+            </p>
+
+            <h3>NEGENTROPÍA Y SOBERANÍA</h3>
+            <p>
+                La vida se trata como la creación repetida de diferencia organizada frente a la deriva hacia la uniformidad. Por lo tanto, la libertad no es la ausencia de estructura; es la capacidad de un sistema para mantener la coherencia sin renunciar a su capacidad de transformarse.
+            </p>
+
+            <div class="quote-block">
+                <div class="quote-text">"Aquello que es eterno muere para siempre. Si algo se congela, deja de aprender. Si deja de aprender, deja de vivir."</div>
+                <div class="quote-source">— Capítulo 09: Para siempre</div>
+            </div>
+
+            <h2>> LOS DOS PARA SIEMPRE</h2>
+
+            <ul>
+                <li><strong>El Para Siempre de Piedra:</strong> identidad congelada, brillo sin pulso; permanencia comprada al poner fin a la transformación.</li>
+                <li><strong>El Para Siempre de la Música:</strong> continuidad mediante recurrencia y cambio; el patrón sobrevive aceptando nuevos instrumentos.</li>
+            </ul>
+
+            <p>
+                El significado nace de los límites, la relación y la transformación. Por lo tanto, el corpus filosófico maduro trata la continuidad no como repetición perfecta, sino como la capacidad de conservar un patrón reconocible mientras sigue produciendo una diferencia genuina.
+            </p>
+        </section>
+
+        <div class="dither-line"></div>
+
+        <!-- Final Status -->
+        <div class="box">
+            <span class="box-title">[ RESUMEN DE VALIDACIÓN DEL CORPUS ]</span>
+            
+            <div class="progress-container">
+                <span class="progress-label">Computacional:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+                <span class="progress-value">80/80 ✓</span>
+            </div>
+            <div class="progress-container">
+                <span class="progress-label">Empírica:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+                <span class="progress-value">44/44 ✓</span>
+            </div>
+            <div class="progress-container">
+                <span class="progress-label">Termodinámica:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+                <span class="progress-value">13/13 ✓</span>
+            </div>
+            <div class="progress-container">
+                <span class="progress-label">Experimentos de laboratorio:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 0%;"></div>
+                </div>
+                <span class="progress-value">PENDIENTE</span>
+            </div>
+        </div>
+
+        <div class="quote-block">
+            <div class="quote-text">"La llama brilla con más fuerza a medida que desciende."</div>
+            <div class="quote-source">— Manuales operativos para la vida consciente</div>
+        </div>
+
+        <!-- Command Prompt -->
+        <div style="margin-top: 2rem;">
+            <div class="cmd-line">
+                <span class="cmd-prompt">C:\RTM></span>
+                <span class="cmd-text">ANÁLISIS DEL MARCO COMPLETADO</span>
+            </div>
+            <div class="cmd-line">
+                <span class="cmd-prompt">C:\RTM></span>
+                <span class="cmd-text">24 DOCUMENTOS CARGADOS. TASA DE VALIDACIÓN DEL 100%.</span>
+            </div>
+            <div class="cmd-line">
+                <span class="cmd-prompt">C:\RTM></span>
+                <span class="cmd-text">ESPERANDO NUEVAS INSTRUCCIONES...</span>
+                <span class="cursor"></span>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <span>MARCO RTM v3.5 // ZARPAFANTASMA SYSTEMS CORP. // 2026</span>
+            <span>SESIÓN DE TERMINAL ACTIVA</span>
+            <span>[F1] AYUDA | [F10] SALIR</span>
+        </div>
+    </div>
+
+    <script>
+        // Password animation sequence
+        const password = "*********";
+        let passwordIndex = 0;
+        
+        // Phase 1: Hide initial loader, show password screen
+        setTimeout(() => {
+            document.getElementById('loader').classList.add('hidden');
+            document.getElementById('passwordScreen').classList.add('active');
+            
+            // Phase 2: Start typing password after a brief pause
+            setTimeout(() => {
+                const typePassword = setInterval(() => {
+                    if (passwordIndex < password.length) {
+                        document.getElementById('passwordChars').textContent += password[passwordIndex];
+                        passwordIndex++;
+                    } else {
+                        clearInterval(typePassword);
+                        // Phase 3: Hide cursor and show verifying
+                        document.getElementById('pwCursor').style.display = 'none';
+                        document.getElementById('passwordStatus').textContent = 'VERIFICANDO CREDENCIALES...';
+                        document.getElementById('passwordStatus').classList.add('verifying');
+                        
+                        // Phase 4: Show access granted
+                        setTimeout(() => {
+                            document.getElementById('passwordStatus').classList.remove('verifying');
+                            document.getElementById('passwordStatus').classList.add('granted');
+                            document.getElementById('passwordStatus').textContent = '✓ ACCESO CONCEDIDO';
+                            
+                            // Phase 5: Hide password screen and show content
+                            setTimeout(() => {
+                                document.getElementById('passwordScreen').classList.add('hidden');
+                            }, 1000);
+                        }, 1500);
+                    }
+                }, 150);
+            }, 800);
+        }, 2500);
+
+        // Scroll to section
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            const key = e.key.toLowerCase();
+            const sections = {
+                'r': 'overview',
+                't': 'theory',
+                'd': 'domains',
+                'c': 'cascade',
+                'e': 'extensions',
+                'f': 'philosophy'
+            };
+            if (sections[key]) {
+                scrollToSection(sections[key]);
+            }
+        });
+
+        // Typewriter effect for command prompts (delayed to after password screen)
+        const cmds = document.querySelectorAll('.cmd-text');
+        cmds.forEach((cmd, i) => {
+            const text = cmd.textContent;
+            cmd.textContent = '';
+            setTimeout(() => {
+                let j = 0;
+                const type = setInterval(() => {
+                    cmd.textContent += text[j];
+                    j++;
+                    if (j >= text.length) clearInterval(type);
+                }, 30);
+            }, 7000 + (i * 1000));
+        });
+
+        // === GLOBAL GLITCH EFFECT EVERY 33 SECONDS ===
+        function triggerGlitch() {
+            const body = document.body;
+            const flash = document.getElementById('glitchFlash');
+            
+            // Activate glitch
+            body.classList.add('glitch-active');
+            flash.classList.add('active');
+            
+            // Remove after 200ms
+            setTimeout(() => {
+                body.classList.remove('glitch-active');
+                flash.classList.remove('active');
+            }, 200);
+        }
+
+        // Start glitch loop after page loads (first glitch at 33s)
+        setTimeout(() => {
+            triggerGlitch();
+            setInterval(triggerGlitch, 33000);
+        }, 33000);
+    </script>
+</body>
+</html>
