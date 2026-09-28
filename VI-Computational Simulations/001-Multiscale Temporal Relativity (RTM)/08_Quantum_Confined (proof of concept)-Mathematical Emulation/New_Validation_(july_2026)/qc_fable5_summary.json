@@ -1,0 +1,94 @@
+{
+  "validation": "RTM Quantum-Confined \u2014 independent re-validation",
+  "model_engine": "Claude Fable 5 (independent implementation, numba)",
+  "reference_engine": "Claude Opus 4.5 (original package, seed 42)",
+  "seed": 2026,
+  "protocol": {
+    "primary_sizes": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18
+    ],
+    "extension_sizes": [
+      20,
+      22,
+      24
+    ],
+    "walks_per_size": 400,
+    "max_steps": 3000000,
+    "beta": 1.5,
+    "gamma": 1.0,
+    "boundary_depth": 1
+  },
+  "primary_fit": {
+    "alpha": 3.5039387294542723,
+    "alpha_se": 0.044302116855093825,
+    "R2": 0.9988822407267309,
+    "C": 4.745080051371792,
+    "bootstrap_ci_95": [
+      3.430661280496206,
+      3.5752427957278536
+    ],
+    "includes_target": true,
+    "theil_sen": 3.5071297867105535,
+    "alpha_excl_max": 3.5183347543575434,
+    "alpha_excl_min": 3.439182142205776
+  },
+  "extended_fit": {
+    "alpha": 3.4328027837589206,
+    "alpha_se": 0.04356253476924328,
+    "R2": 0.9983922083835551,
+    "bootstrap_ci_95": [
+      3.379190512301828,
+      3.484636161041538
+    ],
+    "includes_target": false
+  },
+  "sliding_window_alphas": [
+    {
+      "L_center": 7,
+      "alpha": 3.6761965916985897
+    },
+    {
+      "L_center": 8,
+      "alpha": 3.5460692533487785
+    },
+    {
+      "L_center": 10,
+      "alpha": 3.4484661435180475
+    },
+    {
+      "L_center": 12,
+      "alpha": 3.358088848428822
+    },
+    {
+      "L_center": 14,
+      "alpha": 3.3529762751644983
+    },
+    {
+      "L_center": 16,
+      "alpha": 3.080864865860628
+    },
+    {
+      "L_center": 18,
+      "alpha": 3.255371129177112
+    },
+    {
+      "L_center": 20,
+      "alpha": 3.339277565061705
+    }
+  ],
+  "reference_comparison": {
+    "alpha_ref": 3.4907,
+    "alpha_this_run": 3.5039387294542723,
+    "delta_alpha": 0.013238729454272402,
+    "z_score_vs_ref": 0.16362866335562712
+  },
+  "epistemic_status": "Consistency check of a CALIBRATED proof-of-concept model (beta, gamma selected to hit the target in the reference run). This re-run confirms reproducibility across implementation, RNG seed, and model engine \u2014 it does not constitute independent physical validation of alpha = 3.5."
+}
