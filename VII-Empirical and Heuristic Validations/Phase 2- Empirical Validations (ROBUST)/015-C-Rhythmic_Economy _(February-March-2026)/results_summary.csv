@@ -1,0 +1,9 @@
+test,effect_d,p,n_crisis,n_calm,verdict
+A_dfa_crisis_drawdown,-0.218,0.2231,40.0,192.0,not significant
+A_dfa_crisis_VIX>30,0.03,0.9252,38.0,194.0,not significant
+A_dfa_crisis_nonoverlap,-0.59,,4.0,16.0,small-N robustness check
+B_H2_anticipation,,,2.0,,0/2 onsets show pre-crash alpha drop
+C_multiscale_coherence,-0.371,0.0387,41.0,191.0,"direction replicates, ratio 1.31x (vs 10x on BTC)"
+C_multiscale_nonoverlap,-0.873,,4.0,16.0,small-N robustness check
+D_hill_inverse_cubic,,,,,tail alpha ~ 2.3-3.3 across k; consistent with inverse cubic at far tail
+E_shiller_centennial,,,4.0,136.0,monthly alpha ~ 0.68 persistent; no pre-crash depression
