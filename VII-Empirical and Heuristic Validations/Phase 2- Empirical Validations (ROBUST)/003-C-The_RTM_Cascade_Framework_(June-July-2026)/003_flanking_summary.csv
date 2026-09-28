@@ -1,0 +1,4 @@
+flank,name,result,key_metric,for_rtm
+A,Cross-modal replication,POSITIVE,"fMRI α=0.311, ECoG α=0.341 (agree within SE)",Super-diffusive confirmed in 2 modalities
+B,Hierarchy gradient,SUGGESTIVE,"ρ(level, residual)=+0.458, p=0.0370; lower α=0.249 vs upper α=0.315",Local α may vary by hierarchy position
+C,Cross-species gradient,POSITIVE,Rat(0.57)>Mouse(0.51)>Macaque(0.47)>Human(0.31); ρ=-1.000,More hierarchy → lower α (more efficient)

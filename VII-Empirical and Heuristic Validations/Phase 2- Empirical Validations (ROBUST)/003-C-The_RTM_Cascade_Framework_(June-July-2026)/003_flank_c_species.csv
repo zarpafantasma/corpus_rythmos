@@ -1,0 +1,5 @@
+species,n_areas,hierarchy_levels,alpha,alpha_se,cortical_areas_total,source
+Human,21,9,0.311,0.021,180,This paper
+Macaque,8,6,0.473,0.065,91,Murray+2014
+Mouse,5,4,0.512,0.09,43,"Siegle+2021, Allen Brain"
+Rat,3,3,0.569,0.12,30,Harris+2019
