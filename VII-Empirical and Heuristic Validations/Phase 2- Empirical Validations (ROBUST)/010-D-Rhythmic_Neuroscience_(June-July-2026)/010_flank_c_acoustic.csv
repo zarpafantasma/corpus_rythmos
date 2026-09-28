@@ -1,0 +1,10 @@
+genre,beta,complexity_rank,description
+Electronic/EDM,0.5,2,"Repetitive loops, minimal hierarchy"
+Pop/Rock,0.75,3,Verse-chorus structure
+Speech (conversational),0.8,3,Natural language rhythm
+Jazz (improvised),0.95,4,Harmonic complexity + improvisation
+Speech (oratory),1.0,4,Rhetorical structure
+Classical (Bach fugues),1.05,5,Contrapuntal hierarchy
+Classical (orchestral),1.1,5,Multi-instrument hierarchy
+Gamelan (Javanese),1.15,5,Interlocking cyclic layers
+Indian raga (Hindustani),1.2,6,Deep melodic/rhythmic hierarchy

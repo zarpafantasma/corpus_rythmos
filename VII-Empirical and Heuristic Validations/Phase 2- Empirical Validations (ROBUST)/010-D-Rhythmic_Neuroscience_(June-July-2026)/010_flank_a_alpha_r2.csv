@@ -1,0 +1,4 @@
+comparison,d_alpha,d_R2,d_product,amplification,n1,n2
+Healthy vs Seizure,-1.0611,2.2765,0.0856,0.08,920,920
+Healthy vs Tumor,-0.2772,-0.4603,-0.4593,1.66,920,920
+EO vs EC,-0.1624,-0.4518,-0.376,2.31,920,920

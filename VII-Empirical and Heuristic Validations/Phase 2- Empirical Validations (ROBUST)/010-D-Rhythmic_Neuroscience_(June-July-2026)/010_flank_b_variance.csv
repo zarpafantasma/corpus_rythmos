@@ -1,0 +1,11 @@
+state,alpha_mean,alpha_sd,cv,category
+Eyes Open,1.8,0.72,0.4,Transitional
+Seizure,2.8,1.06,0.3786,Crisis
+LSD,0.51,0.153,0.3,Transitional
+Psilocybin,0.48,0.12,0.25,Transitional
+Ketamine,0.46,0.115,0.25,Transitional
+Eyes Closed,1.9,0.46,0.2421,Stable
+Interictal,2.1,0.46,0.219,Stable
+Tumor,2.0,0.38,0.19,Stable
+Meditation (Novice),1.42,0.213,0.15,Transitional
+Meditation (Practitioner),1.75,0.175,0.1,Stable

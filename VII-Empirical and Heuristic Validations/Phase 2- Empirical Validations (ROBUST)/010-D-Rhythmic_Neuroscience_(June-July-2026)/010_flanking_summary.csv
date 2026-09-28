@@ -1,0 +1,6 @@
+flank,name,result,key_metric,for_rtm
+A,α×R² amplifier,POSITIVE,EO vs EC: 2.3x amplification,Cross-doc 011 confirmed
+B,Variance ordering,POSITIVE,"Crisis CV=0.288 vs Stable CV=0.188, d=+1.415",Crisis = max variance
+C,Acoustic β gradient,POSITIVE,"ρ = +0.975, p = 0.000008",RTM mechanism for Voss & Clarke
+D,REM paradox,TESTABLE,Requires NSRR R²,Pre-registered prediction
+E,Meditation dose-response,POSITIVE,Practitioner 6.7x novice,Training amplifies Δβ
