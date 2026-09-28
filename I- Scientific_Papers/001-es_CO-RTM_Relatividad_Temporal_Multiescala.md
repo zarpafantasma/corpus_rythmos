@@ -144,9 +144,9 @@ Para evitar ambigüedad entre **tiempo** y **temperatura** y para asegurar homog
 
 Usamos la relación maestra no dimensional  
   
-$$
+```math
 \frac{T}{T_0} = \left( \frac{L}{L_0} \right)^\alpha \frac{\Theta(\mathcal{T})}{\sqrt{\rho / \rho_0}}, \quad \Theta(\mathcal{T}) \in \left\{ \frac{\mathcal{T}}{\mathcal{T}_0}, \sqrt{\frac{\mathcal{T}_s}{\mathcal{T}_l}} \right\}
-$$
+```
   
 donde $T_0, L_0, \rho_0, \mathcal{T}_0$ son escalas de referencia arbitrarias que se cancelan en comparaciones entre sistemas. Con esta convención, todos los factores que multiplican $(L/L_0)^\alpha$ son adimensionales, y la proporcionalidad se convierte en una igualdad una vez que $T_0$ se fija por el observable elegido.
 
