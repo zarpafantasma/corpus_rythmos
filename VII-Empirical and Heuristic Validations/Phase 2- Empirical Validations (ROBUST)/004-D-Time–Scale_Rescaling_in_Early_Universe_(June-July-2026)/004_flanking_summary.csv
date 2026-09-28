@@ -1,0 +1,4 @@
+flank,name,result,key_metric,for_rtm
+A,Subsample by survey,POSITIVE,3/4 surveys significant,Not a cross-survey artifact
+B,Excess grows with z,POSITIVE,"ρ(z,excess|mass)=+0.761, p=0.0000",RTM prediction confirmed
+C,Acceleration sufficient,POSITIVE,A(α=1) sufficient 55/55,α=1 resolves all tension

@@ -1,0 +1,5 @@
+survey,n,n_excess,rho,p,significant
+CEERS,15,6,0.654,0.0082,True
+JADES,8,0,0.762,0.028,True
+Other,25,13,0.441,0.0272,True
+UNCOVER,5,2,0.6,0.2848,False

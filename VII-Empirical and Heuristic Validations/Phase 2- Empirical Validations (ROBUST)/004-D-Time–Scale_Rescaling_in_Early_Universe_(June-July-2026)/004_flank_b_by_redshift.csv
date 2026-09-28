@@ -1,0 +1,4 @@
+bin,n,z_range,mean_excess,rho,p
+Low-z,28,6.0-9.0,0.086,0.533,0.0035
+High-z,27,9.2-16.4,0.541,0.054,0.79
+High vs Low,55,comparison,0.868,0.761,0.0
