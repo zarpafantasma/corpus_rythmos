@@ -1,0 +1,6 @@
+flank,stat,target,data,verdict
+F1_gutenberg_richter,1.004,1.0,23412 USGS quakes,"CONFIRMED: b=1.00 (MLE), scale-free magnitude-frequency, NON-tautological"
+F2_spectral_1overf,0.944,1.0,Melbourne daily + GCAG monthly,"PARTIAL: global beta=0.94~1 CONFIRMED, local beta=0.38 FAILS -> 1/f is scale-dependent"
+F3_omori,0.949,1.0,8 great earthquakes,"CONFIRMED: mean p=0.95, temporal aftershock decay ~ t^-1, NON-tautological"
+F4_bvalue_tectonic,0.99-1.25,varies,3 tectonic regions,"CONFIRMED: ridge b=1.25 > subduction b~1.0, exponent carries tectonic topology"
+F5_fractal_dimension,1.18,<2,1500 epicenters,"CONFIRMED: D2=1.18<2, epicenters are spatially scale-free (fractal)"
