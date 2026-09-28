@@ -1,0 +1,8 @@
+test,stat,p,n,verdict
+R0_kleiber_reproduction,-0.184,5.53e-04,350,EXACT reproduction of corpus flank -> data provenance real
+F1_alpha_all_classes,0.05-0.21,-,3188,alpha ranks Aves>Mammalia>Chondrichthyes>Reptilia>Teleostei>Amphibia
+F2_endo_vs_ecto,0.144 vs 0.103,-,4513,"endotherms scale steeper than ectotherms (directional, modest)"
+F3_flight_bonus,0.846,4.3e-82,2398,"STRONG: flight=1.52x, bats d=1.39, ratite control confirms"
+F4_maturity_longevity,0.67-1.22,-,2022,characteristic times co-scale; L/M ratio ~constant within class (CV~0.7)
+F5_order_alpha,0.09-0.20,-,907,Chiroptera LOWEST alpha (0.09) -- flight decouples mass from lifespan
+F6_lq_champions,-,-,1023,"champions = bats, human, naked mole-rat (textbook -> validates residual)"
