@@ -1,0 +1,47 @@
+RTM Simulation: Hierarchical Small-World Network (Baseline Neural-Like)
+======================================================================
+
+Date: 2026-02-07 02:18:36
+
+PARAMETERS
+----------
+Module size: 8 (complete graph K8)
+Branching factor: 3
+Hierarchy depths: [2, 3, 4, 5, 6]
+Realizations per depth: 8
+Random walks per network: 30
+Random seed: 42
+
+NETWORK STRUCTURE
+-----------------
+- Each module is a complete graph (all nodes connected within module)
+- Modules are arranged in a tree hierarchy
+- Hub nodes connect parent and child modules
+- Creates "bottlenecks" that slow information flow
+
+RESULTS
+-------
+Fitted exponent: α = 2.6684 ± 0.0806
+95% CI: [2.4845, 2.9035]
+R² = 0.997273
+
+COMPARISON
+----------
+RTM prediction: α ≈ 2.5 – 2.6
+Paper reported: α = 2.56
+This simulation: α = 2.67
+
+INTERPRETATION
+--------------
+The hierarchical modular structure creates bottlenecks between modules
+that slow down transport compared to flat small-world networks (α ≈ 2.1).
+
+This network mimics cortical organization where:
+- Local modules represent cortical columns or areas
+- Sparse inter-module connections create hierarchical pathways
+- Information must traverse multiple bottlenecks
+
+The higher α reflects the temporal cost of navigating through the
+hierarchy, consistent with RTM predictions for cortical-type networks.
+
+STATUS: CONFIRMED
