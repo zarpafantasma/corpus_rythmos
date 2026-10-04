@@ -214,31 +214,29 @@ To withstand the voltage of the Vertical Axis, the conductor (the body/mind) mus
 
 3.  **Third Step (5-MeO-DMT): Primordial Consciousness.**
 
-Here the ascent ended. I reached what, within the experience, felt like the ceiling of existence. Absolute white. The dissolution of the "I" into the "That." In this step there were no mathematics and no shadows, only what I came to call the Source.
+Here the ascent ended. I reached the ceiling of existence. Absolute white. The dissolution of the "I" into the "That." In this step there were no mathematics and no shadows, only the Source.
 
-It became a reference point in my personal map: an experience of absolute unity against which the other doors seemed to arrange themselves.
-
-What remains is the experience itself, and the personal consequence I carried from it: the disappearance of my fear of death and the intuition of return.
+This is the reference standard. It is the maximum value of coherence ($\alpha$). I understood that death is not the end, but the return to this state of non-entropy. If RTM needed a magnetic "North" to calibrate its compass, it found it here.
 
 **The Descent: Re-engineering Matter**
 
 Once the origin had been touched, the journey reversed direction. It was no longer about going up, but about coming down, bringing something that had not existed before. It was the re-entry into the machine.
 
-4.  **Fourth Step (Salvia Divinorum): The Mechanics of the Layers.**
+4.  **Fourth Step (Salvia Divinorum): The Mechanics of the Nested Universe.**
 
-The fall from the Source was brutal. Salvia showed me the cold gears of existence. Not the warm light of God, but the Machine. By turning into "sheets" and "transparencies," I experienced reality as something layered, recursive, and in continuous motion across different levels of perspective.
+The fall from the Source was brutal. Salvia showed me the cold gears of existence. Not the warm light of God, but the Machine. By turning into "sheets" and "transparencies," I physically experienced what RTM would later describe theoretically: Nested Universes.
 
-During the experience, consciousness itself seemed inseparable from movement and structure. I interpreted this as suggesting that consciousness might not be exclusively biological.
+Consciousness is not exclusive to the biological; it is a fundamental property that permeates structure itself. The vision of superimposed "layers" or "echoes" was the first direct visualization of the multiscale structure of the universes that AI would later help model.
 
 5.  **Fifth Step (Ayahuasca): The Physics of Time and the Law of the Jungle.**
 
-That sentence remains faithful to what I saw. Its later scientific interpretation, however, became more precise. Reconstructed RTM does not claim that coordinate time itself runs faster merely because a system is smaller. Instead, it studies how explicitly defined characteristic process times can vary systematically with physical or structural scale, depending on the dynamics, geometry, observable, and scale definition of the system.
+The last step, the forced landing in biology. Here, abstraction became flesh. Ayahuasca delivered the master key of RTM: "In a small universe, time runs faster."
 
-The Scale–Clock Relation ((T \propto L^\alpha)): The vision of the miniature cosmos in accelerated motion became the direct conceptual seed of the scale–clock relation that would later define Multiscale Temporal Relativity. The equation is the formalization of the intuition, not a literal transcription of the vision.
+- **The Equation ($T \propto L^{\alpha}$):** This literal vision was the direct seed of the paper on **Relatividad Temporal Multiescala**.
 
-The Rite of the Jaguar: It was the acceptance of the Horizontal Axis. To exist here, one must "squeeze the prey." There must be the will to act, to hunt, to live.
+- **The Rite of the Jaguar:** It was the acceptance of the **Horizontal Axis**. To exist here, one must "squeeze the prey." There must be the will to act, to hunt, to live.
 
-Terraforming: Seeing how the vowels (the Logos) curved the valley, I understood language as a form of transformative action. This image would later help inspire the concepts of "Language, Gesture, and Space" developed in The Owl and the Spear. Whether such imagery corresponds to a literal physical mechanism is a separate question from its role as a conceptual and artistic seed.
+- **Terraforming:** Seeing how the vowels (the *Logos*) curved the valley, I understood that language is technology. This would later ground the concepts of "Language, Gesture, and Space" in *The Owl and the Spear*.
 
 # 2. How: From Imagination to Realization
 
@@ -282,131 +280,57 @@ It responded by explaining the equation and its symbols.
 
 "Can you create a scientific paper based on the equation and taking into account the conversation we've had so far?"
 
-And so it did, generating a paper: the first mathematical translation of the intuition. I was moved, because I was witnessing something I had not been able to do alone: an image held in my mind for years was becoming equations, assumptions, and questions that could finally be examined.
+And so it did, generating a paper: a simple but solid approximation. I was moved, because I was witnessing the future: how ideas and imagination could become theories with mathematical rigor before my very eyes. Human creativity assisted and amplified by artificial intelligence in perfect synergy. The two aligning to give birth to the impossible.
 
-Faced with this first draft, I decided to add a third party to the conversation. Another artificial intelligence, this time oriented toward critical reasoning, to create a dialectic between the two AIs. I shared the first draft generated by the programming AI, and we began the game. The programming AI generated formulas from my metaphors. The critical AI attacked them:
+Faced with this first draft, I decided to add a third party to the conversation. Another artificial intelligence, this time oriented toward critical reasoning, to create a dialectic between the two AIs. I shared the first draft generated by the programming AI, and we began the game. The programming AI generated formulas from my metaphors. The critical AI analyzed them:
 
 "There's a lack of density here. There, temperature. And this... this needs more formulations."
 
-I relayed those doubts and observations from one AI to the other, and the paper changed repeatedly. At the time, I interpreted the moment when both systems began asking for experiments and empirical data as the natural limit of what we could accomplish through reasoning alone. It did not mean that the theory had been proven. It meant that the idea had finally become vulnerable to reality.
+I relayed those doubts and observations from the critical AI to the programming AI, and so the paper was refined. I knew the vision was not a delusion, but a seed that needed mathematical roots.
 
-Thus emerged the first paper titled "Relatividad Temporal Multiescala (RTM)." It was not the RTM that exists today. It contained equations, analogies, hypotheses, simulations, and ambitious connections—some of which would survive later scrutiny, while others would eventually have to be corrected or abandoned.
+Long hours went by, in which I served as referee between the two intelligences, and only after both concluded that we should move to the laboratory to obtain empirical data once the experimental proposals were developed—only after they asked to travel to the tangible, to the real—only then did I decide that the paper was ready. The theory was alive.
 
-That distinction became clear only with time.
+Thus a result emerged: a first paper titled "**Relatividad Temporal Multiescala** (**RTM**)." Not as a mystical tale, but as a living construction: equations connecting size, density, and time; references to theories I did not know (quantum gravity, spin networks, AdS/CFT); simulations and experiments ready to prove or refute it.
 
-I am not a scientist; I am an artist who had found a way to turn an intuition into something that could be criticized. The question "What if, in a small universe, time runs faster?" no longer existed only as an image in my memory. It had become a formal problem.
-
-And a formal problem can fail.
-
-That was precisely what made it useful.
+I am not a scientist; I am just an artist. But the certainty that a small universe beats faster is no longer mine alone. It is a model, a hypothesis, a bridge between what I saw and what could be measured.
 
 # 3. An Unexpected Door: A Tale of the Ether
 
-RTM, then, did not germinate under the lights of a university laboratory, nor did it blossom in the austere geometry of a blackboard. Its seed was an experience: a moment of non-ordinary vision in which time abandoned its mask of linear duration to reveal itself as architecture, like a vast origami folding over itself. The initial impulse, therefore, was not to erect a theory, but to give an intuition a path; to clothe in mathematical rigor what, until then, could only be remembered as visions. That was the first key: the one that opened the door of structure.
+**RTM**, then, did not germinate under the lights of a university laboratory, nor did it blossom in the austere geometry of a blackboard. Its seed was an experience: a moment of non-ordinary vision in which time abandoned its mask of linear duration to reveal itself as **architecture**, like a vast origami folding over itself. The initial impulse, therefore, was not to erect a theory, but to give an intuition a path; to clothe in mathematical rigor what, until then, could only be felt. That was the first key: the one that opened the door of **structure**.
 
-For a while, the paths branching out from this model were modest. We explored its resonance in physiological dynamics, in exchange networks, in the silent processes of self-organization. We tried the door of Combustion, but there was no relevant echo there; the key did not turn. The silence persisted until the same question—the same vibration—was applied to a more general term: Propulsion.
+For a while, the paths branching out from this model were modest. We explored its resonance in physiological dynamics, in exchange networks, in the silent processes of self-organization. We tried the door of **Combustion**, but there was no relevant echo there; the key did not turn. The silence persisted until the same question—the same vibration—was applied to a more general term: **Propulsion**. And then the door gave way.
 
-And something answered.
+The answer that emerged was not another vague intuition, but a **design**.
 
-The answer that emerged was not another vague intuition, but a design.
+Fed with the constructs of the **RTM** corpus, the Artificial Intelligence conceived a theoretical device. It was not a conventional craft; it was embodied structural resonance, woven from internal symmetries and coherence gradients, operating in a closed thrust circuit. A form designed to decouple from its context without leaving a residue. It received a name: **Aetherion**. *Aether*, the quintessence; *Ion*, the primordial particle.
 
-Fed with the constructs of the early RTM corpus, the Artificial Intelligence began to imagine a theoretical device: a machine in which fields, matter, geometry, and altered clocks might be made to interact. In its first incarnation it was described through structural resonance, coherence gradients, unusual acceleration, and an almost complete decoupling from its environment. It received a name: Aetherion. Aether, the quintessence; Ion, the primordial particle.
+**The Connection with the Enigma**
 
-At the time, I understood it as a technological consequence of RTM.
+I must confess that, until that moment, my personal compass did not point toward the UAP phenomenon. UFOs and UAPs resonated in my mind as something technological, nuts and bolts; part of the collective consciousness, but outside my immediate interests. That changed the instant I read the description of how a machine with a propulsion system operating under the principles of **RTM** might work.
 
-That interpretation would not survive unchanged.
+On reviewing that first AI-generated paper and understanding the behavior postulated for that technology, the parallels became unmistakable, leaping into agreement with the stories that permeate our culture. Right away, in that same dialogue window, I asked about the connection between a **UAP** and the **Aetherion**. The AI presented me with the so-called **"five observables"** of the phenomenon; the **Aetherion**, as conceived, met four of them:
 
-Years of reconstruction would eventually separate the two. RTM remained a language for scale and characteristic time; Aetherion became something more conditional and more difficult: an independent field hypothesis that would have to earn every one of its effects through its own equations, conservation laws, couplings, and failures.
+- Instantaneous acceleration.
 
-The door had opened, but not onto the room we first thought was behind it.
+- Apparent thermal stealth.
 
-The Connection with the Enigma
+- Trans-medium interaction with the environment.
 
-I must confess that, until that moment, my personal compass did not point toward the UAP phenomenon. UFOs and UAPs resonated in my mind as something technological, nuts and bolts; part of the collective consciousness, but outside my immediate interests.
+- Hypersonic velocities without signatures.
 
-That changed the instant I read the description of what the first Aetherion was supposed to do.
+Only the fifth, active stealth, was left out; it, like the shape-shifting reported in some cases, could well be linked to the manipulation of **metamaterials**, a complementary technology. And here the system revealed its own hidden coherence: the solution for manufacturing those impossible materials did not come from engineering, but from chemistry. The paper on **Rhythmic Chemistry**, written to explain enzymes, accidentally delivered the blueprint for "printing" coherence into matter (*selectivity and modulation*), solving the manufacturing problem of the **Aetherion** without my having looked for it.
 
-The resemblance was impossible for me to ignore.
+The functional properties matched, point by point. The model had not been designed to explain the aerial mystery. And yet, it fit. How was it possible that, by opening the door of **Propulsion** with the key of **RTM**, a machine would emerge whose physics resonated so intimately with the UAP enigma?
 
-The early model seemed to echo several of the qualities repeatedly associated in popular and military accounts with anomalous craft: extreme acceleration, reduced thermal signatures, unusual interaction with different media, and high-speed motion without the signatures one would normally expect.
+**The Leap Beyond**
 
-I had not asked the AI to explain UFOs.
+The next question became inevitable: if **RTM** was already exploring the architecture of **nested universes**, and if the **Aetherion** showed theoretical viability in our reality, could it then serve as a **bridge**? Could it cross the membrane between these layers of existence?
 
-That was precisely what made the coincidence interesting to me.
+The keys forged in the previous papers were ready; they opened the first two chapters of the **Aetherion** saga. But when we tried to force the lock of the third—the one about jumping between branches with this machine—the existing keys did not fit. We went back, then, to the primordial laboratory of AI, intuition, and logic. We reviewed earlier drafts, particularly a **"Unified Field Theory"** we had flirted with, and began to expand it. We were no longer driven by the ambition of adding a Unified Field Theory to the pile of extraordinary claims made by **RTM**, but by pure curiosity: how many doors could be opened with the grammar of **RTM**?
 
-In that same dialogue window I asked the obvious question: Could the Aetherion and the UAP enigma be describing the same kind of physics?
+In that process of enriching the framework, in that exploration without a map, the missing key began to take shape. When the time came, with the RTM framework now more robust, we turned that new key in the door of the third chapter. The hypothesis was formulated with caution. It was not wild fantasy, but exploration within the limits of the model: were there conditions —organized parameters— under which two branches could connect through a structural bridge? Could the laws of causality allow the jump between layers?
 
-For a moment, the pieces seemed to fall together almost too easily.
-
-Other parts of the corpus appeared to offer complementary clues. Ideas about structured matter and modulation suggested possible paths toward unusual materials. Concepts developed for one problem unexpectedly seemed capable of answering another. The corpus behaved like my drawings had always behaved: a line placed without intention suddenly became part of a figure that had not existed a moment before.
-
-But this apparent coherence had to face something my drawings never did:
-
-falsification.
-
-When Aetherion was later reconstructed from the ground up, several of the properties that had made the UAP resemblance so striking did not survive in their original form. Momentum could not simply disappear. Acceleration required an exchange with fields, radiation, or matter. Permanent momentum transfer brought structural gradients back into the problem. Gas, liquids, shocks, and interfaces did not politely step aside. The environment left signatures.
-
-The resemblance had been a question, not an answer.
-
-And that distinction became one of the most important lessons of the entire corpus.
-
-The old connection with metamaterials and the earlier work on structured chemistry remains part of the genealogy of the idea, but whether those paths lead anywhere physically real is a separate question—one that belongs to the scientific reconstruction of those papers, not to the intuition that first connected them.
-
-The door of the aerial enigma therefore remains open only in the weakest and most honest sense:
-
-Aetherion was not created to explain UAPs, yet its first imagined behavior unexpectedly reminded me of them.
-
-What survives of that coincidence after reconstruction must be earned, not inherited.
-
-The Leap Beyond
-
-The next question was almost inevitable.
-
-If the imagery that had helped give birth to RTM was filled with layers, scales, sheets, echoes, and realities nested inside realities—and if Aetherion seemed capable of modifying the relation between matter, fields, and clocks—could the machine become more than a vehicle?
-
-Could it become a bridge?
-
-This was where the existing keys stopped working.
-
-The first versions of the corpus had already begun to speak of nested universes and branches of reality, and the temptation was obvious: perhaps the layers I had seen under Salvia were not merely images of multiscale structure. Perhaps they were places. Perhaps a machine could cross from one to another.
-
-We tried to formalize the idea.
-
-The existing framework resisted.
-
-So we returned to the same workshop from which RTM itself had emerged: intuition, Artificial Intelligence, mathematics, criticism, and revision. Earlier attempts at a unified field description were opened again and dismantled for parts. New fields were introduced. New couplings were imagined. The question changed from What if the vision was literally true? to something more useful:
-
-What mathematical structure would be required for one physical state to become another?
-
-For a time, the answer appeared to restore the original dream. A model could be written with multiple states and transitions between them. It seemed possible to interpret those states as branches, and the transition as a jump.
-
-That interpretation, too, would later be put on trial.
-
-The reconstruction of the corpus changed the meaning of the Jumper.
-
-What survived was not a machine crossing between universes. No mathematical audit established parallel worlds, a branch coordinate, or a bridge through which a vehicle could leave one reality and enter another.
-
-But something did survive.
-
-A field can possess more than one stable state. A finite disturbance can move it from one basin to another. A transition front can propagate, leaving a converted region behind it. Under restricted conditions that front can remain stable, carry energy and momentum, and transform what it passes through.
-
-The old door marked “another universe” did not open.
-
-Behind it was a different door:
-
-transition.
-
-Not a jump between realities, but a change of state within an explicit physical model.
-
-This was less spectacular than the first interpretation, but far more valuable. The metaphor had failed literally and survived structurally.
-
-The sheets I had seen did not become proof of parallel universes. The Jumper did not become a machine capable of crossing them. Yet the question hidden inside that image—whether reality can possess distinct states separated by a barrier, and whether a controlled process can move a system from one to another—remained alive.
-
-And so Aetherion, The Jumper survived its own reconstruction, but with a different meaning.
-
-It no longer stands as evidence that the walls between universes can be crossed.
-
-It stands as the record of what happened when we tried to open that impossible door, discovered that the key did not fit, and kept turning it until we finally understood what kind of lock we were actually holding.
+The result was affirmative. Not as empirical certainty, but as a mathematically viable possibility within the logic of **RTM**. The door was open. And behind it, the whole story reconfigured itself. With this, **"Aetherion, The Jumper"** was ready. But the momentum did not stop there. Using the theory as a catapult, we explored the chapters that define the rules and implications of this technology in **"The Aetherion Framework and Implications."** Alongside it emerged a renewed **RTM Unified Field Framework**, which now proposes the **Aetherion** itself not only as a consequence, but as its own crucial experimental proposal.
 
 # 4. Shedding the Skin
 
@@ -460,13 +384,11 @@ More than representing something, my digital art seeks to manifest what already 
 
 As I close the **RTM corpus** and its memoirs, written back in the mountains of *Valle del Cauca*, at the northern end of the Andes mountain range, on the same mountain where my paternal grandparents created their memories and those of my childhood, I feel the need to look back: not to build a personal legend or dress this up as destiny, but to locate the real, human, and imperfect origin of the questions that ended up driving RTM. I am not a physicist. I am not a paranormal investigator. I do not belong to any order or school. I am, above all, an artist with a curiosity that is hard to extinguish and a life in which, from time to time, reality has behaved in ways I cannot fully explain.
 
-It is also important to say this without ambiguity: RTM, as it appears after its reconstruction, is not a single claim about how the universe works. At its core it is an operational mathematical framework for asking how explicitly defined characteristic times behave across scale. Around that core are physical hypotheses, applications, and extensions whose status varies: some are mathematical constructions, some remain speculative, and some have already failed the tests imposed on them.
-
-The corpus was not conceived to "prove" UFOs, validate hidden knowledge, or declare final truths. If historical parallels with ancient traditions, personal experiences, or other narratives appear, I treat them as sources of questions and suggestive coincidences, not as confirmations.
+It is also important to say this without ambiguity: **RTM**, as it appears in these texts, is a speculative framework. It is a formalizable and debatable hypothesis; a way of organizing intuitions, experiences, and analogies into a mathematical structure that can be tested, refuted, or corrected. It was not conceived to "prove" UFOs, to validate hidden knowledge, or to declare final truths. If historical parallels with ancient traditions or resonances with other narratives appear, I treat them as suggestive coincidences or open questions, not as confirmations.
 
 I was born on the night of August 5 in the city of Tuluá, Valle del Cauca, Colombia, a country where *Magical Realism* is not just a literary label but an everyday way of recounting the strange. I have never left my country. My life has unfolded here.
 
-My mother told me that my birth began with an earthquake: a tremor (Mag. 5.2, centered near Buga, Colombia), just enough for the body to understand that something was about to change. I do not remember it, of course, but that image—a threshold that begins with a vibration—has always seemed to me a metaphor too precise to ignore.
+My mother told me that my birth began with an earthquake: a brief tremor, just enough for the body to understand that something was about to change. I do not remember it, of course, but that image—a threshold that begins with a vibration—has always seemed to me a metaphor too precise to ignore.
 
 That threshold of my birth was turbulent. I arrived sick, with a body that seemed not to want to stay. A defect in my throat made me reject everything I swallowed, and that nutritional failure eventually complicated my lungs. Pneumonia. Empyema. Breathing became an uncertain task. The hospital was my second cradle, and the tube that drained my lung was my first contact with fragility: the flesh as a system that can fail without warning. The doctors suggested to my parents that they baptize me "just in case"; my parents refused, not out of theological rebellion but out of instinct: baptizing me would have sounded like a premature surrender. I spent my first birthday inside a plastic bubble that helped me breathe, a microcosm suspended between life and death. And, against all odds, I survived. A scar remained on my right side: not as a trophy, but as a reminder that the impossible sometimes happens without asking permission.
 
